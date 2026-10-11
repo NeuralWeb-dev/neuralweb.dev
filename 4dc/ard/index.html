@@ -24,6 +24,10 @@
     .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin-bottom: 12px; }
     .card h2 { margin: 0 0 4px; font-size: 1.05rem; } .card p { margin: 4px 0; }
     .samples { margin: 6px 0 18px; }
+    .samples[hidden], #picked[hidden] { display: none; }
+    #picked { display: flex; gap: 10px; align-items: center; min-width: 0; margin: 6px 0 18px; }
+    #picked .ptxt { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--accent); background: var(--chip, var(--line)); border-radius: 16px; padding: 4px 12px; font-size: .85rem; }
+    #picked button { all: unset; cursor: pointer; flex: none; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 4px 10px; font-size: .85rem; }
     .samples h2 { font-size: 1.02rem; margin: 0 0 2px; }
     .samples .meta { margin: 0 0 8px; }
     .samples ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
@@ -50,6 +54,7 @@
       <li><button type="button">Which nations currently hold the highest ranking for gross domestic product?</button> <span class="cat">Explore page</span></li>
       </ul>
     </section>
+    <div id="picked" hidden><span class="ptxt"></span><button type="button">Show examples</button></div>
     <div id="out" aria-live="polite"></div>
     <script>
     const API = 'https://ard.neuralweb.dev/search', REPO = 'https://github.com/rvguha/ard-finder/blob/main/';
@@ -95,7 +100,12 @@
     // A shared link /4dc/ard/?q=... runs that search.
     const sharedQuery = new URLSearchParams(location.search).get('q');
     if (sharedQuery && sharedQuery.trim()) { q.value = sharedQuery.trim().slice(0, 400); search(q.value); }
-    document.querySelectorAll('.examples button, .samples button').forEach(b => b.addEventListener('click', () => { q.value = b.textContent; search(q.value); }));
+    // Choosing a sample folds the samples into one line above the answer; "Show examples" opens them again.
+    const samples = document.querySelector('.samples'), picked = document.getElementById('picked');
+    picked.querySelector('button').addEventListener('click', () => { picked.hidden = true; samples.hidden = false; });
+    function pick(text) { picked.querySelector('.ptxt').textContent = text; picked.querySelector('.ptxt').title = text; samples.hidden = true; picked.hidden = false; }
+    document.querySelectorAll('.examples button, .samples button').forEach(b => b.addEventListener('click', () => { q.value = b.textContent; pick(q.value); search(q.value); }));
+    if (sharedQuery && [...samples.querySelectorAll('button')].some(b => b.textContent === q.value)) pick(q.value);
     </script>
   </main>
 </body>
