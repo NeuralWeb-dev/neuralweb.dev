@@ -2,7 +2,14 @@ const $ = id => document.getElementById(id);
 const examples = {
   climate: ['Which California counties are most vulnerable to climate change?', 'California counties'],
   gasoline: ['Where would a sharp increase in gasoline prices hurt residents most?', 'US counties'],
-  transit: ['Where would expanding public transit make the greatest difference?', 'US counties']
+  transit: ['Where would expanding public transit make the greatest difference?', 'US counties'],
+  heat: ['Which Texas counties are most at risk during extreme heat?', 'Texas counties'],
+  housing: ['Which US states face the biggest housing affordability problem?', 'US states'],
+  health: ['Where are residents least able to get health care when they need it?', 'US states'],
+  rural: ['Which Midwest counties are losing population fastest, and why might that be?', 'Midwest counties'],
+  childcare: ['Which New York counties would benefit most from child-care support?', 'New York counties'],
+  broadband: ['Which US counties have the biggest gap in home internet access?', 'US counties'],
+  retirees: ['Which US states are best for retirees on a modest income?', 'US states']
 };
 let record = null;
 function el(tag, text, cls) { const n = document.createElement(tag); if (text) n.textContent = text; if (cls) n.className = cls; return n; }
