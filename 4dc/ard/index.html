@@ -75,6 +75,7 @@
       return box;
     }
     async function search(text) {
+      pick(text);   // however the question arrived (typed, sample or shared link), the samples fold away while its answer shows
       out.replaceChildren(el('p', 'status', 'Searching…')); go.disabled = true;
       const t0 = performance.now();
       try {
@@ -97,15 +98,14 @@
       go.disabled = false;
     }
     document.getElementById('f').addEventListener('submit', e => { e.preventDefault(); if (q.value.trim()) search(q.value.trim()); });
-    // A shared link /4dc/ard/?q=... runs that search.
-    const sharedQuery = new URLSearchParams(location.search).get('q');
-    if (sharedQuery && sharedQuery.trim()) { q.value = sharedQuery.trim().slice(0, 400); search(q.value); }
     // Choosing a sample folds the samples into one line above the answer; "Show examples" opens them again.
     const samples = document.querySelector('.samples'), picked = document.getElementById('picked');
     picked.querySelector('button').addEventListener('click', () => { picked.hidden = true; samples.hidden = false; });
     function pick(text) { picked.querySelector('.ptxt').textContent = text; picked.querySelector('.ptxt').title = text; samples.hidden = true; picked.hidden = false; }
-    document.querySelectorAll('.examples button, .samples button').forEach(b => b.addEventListener('click', () => { q.value = b.textContent; pick(q.value); search(q.value); }));
-    if (sharedQuery && [...samples.querySelectorAll('button')].some(b => b.textContent === q.value)) pick(q.value);
+    document.querySelectorAll('.examples button, .samples button').forEach(b => b.addEventListener('click', () => { q.value = b.textContent; search(q.value); }));
+    // A shared link /4dc/ard/?q=... runs that search.
+    const sharedQuery = new URLSearchParams(location.search).get('q');
+    if (sharedQuery && sharedQuery.trim()) { q.value = sharedQuery.trim().slice(0, 400); search(q.value); }
     </script>
   </main>
 </body>
