@@ -4,73 +4,210 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NeuralWeb</title>
-<meta name="description" content="Research services for answering questions from public data: Query Defined RSS, ARD + OKF over open data, and Neural DB.">
+<meta name="description" content="NeuralWeb: ideas and open source tools for the Web after AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root { --bg: #fafaf8; --fg: #1c1e21; --muted: #5f6670; --card: #ffffff; --line: #e4e4e0; --accent: #2f5bd3; }
+  :root {
+    --bg: #fbfaf7;
+    --panel: #f3f1ea;
+    --ink: #1c1b18;
+    --muted: #6b675d;
+    --rule: #e2ded3;
+    --accent: #2f5d50;
+    --accent-soft: #e4ece8;
+    --serif: "Newsreader", Georgia, serif;
+    --sans: "Inter", system-ui, -apple-system, sans-serif;
+  }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #14161a; --fg: #e7e9ec; --muted: #9aa1ab; --card: #1c1f24; --line: #2c3037; --accent: #8fb0ff; }
+    :root {
+      --bg: #151614;
+      --panel: #1c1e1b;
+      --ink: #e9e7e1;
+      --muted: #9a978d;
+      --rule: #2e302c;
+      --accent: #8cc4b0;
+      --accent-soft: #233029;
+    }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--fg);
-         font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 760px; margin: 0 auto; padding: 56px 16px 64px; }
-  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.01em; }
-  .lede { color: var(--muted); margin: 0 0 36px; }
-  .card { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-           padding: 18px 20px; margin-bottom: 14px; color: inherit; text-decoration: none; }
-  a.card:hover, a.card:focus-visible, div.card:focus-within, div.card:hover { border-color: var(--accent); }
-  .card h2 a { color: inherit; text-decoration: none; }
-  .card h2 a:hover, .card h2 a:focus-visible { text-decoration: underline; }
-  .card h2 { font-size: 18px; margin: 0 0 4px; color: var(--accent); }
-  .card p { margin: 0; color: var(--muted); }
-  .card p a { color: var(--accent); }
-  .item { margin-bottom: 14px; }
-  .item > .card { margin-bottom: 6px; }
-  a.code { display: inline-block; margin-left: 20px; font-size: 14px; color: var(--muted); }
-  a.code:hover, a.code:focus-visible { color: var(--accent); }
-  footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 var(--sans);
+  }
+  a { color: inherit; }
+  .layout {
+    display: grid;
+    grid-template-columns: 272px minmax(0, 1fr);
+    min-height: 100vh;
+  }
+
+  /* ---- Sidebar: project families ---- */
+  nav.families {
+    position: sticky;
+    top: 0;
+    align-self: start;
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--panel);
+    border-right: 1px solid var(--rule);
+    padding: 32px 24px;
+  }
+  .brand {
+    font: 500 22px/1.2 var(--serif);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 32px;
+  }
+  .nav-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+  .family { margin-bottom: 22px; }
+  .family-name {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .family-name:hover { color: var(--accent); }
+  .family p {
+    margin: 2px 0 6px;
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--muted);
+  }
+  .family .links { font-size: 13px; }
+  .family .links a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  .family .links a:hover { text-decoration: underline; }
+  .nav-foot {
+    border-top: 1px solid var(--rule);
+    margin-top: 28px;
+    padding-top: 18px;
+    font-size: 13px;
+  }
+  .nav-foot a {
+    display: block;
+    color: var(--muted);
+    text-decoration: none;
+    padding: 2px 0;
+  }
+  .nav-foot a:hover { color: var(--ink); }
+
+  /* ---- Main ---- */
+  main {
+    padding: 72px 56px 96px;
+    max-width: 880px;
+  }
+  h1 {
+    font: 400 clamp(34px, 5vw, 50px)/1.1 var(--serif);
+    letter-spacing: -.01em;
+    margin: 0 0 28px;
+  }
+  h1 em { font-style: italic; color: var(--accent); }
+  .prose p {
+    font: 400 19px/1.6 var(--serif);
+    max-width: 620px;
+    margin: 0 0 18px;
+  }
+  .prose { max-width: 640px; }
+  footer {
+    max-width: 620px;
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--muted);
+  }
   footer a { color: var(--muted); }
 
-    .topnav { text-align: right; font-size: .85rem; margin: 0 0 12px; display: flex; gap: 14px; justify-content: flex-end; flex-wrap: wrap; }
-    .topnav a { color: var(--accent, #3b5ccc); }
-  </style>
+  /* ---- Narrow screens: sidebar becomes a top block ---- */
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    nav.families {
+      position: static;
+      height: auto;
+      border-right: 0;
+      border-bottom: 1px solid var(--rule);
+      padding: 24px 16px;
+    }
+    .family-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 4px 20px;
+    }
+    .nav-foot { display: none; }
+    main { padding: 40px 16px 64px; }
+  }
+  @media (max-width: 560px) {
+    .family-list { grid-template-columns: 1fr; }
+  }
+</style>
 </head>
 <body>
-<main>
-    <p class="topnav"><a href="/design/">Design documents</a></p>
+<div class="layout">
 
-  <h1>NeuralWeb</h1>
-  <p class="lede">Research services for answering questions from public data.</p>
+  <nav class="families" aria-label="Project families">
+    <a class="brand" href="/">NeuralWeb</a>
 
-  <div class="item">
-    <a class="card" href="https://rss.neuralweb.dev">
-      <h2>Query Defined RSS</h2>
-      <p>A natural-language query is a feed over a corpus of podcast and news feeds.</p>
-    </a>
-    <a class="code" href="https://github.com/rvguha/rssnlweb">Code: rvguha/rssnlweb</a>
-  </div>
-
-  <div class="item">
-    <div class="card">
-      <h2><a href="https://ard.neuralweb.dev">ARD + OKF over open data</a></h2>
-      <p>Finds which public data tables can answer a question: search about 13,000
-         documents describing public data sources. Built on
-         <a href="https://agenticresourcediscovery.org">ARD</a> (Agentic Resource Discovery) and
-         <a href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing">OKF</a> (Open Knowledge Format).</p>
+    <p class="nav-label">Projects</p>
+    <div class="family-list">
+      <div class="family">
+        <a class="family-name" href="https://rss.neuralweb.dev">Query Defined RSS</a>
+        <p>A natural-language query, served as an RSS feed over podcast episodes.</p>
+        <div class="links">
+          <a href="https://rss.neuralweb.dev">Try</a><a href="/design/qdrss/">Design</a><a href="https://github.com/rvguha/rssnlweb">Code</a>
+        </div>
+      </div>
+      <div class="family">
+        <a class="family-name" href="https://ard.neuralweb.dev">ARD + OKF</a>
+        <p>An ARD endpoint for public data. An agent states what data it needs in natural language and gets back the sources that can supply it, each described in OKF so the agent can use it without prior integration. About 13,000 sources indexed.</p>
+        <div class="links">
+          <a href="https://ard.neuralweb.dev">Try</a><a href="/design/ard/">Design</a><a href="https://github.com/rvguha/ard-finder">Code</a>
+        </div>
+      </div>
+      <div class="family">
+        <a class="family-name" href="https://kg.neuralweb.dev">Neural DB</a>
+        <p>Answers data questions from public sources. Each value is returned with its source.</p>
+        <div class="links">
+          <a href="https://kg.neuralweb.dev">Try</a><a href="/design/neural-db/">Design</a><a href="https://github.com/rvguha/NeuralKG2">Code</a>
+        </div>
+      </div>
     </div>
-    <a class="code" href="https://github.com/rvguha/ard-finder">Code: rvguha/ard-finder</a>
-  </div>
 
-  <div class="item">
-    <a class="card" href="https://kg.neuralweb.dev">
-      <h2>Neural DB</h2>
-      <p>Ask a data question in plain English. Answers come live from public sources (Census, SEC,
-         IRS Form 990, CDC, World Bank, UN SDG and more), each value with its source, entity and period.</p>
-    </a>
-    <a class="code" href="https://github.com/rvguha/NeuralKG2">Code: rvguha/NeuralKG2</a>
-  </div>
+    <div class="nav-foot">
+      <a href="/design/">All design documents</a>
+      <a href="/status/">Status</a>
+      <a href="https://github.com/rvguha">github.com/rvguha</a>
+    </div>
+  </nav>
 
-  <footer>Source: <a href="https://github.com/rvguha">github.com/rvguha</a></footer>
-</main>
+  <main>
+    <h1>NeuralWeb</h1>
+
+    <div class="prose">
+      <p>The graphical interface, the Internet and mobile each changed how people interact with computers, and each was followed by a rewrite of most of the software in use: desktop applications, then websites, then apps. AI appears to be the fourth such change.</p>
+      <p>So far it has mostly produced new applications, chatbots in particular, rather than changes to existing sites, applications and data. We expect the Web to change as well.</p>
+      <p>NeuralWeb is a small group working on ideas and open source tools related to this. Each project on the left has a running instance, a design document and source code.</p>
+    </div>
+
+    <footer>
+      NeuralWeb · <a href="https://github.com/rvguha">github.com/rvguha</a>
+    </footer>
+  </main>
+
+</div>
 </body>
 </html>
