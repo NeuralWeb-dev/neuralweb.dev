@@ -74,6 +74,8 @@ details.ep > summary::-webkit-details-marker { display:none; }
 .qtable td.when { white-space:nowrap; font:12px var(--mono); color:var(--muted); }
 .qtable td.sum { color:var(--muted); font-size:.88rem; overflow-wrap:anywhere; }
 .qtable td.grp { color:var(--muted); font-size:.82rem; }
+.traffic table { font-size:.85rem; } .traffic td.n, .traffic th.n { text-align:right; font-variant-numeric:tabular-nums; }
+.hcard table td { padding:5px 8px; } .hcard table th { padding:6px 8px; } .hcard td.p { font:12px var(--mono); overflow-wrap:anywhere; }
 .health { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:12px; }
 .hcard { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:14px 16px; display:grid; gap:8px; min-width:0; }
 .hcard h3 { margin:0; font:600 1.05rem var(--display); display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }
@@ -104,6 +106,12 @@ details.ep > summary::-webkit-details-marker { display:none; }
   <div style="display:grid;gap:10px">
     <h2>Service health</h2>
     <div class="health" id="health"></div>
+  </div>
+  <div style="display:grid;gap:10px">
+    <h2>Model spend and traffic</h2>
+    <p class="sub" id="usagesub">Loading…</p>
+    <div class="tiles" id="spend"></div>
+    <div class="health" id="traffic"></div>
   </div>
   <div id="groups" style="display:grid;gap:18px"></div>
   <div style="display:grid;gap:10px">
@@ -236,6 +244,36 @@ for (const [name, base, key] of SERVICES) {
     if (!d.started_at) card.append(el('div', 'msg', 'This service has not been updated to report activity yet.'));
   }).catch(() => { pill.textContent = 'unreachable'; pill.className = 'pill bad'; card.append(el('div', 'msg', 'Its /health could not be read from this page.')); });
 }
+
+// ---- OpenRouter budget and spend, and requests per endpoint in the last 24 hours: Neural DB's /usage (the key stays on the server) ----
+fetch('https://kg.neuralweb.dev/usage', { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }).then(d => {
+  const usd = v => v == null ? '—' : '$' + v.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const o = d.openrouter || {};
+  if (o.error) { $('usagesub').textContent = o.error; }
+  else {
+    const tile = (big, label, cls) => { const t = el('div', 'tile' + (cls ? ' ' + cls : '')); t.append(el('b', '', big), el('span', '', label)); $('spend').append(t); };
+    tile(usd(o.credits_left), 'OpenRouter credit left (' + usd(o.credits_bought) + ' bought)');
+    if (o.key_limit != null) tile(usd(o.key_limit_left), 'left under this key\'s ' + usd(o.key_limit) + ' limit');
+    tile(usd(o.spent_today), 'spent today (since midnight UTC)');
+    tile(usd(o.spent_week), 'spent this week'); tile(usd(o.spent_month), 'spent this month');
+    $('usagesub').textContent = 'Read from OpenRouter\'s account endpoints' + (o.errors ? ' (' + o.errors.join('; ') + ')' : '') + '. Requests below are counted from Cloud Run\'s request log over the last 24 hours, every instance and revision, without health checks.';
+  }
+  const rq = d.requests || {};
+  if (rq.error) { $('traffic').append(el('div', 'msg', rq.error)); return; }
+  const names = { neuralkg2: 'Neural DB', ard: 'ARD finder', qdrss: 'Query-defined RSS' };
+  for (const [svc, v] of Object.entries(rq.services || {})) {
+    const card = el('div', 'hcard'); const h = el('h3'); h.append(names[svc] || svc, el('span', 'pill', v.total.toLocaleString() + ' requests'));
+    card.append(h);
+    if (!v.endpoints.length) { card.append(el('div', 'msg', 'No requests in the last 24 hours.')); $('traffic').append(card); continue; }
+    const shown = v.endpoints.slice(0, 12); const rest = v.endpoints.slice(12);
+    const table = el('table'); const head = el('tr'); head.append(el('th', '', 'Endpoint'), el('th', 'n', 'Requests'), el('th', 'n', '5xx')); const thead = el('thead'); thead.append(head); table.append(thead);
+    const body = el('tbody');
+    for (const e of shown) { const tr = el('tr'); tr.append(el('td', 'p', e.method + ' ' + e.path), el('td', 'n', e.requests.toLocaleString()), el('td', 'n', e.server_errors ? String(e.server_errors) : '')); body.append(tr); }
+    if (rest.length) { const tr = el('tr'); tr.append(el('td', 'p', rest.length + ' more endpoints'), el('td', 'n', rest.reduce((a, e) => a + e.requests, 0).toLocaleString()), el('td', 'n', '')); body.append(tr); }
+    table.append(body); const wrap = el('div', 'tablewrap'); wrap.append(table); card.append(wrap); $('traffic').append(card);
+  }
+  if (rq.truncated) $('usagesub').textContent += ' The log was longer than the page limit, so the oldest requests are not counted.';
+}).catch(e => { $('usagesub').textContent = 'Neural DB\'s /usage could not be read from this page (' + e.message + ').'; });
 
 // ---- the test ledger: results.json is written by tools/status_ledger.py ----
 const fmt = iso => new Date(iso).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
