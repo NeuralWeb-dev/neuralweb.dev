@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T18:27:00.762999+00:00",
+  "published_at": "2026-10-16T18:29:03.106393+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:26:51.930871+00:00",
+  "research_updated_at": "2026-10-16T18:28:59.250301+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GLEIF CC0,ONC solely-ownedCC BY4,geoBoundariesgbOpen and NLM RxNorm scoped public-domain APIs reviewed;715gbOpen layers indexed;BIS/iNaturalist restricted;IATI/CapeTown/Brazil access gaps;root/cursor discovery ongoing",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 101,
-    "candidates": 132,
+    "verified": 103,
+    "candidates": 131,
     "excluded": 10,
     "sample_successes": 134
   },
@@ -2144,6 +2144,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "bgs",
+      "provider": "British Geological Survey / UKRI",
+      "service_name": "BGS OpenGeoscience OGC API",
+      "geographic_coverage": "United Kingdom and collection-specific overseas/global coverage;see collection extents",
+      "topical_coverage": "geospatial;climate/weather/environment;oceans;energy;research",
+      "dataset_families": "Geological mapping and scanned maps;borehole indexes;earthquakes;landslides;aeromagnetic/offshore surveys;world mineral statistics.45collection metadata entries indexed;one earthquake point tested.",
+      "documentation_url": "https://www.bgs.ac.uk/technologies/web-services/api/",
+      "api_base_url": "https://ogcapi.bgs.ac.uk/",
+      "format_protocol": "OGC API Features;GeoJSON/JSON;JSON-LD/CSV/HTML options in OpenAPI",
+      "authentication": "none for tested collections/OpenAPI/one-feature read",
+      "free_access_restrictions": "Official API page delivers selected OpenGeoscience data under OGL3.0 with BGS/UKRI/year attribution;other BGS commercial or Data Exploration services not blanket included.",
+      "license": "Open Government Licence3.0 for this OpenGeoscience API data",
+      "license_url": "https://www.bgs.ac.uk/technologies/web-services/api/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T18:28:14.641476+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "bls",
       "provider": "Bureau of Labor Statistics",
       "service_name": "Bureau of Labor Statistics API",
@@ -2645,6 +2663,24 @@
       "license_url": "https://www.govinfo.gov/about/policies",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:37:23.732047+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ices-dome",
+      "provider": "International Council for the Exploration of the Sea (ICES)",
+      "service_name": "DOME marine environmental data API",
+      "geographic_coverage": "ICES marine monitoring areas;North Atlantic/European seas;dataset-specific extent",
+      "topical_coverage": "oceans;biodiversity;climate/weather/environment;research",
+      "dataset_families": "Marine environmental monitoring;contaminants and biological community datasets;documentedCF/CS/CW/PB/PP/ZB/ZP download families and DarwinCore mappings",
+      "documentation_url": "https://dome.ices.dk/api/swagger/index.html",
+      "api_base_url": "https://dome.ices.dk/api/",
+      "format_protocol": "REST/OpenAPI3 JSON specification;download/DarwinCore endpoints",
+      "authentication": "OpenAPI declares globalHTTPBearerJWT;protecteddata calls untested,no token obtained. Public browse page available separately.",
+      "free_access_restrictions": "DOME API specification explicitlyCC BY4.0 data;public browse conditions/citation apply. Credential issuance,cost andoperational quotas unknown;noaccount acquisition.",
+      "license": "Creative Commons Attribution4.0 for publicDOMEdata",
+      "license_url": "https://www.ices.dk/data/guidelines-and-policy/Pages/ICES-data-policy.aspx",
+      "api_verification_state": "documented_bearer_required_untested",
+      "latest_checked_utc": "2026-10-16T18:27:31.782805+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3925,24 +3961,6 @@
       "license_url": "https://data.gov.bd/terms-of-use",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:26:46.857385+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "bgs",
-      "provider": "British Geological Survey OGC API",
-      "service_name": "British Geological Survey OGC API API",
-      "geographic_coverage": "United Kingdom/Global",
-      "topical_coverage": "geospatial; water; environment",
-      "dataset_families": "Geological mapping; boreholes; geoscience collections",
-      "documentation_url": "https://ogcapi.bgs.ac.uk/",
-      "api_base_url": "https://ogcapi.bgs.ac.uk/",
-      "format_protocol": "OGC API Features/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.bgs.ac.uk/legal-and-policy/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:34:20.676619+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5288,11 +5306,11 @@
       "api_base_url": "https://ws.pangaea.de/",
       "format_protocol": "OAI-PMH/XML; DOI data services",
       "authentication": "none for public metadata",
-      "free_access_restrictions": "unknown",
-      "license": "Dataset-specific; data license statement requires follow-up; service terms restrict bulk/commercial automated extraction",
+      "free_access_restrictions": "Terms5.5 fair-useAPI access;excessive/mass metadata+data retrieval andcommercialautomatedwebsiteextraction mayleadtoforceddisconnectunlesspriorauthorization;API-specificlimitationsmayapply. No bulk harvest authorized/performed.",
+      "license": "Dataset-specific;no particular dataset open licence confirmed in this API review",
       "license_url": "https://www.pangaea.de/about/terms.php",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:38:13.790414+00:00",
+      "latest_checked_utc": "2026-10-16T18:27:32.318292+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
