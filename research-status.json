@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T20:15:09.014605+00:00",
+  "published_at": "2026-10-16T20:17:11.545147+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:14:24.632516+00:00",
+  "research_updated_at": "2026-10-16T20:16:09.225683+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "OpenAIRE CC BY aggregate sample verified; ORCID service noncommercial; community and MBIE API rights batches checkpointed: OpenSanctions/ACLED/LBP restricted, ChecklistBank and three MBIE retrieval candidates; PPSR paid production search restricted; Hong Kong metadata ongoing",
   "counts": {
-    "verified": 118,
+    "verified": 119,
     "candidates": 148,
-    "excluded": 18,
-    "sample_successes": 144
+    "excluded": 19,
+    "sample_successes": 145
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -65,6 +65,7 @@
           "bis",
           "fred",
           "imf",
+          "opensanctions",
           "un-comtrade"
         ]
       },
@@ -182,6 +183,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "oecd",
+          "openaire",
           "openalex",
           "ror",
           "unesco",
@@ -192,7 +194,9 @@
         "candidate_provider_ids": [
           "fsd-finland"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "orcid"
+        ]
       },
       "housing": {
         "status": "partial_verified",
@@ -253,7 +257,9 @@
         "candidate_provider_ids": [
           "opencorporates"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "opensanctions"
+        ]
       },
       "law/civic": {
         "status": "partial_verified",
@@ -263,7 +269,10 @@
         "candidate_provider_ids": [
           "unhcr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "acled",
+          "opensanctions"
+        ]
       },
       "biodiversity": {
         "status": "partial_verified",
@@ -273,6 +282,7 @@
           "uniprot"
         ],
         "candidate_provider_ids": [
+          "checklistbank",
           "cifor-icraf",
           "ena",
           "idigbio",
@@ -358,6 +368,7 @@
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
+          "openaire",
           "openalex",
           "opencitations",
           "opencontext",
@@ -371,6 +382,7 @@
         ],
         "candidate_provider_ids": [
           "b2share",
+          "checklistbank",
           "cifor-icraf",
           "ena",
           "europepmc",
@@ -387,9 +399,11 @@
           "smithsonian"
         ],
         "restricted_provider_ids": [
+          "acled",
           "copernicus-marine",
           "deims",
           "ebird",
+          "orcid",
           "un-comtrade"
         ]
       }
@@ -1890,7 +1904,8 @@
         "candidate_provider_ids": [
           "adb",
           "pacific-data",
-          "stats-nz"
+          "stats-nz",
+          "stats-nz-geographic"
         ],
         "restricted_provider_ids": []
       },
@@ -1905,7 +1920,9 @@
           "nzbn",
           "stats-nz"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nz-ppsr"
+        ]
       },
       "labor": {
         "status": "partial_verified",
@@ -1915,7 +1932,9 @@
         "candidate_provider_ids": [
           "stats-nz"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nz-lbp"
+        ]
       },
       "agriculture": {
         "status": "unsearched",
@@ -1930,6 +1949,7 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "mbie-geodata",
           "pacific-data",
           "queensland-data"
         ],
@@ -1946,9 +1966,11 @@
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "mbie-geodata"
+        ],
         "restricted_provider_ids": []
       },
       "health": {
@@ -1973,9 +1995,12 @@
           "abs"
         ],
         "candidate_provider_ids": [
-          "stats-nz"
+          "stats-nz",
+          "stats-nz-geographic"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nz-lbp"
+        ]
       },
       "transportation": {
         "status": "partial_candidates_only",
@@ -1992,7 +2017,10 @@
           "australia",
           "linz"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "mbie-geodata",
+          "stats-nz-geographic"
+        ],
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
@@ -2008,9 +2036,14 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "nz-charities",
+          "nz-company-role-search",
+          "nz-disqualified-directors",
+          "nz-iponz",
           "nzbn"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nz-ppsr"
+        ]
       },
       "law/civic": {
         "status": "partial_verified",
@@ -2019,10 +2052,16 @@
         ],
         "candidate_provider_ids": [
           "nz-charities",
+          "nz-company-role-search",
+          "nz-disqualified-directors",
+          "nz-iponz",
           "nzbn",
           "queensland-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nz-lbp",
+          "nz-ppsr"
+        ]
       },
       "biodiversity": {
         "status": "partial_verified",
@@ -2056,6 +2095,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "nz-iponz",
           "rda-australia"
         ],
         "restricted_provider_ids": []
@@ -3406,6 +3446,24 @@
       "license_url": "https://www.ons.gov.uk/methodology/geography/licences",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:23:57.216921+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "openaire",
+      "provider": "OpenAIRE",
+      "service_name": "OpenAIRE Graph API",
+      "geographic_coverage": "Global/international; scholarly research graph",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research products (publications, datasets, software), projects, organizations, data sources and relationships; metadata, not blanket rights to linked full texts",
+      "documentation_url": "https://graph.openaire.eu/docs/apis/graph-api-v4/quickstart/ | https://graph.openaire.eu/docs/apis/terms/",
+      "api_base_url": "https://api.openaire.eu/graph/v4",
+      "format_protocol": "HTTPS REST JSON; header/results/facets fields observed",
+      "authentication": "Anonymous access available; optional registered OAuth2/OpenID Connect token for higher limits. No key acquired.",
+      "free_access_restrictions": "Current official terms say free for third-party services, anonymous and authenticated requests; linked resources retain their own rights.",
+      "license": "CC BY; version unspecified on reviewed current API/Graph license pages",
+      "license_url": "https://graph.openaire.eu/docs/apis/terms/ | https://graph.openaire.eu/docs/license",
+      "api_verification_state": "sample_success_scoped_open_license",
+      "latest_checked_utc": "2026-10-16T20:14:56.678787+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7244,6 +7302,24 @@
       "license_url": "https://www.opensanctions.org/docs/commercial/exemption/",
       "api_verification_state": "documented_key_required_untested_restricted_noncommercial",
       "latest_checked_utc": "2026-10-16T20:08:57.407763+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "orcid",
+      "provider": "ORCID, Inc.",
+      "service_name": "ORCID Anonymous and Public APIs",
+      "geographic_coverage": "Global/international; researcher identifier registry",
+      "topical_coverage": "research | education",
+      "dataset_families": "Public researcher identifiers, public works/affiliation metadata and authenticated identifier workflows; linked articles/datasets excluded",
+      "documentation_url": "https://info.orcid.org/documentation/api-tutorials/api-tutorial-searching-the-orcid-registry/",
+      "api_base_url": "https://pub.orcid.org/v3.0/",
+      "format_protocol": "Documented public REST API; current tutorial describes search and public record access",
+      "authentication": "Anonymous interface documented; registered Public API client credentials issued to individuals, OAuth for specified workflows. No account/credentials obtained.",
+      "free_access_restrictions": "Public APIs Terms grant noncommercial use only; no revenue-generating product/service or API reuse fees. Extensive use may require membership/fees after notice and consent. No membership/paid acquisition.",
+      "license": "Public API service noncommercial under current Public APIs Terms; public data file is a separate interface/license to review",
+      "license_url": "https://info.orcid.org/public-client-terms-of-service/",
+      "api_verification_state": "documented_public_api_untested_restricted_noncommercial",
+      "latest_checked_utc": "2026-10-16T20:14:37.687836+00:00",
       "classification": "restricted"
     },
     {
