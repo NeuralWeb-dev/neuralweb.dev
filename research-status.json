@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T20:55:58.677309+00:00",
+  "published_at": "2026-10-16T20:58:00.982150+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:55:18.639659+00:00",
+  "research_updated_at": "2026-10-16T20:57:53.585717+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Manual license/access reviews applied",
   "counts": {
-    "verified": 127,
-    "candidates": 154,
+    "verified": 128,
+    "candidates": 155,
     "excluded": 21,
-    "sample_successes": 150
+    "sample_successes": 152
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -2890,13 +2890,13 @@
       "dataset_families": "20 root subject directories including population/elections, labour/wages, prices/income, education/culture/health/social affairs, justice, transport, trade/business/credit/public finance/national accounts, environment/energy, research, census and SDGs",
       "documentation_url": "https://www.hagstova.fo/fo/nytslutreytir | https://statbank.hagstova.fo/",
       "api_base_url": "https://statbank.hagstova.fo/api/v1/en/H2/",
-      "format_protocol": "PxWeb API v1 JSON directory/table metadata; data selection via read-only POST documented by linked framework guidance, untested",
+      "format_protocol": "PxWeb API v1 JSON directory metadata observed; detailed table selection/response formats untested",
       "authentication": "Anonymous directory metadata GET succeeded; no account/key used",
       "free_access_restrictions": "Terms expressly permit reuse/adaptation for all purposes including commercial without special permission or reuse fee; considerate API use required, provider may restrict access if overloaded.",
       "license": "CC BY4.0 default; indicated exceptions",
       "license_url": "https://www.hagstova.fo/fo/nytslutreytir",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T20:50:57.123042+00:00",
+      "latest_checked_utc": "2026-10-16T20:56:36.723493+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3059,6 +3059,24 @@
       "license_url": "https://www.govinfo.gov/about/policies",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:37:23.732047+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "greenland-statistics",
+      "provider": "Statistics Greenland / Gronlands Statistik",
+      "service_name": "Statbank Greenland PxWeb API",
+      "geographic_coverage": "Greenland; North America; Arctic",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; energy; health; education; housing; public spending/contracts; companies/nonprofits; law/civic; transportation; culture",
+      "dataset_families": "21 native subject directories: businesses, crime, education, energy, fisheries/catch, foreign trade, Greenlanders in Denmark, health, housing, income, labour, names, national accounts, population, prices, public finances, short-term trends, social services, yearbook, tobacco/alcohol, tourism",
+      "documentation_url": "https://stat.gl/publ/en/SB/201601/pdf/Statbank%20API%202016.pdf | https://stat.gl/",
+      "api_base_url": "https://bank.stat.gl/api/v1/en/Greenland/",
+      "format_protocol": "PxWeb API v1 JSON directory metadata observed; historical official2016 guide describes API/data reuse integration; detailed formats untested",
+      "authentication": "Anonymous root metadata GET succeeded; no account/key used",
+      "free_access_restrictions": "Statbank content reuse permitted including commercial with credit; no payment for sampled metadata. Tailored/microdata services and third-party content not blanket included.",
+      "license": "Custom open reuse permission: reproduction including commercial, attribution, mark modifications",
+      "license_url": "https://stat.gl/dialog/topmain.asp?lang=da&sc=GS&subject=Om+Gr%C3%B8nlands+Statistik",
+      "api_verification_state": "sample_success_scoped_custom_open_permission_metadata",
+      "latest_checked_utc": "2026-10-16T20:57:51.212749+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4102,7 +4120,7 @@
       "license": "CC0 1.0 Universal for SCB open statistics/geodata; source exceptions",
       "license_url": "https://www.scb.se/om-scb/om-scb.se-och-anvandningsvillkor | https://www.scb.se/en/services/open-data-api/",
       "api_verification_state": "sample_success_scoped_open_license_v2_metadata",
-      "latest_checked_utc": "2026-10-16T20:49:02.074397+00:00",
+      "latest_checked_utc": "2026-10-16T20:51:08.784310+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4609,6 +4627,24 @@
       "license_url": "https://www.afdb.org/en/disclaimer-and-copyright",
       "api_verification_state": "current_documentation_policy_deferred_api_rights_unresolved",
       "latest_checked_utc": "2026-10-16T20:26:00.729570+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "aland-statistics",
+      "provider": "Statistics and Research Aland / Alands statistik- och utredningsbyra (ASUB)",
+      "service_name": "ASUB statistical databases PxWeb API",
+      "geographic_coverage": "Aland Islands; Finland; Europe",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; health; education; housing; transportation; culture; research",
+      "dataset_families": "Published regional statistical database subject directories, including agriculture/fisheries, population, labour, education, housing, transport, economy and social statistics; research database separate and unsearched",
+      "documentation_url": "https://www.asub.ax/ | https://pxweb.asub.ax/PXWeb/pxweb/en/Statistik/",
+      "api_base_url": "https://pxweb.asub.ax/PXWeb/api/v1/en/Statistik/",
+      "format_protocol": "PxWeb API v1 JSON directory metadata observed; table numerical formats/selection untested",
+      "authentication": "Anonymous root metadata GET succeeded; no account/key used",
+      "free_access_restrictions": "Public metadata sampled without payment. Website CC BY4 terms require source credit and indication of changes; exact hosted API dataset grant/source exceptions need linkage review.",
+      "license": "Website material CC BY4.0; exact PxWeb/API dataset scope unconfirmed",
+      "license_url": "https://www.asub.ax/sv/om-asub/om-asubax/anvandarvillkor",
+      "api_verification_state": "sample_success_metadata_api_license_scope_unconfirmed",
+      "latest_checked_utc": "2026-10-16T20:56:55.221142+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
