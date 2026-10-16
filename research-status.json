@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T20:41:41.350359+00:00",
+  "published_at": "2026-10-16T20:43:43.744556+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:41:32.892931+00:00",
+  "research_updated_at": "2026-10-16T20:42:30.901666+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Manual license/access reviews applied",
+  "latest_milestone": "World Bank DDH finite7982summaryrows/81requests,69missingpublicID anomalies preserved; Japan Dashboard53categories/5828indicator definitions/PDL1.0; KOSIS custom restrictions; HK metadata ongoing",
   "counts": {
     "verified": 125,
     "candidates": 153,
@@ -141,7 +141,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
-          "eia"
+          "eia",
+          "worldbank-catalog"
         ],
         "candidate_provider_ids": [
           "nasa-power",
@@ -231,7 +232,8 @@
           "opencontext",
           "osm",
           "usgs-earthquake",
-          "wikidata"
+          "wikidata",
+          "worldbank-catalog"
         ],
         "candidate_provider_ids": [
           "copernicus-stac",
@@ -384,6 +386,7 @@
           "unesco",
           "uniprot",
           "wikidata",
+          "worldbank-catalog",
           "zenodo"
         ],
         "candidate_provider_ids": [
@@ -1584,36 +1587,47 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "japan"
+          "japan",
+          "japan-dashboard"
         ],
         "candidate_provider_ids": [
           "china-nbs"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "korea-kosis"
+        ]
       },
       "economics/finance": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "japan"
+          "japan",
+          "japan-dashboard"
         ],
         "candidate_provider_ids": [
           "china-nbs"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "korea-kosis"
+        ]
       },
       "labor": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "japan"
+          "japan",
+          "japan-dashboard"
         ],
         "candidate_provider_ids": [
           "china-nbs"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "korea-kosis"
+        ]
       },
       "agriculture": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "japan-dashboard"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1626,40 +1640,51 @@
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "japan-dashboard"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "japan-dashboard"
+        ],
         "candidate_provider_ids": [
           "nims-mdr"
         ],
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "japan-dashboard"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "japan-dashboard"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "housing": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "japan-dashboard"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "transportation": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "japan-dashboard",
           "taiwan"
         ],
         "candidate_provider_ids": [],
@@ -1719,8 +1744,10 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "japan-dashboard"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
