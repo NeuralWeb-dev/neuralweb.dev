@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T21:04:08.336436+00:00",
+  "published_at": "2026-10-16T21:06:10.858271+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:03:12.497046+00:00",
+  "research_updated_at": "2026-10-16T21:05:45.123162+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Bundesbank SDMX metadata candidate/94flows; SCB v2 finite3342English tables/current scopedCC0; Iceland CC BY4 sample429, Faroe CC BY4, Greenland custom commercial attribution permission, Aland API scope candidate; metadata workers resumable",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
-    "verified": 128,
+    "verified": 130,
     "candidates": 155,
     "excluded": 21,
-    "sample_successes": 152
+    "sample_successes": 154
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -2618,6 +2618,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "croatia-statistics",
+      "provider": "Croatian Bureau of Statistics (DZS)",
+      "service_name": "PC-Axis / PxWeb statistical database API",
+      "geographic_coverage": "Croatia; national and subnational statistical tables depending on database",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; energy; transportation; law/civic; research",
+      "dataset_families": "20 native databases: prices, energy, construction, industry, national accounts, environment, consumption/poverty, agriculture/forestry/fishery, agricultural censuses2003/2020, justice, foreign trade, population, structural business, subnational statistics, transport/communications, retail, tourism, employment/wages, science/technology/information society",
+      "documentation_url": "https://podaci.dzs.hr/en/ | https://web.dzs.hr/150/ | https://dzs.gov.hr/about-us/right-of-access-to-information/open-data/1823?big=1",
+      "api_base_url": "https://web.dzs.hr/PXWeb/api/v1/en/",
+      "format_protocol": "PxWeb API v1 JSON metadata observed; read-only data selection POST documented by PxWeb guidance; numerical observations untested",
+      "authentication": "Anonymous API rootGET succeeded; no account/key used",
+      "free_access_restrictions": "Current original-provider open-data page explicitly says all datasets published on CBS website available without restrictions/free use under linked Open Licence. Only publicly published aggregate datasets covered; restricted microdata/tailored services not generalized.",
+      "license": "Open Licence - The Republic of Croatia",
+      "license_url": "https://dzs.gov.hr/about-us/right-of-access-to-information/open-data/1823?big=1+%7C+https%3A%2F%2Fdzs.gov.hr%2FUserDocsImages%2Fdokumenti%2FDokumenti%2FOpen+Licence.pdf%3Fvel%3D244016",
+      "api_verification_state": "sample_success_scoped_open_license_metadata",
+      "latest_checked_utc": "2026-10-16T21:04:54.215029+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "crossref",
       "provider": "Crossref",
       "service_name": "Crossref API",
@@ -2920,7 +2938,7 @@
       "license": "CC BY4.0 default; indicated exceptions",
       "license_url": "https://www.hagstova.fo/fo/nytslutreytir",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:00:24.295581+00:00",
+      "latest_checked_utc": "2026-10-16T21:00:38.988407+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3100,7 +3118,7 @@
       "license": "Custom open reuse permission: reproduction including commercial, attribution, mark modifications",
       "license_url": "https://stat.gl/dialog/topmain.asp?lang=da&sc=GS&subject=Om+Gr%C3%B8nlands+Statistik",
       "api_verification_state": "sample_success_scoped_custom_open_permission_metadata",
-      "latest_checked_utc": "2026-10-16T20:58:48.605059+00:00",
+      "latest_checked_utc": "2026-10-16T21:02:44.069790+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4199,6 +4217,24 @@
       "license_url": "https://data.gov.sg/open-data-licence",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.939260+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "slovenia-statistics",
+      "provider": "Statistical Office of the Republic of Slovenia (SURS)",
+      "service_name": "SiStat Database PxWeb API",
+      "geographic_coverage": "Slovenia; national, regional and municipal statistics depending on table",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; energy; education; transportation; culture; research",
+      "dataset_families": "Official SiStat theme menu includes agriculture/forestry/fishery, construction, culture, technology, earnings, education, energy, enterprises, environment, foreign economic relations, national accounts, industry, labour, population, prices, quality of life, regional overview, social protection, tourism, trade, transport",
+      "documentation_url": "https://pxweb.stat.si/sistat/en/Home/Help | https://www.stat.si/StatWeb/File/DocSysFile/10722/px_web_api_helpEN.pdf",
+      "api_base_url": "https://pxweb.stat.si/SiStatData/api/v1/en/Data/",
+      "format_protocol": "PxWeb API v1 JSON metadata observed; read-only data selection POST documented by PxWeb guidance; numerical observations untested",
+      "authentication": "Anonymous table metadata GET succeeded; no account/key used",
+      "free_access_restrictions": "SURS-owned statistical information reusable royalty-free, including commercial; attribution and marked modifications. Other persons/institutions intellectual property and visual elements excluded.",
+      "license": "Custom open reuse permission: free redistribution, adaptation and commercial use with attribution/marked changes",
+      "license_url": "https://www.stat.si/StatWeb/en/StaticPages/Index/Copyright",
+      "api_verification_state": "sample_success_scoped_custom_open_permission_metadata",
+      "latest_checked_utc": "2026-10-16T21:04:55.046819+00:00",
       "classification": "open_license_verified"
     },
     {
