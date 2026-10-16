@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T23:24:54.563233+00:00",
+  "published_at": "2026-10-16T23:26:56.915863+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:23:14.145942+00:00",
+  "research_updated_at": "2026-10-16T23:26:18.546409+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Current USData.gov catalogue and Asia source-discovery gaps",
+  "latest_milestone": "Cyprus scopedCCBY4 employment API5of576observations+7licenseddistributions/DCATJSONXML verified;RosarioAPI+CCvariant unresolved;Data.govv4 key-requiredcandidate/8GETdefinitions;Cyprussearch 88pages/1490nativepaths/in_progress;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 148,
     "candidates": 189,
@@ -522,7 +522,8 @@
           "epa",
           "esa-ecology",
           "knb",
-          "sfwmd-repository"
+          "sfwmd-repository",
+          "us-data-gov-catalog"
         ],
         "restricted_provider_ids": []
       },
@@ -573,7 +574,9 @@
         "verified_provider_ids": [
           "greenland-statistics"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "us-data-gov-catalog"
+        ],
         "restricted_provider_ids": []
       },
       "housing": {
@@ -612,7 +615,8 @@
           "census-geocoder",
           "census-tigerweb",
           "drp",
-          "edac-gstore"
+          "edac-gstore",
+          "us-data-gov-catalog"
         ],
         "restricted_provider_ids": []
       },
@@ -652,7 +656,8 @@
           "congress",
           "courtlistener",
           "nyc",
-          "openstates"
+          "openstates",
+          "us-data-gov-catalog"
         ],
         "restricted_provider_ids": []
       },
@@ -739,7 +744,8 @@
           "knb",
           "loc",
           "sfwmd-repository",
-          "smithsonian"
+          "smithsonian",
+          "us-data-gov-catalog"
         ],
         "restricted_provider_ids": []
       }
@@ -3115,7 +3121,7 @@
       "license": "CC-BY-4.0 for selected employment dataset and all7linked distribution descriptors",
       "license_url": "https://data.gov.cy/en/resource/2305/dataset | https://data.gov.cy/en/dataset/970/dcat-ap-2.0/json | https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "documented_datastore_observation_json_and_DCAT_JSON_XML_metadata_sample_success",
-      "latest_checked_utc": "2026-10-16T23:20:52.806967+00:00",
+      "latest_checked_utc": "2026-10-16T23:25:51.620119+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8642,8 +8648,8 @@
       "free_access_restrictions": "Official free APIkey signup documented;production queries needpersonalkey. Demo credential intendedinitialexploration only;no automated/bulk demo use. Source-data access/rights separate and may be restricted.",
       "license": "Catalog/source metadata reuse rights and individual data licenses unresolved;no uniform government-wide open license inferred",
       "license_url": "https://data.gov/contact/ | https://resources.data.gov/catalog-api/ | https://data.gov/data-policy/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:23:14.068780+00:00",
+      "api_verification_state": "documented_official_v4_key_required_sample_untested",
+      "latest_checked_utc": "2026-10-16T23:22:18.030321+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
