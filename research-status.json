@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T18:22:56.118392+00:00",
+  "published_at": "2026-10-16T18:24:58.450652+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:22:20.243767+00:00",
+  "research_updated_at": "2026-10-16T18:24:54.722894+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GLEIF CC0 anonymous API verified;ONC solely-ownedCC BY4 scope verified;BIS and iNaturalist restricted terms recorded;IATI/CapeTown unresolved;Brazil catalog requests policy-deferred;root/cursor discovery ongoing",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 99,
+    "verified": 101,
     "candidates": 132,
     "excluded": 10,
-    "sample_successes": 132
+    "sample_successes": 134
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -204,6 +204,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "geoboundaries",
           "geonames",
           "opencontext",
           "osm",
@@ -242,8 +243,10 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "geoboundaries"
+        ],
         "candidate_provider_ids": [
           "unhcr"
         ],
@@ -329,6 +332,7 @@
           "datacite",
           "dryad",
           "gavo",
+          "geoboundaries",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
           "neuromorpho",
@@ -2569,6 +2573,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "geoboundaries",
+      "provider": "William & Mary geoLab / geoBoundaries community",
+      "service_name": "geoBoundaries gbOpen boundary metadata API",
+      "geographic_coverage": "Global;country/territory administrative levels vary;metadata catalog snapshot indexed separately",
+      "topical_coverage": "geospatial;law/civic;research",
+      "dataset_families": "National/subnational administrative boundaries ADM0-ADM5;source/licence/vintage metadata and links to full/simplified geometries",
+      "documentation_url": "https://www.geoboundaries.org/api.html",
+      "api_base_url": "https://www.geoboundaries.org/api/current/gbOpen/",
+      "format_protocol": "HTTP GET/JSON metadata;links to GeoJSON,TopoJSON,shapefile ZIP downloads",
+      "authentication": "none for tested public metadata requests",
+      "free_access_restrictions": "Official docs encourage automated access;gbOpen CC BY4.0 acknowledgement. gbHumanitarian and gbAuthoritative separate,not blanket open.",
+      "license": "CC BY4.0 for geoBoundaries gbOpen;original-source licence fields retained",
+      "license_url": "https://www.geoboundaries.org/",
+      "api_verification_state": "documented_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T18:23:19.393044+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "geonames",
       "provider": "GeoNames / unxos gmbh",
       "service_name": "GeoNames free geographical web services",
@@ -2890,6 +2912,24 @@
       "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:07:43.699580+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nih-rxnav",
+      "provider": "US National Library of Medicine / NIH",
+      "service_name": "RxNav RxNorm non-proprietary terminology API",
+      "geographic_coverage": "United States-centric drug terminology;publicly accessible internationally",
+      "topical_coverage": "health;research",
+      "dataset_families": "NLM-created normalized drug names and RXCUI identifiers;concept properties/status and terminology/version metadata. Proprietary vocabulary and RxClass/SNOMED content excluded.",
+      "documentation_url": "https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html",
+      "api_base_url": "https://rxnav.nlm.nih.gov/REST/",
+      "format_protocol": "REST;JSON/XML;function-specific concept/query resources",
+      "authentication": "none for tested public version request;optional UTS key for higher throughput not obtained;proprietary function licence exceptions excluded",
+      "free_access_restrictions": "RxNav API terms explicitly free-of-charge. Standard20requests/sec/IP;optional100/sec with free UMLS/UTS key. Full monthly dataset requires UMLS licence and may contain proprietary data;not downloaded.",
+      "license": "Explicit public-domain declaration for NLM-created RxNorm normalized names and codes",
+      "license_url": "https://www.nlm.nih.gov/research/umls/rxnorm/docs/termsofservice.html",
+      "api_verification_state": "documented_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T18:24:31.957301+00:00",
       "classification": "open_license_verified"
     },
     {
