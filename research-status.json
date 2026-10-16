@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T20:29:26.052968+00:00",
+  "published_at": "2026-10-16T20:31:28.634440+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:29:09.324377+00:00",
+  "research_updated_at": "2026-10-16T20:30:53.849721+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Uganda2546metadata snapshot completed; Laws.Africa Knowledge Base API separated from Content API rights",
+  "latest_milestone": "Uganda public catalog complete52pages/2546metadata records with restrictive resource flags; African community/legal API rights reviewed; HK metadata ongoing",
   "counts": {
     "verified": 123,
     "candidates": 153,
@@ -1381,10 +1381,14 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "candidate_provider_ids": [
+          "laws-africa-knowledge"
+        ],
+        "restricted_provider_ids": [
+          "laws-africa"
+        ]
       },
       "biodiversity": {
         "status": "partial_candidates_only",
@@ -1424,9 +1428,12 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "laws-africa-knowledge",
           "wascal"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "laws-africa"
+        ]
       }
     },
     "South Asia": {
@@ -5581,8 +5588,8 @@
       "free_access_restrictions": "Developer guide states free Sandbox for prototyping/experimentation:one country,legislation/judgment Knowledge Bases,100calls/day; production plans paid. Current legal/plan terms and actual eligibility untested; no paid acquisition.",
       "license": "unknown for returned context/content and API reuse; no general open license verified",
       "license_url": "https://edit.laws.africa/terms | https://developers.laws.africa/get-started/pricing",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:29:09.269915+00:00",
+      "api_verification_state": "documented_bearer_required_untested_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-16T20:28:16.872945+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7412,15 +7419,15 @@
       "geographic_coverage": "Africa; Sub-Saharan Africa; national/local collections; South Africa explicitly documented",
       "topical_coverage": "law/civic data | research",
       "dataset_families": "Published legislation works/expressions, amendments, point-in-time versions, metadata and content; actual country entitlement varies by subscription",
-      "documentation_url": "https://developers.laws.africa/get-started/overview | https://developers.laws.africa/content-api/quick-start",
+      "documentation_url": "https://developers.laws.africa/get-started/overview | https://developers.laws.africa/content-api/quick-start | https://developers.laws.africa/get-started/pricing",
       "api_base_url": "https://api.laws.africa/v3/",
       "format_protocol": "Read-only REST; JSON metadata, Akoma Ntoso XML, HTML, PDF and webhook updates documented",
       "authentication": "Account and Authorization Bearer token, plan limits; no account/token acquired",
-      "free_access_restrictions": "Current Content API commercial country licenses sales-assisted/annual. Limited free noncommercial public-interest research is discretionary and approved-purpose/country/format/time bounded; normally one-off copy or short access window.",
+      "free_access_restrictions": "Current Content API commercial country licenses sales-assisted/annual. Limited free noncommercial public-interest research is discretionary and approved-purpose/country/format/time bounded; normally one-off copy or short access window. Developer pricing guide separately states free Cape Town by-laws Content API access on all plans and Sandbox100calls/day for prototyping. Do not infer all Content API requests paid; actual broad country licenses remain commercial/approved-research. Guide tiers and current contract offering must be reconciled before use.",
       "license": "Custom commercial/research license; no general open API data reuse grant",
       "license_url": "https://laws.africa/platform/content/ | https://laws.africa/research-access/",
       "api_verification_state": "documented_bearer_required_untested_restricted_terms",
-      "latest_checked_utc": "2026-10-16T20:26:00.422407+00:00",
+      "latest_checked_utc": "2026-10-16T20:28:16.872945+00:00",
       "classification": "restricted"
     },
     {
