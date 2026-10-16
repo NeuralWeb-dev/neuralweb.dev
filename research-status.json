@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T19:36:23.687459+00:00",
+  "published_at": "2026-10-16T19:38:26.601257+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:36:20.788848+00:00",
+  "research_updated_at": "2026-10-16T19:38:23.099530+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 118,
-    "candidates": 137,
+    "candidates": 138,
     "excluded": 14,
     "sample_successes": 145
   },
@@ -791,6 +791,7 @@
           "registry-opendata-fr-ch",
           "registry-opendata-gov-je",
           "scb",
+          "serbia-data",
           "ssb",
           "statfin"
         ],
@@ -814,6 +815,7 @@
           "moldova-data",
           "ons",
           "scb",
+          "serbia-data",
           "ssb",
           "statfin",
           "ukraine-data"
@@ -821,6 +823,7 @@
         "candidate_provider_ids": [
           "insee",
           "russia",
+          "serbia-apr",
           "stat-portugal",
           "uk-trade-tariff"
         ],
@@ -837,6 +840,7 @@
           "ons",
           "registry-opendata-gov-je",
           "scb",
+          "serbia-data",
           "ssb",
           "statfin"
         ],
@@ -849,7 +853,8 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "eurostat"
+          "eurostat",
+          "serbia-data"
         ],
         "candidate_provider_ids": [
           "uk-trade-tariff"
@@ -888,7 +893,9 @@
           "nordpool-entsoe",
           "uk-trade-tariff"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "registry-data-bs-ch"
+        ]
       },
       "health": {
         "status": "partial_verified",
@@ -908,6 +915,7 @@
         "verified_provider_ids": [
           "dnb",
           "moldova-data",
+          "serbia-data",
           "switzerland",
           "ukraine-data"
         ],
@@ -939,7 +947,9 @@
           "ukraine-data"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "registry-data-bs-ch"
+        ]
       },
       "geospatial": {
         "status": "partial_verified",
@@ -947,6 +957,7 @@
           "bgs",
           "france",
           "portugal",
+          "registry-data-bl-ch",
           "registry-data-sz-ch",
           "registry-daten-sg-ch",
           "registry-europeandataportal-eu",
@@ -954,7 +965,9 @@
           "uk-police"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "registry-data-bs-ch"
+        ]
       },
       "public spending/contracts": {
         "status": "partial_verified",
@@ -974,7 +987,8 @@
         "candidate_provider_ids": [
           "charity-commission",
           "companies-house",
-          "insee"
+          "insee",
+          "serbia-apr"
         ],
         "restricted_provider_ids": []
       },
@@ -985,16 +999,21 @@
           "moldova-data",
           "paris",
           "poland",
+          "registry-data-bl-ch",
           "registry-europeandataportal-eu",
           "registry-open-nrw",
           "registry-transparenz-karlsruhe-de",
+          "serbia-data",
           "uk-police",
           "ukraine-data"
         ],
         "candidate_provider_ids": [
+          "serbia-apr",
           "uk-trade-tariff"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "registry-data-bs-ch"
+        ]
       },
       "biodiversity": {
         "status": "partial_verified",
@@ -1031,6 +1050,7 @@
           "eurostat",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
+          "serbia-data",
           "ukraine-data"
         ],
         "candidate_provider_ids": [
@@ -1046,6 +1066,7 @@
           "darus",
           "dnb",
           "ices-dome",
+          "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
           "uk-police"
@@ -1071,8 +1092,10 @@
         "restricted_provider_ids": []
       },
       "economics/finance": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "oman-data"
+        ],
         "candidate_provider_ids": [
           "tunisia-ins"
         ],
@@ -1095,8 +1118,10 @@
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "oman-data"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1113,8 +1138,10 @@
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "oman-data"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -6296,6 +6323,24 @@
       "license_url": "https://data.gov.rs/terms",
       "api_verification_state": "documented_external_api_resources_original_service_policy_deferred_untested",
       "latest_checked_utc": "2026-10-16T19:34:59.836388+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "serbia-rzs",
+      "provider": "Statistical Office of the Republic of Serbia (SORS/RZS)",
+      "service_name": "Open Data WCF JSON/CSV statistical dataset service",
+      "geographic_coverage": "Serbia;Europe;national/localstatisticalaggregates",
+      "topical_coverage": "demographics | economics/finance | labor | agriculture | education | culture | housing",
+      "dataset_families": "2070catalogresourceURLclaims includehouseholdincome/consumption,prices,GDP,labourforce,agriculture andotherofficialstatisticaltables;parameterizedURLs/CSVJSONformats groupedasonecandidateAPIservice,not2070providers",
+      "documentation_url": "https://data.gov.rs/api/1/ | https://opendata.stat.gov.rs/",
+      "api_base_url": "https://opendata.stat.gov.rs/data/WcfJsonRestService.Service1.svc/",
+      "format_protocol": "Nationalportalresources specifyWCF-style /dataset/{id}/1/json and/csv;actualpayloadunverified",
+      "authentication": "unknown;APIhostrootHTML200withoutauth,butnotdataresponse;noaccount/keyacquired",
+      "free_access_restrictions": "Publishedportalrecordslabeldata sodl,servicewide currentreuse/accessconditionsunconfirmed;nocharge/acquisition",
+      "license": "Serbianportalpublishedstatisticaldatasetssodllabel;originalAPIservice rights notfullyreviewed",
+      "license_url": "https://data.gov.rs/terms",
+      "api_verification_state": "official_catalog_api_resource_claims_original_host_html_only_docs404_untested",
+      "latest_checked_utc": "2026-10-16T19:37:18.192849+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
