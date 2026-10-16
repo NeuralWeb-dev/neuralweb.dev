@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T18:39:16.475079+00:00",
+  "published_at": "2026-10-16T18:41:18.696492+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:39:06.566029+00:00",
+  "research_updated_at": "2026-10-16T18:40:38.639337+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 104,
-    "candidates": 130,
+    "candidates": 132,
     "excluded": 11,
     "sample_successes": 134
   },
@@ -303,6 +303,7 @@
         ],
         "candidate_provider_ids": [
           "esa-gaia",
+          "jpl-ssd",
           "nasa-api",
           "nasa-exoplanet"
         ],
@@ -367,6 +368,7 @@
           "figshare",
           "fsd-finland",
           "harvard-dataverse",
+          "jpl-ssd",
           "loc",
           "nih-clinicaltrials",
           "nims-mdr",
@@ -792,7 +794,8 @@
           "ine-spain",
           "insee",
           "russia",
-          "stat-portugal"
+          "stat-portugal",
+          "uk-trade-tariff"
         ],
         "restricted_provider_ids": []
       },
@@ -821,7 +824,9 @@
         "verified_provider_ids": [
           "eurostat"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "uk-trade-tariff"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
@@ -851,7 +856,8 @@
           "eurostat"
         ],
         "candidate_provider_ids": [
-          "nordpool-entsoe"
+          "nordpool-entsoe",
+          "uk-trade-tariff"
         ],
         "restricted_provider_ids": []
       },
@@ -938,7 +944,9 @@
           "registry-open-nrw",
           "registry-transparenz-karlsruhe-de"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "uk-trade-tariff"
+        ],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -977,7 +985,8 @@
           "registry-data-tg-ch"
         ],
         "candidate_provider_ids": [
-          "perspectivia"
+          "perspectivia",
+          "uk-trade-tariff"
         ],
         "restricted_provider_ids": []
       },
@@ -4829,6 +4838,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "jpl-ssd",
+      "provider": "NASA Jet Propulsion Laboratory / Solar System Dynamics and CNEOS",
+      "service_name": "JPL SSD/CNEOS public data APIs",
+      "geographic_coverage": "Solar system;small bodies,orbits and associated ephemerides",
+      "topical_coverage": "astronomy;research",
+      "dataset_families": "Small-Body Database and query;close approaches;fireballs;Horizons ephemerides;orbital and observation metadata. Individual API schemas/access differ.",
+      "documentation_url": "https://ssd-api.jpl.nasa.gov/doc/",
+      "api_base_url": "https://ssd-api.jpl.nasa.gov/",
+      "format_protocol": "HTTP GET/JSON for SBDB and other APIs;Horizons interface separately documented",
+      "authentication": "No API key shown in inspected SBDB examples;live sample untested because policy requires application-specificUser-Agent with contact information,not available for this research client.",
+      "free_access_restrictions": "Fair-use service conditions documented;data reuse licence and commercial redistribution scope unresolved. Do not infer open rights from NASA ownership.",
+      "license": "unknown;API fair-use policy is not an explicit data open-licence grant",
+      "license_url": "https://ssd-api.jpl.nasa.gov/doc/",
+      "api_verification_state": "documented_untested_user_agent_contact_requirement_unresolved",
+      "latest_checked_utc": "2026-10-16T18:40:03.469699+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kenya",
       "provider": "Kenya Open Data",
       "service_name": "Kenya Open Data open data portal",
@@ -6104,6 +6131,24 @@
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:48:24.780623+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uk-trade-tariff",
+      "provider": "HM Revenue & Customs / GOV.UK Trade Tariff",
+      "service_name": "GOV.UK Trade Tariff API",
+      "geographic_coverage": "United Kingdom;UK/Northern Ireland jurisdictions as documented",
+      "topical_coverage": "economics/finance;law/civic;agriculture;energy",
+      "dataset_families": "Commodity classifications;duties,VAT and import/export controls;historic tariff and quota data. Categorisation/FPO APIs separate and not verified.",
+      "documentation_url": "https://api.trade-tariff.service.gov.uk/",
+      "api_base_url": "https://api.trade-tariff.service.gov.uk/",
+      "format_protocol": "HTTPS REST/JSON:API;Accept application/vnd.hmrc.2.0+json per current docs",
+      "authentication": "Current provider docs require managed developer credentials and OAuth2client_credentials bearer token;no account/key obtained.",
+      "free_access_restrictions": "Current account tier/cost and numeric limits unknown. Registry lists old public base;provider now requires registration. No paid access acquired.",
+      "license": "Unconfirmed for API data:government directory claims OGL3;provider docs/footer do not alone establish complete data/service terms",
+      "license_url": "https://www.trade-tariff.service.gov.uk/terms",
+      "api_verification_state": "documented_managed_credentials_required_untested_legacy_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-16T18:39:14.248800+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
