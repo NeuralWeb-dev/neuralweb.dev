@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T21:06:10.858271+00:00",
+  "published_at": "2026-10-16T21:08:13.237191+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:05:45.123162+00:00",
+  "research_updated_at": "2026-10-16T21:06:57.185766+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Manual license/access reviews applied",
   "counts": {
@@ -2626,7 +2626,7 @@
       "dataset_families": "20 native databases: prices, energy, construction, industry, national accounts, environment, consumption/poverty, agriculture/forestry/fishery, agricultural censuses2003/2020, justice, foreign trade, population, structural business, subnational statistics, transport/communications, retail, tourism, employment/wages, science/technology/information society",
       "documentation_url": "https://podaci.dzs.hr/en/ | https://web.dzs.hr/150/ | https://dzs.gov.hr/about-us/right-of-access-to-information/open-data/1823?big=1",
       "api_base_url": "https://web.dzs.hr/PXWeb/api/v1/en/",
-      "format_protocol": "PxWeb API v1 JSON metadata observed; read-only data selection POST documented by PxWeb guidance; numerical observations untested",
+      "format_protocol": "PxWeb API v1 validJSON root database and child directory metadata observed; detailed data-query formats/selection untested",
       "authentication": "Anonymous API rootGET succeeded; no account/key used",
       "free_access_restrictions": "Current original-provider open-data page explicitly says all datasets published on CBS website available without restrictions/free use under linked Open Licence. Only publicly published aggregate datasets covered; restricted microdata/tailored services not generalized.",
       "license": "Open Licence - The Republic of Croatia",
