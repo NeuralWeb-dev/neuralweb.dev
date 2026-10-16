@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T16:51:05.480624+00:00",
+  "published_at": "2026-10-16T16:53:07.658184+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T16:48:25.502722+00:00",
+  "research_updated_at": "2026-10-16T16:51:49.506157+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 64,
-    "candidates": 141,
+    "verified": 66,
+    "candidates": 139,
     "excluded": 3,
-    "sample_successes": 107
+    "sample_successes": 108
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -30,10 +30,10 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "datacommons",
           "worldbank"
         ],
         "candidate_provider_ids": [
-          "datacommons",
           "hdx",
           "ocha-hapi",
           "unhcr",
@@ -46,12 +46,12 @@
       "economics/finance": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "datacommons",
           "ilo",
           "worldbank"
         ],
         "candidate_provider_ids": [
           "bis",
-          "datacommons",
           "imf",
           "oecd",
           "unsd"
@@ -85,12 +85,12 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "datacommons",
           "usgs-earthquake"
         ],
         "candidate_provider_ids": [
           "bgs",
           "copernicus-stac",
-          "datacommons",
           "fao",
           "hdx",
           "nasa-api",
@@ -129,12 +129,12 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "datacommons",
           "pdb",
           "uniprot",
           "worldbank"
         ],
         "candidate_provider_ids": [
-          "datacommons",
           "ena",
           "europepmc",
           "hdx",
@@ -397,11 +397,10 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cdc",
+          "cms",
           "usda-food"
         ],
-        "candidate_provider_ids": [
-          "cms"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "education": {
@@ -436,10 +435,10 @@
       "public spending/contracts": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "cms",
           "treasury"
         ],
         "candidate_provider_ids": [
-          "cms",
           "irs",
           "usaspending"
         ],
@@ -2041,6 +2040,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cms",
+      "provider": "Centers for Medicare and Medicaid Services",
+      "service_name": "Centers for Medicare and Medicaid Services API",
+      "geographic_coverage": "United States",
+      "topical_coverage": "health; public spending/contracts",
+      "dataset_families": "Medicare providers; utilization; spending; Medicaid",
+      "documentation_url": "https://data.cms.gov/api-docs",
+      "api_base_url": "https://data.cms.gov/data-api/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for sampled public dataset",
+      "free_access_restrictions": "Public data API sample returned a one-row JSON array without credentials",
+      "license": "US public domain for explicitly licensed CMS distributions",
+      "license_url": "https://data.cms.gov/data.json",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:51:48.757221+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "crossref",
       "provider": "Crossref",
       "service_name": "Crossref API",
@@ -2074,6 +2091,24 @@
       "license_url": "https://datacite.org/blog/announcing-datacites-first-public-data-file/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.354764+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "datacommons",
+      "provider": "Data Commons",
+      "service_name": "Data Commons API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "demographics; economics/finance; health; environment",
+      "dataset_families": "Statistical variables; observations; places; knowledge graph",
+      "documentation_url": "https://docs.datacommons.org/api/",
+      "api_base_url": "https://api.datacommons.org/",
+      "format_protocol": "REST/JSON",
+      "authentication": "key required for REST V2; some documented V1 APIs currently unkeyed",
+      "free_access_restrictions": "Documented hosted API with key requirement for V2; no key requested, inspected or used",
+      "license": "CC BY for Data Commons knowledge graph and compilation; underlying source terms vary",
+      "license_url": "https://www.datacommons.org/faq",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T16:51:48.761956+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3204,12 +3239,12 @@
       "documentation_url": "https://www.census.gov/data/developers/about.html",
       "api_base_url": "https://api.census.gov/data/",
       "format_protocol": "REST/JSON",
-      "authentication": "key required by tested endpoint (HTML Missing Key response)",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "authentication": "key required by tested statistical endpoint; free key registration documented",
+      "free_access_restrictions": "Official API key page says registration is free; no key requested or used",
+      "license": "unknown; API terms do not establish an explicit general open-data license in reviewed text",
       "license_url": "https://www.census.gov/about/policies/open-gov/open-data.html",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:32:30.352409+00:00",
+      "latest_checked_utc": "2026-10-16T16:51:48.752587+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -3282,24 +3317,6 @@
       "license_url": "https://www.stats.gov.cn/english/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.909090+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "cms",
-      "provider": "Centers for Medicare and Medicaid Services",
-      "service_name": "Centers for Medicare and Medicaid Services API",
-      "geographic_coverage": "United States",
-      "topical_coverage": "health; public spending/contracts",
-      "dataset_families": "Medicare providers; utilization; spending; Medicaid",
-      "documentation_url": "https://data.cms.gov/api-docs",
-      "api_base_url": "https://data.cms.gov/data-api/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.cms.gov/about-cms/web-policies-important-links/web-policies",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:24:53.688028+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -3408,24 +3425,6 @@
       "license_url": "https://data.gov.cz/podmínky-užití",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:41.121820+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "datacommons",
-      "provider": "Data Commons",
-      "service_name": "Data Commons API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "demographics; economics/finance; health; environment",
-      "dataset_families": "Statistical variables; observations; places; knowledge graph",
-      "documentation_url": "https://docs.datacommons.org/api/",
-      "api_base_url": "https://api.datacommons.org/",
-      "format_protocol": "REST/JSON",
-      "authentication": "key required; no credentials inspected",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://datacommons.org/terms",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:23:56.871588+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4232,10 +4231,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "key required; token registration",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Dataset-specific access/use constraints; complete NOAA reuse policy not yet established",
       "license_url": "https://www.noaa.gov/information-technology/open-data-dissemination",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:24:47.050899+00:00",
+      "latest_checked_utc": "2026-10-16T16:51:48.767934+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5456,10 +5455,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown; current explicit data rights unresolved",
       "license_url": "https://www.usaspending.gov/about",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:32:30.377440+00:00",
+      "latest_checked_utc": "2026-10-16T16:51:48.773450+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
