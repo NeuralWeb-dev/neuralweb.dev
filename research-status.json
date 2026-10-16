@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T16:55:09.841284+00:00",
+  "published_at": "2026-10-16T16:57:14.287232+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T16:55:09.107777+00:00",
+  "research_updated_at": "2026-10-16T16:57:12.308099+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Re3data descriptor expansion with official API/license discovery hints",
+  "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 66,
-    "candidates": 139,
+    "verified": 69,
+    "candidates": 148,
     "excluded": 3,
-    "sample_successes": 108
+    "sample_successes": 116
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -34,6 +34,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "fsd-finland",
           "hdx",
           "ocha-hapi",
           "unhcr",
@@ -52,6 +53,7 @@
         ],
         "candidate_provider_ids": [
           "bis",
+          "iati",
           "imf",
           "oecd",
           "unsd"
@@ -91,6 +93,7 @@
         "candidate_provider_ids": [
           "bgs",
           "copernicus-stac",
+          "deims",
           "fao",
           "hdx",
           "nasa-api",
@@ -137,7 +140,9 @@
         "candidate_provider_ids": [
           "ena",
           "europepmc",
+          "fsd-finland",
           "hdx",
+          "neuromorpho",
           "nih-clinicaltrials",
           "nih-pubmed",
           "ocha-hapi",
@@ -157,6 +162,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "fsd-finland",
           "oecd",
           "unesco",
           "unicef"
@@ -193,6 +199,7 @@
           "copernicus-stac",
           "nasa-cmr",
           "nsidc",
+          "opencontext",
           "planetary-computer"
         ],
         "restricted_provider_ids": []
@@ -202,6 +209,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "hdx",
+          "iati",
           "open-contracting"
         ],
         "restricted_provider_ids": []
@@ -233,6 +241,7 @@
           "uniprot"
         ],
         "candidate_provider_ids": [
+          "deims",
           "ena",
           "inaturalist",
           "planetary-computer",
@@ -279,6 +288,8 @@
           "loc",
           "metmuseum",
           "ocha-hapi",
+          "opencontext",
+          "perspectivia",
           "smithsonian",
           "unesco",
           "wfp"
@@ -303,14 +314,20 @@
           "zenodo"
         ],
         "candidate_provider_ids": [
+          "b2share",
+          "deims",
           "ena",
           "europepmc",
           "figshare",
+          "fsd-finland",
           "harvard-dataverse",
           "loc",
+          "neuromorpho",
           "nih-clinicaltrials",
           "nih-pubmed",
+          "opencontext",
           "pangaea",
+          "perspectivia",
           "smithsonian",
           "unesco"
         ],
@@ -321,11 +338,10 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "census",
           "statcan"
         ],
-        "candidate_provider_ids": [
-          "census"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "economics/finance": {
@@ -333,11 +349,11 @@
         "verified_provider_ids": [
           "bea",
           "bls",
+          "census",
           "statcan",
           "treasury"
         ],
         "candidate_provider_ids": [
-          "census",
           "sec"
         ],
         "restricted_provider_ids": [
@@ -370,18 +386,20 @@
           "usgs-water"
         ],
         "candidate_provider_ids": [
-          "epa"
+          "epa",
+          "ocean-networks-canada"
         ],
         "restricted_provider_ids": []
       },
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "ncei-coops",
           "usgs-water"
         ],
         "candidate_provider_ids": [
           "epa",
-          "ncei-coops"
+          "ocean-networks-canada"
         ],
         "restricted_provider_ids": []
       },
@@ -410,10 +428,11 @@
         "restricted_provider_ids": []
       },
       "housing": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "census"
+        ],
         "candidate_provider_ids": [
-          "census",
           "nyc"
         ],
         "restricted_provider_ids": []
@@ -477,10 +496,12 @@
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [
+        "status": "partial_verified",
+        "verified_provider_ids": [
           "ncei-coops"
+        ],
+        "candidate_provider_ids": [
+          "ocean-networks-canada"
         ],
         "restricted_provider_ids": []
       },
@@ -677,6 +698,7 @@
         "candidate_provider_ids": [
           "denmark-statbank",
           "destatis",
+          "fsd-finland",
           "ine-spain",
           "insee",
           "ons",
@@ -764,9 +786,11 @@
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "fsd-finland"
+        ],
         "restricted_provider_ids": []
       },
       "education": {
@@ -774,7 +798,9 @@
         "verified_provider_ids": [
           "switzerland"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "fsd-finland"
+        ],
         "restricted_provider_ids": []
       },
       "housing": {
@@ -873,7 +899,8 @@
           "registry-data-tg-ch"
         ],
         "candidate_provider_ids": [
-          "europeana"
+          "europeana",
+          "perspectivia"
         ],
         "restricted_provider_ids": []
       },
@@ -882,7 +909,13 @@
         "verified_provider_ids": [
           "registry-data-tg-ch"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "b2share",
+          "darus",
+          "fsd-finland",
+          "perspectivia",
+          "yoda-utrecht"
+        ],
         "restricted_provider_ids": []
       }
     },
@@ -1046,21 +1079,27 @@
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "wascal"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "wascal"
+        ],
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "wascal"
+        ],
         "restricted_provider_ids": []
       },
       "energy": {
@@ -1141,15 +1180,19 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "wascal"
+        ],
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "wascal"
+        ],
         "restricted_provider_ids": []
       }
     },
@@ -1415,20 +1458,21 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "malaysia",
           "singapore"
         ],
         "candidate_provider_ids": [
-          "malaysia",
           "philippines",
           "vietnam"
         ],
         "restricted_provider_ids": []
       },
       "economics/finance": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [
-          "malaysia",
           "philippines",
           "vietnam"
         ],
@@ -1451,11 +1495,10 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "malaysia",
           "singapore"
         ],
-        "candidate_provider_ids": [
-          "malaysia"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "water": {
@@ -1595,14 +1638,17 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "ocean-networks-canada",
           "pacific-data"
         ],
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "ocean-networks-canada"
+        ],
         "restricted_provider_ids": []
       },
       "energy": {
@@ -1681,9 +1727,11 @@
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "ocean-networks-canada"
+        ],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -1699,9 +1747,11 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "rda-australia"
+        ],
         "restricted_provider_ids": []
       }
     },
@@ -2022,6 +2072,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "census",
+      "provider": "US Census Bureau",
+      "service_name": "US Census Bureau API",
+      "geographic_coverage": "United States",
+      "topical_coverage": "demographics; housing; economics/finance",
+      "dataset_families": "ACS; decennial census; population estimates; economic surveys",
+      "documentation_url": "https://www.census.gov/data/developers/about.html",
+      "api_base_url": "https://api.census.gov/data/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for metadata; key required by tested observation query",
+      "free_access_restrictions": "Dataset metadata public; statistical observation query required a key; free key registration documented but no key obtained",
+      "license": "CC0 1.0 for explicitly licensed statistical dataset subset",
+      "license_url": "https://api.census.gov/data/2023/acs/acs5.json",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:57:11.397197+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "chile",
       "provider": "Chilean government datos.gob.cl",
       "service_name": "Chilean government datos.gob.cl open data portal",
@@ -2269,8 +2337,8 @@
       "free_access_restrictions": "Public statistical data; requested dataflow response not parsed as JSON",
       "license": "CC BY 4.0 for databases/datasets published as of 3 May 2023",
       "license_url": "https://www.ilo.org/global/copyright/lang--en/index.htm",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:29:28.926865+00:00",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:56:22.952654+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2328,6 +2396,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "malaysia",
+      "provider": "Malaysian government OpenDOSM",
+      "service_name": "Malaysian government OpenDOSM open data portal",
+      "geographic_coverage": "Malaysia",
+      "topical_coverage": "demographics; economics/finance; climate/weather/environment",
+      "dataset_families": "Official statistics; weather; public services",
+      "documentation_url": "https://developer.data.gov.my/",
+      "api_base_url": "https://api.data.gov.my/",
+      "format_protocol": "REST/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Free public API; weather forecast sample succeeded without credentials",
+      "license": "CC BY 4.0",
+      "license_url": "https://developer.data.gov.my/faq",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T16:56:22.968330+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "mexico",
       "provider": "Mexico INEGI",
       "service_name": "Mexico INEGI open data portal",
@@ -2361,6 +2447,24 @@
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:48:24.759406+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ncei-coops",
+      "provider": "NOAA Center for Operational Oceanographic Products and Services",
+      "service_name": "NOAA Center for Operational Oceanographic Products and Services API",
+      "geographic_coverage": "United States",
+      "topical_coverage": "oceans; water",
+      "dataset_families": "Tides; water levels; currents; predictions",
+      "documentation_url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
+      "api_base_url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read",
+      "free_access_restrictions": "Public station metadata API succeeded without credentials",
+      "license": "US public domain unless specifically annotated otherwise",
+      "license_url": "https://tidesandcurrents.noaa.gov/disclaimers.html",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T16:56:22.976005+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3086,6 +3190,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "b2share",
+      "provider": "EUDAT B2SHARE",
+      "service_name": "EUDAT B2SHARE API",
+      "geographic_coverage": "Europe/Global",
+      "topical_coverage": "research",
+      "dataset_families": "Research data records; communities; file metadata",
+      "documentation_url": "https://eudat.eu/services/userdoc/b2share-http-rest-api",
+      "api_base_url": "https://b2share.eudat.eu/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://eudat.eu/services/userdoc/license-selector",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:56:54.500330+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bangladesh",
       "provider": "Bangladesh Open Data",
       "service_name": "Bangladesh Open Data open data portal",
@@ -3227,24 +3349,6 @@
       "license_url": "https://odp-cctegis.opendata.arcgis.com/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:27:27.061792+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "census",
-      "provider": "US Census Bureau",
-      "service_name": "US Census Bureau API",
-      "geographic_coverage": "United States",
-      "topical_coverage": "demographics; housing; economics/finance",
-      "dataset_families": "ACS; decennial census; population estimates; economic surveys",
-      "documentation_url": "https://www.census.gov/data/developers/about.html",
-      "api_base_url": "https://api.census.gov/data/",
-      "format_protocol": "REST/JSON",
-      "authentication": "key required by tested statistical endpoint; free key registration documented",
-      "free_access_restrictions": "Official API key page says registration is free; no key requested or used",
-      "license": "unknown; API terms do not establish an explicit general open-data license in reviewed text",
-      "license_url": "https://www.census.gov/about/policies/open-gov/open-data.html",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:51:48.752587+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -3425,6 +3529,42 @@
       "license_url": "https://data.gov.cz/podmínky-užití",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:41.121820+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "darus",
+      "provider": "University of Stuttgart DaRUS",
+      "service_name": "University of Stuttgart DaRUS API",
+      "geographic_coverage": "Germany",
+      "topical_coverage": "research",
+      "dataset_families": "Institutional research datasets; files; collection metadata",
+      "documentation_url": "https://www.izus.uni-stuttgart.de/en/fokus/darus/",
+      "api_base_url": "https://darus.uni-stuttgart.de/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.izus.uni-stuttgart.de/en/fokus/darus/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:56:51.596230+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "deims",
+      "provider": "DEIMS-SDR",
+      "service_name": "DEIMS-SDR API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "biodiversity; climate/weather/environment; research",
+      "dataset_families": "Environmental monitoring sites; ecological research facilities; networks",
+      "documentation_url": "https://deims.org/api",
+      "api_base_url": "https://deims.org/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://deims.org/docs/en/about/license.html",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:56:45.455001+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -3644,6 +3784,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "fsd-finland",
+      "provider": "Finnish Social Science Data Archive",
+      "service_name": "Finnish Social Science Data Archive API",
+      "geographic_coverage": "Finland/Global",
+      "topical_coverage": "research; demographics; health; education",
+      "dataset_families": "Social science study metadata; survey datasets",
+      "documentation_url": "https://www.fsd.tuni.fi/en/services/search-services/",
+      "api_base_url": "https://services.fsd.tuni.fi/v0/oai",
+      "format_protocol": "OAI-PMH/XML; metadata services",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.fsd.tuni.fi/en/data-archive/documents-and-agreements/",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:56:31.907449+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "germany",
       "provider": "GovData Germany",
       "service_name": "GovData Germany open data portal",
@@ -3770,6 +3928,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "iati",
+      "provider": "International Aid Transparency Initiative",
+      "service_name": "International Aid Transparency Initiative API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "public spending/contracts; economics/finance",
+      "dataset_families": "Development/humanitarian activities; aid transactions; organizations; budgets",
+      "documentation_url": "https://docs.datastore.iatistandard.org/en/latest/api/",
+      "api_base_url": "https://api.iatistandard.org/datastore/",
+      "format_protocol": "REST/JSON",
+      "authentication": "key required; current datastore access terms to review",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://iatistandard.org/en/guidance/publishing-data/getting-started/licensing/",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T16:56:41.812346+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "imf",
       "provider": "International Monetary Fund",
       "service_name": "International Monetary Fund API",
@@ -3781,10 +3957,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown; fetched terms page did not yield substantive readable policy",
       "license_url": "https://www.imf.org/external/terms.htm",
       "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:24:01.130819+00:00",
+      "latest_checked_utc": "2026-10-16T16:56:22.960539+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4040,24 +4216,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "malaysia",
-      "provider": "Malaysian government OpenDOSM",
-      "service_name": "Malaysian government OpenDOSM open data portal",
-      "geographic_coverage": "Malaysia",
-      "topical_coverage": "demographics; economics/finance; climate/weather/environment",
-      "dataset_families": "Official statistics; weather; public services",
-      "documentation_url": "https://developer.data.gov.my/",
-      "api_base_url": "https://api.data.gov.my/",
-      "format_protocol": "REST/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://open.dosm.gov.my/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:26:52.983838+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "metmuseum",
       "provider": "Metropolitan Museum of Art",
       "service_name": "Metropolitan Museum of Art API",
@@ -4130,24 +4288,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "ncei-coops",
-      "provider": "NOAA Center for Operational Oceanographic Products and Services",
-      "service_name": "NOAA Center for Operational Oceanographic Products and Services API",
-      "geographic_coverage": "United States",
-      "topical_coverage": "oceans; water",
-      "dataset_families": "Tides; water levels; currents; predictions",
-      "documentation_url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
-      "api_base_url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.weather.gov/disclaimer",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:37:23.738536+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "nepal",
       "provider": "Nepal National Statistics Office",
       "service_name": "Nepal National Statistics Office open data portal",
@@ -4163,6 +4303,24 @@
       "license_url": "https://nationaldata.gov.np/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:46.276730+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "neuromorpho",
+      "provider": "NeuroMorpho.Org",
+      "service_name": "NeuroMorpho.Org API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "health; research",
+      "dataset_families": "Neuronal reconstructions; neuron metadata; experimental provenance",
+      "documentation_url": "https://neuromorpho.org/api.jsp",
+      "api_base_url": "https://neuromorpho.org/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://neuromorpho.org/useterm.jsp",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:56:07.774469+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4328,6 +4486,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ocean-networks-canada",
+      "provider": "Ocean Networks Canada",
+      "service_name": "Ocean Networks Canada API",
+      "geographic_coverage": "Canada/Pacific/Arctic",
+      "topical_coverage": "oceans; water; climate/weather/environment",
+      "dataset_families": "Ocean observatories; sensors; measurements; deployments",
+      "documentation_url": "https://data.oceannetworks.ca/OpenAPI",
+      "api_base_url": "https://data.oceannetworks.ca/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "key required; token access described by OpenAPI",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.oceannetworks.ca/data/data-policy/",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T16:56:06.387592+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ocha-hapi",
       "provider": "UN OCHA HDX Humanitarian API",
       "service_name": "UN OCHA HDX Humanitarian API open data API",
@@ -4356,11 +4532,11 @@
       "api_base_url": "https://sdmx.oecd.org/public/rest/v1/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "free_access_restrictions": "Narrow public SDMX dataflow metadata request succeeded without key",
+      "license": "OECD 2024 open-access announcement found; data-specific license scope remains to be confirmed",
       "license_url": "https://www.oecd.org/en/about/terms-conditions.html",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:24:01.898545+00:00",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T16:56:22.984652+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4433,6 +4609,24 @@
       "license_url": "https://openchargemap.org/site/about/terms",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:28:48.448984+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "opencontext",
+      "provider": "Open Context",
+      "service_name": "Open Context API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "culture; research; geospatial",
+      "dataset_families": "Archaeological observations; projects; subjects; media; linked data",
+      "documentation_url": "https://opencontext.org/about/services",
+      "api_base_url": "https://opencontext.org/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://opencontext.org/about/publishing",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:56:29.046027+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4526,6 +4720,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "perspectivia",
+      "provider": "Max Weber Foundation perspectivia.net",
+      "service_name": "Max Weber Foundation perspectivia.net API",
+      "geographic_coverage": "Europe/Global",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Humanities publications and research metadata; digital collections",
+      "documentation_url": "https://perspectivia.net/api/v2/openapi.json",
+      "api_base_url": "https://perspectivia.net/api/v2/",
+      "format_protocol": "REST/JSON; OAI-PMH/XML",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://perspectivia.net/content/publish/policies.xml",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:56:57.718045+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "peru",
       "provider": "Peru National Open Data Platform",
       "service_name": "Peru National Open Data Platform open data portal",
@@ -4577,6 +4789,24 @@
       "license_url": "https://planetarycomputer.microsoft.com/terms",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:28:43.954903+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "rda-australia",
+      "provider": "Australian Research Data Commons / Research Data Australia",
+      "service_name": "Australian Research Data Commons / Research Data Australia API",
+      "geographic_coverage": "Australia",
+      "topical_coverage": "research",
+      "dataset_families": "Research collections; parties; activities; services; institutional metadata",
+      "documentation_url": "https://documentation.ardc.edu.au/rda/web-services",
+      "api_base_url": "https://researchdata.edu.au/registry/services/",
+      "format_protocol": "OAI-PMH/XML; REST metadata services",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://ardc.edu.au/terms-and-conditions/",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:56:39.836598+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5365,10 +5595,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown; UIS statistical API-specific reuse terms unresolved",
       "license_url": "https://www.unesco.org/en/open-access",
       "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:24:03.417997+00:00",
+      "latest_checked_utc": "2026-10-16T16:56:22.993539+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5401,10 +5631,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Dataset-specific CC BY 3.0 IGO statements found; matching API series still needs confirmation",
       "license_url": "https://data.unicef.org/legal/",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:28:49.760916+00:00",
+      "latest_checked_utc": "2026-10-16T16:56:23.001607+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5498,6 +5728,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "wascal",
+      "provider": "WASCAL Scientific Research Data Catalog",
+      "service_name": "WASCAL Scientific Research Data Catalog API",
+      "geographic_coverage": "West Africa/Sub-Saharan Africa",
+      "topical_coverage": "agriculture; water; climate/weather/environment; research",
+      "dataset_families": "West African climate and land-use research datasets",
+      "documentation_url": "https://wascal-dataportal.org/",
+      "api_base_url": "https://wascal-dataportal.org/",
+      "format_protocol": "DKAN/CKAN compatibility JSON candidate",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://wascal-dataportal.org/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:56:36.020971+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wfp",
       "provider": "World Food Programme HungerMap",
       "service_name": "World Food Programme HungerMap API",
@@ -5531,6 +5779,24 @@
       "license_url": "https://www.marinespecies.org/aphia.php?p=notes",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:28:40.072620+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "yoda-utrecht",
+      "provider": "Utrecht University Yoda",
+      "service_name": "Utrecht University Yoda API",
+      "geographic_coverage": "Netherlands",
+      "topical_coverage": "research",
+      "dataset_families": "Institutional research dataset metadata; published data packages",
+      "documentation_url": "https://www.uu.nl/yoda",
+      "api_base_url": "https://public.yoda.uu.nl/oai/oai",
+      "format_protocol": "OAI-PMH/XML",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://public.yoda.uu.nl/",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:56:48.562402+00:00",
       "classification": "licensing_unconfirmed"
     }
   ],
