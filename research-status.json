@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T22:07:22.366293+00:00",
+  "published_at": "2026-10-16T22:09:24.616567+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:07:21.106726+00:00",
+  "research_updated_at": "2026-10-16T22:08:04.994686+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Pacific:PDHcatalog/statisticalservices separated;127latestSPCdefinitions200JSON allnonproduction/nonfinal,rightsproductionunresolved;SPREPlicense/APIpolicydeferred",
   "counts": {
     "verified": 134,
     "candidates": 168,
@@ -2154,6 +2154,7 @@
         "candidate_provider_ids": [
           "adb",
           "pacific-data",
+          "pacific-stat",
           "stats-nz",
           "stats-nz-geographic"
         ],
@@ -2168,6 +2169,7 @@
           "adb",
           "nz-charities",
           "nzbn",
+          "pacific-stat",
           "stats-nz"
         ],
         "restricted_provider_ids": [
@@ -2180,6 +2182,7 @@
           "abs"
         ],
         "candidate_provider_ids": [
+          "pacific-stat",
           "stats-nz"
         ],
         "restricted_provider_ids": [
@@ -2187,9 +2190,11 @@
         ]
       },
       "agriculture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "pacific-stat"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
@@ -2201,6 +2206,7 @@
         "candidate_provider_ids": [
           "mbie-geodata",
           "pacific-data",
+          "pacific-stat",
           "queensland-data"
         ],
         "restricted_provider_ids": []
@@ -2227,7 +2233,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "pacific-data"
+          "pacific-data",
+          "pacific-stat"
         ],
         "restricted_provider_ids": []
       },
@@ -2235,7 +2242,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "pacific-data"
+          "pacific-data",
+          "pacific-stat"
         ],
         "restricted_provider_ids": []
       },
@@ -2336,9 +2344,11 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "pacific-stat"
+        ],
         "restricted_provider_ids": []
       },
       "research": {
@@ -4067,7 +4077,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T22:02:26.482409+00:00",
+      "latest_checked_utc": "2026-10-16T22:07:02.553571+00:00",
       "classification": "open_license_verified"
     },
     {
