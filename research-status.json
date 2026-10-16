@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T22:11:26.913138+00:00",
+  "published_at": "2026-10-16T22:13:29.180440+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:08:04.994686+00:00",
+  "research_updated_at": "2026-10-16T22:11:45.445757+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Pacific:PDHcatalog/statisticalservices separated;127latestSPCdefinitions200JSON allnonproduction/nonfinal,rightsproductionunresolved;SPREPlicense/APIpolicydeferred",
+  "latest_milestone": "Brazil SUS current API and catalog verification",
   "counts": {
     "verified": 134,
-    "candidates": 168,
+    "candidates": 169,
     "excluded": 24,
     "sample_successes": 158
   },
@@ -6654,6 +6654,24 @@
       "license_url": "https://opencorporates.com/legal/licence",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:38:13.787477+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "opendatasus",
+      "provider": "Brazil Ministry of Health / DEMAS",
+      "service_name": "SUS Open Data portal and DEMAS Open Data API",
+      "geographic_coverage": "Brazil; family-specific national/state/municipal health coverage",
+      "topical_coverage": "health; water; demographics",
+      "dataset_families": "CNES facility types/facilities; SISAGUA water-quality surveillance; SISVAN nutrition; primary care; pharmaceutical assistance; macroregions and health regions; research/education; public-health surveillance. 140 portal summaries,113 API paths indexed;not all catalog datasets API-accessible.",
+      "documentation_url": "https://apidadosabertos.saude.gov.br/v1 | https://apidadosabertos.saude.gov.br/static/swagger.json | https://dadosabertos.saude.gov.br/",
+      "api_base_url": "https://apidadosabertos.saude.gov.br/",
+      "format_protocol": "Swagger2 specification1.8.32;HTTP GET JSON/text CSV documented;sampleJSON tipos_unidade list",
+      "authentication": "Anonymous facility-type GET succeeded;specification has no top-level security/securityDefinitions;other operations untested",
+      "free_access_restrictions": "No payment/account used for docs or lookup. Service-wide access restrictions,terms and sustained availability unknown;not a guaranteed free tier.",
+      "license": "Dataset-specific;CNES Creative Commons Attribution version unspecified;macroregion no license;API specification info MIT;website CC BY-ND3.0 notice",
+      "license_url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude | https://dadosabertos.saude.gov.br/dataset/macrorregiao-de-saude | https://apidadosabertos.saude.gov.br/static/swagger.json | https://dadosabertos.saude.gov.br/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T22:11:45.378568+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
