@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T23:10:37.938894+00:00",
+  "published_at": "2026-10-16T23:12:40.427416+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:10:37.328362+00:00",
+  "research_updated_at": "2026-10-16T23:10:59.506298+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Scotland current2026CKAN/OGL documented,runtimepolicy-deferred;Walesv2 metadata+aggregate observation JSON200,802unique summaries inoneboundedresponse after9page duplicate anomaly;11topics/19v1v2operations;Tunisia/Burkina/Brussels policy-deferredleads;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 147,
     "candidates": 184,
     "excluded": 24,
-    "sample_successes": 180
+    "sample_successes": 181
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -956,6 +956,7 @@
           "slovenia-statistics",
           "ssb",
           "statfin",
+          "wales-statistics",
           "worldpop-geo",
           "worldpop-rest",
           "worldpop-stac"
@@ -988,11 +989,13 @@
           "poland-bdl",
           "poland-gus-sdg",
           "scb",
+          "scotland-catalog",
           "serbia-data",
           "slovenia-statistics",
           "ssb",
           "statfin",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1022,10 +1025,12 @@
           "poland-bdl",
           "registry-opendata-gov-je",
           "scb",
+          "scotland-catalog",
           "serbia-data",
           "slovenia-statistics",
           "ssb",
-          "statfin"
+          "statfin",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1043,7 +1048,8 @@
           "iceland-statistics",
           "poland-bdl",
           "serbia-data",
-          "slovenia-statistics"
+          "slovenia-statistics",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1069,7 +1075,8 @@
           "registry-transparenz-karlsruhe-de",
           "slovenia-statistics",
           "transportapi-fi",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": [
@@ -1095,7 +1102,8 @@
           "iceland-statistics",
           "poland-bdl",
           "slovenia-statistics",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "nordpool-entsoe",
@@ -1115,7 +1123,9 @@
           "moldova-data",
           "poland-bdl",
           "poland-gus-sdg",
-          "ukraine-data"
+          "scotland-catalog",
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1132,10 +1142,12 @@
           "moldova-data",
           "poland-bdl",
           "poland-gus-sdg",
+          "scotland-catalog",
           "serbia-data",
           "slovenia-statistics",
           "switzerland",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1155,7 +1167,8 @@
           "scb",
           "ssb",
           "statfin",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1176,7 +1189,8 @@
           "slovenia-statistics",
           "tfl",
           "transportapi-fi",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics"
@@ -1258,7 +1272,8 @@
           "registry-transparenz-karlsruhe-de",
           "serbia-data",
           "uk-police",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "poland-gus-smup",
@@ -1315,7 +1330,8 @@
           "registry-data-tg-ch",
           "serbia-data",
           "slovenia-statistics",
-          "ukraine-data"
+          "ukraine-data",
+          "wales-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -4699,8 +4715,8 @@
       "provider": "Scottish Government / data.gov.scot",
       "service_name": "Data about Scotland CKAN catalogue, data-query and structured-metadata APIs",
       "geographic_coverage": "United Kingdom; Scotland",
-      "topical_coverage": "demographics; economics/finance; labor; health; education; housing; climate/weather/environment; geospatial; law/civic",
-      "dataset_families": "Scottish public-sector statistical datasets; documented labour_productivity__annual metadata, CSV resource, DateCode-filtered datastore query, DCAT-AP and Croissant metadata. Full current catalog not enumerated.",
+      "topical_coverage": "economics/finance; labor; health; education",
+      "dataset_families": "Publisher advertises health, education and economy themes; current API guide illustrates annual labour-productivity metadata, CSV resource and DateCode-filtered datastore query, plus DCAT-AP/Croissant. Actual current catalog not enumerated; other sector coverage unverified.",
       "documentation_url": "https://data.gov.scot/help/technical-support/how-to-access-data-using-the-api | https://blogs.gov.scot/digital/2026/08/19/data-gov-scot-public-beta-launches-on-25-august/",
       "api_base_url": "https://api.data.gov.scot/api/3/action/",
       "format_protocol": "Documented CKAN Action JSON, datastore_search JSON/CSV data and DCAT-AP/Croissant JSON-LD metadata; none of those runtime target responses obtained.",
@@ -4708,8 +4724,8 @@
       "free_access_restrictions": "Public API/no sign-in documented; OGL applies within publisher scope and stated exceptions. Accounts, publishing and private datasets not accessed. No numeric quota found.",
       "license": "Open Government Licence v3.0 for publisher information expressly covered by current site notice",
       "license_url": "https://data.gov.scot/help/technical-support/how-to-access-data-using-the-api | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:09:40.797777+00:00",
+      "api_verification_state": "documented_current_CKAN_api_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-16T23:06:21.541698+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5194,8 +5210,8 @@
       "free_access_restrictions": "Tested public GETs required no payment or account. Source/third-party rights and site terms apply; no account creation, filter-generation POST, pivot job or full-file export used.",
       "license": "Open Government Licence v3.0 for Welsh Government published information covered by linked copyright statement",
       "license_url": "https://www.gov.wales/copyright-statement | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:09:40.946501+00:00",
+      "api_verification_state": "documented_v1_v2_OpenAPI_v2_catalog_metadata_and_observation_json_sample_success",
+      "latest_checked_utc": "2026-10-16T23:09:20.725390+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8383,7 +8399,7 @@
       "license": "Sample declares Tunisia national public-open-data licence;full current terms not completely inspected",
       "license_url": "https://data.gov.tn/fr/licences-de-r%C3%A9utilisation-des-donn%C3%A9es-publiques-ouvertes/licence-nationale-de-donn%C3%A9es-publiques-ouvertes/",
       "api_verification_state": "historical_metadata_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-16T18:54:38.190947+00:00",
+      "latest_checked_utc": "2026-10-16T23:05:31.640155+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
