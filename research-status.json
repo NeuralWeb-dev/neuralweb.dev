@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T18:04:35.245049+00:00",
+  "published_at": "2026-10-16T18:06:37.760493+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:01:40.683874+00:00",
+  "research_updated_at": "2026-10-16T18:06:17.309167+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
@@ -18,7 +18,7 @@
     "Resolve remaining starting-point terms/access: NOAA NCEI, NASA services, EPA Envirofacts, USDA NASS, ClinicalTrials.gov, USAspending, IRS, IMF/OECD/FAO/UNESCO/UNICEF/UN SDG; retain scoped acceptance and restrictions already established for other starting points",
     "Individually process portal/STAC/ArcGIS discovery entries and 3536 re3data descriptors, then verify official provider documentation/licenses; cross-registry dedup remains pending",
     "CKAN HTML first20/1319 sites recorded; page2 returned403 after15s delay,1299 remain unsearched; do not use disallowed /api/ route",
-    "Paginate Socrata, ArcGIS, DCAT/STAC and permitted OAI-PMH discovery; current SDMX 23-agency scheme complete, Global Discovery Service13-agency/18-endpoint listing complete; endpoint activity and agency rights unresolved",
+    "Continue Socrata native deep scrolling beyond the completed10000-result offset window; boundary400 confirms offset cap. ArcGIS/DCAT/STAC/permitted OAI discovery and SDMX endpoint/rights checks remain incomplete",
     "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
     "Strengthen astronomy, transport, law, housing, companies/nonprofits, spending, energy, water and education coverage with dataset-level rights",
     "Enumerate feasible permitted portal catalogs; retain cursors and dataset licenses",
