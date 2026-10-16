@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T18:20:53.636348+00:00",
+  "published_at": "2026-10-16T18:22:56.118392+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:20:09.108090+00:00",
+  "research_updated_at": "2026-10-16T18:22:20.243767+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "GLEIF CC0 anonymous API verified;ONC solely-ownedCC BY4 scope verified;BIS and iNaturalist restricted terms recorded;IATI/CapeTown unresolved;Brazil catalog requests policy-deferred;root/cursor discovery ongoing",
   "counts": {
-    "verified": 98,
-    "candidates": 133,
+    "verified": 99,
+    "candidates": 132,
     "excluded": 10,
     "sample_successes": 132
   },
@@ -418,11 +418,11 @@
           "eccc-geomet",
           "epa-aqs",
           "noaa-weather",
+          "ocean-networks-canada",
           "usgs-water"
         ],
         "candidate_provider_ids": [
-          "epa",
-          "ocean-networks-canada"
+          "epa"
         ],
         "restricted_provider_ids": []
       },
@@ -431,11 +431,11 @@
         "verified_provider_ids": [
           "eccc-geomet",
           "ncei-coops",
+          "ocean-networks-canada",
           "usgs-water"
         ],
         "candidate_provider_ids": [
-          "epa",
-          "ocean-networks-canada"
+          "epa"
         ],
         "restricted_provider_ids": []
       },
@@ -545,11 +545,10 @@
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "ncei-coops"
-        ],
-        "candidate_provider_ids": [
+          "ncei-coops",
           "ocean-networks-canada"
         ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -1754,20 +1753,20 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "ala"
+          "ala",
+          "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
-          "ocean-networks-canada",
           "pacific-data"
         ],
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [
+        "status": "partial_verified",
+        "verified_provider_ids": [
           "ocean-networks-canada"
         ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "energy": {
@@ -1847,11 +1846,11 @@
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [
+        "status": "partial_verified",
+        "verified_provider_ids": [
           "ocean-networks-canada"
         ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -2930,6 +2929,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ocean-networks-canada",
+      "provider": "Ocean Networks Canada",
+      "service_name": "Ocean Networks Canada API",
+      "geographic_coverage": "Canada/Pacific/Arctic",
+      "topical_coverage": "oceans; water; climate/weather/environment",
+      "dataset_families": "Ocean observatories; sensors; measurements; deployments",
+      "documentation_url": "https://oceannetworkscanada.github.io/Oceans3.0-API/Home.html",
+      "api_base_url": "https://data.oceannetworks.ca/api/",
+      "format_protocol": "REST/JSON discovery and data-product services;scalar/raw data and metadata;Oceans3.0 API",
+      "authentication": "key required:unique Oceans3.0 token via registered account;no account/token obtained",
+      "free_access_restrictions": "Solely ONC-owned data explicitly free through web services/downloads. Partner restricted-data approvals may carry fees;not requested. Token required for API.",
+      "license": "CC BY4.0 for data solely owned by Ocean Networks Canada",
+      "license_url": "https://www.oceannetworks.ca/data/data-policy/",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T18:20:44.925001+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "oecd",
       "provider": "OECD",
       "service_name": "OECD API",
@@ -3159,8 +3176,8 @@
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC0 1.0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.382339+00:00",
+      "api_verification_state": "historical_sample_success_current_enumeration_policy_deferred",
+      "latest_checked_utc": "2026-10-16T18:21:32.666354+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3177,8 +3194,8 @@
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC0 1.0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.387108+00:00",
+      "api_verification_state": "historical_sample_success_current_enumeration_policy_deferred",
+      "latest_checked_utc": "2026-10-16T18:21:32.742473+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3964,15 +3981,15 @@
       "geographic_coverage": "South Africa/Cape Town",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://odp-cctegis.opendata.arcgis.com/",
+      "documentation_url": "https://www.capetown.gov.za/city-connect/all-city-online-services/open-data-portal/",
       "api_base_url": "https://odp-cctegis.opendata.arcgis.com/",
       "format_protocol": "ArcGIS Hub/FeatureServer; license review required",
-      "authentication": "unknown; public sample attempted without credentials",
+      "authentication": "no credentials supplied to public ArcGIS request;data access requirements unresolved",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown;explicit current dataset/service reuse licence not established",
       "license_url": "https://odp-cctegis.opendata.arcgis.com/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:27:27.061792+00:00",
+      "api_verification_state": "documented_sample_structured_error_service_not_started",
+      "latest_checked_utc": "2026-10-16T18:20:25.515603+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5071,24 +5088,6 @@
       "license_url": "https://www.data.govt.nz/manage-data/policies/nzgoal/",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:26:44.345437+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "ocean-networks-canada",
-      "provider": "Ocean Networks Canada",
-      "service_name": "Ocean Networks Canada API",
-      "geographic_coverage": "Canada/Pacific/Arctic",
-      "topical_coverage": "oceans; water; climate/weather/environment",
-      "dataset_families": "Ocean observatories; sensors; measurements; deployments",
-      "documentation_url": "https://data.oceannetworks.ca/OpenAPI",
-      "api_base_url": "https://data.oceannetworks.ca/api/",
-      "format_protocol": "REST/JSON",
-      "authentication": "key required; token access described by OpenAPI",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.oceannetworks.ca/data/data-policy/",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:56:06.387592+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
