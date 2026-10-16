@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T19:01:42.068615+00:00",
+  "published_at": "2026-10-16T19:03:44.443425+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:01:36.564570+00:00",
+  "research_updated_at": "2026-10-16T19:02:46.701710+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 110,
-    "candidates": 133,
+    "candidates": 134,
     "excluded": 11,
     "sample_successes": 139
   },
@@ -876,6 +876,7 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "dnb",
           "switzerland"
         ],
         "candidate_provider_ids": [
@@ -985,6 +986,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "dnb",
           "europeana",
           "eurostat",
           "registry-data-sz-ch",
@@ -1001,6 +1003,7 @@
         "verified_provider_ids": [
           "bgs",
           "darus",
+          "dnb",
           "ices-dome",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
@@ -3235,15 +3238,15 @@
       "geographic_coverage": "Global",
       "topical_coverage": "research",
       "dataset_families": "Open citation indexes; bibliographic metadata",
-      "documentation_url": "https://opencitations.net/querying",
-      "api_base_url": "https://opencitations.net/index/api/v2/",
+      "documentation_url": "https://api.opencitations.net/index/v2",
+      "api_base_url": "https://api.opencitations.net/index/v2/ | https://api.opencitations.net/meta/v1/",
       "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "Public API citation query succeeded without credentials",
+      "authentication": "Current docs encourage access token for applications;anonymous reference-count sample succeeded,no token obtained",
+      "free_access_restrictions": "Public anonymous sample succeeded;docs recommend dumps for large-scale retrieval and encourage token for applications",
       "license": "CC0 1.0",
       "license_url": "https://opencitations.net/model",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:32:30.367695+00:00",
+      "latest_checked_utc": "2026-10-16T19:01:16.705972+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5100,6 +5103,24 @@
       "license_url": "https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:28:41.458109+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-heasarc",
+      "provider": "NASA GSFC / High Energy Astrophysics Science Archive Research Center",
+      "service_name": "HEASARC Xamin and Virtual Observatory APIs",
+      "geographic_coverage": "Astronomical sky coverage;NASA and partner mission archives",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "High-energy astrophysics mission catalogs and archives;CMB data;partner XMM-Newton subset separatelyrestricted",
+      "documentation_url": "https://heasarc.gsfc.nasa.gov/docs/archive/vo/instructions.html",
+      "api_base_url": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap/ | https://heasarc.gsfc.nasa.gov/xamin/query",
+      "format_protocol": "IVOA TAP/ADQL,VOTable;Cone/SIA/SSA;Xamin customAPI",
+      "authentication": "Public interfaces documented;sample deferred,no credential obtained",
+      "free_access_restrictions": "Officialpolicy states materials freely available foruse,butXMM explicitly noncommercial only;other partner/mission rights require review",
+      "license": "Mixed/unconfirmed;general free-use wording not a uniform open licence;XMM-Newton explicitly noncommercial",
+      "license_url": "https://heasarc.gsfc.nasa.gov/docs/heasarc/data_policy.html",
+      "api_verification_state": "documented_api_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-16T19:02:16.435130+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
