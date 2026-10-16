@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-16T21:53:05.608402+00:00",
+  "published_at": "2026-10-16T21:55:08.040073+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:51:04.306031+00:00",
+  "research_updated_at": "2026-10-16T21:55:04.520921+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Culture:existingMet CC0/19departmentreferences;existingAIC downgradedtocandidate unreadincorporatedterms/101GETtemplates;Rijksnewcandidate7interfaces/searchsuccess/OAI500;LoClimitsreviewed",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 133,
+    "verified": 134,
     "candidates": 165,
-    "excluded": 22,
+    "excluded": 23,
     "sample_successes": 158
   },
   "remaining_work": [
@@ -2638,6 +2638,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "bnf-catalogue",
+      "provider": "Bibliothèque nationale de France (BnF)",
+      "service_name": "BnF Catalogue général SRU bibliographic and authority metadata",
+      "geographic_coverage": "France;Europe;global library and heritage collections",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Cataloguegénéralbibliographicandvalidatedauthorityrecords,books,serials,music,audiovisualandrelatedcontrollednames/works;notdigitizeddocumentrights",
+      "documentation_url": "https://api.bnf.fr/fr/api-sru-catalogue-general",
+      "api_base_url": "https://catalogue.bnf.fr/api/SRU",
+      "format_protocol": "SRU1.2/CQLoverHTTP;XMLDublinCore/Intermarc/UNIMARC",
+      "authentication": "No credentials acquired;smallanonymous request deferred beforetargetfetch",
+      "free_access_restrictions": "Officialmetadatareusefree;APItechnicalquota/SLAunknown. Noaccount/paymentacquired.",
+      "license": "Licence Ouverte/Open Licence forBnFdescriptivebibliographic/authoritymetadata;currentpageversionunnumbered,officialv1.0textreviewed",
+      "license_url": "https://www.bnf.fr/fr/conditions-de-reutilisations-des-donnees-de-la-bnf | https://www.bnf.fr/sites/default/files/2018-11/metadonnees_bnf_cond_utilisation.pdf | https://data.bnf.fr/docs/Licence-Ouverte-Open-Licence.pdf",
+      "api_verification_state": "documented_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T21:53:50.981610+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "brazil-bcb",
       "provider": "Central Bank of Brazil Open Data",
       "service_name": "Banco Central do Brasil SGS time-series API",
@@ -4020,7 +4038,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:49:32.681154+00:00",
+      "latest_checked_utc": "2026-10-16T21:54:44.097612+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7913,6 +7931,24 @@
       "license_url": "https://data.bis.org/help/legal",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T18:17:36.816838+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bnf-gallica",
+      "provider": "Bibliothèque nationale de France (BnF)",
+      "service_name": "Gallica digitized-content APIs:restricted images/sound scope",
+      "geographic_coverage": "France;Europe;global library and heritage collections",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Gallicadigitizedheritageimagesanddocumentservices;SRUdiscovery,IIIFimage/presentation,OCR/text/documentaccess relatedinterfaces. Restrictedscopeimages/sound,notallmetadata.",
+      "documentation_url": "https://api.bnf.fr/fr/api-iiif-de-recuperation-des-images-de-gallica | https://api.bnf.fr/fr/api-gallica-de-recherche",
+      "api_base_url": "https://gallica.bnf.fr/iiif/ | https://gallica.bnf.fr/services/",
+      "format_protocol": "DocumentedSRU/XMLsearch,IIIF2Image/PresentationJSON,documentXML/OCR/plaintextservices;runtimeuntested",
+      "authentication": "No credentials acquired;smallanonymous request deferred beforetargetfetch",
+      "free_access_restrictions": "Publicdocumentationnotfreecommercialcontentgrant. No media/order/paiddataacquired;metadataandscientificexceptionsmustbescoped.",
+      "license": "Gallicacontentconditions;BnFcommercialimages/soundauthorizationandusagefees;metadataopengrantseparate",
+      "license_url": "https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica | https://www.bnf.fr/en/order-reproduction-commercial-use",
+      "api_verification_state": "documented_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T21:53:50.981610+00:00",
       "classification": "restricted"
     },
     {
