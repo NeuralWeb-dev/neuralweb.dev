@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T20:53:56.382275+00:00",
+  "published_at": "2026-10-16T20:55:58.677309+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:50:09.630801+00:00",
+  "research_updated_at": "2026-10-16T20:55:18.639659+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Manual license/access reviews applied",
   "counts": {
-    "verified": 125,
+    "verified": 127,
     "candidates": 154,
     "excluded": 21,
-    "sample_successes": 149
+    "sample_successes": 150
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -2882,6 +2882,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "faroe-statistics",
+      "provider": "Statistics Faroe Islands / Hagstova Foroya",
+      "service_name": "Statbank PxWeb API",
+      "geographic_coverage": "Faroe Islands; Europe; North Atlantic",
+      "topical_coverage": "demographics; economics/finance; labor; climate/weather/environment; energy; health; education; transportation; public spending/contracts; law/civic; culture; research",
+      "dataset_families": "20 root subject directories including population/elections, labour/wages, prices/income, education/culture/health/social affairs, justice, transport, trade/business/credit/public finance/national accounts, environment/energy, research, census and SDGs",
+      "documentation_url": "https://www.hagstova.fo/fo/nytslutreytir | https://statbank.hagstova.fo/",
+      "api_base_url": "https://statbank.hagstova.fo/api/v1/en/H2/",
+      "format_protocol": "PxWeb API v1 JSON directory/table metadata; data selection via read-only POST documented by linked framework guidance, untested",
+      "authentication": "Anonymous directory metadata GET succeeded; no account/key used",
+      "free_access_restrictions": "Terms expressly permit reuse/adaptation for all purposes including commercial without special permission or reuse fee; considerate API use required, provider may restrict access if overloaded.",
+      "license": "CC BY4.0 default; indicated exceptions",
+      "license_url": "https://www.hagstova.fo/fo/nytslutreytir",
+      "api_verification_state": "sample_success_scoped_open_license_metadata",
+      "latest_checked_utc": "2026-10-16T20:50:57.123042+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "france",
       "provider": "French government data.gouv.fr",
       "service_name": "French government data.gouv.fr open data portal",
@@ -3041,6 +3059,24 @@
       "license_url": "https://www.govinfo.gov/about/policies",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:37:23.732047+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "iceland-statistics",
+      "provider": "Statistics Iceland / Hagstofa Islands",
+      "service_name": "Statistical Database PxWeb API",
+      "geographic_coverage": "Iceland",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; water; energy; health; education; housing; transportation; public spending/contracts; companies/nonprofits; law/civic; culture; research",
+      "dataset_families": "Population/census/migration, labour/income, education/health, business/fisheries/agriculture, prices/national accounts/public finance, environment/water/energy/transport; official subject navigation, not enumerated table inventory",
+      "documentation_url": "https://www.hagstofa.is/utgafur/leidbeiningar/talnagrunnur/um-api/ | https://www.statice.is/publications/open-data-access/",
+      "api_base_url": "https://px.hagstofa.is/pxis/api/v1/is/",
+      "format_protocol": "PxWeb API v1 JSON directory/table metadata; data selection via read-only POST documented by linked framework guidance, untested",
+      "authentication": "Official open-data/API page says no registration required; sample returned429, so runtime authentication not successfully tested",
+      "free_access_restrictions": "Published statistics open under CC BY4.0; current API access throttled in sample. Paid tailored statistics/microdata services are outside this public aggregate API scope.",
+      "license": "CC BY4.0",
+      "license_url": "https://www.statice.is/publications/open-data-access/",
+      "api_verification_state": "documented_open_license_sample_http429",
+      "latest_checked_utc": "2026-10-16T20:50:12.881779+00:00",
       "classification": "open_license_verified"
     },
     {
