@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:56:24.784007+00:00",
+  "published_at": "2026-10-16T17:58:26.869025+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:55:49.551304+00:00",
+  "research_updated_at": "2026-10-16T17:57:40.708478+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 90,
-    "candidates": 137,
+    "candidates": 138,
     "excluded": 7,
-    "sample_successes": 127
+    "sample_successes": 128
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1551,6 +1551,7 @@
         ],
         "candidate_provider_ids": [
           "philippines",
+          "philippines-openstat",
           "vietnam"
         ],
         "restricted_provider_ids": []
@@ -1562,6 +1563,7 @@
         ],
         "candidate_provider_ids": [
           "philippines",
+          "philippines-openstat",
           "vietnam"
         ],
         "restricted_provider_ids": []
@@ -1570,14 +1572,17 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "philippines"
+          "philippines",
+          "philippines-openstat"
         ],
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "philippines-openstat"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
@@ -1670,9 +1675,11 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "philippines-openstat"
+        ],
         "restricted_provider_ids": []
       },
       "research": {
@@ -4787,11 +4794,11 @@
       "api_base_url": "https://clinicaltrials.gov/api/v2/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "free_access_restrictions": "Terms explicitly say data available at no charge to all requesters inside/outside US; source/date/modification/currentness guidance and no proprietary claims/marketing-email reuse apply",
+      "license": "Custom ClinicalTrials.gov data terms; international copyright and third-party rights retained; broad open-license grant unconfirmed",
       "license_url": "https://clinicaltrials.gov/about-site/terms-conditions",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T17:20:42.900952+00:00",
+      "latest_checked_utc": "2026-10-16T17:56:29.136759+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5188,6 +5195,24 @@
       "license_url": "https://psa.gov.ph/terms-of-use",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:26:54.238029+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "philippines-openstat",
+      "provider": "Philippine Statistics Authority",
+      "service_name": "PSA OpenSTAT PxWeb API",
+      "geographic_coverage": "Philippines; table-specific coverage",
+      "topical_coverage": "agriculture; demographics; economics/finance; labor",
+      "dataset_families": "OpenSTAT national statistics directories; API root confirms Agriculture/Forestry/Fisheries and other sector folders; specific tables unreviewed",
+      "documentation_url": "https://openstat.psa.gov.ph/",
+      "api_base_url": "https://openstat.psa.gov.ph/PXWeb/api/v1/en/DB/",
+      "format_protocol": "PxWeb JSON metadata; table data queries not yet tested",
+      "authentication": "none for successful public directory metadata request",
+      "free_access_restrictions": "Public metadata sample works without credentials; broader free service tiers/limits unverified",
+      "license": "PSA main publication pages carry CC BY4 statements; exact OpenSTAT table/service rights unresolved",
+      "license_url": "https://psa.gov.ph/statistics/wholesale-prices-of-cereals/node/1684064483",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T17:57:37.524086+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
