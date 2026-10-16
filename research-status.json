@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T17:01:18.923106+00:00",
+  "published_at": "2026-10-16T17:03:21.255572+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:00:39.986134+00:00",
+  "research_updated_at": "2026-10-16T17:03:18.911765+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Research batch resume-regional-services; checkpoint cifor-icraf",
   "counts": {
     "verified": 72,
-    "candidates": 144,
+    "candidates": 145,
     "excluded": 4,
     "sample_successes": 116
   },
@@ -3492,6 +3492,24 @@
       "license_url": "https://www.stats.gov.cn/english/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.909090+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cifor-icraf",
+      "provider": "CIFOR-ICRAF / World Agroforestry",
+      "service_name": "CIFOR-ICRAF / World Agroforestry API",
+      "geographic_coverage": "Global/Sub-Saharan Africa/Kenya",
+      "topical_coverage": "agriculture; biodiversity; climate/weather/environment; research",
+      "dataset_families": "Agroforestry; trees; land use; smallholder livelihoods; research datasets",
+      "documentation_url": "https://data.worldagroforestry.org/",
+      "api_base_url": "https://data.worldagroforestry.org/api/",
+      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://data.worldagroforestry.org/terms-of-use.xhtml",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T17:03:18.889995+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
