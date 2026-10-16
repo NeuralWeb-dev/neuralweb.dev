@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T21:22:29.276813+00:00",
+  "published_at": "2026-10-16T21:24:31.742629+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:20:33.982074+00:00",
+  "research_updated_at": "2026-10-16T21:22:45.486942+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Manual license/access reviews applied",
   "counts": {
@@ -6649,14 +6649,14 @@
       "topical_coverage": "companies/nonprofits",
       "dataset_families": "REGON national economy entities byREGON,NIP,KRS identifiers; public-business register webservice",
       "documentation_url": "https://api.stat.gov.pl/Home/RegonApi?lang=en",
-      "api_base_url": "",
-      "format_protocol": "BIR1 SOAP/webservice documented; current productionbase and version not independently extracted",
+      "api_base_url": "https://wyszukiwarkaregon.stat.gov.pl/wsBIR/UslugaBIRzewnPubl.svc",
+      "format_protocol": "SOAP WSDL production address parsed fromofficial BIR1.1technicalZIP; runtime untested",
       "authentication": "Production User Key requires registration/request per official page; untested,no message/account/key acquired",
       "free_access_restrictions": "Official page explicitly says service and data free ofcharge,including commercial entities. This is access pricing,not a verified reuse grant.",
       "license": "unknown",
       "license_url": "",
       "api_verification_state": "documented_key_required_untested_license_unconfirmed",
-      "latest_checked_utc": "2026-10-16T21:16:14.397922+00:00",
+      "latest_checked_utc": "2026-10-16T21:20:46.856661+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6728,7 +6728,7 @@
       "license": "unknown",
       "license_url": "",
       "api_verification_state": "documented_credential_required_untested_license_unconfirmed",
-      "latest_checked_utc": "2026-10-16T21:16:15.417488+00:00",
+      "latest_checked_utc": "2026-10-16T21:20:50.947616+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
