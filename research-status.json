@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:07:26.317690+00:00",
+  "published_at": "2026-10-16T17:09:28.716672+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:05:07.115636+00:00",
+  "research_updated_at": "2026-10-16T17:07:45.186365+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Re3data descriptor expansion with official API/license discovery hints",
+  "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 72,
-    "candidates": 150,
+    "verified": 74,
+    "candidates": 148,
     "excluded": 4,
-    "sample_successes": 118
+    "sample_successes": 119
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -78,6 +78,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "cifor-icraf",
           "fao",
           "ocha-hapi",
           "wfp"
@@ -92,6 +93,7 @@
         ],
         "candidate_provider_ids": [
           "bgs",
+          "cifor-icraf",
           "copernicus-stac",
           "fao",
           "hdx",
@@ -125,6 +127,7 @@
           "eia"
         ],
         "candidate_provider_ids": [
+          "nims-mdr",
           "openchargemap"
         ],
         "restricted_provider_ids": []
@@ -134,6 +137,7 @@
         "verified_provider_ids": [
           "datacommons",
           "neuromorpho",
+          "nih-pubmed",
           "pdb",
           "uniprot",
           "worldbank"
@@ -144,7 +148,6 @@
           "fsd-finland",
           "hdx",
           "nih-clinicaltrials",
-          "nih-pubmed",
           "ocha-hapi",
           "openaq",
           "unicef",
@@ -241,6 +244,7 @@
           "uniprot"
         ],
         "candidate_provider_ids": [
+          "cifor-icraf",
           "ena",
           "inaturalist",
           "planetary-computer",
@@ -286,6 +290,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "cifor-icraf",
           "fao",
           "loc",
           "metmuseum",
@@ -306,6 +311,7 @@
           "dryad",
           "gavo",
           "neuromorpho",
+          "nih-pubmed",
           "openalex",
           "opencitations",
           "opencontext",
@@ -318,6 +324,7 @@
         ],
         "candidate_provider_ids": [
           "b2share",
+          "cifor-icraf",
           "ena",
           "europepmc",
           "figshare",
@@ -325,7 +332,7 @@
           "harvard-dataverse",
           "loc",
           "nih-clinicaltrials",
-          "nih-pubmed",
+          "nims-mdr",
           "pangaea",
           "perspectivia",
           "smithsonian",
@@ -448,9 +455,11 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "canadensys"
+        ],
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
@@ -493,6 +502,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "canadensys",
           "smithsonian"
         ],
         "restricted_provider_ids": []
@@ -597,9 +607,11 @@
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "ciencia-aberta"
+        ],
         "restricted_provider_ids": []
       },
       "education": {
@@ -679,9 +691,11 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "ciencia-aberta"
+        ],
         "restricted_provider_ids": []
       }
     },
@@ -1084,6 +1098,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "cifor-icraf",
           "wascal"
         ],
         "restricted_provider_ids": []
@@ -1092,6 +1107,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "cifor-icraf",
           "wascal"
         ],
         "restricted_provider_ids": []
@@ -1164,9 +1180,11 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "cifor-icraf"
+        ],
         "restricted_provider_ids": []
       },
       "oceans": {
@@ -1185,6 +1203,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "cifor-icraf",
           "wascal"
         ],
         "restricted_provider_ids": []
@@ -1193,6 +1212,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "cifor-icraf",
           "wascal"
         ],
         "restricted_provider_ids": []
@@ -1378,9 +1398,11 @@
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nims-mdr"
+        ],
         "restricted_provider_ids": []
       },
       "health": {
@@ -1415,7 +1437,9 @@
           "japan",
           "taiwan"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "gbif-japan"
+        ],
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
@@ -1441,9 +1465,11 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "gbif-japan"
+        ],
         "restricted_provider_ids": []
       },
       "oceans": {
@@ -1465,9 +1491,11 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nims-mdr"
+        ],
         "restricted_provider_ids": []
       }
     },
@@ -1652,8 +1680,10 @@
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "ala"
+        ],
         "candidate_provider_ids": [
           "ocean-networks-canada",
           "pacific-data"
@@ -1710,6 +1740,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "ala",
           "australia"
         ],
         "candidate_provider_ids": [
@@ -1738,8 +1769,10 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "ala"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1924,6 +1957,24 @@
       "license_url": "https://www.abs.gov.au/website-privacy-copyright-and-disclaimer",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:37:23.707565+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ala",
+      "provider": "Atlas of Living Australia",
+      "service_name": "Atlas of Living Australia API",
+      "geographic_coverage": "Australia",
+      "topical_coverage": "biodiversity; geospatial; climate/weather/environment",
+      "dataset_families": "Species; occurrences; biodiversity datasets; spatial layers",
+      "documentation_url": "https://docs.ala.org.au/",
+      "api_base_url": "https://api.ala.org.au/",
+      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
+      "authentication": "none on sampled biocache route; current Common APIs gateway requires tracking key",
+      "free_access_restrictions": "Legacy biocache search sample succeeded without credentials; current gateway key requirements do not imply every legacy route is unkeyed long-term",
+      "license": "CC BY 4.0 for verified source resource; occurrence payload also declared CC0",
+      "license_url": "https://collections.ala.org.au/ws/dataResource/dr15863",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:07:43.650785+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2518,6 +2569,24 @@
       "license_url": "https://neuromorpho.org/useterm.jsp",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:58:57.624526+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nih-pubmed",
+      "provider": "NIH National Center for Biotechnology Information",
+      "service_name": "NCBI E-utilities — PubMed metadata subset",
+      "geographic_coverage": "Global",
+      "topical_coverage": "health; research",
+      "dataset_families": "PubMed/MEDLINE citation and NLM-authored indexing metadata; other Entrez databases require separate rights review",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+      "api_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for sampled E-utilities query; optional key tiers documented separately",
+      "free_access_restrictions": "NLM states no charges, fees or royalties for PubMed data; acknowledge NLM, avoid trademark/endorsement misuse, keep data current or disclose stale version",
+      "license": "NLM data distribution terms; NLM-authored content public domain; copyrighted abstracts excluded",
+      "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:07:43.699580+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3243,24 +3312,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "ala",
-      "provider": "Atlas of Living Australia",
-      "service_name": "Atlas of Living Australia API",
-      "geographic_coverage": "Australia",
-      "topical_coverage": "biodiversity; geospatial; climate/weather/environment",
-      "dataset_families": "Species; occurrences; biodiversity datasets; spatial layers",
-      "documentation_url": "https://docs.ala.org.au/",
-      "api_base_url": "https://api.ala.org.au/",
-      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.ala.org.au/terms-of-use/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:03:25.746609+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "austria",
       "provider": "Austrian government data.gv.at",
       "service_name": "Austrian government data.gv.at open data portal",
@@ -3542,10 +3593,10 @@
       "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://dadosdepesquisa.fiocruz.br/",
+      "license": "Sample released dataset CC BY-NC 4.0; other repository records unreviewed",
+      "license_url": "https://dadosdepesquisa.fiocruz.br/api/datasets/:persistentId/?persistentId=doi%3A10.35078%2FPENXWQ",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:03:32.192572+00:00",
+      "latest_checked_utc": "2026-10-16T17:07:43.665300+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -3558,12 +3609,12 @@
       "documentation_url": "https://data.worldagroforestry.org/",
       "api_base_url": "https://data.worldagroforestry.org/api/",
       "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
-      "authentication": "unknown; public sample attempted without credentials",
+      "authentication": "key required by sampled Dataverse search (HTTP401 with explicit key requirement)",
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://data.worldagroforestry.org/terms-of-use.xhtml",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T17:03:18.889995+00:00",
+      "latest_checked_utc": "2026-10-16T17:07:43.682311+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4449,24 +4500,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "nih-pubmed",
-      "provider": "NIH National Center for Biotechnology Information",
-      "service_name": "NIH National Center for Biotechnology Information API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "health; research",
-      "dataset_families": "PubMed; PMC; Gene; nucleotide; taxonomy Entrez databases",
-      "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
-      "api_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:24:54.939837+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "nims-mdr",
       "provider": "National Institute for Materials Science Materials Data Repository",
       "service_name": "National Institute for Materials Science Materials Data Repository API",
@@ -4480,8 +4513,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://mdr.nims.go.jp/terms",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T17:03:21.920955+00:00",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T17:07:43.715303+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
