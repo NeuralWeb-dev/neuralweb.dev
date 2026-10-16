@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T19:03:44.443425+00:00",
+  "published_at": "2026-10-16T19:05:46.611604+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:02:46.701710+00:00",
+  "research_updated_at": "2026-10-16T19:04:26.156961+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 110,
-    "candidates": 134,
-    "excluded": 11,
-    "sample_successes": 139
+    "candidates": 135,
+    "excluded": 12,
+    "sample_successes": 140
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -270,11 +270,13 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "ena",
+          "idigbio",
           "planetary-computer",
           "smithsonian"
         ],
         "restricted_provider_ids": [
           "deims",
+          "ebird",
           "inaturalist",
           "worms"
         ]
@@ -369,6 +371,7 @@
           "figshare",
           "fsd-finland",
           "harvard-dataverse",
+          "idigbio",
           "jpl-ssd",
           "loc",
           "nih-clinicaltrials",
@@ -380,6 +383,7 @@
         "restricted_provider_ids": [
           "copernicus-marine",
           "deims",
+          "ebird",
           "un-comtrade"
         ]
       }
@@ -4854,6 +4858,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "idigbio",
+      "provider": "Integrated Digitized Biocollections (iDigBio)",
+      "service_name": "iDigBio SearchAPIv2",
+      "geographic_coverage": "Global;collection/observation-specific coverage",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Naturalhistory specimen andmedia metadata;recordset/collection discovery;specimenobservations notfetched",
+      "documentation_url": "https://github.com/iDigBio/idigbio-search-api/wiki",
+      "api_base_url": "https://search.idigbio.org/v2/",
+      "format_protocol": "Read-onlyHTTPGET/POSTJSON",
+      "authentication": "No credentials in successful collectionmetadata query",
+      "free_access_restrictions": "Publicmetadata query succeeded;source-specificrights,mixedlicences;not uniformopenaccess grant",
+      "license": "Dataset-specific/mixed;sample metadata declares CC3 BY-NC;projectwide open licence unconfirmed",
+      "license_url": "https://www.idigbio.org/sites/default/files/iDigBio_Intellectual_Property_Policy_20141001.pdf",
+      "api_verification_state": "documented_collection_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T19:04:16.633363+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "india",
       "provider": "Government of India data.gov.in",
       "service_name": "Government of India data.gov.in open data portal",
@@ -6509,6 +6531,24 @@
       "license_url": "https://deims.org/terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:58:57.603548+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ebird",
+      "provider": "Cornell Lab of Ornithology / eBird",
+      "service_name": "eBird API2.0",
+      "geographic_coverage": "Global;collection/observation-specific coverage",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Bird observation,hotspot andtaxonomy reference services;no recordsretrieved",
+      "documentation_url": "https://documenter.getpostman.com/view/664302/S1ENwy59",
+      "api_base_url": "https://api.ebird.org/v2/",
+      "format_protocol": "RESTJSON documented;APIcallsuntested",
+      "authentication": "Key associated with eBirdaccount required for most APIs;termsallow fewunspecified exceptions",
+      "free_access_restrictions": "Noncommercial licence;commercialuse requires prior writtenpermission;no paidacquisition or permissionrequested",
+      "license": "Custom noncommercial,revocable,nontransferable,nonsublicensable API/data-use terms",
+      "license_url": "https://www.birds.cornell.edu/home/ebird-api-terms-of-use/",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T19:03:24.478790+00:00",
       "classification": "restricted"
     },
     {
