@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T20:49:51.270053+00:00",
+  "published_at": "2026-10-16T20:51:53.989467+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:48:34.104579+00:00",
+  "research_updated_at": "2026-10-16T20:50:09.630801+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Bundesbank metadata API observed; 94 finite dataflow definitions; rights unresolved",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
     "verified": 125,
     "candidates": 154,
     "excluded": 21,
-    "sample_successes": 148
+    "sample_successes": 149
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4054,19 +4054,19 @@
     {
       "identifier": "scb",
       "provider": "Statistics Sweden",
-      "service_name": "Statistics Sweden API",
+      "service_name": "Statistical Database PxWeb APIs v2 and legacy v1",
       "geographic_coverage": "Sweden",
       "topical_coverage": "demographics; economics/finance; labor; housing",
       "dataset_families": "Statistical Database tables and dimensions",
-      "documentation_url": "https://www.scb.se/en/services/open-data-api/",
-      "api_base_url": "https://api.scb.se/OV0104/v1/doris/en/ssd/",
-      "format_protocol": "PXWeb/JSON",
-      "authentication": "none for metadata; POST used for data queries",
-      "free_access_restrictions": "Open data free of charge; metadata GET succeeded without credentials",
-      "license": "CC0 1.0",
-      "license_url": "https://www.scb.se/en/services/open-data-api/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.741823+00:00",
+      "documentation_url": "https://www.scb.se/en/services/open-data-api/pxwebapi/pxwebapi-2.0/?menu=open+%7C+https%3A%2F%2Fraw.githubusercontent.com%2FPxTools%2FPxApiSpecs%2Fmaster%2FPxAPI-2.yml+%7C+https%3A%2F%2Fwww.pxtools.net%2FPxWebApi%2Fdocumentation%2Fuser-guide%2F",
+      "api_base_url": "https://statistikdatabasen.scb.se/api/v2/ | https://api.scb.se/OV0104/v1/doris/en/ssd/",
+      "format_protocol": "PxWebApi v2 GET/POST JSON; table metadata observed; data outputs documented json-stat2, CSV, PX, XLSX, HTML, JSON-PX, Parquet but untested. Legacy v1 metadata JSON remains distinct interface.",
+      "authentication": "Anonymous v2 table-list GET and prior legacy v1 root metadata succeeded; no account/key used",
+      "free_access_restrictions": "SCB open data available free; scoped CC0 for covered statistics/geodata. Other responsible agencies may impose special rules; inspect source-specific declarations.",
+      "license": "CC0 1.0 Universal for SCB open statistics/geodata; source exceptions",
+      "license_url": "https://www.scb.se/om-scb/om-scb.se-och-anvandningsvillkor | https://www.scb.se/en/services/open-data-api/",
+      "api_verification_state": "sample_success_scoped_open_license_v2_metadata",
+      "latest_checked_utc": "2026-10-16T20:49:02.074397+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4498,7 +4498,7 @@
       "license": "CC BY 4.0 with World Bank additional dispute-resolution terms; metadata exceptions",
       "license_url": "https://www.worldbank.org/ext/en/legal/terms-conditions/datasets | https://data.worldbank.org/summary-terms-of-use",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T20:32:37.061037+00:00",
+      "latest_checked_utc": "2026-10-16T20:38:15.941431+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4715,8 +4715,8 @@
       "free_access_restrictions": "Public metadata request succeeded without payment; data rights/access conditions for underlying series unconfirmed",
       "license": "unknown",
       "license_url": "https://www.bundesbank.de/en/homepage/imprint",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:48:34.049097+00:00",
+      "api_verification_state": "sample_success_metadata_xml_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-16T20:46:02.776275+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7218,7 +7218,7 @@
       "license": "unknown; current explicit data rights unresolved",
       "license_url": "https://www.usaspending.gov/about",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T19:14:22.498666+00:00",
+      "latest_checked_utc": "2026-10-16T20:43:19.791507+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7236,7 +7236,7 @@
       "license": "unknown",
       "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T17:42:33.920127+00:00",
+      "latest_checked_utc": "2026-10-16T20:43:19.205193+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
