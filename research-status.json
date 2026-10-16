@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T22:29:48.920064+00:00",
+  "published_at": "2026-10-16T22:31:51.237005+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:29:37.583745+00:00",
+  "research_updated_at": "2026-10-16T22:30:54.246913+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WorldPopdistinctAPIservices andfinitecatalogmetadata",
+  "latest_milestone": "AfricanstatisticalAPIguides andlicence/accessscopechecks",
   "counts": {
     "verified": 137,
-    "candidates": 172,
+    "candidates": 174,
     "excluded": 24,
     "sample_successes": 160
   },
@@ -6237,6 +6237,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mauritius",
+      "provider": "Mauritius national Open Data Portal / Mauritius Digital Promotion Agency (MDPA)",
+      "service_name": "Open Data Mauritius CKAN catalog and Datastore API",
+      "geographic_coverage": "Mauritius;dataset-specificnational/districtcoverage;otherterritorialcoverageunconfirmed",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "OfficialindexednationalcatalogincludesGDP/GVA/employment,traffic/licencecounts,ICT,agricultureandotherpublicdata;noexhaustivecurrentcatalogenumerationorresource-to-APIeligibilityestablished.",
+      "documentation_url": "https://data.govmu.org/en/api/1/util/snippet/api_info.html?resource_id=080b35d3-710f-41d7-b2b4-b7161eb5c616+%7C+https%3A%2F%2Fmdpa.govmu.org%2Fmdpa%2Findex.php%2Fprojects%2F",
+      "api_base_url": "https://data.govmu.org/en/api/action/",
+      "format_protocol": "OfficialindexedCKANDataAPIguide:datastore_search/datastore_search_sql JSON,POSTexamplesandbrowserGET. NoactualAPIresponsetested;notframework-onlyassumption.",
+      "authentication": "Indexedguidehastoken-bearingPOSTexamplesandbrowserGETexample;cannotinferrequiredtokenoranonymouspermissions. Noaccount/keyobtained.",
+      "free_access_restrictions": "2017policyrawonlineopendatafree;processeddata mayhavemarginalcosts. CurrentAPIcost/limits/registrationunconfirmed;noacquisition/payment.",
+      "license": "2017NationalOpenDataPolicyadoptsCC-BY-4.0forreleasedgovernmentopendata;currentdataset-specificCC-BY-SA-4.0/ODCBydeclarationsindexed;fullportalgrantunconfirmed",
+      "license_url": "https://bot.govmu.org/Documents/Strategies/Mauritius%20Open%20Data%20Policy%20May%202017.pdf | https://data.govmu.org/dataset/number-driving-licence-issued-year-and-type-licence | https://data.govmu.org/dataset/?license_id=odc-by&sort=views_recent+desc",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T22:30:54.173543+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mbie-geodata",
       "provider": "New Zealand Petroleum & Minerals / MBIE",
       "service_name": "Geodata Catalogue Search API",
@@ -7782,6 +7800,24 @@
       "license_url": "https://data.gov.tw/dataset/6069",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:37.662144+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tanzania-census",
+      "provider": "Tanzania National Bureau of Statistics (NBS); Census Hub / OCGS Zanzibar contributions",
+      "service_name": "Census Hub Tanzania Data Access API",
+      "geographic_coverage": "Tanzania;MainlandandZanzibar;national,subnational,regions,districts,councils,constituencies/wardsdocumented",
+      "topical_coverage": "demographics; housing; geospatial",
+      "dataset_families": "Censuskeydemographic/socioeconomicindicators;sectors/subsectors/indicators/subgroups/areas/indicatorvalues. Introductionadvertisesalmost1000indicators,notenumerated. Documentedyearfilters1967,1978,2012,2022.",
+      "documentation_url": "https://sensa.nbs.go.tz/data-sharing/introduction.md | https://sensa.nbs.go.tz/data-sharing/api-basics.md | https://sensa.nbs.go.tz/data-sharing/area.md | https://sensa.nbs.go.tz/data-sharing/indicator-values.md | https://sensa.nbs.go.tz/",
+      "api_base_url": "https://tisp.nbs.go.tz:8000/census/",
+      "format_protocol": "RESTJSONdefault/HTMLdocumented;6endpointfamilieswithcomma-separatedfilters;actualAPIresponseuntested",
+      "authentication": "Guideauthenticationrequirementunknown;sampledeferredbyrobotsbeforetarget,noaccount/keyused",
+      "free_access_restrictions": "Public8guidefiles200;NBSdatagrantroyalty-free,butactualAPIservicepermissions/charges/SLAunknown",
+      "license": "NBS customLicenceAgreementreviewed;currentCensusAPIjointsource/authorizeduserapplicabilityunresolved",
+      "license_url": "https://www.nbs.go.tz/nbs/takwimu/references/Licence-Agreement-NBS.pdf | https://www.nbs.go.tz/nbs/takwimu/references/Terms-and-Conditions.pdf",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T22:30:54.005153+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
