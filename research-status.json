@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T18:29:03.106393+00:00",
+  "published_at": "2026-10-16T18:31:06.052772+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:28:59.250301+00:00",
+  "research_updated_at": "2026-10-16T18:29:04.105956+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
@@ -91,13 +91,13 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "datacommons",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
           "usgs-earthquake"
         ],
         "candidate_provider_ids": [
-          "bgs",
           "cifor-icraf",
           "copernicus-stac",
           "hdx",
@@ -121,11 +121,9 @@
         ]
       },
       "water": {
-        "status": "partial_candidates_only",
+        "status": "restricted_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [
-          "bgs"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": [
           "fao"
         ]
@@ -133,6 +131,7 @@
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "eia"
         ],
         "candidate_provider_ids": [
@@ -204,6 +203,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "geoboundaries",
           "geonames",
           "opencontext",
@@ -212,7 +212,6 @@
           "wikidata"
         ],
         "candidate_provider_ids": [
-          "bgs",
           "copernicus-stac",
           "nasa-cmr",
           "nsidc",
@@ -274,6 +273,7 @@
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "obis"
         ],
         "candidate_provider_ids": [
@@ -328,6 +328,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arxiv",
+          "bgs",
           "crossref",
           "datacite",
           "dryad",
@@ -816,28 +817,27 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "france",
+          "ices-dome",
           "registry-transparenz-karlsruhe-de",
           "transportapi-fi"
         ],
-        "candidate_provider_ids": [
-          "bgs"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": [
           "copernicus-marine"
         ]
       },
       "water": {
-        "status": "partial_candidates_only",
+        "status": "unsearched",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [
-          "bgs"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "eurostat"
         ],
         "candidate_provider_ids": [
@@ -889,6 +889,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "france",
           "portugal",
           "registry-data-sz-ch",
@@ -896,9 +897,7 @@
           "registry-europeandataportal-eu",
           "transportapi-fi"
         ],
-        "candidate_provider_ids": [
-          "bgs"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
@@ -935,7 +934,8 @@
       "biodiversity": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "france"
+          "france",
+          "ices-dome"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -943,6 +943,8 @@
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
+          "ices-dome",
           "transportapi-fi"
         ],
         "candidate_provider_ids": [],
@@ -972,7 +974,9 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bgs",
           "darus",
+          "ices-dome",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu"
         ],
