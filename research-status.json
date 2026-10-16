@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T23:51:26.765471+00:00",
+  "published_at": "2026-10-16T23:53:29.119197+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:50:55.710236+00:00",
+  "research_updated_at": "2026-10-16T23:53:26.430878+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Lithuanian DataPortal selectedCCBY4/liveone-rowAPI",
+  "latest_milestone": "Jordan officialAPIguide,access/licenseunresolved",
   "counts": {
     "verified": 151,
-    "candidates": 194,
+    "candidates": 195,
     "excluded": 25,
-    "sample_successes": 185
+    "sample_successes": 188
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1006,6 +1006,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
+          "lithuania-dataportal",
           "moldova-data",
           "ons",
           "poland-bdl",
@@ -1380,6 +1381,7 @@
           "faroe-statistics",
           "georgia-statistics",
           "iceland-statistics",
+          "lithuania-dataportal",
           "poland-bdl",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
@@ -1412,6 +1414,7 @@
           "geri",
           "iceland-statistics",
           "ices-dome",
+          "lithuania-dataportal",
           "poland-bdl",
           "registry-data-bl-ch",
           "registry-data-tg-ch",
@@ -3593,8 +3596,8 @@
       "free_access_restrictions": "Selected public API metadata without account/payment;no paiddata,accounts or keys used. Additional resources/source exceptions not reviewed.",
       "license": "CC-BY-SA-4.0",
       "license_url": "https://andmed.stat.ee/en/help | https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
-      "api_verification_state": "documented_JSON_metadata_and_one_cell_readonly_POST_observation_success",
-      "latest_checked_utc": "2026-10-16T23:47:37.617194+00:00",
+      "api_verification_state": "documented_JSON_metadata_and_one_cell_readonly_POST_observation_sample_success",
+      "latest_checked_utc": "2026-10-16T23:52:11.453214+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3809,8 +3812,8 @@
       "free_access_restrictions": "Selected public API metadata without account/payment;no paiddata,accounts or keys used. Additional resources/source exceptions not reviewed.",
       "license": "Custom unrestricted statistical reuse permission with attribution",
       "license_url": "https://www.geostat.ge/en/page/monacemta-gamoyenebis-pirobebi",
-      "api_verification_state": "documented_official_PxWeb_link_and_live_JSON_directory_metadata_success_observations_untested",
-      "latest_checked_utc": "2026-10-16T23:48:37.798712+00:00",
+      "api_verification_state": "documented_official_PxWeb_link_and_live_JSON_directory_metadata_sample_success_observations_untested",
+      "latest_checked_utc": "2026-10-16T23:52:10.983636+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4061,8 +4064,8 @@
       "free_access_restrictions": "Selected public metadata/data without account/payment. Accepted selecteddistributions CC BY4;othernamespace/table/file/API/MCP rights and exposure not implied. No personalpatient/companylookup orresourcefilecontent queried.",
       "license": "CC-BY-4.0 (selected LT/EN distributions only)",
       "license_url": "https://dataportal.gov.lt/lt/datasets/sd001594 | https://creativecommons.org/licenses/by/4.0/legalcode.en",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:50:55.630457+00:00",
+      "api_verification_state": "documented_anonymous_readonly_POST_observation_and_schema_sample_success_scoped_CC_BY4",
+      "latest_checked_utc": "2026-10-16T23:52:12.200286+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6873,6 +6876,24 @@
       "license_url": "https://data.gov.jm/dataset/energy-tables",
       "api_verification_state": "documented_indexed_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:36:19.789458+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "jordan-ogd",
+      "provider": "Jordan Ministry of Digital Economy and Entrepreneurship / Open Government Data",
+      "service_name": "Jordan Open Government Data CKAN catalogue Action API",
+      "geographic_coverage": "Middle East; Western Asia; Jordan",
+      "topical_coverage": "law/civic; economics/finance; health; education; transportation; agriculture",
+      "dataset_families": "Multiagency national government dataset catalogue;currentcounts/families/APIeligible underlyingresource subsets not enumerated.",
+      "documentation_url": "https://opendata.gov.jo/en/api-guide/",
+      "api_base_url": "https://opendata.gov.jo/api/3/action/",
+      "format_protocol": "Official guide documents HTTPSGET/JSON catalogue package_search/package_show;writecreate/update/patch mentioned butnotused. Current dataresponseuntested.",
+      "authentication": "Read APIexamples omitkey;writeactions requireauthorizedkeyperguide. Noaccount/keyacquired,writeactionsorcredentialprobing. Actualanonymousreadtargetpolicy-deferred.",
+      "free_access_restrictions": "Publicguide200;actualcatalogAPIandfullJordanOpenGovernmentDataLicense notverified. No paid acquisition. IndexedJordanGate permits reuseaccordingtoincorporatedlicense;unreadlicenseconditions cannotbeassumedopen.",
+      "license": "Jordan Open Government Data License referenced;fulloperativeinstrument unresolved",
+      "license_url": "https://portal.jordan.gov.jo/OGD-License_en.pdf | https://jordan.gov.jo/en/custompages/opendata",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T23:53:26.348355+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
