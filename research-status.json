@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T23:39:11.451431+00:00",
+  "published_at": "2026-10-16T23:41:14.182280+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:34:50.902547+00:00",
+  "research_updated_at": "2026-10-16T23:41:09.049060+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "CentralAsia3services:KazakhstanOGD+Kyrgyznational candidates,KyrgyzNSC JSON/XMLsuccess butCCBYNCSA4excluded;Cyprus2sortorders196pagescomplete/1935pathunion;Tajik417HTMLdescriptors(APIunproved);explicitCentralAsia matrixgaps;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 148,
     "candidates": 191,
@@ -2765,9 +2765,7 @@
         "candidate_provider_ids": [
           "kazakhstan-ogd"
         ],
-        "restricted_provider_ids": [
-          "kyrgyz-nso"
-        ]
+        "restricted_provider_ids": []
       },
       "health": {
         "status": "partial_candidates_only",
@@ -9238,7 +9236,7 @@
       "provider": "National Statistical Committee of the Kyrgyz Republic",
       "service_name": "Kyrgyz NSC Open Data category JSON/XML statistical exports",
       "geographic_coverage": "Central Asia; Kyrgyz Republic / Kyrgyzstan",
-      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; energy; health; education; housing; transportation; culture; law/civic",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; health; education; housing; transportation; culture; law/civic",
       "dataset_families": "24published top-level topics:GDP,trade,finance,housing,health,investment,confidence,green growth,ICT,culture,population,education,environment,crime,manufacturing,agriculture,censuses,construction,services,transport,labour,tourism,livingstandards,prices. Selected category27 GDPpercapita one multilingual series/five annual values2021-2025.",
       "documentation_url": "https://stat.gov.kg/en/opendata/ | https://stat.gov.kg/en/opendata/category/1/ | https://stat.gov.kg/en/opendata/category/27/",
       "api_base_url": "https://stat.gov.kg/en/opendata/category/{category_id}/json | https://stat.gov.kg/en/opendata/category/{category_id}/xml",
