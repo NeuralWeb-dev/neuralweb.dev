@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T17:13:33.820533+00:00",
+  "published_at": "2026-10-16T17:15:36.474937+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:13:13.429762+00:00",
+  "research_updated_at": "2026-10-16T17:14:49.147369+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
@@ -3660,8 +3660,8 @@
       "free_access_restrictions": "unknown",
       "license": "Sample released dataset CC BY-NC 4.0; other repository records unreviewed",
       "license_url": "https://dadosdepesquisa.fiocruz.br/api/datasets/:persistentId/?persistentId=doi%3A10.35078%2FPENXWQ",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:07:43.665300+00:00",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T17:14:47.480884+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6053,11 +6053,11 @@
       "api_base_url": "https://api.stlouisfed.org/fred/",
       "format_protocol": "REST/JSON",
       "authentication": "key required; registration",
-      "free_access_restrictions": "Key required for API; no subscription acquired",
-      "license": "Mixed series rights and FRED service terms; not blanket open-license data",
+      "free_access_restrictions": "API requires key; no key or paid subscription obtained",
+      "license": "FRED service/API contract restrictions plus series-specific rights",
       "license_url": "https://fred.stlouisfed.org/legal/",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:29:28.924817+00:00",
+      "latest_checked_utc": "2026-10-16T17:14:47.501188+00:00",
       "classification": "restricted"
     },
     {
