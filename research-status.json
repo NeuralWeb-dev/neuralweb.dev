@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T23:20:49.817922+00:00",
+  "published_at": "2026-10-16T23:22:52.071489+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:19:05.319155+00:00",
+  "research_updated_at": "2026-10-16T23:21:12.734807+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Cyprus scoped employment API and Rosario unresolved municipal API",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 148,
     "candidates": 188,
     "excluded": 24,
-    "sample_successes": 181
+    "sample_successes": 182
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -849,7 +849,8 @@
           "chile"
         ],
         "candidate_provider_ids": [
-          "montevideo-transport"
+          "montevideo-transport",
+          "rosario-city"
         ],
         "restricted_provider_ids": []
       },
@@ -898,6 +899,7 @@
           "dominican-data",
           "ecuador-cuenca",
           "montevideo-catalog",
+          "rosario-city",
           "senado-br"
         ],
         "restricted_provider_ids": []
@@ -3112,8 +3114,8 @@
       "free_access_restrictions": "Tested5aggregate rows and selected dataset metadata required no payment/account. Scope limited to publicly licensed source distributions; no uniform service quota/SLA or contribution rights established.",
       "license": "CC-BY-4.0 for selected employment dataset and all7linked distribution descriptors",
       "license_url": "https://data.gov.cy/en/resource/2305/dataset | https://data.gov.cy/en/dataset/970/dcat-ap-2.0/json | https://creativecommons.org/licenses/by/4.0/legalcode.en",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:19:05.095178+00:00",
+      "api_verification_state": "documented_datastore_observation_json_and_DCAT_JSON_XML_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T23:20:52.806967+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8100,8 +8102,8 @@
       "free_access_restrictions": "Municipalterms generally free digitalassets,but some require account/additionalterms. CurrentAPI/freetier not runtimeverified; no payments/accounts acquired.",
       "license": "Unqualified Creative Commons4.0 notice; variant/application to API dataset unconfirmed",
       "license_url": "https://www.rosario.gob.ar/inicio/terminos-y-condiciones | https://datos.rosario.gob.ar/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:19:05.247185+00:00",
+      "api_verification_state": "official_indexed_API_documentation_current_JS_shell_sample_network_timeout",
+      "latest_checked_utc": "2026-10-16T23:16:10.794436+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
