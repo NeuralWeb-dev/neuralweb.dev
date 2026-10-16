@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:42:07.743357+00:00",
+  "published_at": "2026-10-16T17:44:09.968767+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:41:08.088905+00:00",
+  "research_updated_at": "2026-10-16T17:42:36.715868+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 84,
-    "candidates": 141,
+    "verified": 86,
+    "candidates": 140,
     "excluded": 7,
-    "sample_successes": 125
+    "sample_successes": 126
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -49,12 +49,12 @@
         "verified_provider_ids": [
           "datacommons",
           "ilo",
+          "oecd",
           "worldbank"
         ],
         "candidate_provider_ids": [
           "bis",
           "iati",
-          "oecd",
           "unsd"
         ],
         "restricted_provider_ids": [
@@ -65,11 +65,10 @@
       "labor": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "ilo"
-        ],
-        "candidate_provider_ids": [
+          "ilo",
           "oecd"
         ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "agriculture": {
@@ -166,13 +165,13 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "oecd",
           "openalex",
           "ror",
           "worldbank"
         ],
         "candidate_provider_ids": [
           "fsd-finland",
-          "oecd",
           "unesco",
           "unicef"
         ],
@@ -402,6 +401,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "epa-aqs",
           "noaa-weather",
           "usgs-water"
         ],
@@ -436,6 +436,7 @@
         "verified_provider_ids": [
           "cdc",
           "cms",
+          "epa-aqs",
           "usda-food"
         ],
         "candidate_provider_ids": [],
@@ -467,8 +468,10 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "epa-aqs"
+        ],
         "candidate_provider_ids": [
           "canadensys",
           "census-geocoder",
@@ -2391,6 +2394,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "epa-aqs",
+      "provider": "US Environmental Protection Agency",
+      "service_name": "Air Quality System (AQS) Data API",
+      "geographic_coverage": "United States",
+      "topical_coverage": "climate/weather/environment; health; geospatial",
+      "dataset_families": "Ambient pollutant monitoring samples; daily/quarterly/annual summaries; monitoring sites and quality assurance",
+      "documentation_url": "https://aqs.epa.gov/aqsweb/documents/data_api.html",
+      "api_base_url": "https://aqs.epa.gov/data/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "Data queries require registered email and API key; documented status endpoint succeeded without credentials",
+      "free_access_restrictions": "AQS monitoring data explicitly free to download/use; key signup/email validation documented. No account created or key obtained.",
+      "license": "US public domain (explicit AQS ambient-monitoring data statement)",
+      "license_url": "https://www.epa.gov/outdoor-air-quality-data/do-i-need-request-permission-use-monitoring-data-and-graphics-airdata",
+      "api_verification_state": "documented_status_sample_success_data_key_required_untested",
+      "latest_checked_utc": "2026-10-16T17:42:33.848803+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "eurostat",
       "provider": "European Commission / Eurostat",
       "service_name": "European Commission / Eurostat API",
@@ -2730,6 +2751,24 @@
       "license_url": "https://www.obis.org/data/datapolicy/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.359839+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "oecd",
+      "provider": "OECD",
+      "service_name": "OECD API",
+      "geographic_coverage": "Global/OECD members",
+      "topical_coverage": "economics/finance; labor; education",
+      "dataset_families": "SDMX dataflows; economic and social statistics",
+      "documentation_url": "https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html",
+      "api_base_url": "https://sdmx.oecd.org/public/rest/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read",
+      "free_access_restrictions": "Public SDMX metadata sampled without credentials; voluntary API registration; service limits/suspension provisions apply",
+      "license": "OECD Terms and Conditions section3 Data: commercial/noncommercial reuse with attribution and downstream acknowledgment",
+      "license_url": "https://www.oecd.org/en/about/terms-conditions.html",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:42:33.884350+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4895,24 +4934,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "oecd",
-      "provider": "OECD",
-      "service_name": "OECD API",
-      "geographic_coverage": "Global/OECD members",
-      "topical_coverage": "economics/finance; labor; education",
-      "dataset_families": "SDMX dataflows; economic and social statistics",
-      "documentation_url": "https://www.oecd.org/en/data/insights/data-explainers/2024/09/api.html",
-      "api_base_url": "https://sdmx.oecd.org/public/rest/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "Narrow public SDMX dataflow metadata request succeeded without key",
-      "license": "OECD 2024 open-access announcement found; data-specific license scope remains to be confirmed",
-      "license_url": "https://www.oecd.org/en/about/terms-conditions.html",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:56:22.984652+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "open-contracting",
       "provider": "Open Contracting Partnership Data Registry",
       "service_name": "Open Contracting Partnership Data Registry API",
@@ -5953,7 +5974,7 @@
       "license": "unknown",
       "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:24:51.876584+00:00",
+      "latest_checked_utc": "2026-10-16T17:42:33.920127+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
