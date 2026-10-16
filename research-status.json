@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T16:42:55.427675+00:00",
+  "published_at": "2026-10-16T16:44:57.909684+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T16:42:40.115490+00:00",
+  "research_updated_at": "2026-10-16T16:44:53.627640+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research batch registry-portals; checkpoint registry-data-amsterdamopendata-nl",
+  "latest_milestone": "Research batch repositories; checkpoint re3data",
   "counts": {
-    "verified": 49,
-    "candidates": 148,
+    "verified": 59,
+    "candidates": 145,
     "excluded": 3,
-    "sample_successes": 101
+    "sample_successes": 106
   },
   "remaining_work": [
     "Finish current World Bank indicator enumeration and audit composite source/indicator deduplication",
@@ -260,6 +260,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "esa-gaia",
+          "gavo",
           "nasa-api",
           "nasa-exoplanet"
         ],
@@ -299,6 +300,7 @@
         "candidate_provider_ids": [
           "ena",
           "europepmc",
+          "gavo",
           "loc",
           "nih-clinicaltrials",
           "nih-pubmed",
@@ -449,7 +451,8 @@
       "law/civic": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "govinfo"
+          "govinfo",
+          "registry-data-boston-gov"
         ],
         "candidate_provider_ids": [
           "congress",
@@ -520,7 +523,8 @@
       "economics/finance": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "mexico"
+          "mexico",
+          "registry-dados-rs-gov-br"
         ],
         "candidate_provider_ids": [
           "brazil",
@@ -597,8 +601,10 @@
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-dados-rs-gov-br"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -609,8 +615,10 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-dados-prefeitura-sp-gov-br"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -651,6 +659,7 @@
         "verified_provider_ids": [
           "cbs",
           "eurostat",
+          "registry-opendata-fr-ch",
           "scb",
           "ssb",
           "statfin"
@@ -715,8 +724,10 @@
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-transparenz-karlsruhe-de"
+        ],
         "candidate_provider_ids": [
           "bgs"
         ],
@@ -766,8 +777,11 @@
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-admin-opendatani-gov-uk",
+          "registry-daten-sg-ch"
+        ],
         "candidate_provider_ids": [
           "tfl",
           "transportapi-fi"
@@ -775,8 +789,11 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-data-sz-ch",
+          "registry-daten-sg-ch"
+        ],
         "candidate_provider_ids": [
           "bgs"
         ],
@@ -789,8 +806,10 @@
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-admin-opendatani-gov-uk"
+        ],
         "candidate_provider_ids": [
           "charity-commission",
           "companies-house",
@@ -801,7 +820,9 @@
       "law/civic": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "legislation-uk"
+          "legislation-uk",
+          "registry-open-nrw",
+          "registry-transparenz-karlsruhe-de"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -827,7 +848,9 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "eurostat"
+          "eurostat",
+          "registry-data-sz-ch",
+          "registry-data-tg-ch"
         ],
         "candidate_provider_ids": [
           "europeana"
@@ -835,8 +858,10 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-data-tg-ch"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       }
@@ -984,6 +1009,8 @@
         "candidate_provider_ids": [
           "ghana",
           "kenya-knbs",
+          "registry-data-vulekamali-gov-za",
+          "registry-municipaldata-treasury-gov-za",
           "south-africa-statssa"
         ],
         "restricted_provider_ids": []
@@ -1051,9 +1078,12 @@
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "registry-data-vulekamali-gov-za",
+          "registry-municipaldata-treasury-gov-za"
+        ],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
@@ -1063,9 +1093,11 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "registry-municipaldata-treasury-gov-za"
+        ],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -2378,6 +2410,186 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "registry-admin-opendatani-gov-uk",
+      "provider": "OpenDataNI",
+      "service_name": "OpenDataNI portal API",
+      "geographic_coverage": "United Kingdom/Northern Ireland",
+      "topical_coverage": "transportation; companies/nonprofits",
+      "dataset_families": "Northern Ireland portal datasets; sampled licensed bus operators",
+      "documentation_url": "https://www.opendatani.gov.uk",
+      "api_base_url": "https://admin.opendatani.gov.uk/api/3/action/",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "Open Government Licence UK v3.0",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.373492+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-dados-prefeitura-sp-gov-br",
+      "provider": "Portal de Dados Abertos da Cidade de São Paulo",
+      "service_name": "Portal de Dados Abertos da Cidade de São Paulo portal API",
+      "geographic_coverage": "Brazil/São Paulo",
+      "topical_coverage": "law/civic",
+      "dataset_families": "City datasets; sampled subprefect list",
+      "documentation_url": "https://dados.prefeitura.sp.gov.br/",
+      "api_base_url": "https://dados.prefeitura.sp.gov.br/api/3/action/",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.382339+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-dados-rs-gov-br",
+      "provider": "Dados RS",
+      "service_name": "Dados RS portal API",
+      "geographic_coverage": "Brazil/Rio Grande do Sul",
+      "topical_coverage": "public spending/contracts; economics/finance",
+      "dataset_families": "State open data; sampled agreements and partnerships",
+      "documentation_url": "https://dados.rs.gov.br/",
+      "api_base_url": "https://dados.rs.gov.br/api/3/action/",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.387108+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-data-boston-gov",
+      "provider": "Analyze Boston",
+      "service_name": "Analyze Boston portal API",
+      "geographic_coverage": "United States/Boston",
+      "topical_coverage": "law/civic; public services",
+      "dataset_families": "City datasets; sampled crime incident reports",
+      "documentation_url": "https://data.boston.gov/",
+      "api_base_url": "https://data.boston.gov/api/3/action/",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "Open Data Commons PDDL 1.0",
+      "license_url": "https://opendatacommons.org/licenses/pddl/1-0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.395567+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-data-sz-ch",
+      "provider": "Datenkatalog Kanton Schwyz",
+      "service_name": "Datenkatalog Kanton Schwyz portal API",
+      "geographic_coverage": "Switzerland/Schwyz",
+      "topical_coverage": "geospatial; culture",
+      "dataset_families": "Cantonal datasets; sampled Panoramatafeln",
+      "documentation_url": "https://data.sz.ch/",
+      "api_base_url": "https://data.sz.ch/api/explore/v2.1/",
+      "format_protocol": "Opendatasoft Explore API/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.404965+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-data-tg-ch",
+      "provider": "Datenkatalog Kanton Thurgau",
+      "service_name": "Datenkatalog Kanton Thurgau portal API",
+      "geographic_coverage": "Switzerland/Thurgau",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Cantonal datasets; sampled digitized Thurgau print metadata",
+      "documentation_url": "https://data.tg.ch",
+      "api_base_url": "https://data.tg.ch/api/explore/v2.1/",
+      "format_protocol": "Opendatasoft Explore API/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.409273+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-daten-sg-ch",
+      "provider": "Datenkatalog Kanton St. Gallen",
+      "service_name": "Datenkatalog Kanton St. Gallen portal API",
+      "geographic_coverage": "Switzerland/St Gallen",
+      "topical_coverage": "geospatial; transportation",
+      "dataset_families": "Cantonal datasets; sampled traffic control WMS",
+      "documentation_url": "https://daten.sg.ch",
+      "api_base_url": "https://daten.sg.ch/api/explore/v2.1/",
+      "format_protocol": "Opendatasoft Explore API/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.413527+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-open-nrw",
+      "provider": "open NRW",
+      "service_name": "open NRW portal API",
+      "geographic_coverage": "Germany/North Rhine-Westphalia",
+      "topical_coverage": "law/civic",
+      "dataset_families": "Regional portal datasets; sampled civic participation statistics",
+      "documentation_url": "https://open.nrw",
+      "api_base_url": "https://open.nrw/api/3/action/",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.418286+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-opendata-fr-ch",
+      "provider": "Opendata Canton de Fribourg",
+      "service_name": "Opendata Canton de Fribourg portal API",
+      "geographic_coverage": "Switzerland/Fribourg",
+      "topical_coverage": "demographics",
+      "dataset_families": "Cantonal datasets; sampled collective households",
+      "documentation_url": "https://opendata.fr.ch",
+      "api_base_url": "https://opendata.fr.ch/api/explore/v2.1/",
+      "format_protocol": "Opendatasoft Explore API/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.422590+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-transparenz-karlsruhe-de",
+      "provider": "Transparency Portal for the City of Karlsruhe, Germany",
+      "service_name": "Transparency Portal for the City of Karlsruhe, Germany portal API",
+      "geographic_coverage": "Germany/Karlsruhe",
+      "topical_coverage": "climate/weather/environment; law/civic",
+      "dataset_families": "City transparency portal; sampled noise action plan metadata",
+      "documentation_url": "https://transparenz.karlsruhe.de",
+      "api_base_url": "https://transparenz.karlsruhe.de/api/3/action/",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.426983+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ror",
       "provider": "Research Organization Registry",
       "service_name": "Research Organization Registry API",
@@ -3136,6 +3348,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dryad",
+      "provider": "Dryad",
+      "service_name": "Dryad public API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "research",
+      "dataset_families": "Curated scientific datasets; research data; metadata; DOI objects",
+      "documentation_url": "https://datadryad.org/api/v2/docs/",
+      "api_base_url": "https://datadryad.org/api/v2/",
+      "format_protocol": "REST/JSON or XML as documented",
+      "authentication": "none for tested public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://datadryad.org/stash/terms",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:44:48.030504+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "eclac",
       "provider": "UN ECLAC CEPALSTAT",
       "service_name": "UN ECLAC CEPALSTAT open data API",
@@ -3280,6 +3510,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "figshare",
+      "provider": "Figshare",
+      "service_name": "Figshare public API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "research",
+      "dataset_families": "Research outputs; datasets; publications; media; metadata",
+      "documentation_url": "https://docs.figshare.com/",
+      "api_base_url": "https://api.figshare.com/v2/",
+      "format_protocol": "REST/JSON or XML as documented",
+      "authentication": "none for tested public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://info.figshare.com/user-guide/how-to-use-and-cite-figshare-content/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:44:50.793151+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "finland",
       "provider": "Finnish government avoindata.fi",
       "service_name": "Finnish government avoindata.fi open data portal",
@@ -3295,6 +3543,24 @@
       "license_url": "https://www.avoindata.fi/en/terms-of-use",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:26:39.788001+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gavo",
+      "provider": "German Astrophysical Virtual Observatory Data Center",
+      "service_name": "GAVO TAP astronomy tables",
+      "geographic_coverage": "Global/sky",
+      "topical_coverage": "astronomy; research",
+      "dataset_families": "Stellar catalogs; Gaia mock catalogs; astrometry; interstellar dust maps; historical plates",
+      "documentation_url": "https://dc.g-vo.org/tableinfo/gedr3mock.main",
+      "api_base_url": "https://dc.g-vo.org/tap/",
+      "format_protocol": "IVOA TAP/ADQL; JSON/VOTable",
+      "authentication": "none for public query",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://dc.g-vo.org/browse/gdr2mock/q",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:49.966058+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -3331,6 +3597,24 @@
       "license_url": "https://statsghana.gov.gh/",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:27:14.988438+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "harvard-dataverse",
+      "provider": "Harvard Dataverse",
+      "service_name": "Harvard Dataverse public API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "research",
+      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections",
+      "documentation_url": "https://guides.dataverse.org/en/latest/api/",
+      "api_base_url": "https://dataverse.harvard.edu/api/",
+      "format_protocol": "REST/JSON or XML as documented",
+      "authentication": "none for tested public read candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://dataverse.harvard.edu/dataverse/harvard",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:44:47.817372+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4216,21 +4500,21 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "registry-admin-opendatani-gov-uk",
-      "provider": "OpenDataNI",
-      "service_name": "OpenDataNI portal API",
-      "geographic_coverage": "GB",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://www.opendatani.gov.uk",
-      "api_base_url": "https://admin.opendatani.gov.uk/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
+      "identifier": "re3data",
+      "provider": "re3data Registry of Research Data Repositories",
+      "service_name": "re3data Registry of Research Data Repositories public API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "research",
+      "dataset_families": "Research repository descriptions; API endpoints; institutional and data-access metadata",
+      "documentation_url": "https://www.re3data.org/api/doc/",
+      "api_base_url": "https://www.re3data.org/api/v40/",
+      "format_protocol": "REST/JSON or XML as documented",
+      "authentication": "none for tested public read candidate",
       "free_access_restrictions": "unknown",
       "license": "unknown",
-      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:05.282815+00:00",
+      "license_url": "https://www.re3data.org/about",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:44:53.608649+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4270,10 +4554,28 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "registry-dados-natal-br",
+      "provider": "Portal da Transparência e Mobilidade Urbana de Natal",
+      "service_name": "Portal da Transparência e Mobilidade Urbana de Natal portal API",
+      "geographic_coverage": "BR",
+      "topical_coverage": "multisector public data (sector detail unreviewed)",
+      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
+      "documentation_url": "https://dados.natal.br/",
+      "api_base_url": "https://dados.natal.br/api/3/action/",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://dados.natal.br/",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:43:37.841547+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "registry-dados-pbh-gov-br",
       "provider": "Portal de Dados Abertos – Prefeitura de Belo Horizonte",
       "service_name": "Portal de Dados Abertos – Prefeitura de Belo Horizonte portal API",
-      "geographic_coverage": "BR",
+      "geographic_coverage": "Brazil/Belo Horizonte",
       "topical_coverage": "multisector public data (sector detail unreviewed)",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
       "documentation_url": "https://dados.pbh.gov.br/",
@@ -4281,53 +4583,17 @@
       "format_protocol": "CKAN Action API candidate/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Sample cc-by code; exact version/legal mapping not yet reviewed",
       "license_url": "https://dados.pbh.gov.br/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:27.725005+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-dados-prefeitura-sp-gov-br",
-      "provider": "Portal de Dados Abertos da Cidade de São Paulo",
-      "service_name": "Portal de Dados Abertos da Cidade de São Paulo portal API",
-      "geographic_coverage": "BR",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://dados.prefeitura.sp.gov.br/",
-      "api_base_url": "https://dados.prefeitura.sp.gov.br/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://dados.prefeitura.sp.gov.br/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:22.955580+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-dados-rs-gov-br",
-      "provider": "Dados RS",
-      "service_name": "Dados RS portal API",
-      "geographic_coverage": "BR",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://dados.rs.gov.br/",
-      "api_base_url": "https://dados.rs.gov.br/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://dados.rs.gov.br/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:21.771693+00:00",
+      "latest_checked_utc": "2026-10-16T16:43:35.378164+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
       "identifier": "registry-dados-tce-rs-gov-br",
       "provider": "Dados Abertos TCE-RS",
       "service_name": "Dados Abertos TCE-RS portal API",
-      "geographic_coverage": "BR",
+      "geographic_coverage": "Brazil/Rio Grande do Sul",
       "topical_coverage": "multisector public data (sector detail unreviewed)",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
       "documentation_url": "https://dados.tce.rs.gov.br/",
@@ -4335,10 +4601,10 @@
       "format_protocol": "CKAN Action API candidate/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown (sample license fields null)",
       "license_url": "https://dados.tce.rs.gov.br/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:21.301071+00:00",
+      "latest_checked_utc": "2026-10-16T16:43:35.391440+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4378,28 +4644,10 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "registry-data-boston-gov",
-      "provider": "Analyze Boston",
-      "service_name": "Analyze Boston portal API",
-      "geographic_coverage": "US",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://data.boston.gov/",
-      "api_base_url": "https://data.boston.gov/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://data.boston.gov/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:50.325380+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "registry-data-bs-ch",
       "provider": "Datenkatalog Kanton Basel-Stadt",
       "service_name": "Datenkatalog Kanton Basel-Stadt portal API",
-      "geographic_coverage": "CH",
+      "geographic_coverage": "Switzerland/Basel-Stadt",
       "topical_coverage": "multisector public data (sector detail unreviewed)",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
       "documentation_url": "https://data.bs.ch/",
@@ -4407,10 +4655,10 @@
       "format_protocol": "Opendatasoft Explore API/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Sample IWB charging-station series requires commercial-use permission",
       "license_url": "https://data.bs.ch/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:54.371797+00:00",
+      "latest_checked_utc": "2026-10-16T16:43:35.400048+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4486,57 +4734,21 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "registry-data-sz-ch",
-      "provider": "Datenkatalog Kanton Schwyz",
-      "service_name": "Datenkatalog Kanton Schwyz portal API",
-      "geographic_coverage": "CH",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://data.sz.ch/",
-      "api_base_url": "https://data.sz.ch/api/explore/v2.1/",
-      "format_protocol": "Opendatasoft Explore API/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://data.sz.ch/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:58.505803+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-data-tg-ch",
-      "provider": "Datenkatalog Kanton Thurgau",
-      "service_name": "Datenkatalog Kanton Thurgau portal API",
-      "geographic_coverage": "CH",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://data.tg.ch",
-      "api_base_url": "https://data.tg.ch/api/explore/v2.1/",
-      "format_protocol": "Opendatasoft Explore API/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://data.tg.ch",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:03.222178+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "registry-data-vulekamali-gov-za",
-      "provider": "vulekamali – South Africa budget data portal",
-      "service_name": "vulekamali – South Africa budget data portal portal API",
-      "geographic_coverage": "ZA",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://vulekamali.gov.za/",
+      "provider": "South African National Treasury / vulekamali",
+      "service_name": "vulekamali budget data catalog",
+      "geographic_coverage": "South Africa",
+      "topical_coverage": "public spending/contracts; economics/finance",
+      "dataset_families": "National and provincial budget datasets; expenditure; budget documents",
+      "documentation_url": "https://vulekamali.gov.za/about",
       "api_base_url": "https://data.vulekamali.gov.za/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
+      "format_protocol": "CKAN Action API/JSON",
+      "authentication": "unknown; public sample attempted",
       "free_access_restrictions": "unknown",
       "license": "unknown",
-      "license_url": "https://vulekamali.gov.za/",
+      "license_url": "https://vulekamali.gov.za/terms",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:11.254659+00:00",
+      "latest_checked_utc": "2026-10-16T16:43:51.263487+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4555,24 +4767,6 @@
       "license_url": "https://daten.rlp.de/faq",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:42:11.065211+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-daten-sg-ch",
-      "provider": "Datenkatalog Kanton St. Gallen",
-      "service_name": "Datenkatalog Kanton St. Gallen portal API",
-      "geographic_coverage": "CH",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://daten.sg.ch",
-      "api_base_url": "https://daten.sg.ch/api/explore/v2.1/",
-      "format_protocol": "Opendatasoft Explore API/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://daten.sg.ch",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:58.967047+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4631,38 +4825,20 @@
     },
     {
       "identifier": "registry-municipaldata-treasury-gov-za",
-      "provider": "Municipal Data, South Africa",
-      "service_name": "Municipal Data, South Africa portal API",
-      "geographic_coverage": "ZA",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://municipaldata.treasury.gov.za",
-      "api_base_url": "https://municipaldata.treasury.gov.za/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
+      "provider": "South African National Treasury",
+      "service_name": "Municipal Money Data API",
+      "geographic_coverage": "South Africa",
+      "topical_coverage": "public spending/contracts; economics/finance; law/civic",
+      "dataset_families": "Municipal financial reporting; budgets; expenditure; audit information",
+      "documentation_url": "https://municipaldata.treasury.gov.za/",
+      "api_base_url": "https://municipaldata.treasury.gov.za/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "unknown; public sample attempted",
       "free_access_restrictions": "unknown",
       "license": "unknown",
-      "license_url": "https://municipaldata.treasury.gov.za",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:10.292629+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-open-nrw",
-      "provider": "open NRW",
-      "service_name": "open NRW portal API",
-      "geographic_coverage": "DE",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://open.nrw",
-      "api_base_url": "https://open.nrw/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://open.nrw",
+      "license_url": "https://municipaldata.treasury.gov.za/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:07.402664+00:00",
+      "latest_checked_utc": "2026-10-16T16:43:51.071268+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4699,24 +4875,6 @@
       "license_url": "https://opendata.bratislava.sk",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:42:36.893564+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-opendata-fr-ch",
-      "provider": "Opendata Canton de Fribourg",
-      "service_name": "Opendata Canton de Fribourg portal API",
-      "geographic_coverage": "CH",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://opendata.fr.ch",
-      "api_base_url": "https://opendata.fr.ch/api/explore/v2.1/",
-      "format_protocol": "Opendatasoft Explore API/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://opendata.fr.ch",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:58.177039+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4810,21 +4968,21 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "registry-transparenz-karlsruhe-de",
-      "provider": "Transparency Portal for the City of Karlsruhe, Germany",
-      "service_name": "Transparency Portal for the City of Karlsruhe, Germany portal API",
-      "geographic_coverage": "DE",
+      "identifier": "registry-web-transparencia-pe-gov-br",
+      "provider": "Dados Abertos – Portal da Transparência de Pernambuco",
+      "service_name": "Dados Abertos – Portal da Transparência de Pernambuco portal API",
+      "geographic_coverage": "BR",
       "topical_coverage": "multisector public data (sector detail unreviewed)",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://transparenz.karlsruhe.de",
-      "api_base_url": "https://transparenz.karlsruhe.de/api/3/action/",
+      "documentation_url": "https://web.transparencia.pe.gov.br/dados-abertos/",
+      "api_base_url": "https://web.transparencia.pe.gov.br/api/3/action/",
       "format_protocol": "CKAN Action API candidate/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
       "license": "unknown",
-      "license_url": "https://transparenz.karlsruhe.de",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:42:15.503589+00:00",
+      "license_url": "https://web.transparencia.pe.gov.br/dados-abertos/",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:43:38.086257+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
