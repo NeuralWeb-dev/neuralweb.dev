@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T23:47:21.804033+00:00",
+  "published_at": "2026-10-16T23:49:24.272131+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:45:44.235303+00:00",
+  "research_updated_at": "2026-10-16T23:49:24.133896+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Latvia/Armenia two live JSON metadata API candidates; Latvia12documented operations/300English table descriptors; Armenia8domainfrontier; rights scope unresolved, global in_progress;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 148,
-    "candidates": 193,
+    "verified": 150,
+    "candidates": 194,
     "excluded": 25,
     "sample_successes": 185
   },
@@ -957,8 +957,10 @@
           "croatia-statistics",
           "denmark-statbank",
           "destatis",
+          "estonia-statistics",
           "eurostat",
           "faroe-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
           "moldova-data",
@@ -982,6 +984,7 @@
           "fsd-finland",
           "insee",
           "latvia-statistics",
+          "lithuania-statistics",
           "russia",
           "serbia-rzs",
           "stat-portugal",
@@ -997,8 +1000,10 @@
           "denmark-statbank",
           "destatis",
           "ecb",
+          "estonia-statistics",
           "eurostat",
           "faroe-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
           "moldova-data",
@@ -1019,6 +1024,7 @@
           "bundesbank",
           "insee",
           "latvia-statistics",
+          "lithuania-statistics",
           "poland-gus-strateg",
           "russia",
           "serbia-apr",
@@ -1035,8 +1041,10 @@
           "croatia-statistics",
           "denmark-statbank",
           "destatis",
+          "estonia-statistics",
           "eurostat",
           "faroe-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
           "ons",
@@ -1053,6 +1061,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "latvia-statistics",
+          "lithuania-statistics",
           "russia",
           "serbia-rzs",
           "stat-portugal"
@@ -1063,7 +1072,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "croatia-statistics",
+          "estonia-statistics",
           "eurostat",
+          "georgia-statistics",
           "iceland-statistics",
           "poland-bdl",
           "serbia-data",
@@ -1072,6 +1083,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "lithuania-statistics",
           "serbia-rzs",
           "uk-trade-tariff"
         ],
@@ -1083,8 +1095,10 @@
           "bgs",
           "cefas",
           "croatia-statistics",
+          "estonia-statistics",
           "faroe-statistics",
           "france",
+          "georgia-statistics",
           "geri",
           "iceland-statistics",
           "ices-dome",
@@ -1098,7 +1112,8 @@
           "wales-statistics"
         ],
         "candidate_provider_ids": [
-          "latvia-statistics"
+          "latvia-statistics",
+          "lithuania-statistics"
         ],
         "restricted_provider_ids": [
           "copernicus-marine"
@@ -1118,8 +1133,10 @@
         "verified_provider_ids": [
           "bgs",
           "croatia-statistics",
+          "estonia-statistics",
           "eurostat",
           "faroe-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "poland-bdl",
           "slovenia-statistics",
@@ -1127,6 +1144,7 @@
           "wales-statistics"
         ],
         "candidate_provider_ids": [
+          "lithuania-statistics",
           "nordpool-entsoe",
           "uk-trade-tariff"
         ],
@@ -1137,9 +1155,11 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "estonia-statistics",
           "faroe-statistics",
           "fsa-alerts",
           "fsa-fhrs",
+          "georgia-statistics",
           "iceland-statistics",
           "moldova-data",
           "poland-bdl",
@@ -1151,7 +1171,8 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "fsd-finland",
-          "latvia-statistics"
+          "latvia-statistics",
+          "lithuania-statistics"
         ],
         "restricted_provider_ids": []
       },
@@ -1159,7 +1180,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "dnb",
+          "estonia-statistics",
           "faroe-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "moldova-data",
           "poland-bdl",
@@ -1175,6 +1198,7 @@
           "aland-statistics",
           "fsd-finland",
           "latvia-statistics",
+          "lithuania-statistics",
           "serbia-rzs"
         ],
         "restricted_provider_ids": []
@@ -1184,6 +1208,8 @@
         "verified_provider_ids": [
           "cbs",
           "denmark-statbank",
+          "estonia-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "poland-bdl",
           "poland-gus-sdg",
@@ -1195,6 +1221,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "lithuania-statistics",
           "serbia-rzs"
         ],
         "restricted_provider_ids": []
@@ -1203,7 +1230,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "croatia-statistics",
+          "estonia-statistics",
           "faroe-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "poland-bdl",
           "poland-gus-transtat",
@@ -1216,7 +1245,8 @@
           "wales-statistics"
         ],
         "candidate_provider_ids": [
-          "aland-statistics"
+          "aland-statistics",
+          "lithuania-statistics"
         ],
         "restricted_provider_ids": [
           "registry-data-bs-ch"
@@ -1344,9 +1374,11 @@
           "bnf-catalogue",
           "croatia-statistics",
           "dnb",
+          "estonia-statistics",
           "europeana",
           "eurostat",
           "faroe-statistics",
+          "georgia-statistics",
           "iceland-statistics",
           "poland-bdl",
           "registry-data-sz-ch",
@@ -1358,6 +1390,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "lithuania-statistics",
           "perspectivia",
           "rijksmuseum",
           "serbia-rzs",
@@ -3547,6 +3580,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "estonia-statistics",
+      "provider": "Statistics Estonia",
+      "service_name": "Statistics Estonia PxWeb statistical database API",
+      "geographic_coverage": "Europe; Estonia",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; health; education; housing; transportation; energy",
+      "dataset_families": "Environment,economy,population,social life,multidomain,population/housing census,discontinued tables; seven root domains in English stat database. Separate statsSql documented but not yet enumerated.",
+      "documentation_url": "https://www.stat.ee/en/statistikaamet/developers | https://andmed.stat.ee/help/api-manual.pdf",
+      "api_base_url": "https://andmed.stat.ee/api/v1/en/",
+      "format_protocol": "HTTPS GET JSON directory/tablemetadata;PxWeb read-only data query POST",
+      "authentication": "Anonymous metadata200 without credentials;Estonia selectedonecellPOST200",
+      "free_access_restrictions": "Selected public API metadata without account/payment;no paiddata,accounts or keys used. Additional resources/source exceptions not reviewed.",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://andmed.stat.ee/en/help | https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "api_verification_state": "documented_JSON_metadata_and_one_cell_readonly_POST_observation_success",
+      "latest_checked_utc": "2026-10-16T23:47:37.617194+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "europeana",
       "provider": "Europeana Foundation / common European data space for cultural heritage",
       "service_name": "Europeana metadata and cultural-heritage discovery APIs",
@@ -3742,6 +3793,24 @@
       "license_url": "https://www.geonames.org/export/",
       "api_verification_state": "documented_registered_username_required_untested",
       "latest_checked_utc": "2026-10-16T18:08:23.690822+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "georgia-statistics",
+      "provider": "National Statistics Office of Georgia / GEOSTAT",
+      "service_name": "Geostat PxWeb statistical database API",
+      "geographic_coverage": "Asia; Europe; Georgia; South Caucasus",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; health; education; housing; transportation; energy",
+      "dataset_families": "17English root statistical families:agriculture,business,construction,demography,environment,externaltrade,FDI,gender,hotels/restaurants,industry,nationalaccounts,markets/fairs,2014census,prices,social,trade,transport/communication.",
+      "documentation_url": "https://www.geostat.ge/en | https://pc-axis.geostat.ge/PXWeb/pxweb/en/Database/",
+      "api_base_url": "https://pc-axis.geostat.ge/PXWeb/api/v1/en/Database/",
+      "format_protocol": "HTTPS GET JSON directory/tablemetadata;PxWeb read-only data query POST",
+      "authentication": "Anonymous metadata200 without credentials;Estonia selectedonecellPOST200",
+      "free_access_restrictions": "Selected public API metadata without account/payment;no paiddata,accounts or keys used. Additional resources/source exceptions not reviewed.",
+      "license": "Custom unrestricted statistical reuse permission with attribution",
+      "license_url": "https://www.geostat.ge/en/page/monacemta-gamoyenebis-pirobebi",
+      "api_verification_state": "documented_official_PxWeb_link_and_live_JSON_directory_metadata_success_observations_untested",
+      "latest_checked_utc": "2026-10-16T23:48:37.798712+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6948,6 +7017,24 @@
       "license_url": "https://edit.laws.africa/terms | https://developers.laws.africa/get-started/pricing",
       "api_verification_state": "documented_bearer_required_untested_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-16T20:28:16.872945+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lithuania-statistics",
+      "provider": "State Data Agency / Statistics Lithuania",
+      "service_name": "OSP statistical indicators SDMX REST service",
+      "geographic_coverage": "Europe; Lithuania",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; health; education; housing; transportation; energy",
+      "dataset_families": "OSP Database of Indicators SDMX data and structures;selected published dataflow S3R629_M3010217. Broader indicator coverage not enumerated.",
+      "documentation_url": "https://osp.stat.gov.lt/en/rdb-rest",
+      "api_base_url": "https://osp-rs.stat.gov.lt/rest_xml/ | https://osp-rs.stat.gov.lt/rest_json/",
+      "format_protocol": "Documented SDMX2.1 XML/JSON;runtime untested",
+      "authentication": "Documentation says anonymousqueriesonly;runtime policy-deferred",
+      "free_access_restrictions": "Selected public API metadata without account/payment;no paiddata,accounts or keys used. Additional resources/source exceptions not reviewed.",
+      "license": "unknown;API documentation not a data license",
+      "license_url": "https://osp.stat.gov.lt/en/rdb-rest",
+      "api_verification_state": "documented_primary_SDMX_service_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-16T23:48:06.144992+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
