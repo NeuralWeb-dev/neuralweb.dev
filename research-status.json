@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T19:48:38.763765+00:00",
+  "published_at": "2026-10-16T19:50:41.479204+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:47:09.939774+00:00",
+  "research_updated_at": "2026-10-16T19:50:25.013898+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Malaysia535catalogappearances/324uniqueIDs indexed;OpenSTATduplicate merged,currentdirectory200 andEnglishmetadatawalkongoing;Thai2key-requiredservicecandidates;Nepalrights/APIpolicygaps;UNSD713currentseriesmetadata indexed;HongKongmetadata ongoing",
   "counts": {
     "verified": 118,
     "candidates": 139,
@@ -22,7 +22,7 @@
     "Socrata native cursor reachedempty after1744pages/174241assets,612domains;do notrefetchcompletedpass. Originalprovideridentity/API/data-rightschecks andlive/tied-IDgaps remain. ArcGIS/DCAT/STAC/permittedOAI andSDMXrightsdiscovery incomplete",
     "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
     "Strengthen astronomy, transport, law, housing, companies/nonprofits, spending, energy, water and education coverage with dataset-level rights",
-    "Serbia3528datasetmetadata complete;2094externalAPIURLclaims needservice-leveldedup/access/rights checks,including2070RZSformat/tableURLs. HongKong3830-IDmetadataenrichment ongoing. Enumerateotherfeasible permittedcatalogs,retaincursors/licenceclaims",
+    "Serbia3528datasetmetadata complete;2094externalAPIURLclaims needservice-leveldedup/access/rights checks,including2070RZSformat/tableURLs. HongKong3830-IDmetadataenrichment andOpenSTATEnglishDBdirectoryfrontierongoing. Malaysia324catalogmetadata/UNSD713currentseriesfiniteindexescomplete;APIeligibility/rights remain scoped/unconfirmed. Enumerateotherfeasible permittedcatalogs,retaincursors/licenceclaims",
     "Audit all field-level evidence, rate limits, pagination, access and native provider/API dedup; write completion.json only when documented universe has been processed"
   ],
   "external_blocker": null,
@@ -1409,6 +1409,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "nepal",
           "pakistan",
           "sri-lanka"
         ],
@@ -1418,6 +1419,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "nepal",
           "pakistan",
           "sri-lanka"
         ],
@@ -1430,27 +1432,35 @@
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nepal"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nepal"
+        ],
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nepal"
+        ],
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nepal"
+        ],
         "restricted_provider_ids": []
       },
       "health": {
@@ -1466,9 +1476,11 @@
         "restricted_provider_ids": []
       },
       "housing": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nepal"
+        ],
         "restricted_provider_ids": []
       },
       "transportation": {
@@ -1502,9 +1514,11 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nepal"
+        ],
         "restricted_provider_ids": []
       },
       "oceans": {
@@ -1520,9 +1534,11 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nepal"
+        ],
         "restricted_provider_ids": []
       },
       "research": {
@@ -1694,7 +1710,6 @@
         ],
         "candidate_provider_ids": [
           "philippines",
-          "philippines-openstat",
           "vietnam"
         ],
         "restricted_provider_ids": []
@@ -1706,25 +1721,29 @@
         ],
         "candidate_provider_ids": [
           "philippines",
-          "philippines-openstat",
+          "thailand-govspending",
           "vietnam"
         ],
         "restricted_provider_ids": []
       },
       "labor": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [
-          "philippines",
-          "philippines-openstat"
+          "philippines"
         ],
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [
-          "philippines-openstat"
+          "philippines",
+          "thailand-gistda"
         ],
         "restricted_provider_ids": []
       },
@@ -1734,57 +1753,78 @@
           "malaysia",
           "singapore"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "thailand-gistda"
+        ],
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "housing": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
+        "candidate_provider_ids": [
+          "thailand-gistda"
+        ],
         "restricted_provider_ids": []
       },
       "transportation": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "malaysia",
           "singapore"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "thailand-gistda"
+        ],
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
+        "candidate_provider_ids": [
+          "thailand-govspending"
+        ],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
@@ -1794,9 +1834,13 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
+        "candidate_provider_ids": [
+          "thailand-govspending"
+        ],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -1818,16 +1862,21 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [
-          "philippines-openstat"
+          "philippines",
+          "thailand-gistda"
         ],
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "malaysia"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       }
@@ -5825,8 +5874,8 @@
       "free_access_restrictions": "Officialguide supportsprogrammaticanalysis/dashboards/research viaanonymousAPI;nograntinferredfromthatstatement. ActualOpenSTATreuse license unresolved. Nocharge/subscriptionacquired.",
       "license": "OpenSTAT-specificapplicabledatareusegrant unresolved;otherPSAwebsitesCCBY4notautomaticallytransferable",
       "license_url": "https://psa.gov.ph/terms-of-use",
-      "api_verification_state": "historical_directory_metadata_sample_success_current_docs_direct403_indexed_review",
-      "latest_checked_utc": "2026-10-16T19:43:19.872028+00:00",
+      "api_verification_state": "documented_directory_metadata_sample_success_license_unresolved",
+      "latest_checked_utc": "2026-10-16T19:49:40.387262+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6642,19 +6691,19 @@
     {
       "identifier": "unsd",
       "provider": "UN Statistics Division",
-      "service_name": "UN Statistics Division API",
+      "service_name": "UNSD Global SDG Indicators API v1",
       "geographic_coverage": "Global",
       "topical_coverage": "demographics; economics/finance; environment",
       "dataset_families": "SDG indicators; series; geographic areas",
-      "documentation_url": "https://unstats.un.org/SDGAPI/swagger/",
-      "api_base_url": "https://unstats.un.org/SDGAPI/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
+      "documentation_url": "https://unstats.un.org/SDGAPI/swagger/ | https://unstats.un.org/SDGAPI/swagger/v1/swagger.json",
+      "api_base_url": "https://unstats.un.org/SDGAPI/v1/sdg/",
+      "format_protocol": "Swagger2/HTTPRESTJSON;structuralmetadataanddataqueryroutesdocumented",
+      "authentication": "Noauthrequiredforcurrentseriesmetadatalist;SwaggerGEToperationhasnoexplicitsecurityrequirement;otheroperationsmaydiffer,noaccount/keyobtained",
+      "free_access_restrictions": "PublicmetadataGETworkswithoutcredentials;UNgeneraltermslinked,SDG-specificdatareusegrantunknown;nocharge/subscriptionacquired",
       "license": "UN general website terms restrict personal/noncommercial use; SDG-specific data terms not yet established",
       "license_url": "https://www.un.org/en/about-us/terms-of-use",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:29:28.947724+00:00",
+      "api_verification_state": "documented_current_series_metadata_sample_success_rights_unresolved",
+      "latest_checked_utc": "2026-10-16T19:47:35.071042+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
