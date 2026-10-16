@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T20:27:23.660883+00:00",
+  "published_at": "2026-10-16T20:29:26.052968+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:27:01.066805+00:00",
+  "research_updated_at": "2026-10-16T20:29:09.324377+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "African community catalog/API batch: Uganda JSON verified candidate, openAFRICA unresolved, Laws.Africa restricted",
+  "latest_milestone": "Uganda2546metadata snapshot completed; Laws.Africa Knowledge Base API separated from Content API rights",
   "counts": {
     "verified": 123,
-    "candidates": 152,
+    "candidates": 153,
     "excluded": 20,
-    "sample_successes": 145
+    "sample_successes": 146
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4497,12 +4497,12 @@
       "documentation_url": "https://dataportal.opendataforafrica.org/",
       "api_base_url": "https://dataportal.opendataforafrica.org/",
       "format_protocol": "Knoema platform; API/access unresolved",
-      "authentication": "unknown; public sample attempted without credentials",
+      "authentication": "unknown; no actual current API sample requested",
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://www.afdb.org/en/disclaimer-and-copyright",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:27:10.822840+00:00",
+      "api_verification_state": "current_documentation_policy_deferred_api_rights_unresolved",
+      "latest_checked_utc": "2026-10-16T20:26:00.729570+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5568,6 +5568,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "laws-africa-knowledge",
+      "provider": "Laws.Africa",
+      "service_name": "Legal Knowledge Base retrieval API",
+      "geographic_coverage": "Africa; Sub-Saharan Africa; country/collection entitlement dependent",
+      "topical_coverage": "law/civic data | research",
+      "dataset_families": "Semantic retrieval of legislation/judgment portions for RAG/search/agent context; distinct from full legislation corpus Content API",
+      "documentation_url": "https://developers.laws.africa/get-started/choose-an-api | https://developers.laws.africa/knowledge-bases/quick-start | https://developers.laws.africa/get-started/pricing",
+      "api_base_url": "https://api.laws.africa/ai/v1/",
+      "format_protocol": "REST JSON; GET knowledge-bases and POST knowledge-bases/{code}/retrieve; results content/metadata/score documented, not sampled",
+      "authentication": "Platform account and Authorization Bearer token; no token/account acquired",
+      "free_access_restrictions": "Developer guide states free Sandbox for prototyping/experimentation:one country,legislation/judgment Knowledge Bases,100calls/day; production plans paid. Current legal/plan terms and actual eligibility untested; no paid acquisition.",
+      "license": "unknown for returned context/content and API reuse; no general open license verified",
+      "license_url": "https://edit.laws.africa/terms | https://developers.laws.africa/get-started/pricing",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T20:29:09.269915+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "loc",
       "provider": "Library of Congress",
       "service_name": "Library of Congress API",
@@ -6031,8 +6049,8 @@
       "free_access_restrictions": "Nonprofit public portal; actual current API limits/authentication unresolved. Source dataset licenses and linked-site terms apply.",
       "license": "Official indexed portal terms: per-record licence/constraints; default Open Government License except otherwise noted; exact instrument/version and applicability unconfirmed",
       "license_url": "https://open.africa/about/terms-and-conditions",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:27:01.014267+00:00",
+      "api_verification_state": "documented_official_api_snippet_sample_policy_deferred_rights_unresolved",
+      "latest_checked_utc": "2026-10-16T20:27:13.297284+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7021,8 +7039,8 @@
       "free_access_restrictions": "Free public catalog reads documented. Each dataset has its own license/access flags; OPEN/PUBLIC metadata visibility is not a reuse grant or dataset API entitlement.",
       "license": "Dataset-specific; no blanket open data or catalog metadata license established",
       "license_url": "https://opendata.ug/licence | https://opendata.ug/terms",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:27:01.013978+00:00",
+      "api_verification_state": "sample_success_catalog_metadata_data_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-16T20:24:32.362140+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7401,8 +7419,8 @@
       "free_access_restrictions": "Current Content API commercial country licenses sales-assisted/annual. Limited free noncommercial public-interest research is discretionary and approved-purpose/country/format/time bounded; normally one-off copy or short access window.",
       "license": "Custom commercial/research license; no general open API data reuse grant",
       "license_url": "https://laws.africa/platform/content/ | https://laws.africa/research-access/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:27:01.014354+00:00",
+      "api_verification_state": "documented_bearer_required_untested_restricted_terms",
+      "latest_checked_utc": "2026-10-16T20:26:00.422407+00:00",
       "classification": "restricted"
     },
     {
