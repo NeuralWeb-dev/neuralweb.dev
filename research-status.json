@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T19:15:58.463999+00:00",
+  "published_at": "2026-10-16T19:18:00.606265+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:13:52.986834+00:00",
+  "research_updated_at": "2026-10-16T19:16:49.824400+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Spain,DNB,ESO scoped open rights and samples verified;iDigBio2153unique recordsets audited;Gaia/eBird restricted;Greece andotheraccess/rights gaps retained;selected92-document andSocrata passes continue",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 111,
+    "verified": 112,
     "candidates": 135,
     "excluded": 13,
-    "sample_successes": 141
+    "sample_successes": 142
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -428,6 +428,7 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "usda-cdl",
           "usda-food"
         ],
         "candidate_provider_ids": [
@@ -442,6 +443,7 @@
           "epa-aqs",
           "noaa-weather",
           "ocean-networks-canada",
+          "usda-cdl",
           "usgs-water"
         ],
         "candidate_provider_ids": [
@@ -511,7 +513,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "eccc-geomet",
-          "epa-aqs"
+          "epa-aqs",
+          "usda-cdl"
         ],
         "candidate_provider_ids": [
           "canadensys",
@@ -586,6 +589,7 @@
         "verified_provider_ids": [
           "artic",
           "metmuseum",
+          "usda-cdl",
           "usda-food"
         ],
         "candidate_provider_ids": [
@@ -3957,6 +3961,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "usda-cdl",
+      "provider": "USDA National Agricultural Statistics Service (NASS)",
+      "service_name": "Cropland Data Layer / CroplandCROS ArcGIS image service",
+      "geographic_coverage": "United States;annual CONUS coverage from2008,selected states earlier;separate Hawaii service not tested",
+      "topical_coverage": "agriculture | geospatial | climate/weather/environment",
+      "dataset_families": "Annual crop-specific raster land cover;CDL_WM service catalog includes1997-2025 rasters;2024/2025 itemnames identify10m products",
+      "documentation_url": "https://www.nass.usda.gov/developer/index.php",
+      "api_base_url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/",
+      "format_protocol": "ArcGIS REST ImageServer;JSON catalog/schema;image operations documented by service capabilities",
+      "authentication": "No credentials used for service metadata or bounded raster-catalog query",
+      "free_access_restrictions": "Official CDL FAQ explicitly public domain and free to redistribute;no charge/auth in metadata query;underlying image exports not tested",
+      "license": "Public domain;explicit USDA NASS CDL redistribution grant",
+      "license_url": "https://www.nass.usda.gov/Research_and_Science/Cropland/sarsfaqs2.php",
+      "api_verification_state": "documented_raster_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T19:15:46.580186+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "usda-food",
       "provider": "USDA FoodData Central",
       "service_name": "USDA FoodData Central API",
@@ -5176,10 +5198,10 @@
       "format_protocol": "REST/JSON; resource-specific formats",
       "authentication": "unknown; no-key public sample candidate",
       "free_access_restrictions": "Target data request was not sent because fetched robots policy disallows the route",
-      "license": "unknown; free availability in docs is not an explicit license grant",
-      "license_url": "https://power.larc.nasa.gov/docs/faqs/data/",
+      "license": "Historical NASA-hosted POWER announcement explicitlypublicdomain/free commercialuse;currentproductscope notfullyconfirmed",
+      "license_url": "https://forum.earthdata.nasa.gov/viewtopic.php?t=82",
       "api_verification_state": "untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T17:13:11.896447+00:00",
+      "latest_checked_utc": "2026-10-16T19:15:20.130731+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5266,10 +5288,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "key required; token registration",
       "free_access_restrictions": "unknown",
-      "license": "Dataset-specific access/use constraints; complete NOAA reuse policy not yet established",
-      "license_url": "https://www.noaa.gov/information-technology/open-data-dissemination",
+      "license": "NCEI policy:Federal-origin data public domain inUS;contributed holdings mixed/licensingnotretroactive",
+      "license_url": "https://www.ncei.noaa.gov/archive",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T17:51:19.766790+00:00",
+      "latest_checked_utc": "2026-10-16T19:14:21.595387+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5284,10 +5306,10 @@
       "format_protocol": "HTTPS GET; JSON/CSV/SSV/PDF/NetCDF depending on dataset",
       "authentication": "none for successful one-station/one-day daily-summaries request",
       "free_access_restrictions": "Sample returned public JSON without credentials; source metadata says most electronic downloads free, custom/certified/media orders may incur fees",
-      "license": "unknown; citation/use-liability metadata is not an explicit open reuse grant",
-      "license_url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc%3AC00861",
+      "license": "NCEI policy:Federal-origin data public domain inUS;contributed holdings mixed/licensingnotretroactive",
+      "license_url": "https://www.ncei.noaa.gov/archive",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T17:51:19.844481+00:00",
+      "latest_checked_utc": "2026-10-16T19:14:21.595387+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6403,7 +6425,7 @@
       "license": "unknown; current explicit data rights unresolved",
       "license_url": "https://www.usaspending.gov/about",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:51:48.773450+00:00",
+      "latest_checked_utc": "2026-10-16T19:14:22.498666+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
