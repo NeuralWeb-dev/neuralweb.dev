@@ -1,23 +1,23 @@
 {
-  "published_at": "2026-10-16T17:58:26.869025+00:00",
+  "published_at": "2026-10-16T18:00:29.565208+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:57:40.708478+00:00",
+  "research_updated_at": "2026-10-16T18:00:27.075005+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 90,
+    "verified": 91,
     "candidates": 138,
     "excluded": 7,
-    "sample_successes": 128
+    "sample_successes": 129
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
     "Review remaining candidate documentation and licenses; unknown values remain explicit",
     "Resolve remaining starting-point terms/access: NOAA NCEI, NASA services, EPA Envirofacts, USDA NASS, ClinicalTrials.gov, USAspending, IRS, IMF/OECD/FAO/UNESCO/UNICEF/UN SDG; retain scoped acceptance and restrictions already established for other starting points",
     "Individually process portal/STAC/ArcGIS discovery entries and 3536 re3data descriptors, then verify official provider documentation/licenses; cross-registry dedup remains pending",
-    "Complete permitted CKAN /site HTML listing at 15s crawl delay; do not request disallowed /api/ route",
+    "CKAN HTML first20/1319 sites recorded; page2 returned403 after15s delay,1299 remain unsearched; do not use disallowed /api/ route",
     "Paginate Socrata, ArcGIS, DCAT/STAC and permitted OAI-PMH discovery; current SDMX 23-agency scheme complete, Global Discovery Service13-agency/18-endpoint listing complete; endpoint activity and agency rights unresolved",
     "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
     "Strengthen astronomy, transport, law, housing, companies/nonprofits, spending, energy, water and education coverage with dataset-level rights",
@@ -402,6 +402,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "eccc-geomet",
           "epa-aqs",
           "noaa-weather",
           "usgs-water"
@@ -415,6 +416,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "eccc-geomet",
           "ncei-coops",
           "usgs-water"
         ],
@@ -471,6 +473,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "eccc-geomet",
           "epa-aqs"
         ],
         "candidate_provider_ids": [
@@ -2403,6 +2406,24 @@
       "license_url": "https://www.ecb.europa.eu/services/disclaimer/html/index.en.html",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.357173+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "eccc-geomet",
+      "provider": "Environment and Climate Change Canada / Meteorological Service of Canada",
+      "service_name": "MSC GeoMet OGC APIs and web services",
+      "geographic_coverage": "Canada; collection-dependent geographic extents",
+      "topical_coverage": "climate/weather/environment; water; geospatial",
+      "dataset_families": "Climate daily observations; real-time/archive weather and water datasets; OGC Features/WMS/WCS and experimental STAC interfaces documented",
+      "documentation_url": "https://eccc-msc.github.io/open-data/msc-geomet/readme_en/",
+      "api_base_url": "https://api.weather.gc.ca/",
+      "format_protocol": "OGC API/GeoJSON metadata and features; WMS/WCS; experimental STAC documented",
+      "authentication": "Anonymous, free-of-charge access explicitly documented",
+      "free_access_restrictions": "Data/service reuse free; avoid batch/bulk WMS tiles; use Datamart rather than GeoMet for local archives; operational/robots restrictions apply",
+      "license": "ECCC Data Services End-use Licence heading2.1.1 (August2026); body versioning clause says2.1",
+      "license_url": "https://eccc-msc.github.io/open-data/licence/readme_en/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:59:38.499609+00:00",
       "classification": "open_license_verified"
     },
     {
