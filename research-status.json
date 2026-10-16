@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T20:21:16.535675+00:00",
+  "published_at": "2026-10-16T20:23:18.954544+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:21:11.942550+00:00",
+  "research_updated_at": "2026-10-16T20:23:16.442107+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Andean review: SERCOP explicit CC BY3.0EC scoped grant; Ecuador national/Cuenca candidates; Peru DKAN route corrected",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
     "verified": 123,
     "candidates": 150,
@@ -2742,8 +2742,8 @@
       "free_access_restrictions": "Publication policy permits commercial/noncommercial use and republishing with original source link; no paid acquisition; current runtime quotas/registration unknown",
       "license": "Creative Commons Attribution 3.0 Ecuador (CC BY3.0 EC)",
       "license_url": "https://datosabiertos.compraspublicas.gob.ec/PLATAFORMA/documentos/politica-publicacion-SERCOP-OCDS.pdf | https://creativecommons.org/licenses/by/3.0/ec/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:21:11.892585+00:00",
+      "api_verification_state": "documented_scoped_open_license_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-16T20:21:40.511179+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5012,8 +5012,8 @@
       "free_access_restrictions": "unknown; public listings not a grant or access guarantee",
       "license": "unknown per dataset; license facet includes multiple possible open, noncommercial and unspecified labels",
       "license_url": "https://www.datosabiertos.gob.ec/dataset/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:21:11.892361+00:00",
+      "api_verification_state": "catalog_documented_api_interface_unconfirmed_policy_deferred",
+      "latest_checked_utc": "2026-10-16T20:21:40.511179+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5030,8 +5030,8 @@
       "free_access_restrictions": "Terms say free use by anyone; require dataset source/date/update citation and no distortion of meaning; exact redistribution scope unresolved",
       "license": "Custom municipal free-use/transformation terms; named standard license not established",
       "license_url": "https://cuencaendatos.cuenca.gob.ec/pages/terminos-de-uso",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:21:11.892513+00:00",
+      "api_verification_state": "documented_api_sample_policy_deferred_custom_terms_unresolved",
+      "latest_checked_utc": "2026-10-16T20:20:02.166213+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6157,15 +6157,15 @@
       "geographic_coverage": "Peru",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://www.datosabiertos.gob.pe/",
-      "api_base_url": "https://www.datosabiertos.gob.pe/api/3/action/",
-      "format_protocol": "CKAN Action API / JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.datosabiertos.gob.pe/terms-of-use",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:27:01.614025+00:00",
+      "documentation_url": "https://www.datosabiertos.gob.pe/node/1471/api",
+      "api_base_url": "https://www.datosabiertos.gob.pe/api/action/datastore/search.json",
+      "format_protocol": "Official DKAN Datastore API documentation; JSON advertised but sample body was HTML",
+      "authentication": "Anonymous documentation/example; sample sent without credentials, no actual dataset response verified",
+      "free_access_restrictions": "Public documentation; full service restrictions/limits unknown",
+      "license": "Dataset-specific; sampled unrelated municipal dataset identifies Open Data Commons Attribution License",
+      "license_url": "https://www.datosabiertos.gob.pe/dataset/licencias-de-funcionamiento-1",
+      "api_verification_state": "documented_dkan_sample_http200_unexpected_html_not_json",
+      "latest_checked_utc": "2026-10-16T20:20:13.321968+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
