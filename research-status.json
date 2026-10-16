@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T18:41:18.696492+00:00",
+  "published_at": "2026-10-16T18:43:20.899779+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:40:38.639337+00:00",
+  "research_updated_at": "2026-10-16T18:42:05.522345+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 104,
+    "verified": 105,
     "candidates": 132,
     "excluded": 11,
-    "sample_successes": 134
+    "sample_successes": 135
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -911,7 +911,8 @@
           "registry-data-sz-ch",
           "registry-daten-sg-ch",
           "registry-europeandataportal-eu",
-          "transportapi-fi"
+          "transportapi-fi",
+          "uk-police"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -942,7 +943,8 @@
           "poland",
           "registry-europeandataportal-eu",
           "registry-open-nrw",
-          "registry-transparenz-karlsruhe-de"
+          "registry-transparenz-karlsruhe-de",
+          "uk-police"
         ],
         "candidate_provider_ids": [
           "uk-trade-tariff"
@@ -997,7 +999,8 @@
           "darus",
           "ices-dome",
           "registry-data-tg-ch",
-          "registry-europeandataportal-eu"
+          "registry-europeandataportal-eu",
+          "uk-police"
         ],
         "candidate_provider_ids": [
           "b2share",
@@ -3735,6 +3738,24 @@
       "license_url": "https://fiscaldata.treasury.gov/about-us/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.945711+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "uk-police",
+      "provider": "data.police.uk / Single Online Home National Digital Team and police forces",
+      "service_name": "data.police.uk open crime and policing API",
+      "geographic_coverage": "England,Wales and Northern Ireland;coverage differs by dataset/force. Not a Scotland-wide crime source.",
+      "topical_coverage": "law/civic;geospatial;research",
+      "dataset_families": "Published street-level crime/outcomes,neighbourhoods,police-force metadata and stop/search datasets;only force-organization reference metadata sampled.",
+      "documentation_url": "https://data.police.uk/docs/",
+      "api_base_url": "https://data.police.uk/api/",
+      "format_protocol": "HTTP GET/POST JSON service;published CSV archives separate",
+      "authentication": "None:current official authentication documentation explicitly says API no longer requires authentication;public force-list read tested.",
+      "free_access_restrictions": "Public force-list request succeeded without credentials. Site explicitly licenses data under OGL3.0;other observation endpoints/archives not tested.",
+      "license": "Open Government Licence3.0",
+      "license_url": "https://data.police.uk/",
+      "api_verification_state": "documented_reference_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T18:41:00.132517+00:00",
       "classification": "open_license_verified"
     },
     {
