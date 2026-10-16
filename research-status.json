@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T18:57:36.985381+00:00",
+  "published_at": "2026-10-16T18:59:39.726149+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:57:27.141564+00:00",
+  "research_updated_at": "2026-10-16T18:59:38.148186+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Finite786 roots and233UK directory detail pages audited;Cefas,FSAFHRS,FSAalerts scoped licences/API samples accepted;TunisiaINS rights reviewed but APIunresolved;Socrata cursor ongoing",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 108,
-    "candidates": 134,
+    "verified": 109,
+    "candidates": 133,
     "excluded": 11,
     "sample_successes": 138
   },
@@ -762,6 +762,7 @@
           "denmark-statbank",
           "destatis",
           "eurostat",
+          "ine-spain",
           "ons",
           "registry-opendata-fr-ch",
           "registry-opendata-gov-je",
@@ -771,7 +772,6 @@
         ],
         "candidate_provider_ids": [
           "fsd-finland",
-          "ine-spain",
           "insee",
           "russia",
           "stat-portugal"
@@ -786,13 +786,13 @@
           "destatis",
           "ecb",
           "eurostat",
+          "ine-spain",
           "ons",
           "scb",
           "ssb",
           "statfin"
         ],
         "candidate_provider_ids": [
-          "ine-spain",
           "insee",
           "russia",
           "stat-portugal",
@@ -807,6 +807,7 @@
           "denmark-statbank",
           "destatis",
           "eurostat",
+          "ine-spain",
           "ons",
           "registry-opendata-gov-je",
           "scb",
@@ -814,7 +815,6 @@
           "statfin"
         ],
         "candidate_provider_ids": [
-          "ine-spain",
           "russia",
           "stat-portugal"
         ],
@@ -2797,6 +2797,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ine-spain",
+      "provider": "Spanish National Statistics Institute",
+      "service_name": "Spanish National Statistics Institute API",
+      "geographic_coverage": "Spain",
+      "topical_coverage": "demographics; economics/finance; labor",
+      "dataset_families": "INEbase tables; time series; classifications",
+      "documentation_url": "https://www.ine.es/dyngs/DAB/index.htm?cid=1099",
+      "api_base_url": "https://servicios.ine.es/wstempus/js/EN/",
+      "format_protocol": "REST/JSON",
+      "authentication": "No credentials used in successful operation-reference request",
+      "free_access_restrictions": "No charge/auth encountered for reference sample;general legal notice and specific reuse terms apply",
+      "license": "Creative Commons Attribution4.0;INE-origin statistical information unless otherwise indicated",
+      "license_url": "https://www.ine.es/aviso_legal/",
+      "api_verification_state": "documented_operation_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T18:57:51.344768+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ireland",
       "provider": "Government of Ireland",
       "service_name": "Government of Ireland open data portal",
@@ -4104,12 +4122,12 @@
       "documentation_url": "https://servicodados.ibge.gov.br/api/docs/",
       "api_base_url": "https://servicodados.ibge.gov.br/api/",
       "format_protocol": "REST/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
+      "authentication": "No credentials in historical locality-reference sample;current route policy-deferred",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.ibge.gov.br/acesso-informacao/institucional/o-ibge.html",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:26:55.495426+00:00",
+      "license": "unknown;no data-specific open grant verified for locality/SIDRA APIs",
+      "license_url": "https://www.ibge.gov.br/acesso-informacao/acoes-e-programas/politica-de-privacidade.html",
+      "api_verification_state": "historical_reference_sample_success_current_policy_deferred",
+      "latest_checked_utc": "2026-10-16T18:58:44.890509+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4848,24 +4866,6 @@
       "license_url": "https://data.go.id/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:53.899898+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "ine-spain",
-      "provider": "Spanish National Statistics Institute",
-      "service_name": "Spanish National Statistics Institute API",
-      "geographic_coverage": "Spain",
-      "topical_coverage": "demographics; economics/finance; labor",
-      "dataset_families": "INEbase tables; time series; classifications",
-      "documentation_url": "https://www.ine.es/dyngs/DAB/index.htm?cid=1099",
-      "api_base_url": "https://servicios.ine.es/wstempus/js/EN/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.ine.es/en/aviso_legal_en.htm",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:34:12.971568+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6120,12 +6120,12 @@
       "documentation_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_api",
       "api_base_url": "https://www.ine.pt/ine/json_indicador/",
       "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_copyright",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:34:59.920448+00:00",
+      "authentication": "unknown;current operational API documentation inaccessible",
+      "free_access_restrictions": "Official2018APIannouncement describes free public bilingual APIs;historical statement,not proof current operational access or quota",
+      "license": "Official indexed INE2026 publication declares statistical information CC BY4.0;API data applicability/full current portal terms unresolved",
+      "license_url": "https://www.ine.pt/ine_novidades/semin/INEWS65/index.html",
+      "api_verification_state": "historically_documented_api_current_docs_policy_deferred_no_sample",
+      "latest_checked_utc": "2026-10-16T18:58:52.544397+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
