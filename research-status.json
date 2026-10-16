@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T22:13:29.180440+00:00",
+  "published_at": "2026-10-16T22:15:32.431842+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:11:45.445757+00:00",
+  "research_updated_at": "2026-10-16T22:14:58.691355+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Brazil SUS current API and catalog verification",
+  "latest_milestone": "Brazil SUS currentportal migration/API verified:140catalogsummaries/113Swaggeroperations;anonymousCNESlookup200JSON,rightsremaincandidate;datasetdetailmetadata pass resumable",
   "counts": {
     "verified": 134,
     "candidates": 169,
     "excluded": 24,
-    "sample_successes": 158
+    "sample_successes": 159
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -679,7 +679,8 @@
         "candidate_provider_ids": [
           "brazil",
           "eclac",
-          "jamaica-data"
+          "jamaica-data",
+          "opendatasus"
         ],
         "restricted_provider_ids": []
       },
@@ -720,9 +721,11 @@
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "opendatasus"
+        ],
         "restricted_provider_ids": []
       },
       "energy": {
@@ -739,7 +742,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "ciencia-aberta",
-          "dominican-data"
+          "dominican-data",
+          "opendatasus"
         ],
         "restricted_provider_ids": []
       },
@@ -4077,7 +4081,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T22:07:02.553571+00:00",
+      "latest_checked_utc": "2026-10-16T22:14:38.351597+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5087,7 +5091,7 @@
       "license": "unknown;no data-specific open grant verified for locality/SIDRA APIs",
       "license_url": "https://www.ibge.gov.br/acesso-informacao/acoes-e-programas/politica-de-privacidade.html",
       "api_verification_state": "historical_reference_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-16T18:58:44.890509+00:00",
+      "latest_checked_utc": "2026-10-16T22:08:35.905891+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6670,8 +6674,8 @@
       "free_access_restrictions": "No payment/account used for docs or lookup. Service-wide access restrictions,terms and sustained availability unknown;not a guaranteed free tier.",
       "license": "Dataset-specific;CNES Creative Commons Attribution version unspecified;macroregion no license;API specification info MIT;website CC BY-ND3.0 notice",
       "license_url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude | https://dadosabertos.saude.gov.br/dataset/macrorregiao-de-saude | https://apidadosabertos.saude.gov.br/static/swagger.json | https://dadosabertos.saude.gov.br/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:11:45.378568+00:00",
+      "api_verification_state": "documented_api_anonymous_nonpersonal_lookup_sample_success",
+      "latest_checked_utc": "2026-10-16T22:14:51.276957+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
