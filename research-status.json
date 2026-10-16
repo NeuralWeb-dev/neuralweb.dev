@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:50:17.809131+00:00",
+  "published_at": "2026-10-16T17:52:20.109617+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:48:36.565174+00:00",
+  "research_updated_at": "2026-10-16T17:51:23.214047+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 88,
-    "candidates": 138,
+    "verified": 90,
+    "candidates": 137,
     "excluded": 7,
-    "sample_successes": 126
+    "sample_successes": 127
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -102,6 +102,7 @@
           "nasa-power",
           "noaa-erddap",
           "noaa-ncei",
+          "noaa-ncei-access",
           "nsidc",
           "openaq",
           "pangaea",
@@ -581,12 +582,12 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "argentina",
+          "brazil-bcb",
           "mexico",
           "registry-dados-rs-gov-br"
         ],
         "candidate_provider_ids": [
           "brazil",
-          "brazil-bcb",
           "chile-bcentral",
           "eclac"
         ],
@@ -1102,13 +1103,13 @@
       "economics/finance": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "registry-municipaldata-treasury-gov-za",
           "rwanda"
         ],
         "candidate_provider_ids": [
           "ghana",
           "kenya-knbs",
           "registry-data-vulekamali-gov-za",
-          "registry-municipaldata-treasury-gov-za",
           "south-africa-statssa"
         ],
         "restricted_provider_ids": []
@@ -1144,16 +1145,20 @@
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-municipaldata-treasury-gov-za"
+        ],
         "candidate_provider_ids": [
           "wascal"
         ],
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-municipaldata-treasury-gov-za"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1172,8 +1177,10 @@
         "restricted_provider_ids": []
       },
       "housing": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "registry-municipaldata-treasury-gov-za"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1190,11 +1197,12 @@
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [
-          "registry-data-vulekamali-gov-za",
+        "status": "partial_verified",
+        "verified_provider_ids": [
           "registry-municipaldata-treasury-gov-za"
+        ],
+        "candidate_provider_ids": [
+          "registry-data-vulekamali-gov-za"
         ],
         "restricted_provider_ids": []
       },
@@ -1205,11 +1213,9 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "partial_candidates_only",
+        "status": "unsearched",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [
-          "registry-municipaldata-treasury-gov-za"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -2120,6 +2126,24 @@
       "license_url": "https://www.bls.gov/bls/linksite.htm",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.918130+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "brazil-bcb",
+      "provider": "Central Bank of Brazil Open Data",
+      "service_name": "Banco Central do Brasil SGS time-series API",
+      "geographic_coverage": "Brazil",
+      "topical_coverage": "economics/finance",
+      "dataset_families": "SGS financial time series; monetary indicators",
+      "documentation_url": "https://dadosabertos.bcb.gov.br/",
+      "api_base_url": "https://api.bcb.gov.br/dados/serie/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public metadata",
+      "free_access_restrictions": "Public SGS11 latest-observation JSON succeeds without credentials; licensed catalog HTML permitted at10-second crawl delay; catalog /api route remains disallowed",
+      "license": "Open Data Commons Open Database License (ODbL), as explicitly linked by sampled dataset",
+      "license_url": "https://dadosabertos.bcb.gov.br/dataset/11-taxa-de-juros---selic",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:51:19.697586+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3113,6 +3137,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "registry-municipaldata-treasury-gov-za",
+      "provider": "South Africa National Treasury / Municipal Money",
+      "service_name": "Municipal Finance Data API",
+      "geographic_coverage": "South Africa; municipalities",
+      "topical_coverage": "public spending/contracts; economics/finance; housing; water; energy",
+      "dataset_families": "Municipal income/expenditure, balance sheets/financial position, cash flow, capital, grants, debtors/creditors, audit opinions and irregular expenditure; dataset/version coverage varies",
+      "documentation_url": "https://municipaldata.treasury.gov.za/docs",
+      "api_base_url": "https://municipaldata.treasury.gov.za/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for successful public cubes catalog request",
+      "free_access_restrictions": "Explicit terms allow download/copy/adapt/distribute and commercial/noncommercial use at no cost; require National Treasury source/publication-date credit, no misleading use or endorsement",
+      "license": "National Treasury Municipal Money Terms of Use: free commercial/noncommercial reuse with attribution",
+      "license_url": "https://municipaldata.treasury.gov.za/terms",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:51:20.042449+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "registry-open-nrw",
       "provider": "open NRW",
       "service_name": "open NRW portal API",
@@ -3706,24 +3748,6 @@
       "license_url": "https://www.ibge.gov.br/acesso-informacao/institucional/o-ibge.html",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:26:55.495426+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "brazil-bcb",
-      "provider": "Central Bank of Brazil Open Data",
-      "service_name": "Central Bank of Brazil Open Data open data API",
-      "geographic_coverage": "Brazil",
-      "topical_coverage": "economics/finance",
-      "dataset_families": "SGS financial time series; monetary indicators",
-      "documentation_url": "https://dadosabertos.bcb.gov.br/",
-      "api_base_url": "https://api.bcb.gov.br/dados/serie/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public metadata",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.bcb.gov.br/acessoinformacao/politicaprivacidade",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:37:02.092758+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4821,7 +4845,25 @@
       "license": "Dataset-specific access/use constraints; complete NOAA reuse policy not yet established",
       "license_url": "https://www.noaa.gov/information-technology/open-data-dissemination",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:51:48.767934+00:00",
+      "latest_checked_utc": "2026-10-16T17:51:19.766790+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "noaa-ncei-access",
+      "provider": "NOAA National Centers for Environmental Information",
+      "service_name": "NCEI Access Data Service API",
+      "geographic_coverage": "Global; sampled US station",
+      "topical_coverage": "climate/weather/environment",
+      "dataset_families": "GHCN-Daily daily-summaries; docs also list global-hourly, marine and summary datasets whose rights/coverage require separate review",
+      "documentation_url": "https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation",
+      "api_base_url": "https://www.ncei.noaa.gov/access/services/data/v1",
+      "format_protocol": "HTTPS GET; JSON/CSV/SSV/PDF/NetCDF depending on dataset",
+      "authentication": "none for successful one-station/one-day daily-summaries request",
+      "free_access_restrictions": "Sample returned public JSON without credentials; source metadata says most electronic downloads free, custom/certified/media orders may incur fees",
+      "license": "unknown; citation/use-liability metadata is not an explicit open reuse grant",
+      "license_url": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc%3AC00861",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T17:51:19.844481+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5470,24 +5512,6 @@
       "license_url": "https://gisdata.mn.gov/dataset",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:42:12.841230+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-municipaldata-treasury-gov-za",
-      "provider": "South African National Treasury",
-      "service_name": "Municipal Money Data API",
-      "geographic_coverage": "South Africa",
-      "topical_coverage": "public spending/contracts; economics/finance; law/civic",
-      "dataset_families": "Municipal financial reporting; budgets; expenditure; audit information",
-      "documentation_url": "https://municipaldata.treasury.gov.za/",
-      "api_base_url": "https://municipaldata.treasury.gov.za/api/",
-      "format_protocol": "REST/JSON",
-      "authentication": "unknown; public sample attempted",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://municipaldata.treasury.gov.za/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:43:51.071268+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
