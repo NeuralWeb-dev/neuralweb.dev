@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T18:24:58.450652+00:00",
+  "published_at": "2026-10-16T18:27:00.762999+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:24:54.722894+00:00",
+  "research_updated_at": "2026-10-16T18:26:51.930871+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "GLEIF CC0,ONC solely-ownedCC BY4,geoBoundariesgbOpen and NLM RxNorm scoped public-domain APIs reviewed;715gbOpen layers indexed;BIS/iNaturalist restricted;IATI/CapeTown/Brazil access gaps;root/cursor discovery ongoing",
   "counts": {
     "verified": 101,
     "candidates": 132,
@@ -457,6 +457,7 @@
           "cdc",
           "cms",
           "epa-aqs",
+          "nih-rxnav",
           "usda-food"
         ],
         "candidate_provider_ids": [],
@@ -576,8 +577,10 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "nih-rxnav"
+        ],
         "candidate_provider_ids": [
           "loc",
           "smithsonian"
@@ -2584,7 +2587,7 @@
       "format_protocol": "HTTP GET/JSON metadata;links to GeoJSON,TopoJSON,shapefile ZIP downloads",
       "authentication": "none for tested public metadata requests",
       "free_access_restrictions": "Official docs encourage automated access;gbOpen CC BY4.0 acknowledgement. gbHumanitarian and gbAuthoritative separate,not blanket open.",
-      "license": "CC BY4.0 for geoBoundaries gbOpen;original-source licence fields retained",
+      "license": "Project CC BY4.0;source-specific original licences retained,including ODbL",
       "license_url": "https://www.geoboundaries.org/",
       "api_verification_state": "documented_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T18:23:19.393044+00:00",
