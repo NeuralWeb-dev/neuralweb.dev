@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:11:31.518754+00:00",
+  "published_at": "2026-10-16T17:13:33.820533+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:11:30.406688+00:00",
+  "research_updated_at": "2026-10-16T17:13:13.429762+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research batch resume-distinct-interfaces; checkpoint census-geocoder",
+  "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 74,
-    "candidates": 150,
+    "verified": 75,
+    "candidates": 151,
     "excluded": 4,
-    "sample_successes": 121
+    "sample_successes": 122
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -80,6 +80,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "fao",
+          "nasa-power",
           "ocha-hapi",
           "wfp"
         ],
@@ -99,6 +100,7 @@
           "hdx",
           "nasa-api",
           "nasa-cmr",
+          "nasa-power",
           "noaa-erddap",
           "noaa-ncei",
           "nsidc",
@@ -127,6 +129,7 @@
           "eia"
         ],
         "candidate_provider_ids": [
+          "nasa-power",
           "nims-mdr",
           "openchargemap"
         ],
@@ -137,6 +140,7 @@
         "verified_provider_ids": [
           "datacommons",
           "neuromorpho",
+          "nih-mesh",
           "nih-pubmed",
           "pdb",
           "uniprot",
@@ -294,6 +298,7 @@
           "fao",
           "loc",
           "metmuseum",
+          "nasa-power",
           "ocha-hapi",
           "perspectivia",
           "smithsonian",
@@ -311,6 +316,7 @@
           "dryad",
           "gavo",
           "neuromorpho",
+          "nih-mesh",
           "nih-pubmed",
           "openalex",
           "opencitations",
@@ -350,7 +356,9 @@
           "census",
           "statcan"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "census-tigerweb"
+        ],
         "restricted_provider_ids": []
       },
       "economics/finance": {
@@ -442,6 +450,7 @@
           "census"
         ],
         "candidate_provider_ids": [
+          "census-geocoder",
           "nyc"
         ],
         "restricted_provider_ids": []
@@ -458,7 +467,9 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "canadensys"
+          "canadensys",
+          "census-geocoder",
+          "census-tigerweb"
         ],
         "restricted_provider_ids": []
       },
@@ -2572,6 +2583,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "nih-mesh",
+      "provider": "US National Library of Medicine",
+      "service_name": "MeSH RDF lookup and SPARQL",
+      "geographic_coverage": "Global",
+      "topical_coverage": "health; research",
+      "dataset_families": "Medical Subject Headings; descriptors; concepts; hierarchical biomedical terms",
+      "documentation_url": "https://www.nlm.nih.gov/databases/download/mesh.html",
+      "api_base_url": "https://id.nlm.nih.gov/mesh/",
+      "format_protocol": "REST/JSON; resource-specific formats",
+      "authentication": "none for sampled lookup API",
+      "free_access_restrictions": "No NLM usage fees/royalties; acknowledge NLM, identify data version or disclose outdated data, no endorsement claim",
+      "license": "NLM MeSH data use/redistribution terms; NLM-authored content public domain",
+      "license_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:13:11.915663+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "nih-pubmed",
       "provider": "NIH National Center for Biotechnology Information",
       "service_name": "NCBI E-utilities — PubMed metadata subset",
@@ -3521,10 +3550,28 @@
       "format_protocol": "REST/JSON; resource-specific formats",
       "authentication": "unknown; no-key public sample candidate",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown for this API service; statistical ACS CC0 metadata does not establish geocoder rights",
       "license_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:11:30.384511+00:00",
+      "latest_checked_utc": "2026-10-16T17:13:11.856272+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "census-tigerweb",
+      "provider": "US Census Bureau",
+      "service_name": "TIGERweb ArcGIS REST services",
+      "geographic_coverage": "United States",
+      "topical_coverage": "geospatial; demographics",
+      "dataset_families": "Census geographic boundaries; tracts; blocks; administrative areas",
+      "documentation_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-web.html",
+      "api_base_url": "https://tigerweb.geo.census.gov/arcgis/rest/services/",
+      "format_protocol": "REST/JSON; resource-specific formats",
+      "authentication": "unknown; no-key public sample candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown for this API service; source data rights require explicit confirmation",
+      "license_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:13:11.876057+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4482,6 +4529,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nasa-power",
+      "provider": "NASA POWER",
+      "service_name": "Prediction Of Worldwide Energy Resources API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "energy; agriculture; climate/weather/environment",
+      "dataset_families": "Daily/monthly meteorology; solar radiation; agroclimatology",
+      "documentation_url": "https://power.larc.nasa.gov/docs/services/api/",
+      "api_base_url": "https://power.larc.nasa.gov/api/",
+      "format_protocol": "REST/JSON; resource-specific formats",
+      "authentication": "unknown; no-key public sample candidate",
+      "free_access_restrictions": "Target data request was not sent because fetched robots policy disallows the route",
+      "license": "unknown; free availability in docs is not an explicit license grant",
+      "license_url": "https://power.larc.nasa.gov/docs/faqs/data/",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T17:13:11.896447+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nepal",
       "provider": "Nepal National Statistics Office",
       "service_name": "Nepal National Statistics Office open data portal",
@@ -4515,24 +4580,6 @@
       "license_url": "https://clinicaltrials.gov/about-site/terms-conditions",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:24:54.738095+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "nih-mesh",
-      "provider": "US National Library of Medicine",
-      "service_name": "MeSH RDF lookup and SPARQL",
-      "geographic_coverage": "Global",
-      "topical_coverage": "health; research",
-      "dataset_families": "Medical Subject Headings; descriptors; concepts; hierarchical biomedical terms",
-      "documentation_url": "https://www.nlm.nih.gov/databases/download/mesh.html",
-      "api_base_url": "https://id.nlm.nih.gov/mesh/",
-      "format_protocol": "REST/JSON; resource-specific formats",
-      "authentication": "unknown; no-key public sample candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:11:27.024773+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
