@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T16:25:16.685167+00:00",
+  "published_at": "2026-10-16T16:26:36.716923+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T16:24:56.932436+00:00",
+  "research_updated_at": "2026-10-16T16:26:36.493807+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research batch us; checkpoint irs",
+  "latest_milestone": "Research batch portals; checkpoint germany",
   "counts": {
     "verified": 3,
-    "candidates": 36,
+    "candidates": 43,
     "excluded": 0,
-    "sample_successes": 21
+    "sample_successes": 27
   },
   "remaining_work": [
     "Build and verify international/community batch",
@@ -359,6 +359,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "canada",
+      "provider": "Government of Canada",
+      "service_name": "Government of Canada open data portal",
+      "geographic_coverage": "Canada",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "documentation_url": "https://open.canada.ca/en/access-our-application-programming-interface-api",
+      "api_base_url": "https://open.canada.ca/data/api/3/action/",
+      "format_protocol": "CKAN Action API / JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://open.canada.ca/en/open-government-licence-canada",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:26:33.085208+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cdc",
       "provider": "US Centers for Disease Control and Prevention",
       "service_name": "US Centers for Disease Control and Prevention API",
@@ -521,6 +539,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "france",
+      "provider": "French government data.gouv.fr",
+      "service_name": "French government data.gouv.fr open data portal",
+      "geographic_coverage": "France",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "documentation_url": "https://www.data.gouv.fr/api/1/",
+      "api_base_url": "https://www.data.gouv.fr/api/1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.data.gouv.fr/pages/legal/licences/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:26:36.171115+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "fred",
       "provider": "Federal Reserve Bank of St Louis / FRED",
       "service_name": "Federal Reserve Bank of St Louis / FRED API",
@@ -554,6 +590,24 @@
       "license_url": "https://www.gbif.org/terms/data-user",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:23:42.975546+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "germany",
+      "provider": "GovData Germany",
+      "service_name": "GovData Germany open data portal",
+      "geographic_coverage": "Germany",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "documentation_url": "https://www.govdata.de/web/guest/suchen",
+      "api_base_url": "https://www.govdata.de/ckan/api/3/action/",
+      "format_protocol": "CKAN Action API / JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.govdata.de/web/guest/lizenzen",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:26:36.487963+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -755,6 +809,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ons",
+      "provider": "UK Office for National Statistics",
+      "service_name": "UK Office for National Statistics open data portal",
+      "geographic_coverage": "United Kingdom",
+      "topical_coverage": "demographics; economics/finance; labor",
+      "dataset_families": "Population; economy; prices; statistical datasets",
+      "documentation_url": "https://developer.ons.gov.uk/",
+      "api_base_url": "https://api.beta.ons.gov.uk/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.ons.gov.uk/methodology/geography/licences",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:26:32.664009+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "openalex",
       "provider": "OurResearch / OpenAlex",
       "service_name": "OurResearch / OpenAlex API",
@@ -809,6 +881,42 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "spain",
+      "provider": "Spanish government datos.gob.es",
+      "service_name": "Spanish government datos.gob.es open data portal",
+      "geographic_coverage": "Spain",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "documentation_url": "https://datos.gob.es/en/apidata",
+      "api_base_url": "https://datos.gob.es/apidata/",
+      "format_protocol": "REST/DCAT JSON/RDF",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://datos.gob.es/en/aviso-legal",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:26:36.213920+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "statcan",
+      "provider": "Statistics Canada",
+      "service_name": "Statistics Canada open data portal",
+      "geographic_coverage": "Canada",
+      "topical_coverage": "demographics; economics/finance; labor",
+      "dataset_families": "Statistical tables; vectors; cube metadata",
+      "documentation_url": "https://www.statcan.gc.ca/en/developers/wds",
+      "api_base_url": "https://www150.statcan.gc.ca/t1/wds/rest/",
+      "format_protocol": "REST/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.statcan.gc.ca/en/reference/licence",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T16:26:35.706018+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "treasury",
       "provider": "US Treasury Fiscal Data",
       "service_name": "US Treasury Fiscal Data API",
@@ -824,6 +932,24 @@
       "license_url": "https://fiscaldata.treasury.gov/about-us/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:24:56.857677+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uk",
+      "provider": "UK data.gov.uk",
+      "service_name": "UK data.gov.uk open data portal",
+      "geographic_coverage": "United Kingdom",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "documentation_url": "https://guidance.data.gov.uk/get_data/api_documentation/",
+      "api_base_url": "https://data.gov.uk/api/action/",
+      "format_protocol": "CKAN Action API / JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:26:32.548602+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
