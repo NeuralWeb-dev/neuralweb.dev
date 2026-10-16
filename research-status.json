@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T21:38:48.929650+00:00",
+  "published_at": "2026-10-16T21:40:51.409701+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:36:36.815212+00:00",
+  "research_updated_at": "2026-10-16T21:40:48.345203+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Bahrain current license full3page review resolves restricted withdrawal/purpose conditions;Jamaica documented DKAN candidate/10resource leads,runtimepolicy-deferred;BDLvariablemetadata harvest continues",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
     "verified": 133,
-    "candidates": 161,
+    "candidates": 162,
     "excluded": 22,
-    "sample_successes": 156
+    "sample_successes": 157
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1562,6 +1562,7 @@
         "candidate_provider_ids": [
           "nepal",
           "pakistan",
+          "pakistan-odp",
           "sri-lanka"
         ],
         "restricted_provider_ids": []
@@ -1572,6 +1573,7 @@
         "candidate_provider_ids": [
           "nepal",
           "pakistan",
+          "pakistan-odp",
           "sri-lanka"
         ],
         "restricted_provider_ids": []
@@ -1586,7 +1588,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "nepal"
+          "nepal",
+          "pakistan-odp"
         ],
         "restricted_provider_ids": []
       },
@@ -1610,34 +1613,42 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "nepal"
+          "nepal",
+          "pakistan-odp"
         ],
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "pakistan-odp"
+        ],
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "pakistan-odp"
+        ],
         "restricted_provider_ids": []
       },
       "housing": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "nepal"
+          "nepal",
+          "pakistan-odp"
         ],
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "pakistan-odp"
+        ],
         "restricted_provider_ids": []
       },
       "geospatial": {
@@ -1688,14 +1699,17 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "nepal"
+          "nepal",
+          "pakistan-odp"
         ],
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "pakistan-odp"
+        ],
         "restricted_provider_ids": []
       }
     },
@@ -3973,7 +3987,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:35:57.144606+00:00",
+      "latest_checked_utc": "2026-10-16T21:39:44.236888+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4935,19 +4949,19 @@
     {
       "identifier": "bangladesh",
       "provider": "Bangladesh Open Data",
-      "service_name": "Bangladesh Open Data open data portal",
+      "service_name": "Bangladesh Open Data linked dataset metadata API",
       "geographic_coverage": "Bangladesh",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://data.gov.bd/",
-      "api_base_url": "https://data.gov.bd/api/3/action/",
-      "format_protocol": "CKAN Action API / JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://data.gov.bd/terms-of-use",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:26:46.857385+00:00",
+      "documentation_url": "https://data.gov.bd/dataset/national-e-service-list",
+      "api_base_url": "https://data.gov.bd/api/metadata",
+      "format_protocol": "Current linked per-dataset metadata route;nominalJSON response has injectedHTML/script prefix andis not validJSON. EarlierCKANActionroute unverified,replaced.",
+      "authentication": "No credentials for small linkedmetadata request;otheroperationsunknown",
+      "free_access_restrictions": "Publicmetadatapage/linkedrouteaccessible;rights notestablished. Terms allowprinting government-ownedinformation unchanged;not generaladaptation/redistributiongrant.",
+      "license": "SampledNationalE-ServiceList explicitlyLicenseNotSpecified;portalterms limitedprintingpermission",
+      "license_url": "https://data.gov.bd/dataset/national-e-service-list | https://data.gov.bd/terms-of-use",
+      "api_verification_state": "documented_metadata_route_http200_malformed_json",
+      "latest_checked_utc": "2026-10-16T21:37:59.439128+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6560,14 +6574,32 @@
       "topical_coverage": "demographics; economics/finance",
       "dataset_families": "Census; demographic and economic statistics",
       "documentation_url": "https://www.pbs.gov.pk/",
-      "api_base_url": "https://www.pbs.gov.pk/",
+      "api_base_url": "",
       "format_protocol": "REST/JSON",
       "authentication": "API documentation/access/license unresolved",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.pbs.gov.pk/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:41:04.927344+00:00",
+      "free_access_restrictions": "CurrentPBSpage saysordinarydownloadsfreeandcustom/secureprocessingmaycost;also displaysforeigntrade/price/census/mapcharges. Actualproduct/APIfreeaccessscopeunresolved;no purchase/account/dataquery.",
+      "license": "CurrentPBS disseminationpage describes standardopen-governmentlicence forTier1/2products;fullinstrument/version/adoption scopeunreviewed",
+      "license_url": "https://www.pbs.gov.pk/data-dissemination/",
+      "api_verification_state": "official_dissemination_policy_reviewed_actual_api_unresolved",
+      "latest_checked_utc": "2026-10-16T21:40:06.777798+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pakistan-odp",
+      "provider": "Open Data Pakistan / NCBC, LUMS and HEC",
+      "service_name": "Open Data Pakistan CKAN catalog and Datastore API",
+      "geographic_coverage": "Pakistan;South Asia",
+      "topical_coverage": "demographics; economics/finance; agriculture; education; health; housing; energy; transportation; culture; research",
+      "dataset_families": "Officialportal categories andfeaturedPunjabhealth/education/developmentstatistics,districtprofiles,agriculture/economy/demography;catalogreports1505datasets,notallAPIdataenabled",
+      "documentation_url": "https://opendata.com.pk/api/1/util/snippet/api_info.html?resource_id=0e03ca6b-b883-400a-8dc2-ac430cd7e4e1",
+      "api_base_url": "https://opendata.com.pk/api/3/action/",
+      "format_protocol": "CKANActionJSON catalog;documentedDatastore_search/SQL interfaces,Datastoreobservationsuntested",
+      "authentication": "AnonymoussmallcatalogGETsucceeded;write APIs notused;otherconditionsunknown",
+      "free_access_restrictions": "Publiccatalogsamplewithoutkey/payment;freeaccesscap/productionSLAunknown. Per-datasetrights/sourceauthorityneedreview.",
+      "license": "Mixed per-datasetdeclarations;sampleDistrictProfilesdeclaresCC0;portalguideoffersCCBY4,CCBYSA4,CC0,ODbL,ODCBY,PDDL andOther",
+      "license_url": "https://opendata.com.pk/pages/making-data-open-legally | https://opendata.com.pk/dataset/district-profiles-all-districts-of-pakistan | https://opendata.com.pk/about",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T21:39:52.687775+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
