@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T23:22:52.071489+00:00",
+  "published_at": "2026-10-16T23:24:54.563233+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:21:12.734807+00:00",
+  "research_updated_at": "2026-10-16T23:23:14.145942+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Current USData.gov catalogue and Asia source-discovery gaps",
   "counts": {
     "verified": 148,
-    "candidates": 188,
+    "candidates": 189,
     "excluded": 24,
     "sample_successes": 182
   },
@@ -8626,6 +8626,24 @@
       "license_url": "https://www.un.org/en/about-us/terms-of-use",
       "api_verification_state": "documented_current_series_metadata_sample_success_rights_unresolved",
       "latest_checked_utc": "2026-10-16T19:47:35.071042+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "us-data-gov-catalog",
+      "provider": "United States General Services Administration / Data.gov",
+      "service_name": "Data.gov Catalog API v4 and legacy read-only CKAN migration reference",
+      "geographic_coverage": "United States;federal,state,local,tribal and other participating metadata publishers;not everygovernmentdataset",
+      "topical_coverage": "law/civic; geospatial; research; climate/weather/environment; education",
+      "dataset_families": "Dataset metadata search,keywords,locations/GeoJSON,organizations,harvest records,raw/transformed source metadata. Does not host underlying data files. Source records may be public,restricted public or non-public.",
+      "documentation_url": "https://resources.data.gov/catalog-api/ | https://data.gov/contact/",
+      "api_base_url": "https://api.gsa.gov/technology/datagov/v4/",
+      "format_protocol": "Documented REST JSON/DCAT-US;original harvest payloads JSON/XML/plaintext and location GeoJSON. No actual API response tested.",
+      "authentication": "Officialdocs require free api.data.gov key in X-Api-Key header. No key/account obtained,environment inspected or API request sent. Public demo credential is explicitly unsuitable for automated querying and was not used.",
+      "free_access_restrictions": "Official free APIkey signup documented;production queries needpersonalkey. Demo credential intendedinitialexploration only;no automated/bulk demo use. Source-data access/rights separate and may be restricted.",
+      "license": "Catalog/source metadata reuse rights and individual data licenses unresolved;no uniform government-wide open license inferred",
+      "license_url": "https://data.gov/contact/ | https://resources.data.gov/catalog-api/ | https://data.gov/data-policy/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T23:23:14.068780+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
