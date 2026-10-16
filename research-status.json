@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:03:21.255572+00:00",
+  "published_at": "2026-10-16T17:05:24.104001+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:03:18.911765+00:00",
+  "research_updated_at": "2026-10-16T17:05:07.115636+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research batch resume-regional-services; checkpoint cifor-icraf",
+  "latest_milestone": "Re3data descriptor expansion with official API/license discovery hints",
   "counts": {
     "verified": 72,
-    "candidates": 145,
+    "candidates": 150,
     "excluded": 4,
-    "sample_successes": 116
+    "sample_successes": 118
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3243,6 +3243,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ala",
+      "provider": "Atlas of Living Australia",
+      "service_name": "Atlas of Living Australia API",
+      "geographic_coverage": "Australia",
+      "topical_coverage": "biodiversity; geospatial; climate/weather/environment",
+      "dataset_families": "Species; occurrences; biodiversity datasets; spatial layers",
+      "documentation_url": "https://docs.ala.org.au/",
+      "api_base_url": "https://api.ala.org.au/",
+      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.ala.org.au/terms-of-use/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:03:25.746609+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "austria",
       "provider": "Austrian government data.gv.at",
       "service_name": "Austrian government data.gv.at open data portal",
@@ -3405,6 +3423,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "canadensys",
+      "provider": "Canadensys",
+      "service_name": "Canadensys API",
+      "geographic_coverage": "Canada",
+      "topical_coverage": "biodiversity; geospatial",
+      "dataset_families": "Canadian biodiversity occurrence and taxonomy datasets",
+      "documentation_url": "https://www.canadensys.net/explorer",
+      "api_base_url": "https://data.canadensys.net/",
+      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.canadensys.net/about",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T17:03:28.635800+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cape-town",
       "provider": "City of Cape Town Open Data",
       "service_name": "City of Cape Town Open Data open data portal",
@@ -3492,6 +3528,24 @@
       "license_url": "https://www.stats.gov.cn/english/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.909090+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ciencia-aberta",
+      "provider": "Ciencia Aberta Fiocruz Arca Dados",
+      "service_name": "Ciencia Aberta Fiocruz Arca Dados API",
+      "geographic_coverage": "Brazil",
+      "topical_coverage": "health; research",
+      "dataset_families": "Public-health and biomedical research dataset metadata",
+      "documentation_url": "https://dadosdepesquisa.fiocruz.br/",
+      "api_base_url": "https://dadosdepesquisa.fiocruz.br/api/",
+      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://dadosdepesquisa.fiocruz.br/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:03:32.192572+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -3852,6 +3906,24 @@
       "license_url": "https://www.fsd.tuni.fi/en/data-archive/documents-and-agreements/",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:58:57.614115+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gbif-japan",
+      "provider": "Japan Biodiversity Information Facility JBIF",
+      "service_name": "Japan Biodiversity Information Facility JBIF API",
+      "geographic_coverage": "Japan",
+      "topical_coverage": "biodiversity; geospatial",
+      "dataset_families": "Japanese biodiversity occurrence metadata and datasets",
+      "documentation_url": "https://gbif.jp/",
+      "api_base_url": "https://gbif.jp/",
+      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://gbif.jp/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T17:03:29.531669+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4392,6 +4464,24 @@
       "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:24:54.939837+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nims-mdr",
+      "provider": "National Institute for Materials Science Materials Data Repository",
+      "service_name": "National Institute for Materials Science Materials Data Repository API",
+      "geographic_coverage": "Japan/Global",
+      "topical_coverage": "research; energy",
+      "dataset_families": "Materials science datasets; experimental metadata; research outputs",
+      "documentation_url": "https://dice.nims.go.jp/services/MDR/manual/html/api.html",
+      "api_base_url": "https://mdr.nims.go.jp/",
+      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://mdr.nims.go.jp/terms",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T17:03:21.920955+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
