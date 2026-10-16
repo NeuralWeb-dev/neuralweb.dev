@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T21:14:20.163499+00:00",
+  "published_at": "2026-10-16T21:16:22.354184+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:12:55.622866+00:00",
+  "research_updated_at": "2026-10-16T21:14:43.958075+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Slovenia SiStat scoped custom open reuse/4827native English table definitions; Croatia DZS scoped Open Licence/65metadata inventory families/20database directory walk; Greenland stopped3networktimeouts, HKmetadata resumable",
+  "latest_milestone": "Slovenia SiStat scoped custom open reuse/4827native English table definitions; Croatia DZS scoped Open Licence/65metadata inventory families/complete20database175directory902tablepath pass; Greenland stopped3networktimeouts, HKmetadata resumable",
   "counts": {
     "verified": 130,
     "candidates": 155,
@@ -422,6 +422,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "census",
+          "greenland-statistics",
           "statcan"
         ],
         "candidate_provider_ids": [
@@ -435,6 +436,7 @@
           "bea",
           "bls",
           "census",
+          "greenland-statistics",
           "sec",
           "statcan",
           "treasury"
@@ -448,6 +450,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bls",
+          "greenland-statistics",
           "statcan"
         ],
         "candidate_provider_ids": [],
@@ -456,6 +459,7 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "greenland-statistics",
           "usda-cdl",
           "usda-food"
         ],
@@ -495,7 +499,8 @@
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "eia"
+          "eia",
+          "greenland-statistics"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -506,6 +511,7 @@
           "cdc",
           "cms",
           "epa-aqs",
+          "greenland-statistics",
           "nih-rxnav",
           "usda-food"
         ],
@@ -513,15 +519,18 @@
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "housing": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "census"
+          "census",
+          "greenland-statistics"
         ],
         "candidate_provider_ids": [
           "census-geocoder",
@@ -530,8 +539,10 @@
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [
           "nyc"
         ],
@@ -555,6 +566,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cms",
+          "greenland-statistics",
           "treasury"
         ],
         "candidate_provider_ids": [
@@ -566,6 +578,7 @@
       "companies/nonprofits": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "greenland-statistics",
           "sec"
         ],
         "candidate_provider_ids": [
@@ -578,6 +591,7 @@
         "verified_provider_ids": [
           "canada",
           "govinfo",
+          "greenland-statistics",
           "registry-data-boston-gov"
         ],
         "candidate_provider_ids": [
@@ -616,6 +630,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "artic",
+          "greenland-statistics",
           "metmuseum",
           "usda-cdl",
           "usda-food"
@@ -815,6 +830,7 @@
           "destatis",
           "eurostat",
           "faroe-statistics",
+          "iceland-statistics",
           "ine-spain",
           "moldova-data",
           "ons",
@@ -846,6 +862,7 @@
           "ecb",
           "eurostat",
           "faroe-statistics",
+          "iceland-statistics",
           "ine-spain",
           "moldova-data",
           "ons",
@@ -877,6 +894,7 @@
           "destatis",
           "eurostat",
           "faroe-statistics",
+          "iceland-statistics",
           "ine-spain",
           "ons",
           "registry-opendata-gov-je",
@@ -899,6 +917,7 @@
         "verified_provider_ids": [
           "croatia-statistics",
           "eurostat",
+          "iceland-statistics",
           "serbia-data",
           "slovenia-statistics"
         ],
@@ -913,9 +932,11 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "cefas",
           "croatia-statistics",
           "faroe-statistics",
           "france",
+          "iceland-statistics",
           "ices-dome",
           "registry-transparenz-karlsruhe-de",
           "slovenia-statistics",
@@ -928,8 +949,10 @@
         ]
       },
       "water": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "iceland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -940,6 +963,7 @@
           "croatia-statistics",
           "eurostat",
           "faroe-statistics",
+          "iceland-statistics",
           "slovenia-statistics",
           "ukraine-data"
         ],
@@ -957,6 +981,7 @@
           "faroe-statistics",
           "fsa-alerts",
           "fsa-fhrs",
+          "iceland-statistics",
           "moldova-data",
           "ukraine-data"
         ],
@@ -971,6 +996,7 @@
         "verified_provider_ids": [
           "dnb",
           "faroe-statistics",
+          "iceland-statistics",
           "moldova-data",
           "serbia-data",
           "slovenia-statistics",
@@ -989,6 +1015,7 @@
         "verified_provider_ids": [
           "cbs",
           "denmark-statbank",
+          "iceland-statistics",
           "scb",
           "ssb",
           "statfin",
@@ -1005,6 +1032,7 @@
         "verified_provider_ids": [
           "croatia-statistics",
           "faroe-statistics",
+          "iceland-statistics",
           "registry-admin-opendatani-gov-uk",
           "registry-daten-sg-ch",
           "slovenia-statistics",
@@ -1041,6 +1069,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "faroe-statistics",
+          "iceland-statistics",
           "moldova-data",
           "ukraine-data"
         ],
@@ -1050,6 +1079,7 @@
       "companies/nonprofits": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "iceland-statistics",
           "moldova-data",
           "registry-admin-opendatani-gov-uk"
         ],
@@ -1066,6 +1096,7 @@
         "verified_provider_ids": [
           "croatia-statistics",
           "faroe-statistics",
+          "iceland-statistics",
           "legislation-uk",
           "moldova-data",
           "paris",
@@ -1089,6 +1120,7 @@
       "biodiversity": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "cefas",
           "france",
           "ices-dome"
         ],
@@ -1099,6 +1131,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "cefas",
           "ices-dome",
           "transportapi-fi"
         ],
@@ -1121,6 +1154,7 @@
           "europeana",
           "eurostat",
           "faroe-statistics",
+          "iceland-statistics",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
           "serbia-data",
@@ -1143,6 +1177,7 @@
           "darus",
           "dnb",
           "faroe-statistics",
+          "iceland-statistics",
           "ices-dome",
           "registry-data-bl-ch",
           "registry-data-tg-ch",
@@ -1648,7 +1683,8 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
-          "china-nbs"
+          "china-nbs",
+          "thailand-govspending"
         ],
         "restricted_provider_ids": [
           "korea-kosis"
@@ -1672,14 +1708,17 @@
         "verified_provider_ids": [
           "japan-dashboard"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "thailand-gistda"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "hk-weather"
+          "hk-weather",
+          "thailand-gistda"
         ],
         "restricted_provider_ids": []
       },
@@ -1722,7 +1761,9 @@
         "verified_provider_ids": [
           "japan-dashboard"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "thailand-gistda"
+        ],
         "restricted_provider_ids": []
       },
       "transportation": {
@@ -1741,7 +1782,8 @@
           "taiwan"
         ],
         "candidate_provider_ids": [
-          "gbif-japan"
+          "gbif-japan",
+          "thailand-gistda"
         ],
         "restricted_provider_ids": []
       },
@@ -1750,7 +1792,9 @@
         "verified_provider_ids": [
           "taiwan"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "thailand-govspending"
+        ],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
@@ -1764,7 +1808,9 @@
         "verified_provider_ids": [
           "taiwan"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "thailand-govspending"
+        ],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -1792,7 +1838,9 @@
         "verified_provider_ids": [
           "japan-dashboard"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "thailand-gistda"
+        ],
         "restricted_provider_ids": []
       },
       "research": {
@@ -2192,33 +2240,42 @@
     },
     "Polar": {
       "demographics": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "economics/finance": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "labor": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "nasa-cmr"
+          "nasa-cmr",
+          "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
           "nsidc",
@@ -2229,38 +2286,49 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "nasa-cmr"
+          "nasa-cmr",
+          "ocean-networks-canada"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "housing": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -2275,20 +2343,26 @@
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -2299,8 +2373,10 @@
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "ocean-networks-canada"
+        ],
         "candidate_provider_ids": [
           "pangaea"
         ],
@@ -2313,8 +2389,10 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "greenland-statistics"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -2652,7 +2730,7 @@
       "license": "Open Licence - The Republic of Croatia",
       "license_url": "https://dzs.gov.hr/about-us/right-of-access-to-information/open-data/1823?big=1+%7C+https%3A%2F%2Fdzs.gov.hr%2FUserDocsImages%2Fdokumenti%2FDokumenti%2FOpen+Licence.pdf%3Fvel%3D244016",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:08:43.214104+00:00",
+      "latest_checked_utc": "2026-10-16T21:12:39.525042+00:00",
       "classification": "open_license_verified"
     },
     {
