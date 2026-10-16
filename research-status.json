@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T21:28:36.377763+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-16T21:30:38.955727+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:28:33.693999+00:00",
+  "research_updated_at": "2026-10-16T21:30:01.951525+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "GUS9API family overviews:BDL/SDG/TranStat scoped CC BY4 data grants,6access/rights candidates;BDL33subjects/partial172685variablecatalog,SDG321regionaltitles;HK3830metadata all200completefinitepass,rights/resourcesunreviewed",
   "counts": {
     "verified": 133,
     "candidates": 161,
@@ -834,6 +834,8 @@
           "ine-spain",
           "moldova-data",
           "ons",
+          "poland-bdl",
+          "poland-gus-sdg",
           "registry-opendata-fr-ch",
           "registry-opendata-gov-je",
           "scb",
@@ -866,6 +868,8 @@
           "ine-spain",
           "moldova-data",
           "ons",
+          "poland-bdl",
+          "poland-gus-sdg",
           "scb",
           "serbia-data",
           "slovenia-statistics",
@@ -877,6 +881,7 @@
           "aland-statistics",
           "bundesbank",
           "insee",
+          "poland-gus-strateg",
           "russia",
           "serbia-apr",
           "serbia-rzs",
@@ -897,6 +902,7 @@
           "iceland-statistics",
           "ine-spain",
           "ons",
+          "poland-bdl",
           "registry-opendata-gov-je",
           "scb",
           "serbia-data",
@@ -918,6 +924,7 @@
           "croatia-statistics",
           "eurostat",
           "iceland-statistics",
+          "poland-bdl",
           "serbia-data",
           "slovenia-statistics"
         ],
@@ -938,6 +945,9 @@
           "france",
           "iceland-statistics",
           "ices-dome",
+          "poland-bdl",
+          "poland-gus-sdg",
+          "poland-gus-transtat",
           "registry-transparenz-karlsruhe-de",
           "slovenia-statistics",
           "transportapi-fi",
@@ -964,6 +974,7 @@
           "eurostat",
           "faroe-statistics",
           "iceland-statistics",
+          "poland-bdl",
           "slovenia-statistics",
           "ukraine-data"
         ],
@@ -983,6 +994,8 @@
           "fsa-fhrs",
           "iceland-statistics",
           "moldova-data",
+          "poland-bdl",
+          "poland-gus-sdg",
           "ukraine-data"
         ],
         "candidate_provider_ids": [
@@ -998,6 +1011,8 @@
           "faroe-statistics",
           "iceland-statistics",
           "moldova-data",
+          "poland-bdl",
+          "poland-gus-sdg",
           "serbia-data",
           "slovenia-statistics",
           "switzerland",
@@ -1016,6 +1031,8 @@
           "cbs",
           "denmark-statbank",
           "iceland-statistics",
+          "poland-bdl",
+          "poland-gus-sdg",
           "scb",
           "ssb",
           "statfin",
@@ -1033,6 +1050,8 @@
           "croatia-statistics",
           "faroe-statistics",
           "iceland-statistics",
+          "poland-bdl",
+          "poland-gus-transtat",
           "registry-admin-opendatani-gov-uk",
           "registry-daten-sg-ch",
           "slovenia-statistics",
@@ -1060,7 +1079,9 @@
           "transportapi-fi",
           "uk-police"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "poland-gus-teryt"
+        ],
         "restricted_provider_ids": [
           "registry-data-bs-ch"
         ]
@@ -1071,9 +1092,12 @@
           "faroe-statistics",
           "iceland-statistics",
           "moldova-data",
+          "poland-bdl",
           "ukraine-data"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "poland-gus-smup"
+        ],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
@@ -1081,12 +1105,14 @@
         "verified_provider_ids": [
           "iceland-statistics",
           "moldova-data",
+          "poland-bdl",
           "registry-admin-opendatani-gov-uk"
         ],
         "candidate_provider_ids": [
           "charity-commission",
           "companies-house",
           "insee",
+          "poland-gus-regon",
           "serbia-apr"
         ],
         "restricted_provider_ids": []
@@ -1101,6 +1127,8 @@
           "moldova-data",
           "paris",
           "poland",
+          "poland-bdl",
+          "poland-gus-sdg",
           "registry-data-bl-ch",
           "registry-europeandataportal-eu",
           "registry-open-nrw",
@@ -1110,6 +1138,9 @@
           "ukraine-data"
         ],
         "candidate_provider_ids": [
+          "poland-gus-smup",
+          "poland-gus-strateg",
+          "poland-gus-teryt",
           "serbia-apr",
           "uk-trade-tariff"
         ],
@@ -1155,6 +1186,7 @@
           "eurostat",
           "faroe-statistics",
           "iceland-statistics",
+          "poland-bdl",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
           "serbia-data",
@@ -1179,6 +1211,7 @@
           "faroe-statistics",
           "iceland-statistics",
           "ices-dome",
+          "poland-bdl",
           "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
@@ -3936,7 +3969,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:25:47.241136+00:00",
+      "latest_checked_utc": "2026-10-16T21:29:29.563670+00:00",
       "classification": "open_license_verified"
     },
     {
