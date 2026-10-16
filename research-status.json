@@ -1,268 +1,1785 @@
 {
-  "published_at": "2026-10-16T16:38:50.662089+00:00",
+  "published_at": "2026-10-16T16:40:52.745473+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T16:38:14.117619+00:00",
+  "research_updated_at": "2026-10-16T16:40:07.392108+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Evidence audit: structured JSON/XML success separated from HTML, HTTP errors and truncated samples",
+  "latest_milestone": "World Bank indicator metadata enumeration page 60",
   "counts": {
     "verified": 44,
     "candidates": 119,
     "excluded": 3,
-    "sample_successes": 38
+    "sample_successes": 86
   },
   "remaining_work": [
-    "Build and verify international/community batch",
-    "US federal starting points",
-    "National and local portal discovery across all regions",
-    "Scientific sector expansion",
-    "Enumerate feasible catalogs",
-    "Audit citations, licenses and coverage"
+    "Finish current World Bank indicator enumeration and audit composite source/indicator deduplication",
+    "Review remaining candidate documentation and licenses; unknown values remain explicit",
+    "Resolve required starting points with incomplete terms: Census, NOAA NCEI, NASA, EPA, USDA NASS, CMS, NIH, USAspending, SEC, IRS; IMF/OECD/WHO/FAO/UNESCO/UNICEF/UN SDG and Data Commons",
+    "Process 786 deduplicated discovery-registry entries individually; update universe count if new seeds expand it",
+    "Complete permitted CKAN /site HTML listing at 15s crawl delay; do not request disallowed /api/ route",
+    "Paginate Socrata, ArcGIS, DCAT/STAC and OAI-PMH discovery subject to robots/terms; SDMX registry endpoint unresolved",
+    "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
+    "Strengthen astronomy, transport, law, housing, companies/nonprofits, spending, energy, water and education coverage with dataset-level rights",
+    "Enumerate feasible permitted portal catalogs; retain cursors and dataset licenses",
+    "Audit all field-level evidence, rate limits, pagination, access and native provider/API dedup; write completion.json only when documented universe has been processed"
   ],
   "external_blocker": null,
   "coverage": {
     "Global/international": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "worldbank"
+        ],
+        "candidate_provider_ids": [
+          "datacommons",
+          "hdx",
+          "ocha-hapi",
+          "unhcr",
+          "unicef",
+          "unsd",
+          "wfp"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "ilo",
+          "worldbank"
+        ],
+        "candidate_provider_ids": [
+          "bis",
+          "datacommons",
+          "imf",
+          "oecd",
+          "unsd"
+        ],
+        "restricted_provider_ids": [
+          "fred"
+        ]
+      },
+      "labor": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "ilo"
+        ],
+        "candidate_provider_ids": [
+          "oecd"
+        ],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "worldbank"
+        ],
+        "candidate_provider_ids": [
+          "fao",
+          "ocha-hapi",
+          "wfp"
+        ],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "usgs-earthquake"
+        ],
+        "candidate_provider_ids": [
+          "bgs",
+          "copernicus-stac",
+          "datacommons",
+          "fao",
+          "hdx",
+          "nasa-api",
+          "nasa-cmr",
+          "noaa-erddap",
+          "noaa-ncei",
+          "nsidc",
+          "openaq",
+          "pangaea",
+          "planetary-computer",
+          "unsd"
+        ],
+        "restricted_provider_ids": [
+          "open-meteo"
+        ]
+      },
+      "water": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "bgs",
+          "fao"
+        ],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "eia"
+        ],
+        "candidate_provider_ids": [
+          "openchargemap"
+        ],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "pdb",
+          "worldbank"
+        ],
+        "candidate_provider_ids": [
+          "datacommons",
+          "ena",
+          "europepmc",
+          "hdx",
+          "nih-clinicaltrials",
+          "nih-pubmed",
+          "ocha-hapi",
+          "openaq",
+          "unicef",
+          "uniprot",
+          "wfp"
+        ],
+        "restricted_provider_ids": [
+          "who"
+        ]
+      },
+      "education": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "openalex",
+          "ror",
+          "worldbank"
+        ],
+        "candidate_provider_ids": [
+          "oecd",
+          "unesco",
+          "unicef"
+        ],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "osm"
+        ],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "osm"
+        ],
+        "candidate_provider_ids": [
+          "openchargemap"
+        ],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "osm",
+          "usgs-earthquake",
+          "wikidata"
+        ],
+        "candidate_provider_ids": [
+          "bgs",
+          "copernicus-stac",
+          "nasa-cmr",
+          "nsidc",
+          "planetary-computer"
+        ],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "hdx",
+          "open-contracting"
+        ],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "ror",
+          "wikidata"
+        ],
+        "candidate_provider_ids": [
+          "opencorporates"
+        ],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "unhcr"
+        ],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "gbif",
+          "obis"
+        ],
+        "candidate_provider_ids": [
+          "ena",
+          "inaturalist",
+          "planetary-computer",
+          "smithsonian",
+          "uniprot",
+          "worms"
+        ],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "obis"
+        ],
+        "candidate_provider_ids": [
+          "nasa-cmr",
+          "noaa-erddap",
+          "noaa-ncei",
+          "pangaea",
+          "worms"
+        ],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "esa-gaia",
+          "nasa-api",
+          "nasa-exoplanet"
+        ],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "artic",
+          "wikidata",
+          "worldbank"
+        ],
+        "candidate_provider_ids": [
+          "fao",
+          "loc",
+          "metmuseum",
+          "ocha-hapi",
+          "smithsonian",
+          "unesco",
+          "wfp"
+        ],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "crossref",
+          "datacite",
+          "openalex",
+          "opencitations",
+          "pdb",
+          "ror",
+          "wikidata",
+          "zenodo"
+        ],
+        "candidate_provider_ids": [
+          "ena",
+          "europepmc",
+          "loc",
+          "nih-clinicaltrials",
+          "nih-pubmed",
+          "pangaea",
+          "smithsonian",
+          "unesco",
+          "uniprot"
+        ],
+        "restricted_provider_ids": []
+      }
     },
     "North America": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "statcan"
+        ],
+        "candidate_provider_ids": [
+          "census"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "bea",
+          "bls",
+          "statcan",
+          "treasury"
+        ],
+        "candidate_provider_ids": [
+          "census",
+          "sec"
+        ],
+        "restricted_provider_ids": [
+          "fred"
+        ]
+      },
+      "labor": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "bls",
+          "statcan"
+        ],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "usda-food"
+        ],
+        "candidate_provider_ids": [
+          "usda-nass"
+        ],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "noaa-weather",
+          "usgs-water"
+        ],
+        "candidate_provider_ids": [
+          "epa"
+        ],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "usgs-water"
+        ],
+        "candidate_provider_ids": [
+          "epa",
+          "ncei-coops"
+        ],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "eia"
+        ],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "cdc",
+          "usda-food"
+        ],
+        "candidate_provider_ids": [
+          "cms"
+        ],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "census",
+          "nyc"
+        ],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "nyc"
+        ],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "treasury"
+        ],
+        "candidate_provider_ids": [
+          "cms",
+          "irs",
+          "usaspending"
+        ],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "irs",
+          "sec"
+        ],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "govinfo"
+        ],
+        "candidate_provider_ids": [
+          "congress",
+          "courtlistener",
+          "nyc",
+          "openstates"
+        ],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "smithsonian"
+        ],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "ncei-coops"
+        ],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "artic",
+          "usda-food"
+        ],
+        "candidate_provider_ids": [
+          "loc",
+          "metmuseum",
+          "smithsonian",
+          "usda-nass"
+        ],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "loc",
+          "smithsonian"
+        ],
+        "restricted_provider_ids": []
+      }
     },
     "Latin America/Caribbean": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "mexico"
+        ],
+        "candidate_provider_ids": [
+          "brazil",
+          "eclac"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "mexico"
+        ],
+        "candidate_provider_ids": [
+          "brazil",
+          "brazil-bcb",
+          "chile-bcentral",
+          "eclac"
+        ],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "eclac"
+        ],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "mexico"
+        ],
+        "candidate_provider_ids": [
+          "brazil"
+        ],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "Europe": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "cbs",
+          "eurostat",
+          "scb",
+          "statfin"
+        ],
+        "candidate_provider_ids": [
+          "denmark-statbank",
+          "destatis",
+          "ine-spain",
+          "insee",
+          "ons",
+          "russia",
+          "ssb",
+          "stat-portugal"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "cbs",
+          "ecb",
+          "eurostat",
+          "scb",
+          "statfin"
+        ],
+        "candidate_provider_ids": [
+          "denmark-statbank",
+          "destatis",
+          "ine-spain",
+          "insee",
+          "ons",
+          "russia",
+          "ssb",
+          "stat-portugal"
+        ],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "cbs",
+          "eurostat",
+          "scb",
+          "statfin"
+        ],
+        "candidate_provider_ids": [
+          "denmark-statbank",
+          "destatis",
+          "ine-spain",
+          "ons",
+          "russia",
+          "ssb",
+          "stat-portugal"
+        ],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "eurostat"
+        ],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "bgs"
+        ],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "bgs"
+        ],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "eurostat"
+        ],
+        "candidate_provider_ids": [
+          "nordpool-entsoe"
+        ],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "cbs",
+          "scb",
+          "statfin"
+        ],
+        "candidate_provider_ids": [
+          "denmark-statbank",
+          "ssb"
+        ],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "tfl",
+          "transportapi-fi"
+        ],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "bgs"
+        ],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "charity-commission",
+          "companies-house",
+          "insee"
+        ],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "legislation-uk"
+        ],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "eurostat"
+        ],
+        "candidate_provider_ids": [
+          "europeana"
+        ],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "Middle East/North Africa": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "tunisia"
+        ],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "tunisia"
+        ],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "Sub-Saharan Africa": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "ghana",
+          "kenya-knbs",
+          "south-africa-statssa"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "ghana",
+          "kenya-knbs",
+          "south-africa-statssa"
+        ],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "south-africa-statssa"
+        ],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "South Asia": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "pakistan",
+          "sri-lanka"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "pakistan",
+          "sri-lanka"
+        ],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "East Asia": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "china-nbs"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "china-nbs"
+        ],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "china-nbs"
+        ],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "hk-weather"
+        ],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "Southeast Asia": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "singapore"
+        ],
+        "candidate_provider_ids": [
+          "malaysia",
+          "philippines",
+          "vietnam"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "malaysia",
+          "philippines",
+          "vietnam"
+        ],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "philippines"
+        ],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "singapore"
+        ],
+        "candidate_provider_ids": [
+          "malaysia"
+        ],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "singapore"
+        ],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "Oceania": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "abs"
+        ],
+        "candidate_provider_ids": [
+          "adb",
+          "pacific-data",
+          "stats-nz"
+        ],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "abs"
+        ],
+        "candidate_provider_ids": [
+          "adb",
+          "stats-nz"
+        ],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "abs"
+        ],
+        "candidate_provider_ids": [
+          "stats-nz"
+        ],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "pacific-data"
+        ],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "pacific-data"
+        ],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "pacific-data"
+        ],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "abs"
+        ],
+        "candidate_provider_ids": [
+          "linz",
+          "stats-nz"
+        ],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "linz"
+        ],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      }
     },
     "Polar": {
-      "demographics": "unsearched",
-      "economics/finance": "unsearched",
-      "labor": "unsearched",
-      "agriculture": "unsearched",
-      "climate/weather/environment": "unsearched",
-      "water": "unsearched",
-      "energy": "unsearched",
-      "health": "unsearched",
-      "education": "unsearched",
-      "housing": "unsearched",
-      "transportation": "unsearched",
-      "geospatial": "unsearched",
-      "public spending/contracts": "unsearched",
-      "companies/nonprofits": "unsearched",
-      "law/civic": "unsearched",
-      "biodiversity": "unsearched",
-      "oceans": "unsearched",
-      "astronomy": "unsearched",
-      "culture": "unsearched",
-      "research": "unsearched"
+      "demographics": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "economics/finance": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "labor": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "agriculture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "climate/weather/environment": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "nasa-cmr",
+          "nsidc",
+          "pangaea"
+        ],
+        "restricted_provider_ids": []
+      },
+      "water": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "energy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "health": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "education": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "housing": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "transportation": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "geospatial": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "nasa-cmr",
+          "nsidc"
+        ],
+        "restricted_provider_ids": []
+      },
+      "public spending/contracts": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "companies/nonprofits": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "law/civic": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "biodiversity": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "oceans": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "nasa-cmr",
+          "pangaea"
+        ],
+        "restricted_provider_ids": []
+      },
+      "astronomy": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "culture": {
+        "status": "unsearched",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [],
+        "restricted_provider_ids": []
+      },
+      "research": {
+        "status": "partial_candidates_only",
+        "verified_provider_ids": [],
+        "candidate_provider_ids": [
+          "pangaea"
+        ],
+        "restricted_provider_ids": []
+      }
     }
   },
   "catalog": [
