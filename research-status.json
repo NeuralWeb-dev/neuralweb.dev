@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T16:47:00.175107+00:00",
+  "published_at": "2026-10-16T16:49:02.485898+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T16:46:50.217366+00:00",
+  "research_updated_at": "2026-10-16T16:48:25.502722+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
@@ -13,10 +13,10 @@
     "sample_successes": 107
   },
   "remaining_work": [
-    "Finish current World Bank indicator enumeration and audit composite source/indicator deduplication",
+    "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
     "Review remaining candidate documentation and licenses; unknown values remain explicit",
     "Resolve required starting points with incomplete terms: Census, NOAA NCEI, NASA, EPA, USDA NASS, CMS, NIH, USAspending, SEC, IRS; IMF/OECD/WHO/FAO/UNESCO/UNICEF/UN SDG and Data Commons",
-    "Process 786 deduplicated discovery-registry entries individually; update universe count if new seeds expand it",
+    "Individually process portal/STAC/ArcGIS discovery entries and 3536 re3data descriptors, then verify official provider documentation/licenses; cross-registry dedup remains pending",
     "Complete permitted CKAN /site HTML listing at 15s crawl delay; do not request disallowed /api/ route",
     "Paginate Socrata, ArcGIS, DCAT/STAC and OAI-PMH discovery subject to robots/terms; SDMX registry endpoint unresolved",
     "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
@@ -457,6 +457,7 @@
       "law/civic": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "canada",
           "govinfo",
           "registry-data-boston-gov"
         ],
@@ -529,6 +530,7 @@
       "economics/finance": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "argentina",
           "mexico",
           "registry-dados-rs-gov-br"
         ],
@@ -591,8 +593,10 @@
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "chile"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -666,6 +670,7 @@
           "cbs",
           "eurostat",
           "registry-opendata-fr-ch",
+          "registry-opendata-gov-je",
           "scb",
           "ssb",
           "statfin"
@@ -707,6 +712,7 @@
         "verified_provider_ids": [
           "cbs",
           "eurostat",
+          "registry-opendata-gov-je",
           "scb",
           "ssb",
           "statfin"
@@ -732,6 +738,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "france",
           "registry-transparenz-karlsruhe-de"
         ],
         "candidate_provider_ids": [
@@ -764,8 +771,10 @@
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "switzerland"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -797,6 +806,8 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "france",
+          "portugal",
           "registry-data-sz-ch",
           "registry-daten-sg-ch"
         ],
@@ -827,6 +838,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "legislation-uk",
+          "paris",
+          "poland",
           "registry-open-nrw",
           "registry-transparenz-karlsruhe-de"
         ],
@@ -834,8 +847,10 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "france"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -960,8 +975,10 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "morocco"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1629,8 +1646,10 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "australia"
+        ],
         "candidate_provider_ids": [
           "linz"
         ],
@@ -1649,8 +1668,10 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "australia"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1844,8 +1865,8 @@
       "provider": "Argentine government datos.gob.ar",
       "service_name": "Argentine government datos.gob.ar open data portal",
       "geographic_coverage": "Argentina",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "economics/finance",
+      "dataset_families": "Government open data; tested comparative mining statistics (SIACAM)",
       "documentation_url": "https://datos.gob.ar/acerca/seccion/api",
       "api_base_url": "https://datos.gob.ar/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
@@ -1854,7 +1875,7 @@
       "license": "CC BY 4.0 for explicitly marked dataset subset",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.710678+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.737481+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -1898,8 +1919,8 @@
       "provider": "Australian government data.gov.au",
       "service_name": "Australian government data.gov.au open data portal",
       "geographic_coverage": "Australia",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "geospatial; law/civic",
+      "dataset_families": "Government open data; tested Register of Native Title Claims",
       "documentation_url": "https://data.gov.au/about",
       "api_base_url": "https://data.gov.au/data/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
@@ -1908,7 +1929,7 @@
       "license": "Dataset-specific; confirmed CC BY 4.0 subset",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.713713+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.741915+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -1952,8 +1973,8 @@
       "provider": "Government of Canada",
       "service_name": "Government of Canada open data portal",
       "geographic_coverage": "Canada",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "law/civic",
+      "dataset_families": "Government open data; tested catalog record Government of Canada - Consultations",
       "documentation_url": "https://open.canada.ca/en/access-our-application-programming-interface-api",
       "api_base_url": "https://open.canada.ca/data/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
@@ -1962,7 +1983,7 @@
       "license": "Open Government Licence Canada v2.0 for explicitly marked records",
       "license_url": "https://open.canada.ca/en/open-government-licence-canada",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.716664+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.746313+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2006,8 +2027,8 @@
       "provider": "Chilean government datos.gob.cl",
       "service_name": "Chilean government datos.gob.cl open data portal",
       "geographic_coverage": "Chile",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "transportation",
+      "dataset_families": "Government open data; tested Tráfico Aéreo (air traffic)",
       "documentation_url": "https://datos.gob.cl/",
       "api_base_url": "https://datos.gob.cl/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
@@ -2016,7 +2037,7 @@
       "license": "CC0 1.0 for explicitly marked dataset subset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.725938+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.750566+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2132,8 +2153,8 @@
       "provider": "French government data.gouv.fr",
       "service_name": "French government data.gouv.fr open data portal",
       "geographic_coverage": "France",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "biodiversity; climate/weather/environment; geospatial",
+      "dataset_families": "Government open data; tested Saül forest habitat sensitivity and biodiversity dataset metadata",
       "documentation_url": "https://www.data.gouv.fr/api/1/",
       "api_base_url": "https://www.data.gouv.fr/api/1/",
       "format_protocol": "REST/JSON",
@@ -2142,7 +2163,7 @@
       "license": "Licence Ouverte / Open Licence version 2.0 for explicitly marked dataset subset",
       "license_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:04.912857+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.754816+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2294,8 +2315,8 @@
       "provider": "Moroccan government data.gov.ma",
       "service_name": "Moroccan government data.gov.ma open data portal",
       "geographic_coverage": "Morocco",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "law/civic",
+      "dataset_families": "Government open data; tested activity-report catalog metadata",
       "documentation_url": "https://data.gov.ma/",
       "api_base_url": "https://data.gov.ma/data/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
@@ -2304,7 +2325,7 @@
       "license": "ODbL 1.0 for explicitly marked dataset subset",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.735446+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.759406+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2402,8 +2423,8 @@
       "provider": "City of Paris Open Data",
       "service_name": "City of Paris Open Data open data portal",
       "geographic_coverage": "France/Paris",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "law/civic",
+      "dataset_families": "City open data; tested 2010 regional election polling-station results",
       "documentation_url": "https://opendata.paris.fr/api/explore/v2.1/console",
       "api_base_url": "https://opendata.paris.fr/api/explore/v2.1/",
       "format_protocol": "Opendatasoft Explore API/JSON",
@@ -2412,7 +2433,7 @@
       "license": "ODbL 1.0 for explicitly marked dataset subset",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:38:13.793506+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.763664+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2438,8 +2459,8 @@
       "provider": "Government of Poland",
       "service_name": "Government of Poland open data portal",
       "geographic_coverage": "Poland",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "law/civic",
+      "dataset_families": "Public open data; tested 2014 Trade Inspection control statistics",
       "documentation_url": "https://api.dane.gov.pl/doc",
       "api_base_url": "https://api.dane.gov.pl/1.4/",
       "format_protocol": "REST/JSON",
@@ -2448,7 +2469,7 @@
       "license": "CC0 1.0 / Public Domain for explicitly identified dataset subset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:38:13.796460+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.767829+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2456,8 +2477,8 @@
       "provider": "Portuguese government dados.gov.pt",
       "service_name": "Portuguese government dados.gov.pt open data portal",
       "geographic_coverage": "Portugal",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "geospatial",
+      "dataset_families": "Government open data; tested official Loulé toponymy dataset metadata",
       "documentation_url": "https://dados.gov.pt/api/1/",
       "api_base_url": "https://dados.gov.pt/api/1/",
       "format_protocol": "REST/JSON",
@@ -2466,7 +2487,7 @@
       "license": "CC BY 4.0 for explicitly marked dataset subset",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:04.930817+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.772066+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2798,8 +2819,8 @@
       "provider": "opendata.swiss",
       "service_name": "opendata.swiss open data portal",
       "geographic_coverage": "Switzerland",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "topical_coverage": "education",
+      "dataset_families": "Swiss public data; tested Thurgau secondary-school qualification statistics",
       "documentation_url": "https://handbook.opendata.swiss/en/content/nutzen/api-nutzen.html",
       "api_base_url": "https://ckan.opendata.swiss/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
@@ -2808,7 +2829,7 @@
       "license": "Resource-specific Swiss open-use terms; tested resource CC0 rights URI",
       "license_url": "https://opendata.swiss/en/terms-of-use",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:38:13.802670+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.776284+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5330,7 +5351,7 @@
       "license": "unknown",
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:26:32.548602+00:00",
+      "latest_checked_utc": "2026-10-16T16:48:24.780623+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
