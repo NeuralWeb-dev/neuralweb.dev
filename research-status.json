@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T18:14:46.837586+00:00",
+  "published_at": "2026-10-16T18:16:49.081155+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:14:43.359772+00:00",
+  "research_updated_at": "2026-10-16T18:16:25.762939+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "UIS CC BY-SA4.0/API observation verified,5063 indicator definitions indexed; UNICEF statistics and LINZ coastline scoped rights verified; SPDF CDAWeb/SSCWeb CC0 documented with policy-deferred samples; discovery ongoing",
   "counts": {
     "verified": 97,
     "candidates": 135,
@@ -15,7 +15,7 @@
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
     "Review remaining candidate documentation and licenses; unknown values remain explicit",
-    "Resolve remaining starting-point terms/access: NOAA NCEI, NASA services, EPA Envirofacts, USDA NASS, ClinicalTrials.gov, USAspending, IRS, IMF/OECD/FAO/UNESCO/UNICEF/UN SDG; retain scoped acceptance and restrictions already established for other starting points",
+    "Resolve remaining starting-point terms/access: NOAA NCEI, NASA services, EPA Envirofacts, USDA NASS, ClinicalTrials.gov, USAspending, IRS and UN SDG; retain already-reviewed scoped OECD/UIS/UNICEF and restricted IMF/FAO services; retain scoped acceptance and restrictions already established for other starting points",
     "Individually process portal/STAC/ArcGIS discovery entries and 3536 re3data descriptors, then verify official provider documentation/licenses; cross-registry dedup remains pending",
     "CKAN HTML first20/1319 sites recorded; page2 returned403 after15s delay,1299 remain unsearched; do not use disallowed /api/ route",
     "Continue Socrata native deep scrolling beyond the completed10000-result offset window; boundary400 confirms offset cap. ArcGIS/DCAT/STAC/permitted OAI discovery and SDMX endpoint/rights checks remain incomplete",
@@ -2438,7 +2438,7 @@
       "license": "ECCC Data Services End-use Licence heading2.1.1 (August2026); body versioning clause says2.1",
       "license_url": "https://eccc-msc.github.io/open-data/licence/readme_en/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T18:14:35.767506+00:00",
+      "latest_checked_utc": "2026-10-16T17:58:53.122108+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2582,7 +2582,7 @@
       "license": "Creative Commons Attribution (CC BY); data grant version unspecified on current export terms",
       "license_url": "https://www.geonames.org/export/",
       "api_verification_state": "documented_registered_username_required_untested",
-      "latest_checked_utc": "2026-10-16T18:14:35.843029+00:00",
+      "latest_checked_utc": "2026-10-16T18:08:23.690822+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2690,7 +2690,7 @@
       "license": "Creative Commons Attribution4.0 International for verified coastline layer",
       "license_url": "https://data.linz.govt.nz/layer/51153-nz-coastlines-and-islands-polygons-topo-150k/",
       "api_verification_state": "documented_key_required_untested_ancillary_sample_policy_restricted",
-      "latest_checked_utc": "2026-10-16T18:14:36.207308+00:00",
+      "latest_checked_utc": "2026-10-16T18:14:18.636856+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2780,7 +2780,7 @@
       "license": "CC0/public-domain dedication unless otherwise noted",
       "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html",
       "api_verification_state": "documented_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T18:14:35.917665+00:00",
+      "latest_checked_utc": "2026-10-16T18:12:47.921373+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2798,7 +2798,7 @@
       "license": "CC0/public-domain dedication unless otherwise noted",
       "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html",
       "api_verification_state": "documented_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T18:14:35.990561+00:00",
+      "latest_checked_utc": "2026-10-16T18:12:49.124851+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3590,7 +3590,7 @@
       "license": "Creative Commons Attribution-ShareAlike4.0 International",
       "license_url": "https://databrowser.uis.unesco.org/terms-and-conditions",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T18:14:36.129743+00:00",
+      "latest_checked_utc": "2026-10-16T18:12:03.702615+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3608,7 +3608,7 @@
       "license": "Creative Commons Attribution3.0 IGO for comparable statistical indicators",
       "license_url": "https://data.unicef.org/data-for-action/unicef-indicators-on-the-state-of-children-and-women-now-100-percent-open-data-compliant/",
       "api_verification_state": "documented_metadata_sample_success",
-      "latest_checked_utc": "2026-10-16T18:14:36.279796+00:00",
+      "latest_checked_utc": "2026-10-16T18:14:06.649321+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5150,15 +5150,15 @@
       "geographic_coverage": "Global",
       "topical_coverage": "climate/weather/environment; health",
       "dataset_families": "Air quality locations; sensors; measurements",
-      "documentation_url": "https://docs.openaq.org/",
+      "documentation_url": "https://docs.openaq.org/using-the-api/api-key",
       "api_base_url": "https://api.openaq.org/v3/",
       "format_protocol": "REST/JSON",
-      "authentication": "key required; free registration",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://openaq.org/about/terms-of-use/",
+      "authentication": "key required:X-API-Key via registered valid name/email; no account/key obtained",
+      "free_access_restrictions": "General-use API free within documented limits; higher limits paid/custom agreement,not acquired. Registered/authorized API/export access required; no unauthorized scraping.",
+      "license": "Mixed source/provider licences; no blanket corpus grant established",
+      "license_url": "https://docs.openaq.org/about/terms",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:28:44.686885+00:00",
+      "latest_checked_utc": "2026-10-16T18:15:40.286966+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6204,7 +6204,7 @@
       "license": "Custom Copernicus Marine licence; reuse/adaptation/redistribution allowed, additional descending-licence usage-record obligations",
       "license_url": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
       "api_verification_state": "documented_metadata_sample_success_xml",
-      "latest_checked_utc": "2026-10-16T18:14:36.353635+00:00",
+      "latest_checked_utc": "2026-10-16T18:09:36.044158+00:00",
       "classification": "restricted"
     },
     {
