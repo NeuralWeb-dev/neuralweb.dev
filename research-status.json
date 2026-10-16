@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T17:48:15.354401+00:00",
+  "published_at": "2026-10-16T17:50:17.809131+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:47:33.775639+00:00",
+  "research_updated_at": "2026-10-16T17:48:36.565174+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 87,
-    "candidates": 139,
+    "verified": 88,
+    "candidates": 138,
     "excluded": 7,
     "sample_successes": 126
   },
@@ -855,11 +855,10 @@
         "verified_provider_ids": [
           "registry-admin-opendatani-gov-uk",
           "registry-daten-sg-ch",
+          "tfl",
           "transportapi-fi"
         ],
-        "candidate_provider_ids": [
-          "tfl"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "geospatial": {
@@ -3366,6 +3365,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "tfl",
+      "provider": "Transport for London",
+      "service_name": "Transport for London API",
+      "geographic_coverage": "United Kingdom/London",
+      "topical_coverage": "transportation",
+      "dataset_families": "Transit stops; arrivals; lines; disruptions; journey planning",
+      "documentation_url": "https://api.tfl.gov.uk/",
+      "api_base_url": "https://api.tfl.gov.uk/",
+      "format_protocol": "REST/JSON",
+      "authentication": "Existing public line-status sample succeeded without key; licence states grant begins registration; registered API use/account conditions apply",
+      "free_access_restrictions": "Official licence explicitly free; reuse requires TfL/OS/Geomni attribution and compliance; no registration or key acquisition performed",
+      "license": "TfL Transport Data Service licence, based on OGL2.0 with specific amendments",
+      "license_url": "https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:48:32.407601+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "transportapi-fi",
       "provider": "Fintraffic Digitraffic",
       "service_name": "Fintraffic Digitraffic road, railway and marine open-data APIs",
@@ -5777,24 +5794,6 @@
       "license_url": "https://www.dataportal.se/en/about-sweden-s-data-portal",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:40.902779+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "tfl",
-      "provider": "Transport for London",
-      "service_name": "Transport for London API",
-      "geographic_coverage": "United Kingdom/London",
-      "topical_coverage": "transportation",
-      "dataset_families": "Transit stops; arrivals; lines; disruptions; journey planning",
-      "documentation_url": "https://api.tfl.gov.uk/",
-      "api_base_url": "https://api.tfl.gov.uk/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:34:15.194068+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
