@@ -1,24 +1,24 @@
 {
-  "published_at": "2026-10-16T17:23:46.093761+00:00",
+  "published_at": "2026-10-16T17:25:48.454297+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:22:45.930433+00:00",
+  "research_updated_at": "2026-10-16T17:25:26.229521+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 79,
-    "candidates": 147,
+    "verified": 81,
+    "candidates": 145,
     "excluded": 4,
     "sample_successes": 123
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
     "Review remaining candidate documentation and licenses; unknown values remain explicit",
-    "Resolve required starting points with incomplete terms: Census, NOAA NCEI, NASA, EPA, USDA NASS, CMS, NIH, USAspending, SEC, IRS; IMF/OECD/WHO/FAO/UNESCO/UNICEF/UN SDG and Data Commons",
+    "Resolve remaining starting-point terms/access: NOAA NCEI, NASA services, EPA Envirofacts, USDA NASS, ClinicalTrials.gov, USAspending, IRS, IMF/OECD/FAO/UNESCO/UNICEF/UN SDG; retain scoped acceptance and restrictions already established for other starting points",
     "Individually process portal/STAC/ArcGIS discovery entries and 3536 re3data descriptors, then verify official provider documentation/licenses; cross-registry dedup remains pending",
     "Complete permitted CKAN /site HTML listing at 15s crawl delay; do not request disallowed /api/ route",
-    "Paginate Socrata, ArcGIS, DCAT/STAC and OAI-PMH discovery subject to robots/terms; SDMX registry endpoint unresolved",
+    "Paginate Socrata, ArcGIS, DCAT/STAC and permitted OAI-PMH discovery; current SDMX 23-agency scheme complete, Global Discovery Service endpoints and agency rights unresolved",
     "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
     "Strengthen astronomy, transport, law, housing, companies/nonprofits, spending, energy, water and education coverage with dataset-level rights",
     "Enumerate feasible permitted portal catalogs; retain cursors and dataset licenses",
@@ -289,6 +289,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "artic",
+          "metmuseum",
           "opencontext",
           "wikidata",
           "worldbank"
@@ -297,7 +298,6 @@
           "cifor-icraf",
           "fao",
           "loc",
-          "metmuseum",
           "nasa-power",
           "ocha-hapi",
           "perspectivia",
@@ -538,11 +538,11 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "artic",
+          "metmuseum",
           "usda-food"
         ],
         "candidate_provider_ids": [
           "loc",
-          "metmuseum",
           "smithsonian",
           "usda-nass"
         ],
@@ -2526,8 +2526,26 @@
       "free_access_restrictions": "Free public API; weather forecast sample succeeded without credentials",
       "license": "CC BY 4.0",
       "license_url": "https://developer.data.gov.my/faq",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:56:22.968330+00:00",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:23:57.161056+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "metmuseum",
+      "provider": "Metropolitan Museum of Art",
+      "service_name": "The Metropolitan Museum of Art Collection API",
+      "geographic_coverage": "United States/Global collections",
+      "topical_coverage": "culture",
+      "dataset_families": "Open-access collection object metadata and images",
+      "documentation_url": "https://metmuseum.github.io/",
+      "api_base_url": "https://collectionapi.metmuseum.org/public/collection/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none; official API documentation says no registration or API key",
+      "free_access_restrictions": "Open Access data/API available without permission or fee; respect API limits and media rights",
+      "license": "CC0 1.0 for Met Open Access data and identified public-domain images",
+      "license_url": "https://metmuseum.github.io/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:25:17.599411+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2580,8 +2598,8 @@
       "free_access_restrictions": "Public station metadata API succeeded without credentials",
       "license": "US public domain unless specifically annotated otherwise",
       "license_url": "https://tidesandcurrents.noaa.gov/disclaimers.html",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:56:22.976005+00:00",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:23:57.189204+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2689,7 +2707,7 @@
       "license": "Open Government Licence v3.0 except where otherwise stated",
       "license_url": "https://www.ons.gov.uk/methodology/geography/licences",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:22:43.475195+00:00",
+      "latest_checked_utc": "2026-10-16T17:23:57.216921+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3266,6 +3284,24 @@
       "license_url": "https://rest.uniprot.org/help/license?format=json",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:41:04.944817+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "uruguay",
+      "provider": "Uruguay National Open Data Catalog",
+      "service_name": "Uruguay National Open Data Catalog open data portal",
+      "geographic_coverage": "Uruguay",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "documentation_url": "https://catalogodatos.gub.uy/",
+      "api_base_url": "https://catalogodatos.gub.uy/api/3/action/",
+      "format_protocol": "CKAN Action API / JSON",
+      "authentication": "none for initial successful catalog request",
+      "free_access_restrictions": "Initial public catalog JSON succeeded; further API sample deferred under current robots policy without request; no bulk enumeration",
+      "license": "Licencia de Datos Abiertos – Uruguay v0.1 for explicitly marked datasets/metadata",
+      "license_url": "https://www.gub.uy/agencia-reguladora-compras-estatales/datos-y-estadisticas/datos/licencia-datos-abiertos",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:23:57.244396+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3912,10 +3948,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "EMBL-EBI imposes no additional restriction beyond data-owner rights; specific ENA reuse grant unresolved",
       "license_url": "https://www.ebi.ac.uk/about/terms-of-use",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:28:38.766674+00:00",
+      "latest_checked_utc": "2026-10-16T17:25:17.570746+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4510,24 +4546,6 @@
       "license_url": "https://data.london.gov.uk/terms/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:27:24.764633+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "metmuseum",
-      "provider": "Metropolitan Museum of Art",
-      "service_name": "Metropolitan Museum of Art API",
-      "geographic_coverage": "United States/Global collections",
-      "topical_coverage": "culture",
-      "dataset_families": "Open-access collection object metadata and images",
-      "documentation_url": "https://metmuseum.github.io/",
-      "api_base_url": "https://collectionapi.metmuseum.org/public/collection/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:28:48.025012+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5437,15 +5455,15 @@
       "geographic_coverage": "NP",
       "topical_coverage": "multisector public data (sector detail unreviewed)",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://opendatanepal.com/",
-      "api_base_url": "https://opendatanepal.com/api/3/action/",
+      "documentation_url": "https://api.opendatanepal.com/api/3",
+      "api_base_url": "https://api.opendatanepal.com/api/3/action/",
       "format_protocol": "CKAN Action API candidate/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:34.827371+00:00",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T17:25:17.628138+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5878,24 +5896,6 @@
       "license_url": "https://www.un.org/en/about-us/terms-of-use",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:29:28.947724+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "uruguay",
-      "provider": "Uruguay National Open Data Catalog",
-      "service_name": "Uruguay National Open Data Catalog open data portal",
-      "geographic_coverage": "Uruguay",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://catalogodatos.gub.uy/",
-      "api_base_url": "https://catalogodatos.gub.uy/api/3/action/",
-      "format_protocol": "CKAN Action API / JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/datos-y-estadisticas/datos-abiertos/licencia-datos-abiertos-uruguay",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:27:09.980099+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
