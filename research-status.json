@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:25:48.454297+00:00",
+  "published_at": "2026-10-16T17:27:50.561703+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:25:26.229521+00:00",
+  "research_updated_at": "2026-10-16T17:26:50.621204+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 81,
-    "candidates": 145,
-    "excluded": 4,
-    "sample_successes": 123
+    "verified": 82,
+    "candidates": 143,
+    "excluded": 5,
+    "sample_successes": 124
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -252,11 +252,11 @@
           "ena",
           "inaturalist",
           "planetary-computer",
-          "smithsonian",
-          "worms"
+          "smithsonian"
         ],
         "restricted_provider_ids": [
-          "deims"
+          "deims",
+          "worms"
         ]
       },
       "oceans": {
@@ -268,10 +268,11 @@
           "nasa-cmr",
           "noaa-erddap",
           "noaa-ncei",
-          "pangaea",
-          "worms"
+          "pangaea"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "worms"
+        ]
       },
       "astronomy": {
         "status": "partial_verified",
@@ -1078,8 +1079,10 @@
     },
     "Sub-Saharan Africa": {
       "demographics": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "rwanda"
+        ],
         "candidate_provider_ids": [
           "ghana",
           "kenya-knbs",
@@ -1088,8 +1091,10 @@
         "restricted_provider_ids": []
       },
       "economics/finance": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "rwanda"
+        ],
         "candidate_provider_ids": [
           "ghana",
           "kenya-knbs",
@@ -1100,16 +1105,20 @@
         "restricted_provider_ids": []
       },
       "labor": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "rwanda"
+        ],
         "candidate_provider_ids": [
           "south-africa-statssa"
         ],
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "rwanda"
+        ],
         "candidate_provider_ids": [
           "cifor-icraf",
           "wascal"
@@ -1140,8 +1149,10 @@
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "rwanda"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1213,8 +1224,10 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "rwanda"
+        ],
         "candidate_provider_ids": [
           "cifor-icraf",
           "wascal"
@@ -1222,8 +1235,10 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "rwanda"
+        ],
         "candidate_provider_ids": [
           "cifor-icraf",
           "wascal"
@@ -3104,6 +3119,24 @@
       "license_url": "https://ror.readme.io/docs/display",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.372780+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "rwanda",
+      "provider": "Rwanda National Institute of Statistics",
+      "service_name": "NISR public microdata-catalog metadata API",
+      "geographic_coverage": "Rwanda",
+      "topical_coverage": "demographics; agriculture; labor; economics/finance; health; research",
+      "dataset_families": "Public metadata for national agricultural household/seasonal surveys, labor force surveys, household living conditions, food security and health surveys; underlying microdata access varies",
+      "documentation_url": "https://microdatabk.statistics.gov.rw/api-documentation/catalog",
+      "api_base_url": "https://microdatabk.statistics.gov.rw/api/",
+      "format_protocol": "catalog API unresolved",
+      "authentication": "none for sampled public catalog metadata; some microdata require registration/approval",
+      "free_access_restrictions": "NISR terms explicitly say online data free; public catalog metadata request succeeded; no microdata downloaded or requested",
+      "license": "CC BY4.0 default for NISR data/analysis, with embedded resource exceptions",
+      "license_url": "https://statistics.gov.rw/terms-use",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:26:48.079885+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5539,24 +5572,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "rwanda",
-      "provider": "Rwanda National Institute of Statistics",
-      "service_name": "Rwanda National Institute of Statistics open data portal",
-      "geographic_coverage": "Rwanda",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://statistics.gov.rw/",
-      "api_base_url": "https://statistics.gov.rw/",
-      "format_protocol": "catalog API unresolved",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://statistics.gov.rw/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:27:09.448638+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "saudi",
       "provider": "Saudi Arabia Open Data",
       "service_name": "Saudi Arabia Open Data open data portal",
@@ -5989,24 +6004,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "worms",
-      "provider": "VLIZ / World Register of Marine Species",
-      "service_name": "VLIZ / World Register of Marine Species API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "biodiversity; oceans",
-      "dataset_families": "Marine taxonomy; accepted names; identifiers",
-      "documentation_url": "https://www.marinespecies.org/rest/",
-      "api_base_url": "https://www.marinespecies.org/rest/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.marinespecies.org/aphia.php?p=notes",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:28:40.072620+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "yoda-utrecht",
       "provider": "Utrecht University Yoda",
       "service_name": "Utrecht University Yoda API",
@@ -6096,6 +6093,24 @@
       "license_url": "https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.955902+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "worms",
+      "provider": "VLIZ / World Register of Marine Species",
+      "service_name": "VLIZ / World Register of Marine Species API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "biodiversity; oceans",
+      "dataset_families": "Marine taxonomy; accepted names; identifiers",
+      "documentation_url": "https://www.marinespecies.org/rest/",
+      "api_base_url": "https://www.marinespecies.org/rest/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read",
+      "free_access_restrictions": "Public taxonomy API works and online webservices encouraged; full database copies subject to request/assessment and whole-database redistribution permission",
+      "license": "WoRMS page text CC BY4.0; default images CC BY-NC-SA4.0; entire-database redistribution requires prior written agreement",
+      "license_url": "https://www.marinespecies.org/about.php#terms",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:26:01.002269+00:00",
       "classification": "restricted"
     }
   ],
