@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T23:14:42.874482+00:00",
+  "published_at": "2026-10-16T23:16:45.172971+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:14:02.202459+00:00",
+  "research_updated_at": "2026-10-16T23:16:15.587951+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Montevideo municipal portal and two authenticated APIs",
+  "latest_milestone": "Montevideo3distinctcandidates:2credentialedAPIbases/11SwaggerGETs,CKANdefaultUruguay0.1policyreviewed-runtimepolicydeferred;ScotlandcurrentCKANdocumented/OGL,runtimepolicydeferred;Walesv2dataJSON200/802uniqueIDs singlewindow after7duplicate offsetanomaly/11topics/19Englishoperations;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 147,
     "candidates": 187,
@@ -794,7 +794,8 @@
         "candidate_provider_ids": [
           "eclac",
           "edac-gstore",
-          "esa-ecology"
+          "esa-ecology",
+          "montevideo-beaches"
         ],
         "restricted_provider_ids": []
       },
@@ -803,6 +804,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "mindagri-ne",
+          "montevideo-beaches",
           "opendatasus"
         ],
         "restricted_provider_ids": []
@@ -822,6 +824,7 @@
         "candidate_provider_ids": [
           "ciencia-aberta",
           "dominican-data",
+          "montevideo-beaches",
           "opendatasus"
         ],
         "restricted_provider_ids": []
@@ -845,7 +848,9 @@
         "verified_provider_ids": [
           "chile"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "montevideo-transport"
+        ],
         "restricted_provider_ids": []
       },
       "geospatial": {
@@ -855,7 +860,9 @@
         ],
         "candidate_provider_ids": [
           "brazil",
-          "edac-gstore"
+          "edac-gstore",
+          "montevideo-catalog",
+          "montevideo-transport"
         ],
         "restricted_provider_ids": []
       },
@@ -890,6 +897,7 @@
         "candidate_provider_ids": [
           "dominican-data",
           "ecuador-cuenca",
+          "montevideo-catalog",
           "senado-br"
         ],
         "restricted_provider_ids": []
@@ -6778,8 +6786,8 @@
       "free_access_restrictions": "Provider service documentation explicitly free general-public registration/access. Intensive use individually reviewed; numeric default quota and high-volume service terms unknown. No paid subscription acquired.",
       "license": "Data reuse/license unconfirmed; free registered API access is not an open data grant",
       "license_url": "https://api.montevideo.gub.uy/apidocs/beaches",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:14:01.990388+00:00",
+      "api_verification_state": "documented_official_Swagger_API_credentials_required_sample_untested",
+      "latest_checked_utc": "2026-10-16T23:11:45.647677+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6796,8 +6804,8 @@
       "free_access_restrictions": "Portal terms section4 states service free; access policy prevented catalog API sample. Terms apply to reads/reuse/redistribution and prohibit unauthorized access/overload.",
       "license": "Portal default Licencia de Datos Abiertos–Uruguay version0.1,subject to explicit publisher-specific license or opt-out",
       "license_url": "https://ckan.montevideo.gub.uy/im/docs/Terminos%20y%20condiciones%20de%20uso%20-%20Portal%20Datos%20Abiertos%20IM.pdf | https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/publicaciones/licencia_de_datos_abiertos_0.pdf",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:14:02.133014+00:00",
+      "api_verification_state": "portal_and_scoped_policy_documented_API_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-16T23:12:46.394155+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6814,8 +6822,8 @@
       "free_access_restrictions": "Provider service documentation explicitly free general-public registration/access. Intensive use individually reviewed; numeric default quota and high-volume service terms unknown. No paid subscription acquired.",
       "license": "Data reuse/license unconfirmed; free registered API access is not an open data grant",
       "license_url": "https://api.montevideo.gub.uy/apidocs/publictransport",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:14:01.841833+00:00",
+      "api_verification_state": "documented_official_Swagger_API_credentials_required_sample_untested",
+      "latest_checked_utc": "2026-10-16T23:11:44.861066+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
