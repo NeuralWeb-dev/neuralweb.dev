@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T23:55:31.562547+00:00",
+  "published_at": "2026-10-16T23:57:33.969135+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:53:26.430878+00:00",
+  "research_updated_at": "2026-10-16T23:56:46.690833+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Jordan officialAPIguide,access/licenseunresolved",
+  "latest_milestone": "Baltic/Caucasus3scopedopen services;Jordan+legacyLithuaniaSDMXcandidates;GCC37dataset/184distributionJSONmetadata restrictedconditionalreuse;3native metadataworkers resumable;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 151,
     "candidates": 195,
-    "excluded": 25,
-    "sample_successes": 188
+    "excluded": 26,
+    "sample_successes": 189
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1443,7 +1443,9 @@
         "candidate_provider_ids": [
           "tunisia-ins"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "economics/finance": {
         "status": "partial_verified",
@@ -1453,7 +1455,9 @@
         "candidate_provider_ids": [
           "tunisia-ins"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "labor": {
         "status": "partial_candidates_only",
@@ -1461,7 +1465,9 @@
         "candidate_provider_ids": [
           "tunisia-ins"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "agriculture": {
         "status": "partial_verified",
@@ -1471,7 +1477,9 @@
         "candidate_provider_ids": [
           "tunisia"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "climate/weather/environment": {
         "status": "partial_verified",
@@ -1480,7 +1488,9 @@
           "oman-data"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "water": {
         "status": "partial_verified",
@@ -1491,10 +1501,12 @@
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
+        "status": "restricted_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "health": {
         "status": "partial_verified",
@@ -1502,13 +1514,17 @@
           "oman-data"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "education": {
-        "status": "unsearched",
+        "status": "restricted_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "housing": {
         "status": "unsearched",
@@ -1517,10 +1533,12 @@
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "unsearched",
+        "status": "restricted_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "geospatial": {
         "status": "partial_verified",
@@ -1551,10 +1569,12 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
+        "status": "restricted_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "oceans": {
         "status": "unsearched",
@@ -1576,7 +1596,9 @@
         "candidate_provider_ids": [
           "tunisia"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "gccstat"
+        ]
       },
       "research": {
         "status": "partial_verified",
@@ -3597,7 +3619,7 @@
       "license": "CC-BY-SA-4.0",
       "license_url": "https://andmed.stat.ee/en/help | https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
       "api_verification_state": "documented_JSON_metadata_and_one_cell_readonly_POST_observation_sample_success",
-      "latest_checked_utc": "2026-10-16T23:52:11.453214+00:00",
+      "latest_checked_utc": "2026-10-16T23:56:23.597447+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3813,7 +3835,7 @@
       "license": "Custom unrestricted statistical reuse permission with attribution",
       "license_url": "https://www.geostat.ge/en/page/monacemta-gamoyenebis-pirobebi",
       "api_verification_state": "documented_official_PxWeb_link_and_live_JSON_directory_metadata_sample_success_observations_untested",
-      "latest_checked_utc": "2026-10-16T23:52:10.983636+00:00",
+      "latest_checked_utc": "2026-10-16T23:55:56.585794+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4065,7 +4087,7 @@
       "license": "CC-BY-4.0 (selected LT/EN distributions only)",
       "license_url": "https://dataportal.gov.lt/lt/datasets/sd001594 | https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "documented_anonymous_readonly_POST_observation_and_schema_sample_success_scoped_CC_BY4",
-      "latest_checked_utc": "2026-10-16T23:52:12.200286+00:00",
+      "latest_checked_utc": "2026-10-16T23:56:24.878598+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6892,8 +6914,8 @@
       "free_access_restrictions": "Publicguide200;actualcatalogAPIandfullJordanOpenGovernmentDataLicense notverified. No paid acquisition. IndexedJordanGate permits reuseaccordingtoincorporatedlicense;unreadlicenseconditions cannotbeassumedopen.",
       "license": "Jordan Open Government Data License referenced;fulloperativeinstrument unresolved",
       "license_url": "https://portal.jordan.gov.jo/OGD-License_en.pdf | https://jordan.gov.jo/en/custompages/opendata",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:53:26.348355+00:00",
+      "api_verification_state": "documented_primary_CKAN_catalog_API_sample_policy_deferred_license_unconfirmed",
+      "latest_checked_utc": "2026-10-16T23:54:09.450857+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9344,6 +9366,24 @@
       "license_url": "https://fred.stlouisfed.org/legal/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T17:14:47.501188+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "gccstat",
+      "provider": "Statistical Centre for the Cooperation Council for the Arab Countries of the Gulf / GCC-Stat",
+      "service_name": "GCC-Stat Marsa DKAN data portal catalogue feed and documented APIs",
+      "geographic_coverage": "Middle East; Bahrain; Kuwait; Oman; Qatar; Saudi Arabia; United Arab Emirates; Gulf Cooperation Council",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; energy; health; education; transportation; biodiversity",
+      "dataset_families": "37native dataset descriptors in observeddata.json feed;SDGs,employment,biodiversity,trade andregionalstatistics. Per-dataset source grants/activeobservation interfaces not established.",
+      "documentation_url": "https://dp.marsa.gccstat.org/developerscorner",
+      "api_base_url": "https://dp.marsa.gccstat.org/data.json",
+      "format_protocol": "Observed native JSONDCAT/ProjectOpenData-style catalogue context/id/type/dataset. DKAN Dataset/Datastore/REST APIs and FusionRegistry SDMX discussed in officialguide,but concrete currentinstances/dataqueries untested.",
+      "authentication": "Catalogue metadatafeed anonymous200 without credentials. OtherAPIauth untested. Officialdeveloperpage includes generic private Docker examples;neverrequested/privateauthvaluesneverused.",
+      "free_access_restrictions": "Selected catalogue metadatafree/noaccount. Reuse governedbyconditionalcustomterms,source/changedmaterialattribution,thirdpartyconsent andbroadprohibited-useclause;notblanketopenacceptance.",
+      "license": "Custom reuse terms with national/citizen-safety use prohibition;third-party consent exceptions",
+      "license_url": "https://dp.marsa.gccstat.org/terms-use",
+      "api_verification_state": "documented_portal_JSON_catalog_metadata_sample_success_conditional_reuse_restricted",
+      "latest_checked_utc": "2026-10-16T23:54:44.253850+00:00",
       "classification": "restricted"
     },
     {
