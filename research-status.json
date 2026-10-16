@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:36:00.306180+00:00",
+  "published_at": "2026-10-16T17:38:02.654012+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:33:17.527773+00:00",
+  "research_updated_at": "2026-10-16T17:37:19.013363+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Re3data descriptor expansion with official API/license discovery hints",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 83,
-    "candidates": 142,
-    "excluded": 5,
-    "sample_successes": 124
+    "verified": 84,
+    "candidates": 139,
+    "excluded": 7,
+    "sample_successes": 125
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -18,7 +18,7 @@
     "Resolve remaining starting-point terms/access: NOAA NCEI, NASA services, EPA Envirofacts, USDA NASS, ClinicalTrials.gov, USAspending, IRS, IMF/OECD/FAO/UNESCO/UNICEF/UN SDG; retain scoped acceptance and restrictions already established for other starting points",
     "Individually process portal/STAC/ArcGIS discovery entries and 3536 re3data descriptors, then verify official provider documentation/licenses; cross-registry dedup remains pending",
     "Complete permitted CKAN /site HTML listing at 15s crawl delay; do not request disallowed /api/ route",
-    "Paginate Socrata, ArcGIS, DCAT/STAC and permitted OAI-PMH discovery; current SDMX 23-agency scheme complete, Global Discovery Service endpoints and agency rights unresolved",
+    "Paginate Socrata, ArcGIS, DCAT/STAC and permitted OAI-PMH discovery; current SDMX 23-agency scheme complete, Global Discovery Service13-agency/18-endpoint listing complete; endpoint activity and agency rights unresolved",
     "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
     "Strengthen astronomy, transport, law, housing, companies/nonprofits, spending, energy, water and education coverage with dataset-level rights",
     "Enumerate feasible permitted portal catalogs; retain cursors and dataset licenses",
@@ -54,12 +54,12 @@
         "candidate_provider_ids": [
           "bis",
           "iati",
-          "imf",
           "oecd",
           "unsd"
         ],
         "restricted_provider_ids": [
-          "fred"
+          "fred",
+          "imf"
         ]
       },
       "labor": {
@@ -79,12 +79,13 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
-          "fao",
           "nasa-power",
           "ocha-hapi",
           "wfp"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "fao"
+        ]
       },
       "climate/weather/environment": {
         "status": "partial_verified",
@@ -96,7 +97,6 @@
           "bgs",
           "cifor-icraf",
           "copernicus-stac",
-          "fao",
           "hdx",
           "nasa-api",
           "nasa-cmr",
@@ -111,6 +111,7 @@
         ],
         "restricted_provider_ids": [
           "deims",
+          "fao",
           "open-meteo"
         ]
       },
@@ -118,10 +119,11 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "bgs",
-          "fao"
+          "bgs"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "fao"
+        ]
       },
       "energy": {
         "status": "partial_verified",
@@ -297,7 +299,6 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
-          "fao",
           "loc",
           "nasa-power",
           "ocha-hapi",
@@ -306,7 +307,9 @@
           "unesco",
           "wfp"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "fao"
+        ]
       },
       "research": {
         "status": "partial_verified",
@@ -788,7 +791,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "france",
-          "registry-transparenz-karlsruhe-de"
+          "registry-transparenz-karlsruhe-de",
+          "transportapi-fi"
         ],
         "candidate_provider_ids": [
           "bgs"
@@ -847,11 +851,11 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "registry-admin-opendatani-gov-uk",
-          "registry-daten-sg-ch"
+          "registry-daten-sg-ch",
+          "transportapi-fi"
         ],
         "candidate_provider_ids": [
-          "tfl",
-          "transportapi-fi"
+          "tfl"
         ],
         "restricted_provider_ids": []
       },
@@ -862,7 +866,8 @@
           "portugal",
           "registry-data-sz-ch",
           "registry-daten-sg-ch",
-          "registry-europeandataportal-eu"
+          "registry-europeandataportal-eu",
+          "transportapi-fi"
         ],
         "candidate_provider_ids": [
           "bgs"
@@ -909,8 +914,10 @@
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "transportapi-fi"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -3302,6 +3309,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "transportapi-fi",
+      "provider": "Fintraffic Digitraffic",
+      "service_name": "Fintraffic Digitraffic road, railway and marine open-data APIs",
+      "geographic_coverage": "Finland",
+      "topical_coverage": "transportation; climate/weather/environment; geospatial; oceans",
+      "dataset_families": "Road traffic, weather stations/cameras and maintenance; railway timetables, positions/composition and metadata; vessel positions and port calls",
+      "documentation_url": "https://www.digitraffic.fi/en/",
+      "api_base_url": "https://tie.digitraffic.fi/api/",
+      "format_protocol": "REST JSON; road DATEXII XML; railway GraphQL/Swagger; marine and MQTT interfaces documented",
+      "authentication": "Public service documentation; weathercam authentication and specific interfaces have additional conditions; no key used",
+      "free_access_restrictions": "Official service overview says data use is free and no Fintraffic contract required; API operational limits apply",
+      "license": "CC BY4.0",
+      "license_url": "https://www.digitraffic.fi/en/terms-of-service/",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T17:36:21.650912+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "treasury",
       "provider": "US Treasury Fiscal Data",
       "service_name": "US Treasury Fiscal Data API",
@@ -4078,24 +4103,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "fao",
-      "provider": "Food and Agriculture Organization",
-      "service_name": "Food and Agriculture Organization API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "agriculture; water; environment",
-      "dataset_families": "FAOSTAT production; trade; food balance; emissions",
-      "documentation_url": "https://www.fao.org/faostat/en/#data",
-      "api_base_url": "https://fenixservices.fao.org/faostat/api/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "CC BY 4.0 stated, complemented by additional FAO restrictions",
-      "license_url": "https://www.fao.org/contact-us/terms/db-terms-of-use/en/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:29:28.922731+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "figshare",
       "provider": "Figshare",
       "service_name": "Figshare public API",
@@ -4312,24 +4319,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "imf",
-      "provider": "International Monetary Fund",
-      "service_name": "International Monetary Fund API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "economics/finance",
-      "dataset_families": "Economic and financial statistics; dataflows",
-      "documentation_url": "https://data.imf.org/en/Resource-Pages/IMF-API",
-      "api_base_url": "https://api.imf.org/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown; fetched terms page did not yield substantive readable policy",
-      "license_url": "https://www.imf.org/external/terms.htm",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:56:22.960539+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "inaturalist",
       "provider": "iNaturalist",
       "service_name": "iNaturalist API",
@@ -4361,8 +4350,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://www.data.gov.in/government-open-data-license-india",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:26:49.764480+00:00",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T17:36:21.577946+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4980,19 +4969,19 @@
     {
       "identifier": "pacific-data",
       "provider": "Pacific Community Pacific Data Hub",
-      "service_name": "Pacific Community Pacific Data Hub open data API",
+      "service_name": "SPC Pacific Data Hub catalog and statistical SDMX interfaces",
       "geographic_coverage": "Pacific/Oceania",
       "topical_coverage": "demographics; health; education; climate/weather/environment",
       "dataset_families": "Pacific national statistics; SDGs; fisheries; geospatial datasets",
       "documentation_url": "https://pacificdata.org/",
-      "api_base_url": "https://pacificdata.org/data/api/3/action/",
-      "format_protocol": "CKAN Action API/JSON",
-      "authentication": "none for public metadata",
+      "api_base_url": "https://stats-sdmx-disseminate.pacificdata.org/rest/",
+      "format_protocol": "SDMX-JSON/XML statistical metadata; separate CKAN catalog at pacificdata.org/data/api/3/action/",
+      "authentication": "none for successful SDMX dataflow metadata sample; other interfaces untested",
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://pacificdata.org/terms-of-use",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:36:54.142977+00:00",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T17:36:21.614083+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5770,24 +5759,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "transportapi-fi",
-      "provider": "Fintraffic Digitraffic",
-      "service_name": "Fintraffic Digitraffic API",
-      "geographic_coverage": "Finland",
-      "topical_coverage": "transportation",
-      "dataset_families": "Road; rail; marine observations and operational data",
-      "documentation_url": "https://www.digitraffic.fi/en/",
-      "api_base_url": "https://tie.digitraffic.fi/api/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.digitraffic.fi/en/terms/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:34:15.002545+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "tunisia",
       "provider": "Tunisian government data.gov.tn",
       "service_name": "Tunisian government data.gov.tn open data portal",
@@ -6042,6 +6013,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "fao",
+      "provider": "Food and Agriculture Organization",
+      "service_name": "Food and Agriculture Organization API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "agriculture; water; environment",
+      "dataset_families": "FAOSTAT production; trade; food balance; emissions",
+      "documentation_url": "https://www.fao.org/faostat/en/#data",
+      "api_base_url": "https://fenixservices.fao.org/faostat/api/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read",
+      "free_access_restrictions": "Corporate statistical datasets provided free of charge in machine-readable format, subject to additional Database Terms and incorporated web-content terms",
+      "license": "CC BY4.0 plus FAO statistical-database additional use restrictions and third-party exceptions",
+      "license_url": "https://www.fao.org/contact-us/terms/db-terms-of-use/en/",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T17:36:21.499639+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "fred",
       "provider": "Federal Reserve Bank of St Louis / FRED",
       "service_name": "Federal Reserve Bank of St Louis / FRED API",
@@ -6057,6 +6046,24 @@
       "license_url": "https://fred.stlouisfed.org/legal/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T17:14:47.501188+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "imf",
+      "provider": "International Monetary Fund",
+      "service_name": "International Monetary Fund API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "economics/finance",
+      "dataset_families": "Economic and financial statistics; dataflows",
+      "documentation_url": "https://data.imf.org/en/Resource-Pages/IMF-API",
+      "api_base_url": "https://api.imf.org/external/sdmx/",
+      "format_protocol": "REST/JSON",
+      "authentication": "Unknown for current data API; SGDS documents multiple metadata/service endpoints, not proof of anonymous access",
+      "free_access_restrictions": "Policy describes free statistical-data access/reuse subject to conditions, but requests permission for potential commercial reuse and prohibits automated bulk downloads/LLM training without permission",
+      "license": "IMF special statistical-data terms with explicit commercial-reuse permission requirement; bulk-download and LLM-training restrictions",
+      "license_url": "https://www.imf.org/en/About/copyright-and-terms.",
+      "api_verification_state": "documented_api_untested",
+      "latest_checked_utc": "2026-10-16T17:36:21.542031+00:00",
       "classification": "restricted"
     },
     {
