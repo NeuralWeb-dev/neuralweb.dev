@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T22:17:34.719320+00:00",
+  "published_at": "2026-10-16T22:19:37.038377+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:14:58.691355+00:00",
+  "research_updated_at": "2026-10-16T22:19:32.652608+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Brazil SUS currentportal migration/API verified:140catalogsummaries/113Swaggeroperations;anonymousCNESlookup200JSON,rightsremaincandidate;datasetdetailmetadata pass resumable",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 134,
-    "candidates": 169,
+    "candidates": 171,
     "excluded": 24,
-    "sample_successes": 159
+    "sample_successes": 160
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -707,9 +707,11 @@
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "mindagri-ne"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
@@ -724,6 +726,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "mindagri-ne",
           "opendatasus"
         ],
         "restricted_provider_ids": []
@@ -787,7 +790,9 @@
         ],
         "candidate_provider_ids": [
           "dominican-data",
-          "jamaica-data"
+          "jamaica-data",
+          "mindagri-ne",
+          "senado-br"
         ],
         "restricted_provider_ids": []
       },
@@ -807,7 +812,8 @@
         ],
         "candidate_provider_ids": [
           "dominican-data",
-          "ecuador-cuenca"
+          "ecuador-cuenca",
+          "senado-br"
         ],
         "restricted_provider_ids": []
       },
@@ -830,9 +836,11 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "mindagri-ne"
+        ],
         "restricted_provider_ids": []
       },
       "research": {
@@ -4081,7 +4089,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T22:14:38.351597+00:00",
+      "latest_checked_utc": "2026-10-16T22:18:25.778740+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6193,6 +6201,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mindagri-ne",
+      "provider": "Peru MINAGRI / MIDAGRI (Ministry of Agrarian Development and Irrigation)",
+      "service_name": "Núcleos Ejecutores irrigation-maintenance open data REST API",
+      "geographic_coverage": "Peru;communityexecutors/minorirrigationchannelmaintenanceactivities",
+      "topical_coverage": "agriculture; water; public spending/contracts",
+      "dataset_families": "NúcleosEjecutores community organization/irrigationmaintenanceactivity data,officialsample/dictionarydescriptors;noresourcefiledownloaded",
+      "documentation_url": "https://www.datosabiertos.gob.pe/dataset/n%C3%BAcleos-ejecutores-ministerio-de-agricultura-y-riego",
+      "api_base_url": "http://fspreset.minagri.gob.pe:5000/",
+      "format_protocol": "OfficialdatasetdescribesREST/JSON;actualresourceAPIresponseuntestedpolicydeferred",
+      "authentication": "PublicdocsAPIofferedanycitizen;actualserviceauthunknown,noaccount/key",
+      "free_access_restrictions": "No fee/subscription described ondatasetpage;currentserviceavailabilityandotherconditionsunresolved",
+      "license": "OpenDataCommonsAttributiondeclaredfordataset;linked1.0instrumentreviewed;serviceaccess/independentcontentsrightsuncertain",
+      "license_url": "https://www.datosabiertos.gob.pe/dataset/n%C3%BAcleos-ejecutores-ministerio-de-agricultura-y-riego | http://opendefinition.org/licenses/odc-by/ | http://opendatacommons.org/licenses/by/1.0/",
+      "api_verification_state": "documented_legacy_rest_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T22:16:18.587026+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nasa-api",
       "provider": "NASA Open APIs",
       "service_name": "NASA Open APIs API",
@@ -6672,10 +6698,10 @@
       "format_protocol": "Swagger2 specification1.8.32;HTTP GET JSON/text CSV documented;sampleJSON tipos_unidade list",
       "authentication": "Anonymous facility-type GET succeeded;specification has no top-level security/securityDefinitions;other operations untested",
       "free_access_restrictions": "No payment/account used for docs or lookup. Service-wide access restrictions,terms and sustained availability unknown;not a guaranteed free tier.",
-      "license": "Dataset-specific;CNES Creative Commons Attribution version unspecified;macroregion no license;API specification info MIT;website CC BY-ND3.0 notice",
+      "license": "Mixed dataset declarations:40cc-by,1cc-by-sa,1other-closed,98blank;APIinfoMIT/siteCCBY-ND3different scopes",
       "license_url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude | https://dadosabertos.saude.gov.br/dataset/macrorregiao-de-saude | https://apidadosabertos.saude.gov.br/static/swagger.json | https://dadosabertos.saude.gov.br/",
       "api_verification_state": "documented_api_anonymous_nonpersonal_lookup_sample_success",
-      "latest_checked_utc": "2026-10-16T22:14:51.276957+00:00",
+      "latest_checked_utc": "2026-10-16T22:18:40.950098+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6811,15 +6837,15 @@
       "geographic_coverage": "Peru",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://www.datosabiertos.gob.pe/node/1471/api",
-      "api_base_url": "https://www.datosabiertos.gob.pe/api/action/datastore/search.json",
-      "format_protocol": "Official DKAN Datastore API documentation; JSON advertised but sample body was HTML",
-      "authentication": "Anonymous documentation/example; sample sent without credentials, no actual dataset response verified",
+      "documentation_url": "https://www.datosabiertos.gob.pe/node/1471/api | https://www.datosabiertos.gob.pe/dataset/n%C3%BAcleos-ejecutores-ministerio-de-agricultura-y-riego",
+      "api_base_url": "https://www.datosabiertos.gob.pe/api/3/action/ | https://www.datosabiertos.gob.pe/api/action/datastore/search.json",
+      "format_protocol": "Current linked package_show HTTP200 JSON success=true/result list;DKAN-style Datastore earlierreturnedHTML,notdata success",
+      "authentication": "Anonymous linkedmetadataGETsucceeded;underlying resourceAPIaccess separate/unverified",
       "free_access_restrictions": "Public documentation; full service restrictions/limits unknown",
       "license": "Dataset-specific; sampled unrelated municipal dataset identifies Open Data Commons Attribution License",
       "license_url": "https://www.datosabiertos.gob.pe/dataset/licencias-de-funcionamiento-1",
-      "api_verification_state": "documented_dkan_sample_http200_unexpected_html_not_json",
-      "latest_checked_utc": "2026-10-16T20:20:13.321968+00:00",
+      "api_verification_state": "documented_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T22:15:14.128476+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7468,6 +7494,24 @@
       "license_url": "https://open.data.gov.sa/en/pages/terms-of-use",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:28:05.991008+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "senado-br",
+      "provider": "Brazil Federal Senate (Senado Federal)",
+      "service_name": "Senado Federal legislative and administrative open-data APIs/catalog",
+      "geographic_coverage": "Brazil;Federal Senate/Congress-specific administrative and legislative coverage",
+      "topical_coverage": "law/civic; public spending/contracts",
+      "dataset_families": "Bills/proposals,committee types/meetings,votes,legislation and parliamentary composition;Senateprocurement,budget andadministration. Publishedcatalogincludesstaticfiles,manuals andwebservices,notallruntimeAPIs.",
+      "documentation_url": "https://www12.senado.leg.br/dados-abertos/sobre | https://www12.senado.leg.br/dados-abertos/dados-abertos | https://legis.senado.leg.br/dadosabertos/api-docs/swagger-ui/index.html",
+      "api_base_url": "https://legis.senado.leg.br/dadosabertos/ | https://adm.senado.leg.br/adm-dadosabertos/api/v1/",
+      "format_protocol": "OfficialXML/JSONwebservice guide;nativecatalogCSV andSwaggerlinks;runtime CSV request policy-deferred",
+      "authentication": "Runtime requestnotsentbyrobots;registration/keyrequirementsunknown,noneobtained",
+      "free_access_restrictions": "Public catalog/about pages200;APIcost/access/serviceconditionsunknown",
+      "license": "Unconfirmed;officialaboutdefinesopendataatmostattribution,notclearlyanoperativecorpusgrant",
+      "license_url": "https://www12.senado.leg.br/dados-abertos/sobre | https://www12.senado.leg.br/dados-abertos/dados-abertos",
+      "api_verification_state": "documented_services_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T22:16:44.977030+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
