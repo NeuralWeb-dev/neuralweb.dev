@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T18:08:39.957104+00:00",
+  "published_at": "2026-10-16T18:10:42.312021+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:08:29.647808+00:00",
+  "research_updated_at": "2026-10-16T18:10:13.373950+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 91,
+    "verified": 92,
     "candidates": 138,
-    "excluded": 7,
-    "sample_successes": 129
+    "excluded": 8,
+    "sample_successes": 130
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -31,6 +31,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "datacommons",
+          "geonames",
           "worldbank"
         ],
         "candidate_provider_ids": [
@@ -110,6 +111,7 @@
           "unsd"
         ],
         "restricted_provider_ids": [
+          "copernicus-marine",
           "deims",
           "fao",
           "open-meteo"
@@ -199,6 +201,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "geonames",
           "opencontext",
           "osm",
           "usgs-earthquake",
@@ -273,6 +276,7 @@
           "pangaea"
         ],
         "restricted_provider_ids": [
+          "copernicus-marine",
           "worms"
         ]
       },
@@ -349,6 +353,7 @@
           "unesco"
         ],
         "restricted_provider_ids": [
+          "copernicus-marine",
           "deims"
         ]
       }
@@ -804,7 +809,9 @@
         "candidate_provider_ids": [
           "bgs"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "copernicus-marine"
+        ]
       },
       "water": {
         "status": "partial_candidates_only",
@@ -925,7 +932,9 @@
           "transportapi-fi"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "copernicus-marine"
+        ]
       },
       "astronomy": {
         "status": "unsearched",
@@ -959,7 +968,9 @@
           "perspectivia",
           "yoda-utrecht"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "copernicus-marine"
+        ]
       }
     },
     "Middle East/North Africa": {
@@ -2423,7 +2434,7 @@
       "license": "ECCC Data Services End-use Licence heading2.1.1 (August2026); body versioning clause says2.1",
       "license_url": "https://eccc-msc.github.io/open-data/licence/readme_en/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:59:38.499609+00:00",
+      "latest_checked_utc": "2026-10-16T18:10:06.683022+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2550,6 +2561,24 @@
       "license_url": "https://docs.gbif.org/course-introduction-to-gbif/en/data-publisher-visibility-and-recognition.html",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:37:23.729017+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "geonames",
+      "provider": "GeoNames / unxos gmbh",
+      "service_name": "GeoNames free geographical web services",
+      "geographic_coverage": "Global; place and administrative names, countries and postal-code coverage varies",
+      "topical_coverage": "geospatial; demographics",
+      "dataset_families": "Gazetteer place names and geographic identifiers; country information; administrative hierarchies; geographic search and reverse geocoding",
+      "documentation_url": "https://www.geonames.org/export/web-services.html",
+      "api_base_url": "https://api.geonames.org/",
+      "format_protocol": "REST; JSON, XML and endpoint-specific plain text/RDF",
+      "authentication": "key-required equivalent: free registered username required on every request; no account obtained",
+      "free_access_restrictions": "Free service with credit limits; optional paid premium service not acquired. Official current docs prohibit demo account use in apps or tests, so demo was not requested.",
+      "license": "Creative Commons Attribution (CC BY); data grant version unspecified on current export terms",
+      "license_url": "https://www.geonames.org/export/",
+      "api_verification_state": "documented_registered_username_required_untested",
+      "latest_checked_utc": "2026-10-16T18:10:06.752424+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6120,6 +6149,24 @@
     }
   ],
   "excluded": [
+    {
+      "identifier": "copernicus-marine",
+      "provider": "Copernicus Marine Service / Mercator Ocean International / European Union",
+      "service_name": "Copernicus Marine Toolbox and CSW metadata services",
+      "geographic_coverage": "Global ocean and European regional seas",
+      "topical_coverage": "oceans; climate/weather/environment; research",
+      "dataset_families": "Physical ocean,sea ice and biogeochemistry products; catalog metadata and programmatic data subsetting/download",
+      "documentation_url": "https://help.marine.copernicus.eu/en/articles/4794731-programmatic-access-services-to-copernicus-marine-data",
+      "api_base_url": "https://csw.marine.copernicus.eu/geonetwork/csw-MYOCEAN-CORE-PRODUCTS/eng/csw",
+      "format_protocol": "OGC CSW2.0.2/XML; Python Toolbox API/CLI describe,get,subset; WMTS documented",
+      "authentication": "CSW capabilities no credentials; Toolbox data access documents free account credentials; no account obtained",
+      "free_access_restrictions": "Current SLA states service/products free through planned30June2028. Data rights subject to custom licence, including downstream traceability obligations.",
+      "license": "Custom Copernicus Marine licence; reuse/adaptation/redistribution allowed, additional descending-licence usage-record obligations",
+      "license_url": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "api_verification_state": "documented_metadata_sample_success_xml",
+      "latest_checked_utc": "2026-10-16T18:10:06.822928+00:00",
+      "classification": "restricted"
+    },
     {
       "identifier": "deims",
       "provider": "DEIMS-SDR",
