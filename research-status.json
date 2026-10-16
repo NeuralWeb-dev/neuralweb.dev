@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-16T21:32:41.304549+00:00",
+  "published_at": "2026-10-16T21:34:43.929891+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:30:01.951525+00:00",
+  "research_updated_at": "2026-10-16T21:34:40.240941+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GUS9API family overviews:BDL/SDG/TranStat scoped CC BY4 data grants,6access/rights candidates;BDL33subjects/partial172685variablecatalog,SDG321regionaltitles;HK3830metadata all200completefinitepass,rights/resourcesunreviewed",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
     "verified": 133,
     "candidates": 161,
-    "excluded": 21,
+    "excluded": 22,
     "sample_successes": 156
   },
   "remaining_work": [
@@ -4929,24 +4929,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "bahrain-data",
-      "provider": "Bahrain Information and eGovernment Authority",
-      "service_name": "Bahrain Open Data Portal Explore API candidate",
-      "geographic_coverage": "Bahrain;Middle East",
-      "topical_coverage": "unknown",
-      "dataset_families": "Governmentopen-data catalog;majorsectorfamilies notyetindependentlyinspected",
-      "documentation_url": "https://www.data.gov.bh/api/",
-      "api_base_url": "https://www.data.gov.bh/api/",
-      "format_protocol": "Portal linksAPI;proposedExplorev2.1JSONcatalogroute nottestedbyrobots",
-      "authentication": "unknown;publictermsaccessible,APIrequestnot sentbypolicy;noaccount/keyobtained",
-      "free_access_restrictions": "TermsincorporateBahrainOpenGovernmentDataLicense;fullgrant/accessconditions unresolved;nocharge/subscriptionacquired",
-      "license": "Bahrain Open Government Data License v1.0 referenced;fulltextreviewincomplete",
-      "license_url": "https://www.data.gov.bh/pages/terms-and-conditions | https://nea.gov.bh/Documents/OpenDataLicense.pdf",
-      "api_verification_state": "documented_portal_api_link_sample_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T19:31:07.402086+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "bangladesh",
       "provider": "Bangladesh Open Data",
       "service_name": "Bangladesh Open Data open data portal",
@@ -5898,6 +5880,24 @@
       "license_url": "https://www.dati.gov.it/note-legali",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:37.547985+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "jamaica-data",
+      "provider": "Government of Jamaica Open Data Portal",
+      "service_name": "Jamaica DKAN catalog and Datastore API",
+      "geographic_coverage": "Jamaica;Caribbean;Latin America/Caribbean",
+      "topical_coverage": "economics/finance; energy; demographics; public spending/contracts",
+      "dataset_families": "Official indexed resource docs:imports,exports,GDP/value added,consumer prices,NCC contracts,tourism,poverty,petroleum prices;selected subset only",
+      "documentation_url": "https://data.gov.jm/node/196/api",
+      "api_base_url": "https://data.gov.jm/api/action/datastore/search.json",
+      "format_protocol": "DKAN Datastore JSON query documented by official indexed resource page;dataset metadata JSON/RDF advertised",
+      "authentication": "Unknown;official sample has no key parameter;no live target request sent by robots policy",
+      "free_access_restrictions": "No paid access/account acquired;current quotas/access conditions unknown",
+      "license": "Per-dataset declarations;Energy Tables labeled Open Data Commons Attribution License;full applicable grant/version unreviewed",
+      "license_url": "https://data.gov.jm/dataset/energy-tables",
+      "api_verification_state": "documented_indexed_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T21:34:37.456140+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7754,6 +7754,24 @@
       "license_url": "https://acleddata.com/eula",
       "api_verification_state": "documented_account_oauth_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:09:07.747183+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bahrain-data",
+      "provider": "Bahrain Information and eGovernment Authority",
+      "service_name": "Bahrain Open Data Portal Explore API",
+      "geographic_coverage": "Bahrain;Middle East",
+      "topical_coverage": "unknown",
+      "dataset_families": "Governmentopen-data catalog;majorsectorfamilies notyetindependentlyinspected",
+      "documentation_url": "https://www.data.gov.bh/api-console/explore/v2.1/",
+      "api_base_url": "https://www.data.gov.bh/api/explore/v2.1/",
+      "format_protocol": "Documented GET-only Explore API v2.1,JSON,ODSQL,catalog/dataset/records/exports interfaces;runtime untested",
+      "authentication": "Unknown for actual portal queries;no credentials used;sample target not sent by robots policy",
+      "free_access_restrictions": "License royalty-free sharing/adaptation and commercial applications,subject to clauses3.2–3.5;API quota/tier unknown",
+      "license": "Bahrain Government Open Data License v1.0,20May2025;restricted custom terms",
+      "license_url": "https://www.data.gov.bh/pages/terms-and-conditions/ | https://www.iga.gov.bh/Media/Publications/National%20Digital%20Policies/Bahrain%20Government%20Open%20Data%20License.pdf",
+      "api_verification_state": "documented_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T21:31:04.445916+00:00",
       "classification": "restricted"
     },
     {
