@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-16T16:57:14.287232+00:00",
+  "published_at": "2026-10-16T16:59:16.587336+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T16:57:12.308099+00:00",
+  "research_updated_at": "2026-10-16T16:58:58.720365+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 69,
-    "candidates": 148,
-    "excluded": 3,
+    "verified": 72,
+    "candidates": 144,
+    "excluded": 4,
     "sample_successes": 116
   },
   "remaining_work": [
@@ -93,7 +93,6 @@
         "candidate_provider_ids": [
           "bgs",
           "copernicus-stac",
-          "deims",
           "fao",
           "hdx",
           "nasa-api",
@@ -107,6 +106,7 @@
           "unsd"
         ],
         "restricted_provider_ids": [
+          "deims",
           "open-meteo"
         ]
       },
@@ -133,6 +133,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "datacommons",
+          "neuromorpho",
           "pdb",
           "uniprot",
           "worldbank"
@@ -142,7 +143,6 @@
           "europepmc",
           "fsd-finland",
           "hdx",
-          "neuromorpho",
           "nih-clinicaltrials",
           "nih-pubmed",
           "ocha-hapi",
@@ -190,6 +190,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "opencontext",
           "osm",
           "usgs-earthquake",
           "wikidata"
@@ -199,7 +200,6 @@
           "copernicus-stac",
           "nasa-cmr",
           "nsidc",
-          "opencontext",
           "planetary-computer"
         ],
         "restricted_provider_ids": []
@@ -241,14 +241,15 @@
           "uniprot"
         ],
         "candidate_provider_ids": [
-          "deims",
           "ena",
           "inaturalist",
           "planetary-computer",
           "smithsonian",
           "worms"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "deims"
+        ]
       },
       "oceans": {
         "status": "partial_verified",
@@ -280,6 +281,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "artic",
+          "opencontext",
           "wikidata",
           "worldbank"
         ],
@@ -288,7 +290,6 @@
           "loc",
           "metmuseum",
           "ocha-hapi",
-          "opencontext",
           "perspectivia",
           "smithsonian",
           "unesco",
@@ -304,8 +305,10 @@
           "datacite",
           "dryad",
           "gavo",
+          "neuromorpho",
           "openalex",
           "opencitations",
+          "opencontext",
           "pdb",
           "re3data",
           "ror",
@@ -315,23 +318,22 @@
         ],
         "candidate_provider_ids": [
           "b2share",
-          "deims",
           "ena",
           "europepmc",
           "figshare",
           "fsd-finland",
           "harvard-dataverse",
           "loc",
-          "neuromorpho",
           "nih-clinicaltrials",
           "nih-pubmed",
-          "opencontext",
           "pangaea",
           "perspectivia",
           "smithsonian",
           "unesco"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "deims"
+        ]
       }
     },
     "North America": {
@@ -907,11 +909,11 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "darus",
           "registry-data-tg-ch"
         ],
         "candidate_provider_ids": [
           "b2share",
-          "darus",
           "fsd-finland",
           "perspectivia",
           "yoda-utrecht"
@@ -2144,6 +2146,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "darus",
+      "provider": "University of Stuttgart DaRUS",
+      "service_name": "University of Stuttgart DaRUS API",
+      "geographic_coverage": "Germany",
+      "topical_coverage": "research",
+      "dataset_families": "Institutional research datasets; files; collection metadata",
+      "documentation_url": "https://www.izus.uni-stuttgart.de/en/fokus/darus/",
+      "api_base_url": "https://darus.uni-stuttgart.de/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "Public search and native dataset metadata endpoints succeeded without credentials",
+      "license": "CC BY-SA 4.0 for explicitly verified dataset subset",
+      "license_url": "https://darus.uni-stuttgart.de/api/datasets/:persistentId/?persistentId=doi%3A10.18419%2FDARUS-1637",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:58:57.593147+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "datacite",
       "provider": "DataCite",
       "service_name": "DataCite API",
@@ -2173,10 +2193,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "key required for REST V2; some documented V1 APIs currently unkeyed",
       "free_access_restrictions": "Documented hosted API with key requirement for V2; no key requested, inspected or used",
-      "license": "CC BY for Data Commons knowledge graph and compilation; underlying source terms vary",
+      "license": "CC BY 4.0 for Data Commons knowledge graph and compilation; underlying source terms vary",
       "license_url": "https://www.datacommons.org/faq",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:51:48.761956+00:00",
+      "latest_checked_utc": "2026-10-16T16:58:57.582925+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2468,6 +2488,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "neuromorpho",
+      "provider": "NeuroMorpho.Org",
+      "service_name": "NeuroMorpho.Org API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "health; research",
+      "dataset_families": "Neuronal reconstructions; neuron metadata; experimental provenance",
+      "documentation_url": "https://neuromorpho.org/api.jsp",
+      "api_base_url": "https://neuromorpho.org/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "Public neuron metadata API sample succeeded without credentials",
+      "license": "CC BY 4.0",
+      "license_url": "https://neuromorpho.org/useterm.jsp",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:58:57.624526+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "noaa-weather",
       "provider": "NOAA National Weather Service",
       "service_name": "NOAA National Weather Service API",
@@ -2537,6 +2575,24 @@
       "license_url": "https://opencitations.net/model",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.367695+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "opencontext",
+      "provider": "Open Context",
+      "service_name": "Open Context API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "culture; research; geospatial",
+      "dataset_families": "Archaeological observations; projects; subjects; media; linked data",
+      "documentation_url": "https://opencontext.org/about/services",
+      "api_base_url": "https://opencontext.org/",
+      "format_protocol": "REST/JSON-LD; linked data",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "Public one-result JSON-LD search succeeded without credentials",
+      "license": "CC BY 4.0 or public-domain release under publishing agreement",
+      "license_url": "https://opencontext.org/about/publishing",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:58:57.634502+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3532,42 +3588,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "darus",
-      "provider": "University of Stuttgart DaRUS",
-      "service_name": "University of Stuttgart DaRUS API",
-      "geographic_coverage": "Germany",
-      "topical_coverage": "research",
-      "dataset_families": "Institutional research datasets; files; collection metadata",
-      "documentation_url": "https://www.izus.uni-stuttgart.de/en/fokus/darus/",
-      "api_base_url": "https://darus.uni-stuttgart.de/api/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.izus.uni-stuttgart.de/en/fokus/darus/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:56:51.596230+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "deims",
-      "provider": "DEIMS-SDR",
-      "service_name": "DEIMS-SDR API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "biodiversity; climate/weather/environment; research",
-      "dataset_families": "Environmental monitoring sites; ecological research facilities; networks",
-      "documentation_url": "https://deims.org/api",
-      "api_base_url": "https://deims.org/api/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://deims.org/docs/en/about/license.html",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:56:45.455001+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "denmark-statbank",
       "provider": "Statistics Denmark",
       "service_name": "Statistics Denmark API",
@@ -3798,7 +3818,7 @@
       "license": "unknown",
       "license_url": "https://www.fsd.tuni.fi/en/data-archive/documents-and-agreements/",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:56:31.907449+00:00",
+      "latest_checked_utc": "2026-10-16T16:58:57.614115+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4306,24 +4326,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "neuromorpho",
-      "provider": "NeuroMorpho.Org",
-      "service_name": "NeuroMorpho.Org API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "health; research",
-      "dataset_families": "Neuronal reconstructions; neuron metadata; experimental provenance",
-      "documentation_url": "https://neuromorpho.org/api.jsp",
-      "api_base_url": "https://neuromorpho.org/api/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://neuromorpho.org/useterm.jsp",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:56:07.774469+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "nih-clinicaltrials",
       "provider": "NIH National Library of Medicine / ClinicalTrials.gov",
       "service_name": "NIH National Library of Medicine / ClinicalTrials.gov API",
@@ -4612,24 +4614,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "opencontext",
-      "provider": "Open Context",
-      "service_name": "Open Context API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "culture; research; geospatial",
-      "dataset_families": "Archaeological observations; projects; subjects; media; linked data",
-      "documentation_url": "https://opencontext.org/about/services",
-      "api_base_url": "https://opencontext.org/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://opencontext.org/about/publishing",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:56:29.046027+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "opencorporates",
       "provider": "OpenCorporates",
       "service_name": "OpenCorporates API",
@@ -4734,7 +4718,7 @@
       "license": "unknown",
       "license_url": "https://perspectivia.net/content/publish/policies.xml",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:56:57.718045+00:00",
+      "latest_checked_utc": "2026-10-16T16:58:57.644373+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4806,7 +4790,7 @@
       "license": "unknown",
       "license_url": "https://ardc.edu.au/terms-and-conditions/",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:56:39.836598+00:00",
+      "latest_checked_utc": "2026-10-16T16:58:57.655556+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5733,16 +5717,16 @@
       "service_name": "WASCAL Scientific Research Data Catalog API",
       "geographic_coverage": "West Africa/Sub-Saharan Africa",
       "topical_coverage": "agriculture; water; climate/weather/environment; research",
-      "dataset_families": "West African climate and land-use research datasets",
+      "dataset_families": "DKAN compatibility API returned apparent demo/default US polling and foreclosure dataset names; intended West African climate families not yet verified",
       "documentation_url": "https://wascal-dataportal.org/",
       "api_base_url": "https://wascal-dataportal.org/",
       "format_protocol": "DKAN/CKAN compatibility JSON candidate",
       "authentication": "none for public read candidate",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown; API response does not establish data reuse rights",
       "license_url": "https://wascal-dataportal.org/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:56:36.020971+00:00",
+      "latest_checked_utc": "2026-10-16T16:58:57.665531+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5801,6 +5785,24 @@
     }
   ],
   "excluded": [
+    {
+      "identifier": "deims",
+      "provider": "DEIMS-SDR",
+      "service_name": "DEIMS-SDR API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "biodiversity; climate/weather/environment; research",
+      "dataset_families": "Environmental monitoring sites; ecological research facilities; networks",
+      "documentation_url": "https://deims.org/api",
+      "api_base_url": "https://deims.org/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "Public API sample succeeded without key, but terms restrict downstream use and automated content collection",
+      "license": "CC BY-NC 4.0 and additional service restrictions",
+      "license_url": "https://deims.org/terms",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:58:57.603548+00:00",
+      "classification": "restricted"
+    },
     {
       "identifier": "fred",
       "provider": "Federal Reserve Bank of St Louis / FRED",
