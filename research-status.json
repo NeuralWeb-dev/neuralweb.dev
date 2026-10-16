@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T17:19:41.524111+00:00",
+  "published_at": "2026-10-16T17:21:43.705039+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:19:26.471808+00:00",
+  "research_updated_at": "2026-10-16T17:20:47.242508+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 76,
-    "candidates": 150,
+    "verified": 77,
+    "candidates": 149,
     "excluded": 4,
     "sample_successes": 123
   },
@@ -367,12 +367,11 @@
           "bea",
           "bls",
           "census",
+          "sec",
           "statcan",
           "treasury"
         ],
-        "candidate_provider_ids": [
-          "sec"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": [
           "fred"
         ]
@@ -486,11 +485,12 @@
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [
-          "irs",
+        "status": "partial_verified",
+        "verified_provider_ids": [
           "sec"
+        ],
+        "candidate_provider_ids": [
+          "irs"
         ],
         "restricted_provider_ids": []
       },
@@ -3072,6 +3072,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "sec",
+      "provider": "US Securities and Exchange Commission",
+      "service_name": "US Securities and Exchange Commission API",
+      "geographic_coverage": "United States",
+      "topical_coverage": "companies/nonprofits; economics/finance",
+      "dataset_families": "EDGAR submissions; company facts; XBRL",
+      "documentation_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "api_base_url": "https://data.sec.gov/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none; official documentation explicitly says no API keys or authentication for public data APIs",
+      "free_access_restrictions": "Public JSON data APIs free; fair-access and declared User-Agent rules apply; not filer-submission APIs",
+      "license": "SEC explicit free access/reuse and copying/distribution permission for government-created and EDGAR public filing content",
+      "license_url": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:20:42.945404+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "singapore",
       "provider": "Singapore government data.gov.sg",
       "service_name": "Singapore government data.gov.sg open data portal",
@@ -3895,10 +3913,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers",
+      "license": "EPA-produced data default public domain unless otherwise specified; matching Envirofacts/source-submitted dataset rights still require review",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.htm",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:24:49.823402+00:00",
+      "latest_checked_utc": "2026-10-16T17:20:42.877432+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4600,7 +4618,7 @@
       "license": "unknown",
       "license_url": "https://clinicaltrials.gov/about-site/terms-conditions",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:24:54.738095+00:00",
+      "latest_checked_utc": "2026-10-16T17:20:42.900952+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5537,24 +5555,6 @@
       "license_url": "https://open.data.gov.sa/en/pages/terms-of-use",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:28:05.991008+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "sec",
-      "provider": "US Securities and Exchange Commission",
-      "service_name": "US Securities and Exchange Commission API",
-      "geographic_coverage": "United States",
-      "topical_coverage": "companies/nonprofits; economics/finance",
-      "dataset_families": "EDGAR submissions; company facts; XBRL",
-      "documentation_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
-      "api_base_url": "https://data.sec.gov/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for tested data API",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.sec.gov/about/privacy-information",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:32:30.375111+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
