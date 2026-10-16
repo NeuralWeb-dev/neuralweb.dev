@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T22:48:10.760314+00:00",
+  "published_at": "2026-10-16T22:50:13.030654+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:39:04.589800+00:00",
+  "research_updated_at": "2026-10-16T22:49:55.122813+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DataONEregistry87XMLnodesindexed;selectedrepositoryAPI/rightsreviewsandboundedmembercapabilitypassinprogress",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
-    "verified": 137,
-    "candidates": 174,
+    "verified": 138,
+    "candidates": 177,
     "excluded": 24,
-    "sample_successes": 163
+    "sample_successes": 166
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -2613,6 +2613,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "arctic-data",
+      "provider": "NSF Arctic Data Center / NCEAS, University of California Santa Barbara",
+      "service_name": "Arctic Data Center DataONE/Metacat public discovery and metadata API",
+      "geographic_coverage": "Arctic; dataset-specific circumpolar studies; United States NSF-supported science",
+      "topical_coverage": "climate/weather/environment; biodiversity; oceans; water; geospatial; research",
+      "dataset_families": "Arctic research packages, environmental observations, metadata, software/documents and provenance. A selected CC0 Beaufort Sea benthic-infauna package was inspected. No science data files were downloaded.",
+      "documentation_url": "https://arcticdata.io/submit/ | https://arcticdata.io/catalog/ | https://dataoneorg.github.io/api-documentation/apis/MN_APIs.html | https://arcticdata.io/metacat/d1/mn/v2/query/solr",
+      "api_base_url": "https://arcticdata.io/metacat/d1/mn/v2/",
+      "format_protocol": "Observed Node/query-engine/schema XML; Solr JSON metadata searches; retrieved EML2.2 science metadata XML. DataONE/ORE/EML packaging and object interfaces documented.",
+      "authentication": "Anonymous capabilities, schema, public metadata queries and one metadata-object GET succeeded. Public metadata does not establish public access to every associated data object; restricted records are outside accepted scope.",
+      "free_access_restrictions": "Public read samples required no account/payment. Submission ORCID/NSF review and potential large non-NSF publishing fees concern contribution services, not the tested public-read API; no contribution/account operations used.",
+      "license": "CC0 or CC-BY-4.0 for publicly released packages under submission policy; selected Beaufort Sea package explicitly CC0-1.0",
+      "license_url": "https://arcticdata.io/submit/ | https://arcticdata.io/metacat/d1/mn/v2/object/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ble%2F25%2F3",
+      "api_verification_state": "documented_capability_xml_public_query_json_and_eml_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T22:43:55.608285+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "argentina",
       "provider": "Argentine government datos.gob.ar",
       "service_name": "Argentine government datos.gob.ar open data portal",
@@ -4121,7 +4139,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T22:35:30.056328+00:00",
+      "latest_checked_utc": "2026-10-16T22:40:39.272677+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5585,6 +5603,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dataone",
+      "provider": "DataONE / participating research repositories",
+      "service_name": "DataONE Coordinating Node discovery and object-metadata APIs",
+      "geographic_coverage": "Global discovery federation; coverage depends on the member repository and dataset",
+      "topical_coverage": "climate/weather/environment; biodiversity; water; geospatial; research",
+      "dataset_families": "Federated Earth, ecological and environmental research discovery; registered nodes, object formats, science/system metadata, identifiers and query engines. Individual data families and rights remain member-specific.",
+      "documentation_url": "https://dataoneorg.github.io/api-documentation/apis/CN_APIs.html | https://dataoneorg.github.io/api-documentation/apis/MN_APIs.html | https://www.dataone.org/",
+      "api_base_url": "https://cn.dataone.org/cn/v2/",
+      "format_protocol": "DataONE v1/v2 REST; observed NodeList XML in v2 namespace; documented query/object/system-metadata interfaces, format-dependent responses",
+      "authentication": "Anonymous node-registry GET succeeded. Restricted object reads depend on permission/session rules; write/account methods were not invoked.",
+      "free_access_restrictions": "Registry read succeeded without account, payment or subscription. Dataset access and usage conditions are member-specific; numeric API quotas/SLA unknown.",
+      "license": "No uniform registry/federated-data reuse license established; repository/object-specific rights",
+      "license_url": "https://www.dataone.org/faq/ | https://dataoneorg.github.io/api-documentation/apis/CN_APIs.html",
+      "api_verification_state": "documented_registry_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:38:08.495772+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dominican-data",
       "provider": "Dominican Republic national open data portal / DIGEIG",
       "service_name": "Datos.gob.do open data portal;CKAN API candidate",
@@ -5672,6 +5708,24 @@
       "license_url": "https://cuencaendatos.cuenca.gob.ec/pages/terminos-de-uso",
       "api_verification_state": "documented_api_sample_policy_deferred_custom_terms_unresolved",
       "latest_checked_utc": "2026-10-16T20:20:02.166213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "edi",
+      "provider": "Environmental Data Initiative (University of New Mexico / University of Wisconsin–Madison)",
+      "service_name": "EDI PASTA+ data-package API and DataONE member interface",
+      "geographic_coverage": "United States/LTER and contributor-specific ecological study areas; other coverage unverified",
+      "topical_coverage": "climate/weather/environment; biodiversity; water; research",
+      "dataset_families": "Environmental/LTER data packages, EML/Dublin Core metadata, provenance, DOI/revisions and entity descriptors. Primary PASTA data/metadata access not verified in this batch.",
+      "documentation_url": "https://edirepository.org/resources/rest-api | https://pastaplus-core.readthedocs.io/en/latest/doc_tree/pasta_api/data_package_manager_api.html | https://edirepository.org/about/about-edi | https://cn.dataone.org/cn/v2/node",
+      "api_base_url": "https://pasta.lternet.edu/package/ | https://gmn.edirepository.org/mn/v2/",
+      "format_protocol": "Documented PASTA REST package/scopes/revisions/search/EML metadata; registry advertises DataONE member API. Samples returned403 or were policy-deferred, not successful data responses.",
+      "authentication": "Current anonymous PASTA scope-list and rows1 metadata search returned403; cause unknown, not assumed to require credentials. DataONE member capability request policy-deferred before target. No accounts/keys used.",
+      "free_access_restrictions": "Current API read conditions unresolved; public documentation recommends open access but EML access rules may deny reads by default. Contribution registration and write permissions are separate and unused.",
+      "license": "EDI permits contributor-selected restrictive terms; default may be CC0-1.0 if no rights declaration. Package-specific EML terms govern.",
+      "license_url": "https://edirepository.org/about/edi-policy | https://edirepository.org/resources/licensing-data | https://edirepository.org/resources/resources-for-data-authors",
+      "api_verification_state": "documented_pasta_samples_http403_and_member_capability_policy_deferred",
+      "latest_checked_utc": "2026-10-16T22:43:19.390112+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6194,6 +6248,24 @@
       "license_url": "https://www.knbs.or.ke/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.920267+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "knb",
+      "provider": "Knowledge Network for Biocomplexity / NCEAS",
+      "service_name": "KNB Data Repository DataONE/Metacat discovery and metadata API",
+      "geographic_coverage": "Dataset-specific study areas; United States-based ecological repository; geographic completeness unreviewed",
+      "topical_coverage": "climate/weather/environment; biodiversity; water; research",
+      "dataset_families": "Ecological/environmental/biocomplexity packages and public EML metadata. Metadata index also includes examples, tests, legacy objects and other document types, not only empirical datasets.",
+      "documentation_url": "https://knb.ecoinformatics.org/ | https://knb.ecoinformatics.org/knb/d1/mn/v2/query/solr | https://dataoneorg.github.io/api-documentation/apis/MN_APIs.html",
+      "api_base_url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/",
+      "format_protocol": "Observed capabilities/query-engine/schema XML, Solr JSON metadata queries and selected EML2.2 metadata object XML",
+      "authentication": "Anonymous capabilities, schema, public search and selected metadata-object read succeeded. Associated data access remains object-specific.",
+      "free_access_restrictions": "Tested public metadata reads required no payment or account. Current data reuse terms, write access and sustained service limits are not uniform/verified.",
+      "license": "Dataset/object-specific; no uniform scientific-data grant established. One CC-BY-4.0 annotation-example metadata object inspected.",
+      "license_url": "https://knb.ecoinformatics.org/knb/d1/mn/v2/object/jing.1736.1 | https://knb.ecoinformatics.org/",
+      "api_verification_state": "documented_capability_xml_public_query_json_and_example_eml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:46:22.160347+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
