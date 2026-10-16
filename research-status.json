@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T18:12:44.598885+00:00",
+  "published_at": "2026-10-16T18:14:46.837586+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:12:33.202335+00:00",
+  "research_updated_at": "2026-10-16T18:14:43.359772+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 93,
-    "candidates": 137,
+    "verified": 97,
+    "candidates": 135,
     "excluded": 8,
     "sample_successes": 131
   },
@@ -32,6 +32,7 @@
         "verified_provider_ids": [
           "datacommons",
           "geonames",
+          "unicef",
           "worldbank"
         ],
         "candidate_provider_ids": [
@@ -39,7 +40,6 @@
           "hdx",
           "ocha-hapi",
           "unhcr",
-          "unicef",
           "unsd",
           "wfp"
         ],
@@ -91,6 +91,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "datacommons",
+          "nasa-spdf-cdaweb",
+          "nasa-spdf-sscweb",
           "usgs-earthquake"
         ],
         "candidate_provider_ids": [
@@ -147,6 +149,7 @@
           "nih-mesh",
           "nih-pubmed",
           "pdb",
+          "unicef",
           "uniprot",
           "worldbank"
         ],
@@ -158,7 +161,6 @@
           "nih-clinicaltrials",
           "ocha-hapi",
           "openaq",
-          "unicef",
           "wfp"
         ],
         "restricted_provider_ids": [
@@ -172,11 +174,11 @@
           "openalex",
           "ror",
           "unesco",
+          "unicef",
           "worldbank"
         ],
         "candidate_provider_ids": [
-          "fsd-finland",
-          "unicef"
+          "fsd-finland"
         ],
         "restricted_provider_ids": []
       },
@@ -283,7 +285,9 @@
       "astronomy": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "gavo"
+          "gavo",
+          "nasa-spdf-cdaweb",
+          "nasa-spdf-sscweb"
         ],
         "candidate_provider_ids": [
           "esa-gaia",
@@ -323,6 +327,8 @@
           "datacite",
           "dryad",
           "gavo",
+          "nasa-spdf-cdaweb",
+          "nasa-spdf-sscweb",
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
@@ -1790,7 +1796,6 @@
           "abs"
         ],
         "candidate_provider_ids": [
-          "linz",
           "stats-nz"
         ],
         "restricted_provider_ids": []
@@ -1805,11 +1810,10 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "ala",
-          "australia"
-        ],
-        "candidate_provider_ids": [
+          "australia",
           "linz"
         ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
@@ -2434,7 +2438,7 @@
       "license": "ECCC Data Services End-use Licence heading2.1.1 (August2026); body versioning clause says2.1",
       "license_url": "https://eccc-msc.github.io/open-data/licence/readme_en/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T18:12:28.956644+00:00",
+      "latest_checked_utc": "2026-10-16T18:14:35.767506+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2578,7 +2582,7 @@
       "license": "Creative Commons Attribution (CC BY); data grant version unspecified on current export terms",
       "license_url": "https://www.geonames.org/export/",
       "api_verification_state": "documented_registered_username_required_untested",
-      "latest_checked_utc": "2026-10-16T18:12:29.036138+00:00",
+      "latest_checked_utc": "2026-10-16T18:14:35.843029+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2672,6 +2676,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "linz",
+      "provider": "Land Information New Zealand Data Service",
+      "service_name": "Land Information New Zealand Data Service API",
+      "geographic_coverage": "New Zealand",
+      "topical_coverage": "geospatial",
+      "dataset_families": "Verified licensed scope:NZ Coastlines and Islands Polygons (Topo1:50k),layer51153. Broader portal includes parcels,addresses,imagery and hydrography; rights not individually checked.",
+      "documentation_url": "https://www.linz.govt.nz/guidance/data-service/linz-data-service-guide/web-services",
+      "api_base_url": "https://data.linz.govt.nz/services/",
+      "format_protocol": "LDS APIs and OGC WFS/WMS/WMTS as documented; linked ArcGIS REST directory",
+      "authentication": "Official LDS docs require API key for any LDS web service/API; no key obtained. Basemaps is separate access system.",
+      "free_access_restrictions": "Layer page permits commercial reuse with attribution under CC BY4.0. API operational quotas/free tier not established by this layer licence.",
+      "license": "Creative Commons Attribution4.0 International for verified coastline layer",
+      "license_url": "https://data.linz.govt.nz/layer/51153-nz-coastlines-and-islands-polygons-topo-150k/",
+      "api_verification_state": "documented_key_required_untested_ancillary_sample_policy_restricted",
+      "latest_checked_utc": "2026-10-16T18:14:36.207308+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "malaysia",
       "provider": "Malaysian government OpenDOSM",
       "service_name": "Malaysian government OpenDOSM open data portal",
@@ -2741,6 +2763,42 @@
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:48:24.759406+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nasa-spdf-cdaweb",
+      "provider": "NASA Goddard Space Physics Data Facility (SPDF)",
+      "service_name": "Coordinated Data Analysis Web (CDAWeb) REST service",
+      "geographic_coverage": "Global/near-Earth and heliosphere; coverage depends on spacecraft and observation time",
+      "topical_coverage": "astronomy; research; climate/weather/environment",
+      "dataset_families": "Heliophysics spacecraft instrument datasets; plasma,magnetic fields,particles and solar wind; metadata/variables/time-range data retrieval",
+      "documentation_url": "https://cdaweb.gsfc.nasa.gov/WebServices/REST/",
+      "api_base_url": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/",
+      "format_protocol": "REST; XML/JSON content negotiation; Python/IDL/Java client interfaces documented",
+      "authentication": "Public documented read examples; protected/private dataviews may require authentication. No credentials used.",
+      "free_access_restrictions": "CC0 default for SPDF services unless otherwise noted; private/restricted third-party data excluded. Sample deferred by fetched robots policy.",
+      "license": "CC0/public-domain dedication unless otherwise noted",
+      "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html",
+      "api_verification_state": "documented_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T18:14:35.917665+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nasa-spdf-sscweb",
+      "provider": "NASA Goddard Space Physics Data Facility (SPDF)",
+      "service_name": "Satellite Situation Center (SSCWeb) REST service",
+      "geographic_coverage": "Global/near-Earth and heliosphere; coverage depends on spacecraft and observation time",
+      "topical_coverage": "astronomy; research; climate/weather/environment",
+      "dataset_families": "Spacecraft trajectories/orbits; geophysical regions; coordinate locations and magnetic-field mappings",
+      "documentation_url": "https://sscweb.gsfc.nasa.gov/WebServices/REST/",
+      "api_base_url": "https://sscweb.gsfc.nasa.gov/WS/sscr/2/",
+      "format_protocol": "REST; XML/JSON content negotiation; Python/IDL/Java client interfaces documented",
+      "authentication": "Public documented read examples; protected/private dataviews may require authentication. No credentials used.",
+      "free_access_restrictions": "CC0 default for SPDF services unless otherwise noted; private/restricted third-party data excluded. Sample deferred by fetched robots policy.",
+      "license": "CC0/public-domain dedication unless otherwise noted",
+      "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html",
+      "api_verification_state": "documented_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T18:14:35.990561+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3532,7 +3590,25 @@
       "license": "Creative Commons Attribution-ShareAlike4.0 International",
       "license_url": "https://databrowser.uis.unesco.org/terms-and-conditions",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T18:12:29.114172+00:00",
+      "latest_checked_utc": "2026-10-16T18:14:36.129743+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "unicef",
+      "provider": "UNICEF Data",
+      "service_name": "UNICEF Data API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "health; education; demographics",
+      "dataset_families": "Child health; nutrition; education; child protection SDMX",
+      "documentation_url": "https://data.unicef.org/sdmx-api-documentation/",
+      "api_base_url": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/",
+      "format_protocol": "SDMX; JSON/XML/CSV per official rights/API announcement; sampled SDMX JSON metadata",
+      "authentication": "none for tested public SDMX dataflow metadata",
+      "free_access_restrictions": "Public warehouse metadata read succeeded without key; official announcement describes open data/API delivery. Follow data-level source/attribution terms; survey microdata/private records not included.",
+      "license": "Creative Commons Attribution3.0 IGO for comparable statistical indicators",
+      "license_url": "https://data.unicef.org/data-for-action/unicef-indicators-on-the-state-of-children-and-women-now-100-percent-open-data-compliant/",
+      "api_verification_state": "documented_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T18:14:36.279796+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4705,24 +4781,6 @@
       "license_url": "https://www.data.go.kr/en/ugs/selectPortalPolicyView.do",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:54.513317+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "linz",
-      "provider": "Land Information New Zealand Data Service",
-      "service_name": "Land Information New Zealand Data Service API",
-      "geographic_coverage": "New Zealand",
-      "topical_coverage": "geospatial; housing",
-      "dataset_families": "Topography; parcels; addresses; imagery; hydrography",
-      "documentation_url": "https://www.linz.govt.nz/products-services/data/types-linz-data",
-      "api_base_url": "https://data.linz.govt.nz/services/",
-      "format_protocol": "REST/JSON",
-      "authentication": "key required for many services",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.linz.govt.nz/copyright",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:34:22.899568+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6004,24 +6062,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "unicef",
-      "provider": "UNICEF Data",
-      "service_name": "UNICEF Data API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "health; education; demographics",
-      "dataset_families": "Child health; nutrition; education; child protection SDMX",
-      "documentation_url": "https://data.unicef.org/sdmx-api-documentation/",
-      "api_base_url": "https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "Dataset-specific CC BY 3.0 IGO statements found; matching API series still needs confirmation",
-      "license_url": "https://data.unicef.org/legal/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:56:23.001607+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "unsd",
       "provider": "UN Statistics Division",
       "service_name": "UN Statistics Division API",
@@ -6164,7 +6204,7 @@
       "license": "Custom Copernicus Marine licence; reuse/adaptation/redistribution allowed, additional descending-licence usage-record obligations",
       "license_url": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
       "api_verification_state": "documented_metadata_sample_success_xml",
-      "latest_checked_utc": "2026-10-16T18:12:29.194777+00:00",
+      "latest_checked_utc": "2026-10-16T18:14:36.353635+00:00",
       "classification": "restricted"
     },
     {
