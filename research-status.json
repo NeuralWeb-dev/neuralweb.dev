@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T17:21:43.705039+00:00",
+  "published_at": "2026-10-16T17:23:46.093761+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:20:47.242508+00:00",
+  "research_updated_at": "2026-10-16T17:22:45.930433+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 77,
-    "candidates": 149,
+    "verified": 79,
+    "candidates": 147,
     "excluded": 4,
     "sample_successes": 123
   },
@@ -715,7 +715,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "denmark-statbank",
           "eurostat",
+          "ons",
           "registry-opendata-fr-ch",
           "registry-opendata-gov-je",
           "scb",
@@ -723,12 +725,10 @@
           "statfin"
         ],
         "candidate_provider_ids": [
-          "denmark-statbank",
           "destatis",
           "fsd-finland",
           "ine-spain",
           "insee",
-          "ons",
           "russia",
           "stat-portugal"
         ],
@@ -738,18 +738,18 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "denmark-statbank",
           "ecb",
           "eurostat",
+          "ons",
           "scb",
           "ssb",
           "statfin"
         ],
         "candidate_provider_ids": [
-          "denmark-statbank",
           "destatis",
           "ine-spain",
           "insee",
-          "ons",
           "russia",
           "stat-portugal"
         ],
@@ -759,17 +759,17 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "denmark-statbank",
           "eurostat",
+          "ons",
           "registry-opendata-gov-je",
           "scb",
           "ssb",
           "statfin"
         ],
         "candidate_provider_ids": [
-          "denmark-statbank",
           "destatis",
           "ine-spain",
-          "ons",
           "russia",
           "stat-portugal"
         ],
@@ -834,13 +834,12 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "denmark-statbank",
           "scb",
           "ssb",
           "statfin"
         ],
-        "candidate_provider_ids": [
-          "denmark-statbank"
-        ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "transportation": {
@@ -2280,6 +2279,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "denmark-statbank",
+      "provider": "Statistics Denmark",
+      "service_name": "Statistics Denmark API",
+      "geographic_coverage": "Denmark",
+      "topical_coverage": "demographics; economics/finance; labor; housing",
+      "dataset_families": "StatBank tables; population; economy",
+      "documentation_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+      "api_base_url": "https://api.statbank.dk/v1/",
+      "format_protocol": "REST; JSON/XML metadata; CSV/PX/streaming BULK and SDMX data formats documented",
+      "authentication": "none for public read",
+      "free_access_restrictions": "StatBank statistical API data free to use; separately priced StatHost/customized services outside scope",
+      "license": "CC BY 4.0 (official API documentation identifies commercial/noncommercial reuse with source attribution)",
+      "license_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:22:43.447718+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "dryad",
       "provider": "Dryad",
       "service_name": "Dryad public API",
@@ -2655,6 +2672,24 @@
       "license_url": "https://www.obis.org/data/datapolicy/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.359839+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ons",
+      "provider": "UK Office for National Statistics",
+      "service_name": "UK Office for National Statistics open data portal",
+      "geographic_coverage": "United Kingdom",
+      "topical_coverage": "demographics; economics/finance; labor",
+      "dataset_families": "Population; economy; prices; statistical datasets",
+      "documentation_url": "https://developer.ons.gov.uk/",
+      "api_base_url": "https://api.beta.ons.gov.uk/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none; Developer Hub explicitly says no API keys required",
+      "free_access_restrictions": "Open unrestricted public API; beta service may make breaking changes; rate/bot policies apply",
+      "license": "Open Government Licence v3.0 except where otherwise stated",
+      "license_url": "https://www.ons.gov.uk/methodology/geography/licences",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:22:43.475195+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3830,24 +3865,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "denmark-statbank",
-      "provider": "Statistics Denmark",
-      "service_name": "Statistics Denmark API",
-      "geographic_coverage": "Denmark",
-      "topical_coverage": "demographics; economics/finance; labor; housing",
-      "dataset_families": "StatBank tables; population; economy",
-      "documentation_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
-      "api_base_url": "https://api.statbank.dk/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.dst.dk/en/Statistik/brug-statistikken/ophavsret",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:34:09.509349+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "destatis",
       "provider": "Federal Statistical Office Germany GENESIS",
       "service_name": "Federal Statistical Office Germany GENESIS API",
@@ -4820,24 +4837,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "ons",
-      "provider": "UK Office for National Statistics",
-      "service_name": "UK Office for National Statistics open data portal",
-      "geographic_coverage": "United Kingdom",
-      "topical_coverage": "demographics; economics/finance; labor",
-      "dataset_families": "Population; economy; prices; statistical datasets",
-      "documentation_url": "https://developer.ons.gov.uk/",
-      "api_base_url": "https://api.beta.ons.gov.uk/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.ons.gov.uk/methodology/geography/licences",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:26:32.664009+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "open-contracting",
       "provider": "Open Contracting Partnership Data Registry",
       "service_name": "Open Contracting Partnership Data Registry API",
@@ -5672,15 +5671,15 @@
       "geographic_coverage": "New Zealand",
       "topical_coverage": "demographics; economics/finance; labor; housing",
       "dataset_families": "Aotearoa statistical indicators; Infoshare tables",
-      "documentation_url": "https://www.stats.govt.nz/itp/",
+      "documentation_url": "https://portal.apis.stats.govt.nz/api-guide",
       "api_base_url": "https://api.stats.govt.nz/",
       "format_protocol": "REST/JSON",
-      "authentication": "key required; free registration",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.stats.govt.nz/about-us/copyright/",
+      "authentication": "Registration, service subscription and Ocp-Apim-Subscription-Key header required",
+      "free_access_restrictions": "API sign-up/subscription documented; exact free API tier/caps not yet confirmed; public ADE browser tool documented free",
+      "license": "CC BY 4.0 explicitly for content available through the Stats NZ API Portal",
+      "license_url": "https://portal.apis.stats.govt.nz/terms",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:34:06.238738+00:00",
+      "latest_checked_utc": "2026-10-16T17:22:43.502228+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
