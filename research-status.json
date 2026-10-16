@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T23:43:16.613366+00:00",
+  "published_at": "2026-10-16T23:45:19.304880+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:41:09.049060+00:00",
+  "research_updated_at": "2026-10-16T23:45:08.433094+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CentralAsia3services:KazakhstanOGD+Kyrgyznational candidates,KyrgyzNSC JSON/XMLsuccess butCCBYNCSA4excluded;Cyprus2sortorders196pagescomplete/1935pathunion;Tajik417HTMLdescriptors(APIunproved);explicitCentralAsia matrixgaps;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 148,
-    "candidates": 191,
+    "candidates": 193,
     "excluded": 25,
-    "sample_successes": 183
+    "sample_successes": 185
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5594,6 +5594,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "armenia-statbank",
+      "provider": "Statistical Committee of the Republic of Armenia / Armstat",
+      "service_name": "Official statistics ArmStatBank PxWeb API",
+      "geographic_coverage": "Asia; Armenia; South Caucasus",
+      "topical_coverage": "demographics; economics/finance; labor; health; education; climate/weather/environment",
+      "dataset_families": "ArmStatBank statistical database; root JSON database descriptor confirmed. Individual table and observation coverage not yet enumerated.",
+      "documentation_url": "https://statbank.armstat.am/pxweb/hy/",
+      "api_base_url": "https://statbank.armstat.am/api/v1/en/",
+      "format_protocol": "HTTPS GET; observed valid JSON metadata; observation query untested",
+      "authentication": "Selected anonymous metadata GET returned200 without credentials; other operations untested",
+      "free_access_restrictions": "Selected public metadata retrieved without account/payment; broader tier conditions unknown",
+      "license": "unknown; public endpoint and government ownership do not establish reuse grant",
+      "license_url": "https://statbank.armstat.am/pxweb/hy/",
+      "api_verification_state": "structured_metadata_sample_success_data_license_unconfirmed",
+      "latest_checked_utc": "2026-10-16T23:43:59.425658+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "artic",
       "provider": "Art Institute of Chicago",
       "service_name": "Art Institute of Chicago public data API",
@@ -6887,6 +6905,24 @@
       "license_url": "https://data.gov.kg/",
       "api_verification_state": "portal_documented_standard_CKAN_API_candidate_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T23:30:56.354739+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "latvia-statistics",
+      "provider": "Central Statistical Bureau of Latvia",
+      "service_name": "Official statistics PxWebApi v2",
+      "geographic_coverage": "Europe; Latvia",
+      "topical_coverage": "demographics; economics/finance; labor; health; education; climate/weather/environment",
+      "dataset_families": "Official public statistics; selected IRS010 population, population change and vital statistics 1920-2026; first English listing reports1551 tables, not independently audited total.",
+      "documentation_url": "https://api.stat.gov.lv/api/v2/swagger/v2/swagger.json",
+      "api_base_url": "https://api.stat.gov.lv/api/v2/",
+      "format_protocol": "HTTPS GET; observed valid JSON metadata; observation query untested",
+      "authentication": "Selected anonymous metadata GET returned200 without credentials; other operations untested",
+      "free_access_restrictions": "Selected public metadata retrieved without account/payment; broader tier conditions unknown",
+      "license": "Unconfirmed scope: API configuration points to CC0; separate official MCP documentation advertises CC BY4.0",
+      "license_url": "https://api.stat.gov.lv/api/v2/config",
+      "api_verification_state": "structured_metadata_sample_success_data_license_unconfirmed",
+      "latest_checked_utc": "2026-10-16T23:44:05.560032+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
