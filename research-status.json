@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-16T20:13:06.777345+00:00",
+  "published_at": "2026-10-16T20:15:09.014605+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:12:08.989112+00:00",
+  "research_updated_at": "2026-10-16T20:14:24.632516+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Manual license/access reviews applied",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 118,
-    "candidates": 145,
-    "excluded": 17,
+    "candidates": 148,
+    "excluded": 18,
     "sample_successes": 144
   },
   "remaining_work": [
@@ -5427,6 +5427,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mbie-geodata",
+      "provider": "New Zealand Petroleum & Minerals / MBIE",
+      "service_name": "Geodata Catalogue Search API",
+      "geographic_coverage": "New Zealand",
+      "topical_coverage": "geospatial | energy | environment",
+      "dataset_families": "Geoscience datasets, reports, surveys, boreholes and associated resource metadata",
+      "documentation_url": "https://portal.api.business.govt.nz/api/gdcsearch",
+      "api_base_url": "",
+      "format_protocol": "HTTP API documented; exact response schema not tested",
+      "authentication": "Approved product subscription and API key required; optional OAuth2 bearer token. No account/key acquired.",
+      "free_access_restrictions": "API subscription approval required; free tier/pricing for retrieval unknown. No paid acquisition.",
+      "license": "Custom Crown copyright permission for website material; API/resource grant unresolved",
+      "license_url": "https://www.nzpam.govt.nz/maps-geoscience/geodata-catalogue/ | https://www.nzpam.govt.nz/about/copyright",
+      "api_verification_state": "documented_key_required_untested_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-16T20:12:38.159985+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nasa-api",
       "provider": "NASA Open APIs",
       "service_name": "NASA Open APIs API",
@@ -5693,7 +5711,7 @@
       "license": "Per-datasetlicense,includingmetadata;noverifiedcatalogwidegrant",
       "license_url": "https://data.govt.nz/catalogue-guide/using-data-govt-nz-apis/about-data-govt-nz-apis",
       "api_verification_state": "documented_api_current_sample_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T20:11:50.063319+00:00",
+      "latest_checked_utc": "2026-10-16T20:12:43.966407+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5730,6 +5748,42 @@
       "license_url": "https://support.api.business.govt.nz/s/article/terms-and-conditions",
       "api_verification_state": "documented_key_required_untested_rights_price_unconfirmed",
       "latest_checked_utc": "2026-10-16T20:04:57.448496+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nz-disqualified-directors",
+      "provider": "New Zealand Companies Office / MBIE",
+      "service_name": "Companies Disqualified Director Search API",
+      "geographic_coverage": "New Zealand",
+      "topical_coverage": "companies/nonprofits | law/civic data",
+      "dataset_families": "Name-based search of banned directors and prohibited company managers",
+      "documentation_url": "https://portal.api.business.govt.nz/api/companies-disqualified-director-search",
+      "api_base_url": "",
+      "format_protocol": "HTTP API documented; JSON/XML REST documented",
+      "authentication": "Approved product subscription and API key required; optional OAuth2 bearer token. No account/key acquired.",
+      "free_access_restrictions": "API subscription approval required; free tier/pricing for retrieval unknown. No paid acquisition.",
+      "license": "unknown for API-returned register data",
+      "license_url": "https://portal.api.business.govt.nz/api/companies-disqualified-director-search",
+      "api_verification_state": "documented_key_required_untested_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-16T20:11:48.970705+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nz-iponz",
+      "provider": "Intellectual Property Office of New Zealand / MBIE",
+      "service_name": "IPONZ API",
+      "geographic_coverage": "New Zealand",
+      "topical_coverage": "research | companies/nonprofits | law/civic data",
+      "dataset_families": "Patent, trademark and design bibliographic records/documents, trademark search; separate filing/renewal/client operations",
+      "documentation_url": "https://portal.api.business.govt.nz/api/iponz",
+      "api_base_url": "",
+      "format_protocol": "HTTP API documented; SOAP and REST, JSON and XML operations",
+      "authentication": "Approved product subscription and API key required; optional OAuth2 bearer token. No account/key acquired.",
+      "free_access_restrictions": "API subscription approval required; free tier/pricing for retrieval unknown. No paid acquisition.",
+      "license": "unknown for returned IP register records and third-party documents",
+      "license_url": "https://portal.api.business.govt.nz/api/iponz",
+      "api_verification_state": "documented_key_required_untested_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-16T20:12:43.966407+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7118,6 +7172,24 @@
       "license_url": "https://www.inaturalist.org/pages/terms",
       "api_verification_state": "historical_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T18:20:03.673810+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nz-lbp",
+      "provider": "New Zealand MBIE Licensed Building Practitioners",
+      "service_name": "Licensed Building Practitioners API",
+      "geographic_coverage": "New Zealand",
+      "topical_coverage": "housing | labor | law/civic data",
+      "dataset_families": "Licensed designers, carpenters, brick/blocklayers, roofers, plasterers and other building practitioners",
+      "documentation_url": "https://portal.api.business.govt.nz/api/lbp",
+      "api_base_url": "",
+      "format_protocol": "HTTP API documented; exact response schema not tested",
+      "authentication": "Approved product subscription and API key required; optional OAuth2 bearer token. No account/key acquired.",
+      "free_access_restrictions": "API subscription approval required; free tier/pricing for retrieval unknown. No paid acquisition.",
+      "license": "Official API documentation states register information cannot be used for other purposes under section307",
+      "license_url": "https://portal.api.business.govt.nz/api/lbp",
+      "api_verification_state": "documented_key_required_untested_restricted_purpose",
+      "latest_checked_utc": "2026-10-16T20:12:41.654975+00:00",
       "classification": "restricted"
     },
     {
