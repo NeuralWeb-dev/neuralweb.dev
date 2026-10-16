@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T23:57:33.969135+00:00",
+  "published_at": "2026-10-16T23:59:36.581014+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:56:46.690833+00:00",
+  "research_updated_at": "2026-10-16T23:59:01.572221+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Baltic/Caucasus3scopedopen services;Jordan+legacyLithuaniaSDMXcandidates;GCC37dataset/184distributionJSONmetadata restrictedconditionalreuse;3native metadataworkers resumable;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "GASTAT originalstatisticalAPI candidate;key/endpoint/rights scope unresolved",
   "counts": {
     "verified": 151,
-    "candidates": 195,
+    "candidates": 196,
     "excluded": 26,
     "sample_successes": 189
   },
@@ -8554,6 +8554,24 @@
       "license_url": "https://open.data.gov.sa/en/pages/terms-of-use",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:28:05.991008+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "saudi-statistics",
+      "provider": "General Authority for Statistics / GASTAT, Saudi Arabia",
+      "service_name": "GASTAT statistical API developer service",
+      "geographic_coverage": "Middle East; Saudi Arabia",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; energy; climate/weather/environment; health; education; housing",
+      "dataset_families": "Official developer documentation describes open statistical datasets,indicators,products. Current individualAPIproductscope/families not enumerated. Statistical webdatabase is separate from nationalOGD portal.",
+      "documentation_url": "https://dp.stats.gov.sa/?locale=en",
+      "api_base_url": "",
+      "format_protocol": "API service documented in official indexed developer page;actualprotocol/format/schema unknown. Direct developerroot returnsHTMLapplicationshell,notAPIresponse.",
+      "authentication": "Officialindexeddeveloperinstructions requirecreatingapplication/authenticationkey. Noaccount/app/keycreation,credentialinspection orauthenticated/missingkey probe.",
+      "free_access_restrictions": "API existence documented,free-tier/productterms/cost/quota unconfirmed. No paidsubscription/dataacquisition. Publicwebsite reuse permission is separatefrom APIaccess.",
+      "license": "Main GASTAT website custom any-purpose/commercial reuse permission;API-product applicability unresolved",
+      "license_url": "https://stats.gov.sa/en/use-policy",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T23:59:01.484355+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
