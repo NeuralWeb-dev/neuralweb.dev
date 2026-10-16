@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T18:10:42.312021+00:00",
+  "published_at": "2026-10-16T18:12:44.598885+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:10:13.373950+00:00",
+  "research_updated_at": "2026-10-16T18:12:33.202335+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 92,
-    "candidates": 138,
+    "verified": 93,
+    "candidates": 137,
     "excluded": 8,
-    "sample_successes": 130
+    "sample_successes": 131
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -171,11 +171,11 @@
           "oecd",
           "openalex",
           "ror",
+          "unesco",
           "worldbank"
         ],
         "candidate_provider_ids": [
           "fsd-finland",
-          "unesco",
           "unicef"
         ],
         "restricted_provider_ids": []
@@ -298,6 +298,7 @@
           "artic",
           "metmuseum",
           "opencontext",
+          "unesco",
           "wikidata",
           "worldbank"
         ],
@@ -308,7 +309,6 @@
           "ocha-hapi",
           "perspectivia",
           "smithsonian",
-          "unesco",
           "wfp"
         ],
         "restricted_provider_ids": [
@@ -332,6 +332,7 @@
           "pdb",
           "re3data",
           "ror",
+          "unesco",
           "uniprot",
           "wikidata",
           "zenodo"
@@ -349,8 +350,7 @@
           "nims-mdr",
           "pangaea",
           "perspectivia",
-          "smithsonian",
-          "unesco"
+          "smithsonian"
         ],
         "restricted_provider_ids": [
           "copernicus-marine",
@@ -2434,7 +2434,7 @@
       "license": "ECCC Data Services End-use Licence heading2.1.1 (August2026); body versioning clause says2.1",
       "license_url": "https://eccc-msc.github.io/open-data/licence/readme_en/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T18:10:06.683022+00:00",
+      "latest_checked_utc": "2026-10-16T18:12:28.956644+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2578,7 +2578,7 @@
       "license": "Creative Commons Attribution (CC BY); data grant version unspecified on current export terms",
       "license_url": "https://www.geonames.org/export/",
       "api_verification_state": "documented_registered_username_required_untested",
-      "latest_checked_utc": "2026-10-16T18:10:06.752424+00:00",
+      "latest_checked_utc": "2026-10-16T18:12:29.036138+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3515,6 +3515,24 @@
       "license_url": "https://fiscaldata.treasury.gov/about-us/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.945711+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "unesco",
+      "provider": "UNESCO Institute for Statistics",
+      "service_name": "UNESCO Institute for Statistics API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "education; research; culture",
+      "dataset_families": "Education and SDG4; science/technology/innovation; culture; demographic/socioeconomic indicators.5063 indicator definitions in sampled complete listing.",
+      "documentation_url": "https://api.uis.unesco.org/api/public/documentation/",
+      "api_base_url": "https://api.uis.unesco.org/api/public/",
+      "format_protocol": "REST/JSON; documented CSV exports",
+      "authentication": "none for tested public version,indicator-data and indicator-definition reads; OpenAPI has no global security requirement",
+      "free_access_restrictions": "Sharing/reproduction without charge or further permission unless otherwise specified per Data Browser terms. No credentials used or acquired.",
+      "license": "Creative Commons Attribution-ShareAlike4.0 International",
+      "license_url": "https://databrowser.uis.unesco.org/terms-and-conditions",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T18:12:29.114172+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5968,24 +5986,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "unesco",
-      "provider": "UNESCO Institute for Statistics",
-      "service_name": "UNESCO Institute for Statistics API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "education; research; culture",
-      "dataset_families": "UIS education; science; culture indicators",
-      "documentation_url": "https://databrowser.uis.unesco.org/",
-      "api_base_url": "https://api.uis.unesco.org/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown; UIS statistical API-specific reuse terms unresolved",
-      "license_url": "https://www.unesco.org/en/open-access",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:56:22.993539+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "unhcr",
       "provider": "UNHCR Refugee Statistics",
       "service_name": "UNHCR Refugee Statistics open data API",
@@ -6164,7 +6164,7 @@
       "license": "Custom Copernicus Marine licence; reuse/adaptation/redistribution allowed, additional descending-licence usage-record obligations",
       "license_url": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
       "api_verification_state": "documented_metadata_sample_success_xml",
-      "latest_checked_utc": "2026-10-16T18:10:06.822928+00:00",
+      "latest_checked_utc": "2026-10-16T18:12:29.194777+00:00",
       "classification": "restricted"
     },
     {
