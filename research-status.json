@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T22:33:53.917535+00:00",
+  "published_at": "2026-10-16T22:35:56.086579+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:30:54.246913+00:00",
+  "research_updated_at": "2026-10-16T22:35:51.167905+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AfricanstatisticalAPIguides andlicence/accessscopechecks",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 137,
     "candidates": 174,
     "excluded": 24,
-    "sample_successes": 160
+    "sample_successes": 163
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -35,7 +35,10 @@
           "geonames",
           "unhcr-portal",
           "unicef",
-          "worldbank"
+          "worldbank",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
           "fsd-finland",
@@ -43,7 +46,8 @@
           "ocha-hapi",
           "unhcr",
           "unsd",
-          "wfp"
+          "wfp",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": []
       },
@@ -235,12 +239,16 @@
           "osm",
           "usgs-earthquake",
           "wikidata",
-          "worldbank-catalog"
+          "worldbank-catalog",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
           "copernicus-stac",
           "nsidc",
-          "planetary-computer"
+          "planetary-computer",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": []
       },
@@ -874,7 +882,10 @@
           "serbia-data",
           "slovenia-statistics",
           "ssb",
-          "statfin"
+          "statfin",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -882,7 +893,8 @@
           "insee",
           "russia",
           "serbia-rzs",
-          "stat-portugal"
+          "stat-portugal",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": []
       },
@@ -1109,10 +1121,14 @@
           "registry-daten-sg-ch",
           "registry-europeandataportal-eu",
           "transportapi-fi",
-          "uk-police"
+          "uk-police",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
-          "poland-gus-teryt"
+          "poland-gus-teryt",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": [
           "registry-data-bs-ch"
@@ -1424,12 +1440,16 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "rwanda"
+          "rwanda",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
           "ghana",
           "kenya-knbs",
-          "south-africa-statssa"
+          "south-africa-statssa",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": []
       },
@@ -1532,10 +1552,14 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "digitalearth-africa"
+          "digitalearth-africa",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
-          "sanbi-birdie"
+          "sanbi-birdie",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": []
       },
@@ -2161,14 +2185,18 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "abs"
+          "abs",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
           "adb",
           "pacific-data",
           "pacific-stat",
           "stats-nz",
-          "stats-nz-geographic"
+          "stats-nz-geographic",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": []
       },
@@ -2285,11 +2313,15 @@
         "verified_provider_ids": [
           "ala",
           "australia",
-          "linz"
+          "linz",
+          "worldpop-geo",
+          "worldpop-rest",
+          "worldpop-stac"
         ],
         "candidate_provider_ids": [
           "mbie-geodata",
-          "stats-nz-geographic"
+          "stats-nz-geographic",
+          "worldpop-wopr"
         ],
         "restricted_provider_ids": []
       },
@@ -4089,7 +4121,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T22:18:25.778740+00:00",
+      "latest_checked_utc": "2026-10-16T22:35:30.056328+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4943,17 +4975,17 @@
       "provider": "WorldPop, University of Southampton and dataset-specific partners",
       "service_name": "WorldPop Geospatial analysis API v1/v2",
       "geographic_coverage": "Global;country/territory/project-specificcoverage;Africa,Asia,Americas,Europe,Oceania;not all datasets worldwide",
-      "topical_coverage": "demographics; geospatial; health; education",
+      "topical_coverage": "demographics; geospatial",
       "dataset_families": "v1metadata:wpgppop/wpgpas2000-2020;v2Global2populationandage-sexpolygonaggregations2015-2030,asynchronousjobs/resultinterfaces. Noanalysiscomputed.",
-      "documentation_url": "https://api.worldpop.org/v2/ | https://api.worldpop.org/v2/docs | https://api.worldpop.org/v2/openapi.json | https://www.worldpop.org/sdi/advancedapi/",
+      "documentation_url": "https://api.worldpop.org/v2/ | https://api.worldpop.org/v2/docs | https://api.worldpop.org/v2/openapi.json | https://www.worldpop.org/sdi/advancedapi/ | https://api.worldpop.org/v2/assets/index-C64vQCOw.js",
       "api_base_url": "https://api.worldpop.org/v1/ | https://api.worldpop.org/v2/",
       "format_protocol": "v1servicesGETJSON200;v2healthGETJSON200/OpenAPI3.1schema;v2JSONPOSTpopulation/agesexthenGETtask/results;legacyformcompatibilitydocumented",
       "authentication": "v2publicfrontenddocumentsnoauthneededforbaseAPI;anonymousv1metadata/v2healthsucceeded. Analysisjobsuntested;approvedkeysoptionalforhigherlimits.",
       "free_access_restrictions": "AnonymousbaseAPIlimitsdocumented;noaccounts/keys/payment/analysisjobs. Higherapprovedkey/customquotaaccessdescribed,pricingunknown.",
       "license": "CC-BY-4.0 service specification and explicitWorldPopdata grant;scopeWorldPopCCBY4demographicoutputs",
       "license_url": "https://api.worldpop.org/v2/openapi.json | https://hub.worldpop.org/data/licence.txt | https://hub.worldpop.org/geodata/summary?id=75901",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:29:37.383155+00:00",
+      "api_verification_state": "documented_v1_metadata_v2_health_sample_success_analysis_untested",
+      "latest_checked_utc": "2026-10-16T22:27:15.469734+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4961,7 +4993,7 @@
       "provider": "WorldPop, University of Southampton and dataset-specific partners",
       "service_name": "WorldPop REST data repository catalog API",
       "geographic_coverage": "Global;country/territory/project-specificcoverage;Africa,Asia,Americas,Europe,Oceania;not all datasets worldwide",
-      "topical_coverage": "demographics; geospatial; health; education",
+      "topical_coverage": "demographics; geospatial",
       "dataset_families": "18familyaliases:population,births,pregnancies,age-sex,development/dependency,migration,urban/dynamicchange,flightdata,covariates,settlementgrowth,gridareas,adminareas,density,futurepopulation,degreeurbanisation. Verifiedopendatascope:SGP2000-2020UN-adjustedpopulation21metadatarecords.",
       "documentation_url": "https://www.worldpop.org/sdi/introapi/ | https://www.worldpop.org/sdi/api_rate_limits/",
       "api_base_url": "https://www.worldpop.org/rest/data",
@@ -4970,8 +5002,8 @@
       "free_access_restrictions": "Documentedanonymous1000calls/day;largerregisteredAPIkeyapprovalpossible,notacquired;actualhigher-tierpricingunknown",
       "license": "CC-BY-4.0 forreviewed21SGPpopulationdatasets;otherfamiliesdataset-specific/ODbLexceptionsunreviewed",
       "license_url": "https://hub.worldpop.org/data/licence.txt | https://hub.worldpop.org/geodata/summary?id=28798",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:29:37.247234+00:00",
+      "api_verification_state": "documented_repository_catalog_and_selected_dataset_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T22:26:49.093624+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4979,7 +5011,7 @@
       "provider": "WorldPop, University of Southampton and dataset-specific partners",
       "service_name": "WorldPop STAC catalog and item-search API",
       "geographic_coverage": "Global;country/territory/project-specificcoverage;Africa,Asia,Americas,Europe,Oceania;not all datasets worldwide",
-      "topical_coverage": "demographics; geospatial; health; education",
+      "topical_coverage": "demographics; geospatial",
       "dataset_families": "Top-level248country/territorycollections;population,age-sexstructures,degreeofurbanisation;Global2modelled2015-2030products. Notoriginalcensusmicrodata;notallcovariatesrightsverified.",
       "documentation_url": "https://api.stac.worldpop.org/api | https://api.stac.worldpop.org/ | https://stac.worldpop.org/config.js",
       "api_base_url": "https://api.stac.worldpop.org/",
@@ -4988,8 +5020,8 @@
       "free_access_restrictions": "ReadmetadataGETsrequire noaccount/key/payment;numericSTACquotas/serviceSLAunknown. LegacyRESTorGeoAPIquotasnottransferred.",
       "license": "CC-BY-4.0 declared by248STACcollections;publisherCCBY4data grant reviewed;ODbLexceptionsforselectedderivedinputs",
       "license_url": "https://api.stac.worldpop.org/collections | https://hub.worldpop.org/geodata/summary?id=75901+%7C+https%3A%2F%2Fhub.worldpop.org%2Fdata%2Flicence.txt",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:29:37.100132+00:00",
+      "api_verification_state": "documented_stac_collection_and_item_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T22:26:49.093624+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6250,8 +6282,8 @@
       "free_access_restrictions": "2017policyrawonlineopendatafree;processeddata mayhavemarginalcosts. CurrentAPIcost/limits/registrationunconfirmed;noacquisition/payment.",
       "license": "2017NationalOpenDataPolicyadoptsCC-BY-4.0forreleasedgovernmentopendata;currentdataset-specificCC-BY-SA-4.0/ODCBydeclarationsindexed;fullportalgrantunconfirmed",
       "license_url": "https://bot.govmu.org/Documents/Strategies/Mauritius%20Open%20Data%20Policy%20May%202017.pdf | https://data.govmu.org/dataset/number-driving-licence-issued-year-and-type-licence | https://data.govmu.org/dataset/?license_id=odc-by&sort=views_recent+desc",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:30:54.173543+00:00",
+      "api_verification_state": "documented_indexed_datastore_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T22:30:02.005693+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7809,15 +7841,15 @@
       "geographic_coverage": "Tanzania;MainlandandZanzibar;national,subnational,regions,districts,councils,constituencies/wardsdocumented",
       "topical_coverage": "demographics; housing; geospatial",
       "dataset_families": "Censuskeydemographic/socioeconomicindicators;sectors/subsectors/indicators/subgroups/areas/indicatorvalues. Introductionadvertisesalmost1000indicators,notenumerated. Documentedyearfilters1967,1978,2012,2022.",
-      "documentation_url": "https://sensa.nbs.go.tz/data-sharing/introduction.md | https://sensa.nbs.go.tz/data-sharing/api-basics.md | https://sensa.nbs.go.tz/data-sharing/area.md | https://sensa.nbs.go.tz/data-sharing/indicator-values.md | https://sensa.nbs.go.tz/",
+      "documentation_url": "https://sensa.nbs.go.tz/data-sharing/introduction.md | https://sensa.nbs.go.tz/data-sharing/api-basics.md | https://sensa.nbs.go.tz/data-sharing/sectors.md | https://sensa.nbs.go.tz/data-sharing/sub-sectors.md | https://sensa.nbs.go.tz/data-sharing/indicators.md | https://sensa.nbs.go.tz/data-sharing/sub-groups.md | https://sensa.nbs.go.tz/data-sharing/area.md | https://sensa.nbs.go.tz/data-sharing/indicator-values.md | https://sensa.nbs.go.tz/",
       "api_base_url": "https://tisp.nbs.go.tz:8000/census/",
       "format_protocol": "RESTJSONdefault/HTMLdocumented;6endpointfamilieswithcomma-separatedfilters;actualAPIresponseuntested",
       "authentication": "Guideauthenticationrequirementunknown;sampledeferredbyrobotsbeforetarget,noaccount/keyused",
       "free_access_restrictions": "Public8guidefiles200;NBSdatagrantroyalty-free,butactualAPIservicepermissions/charges/SLAunknown",
       "license": "NBS customLicenceAgreementreviewed;currentCensusAPIjointsource/authorizeduserapplicabilityunresolved",
       "license_url": "https://www.nbs.go.tz/nbs/takwimu/references/Licence-Agreement-NBS.pdf | https://www.nbs.go.tz/nbs/takwimu/references/Terms-and-Conditions.pdf",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:30:54.005153+00:00",
+      "api_verification_state": "documented_eight_guides_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T22:27:55.708941+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8113,7 +8145,7 @@
       "provider": "WorldPop, University of Southampton and dataset-specific partners",
       "service_name": "WorldPop Open Population Repository (WOPR) catalog and spatial-query APIs",
       "geographic_coverage": "Global;country/territory/project-specificcoverage;Africa,Asia,Americas,Europe,Oceania;not all datasets worldwide",
-      "topical_coverage": "demographics; geospatial; health; education",
+      "topical_coverage": "demographics; geospatial",
       "dataset_families": "Country/category/version/filetypepopulationreleases,point/polygonpopulationandage-sexquerieswithuncertaintydistributions. SelectedBFA2019v1releaseCCBY4,otherreleasesunreviewed.",
       "documentation_url": "https://apps.worldpop.org/woprVision/woprAPI.html",
       "api_base_url": "https://wopr.worldpop.org/api/v1.0/ | https://api.worldpop.org/v1/wopr/",
@@ -8122,8 +8154,8 @@
       "free_access_restrictions": "Currentfree/APIserviceconditionsunknown;documentationpublic200,notguaranteedruntime/access",
       "license": "Dataset-specific;BFA2019v1.0releaseexplicitCC-BY-4.0;wholeWOPR/APIreleaseeligibilityunconfirmed",
       "license_url": "https://data.worldpop.org/repo/wopr/BFA/population/v1.0/BFA_population_v1_0_README.pdf",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:29:37.520692+00:00",
+      "api_verification_state": "documented_wopr_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T22:26:49.728975+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
