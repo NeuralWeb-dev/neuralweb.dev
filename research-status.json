@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T21:34:43.929891+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-16T21:36:46.491529+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:34:40.240941+00:00",
+  "research_updated_at": "2026-10-16T21:36:36.815212+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Manual license/access reviews applied",
+  "latest_milestone": "Bahrain current license full3page review resolves restricted withdrawal/purpose conditions;Jamaica documented DKAN candidate/10resource leads,runtimepolicy-deferred;BDLvariablemetadata harvest continues",
   "counts": {
     "verified": 133,
     "candidates": 161,
@@ -662,7 +662,8 @@
         ],
         "candidate_provider_ids": [
           "brazil",
-          "eclac"
+          "eclac",
+          "jamaica-data"
         ],
         "restricted_provider_ids": []
       },
@@ -677,7 +678,8 @@
         "candidate_provider_ids": [
           "brazil",
           "chile-bcentral",
-          "eclac"
+          "eclac",
+          "jamaica-data"
         ],
         "restricted_provider_ids": []
       },
@@ -711,7 +713,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "dominican-data"
+          "dominican-data",
+          "jamaica-data"
         ],
         "restricted_provider_ids": []
       },
@@ -763,7 +766,8 @@
           "registry-dados-rs-gov-br"
         ],
         "candidate_provider_ids": [
-          "dominican-data"
+          "dominican-data",
+          "jamaica-data"
         ],
         "restricted_provider_ids": []
       },
@@ -3969,7 +3973,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:29:29.563670+00:00",
+      "latest_checked_utc": "2026-10-16T21:35:57.144606+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5897,7 +5901,7 @@
       "license": "Per-dataset declarations;Energy Tables labeled Open Data Commons Attribution License;full applicable grant/version unreviewed",
       "license_url": "https://data.gov.jm/dataset/energy-tables",
       "api_verification_state": "documented_indexed_api_sample_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T21:34:37.456140+00:00",
+      "latest_checked_utc": "2026-10-16T21:36:19.789458+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
