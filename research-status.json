@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-16T23:49:24.272131+00:00",
+  "published_at": "2026-10-16T23:51:26.765471+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:49:24.133896+00:00",
+  "research_updated_at": "2026-10-16T23:50:55.710236+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Lithuanian DataPortal selectedCCBY4/liveone-rowAPI",
   "counts": {
-    "verified": 150,
+    "verified": 151,
     "candidates": 194,
     "excluded": 25,
     "sample_successes": 185
@@ -4045,6 +4045,24 @@
       "license_url": "https://data.linz.govt.nz/layer/51153-nz-coastlines-and-islands-polygons-topo-150k/",
       "api_verification_state": "documented_key_required_untested_ancillary_sample_policy_restricted",
       "latest_checked_utc": "2026-10-16T18:14:18.636856+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "lithuania-dataportal",
+      "provider": "Lithuanian State Data Agency / Valstybes duomenu agentura",
+      "service_name": "Lithuanian Data Portal Data API (Iceberg/Trino namespaces, tables and files)",
+      "geographic_coverage": "Europe; Lithuania",
+      "topical_coverage": "economics/finance; culture; research",
+      "dataset_families": "Accepted subset:sd001594 cultural/creative-industry exports byNACERev2,LT/ENdistributions sdr001594_lt/en. English query reports66rows;selected2021manufactureoffurniture579.49EURmillion. Broader236namespace metadata snapshot exists but not uniformlyrights-cleared.",
+      "documentation_url": "https://guides.dataportal.gov.lt/docs/api | https://guides.dataportal.gov.lt/docs/api/guides/querying | https://guides.dataportal.gov.lt/api/openapi | https://dataportal.gov.lt/lt/datasets/sd001594",
+      "api_base_url": "https://api.dataportal.gov.lt/",
+      "format_protocol": "Public read-only HTTP GET metadata/schema;POST query/export with JSONquerydefinition. JSONrows;NDJSON/JSON/CSV/Excel/Parquet export documented,not downloaded. OpenAPI6operationtemplates.",
+      "authentication": "Officialdocs no key/token required;selected anonymous schema,namespaceGET andone-rowPOST returned200. Do not confuse generic UItranslation generateApiKey with actual DataAPIauth. No docsproxy/MCP/account used.",
+      "free_access_restrictions": "Selected public metadata/data without account/payment. Accepted selecteddistributions CC BY4;othernamespace/table/file/API/MCP rights and exposure not implied. No personalpatient/companylookup orresourcefilecontent queried.",
+      "license": "CC-BY-4.0 (selected LT/EN distributions only)",
+      "license_url": "https://dataportal.gov.lt/lt/datasets/sd001594 | https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T23:50:55.630457+00:00",
       "classification": "open_license_verified"
     },
     {
