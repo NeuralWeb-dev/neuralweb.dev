@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T23:45:19.304880+00:00",
+  "published_at": "2026-10-16T23:47:21.804033+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:45:08.433094+00:00",
+  "research_updated_at": "2026-10-16T23:45:44.235303+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Latvia/Armenia two live JSON metadata API candidates; Latvia12documented operations/300English table descriptors; Armenia8domainfrontier; rights scope unresolved, global in_progress;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 148,
     "candidates": 193,
@@ -981,6 +981,7 @@
           "aland-statistics",
           "fsd-finland",
           "insee",
+          "latvia-statistics",
           "russia",
           "serbia-rzs",
           "stat-portugal",
@@ -1017,6 +1018,7 @@
           "aland-statistics",
           "bundesbank",
           "insee",
+          "latvia-statistics",
           "poland-gus-strateg",
           "russia",
           "serbia-apr",
@@ -1050,6 +1052,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "latvia-statistics",
           "russia",
           "serbia-rzs",
           "stat-portugal"
@@ -1094,7 +1097,9 @@
           "ukraine-data",
           "wales-statistics"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "latvia-statistics"
+        ],
         "restricted_provider_ids": [
           "copernicus-marine"
         ]
@@ -1145,7 +1150,8 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
-          "fsd-finland"
+          "fsd-finland",
+          "latvia-statistics"
         ],
         "restricted_provider_ids": []
       },
@@ -1168,6 +1174,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "fsd-finland",
+          "latvia-statistics",
           "serbia-rzs"
         ],
         "restricted_provider_ids": []
@@ -6922,7 +6929,7 @@
       "license": "Unconfirmed scope: API configuration points to CC0; separate official MCP documentation advertises CC BY4.0",
       "license_url": "https://api.stat.gov.lv/api/v2/config",
       "api_verification_state": "structured_metadata_sample_success_data_license_unconfirmed",
-      "latest_checked_utc": "2026-10-16T23:44:05.560032+00:00",
+      "latest_checked_utc": "2026-10-16T23:45:19.274106+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
