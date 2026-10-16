@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T19:07:48.974510+00:00",
+  "published_at": "2026-10-16T19:09:51.184103+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:07:11.044667+00:00",
+  "research_updated_at": "2026-10-16T19:09:13.748904+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
@@ -2603,7 +2603,7 @@
       "license": "CC BY4.0 forESOarchivedata underpublishedpolicy",
       "license_url": "https://www.eso.org/cms/eso-data-access-policy.html",
       "api_verification_state": "documented_untested_sample_waiting_polite_crawl_delay",
-      "latest_checked_utc": "2026-10-16T18:59:55.646851+00:00",
+      "latest_checked_utc": "2026-10-16T18:59:55.714206+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5477,15 +5477,15 @@
       "geographic_coverage": "Pacific/Oceania",
       "topical_coverage": "demographics; health; education; climate/weather/environment",
       "dataset_families": "Pacific national statistics; SDGs; fisheries; geospatial datasets",
-      "documentation_url": "https://pacificdata.org/",
-      "api_base_url": "https://stats-sdmx-disseminate.pacificdata.org/rest/",
-      "format_protocol": "SDMX-JSON/XML statistical metadata; separate CKAN catalog at pacificdata.org/data/api/3/action/",
-      "authentication": "none for successful SDMX dataflow metadata sample; other interfaces untested",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://pacificdata.org/terms-of-use",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T17:36:21.614083+00:00",
+      "documentation_url": "https://docs.pacificdata.org/dotstat/api/interface",
+      "api_base_url": "https://stats-sdmx-disseminate.pacificdata.org/rest/ | https://stats-nsi-stable.pacificdata.org/rest/ | https://pacificdata.org/data/api/3/action/",
+      "format_protocol": "SDMXstructureJSON2.0 returned;XML/JSON/CSV documented;separateCKANActioncatalogAPI",
+      "authentication": "Anonymous statisticaldataflow metadata request succeeded;catalogaccessunresolved",
+      "free_access_restrictions": "OfficialSDMXdocs describe freelyavailable service;datasetrights separate andsamplemetadata NonProduction/NonFinal flags",
+      "license": "Dataset-specific,mixed licences per official hubterms;sampledataflow open grant unconfirmed",
+      "license_url": "https://pacificdata.org/terms-use",
+      "api_verification_state": "documented_nonproduction_structure_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T19:08:18.598152+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
