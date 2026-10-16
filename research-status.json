@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T22:50:13.030654+00:00",
+  "published_at": "2026-10-16T22:52:15.648517+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:49:55.122813+00:00",
+  "research_updated_at": "2026-10-16T22:52:09.650111+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Manual license/access reviews applied",
+  "latest_milestone": "DataONE87registry/69capabilityoutcomes16XML;Arctic8190/KNB40252publicmetadata,48373IDunion;4servicescurated:ArcticscopedCC0open,DataONE/KNB/EDIrights/accesscandidates",
   "counts": {
     "verified": 138,
     "candidates": 177,
@@ -112,6 +112,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "copernicus-stac",
+          "dataone",
           "hdx",
           "nasa-api",
           "nasa-power",
@@ -136,7 +137,9 @@
         "verified_provider_ids": [
           "nasa-cmr"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "dataone"
+        ],
         "restricted_provider_ids": [
           "fao"
         ]
@@ -246,6 +249,7 @@
         ],
         "candidate_provider_ids": [
           "copernicus-stac",
+          "dataone",
           "nsidc",
           "planetary-computer",
           "worldpop-wopr"
@@ -299,6 +303,7 @@
         "candidate_provider_ids": [
           "checklistbank",
           "cifor-icraf",
+          "dataone",
           "ena",
           "idigbio",
           "planetary-computer",
@@ -412,6 +417,7 @@
           "checklistbank",
           "cifor-icraf",
           "cinii-books",
+          "dataone",
           "ena",
           "europepmc",
           "figshare",
@@ -493,6 +499,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "eccc-geomet",
           "epa-aqs",
           "noaa-weather",
@@ -501,20 +508,25 @@
           "usgs-water"
         ],
         "candidate_provider_ids": [
-          "epa"
+          "edi",
+          "epa",
+          "knb"
         ],
         "restricted_provider_ids": []
       },
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "eccc-geomet",
           "ncei-coops",
           "ocean-networks-canada",
           "usgs-water"
         ],
         "candidate_provider_ids": [
-          "epa"
+          "edi",
+          "epa",
+          "knb"
         ],
         "restricted_provider_ids": []
       },
@@ -573,6 +585,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "eccc-geomet",
           "epa-aqs",
           "usda-cdl"
@@ -625,10 +638,14 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "arctic-data"
+        ],
         "candidate_provider_ids": [
           "canadensys",
+          "edi",
+          "knb",
           "smithsonian"
         ],
         "restricted_provider_ids": []
@@ -636,6 +653,7 @@
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "ncei-coops",
           "ocean-networks-canada"
         ],
@@ -667,11 +685,14 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "metmuseum",
           "nih-rxnav"
         ],
         "candidate_provider_ids": [
           "artic",
+          "edi",
+          "knb",
           "loc",
           "smithsonian"
         ],
@@ -2441,6 +2462,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "nasa-cmr",
           "ocean-networks-canada"
         ],
@@ -2453,6 +2475,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "nasa-cmr",
           "ocean-networks-canada"
         ],
@@ -2502,6 +2525,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "nasa-cmr"
         ],
         "candidate_provider_ids": [
@@ -2534,14 +2558,17 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "arctic-data"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
@@ -2566,6 +2593,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arctic-data",
           "nasa-cmr"
         ],
         "candidate_provider_ids": [
