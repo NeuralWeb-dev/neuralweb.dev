@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T23:00:25.353107+00:00",
+  "published_at": "2026-10-16T23:02:28.028766+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T22:59:59.581626+00:00",
+  "research_updated_at": "2026-10-16T23:01:14.824629+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DataONE remaining capability-success member rights reviews",
+  "latest_milestone": "DataONE remaining14 capability-success repositories reviewed:7 scoped CC0/CCBY4 services and7 rights candidates;13 finite Solr listings22993 metadata documents;16of16 NodeXML providers now have selected reviews;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 145,
     "candidates": 184,
     "excluded": 24,
-    "sample_successes": 166
+    "sample_successes": 180
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -104,6 +104,7 @@
         "verified_provider_ids": [
           "bgs",
           "datacommons",
+          "geri",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
@@ -113,6 +114,7 @@
           "cifor-icraf",
           "copernicus-stac",
           "dataone",
+          "esa-ecology",
           "hdx",
           "nasa-api",
           "nasa-power",
@@ -135,6 +137,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "geri",
           "nasa-cmr"
         ],
         "candidate_provider_ids": [
@@ -305,6 +308,7 @@
           "cifor-icraf",
           "dataone",
           "ena",
+          "esa-ecology",
           "idigbio",
           "planetary-computer",
           "smithsonian"
@@ -388,6 +392,7 @@
           "dryad",
           "gavo",
           "geoboundaries",
+          "geri",
           "metmuseum",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -419,6 +424,7 @@
           "cinii-books",
           "dataone",
           "ena",
+          "esa-ecology",
           "europepmc",
           "figshare",
           "fsd-finland",
@@ -502,15 +508,21 @@
           "arctic-data",
           "eccc-geomet",
           "epa-aqs",
+          "geri",
           "noaa-weather",
           "ocean-networks-canada",
           "usda-cdl",
           "usgs-water"
         ],
         "candidate_provider_ids": [
+          "cerp-sfwmd",
+          "drp",
+          "edac-gstore",
           "edi",
           "epa",
-          "knb"
+          "esa-ecology",
+          "knb",
+          "sfwmd-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -518,15 +530,19 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
+          "cib",
           "eccc-geomet",
+          "geri",
           "ncei-coops",
           "ocean-networks-canada",
           "usgs-water"
         ],
         "candidate_provider_ids": [
+          "cerp-sfwmd",
           "edi",
           "epa",
-          "knb"
+          "knb",
+          "sfwmd-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -588,12 +604,15 @@
           "arctic-data",
           "eccc-geomet",
           "epa-aqs",
+          "seafloor",
           "usda-cdl"
         ],
         "candidate_provider_ids": [
           "canadensys",
           "census-geocoder",
-          "census-tigerweb"
+          "census-tigerweb",
+          "drp",
+          "edac-gstore"
         ],
         "restricted_provider_ids": []
       },
@@ -640,11 +659,19 @@
       "biodiversity": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "arctic-data"
+          "arctic-data",
+          "ca-opc",
+          "cib",
+          "fwc",
+          "sctld",
+          "seafloor"
         ],
         "candidate_provider_ids": [
           "canadensys",
+          "cerp-sfwmd",
           "edi",
+          "esa-ecology",
+          "goa-ecology",
           "knb",
           "smithsonian"
         ],
@@ -654,10 +681,16 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
+          "ca-opc",
+          "fwc",
           "ncei-coops",
-          "ocean-networks-canada"
+          "ocean-networks-canada",
+          "sctld",
+          "seafloor"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "goa-ecology"
+        ],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -686,14 +719,26 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
+          "ca-opc",
+          "cib",
+          "fwc",
+          "geri",
           "metmuseum",
-          "nih-rxnav"
+          "nih-rxnav",
+          "sctld",
+          "seafloor"
         ],
         "candidate_provider_ids": [
           "artic",
+          "cerp-sfwmd",
+          "drp",
+          "edac-gstore",
           "edi",
+          "esa-ecology",
+          "goa-ecology",
           "knb",
           "loc",
+          "sfwmd-repository",
           "smithsonian"
         ],
         "restricted_provider_ids": []
@@ -747,7 +792,9 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "eclac"
+          "eclac",
+          "edac-gstore",
+          "esa-ecology"
         ],
         "restricted_provider_ids": []
       },
@@ -807,7 +854,8 @@
           "mexico"
         ],
         "candidate_provider_ids": [
-          "brazil"
+          "brazil",
+          "edac-gstore"
         ],
         "restricted_provider_ids": []
       },
@@ -847,9 +895,11 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "esa-ecology"
+        ],
         "restricted_provider_ids": []
       },
       "oceans": {
@@ -876,7 +926,9 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "ciencia-aberta"
+          "ciencia-aberta",
+          "edac-gstore",
+          "esa-ecology"
         ],
         "restricted_provider_ids": []
       }
@@ -1008,6 +1060,7 @@
           "croatia-statistics",
           "faroe-statistics",
           "france",
+          "geri",
           "iceland-statistics",
           "ices-dome",
           "poland-bdl",
@@ -1026,6 +1079,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "geri",
           "iceland-statistics"
         ],
         "candidate_provider_ids": [],
@@ -1283,6 +1337,7 @@
           "darus",
           "dnb",
           "faroe-statistics",
+          "geri",
           "iceland-statistics",
           "ices-dome",
           "poland-bdl",
@@ -1513,7 +1568,8 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "digitalearth-africa"
+          "digitalearth-africa",
+          "geri"
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
@@ -1526,6 +1582,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "digitalearth-africa",
+          "geri",
           "registry-municipaldata-treasury-gov-za"
         ],
         "candidate_provider_ids": [
@@ -1647,6 +1704,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "digitalearth-africa",
+          "geri",
           "rwanda"
         ],
         "candidate_provider_ids": [
@@ -1702,6 +1760,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "esa-ecology",
           "nepal"
         ],
         "restricted_provider_ids": []
@@ -1784,6 +1843,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "esa-ecology",
           "nepal"
         ],
         "restricted_provider_ids": []
@@ -1813,6 +1873,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "esa-ecology",
           "pakistan-odp"
         ],
         "restricted_provider_ids": []
@@ -2262,12 +2323,15 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "ala",
+          "geri",
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "esa-ecology",
           "mbie-geodata",
           "pacific-data",
           "pacific-stat",
+          "pisco",
           "queensland-data"
         ],
         "restricted_provider_ids": []
@@ -2275,6 +2339,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "geri",
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
@@ -2391,7 +2456,10 @@
         "verified_provider_ids": [
           "ala"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "esa-ecology",
+          "pisco"
+        ],
         "restricted_provider_ids": []
       },
       "oceans": {
@@ -2399,7 +2467,9 @@
         "verified_provider_ids": [
           "ocean-networks-canada"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "pisco"
+        ],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -2417,10 +2487,14 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "geri"
+        ],
         "candidate_provider_ids": [
+          "esa-ecology",
           "nz-iponz",
+          "pisco",
           "rda-australia"
         ],
         "restricted_provider_ids": []
@@ -2816,8 +2890,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "CC0-1.0",
       "license_url": "https://opc.dataone.org/metacat/d1/mn/v2/object/doi%3A10.25494%2FP6V884",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:58.034732+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:26.873587+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -2942,8 +3016,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "CC-BY-4.0",
       "license_url": "https://cib.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3A648d9ee8-efe4-4456-8c5e-318098e55e3e",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:58.978930+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:31.149703+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3374,8 +3448,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "CC0-1.0",
       "license_url": "https://fwc.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3Aba9a3525-c0f7-4ee0-a0d1-633a6695d099",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:59.337972+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:31.628725+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3464,8 +3538,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "CC-BY-4.0",
       "license_url": "https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1QP4W | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG10593 | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1G59F | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1KW2Z | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1VC75",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:59.182924+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:57:47.211191+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4634,8 +4708,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "CC0-1.0",
       "license_url": "https://sctld.dataone.org/metacat/d1/mn/v2/object/doi%3A10.48522%2FD3059S",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:58.502797+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:51.363933+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4652,8 +4726,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "CC-BY-4.0 | CC0-1.0",
       "license_url": "https://seafloor.dataone.org/metacat/d1/mn/v2/object/doi%3A10.82105%2FG2RP45 | https://seafloor.dataone.org/metacat/d1/mn/v2/object/doi%3A10.82105%2FG2159C | https://seafloor.dataone.org/metacat/d1/mn/v2/object/doi%3A10.82105%2FG2CC7S | https://seafloor.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3A65220ce1-9a88-4c60-84f5-8ef5a4da2738 | https://seafloor.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3Acbc33067-d3e6-4ea2-8f1e-feb541ced148",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:59.514284+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:57:48.949449+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4742,8 +4816,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "CC-BY-4.0",
       "license_url": "https://smithsonian.dataone.org/metacat/d1/mn/v2/object/doi%3A10.60635%2FC30C7C",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:58.826701+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:30.096889+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5500,8 +5574,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "Dataset/object-specific; no explicit open reuse grant established for selected scientific data",
       "license_url": "https://cerp-sfwmd.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3Ac930a0ef-2da0-4c07-a58e-578c1de57859",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:58.193361+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:27.565970+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5842,8 +5916,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "Dataset/object-specific; no explicit open reuse grant established for selected scientific data",
       "license_url": "https://drp.dataone.org/metacat/d1/mn/v2/object/fed1b39e-d57f-4c10-8511-f32d9dc6c0ac",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:58.350833+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:28.200214+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5914,8 +5988,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "Dataset/object-specific; no explicit open reuse grant established for selected scientific data",
       "license_url": "https://gstore.unm.edu/dataone/v1",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:57.862577+00:00",
+      "api_verification_state": "documented_capability_xml_and_objectlist_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T23:00:20.886657+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5986,8 +6060,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "Dataset/object-specific; no explicit open reuse grant established for selected scientific data",
       "license_url": "https://data.esa.org/esa/d1/mn/v2/object/esa.1.4",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:56.056793+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:57:21.855295+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6166,8 +6240,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "Dataset/object-specific; no explicit open reuse grant established for selected scientific data",
       "license_url": "https://goa.nceas.ucsb.edu/goa/d1/mn/v2/object/df35a.16.11",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:57.716952+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:25.846570+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7300,8 +7374,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "Dataset/object-specific; no explicit open reuse grant established for selected scientific data",
       "license_url": "https://data.piscoweb.org/metacat/d1/mn/v2/object/doi%3A10.6085%2FAA%2Fpisco_site_descriptions.1.4",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:57.510269+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:54.936194+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8002,8 +8076,8 @@
       "free_access_restrictions": "Tested metadata reads required no account, key or payment. Paid publishing/hosting, write operations and private data are outside this review; sustained service terms unknown.",
       "license": "Dataset/object-specific; no explicit open reuse grant established for selected scientific data",
       "license_url": "https://sfwmd.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3A7780e9cd-e425-4f59-a3de-ed5fb3475f3c | https://sfwmd.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3A0e3b0bb9-b204-4e10-bbd9-a638e0d4adab",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T22:59:58.653015+00:00",
+      "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
+      "latest_checked_utc": "2026-10-16T22:58:51.920762+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
