@@ -1,21 +1,21 @@
 {
-  "published_at": "2026-10-16T18:55:34.800173+00:00",
+  "published_at": "2026-10-16T18:57:36.985381+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:55:13.827934+00:00",
+  "research_updated_at": "2026-10-16T18:57:27.141564+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Finite786 roots and233UK directory detail pages audited;Cefas,FSAFHRS,FSAalerts scoped licences/API samples accepted;TunisiaINS rights reviewed but APIunresolved;Socrata cursor ongoing",
   "counts": {
-    "verified": 105,
+    "verified": 108,
     "candidates": 134,
     "excluded": 11,
-    "sample_successes": 135
+    "sample_successes": 138
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
     "Review remaining candidate documentation and licenses; unknown values remain explicit",
-    "UK API Catalogue233entries enumerated;229original-provider detail/access/rights reviews pending,4reviewed outcomes recorded. Completed786-root pass must not be refetched;API/licence follow-up remains",
+    "UK API Catalogue233entries and233directorydetailpages enumerated;226original-provider access/rights reviews pending,7reviewed outcomes recorded. Completed786-root pass must not be refetched;API/licence follow-up remains",
     "Resolve remaining starting-point terms/access: NOAA NCEI, NASA services, EPA Envirofacts, USDA NASS, ClinicalTrials.gov, USAspending, IRS and UN SDG; retain already-reviewed scoped OECD/UIS/UNICEF and restricted IMF/FAO services; retain scoped acceptance and restrictions already established for other starting points",
     "Individually process portal/STAC/ArcGIS discovery entries and 3536 re3data descriptors, then verify official provider documentation/licenses; cross-registry dedup remains pending",
     "CKAN HTML first20/1319 sites recorded; page2 returned403 after15s delay,1299 remain unsearched; do not use disallowed /api/ route",
@@ -863,8 +863,11 @@
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "fsa-alerts",
+          "fsa-fhrs"
+        ],
         "candidate_provider_ids": [
           "fsd-finland"
         ],
@@ -1016,21 +1019,27 @@
     },
     "Middle East/North Africa": {
       "demographics": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "tunisia-ins"
+        ],
         "restricted_provider_ids": []
       },
       "economics/finance": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "tunisia-ins"
+        ],
         "restricted_provider_ids": []
       },
       "labor": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "tunisia-ins"
+        ],
         "restricted_provider_ids": []
       },
       "agriculture": {
@@ -2284,6 +2293,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cefas",
+      "provider": "Centre for Environment, Fisheries and Aquaculture Science (Cefas)",
+      "service_name": "Cefas Data Hub APIs and WMS",
+      "geographic_coverage": "UK and marine survey/research locations;dataset-specific extent",
+      "topical_coverage": "oceans | biodiversity | climate/weather/environment",
+      "dataset_families": "Marine scientific holdings and recordsets;sample holding945 includes Karenia mikimotoi cell-count recordsets",
+      "documentation_url": "https://www.cefas.co.uk/data-and-publications/cefas-data-hub-apis/",
+      "api_base_url": "https://data-api.cefas.co.uk/api/",
+      "format_protocol": "REST JSON;CSV exports;WMS documented",
+      "authentication": "No credentials used in successful metadata/reference sample",
+      "free_access_restrictions": "No charge or credentials encountered in sample; wider service quotas unknown",
+      "license": "Open Government Licence v3.0",
+      "license_url": "https://www.cefas.co.uk/data-and-publications/cefas-data-hub-apis/",
+      "api_verification_state": "documented_recordset_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T18:54:56.286373+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "census",
       "provider": "US Census Bureau",
       "service_name": "US Census Bureau API",
@@ -2587,6 +2614,42 @@
       "license_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:48:24.754816+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "fsa-alerts",
+      "provider": "Food Standards Agency",
+      "service_name": "Food Alerts API",
+      "geographic_coverage": "United Kingdom",
+      "topical_coverage": "health",
+      "dataset_families": "Allergy alerts,product recalls and food alerts for action",
+      "documentation_url": "https://data.food.gov.uk/food-alerts/ui/reference",
+      "api_base_url": "https://data.food.gov.uk/food-alerts/",
+      "format_protocol": "REST JSON/linked data",
+      "authentication": "No credentials used in successful metadata/reference sample",
+      "free_access_restrictions": "No charge or credentials encountered in sample; wider service quotas unknown",
+      "license": "Open Government Licence v3.0",
+      "license_url": "https://data.food.gov.uk/food-alerts/ui/reference",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T18:55:19.064034+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "fsa-fhrs",
+      "provider": "Food Standards Agency",
+      "service_name": "Food Hygiene Rating Scheme API v2",
+      "geographic_coverage": "United Kingdom",
+      "topical_coverage": "health",
+      "dataset_families": "Food hygiene ratings/inspection results and lookup reference data;sample rating categories only",
+      "documentation_url": "https://api.ratings.food.gov.uk/help",
+      "api_base_url": "https://api.ratings.food.gov.uk/",
+      "format_protocol": "REST JSON/XML;requires x-api-version:2 header",
+      "authentication": "Official documentation:no registration,API key or login required",
+      "free_access_restrictions": "Free API per official open-data page;logos/imagery excluded from accepted data scope",
+      "license": "Open Government Licence (version linked in official terms)",
+      "license_url": "https://ratings.food.gov.uk/terms-and-conditions",
+      "api_verification_state": "documented_reference_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T18:55:28.099683+00:00",
       "classification": "open_license_verified"
     },
     {
