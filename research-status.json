@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T20:37:36.396692+00:00",
+  "published_at": "2026-10-16T20:39:38.960840+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T20:37:16.852482+00:00",
+  "research_updated_at": "2026-10-16T20:37:38.536003+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "East Asia statistics batch: anonymous Japan Dashboard PDL1.0 metadata verified; KOSIS custom terms restricted",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
     "verified": 125,
     "candidates": 153,
     "excluded": 21,
-    "sample_successes": 146
+    "sample_successes": 148
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3098,12 +3098,12 @@
       "documentation_url": "https://www.e-stat.go.jp/api/",
       "api_base_url": "https://api.e-stat.go.jp/rest/3.0/app/",
       "format_protocol": "REST/JSON/XML; application ID required",
-      "authentication": "key required; e-Stat application ID",
+      "authentication": "Registered user and issued application ID required for e-Stat API; ID transfer/lending prohibited; no key obtained",
       "free_access_restrictions": "Public API registration required; no key accessed",
       "license": "Government of Japan Standard Terms of Use v2.0; CC BY 4.0 compatible",
-      "license_url": "https://www.e-stat.go.jp/en/terms-of-use",
+      "license_url": "https://www.e-stat.go.jp/terms-of-use | https://www.e-stat.go.jp/api/en/terms-of-use",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T17:00:39.625591+00:00",
+      "latest_checked_utc": "2026-10-16T20:35:25.716194+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3120,8 +3120,8 @@
       "free_access_restrictions": "Anonymous use documented; published API services must show specified Statistics Bureau non-guarantee credit. Covered government content reusable commercially; imported third-party data and exceptions separate.",
       "license": "Public Data License1.0 (PDL1.0), CC BY4.0-compatible, for covered Dashboard content",
       "license_url": "https://dashboard.e-stat.go.jp/en/static/terms | https://www.digital.go.jp/en/resources/open_data/public_data_license_v1.0",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:37:16.787883+00:00",
+      "api_verification_state": "sample_success_scoped_open_license_metadata",
+      "latest_checked_utc": "2026-10-16T20:35:25.716194+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4469,9 +4469,9 @@
       "authentication": "none for public read",
       "free_access_restrictions": "No-cost public access",
       "license": "CC BY 4.0 with World Bank additional dispute-resolution terms; metadata exceptions",
-      "license_url": "https://data.worldbank.org/summary-terms-of-use",
+      "license_url": "https://www.worldbank.org/ext/en/legal/terms-conditions/datasets | https://data.worldbank.org/summary-terms-of-use",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:23:41.965875+00:00",
+      "latest_checked_utc": "2026-10-16T20:32:37.061037+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4488,8 +4488,8 @@
       "free_access_restrictions": "Dataset terms permit free reuse of covered data, including commercial use, subject to attribution/dispute terms and per-dataset/third-party exceptions. Public catalog access does not imply every resource free/open/API-enabled.",
       "license": "CC BY4.0 default for covered catalog datasets with additional World Bank dispute terms; dataset/source exceptions",
       "license_url": "https://www.worldbank.org/ext/en/legal/terms-conditions/datasets | https://data.worldbank.org/summary-terms-of-use | https://ddh-openapi.worldbank.org/datasets/0067201",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:34:42.394842+00:00",
+      "api_verification_state": "sample_success_scoped_open_license_catalog_metadata_only",
+      "latest_checked_utc": "2026-10-16T20:32:37.061037+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7462,8 +7462,8 @@
       "free_access_restrictions": "Terms Article10 free provision in principle through supplied methods; nonstandard delivery may cost. Commercial applications allowed except notified exceptions; unchanged paid third-party redistribution without a service platform prohibited.",
       "license": "Custom KOSIS statistical-use terms; commercial use allowed with raw paid-redistribution restriction and international-license exceptions",
       "license_url": "https://kosis.kr/openapi/introduce/introduce_02List.do",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T20:37:16.788030+00:00",
+      "api_verification_state": "documented_key_required_untested_restricted_custom_terms",
+      "latest_checked_utc": "2026-10-16T20:33:53.878831+00:00",
       "classification": "restricted"
     },
     {
