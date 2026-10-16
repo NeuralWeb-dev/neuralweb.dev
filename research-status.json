@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-16T21:12:17.794346+00:00",
+  "published_at": "2026-10-16T21:14:20.163499+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:11:24.340668+00:00",
+  "research_updated_at": "2026-10-16T21:12:55.622866+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Slovenia SiStat scoped custom open reuse/4827native English table definitions; Croatia DZS scoped Open Licence/65metadata inventory families/20database directory walk; Greenland stopped3networktimeouts, HKmetadata resumable",
   "counts": {
@@ -810,6 +810,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "croatia-statistics",
           "denmark-statbank",
           "destatis",
           "eurostat",
@@ -821,6 +822,7 @@
           "registry-opendata-gov-je",
           "scb",
           "serbia-data",
+          "slovenia-statistics",
           "ssb",
           "statfin"
         ],
@@ -838,6 +840,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "croatia-statistics",
           "denmark-statbank",
           "destatis",
           "ecb",
@@ -848,6 +851,7 @@
           "ons",
           "scb",
           "serbia-data",
+          "slovenia-statistics",
           "ssb",
           "statfin",
           "ukraine-data"
@@ -868,6 +872,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "croatia-statistics",
           "denmark-statbank",
           "destatis",
           "eurostat",
@@ -877,6 +882,7 @@
           "registry-opendata-gov-je",
           "scb",
           "serbia-data",
+          "slovenia-statistics",
           "ssb",
           "statfin"
         ],
@@ -891,8 +897,10 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "croatia-statistics",
           "eurostat",
-          "serbia-data"
+          "serbia-data",
+          "slovenia-statistics"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -905,10 +913,12 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "croatia-statistics",
           "faroe-statistics",
           "france",
           "ices-dome",
           "registry-transparenz-karlsruhe-de",
+          "slovenia-statistics",
           "transportapi-fi",
           "ukraine-data"
         ],
@@ -927,8 +937,10 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "croatia-statistics",
           "eurostat",
           "faroe-statistics",
+          "slovenia-statistics",
           "ukraine-data"
         ],
         "candidate_provider_ids": [
@@ -961,6 +973,7 @@
           "faroe-statistics",
           "moldova-data",
           "serbia-data",
+          "slovenia-statistics",
           "switzerland",
           "ukraine-data"
         ],
@@ -990,9 +1003,11 @@
       "transportation": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "croatia-statistics",
           "faroe-statistics",
           "registry-admin-opendatani-gov-uk",
           "registry-daten-sg-ch",
+          "slovenia-statistics",
           "tfl",
           "transportapi-fi",
           "ukraine-data"
@@ -1049,6 +1064,7 @@
       "law/civic": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "croatia-statistics",
           "faroe-statistics",
           "legislation-uk",
           "moldova-data",
@@ -1100,6 +1116,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "croatia-statistics",
           "dnb",
           "europeana",
           "eurostat",
@@ -1107,6 +1124,7 @@
           "registry-data-sz-ch",
           "registry-data-tg-ch",
           "serbia-data",
+          "slovenia-statistics",
           "ukraine-data"
         ],
         "candidate_provider_ids": [
@@ -1121,6 +1139,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "croatia-statistics",
           "darus",
           "dnb",
           "faroe-statistics",
@@ -1128,6 +1147,7 @@
           "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
+          "slovenia-statistics",
           "uk-police"
         ],
         "candidate_provider_ids": [
