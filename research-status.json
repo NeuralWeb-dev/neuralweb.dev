@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T19:28:13.417463+00:00",
+  "published_at": "2026-10-16T19:30:16.637202+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:28:10.200343+00:00",
+  "research_updated_at": "2026-10-16T19:30:13.483751+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Socrata native cursor reached empty page:174241 unique assets/612 domains;92 selected rights documents fetched;UNHCR22 metadata andHongKong3830 IDs complete;HKmetadata ongoing;USDA31 rasters andUkraine/Moldova rights/API docs checkpointed;DominicanODbLdatasetlabel/APIcandidate retained",
   "counts": {
     "verified": 115,
-    "candidates": 135,
+    "candidates": 136,
     "excluded": 13,
     "sample_successes": 144
   },
@@ -670,23 +670,28 @@
         "restricted_provider_ids": []
       },
       "energy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "dominican-data"
+        ],
         "restricted_provider_ids": []
       },
       "health": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "ciencia-aberta"
+          "ciencia-aberta",
+          "dominican-data"
         ],
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "dominican-data"
+        ],
         "restricted_provider_ids": []
       },
       "housing": {
@@ -718,7 +723,9 @@
         "verified_provider_ids": [
           "registry-dados-rs-gov-br"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "dominican-data"
+        ],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
@@ -732,7 +739,9 @@
         "verified_provider_ids": [
           "registry-dados-prefeitura-sp-gov-br"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "dominican-data"
+        ],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -777,6 +786,7 @@
           "destatis",
           "eurostat",
           "ine-spain",
+          "moldova-data",
           "ons",
           "registry-opendata-fr-ch",
           "registry-opendata-gov-je",
@@ -801,10 +811,12 @@
           "ecb",
           "eurostat",
           "ine-spain",
+          "moldova-data",
           "ons",
           "scb",
           "ssb",
-          "statfin"
+          "statfin",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [
           "insee",
@@ -851,7 +863,8 @@
           "france",
           "ices-dome",
           "registry-transparenz-karlsruhe-de",
-          "transportapi-fi"
+          "transportapi-fi",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": [
@@ -868,7 +881,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
-          "eurostat"
+          "eurostat",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [
           "nordpool-entsoe",
@@ -880,7 +894,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "fsa-alerts",
-          "fsa-fhrs"
+          "fsa-fhrs",
+          "moldova-data",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [
           "fsd-finland"
@@ -891,7 +907,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "dnb",
-          "switzerland"
+          "moldova-data",
+          "switzerland",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [
           "fsd-finland"
@@ -905,7 +923,8 @@
           "denmark-statbank",
           "scb",
           "ssb",
-          "statfin"
+          "statfin",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -916,7 +935,8 @@
           "registry-admin-opendatani-gov-uk",
           "registry-daten-sg-ch",
           "tfl",
-          "transportapi-fi"
+          "transportapi-fi",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -937,14 +957,18 @@
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "moldova-data",
+          "ukraine-data"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "moldova-data",
           "registry-admin-opendatani-gov-uk"
         ],
         "candidate_provider_ids": [
@@ -958,12 +982,14 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "legislation-uk",
+          "moldova-data",
           "paris",
           "poland",
           "registry-europeandataportal-eu",
           "registry-open-nrw",
           "registry-transparenz-karlsruhe-de",
-          "uk-police"
+          "uk-police",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [
           "uk-trade-tariff"
@@ -1004,7 +1030,8 @@
           "europeana",
           "eurostat",
           "registry-data-sz-ch",
-          "registry-data-tg-ch"
+          "registry-data-tg-ch",
+          "ukraine-data"
         ],
         "candidate_provider_ids": [
           "perspectivia",
@@ -4595,6 +4622,24 @@
       "license_url": "https://data.gov.cz/podmínky-užití",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:41.121820+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dominican-data",
+      "provider": "Dominican Republic national open data portal / DIGEIG",
+      "service_name": "Datos.gob.do open data portal;CKAN API candidate",
+      "geographic_coverage": "Dominican Republic;Caribbean",
+      "topical_coverage": "energy | public spending/contracts | education | health | law/civic data",
+      "dataset_families": "SampledSOLdataset:aggregatecounts ofminor ruralelectrificationservices (luminaires,transformers,poles),quarterlylabel. Otherfamilies discovery-only;notallportalsresources inspected.",
+      "documentation_url": "https://datos.gob.do/",
+      "api_base_url": "",
+      "format_protocol": "Portal usesCKANassets;standardActionAPI route proposed,notverified. Datasetpage listsCSVresources;filesnotfetched.",
+      "authentication": "unknown;noaccount/key acquired",
+      "free_access_restrictions": "Portalmetadata publiclyaccessible;policycallsforfree/non-discriminatoryopen-datareuse,butactualAPIavailability andresource-specificconditions unverified",
+      "license": "SampledSOLdataset explicitlyOpenDataCommonsOpenDatabaseLicense(ODbL),version/linknotdisplayed;portalwide applicability unconfirmed",
+      "license_url": "https://datos.gob.do/dataset/sol",
+      "api_verification_state": "portal_metadata_verified_api_discovery_policy_deferred",
+      "latest_checked_utc": "2026-10-16T19:29:17.528724+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
