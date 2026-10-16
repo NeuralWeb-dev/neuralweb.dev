@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:09:28.716672+00:00",
+  "published_at": "2026-10-16T17:11:31.518754+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:07:45.186365+00:00",
+  "research_updated_at": "2026-10-16T17:11:30.406688+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
+  "latest_milestone": "Research batch resume-distinct-interfaces; checkpoint census-geocoder",
   "counts": {
     "verified": 74,
-    "candidates": 148,
+    "candidates": 150,
     "excluded": 4,
-    "sample_successes": 119
+    "sample_successes": 121
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3510,6 +3510,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "census-geocoder",
+      "provider": "US Census Bureau",
+      "service_name": "Census Geocoding Services",
+      "geographic_coverage": "United States",
+      "topical_coverage": "geospatial; housing",
+      "dataset_families": "Address geocoding; coordinates; Census geographic entities",
+      "documentation_url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "api_base_url": "https://geocoding.geo.census.gov/geocoder/",
+      "format_protocol": "REST/JSON; resource-specific formats",
+      "authentication": "unknown; no-key public sample candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:11:30.384511+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "charity-commission",
       "provider": "Charity Commission for England and Wales",
       "service_name": "Charity Commission for England and Wales API",
@@ -4497,6 +4515,24 @@
       "license_url": "https://clinicaltrials.gov/about-site/terms-conditions",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:24:54.738095+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nih-mesh",
+      "provider": "US National Library of Medicine",
+      "service_name": "MeSH RDF lookup and SPARQL",
+      "geographic_coverage": "Global",
+      "topical_coverage": "health; research",
+      "dataset_families": "Medical Subject Headings; descriptors; concepts; hierarchical biomedical terms",
+      "documentation_url": "https://www.nlm.nih.gov/databases/download/mesh.html",
+      "api_base_url": "https://id.nlm.nih.gov/mesh/",
+      "format_protocol": "REST/JSON; resource-specific formats",
+      "authentication": "unknown; no-key public sample candidate",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:11:27.024773+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
