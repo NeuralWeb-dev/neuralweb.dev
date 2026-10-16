@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-16T20:00:53.010011+00:00",
+  "published_at": "2026-10-16T20:02:55.323489+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:58:13.562700+00:00",
+  "research_updated_at": "2026-10-16T20:02:22.908652+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "OpenSTATEnglishDBdirectorypasscomplete:466directories/3560uniquetableURLs;NZcatalog/StatsNZrights-accessreviews,NZCharities/NZBNcandidates,Queensland202empty/APIpolicygap;HongKongmetadataongoing",
   "counts": {
     "verified": 118,
     "candidates": 142,
@@ -22,7 +22,7 @@
     "Socrata native cursor reachedempty after1744pages/174241assets,612domains;do notrefetchcompletedpass. Originalprovideridentity/API/data-rightschecks andlive/tied-IDgaps remain. ArcGIS/DCAT/STAC/permittedOAI andSDMXrightsdiscovery incomplete",
     "Add domestic/local evidence depth in Africa, South Asia, Pacific, China, Latin America and MENA",
     "Strengthen astronomy, transport, law, housing, companies/nonprofits, spending, energy, water and education coverage with dataset-level rights",
-    "Serbia3528datasetmetadata complete;2094externalAPIURLclaims needservice-leveldedup/access/rights checks,including2070RZSformat/tableURLs. HongKong3830-IDmetadataenrichment andOpenSTATEnglishDBdirectoryfrontierongoing. Malaysia324catalogmetadata/UNSD713currentseriesfiniteindexescomplete;APIeligibility/rights remain scoped/unconfirmed. Enumerateotherfeasible permittedcatalogs,retaincursors/licenceclaims",
+    "Serbia3528datasetmetadata complete;2094externalAPIURLclaims needservice-leveldedup/access/rights checks,including2070RZSformat/tableURLs. HongKong3830-IDmetadataenrichmentongoing;OpenSTATEnglishDBdirectorypasscomplete466directories/3560tableURLs,butreusegrant/variables/observations/otherlanguagesunsearched. Malaysia324catalogmetadata/UNSD713currentseriesfiniteindexescomplete;APIeligibility/rights remain scoped/unconfirmed. Enumerateotherfeasible permittedcatalogs,retaincursors/licenceclaims",
     "Audit all field-level evidence, rate limits, pagination, access and native provider/API dedup; write completion.json only when documented universe has been processed"
   ],
   "external_blocker": null,
@@ -1901,6 +1901,8 @@
         ],
         "candidate_provider_ids": [
           "adb",
+          "nz-charities",
+          "nzbn",
           "stats-nz"
         ],
         "restricted_provider_ids": []
@@ -1928,7 +1930,8 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
-          "pacific-data"
+          "pacific-data",
+          "queensland-data"
         ],
         "restricted_provider_ids": []
       },
@@ -1937,7 +1940,9 @@
         "verified_provider_ids": [
           "ocean-networks-canada"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "queensland-data"
+        ],
         "restricted_provider_ids": []
       },
       "energy": {
@@ -1973,9 +1978,11 @@
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "queensland-data"
+        ],
         "restricted_provider_ids": []
       },
       "geospatial": {
@@ -1989,15 +1996,20 @@
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "queensland-data"
+        ],
         "restricted_provider_ids": []
       },
       "companies/nonprofits": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nz-charities",
+          "nzbn"
+        ],
         "restricted_provider_ids": []
       },
       "law/civic": {
@@ -2005,7 +2017,11 @@
         "verified_provider_ids": [
           "australia"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nz-charities",
+          "nzbn",
+          "queensland-data"
+        ],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -5659,7 +5675,7 @@
       "license": "Per-datasetlicense,includingmetadata;noverifiedcatalogwidegrant",
       "license_url": "https://data.govt.nz/catalogue-guide/using-data-govt-nz-apis/about-data-govt-nz-apis",
       "api_verification_state": "documented_api_current_sample_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T19:54:14.015086+00:00",
+      "latest_checked_utc": "2026-10-16T20:00:56.826600+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5677,7 +5693,7 @@
       "license": "IndexedofficialOpenDatapageexplicitCC BY3.0 NewZealand;currentfullapplicabletermsunreviewed",
       "license_url": "https://register.charities.govt.nz/CharitiesRegister/OpenData.aspx",
       "api_verification_state": "documented_public_readonly_api_sample_deferred_scheduled_maintenance",
-      "latest_checked_utc": "2026-10-16T19:54:14.015086+00:00",
+      "latest_checked_utc": "2026-10-16T20:00:56.826600+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5911,7 +5927,7 @@
       "license": "OpenSTAT-specificapplicabledatareusegrant unresolved;otherPSAwebsitesCCBY4notautomaticallytransferable",
       "license_url": "https://psa.gov.ph/terms-of-use",
       "api_verification_state": "documented_directory_metadata_sample_success_license_unresolved",
-      "latest_checked_utc": "2026-10-16T19:56:09.979520+00:00",
+      "latest_checked_utc": "2026-10-16T19:57:58.666091+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5964,7 +5980,7 @@
       "free_access_restrictions": "SampleindexedpublishedresourceexplicitCCBY4;APIaccess/tierconditionsunconfirmed;nocharge/acquisition",
       "license": "SpecificenvironmentalresourceactivitiesdatasetCC BY4.0 onofficialindexedpage;portalwidegrantunconfirmed",
       "license_url": "https://www.data.qld.gov.au/dataset/resource-activities-environmental-protection-act-1994",
-      "api_verification_state": "portal_root_verified_api_unrequested_policy_dataset_page202_challenge",
+      "api_verification_state": "portal_root_verified_api_unrequested_policy_dataset_page202_empty_unresolved",
       "latest_checked_utc": "2026-10-16T19:57:13.945796+00:00",
       "classification": "licensing_unconfirmed"
     },
