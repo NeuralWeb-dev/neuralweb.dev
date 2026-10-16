@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-16T23:08:35.639345+00:00",
+  "published_at": "2026-10-16T23:10:37.938894+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:05:03.460749+00:00",
+  "research_updated_at": "2026-10-16T23:10:37.328362+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DataONE remaining14 services reviewed:7 scoped open/7 candidates;13 finite Solr listings22993metadata/22992IDgroups plus EDAC1075unique object descriptors54pages complete;Morocco696catalogIDs complete/currentAPI+CGU+fullODbL reviewed;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 145,
+    "verified": 147,
     "candidates": 184,
     "excluded": 24,
     "sample_successes": 180
@@ -4695,6 +4695,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "scotland-catalog",
+      "provider": "Scottish Government / data.gov.scot",
+      "service_name": "Data about Scotland CKAN catalogue, data-query and structured-metadata APIs",
+      "geographic_coverage": "United Kingdom; Scotland",
+      "topical_coverage": "demographics; economics/finance; labor; health; education; housing; climate/weather/environment; geospatial; law/civic",
+      "dataset_families": "Scottish public-sector statistical datasets; documented labour_productivity__annual metadata, CSV resource, DateCode-filtered datastore query, DCAT-AP and Croissant metadata. Full current catalog not enumerated.",
+      "documentation_url": "https://data.gov.scot/help/technical-support/how-to-access-data-using-the-api | https://blogs.gov.scot/digital/2026/08/19/data-gov-scot-public-beta-launches-on-25-august/",
+      "api_base_url": "https://api.data.gov.scot/api/3/action/",
+      "format_protocol": "Documented CKAN Action JSON, datastore_search JSON/CSV data and DCAT-AP/Croissant JSON-LD metadata; none of those runtime target responses obtained.",
+      "authentication": "Official current API guide states no sign-in/API key required for public datasets. Sample deferred by robots/access policy before target request; no runtime/authentication success claimed.",
+      "free_access_restrictions": "Public API/no sign-in documented; OGL applies within publisher scope and stated exceptions. Accounts, publishing and private datasets not accessed. No numeric quota found.",
+      "license": "Open Government Licence v3.0 for publisher information expressly covered by current site notice",
+      "license_url": "https://data.gov.scot/help/technical-support/how-to-access-data-using-the-api | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T23:09:40.797777+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "sctld",
       "provider": "Stony Coral Tissue Loss Disease (SCTLD) Research Data Portal",
       "service_name": "Stony Coral Tissue Loss Disease (SCTLD) Research Data Portal DataONE research repository API",
@@ -5160,6 +5178,24 @@
       "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.953880+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "wales-statistics",
+      "provider": "Welsh Government / StatsWales",
+      "service_name": "StatsWales public REST APIs v2 and v1",
+      "geographic_coverage": "United Kingdom; Wales; selected data includes health-board and Wales aggregates",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; climate/weather/environment; energy; health; education; housing; transportation; law/civic",
+      "dataset_families": "802 published summaries across11 top-level topics:business/economy/labour,crime/fire,education,environment/energy/agriculture,finance/tax,health/social care,housing,people/equality,poverty,transport,Welsh language. Selected official optometry-practice counts from2024 to2026; full metadata includes bilingual quality/provider/revision information.",
+      "documentation_url": "https://stats.gov.wales/en-GB | https://api.stats.gov.wales/v2/docs/swagger.json | https://api.stats.gov.wales/v1/docs/swagger.json",
+      "api_base_url": "https://api.stats.gov.wales/v2/ | https://api.stats.gov.wales/v1/",
+      "format_protocol": "Observed catalog/topic/dataset/revision JSON and one aggregate observation JSON array. OpenAPI3 documents v1/v2, JSON/CSV/XLSX/HTML responses, filter/pivot interfaces and bilingual labels.",
+      "authentication": "Anonymous published catalog/topics/metadata/data GET succeeded without key/account; OpenAPI declares no security scheme. Restricted/write operations not tested.",
+      "free_access_restrictions": "Tested public GETs required no payment or account. Source/third-party rights and site terms apply; no account creation, filter-generation POST, pivot job or full-file export used.",
+      "license": "Open Government Licence v3.0 for Welsh Government published information covered by linked copyright statement",
+      "license_url": "https://www.gov.wales/copyright-statement | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-16T23:09:40.946501+00:00",
       "classification": "open_license_verified"
     },
     {
