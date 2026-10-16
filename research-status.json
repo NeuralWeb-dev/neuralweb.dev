@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T18:53:32.299643+00:00",
+  "published_at": "2026-10-16T18:55:34.800173+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:52:06.120085+00:00",
+  "research_updated_at": "2026-10-16T18:55:13.827934+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
     "verified": 105,
-    "candidates": 133,
+    "candidates": 134,
     "excluded": 11,
     "sample_successes": 135
   },
@@ -6134,7 +6134,25 @@
       "license": "Sample declares Tunisia national public-open-data licence;full current terms not completely inspected",
       "license_url": "https://data.gov.tn/fr/licences-de-r%C3%A9utilisation-des-donn%C3%A9es-publiques-ouvertes/licence-nationale-de-donn%C3%A9es-publiques-ouvertes/",
       "api_verification_state": "historical_metadata_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-16T18:48:32.758590+00:00",
+      "latest_checked_utc": "2026-10-16T18:54:38.190947+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tunisia-ins",
+      "provider": "Tunisia National Institute of Statistics (INS)",
+      "service_name": "INS statistical data portal API (interface unresolved)",
+      "geographic_coverage": "Tunisia",
+      "topical_coverage": "demographics | economics/finance | labor",
+      "dataset_families": "Official statistics portal; exact API dataset families and observation coverage unresolved",
+      "documentation_url": "https://dataportal.ins.tn/fr/API",
+      "api_base_url": "",
+      "format_protocol": "unknown",
+      "authentication": "unknown",
+      "free_access_restrictions": "INS terms grant free commercial/noncommercial reuse; operational API access restrictions unknown",
+      "license": "INS published public-data reuse licence; explicit commercial reuse and adaptation with attribution",
+      "license_url": "https://www.ins.tn/en/conditions-utilisation",
+      "api_verification_state": "official_api_link_documentation_policy_deferred_no_sample",
+      "latest_checked_utc": "2026-10-16T18:54:23.507592+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
