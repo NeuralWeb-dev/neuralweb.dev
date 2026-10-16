@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-16T19:05:46.611604+00:00",
+  "published_at": "2026-10-16T19:07:48.974510+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:04:26.156961+00:00",
+  "research_updated_at": "2026-10-16T19:07:11.044667+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 110,
-    "candidates": 135,
-    "excluded": 12,
+    "verified": 111,
+    "candidates": 134,
+    "excluded": 13,
     "sample_successes": 140
   },
   "remaining_work": [
@@ -305,12 +305,13 @@
           "nasa-spdf-sscweb"
         ],
         "candidate_provider_ids": [
-          "esa-gaia",
           "jpl-ssd",
           "nasa-api",
           "nasa-exoplanet"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "esa-gaia"
+        ]
       },
       "culture": {
         "status": "partial_verified",
@@ -2588,6 +2589,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "eso-archive",
+      "provider": "European Southern Observatory (ESO)",
+      "service_name": "ESO Science Archive TAP catalog andobservation APIs",
+      "geographic_coverage": "Astronomical observations fromESO/LaSillaParanal/APEX andspecified contributedholdings;internationalaccess",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "ESO observationalarchive,calibrations andcatalogs;publicreleaseddata only",
+      "documentation_url": "https://archive.eso.org/tap_obs/examples",
+      "api_base_url": "https://archive.eso.org/tap_cat/ | https://archive.eso.org/tap_obs/",
+      "format_protocol": "IVOA TAP/ADQL;VOTable;requestedJSONuntested",
+      "authentication": "Publicquery interface documented;samplependingcrawl-delay;proprietarydata access restricted toauthorizedPI/delegates",
+      "free_access_restrictions": "Publicrelease afterproprietaryperiod,typically1year;calibrationsnormallyimmediatelypublic;specialexceptions/GTOpossible",
+      "license": "CC BY4.0 forESOarchivedata underpublishedpolicy",
+      "license_url": "https://www.eso.org/cms/eso-data-access-policy.html",
+      "api_verification_state": "documented_untested_sample_waiting_polite_crawl_delay",
+      "latest_checked_utc": "2026-10-16T18:59:55.646851+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "europeana",
       "provider": "Europeana Foundation / common European data space for cultural heritage",
       "service_name": "Europeana metadata and cultural-heritage discovery APIs",
@@ -4570,24 +4589,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "esa-gaia",
-      "provider": "European Space Agency Gaia Archive",
-      "service_name": "European Space Agency Gaia Archive API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "astronomy",
-      "dataset_families": "Gaia astrometry; photometry; source catalogs",
-      "documentation_url": "https://www.cosmos.esa.int/web/gaia-users/archive/programmatic-access",
-      "api_base_url": "https://gea.esac.esa.int/tap-server/tap/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.cosmos.esa.int/web/gaia/gaia-data",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:29:08.689371+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "estonia",
       "provider": "Estonian Open Data",
       "service_name": "Estonian Open Data open data portal",
@@ -4872,7 +4873,7 @@
       "license": "Dataset-specific/mixed;sample metadata declares CC3 BY-NC;projectwide open licence unconfirmed",
       "license_url": "https://www.idigbio.org/sites/default/files/iDigBio_Intellectual_Property_Policy_20141001.pdf",
       "api_verification_state": "documented_collection_metadata_sample_success",
-      "latest_checked_utc": "2026-10-16T19:04:16.633363+00:00",
+      "latest_checked_utc": "2026-10-16T19:05:45.373897+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5121,10 +5122,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown;acknowledgement guidance is not an explicit open-data grant",
       "license_url": "https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:28:41.458109+00:00",
+      "latest_checked_utc": "2026-10-16T19:06:05.709370+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6549,6 +6550,24 @@
       "license_url": "https://www.birds.cornell.edu/home/ebird-api-terms-of-use/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T19:03:24.478790+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "esa-gaia",
+      "provider": "European Space Agency Gaia Archive",
+      "service_name": "European Space Agency Gaia Archive API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "astronomy",
+      "dataset_families": "Gaia astrometry; photometry; source catalogs",
+      "documentation_url": "https://www.cosmos.esa.int/web/gaia-users/archive/programmatic-access",
+      "api_base_url": "https://gea.esac.esa.int/tap-server/tap/",
+      "format_protocol": "REST/JSON",
+      "authentication": "none for public read",
+      "free_access_restrictions": "Noncommercialreuse withcredit;commercialuse separately authorized,no permissionrequested",
+      "license": "CC BY-NC3.0 IGO;commercialuse requires separate ESA authorization",
+      "license_url": "https://www.cosmos.esa.int/web/gaia-users/license",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T19:06:03.781917+00:00",
       "classification": "restricted"
     },
     {
