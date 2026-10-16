@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T18:33:09.052496+00:00",
+  "published_at": "2026-10-16T18:35:11.451750+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:32:10.542884+00:00",
+  "research_updated_at": "2026-10-16T18:35:08.873809+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Manual license/access reviews applied",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 103,
-    "candidates": 131,
+    "verified": 104,
+    "candidates": 130,
     "excluded": 11,
     "sample_successes": 134
   },
@@ -95,6 +95,7 @@
         "verified_provider_ids": [
           "bgs",
           "datacommons",
+          "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
           "usgs-earthquake"
@@ -104,7 +105,6 @@
           "copernicus-stac",
           "hdx",
           "nasa-api",
-          "nasa-cmr",
           "nasa-power",
           "noaa-erddap",
           "noaa-ncei",
@@ -123,8 +123,10 @@
         ]
       },
       "water": {
-        "status": "restricted_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "nasa-cmr"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": [
           "fao"
@@ -212,6 +214,7 @@
           "bgs",
           "geoboundaries",
           "geonames",
+          "nasa-cmr",
           "opencontext",
           "osm",
           "usgs-earthquake",
@@ -219,7 +222,6 @@
         ],
         "candidate_provider_ids": [
           "copernicus-stac",
-          "nasa-cmr",
           "nsidc",
           "planetary-computer"
         ],
@@ -283,7 +285,6 @@
           "obis"
         ],
         "candidate_provider_ids": [
-          "nasa-cmr",
           "noaa-erddap",
           "noaa-ncei",
           "pangaea"
@@ -341,6 +342,7 @@
           "dryad",
           "gavo",
           "geoboundaries",
+          "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
           "neuromorpho",
@@ -1919,18 +1921,21 @@
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "nasa-cmr"
+        ],
         "candidate_provider_ids": [
-          "nasa-cmr",
           "nsidc",
           "pangaea"
         ],
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "nasa-cmr"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1965,10 +1970,11 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "nasa-cmr"
+        ],
         "candidate_provider_ids": [
-          "nasa-cmr",
           "nsidc"
         ],
         "restricted_provider_ids": []
@@ -2001,7 +2007,6 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "nasa-cmr",
           "pangaea"
         ],
         "restricted_provider_ids": []
@@ -2019,8 +2024,10 @@
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "nasa-cmr"
+        ],
         "candidate_provider_ids": [
           "pangaea"
         ],
@@ -2855,6 +2862,24 @@
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:48:24.759406+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nasa-cmr",
+      "provider": "NASA Earthdata Common Metadata Repository",
+      "service_name": "NASA Common Metadata Repository (CMR) collection search API",
+      "geographic_coverage": "Global/polar SMAP soil-moisture collection demonstrated;broader CMR collections have individual extents and rights",
+      "topical_coverage": "climate/weather/environment;water;geospatial;research",
+      "dataset_families": "Demonstrated licensed collection:SPL3SMP_E version006,SMAP enhanced daily9km global/polar soil moisture. CMR also discovers other Earth-science collections;their data licences remain unreviewed.",
+      "documentation_url": "https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html",
+      "api_base_url": "https://cmr.earthdata.nasa.gov/search/",
+      "format_protocol": "REST search;UMM JSON collection metadata and other documented formats;linked data access separate",
+      "authentication": "No key for tested public CMR metadata. Selected collection AccessConstraints require NASA Earthdata profile/login for science data;no account/credentials obtained.",
+      "free_access_restrictions": "Selected collection explicitly freely/openly available with citation;science-data access requires Earthdata login. Metadata query is public. Third-party or restricted CMR holdings not included.",
+      "license": "Explicit dataset unrestricted-use grant with required citation in official UMM UseConstraints",
+      "license_url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?page_size=1&short_name=SPL3SMP_E&version=006",
+      "api_verification_state": "documented_metadata_sample_success_data_login_required_untested",
+      "latest_checked_utc": "2026-10-16T18:33:32.708568+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4909,24 +4934,6 @@
       "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:24:48.056308+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "nasa-cmr",
-      "provider": "NASA Earthdata Common Metadata Repository",
-      "service_name": "NASA Earthdata Common Metadata Repository API",
-      "geographic_coverage": "Global/Polar",
-      "topical_coverage": "climate/weather/environment; geospatial; oceans",
-      "dataset_families": "Earth observation collections; granules; services",
-      "documentation_url": "https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html",
-      "api_base_url": "https://cmr.earthdata.nasa.gov/search/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-and-information-policy",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:24:47.845230+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
