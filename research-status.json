@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T17:17:38.999149+00:00",
+  "published_at": "2026-10-16T17:19:41.524111+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:16:36.794874+00:00",
+  "research_updated_at": "2026-10-16T17:19:26.471808+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Current SDMX agency scheme fully retrieved; service endpoints remain to verify",
+  "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 75,
-    "candidates": 151,
+    "verified": 76,
+    "candidates": 150,
     "excluded": 4,
-    "sample_successes": 122
+    "sample_successes": 123
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -861,7 +861,8 @@
           "france",
           "portugal",
           "registry-data-sz-ch",
-          "registry-daten-sg-ch"
+          "registry-daten-sg-ch",
+          "registry-europeandataportal-eu"
         ],
         "candidate_provider_ids": [
           "bgs"
@@ -892,6 +893,7 @@
           "legislation-uk",
           "paris",
           "poland",
+          "registry-europeandataportal-eu",
           "registry-open-nrw",
           "registry-transparenz-karlsruhe-de"
         ],
@@ -935,7 +937,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "darus",
-          "registry-data-tg-ch"
+          "registry-data-tg-ch",
+          "registry-europeandataportal-eu"
         ],
         "candidate_provider_ids": [
           "b2share",
@@ -2940,6 +2943,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:43:35.413527+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "registry-europeandataportal-eu",
+      "provider": "Publications Office of the European Union / data.europa.eu",
+      "service_name": "European data portal metadata catalog APIs",
+      "geographic_coverage": "Europe",
+      "topical_coverage": "law/civic; research; geospatial",
+      "dataset_families": "DCAT metadata for European national/local/thematic catalogs and datasets; underlying distributions individually licensed",
+      "documentation_url": "https://data.europa.eu/data/sparql",
+      "api_base_url": "https://data.europa.eu/sparql",
+      "format_protocol": "CKAN Action API candidate/JSON",
+      "authentication": "none for successful initial SPARQL sample",
+      "free_access_restrictions": "Initial public SPARQL metadata request returned JSON; latest targeted request deferred under fetched robots policy, with no HTTP API request sent",
+      "license": "CC0 1.0 for portal metadata; EU editorial content CC BY 4.0; source resources individually licensed",
+      "license_url": "https://data.europa.eu/en/legal-notice",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T17:17:40.882349+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5300,24 +5321,6 @@
       "license_url": "https://dataportal.se",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:42:15.235422+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "registry-europeandataportal-eu",
-      "provider": "European Data Portal",
-      "service_name": "European Data Portal portal API",
-      "geographic_coverage": "unknown",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://www.europeandataportal.eu/",
-      "api_base_url": "https://www.europeandataportal.eu/data/en/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.europeandataportal.eu/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:00.517138+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
