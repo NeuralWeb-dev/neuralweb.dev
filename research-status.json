@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T21:44:56.176990+00:00",
+  "published_at": "2026-10-16T21:46:58.507051+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:42:31.333971+00:00",
+  "research_updated_at": "2026-10-16T21:46:31.367471+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SouthAsia:OpenDataPakistan finite1505metadata/17requests toempty,originalsourcegrantcandidate;Bangladeshactualmetadata200malformedJSON,priorCKANroutecorrected;PBSpolicyAPIgap;SriLankascopedsurveynonAPIrestrictions",
+  "latest_milestone": "African environment/budget:DigitalEarthAfrica scopedCCBY4/STACdocumented,samplepolicy-deferred;BIRDIE APIcandidate;Vulekamali NT-ownedreuse reviewed/currentinterfacegap;Ghana draftFAQ notblanketgrant",
   "counts": {
-    "verified": 133,
-    "candidates": 162,
+    "verified": 134,
+    "candidates": 163,
     "excluded": 22,
     "sample_successes": 157
   },
@@ -1262,8 +1262,10 @@
         "restricted_provider_ids": []
       },
       "agriculture": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "digitalearth-africa"
+        ],
         "candidate_provider_ids": [
           "tunisia"
         ],
@@ -1272,14 +1274,17 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "digitalearth-africa",
           "oman-data"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "water": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "digitalearth-africa"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1316,8 +1321,10 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "digitalearth-africa"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
@@ -1360,16 +1367,20 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "digitalearth-africa"
+        ],
         "candidate_provider_ids": [
           "tunisia"
         ],
         "restricted_provider_ids": []
       },
       "research": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "digitalearth-africa"
+        ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
       }
@@ -1414,6 +1425,7 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "digitalearth-africa",
           "rwanda"
         ],
         "candidate_provider_ids": [
@@ -1423,10 +1435,13 @@
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "digitalearth-africa"
+        ],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "sanbi-birdie",
           "wascal"
         ],
         "restricted_provider_ids": []
@@ -1434,9 +1449,11 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "digitalearth-africa",
           "registry-municipaldata-treasury-gov-za"
         ],
         "candidate_provider_ids": [
+          "sanbi-birdie",
           "wascal"
         ],
         "restricted_provider_ids": []
@@ -1478,9 +1495,13 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "unsearched",
-        "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "digitalearth-africa"
+        ],
+        "candidate_provider_ids": [
+          "sanbi-birdie"
+        ],
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
@@ -1513,7 +1534,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "cifor-icraf"
+          "cifor-icraf",
+          "sanbi-birdie"
         ],
         "restricted_provider_ids": []
       },
@@ -1532,6 +1554,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "digitalearth-africa",
           "rwanda"
         ],
         "candidate_provider_ids": [
@@ -1543,11 +1566,13 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "digitalearth-africa",
           "rwanda"
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
           "laws-africa-knowledge",
+          "sanbi-birdie",
           "wascal"
         ],
         "restricted_provider_ids": [
@@ -2893,6 +2918,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "digitalearth-africa",
+      "provider": "Digital Earth Africa",
+      "service_name": "Digital Earth Africa Explorer STAC and public data access",
+      "geographic_coverage": "Africa;Sub-Saharan Africa;Middle East/North Africa",
+      "topical_coverage": "geospatial; climate/weather/environment; water; agriculture; research",
+      "dataset_families": "Earth-observation products and archive metadata;officialSTACtutorial usesSentinel2s2_l2a. Productcollectioninventory/sourceexceptions notenumerated.",
+      "documentation_url": "https://docs.digitalearthafrica.org/en/latest/platform_tools/direct_access.html",
+      "api_base_url": "https://explorer.digitalearth.africa/stac/",
+      "format_protocol": "DocumentedSTAC catalog/search JSON;publicCOG/S3assetaccess described,notdownloaded",
+      "authentication": "OfficialSTACClient.openexamplehasnokey;publicarchiveaccess documented;runtimecanonicalSTACuntested",
+      "free_access_restrictions": "Officialdocsstatefreepublicaccess toDEAfricaarchiveS3products;noAWSaccount/paidcompute/storage/requestchargesincurred. APIservicequotas/SLAunknown.",
+      "license": "CC BY4.0 forDigitalEarthAfrica data;notnotebookcode",
+      "license_url": "https://docs.digitalearthafrica.org/en/latest/sandbox/notebooks/Frequently_used_code/Downloading_data_with_STAC.html",
+      "api_verification_state": "documented_api_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T21:44:07.059907+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "dnb",
       "provider": "German National Library (Deutsche Nationalbibliothek)",
       "service_name": "DNB Linked Data SPARQL Service",
@@ -3987,7 +4030,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:41:59.581144+00:00",
+      "latest_checked_utc": "2026-10-16T21:45:28.806116+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5637,15 +5680,15 @@
       "geographic_coverage": "Ghana;ministries/agencies datasets",
       "topical_coverage": "multisector public data",
       "dataset_families": "Official portal lists agriculture,business,education,energy,environment,finance,health,local government and statistics;dataset-specific API availability unconfirmed",
-      "documentation_url": "https://data.gov.gh/",
+      "documentation_url": "https://data.gov.gh/faq | https://data.gov.gh/dataset/households-engaged-agriculture-type-activity-and-region",
       "api_base_url": "",
-      "format_protocol": "unknown;CKAN-style discovery probe was not sent",
-      "authentication": "unknown;no active official API documented in this review",
-      "free_access_restrictions": "Indexed official FAQ describes free open data but is markedDRAFT;dataset exceptions and active API access unresolved.",
-      "license": "Unconfirmed:official FAQ(draft) names default Open Data Commons Attribution with exceptions;individual dataset metadata not fetched",
-      "license_url": "https://data.gov.gh/faq",
-      "api_verification_state": "api_interface_unconfirmed_requests_policy_deferred",
-      "latest_checked_utc": "2026-10-16T18:48:32.758428+00:00",
+      "format_protocol": "Indexed dataset pages advertise DKAN metadata JSON/RDF;actualcurrent APIbase/queryunverified,priorCKANrouteproposednotdocumented",
+      "authentication": "unknown;draftFAQclaimnotcurrentauthenticationproof",
+      "free_access_restrictions": "DraftFAQ saysfree/no registration;adoptedcurrentAPIconditionsunknown. Noaccount/payment acquired.",
+      "license": "Mixed dataset declarations;draftFAQODCBY1.0recommendation notadoptedblanketgrant",
+      "license_url": "https://data.gov.gh/terms-use | https://data.gov.gh/dataset/households-engaged-agriculture-type-activity-and-region",
+      "api_verification_state": "indexed_api_claim_direct_docs_policy_deferred",
+      "latest_checked_utc": "2026-10-16T21:45:08.122917+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7042,14 +7085,14 @@
       "topical_coverage": "public spending/contracts; economics/finance",
       "dataset_families": "National and provincial budget datasets; expenditure; budget documents",
       "documentation_url": "https://vulekamali.gov.za/about",
-      "api_base_url": "https://data.vulekamali.gov.za/api/3/action/",
-      "format_protocol": "CKAN Action API/JSON",
-      "authentication": "unknown; public sample attempted",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://vulekamali.gov.za/terms",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:43:51.263487+00:00",
+      "api_base_url": "",
+      "format_protocol": "OfficialoverviewstatesDatastore/API;ENEguidedescribesOpenSpendingAPI;actualactiveCKAN/OpenSpendingrouteunverified",
+      "authentication": "unknown;no actualpublicAPIquerysentthisbatch",
+      "free_access_restrictions": "Canonicaltermsencouragefreecommercial/noncommercialreuse subjectconditions;actualAPIquota/auth/tierunknown",
+      "license": "CustomVulekamaliTerms ofUsev1.0,NT-owneddata commercial/noncommercialreuse permission;thirdpartylicenses separate",
+      "license_url": "https://vulekamali.gov.za/terms-and-conditions",
+      "api_verification_state": "official_api_overview_and_terms_reviewed_base_access_unresolved",
+      "latest_checked_utc": "2026-10-16T21:43:45.657173+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7248,6 +7291,24 @@
       "license_url": "https://www.fedstat.ru/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.934253+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sanbi-birdie",
+      "provider": "South African National Biodiversity Institute (SANBI) / BIRDIE partners",
+      "service_name": "BIRDIE wetlands and waterbirds OpenAPI",
+      "geographic_coverage": "South Africa;Sub-Saharan Africa;African wetland/waterbird scope perdocs",
+      "topical_coverage": "biodiversity; water; climate/weather/environment; geospatial; research",
+      "dataset_families": "Citizen-science-derived wetland/waterbird indices,modelleddistribution/abundance,site/speciesinformation,RAMSARreporting;sourceCWAC/SABAP hostedUCT",
+      "documentation_url": "https://birdieapp.sanbi.org.za/birdie/swagger-ui/",
+      "api_base_url": "https://birdieapp.sanbi.org.za/application/openapi/v1/",
+      "format_protocol": "Documented REST/JSON;runtimeuntested duepolicy",
+      "authentication": "No credentials used;documentedexampleshave nokey;actualaccessconditionsunverified",
+      "free_access_restrictions": "No account/payment acquired;see scopedofficialdocs;productiontier/guaranteesunknown",
+      "license": "unknown;open-accessdescriptionnotdatareusegrant",
+      "license_url": "https://birdieapp.sanbi.org.za/resources.html",
+      "api_verification_state": "documented_indexed_openapi_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T21:45:08.122917+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
