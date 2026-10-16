@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T17:29:52.927061+00:00",
+  "published_at": "2026-10-16T17:31:55.346184+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:29:06.362449+00:00",
+  "research_updated_at": "2026-10-16T17:31:40.561043+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: provider verification, registry discovery and complete World Bank series listing",
   "counts": {
-    "verified": 82,
-    "candidates": 143,
+    "verified": 83,
+    "candidates": 142,
     "excluded": 5,
     "sample_successes": 124
   },
@@ -717,6 +717,7 @@
         "verified_provider_ids": [
           "cbs",
           "denmark-statbank",
+          "destatis",
           "eurostat",
           "ons",
           "registry-opendata-fr-ch",
@@ -726,7 +727,6 @@
           "statfin"
         ],
         "candidate_provider_ids": [
-          "destatis",
           "fsd-finland",
           "ine-spain",
           "insee",
@@ -740,6 +740,7 @@
         "verified_provider_ids": [
           "cbs",
           "denmark-statbank",
+          "destatis",
           "ecb",
           "eurostat",
           "ons",
@@ -748,7 +749,6 @@
           "statfin"
         ],
         "candidate_provider_ids": [
-          "destatis",
           "ine-spain",
           "insee",
           "russia",
@@ -761,6 +761,7 @@
         "verified_provider_ids": [
           "cbs",
           "denmark-statbank",
+          "destatis",
           "eurostat",
           "ons",
           "registry-opendata-gov-je",
@@ -769,7 +770,6 @@
           "statfin"
         ],
         "candidate_provider_ids": [
-          "destatis",
           "ine-spain",
           "russia",
           "stat-portugal"
@@ -2309,6 +2309,24 @@
       "license_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:22:43.447718+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "destatis",
+      "provider": "Federal Statistical Office Germany GENESIS",
+      "service_name": "Destatis GENESIS-Online REST API",
+      "geographic_coverage": "Germany",
+      "topical_coverage": "demographics; economics/finance; labor",
+      "dataset_families": "GENESIS official statistical tables; classifications",
+      "documentation_url": "https://www.destatis.de/DE/Service/OpenData/genesis-api-webservice-oberflaeche.html",
+      "api_base_url": "https://genesis.destatis.de/genesisWS/rest/2020/",
+      "format_protocol": "REST via POST; JSON metadata/status and CSV/flat-file CSV/XLSX/ZIP data downloads",
+      "authentication": "Free registration required for API; API token recommended for read requests, or username/password in headers",
+      "free_access_restrictions": "Official current Python guide explicitly documents free registration; no account/key obtained. General database no-registration statement does not mean anonymous API access.",
+      "license": "Datenlizenz Deutschland – Namensnennung – Version2.0",
+      "license_url": "https://www.destatis.de/DE/Service/OpenData/genesis-api-webservice-oberflaeche.html",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T17:30:21.526824+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3934,24 +3952,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "destatis",
-      "provider": "Federal Statistical Office Germany GENESIS",
-      "service_name": "Federal Statistical Office Germany GENESIS API",
-      "geographic_coverage": "Germany",
-      "topical_coverage": "demographics; economics/finance; labor",
-      "dataset_families": "GENESIS official statistical tables; classifications",
-      "documentation_url": "https://www.destatis.de/EN/Service/OpenData/api-webservice.html",
-      "api_base_url": "https://www-genesis.destatis.de/genesisWS/rest/2020/",
-      "format_protocol": "REST/JSON",
-      "authentication": "key/account requirements need current documentation",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.destatis.de/EN/Service/Legal-Notice/copyright.html",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:34:08.786221+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "eclac",
       "provider": "UN ECLAC CEPALSTAT",
       "service_name": "UN ECLAC CEPALSTAT open data API",
@@ -4056,7 +4056,7 @@
       "license": "unknown",
       "license_url": "https://pro.europeana.eu/page/europeana-licensing-framework",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:28:46.726503+00:00",
+      "latest_checked_utc": "2026-10-16T17:30:21.561624+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -4404,19 +4404,19 @@
     {
       "identifier": "insee",
       "provider": "INSEE",
-      "service_name": "INSEE API",
+      "service_name": "INSEE APIs — Melodi statistical catalog interface under review",
       "geographic_coverage": "France",
       "topical_coverage": "demographics; economics/finance; companies/nonprofits",
       "dataset_families": "Statistical data; Sirene company registry; geographic codes",
-      "documentation_url": "https://portail-api.insee.fr/",
-      "api_base_url": "https://api.insee.fr/",
+      "documentation_url": "https://api-apimanager.insee.fr/portal/environments/DEFAULT/apis/a890b735-159c-4c91-90b7-35159c7c9126/pages/ee625968-272a-4637-a259-68272aa63766/content",
+      "api_base_url": "https://api.insee.fr/melodi/",
       "format_protocol": "REST/JSON",
-      "authentication": "key/token requirements depend on service",
+      "authentication": "Melodi OpenAPI retrieved without credentials; data-service authentication/access still untested",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.insee.fr/en/information/2381863",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:34:10.164015+00:00",
+      "license": "Licence Ouverte / Open Licence2.0 default for INSEE public data, with exceptions",
+      "license_url": "https://www.insee.fr/fr/information/2008466",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T17:30:21.594683+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5601,10 +5601,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "key required; api.data.gov registration",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Official indexed FAQ explicitly identifies CC0-designated assets/metadata; non-CC0 assets retain restrictions",
       "license_url": "https://www.si.edu/openaccess/faq",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:28:48.917663+00:00",
+      "latest_checked_utc": "2026-10-16T17:30:21.627680+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
