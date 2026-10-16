@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-16T18:31:06.052772+00:00",
+  "published_at": "2026-10-16T18:33:09.052496+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:29:04.105956+00:00",
+  "research_updated_at": "2026-10-16T18:32:10.542884+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
     "verified": 103,
     "candidates": 131,
-    "excluded": 10,
+    "excluded": 11,
     "sample_successes": 134
   },
   "remaining_work": [
@@ -61,7 +61,8 @@
         "restricted_provider_ids": [
           "bis",
           "fred",
-          "imf"
+          "imf",
+          "un-comtrade"
         ]
       },
       "labor": {
@@ -85,7 +86,8 @@
           "wfp"
         ],
         "restricted_provider_ids": [
-          "fao"
+          "fao",
+          "un-comtrade"
         ]
       },
       "climate/weather/environment": {
@@ -139,7 +141,9 @@
           "nims-mdr",
           "openchargemap"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "un-comtrade"
+        ]
       },
       "health": {
         "status": "partial_verified",
@@ -198,7 +202,9 @@
         "candidate_provider_ids": [
           "openchargemap"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "un-comtrade"
+        ]
       },
       "geospatial": {
         "status": "partial_verified",
@@ -321,7 +327,8 @@
           "wfp"
         ],
         "restricted_provider_ids": [
-          "fao"
+          "fao",
+          "un-comtrade"
         ]
       },
       "research": {
@@ -367,7 +374,8 @@
         ],
         "restricted_provider_ids": [
           "copernicus-marine",
-          "deims"
+          "deims",
+          "un-comtrade"
         ]
       }
     },
@@ -2679,8 +2687,8 @@
       "documentation_url": "https://dome.ices.dk/api/swagger/index.html",
       "api_base_url": "https://dome.ices.dk/api/",
       "format_protocol": "REST/OpenAPI3 JSON specification;download/DarwinCore endpoints",
-      "authentication": "OpenAPI declares globalHTTPBearerJWT;protecteddata calls untested,no token obtained. Public browse page available separately.",
-      "free_access_restrictions": "DOME API specification explicitlyCC BY4.0 data;public browse conditions/citation apply. Credential issuance,cost andoperational quotas unknown;noaccount acquisition.",
+      "authentication": "OpenAPI declares global HTTP Bearer JWT authentication. Data calls are untested; no token obtained. Public browse page available separately.",
+      "free_access_restrictions": "DOME specification explicitly licenses data CC BY 4.0. Credential issuance, cost and operational quotas remain unknown; no account or key acquired.",
       "license": "Creative Commons Attribution4.0 for publicDOMEdata",
       "license_url": "https://www.ices.dk/data/guidelines-and-policy/Pages/ICES-data-policy.aspx",
       "api_verification_state": "documented_bearer_required_untested",
@@ -5310,7 +5318,7 @@
       "api_base_url": "https://ws.pangaea.de/",
       "format_protocol": "OAI-PMH/XML; DOI data services",
       "authentication": "none for public metadata",
-      "free_access_restrictions": "Terms5.5 fair-useAPI access;excessive/mass metadata+data retrieval andcommercialautomatedwebsiteextraction mayleadtoforceddisconnectunlesspriorauthorization;API-specificlimitationsmayapply. No bulk harvest authorized/performed.",
+      "free_access_restrictions": "Terms section 5.5 allows fair-use API access and permits limits/disconnection for excessive or mass metadata/data retrieval and commercial automated website extraction unless prior authorization is obtained. Additional API-specific limits may apply. No bulk harvest performed.",
       "license": "Dataset-specific;no particular dataset open licence confirmed in this API review",
       "license_url": "https://www.pangaea.de/about/terms.php",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
@@ -6379,6 +6387,24 @@
       "license_url": "https://open-meteo.com/en/terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.362473+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "un-comtrade",
+      "provider": "United Nations Statistics Division / UN Comtrade",
+      "service_name": "UN Comtrade trade-data API",
+      "geographic_coverage": "Global reporter/partner trade statistics; availability varies by country,classification and period",
+      "topical_coverage": "economics/finance;agriculture;energy;transportation;research",
+      "dataset_families": "Merchandise and services trade;annual/monthly reporter-partner commodity flows and classification metadata",
+      "documentation_url": "https://uncomtrade.org/docs/un-comtrade-api/",
+      "api_base_url": "https://comtradeapi.un.org/",
+      "format_protocol": "HTTP REST;JSON default,CSV/TXT export options documented",
+      "authentication": "Public preview documented;registered free subscription key for standard data APIs;premium/bulk features separate. No account/key obtained.",
+      "free_access_restrictions": "Official help documents a free basic tier with up to 500 calls/day and 100K records/call; public preview is capped at 500 records. Premium/bulk access is separate and was not acquired. The Usage Agreement still applies.",
+      "license": "UN Comtrade Usage Agreement: copying, automated downloading, redistribution, publication and commercial exploitation require prior written permission unless applicable law permits.",
+      "license_url": "https://comtradeplus.un.org/LicenseAgreement",
+      "api_verification_state": "documented_untested_terms_restricted",
+      "latest_checked_utc": "2026-10-16T18:30:24.351037+00:00",
       "classification": "restricted"
     },
     {
