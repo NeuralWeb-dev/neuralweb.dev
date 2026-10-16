@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T17:38:02.654012+00:00",
+  "published_at": "2026-10-16T17:40:05.170283+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:37:19.013363+00:00",
+  "research_updated_at": "2026-10-16T17:39:49.221174+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 84,
-    "candidates": 139,
+    "candidates": 141,
     "excluded": 7,
     "sample_successes": 125
   },
@@ -3869,6 +3869,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cimmyt",
+      "provider": "CIMMYT research data repository",
+      "service_name": "CIMMYT research data repository public metadata/data APIs",
+      "geographic_coverage": "Dataset-dependent; not yet verified",
+      "topical_coverage": "research",
+      "dataset_families": "Research dataset catalog; individual study subjects and geographic coverage require primary review",
+      "documentation_url": "https://data.cimmyt.org/",
+      "api_base_url": "https://data.cimmyt.org/api/",
+      "format_protocol": "unknown",
+      "authentication": "unknown; public read sample without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://data.cimmyt.org/",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T17:39:08.529423+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "colombia",
       "provider": "Colombian government datos.gov.co",
       "service_name": "Colombian government datos.gov.co open data portal",
@@ -3974,6 +3992,24 @@
       "license_url": "https://data.gov.cz/podmínky-užití",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:41.121820+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dr-ntu",
+      "provider": "Nanyang Technological University DR-NTU Data",
+      "service_name": "Nanyang Technological University DR-NTU Data public metadata/data APIs",
+      "geographic_coverage": "Dataset-dependent; not yet verified",
+      "topical_coverage": "research",
+      "dataset_families": "Research dataset catalog; individual study subjects and geographic coverage require primary review",
+      "documentation_url": "https://researchdata.ntu.edu.sg/",
+      "api_base_url": "https://researchdata.ntu.edu.sg/api/",
+      "format_protocol": "unknown",
+      "authentication": "unknown; public read sample without credentials",
+      "free_access_restrictions": "unknown",
+      "license": "unknown",
+      "license_url": "https://researchdata.ntu.edu.sg/",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-16T17:39:08.564899+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
