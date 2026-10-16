@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T19:09:51.184103+00:00",
+  "published_at": "2026-10-16T19:11:53.535072+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:09:13.748904+00:00",
+  "research_updated_at": "2026-10-16T19:11:45.698121+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 111,
     "candidates": 134,
     "excluded": 13,
-    "sample_successes": 140
+    "sample_successes": 141
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -2591,19 +2591,19 @@
     {
       "identifier": "eso-archive",
       "provider": "European Southern Observatory (ESO)",
-      "service_name": "ESO Science Archive TAP catalog andobservation APIs",
+      "service_name": "ESO Science Archive TAP catalog and observation APIs",
       "geographic_coverage": "Astronomical observations fromESO/LaSillaParanal/APEX andspecified contributedholdings;internationalaccess",
       "topical_coverage": "astronomy | research",
       "dataset_families": "ESO observationalarchive,calibrations andcatalogs;publicreleaseddata only",
       "documentation_url": "https://archive.eso.org/tap_obs/examples",
       "api_base_url": "https://archive.eso.org/tap_cat/ | https://archive.eso.org/tap_obs/",
-      "format_protocol": "IVOA TAP/ADQL;VOTable;requestedJSONuntested",
-      "authentication": "Publicquery interface documented;samplependingcrawl-delay;proprietarydata access restricted toauthorizedPI/delegates",
+      "format_protocol": "IVOA TAP/ADQL; JSON schema-query response; VOTable documented",
+      "authentication": "Anonymous TAP schema query succeeded; proprietary data requires authorized PI/delegate access",
       "free_access_restrictions": "Publicrelease afterproprietaryperiod,typically1year;calibrationsnormallyimmediatelypublic;specialexceptions/GTOpossible",
-      "license": "CC BY4.0 forESOarchivedata underpublishedpolicy",
+      "license": "Creative Commons Attribution 4.0",
       "license_url": "https://www.eso.org/cms/eso-data-access-policy.html",
-      "api_verification_state": "documented_untested_sample_waiting_polite_crawl_delay",
-      "latest_checked_utc": "2026-10-16T18:59:55.714206+00:00",
+      "api_verification_state": "documented_schema_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T19:05:30.723730+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4861,7 +4861,7 @@
     {
       "identifier": "idigbio",
       "provider": "Integrated Digitized Biocollections (iDigBio)",
-      "service_name": "iDigBio SearchAPIv2",
+      "service_name": "iDigBio Search API v2",
       "geographic_coverage": "Global;collection/observation-specific coverage",
       "topical_coverage": "biodiversity | research",
       "dataset_families": "Naturalhistory specimen andmedia metadata;recordset/collection discovery;specimenobservations notfetched",
@@ -4870,7 +4870,7 @@
       "format_protocol": "Read-onlyHTTPGET/POSTJSON",
       "authentication": "No credentials in successful collectionmetadata query",
       "free_access_restrictions": "Publicmetadata query succeeded;source-specificrights,mixedlicences;not uniformopenaccess grant",
-      "license": "Dataset-specific/mixed;sample metadata declares CC3 BY-NC;projectwide open licence unconfirmed",
+      "license": "Dataset-specific and mixed; no uniform open licence verified",
       "license_url": "https://www.idigbio.org/sites/default/files/iDigBio_Intellectual_Property_Policy_20141001.pdf",
       "api_verification_state": "documented_collection_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T19:05:45.373897+00:00",
@@ -5125,7 +5125,7 @@
       "license": "unknown;acknowledgement guidance is not an explicit open-data grant",
       "license_url": "https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T19:06:05.709370+00:00",
+      "latest_checked_utc": "2026-10-16T19:11:06.831096+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6546,7 +6546,7 @@
       "format_protocol": "RESTJSON documented;APIcallsuntested",
       "authentication": "Key associated with eBirdaccount required for most APIs;termsallow fewunspecified exceptions",
       "free_access_restrictions": "Noncommercial licence;commercialuse requires prior writtenpermission;no paidacquisition or permissionrequested",
-      "license": "Custom noncommercial,revocable,nontransferable,nonsublicensable API/data-use terms",
+      "license": "Custom noncommercial, revocable API and data-use terms",
       "license_url": "https://www.birds.cornell.edu/home/ebird-api-terms-of-use/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T19:03:24.478790+00:00",
@@ -6564,10 +6564,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "Noncommercialreuse withcredit;commercialuse separately authorized,no permissionrequested",
-      "license": "CC BY-NC3.0 IGO;commercialuse requires separate ESA authorization",
+      "license": "CC BY-NC 3.0 IGO; commercial use requires ESA authorization",
       "license_url": "https://www.cosmos.esa.int/web/gaia-users/license",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T19:06:03.781917+00:00",
+      "latest_checked_utc": "2026-10-16T19:11:05.630009+00:00",
       "classification": "restricted"
     },
     {
