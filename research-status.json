@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T18:59:39.726149+00:00",
+  "published_at": "2026-10-16T19:01:42.068615+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T18:59:38.148186+00:00",
+  "research_updated_at": "2026-10-16T19:01:36.564570+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 109,
+    "verified": 110,
     "candidates": 133,
     "excluded": 11,
-    "sample_successes": 138
+    "sample_successes": 139
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -2470,6 +2470,24 @@
       "license_url": "https://www.destatis.de/DE/Service/OpenData/genesis-api-webservice-oberflaeche.html",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T17:30:21.526824+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "dnb",
+      "provider": "German National Library (Deutsche Nationalbibliothek)",
+      "service_name": "DNB Linked Data SPARQL Service",
+      "geographic_coverage": "Germany bibliographic remit;international authority entities and publications",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "GND authority metadata;German nationalbibliography;ZDB serials and ISIL metadata via3named backends",
+      "documentation_url": "https://sparql.dnb.de/gnd",
+      "api_base_url": "https://sparql.dnb.de/api/gnd | https://sparql.dnb.de/api/dnbgnd | https://sparql.dnb.de/api/zdb",
+      "format_protocol": "SPARQL;RDF;SPARQLresultsJSON;CSV/TSV throughUI",
+      "authentication": "No credentials in successful public GND reference query",
+      "free_access_restrictions": "Official servicepage releases DNBmetadata as open data CC0;no charge/auth in sample;service availability not guaranteed",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://sparql.dnb.de/gnd",
+      "api_verification_state": "documented_reference_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T19:00:56.603104+00:00",
       "classification": "open_license_verified"
     },
     {
