@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T19:56:48.432422+00:00",
+  "published_at": "2026-10-16T19:58:50.781540+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:56:12.147118+00:00",
+  "research_updated_at": "2026-10-16T19:58:13.562700+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
     "verified": 118,
-    "candidates": 141,
+    "candidates": 142,
     "excluded": 14,
     "sample_successes": 144
   },
@@ -5911,7 +5911,7 @@
       "license": "OpenSTAT-specificapplicabledatareusegrant unresolved;otherPSAwebsitesCCBY4notautomaticallytransferable",
       "license_url": "https://psa.gov.ph/terms-of-use",
       "api_verification_state": "documented_directory_metadata_sample_success_license_unresolved",
-      "latest_checked_utc": "2026-10-16T19:51:30.289870+00:00",
+      "latest_checked_utc": "2026-10-16T19:56:09.979520+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5948,6 +5948,24 @@
       "license_url": "https://www.data.gov.qa/pages/license/annexes | https://www.npc.qa/en/media/Documents/OpenData/En_OpenDataLicensingPolicy.pdf",
       "api_verification_state": "documented_portal_api_link_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T19:31:27.909688+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "queensland-data",
+      "provider": "Queensland Government Open Data Portal",
+      "service_name": "Queensland open data portal;catalogAPIcandidate",
+      "geographic_coverage": "Queensland;Australia;Oceania;state/local",
+      "topical_coverage": "climate/weather/environment | law/civic data | public spending/contracts | water | transportation",
+      "dataset_families": "Officialindexedportalexamples:environmentalresourceactivities,waterentitlements andtransportlicence-valueaggregates;wholecatalogAPI/datafamiliesnotenumerated",
+      "documentation_url": "https://www.data.qld.gov.au/",
+      "api_base_url": "",
+      "format_protocol": "RootidentifiesCKANsoftware;standardActionJSONroute proposed,notcurrentAPIproof;resourcepagesindexedAPIbadgesnotactiveendpointtests",
+      "authentication": "unknown;proposedcatalogprobe notsent byrobots;noaccount/keyobtained",
+      "free_access_restrictions": "SampleindexedpublishedresourceexplicitCCBY4;APIaccess/tierconditionsunconfirmed;nocharge/acquisition",
+      "license": "SpecificenvironmentalresourceactivitiesdatasetCC BY4.0 onofficialindexedpage;portalwidegrantunconfirmed",
+      "license_url": "https://www.data.qld.gov.au/dataset/resource-activities-environmental-protection-act-1994",
+      "api_verification_state": "portal_root_verified_api_unrequested_policy_dataset_page202_challenge",
+      "latest_checked_utc": "2026-10-16T19:57:13.945796+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
