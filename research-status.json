@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T19:32:19.040861+00:00",
+  "published_at": "2026-10-16T19:34:21.311031+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:30:13.483751+00:00",
+  "research_updated_at": "2026-10-16T19:33:22.798748+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Socrata native cursor reached empty page:174241 unique assets/612 domains;92 selected rights documents fetched;UNHCR22 metadata andHongKong3830 IDs complete;HKmetadata ongoing;USDA31 rasters andUkraine/Moldova rights/API docs checkpointed;DominicanODbLdatasetlabel/APIcandidate retained",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 115,
-    "candidates": 136,
+    "verified": 117,
+    "candidates": 138,
     "excluded": 13,
-    "sample_successes": 144
+    "sample_successes": 145
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3273,6 +3273,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "oman-data",
+      "provider": "Oman National Centre for Statistics and Information (NCSI)",
+      "service_name": "Oman Data Portal Knoema/SDMX APIs",
+      "geographic_coverage": "Oman;Middle East",
+      "topical_coverage": "health | climate/weather/environment | economics/finance",
+      "dataset_families": "Nationalstatisticalportal;sampledpublicpagefamilies SDG3health andSDG12consumption/production. APIenumerationdocs describeavailabledatasetmetadata;noobservationsqueried.",
+      "documentation_url": "https://data.gov.om/byocwae/how-to-enumerate-datasets",
+      "api_base_url": "https://data.gov.om/api/1.0/",
+      "format_protocol": "Officialdocs SDMX/XMLdatasetenumeration;datasetpagesadvertiseJSON,Python,C# andSDMXinterfaces",
+      "authentication": "Publicdatasetpages anonymous;actualSDMXAPIrequestnot sentbyrobots;credentialsforotherinterfacesunknown,noaccount/keyobtained",
+      "free_access_restrictions": "Terms applyOpenGovernmentLicense towebsiteopendata,commercial/noncommercialreuse;noindividualpermission required. Serviceavailabilitynotguaranteed/provider mayblockaccess. Nocharge/subscriptionacquired.",
+      "license": "Open Government License – Sultanate of Oman;customgrant statescompatibilitywithCC BY4.0",
+      "license_url": "https://data.gov.om/s3/gov_license.pdf | https://data.gov.om/legal/termsofuse",
+      "api_verification_state": "documented_sdmx_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T19:32:10.636094+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ons",
       "provider": "UK Office for National Statistics",
       "service_name": "UK Office for National Statistics open data portal",
@@ -3756,6 +3774,24 @@
       "license_url": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:20:42.945404+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "serbia-data",
+      "provider": "Republic of Serbia Office for IT and eGovernment",
+      "service_name": "National Open Data Portal uData API",
+      "geographic_coverage": "Serbia;Europe;national andlocalpublicsector",
+      "topical_coverage": "demographics | economics/finance | labor | agriculture | education | culture | law/civic data",
+      "dataset_families": "Catalog includesretailprices/costofliving,GDP/investment,labourforce/employment,agriculturalholdings/crops,preschooleducation,cinemas/radio/TV;metadatafamiliesobserved,notallresourcefilestested.",
+      "documentation_url": "https://data.gov.rs/sr/apidoc/ | https://data.gov.rs/api/1/swagger.json",
+      "api_base_url": "https://data.gov.rs/api/1/",
+      "format_protocol": "uData RESTJSON/Swagger2;DCAT/RDFcatalog routesdocumented",
+      "authentication": "AnonymouscatalogmetadataGETsucceeded;write/user/private actionsseparateAPIcredentials;noneobtained",
+      "free_access_restrictions": "Publicbodydatasets andmetadata freecommercial/noncommercialreuse exceptotherwise stipulated;publicreadAPI tested;nocharge/accountacquired",
+      "license": "Serbian Open Data Portal customdata license;explicitcommercialadaptation/reusegrant",
+      "license_url": "https://data.gov.rs/terms",
+      "api_verification_state": "documented_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T19:31:01.348198+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4244,6 +4280,24 @@
       "license_url": "https://eudat.eu/services/userdoc/license-selector",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:56:54.500330+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bahrain-data",
+      "provider": "Bahrain Information and eGovernment Authority",
+      "service_name": "Bahrain Open Data Portal Explore API candidate",
+      "geographic_coverage": "Bahrain;Middle East",
+      "topical_coverage": "unknown",
+      "dataset_families": "Governmentopen-data catalog;majorsectorfamilies notyetindependentlyinspected",
+      "documentation_url": "https://www.data.gov.bh/api/",
+      "api_base_url": "https://www.data.gov.bh/api/",
+      "format_protocol": "Portal linksAPI;proposedExplorev2.1JSONcatalogroute nottestedbyrobots",
+      "authentication": "unknown;publictermsaccessible,APIrequestnot sentbypolicy;noaccount/keyobtained",
+      "free_access_restrictions": "TermsincorporateBahrainOpenGovernmentDataLicense;fullgrant/accessconditions unresolved;nocharge/subscriptionacquired",
+      "license": "Bahrain Open Government Data License v1.0 referenced;fulltextreviewincomplete",
+      "license_url": "https://www.data.gov.bh/pages/terms-and-conditions | https://nea.gov.bh/Documents/OpenDataLicense.pdf",
+      "api_verification_state": "documented_portal_api_link_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T19:31:07.402086+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5756,6 +5810,24 @@
       "license_url": "https://planetarycomputer.microsoft.com/terms",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:28:43.954903+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "qatar-data",
+      "provider": "Qatar National Planning Council",
+      "service_name": "Qatar Open Data Portal Explore API candidate",
+      "geographic_coverage": "Qatar;Middle East",
+      "topical_coverage": "unknown",
+      "dataset_families": "Governmentopendata catalog;sectorfamilies notyetindependentlyinspected",
+      "documentation_url": "https://www.data.gov.qa/api/",
+      "api_base_url": "https://www.data.gov.qa/api/",
+      "format_protocol": "PortaladvertisesAPI;proposedExplorev2.1JSONcatalogroute policy-deferred",
+      "authentication": "unknown;termsmentionlogged-inAPIcalls,notproofallreadsrequirelogin;noaccount/keyobtained",
+      "free_access_restrictions": "Licensepage sayscommercial/noncommercialreuse underCCBY4-basedlicense;fulllinkedpolicy/exceptions notread. Generalwebsitecontent reproductionrestrictedexceptotherwiseprovided;dataspecificgrant needsfullverification. Nocharge/acquisition.",
+      "license": "PortaldescribesCCBY4-basedopendatalicense;fullpolicy/exclusionsunreviewed",
+      "license_url": "https://www.data.gov.qa/pages/license/annexes | https://www.npc.qa/en/media/Documents/OpenData/En_OpenDataLicensingPolicy.pdf",
+      "api_verification_state": "documented_portal_api_link_sample_untested_policy_restricted",
+      "latest_checked_utc": "2026-10-16T19:31:27.909688+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
