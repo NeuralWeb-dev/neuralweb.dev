@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-16T19:20:02.980120+00:00",
+  "published_at": "2026-10-16T19:22:05.210867+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T19:16:49.824400+00:00",
+  "research_updated_at": "2026-10-16T19:21:48.373355+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 112,
+    "verified": 113,
     "candidates": 135,
     "excluded": 13,
-    "sample_successes": 142
+    "sample_successes": 144
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -33,6 +33,7 @@
         "verified_provider_ids": [
           "datacommons",
           "geonames",
+          "unhcr-portal",
           "unicef",
           "worldbank"
         ],
@@ -53,6 +54,7 @@
           "gleif",
           "ilo",
           "oecd",
+          "unhcr-portal",
           "worldbank"
         ],
         "candidate_provider_ids": [
@@ -70,7 +72,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "ilo",
-          "oecd"
+          "oecd",
+          "unhcr-portal"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -156,6 +159,7 @@
           "nih-mesh",
           "nih-pubmed",
           "pdb",
+          "unhcr-portal",
           "unicef",
           "uniprot",
           "worldbank"
@@ -181,6 +185,7 @@
           "openalex",
           "ror",
           "unesco",
+          "unhcr-portal",
           "unicef",
           "worldbank"
         ],
@@ -3907,6 +3912,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "unhcr-portal",
+      "provider": "UNHCR",
+      "service_name": "Refugee Data Portal Data API v0",
+      "geographic_coverage": "Global;series-specific country/time coverage",
+      "topical_coverage": "demographics | health | labor | education | economics/finance",
+      "dataset_families": "Official population statistics;asylum;resettlement;nutrition;employment;poverty andotherpublic aggregate series;catalog22series",
+      "documentation_url": "https://refugeedata.unhcr.org/en/documentation/technical-reference/api/",
+      "api_base_url": "https://api-data.unhcr.org/api/v0/",
+      "format_protocol": "Read-onlyRESTJSON;CSVexports documented",
+      "authentication": "Officialdocs:noaccount,key ortoken;anonymouscatalog andseriesmetadata succeeded",
+      "free_access_restrictions": "Best-effortAPI foroccasionalanalysis/research;docs saynotintended forproductionbackends,continuoushigh-volume polling,orthirdpartyservices relyingonAPI. DiscussadvancedusewithUNHCR;cachedata. No subscription acquired.",
+      "license": "CC BY4.0 default forpublicUNHCRdatasetsexceptwhereotherwiseindicated",
+      "license_url": "https://refugeedata.unhcr.org/en/terms-and-conditions-of-use/",
+      "api_verification_state": "documented_series_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-16T19:18:00.013663+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "unicef",
       "provider": "UNICEF Data",
       "service_name": "UNICEF Data API",
@@ -4865,19 +4888,19 @@
     {
       "identifier": "hong-kong",
       "provider": "Hong Kong Government DATA.GOV.HK",
-      "service_name": "Hong Kong Government DATA.GOV.HK open data API",
+      "service_name": "DATA.GOV.HK CKAN metadata, historical archive and filtering APIs",
       "geographic_coverage": "Hong Kong SAR, China",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog metadata; transport; weather; public services",
-      "documentation_url": "https://data.gov.hk/en/help/api-spec",
-      "api_base_url": "https://api.data.gov.hk/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public metadata",
-      "free_access_restrictions": "Both guessed catalog endpoints returned 403 Missing Authentication Token; not proof of universal key requirement",
-      "license": "Custom DATA.GOV.HK terms; commercial/noncommercial distribution allowed, full open-reuse scope still under review",
+      "documentation_url": "https://data.gov.hk/en/help/ckan-api-development-guide",
+      "api_base_url": "https://data.gov.hk/en-data/api/3/action/ | https://app.data.gov.hk/v1/historical-archive/ | https://api.data.gov.hk/v2/filter",
+      "format_protocol": "Documented CKAN HTTPGETJSON;historicalarchive/filterinterfaces separate",
+      "authentication": "Anonymousdocumentedpackage_list succeeded;oldapi.data.gov.hk/metadata routewaswrong,notproofkeyrequired",
+      "free_access_restrictions": "Portalterms allowfreecommercial/noncommercial copying/distribution withsource/IPattribution andindemnitycondition;modification/adaptationgrant notexplicit inreviewedterms",
+      "license": "CustomDATA.GOV.HK terms1.2;commercialredistribution allowed,butopenadaptationrights unconfirmed",
       "license_url": "https://data.gov.hk/en/terms-and-conditions",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:41:04.916488+00:00",
+      "api_verification_state": "documented_catalog_id_sample_success_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-16T19:19:36.757213+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6377,19 +6400,19 @@
     {
       "identifier": "unhcr",
       "provider": "UNHCR Refugee Statistics",
-      "service_name": "UNHCR Refugee Statistics open data API",
+      "service_name": "Legacy Refugee Population Statistics API v1",
       "geographic_coverage": "Global",
       "topical_coverage": "demographics; law/civic",
       "dataset_families": "Refugees; asylum seekers; displaced and stateless populations",
-      "documentation_url": "https://www.unhcr.org/refugee-statistics/insights/explainers/refugee-data-finder.html",
+      "documentation_url": "https://api.unhcr.org/docs/refugee-statistics.html",
       "api_base_url": "https://api.unhcr.org/population/v1/",
       "format_protocol": "REST/JSON",
-      "authentication": "none for public metadata",
+      "authentication": "Anonymouscountryreference request succeeded",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Methodologypage indexedCC BY4.0default;legacy supplementalterms notfullyinspected",
       "license_url": "https://www.unhcr.org/terms-and-conditions",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:37:00.834937+00:00",
+      "api_verification_state": "documented_reference_metadata_sample_success_legacy_rights_review_pending",
+      "latest_checked_utc": "2026-10-16T19:19:51.727229+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
