@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-16T22:01:15.277672+00:00",
+  "published_at": "2026-10-16T22:03:17.571982+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T21:57:24.329050+00:00",
+  "research_updated_at": "2026-10-16T22:02:58.706596+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BnF metadataLicenceOuverte/Gallicacontentrestrictions separated;publishedDCAT47descriptors andall47originaldescriptorpagesHTTP200 completefinitefetch,manualrights/APIreviewpending;runtimepolicy-deferred",
+  "latest_milestone": "EastAsia:CWA documentedkey-required/currentgrantcandidate;CiNiiResearchAPIpurpose-restricted,BooksNACSISCCBY4/serviceinteractioncandidate;19referencepages/39source-rightsclaims;Taiwanexportpolicydeferred",
   "counts": {
     "verified": 134,
-    "candidates": 165,
-    "excluded": 23,
+    "candidates": 167,
+    "excluded": 24,
     "sample_successes": 158
   },
   "remaining_work": [
@@ -196,9 +196,11 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "cinii-books",
           "fsd-finland"
         ],
         "restricted_provider_ids": [
+          "cinii-research",
           "orcid"
         ]
       },
@@ -346,6 +348,7 @@
         "candidate_provider_ids": [
           "artic",
           "cifor-icraf",
+          "cinii-books",
           "loc",
           "nasa-power",
           "ocha-hapi",
@@ -356,6 +359,7 @@
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
+          "cinii-research",
           "fao",
           "un-comtrade"
         ]
@@ -399,6 +403,7 @@
           "b2share",
           "checklistbank",
           "cifor-icraf",
+          "cinii-books",
           "ena",
           "europepmc",
           "figshare",
@@ -417,6 +422,7 @@
         "restricted_provider_ids": [
           "acled",
           "bnf-gallica",
+          "cinii-research",
           "copernicus-marine",
           "deims",
           "ebird",
@@ -1811,6 +1817,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "hk-weather",
+          "taiwan-cwa",
           "thailand-gistda"
         ],
         "restricted_provider_ids": []
@@ -1820,7 +1827,9 @@
         "verified_provider_ids": [
           "japan-dashboard"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "taiwan-cwa"
+        ],
         "restricted_provider_ids": []
       },
       "energy": {
@@ -1846,8 +1855,12 @@
         "verified_provider_ids": [
           "japan-dashboard"
         ],
-        "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "candidate_provider_ids": [
+          "cinii-books"
+        ],
+        "restricted_provider_ids": [
+          "cinii-research"
+        ]
       },
       "housing": {
         "status": "partial_verified",
@@ -1876,6 +1889,7 @@
         ],
         "candidate_provider_ids": [
           "gbif-japan",
+          "taiwan-cwa",
           "thailand-gistda"
         ],
         "restricted_provider_ids": []
@@ -1932,17 +1946,23 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "cinii-books",
           "thailand-gistda"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "cinii-research"
+        ]
       },
       "research": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "cinii-books",
           "nims-mdr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "cinii-research"
+        ]
       }
     },
     "Southeast Asia": {
@@ -4047,7 +4067,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
-      "latest_checked_utc": "2026-10-16T21:56:58.436567+00:00",
+      "latest_checked_utc": "2026-10-16T22:02:26.482409+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4582,12 +4602,12 @@
       "documentation_url": "https://data.gov.tw/",
       "api_base_url": "https://data.gov.tw/api/",
       "format_protocol": "REST/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
+      "authentication": "EarlierpubliccatalogmetadataGETwithoutcredentials;currentendpointaccess policy-deferred",
       "free_access_restrictions": "Public catalog record API sample succeeded without key",
       "license": "Open Government Data License Taiwan v1.0; CC BY 4.0 compatible",
       "license_url": "https://data.gov.tw/license",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:00:39.635672+00:00",
+      "api_verification_state": "historical_same_day_sample_success_current_catalog_policy_deferred",
+      "latest_checked_utc": "2026-10-16T21:58:50.179119+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5328,6 +5348,24 @@
       "license_url": "https://data.cimmyt.org/",
       "api_verification_state": "untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T17:39:08.529423+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cinii-books",
+      "provider": "National Institute of Informatics (NII)",
+      "service_name": "CiNii Books / NACSIS-CAT metadata APIs",
+      "geographic_coverage": "Japan;East Asia;global bibliographic collections",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "NACSIS-CAT books/journals,author,library andholdingsmetadata",
+      "documentation_url": "https://support.nii.ac.jp/en/cinii/api/api_outline",
+      "api_base_url": "https://ci.nii.ac.jp/books/opensearch/",
+      "format_protocol": "DocumentedOpenSearch,RDF/XML,JSON-LD andOpenURL",
+      "authentication": "key/approvedregistration required;noneobtained",
+      "free_access_restrictions": "Registration/applicationID documented;noapproval/keyorAPIrequest. Bulkaccessnotused.",
+      "license": "NACSIS-CAT records explicitCCBY4.0;APIpurpose/approvalinteraction unresolved",
+      "license_url": "https://support.nii.ac.jp/en/cinii/copyright | https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7581,6 +7619,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "taiwan-cwa",
+      "provider": "Taiwan Central Weather Administration",
+      "service_name": "CWA Open Data platform APIs",
+      "geographic_coverage": "Taiwan;East Asia",
+      "topical_coverage": "climate/weather/environment; water; geospatial",
+      "dataset_families": "Meteorological platform;documentedforecastcodeF-C0032-001,otherproductfamilies require review",
+      "documentation_url": "https://opendata.cwa.gov.tw/devManual/description",
+      "api_base_url": "https://opendata.cwa.gov.tw/api/v1/rest/datastore/",
+      "format_protocol": "Documented REST JSON/XML,fileAPI,historymetadata andGraphQL",
+      "authentication": "key/approvedregistration required;noneobtained",
+      "free_access_restrictions": "Officialindexedguide describesfreeemailregistration andmemberauthorizationcode. Noaccount/keyorAPIdataquery.",
+      "license": "Currentapplicablegrantunconfirmed;historicalforecastregistryrecordOGDLTaiwanv1.0",
+      "license_url": "https://data.gov.tw/dataset/6069",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T22:01:37.662144+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "thailand",
       "provider": "Thailand government data.go.th",
       "service_name": "Thailand government data.go.th open data portal",
@@ -7958,6 +8014,24 @@
       "license_url": "https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica | https://www.bnf.fr/en/order-reproduction-commercial-use",
       "api_verification_state": "documented_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:53:50.981610+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "cinii-research",
+      "provider": "National Institute of Informatics (NII)",
+      "service_name": "CiNii Research scholarly discovery APIs",
+      "geographic_coverage": "Japan;East Asia;global research metadata",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Articles,researchdata,doctoraldissertations,projects,people,library/holdingsmetadata andcross-sourceentities",
+      "documentation_url": "https://support.nii.ac.jp/en/cinii/api/api_outline",
+      "api_base_url": "https://cir.nii.ac.jp/opensearch/",
+      "format_protocol": "DocumentedOpenSearch,RDF/XML,JSON-LD,OpenURL;registeredAPIsuntested",
+      "authentication": "key/approvedregistration required;noneobtained",
+      "free_access_restrictions": "Registration/approval andpurposeconditions;noaccount/application submitted. Othercostsunknown.",
+      "license": "Mixed source rights;APIusage restricted toownacademicresearch/nonprofitinformationuse unlesspriorwrittenapproval",
+      "license_url": "https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf | https://support.nii.ac.jp/en/cinii/copyright",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
       "classification": "restricted"
     },
     {
