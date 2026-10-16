@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T17:46:12.390873+00:00",
+  "published_at": "2026-10-16T17:48:15.354401+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T17:44:34.493880+00:00",
+  "research_updated_at": "2026-10-16T17:47:33.775639+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 86,
-    "candidates": 140,
+    "verified": 87,
+    "candidates": 139,
     "excluded": 7,
     "sample_successes": 126
   },
@@ -933,12 +933,12 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "europeana",
           "eurostat",
           "registry-data-sz-ch",
           "registry-data-tg-ch"
         ],
         "candidate_provider_ids": [
-          "europeana",
           "perspectivia"
         ],
         "restricted_provider_ids": []
@@ -2409,6 +2409,24 @@
       "license_url": "https://www.epa.gov/outdoor-air-quality-data/do-i-need-request-permission-use-monitoring-data-and-graphics-airdata",
       "api_verification_state": "documented_status_sample_success_data_key_required_untested",
       "latest_checked_utc": "2026-10-16T17:42:33.848803+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "europeana",
+      "provider": "Europeana Foundation / common European data space for cultural heritage",
+      "service_name": "Europeana metadata and cultural-heritage discovery APIs",
+      "geographic_coverage": "Europe",
+      "topical_coverage": "culture",
+      "dataset_families": "Cultural heritage metadata; digital objects; entities",
+      "documentation_url": "https://api.europeana.eu/en",
+      "api_base_url": "https://api.europeana.eu/record/v2/",
+      "format_protocol": "REST/JSON",
+      "authentication": "Free Europeana account and API key documented; no key/account obtained",
+      "free_access_restrictions": "Current official API portal explicitly offers free personal API keys; production/high-volume conditions not fully reviewed",
+      "license": "CC0 1.0 for published provider metadata; digital objects/previews individually licensed",
+      "license_url": "https://www.dataspace-culturalheritage.eu/en/news/europeana-licensing-framework",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-16T17:46:33.846912+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4139,24 +4157,6 @@
       "license_url": "https://avaandmed.eesti.ee/terms",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:42.334121+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "europeana",
-      "provider": "Europeana Foundation",
-      "service_name": "Europeana Foundation API",
-      "geographic_coverage": "Europe",
-      "topical_coverage": "culture",
-      "dataset_families": "Cultural heritage metadata; digital objects; entities",
-      "documentation_url": "https://pro.europeana.eu/page/apis",
-      "api_base_url": "https://api.europeana.eu/record/v2/",
-      "format_protocol": "REST/JSON",
-      "authentication": "key required; free registration",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://pro.europeana.eu/page/europeana-licensing-framework",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T17:30:21.561624+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
