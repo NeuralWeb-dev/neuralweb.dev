@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T23:05:17.404800+00:00",
+  "published_at": "2026-10-17T23:07:20.752318+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:03:48.385160+00:00",
+  "research_updated_at": "2026-10-17T23:06:32.487169+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "HCUPnet aggregate-specificDUA notrawHCUPterms; ISSDCnativeinstitutional scope without exactAPIgrant; WholeBrain nativecopyrightrestriction.",
+  "latest_milestone": "OLACnativecollectionmetadataCC0/currentprotocol; PROMICEcuratedBY4+customwording andmachineAPI/nofollowholds; SLAnativePDMmarker/APIunresolved.",
   "counts": {
     "verified": 309,
-    "candidates": 625,
+    "candidates": 628,
     "excluded": 155,
     "sample_successes": 472
   },
@@ -16011,6 +16011,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "olac-language-archives-network",
+      "provider": "Open Language Archives Community / OLAC Committee and University of Cologne ITCC",
+      "service_name": "OLAC language-resource search and metadata network",
+      "geographic_coverage": "Worldwide language archives; native operator states over300000records/roughlyhalf livinglanguages, not independently enumerated",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Cross-archive language-resource collection/item metadata; underlying audio/text/other collections separately licensed",
+      "documentation_url": "https://www.language-archives.org/ | https://www.language-archives.org/OLAC/protocol/",
+      "api_base_url": "",
+      "format_protocol": "Current native OAI-PMH community standard metadata protocol, not deployment proof for every archive or current search backend",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Public metadata described; underlying archive/collection terms vary, no universal content access",
+      "license": "CC0 for collection metadata per current official imprint; underlying collectionlicences vary",
+      "license_url": "https://www.language-archives.org/imprint/",
+      "api_verification_state": "native_collection_metadata_CC0_and_OAI_protocol_verified_current_aggregator_API_runtime_unresolved",
+      "latest_checked_utc": "2026-10-17T23:06:28.251297+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ontario-data-catalog",
       "provider": "Government of Ontario",
       "service_name": "Ontario Data Catalogue documented CKAN catalog/DataStore APIs",
@@ -17088,6 +17106,24 @@
       "license_url": "https://prism.oregonstate.edu/terms",
       "api_verification_state": "native_anonymous_gridCount_scalar7_and_releaseDate_JSON5fields_success_current_custom_reuse_terms_verified_open_scope_unresolved",
       "latest_checked_utc": "2026-10-17T22:09:20.457958+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "promice-gcnet-weather-station-archives",
+      "provider": "GEUS / PROMICE and Greenland Climate Network",
+      "service_name": "PROMICE/GC-Net curated monthly and near-real-time weather-station archives",
+      "geographic_coverage": "Greenland ice-sheet/station network; nativeTHREDDS operator counts40sites/11partner sites not complete independent stationinventory",
+      "topical_coverage": "climate | weather | water | environment | geospatial | research",
+      "dataset_families": "AWS meteorological/glaciological monitoring; curated monthly archive distinct from hourly near-real-time transmitted products",
+      "documentation_url": "https://promice.org/download-data/ | https://dataverse.geus.dk/dataset.xhtml?persistentId=doi%3A10.22008%2FFK2%2FIW73UU",
+      "api_base_url": "https://dataverse.geus.dk/ (curated dataset API targetheld) | https://thredds.geus.dk/ (nativecatalogHTML, nofollowhold)",
+      "format_protocol": "Institutionally published Dataverse curated archive and THREDDS NetCDF/CSV services; current machine XML/JSON query untested underpolicyholds",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Exact curatedmonthlyrelease nativeCCBY4 with notification/acknowledgment/article+data citation wording; other source/version/partners require review",
+      "license": "Exact curatedAWSreleaseCCBY4.0 with native additional usage wording; other products/blanket metadata grant unknown",
+      "license_url": "https://dataverse.geus.dk/dataset.xhtml?persistentId=doi%3A10.22008%2FFK2%2FIW73UU",
+      "api_verification_state": "native_curated_release_BY4_verified_Dataverse_API_target_robots_held_THREDDS_meta_nofollow_deeper_traversal_held",
+      "latest_checked_utc": "2026-10-17T23:06:28.251297+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18312,6 +18348,24 @@
       "license_url": "",
       "api_verification_state": "operator_native_archive_reference_verified_original_host_robots_withheld_current_API_and_rights_unresolved",
       "latest_checked_utc": "2026-10-17T20:52:09.099270+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sla-speech-tools-repository",
+      "provider": "SLA Speech Tools academic research/teaching collaboration",
+      "service_name": "Tools for Second Language Speech Research and Teaching",
+      "geographic_coverage": "Second-language speech/acquisition teaching and research internationally; exact language/study inventory unenumerated",
+      "topical_coverage": "education | culture | health | research",
+      "dataset_families": "Auditory/music aptitude tests, questionnaires, individual language/processing tests, oral tasks and pronunciation teaching materials",
+      "documentation_url": "http://sla-speech-tools.com/ | https://sla-speech-tools.com/thetools",
+      "api_base_url": "",
+      "format_protocol": "Public repository/directory and downloadable teaching/testmaterials; not query/dataAPI proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native describes free public repository; exact individualtool/material rights and API access unverified",
+      "license": "Homepage displays CreativeCommons PublicDomainMark1.0; individual externally authored materials/grants unknown",
+      "license_url": "http://sla-speech-tools.com/ | https://creativecommons.org/publicdomain/mark/1.0/",
+      "api_verification_state": "native_free_repository_and_homepage_PDM_marker_verified_individual_material_rights_and_query_API_unresolved",
+      "latest_checked_utc": "2026-10-17T23:06:28.251297+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
