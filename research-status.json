@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T21:04:42.404755+00:00",
+  "published_at": "2026-10-17T21:06:45.447740+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:02:58.896026+00:00",
+  "research_updated_at": "2026-10-17T21:05:46.221038+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MycoBank restrictive indexed terms, DRKS date-dependent grants and LTER-Italy documented OGC/SensorThings scope reviewed; runtime holds and unknown metadata/database grants preserved.",
+  "latest_milestone": "IDC scoped CC BY series/API metadata and CERN CC0/OAI verified; PublicnEUro mixed access candidate. Indexed 179 IDC collections, 21 operations, one license sample and five CERN format declarations.",
   "counts": {
-    "verified": 290,
-    "candidates": 567,
+    "verified": 292,
+    "candidates": 568,
     "excluded": 124,
     "sample_successes": 475
   },
@@ -5148,6 +5148,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cern-open-data-portal",
+      "provider": "CERN and participating particle-physics collaborations",
+      "service_name": "CERN Open Data Portal metadata and dataset discovery",
+      "geographic_coverage": "International particle-physics collaborations and CERN accelerator experiments; experimental rather than population/geographic observations",
+      "topical_coverage": "research | physics",
+      "dataset_families": "Particle collision/simulation dataset descriptions, experimental provenance and educational research data. Other software/documentation retain applicable individual licenses.",
+      "documentation_url": "https://opendata.cern.ch/docs/terms-of-use | https://opendata.cern.ch/docs/cod-search-tips",
+      "api_base_url": "https://opendata.cern.ch/oai2d ; https://opendata.cern.ch/api/records/ (registry REST claim, native route held)",
+      "format_protocol": "Native OAI-PMH 2.0 Identify and five metadata format declarations. REST records native target withheld, no record response obtained.",
+      "authentication": "Anonymous OAI protocol metadata reads succeeded; operator states service free. Login and files not accessed.",
+      "free_access_restrictions": "Free service under operator terms; no bulk email collection, interference or prohibited use. Source software rights and availability restrictions retained.",
+      "license": "CC0 waiver for all portal metadata and datasets; other content governed by its applicable source license",
+      "license_url": "https://opendata.cern.ch/docs/terms-of-use",
+      "api_verification_state": "native_OAI_Identify_and_five_metadata_formats_success_explicit_CC0_metadata_dataset_grant_REST_records_policy_held",
+      "latest_checked_utc": "2026-10-17T21:05:37.382801+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "cessda-elsst",
       "provider": "CESSDA ERIC",
       "service_name": "ELSST multilingual social science thesaurus API",
@@ -7413,6 +7431,24 @@
       "license_url": "https://tidesandcurrents.noaa.gov/disclaimers.html",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:23:57.189204+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nci-imaging-data-commons",
+      "provider": "US National Cancer Institute Imaging Data Commons",
+      "service_name": "IDC v3 REST discovery API; scoped CC BY series",
+      "geographic_coverage": "Multi-source cancer imaging research; source study geographies vary, not all-world population coverage. Fresh NLST collection concerns US screening centers.",
+      "topical_coverage": "health | research",
+      "dataset_families": "Radiology, slide microscopy, image-derived annotations/segmentations and collection discovery. Accepted data scope only series explicitly carrying CC BY 3.0/4.0; excludes NC/NLM terms and unreviewed clinical tables.",
+      "documentation_url": "https://learn.canceridc.dev/rest-api/api | https://api.imaging.datacommons.cancer.gov/v3/openapi.json | https://learn.canceridc.dev/data/licensing",
+      "api_base_url": "https://api.imaging.datacommons.cancer.gov/v3",
+      "format_protocol": "Native REST JSON version, OpenAPI schema, 179 collection summaries and one collection-detail license breakdown. 21 documented GET/POST operations; not all invoked.",
+      "authentication": "Operator documents v3 API without authentication/accounts/credentials; native anonymous JSON reads succeeded",
+      "free_access_restrictions": "Public API no authentication documented. Source-level NC/NLM restrictions remain excluded. No cloud project, paid BigQuery query or storage acquisition used. DICOM proxy is a separate constrained interface, not sampled.",
+      "license": "CC BY 3.0/4.0 only for explicitly identified series; mixed archive also contains CC BY-NC and NLM terms, outside accepted scope",
+      "license_url": "https://learn.canceridc.dev/data/licensing",
+      "api_verification_state": "native_anonymous_v3_version_OpenAPI_179_collection_summaries_and_NLST_CC_BY_3_4_license_breakdown_success_source_scoped_acceptance",
+      "latest_checked_utc": "2026-10-17T21:05:37.382801+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15767,6 +15803,24 @@
       "license_url": "https://www.province-sud.nc/pandoreweb/openapi | https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf | https://raw.githubusercontent.com/etalab/licence-ouverte/master/LO.md",
       "api_verification_state": "documented_Pandore_cookie_key_required_untested_QGIS_WMS_metadata_sample_success_data_license_scope_unconfirmed",
       "latest_checked_utc": "2026-10-17T00:32:36.674744+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "publicneuro-repository",
+      "provider": "Neurobiology Research Unit, Rigshospitalet / Capital Region of Denmark",
+      "service_name": "PublicnEUro brain-imaging repository and public catalogue",
+      "geographic_coverage": "European-governed repository serving brain-imaging research; exact source geographies not inventoried, non-EU transfer safeguards vary",
+      "topical_coverage": "health | research | neuroscience",
+      "dataset_families": "MRI, PET, EEG, MEG and related human brain-imaging research; public study/version metadata, mixed open and controlled sources",
+      "documentation_url": "https://publicneuro.eu/about.html | https://publicneuro.eu/download.html | https://publicneuro.eu/policies.html",
+      "api_base_url": "",
+      "format_protocol": "HTML public operator documentation; BIDS, dataset DOI/version and machine-readable governance conditions described. No anonymous query contract/runtime verified.",
+      "authentication": "Public documentation anonymous; controlled data require institutional registration/identity verification, source DUA and sometimes controller approval/international safeguards",
+      "free_access_restrictions": "Open source subset described but not individually cleared. Controlled delivery and non-EU transfer requirements separate; no registration, video verification, contracts or access request performed.",
+      "license": "Source-specific license or Data User Agreement; no verified blanket metadata/database open grant; software MIT claim from registry not transferred",
+      "license_url": "https://publicneuro.eu/policy.html?doc=data-access-reuse+%7C+https%3A%2F%2Fpublicneuro.eu%2Fdownload.html",
+      "api_verification_state": "native_operator_mixed_access_and_governance_documented_policy_JS_shell_public_query_API_and_metadata_grant_unknown",
+      "latest_checked_utc": "2026-10-17T21:05:37.382801+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
