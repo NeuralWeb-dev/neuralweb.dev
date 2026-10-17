@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T19:53:08.523165+00:00",
+  "published_at": "2026-10-17T19:55:11.181453+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:52:50.136809+00:00",
+  "research_updated_at": "2026-10-17T19:54:53.826200+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UFZ spatial native OAI/schema verified; IVS11 distribution references indexed; cloud atlas restricted terms excluded",
+  "latest_milestone": "D-PLACE native root JSON/NC4 verified; GPCC2025 guides and IOW documented model interfaces reviewed with exact grants/runtime gaps",
   "counts": {
     "verified": 281,
-    "candidates": 530,
-    "excluded": 114,
+    "candidates": 532,
+    "excluded": 115,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -11926,6 +11926,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gpcc-precipitation-product-portal",
+      "provider": "Global Precipitation Climatology Centre / Deutscher Wetterdienst under WMO auspices",
+      "service_name": "GPCC precipitation product access portal; query API unestablished",
+      "geographic_coverage": "Global land-surface gridded precipitation; monthly2025 source guide says gauges from more than190 countries and1891–present, exact product coverage varies",
+      "topical_coverage": "climate | weather | water | precipitation | research",
+      "dataset_families": "Version2025 monthly/daily/climatology, first-guess, monitoring2022, HOAPS/GPCC, HOMPRA, drought indices and P-quantiles references",
+      "documentation_url": "https://opendata.dwd.de/climate_environment/GPCC/html/download_gate.html | https://opendata.dwd.de/climate_environment/GPCC/html/gpcc_precipitation_analysis_monthly_v2025_doi_download.html",
+      "api_base_url": "",
+      "format_protocol": "Documented gzip-compressed NetCDF distributions, source variables/resolutions/DOIs; no independent query contract verified",
+      "authentication": "Public product documentation accessible; actual file/visualizer access not tested",
+      "free_access_restrictions": "Source guides request citation and link DWD copyright; exact applicable reuse grant and API terms unresolved",
+      "license": "Exact GPCC grant unconfirmed; CDC-specific CC BY4 terms not silently transferred to GPCC",
+      "license_url": "https://www.dwd.de/copyright ; prior native DWD host hold retained, not re-requested",
+      "api_verification_state": "official_native_product_guides_verified_no_independent_query_API_or_exact_grant",
+      "latest_checked_utc": "2026-10-17T19:54:49.738290+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "granada-university-open-data",
       "provider": "Universidad de Granada / Oficina de Software Libre",
       "service_name": "OpenData UGR CKAN, advertised DCAT/SPARQL and DataStore interfaces",
@@ -12409,6 +12427,24 @@
       "license_url": "https://data.fdz.ioer.de/",
       "api_verification_state": "Dataverse_portal_verified_REST_OAI_samples_robots_withheld_target_unsent",
       "latest_checked_utc": "2026-10-17T19:34:35.204212+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iow-model-opendap-services",
+      "provider": "Leibniz Institute for Baltic Sea Research Warnemünde (IOW)",
+      "service_name": "IOW model data Hyrax and legacy THREDDS OPeNDAP services",
+      "geographic_coverage": "Marine model results, Baltic/source-specific research domains; exact model footprints unenumerated",
+      "topical_coverage": "oceans | water | climate | environment | research",
+      "dataset_families": "Marine model simulations; operator says older THREDDS has more datasets, to be integrated into newer Hyrax; source arrays unqueried",
+      "documentation_url": "https://www.iow.de/model-data.html",
+      "api_base_url": "https://hyrax.iow.de/opendap/ | https://thredds-iow.io-warnemuende.de/thredds/",
+      "format_protocol": "Operator documents OPeNDAP/NetCDF across both services and LAS visualization; current native catalogue response not established",
+      "authentication": "Public operator documentation; both attempted catalog requests unresolved/withheld, no source access tested",
+      "free_access_restrictions": "Institutional policy recommends CC BY4 but preserves project/third-party/embargo exceptions; exact model/API metadata grants unknown",
+      "license": "Exact model/catalogue/source grant unknown; IOW2025 CC BY4 recommendation is not universal assignment",
+      "license_url": "https://doi.iow.de/doi/2025/iow-datapolicy-2025/iow-datapolicy-2025.pdf",
+      "api_verification_state": "official_OPeNDAP_services_documented_native_catalogue_requests_unresolved_policy_holds_retained",
+      "latest_checked_utc": "2026-10-17T19:54:49.738290+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19539,6 +19575,24 @@
       "license_url": "https://digitalnz.org/about/terms-of-use/developer-api-terms-of-use",
       "api_verification_state": "documented_API_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.438678+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "dplace-cultural-data",
+      "provider": "D-PLACE / Max Planck Institute for Evolutionary Anthropology and collaborators",
+      "service_name": "D-PLACE culture, language and environment database / JSON metadata interface",
+      "geographic_coverage": "Cross-cultural societies, languages and environment; exact society/temporal coverage varies by contributed source",
+      "topical_coverage": "culture | anthropology | language | environment | research",
+      "dataset_families": "Societies, cultural/environmental variables, phylogenies and sources; CLDF aggregated releases from version3, earlier non-CLDF releases separate",
+      "documentation_url": "https://d-place.org/download",
+      "api_base_url": "https://d-place.org/ ; root content-negotiated project metadata JSON verified, broader query contract unreviewed",
+      "format_protocol": "Native application/json root object with project/licence metadata; download page HTML documents GitHub CLDF and Zenodo versioned archives",
+      "authentication": "Anonymous root JSON succeeded; other resource/export access untested",
+      "free_access_restrictions": "CC BY-NC4 on native root and download page; no paid rights, data acquisition, account or commercial reuse permission obtained",
+      "license": "Creative Commons Attribution-NonCommercial4.0 International",
+      "license_url": "https://d-place.org/download | http://creativecommons.org/licenses/by-nc/4.0/",
+      "api_verification_state": "native_anonymous_root_project_metadata_JSON_success_current_NC4_verified",
+      "latest_checked_utc": "2026-10-17T19:54:49.738290+00:00",
       "classification": "restricted"
     },
     {
