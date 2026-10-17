@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T17:58:44.107795+00:00",
+  "published_at": "2026-10-17T18:00:46.542507+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:57:51.291886+00:00",
+  "research_updated_at": "2026-10-17T17:58:56.693510+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FlowRepository client API, EcoCyc exception and ALSPAC controlled access checkpointed",
+  "latest_milestone": "Nine original tasks reviewed, twelve distinct records added; ETH six specifications/59 operations and ALSPAC eight references indexed; API/licence/access scopes retained",
   "counts": {
     "verified": 271,
     "candidates": 491,
@@ -45,6 +45,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "alspac-cohort-access-portal",
           "ghdx-ihme-discovery"
         ]
       },
@@ -79,7 +80,9 @@
           "unhcr-portal"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "alspac-cohort-access-portal"
+        ]
       },
       "agriculture": {
         "status": "partial_verified",
@@ -95,6 +98,7 @@
         ],
         "restricted_provider_ids": [
           "fao",
+          "gtap-current-database",
           "phi-base-api",
           "un-comtrade"
         ]
@@ -138,6 +142,8 @@
           "unsd"
         ],
         "restricted_provider_ids": [
+          "agdc-geomagnetic-portal",
+          "alspac-cohort-access-portal",
           "copernicus-marine",
           "deims",
           "fao",
@@ -177,6 +183,7 @@
           "undata-official-sdmx-api"
         ],
         "restricted_provider_ids": [
+          "gtap-current-database",
           "un-comtrade"
         ]
       },
@@ -208,6 +215,7 @@
           "wfp"
         ],
         "restricted_provider_ids": [
+          "alspac-cohort-access-portal",
           "ghdx-ihme-discovery",
           "ipd-immunopolymorphism-api",
           "openaq",
@@ -238,6 +246,7 @@
           "mit-timdex"
         ],
         "restricted_provider_ids": [
+          "alspac-cohort-access-portal",
           "cinii-research",
           "orcid"
         ]
@@ -248,7 +257,9 @@
           "osm"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "alspac-cohort-access-portal"
+        ]
       },
       "transportation": {
         "status": "partial_verified",
@@ -295,7 +306,9 @@
           "shom-data",
           "worldpop-wopr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "agdc-geomagnetic-portal"
+        ]
       },
       "public spending/contracts": {
         "status": "partial_candidates_only",
@@ -448,6 +461,7 @@
           "bnf-gallica",
           "cinii-research",
           "fao",
+          "gtap-current-database",
           "phi-base-api",
           "un-comtrade"
         ]
@@ -539,6 +553,8 @@
         ],
         "restricted_provider_ids": [
           "acled",
+          "agdc-geomagnetic-portal",
+          "alspac-cohort-access-portal",
           "bnf-gallica",
           "cinii-research",
           "copernicus-marine",
@@ -1459,6 +1475,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "alspac-cohort-access-portal",
           "neps-survey-research-access"
         ]
       },
@@ -1555,7 +1572,9 @@
           "stat-portugal",
           "trentino-open-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "alspac-cohort-access-portal"
+        ]
       },
       "agriculture": {
         "status": "partial_verified",
@@ -1658,6 +1677,8 @@
           "wis2-russian-federation"
         ],
         "restricted_provider_ids": [
+          "agdc-geomagnetic-portal",
+          "alspac-cohort-access-portal",
           "bonn-open-data",
           "catalonia-open-data",
           "cdgp-geothermal-portal",
@@ -1775,7 +1796,9 @@
           "terrassa-open-data",
           "tuscany-open-data-catalog"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "alspac-cohort-access-portal"
+        ]
       },
       "education": {
         "status": "partial_verified",
@@ -1854,6 +1877,7 @@
           "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
+          "alspac-cohort-access-portal",
           "bonn-open-data",
           "lindat-fcs",
           "maribor-dkum-oai",
@@ -1902,6 +1926,7 @@
           "serbia-rzs"
         ],
         "restricted_provider_ids": [
+          "alspac-cohort-access-portal",
           "geoguyane-csw-catalogue"
         ]
       },
@@ -2020,6 +2045,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "agdc-geomagnetic-portal",
           "bonn-open-data",
           "cdgp-geothermal-portal",
           "geoguyane-csw-catalogue",
@@ -2321,6 +2347,8 @@
           "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
+          "agdc-geomagnetic-portal",
+          "alspac-cohort-access-portal",
           "bnf-gallica",
           "cdgp-geothermal-portal",
           "copernicus-marine",
@@ -2991,8 +3019,10 @@
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "taibif-portal-v3"
+        ],
         "candidate_provider_ids": [
           "busan-public-apis",
           "hk-weather",
@@ -3116,8 +3146,10 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "taibif-portal-v3"
+        ],
         "candidate_provider_ids": [
           "gbif-japan"
         ],
@@ -3150,8 +3182,10 @@
         ]
       },
       "research": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "taibif-portal-v3"
+        ],
         "candidate_provider_ids": [
           "cinii-books",
           "nims-mdr"
