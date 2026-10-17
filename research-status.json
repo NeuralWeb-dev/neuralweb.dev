@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:07:26.649151+00:00",
+  "published_at": "2026-10-17T20:09:29.335443+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:06:14.038544+00:00",
+  "research_updated_at": "2026-10-17T20:09:09.955303+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "INTERMAGNET native154observatories/3074HAPI IDs verified underNCdefault; coastDat mappedWDCCmetadata/source distinction; Seaice host held",
+  "latest_milestone": "DIGIS currentGFZ CC0/BY4 policy verified versus registryGROhold; ICGEM/LITTERBASE docs reviewed with API/source-rights gaps",
   "counts": {
     "verified": 282,
-    "candidates": 537,
+    "candidates": 540,
     "excluded": 117,
     "sample_successes": 475
   },
@@ -11107,6 +11107,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "digis-repository-interfaces",
+      "provider": "DIGIS / University of Göttingen with current GFZ Data Services hosting",
+      "service_name": "DIGIS geochemical repository: registry GRO interface and current GFZ repository scope",
+      "geographic_coverage": "Worldwide geochemical rocks/glasses/minerals/inclusions; exact submitted dataset footprints vary",
+      "topical_coverage": "geochemistry | geology | isotope science | materials | research",
+      "dataset_families": "Peer-reviewed user-submitted geochemical/isotopic compositional datasets and curated metadata; exact legacy GRO collection unenumerated",
+      "documentation_url": "https://uni-goettingen.de/en/digis%2Brepository/651621.html",
+      "api_base_url": "",
+      "format_protocol": "Registry reports GRO Dataverse OAI-PMH; SWORD link is software documentation, not deployed readAPI proof. Current operator describes GFZ-hosted data publications",
+      "authentication": "GRO host withheld before transmission; current public repository policy says open/free with temporary data-file restrictions; exact API auth unknown",
+      "free_access_restrictions": "Current DIGIS/GFZ metadataCC0/sourceCCBY4; temporary moratoria and peer-review private links excluded. Old GRO rights and API runtime unresolved",
+      "license": "CC0 metadata and CC BY4 data explicitly for current DIGIS repository policy at GFZ; exact legacy GRO output grant unknown",
+      "license_url": "https://uni-goettingen.de/en/digis%2Brepository/651621.html",
+      "api_verification_state": "current_operator_grant_verified_registry_GRO_host_robots_withheld_OAI_read_runtime_unverified",
+      "latest_checked_utc": "2026-10-17T20:09:05.566156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dnv-geoweb",
       "provider": "District of North Vancouver",
       "service_name": "GeoWeb file catalogue and ArcGIS service directory",
@@ -12349,6 +12367,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "icgem-gravity-model-portal",
+      "provider": "International Centre for Global Earth Models / GFZ Helmholtz Centre for Geosciences",
+      "service_name": "ICGEM gravity-model catalogue and calculation portal",
+      "geographic_coverage": "Global gravity field models and other celestial bodies; model/period-specific scope",
+      "topical_coverage": "geodesy | geospatial | gravity | astronomy | research",
+      "dataset_families": "Static, temporal, simulated and topographic spherical-harmonic models; model evaluation/visualization and gravity functional calculations",
+      "documentation_url": "https://icgem.gfz.de/home | https://icgem.gfz.de/faq | https://icgem.gfz.de/dochome",
+      "api_base_url": "",
+      "format_protocol": "Model coefficient format and web calculation/visualization described; no machine-query result sampled",
+      "authentication": "Public main-site documentation; actual model/calculation access conditions not tested, login links not followed",
+      "free_access_restrictions": "Source-specific model licence/citation must be present in coefficient header per official publication guidance; exact catalogue/source grants unresolved",
+      "license": "Exact catalogue/API metadata and model-source grants unknown; model-specific licence must be checked",
+      "license_url": "https://icgem.gfz.de/imprint | https://icgem.gfz.de/faq",
+      "api_verification_state": "official_model_and_calculation_services_documented_native_HTML_only_query_API_gap",
+      "latest_checked_utc": "2026-10-17T20:09:05.566156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "idigbio",
       "provider": "Integrated Digitized Biocollections (iDigBio)",
       "service_name": "iDigBio Search API v2",
@@ -13084,6 +13120,24 @@
       "license_url": "https://osp.stat.gov.lt/en/rdb-rest",
       "api_verification_state": "documented_primary_SDMX_service_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T23:48:06.144992+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "litterbase-marine-litter-portal",
+      "provider": "Alfred Wegener Institute / LITTERBASE",
+      "service_name": "LITTERBASE marine-litter literature and synthesis portal",
+      "geographic_coverage": "Global marine litter and biological interactions compiled from studies; exact source study footprints vary",
+      "topical_coverage": "oceans | pollution | environment | biodiversity | research",
+      "dataset_families": "Litter/microplastic distribution and aquatic biological impacts, scientific publication references and aggregate analyses; root reports3071 studies, not enumerated",
+      "documentation_url": "https://litterbase.awi.de/ | https://litterbase.awi.de/about | https://litterbase.awi.de/litter",
+      "api_base_url": "",
+      "format_protocol": "HTML literature/map/analysis interface; inspected page/helper has no JSON/HTTP query contract established",
+      "authentication": "Public documentation accessible; API/source export conditions unknown",
+      "free_access_restrictions": "Main legal notice identifies AWI/liability but no explicit metadata/database/source open grant established",
+      "license": "Exact LITTERBASE metadata/database and source-study grant unknown; public scientific synthesis not automatic CC0/BY4",
+      "license_url": "https://litterbase.awi.de/static/imprint.html",
+      "api_verification_state": "official_HTML_and_published_chart_client_reviewed_no_API_contract_or_open_grant_verified",
+      "latest_checked_utc": "2026-10-17T20:09:05.566156+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
