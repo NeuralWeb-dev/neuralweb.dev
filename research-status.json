@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T18:49:47.694317+00:00",
+  "published_at": "2026-10-17T18:51:50.534379+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:46:14.573037+00:00",
+  "research_updated_at": "2026-10-17T18:49:47.994215+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals reviewed; RiuNet metadata CC0/nativeOAI accepted;1677sets/190dataset IDs,HALO113refs,Tethys294IDs,Edmond10refs indexed; PANGAEA reused; source interface/metadata grant gaps retained",
+  "latest_milestone": "FRED scoped metadata CC BY4/nativeXML/EML accepted; GEOROC testingkeyAPI and UFZdocumentedJSONsharing retained as rights/access candidates",
   "counts": {
-    "verified": 274,
-    "candidates": 503,
+    "verified": 275,
+    "candidates": 505,
     "excluded": 103,
     "sample_successes": 476
   },
@@ -6290,6 +6290,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "igb-fred-metadata-interface",
+      "provider": "Leibniz Institute of Freshwater Ecology and Inland Fisheries / IGB",
+      "service_name": "FRED package XML/EML metadata read interface",
+      "geographic_coverage": "Freshwater studies worldwide; long-term German lakes/rivers and international projects; verified sample Lake Stechlin1970-2020",
+      "topical_coverage": "water | biodiversity | climate | environment | research",
+      "dataset_families": "Lakes/rivers/wetlands environmental packages, long-term monitoring, limnology and species-group studies; metadata only scope",
+      "documentation_url": "https://fred.igb-berlin.de/data/package/617 | https://fred.igb-berlin.de/datapolicy/about",
+      "api_base_url": "https://fred.igb-berlin.de/data/getMetaXML/",
+      "format_protocol": "Documented per-package HTTPGET XML metadata export: DataCite kernel4XML and EML2.1.1XML; no general query API established",
+      "authentication": "Anonymous XML/EML metadata requests succeeded; source data access varies and was not requested",
+      "free_access_restrictions": "Public inspected metadata exports; measurement/source files not fetched, private/register-only access not queried",
+      "license": "CC BY4.0 for explicitly licensed package metadata exports",
+      "license_url": "https://fred.igb-berlin.de/data/package/617",
+      "api_verification_state": "native_anonymous_DataCite_XML_and_EML_metadata_exports_success_package617",
+      "latest_checked_utc": "2026-10-17T18:49:43.979033+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ilo",
       "provider": "International Labour Organization",
       "service_name": "International Labour Organization API",
@@ -11422,6 +11440,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "georoc2-testing-api",
+      "provider": "DIGIS / GEOROC project",
+      "service_name": "GEOROC2.0 testing-phase database API",
+      "geographic_coverage": "Global published geochemical rock samples; source coverage varies",
+      "topical_coverage": "geosciences | chemistry | research",
+      "dataset_families": "ODM2-based geochemical samples/sites, measurements, citations and related database resources",
+      "documentation_url": "https://github.com/digis-georoc/database-api | https://raw.githubusercontent.com/digis-georoc/database-api/main/docs/swagger.json",
+      "api_base_url": "https://api-test.georoc.eu/api/v1/ (documented testing host, runtime untested)",
+      "format_protocol": "REST; Swagger2.0published schema;39operations indexed, no data request performed",
+      "authentication": "DIGIS-API-ACCESSKEYheader required for queries/geodata; personal token on request, not acquired",
+      "free_access_restrictions": "Testing-phase API; cost/tier/access approval details unknown, no paid acquisition",
+      "license": "Legacy GEOROC compilations CC BY-SA4.0; new testingAPI/database effective grant unresolved",
+      "license_url": "https://georoc.eu/georoc/cite.asp | https://github.com/digis-georoc/database-api",
+      "api_verification_state": "operator_documented_testing_API_and_key_requirement_schema_verified_runtime_untested",
+      "latest_checked_utc": "2026-10-17T18:49:43.979033+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "germany",
       "provider": "GovData Germany",
       "service_name": "GovData Germany open data portal",
@@ -16189,6 +16225,24 @@
       "license_url": "https://opendata.openscience.ubbcluj.ro/faq | https://opendata.openscience.ubbcluj.ro/about",
       "api_verification_state": "official_catalogue_published_API_OAI_links_documentation_policy_held_no_native_API_sample",
       "latest_checked_utc": "2026-10-17T16:16:27.225881+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ufz-drp-archive-json-interface",
+      "provider": "Helmholtz Centre for Environmental Research / UFZ",
+      "service_name": "UFZ DRP / DMP Archive documented JSON sharing interface",
+      "geographic_coverage": "Environmental research datasets at UFZ; project geography varies",
+      "topical_coverage": "environment | water | biodiversity | geospatial | research",
+      "dataset_families": "File-based archive metadata and nonrestricted research information; distinct sample/logger/field-management/geodata categories",
+      "documentation_url": "https://www.ufz.de/index.php?en=50440+%7C+https%3A%2F%2Frdm.pages.ufz.de%2Fguidelines%2FRDM-infrastructures%2Fstorage-options-ufz%2F+%7C+https%3A%2F%2Fwww.ufz.de%2Fdrp%2Fen%2F",
+      "api_base_url": "",
+      "format_protocol": "Documented JSONAPI alongside browser/DRPsharing; native portalHTMLonly observed",
+      "authentication": "Public DRP exposes metadata/nonrestricted information. JSONAPIauthunknown; DMPadministration internal, not accessed.",
+      "free_access_restrictions": "Access/source conditions per record; author contact may be needed for restricted data, no contact performed",
+      "license": "unknown; effective metadata/database and archive-source reuse grant unresolved",
+      "license_url": "https://www.ufz.de/index.php?en=36683",
+      "api_verification_state": "official_JSON_sharing_interface_documented_exact_public_base_unverified_HTML_portal_only",
+      "latest_checked_utc": "2026-10-17T18:49:43.979033+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
