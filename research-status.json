@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T14:11:58.818331+00:00",
+  "published_at": "2026-10-17T14:14:01.694666+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:11:47.690364+00:00",
+  "research_updated_at": "2026-10-17T14:13:50.911795+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "UN/university8origins:754services243open453candidates58restricted;officialUNdata15nativeflowdescriptors indexed;91originals and broader queues remain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 243,
     "candidates": 453,
@@ -43,6 +43,7 @@
         "candidate_provider_ids": [
           "hdx",
           "ocha-hapi",
+          "undata-official-sdmx-api",
           "unhcr",
           "unsd",
           "wfp",
@@ -132,6 +133,7 @@
           "openaq",
           "pangaea",
           "planetary-computer",
+          "undata-official-sdmx-api",
           "unsd"
         ],
         "restricted_provider_ids": [
@@ -166,7 +168,8 @@
           "nasa-power",
           "nims-mdr",
           "openchargemap",
-          "openei-urdb"
+          "openei-urdb",
+          "undata-official-sdmx-api"
         ],
         "restricted_provider_ids": [
           "un-comtrade"
@@ -491,6 +494,7 @@
           "perspectivia",
           "rijksmuseum",
           "smithsonian",
+          "undata-official-sdmx-api",
           "wellcome-collection"
         ],
         "restricted_provider_ids": [
@@ -557,6 +561,7 @@
           "statcan"
         ],
         "candidate_provider_ids": [
+          "dol-public-data-api",
           "edmonton-open-data",
           "texas-state-open-data",
           "washington-state-open-data"
@@ -894,6 +899,7 @@
         "candidate_provider_ids": [
           "congress",
           "courtlistener",
+          "dol-public-data-api",
           "donnees-quebec-catalog",
           "nyc",
           "opendataphilly-jkan",
@@ -2834,7 +2840,8 @@
         "candidate_provider_ids": [
           "busan-public-apis",
           "sejong-bigdata-open-api",
-          "seoul-open-data-api"
+          "seoul-open-data-api",
+          "ulsan-bis-open-api"
         ],
         "restricted_provider_ids": []
       },
@@ -2849,6 +2856,7 @@
           "gbif-japan",
           "taiwan-cwa",
           "thailand-gistda",
+          "ulsan-bis-open-api",
           "wis2-china",
           "wis2-south-korea"
         ],
@@ -9702,7 +9710,7 @@
       "license": "Conditional publisher public-domain statement for government-created material; effective individual API-work grants unconfirmed",
       "license_url": "https://www.dol.gov/general/aboutdol/copyright",
       "api_verification_state": "documented_API_anonymous_catalogue_policy_held_target_unsent_keyed_operations_untested",
-      "latest_checked_utc": "2026-10-17T14:11:23.875205+00:00",
+      "latest_checked_utc": "2026-10-17T14:06:23.686570+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14616,7 +14624,7 @@
       "license": "Named service declares no usage restrictions; precise effective reuse instrument and service-terms scope unresolved",
       "license_url": "https://data.go.kr/data/15052669/openapi.do",
       "api_verification_state": "official_named_key_required_API_documented_sample_untested",
-      "latest_checked_utc": "2026-10-17T14:11:23.886517+00:00",
+      "latest_checked_utc": "2026-10-17T14:06:24.171722+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14634,7 +14642,7 @@
       "license": "Affirmative free copying and redistribution with UNdata citation; broader commercial/adaptation/effective-work grant scope unconfirmed",
       "license_url": "https://data.un.org/Host.aspx?Content=UNdataUse",
       "api_verification_state": "documented_sample_success_native_dataflow_metadata_JSON_only",
-      "latest_checked_utc": "2026-10-17T14:11:23.896523+00:00",
+      "latest_checked_utc": "2026-10-17T14:07:30.268953+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
