@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-16T23:59:36.581014+00:00",
+  "published_at": "2026-10-17T00:01:39.004280+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-16T23:59:01.572221+00:00",
+  "research_updated_at": "2026-10-17T00:01:35.969944+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GASTAT originalstatisticalAPI candidate;key/endpoint/rights scope unresolved",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 151,
-    "candidates": 196,
+    "candidates": 197,
     "excluded": 26,
     "sample_successes": 189
   },
@@ -3619,7 +3619,7 @@
       "license": "CC-BY-SA-4.0",
       "license_url": "https://andmed.stat.ee/en/help | https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
       "api_verification_state": "documented_JSON_metadata_and_one_cell_readonly_POST_observation_sample_success",
-      "latest_checked_utc": "2026-10-16T23:56:23.597447+00:00",
+      "latest_checked_utc": "2026-10-17T00:01:26.715700+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3835,7 +3835,7 @@
       "license": "Custom unrestricted statistical reuse permission with attribution",
       "license_url": "https://www.geostat.ge/en/page/monacemta-gamoyenebis-pirobebi",
       "api_verification_state": "documented_official_PxWeb_link_and_live_JSON_directory_metadata_sample_success_observations_untested",
-      "latest_checked_utc": "2026-10-16T23:55:56.585794+00:00",
+      "latest_checked_utc": "2026-10-17T00:01:13.579946+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4087,7 +4087,7 @@
       "license": "CC-BY-4.0 (selected LT/EN distributions only)",
       "license_url": "https://dataportal.gov.lt/lt/datasets/sd001594 | https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "documented_anonymous_readonly_POST_observation_and_schema_sample_success_scoped_CC_BY4",
-      "latest_checked_utc": "2026-10-16T23:56:24.878598+00:00",
+      "latest_checked_utc": "2026-10-16T23:59:56.562837+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8557,6 +8557,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "saudi-mofa",
+      "provider": "Ministry of Foreign Affairs, Kingdom of Saudi Arabia",
+      "service_name": "Saudi MOFA Open Data integration APIs",
+      "geographic_coverage": "Middle East; Saudi Arabia; worldwide diplomatic missions",
+      "topical_coverage": "law/civic; geospatial",
+      "dataset_families": "Published integrationguide names SaudiKingdomMissions statistics;remainingAPI families/currentcoverage unenumerated. Notconsularapplications/personalvisaorpassportrecords.",
+      "documentation_url": "https://www.mofa.gov.sa/ar/OpenData/Documents/UserManuals/Open%20Data%20APIs%20Integration%20Services%20V1.1.pdf",
+      "api_base_url": "https://opendata.mofa.gov.sa/opendataapi/",
+      "format_protocol": "Documented HTTPAPI;currentmethod/responseformat/schema notindependentlytested",
+      "authentication": "Primaryindexedofficialintegrationguide sayslistedAPIspublicandanonymous. Actualcurrentruntime/access unknown;no credentialedrequest/account/keyused.",
+      "free_access_restrictions": "Publicanonymousaccess documentedbut currentquota/free-tier/operative reusegrant unknown. No payment,dataacquisition,accountorpermissionmessages.",
+      "license": "Unconfirmed;official open-data description refers to incorporated legal licensingrequirements",
+      "license_url": "https://www.mofa.gov.sa/en/OpenData/Pages/default.aspx",
+      "api_verification_state": "documented_official_indexed_integration_API_sample_untested_original_document_policy_deferred",
+      "latest_checked_utc": "2026-10-17T00:00:50.350214+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "saudi-statistics",
       "provider": "General Authority for Statistics / GASTAT, Saudi Arabia",
       "service_name": "GASTAT statistical API developer service",
@@ -8570,8 +8588,8 @@
       "free_access_restrictions": "API existence documented,free-tier/productterms/cost/quota unconfirmed. No paidsubscription/dataacquisition. Publicwebsite reuse permission is separatefrom APIaccess.",
       "license": "Main GASTAT website custom any-purpose/commercial reuse permission;API-product applicability unresolved",
       "license_url": "https://stats.gov.sa/en/use-policy",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T23:59:01.484355+00:00",
+      "api_verification_state": "official_indexed_API_service_key_required_data_endpoint_and_sample_untested_scope_unconfirmed",
+      "latest_checked_utc": "2026-10-16T23:59:01.453102+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
