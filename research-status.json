@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T23:38:00.703971+00:00",
+  "published_at": "2026-10-17T23:40:03.452208+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:37:32.448423+00:00",
+  "research_updated_at": "2026-10-17T23:38:27.484109+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three original tasks reviewed: IndiaBiodiversity candidate (primaryindexed beta API/generalCC but original guardheld), OzFlux candidate (native licence conflict and no queryAPI verified), HPRD restricted academic/commercial terms. Entire returned OzFlux publicHTML pagination8pages71 uniquecollectionIDs processed, rightsqueue retained. No datafiles or account/licence acceptance.",
+  "latest_milestone": "Twelve original tasks reviewed:10 new records,2 deduplicated updates; OzFlux full71collection8page HTML frontier processed with exact rights unresolved,19social and5BAS references indexed.",
   "counts": {
     "verified": 314,
     "candidates": 644,
@@ -3310,6 +3310,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "esa-ecology",
+          "india-biodiversity-portal",
           "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal",
@@ -3348,7 +3349,9 @@
           "clinical-trials-registry-india",
           "pakistan-odp"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "human-protein-reference-database"
+        ]
       },
       "education": {
         "status": "partial_candidates_only",
@@ -3384,6 +3387,7 @@
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
           "digital-south-asia-library",
+          "india-biodiversity-portal",
           "issdc-space-science-archive",
           "wis2-india",
           "wis2-nepal"
@@ -3417,6 +3421,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "esa-ecology",
+          "india-biodiversity-portal",
           "nepal"
         ],
         "restricted_provider_ids": []
@@ -3456,6 +3461,7 @@
           "clinical-trials-registry-india",
           "digital-south-asia-library",
           "esa-ecology",
+          "india-biodiversity-portal",
           "india-environment-portal",
           "issdc-space-science-archive",
           "mtropics-sedoo-metadata",
@@ -3463,6 +3469,7 @@
           "udiseplus-education-data-api"
         ],
         "restricted_provider_ids": [
+          "human-protein-reference-database",
           "pakistan-petroleum-data-repository"
         ]
       }
@@ -3516,6 +3523,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "china-nbs",
           "japan-egov-data-catalog",
           "thailand-gistda"
         ],
@@ -3576,6 +3584,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "china-nbs",
           "cinii-books",
           "japan-egov-data-catalog"
         ],
@@ -3682,6 +3691,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "china-nbs",
           "cinii-books",
           "japan-egov-data-catalog",
           "thailand-gistda"
@@ -3698,6 +3708,7 @@
         ],
         "candidate_provider_ids": [
           "china-national-earth-observation-center",
+          "china-nbs",
           "cinii-books",
           "nims-mdr",
           "smoka-science-archive",
@@ -4001,6 +4012,7 @@
           "landcare-research-datastore",
           "mbie-geodata",
           "nsw-open-data-catalog",
+          "ozflux-data-portal",
           "pacific-data",
           "pacific-stat",
           "pacioos-erddap",
@@ -4016,8 +4028,10 @@
         ],
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
+          "dfo-pacific-ios-archive",
           "national-vegetation-survey-nz",
-          "spc-pccos-thredds"
+          "spc-pccos-thredds",
+          "state-of-the-salmon-resources"
         ]
       },
       "water": {
@@ -4028,6 +4042,7 @@
         ],
         "candidate_provider_ids": [
           "data-wa-catalogue-api",
+          "ozflux-data-portal",
           "qspatial-csw-catalog",
           "queensland-data",
           "rcc-acis-web-services",
@@ -4035,7 +4050,10 @@
           "sunshine-coast-open-data-search",
           "wa-slip-public-geospatial-services"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "dfo-pacific-ios-archive",
+          "state-of-the-salmon-resources"
+        ]
       },
       "energy": {
         "status": "partial_candidates_only",
@@ -4043,6 +4061,7 @@
         "candidate_provider_ids": [
           "data-wa-catalogue-api",
           "mbie-geodata",
+          "ozflux-data-portal",
           "sarig-geoscience-data-services"
         ],
         "restricted_provider_ids": []
@@ -4149,6 +4168,7 @@
         "restricted_provider_ids": [
           "national-vegetation-survey-nz",
           "spc-pccos-thredds",
+          "state-of-the-salmon-resources",
           "wa-slip-data-update-api"
         ]
       },
@@ -4213,7 +4233,8 @@
         ],
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
-          "national-vegetation-survey-nz"
+          "national-vegetation-survey-nz",
+          "state-of-the-salmon-resources"
         ]
       },
       "oceans": {
@@ -4231,7 +4252,9 @@
           "spc-pccos-tds"
         ],
         "restricted_provider_ids": [
-          "spc-pccos-thredds"
+          "dfo-pacific-ios-archive",
+          "spc-pccos-thredds",
+          "state-of-the-salmon-resources"
         ]
       },
       "astronomy": {
@@ -4281,6 +4304,7 @@
           "esgf-liu-discovery",
           "landcare-research-datastore",
           "nz-iponz",
+          "ozflux-data-portal",
           "pacioos-erddap",
           "pisco",
           "sarig-geoscience-data-services",
@@ -4291,12 +4315,14 @@
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
           "comparative-agendas-project",
+          "dfo-pacific-ios-archive",
           "digitalnz",
           "hilda-australia-household-survey",
           "indepth-ishare-data-repository",
           "national-vegetation-survey-nz",
           "rda-australia",
           "spc-pccos-thredds",
+          "state-of-the-salmon-resources",
           "wa-slip-data-update-api"
         ]
       }
@@ -4346,6 +4372,7 @@
         "candidate_provider_ids": [
           "aadc-weather",
           "apgc-permafrost-ckan",
+          "bas-locations-public-api",
           "copenhagen-geomagnetic-index-archive",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
@@ -4354,6 +4381,7 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
+          "dfo-pacific-ios-archive",
           "polar-data-catalogue-metadata-api",
           "seaice-portal"
         ]
@@ -4372,6 +4400,7 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
+          "dfo-pacific-ios-archive",
           "polar-data-catalogue-metadata-api"
         ]
       },
@@ -4430,6 +4459,7 @@
           "aadc-gazetteer",
           "aadc-metadata",
           "apgc-permafrost-ckan",
+          "bas-locations-public-api",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "nsidc"
@@ -4483,11 +4513,13 @@
           "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
+          "bas-locations-public-api",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
+          "dfo-pacific-ios-archive",
           "polar-data-catalogue-metadata-api",
           "seaice-portal"
         ]
@@ -4519,6 +4551,7 @@
         "candidate_provider_ids": [
           "aadc-metadata",
           "apgc-permafrost-ckan",
+          "bas-locations-public-api",
           "copenhagen-geomagnetic-index-archive",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
@@ -4526,6 +4559,7 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
+          "dfo-pacific-ios-archive",
           "polar-data-catalogue-metadata-api",
           "seaice-portal"
         ]
