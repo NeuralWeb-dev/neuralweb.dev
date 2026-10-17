@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T19:12:15.777668+00:00",
+  "published_at": "2026-10-17T19:14:18.788188+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:09:56.959588+00:00",
+  "research_updated_at": "2026-10-17T19:12:48.229969+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original discovery tasks reviewed; six services added, existing CDSE updated;721collection snapshot indexed, rights/API gaps explicit",
+  "latest_milestone": "KITopen scoped CC0 bibliographic OAI verified; Marine Portal configured search/grant gap and NDACC restricted default/API gap recorded",
   "counts": {
-    "verified": 276,
-    "candidates": 510,
-    "excluded": 108,
+    "verified": 277,
+    "candidates": 511,
+    "excluded": 109,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -6582,6 +6582,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "kitopen-bibliographic-oai",
+      "provider": "Karlsruhe Institute of Technology Library",
+      "service_name": "KITopen bibliographic metadata OAI-PMH",
+      "geographic_coverage": "KIT institutional research outputs; dataset geographic scope varies globally",
+      "topical_coverage": "research | multidisciplinary science | culture | education",
+      "dataset_families": "Bibliographic metadata for publications, research data, teaching material, images and audiovisual research outputs; files excluded from accepted scope",
+      "documentation_url": "https://www.bibliothek.kit.edu/kitopen.php | https://www.bibliothek.kit.edu/english/dbkit.php",
+      "api_base_url": "https://dbkit.bibliothek.kit.edu/oai/",
+      "format_protocol": "OAI-PMH2.0 XML; Identify parsed and repository/base confirmed",
+      "authentication": "Anonymous Identify succeeded via publication-host request; subsequent direct dbkit requests policy-withheld. No account/credentials.",
+      "free_access_restrictions": "Accepted bibliographic metadata under CC0; deposited files/source data have separate licences/access/embargoes. Current direct-host robots hold prevents further harvesting.",
+      "license": "CC0 / Public Domain explicitly stated by operator for bibliographic data supplied via OAI-PMH",
+      "license_url": "https://www.bibliothek.kit.edu/kitopen.php",
+      "api_verification_state": "native_anonymous_OAI_Identify_XML_success_then_direct_host_robots_withheld",
+      "latest_checked_utc": "2026-10-17T19:12:44.276122+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "langley-open-data-search",
       "provider": "Township of Langley, British Columbia",
       "service_name": "Township of Langley Open Data catalogue search API",
@@ -12683,6 +12701,24 @@
       "license_url": "",
       "api_verification_state": "documented_export_query_API_client_verified_backend_untested_auth_terms_unresolved",
       "latest_checked_utc": "2026-10-17T10:11:45.504607+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "marine-data-germany-portal",
+      "provider": "Alfred Wegener Institute / German Marine Research Alliance",
+      "service_name": "Marine Data Portal distributed marine research discovery",
+      "geographic_coverage": "German marine research community and international collaborators; ocean/polar source-specific extents",
+      "topical_coverage": "oceans | climate | biodiversity | geospatial | research",
+      "dataset_families": "Marine datasets/publications, expeditions, vessels, physical oceanography, biology and geosciences across distributed sources",
+      "documentation_url": "https://www.marine-data.de/site/about.html | https://www.marine-data.de/site/pages/about-data.html",
+      "api_base_url": "",
+      "format_protocol": "Frontend JSON configuration publishes REST search path and licence/source facets; no native search JSON sample obtained",
+      "authentication": "unknown for search API; public descriptive/legal content succeeded. Source dataset access varies.",
+      "free_access_restrictions": "FAIR and open-access discovery claims do not establish unrestricted metadata/data reuse. Linked repositories retain source-specific access/rights.",
+      "license": "unknown; blanket catalogue/source open grant not located in inspected official legal content",
+      "license_url": "https://www.marine-data.de/site/legal.html",
+      "api_verification_state": "published_frontend_REST_search_configuration_discovered_runtime_and_contract_unverified",
+      "latest_checked_utc": "2026-10-17T19:12:44.276122+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19687,6 +19723,24 @@
       "license_url": "https://microdata.nsanamibia.com/index.php/catalog/19",
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T01:35:44.608383+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ndacc-atmosphere-data-portal",
+      "provider": "Network for the Detection of Atmospheric Composition Change / NASA-hosted portal",
+      "service_name": "NDACC atmospheric composition archive portal; API gap",
+      "geographic_coverage": "International ground-based atmospheric measurement network; instrument/site/species-specific coverage",
+      "topical_coverage": "climate | atmosphere | environment | research",
+      "dataset_families": "Validated atmospheric-composition observations and preliminary rapid-delivery products, associated formats/documentation",
+      "documentation_url": "https://ndacc.larc.nasa.gov/ | https://ndacc.larc.nasa.gov/about/protocols/data-users",
+      "api_base_url": "",
+      "format_protocol": "Archive files described; public machine query interface unknown",
+      "authentication": "Public/free archive described after at most one year, preliminary availability varies; no credential or archive-file access tested",
+      "free_access_restrictions": "Current default institutional/aggregator public reposting requires written agreement/MoU; systematic downloads require manager notification. Explicit file licence/rules override default.",
+      "license": "Default NDACC Data Protocol for Data Users restricts public reposting without written agreement; source-specific explicit licences may override",
+      "license_url": "https://ndacc.larc.nasa.gov/about/protocols/data-users",
+      "api_verification_state": "official_portal_and_current_policy_verified_public_query_API_unestablished",
+      "latest_checked_utc": "2026-10-17T19:12:44.276122+00:00",
       "classification": "restricted"
     },
     {
