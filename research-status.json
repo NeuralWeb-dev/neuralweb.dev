@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T19:47:01.109782+00:00",
+  "published_at": "2026-10-17T19:49:03.520725+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:46:52.885906+00:00",
+  "research_updated_at": "2026-10-17T19:47:49.114839+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FID move scoped CC0 metadata terms verified; Cornell OAI Identify succeeds; CRC806 legacy API offline uncertainty retained",
+  "latest_milestone": "Nine original provider tasks reviewed; nine distinct records added. FID move scoped CC0 metadata and native27-record catalogue verified; Edaphobase restricted dictionary and ODIN licensing-unconfirmed dictionary verified; legal/runtime gaps retained.",
   "counts": {
     "verified": 281,
     "candidates": 525,
@@ -154,9 +154,11 @@
           "agdc-geomagnetic-portal",
           "alspac-cohort-access-portal",
           "aviso-authenticated-data-services",
+          "bsrn-wrmc-radiation-archive",
           "copernicus-marine",
           "deims",
           "earthstat-restricted-raster-families",
+          "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "fao",
           "oceanrep-oai-metadata",
@@ -202,6 +204,7 @@
           "undata-official-sdmx-api"
         ],
         "restricted_provider_ids": [
+          "bsrn-wrmc-radiation-archive",
           "gtap-current-database",
           "un-comtrade"
         ]
@@ -408,6 +411,7 @@
         "restricted_provider_ids": [
           "deims",
           "ebird",
+          "edaphobase-soil-biodiversity-api",
           "inaturalist",
           "ipd-immunopolymorphism-api",
           "phi-base-api",
@@ -611,10 +615,12 @@
           "alspac-cohort-access-portal",
           "aviso-authenticated-data-services",
           "bnf-gallica",
+          "bsrn-wrmc-radiation-archive",
           "cinii-research",
           "copernicus-marine",
           "deims",
           "ebird",
+          "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "ghdx-ihme-discovery",
           "harvard-dataverse",
@@ -1737,6 +1743,7 @@
           "bexis-biodiversity-exploratories",
           "bologna-open-data",
           "bordeaux-metropole-datahub",
+          "crc806-legacy-research-database",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -1765,6 +1772,7 @@
           "catalonia-open-data",
           "cdgp-geothermal-portal",
           "copernicus-marine",
+          "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "geoguyane-csw-catalogue",
           "lower-austria-ogd",
@@ -2107,6 +2115,7 @@
           "bologna-open-data",
           "bordeaux-metropole-datahub",
           "cambridgeshire-insight",
+          "crc806-legacy-research-database",
           "diba-open-data-api",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
@@ -2244,6 +2253,7 @@
           "ea-water-quality"
         ],
         "restricted_provider_ids": [
+          "edaphobase-soil-biodiversity-api",
           "geoguyane-csw-catalogue"
         ]
       },
@@ -2330,6 +2340,7 @@
           "clarin-vcr",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
+          "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "diba-open-data-api",
           "france-culture-open-data-portal",
@@ -2419,6 +2430,7 @@
           "clarin-vcr",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
+          "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "france-culture-open-data-portal",
           "gotriple",
@@ -2452,6 +2464,7 @@
           "cdgp-geothermal-portal",
           "copernicus-marine",
           "cranachnet-mediawiki",
+          "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "eurocat-controlled-research-data",
           "lindat-fcs",
