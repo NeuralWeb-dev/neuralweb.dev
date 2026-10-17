@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T16:32:55.632062+00:00",
+  "published_at": "2026-10-17T16:34:58.024851+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:27:15.040079+00:00",
+  "research_updated_at": "2026-10-17T16:34:44.024104+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "11research/network discovery tasks reviewed;6new services,800total;BioCASe54/PSICQUIC34references indexed,global discovery unfinished",
+  "latest_milestone": "Three nature/space/spectroscopy registry tasks reviewed;NCEI nativeHAPI31metadata candidate,iNaturalist restrictions retained,VAMDC131references indexed/queued",
   "counts": {
     "verified": 257,
-    "candidates": 476,
+    "candidates": 477,
     "excluded": 67,
-    "sample_successes": 471
+    "sample_successes": 472
   },
   "remaining_work": [
     "Original saved portal-review frontier is empty; it is only one discovery subset. Global status remains in_progress.",
@@ -12191,6 +12191,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ncei-space-weather-dpmf",
+      "provider": "NOAA/NESDIS National Centers for Environmental Information",
+      "service_name": "Space Weather Portal DPMF/HAPI discovery API",
+      "geographic_coverage": "Near-Earth space and solar observing products; series-specific coverage",
+      "topical_coverage": "astronomy; climate/weather/environment; research",
+      "dataset_families": "Published HAPI metadata for DSCOVR FaradayCup/magnetometer,CCOR1,SOLAR1CCOR2/MAG/STIS,orbit/attitude and science-quality product definitions; availability unverified beyond catalogue",
+      "documentation_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/openapi/ | https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/static/openapi/openapi-spot.yaml",
+      "api_base_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1",
+      "format_protocol": "REST/JSON; HAPI metadata; OpenAPI3.0.0 documented14GEToperations",
+      "authentication": "None for successful native HAPI catalogue; other source/query interfaces not tested",
+      "free_access_restrictions": "Public catalogue read without credentials; files,values,media and HAPIdata not requested. Numeric service quotas and source-specific restrictions unknown.",
+      "license": "NGDC/NCEI public-webinformation copying policy and USgovernment-material public-domain notice; exact API/source grant applicability unconfirmed",
+      "license_url": "https://data.ngdc.noaa.gov/ngdcinfo/privacy.html",
+      "api_verification_state": "actual_native_HAPI_catalogue_JSON_sample_success_31definitions_current_OpenAPI_verified_exact_reuse_scope_unconfirmed",
+      "latest_checked_utc": "2026-10-17T16:34:38.662553+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nepal",
       "provider": "Nepal National Statistics Office (NSO)",
       "service_name": "NSO government statisticaldata portals;CKANAPIcandidate",
@@ -17732,8 +17750,8 @@
       "free_access_restrictions": "Public API documented for application development;data scraping discouraged,use official exports. No paid service acquired. Commercial AI training prohibited by current terms.",
       "license": "Mixed contributor-selected licences;defaultCC BY-NC;service prohibits commercial AI training",
       "license_url": "https://www.inaturalist.org/pages/terms",
-      "api_verification_state": "historical_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-16T18:20:03.673810+00:00",
+      "api_verification_state": "historical_native_metadata_sample_success_current_official_terms_indexed_rechecked_direct_docs403_no_new_API_query",
+      "latest_checked_utc": "2026-10-17T16:34:38.662553+00:00",
       "classification": "restricted"
     },
     {
