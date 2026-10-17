@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T02:53:14.365152+00:00",
+  "published_at": "2026-10-17T02:55:17.430571+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:52:32.307704+00:00",
+  "research_updated_at": "2026-10-17T02:54:04.028190+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CLARIN primary portal13spec claims processed:2new metadata candidates,1diagnostic utility excluded,4policy deferrals retained; native metadata indexes and global unresolved gaps saved",
+  "latest_milestone": "Started finite36original FCS endpoint metadata/rights verification; no corpus searches or bypass",
   "counts": {
     "verified": 170,
     "candidates": 295,
@@ -1262,6 +1262,8 @@
         "verified_provider_ids": [
           "cessda-elsst",
           "cessda-vocabularies",
+          "clarin-dk",
+          "clarin-pl",
           "dnb",
           "estonia-statistics",
           "faroe-statistics",
@@ -1281,7 +1283,9 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "cessda-catalogue",
+          "clarin-fcs",
           "clarin-skgif",
+          "clarin-vcr",
           "gotriple",
           "latvia-statistics",
           "lithuania-statistics",
@@ -1468,6 +1472,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bnf-catalogue",
+          "clarin-dk",
+          "clarin-pl",
           "croatia-statistics",
           "dnb",
           "estonia-statistics",
@@ -1489,7 +1495,9 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "clarin-fcs",
           "clarin-skgif",
+          "clarin-vcr",
           "gotriple",
           "ksamsok",
           "lithuania-statistics",
@@ -1510,6 +1518,8 @@
           "bnf-catalogue",
           "cessda-elsst",
           "cessda-vocabularies",
+          "clarin-dk",
+          "clarin-pl",
           "croatia-statistics",
           "darus",
           "dnb",
@@ -1533,7 +1543,9 @@
           "anfr-data",
           "b2share",
           "cessda-catalogue",
+          "clarin-fcs",
           "clarin-skgif",
+          "clarin-vcr",
           "gotriple",
           "ksamsok",
           "perspectivia",
@@ -3588,7 +3600,7 @@
       "license": "CC0 1.0 — repository metadata only",
       "license_url": "https://repository.clarin.dk/static/metadata",
       "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_native_catalog_sample_success",
-      "latest_checked_utc": "2026-10-17T02:51:13.922289+00:00",
+      "latest_checked_utc": "2026-10-17T02:48:58.795729+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3606,7 +3618,7 @@
       "license": "CC0 1.0 — repository metadata only",
       "license_url": "https://clarin-pl.eu/dspace/static/metadata",
       "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_native_catalog_sample_success",
-      "latest_checked_utc": "2026-10-17T02:51:13.922289+00:00",
+      "latest_checked_utc": "2026-10-17T02:49:10.065573+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5820,7 +5832,7 @@
       "license": "CC0 1.0 — all Thoth metadata",
       "license_url": "https://thoth.pub/docs/policies/terms-thoth-metadata",
       "api_verification_state": "actual_REST_export_reference_catalog_and_book_metadata_sample_success_GraphQL_unresolved",
-      "latest_checked_utc": "2026-10-17T02:51:13.922289+00:00",
+      "latest_checked_utc": "2026-10-17T02:48:07.920288+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6794,25 +6806,25 @@
       "license": "unknown for aggregated metadata and referenced content",
       "license_url": "https://contentsearch.clarin.eu/openapi.json",
       "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
-      "latest_checked_utc": "2026-10-17T02:52:31.829394+00:00",
+      "latest_checked_utc": "2026-10-17T02:48:46.793346+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
       "identifier": "clarin-skgif",
       "provider": "CLARIN / KNAW Humanities Cluster",
-      "service_name": "CLARIN VLO SKG-IF staging API",
+      "service_name": "CLARIN VLO public metadata APIs: production REST and SKG-IF staging",
       "geographic_coverage": "Europe/international; language-resource metadata aggregation",
       "topical_coverage": "research; culture; education",
       "dataset_families": "Language resources, tools and associated research product metadata; five product graph entries in published staging example",
-      "documentation_url": "https://clarin-skg.dev.diginfra.org/api/v1/",
-      "api_base_url": "https://clarin-skg.dev.diginfra.org/api/v1/",
-      "format_protocol": "SKG-IF REST/JSON-LD; explicitly labeled staging",
+      "documentation_url": "https://clarin-skg.dev.diginfra.org/api/v1/ | https://vlo.clarin.eu/api/v3/api-docs | https://forum.clarin.eu/t/vlo-api-made-available/1614",
+      "api_base_url": "https://clarin-skg.dev.diginfra.org/api/v1/ | https://vlo.clarin.eu/api/",
+      "format_protocol": "Production REST/JSON and CMDI/XML; SKG-IF JSON-LD explicitly staging",
       "authentication": "No credentials for tested anonymous public product metadata requests",
       "free_access_restrictions": "Small public GET succeeded without credentials/payment; numeric caps/free-tier limits unknown; no write/admin calls. Staging explicitly labeled where applicable.",
       "license": "unknown for aggregated metadata; VLO about page GPLv3 explicitly covers software",
       "license_url": "https://vlo.clarin.eu/about",
       "api_verification_state": "actual_product_metadata_JSONLD_sample_success",
-      "latest_checked_utc": "2026-10-17T02:41:10.608141+00:00",
+      "latest_checked_utc": "2026-10-17T02:47:56.572085+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6830,7 +6842,7 @@
       "license": "unknown for aggregated metadata and referenced content",
       "license_url": "https://collections.clarin.eu/swagger.json",
       "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
-      "latest_checked_utc": "2026-10-17T02:52:31.829394+00:00",
+      "latest_checked_utc": "2026-10-17T02:50:06.926212+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
