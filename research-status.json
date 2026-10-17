@@ -1,23 +1,24 @@
 {
-  "published_at": "2026-10-17T16:59:28.811311+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-17T17:01:31.247535+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:58:18.759667+00:00",
+  "research_updated_at": "2026-10-17T17:01:05.164137+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Threeoriginsreviewed;B2SAFEinfrastructurenotpubliccatalogue,GRSPAPI/grantunresolved,Birdataextractsharingrestricted",
+  "latest_milestone": "Seven scientific/ecology registry tasks reviewed; Birdata restricted, KTH and SeaBASS candidates; SCAR CC0 native GBIF sample deduplicated into existing service",
   "counts": {
     "verified": 261,
-    "candidates": 479,
+    "candidates": 481,
     "excluded": 71,
     "sample_successes": 473
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selected sources queued, not researched.",
-    "Review ABES four other service families and nested methods from abes-service-family-review-queue.json. IdRef RDF grant does not clear supplier-restricted MARC or every ABES source; no paid custom exports.",
-    "TERN full table three references saved: TDDP and EcoPlots documentation policy-held; EcoImages table link is a test host, not queried. Read tern-published-api-review-queue.json; no alternate backend/key/account requests. AEKOS current API and exact data grants remain unconfirmed.",
-    "CDGP resource151 CC BY4 label conflicts with general restrictive terms; public API unresolved. SAHA/transition bibliography APIs unestablished, IAEA AMBDAS/Catena original holds retained.",
-    "Retain VAMDC131/BioCASe54/otherPSICQUIC33, NIST11unique API references, EMEP4centre leads and worldwide geographic/sector/work-rights queues. BDL retry no earlier than2026-10-17T18:20:40.045886+00:00 with fresh quota/PID/ledger checks."
+    "KTH REST docs require account-generated bearer token. No key/account authorised/obtained; sample untested and default CC BY4 not a blanket metadata/source grant.",
+    "SeaBASS SST route documented but one-day JSON request404HTML; current route and exact source/metadata rights unresolved. Do not count HTML errors as native API responses; no source files/orders acquired.",
+    "SCAR/Antarctic occurrence portal uses existing GBIF API. One CC0-filtered network record verified, not all networks or full MEASO polygon; project/current-techdocs holds retained. Bolin NetCDF/static data and B2SAFE replication software are not verified public APIs.",
+    "Birdata extract files cannot be shared publicly without approval; no request/contact. GRSP exact public API/data grant unresolved. Retain all prior ABES/TERN/VAMDC/BioCASe/PSICQUIC/NIST/EMEP/world coverage queues.",
+    "BDL quota hold remains until2026-10-17T18:20:40.045886+00:00, followed by fresh quota/PID/ledger checks before any retry."
   ],
   "external_blocker": null,
   "coverage": {
@@ -128,6 +129,7 @@
           "noaa-ncei-access",
           "nsidc",
           "planetary-computer",
+          "seabass-sst-validation-api",
           "undata-official-sdmx-api",
           "unsd"
         ],
@@ -226,6 +228,7 @@
         "candidate_provider_ids": [
           "cinii-books",
           "internet-archive-metadata",
+          "kth-data-repository-api",
           "mit-timdex"
         ],
         "restricted_provider_ids": [
@@ -368,6 +371,7 @@
           "hycom",
           "noaa-erddap",
           "noaa-ncei",
+          "seabass-sst-validation-api",
           "shom-data"
         ],
         "restricted_provider_ids": [
@@ -499,6 +503,7 @@
           "idigbio",
           "internet-archive-metadata",
           "jpl-ssd",
+          "kth-data-repository-api",
           "loc",
           "mit-timdex",
           "nih-clinicaltrials",
@@ -506,6 +511,7 @@
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
+          "seabass-sst-validation-api",
           "smithsonian",
           "tritrypdb",
           "undata-official-sdmx-api",
@@ -3398,6 +3404,7 @@
           "wa-slip-public-geospatial-services"
         ],
         "restricted_provider_ids": [
+          "birdata-birdlife-australia",
           "spc-pccos-thredds"
         ]
       },
@@ -3574,7 +3581,9 @@
           "qspatial-csw-catalog",
           "spc-pccos-tds"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "birdata-birdlife-australia"
+        ]
       },
       "oceans": {
         "status": "partial_verified",
@@ -3635,6 +3644,7 @@
           "te-papa"
         ],
         "restricted_provider_ids": [
+          "birdata-birdlife-australia",
           "digitalnz",
           "rda-australia",
           "spc-pccos-thredds",
@@ -5711,7 +5721,7 @@
       "service_name": "GBIF API",
       "geographic_coverage": "Global",
       "topical_coverage": "biodiversity",
-      "dataset_families": "Species; occurrences; datasets; publishers",
+      "dataset_families": "Species; occurrences; datasets; publishers; SCAR/SouthernOceanpublishednetworkCC0filteredoccurrencesample,notwholeMEASOpolygonportalorallnetworkrights",
       "documentation_url": "https://techdocs.gbif.org/en/openapi/",
       "api_base_url": "https://api.gbif.org/v1/",
       "format_protocol": "REST/JSON",
@@ -5719,8 +5729,8 @@
       "free_access_restrictions": "Public search without account; download jobs require user account",
       "license": "CC0 1.0 and CC BY 4.0 open subset; CC BY-NC excluded",
       "license_url": "https://docs.gbif.org/course-introduction-to-gbif/en/data-publisher-visibility-and-recognition.html",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.729017+00:00",
+      "api_verification_state": "documented_sample_success; additional_native_SCAR_network_CC0_filtered_JSON_one_occurrence_verified_2026_10_17",
+      "latest_checked_utc": "2026-10-17T16:59:59.975561+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11720,6 +11730,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kth-data-repository-api",
+      "provider": "KTH Royal Institute of Technology",
+      "service_name": "KTH Data Repository REST API",
+      "geographic_coverage": "KTH-ledresearchandcollaborations;per-recordglobalgeographiccoverage",
+      "topical_coverage": "research; education",
+      "dataset_families": "Multidisciplinaryresearchdatasets/software/materialswithmetadata,communities,versionsandaccesscontrols;recordcontentsnotqueried",
+      "documentation_url": "https://docs.datarepository.kth.se/deposit/rest_api/ | https://docs.datarepository.kth.se/deposit/describe_records/",
+      "api_base_url": "https://datarepository.kth.se/api/",
+      "format_protocol": "DocumentedREST/JSON,InvenioRDM;registryOAI-PMHclaimnotdeployedtested",
+      "authentication": "OfficiallocalRESTdocsrequireBearerAPI tokens generatedinuseraccount. Noaccount/key/tokenobtainedorAPIrequestsent.",
+      "free_access_restrictions": "Public/restrictedmetadataandfilesconfigurablebyowner;serviceKTHledresearch/collaborationcontrols. Futureexternalfeespossibleunderchangedterms;notcurrentpaiddataacquisition.",
+      "license": "CCBY4defaultfornewuploads;alternative/customlicencesallowed;exactmetadata/sourcegrantunconfirmed",
+      "license_url": "https://docs.datarepository.kth.se/deposit/describe_records/ | https://docs.datarepository.kth.se/sv/terms/",
+      "api_verification_state": "primary_deployed_REST_docs_verified_key_token_required_sample_untested_no_uniform_reuse_grant",
+      "latest_checked_utc": "2026-10-17T16:59:59.975561+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kyrgyz-ogd",
       "provider": "Kyrgyz Republic national Open Data portal",
       "service_name": "Open Data Kyrgyzstan CKAN catalogue API candidate",
@@ -14543,6 +14571,24 @@
       "license_url": "https://services.sh.ch/de/services/geodaten-als-open-government-data-ogd",
       "api_verification_state": "actual_public_JSON_sample_success_one_place_name",
       "latest_checked_utc": "2026-10-17T07:31:54.048100+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "seabass-sst-validation-api",
+      "provider": "NASA Ocean Biology Processing Group / SeaBASS",
+      "service_name": "SeaBASS SST satellite/in-situ validation file-discovery API",
+      "geographic_coverage": "GlobalSSTsatellite/in-situmatchups;per-sensor/datecoverage",
+      "topical_coverage": "oceans; climate/weather/environment; research",
+      "dataset_families": "DocumenteddailyglobalMODISAqua,MODISTerra,VIIRSSNPPsatelliteSST/in-situmatchupfilemetadata;otherSeaBASSarchivequeriesnotcollapsedintoSSTAPI",
+      "documentation_url": "https://seabass.gsfc.nasa.gov/wiki/sst_validation_description | https://seabass.gsfc.nasa.gov/wiki/Access_Policy",
+      "api_base_url": "https://seabass.gsfc.nasa.gov/search/sst",
+      "format_protocol": "DocumentedGETJSON/CSV-text/HTMLfileURLsearch;archivefilesSeaBASSASCII/tgznotacquired",
+      "authentication": "GuidepresentsGETsearchwithoutauth;actualsample404HTML,nativesuccess/authnotverified. NoEarthdataaccount/token/order.",
+      "free_access_restrictions": "AccesspolicypublicdatawithNASA/contributoracknowledgementand3yearauthorship/recommendedmanuscriptsharing/coauthorshiplanguage. Scope/applicabilityexactreuseunresolved. No datafilesorbulkdownload.",
+      "license": "NASApublic/full-and-open-sharingpolicyplusSeaBASSattribution/authorshipconditions;exactglobalSSTmetadata/outputgrantunconfirmed",
+      "license_url": "https://seabass.gsfc.nasa.gov/wiki/Access_Policy",
+      "api_verification_state": "primary_SST_GET_API_documented_one_day_sample_HTTP404_HTML_not_native_API_success",
+      "latest_checked_utc": "2026-10-17T16:59:59.975561+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
