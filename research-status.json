@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T15:50:02.749931+00:00",
+  "published_at": "2026-10-17T15:52:05.380573+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:49:57.852272+00:00",
+  "research_updated_at": "2026-10-17T15:50:56.196563+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "CrossRegionalFrontier12origins:786records253open470candidates63restricted;NSW/PraguescopedCCBY4,Prague214items,DadosJus124refs;originalfrontier0/globalqueuesunfinished.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 253,
     "candidates": 470,
@@ -1163,7 +1163,8 @@
           "dominican-data",
           "jamaica-data",
           "mexico-national-open-data",
-          "openei-urdb"
+          "openei-urdb",
+          "registry-portaldados-ppgau-uff-br"
         ],
         "restricted_provider_ids": []
       },
@@ -1200,7 +1201,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "fortaleza-ckan-api"
+          "fortaleza-ckan-api",
+          "registry-portaldados-ppgau-uff-br"
         ],
         "restricted_provider_ids": []
       },
@@ -1214,6 +1216,7 @@
           "fortaleza-ckan-api",
           "montevideo-transport",
           "registry-dados-df-gov-br",
+          "registry-portaldados-ppgau-uff-br",
           "rosario-city"
         ],
         "restricted_provider_ids": []
@@ -1230,6 +1233,7 @@
           "edac-gstore",
           "montevideo-catalog",
           "montevideo-transport",
+          "registry-portaldados-ppgau-uff-br",
           "wis2-argentina",
           "wis2-brazil",
           "wis2-brazil-cdi00042882",
@@ -1254,6 +1258,7 @@
           "alesp-open-data-interfaces",
           "almg-open-data-api",
           "brazil-camara-dados-abertos",
+          "dadosjusbr-public-api",
           "dominican-data",
           "fortaleza-ckan-api",
           "goias-state-ckan-api",
@@ -1288,6 +1293,7 @@
           "alesp-open-data-interfaces",
           "almg-open-data-api",
           "brazil-camara-dados-abertos",
+          "dadosjusbr-public-api",
           "dominican-data",
           "ecuador-cuenca",
           "montevideo-catalog",
@@ -1333,7 +1339,8 @@
         "candidate_provider_ids": [
           "ciencia-aberta",
           "edac-gstore",
-          "esa-ecology"
+          "esa-ecology",
+          "registry-portaldados-ppgau-uff-br"
         ],
         "restricted_provider_ids": []
       }
@@ -1806,6 +1813,7 @@
           "oulu-open-data-api",
           "poland-bdl",
           "poland-gus-sdg",
+          "prague-geoportal-records-api",
           "redbridge-datashare",
           "scb",
           "ssb",
@@ -1842,6 +1850,7 @@
           "piemonte-opendata-catalog",
           "poland-bdl",
           "poland-gus-transtat",
+          "prague-geoportal-records-api",
           "redbridge-datashare",
           "registry-admin-opendatani-gov-uk",
           "slovenia-statistics",
@@ -1893,6 +1902,7 @@
           "oulu-open-data-api",
           "piemonte-opendata-catalog",
           "portugal",
+          "prague-geoportal-records-api",
           "registry-data-bl-ch",
           "registry-data-sz-ch",
           "registry-europeandataportal-eu",
@@ -3411,7 +3421,8 @@
       "transportation": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "linz-basemaps-api"
+          "linz-basemaps-api",
+          "transport-nsw-trip-planner-api"
         ],
         "candidate_provider_ids": [
           "data-wa-catalogue-api",
@@ -3431,6 +3442,7 @@
           "linz",
           "linz-basemaps-api",
           "noumea-data",
+          "transport-nsw-trip-planner-api",
           "worldpop-geo",
           "worldpop-rest",
           "worldpop-stac"
@@ -3765,9 +3777,11 @@
     },
     "Central Asia": {
       "demographics": {
-        "status": "restricted_only",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "uzbekistan-statistics-category-api"
+        ],
         "restricted_provider_ids": [
           "kyrgyz-nso"
         ]
