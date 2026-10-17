@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T05:34:50.217135+00:00",
+  "published_at": "2026-10-17T05:36:52.780299+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:29:59.285614+00:00",
+  "research_updated_at": "2026-10-17T05:36:03.902598+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PacificCanada initial batch: Kitchener scoped OGL1/current metadataAPI verified, California documented current public-readAPI held/licence unconfirmed. Native/HTML catalog work continues;globalin_progress.",
+  "latest_milestone": "PacificCanada:4newservices sofar(1scopedopen/2candidates/1restricted);Busan2keyedAPIsdocumented, Burlingtonrevocablecurrenttermsverified;native/HTMLcatalogpassescontinue.Globalin_progress.",
   "counts": {
     "verified": 198,
-    "candidates": 355,
-    "excluded": 35,
-    "sample_successes": 354
+    "candidates": 356,
+    "excluded": 36,
+    "sample_successes": 355
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7554,6 +7554,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "busan-public-apis",
+      "provider": "Busan Metropolitan City",
+      "service_name": "Busan documented city APIs via Korea Public Data Portal",
+      "geographic_coverage": "Busan,Republic of Korea",
+      "topical_coverage": "Transportation,weather,geospatial,civic services",
+      "dataset_families": "Two independently documented API families: BusanBIMS bus stops/routes/stops-by-route/arrival information and BusanWindInfoService real-time wind speed/direction/site status. Not all Busan city/district APIs or records.",
+      "documentation_url": "https://www.data.go.kr/data/15092750/openapi.do | https://www.data.go.kr/data/15056954/openapi.do",
+      "api_base_url": "https://apis.data.go.kr/6260000/BusanBIMS/ | https://apis.data.go.kr/6260000/BusanWindInfoService/",
+      "format_protocol": "Official RESTAPI docs and JSON-LD catalog definitions; XML bus data and XML/JSON wind options documented. No actual city data API responses fetched.",
+      "authentication": "Data docs explicitly require issued serviceKey and development/operational application approval (shown automatic). No registration/account/key acquisition or underlying API call. Public metadata JSON anonymous200 separately.",
+      "free_access_restrictions": "Both official API pages explicitly free, with development traffic allocation10,000 and operational increase by application/use-case submission; no request/application made. Current unrestricted-permission label is preserved, but no CC0/KOGL type/instrument/version inferred.",
+      "license": "Primary label 이용허락범위 제한 없음 (unrestricted permission scope); precise grant/instrument/attribution applicability unresolved",
+      "license_url": "https://www.data.go.kr/data/15092750/openapi.do | https://www.data.go.kr/data/15056954/openapi.do | https://www.data.go.kr/ugs/selectPortalPolicyView.do",
+      "api_verification_state": "official_two_key_required_data_APIs_documented_data_samples_untested_public_catalog_metadata_only_200",
+      "latest_checked_utc": "2026-10-17T05:36:03.669331+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "california-open-data",
       "provider": "California Department of Technology / California state publishing organizations",
       "service_name": "California Open Data CKAN Action API",
@@ -13439,6 +13457,24 @@
       "license_url": "https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica | https://www.bnf.fr/en/order-reproduction-commercial-use",
       "api_verification_state": "documented_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:53:50.981610+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "burlington-navigate",
+      "provider": "City of Burlington",
+      "service_name": "Navigate Burlington OGC public catalog API",
+      "geographic_coverage": "Burlington,Ontario,Canada",
+      "topical_coverage": "Geospatial,transport,landuse,infrastructure,environment,municipal administration",
+      "dataset_families": "Current city Hub datasets/documents/maps/apps; native listing includes Road Segments and other city datasets expressly linked to2011terms. Individual unlabelled/third-party items not declared universally closed.",
+      "documentation_url": "https://www.burlington.ca/en/council-and-city-administration/open-data.aspx | https://navburl-burlington.opendata.arcgis.com/api/search/definition/?f=json",
+      "api_base_url": "https://navburl-burlington.opendata.arcgis.com/api/search/v1/",
+      "format_protocol": "Actual public OGC discovery/collections/OpenAPI and catalog GeoJSON metadata; no underlying features/rows queried.",
+      "authentication": "Actual anonymous public catalog API metadata GETs200; no account/key/admin operations used.",
+      "free_access_restrictions": "2011terms royalty-free worldwide lawful reuse/adaptation allowed, credit optional, but revocable and cancellable without notice/for any reason; after cancellation no continued data use/reproduction/modification/distribution. Current native city items explicitly link this same PDF. Restricted durable reuse, not commercial-only or paid-data claim.",
+      "license": "City of Burlington Open Data Terms of Use,19September2011: revocable, post-cancellation reuse prohibited",
+      "license_url": "https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf",
+      "api_verification_state": "actual_native_OGC_catalog_metadata_sample_success_current_terms_bound_data_revocable_restricted",
+      "latest_checked_utc": "2026-10-17T05:36:03.669331+00:00",
       "classification": "restricted"
     },
     {
