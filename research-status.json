@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T06:05:30.909158+00:00",
+  "published_at": "2026-10-17T06:07:34.009453+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:01:24.820065+00:00",
+  "research_updated_at": "2026-10-17T06:07:25.393439+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Ten civic/national/local original origins reviewed;Camera scoped CC-BY-SA/SPARQL,BCN/Chatham/Chattanooga candidates;Chicago existing record restricted. Native catalogs40/92 and BCN18service directory checkpointed. See Chile current catalogprogress. 538originals plus broader universe unfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Citybatchinitial: Boulder scopedCC0/currentOGCverified;Asheville/Austincandidates;Honolulu/BRrestricteddefaultterms;AnalyzeBostonhistoricalscopedPDDLpreserved/currentAPIheld. Nativepassescontinue;globalin_progress.",
   "counts": {
-    "verified": 199,
-    "candidates": 360,
-    "excluded": 38,
-    "sample_successes": 361
+    "verified": 200,
+    "candidates": 362,
+    "excluded": 40,
+    "sample_successes": 366
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3841,6 +3841,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "boulder-open-data",
+      "provider": "City of Boulder",
+      "service_name": "Boulder Open Data Hub OGC Records and geospatial API catalog",
+      "geographic_coverage": "Boulder,Colorado,United States",
+      "topical_coverage": "Geospatial,transport,arts/culture,community,governmentoperations",
+      "dataset_families": "Fullcurrentcityterms explicitly grant worldwide royalty-free use/modify/distribute for lawfulpurposes and CC0 1.0. Noattributionrequired;asksindicateCC0terms/noendorsement. FullCC0legaltextread;linkedcityprivacy reviewed,notgenericcopyrightfootergrant. Scope citycatalogdatasets,notallpartnerworks/metadata/allfeatures. Actual anonymous OGCdiscovery JSON;nativecatalogtraversal tracked separately.",
+      "documentation_url": "https://bouldercolorado.gov/services/open-data",
+      "api_base_url": "https://open-data.bouldercolorado.gov/api/search/v1",
+      "format_protocol": "OGC API Records/JSON,ArcGIS Hub",
+      "authentication": "Actual anonymous small read;no key/account;other operations individually untested",
+      "free_access_restrictions": "Fullcurrentcityterms explicitly grant worldwide royalty-free use/modify/distribute for lawfulpurposes and CC0 1.0. Noattributionrequired;asksindicateCC0terms/noendorsement. FullCC0legaltextread;linkedcityprivacy reviewed,notgenericcopyrightfootergrant. Scope citycatalogdatasets,notallpartnerworks/metadata/allfeatures. Actual anonymous OGCdiscovery JSON;nativecatalogtraversal tracked separately.",
+      "license": "CC0 1.0 for City of Boulder Open Data Catalog datasets",
+      "license_url": "https://bouldercolorado.gov/services/open-data",
+      "api_verification_state": "actual_bounded_JSON_sample_success_scoped_city_catalog_CC0_verified",
+      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "brampton-geohub",
       "provider": "City of Brampton",
       "service_name": "Brampton GeoHub OGC catalog API",
@@ -6104,7 +6122,7 @@
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "Open Data Commons PDDL 1.0",
       "license_url": "https://opendatacommons.org/licenses/pddl/1-0/",
-      "api_verification_state": "documented_sample_success",
+      "api_verification_state": "historical_catalog_sample_success_current_original_sample_policy_held_scoped_PDDL_record_preserved",
       "latest_checked_utc": "2026-10-16T16:43:35.395567+00:00",
       "classification": "open_license_verified"
     },
@@ -7350,6 +7368,42 @@
       "license_url": "https://api.artic.edu/docs/ | https://www.artic.edu/terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T21:47:09.290636+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "asheville-open-data",
+      "provider": "City of Asheville",
+      "service_name": "Asheville Hub OGC Records and geospatial API catalog",
+      "geographic_coverage": "Asheville,North Carolina,United States",
+      "topical_coverage": "Geospatial,infrastructure,landuse,transport,municipal services",
+      "dataset_families": "City service page explicitly identifies currentpublic open-data portal. Actual anonymous OGCdiscovery JSONand publishedcollection/OpenAPIlinks. Rootsiteitem licenseInfo CC-BY-SA is notautomatically underlyingdataset,metadataorpartnergrant. Nativepaginationseparatelytracked;no all-feature/person queries.",
+      "documentation_url": "https://www.ashevillenc.gov/service/explore-city-data/",
+      "api_base_url": "https://data-avl.opendata.arcgis.com/api/search/v1",
+      "format_protocol": "OGC API Records/JSON,ArcGIS Hub",
+      "authentication": "Actual anonymous small read;no key/account;other operations individually untested",
+      "free_access_restrictions": "City service page explicitly identifies currentpublic open-data portal. Actual anonymous OGCdiscovery JSONand publishedcollection/OpenAPIlinks. Rootsiteitem licenseInfo CC-BY-SA is notautomatically underlyingdataset,metadataorpartnergrant. Nativepaginationseparatelytracked;no all-feature/person queries.",
+      "license": "Current underlying dataset/API licence unconfirmed;siteitem CC-BY-SA not universalgrant",
+      "license_url": "https://www.ashevillenc.gov/service/explore-city-data/",
+      "api_verification_state": "actual_bounded_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "austin-open-data",
+      "provider": "City of Austin",
+      "service_name": "Austin Socrata metadata and data API portal",
+      "geographic_coverage": "Austin,Texas,United States",
+      "topical_coverage": "Multisector public data,municipal government,transport,planning",
+      "dataset_families": "Actual anonymous JSONmetadata for catalogsearch-terms analytics view8sxf-t34r only,no user/search/referrer data rows. Terms story returns navigation shell. Official catalog.data.gov record identifies downloadablePDF2z87-8uh7(updatedApril2026);PDFretrieved200butcustomencoding lacksUnicode mappings;availabletext extraction unreadable,notlegalreview. No keys/accounts. SeparateOpen311key-requiredterms nottransferred to allSocrataAPIs.",
+      "documentation_url": "https://data.austintexas.gov/",
+      "api_base_url": "https://data.austintexas.gov/resource/",
+      "format_protocol": "Socrata SODA/JSON;actual schema metadata or one bounded data row",
+      "authentication": "Actual anonymous small read;no key/account;other operations individually untested",
+      "free_access_restrictions": "Actual anonymous JSONmetadata for catalogsearch-terms analytics view8sxf-t34r only,no user/search/referrer data rows. Terms story returns navigation shell. Official catalog.data.gov record identifies downloadablePDF2z87-8uh7(updatedApril2026);PDFretrieved200butcustomencoding lacksUnicode mappings;availabletext extraction unreadable,notlegalreview. No keys/accounts. SeparateOpen311key-requiredterms nottransferred to allSocrataAPIs.",
+      "license": "Current operative data terms not reliably readable;notinferredpublicdomain",
+      "license_url": "https://data.austintexas.gov/stories/s/ranj-cccq",
+      "api_verification_state": "actual_bounded_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13547,6 +13601,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "baton-rouge-open-data",
+      "provider": "City of Baton Rouge / Parish of East Baton Rouge",
+      "service_name": "Open Data BR Socrata APIs",
+      "geographic_coverage": "East Baton Rouge Parish,Louisiana,United States",
+      "topical_coverage": "Economics,public budgets,municipal services,geospatial,transport",
+      "dataset_families": "Current fullterms section3 covers data/datasets/tables and limits defaultlicence to personal/noncommercial use;no distribution/derivative uses/mining/download exceptexpresslypermitted onsite;revocable. FAQ explicitlypermits APIapplications/downloads and says consumehoweverwish;that conflict does not establishuniversal irrevocable opengrant. One revenuebudgetrow200 read under expressAPIpermission. Premiumfeatures mentioned,notclaim allpublicAPIs paid. Usercontent/individualdatasetexceptions retained.",
+      "documentation_url": "https://data.brla.gov/faq",
+      "api_base_url": "https://data.brla.gov/resource/",
+      "format_protocol": "Socrata SODA/JSON;actual schema metadata or one bounded data row",
+      "authentication": "Actual anonymous small read;no key/account;other operations individually untested",
+      "free_access_restrictions": "Current fullterms section3 covers data/datasets/tables and limits defaultlicence to personal/noncommercial use;no distribution/derivative uses/mining/download exceptexpresslypermitted onsite;revocable. FAQ explicitlypermits APIapplications/downloads and says consumehoweverwish;that conflict does not establishuniversal irrevocable opengrant. One revenuebudgetrow200 read under expressAPIpermission. Premiumfeatures mentioned,notclaim allpublicAPIs paid. Usercontent/individualdatasetexceptions retained.",
+      "license": "Custom Open Data BR Terms of Service;defaultpersonal/noncommercial/no-derivative licence with explicit exceptions",
+      "license_url": "https://data.brla.gov/terms-of-service",
+      "api_verification_state": "actual_bounded_JSON_sample_success_restricted",
+      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "bis",
       "provider": "Bank for International Settlements",
       "service_name": "Bank for International Settlements API",
@@ -13796,6 +13868,24 @@
       "license_url": "https://dp.marsa.gccstat.org/terms-use",
       "api_verification_state": "documented_portal_JSON_catalog_metadata_sample_success_conditional_reuse_restricted",
       "latest_checked_utc": "2026-10-16T23:54:44.253850+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "honolulu-open-data",
+      "provider": "City and County of Honolulu",
+      "service_name": "Honolulu Socrata public data APIs",
+      "geographic_coverage": "Honolulu,Hawaii,United States",
+      "topical_coverage": "Municipal services,parks,transport,public budgets",
+      "dataset_families": "Actual Parks by Activity public JSON metadata/schema; inspected metadata has no licenseId/license field. Current linked2015terms require dataset-specificlicence/disclaimer and reserve termination of any/all graphicaldisplays displaying/distributing/otherwiseusing data for any reason. This is not a claim that all non-display reuse is banned. Older/policy2012not substituted for current linkedterms. No blanket opengrant.",
+      "documentation_url": "https://data.honolulu.gov/",
+      "api_base_url": "https://data.honolulu.gov/resource/",
+      "format_protocol": "Socrata SODA/JSON;actual schema metadata or one bounded data row",
+      "authentication": "Actual anonymous small read;no key/account;other operations individually untested",
+      "free_access_restrictions": "Actual Parks by Activity public JSON metadata/schema; inspected metadata has no licenseId/license field. Current linked2015terms require dataset-specificlicence/disclaimer and reserve termination of any/all graphicaldisplays displaying/distributing/otherwiseusing data for any reason. This is not a claim that all non-display reuse is banned. Older/policy2012not substituted for current linkedterms. No blanket opengrant.",
+      "license": "Custom Honolulu Terms of Use,1March2015;per-datasetlicences and graphical-display termination condition",
+      "license_url": "https://data.honolulu.gov/terms-of-use",
+      "api_verification_state": "actual_bounded_JSON_sample_success_restricted",
+      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
       "classification": "restricted"
     },
     {
