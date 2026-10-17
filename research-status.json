@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T03:48:30.379143+00:00",
+  "published_at": "2026-10-17T03:50:32.866324+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T03:40:22.985537+00:00",
+  "research_updated_at": "2026-10-17T03:50:14.501575+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve OS/UKHO claims and current OS family index processed; scoped OS download catalog accepted. Continuing all eight native third-party product rights leads.",
+  "latest_milestone": "All12OS/UKHO claims and current12OSoverview families processed. PublicOSDownloads catalog26products complete; OSOpenData grant and all8namedBGSopenproduct grants reviewed.12services added:1scopedopen/11candidates. OAuthutility/withdrawnMatchCleanse not providers. Globaldiscoveryunfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
-    "verified": 179,
-    "candidates": 319,
+    "verified": 180,
+    "candidates": 330,
     "excluded": 35,
-    "sample_successes": 329
+    "sample_successes": 330
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1205,6 +1205,7 @@
           "ea-water-quality",
           "latvia-statistics",
           "lithuania-statistics",
+          "os-os-places-api",
           "wis2-poland",
           "wis2-russian-federation"
         ],
@@ -1227,7 +1228,9 @@
         "candidate_provider_ids": [
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
-          "ea-water-quality"
+          "ea-water-quality",
+          "os-os-places-api",
+          "ukho-tidal"
         ],
         "restricted_provider_ids": []
       },
@@ -1357,6 +1360,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "lithuania-statistics",
+          "os-os-places-api",
           "serbia-rzs"
         ],
         "restricted_provider_ids": []
@@ -1381,8 +1385,10 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "lithuania-statistics",
+          "os-os-places-api",
           "shom-data",
-          "tfl"
+          "tfl",
+          "ukho-tidal"
         ],
         "restricted_provider_ids": [
           "registry-data-bs-ch"
@@ -1415,8 +1421,10 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "os-os-places-api",
           "poland-gus-teryt",
           "shom-data",
+          "ukho-tidal",
           "wis2-poland",
           "wis2-russian-federation",
           "worldpop-wopr"
@@ -1519,7 +1527,8 @@
           "transportapi-fi"
         ],
         "candidate_provider_ids": [
-          "shom-data"
+          "shom-data",
+          "ukho-tidal"
         ],
         "restricted_provider_ids": [
           "copernicus-marine"
@@ -3453,7 +3462,7 @@
       "license": "Open Government Licence3.0 for this OpenGeoscience API data",
       "license_url": "https://www.bgs.ac.uk/technologies/web-services/api/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T18:28:14.641476+00:00",
+      "latest_checked_utc": "2026-10-17T03:47:13.813574+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5344,6 +5353,24 @@
       "license_url": "https://opencontext.org/about/publishing",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:58:57.634502+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "os-os-download-api",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Downloads API — scoped OpenData interfaces",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "26nativeproducts:18OSproductentries notflaggedthirdparty and8BGS/BGS-UKHSA namedopenproducts; mapping,identifiers,terrain,geology,coast/scour,groundwater,mining,soil,radon",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-downloads-api/technical-specification",
+      "api_base_url": "https://api.os.uk/downloads/v1/",
+      "format_protocol": "Actual REST/JSON product catalog; file downloads not requested",
+      "authentication": "No API key required for documented OpenData operations; anonymous product catalog succeeded. Premium dataPackages require credentials and were not queried.",
+      "free_access_restrictions": "Publiccataloganonymous/noaccount/payment. UnderlyingOSand8namedBGSopenproduct grantsindependentlyreviewed. NoPremiumpackage/filedownload orformsubmission; productattribution/versionexceptionsretained.",
+      "license": "OGL3 forOSOpenData; namedBGSopenproducts explicitlyOGL withversion/scope caveats",
+      "license_url": "https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "actual_JSON_complete_public_OpenData_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T03:47:13.813574+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9183,6 +9210,168 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "os-net",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Net API",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; research",
+      "dataset_families": "GNSS reference station metadata, network health and RINEX3 observation files; no files queried",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-net-api",
+      "api_base_url": "https://api.os.uk/positioning/osnet/v1/",
+      "format_protocol": "Documented REST/JSON, RINEX3; no observations/files or health query",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:43:46.531085+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-ngd-features",
+      "provider": "Ordnance Survey",
+      "service_name": "OS NGD API — Features",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "OS National Geographic Database feature collections, schemas, queryables and GeoJSON; excludes several addressing/boundary collections",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-ngd-api-features",
+      "api_base_url": "https://api.os.uk/features/ngd/ofa/v1/",
+      "format_protocol": "Documented OGC API - Features/GeoJSON",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:44:07.595484+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-ngd-tiles",
+      "provider": "Ordnance Survey",
+      "service_name": "OS NGD API — Tiles",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "NGD vector tile collections, styles and tile matrices; addressing/RAMI exclusions",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-ngd-api-tiles",
+      "api_base_url": "https://api.os.uk/maps/vector/ngd/ota/v1/",
+      "format_protocol": "Documented OGC API - Tiles/vector tiles",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:44:08.820096+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-os-features-api",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Features API",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "WFS feature geometry/attributes; OS MasterMap and selected OpenData; current/archive product subsets",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-features-api",
+      "api_base_url": "https://api.os.uk/features/v1/",
+      "format_protocol": "Documented OGC WFS, GeoJSON/XML",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:42:48.296998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-os-linked-identifiers-api",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Linked Identifiers API",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "OS Open Linked Identifiers: UPRN/USRN/TOID relationships; no address geometry or attributes",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-linked-identifiers-api",
+      "api_base_url": "https://api.os.uk/search/links/v1/",
+      "format_protocol": "Documented REST/JSON/GeoJSON, WFS or map-tile interfaces; runtime untested",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "Current overview explicitly free OpenData product, but registered key/service conditions not fully reviewed; no sample/key.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:42:48.296998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-os-maps-api",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Maps API",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "Raster maps in Road/Outdoor/Light/Leisure styles; mixed OpenData and Premium layers",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-maps-api",
+      "api_base_url": "https://api.os.uk/maps/raster/v1/",
+      "format_protocol": "Documented OGC WMTS and RESTful ZXY raster tiles",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:42:48.296998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-os-names-api",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Names API",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "OS Open Names place/postcode/street/woodland directory; excludes specific address/bulk-address lookup",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-names-api",
+      "api_base_url": "https://api.os.uk/search/names/v1/",
+      "format_protocol": "Documented REST/JSON/GeoJSON, WFS or map-tile interfaces; runtime untested",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:42:48.296998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-os-places-api",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Places API",
+      "geographic_coverage": "United Kingdom, Jersey, Guernsey and Isle of Man; coordinates for Jersey/Guernsey documented0.0",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "AddressBase Premium and Islands address lifecycle/geocoding; includes RoyalMail/local-authority sources",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-places-api",
+      "api_base_url": "https://api.os.uk/search/places/v1/",
+      "format_protocol": "Documented REST/JSON/GeoJSON, WFS or map-tile interfaces; runtime untested",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:42:48.296998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "os-os-vector-tile-api",
+      "provider": "Ordnance Survey",
+      "service_name": "OS Vector Tile API",
+      "geographic_coverage": "Great Britain; individual product areas retained in native metadata",
+      "topical_coverage": "geospatial; housing; transportation; water; climate/weather/environment",
+      "dataset_families": "Customisable basemap; OS Open Zoomstack plus Premium OS MasterMap layers",
+      "documentation_url": "https://docs.os.uk/os-apis/accessing-os-apis/os-vector-tile-api",
+      "api_base_url": "https://api.os.uk/maps/vector/v1/",
+      "format_protocol": "Documented vector tiles; BritishNationalGrid/WebMercator projections",
+      "authentication": "Current docs require API project/key or OAuth token; no account/key/token acquisition",
+      "free_access_restrictions": "OpenData and Premium/service grants must be distinguished; free eligibility/product fees/current API service terms unresolved. No paid acquisition.",
+      "license": "Common API corpus/service reuse grant unconfirmed; some named OpenData products separately OGL",
+      "license_url": "https://osdatahub.os.uk/support/legal/api-terms | https://docs.os.uk/os-downloads/resources/site-resources/terms-and-conditions",
+      "api_verification_state": "documented_current_API_key_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:42:48.296998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "osi-licenses",
       "provider": "Open Source Initiative",
       "service_name": "Current OSI Approved Licenses metadata API",
@@ -10710,6 +10899,42 @@
       "license_url": "https://www.trade-tariff.service.gov.uk/terms",
       "api_verification_state": "documented_managed_credentials_required_untested_legacy_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T18:39:14.248800+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ukho-avcs-online-discovery-api",
+      "provider": "UK Hydrographic Office / ADMIRALTY",
+      "service_name": "ADMIRALTY AVCS Online Discovery API",
+      "geographic_coverage": "South coast of England trial subset",
+      "topical_coverage": "oceans; water; transportation; geospatial",
+      "dataset_families": "Trial WMS ENCs for south coast of England; current instructions say data not routinely updated",
+      "documentation_url": "https://admiraltyapi.developer.azure-api.net/discovery-api-instructions",
+      "api_base_url": "",
+      "format_protocol": "Documented WMS trial; no data sample",
+      "authentication": "AVCS requires Ocp-Apim-Subscription-Key",
+      "free_access_restrictions": "Free reseller-developer trial documented; subset not routinely updated. Full trial product legal text not rendered.",
+      "license": "Current API product reuse grant unconfirmed; free access/trial is not open licence",
+      "license_url": "https://admiraltyapi.developer.azure-api.net/product#product=avcs-online-discovery-api",
+      "api_verification_state": "documented_API_registered_access_data_sample_untested_operative_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T03:44:57.945841+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ukho-tidal",
+      "provider": "UK Hydrographic Office / ADMIRALTY",
+      "service_name": "ADMIRALTY Tidal API — Discovery/Foundation/Premium tiers",
+      "geographic_coverage": "British Isles and Ireland coastline; precise station/tier totals unenumerated",
+      "topical_coverage": "oceans; water; transportation; geospatial",
+      "dataset_families": "Tidal station/event/height predictions for British Isles and Ireland; three subscription products grouped, exact current tier horizons not runtime verified",
+      "documentation_url": "https://www.admiralty.co.uk/access-data/apis | https://www.admiralty.co.uk/access-data/tidal-data",
+      "api_base_url": "",
+      "format_protocol": "Tidal API documented; current specific response contract/base URL unverified",
+      "authentication": "Subscription products; exact current tier key/header contract unconfirmed by readable docs",
+      "free_access_restrictions": "Historic primary registry calls Discovery free1year; current publisher confirms3subscription options but exact tier fees/free limits/current grant unresolved. No paid acquisition.",
+      "license": "Current API product reuse grant unconfirmed; free access/trial is not open licence",
+      "license_url": "https://www.admiralty.co.uk/access-data/apis | https://copyright.ukho.gov.uk/",
+      "api_verification_state": "documented_API_registered_access_data_sample_untested_operative_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T03:42:34.023908+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
