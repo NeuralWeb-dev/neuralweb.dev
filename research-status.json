@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T19:30:39.707984+00:00",
+  "published_at": "2026-10-17T19:32:42.335221+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:30:07.113573+00:00",
+  "research_updated_at": "2026-10-17T19:32:27.650132+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EGA native public-study metadata API verified with grant gap; COLdeduplicated/held sourcecriteria reviewed; Trovev3reviewedkey/termschallenge candidate",
+  "latest_milestone": "HCDCnativeopen discoverymetadata APIverified; Senckenbergdefaultcopyright/nativehold; IODP6operatorrefs and source/APIgaps indexed",
   "counts": {
-    "verified": 279,
+    "verified": 280,
     "candidates": 518,
-    "excluded": 110,
+    "excluded": 111,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -6316,6 +6316,24 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_and_named_layer_schema_only",
       "latest_checked_utc": "2026-10-17T08:12:27.182985+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "hcdc-datasearch-metadata-api",
+      "provider": "Helmholtz-Zentrum Hereon / Helmholtz Coastal Data Center",
+      "service_name": "HCDC datasearch list/search discovery metadata REST API",
+      "geographic_coverage": "Coastal/environmental research and climatearchives; NorthSea/European and source-specific global coverage",
+      "topical_coverage": "climate | oceans | environment | water | geospatial | research",
+      "dataset_families": "Publicdatabase/field discoverymetadata for Campaign,Opendap,WDCC. Scientificmeasurements and externallylinked/sourcefiles excluded from blanket acceptance",
+      "documentation_url": "https://hcdc.hereon.de/searchapi/playground/info | https://hcdc.hereon.de/searchapi/playground/list/info",
+      "api_base_url": "https://hcdc.hereon.de/searchapi/playground/",
+      "format_protocol": "REST JSONlist/search; native3database-name list and machine-readable contractJSON",
+      "authentication": "Anonymous list/database succeeded; no credentials/account required for sampled metadata. Optionalemail/download workflows not exercised.",
+      "free_access_restrictions": "Verifieddiscoverymetadata underexplicitCCBY4APIanddisclaimerterms withattribution. Source/externallinks/measurementfilesretain exactgrants; no universalcampaignoverride.",
+      "license": "Creative Commons Attribution4.0 International, scoped to verified datasearch discoverymetadata",
+      "license_url": "https://hcdc.hereon.de/disclaimer/Disclaimer_HCDC_EN.pdf | https://hcdc.hereon.de/searchapi/playground/info",
+      "api_verification_state": "native_anonymous_database_discovery_JSON_success_published_contract_JSON",
+      "latest_checked_utc": "2026-10-17T19:32:23.436297+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20270,6 +20288,24 @@
       "license_url": "https://scholarsphere.psu.edu/terms/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "senckenberg-research-metadata-portal",
+      "provider": "Senckenberg Society for Nature Research",
+      "service_name": "Senckenberg geo/biodiversity research CKAN metadata portal",
+      "geographic_coverage": "Senckenberginstitutional research with worldwide collection/field/source coverage",
+      "topical_coverage": "biodiversity | geology | ecology | paleontology | environment | research",
+      "dataset_families": "Geo/biodiversity research project/dataset metadata; collectionssearch separate, externallylinkedfiles separate",
+      "documentation_url": "https://dataportal.senckenberg.de/about | https://docs.ckan.org/en/2.9/api/",
+      "api_base_url": "",
+      "format_protocol": "Officialabout identifiesCKAN; registry/standardAPIroute, native requestrobots-withheld,targetunsent",
+      "authentication": "Publicdatasetsearch withoutaccount documented; APIruntimeauthunknown duewithheldsample",
+      "free_access_restrictions": "Currentlegaldefault requireswrittenpermission unlessotherlicenceexplicitlystated; per-record/sourceexceptionsunreviewed",
+      "license": "Default copyright/writtenpermission unless separatelylicensed",
+      "license_url": "https://dataportal.senckenberg.de/legal",
+      "api_verification_state": "CKAN_portal_confirmed_native_candidate_API_sample_robots_withheld",
+      "latest_checked_utc": "2026-10-17T19:32:23.436297+00:00",
       "classification": "restricted"
     },
     {
