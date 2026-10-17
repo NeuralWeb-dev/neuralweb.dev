@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T02:10:16.350869+00:00",
+  "published_at": "2026-10-17T02:12:18.729291+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:09:06.635278+00:00",
+  "research_updated_at": "2026-10-17T02:12:07.173208+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Cultural batch10distinct services reviewed; Getty provenance actualJSON/CC0 and vocabularydocumentedODCBy scoped, Museum Collection docs404unresolved",
+  "latest_milestone": "Culture/ontology finite10service review complete:5scopedopen/4candidate/1mixedrestricted;52Fintovocabularies,19Finnaformats,96K-samsokinstitutions178services,33documentedGETroutes,100Gettyactivityevents indexed. See batch-2026-10-17-culture-ontology-report.txt; globaldefineduniverseunfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 162,
     "candidates": 288,
@@ -246,6 +246,7 @@
           "emodnet",
           "geoboundaries",
           "geonames",
+          "getty-vocabularies",
           "nasa-cmr",
           "opencontext",
           "osm",
@@ -370,6 +371,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bnf-catalogue",
+          "cleveland-art",
+          "getty-provenance",
+          "getty-vocabularies",
           "metmuseum",
           "opencontext",
           "unesco",
@@ -380,12 +384,14 @@
           "artic",
           "cifor-icraf",
           "cinii-books",
+          "getty-museum",
           "loc",
           "nasa-power",
           "ocha-hapi",
           "perspectivia",
           "rijksmuseum",
           "smithsonian",
+          "wellcome-collection",
           "wfp"
         ],
         "restricted_provider_ids": [
@@ -402,12 +408,15 @@
           "bgs",
           "bnf-catalogue",
           "cchdo",
+          "cleveland-art",
           "crossref",
           "datacite",
           "dryad",
           "gavo",
           "geoboundaries",
           "geri",
+          "getty-provenance",
+          "getty-vocabularies",
           "metmuseum",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -443,6 +452,7 @@
           "europepmc",
           "figshare",
           "fsd-finland",
+          "getty-museum",
           "harvard-dataverse",
           "hycom",
           "idigbio",
@@ -453,7 +463,8 @@
           "pangaea",
           "perspectivia",
           "rijksmuseum",
-          "smithsonian"
+          "smithsonian",
+          "wellcome-collection"
         ],
         "restricted_provider_ids": [
           "acled",
@@ -627,6 +638,7 @@
           "arctic-data",
           "eccc-geomet",
           "epa-aqs",
+          "getty-vocabularies",
           "seafloor",
           "usda-cdl",
           "wis2-gdc-canada"
@@ -731,6 +743,9 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "cleveland-art",
+          "getty-provenance",
+          "getty-vocabularies",
           "greenland-statistics",
           "metmuseum",
           "usda-cdl",
@@ -738,6 +753,7 @@
         ],
         "candidate_provider_ids": [
           "artic",
+          "getty-museum",
           "loc",
           "smithsonian",
           "usda-nass"
@@ -750,8 +766,11 @@
           "arctic-data",
           "ca-opc",
           "cib",
+          "cleveland-art",
           "fwc",
           "geri",
+          "getty-provenance",
+          "getty-vocabularies",
           "metmuseum",
           "nih-rxnav",
           "sctld",
@@ -764,6 +783,7 @@
           "edac-gstore",
           "edi",
           "esa-ecology",
+          "getty-museum",
           "goa-ecology",
           "knb",
           "loc",
@@ -1436,6 +1456,8 @@
           "europeana",
           "eurostat",
           "faroe-statistics",
+          "finna",
+          "finto",
           "georgia-statistics",
           "iceland-statistics",
           "lithuania-dataportal",
@@ -1449,11 +1471,13 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "ksamsok",
           "lithuania-statistics",
           "perspectivia",
           "rijksmuseum",
           "serbia-rzs",
-          "uk-trade-tariff"
+          "uk-trade-tariff",
+          "wellcome-collection"
         ],
         "restricted_provider_ids": [
           "bnf-gallica"
@@ -1468,6 +1492,8 @@
           "darus",
           "dnb",
           "faroe-statistics",
+          "finna",
+          "finto",
           "geri",
           "iceland-statistics",
           "ices-dome",
@@ -1484,8 +1510,10 @@
           "anfr-data",
           "b2share",
           "fsd-finland",
+          "ksamsok",
           "perspectivia",
           "rijksmuseum",
+          "wellcome-collection",
           "yoda-utrecht"
         ],
         "restricted_provider_ids": [
@@ -2731,9 +2759,12 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "pacific-stat",
-          "spc-pccos-tds"
+          "spc-pccos-tds",
+          "te-papa"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "digitalnz"
+        ]
       },
       "research": {
         "status": "partial_verified",
@@ -2746,9 +2777,11 @@
           "pacioos-erddap",
           "pisco",
           "rda-australia",
-          "spc-pccos-tds"
+          "spc-pccos-tds",
+          "te-papa"
         ],
         "restricted_provider_ids": [
+          "digitalnz",
           "spc-pccos-thredds"
         ]
       }
@@ -3476,7 +3509,7 @@
       "license": "CC0 1.0",
       "license_url": "https://openaccess-api.clevelandart.org/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T02:06:13.696042+00:00",
+      "latest_checked_utc": "2026-10-17T02:03:50.393658+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3908,7 +3941,7 @@
       "license": "CC0 1.0",
       "license_url": "https://www.kiwi.fi/spaces/Finna/pages/53839699/Finna+API+Terms+of+Use",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T02:06:13.704898+00:00",
+      "latest_checked_utc": "2026-10-17T02:06:13.437997+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3926,7 +3959,7 @@
       "license": "Selected YSO CC BY4.0; other vocabulary licenses vary",
       "license_url": "https://finto.fi/yso/en/ | https://api.finto.fi/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T02:06:13.747186+00:00",
+      "latest_checked_utc": "2026-10-17T02:07:01.322059+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4124,7 +4157,7 @@
       "license": "CC0 1.0",
       "license_url": "https://data.getty.edu/provenance/docs/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T02:09:06.283028+00:00",
+      "latest_checked_utc": "2026-10-17T02:08:27.926117+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4137,12 +4170,12 @@
       "documentation_url": "https://www.getty.edu/research-conservation/tools-databases/vocabularies/data-services/",
       "api_base_url": "https://vocab.getty.edu/sparql",
       "format_protocol": "Linked Data; JSON-LD/RDF; SPARQL; ActivityStreams interfaces vary",
-      "authentication": "Anonymous SPARQL interface advertised; direct doc/sample policy-deferred before target, no credentials",
+      "authentication": "unknown; public SPARQL service documented, original host policy-deferred; no credentials used",
       "free_access_restrictions": "Public data interfaces documented; no key/account/payment obtained",
       "license": "Open Data Commons Attribution1.0",
       "license_url": "https://www.getty.edu/research-conservation/tools-databases/vocabularies/data-services/",
       "api_verification_state": "documented_SPARQL_API_original_policy_deferred_untested",
-      "latest_checked_utc": "2026-10-17T02:09:06.259386+00:00",
+      "latest_checked_utc": "2026-10-17T02:09:09.959925+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7078,7 +7111,7 @@
       "license": "unknown; other Getty services/media licenses not transferred",
       "license_url": "https://data.getty.edu/museum/collection/docs/",
       "api_verification_state": "documented_directory_claim_original_doc_HTTP404_no_successful_API_sample",
-      "latest_checked_utc": "2026-10-17T02:09:06.309943+00:00",
+      "latest_checked_utc": "2026-10-17T02:06:40.611458+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7564,7 +7597,7 @@
       "license": "Official overview metadata CC0; full service terms include direct-call/nontransferable language and individual NC warnings",
       "license_url": "https://www.raa.se/hitta-information/k-samsok/att-anvanda-k-samsok/api/ | https://www.raa.se/hitta-information/k-samsok/att-anvanda-k-samsok/anvandarvillkor/",
       "api_verification_state": "actual_institution_directory_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:06:13.730405+00:00",
+      "latest_checked_utc": "2026-10-17T02:04:32.461921+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9544,7 +9577,7 @@
       "license": "Metadata CC BY4.0, Te Papa credit waived; linked media mixed ARR/NC-ND/no-known-restrictions",
       "license_url": "https://www.tepapa.govt.nz/assets/76067/1693184837-collections_api_terms_of_use.pdf",
       "api_verification_state": "documented_key_required_untested_original_docs_policy_deferred",
-      "latest_checked_utc": "2026-10-17T02:06:13.738684+00:00",
+      "latest_checked_utc": "2026-10-17T02:06:13.439565+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9832,7 +9865,7 @@
       "license": "Wellcome-created data CC0; thirdparty metadata differs and per-work origin/license not consistently identified",
       "license_url": "https://developers.wellcomecollection.org/docs/catalogue",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T02:06:13.722120+00:00",
+      "latest_checked_utc": "2026-10-17T02:03:52.460259+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11346,7 +11379,7 @@
       "license": "Mixed: default NC/custom commercial selected-metadata agreement; pre-existing Europeana CC0 and data.govt.nz CC BY3NZ exceptions",
       "license_url": "https://digitalnz.org/about/terms-of-use/developer-api-terms-of-use",
       "api_verification_state": "documented_API_untested_original_docs_policy_deferred",
-      "latest_checked_utc": "2026-10-17T02:06:13.713140+00:00",
+      "latest_checked_utc": "2026-10-17T02:06:13.438678+00:00",
       "classification": "restricted"
     },
     {
