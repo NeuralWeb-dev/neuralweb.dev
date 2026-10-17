@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T18:45:42.165129+00:00",
+  "published_at": "2026-10-17T18:47:44.909310+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:42:25.758942+00:00",
+  "research_updated_at": "2026-10-17T18:46:14.573037+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed; RiuNet metadata CC0/nativeOAI accepted,1677sets/190dataset identifiers indexed; HALO113selectedNCNDrefs; PANGAEA scoped CORDEX alias; source interfaces and grants unresolved",
+  "latest_milestone": "Nine originals reviewed; RiuNet metadata CC0/nativeOAI accepted;1677sets/190dataset IDs,HALO113refs,Tethys294IDs,Edmond10refs indexed; PANGAEA reused; source interface/metadata grant gaps retained",
   "counts": {
     "verified": 274,
-    "candidates": 501,
+    "candidates": 503,
     "excluded": 103,
     "sample_successes": 476
   },
@@ -1708,6 +1708,7 @@
           "santander-open-data",
           "sardinia-geospatial-wfs",
           "terrassa-open-data",
+          "tethys-geosphere-oai",
           "tuscany-open-data-catalog",
           "wis2-poland",
           "wis2-russian-federation"
@@ -2074,6 +2075,7 @@
           "schaffhausen-geoservices",
           "shom-data",
           "solothurn-gis-dataservice",
+          "tethys-geosphere-oai",
           "tuscany-open-data-catalog",
           "ukho-tidal",
           "valais-cantonal-geoservices",
@@ -2379,6 +2381,7 @@
           "saw-leipzig-fcs",
           "surf-data-repository",
           "swissubase-oai",
+          "tethys-geosphere-oai",
           "tuebingen-fcs",
           "wellcome-collection",
           "yoda-utrecht",
@@ -11023,6 +11026,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "edmond-research-data-api",
+      "provider": "Max Planck Digital Library / Max Planck Information and Technology",
+      "service_name": "Edmond Dataverse research data API",
+      "geographic_coverage": "International research from Max Planck researchers/partners; individual study geography varies",
+      "topical_coverage": "research | biology | chemistry | physics | geosciences | multidisciplinary",
+      "dataset_families": "Completed research datasets, processed/raw data, supporting code and scientific metadata with individual licences",
+      "documentation_url": "https://www.edmond.mpg.de/Glossary_FAQ/ | https://www.edmond.mpg.de/Data_Access_Usage/ | https://www.edmond.mpg.de/Terms_of_Use/",
+      "api_base_url": "https://edmond.mpg.de/api/",
+      "format_protocol": "Provider-documented REST file-access links and Dataverse service; native search response not obtained",
+      "authentication": "Operator says published datasets accessible without user account; API runtime untested because native sample policy-withheld. No drafts/preview tokens/mutations queried.",
+      "free_access_restrictions": "Public dataset access documented; each dataset licence/terms accepted separately for downloads; no files or agreements used",
+      "license": "Operator default CC0 when no assigned licence; dataset-specific alternatives. Global metadata/database/API grant unresolved.",
+      "license_url": "https://www.edmond.mpg.de/Terms_of_Use/ | https://www.mpdl.mpg.de/en/services/tos.html",
+      "api_verification_state": "provider_REST_file_interface_documented_native_search_robots_withheld_untested",
+      "latest_checked_utc": "2026-10-17T18:45:53.239534+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "edmonton-open-data",
       "provider": "City of Edmonton; named census source Statistics Canada",
       "service_name": "Edmonton Open Data Socrata catalogue and SODA",
@@ -15844,6 +15865,24 @@
       "license_url": "https://cris.uns.ac.rs/api/skg-if",
       "api_verification_state": "actual_product_metadata_JSONLD_sample_success",
       "latest_checked_utc": "2026-10-17T02:41:38.843357+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tethys-geosphere-oai",
+      "provider": "GeoSphere Austria",
+      "service_name": "Tethys RDR OAI-PMH metadata service",
+      "geographic_coverage": "Austria-focused and collaborative georeferenced geoscience research; individual study extent varies",
+      "topical_coverage": "geosciences | geospatial | environment | research",
+      "dataset_families": "Analysis, measurements, monitoring, remote sensing, GIS, models and mixed geoscientific data publications",
+      "documentation_url": "https://www.tethys.at/oai?verb=Identify+%7C+https%3A%2F%2Fwww.tethys.at%2Fdocs%2FHandbuchTethys.pdf+%7C+https%3A%2F%2Fwww.tethys.at%2Fdocs%2FPreservationPlanTethys.pdf",
+      "api_base_url": "https://www.tethys.at/oai",
+      "format_protocol": "OAI-PMH2XML; oai_dc, oai_datacite and iso19139 advertised",
+      "authentication": "Anonymous Identify/formats/ListIdentifiers/GetRecord succeeded; no account used",
+      "free_access_restrictions": "Public metadata documented even when source data embargoed; public dataset/embargo conditions source-specific",
+      "license": "Data publication policy supports CC BY4.0 or CC BY-SA4.0; metadata/database-wide CC0 unconfirmed",
+      "license_url": "https://www.tethys.at/docs/HandbuchTethys.pdf | https://www.tethys.at/docs/PreservationPlanTethys.pdf",
+      "api_verification_state": "native_anonymous_OAI_XML_success_full294identifier_snapshot_and_one_metadata_record",
+      "latest_checked_utc": "2026-10-17T18:45:53.239534+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
