@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T19:34:44.700294+00:00",
+  "published_at": "2026-10-17T19:36:47.018921+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:34:40.438541+00:00",
+  "research_updated_at": "2026-10-17T19:35:41.321465+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ioerDATAportal/nativehold/source-rightsgaps retained; CARIBICandPhysioBankdeduplicated withsourceprotocol/software-API distinctions",
+  "latest_milestone": "Nine originals reviewed; five services added, three existing services updated; HCDC discovery metadata scoped-open, EGA public JSON verified with licence unresolved, source/API gaps retained",
   "counts": {
     "verified": 280,
     "candidates": 519,
@@ -114,6 +114,7 @@
           "emodnet",
           "esgf-cmip5-discovery",
           "geri",
+          "hcdc-datasearch-metadata-api",
           "igb-fred-metadata-interface",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -135,6 +136,7 @@
           "hdx",
           "hycom",
           "iagos-atmospheric-rest",
+          "ioerdata-spatial-research-portal",
           "isimip-impact-repository",
           "nasa-api",
           "nasa-power",
@@ -159,7 +161,8 @@
           "fao",
           "oceanrep-oai-metadata",
           "open-meteo",
-          "openaq"
+          "openaq",
+          "senckenberg-research-metadata-portal"
         ]
       },
       "water": {
@@ -167,6 +170,7 @@
         "verified_provider_ids": [
           "emodnet",
           "geri",
+          "hcdc-datasearch-metadata-api",
           "igb-fred-metadata-interface",
           "nasa-cmr"
         ],
@@ -260,7 +264,8 @@
           "cinii-books",
           "internet-archive-metadata",
           "kth-data-repository-api",
-          "mit-timdex"
+          "mit-timdex",
+          "trove-cultural-discovery-api"
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
@@ -273,7 +278,9 @@
         "verified_provider_ids": [
           "osm"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "ioerdata-spatial-research-portal"
+        ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal"
         ]
@@ -300,6 +307,7 @@
           "geoboundaries",
           "geonames",
           "getty-vocabularies",
+          "hcdc-datasearch-metadata-api",
           "marine-regions-modern-boundaries-ogc",
           "nasa-cmr",
           "opencontext",
@@ -317,12 +325,14 @@
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
+          "ioerdata-spatial-research-portal",
           "mit-timdex",
           "nsidc",
           "planetary-computer",
           "saudi-mofa",
           "sesar-sample-metadata-api",
           "shom-data",
+          "trove-cultural-discovery-api",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
@@ -401,6 +411,7 @@
           "inaturalist",
           "ipd-immunopolymorphism-api",
           "phi-base-api",
+          "senckenberg-research-metadata-portal",
           "worms"
         ]
       },
@@ -412,6 +423,7 @@
           "earthbyte-gplates-web-service",
           "emodnet",
           "esgf-cmip5-discovery",
+          "hcdc-datasearch-metadata-api",
           "marine-regions-modern-boundaries-ogc",
           "obis",
           "pangaea"
@@ -481,6 +493,7 @@
           "perspectivia",
           "rijksmuseum",
           "smithsonian",
+          "trove-cultural-discovery-api",
           "wellcome-collection",
           "wfp"
         ],
@@ -518,6 +531,7 @@
           "geri",
           "getty-provenance",
           "getty-vocabularies",
+          "hcdc-datasearch-metadata-api",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
           "kitopen-bibliographic-oai",
@@ -572,6 +586,7 @@
           "iati-dashboard-metadata",
           "idigbio",
           "internet-archive-metadata",
+          "ioerdata-spatial-research-portal",
           "isimip-impact-repository",
           "jpl-ssd",
           "kth-data-repository-api",
@@ -586,6 +601,7 @@
           "sesar-sample-metadata-api",
           "smithsonian",
           "tritrypdb",
+          "trove-cultural-discovery-api",
           "undata-official-sdmx-api",
           "wellcome-collection"
         ],
@@ -607,6 +623,7 @@
           "oceanrep-oai-metadata",
           "orcid",
           "phi-base-api",
+          "senckenberg-research-metadata-portal",
           "un-comtrade"
         ]
       }
@@ -1689,6 +1706,7 @@
           "fingal-open-data",
           "georgia-statistics",
           "geri",
+          "hcdc-datasearch-metadata-api",
           "iceland-statistics",
           "ices-dome",
           "italy-istat-sdmx",
@@ -1723,6 +1741,7 @@
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "galicia-abertos-catalog",
+          "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
           "latvia-statistics",
           "lithuania-statistics",
@@ -1764,6 +1783,7 @@
           "ea-hydrology",
           "emodnet",
           "geri",
+          "hcdc-datasearch-metadata-api",
           "iceland-statistics",
           "oulu-open-data-api"
         ],
@@ -1986,6 +2006,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "cambridgeshire-insight",
+          "ioerdata-spatial-research-portal",
           "lithuania-statistics",
           "mulhouse-alsace-open-data",
           "os-os-places-api",
@@ -2056,6 +2077,7 @@
           "ea-hydrology",
           "emodnet",
           "fingal-open-data",
+          "hcdc-datasearch-metadata-api",
           "madrid-open-data",
           "netherlands-catalog-metadata",
           "noi-opendatahub-metadata",
@@ -2089,6 +2111,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
           "mulhouse-alsace-open-data",
           "navarra-open-data",
@@ -2230,6 +2253,7 @@
           "bgs",
           "cefas",
           "emodnet",
+          "hcdc-datasearch-metadata-api",
           "ices-dome",
           "transportapi-fi"
         ],
@@ -2362,6 +2386,7 @@
           "finto",
           "fsd-finland",
           "geri",
+          "hcdc-datasearch-metadata-api",
           "iceland-statistics",
           "ices-dome",
           "lindat-repository",
@@ -2399,6 +2424,7 @@
           "gotriple",
           "granada-university-open-data",
           "ilc4clarin-fcs",
+          "ioerdata-spatial-research-portal",
           "kielipankki-fcs",
           "kpbc-digital-library",
           "ksamsok",
@@ -3621,6 +3647,7 @@
           "nsw-open-data-catalog",
           "pacific-data",
           "pacific-stat",
+          "trove-cultural-discovery-api",
           "victoria-datavic"
         ],
         "restricted_provider_ids": []
@@ -3685,6 +3712,7 @@
           "qspatial-csw-catalog",
           "stats-nz-geographic",
           "sunshine-coast-open-data-search",
+          "trove-cultural-discovery-api",
           "victoria-datavic",
           "wa-slip-public-geospatial-services",
           "worldpop-wopr"
@@ -3794,7 +3822,8 @@
           "qspatial-csw-catalog",
           "rcc-acis-web-services",
           "spc-pccos-tds",
-          "te-papa"
+          "te-papa",
+          "trove-cultural-discovery-api"
         ],
         "restricted_provider_ids": [
           "digitalnz"
@@ -3815,7 +3844,8 @@
           "pacioos-erddap",
           "pisco",
           "spc-pccos-tds",
-          "te-papa"
+          "te-papa",
+          "trove-cultural-discovery-api"
         ],
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
