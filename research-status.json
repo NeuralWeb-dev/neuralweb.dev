@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T03:03:28.724118+00:00",
+  "published_at": "2026-10-17T03:05:34.186826+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T03:03:12.792685+00:00",
+  "research_updated_at": "2026-10-17T03:03:37.085086+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Started four queued primary metadata-policy/API leads: LINDAT repository,PORTULAN repository,ADS,ONBwebarchive",
   "counts": {
     "verified": 172,
     "candidates": 307,
@@ -1260,6 +1260,7 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arche-repository",
           "cessda-elsst",
           "cessda-vocabularies",
           "clarin-dk",
@@ -1273,6 +1274,7 @@
           "moldova-data",
           "poland-bdl",
           "poland-gus-sdg",
+          "saw-leipzig-repository",
           "scotland-catalog",
           "serbia-data",
           "slovenia-statistics",
@@ -1281,17 +1283,32 @@
           "wales-statistics"
         ],
         "candidate_provider_ids": [
+          "acdh-fcs",
           "aland-statistics",
+          "bas-fcs",
           "cessda-catalogue",
+          "clarin-dk-fcs",
           "clarin-fcs",
+          "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "cocoon-fcs",
+          "czech-national-corpus-fcs",
           "gotriple",
+          "ilc4clarin-fcs",
+          "kielipankki-fcs",
           "latvia-statistics",
           "lithuania-statistics",
-          "serbia-rzs"
+          "ortolang-fcs",
+          "portulan-fcs",
+          "saw-leipzig-fcs",
+          "serbia-rzs",
+          "tuebingen-fcs"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "lindat-fcs",
+          "swiss-al-fcs"
+        ]
       },
       "housing": {
         "status": "partial_verified",
@@ -1471,6 +1488,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arche-repository",
           "bnf-catalogue",
           "clarin-dk",
           "clarin-pl",
@@ -1488,32 +1506,48 @@
           "poland-bdl",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
+          "saw-leipzig-repository",
           "serbia-data",
           "slovenia-statistics",
           "ukraine-data",
           "wales-statistics"
         ],
         "candidate_provider_ids": [
+          "acdh-fcs",
           "aland-statistics",
+          "bas-fcs",
+          "clarin-dk-fcs",
           "clarin-fcs",
+          "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "cocoon-fcs",
+          "czech-national-corpus-fcs",
           "gotriple",
+          "ilc4clarin-fcs",
+          "kielipankki-fcs",
           "ksamsok",
           "lithuania-statistics",
+          "ortolang-fcs",
           "perspectivia",
+          "portulan-fcs",
           "rijksmuseum",
+          "saw-leipzig-fcs",
           "serbia-rzs",
+          "tuebingen-fcs",
           "uk-trade-tariff",
           "wellcome-collection"
         ],
         "restricted_provider_ids": [
-          "bnf-gallica"
+          "bnf-gallica",
+          "lindat-fcs",
+          "swiss-al-fcs"
         ]
       },
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "arche-repository",
           "bgs",
           "bnf-catalogue",
           "cessda-elsst",
@@ -1535,27 +1569,42 @@
           "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
+          "saw-leipzig-repository",
           "slovenia-statistics",
           "uk-police"
         ],
         "candidate_provider_ids": [
+          "acdh-fcs",
           "aland-statistics",
           "anfr-data",
           "b2share",
+          "bas-fcs",
           "cessda-catalogue",
+          "clarin-dk-fcs",
           "clarin-fcs",
+          "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "cocoon-fcs",
+          "czech-national-corpus-fcs",
           "gotriple",
+          "ilc4clarin-fcs",
+          "kielipankki-fcs",
           "ksamsok",
+          "ortolang-fcs",
           "perspectivia",
+          "portulan-fcs",
           "rijksmuseum",
+          "saw-leipzig-fcs",
+          "tuebingen-fcs",
           "wellcome-collection",
           "yoda-utrecht"
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
-          "copernicus-marine"
+          "copernicus-marine",
+          "lindat-fcs",
+          "swiss-al-fcs"
         ]
       }
     },
