@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T20:23:51.239422+00:00",
+  "published_at": "2026-10-17T20:25:54.071059+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:21:48.679070+00:00",
+  "research_updated_at": "2026-10-17T20:23:59.529100+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GEOFONlicensed earthquakeAPI nativeone-rowverified; GFZsharedOAI andBSHsource tasks deduplicated, source grants distinguished",
+  "latest_milestone": "Nine original tasks reviewed in three batches; seven records added, two existing service scopes clarified. GEOFON event products licensed BY4 with native sample; SDDB367 descriptions fully paginated. Global discovery unfinished.",
   "counts": {
     "verified": 283,
     "candidates": 544,
@@ -142,6 +142,7 @@
           "ioerdata-spatial-research-portal",
           "isimip-impact-repository",
           "litterbase-marine-litter-portal",
+          "muenster-datastore-rest",
           "nasa-api",
           "nasa-power",
           "noaa-erddap",
@@ -240,6 +241,7 @@
           "europepmc",
           "gwas-catalog",
           "hdx",
+          "muenster-datastore-rest",
           "nih-clinicaltrials",
           "ocha-hapi",
           "tritrypdb",
@@ -354,7 +356,8 @@
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
           "aviso-authenticated-data-services",
-          "earthstat-restricted-raster-families"
+          "earthstat-restricted-raster-families",
+          "terrasarx-sar-imagery-access"
         ]
       },
       "public spending/contracts": {
@@ -509,6 +512,7 @@
           "isimip-impact-repository",
           "loc",
           "mit-timdex",
+          "muenster-datastore-rest",
           "nasa-power",
           "ocha-hapi",
           "osi-licenses",
@@ -550,6 +554,7 @@
           "figshare",
           "gavo",
           "geoboundaries",
+          "geofon-earthquake-event-api",
           "geri",
           "getty-provenance",
           "getty-vocabularies",
@@ -612,8 +617,10 @@
           "icdc-climate-thredds",
           "icgem-gravity-model-portal",
           "idigbio",
+          "igets-geodynamics-data-archive",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
+          "isdc-public-data-archive",
           "isimip-impact-repository",
           "ivs-vlbi-data-portal",
           "jpl-ssd",
@@ -621,11 +628,13 @@
           "litterbase-marine-litter-portal",
           "loc",
           "mit-timdex",
+          "muenster-datastore-rest",
           "nih-clinicaltrials",
           "nims-mdr",
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
+          "sddb-scientific-drilling-oai",
           "seabass-sst-validation-api",
           "sesar-sample-metadata-api",
           "smithsonian",
@@ -657,6 +666,8 @@
           "orcid",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
+          "terrasarx-sar-imagery-access",
+          "terrasarx-tor-rso-archive",
           "un-comtrade"
         ]
       }
