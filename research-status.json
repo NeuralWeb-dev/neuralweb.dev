@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-17T01:02:53.772870+00:00",
+  "published_at": "2026-10-17T01:04:56.065193+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:58:27.155583+00:00",
+  "research_updated_at": "2026-10-17T01:04:18.993020+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OceanupstreamHYCOM/PacIOOS/NERACOOSprimaryAPIsverifiedtodocumentation/metadata;rights/accesscandidates",
+  "latest_milestone": "EMODnetselectedCCBY4product/fullISOgrant/actualboundedWFSGeoJSONverified",
   "counts": {
-    "verified": 153,
+    "verified": 154,
     "candidates": 210,
     "excluded": 27,
     "sample_successes": 199
@@ -3632,6 +3632,24 @@
       "license_url": "https://www.eia.gov/about/copyrights_reuse.php",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:29:28.920534+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "emodnet",
+      "provider": "European Marine Observation and Data Network / EU DG MARE and thematicpartners",
+      "service_name": "EMODnet central metadata catalogue and linked thematic OGC services",
+      "geographic_coverage": "Europe;pan-Europeanmarine/coastalareas;someglobal/cross-basinproducts. SelectedcoastalUrbanWasteWaterTreatmentPlantsproduct coversreportingEuropeancoastalregions;notuniformwholeworldcoverage.",
+      "topical_coverage": "oceans; water; climate/weather/environment; geospatial; energy; biodiversity; transportation; research",
+      "dataset_families": "Sevenpublishedthemes:Bathymetry,Biology,Chemistry,Geology,HumanActivities,Physics,SeabedHabitats. AcceptanceONLYselectedEMODnetHumanActivitiesUrbanWasteWaterTreatmentDirectiveTreatmentPlants product289bcdac-bd46-4387-8c52-4fdeaf07e98a;notallthirdpartyrecords/themes.",
+      "documentation_url": "https://emodnet.ec.europa.eu/en/emodnet-web-service-documentation",
+      "api_base_url": "https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw | https://ows.emodnet-humanactivities.eu/wfs",
+      "format_protocol": "ActualcentralCSW2.0.2capabilities/GetRecords/GetRecordByIdXML;selectedfullISO19139outputschemaXML;thematicWFS2.0.0capabilitiesandoneGeoJSONFeatureCollection/Pointsample. BroaderpublishedWMS/WCS/ERDDAP/THREDDS/RESTinterfacesdocumentedonly.",
+      "authentication": "SelectedCSW/WFScapabilities/recordmetadataand1featureanonymous200;otherresourcesauth/free-tierunreviewed,noaccounts/keys.",
+      "free_access_restrictions": "Officialtermssaycentralservicesfree;selectedmetadata/dataqueryfree/noaccount. Thirdpartydatasetsretainoriginatorconditions;notallrecordsopen. NoNetCDF/fileZIPbulkdownloads or paidaccess.",
+      "license": "CreativeCommonsAttribution4.0International,selectedEMODnetUWWTPTreatmentPlantsproduct",
+      "license_url": "https://emodnet.ec.europa.eu/en/terms-use-emodnet-online-services-data-and-data-products | https://creativecommons.org/licenses/by/4.0/legalcode | https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&elementSetName=full&id=289bcdac-bd46-4387-8c52-4fdeaf07e98a&outputSchema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T01:04:18.894066+00:00",
       "classification": "open_license_verified"
     },
     {
