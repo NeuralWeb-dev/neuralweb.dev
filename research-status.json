@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T15:15:20.246056+00:00",
+  "published_at": "2026-10-17T15:17:22.992794+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:13:00.924097+00:00",
+  "research_updated_at": "2026-10-17T15:16:50.555700+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BrazilStates8origins:775records249open463candidates63restricted;3documentedcandidates,Rio/MGlegacycorrections,Curitibadownloadonly;35originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "SouthBrazil8origins:778records250open465candidates63restricted;TCE-RNscopedcustomgrant/nativeJSON,TCE-SP644referenceJSON;27originals/allbroaderqueuesremain.",
   "counts": {
-    "verified": 249,
-    "candidates": 463,
+    "verified": 250,
+    "candidates": 465,
     "excluded": 63,
-    "sample_successes": 462
+    "sample_successes": 464
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7225,8 +7225,8 @@
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC0 1.0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "api_verification_state": "historical_sample_success_current_enumeration_policy_deferred",
-      "latest_checked_utc": "2026-10-16T18:21:32.742473+00:00",
+      "api_verification_state": "historical_sample_success_current_root200_enumeration_remains_policy_held",
+      "latest_checked_utc": "2026-10-17T15:16:50.124351+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7785,6 +7785,24 @@
       "license_url": "https://www.tampere.fi/viestinta/rajapinnat-avoin-data-ja-mobiilipalvelut",
       "api_verification_state": "sample_success_RSS_XML_25items",
       "latest_checked_utc": "2026-10-17T13:35:22.465054+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "tce-rn-open-data-api",
+      "provider": "Tribunal de Contas do Estado do Rio Grande do Norte",
+      "service_name": "TCE-RN SIAI Open Data API",
+      "geographic_coverage": "Brazil; Rio Grande do Norte; state and municipal reporting entities",
+      "topical_coverage": "public spending/contracts; law/civic data",
+      "dataset_families": "Accepted reference groups of reporting entities; Swagger also advertises reporting bodies, budget revenue/expenditure, procurement, commitments/liquidations/payments and contracts, individually unqueried",
+      "documentation_url": "https://apidadosabertos.tce.rn.gov.br/swagger/ui/index",
+      "api_base_url": "https://apidadosabertos.tce.rn.gov.br/api/",
+      "format_protocol": "Swagger2.0 nativeJSON; data JSON verified; publisher additionally documents CSV/HTML formats",
+      "authentication": "Reference-group and Swagger requests succeeded without credentials; native definition declares no security scheme, not a guarantee for all future routes",
+      "free_access_restrictions": "Public reference sample without registration/payment; general availability and larger workload guarantees unknown",
+      "license": "Custom publisher unrestricted-use statement; scoped reference data acceptance",
+      "license_url": "https://apidadosabertos.tce.rn.gov.br/",
+      "api_verification_state": "actual_native_Swagger_and_reference_group_JSON_sample_success",
+      "latest_checked_utc": "2026-10-17T15:16:50.124122+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13226,6 +13244,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "porto-alegre-open-data-portal",
+      "provider": "Prefeitura Municipal de Porto Alegre / SMTC",
+      "service_name": "Dados Abertos POA catalogue API candidate",
+      "geographic_coverage": "Brazil; Rio Grande do Sul; Porto Alegre",
+      "topical_coverage": "municipal multisector public data; exact family inventory unreviewed",
+      "dataset_families": "Municipal dataset catalogue and CSV source works described in primary about page; current family and work counts unverified",
+      "documentation_url": "https://dados.portoalegre.rs.gov.br/about",
+      "api_base_url": "https://dados.portoalegre.rs.gov.br/api/3/action/",
+      "format_protocol": "Primary CKAN-facing catalogue; exact ActionAPI runtime unverified",
+      "authentication": "unknown; small read-only request prepared without credentials but held before transmission",
+      "free_access_restrictions": "About page describes freely permitted use/reuse of databases; exact API access, fees and restrictions unknown",
+      "license": "Publisher free-use/reuse statement; exact operative work and metadata grant unconfirmed",
+      "license_url": "https://dados.portoalegre.rs.gov.br/about",
+      "api_verification_state": "public_CKAN_frontend_native_small_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T15:16:50.124274+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "portulan-fcs",
       "provider": "PORTULAN CLARIN",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -13486,13 +13522,13 @@
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
       "documentation_url": "https://dados.tce.rs.gov.br/",
       "api_base_url": "https://dados.tce.rs.gov.br/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown (sample license fields null)",
-      "license_url": "https://dados.tce.rs.gov.br/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:43:35.391440+00:00",
+      "format_protocol": "CKAN Action API JSON verified in historical sample; current work descriptor held",
+      "authentication": "Historical catalogue sample succeeded without credentials; current small descriptor held before transmission",
+      "free_access_restrictions": "Historical public catalogue sample without payment/registration; broader access/service conditions unknown",
+      "license": "unknown; historical Contratos Consolidado2026 licence fields null, other works vary",
+      "license_url": "",
+      "api_verification_state": "historical_sample_success_current_work_descriptor_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T15:16:50.124460+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14555,6 +14591,24 @@
       "license_url": "https://www.nbs.go.tz/nbs/takwimu/references/Licence-Agreement-NBS.pdf | https://www.nbs.go.tz/nbs/takwimu/references/Terms-and-Conditions.pdf",
       "api_verification_state": "documented_eight_guides_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T22:27:55.708941+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tce-sp-municipal-transparency-api",
+      "provider": "Tribunal de Contas do Estado de São Paulo",
+      "service_name": "Portal da Transparência Municipal public API",
+      "geographic_coverage": "Brazil; municipalities under TCE-SP jurisdiction; reference list644entries, not every municipality in the state",
+      "topical_coverage": "public spending/contracts; economics/finance; law/civic data",
+      "dataset_families": "Municipality reference list verified; published revenue/expenditure routes by municipality/year/month; documentation lists years2014-2019, not runtime verification of every period",
+      "documentation_url": "https://transparencia.tce.sp.gov.br/apis",
+      "api_base_url": "https://transparencia.tce.sp.gov.br/api/",
+      "format_protocol": "REST JSON verified; XML documented",
+      "authentication": "Published GET guides and municipality sample do not require credentials; untested route access may differ",
+      "free_access_restrictions": "Municipality list accessible without registration/payment; full free tier/service conditions unknown",
+      "license": "unknown; public API documentation does not itself grant redistribution/adaptation rights",
+      "license_url": "",
+      "api_verification_state": "actual_published_public_JSON_municipality_reference_sample_success",
+      "latest_checked_utc": "2026-10-17T15:16:50.124198+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
