@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-17T17:48:31.878517+00:00",
+  "published_at": "2026-10-17T17:50:34.397781+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:44:29.477487+00:00",
+  "research_updated_at": "2026-10-17T17:49:47.837440+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ICPSRmetadataAPIcredentialrequired/NCverified;BioCycMetaHuman sharedAPIrestrictednoredistribution/SRIprimarylicence",
+  "latest_milestone": "Nineoriginaltasksreviewed;HelixcitationCC0/GPlatesselectedmodelCCBY4accepted,ICPSRNCandBioCyclimitedrestricted;GWSnative2point/15modelcatalogueandADEER52refs saved",
   "counts": {
-    "verified": 265,
+    "verified": 266,
     "candidates": 487,
     "excluded": 84,
     "sample_successes": 476
@@ -267,6 +267,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "earthbyte-gplates-web-service",
           "emodnet",
           "geoboundaries",
           "geonames",
@@ -372,6 +373,7 @@
         "verified_provider_ids": [
           "bgs",
           "cchdo",
+          "earthbyte-gplates-web-service",
           "emodnet",
           "esgf-cmip5-discovery",
           "obis",
@@ -464,6 +466,7 @@
           "datacite",
           "doaj",
           "dryad",
+          "earthbyte-gplates-web-service",
           "esgf-cmip5-discovery",
           "figshare",
           "gavo",
@@ -5403,6 +5406,24 @@
       "license_url": "https://environment.data.gov.uk/hydrology/doc/reference | https://environment.data.gov.uk/support/faqs/275811163/275811177 | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "actual_structured_data_sample_success",
       "latest_checked_utc": "2026-10-17T03:31:48.373499+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "earthbyte-gplates-web-service",
+      "provider": "EarthByte Group, University of Sydney / GPlates",
+      "service_name": "GPlates Web Service: selected ZAHIROVIC2022 model data scope",
+      "geographic_coverage": "Globalplatetectonicreconstruction; selectedmodel0–410Ma perproviderdocs",
+      "topical_coverage": "geospatial; oceans; research",
+      "dataset_families": "Plate-rotation/reconstructionmodeldata; acceptedselectedZAHIROVIC2022modelsource. Nativecatalogue15modelIDs,other14grantsunverified. Pointreconstruction andmodelmetadata interfaces.",
+      "documentation_url": "https://github.com/GPlates/gplates-web-service | https://gwsdoc.gplates.org/models/ | https://gws.gplates.org/openapi",
+      "api_base_url": "https://gws.gplates.org/",
+      "format_protocol": "HTTPGET RESTJSON/GeoJSON; actualMultiPoint2coordinates; OpenAPI3.0.2v1.0.0servedHTMLwithembeddedYAML,savedderivedschema",
+      "authentication": "Testedpublishedtwo-pointGET andfullnative15modelIDs anonymous,key/paymentnotrequiredforthosesamples; noaccountcredentialsused",
+      "free_access_restrictions": "Publictestedread-only/calculationexamples withoutpayment; untestedusagequotas/largerequestlimits unknown. Backupsnotqueried; no uploads/batchjobs orsourcefiledownloads.",
+      "license": "CC BY4.0 for selected ZAHIROVIC2022 model source data; othermodel/source rights unconfirmed",
+      "license_url": "https://doi.org/10.5281/zenodo.4729045 | https://zenodo.org/records/13899315 | https://creativecommons.org/licenses/by/4.0/legalcode",
+      "api_verification_state": "documented_current_native_GeoJSON_and_model_catalogue_success_selected_model_source_CC_BY_verified",
+      "latest_checked_utc": "2026-10-17T17:48:37.894182+00:00",
       "classification": "open_license_verified"
     },
     {
