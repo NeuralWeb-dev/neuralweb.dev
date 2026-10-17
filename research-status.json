@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T16:57:26.455639+00:00",
+  "published_at": "2026-10-17T16:59:28.811311+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:55:29.553720+00:00",
+  "research_updated_at": "2026-10-17T16:58:18.759667+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Seven original scientific/archive sources reviewed; IdRef RDF scoped-open and Arachne native JSON restricted verified; CDGP terms conflict recorded; TERN3/ABES5 discovery references indexed",
+  "latest_milestone": "Threeoriginsreviewed;B2SAFEinfrastructurenotpubliccatalogue,GRSPAPI/grantunresolved,Birdataextractsharingrestricted",
   "counts": {
     "verified": 261,
     "candidates": 479,
-    "excluded": 70,
+    "excluded": 71,
     "sample_successes": 473
   },
   "remaining_work": [
@@ -17407,6 +17407,24 @@
       "license_url": "https://data.brla.gov/terms-of-service",
       "api_verification_state": "actual_bounded_JSON_sample_success_restricted",
       "latest_checked_utc": "2026-10-17T06:03:50.466639+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "birdata-birdlife-australia",
+      "provider": "BirdLife Australia",
+      "service_name": "Birdata monitoring portal and permission-based data extracts(public API unresolved)",
+      "geographic_coverage": "Australia; site/survey-specific bird monitoring",
+      "topical_coverage": "biodiversity; climate/weather/environment; research",
+      "dataset_families": "Structuredspeciesobservations,surveys,birdmonitoring;morethan30millionrecordsclaimedbyprovider,notenumerated/validated",
+      "documentation_url": "https://birdata.birdlife.org.au/ | https://birdata.birdlife.org.au/request-data-2025",
+      "api_base_url": "",
+      "format_protocol": "HTMLportal/request-basedextractservice;no deployedqueryAPIverified",
+      "authentication": "Portalofferslogin;extractsrequest-based,exactAPIauthenticationunknown;noaccountused",
+      "free_access_restrictions": "Extractfilesmaynotbesharedpubliclywithoutapprovalandexplicitrequestterms. Requestform/emailworkflow,longtermsharingagreementbyapproval;nocontact/formsubmitted,feesunknown.",
+      "license": "Permission-basedextracts; publicredistributionprohibitedunlessapproved",
+      "license_url": "https://birdata.birdlife.org.au/request-data-2025",
+      "api_verification_state": "primary_public_HTML_and_extract_restrictions_verified_exact_public_API_unresolved_no_native_sample",
+      "latest_checked_utc": "2026-10-17T16:58:14.680562+00:00",
       "classification": "restricted"
     },
     {
