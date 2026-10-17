@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T03:38:17.826393+00:00",
+  "published_at": "2026-10-17T03:40:20.245514+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T03:33:58.158806+00:00",
+  "research_updated_at": "2026-10-17T03:39:59.870169+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Resumed six queued UK local/transport primary leads; per-request evidence checkpoints active",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 179,
-    "candidates": 315,
-    "excluded": 34,
-    "sample_successes": 327
+    "candidates": 319,
+    "excluded": 35,
+    "sample_successes": 329
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3403,6 +3403,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "bcc-services",
+      "provider": "Buckinghamshire Council / Family Information Service",
+      "service_name": "Family Information community services API",
+      "geographic_coverage": "Buckinghamshire,England; localservices,childcare,communityactivities andSEND/localoffer descriptions",
+      "topical_coverage": "demographics; education; health; housing; law/civic data",
+      "dataset_families": "3956publicserviceentries in40nativepages; organisations,location/taxonomy/eligibility metadata; entriesnotdatasets/APIproviders",
+      "documentation_url": "https://github.com/wearefuturegov/outpost-api-service/wiki | https://github.com/wearefuturegov/outpost-api-service/wiki/Making-requests | https://github.com/wearefuturegov/outpost-api-service/wiki/Search-services",
+      "api_base_url": "https://api.familyinfo.buckinghamshire.gov.uk/api/v1/",
+      "format_protocol": "REST/JSON; partialOpenReferralUKimplementation",
+      "authentication": "Maintainerdocsnoauthenticationtokens/headers; anonymousboundeddataGETsactuallysucceeded",
+      "free_access_restrictions": "Maintainerdocs specificallyreleaseAPI dataunderOGL3; codeMITseparate. Fairusemayratelimit; no bulkarrangements/contact/account neededforpolitefinitecurrentservicecatalog.",
+      "license": "OpenGovernmentLicencev3.0 — publishedFamilyInformationAPI data",
+      "license_url": "https://github.com/wearefuturegov/outpost-api-service/wiki | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "actual_JSON_bounded_service_and_complete_native_catalog_sample_success",
+      "latest_checked_utc": "2026-10-17T03:37:59.118308+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "bea",
       "provider": "Bureau of Economic Analysis",
       "service_name": "Bureau of Economic Analysis API",
@@ -6064,24 +6082,6 @@
       "license_url": "https://data.gov.tw/license",
       "api_verification_state": "historical_same_day_sample_success_current_catalog_policy_deferred",
       "latest_checked_utc": "2026-10-16T21:58:50.179119+00:00",
-      "classification": "open_license_verified"
-    },
-    {
-      "identifier": "tfl",
-      "provider": "Transport for London",
-      "service_name": "Transport for London API",
-      "geographic_coverage": "United Kingdom/London",
-      "topical_coverage": "transportation",
-      "dataset_families": "Transit stops; arrivals; lines; disruptions; journey planning",
-      "documentation_url": "https://api.tfl.gov.uk/",
-      "api_base_url": "https://api.tfl.gov.uk/",
-      "format_protocol": "REST/JSON",
-      "authentication": "Existing public line-status sample succeeded without key; licence states grant begins registration; registered API use/account conditions apply",
-      "free_access_restrictions": "Official licence explicitly free; reuse requires TfL/OS/Geomni attribution and compliance; no registration or key acquisition performed",
-      "license": "TfL Transport Data Service licence, based on OGL2.0 with specific amendments",
-      "license_url": "https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:48:32.407601+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10155,6 +10155,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "scc-directory-of-support-services",
+      "provider": "Southampton City Council",
+      "service_name": "Directory of support services API",
+      "geographic_coverage": "Southampton, England; public community/childcare/support directory entries",
+      "topical_coverage": "demographics; education; health; housing; law/civic data",
+      "dataset_families": "Public services,organisations,locations,taxonomies,eligibility and access information;1214reportedentries/25reportedpages; onlyfirst50 sampled",
+      "documentation_url": "https://www.api.gov.uk/scc/directory-of-support-services/",
+      "api_base_url": "https://directory.southampton.gov.uk/api/services",
+      "format_protocol": "ActualREST/JSON native contentarray/pagination metadata",
+      "authentication": "Anonymous publicGET succeeded; no account/key",
+      "free_access_restrictions": "Samplepublic/free withoutcredentials; licence and rate/access reuse conditionsunknown",
+      "license": "Unconfirmed current API data reuse licence",
+      "license_url": "",
+      "api_verification_state": "actual_JSON_service_directory_sample_success",
+      "latest_checked_utc": "2026-10-17T03:35:02.608964+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "senado-br",
       "provider": "Brazil Federal Senate (Senado Federal)",
       "service_name": "Senado Federal legislative and administrative open-data APIs/catalog",
@@ -10497,6 +10515,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tfl",
+      "provider": "Transport for London",
+      "service_name": "Transport for London API",
+      "geographic_coverage": "United Kingdom/London",
+      "topical_coverage": "transportation",
+      "dataset_families": "Transit stops; arrivals; lines; disruptions; journey planning",
+      "documentation_url": "https://api.tfl.gov.uk/",
+      "api_base_url": "https://api.tfl.gov.uk/",
+      "format_protocol": "REST/JSON",
+      "authentication": "Currentportalrecommendsregistration; anonymous50/min documented. Registeredrequests useapp_key; app_idno longerrequired. Noaccount/key acquisition.",
+      "free_access_restrictions": "Official licence explicitly free; reuse requires TfL/OS/Geomni attribution and compliance; no registration or key acquisition performed",
+      "license": "TfLcustomOGL2-based commercialreusegrant; durableopenreusequalificationunresolved",
+      "license_url": "https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T03:35:22.936447+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "thailand",
       "provider": "Thailand government data.go.th",
       "service_name": "Thailand government data.go.th open data portal",
@@ -10782,6 +10818,24 @@
       "license_url": "https://www.nso.gov.vn/en/homepage/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.948378+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wberks-georeport",
+      "provider": "West Berkshire Council",
+      "service_name": "GeoReport/Open311 service claim",
+      "geographic_coverage": "WestBerkshire,England; preciseoperationalcoverageunverified",
+      "topical_coverage": "demographics; education; health; housing; law/civic data",
+      "dataset_families": "Localcivicservice request interface claimedbyprimaryregistry; exactpubliccatalog/recordfamiliesunverified",
+      "documentation_url": "https://www.api.gov.uk/wberks/georeport/ | http://wiki.open311.org/GeoReport_v2/",
+      "api_base_url": "https://www.westberks.gov.uk/webservices/open311.asmx",
+      "format_protocol": "GeoReportv2/Open311claim; no currentXML/JSON/SOAPresponseverified",
+      "authentication": "unknown;noaccount/key",
+      "free_access_restrictions": "unknown; originalendpointpolicy/inaccessiblerobotsdeferred,notabsence",
+      "license": "CurrentproviderAPI/data licenceunconfirmed",
+      "license_url": "",
+      "api_verification_state": "registry_claim_original_endpoint_policy_deferred_no_structured_sample",
+      "latest_checked_utc": "2026-10-17T03:34:34.577787+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12117,6 +12171,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "wmca-transport-for-west-midlands-api",
+      "provider": "West Midlands Combined Authority / Transport for West Midlands",
+      "service_name": "TfWM GTFS and GTFSRealtime API",
+      "geographic_coverage": "WestMidlands,TfWMnetwork; schedulesandvehicletripupdates",
+      "topical_coverage": "transportation",
+      "dataset_families": "DocumentedcompleteTfWMGTFSscheduleZIPandGTFSRealtimevehicletrip-update snapshots; no actualfeedsdownloaded",
+      "documentation_url": "https://api-portal.tfwm.org.uk/docs",
+      "api_base_url": "http://api.tfwm.org.uk/",
+      "format_protocol": "GTFSZIP/GTFS-RTdocumented;noactualresponse",
+      "authentication": "Publishedregistration/applicationID/keyrequired; noaccount/key acquired",
+      "free_access_restrictions": "Fulltermscallservicefree andpermitcommercialreuse, butgrantbeginsregistration/continueswhileinformationprovided; no rightsafterlicenceends. Retaineddatareusequalificationunresolved.",
+      "license": "TfWMcustomOGL2-based commercialreusegrant withregistration/supply/terminationconditions",
+      "license_url": "https://api-portal.tfwm.org.uk/signup?plan_ids%5B%5D=2357355859549",
+      "api_verification_state": "documented_registered_key_required_GTFS_API_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T03:35:20.918275+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "worldpop-wopr",
       "provider": "WorldPop, University of Southampton and dataset-specific partners",
       "service_name": "WorldPop Open Population Repository (WOPR) catalog and spatial-query APIs",
@@ -12512,6 +12584,24 @@
       "license_url": "https://laws.africa/platform/content/ | https://laws.africa/research-access/",
       "api_verification_state": "documented_bearer_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:28:16.872945+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "lga-lginform-plus",
+      "provider": "Local Government Association / IDeA",
+      "service_name": "LG Inform / LG Inform Plus statistics API",
+      "geographic_coverage": "UKlocalareas; demographic/performance metrics andgeographies; preciseeachdatasetcoveragevaries",
+      "topical_coverage": "demographics; education; health; housing; law/civic data",
+      "dataset_families": "Metrics,areas,timeperiods,statistics andstandardlists; morethan80webmethodspublisherclaim,notenumerated",
+      "documentation_url": "https://api.esd.org.uk/ | https://developertools.esd.org.uk/api | https://developertools.esd.org.uk/security",
+      "api_base_url": "https://webservices.esd.org.uk/",
+      "format_protocol": "Webmethods JSON/CSV/HTMLdocumented; no actualmetricsquery",
+      "authentication": "Registration/securitykey/token orPPKsignature required; organisationmonthlylimit sharedacrosskeys. Noaccount/keyacquired.",
+      "free_access_restrictions": "First2GBfree documented; monthlyorganisationsharedlimit,paidexpansionexcluded. ScheduleCprohibitsreplacementapps and persistentcaching beyondreasonableend-userserviceperiodwithoutwrittenfeepermission.",
+      "license": "Restricted APIservice terms; underlyingdatasetsretainindividualownergrants",
+      "license_url": "https://home.esd.org.uk/about-item/user+policy | https://developertools.esd.org.uk/terms",
+      "api_verification_state": "documented_registered_API_data_sample_untested_service_caching_hold",
+      "latest_checked_utc": "2026-10-17T03:36:43.751960+00:00",
       "classification": "restricted"
     },
     {
