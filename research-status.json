@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T01:51:52.629665+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-17T01:53:55.137424+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:50:56.271531+00:00",
+  "research_updated_at": "2026-10-17T01:53:11.485614+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WIS2finite95rootoutcomes; threeactualnodeAPIlandingcandidates; CanadianGDC591native metadata/selectedECCCdescriptor scoped licenceverified",
+  "latest_milestone": "WIS2 all95 original registry roots processed:73HTML200/3APIJSON200/17noHTTP/404/401;3 national landingAPI candidates with collection policy deferrals; independent Canadian GDC6pages591IDs and only selected ECCC-owned descriptor scoped open;401services157open215candidate29restricted;global51024source-origin discovery unfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 157,
     "candidates": 215,
     "excluded": 29,
-    "sample_successes": 207
+    "sample_successes": 211
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -528,7 +528,8 @@
           "noaa-weather",
           "ocean-networks-canada",
           "usda-cdl",
-          "usgs-water"
+          "usgs-water",
+          "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
           "cerp-sfwmd",
@@ -626,7 +627,8 @@
           "eccc-geomet",
           "epa-aqs",
           "seafloor",
-          "usda-cdl"
+          "usda-cdl",
+          "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
           "canadensys",
@@ -709,7 +711,8 @@
           "ncei-coops",
           "ocean-networks-canada",
           "sctld",
-          "seafloor"
+          "seafloor",
+          "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
           "goa-ecology",
@@ -821,7 +824,8 @@
           "eclac",
           "edac-gstore",
           "esa-ecology",
-          "montevideo-beaches"
+          "montevideo-beaches",
+          "wis2-uruguay"
         ],
         "restricted_provider_ids": []
       },
@@ -2104,7 +2108,8 @@
         "candidate_provider_ids": [
           "hk-weather",
           "taiwan-cwa",
-          "thailand-gistda"
+          "thailand-gistda",
+          "wis2-china"
         ],
         "restricted_provider_ids": []
       },
@@ -5760,8 +5765,8 @@
       "free_access_restrictions": "MSCusagepolicy: use data intendedforuse; saturation mayblock; contact requested at86400requests/day orhigher. No contact/subscriptions/accounts acquired. Fullcorpus licences vary.",
       "license": "ECCC Data Services End-use Licence2.1.1 heading(August2026), bodyversion2.1; selected record also declares OGL-Canada rights",
       "license_url": "https://eccc-msc.github.io/open-data/licence/readme_en",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:50:56.165617+00:00",
+      "api_verification_state": "documented_discovery_metadata_sample_success_scoped_ECCC_owned_descriptor_licence_verified",
+      "latest_checked_utc": "2026-10-17T01:49:24.767644+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9650,8 +9655,8 @@
       "free_access_restrictions": "Landing metadata anonymous; actual collection/data availability, limits and licence unknown. No accounts/keys/subscriptions/filedownloads.",
       "license": "unknown; WIS2softwareApache and WMOcore labels not provider data grants",
       "license_url": "",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:50:56.165474+00:00",
+      "api_verification_state": "actual_API_landing_metadata_sample_success_collections_policy_deferred",
+      "latest_checked_utc": "2026-10-17T01:47:06.393025+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9668,8 +9673,8 @@
       "free_access_restrictions": "Landing metadata anonymous; actual collection/data availability, limits and licence unknown. No accounts/keys/subscriptions/filedownloads.",
       "license": "unknown; WIS2softwareApache and WMOcore labels not provider data grants",
       "license_url": "",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:50:56.165556+00:00",
+      "api_verification_state": "actual_API_landing_metadata_sample_success_collections_policy_deferred",
+      "latest_checked_utc": "2026-10-17T01:49:13.885265+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9686,8 +9691,8 @@
       "free_access_restrictions": "Landing metadata anonymous; actual collection/data availability, limits and licence unknown. No accounts/keys/subscriptions/filedownloads.",
       "license": "unknown; WIS2softwareApache and WMOcore labels not provider data grants",
       "license_url": "",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:50:56.165288+00:00",
+      "api_verification_state": "actual_API_landing_metadata_sample_success_collections_policy_deferred",
+      "latest_checked_utc": "2026-10-17T01:47:04.182926+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
