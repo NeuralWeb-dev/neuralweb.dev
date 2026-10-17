@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T07:33:29.543124+00:00",
+  "published_at": "2026-10-17T07:35:32.299968+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:33:21.869831+00:00",
+  "research_updated_at": "2026-10-17T07:35:25.276068+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Central Swiss six-original batch integrated:3 newgeoservices,StGallenreclassifiedcandidate,SchwyzCCBY4confirmed;454originalleadsremain,globalin_progress.",
+  "latest_milestone": "Central Swiss batch: six original origins processed; three distinct geoservices added (two candidates,one restricted). Schwyz CC BY4 confirmed;St Gallen moved to candidate after full purpose-conditions review. 454 original leads remain;global in_progress.",
   "counts": {
     "verified": 206,
     "candidates": 388,
@@ -1510,7 +1510,6 @@
           "poland-bdl",
           "poland-gus-transtat",
           "registry-admin-opendatani-gov-uk",
-          "registry-daten-sg-ch",
           "slovenia-statistics",
           "transportapi-fi",
           "ukraine-data",
@@ -1520,6 +1519,7 @@
           "aland-statistics",
           "lithuania-statistics",
           "os-os-places-api",
+          "registry-daten-sg-ch",
           "santander-open-data",
           "shom-data",
           "tfl",
@@ -1550,7 +1550,6 @@
           "portugal",
           "registry-data-bl-ch",
           "registry-data-sz-ch",
-          "registry-daten-sg-ch",
           "registry-europeandataportal-eu",
           "transportapi-fi",
           "uk-police",
@@ -1572,15 +1571,19 @@
           "ea-water-quality",
           "os-os-places-api",
           "poland-gus-teryt",
+          "registry-daten-sg-ch",
           "registry-opendata-aragon-es",
           "santander-open-data",
+          "schaffhausen-geoservices",
           "shom-data",
+          "solothurn-gis-dataservice",
           "ukho-tidal",
           "wis2-poland",
           "wis2-russian-federation",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "neuchatel-sitn-geoservices",
           "registry-data-bs-ch"
         ]
       },
@@ -6106,7 +6109,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T07:28:04.757907+00:00",
+      "latest_checked_utc": "2026-10-17T07:33:57.466894+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6286,7 +6289,7 @@
       "license": "CC BY 4.0",
       "license_url": "https://data.sz.ch/terms/terms-and-conditions/",
       "api_verification_state": "documented_sample_success;historical_success_preserved_latest_original_sample_policy_held",
-      "latest_checked_utc": "2026-10-17T07:33:21.570225+00:00",
+      "latest_checked_utc": "2026-10-17T07:31:07.887848+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11508,7 +11511,7 @@
       "license": "CC BY 4.0",
       "license_url": "https://daten.sg.ch/terms/terms-and-conditions/",
       "api_verification_state": "documented_sample_success;historical_success_preserved_latest_original_sample_policy_held",
-      "latest_checked_utc": "2026-10-17T07:33:21.570325+00:00",
+      "latest_checked_utc": "2026-10-17T07:31:10.817324+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11952,13 +11955,13 @@
       "dataset_families": "23 documented GET operation templates;selected flurname response only. Parcel/building functions documented,not queried.",
       "documentation_url": "https://services.sh.ch/de/services/api-fur-geoservices-nutzen",
       "api_base_url": "https://api.geo.sh.ch/geo/",
-      "format_protocol": "STAC/JSON,COG,WMS,WMTS,REST documented",
-      "authentication": "Per-service possible authentication/contact/contract;no credentials acquired",
+      "format_protocol": "REST/JSON,GeoJSON,XML;PNG operations documented",
+      "authentication": "Anonymous small documented GET succeeded;other access unknown",
       "free_access_restrictions": "Current service page documents freely available JSON/GeoJSON/XML and PNG operations. Full primary OGD page explicitly requires per-dataset terms and only legally unrestricted data qualify. Actual anonymous place-name JSON is not a grant for all23operations or cadastral/person records.",
       "license": "Dataset-specific reuse terms;selected place-name grant not established.",
       "license_url": "https://services.sh.ch/de/services/geodaten-als-open-government-data-ogd",
       "api_verification_state": "actual_public_JSON_sample_success_one_place_name",
-      "latest_checked_utc": "2026-10-17T07:33:21.570564+00:00",
+      "latest_checked_utc": "2026-10-17T07:31:54.048100+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12102,7 +12105,7 @@
       "license": "API data grant unknown;general website copyright is not automatically the data-specific licence.",
       "license_url": "https://so.ch/rechtliches/",
       "api_verification_state": "documented_API_detailed_reference_policy_held_data_sample_untested",
-      "latest_checked_utc": "2026-10-17T07:33:21.570663+00:00",
+      "latest_checked_utc": "2026-10-17T07:31:30.635647+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14696,7 +14699,7 @@
       "license": "Custom SITN conditions;prior permission required for embedding API services;per-supplier data rights.",
       "license_url": "https://sitn.ne.ch/web/conditions_utilisation/Conditions_Generales.pdf",
       "api_verification_state": "documented_API_original_STAC_example_HTTP404",
-      "latest_checked_utc": "2026-10-17T07:33:21.570749+00:00",
+      "latest_checked_utc": "2026-10-17T07:31:47.667096+00:00",
       "classification": "restricted"
     },
     {
