@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T10:25:14.772853+00:00",
+  "published_at": "2026-10-17T10:27:17.015813+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T10:20:08.764439+00:00",
+  "research_updated_at": "2026-10-17T10:27:03.325539+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Metro/water10originals: Nashville167native validcatalogue;Miami433completeprefixonly;MAPCdocumentedAPIuntested;Melbournecurrentinterface/fullpolicycorrected.680 services:224open/409candidates/47restricted;294originalsremain;global in_progress.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Cross-regional10origins;Mississauga327catalogindexed mixed/revocableterms;Moldovacurrentdefaultpolicy/APIheld;HFpublicmetadata candidate;Moroccodeduplicated.683services224open411candidates48restricted;284originalsremain;in_progress.",
   "counts": {
     "verified": 224,
-    "candidates": 409,
-    "excluded": 47,
-    "sample_successes": 422
+    "candidates": 411,
+    "excluded": 48,
+    "sample_successes": 424
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5795,7 +5795,7 @@
       "license": "ODbL 1.0 for explicitly marked dataset subset",
       "license_url": "https://data.gov.ma/fr/node/14 | https://data.gov.ma/fr/node/13 | https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T23:04:00.138199+00:00",
+      "latest_checked_utc": "2026-10-17T10:27:03.002971+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9869,6 +9869,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "huggingface-dataset-hub",
+      "provider": "Hugging Face",
+      "service_name": "Hub dataset repository metadata API",
+      "geographic_coverage": "Global community/scientific repository coverage; individual repositories vary",
+      "topical_coverage": "research; machine learning; scientific dataset discovery",
+      "dataset_families": "Public dataset repository metadata. One publisher-linked MindBigData2022repository inspected; no global dataset inventory enumerated and no EEG records downloaded.",
+      "documentation_url": "https://huggingface.co/docs/hub/api",
+      "api_base_url": "https://huggingface.co/api/datasets/",
+      "format_protocol": "HTTPS JSON; current OpenAPI contract read separately as documentation,not runtime proof.",
+      "authentication": "Anonymous sample returned200validJSON,private=false,gated=false. Other repositories may be private/gated;no tokens/accounts used.",
+      "free_access_restrictions": "One public metadata read succeeded without payment. Paid products/endpoints not queried. Broad reuse/licensing terms unconfirmed.",
+      "license": "unknown effective Hub metadata and individual repository grant",
+      "license_url": "",
+      "api_verification_state": "actual_public_JSON_sample_success_repository_metadata_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T10:27:03.002821+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "hycom",
       "provider": "HYCOM Consortium / FSU COAPS and partners",
       "service_name": "HYCOM THREDDS/OPeNDAP data services",
@@ -10586,6 +10604,24 @@
       "license_url": "https://opendata.minneapolismn.gov/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T06:30:45.937346+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "moldova-open-data",
+      "provider": "Government of Moldova,Electronic Governance Agency",
+      "service_name": "Current open-data portal and CKAN dataset catalog",
+      "geographic_coverage": "Moldova,national;per-workcoverage unverified",
+      "topical_coverage": "multisector government catalog; authorized MConnect registry access excluded",
+      "dataset_families": "Current catalog frontend lists public government datasets. HTML1299counter is not API enumeration; exact current inventory unverified.",
+      "documentation_url": "https://date.gov.md/home/",
+      "api_base_url": "https://dataset.gov.md/api/3/action/",
+      "format_protocol": "CKAN2.10 catalog frontend; documented public APIs; JSONruntime untested",
+      "authentication": "June2026terms document free anonymous open-data APIs. MConnect authorized access is distinct and excluded. No account/key used.",
+      "free_access_restrictions": "Terms describe open data free/anonymous; per-work rights and technical limits apply. No MPass,MConnect,personal/company registry query.",
+      "license": "Default CC BY4.0 if no specific licence is indicated; individual work binding unconfirmed",
+      "license_url": "https://date.gov.md/usloviya-i-polozheniya?culture=ro",
+      "api_verification_state": "current_official_API_documented_first_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T10:27:03.002666+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15502,6 +15538,24 @@
       "license_url": "https://lindat.mff.cuni.cz/en/terms-of-use",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:57:00.768840+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "mississauga-open-data",
+      "provider": "City of Mississauga",
+      "service_name": "Open Data Hub native catalog and advertised distributions",
+      "geographic_coverage": "Mississauga,Ontario,Canada",
+      "topical_coverage": "local government; planning; geospatial catalog metadata",
+      "dataset_families": "327 native asset descriptions,1806 distribution claims; per-work rights mixed. No individual records,geometries or exports fetched.",
+      "documentation_url": "https://data.mississauga.ca/",
+      "api_base_url": "https://data.mississauga.ca/data.json",
+      "format_protocol": "Actual valid native DCAT-like JSON; individual advertised APIs untested.",
+      "authentication": "Anonymous native catalog read succeeded,no account/key. Underlying distribution authentication varies/untested.",
+      "free_access_restrictions": "Catalog publicly readable without payment. Exact linked licence royalty-free but revocable for anyreason; some work fields separately prohibit copy/modification without written consent.",
+      "license": "Restricted/mixed: City Terms of Use revocable for anyreason; conflicting per-work no-copy claims",
+      "license_url": "http://www5.mississauga.ca/research_catalogue/CityofMississauga_TermsofUse.pdf",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_restricted_mixed_terms",
+      "latest_checked_utc": "2026-10-17T10:27:03.002932+00:00",
       "classification": "restricted"
     },
     {
