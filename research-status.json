@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-17T17:42:24.508369+00:00",
+  "published_at": "2026-10-17T17:44:26.967610+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:39:46.508367+00:00",
+  "research_updated_at": "2026-10-17T17:43:47.339720+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originaltasksreviewed; Figshare.commetadataCC0scopepromoted, five distinctrecordsadded; PDCnativeJSONLD,ISG280refs andDEIMS7specoperations saved",
+  "latest_milestone": "HelixcitationCC0/publishedrecordsAPIverifiedruntimeheld;ADEERfamilyreferencesindexed;PRRdigitalAPI/grantunresolved",
   "counts": {
-    "verified": 264,
+    "verified": 265,
     "candidates": 487,
     "excluded": 82,
     "sample_successes": 476
@@ -6123,6 +6123,24 @@
       "license_url": "https://www.ilo.org/global/copyright/lang--en/index.htm",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:56:22.952654+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "imperial-helix-citation-metadata",
+      "provider": "Imperial College London",
+      "service_name": "Helix public records API: citation metadata scope",
+      "geographic_coverage": "Imperialaffiliated research datasets; actualdata geography varies",
+      "topical_coverage": "research; education",
+      "dataset_families": "Permanent researchdataset citation/descriptive records and DOIs; acceptedgrant limitedcitationmetadata,notallmetadatafields/sourcefiles",
+      "documentation_url": "https://helix.imperial.ac.uk | https://imperialcollegelondon.github.io/fair-data-repository/customisation/",
+      "api_base_url": "https://helix.imperial.ac.uk/api/records",
+      "format_protocol": "Homepage publishes exactrecordsAPI data-fetch URL; InvenioRDMdeployment andproviderdocscorroborated; no currentJSONrecordresponse obtained",
+      "authentication": "Publishedcitationmetadata public; native anonymousAPIrequest policywithheldtargetunsent. Depositreview/ImperialSSO/privateworkflows notqueried.",
+      "free_access_restrictions": "Depositagreement1.2 copiesincludingmetadata availablewithoutcharge; citationCC0scope1.5; files/access settings andlicencesseparate",
+      "license": "CC0 for metadata forming the public citation under depositagreement1.5",
+      "license_url": "https://www.imperial.ac.uk/research-and-innovation/support-for-staff/scholarly-communication/research-data-management/archival-and-preservation/data-deposit-agreement/ | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "current_provider_published_records_API_and_citation_CC0_grant_verified_native_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T17:43:43.350349+00:00",
       "classification": "open_license_verified"
     },
     {
