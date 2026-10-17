@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T12:44:05.880098+00:00",
+  "published_at": "2026-10-17T12:46:08.125549+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T12:39:34.136647+00:00",
+  "research_updated_at": "2026-10-17T12:45:39.799066+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Québec/regional/equatorial ten origins checkpointed:726 services,237 scoped-open,434 candidates,55 restricted. Puglia2061native names versus2053searchcount unresolved; Recife named bicycle databaseODbL1/APIheld; QuébecsharedAPI and historical QSpatialCSW candidates.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 237,
-    "candidates": 434,
-    "excluded": 55,
-    "sample_successes": 444
+    "verified": 239,
+    "candidates": 433,
+    "excluded": 56,
+    "sample_successes": 446
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6859,6 +6859,42 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "redbridge-datashare",
+      "provider": "London Borough of Redbridge",
+      "service_name": "DataShare REST API",
+      "geographic_coverage": "United Kingdom; London Borough of Redbridge",
+      "topical_coverage": "law/civic data; environment; public spending/contracts; housing; transportation",
+      "dataset_families": "Election results; council maintained trees; payment and allowance schemas; highways declaration register; business rates property schemas",
+      "documentation_url": "https://data.redbridge.gov.uk/developer/",
+      "api_base_url": "https://data.redbridge.gov.uk/api/",
+      "format_protocol": "REST; XML observed; JSON documented",
+      "authentication": "No credentials required for sampled category/schema listings",
+      "free_access_restrictions": "Anonymous public category/schema reads observed; personal/unpublished/unauthorized third-party rights excluded from licence",
+      "license": "Publisher Open Government Licence version 1.0 with Redbridge attribution",
+      "license_url": "https://data.redbridge.gov.uk/About/Licence",
+      "api_verification_state": "sample_success_XML_category_and_schema_metadata",
+      "latest_checked_utc": "2026-10-17T12:42:24.730100+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "reddeer-open-data",
+      "provider": "City of Red Deer",
+      "service_name": "City Open Data dataset metadata API",
+      "geographic_coverage": "Canada; Alberta; Red Deer",
+      "topical_coverage": "geospatial; transportation; housing; environment; law/civic data",
+      "dataset_families": "Road network metadata sampled; catalogue lists zoning, boundaries, trails, transit feed, waste collection, permits and other city datasets",
+      "documentation_url": "https://data.reddeer.ca/roadnetwork",
+      "api_base_url": "https://data.reddeer.ca/api/datasets/",
+      "format_protocol": "REST JSON metadata; advertised data route returned same metadata object",
+      "authentication": "None for sampled public metadata",
+      "free_access_restrictions": "Publisher states city catalogue downloads/free use; licence exceptions apply",
+      "license": "Open Government Licence – The City of Red Deer version 1.0",
+      "license_url": "https://data.reddeer.ca/about",
+      "api_verification_state": "sample_success_JSON_metadata_only",
+      "latest_checked_utc": "2026-10-17T12:42:49.104790+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "registry-admin-opendatani-gov-uk",
       "provider": "OpenDataNI",
       "service_name": "OpenDataNI portal API",
@@ -12783,24 +12819,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "rda-australia",
-      "provider": "Australian Research Data Commons / Research Data Australia",
-      "service_name": "Australian Research Data Commons / Research Data Australia API",
-      "geographic_coverage": "Australia",
-      "topical_coverage": "research",
-      "dataset_families": "Research collections; parties; activities; services; institutional metadata",
-      "documentation_url": "https://documentation.ardc.edu.au/rda/web-services",
-      "api_base_url": "https://researchdata.edu.au/registry/services/",
-      "format_protocol": "OAI-PMH/XML; REST metadata services",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://ardc.edu.au/terms-and-conditions/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:58:57.655556+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "registry-africaopendata-org",
       "provider": "Africa Open Data",
       "service_name": "Africa Open Data portal API",
@@ -16598,6 +16616,24 @@
       "license_url": "https://info.orcid.org/public-client-terms-of-service/ | https://info.orcid.org/public-data-file-use-policy/ | https://info.orcid.org/privacy-policy/",
       "api_verification_state": "documented_public_api_untested_restricted_noncommercial",
       "latest_checked_utc": "2026-10-16T20:16:51.004779+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "rda-australia",
+      "provider": "Australian Research Data Commons / Research Data Australia",
+      "service_name": "Australian Research Data Commons / Research Data Australia API",
+      "geographic_coverage": "Australia",
+      "topical_coverage": "research",
+      "dataset_families": "Research collections; parties; activities; services; institutional metadata",
+      "documentation_url": "https://documentation.ardc.edu.au/rda/web-services",
+      "api_base_url": "https://researchdata.edu.au/registry/services/",
+      "format_protocol": "OAI-PMH/XML; REST metadata services",
+      "authentication": "getMetadata/getRIFCS require registered free API key; none obtained. Earlier public OAI Identify evidence retained separately.",
+      "free_access_restrictions": "Free registration documented for REST API; consumer schedule 5(b) requires prior written agreement if metadata is reused in any product/service; 5(a) individual permissions; 5(c) attribution; 5(e) removal after service agreement termination.",
+      "license": "RDA Service Schedule for Metadata Consumers; item-specific permissions; prior written reuse agreement",
+      "license_url": "https://documentation.ardc.edu.au/rda/research-data-australia-service-schedule-for-metad",
+      "api_verification_state": "documented_REST_key_required_untested;prior_OAI_XML_Identify_evidence",
+      "latest_checked_utc": "2026-10-17T12:42:00.175472+00:00",
       "classification": "restricted"
     },
     {
