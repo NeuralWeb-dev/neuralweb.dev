@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T13:16:49.335771+00:00",
+  "published_at": "2026-10-17T13:18:52.117684+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:10:15.654138+00:00",
+  "research_updated_at": "2026-10-17T13:17:17.176208+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Senate/islands eight origins checkpointed:734 services,240 scoped-open,438 candidates,56 restricted. Senate explicit publisher grant and valid SPARQL predicate; Sardinia359native WFS layers/conditional grants unresolved; Sejong approved-key API candidate.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "SeoulCapeeightorigins:737services240open440candidates57restricted;Singapore137pages1370collections;MunicipalMoneyexistingupdated;Seoulvalidpublicdemo/candidate;SLIPupdateNC4restricted;131originalsremain,in_progress.",
   "counts": {
     "verified": 240,
-    "candidates": 438,
-    "excluded": 56,
-    "sample_successes": 448
+    "candidates": 440,
+    "excluded": 57,
+    "sample_successes": 449
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7093,11 +7093,11 @@
       "api_base_url": "https://municipaldata.treasury.gov.za/api/",
       "format_protocol": "REST/JSON",
       "authentication": "none for successful public cubes catalog request",
-      "free_access_restrictions": "Explicit terms allow download/copy/adapt/distribute and commercial/noncommercial use at no cost; require National Treasury source/publication-date credit, no misleading use or endorsement",
-      "license": "National Treasury Municipal Money Terms of Use: free commercial/noncommercial reuse with attribution",
+      "free_access_restrictions": "Full site/API terms permit free copy/distribution/adaptation/commercial reuse with NT source/publication-date credit, source integrity/nonendorsement; personal data/marks excluded. MIT software notice is separate.",
+      "license": "National Treasury Municipal Money Terms of Use version1.0: free commercial/noncommercial data reuse",
       "license_url": "https://municipaldata.treasury.gov.za/terms",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:52:20.194670+00:00",
+      "api_verification_state": "documented_sample_success_native_cube_metadata_rechecked",
+      "latest_checked_utc": "2026-10-17T13:17:16.614524+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7373,19 +7373,19 @@
     {
       "identifier": "singapore",
       "provider": "Singapore government data.gov.sg",
-      "service_name": "Singapore government data.gov.sg open data portal",
+      "service_name": "data.gov.sg real-time and collection/dataset API interfaces",
       "geographic_coverage": "Singapore",
       "topical_coverage": "climate/weather/environment; transportation; demographics",
       "dataset_families": "Weather; transport; government tables",
       "documentation_url": "https://guide.data.gov.sg/developer-guide/api-overview",
       "api_base_url": "https://api-open.data.gov.sg/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for tested request; API key recommended for production",
-      "free_access_restrictions": "Unkeyed testing allowed; API key improves limits",
-      "license": "Singapore Open Data Licence",
+      "format_protocol": "REST JSON; realtime api-open.data.gov.sg; collection api-production.data.gov.sg/v2/public/api/; see separate interface index",
+      "authentication": "Anonymous testing allowed and current collection listing tested; keys strongly recommended for production/higher limits; none acquired",
+      "free_access_restrictions": "APIs described free. Data grant and API-access conditions separate; per-API additional terms and credentials where applicable; no client identity masking/disruption.",
+      "license": "Singapore Open Data Licence version1.0",
       "license_url": "https://data.gov.sg/open-data-licence",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:29:28.939260+00:00",
+      "api_verification_state": "sample_success_current_collection_JSON;prior_weather_JSON_preserved",
+      "latest_checked_utc": "2026-10-17T13:17:16.614116+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8845,7 +8845,7 @@
       "license": "unknown;explicit current dataset/service reuse licence not established",
       "license_url": "https://odp-cctegis.opendata.arcgis.com/",
       "api_verification_state": "documented_sample_structured_error_service_not_started",
-      "latest_checked_utc": "2026-10-16T18:20:25.515603+00:00",
+      "latest_checked_utc": "2026-10-17T13:17:16.614772+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13673,6 +13673,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "seoul-open-data-api",
+      "provider": "Seoul Metropolitan Government / Seoul Open Data Plaza",
+      "service_name": "Seoul named-service Open API",
+      "geographic_coverage": "South Korea; Seoul metropolitan transit and other city data",
+      "topical_coverage": "transportation; multisector public data (other work grants unreviewed)",
+      "dataset_families": "Named CardSubwayStatsNew daily station/line boarding/alighting counts verified; other environment, statistics, urban and population families described in portal,not uniformly cleared",
+      "documentation_url": "https://data.seoul.go.kr/together/guide/useGuide.do",
+      "api_base_url": "http://openapi.seoul.go.kr:8088/",
+      "format_protocol": "REST named-service path; JSON observed; XML/xmlf/xls/JSON documented by general guide",
+      "authentication": "Normal use requires registered personal key; documented literal sample demonstration mode permits first five rows. One row tested in that public mode; no real key acquired.",
+      "free_access_restrictions": "Data generally free; effective API/service reuse conditions require reconciliation with work licence. Registered key may be time/traffic-limited; use-case registration can be required at high traffic.",
+      "license": "Named work KOGL Type1 permits attributed commercial use/adaptation; broader service-use conditions unresolved",
+      "license_url": "https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do?tab=A",
+      "api_verification_state": "sample_success_JSON_named_aggregate_public_demonstration_only",
+      "latest_checked_utc": "2026-10-17T13:17:16.612323+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "serbia-apr",
       "provider": "Serbian Business Registers Agency (APR)",
       "service_name": "APR Open Data APIs for companies,financial statements andNGOs",
@@ -14444,6 +14462,24 @@
       "license_url": "https://www.nso.gov.vn/en/homepage/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.948378+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wa-slip-public-geospatial-services",
+      "provider": "Western Australia / Landgate Shared Location Information Platform",
+      "service_name": "SLIP public geospatial web services",
+      "geographic_coverage": "Australia; Western Australia",
+      "topical_coverage": "geospatial; environment; water; housing; transportation",
+      "dataset_families": "Multiple agencies’ spatial maps,web services and data downloads; imagery,cadastre,tenure,topography and address products may be subscription/restricted. Individual public layers/work grants unreviewed.",
+      "documentation_url": "https://data.wa.gov.au/slip",
+      "api_base_url": "https://public-services.slip.wa.gov.au/",
+      "format_protocol": "ArcGIS REST/OGC service references documented/indexed; current schemas/runtimes untested",
+      "authentication": "Public/secured/subscription distinctions documented; some downloads/secured services need free account,not proof free rights/all APIs anonymous",
+      "free_access_restrictions": "Mixed public,subscription and inter-agency restricted datasets; individual grants/costs/eligibility unknown. No paid data,trial,registration or account acquired.",
+      "license": "unknown; mixed work/product licences, not blanket platform grant",
+      "license_url": "https://www.landgate.wa.gov.au/location-data-and-services/discovering-landgate-data/licensing/",
+      "api_verification_state": "official_public_services_documented_indexed_runtime_untested_original_held",
+      "latest_checked_utc": "2026-10-17T13:17:16.612761+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16894,6 +16930,24 @@
       "license_url": "https://digitales.wien.gv.at/ogd-nutzungsbedingungen/",
       "api_verification_state": "actual_public_XML_sample_success_WFS_capabilities_restricted_current_terms_verified",
       "latest_checked_utc": "2026-10-17T11:07:22.596728+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wa-slip-data-update-api",
+      "provider": "Landgate / Western Australia SLIP Admin",
+      "service_name": "SLIP Data Upload Tool dataset-update timestamp API",
+      "geographic_coverage": "Australia; Western Australia SLIP datasets",
+      "topical_coverage": "geospatial; research metadata/provenance",
+      "dataset_families": "Last successful upload date/time of active SLIP datasets; update metadata,not underlying spatial feature data",
+      "documentation_url": "https://toolkit.data.wa.gov.au/hc/en-gb/articles/360001190015-SLIP-Data-Upload-Tool-API",
+      "api_base_url": "https://selfservice.slip.wa.gov.au/api/",
+      "format_protocol": "HTTP GET/JSON documented by publisher resource declaration; native schema/runtime untested",
+      "authentication": "Official publisher states no API key/authentication; not runtime-tested",
+      "free_access_restrictions": "Public-access metadata explicitly licensed noncommercial; unrestricted commercial reuse not granted. No paid acquisition.",
+      "license": "Creative Commons Attribution-NonCommercial 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "api_verification_state": "official_API_documented_guide_HTTP403_runtime_untested",
+      "latest_checked_utc": "2026-10-17T13:17:16.613047+00:00",
       "classification": "restricted"
     },
     {
