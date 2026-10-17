@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T00:56:46.712681+00:00",
+  "published_at": "2026-10-17T00:58:48.975438+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:54:32.420917+00:00",
+  "research_updated_at": "2026-10-17T00:58:27.155583+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PCCOS16HTMLdetails/14sourcecatalogues;Tuvalu4XMLcatalogues1096resourceIDs COMPLETE metadataonly/NCsubsetrestricted;OPT4publicitemsandTDSoriginalpolicycandidates;GeoNC/OceanfrontendAPIunresolved;global50938source-originqueueunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "OceanupstreamHYCOM/PacIOOS/NERACOOSprimaryAPIsverifiedtodocumentation/metadata;rights/accesscandidates",
   "counts": {
     "verified": 153,
-    "candidates": 207,
+    "candidates": 210,
     "excluded": 27,
     "sample_successes": 199
   },
@@ -6931,6 +6931,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "hycom",
+      "provider": "HYCOM Consortium / FSU COAPS and partners",
+      "service_name": "HYCOM THREDDS/OPeNDAP data services",
+      "geographic_coverage": "Global/international;global/basin/regionaloceanmodelproducts;exactper-productextentnotqueried",
+      "topical_coverage": "oceans; climate/weather/environment; research",
+      "dataset_families": "Officialdataservermenu:ESPC-D-V02,GOFS3.1/3.0globalanalysis/reanalysis,ice,GulfofMexico,NAVGEM/NOGAPS/NCEPatmosphericforcing. Notallproducts/runtimeavailabilityverified.",
+      "documentation_url": "https://www.hycom.org/ | https://www.hycom.org/dataserver/access-methods/thredds",
+      "api_base_url": "https://tds.hycom.org/thredds/",
+      "format_protocol": "PrimaryofficialTHREDDS/OPeNDAPdocumentationandNetCDFproducts. Exactinstancecatalogue/dataqueryschema notruntimeconfirmed.",
+      "authentication": "OriginalTHREDDSrobotspolicydeferredtarget;noaccount/credentialrequest. DocsmentionRequestAccountmenu,butnotassumedmandatoryforallservices.",
+      "free_access_restrictions": "Officialwebdocsaccessible/free. Dataserviceauth/free-tierunconfirmed;publicreleasestatementnotprovedopencommercial/adaptationgrant. Nopaidacquisition.",
+      "license": "DoDDISTRIBUTIONA/ApprovedforPublicReleaseDistributionUnlimited statement;operativecopyright/reusegrantunconfirmed",
+      "license_url": "https://www.hycom.org/ | https://www.hycom.org/dataserver/access-methods/thredds",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:58:26.662606+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "iati",
       "provider": "International Aid Transparency Initiative",
       "service_name": "International Aid Transparency Initiative API",
@@ -7525,6 +7543,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "neracoos-erddap",
+      "provider": "Northeastern Regional Association of Coastal Ocean Observing Systems / NERACOOS and attributedcontributors",
+      "service_name": "NERACOOS regional ERDDAP",
+      "geographic_coverage": "North America;UnitedStatesnortheasterncoast/NewEnglandregionaloceanobservations;perdatasetcoveragevaries/notallvalidated",
+      "topical_coverage": "oceans; climate/weather/environment; water; research",
+      "dataset_families": "Actualcatalogue284uniqueIDs includingallDatasetsselfreference(283nonselfdatasets):regionalbuoy/oceanmeteorologicalmeasurements andattributedthirdpartyproducts. SelectedI01Ocean1metermetadataonly;noobservations.",
+      "documentation_url": "https://data.neracoos.org/erddap/rest.html",
+      "api_base_url": "https://data.neracoos.org/erddap/",
+      "format_protocol": "ActualERDDAPJSONtableenvelopes;cataloguecolumns datasetID/title/institution;selectedinfoJSON5columnsRowType,VariableName,AttributeName,DataType,Value. griddap/tabledap/OPeNDAPdocumentedbutobservationqueriesuntested.",
+      "authentication": "Selectedcatalogue/infoanonymous200;otherdataproductauth/limitsunverified,noprivate/accountqueries.",
+      "free_access_restrictions": "Selectedmetadatafree/noaccount. SelectednativeI01licensepermitsfreeuse/redistributionbutmentionsnotintendedforlegaluse;fitness/liabilitydisclaimers. Exactadaptation/commercialscope/providerwidegrantsunresolved.",
+      "license": "SelectedI01customfreeuse/redistributionnotice;operativeall-dataset/fulladaptationgrantunconfirmed",
+      "license_url": "https://data.neracoos.org/erddap/info/I01_ocean_001m/index.json",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:58:27.049616+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nih-clinicaltrials",
       "provider": "NIH National Library of Medicine / ClinicalTrials.gov",
       "service_name": "NIH National Library of Medicine / ClinicalTrials.gov API",
@@ -7990,6 +8026,24 @@
       "license_url": "https://pacificdata.org/terms-use",
       "api_verification_state": "documented_nonproduction_structure_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T22:04:27.506850+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pacioos-erddap",
+      "provider": "Pacific Islands Ocean Observing System / PacIOOS, University of Hawaii",
+      "service_name": "PacIOOS regional ERDDAP",
+      "geographic_coverage": "Oceania; Pacific;HawaiiandPacificIslandoceanobservations/models,exactcurrentcataloguecoverageunverified",
+      "topical_coverage": "oceans; climate/weather/environment; research",
+      "dataset_families": "DocumentedERDDAPgriddedandtabularobservational/modelproducts. PrimaryindexedACOADCPtemperatureexample;fullcataloguenotqueriedunderpolicy.",
+      "documentation_url": "https://pae-paha.pacioos.hawaii.edu/erddap/rest.html",
+      "api_base_url": "https://pae-paha.pacioos.hawaii.edu/erddap/",
+      "format_protocol": "PrimaryindexedofficialRESTdocs:ERDDAPgriddap/tabledap,JSON/CSVmetadata,OPeNDAPDDS/DAS;directcurrentformat/schema untested.",
+      "authentication": "Originalrobotspolicydeferreddocumentation/sample;actualdataauthunknown,noaccounts/keys/privateprobes.",
+      "free_access_restrictions": "Publicprimaryindexedmetadata/docs;directserviceaccessunresolved. SelectedindexedACOmetadata commercialuse requiresPIcontact;fulltermsunread. NoPIcontactmessage/dataquery.",
+      "license": "Mixed/unconfirmed:primaryindexedACOADCPexample requiresPIcontactbeforecommercialuse;blanketopenlicenceunverified",
+      "license_url": "https://pae-paha.pacioos.hawaii.edu/erddap/tabledap/aco_adcp_temp.html | https://pae-paha.pacioos.hawaii.edu/erddap/rest.html",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:58:26.855581+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
