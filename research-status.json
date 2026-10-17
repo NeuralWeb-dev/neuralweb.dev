@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T09:58:40.896206+00:00",
+  "published_at": "2026-10-17T10:00:43.482741+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:52:42.812860+00:00",
+  "research_updated_at": "2026-10-17T10:00:24.304342+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Asia/coastal: ten original origins reviewed; scoped Siak CC BY4 and Kamloops OGL1 services verified. Native catalogues12 and225 descriptions indexed.674 services:220open/407candidates/47restricted;324originals remain. Global in_progress.;BDL61700definitions quota-deferred: API calls quota exceeded! Maximum admitted 100 per 15 min.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 220,
+    "verified": 222,
     "candidates": 407,
     "excluded": 47,
-    "sample_successes": 418
+    "sample_successes": 420
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4517,6 +4517,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "datamill-north-open-data",
+      "provider": "Data Mill North, Leeds City Council; selected publisher Sheffield City Council",
+      "service_name": "Data Mill North public catalog API; scoped Sheffield spending work",
+      "geographic_coverage": "United Kingdom, multiple contributing organisations; accepted work covers Sheffield metropolitan district",
+      "topical_coverage": "public spending; local government; multisector catalog discovery",
+      "dataset_families": "Verified licensed scope: Sheffield Council spend over GBP250, native ID emd0m, with207 file references. Public export has641 unique dataset descriptions,5440 file references and480 external links. Other640 works and whole-catalog metadata grant remain unconfirmed.",
+      "documentation_url": "https://datapress.com/docs/api/dataset-get/",
+      "api_base_url": "https://datamillnorth.org/api/v3/dataset/ | https://datamillnorth.org/api/v3/datasets/export.json",
+      "format_protocol": "Actual public JSON dataset metadata and full catalog export. Vendor also documents CSV/XLSX metadata exports; underlying data-file formats vary and were not downloaded.",
+      "authentication": "Anonymous named-record and catalog export reads succeeded. Vendor documents optional API key for private/editor access; no key, account or private request used.",
+      "free_access_restrictions": "Tested public metadata reads required no payment. Named Sheffield work explicitly OGLv3. No blanket assertion of unrestricted rights or free access for every linked work.",
+      "license": "UK Open Government Licence v3.0; named Sheffield Council spend over GBP250 work only",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "actual_public_JSON_sample_success_named_dataset_metadata_and_full_catalogue_scoped_OGL3",
+      "latest_checked_utc": "2026-10-17T09:59:44.701086+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "dataportals-registry-feed",
       "provider": "Open Knowledge Foundation and DataPortals.org curators",
       "service_name": "DataPortals global registry JSON catalogue feed",
@@ -5504,6 +5522,24 @@
       "license_url": "https://www.kamloops.ca/open-data-catalogue-disclaimer",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_named_layer_schema_scoped_local_OGL1",
       "latest_checked_utc": "2026-10-17T09:48:11.136562+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "kingston-open-data",
+      "provider": "The Corporation of the City of Kingston, Ontario",
+      "service_name": "Open Data Kingston catalog and scoped Soccer Fields ArcGIS distribution",
+      "geographic_coverage": "City of Kingston, Ontario, Canada",
+      "topical_coverage": "geospatial; recreation; local-government metadata",
+      "dataset_families": "Verified licensed scope: Soccer Fields work. Native catalog418 unique asset descriptions and2510 distribution claims;13 licence fields blank and55 raw terms strings. Fourteen descriptions match building/legal and surveying purpose-prohibition phrases; those are separate works, not terms transferred to Soccer Fields.",
+      "documentation_url": "https://www.cityofkingston.ca/council-and-city-administration/city-policies/open-data-policy/",
+      "api_base_url": "https://opendatakingston.cityofkingston.ca/data.json | https://services1.arcgis.com/5GRYvurYYUwAecLQ/arcgis/rest/services/Soccer_Fields/FeatureServer/1",
+      "format_protocol": "Actual native DCAT-like JSON catalog; advertised ArcGIS GeoServices REST distribution. Named feature schema request held before sending.",
+      "authentication": "Anonymous catalog read succeeded. Named feature-service runtime authentication is untested because its schema request was policy-held. No account/key acquired.",
+      "free_access_restrictions": "Catalog read required no payment. Named work bound to current City Open Data Licence1.0; commercial copying/adaptation/redistribution with attribution and standard exceptions. Other asset terms differ.",
+      "license": "City of Kingston Open Data Licence1.0; Soccer Fields work only",
+      "license_url": "https://www.cityofkingston.ca/media/wtpgpkb0/gis_license_opendata.pdf",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_named_feature_schema_policy_held_scoped_local_OGL1",
+      "latest_checked_utc": "2026-10-17T09:59:44.701292+00:00",
       "classification": "open_license_verified"
     },
     {
