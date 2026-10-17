@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T14:16:04.277200+00:00",
+  "published_at": "2026-10-17T14:18:06.756316+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:13:50.911795+00:00",
+  "research_updated_at": "2026-10-17T14:17:52.149634+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UN/university8origins:754services243open453candidates58restricted;officialUNdata15nativeflowdescriptors indexed;91originals and broader queues remain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 243,
-    "candidates": 453,
+    "verified": 245,
+    "candidates": 455,
     "excluded": 58,
-    "sample_successes": 459
+    "sample_successes": 460
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7912,6 +7912,42 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "utah-ugrc-api",
+      "provider": "Utah Geospatial Resource Center / State of Utah",
+      "service_name": "UGRC SGID geocoding and search API",
+      "geographic_coverage": "United States; Utah",
+      "topical_coverage": "geospatial; transportation; environment; housing; civic data",
+      "dataset_families": "Seven documented interfaces:four address/route/reverse geocoding,two table-name/attribute information,one SGID spatial/attribute search. Guide advertises300+layers,not tested native count.",
+      "documentation_url": "https://api.mapserv.utah.gov/docs/",
+      "api_base_url": "https://api.mapserv.utah.gov/api/v1/",
+      "format_protocol": "Documented HTTP GET/JSON,JSONP optional but CORS recommended; no registered-key request performed",
+      "authentication": "Complimentary UtahID account and application-specific registered API key documented; desktop IP/browser-origin restrictions. No account/key acquired or embedded example value used.",
+      "free_access_restrictions": "Getting-started guide says free,responsible/fair use,abusive users may be blocked; key registration needed.",
+      "license": "CC BY4.0 default except metadata overrides; publisher disclaimer/metadata republication requirements",
+      "license_url": "https://gis.utah.gov/documentation/policy/license/",
+      "api_verification_state": "official_key_required_API_documented_sample_untested",
+      "latest_checked_utc": "2026-10-17T14:17:30.716992+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "vancouver-open-data-api",
+      "provider": "City of Vancouver",
+      "service_name": "Vancouver Open Data Explore API",
+      "geographic_coverage": "Canada; British Columbia; Vancouver",
+      "topical_coverage": "demographics; economics; housing; culture; education; transportation; geospatial; public finance",
+      "dataset_families": "City portal themes: business/economy,culture/education,demographics,food/housing,geography/imagery,government/finance,parks,property/development,safety,streets/transportation; no native full index queried.",
+      "documentation_url": "https://opendata.vancouver.ca/api-console/explore/v2.1/",
+      "api_base_url": "https://opendata.vancouver.ca/api/explore/v2.1/",
+      "format_protocol": "Primary Explore API v2.1 console documents HTTP GET/JSON,catalog/datasets,record queries and exports; no API runtime test",
+      "authentication": "unknown for actual runtime; documentation public; no credentials acquired",
+      "free_access_restrictions": "OGL Vancouver grants royalty-free commercial/adaptive use of eligible published information. Original historical data.vancouver.ca route policy-held; no alternate data query.",
+      "license": "Open Government Licence – Vancouver1.0",
+      "license_url": "https://opendata.vancouver.ca/pages/licence/",
+      "api_verification_state": "official_API_documented_original_legacy_route_policy_held_no_data_workaround",
+      "latest_checked_utc": "2026-10-17T14:17:30.707762+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "veneto-open-data",
       "provider": "Regione del Veneto; named rights holder Comune di Terrazzo",
       "service_name": "Open Data Veneto CKAN-compatible catalogue and OData proxy",
@@ -11424,6 +11460,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "montreal-open-data-catalog",
+      "provider": "Ville de Montréal / participating organizations",
+      "service_name": "Montréal CKAN open-data catalogue",
+      "geographic_coverage": "Canada; Québec; Montréal",
+      "topical_coverage": "transportation; environment; health; civic data; culture; public finance; geospatial",
+      "dataset_families": "Multisector city/participating organization catalogue. Current root powered-by CKAN; exact catalogue count untested.",
+      "documentation_url": "https://donnees.montreal.ca/",
+      "api_base_url": "https://donnees.montreal.ca/",
+      "format_protocol": "Publisher identifies CKAN; conventional Action query policy-held,targetunsent; actual APIbase/schema not verified",
+      "authentication": "unknown; no credentials supplied,metadata target unsent",
+      "free_access_restrictions": "Publisher says city open data freely reusable including commercial; additional identification-use prohibition and thirdparty exceptions require reconciliation.",
+      "license": "Publisher CC BY4 default with additional identification-use prohibition; effective scope unresolved",
+      "license_url": "https://donnees.montreal.ca/pages/licence-d-utilisation",
+      "api_verification_state": "publisher_CKAN_documented_conventional_API_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T14:17:30.726276+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mulhouse-alsace-open-data",
       "provider": "Mulhouse Alsace Agglomération",
       "service_name": "Documented Explore2.1 open-data portal",
@@ -14769,6 +14823,24 @@
       "license_url": "https://www.vd.ch/territoire-et-construction/cadastre-et-geoinformation/geoservices/conditions-dutilisation",
       "api_verification_state": "actual_public_JSON_sample_success_service_schema_only",
       "latest_checked_utc": "2026-10-17T07:37:23.635104+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "vernon-public-geospatial-api",
+      "provider": "City of Vernon",
+      "service_name": "Vernon PublicOpenData ArcGIS services",
+      "geographic_coverage": "Canada; British Columbia; Vernon",
+      "topical_coverage": "geospatial; water; environment; transportation",
+      "dataset_families": "Native PublicOpenData folder contains LakeAccessPoints and SanitaryServiceLines,each FeatureServer and MapServer. Only directory descriptors read,no feature/geometry records.",
+      "documentation_url": "https://www.vernon.ca/government-services/maps-gis/open-data-catalogue",
+      "api_base_url": "https://vmgis3.vernon.ca/server/rest/services/PublicOpenData",
+      "format_protocol": "Native ArcGIS REST JSON directory,currentVersion11.1,4interface descriptors,0childfolders; not feature observations",
+      "authentication": "Native directory succeeded anonymously; downstreamfeature access untested",
+      "free_access_restrictions": "Open catalogue terms publicservice/as-is/indemnity. Separate mapping disclaimer says exclusive use/no reuse or redistribution without writtenpermission; relation to exact publicfolder workrights unresolved.",
+      "license": "Conflicting or differently scoped open-catalogue and restrictive map terms; no effective open grant established",
+      "license_url": "https://www.vernon.ca/government-services/maps-gis/open-data-catalogue",
+      "api_verification_state": "native_public_directory_sample_success_rights_scope_unresolved",
+      "latest_checked_utc": "2026-10-17T14:17:30.735499+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
