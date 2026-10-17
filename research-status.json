@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:44:58.408941+00:00",
+  "published_at": "2026-10-17T19:47:01.109782+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:44:47.515720+00:00",
+  "research_updated_at": "2026-10-17T19:46:52.885906+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IOWDB anonymous JSON verified; IOWMETA robots hold and institutional recommendation scope retained; CM SAF product CC BY4 verified with API gap",
+  "latest_milestone": "FID move scoped CC0 metadata terms verified; Cornell OAI Identify succeeds; CRC806 legacy API offline uncertainty retained",
   "counts": {
-    "verified": 280,
-    "candidates": 523,
+    "verified": 281,
+    "candidates": 525,
     "excluded": 113,
     "sample_successes": 475
   },
@@ -5917,6 +5917,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "fid-move-research-data-api",
+      "provider": "TIB / FID move with SLUB Dresden",
+      "service_name": "FID move mobility and transport research data repository CKAN API",
+      "geographic_coverage": "Mobility and transport research; dataset-specific coverage, German institutional service not a universal geography claim",
+      "topical_coverage": "transportation | mobility | geospatial | research",
+      "dataset_families": "Published transport research dataset descriptive metadata; individual scientific data retain dataset-selected licences",
+      "documentation_url": "https://data.fid-move.de/en/api_page",
+      "api_base_url": "https://data.fid-move.de/en/api/3/",
+      "format_protocol": "CKAN RPC HTTP JSON; native success=true dataset search response",
+      "authentication": "Public search and content-reading API explicitly allowed without registration; publishing/editing reserved for registered users; anonymous metadata search succeeded",
+      "free_access_restrictions": "Repository use free of charge under November11,2022 special conditions. Data use governed by dataset licence; API reading public, write/delete not authorized here",
+      "license": "CC0 1.0 Universal for dataset metadata generally under repository special conditions",
+      "license_url": "https://data.fid-move.de/en/terms_of_use",
+      "api_verification_state": "native_anonymous_CKAN_dataset_metadata_search_success",
+      "latest_checked_utc": "2026-10-17T19:46:48.884149+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "figshare",
       "provider": "Figshare",
       "service_name": "Figshare public API: Figshare.com-published descriptive metadata subset",
@@ -10743,6 +10761,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cornell-ecommons-repository-api",
+      "provider": "Cornell University Library",
+      "service_name": "eCommons institutional repository OAI-PMH and documented REST API",
+      "geographic_coverage": "Cornell-related scholarly works and research with source-specific geographic coverage",
+      "topical_coverage": "research | education | culture | multidisciplinary",
+      "dataset_families": "Research papers, theses, images, code and data descriptions; files and per-item rights not enumerated",
+      "documentation_url": "https://guides.library.cornell.edu/ecommons/syndication",
+      "api_base_url": "https://ecommons.cornell.edu/server/oai/request | https://ecommons.cornell.edu/server/api",
+      "format_protocol": "Native OAI-PMH2 Identify XML; REST endpoint linked by official guide, not separately sampled",
+      "authentication": "Anonymous OAI Identify succeeded; source-content access may be public or Cornell/depositor-restricted",
+      "free_access_restrictions": "Library-created metadata policy promises no restrictions, subject to contractual/privacy exceptions; source-content terms and individual licences apply separately. No numeric API quota found",
+      "license": "Exact returned eCommons metadata/database formal grant unresolved; library-created metadata no-restriction policy, CC0 explicitly stated for separate bibliographic MARC snapshot dataset",
+      "license_url": "https://www.library.cornell.edu/libraries/policies/open-data/ | https://ecommons.cornell.edu/info/end-user-agreement",
+      "api_verification_state": "native_anonymous_OAI_Identify_XML_success_REST_documented_untested",
+      "latest_checked_utc": "2026-10-17T19:46:48.884149+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "coscine-research-api",
       "provider": "RWTH Aachen University / Coscine.nrw",
       "service_name": "Coscine project research-data REST API",
@@ -10794,6 +10830,24 @@
       "license_url": "https://www.courtlistener.com/terms/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:28:46.492545+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "crc806-legacy-research-database",
+      "provider": "University of Cologne / Collaborative Research Centre 806",
+      "service_name": "CRC806 Database legacy research portal; current API unresolved",
+      "geographic_coverage": "Project Our Way to Europe; exact current scientific geographic/temporal coverage unverified",
+      "topical_coverage": "archaeology | geospatial | environment | culture | research",
+      "dataset_families": "Historical project research data and spatial infrastructure; current source catalogue unenumerated",
+      "documentation_url": "https://crc806db.uni-koeln.de/ | https://crc806db.uni-koeln.de/about/technology/",
+      "api_base_url": "",
+      "format_protocol": "Native HTML only; historical CKAN/GeoNode/MapServer descriptions, not current machine-query API success",
+      "authentication": "unknown; no account/user endpoints called",
+      "free_access_restrictions": "unknown current service conditions",
+      "license": "unknown exact metadata/database/source grant; software architecture and university ownership are not grants",
+      "license_url": "https://crc806db.uni-koeln.de/imprint/",
+      "api_verification_state": "official_landing_offline_notice_historical_architecture_only_no_API_test",
+      "latest_checked_utc": "2026-10-17T19:46:48.884149+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
