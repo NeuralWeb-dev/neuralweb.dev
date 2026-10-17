@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T16:45:10.708850+00:00",
+  "published_at": "2026-10-17T16:47:14.023402+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:43:26.000572+00:00",
+  "research_updated_at": "2026-10-17T16:46:42.750477+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "11original scientific tasks reviewed,3new distinct services;EBAS14141file definitions,HAPI31,VAMDC131,NIST12references indexed;global universe unfinished",
+  "latest_milestone": "REFODATheld,EMEPmodelgrant/documentedOPeNDAP,ZVDDdeprecatedcandidate;StaedelCC0nativeOAI and resumableidentifierharvest",
   "counts": {
-    "verified": 258,
-    "candidates": 478,
+    "verified": 260,
+    "candidates": 479,
     "excluded": 67,
     "sample_successes": 472
   },
@@ -5349,6 +5349,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "emep-mscw-model-thredds",
+      "provider": "Norwegian Meteorological Institute / EMEP MSC-W",
+      "service_name": "EMEP MSC-W modelled air concentrations and depositions THREDDS/OPeNDAP",
+      "geographic_coverage": "EMEP0.1degree longitude/latitude European modelling domain; per-run grid extent/version",
+      "topical_coverage": "climate/weather/environment; research",
+      "dataset_families": "Modelled sulphur/nitrogen deposition,ozone,particulate matter,gases/aerosols; annual/monthly/daily/hourly gridded outputs. Country source-receptor CSVtables linked separately,not queryAPI verified",
+      "documentation_url": "https://www.emep.int/mscw/mscw_moddata.html",
+      "api_base_url": "https://thredds.met.no/thredds/dodsC/data/EMEP/",
+      "format_protocol": "Documented THREDDS/OPeNDAP with CFnetCDF; staticCSV source-receptor tables separate",
+      "authentication": "unknown for runtime; documented public download/OPeNDAP,robots-policy-heldsample not sent",
+      "free_access_restrictions": "Model outputs published under attribution licences; credit METNorway. No authentication/accounts/files or observations requested. Runtimeaccessnotverified.",
+      "license": "Creative Commons Attribution4.0 International and Norwegian Licence for Open Government Data(NLOD)",
+      "license_url": "https://www.emep.int/mscw/mscw_moddata.html | https://creativecommons.org/licenses/by/4.0/ | https://data.norge.no/nlod/en/2.0",
+      "api_verification_state": "primary_OPeNDAP_deployment_and_source_grant_documented_native_catalogue_robots_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T16:46:37.367139+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "emodnet",
       "provider": "European Marine Observation and Data Network / EU DG MARE and thematicpartners",
       "service_name": "EMODnet central metadata catalogue and linked thematic OGC services",
@@ -7884,6 +7902,24 @@
       "license_url": "https://www.ssb.no/en/api",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:41:04.941272+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "staedel-museum-oai",
+      "provider": "Staedel Museum,Frankfurt am Main",
+      "service_name": "Digital Collection OAI-PMH metadata API",
+      "geographic_coverage": "Staedel Museum collection in Frankfurt,Germany; internationally sourced artworks/creators",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "Artwork identifiers,descriptive LIDO and reduced DublinCore metadata; masterpieces and prints/drawings subsets",
+      "documentation_url": "https://sammlung.staedelmuseum.de/de/oai/guide",
+      "api_base_url": "https://sammlung.staedelmuseum.de/api/oai",
+      "format_protocol": "OAI-PMH2/XML,DublinCore(oai_dc),LIDO",
+      "authentication": "None for successful Identify,ListSets and ListIdentifiers publicmetadata reads",
+      "free_access_restrictions": "Public metadataCC0; guide separately describes linked imagesCCBYSA4 attribution. No image downloads or blanketimagerygrant requiredforacceptedmetadata.",
+      "license": "CC0 1.0 Universal Public Domain Dedication(metadata)",
+      "license_url": "https://sammlung.staedelmuseum.de/de/oai/guide | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "native_OAI_Identify_ListSets_ListIdentifiers_XML_success_metadata_CC0_explicit_snapshot_identifier_harvest_in_progress",
+      "latest_checked_utc": "2026-10-17T16:46:37.367139+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17228,6 +17264,24 @@
       "license_url": "https://zg.ch/opendata",
       "api_verification_state": "actual_public_JSON_sample_success_zero_search_results_only",
       "latest_checked_utc": "2026-10-17T07:37:48.286351+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "zvdd-metadata-interfaces",
+      "provider": "Niedersaechsische Staats- und Universitaetsbibliothek Goettingen / ZVDD",
+      "service_name": "ZVDD digitised-print metadata interfaces",
+      "geographic_coverage": "Digitised printed works held/produced in Germany,15thcentury onward; work-specific provenance",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "Bibliographic and structural metadata for digitised printed works; central harvested METS/MODS records",
+      "documentation_url": "https://www.zvdd.de/dokumentation/technische-architektur/ | https://www.zvdd.de/startseite/",
+      "api_base_url": "https://www.zvdd.de/oai2/",
+      "format_protocol": "Documented OAI/OAI2,SRU,Z39.50,OpenSearch; METS/MODS metadata",
+      "authentication": "unknown for runtime; published publicinterfaces,Identify held byrobots before targetrequest",
+      "free_access_restrictions": "Homepage announces discontinuation from2024 and closure tonewcollections. ContinuingHTMLsite not proof nativeAPIavailability or maintainedservice.",
+      "license": "Copyright notices; exact metadata reuse grant unconfirmed",
+      "license_url": "https://www.zvdd.de/ueber-das-projekt/impressum/",
+      "api_verification_state": "primary_historical_interfaces_documented_discontinuation_notice_native_Identify_robots_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T16:46:37.367139+00:00",
       "classification": "licensing_unconfirmed"
     }
   ],
