@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T07:39:37.430800+00:00",
+  "published_at": "2026-10-17T07:41:40.461578+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:38:02.950215+00:00",
+  "research_updated_at": "2026-10-17T07:41:31.824618+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Alpine east batch in progress: sixoriginal roots andcurrenttermsreviewed;TG CCBY4confirmed/currentAPIheld;VD/VSschemasactualJSON,Zugsearchvalidzeroresults,Palmaaccountrequiredspec. Originalqueue notyetadvanced.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 206,
-    "candidates": 388,
-    "excluded": 42,
-    "sample_successes": 392
+    "candidates": 391,
+    "excluded": 43,
+    "sample_successes": 395
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6109,7 +6109,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T07:33:57.466894+00:00",
+      "latest_checked_utc": "2026-10-17T07:40:42.054072+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6299,15 +6299,15 @@
       "geographic_coverage": "Switzerland/Thurgau",
       "topical_coverage": "culture; research",
       "dataset_families": "Cantonal datasets; sampled digitized Thurgau print metadata",
-      "documentation_url": "https://data.tg.ch",
+      "documentation_url": "https://data.tg.ch/api-console/",
       "api_base_url": "https://data.tg.ch/api/explore/v2.1/",
       "format_protocol": "Opendatasoft Explore API/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.409273+00:00",
+      "license_url": "https://data.tg.ch/terms/terms-and-conditions/?flg=de-ch",
+      "api_verification_state": "documented_sample_success;historical_success_preserved_latest_original_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T07:36:08.029913+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12685,6 +12685,42 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "valais-cantonal-geoservices",
+      "provider": "Canton du Valais,Service de la geoinformation",
+      "service_name": "Valais cantonal geoservices",
+      "geographic_coverage": "Valais,Switzerland",
+      "topical_coverage": "Geospatial,administrativeboundaries,regionalreference",
+      "dataset_families": "Cantonalgeodata documented;one namedCommune_VSFeatureServer schemawithoneCommuneslayer verified. Notalllayers/services enumerated.",
+      "documentation_url": "https://www.vs.ch/fr/web/egeo/geoservices",
+      "api_base_url": "https://sit.vs.ch/arcgis/rest/services/",
+      "format_protocol": "ArcGIS REST/JSON schema;WMS/WFSharmonisedfamiliesdocumentedseparately",
+      "authentication": "Selectedpublicschemaanonymous;otheraccessunknown",
+      "free_access_restrictions": "Currentservicepageprovidesgeoservicediscovery. Oneschemareadonly;no features orprivaterecords. Specificfees/tier/rightsexceptionsunresolved.",
+      "license": "Official geodata page claims CC BY-SA4;namedwork/APIbinding andfullapplicableconditions unresolved.",
+      "license_url": "https://www.vs.ch/fr/web/egeo/geodonnees",
+      "api_verification_state": "actual_public_JSON_sample_success_communes_schema_only",
+      "latest_checked_utc": "2026-10-17T07:37:22.688542+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "vaud-apigeo",
+      "provider": "Etat de Vaud,geoinformation services",
+      "service_name": "Vaud APIGeo ArcGIS service",
+      "geographic_coverage": "Vaud,Switzerland",
+      "topical_coverage": "Geospatial,planning,building,cadastre",
+      "dataset_families": "22 advertised layer/group references inclbuildingpermit/planning/cadastral families;schemaonly,no features queried.",
+      "documentation_url": "https://www.vd.ch/territoire-et-construction/cadastre-et-geoinformation/geoservices",
+      "api_base_url": "https://ags.map.vd.ch/ags/rest/services/API/APIGeo/MapServer",
+      "format_protocol": "ArcGIS REST/JSON schema;Query/Map/Data capabilities andJSON/GeoJSON/PBF advertised",
+      "authentication": "Selectedschema anonymouslyread;features,private/writeoperations untested",
+      "free_access_restrictions": "Publicmetadataaccessverified;actualspecificdatarights andfees/tierunknown. No building/person/parcelrecordsqueried.",
+      "license": "No data-specific open grant established from currentservice/schema/availabilityterms.",
+      "license_url": "https://www.vd.ch/territoire-et-construction/cadastre-et-geoinformation/geoservices/conditions-dutilisation",
+      "api_verification_state": "actual_public_JSON_sample_success_service_schema_only",
+      "latest_checked_utc": "2026-10-17T07:37:23.635104+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "victoria-datavic",
       "provider": "State Government of Victoria,Department of Government Services",
       "service_name": "DataVic CKAN catalog and documented Open Data API",
@@ -14177,6 +14213,24 @@
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success_selected_terms_timeout",
       "latest_checked_utc": "2026-10-17T01:42:00.607914+00:00",
       "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "zug-entrystore-catalog",
+      "provider": "Kanton Zug,Fachstelle fuer Daten und Statistik",
+      "service_name": "Zug EntryStore metadata catalogue",
+      "geographic_coverage": "Canton andcity Zug,Switzerland",
+      "topical_coverage": "Multisector metadata,government data discovery",
+      "dataset_families": "Official OGD page names education,energy,society,health,culture,mobility,environment,traffic,economy. Current two bounded searches returnedzero entries;no dataset-family enumeration verified.",
+      "documentation_url": "https://zg.ch/opendata",
+      "api_base_url": "https://data.zg.ch/store/",
+      "format_protocol": "EntryStore REST/JSON metadata;RDF/DCAT claims via providerHTML/configuration",
+      "authentication": "Anonymous read-only searches succeeded;privatewrite/accountoperations untested",
+      "free_access_restrictions": "Official OGD datasets free;per-distribution conditionsapply. Actualboundedpublicsearchresponses validJSONbutempty;emptyqueries notproofcataloguecontainsnodata.",
+      "license": "Official freeuse/redistribution statement with per-distribution licences;no namedcurrentresource grant established.",
+      "license_url": "https://zg.ch/opendata",
+      "api_verification_state": "actual_public_JSON_sample_success_zero_search_results_only",
+      "latest_checked_utc": "2026-10-17T07:37:48.286351+00:00",
+      "classification": "licensing_unconfirmed"
     }
   ],
   "excluded": [
@@ -14844,6 +14898,24 @@
       "license_url": "https://github.zhaw.ch/pages/digitallinguistics/swiss-al-docu/terms-of-use.html",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:58:11.434863+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ticino-palma-api",
+      "provider": "Cantone Ticino,OASI",
+      "service_name": "Palma environmental information REST API",
+      "geographic_coverage": "Italian-speakingSwitzerland,Ticinomeasurementnetworkscope",
+      "topical_coverage": "Environment,weather,air,measurementnetwork,traffic",
+      "dataset_families": "Publishedtemporal/spatialmeasurementmetadata andanalysis,qualitycontrol,trafficfunctions. Specification includesaccount/adminfunctions thatareoutofscope forpublicdataresearch.",
+      "documentation_url": "https://www.oasi.ti.ch/palma/manual/html/it/developers/api.html",
+      "api_base_url": "https://www.oasi.ti.ch/palma/ws",
+      "format_protocol": "OpenAPI3YAML;REST/JSON,CSVexportsdocumented,notqueried",
+      "authentication": "Accountrequired;bearerJWTauthdocumented;noaccount/key/tokenacquired,noauthenticatedsamples",
+      "free_access_restrictions": "Accountrequestandpermissionlevelsdocumented. Nopaidacquisitionundertaken. Monetaryfeesunknown;notfreeopenreuseunderexaminedterms.",
+      "license": "Custom Palma end-user terms;limitedadministrative/study/researchpurposes,otherreuseexpresspermissionrequired.",
+      "license_url": "https://www.oasi.ti.ch/palma/resources/disclaimer/en/disclaimer-v1.html",
+      "api_verification_state": "documented_account_required_untested_no_credentials",
+      "latest_checked_utc": "2026-10-17T07:38:01.745155+00:00",
       "classification": "restricted"
     },
     {
