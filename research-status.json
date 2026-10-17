@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T01:37:35.468694+00:00",
+  "published_at": "2026-10-17T01:39:38.176989+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:36:46.745874+00:00",
+  "research_updated_at": "2026-10-17T01:39:21.622002+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Two southern African actual NADA metadata API services; Namibia selected-data restrictions, Botswana product-policy applicability unresolved",
+  "latest_milestone": "Namibia/Botswana actualNADAmetadata APIs17/38studyIDs complete finite response sets;Namibia selectedstatistical/no-redistributionrestricted/Botswana grantapplicabilitycandidate;18officialportalURLclaims;Zambia/Mauritius/Zimbabwe APIrights unresolved;396services156open211candidate29restricted;global51023source-originqueueunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 156,
     "candidates": 211,
     "excluded": 29,
-    "sample_successes": 204
+    "sample_successes": 206
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5889,7 +5889,7 @@
       "license": "unknown",
       "license_url": "https://www.afdb.org/en/disclaimer-and-copyright",
       "api_verification_state": "current_documentation_policy_deferred_api_rights_unresolved",
-      "latest_checked_utc": "2026-10-17T01:29:24.841762+00:00",
+      "latest_checked_utc": "2026-10-17T01:33:04.171762+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6041,7 +6041,7 @@
       "provider": "Statistics Botswana",
       "service_name": "Statistics Botswana NADA study-catalog metadata API",
       "geographic_coverage": "Botswana",
-      "topical_coverage": "demographics; labor; economics/finance; health; education; housing; research",
+      "topical_coverage": "demographics; labor; economics/finance; health; housing; agriculture; research; energy; geospatial; transportation",
       "dataset_families": "38 native study metadata descriptors; survey/census families listed in separate index, not underlying microdata or licensed distributions",
       "documentation_url": "https://microdata.statsbots.org.bw",
       "api_base_url": "https://microdata.statsbots.org.bw/index.php/api/",
@@ -6050,8 +6050,8 @@
       "free_access_restrictions": "Public metadata sampled anonymously; file access and use conditions vary; no accounts/forms/keys/datafiles requested",
       "license": "Statistics Botswana main terms permit broad product use with attribution/derived-analysis disclosure; full applicability to all catalogue metadata and datafiles unconfirmed",
       "license_url": "https://www.statsbots.org.bw/terms-use",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:36:46.630150+00:00",
+      "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T01:35:47.461865+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7491,7 +7491,7 @@
       "license": "2017NationalOpenDataPolicyadoptsCC-BY-4.0forreleasedgovernmentopendata;currentdataset-specificCC-BY-SA-4.0/ODCBydeclarationsindexed;fullportalgrantunconfirmed",
       "license_url": "https://bot.govmu.org/Documents/Strategies/Mauritius%20Open%20Data%20Policy%20May%202017.pdf | https://data.govmu.org/dataset/number-driving-licence-issued-year-and-type-licence | https://data.govmu.org/dataset/?license_id=odc-by&sort=views_recent+desc",
       "api_verification_state": "documented_indexed_datastore_api_sample_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T22:30:02.005693+00:00",
+      "latest_checked_utc": "2026-10-17T01:33:52.012995+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9967,7 +9967,7 @@
       "provider": "Namibia Statistics Agency (NSA)",
       "service_name": "Namibia Statistics Agency (NSA) NADA study-catalog metadata API",
       "geographic_coverage": "Namibia",
-      "topical_coverage": "demographics; labor; economics/finance; health; education; housing; research",
+      "topical_coverage": "demographics; labor; economics/finance; health; housing; agriculture; research",
       "dataset_families": "17 native study metadata descriptors; survey/census families listed in separate index, not underlying microdata or licensed distributions",
       "documentation_url": "https://microdata.nsanamibia.com",
       "api_base_url": "https://microdata.nsanamibia.com/index.php/api/",
@@ -9976,8 +9976,8 @@
       "free_access_restrictions": "Selected NFIS data redistribution/sale requires written NSA agreement, statistical-purpose/aggregate reporting and citation/publication-copy conditions. No microdata/download/account/contact actions performed.",
       "license": "Mixed/restricted; selected 2025 Financial Inclusion Survey prohibits redistribution without written NSA agreement and restricts use to statistical purposes",
       "license_url": "https://microdata.nsanamibia.com/index.php/catalog/19",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:36:46.629977+00:00",
+      "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T01:35:44.608383+00:00",
       "classification": "restricted"
     },
     {
