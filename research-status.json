@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:50:24.955670+00:00",
+  "published_at": "2026-10-17T20:52:27.828029+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:49:15.421580+00:00",
+  "research_updated_at": "2026-10-17T20:52:13.210445+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginaltasksreviewedintwobatches; sevenrecordsaddedandDryaddeduplicated. ColumbiaCC0bibliographyexcludingabstracts/HEIDIcatalogueCC0scopesverified; ing.est33identifierscomplete. Globaldiscoveryunfinished.",
+  "latest_milestone": "Scrippsarchiveidentitiespartitioned; ECBDpublicdataBY4/APIprimaryverified, nativequeryholdsretained",
   "counts": {
-    "verified": 288,
-    "candidates": 559,
+    "verified": 289,
+    "candidates": 561,
     "excluded": 122,
     "sample_successes": 475
   },
@@ -5813,6 +5813,24 @@
       "license_url": "https://www.ecb.europa.eu/services/disclaimer/html/index.en.html",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.357173+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ecbd-chemical-biology-api",
+      "provider": "EU-OPENSCREEN / Institute of Molecular Genetics, Prague",
+      "service_name": "European Chemical Biology Database public REST API",
+      "geographic_coverage": "Experimentaldata from EuropeanEU-OPENSCREENnetwork; biologicaltargets/species/project coveragevary, not allworldchemistry",
+      "topical_coverage": "research | biology | health | chemistry",
+      "dataset_families": "Public chemical-biology assay andbioprofiling data, compound/screening/target annotations; privatepre-release projects excluded",
+      "documentation_url": "https://www.eu-openscreen.eu/services/database.html | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701612/ | https://ecbd.eu/api/",
+      "api_base_url": "https://ecbd.eu/api/",
+      "format_protocol": "REST API explicitlydescribed byoperator-authored2025primarypaper; JSON/CSVdownloadoptions described, nativecontract/runtimeunverified",
+      "authentication": "Publicdata API documented; privatepre-release/embargo accessnotqueried. No account/keyobtained",
+      "free_access_restrictions": "Primarypaper publicdatafreelyavailableunderBY4; operator describesoptional36month publicationhold, private/pre-release excluded",
+      "license": "Creative Commons Attribution4.0 International for publicECBDdata",
+      "license_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701612/",
+      "api_verification_state": "primary_operator_paper_explicit_public_data_BY4_and_REST_API_documented_native_root_API_robots_withheld",
+      "latest_checked_utc": "2026-10-17T20:52:09.099270+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16474,6 +16492,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "scripps-ogdc-data-portal",
+      "provider": "Scripps Institution of Oceanography / UC San Diego",
+      "service_name": "Ocean and Geosciences Data Center cruise/archive discovery portal",
+      "geographic_coverage": "Scripps oceanographic vessel expeditions worldwide since1950s; individual cruise coverage varies",
+      "topical_coverage": "oceans | water | geospatial | geophysics | climate/weather/environment | research",
+      "dataset_families": "Cruise dates/ports/identifiers, underway geophysical/water-column/station holdings; pre2006 SIOExplorer links and newerR2Rdistributions distinct",
+      "documentation_url": "https://ogdc.ucsd.edu/ | https://ogdc.ucsd.edu/index.php/about/mission/ | https://ogdc.ucsd.edu/index.php/sio-cruise-information/",
+      "api_base_url": "",
+      "format_protocol": "HTML discovery; archive/raw-data links are not verified API protocols",
+      "authentication": "unknown; no accounts/credentials",
+      "free_access_restrictions": "Public discovery/access does not establish unrestricted reuse",
+      "license": "unknown explicit metadata/database/source reuse grant",
+      "license_url": "",
+      "api_verification_state": "native_operator_HTML_identity_families_verified_independent_query_API_and_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:52:09.099270+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sddb-scientific-drilling-oai",
       "provider": "Scientific Drilling Database / GFZ Data Services",
       "service_name": "SDDB archived scientific-drilling descriptions via DOIDB OAI-PMH",
@@ -16687,6 +16723,24 @@
       "license_url": "https://diffusion.shom.fr/donnees/base-de-donnees-maritimes-et-littorales/reglementation-navigation.html | https://diffusion.shom.fr/Licences | https://diffusion.shom.fr/media/wysiwyg/licence/Document_RIP_2026-VF.pdf",
       "api_verification_state": "documented_WMS_XML_capabilities_sample_success_selected_OL2_product_free_API_eligibility_unresolved",
       "latest_checked_utc": "2026-10-17T00:38:39.436420+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sioexplorer-legacy-cruise-archive",
+      "provider": "Scripps Institution of Oceanography / San Diego Supercomputer Center",
+      "service_name": "SIOExplorer legacy oceanographic digital library",
+      "geographic_coverage": "Scripps expeditions from1950s, pre2006archive per current OGDCoperatorpage; worldwidecruise locations vary",
+      "topical_coverage": "oceans | geophysics | geospatial | research | culture",
+      "dataset_families": "Legacycruise geophysical/watercolumn/station data, digitizeddocuments andimages; analogueartifacts separatephysicalarchive",
+      "documentation_url": "https://ogdc.ucsd.edu/ | https://siox.sdsc.edu/",
+      "api_base_url": "",
+      "format_protocol": "Operator documents legacywebarchive; historicalJava/SRB descriptions notcurrent deployedAPI proof",
+      "authentication": "unknown; no accounts/credentials",
+      "free_access_restrictions": "Public discovery/access does not establish unrestricted reuse",
+      "license": "unknown explicit metadata/database/measurement/document/image grants",
+      "license_url": "",
+      "api_verification_state": "operator_native_archive_reference_verified_original_host_robots_withheld_current_API_and_rights_unresolved",
+      "latest_checked_utc": "2026-10-17T20:52:09.099270+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
