@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T21:43:33.021864+00:00",
+  "published_at": "2026-10-17T21:45:35.339327+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:42:31.232867+00:00",
+  "research_updated_at": "2026-10-17T21:44:31.707393+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed in two batches; six new services(three candidates,three restricted) and one existing Harvard IFPRI alias update. AMDA13operation/version entries and IGS9filtered public-network JSON results indexed. Global discovery unfinished.",
+  "latest_milestone": "UTM explicit Open Data BY4/API contract verified with failedRDF400; Earthdata umbrella deduplicatedCMR; Edinburgh explicit metadata terms verified with original repository hold.",
   "counts": {
-    "verified": 300,
-    "candidates": 586,
+    "verified": 301,
+    "candidates": 587,
     "excluded": 131,
     "sample_successes": 475
   },
@@ -7592,7 +7592,7 @@
       "license": "Explicit dataset unrestricted-use grant with required citation in official UMM UseConstraints",
       "license_url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?page_size=1&short_name=SPL3SMP_E&version=006",
       "api_verification_state": "documented_metadata_sample_success_data_login_required_untested",
-      "latest_checked_utc": "2026-10-16T18:33:32.708568+00:00",
+      "latest_checked_utc": "2026-10-17T21:44:27.621375+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9537,6 +9537,24 @@
       "license_url": "https://gis.utah.gov/documentation/policy/license/",
       "api_verification_state": "official_key_required_API_documented_sample_untested",
       "latest_checked_utc": "2026-10-17T14:15:56.740471+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "utm-csic-geonetwork",
+      "provider": "UTM-CSIC Data Centre",
+      "service_name": "UTM oceanographic cruise/data catalogue GeoNetwork API",
+      "geographic_coverage": "Cruises on Spanish CSIC research vessels and RV Hespérides; international marine/polar cruise tracks, operator catalogue describes records since1979, not all-ocean coverage",
+      "topical_coverage": "oceans | water | climate/weather/environment | geospatial | research",
+      "dataset_families": "Cruise metadata, underway meteorology/sea-surface temperature/salinity/fluorometry, gravimetry and sound-velocity profiles; accepted only explicitly Open Data source scope",
+      "documentation_url": "https://data.utm.csic.es/portal/ | https://data.utm.csic.es/geonetwork/doc/api/index.html | https://data.utm.csic.es/geonetwork/srv/api/doc",
+      "api_base_url": "https://data.utm.csic.es/geonetwork/srv/api",
+      "format_protocol": "Native OpenAPI3 GeoNetwork4.2.10 JSON contract; public RDF listing GET returned400 structured Not implemented in ES, not successful dataset response",
+      "authentication": "No accounts, keys, credentials or private routes used",
+      "free_access_restrictions": "Public metadata and source-data rights/access are separate",
+      "license": "CC BY4.0 only for source datasets explicitly labelled Open Data in catalogue",
+      "license_url": "http://data.utm.csic.es/public/UTMDataPolicy.pdf",
+      "api_verification_state": "native_current_OpenAPI_contract_verified_one_RDF_GET_HTTP400_Not_implemented_in_ES_source_Open_Data_BY4_policy_verified",
+      "latest_checked_utc": "2026-10-17T21:44:27.621375+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12257,6 +12275,24 @@
       "license_url": "https://edirepository.org/about/edi-policy | https://edirepository.org/resources/licensing-data | https://edirepository.org/resources/resources-for-data-authors",
       "api_verification_state": "documented_pasta_samples_http403_and_member_capability_policy_deferred",
       "latest_checked_utc": "2026-10-16T22:43:19.390112+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "edinburgh-datashare",
+      "provider": "University of Edinburgh Research Data Service",
+      "service_name": "Edinburgh DataShare metadata/research-data repository",
+      "geographic_coverage": "Institutional research data across disciplines, potentially international study locations; no all-world population/geography inventory",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research datasets and repository metadata; source permissions vary by item",
+      "documentation_url": "https://datashare.ed.ac.uk/ | https://library.ed.ac.uk/research-support/research-data-service/after/data-repository/service-policies/data-metadata-policy",
+      "api_base_url": "",
+      "format_protocol": "Native library policy HTML verified; repository target held, no successful OAI/REST response",
+      "authentication": "No accounts, keys, credentials or private routes used",
+      "free_access_restrictions": "Public metadata and source-data rights/access are separate",
+      "license": "Custom explicit metadata reuse grant permits nonprofit reuse in any medium and commercial resale with original OAI identifier/link; source-specific data rights vary",
+      "license_url": "https://library.ed.ac.uk/research-support/research-data-service/after/data-repository/service-policies/data-metadata-policy",
+      "api_verification_state": "native_official_metadata_reuse_policy_verified_repository_root_policy_hold_no_native_API_response",
+      "latest_checked_utc": "2026-10-17T21:44:27.621375+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
