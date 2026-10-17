@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T02:43:01.222093+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-17T02:45:03.916099+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:39:48.420613+00:00",
+  "research_updated_at": "2026-10-17T02:44:45.967754+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Primary SKG-IF registry8entries/7hostedclaims processed,3candidate services added;4new actual product-interface samples,license/service discrepancies retained.",
+  "latest_milestone": "CESSDA3interface batch and current primary SKG-IF8entry/7hostedclaim registry processed: scoped ELSSTCCBYSA4/AnalysisUnitCCBY4;3new licensing-unconfirmed CLARINstaging/TeslaRIS/GoTriple services,4actual product-interface samples. Original terms/staging/path gaps and global discovery universe remain unresolved.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 167,
-    "candidates": 290,
+    "candidates": 293,
     "excluded": 30,
-    "sample_successes": 294
+    "sample_successes": 297
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1023,6 +1023,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "cessda-elsst",
+          "cessda-vocabularies",
           "croatia-statistics",
           "denmark-statbank",
           "destatis",
@@ -1052,7 +1054,6 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "cessda-catalogue",
-          "cessda-vocabularies",
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
@@ -1067,6 +1068,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "cessda-elsst",
           "croatia-statistics",
           "denmark-statbank",
           "destatis",
@@ -1110,6 +1112,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "cbs",
+          "cessda-elsst",
           "croatia-statistics",
           "denmark-statbank",
           "destatis",
@@ -1231,6 +1234,7 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "cessda-elsst",
           "estonia-statistics",
           "faroe-statistics",
           "fsa-alerts",
@@ -1256,6 +1260,8 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "cessda-elsst",
+          "cessda-vocabularies",
           "dnb",
           "estonia-statistics",
           "faroe-statistics",
@@ -1275,7 +1281,8 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "cessda-catalogue",
-          "cessda-vocabularies",
+          "clarin-skgif",
+          "gotriple",
           "latvia-statistics",
           "lithuania-statistics",
           "serbia-rzs"
@@ -1482,6 +1489,8 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "clarin-skgif",
+          "gotriple",
           "ksamsok",
           "lithuania-statistics",
           "perspectivia",
@@ -1499,6 +1508,8 @@
         "verified_provider_ids": [
           "bgs",
           "bnf-catalogue",
+          "cessda-elsst",
+          "cessda-vocabularies",
           "croatia-statistics",
           "darus",
           "dnb",
@@ -1522,7 +1533,8 @@
           "anfr-data",
           "b2share",
           "cessda-catalogue",
-          "cessda-vocabularies",
+          "clarin-skgif",
+          "gotriple",
           "ksamsok",
           "perspectivia",
           "rijksmuseum",
@@ -4116,7 +4128,7 @@
       "license": "CC0 1.0 since19March2026",
       "license_url": "https://www.fsd.tuni.fi/en/news/news-releases/084/ | https://www.fsd.tuni.fi/fi/aineistot/taustatietoa/ddi-records/",
       "api_verification_state": "actual_SKGIF_JSON_and_DDI_XML_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:18:52.638452+00:00",
+      "latest_checked_utc": "2026-10-17T02:40:15.459868+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4908,7 +4920,7 @@
       "license": "CC BY; version unspecified on reviewed current API/Graph license pages",
       "license_url": "https://graph.openaire.eu/docs/apis/terms/ | https://graph.openaire.eu/docs/license",
       "api_verification_state": "sample_success_scoped_open_license",
-      "latest_checked_utc": "2026-10-16T20:17:44.900183+00:00",
+      "latest_checked_utc": "2026-10-17T02:40:15.459868+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4990,15 +5002,15 @@
       "geographic_coverage": "Global",
       "topical_coverage": "research",
       "dataset_families": "Open citation indexes; bibliographic metadata",
-      "documentation_url": "https://api.opencitations.net/index/v2",
-      "api_base_url": "https://api.opencitations.net/index/v2/ | https://api.opencitations.net/meta/v1/",
+      "documentation_url": "https://api.opencitations.net/index/v2 | https://api.opencitations.net/skg-if/v1/",
+      "api_base_url": "https://api.opencitations.net/index/v2/ | https://api.opencitations.net/meta/v1/ | https://api.opencitations.net/skg-if/v1/",
       "format_protocol": "REST/JSON",
       "authentication": "Current docs encourage access token for applications;anonymous reference-count sample succeeded,no token obtained",
       "free_access_restrictions": "Public anonymous sample succeeded;docs recommend dumps for large-scale retrieval and encourage token for applications",
       "license": "CC0 1.0",
       "license_url": "https://opencitations.net/model",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T19:01:16.705972+00:00",
+      "latest_checked_utc": "2026-10-17T02:41:00.885896+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6548,7 +6560,7 @@
       "license": "unknown; CC BY4userguidefooter does not establish aggregatedmetadata grant",
       "license_url": "https://www.cessda.eu/Acceptable-Use-Policy",
       "api_verification_state": "actual_OAI_XML_SearchAPI_JSON_and_SKGIF_staging_JSONLD_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:39:13.127955+00:00",
+      "latest_checked_utc": "2026-10-17T02:40:15.459868+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6711,6 +6723,24 @@
       "license_url": "https://support.nii.ac.jp/en/cinii/copyright | https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clarin-skgif",
+      "provider": "CLARIN / KNAW Humanities Cluster",
+      "service_name": "CLARIN VLO SKG-IF staging API",
+      "geographic_coverage": "Europe/international; language-resource metadata aggregation",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language resources, tools and associated research product metadata; five product graph entries in published staging example",
+      "documentation_url": "https://clarin-skg.dev.diginfra.org/api/v1/",
+      "api_base_url": "https://clarin-skg.dev.diginfra.org/api/v1/",
+      "format_protocol": "SKG-IF REST/JSON-LD; explicitly labeled staging",
+      "authentication": "No credentials for tested anonymous public product metadata requests",
+      "free_access_restrictions": "Small public GET succeeded without credentials/payment; numeric caps/free-tier limits unknown; no write/admin calls. Staging explicitly labeled where applicable.",
+      "license": "unknown for aggregated metadata; VLO about page GPLv3 explicitly covers software",
+      "license_url": "https://vlo.clarin.eu/about",
+      "api_verification_state": "actual_product_metadata_JSONLD_sample_success",
+      "latest_checked_utc": "2026-10-17T02:41:10.608141+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7287,6 +7317,24 @@
       "license_url": "https://goa.nceas.ucsb.edu/goa/d1/mn/v2/object/df35a.16.11",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:25.846570+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gotriple",
+      "provider": "OPERAS / GoTriple",
+      "service_name": "GoTriple research discovery and SKG-IF API",
+      "geographic_coverage": "Europe/international; social sciences and humanities research aggregation",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "SSH products/publications, projects/grants, authors/persons, organisations/topics documented; one product returned of40588167native count",
+      "documentation_url": "https://api.gotriple.eu/api/skg-if/documentation",
+      "api_base_url": "https://api.gotriple.eu/api/skg-if/",
+      "format_protocol": "SKG-IF REST/JSON-LD; documented optional JSON",
+      "authentication": "No credentials for tested anonymous public product metadata requests",
+      "free_access_restrictions": "Small public GET succeeded without credentials/payment; numeric caps/free-tier limits unknown; no write/admin calls. Staging explicitly labeled where applicable.",
+      "license": "Licensing unconfirmed for indexed records; OpenAPI info.license CC BY4 has unresolved dataset scope",
+      "license_url": "https://www.iubenda.com/terms-and-conditions/57133312 | https://api.gotriple.eu/api/skg-if/documentation",
+      "api_verification_state": "actual_product_metadata_JSONLD_sample_success",
+      "latest_checked_utc": "2026-10-17T02:41:30.517293+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9717,6 +9765,24 @@
       "license_url": "https://www.tepapa.govt.nz/assets/76067/1693184837-collections_api_terms_of_use.pdf",
       "api_verification_state": "documented_key_required_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.439565+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "teslaris-novi-sad",
+      "provider": "University of Novi Sad / TeslaRIS",
+      "service_name": "CRIS UNS TeslaRIS public SKG-IF API",
+      "geographic_coverage": "Serbia; University of Novi Sad research information",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Research products, persons, organisations and venues advertised; only product page queried; four native collection descriptors indexed",
+      "documentation_url": "https://cris.uns.ac.rs/api/skg-if | https://github.com/sci2zero/TeslaRIS-backend/wiki/SKG%E2%80%90IF-API",
+      "api_base_url": "https://cris.uns.ac.rs/api/skg-if",
+      "format_protocol": "SKG-IF REST/JSON-LD; Turtle documented, untested",
+      "authentication": "No credentials for tested anonymous public product metadata requests",
+      "free_access_restrictions": "Small public GET succeeded without credentials/payment; numeric caps/free-tier limits unknown; no write/admin calls. Staging explicitly labeled where applicable.",
+      "license": "unknown for research metadata; advertised GPL-3.0 API/implementation license is not established as a data grant",
+      "license_url": "https://cris.uns.ac.rs/api/skg-if",
+      "api_verification_state": "actual_product_metadata_JSONLD_sample_success",
+      "latest_checked_utc": "2026-10-17T02:41:38.843357+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
