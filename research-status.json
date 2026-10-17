@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:29:21.683895+00:00",
+  "published_at": "2026-10-17T18:31:24.565303+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:29:07.102709+00:00",
+  "research_updated_at": "2026-10-17T18:30:53.831523+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed; TOAR scoped open/native metadata, Marine Regions scoped open/documented OGC, three restricted records; CXIDB213/EarthStat12/VLIZ12 references indexed",
+  "latest_milestone": "Kinder host hold retained; INFRA-ART current metadata/data grants separated and public API under development; Zeolite commercial redistribution restriction verified",
   "counts": {
     "verified": 273,
     "candidates": 500,
-    "excluded": 96,
+    "excluded": 98,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -18990,6 +18990,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "infra-art-restricted-spectra",
+      "provider": "INOE 2000 / INFRA-ART",
+      "service_name": "INFRA-ART spectral library (restricted data; metadata separately CC0)",
+      "geographic_coverage": "Heritage science materials; global research applications, Romania-operated",
+      "topical_coverage": "culture | chemistry | research",
+      "dataset_families": "FTIR, XRF, Raman and SWIR spectral material collections",
+      "documentation_url": "https://infra-art.eu/resources/faq | https://infra-art.eu/database/latest-updates",
+      "api_base_url": "",
+      "format_protocol": "HTML embedded DCAT/Schema.org JSON-LD; individual spectral ASCII/CSV/TXT and versioned releases, not verified public API",
+      "authentication": "Public pages anonymous; no private/special-access request or account used",
+      "free_access_restrictions": "Free public exploration; spectral data noncommercial by default, release/record-specific exceptions take precedence",
+      "license": "CC BY-NC 4.0 spectral data; CC0 1.0 released metadata unless otherwise stated",
+      "license_url": "https://infra-art.eu/terms-of-use",
+      "api_verification_state": "public_API_explicitly_under_development_HTML_JSONLD_only",
+      "latest_checked_utc": "2026-10-17T18:30:45.286387+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "ipd-immunopolymorphism-api",
       "provider": "Anthony Nolan HLA Informatics Group / EMBL-EBI",
       "service_name": "IPD Immuno Polymorphism Database REST API including IMGT/HLA",
@@ -19005,6 +19023,24 @@
       "license_url": "https://www.ebi.ac.uk/ipd/licence/ | https://www.ebi.ac.uk/ipd/imgt/hla/licence/",
       "api_verification_state": "primary_embedded_OpenAPI_verified_native_allele_sample_robots_held_target_unsent_ND_restrictions_verified",
       "latest_checked_utc": "2026-10-17T16:48:12.185871+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "iza-zeolite-structures-restricted",
+      "provider": "International Zeolite Association Structure Commission",
+      "service_name": "Database of Zeolite Structures and Disordered Zeolite Structures (restricted)",
+      "geographic_coverage": "Crystallographic framework types, not population geography",
+      "topical_coverage": "chemistry | materials | research",
+      "dataset_families": "Approved zeolite framework structures, reference materials, channel systems, powder patterns and NMR reference information",
+      "documentation_url": "https://www.iza-structure.org/databases/ | https://www.iza-structure.org/databases/DatabaseCredits.php",
+      "api_base_url": "",
+      "format_protocol": "HTML search and structural-file resources; public machine API unestablished",
+      "authentication": "Public documentation anonymous; dataset/API access not tested",
+      "free_access_restrictions": "Free private use including institutional/company research; sale or inclusion in commercially distributed package requires owner written consent",
+      "license": "Custom copyright-protected data terms restricting commercial redistribution",
+      "license_url": "https://www.iza-structure.org/databases/DatabaseCredits.php",
+      "api_verification_state": "restricted_portal_documented_public_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:30:45.286387+00:00",
       "classification": "restricted"
     },
     {
