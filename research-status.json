@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:02:48.990263+00:00",
+  "published_at": "2026-10-17T18:04:51.358599+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:02:41.808095+00:00",
+  "research_updated_at": "2026-10-17T18:04:09.698364+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BiGG current v3 NC, IE native OAI and DEG original hold checkpointed",
+  "latest_milestone": "Deakin hold, RDA canonical dedup and AVISO current distribution restrictions checkpointed",
   "counts": {
     "verified": 271,
     "candidates": 494,
-    "excluded": 89,
+    "excluded": 90,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -17975,6 +17975,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "aviso-authenticated-data-services",
+      "provider": "CNES / AVISO+",
+      "service_name": "AVISO+ authenticated THREDDS and altimetry data access services",
+      "geographic_coverage": "Global oceans and selected coastal, polar and inland-water altimetry products; scope varies by product",
+      "topical_coverage": "oceans | climate | water | environment | geospatial | research",
+      "dataset_families": "Sea surface heights, ocean currents, winds/waves, tide models, ice and ocean indicators; underlying source/product-specific terms retained",
+      "documentation_url": "https://www.aviso.altimetry.fr/en/data/data-access/thredds-data-server.html | https://www.aviso.altimetry.fr/en/data/data-access/ftp.html",
+      "api_base_url": "",
+      "format_protocol": "Documented THREDDS OPeNDAP, WMS, FileServer and NetCDF subset services; authenticated FTP separate distribution channel",
+      "authentication": "My AVISO+ account and subscription to each product required; FTP authenticated and folder access controlled",
+      "free_access_restrictions": "Royalty-free licence grant subject to redistribution conditions; exact product access costs unknown. No account/registration/product subscription performed.",
+      "license": "AVISO License Agreement Issue20 August2026; mass redistribution restriction and selected NC products",
+      "license_url": "https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso_ini.pdf | https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf",
+      "api_verification_state": "documented_authenticated_THREDDS_data_services_sample_untested",
+      "latest_checked_utc": "2026-10-17T18:04:05.635125+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "bahrain-data",
       "provider": "Bahrain Information and eGovernment Authority",
       "service_name": "Bahrain Open Data Portal Explore API",
@@ -19195,7 +19213,7 @@
       "license": "RDA Service Schedule for Metadata Consumers; item-specific permissions; prior written reuse agreement",
       "license_url": "https://documentation.ardc.edu.au/rda/research-data-australia-service-schedule-for-metad",
       "api_verification_state": "documented_REST_key_required_untested;prior_OAI_XML_Identify_evidence",
-      "latest_checked_utc": "2026-10-17T12:42:00.175472+00:00",
+      "latest_checked_utc": "2026-10-17T18:04:05.635125+00:00",
       "classification": "restricted"
     },
     {
