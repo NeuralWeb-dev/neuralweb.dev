@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T21:14:56.248036+00:00",
+  "published_at": "2026-10-17T21:16:58.815548+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:14:10.946713+00:00",
+  "research_updated_at": "2026-10-17T21:15:15.972661+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SAW original deduplicated, Wortschatz policy Anubis hold preserved; animal-sound interface rights unresolved and Digital Case restrictive source policy verified.",
+  "latest_milestone": "Six original discovery tasks reviewed in two batches; six distinct services added: one scoped-open, four candidates, one restricted. DNB/SAW provider deduplication preserved; native ScienceBase/VFB/DNB metadata samples and scoped reference indexes saved. Global discovery unfinished.",
   "counts": {
     "verified": 293,
     "candidates": 572,
@@ -156,7 +156,8 @@
           "seabass-sst-validation-api",
           "sesar-sample-metadata-api",
           "undata-official-sdmx-api",
-          "unsd"
+          "unsd",
+          "usgs-sciencebase-catalogue"
         ],
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
@@ -193,7 +194,8 @@
           "gpcc-precipitation-product-portal",
           "icdc-climate-thredds",
           "isimip-impact-repository",
-          "scripps-ogdc-data-portal"
+          "scripps-ogdc-data-portal",
+          "usgs-sciencebase-catalogue"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -216,6 +218,7 @@
           "openchargemap",
           "openei-urdb",
           "undata-official-sdmx-api",
+          "usgs-sciencebase-catalogue",
           "world-stress-map-oai"
         ],
         "restricted_provider_ids": [
@@ -267,6 +270,7 @@
         "verified_provider_ids": [
           "bonndata-published-metadata",
           "columbia-academic-commons-api",
+          "dnb-sru-oai-metadata",
           "doaj",
           "fdat-tuebingen-metadata-api",
           "kitopen-bibliographic-oai",
@@ -367,6 +371,7 @@
           "shom-data",
           "sioexplorer-legacy-cruise-archive",
           "trove-cultural-discovery-api",
+          "usgs-sciencebase-catalogue",
           "world-stress-map-oai",
           "worldpop-wopr"
         ],
@@ -403,6 +408,7 @@
       "law/civic": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "dnb-sru-oai-metadata",
           "geoboundaries"
         ],
         "candidate_provider_ids": [
@@ -441,7 +447,8 @@
           "litterbase-marine-litter-portal",
           "planetary-computer",
           "smithsonian",
-          "tritrypdb"
+          "tritrypdb",
+          "usgs-sciencebase-catalogue"
         ],
         "restricted_provider_ids": [
           "deims",
@@ -479,7 +486,8 @@
           "scripps-ogdc-data-portal",
           "seabass-sst-validation-api",
           "shom-data",
-          "sioexplorer-legacy-cruise-archive"
+          "sioexplorer-legacy-cruise-archive",
+          "usgs-sciencebase-catalogue"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -516,6 +524,7 @@
           "bnf-catalogue",
           "cleveland-art",
           "columbia-academic-commons-api",
+          "dnb-sru-oai-metadata",
           "fdat-tuebingen-metadata-api",
           "getty-provenance",
           "getty-vocabularies",
@@ -574,6 +583,7 @@
           "columbia-academic-commons-api",
           "crossref",
           "datacite",
+          "dnb-sru-oai-metadata",
           "doaj",
           "dryad",
           "earthbyte-gplates-web-service",
@@ -678,6 +688,7 @@
           "tritrypdb",
           "trove-cultural-discovery-api",
           "undata-official-sdmx-api",
+          "usgs-sciencebase-catalogue",
           "wellcome-collection",
           "world-stress-map-oai"
         ],
@@ -1816,6 +1827,7 @@
           "aragon-core",
           "aragon-sparql",
           "balearic-open-data",
+          "berlin-animal-sound-archive",
           "bern-geodata-catalog-api",
           "bexis-biodiversity-exploratories",
           "bologna-open-data",
@@ -2343,6 +2355,7 @@
           "ices-dome"
         ],
         "candidate_provider_ids": [
+          "berlin-animal-sound-archive",
           "bexis-biodiversity-exploratories",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
@@ -2525,6 +2538,7 @@
           "aland-statistics",
           "anfr-data",
           "bas-fcs",
+          "berlin-animal-sound-archive",
           "bexis-biodiversity-exploratories",
           "bonares-soil-agricultural-repository",
           "cessda-catalogue",
