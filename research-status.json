@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T22:14:10.514037+00:00",
+  "published_at": "2026-10-17T22:16:13.452632+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:11:44.648618+00:00",
+  "research_updated_at": "2026-10-17T22:15:35.530328+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed: four new records(two candidates,two restricted) and two existing-provider aliases. PRISM two native metadata responses verified; full open scope unresolved. Global universe unfinished.",
+  "latest_milestone": "OpenML nativeJSON/catalogue and exact46938CC0 source verified; DFOscientificAPI/licence unresolved; DepositOnceCC0metadata/OAI documented but AIpolicy/runtimeheld.",
   "counts": {
-    "verified": 303,
-    "candidates": 600,
+    "verified": 304,
+    "candidates": 602,
     "excluded": 143,
     "sample_successes": 474
   },
@@ -8243,6 +8243,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "openml-public-rest",
+      "provider": "OpenML community / Open Machine Learning",
+      "service_name": "OpenML public REST dataset metadata API",
+      "geographic_coverage": "International multidisciplinary machine-learning datasets and experiments; not a geographically representative all-world source inventory",
+      "topical_coverage": "research | education | machine learning",
+      "dataset_families": "Dataset descriptions/versions/qualities, benchmarks/tasks, flows and experiments; accepted source scope exactCC0dataset46938",
+      "documentation_url": "https://docs.openml.org/ecosystem/Rest/ | https://docs.openml.org/intro/terms/",
+      "api_base_url": "https://www.openml.org/api/v1/json/",
+      "format_protocol": "Native anonymous JSON descriptions61/46938 and paginated dataset metadata-list; XMLdefault also documented, source files unqueried",
+      "authentication": "Anonymous public metadata requests succeeded; no keys/accounts. Documentation notes login for some examples, not treated as universal requirement",
+      "free_access_restrictions": "Exact source licences vary; no fee/key required for tested metadata. Public label on61 not open grant. No paid/subscription access acquired",
+      "license": "Dataset46938 explicitly CC0: Public Domain; dataset61 licence field Public is ambiguous; official indexed platform terms describeCC-BY for empirical data/metadata",
+      "license_url": "https://www.openml.org/api/v1/json/data/46938 | https://www.openml.org/terms | https://docs.openml.org/intro/terms/",
+      "api_verification_state": "native_anonymous_JSON_dataset_descriptions_and_catalogue_verified_exact46938_CC0_declaration_scoped",
+      "latest_checked_utc": "2026-10-17T22:15:30.355567+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "openplz",
       "provider": "OpenPotato / STÜBER SYSTEMS GmbH",
       "service_name": "OpenPLZ street/postal/administrative-directory API",
@@ -11953,6 +11971,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "depositonce-tu-berlin",
+      "provider": "Technische Universität Berlin / Service Center for Research Data and Publications",
+      "service_name": "DepositOnce repository metadata interfaces",
+      "geographic_coverage": "TU Berlin research/publications and institution-led collaborations; dataset subjects may be international, not representative geographic coverage",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Research datasets/publications, theses, software and extendedDublinCore descriptive metadata",
+      "documentation_url": "https://depositonce.tu-berlin.de/info/help",
+      "api_base_url": "",
+      "format_protocol": "Nativehelp documents OAI-PMH/public metadata formats, no structured API sample obtained",
+      "authentication": "Public docs anonymous; publicationdeposit requires institutional registration; no credentials or deposits",
+      "free_access_restrictions": "Help says use free and metadataCC0; embargoed source files and source-selected licences distinct. Operator seeks to reduce automatedAIcontent access, retained as request hold",
+      "license": "Native metadata explicitly CC0; item-specific licences include InCopyright,CC variants and software licences",
+      "license_url": "https://depositonce.tu-berlin.de/info/help",
+      "api_verification_state": "native_CC0_metadata_grant_and_OAIexistence_documented_AIautomated_access_policy_hold_exactbase_runtime_unresolved",
+      "latest_checked_utc": "2026-10-17T22:15:30.355567+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "detroit-open-data",
       "provider": "City of Detroit",
       "service_name": "Detroit Open Data Hub OGC catalog",
@@ -12778,6 +12814,24 @@
       "license_url": "https://www.avoindata.fi/en/terms-of-use",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-17T09:06:04.589067+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "flood-observatory-colorado",
+      "provider": "DFO Flood Observatory / University of Colorado",
+      "service_name": "Flood Observatory satellite discharge and flood-record discovery portal",
+      "geographic_coverage": "International satellite-derived surface-water/discharge sites; native homepage reports335stations, not comprehensive global gauges",
+      "topical_coverage": "water | climate | environment | geospatial | research",
+      "dataset_families": "Satellite-derived discharge/flood observations, experimental gauging sites and flood records",
+      "documentation_url": "https://floodobservatory.colorado.edu/wiki/Main_Page | https://floodobservatory.colorado.edu/wiki/DischargeFromSpace_background",
+      "api_base_url": "",
+      "format_protocol": "Current2026redesigned wiki/interactive map not scientific API proof; no assumption generalMediaWikiAPI exports actual discharge data",
+      "authentication": "Public documentation anonymous; exact scientific API authentication unknown",
+      "free_access_restrictions": "Experimental data/no warranty notice not reuse licence; no paid access or accounts used",
+      "license": "unknown current native data/metadata/database licence; registryNC-SA4 not accepted as proof",
+      "license_url": "https://floodobservatory.colorado.edu/wiki/DFO_%E2%80%93_Flood_Observatory:General_disclaimer",
+      "api_verification_state": "native_current_home_and_technical_documentation_verified_linked_disclaimer404_scientific_API_and_licence_unresolved",
+      "latest_checked_utc": "2026-10-17T22:15:30.355567+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
