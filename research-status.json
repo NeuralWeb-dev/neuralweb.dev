@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:19:54.477191+00:00",
+  "published_at": "2026-10-17T17:21:56.926768+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:15:59.424186+00:00",
+  "research_updated_at": "2026-10-17T17:21:46.396085+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sevenoriginaltasksreviewed;TIGERsourcepublicdomain/native37services1987refs+Californiaverified,CNRTLnativecandidate,CoscineBearerandHellanicusrestrictedAtomadded",
+  "latest_milestone": "Environmental/social discovery: Landcare CKAN policy-held mixed licences; ComBase restricted; IA2 reference universe saved and SourceForge403 held",
   "counts": {
     "verified": 263,
-    "candidates": 482,
-    "excluded": 73,
+    "candidates": 484,
+    "excluded": 75,
     "sample_successes": 474
   },
   "remaining_work": [
@@ -11835,6 +11835,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "landcare-research-datastore",
+      "provider": "Manaaki Whenua - Landcare Research",
+      "service_name": "DataStore environmental research catalogue",
+      "geographic_coverage": "New Zealand environmental research; individual dataset geography varies",
+      "topical_coverage": "environment; biodiversity; agriculture; research",
+      "dataset_families": "Environmental research deposits, taxonomy, flora treatments and general research datasets",
+      "documentation_url": "https://datastore.landcareresearch.co.nz/about",
+      "api_base_url": "https://datastore.landcareresearch.co.nz/api/3/action/",
+      "format_protocol": "Provider publishes CKAN API documentation; action JSON interface runtime not tested",
+      "authentication": "Public website anonymous; API access not runtime verified; writes not attempted",
+      "free_access_restrictions": "Terms require individual dataset licence checks; no excessive traffic or unauthorized automated purpose. No account/key used.",
+      "license": "Mixed per-dataset licences; no blanket open grant",
+      "license_url": "https://datastore.landcareresearch.co.nz/terms_of_use",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-17T17:21:42.365566+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "las-vegas-open-data",
       "provider": "City of Las Vegas",
       "service_name": "Las Vegas public OGC Records catalog",
@@ -14748,6 +14766,24 @@
       "license_url": "https://data.gov.rs/terms",
       "api_verification_state": "official_catalog_api_resource_claims_original_host_html_only_docs404_untested",
       "latest_checked_utc": "2026-10-16T19:37:18.192849+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sesar-sample-metadata-api",
+      "provider": "System for Earth Sample Registration (SESAR)",
+      "service_name": "SESAR public sample metadata API",
+      "geographic_coverage": "Global Earth sample metadata; geographic filters documented",
+      "topical_coverage": "geospatial; environment; research",
+      "dataset_families": "Earth sample and specimen registrations, IGSN identifiers and public sample descriptions",
+      "documentation_url": "https://docs.geosamples.org/api/find-or-fetch-a-sample",
+      "api_base_url": "https://api.geosamples.org/api/",
+      "format_protocol": "REST JSON; GET public samples",
+      "authentication": "Published public samples: no token; private/draft/embargoed or owned scopes: JWT and view permission",
+      "free_access_restrictions": "Public published sample search documented without token; accounts and nonpublic scopes not accessed",
+      "license": "unknown current metadata reuse grant",
+      "license_url": "",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-17T17:21:04.356386+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17741,6 +17777,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "combase-food-microbiology",
+      "provider": "ComBase Partners: USDA Agricultural Research Service and University of Tasmania",
+      "service_name": "ComBase food microbiology data and predictive tools",
+      "geographic_coverage": "Food microbiology research from multiple establishments/publications; dataset-level locations unknown",
+      "topical_coverage": "agriculture; health; research",
+      "dataset_families": "Microbial growth/survival response curves; food pathogen predictive models",
+      "documentation_url": "https://combase.ars.usda.gov/Default.aspx",
+      "api_base_url": "",
+      "format_protocol": "HTML browser/models; data API unresolved",
+      "authentication": "Public landing page; further data access requirements unresolved",
+      "free_access_restrictions": "Nontransferable nonexclusive access/use; reproduction/distribution limited to personal, academic/scientific/private-study and internal-business purposes",
+      "license": "Custom restricted ComBase terms; not open licence",
+      "license_url": "https://combase.ars.usda.gov/Disclaimer.aspx",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T17:21:42.365566+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "copernicus-marine",
       "provider": "Copernicus Marine Service / Mercator Ocean International / European Union",
       "service_name": "Copernicus Marine Toolbox and CSW metadata services",
@@ -18260,6 +18314,24 @@
       "license_url": "https://microdata.nsanamibia.com/index.php/catalog/19",
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T01:35:44.608383+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "neps-survey-research-access",
+      "provider": "Leibniz Institute for Educational Trajectories (LIfBi)",
+      "service_name": "National Educational Panel Study (NEPS) research data portal",
+      "geographic_coverage": "Germany longitudinal education cohorts",
+      "topical_coverage": "education; demographics; research",
+      "dataset_families": "NEPS cohort survey scientific-use files, longitudinal educational trajectories and public documentation",
+      "documentation_url": "https://www.neps-data.de/Mainpage",
+      "api_base_url": "",
+      "format_protocol": "Public HTML documentation; survey data API unresolved",
+      "authentication": "Data-use agreement and approved researcher/project required for NEPS data; remote/on-site additional instruments",
+      "free_access_restrictions": "Scientific institutional eligibility, degree, approved project and duration; confidentiality, no reidentification and redistribution permission requirements",
+      "license": "Contractual research access; not open data",
+      "license_url": "https://www.neps-data.de/Data-Center/Data-Access/Data-Use-Agreements",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T17:21:04.356386+00:00",
       "classification": "restricted"
     },
     {
