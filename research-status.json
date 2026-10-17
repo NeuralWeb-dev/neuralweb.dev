@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T00:40:26.843702+00:00",
+  "published_at": "2026-10-17T00:42:29.202950+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:36:46.017416+00:00",
+  "research_updated_at": "2026-10-17T00:42:09.889477+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "4Pacificgeospatialcandidates added;actualNCGeoJSON/WMSXML,CookCSWXML75IDs9pagesCOMPLETE,FijiRESTrootJSON;ProvinceSud83metadata/Georep27IDGgroups;50938source-origin tasks globalreviewunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "OfficialIDG3services reviewed;NoumeaselectedQuartiersOL2,ANFRtermsconflict/Shomaccesscandidate",
   "counts": {
-    "verified": 152,
-    "candidates": 203,
+    "verified": 153,
+    "candidates": 205,
     "excluded": 26,
     "sample_successes": 194
   },
@@ -4398,6 +4398,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "noumea-data",
+      "provider": "Ville de Noumea / City of Noumea, New Caledonia",
+      "service_name": "Noumea Data municipal ArcGIS Hub portal and published geospatial services",
+      "geographic_coverage": "Oceania; Pacific; New Caledonia; Noumea municipality,includingmunicipalislands/islets forselectedQuartiers layer",
+      "topical_coverage": "geospatial; demographics",
+      "dataset_families": "ScopedverifiedQuartiers item:officialmunicipalneighborhood/islandgeography anddocumentedaggregatepopulationattributes1989..2019. Catalogue25publicitems:20FeatureServices,3HubPages,2WebMaps;otherfamilies/rightsnotacceptedwholesale.",
+      "documentation_url": "https://data.noumea.nc | https://developers.arcgis.com/rest/users-groups-and-items/item/ | https://developers.arcgis.com/rest/users-groups-and-items/search/",
+      "api_base_url": "https://www.arcgis.com/sharing/rest/ (publicNoumeaportal/catalogueitems) | https://services6.arcgis.com/dIDU3ttIicDWLftk/arcgis/rest/services/Quartier_OD/FeatureServer (publisheddataAPI,policy-deferred)",
+      "format_protocol": "ActualArcGISSharingRESTitem/search JSON;publicHTMLcontainsURLencodedJSONsiteconfigurationparsedwithoutJSexecution. Nativecatalogue linksFeatureServerdatainterface;no featureserviceJSON/data sample.",
+      "authentication": "Selectedpublicsite/itemmetadataandcataloguesearchanonymous200. FeatureServertargetnotrequestedbecauseoriginalhostrobotspolicy;actualdataauthunknown. Noaccount/key/token.",
+      "free_access_restrictions": "SelectedpublicSharingRESTmetadata/cataloguefree/noaccount. QuartiersOL2reusefree;FeatureServerruntime/free-tier unverified. Otheritemsincludeinternaluse/noncommercial-nomodificationrestrictions,notuniformlyopen.",
+      "license": "LicenceOuverteEtalab2.0verifiedselectedQuartiersitemonly",
+      "license_url": "https://www.arcgis.com/sharing/rest/content/items/33f91ef1da014808b5375c0be0b92141?f=json+%7C+https%3A%2F%2Fwww.etalab.gouv.fr%2Fwp-content%2Fuploads%2F2017%2F04%2FETALAB-Licence-Ouverte-v2.0.pdf+%7C+https%3A%2F%2Fraw.githubusercontent.com%2Fetalab%2Flicence-ouverte%2Fmaster%2FLO.md",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:42:09.799127+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "obis",
       "provider": "Ocean Biodiversity Information System",
       "service_name": "Ocean Biodiversity Information System API",
@@ -5765,6 +5783,24 @@
       "license_url": "https://www.asub.ax/sv/om-asub/om-asubax/anvandarvillkor",
       "api_verification_state": "sample_success_metadata_api_license_scope_unconfirmed",
       "latest_checked_utc": "2026-10-16T20:56:55.221142+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "anfr-data",
+      "provider": "Agence nationale des frequences / ANFR",
+      "service_name": "ANFR Open Data / Data4Citizen API",
+      "geographic_coverage": "Europe; France;exactterritorialextent of all ninefamilies notindependentlyvalidated",
+      "topical_coverage": "geospatial; research",
+      "dataset_families": "9nativecatalogue entries:mobile radio installations,deviceDAS,radioamateurs,OpenBarres,over5watt installations,radiomaritime,autonomous probes,mobile observatory,communicating-meter measurements. Not9providers;noamateur/personrecord queries.",
+      "documentation_url": "https://data.anfr.fr/api",
+      "api_base_url": "https://data.anfr.fr/d4c/api/",
+      "format_protocol": "Data4Citizen publisheddatasets/records1.0andCKAN-compatible2.0interfaces. Actual2.0catalogueJSON success/result/count/results. Otherinterfaces documented/untested.",
+      "authentication": "Selectedpubliccatalogue anonymous200;otherresources/privateaccess requireappropriaterights perdocs;noaccount/key/privatequery",
+      "free_access_restrictions": "Publiccataloguefree/noaccount. Legalnotice restrictsmodification/advertising andrequiresfree redistribution;selecteddatasetOL2conflicts unresolved. No paidacquisition.",
+      "license": "Selectedmobile dataset and9nativecataloguelabels OL2;conflicting blanketlegalnotice,operativeprecedenceunresolved",
+      "license_url": "https://data.anfr.fr/explore/dataset/observatoire_2g_3g_4g/ | https://data.anfr.fr/mentions_legales | https://data.anfr.fr/politique-open-data",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:42:09.414095+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8825,6 +8861,24 @@
       "license_url": "https://sfwmd.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3A7780e9cd-e425-4f59-a3de-ed5fb3475f3c | https://sfwmd.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3A0e3b0bb9-b204-4e10-bbd9-a638e0d4adab",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:51.920762+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "shom-data",
+      "provider": "Shom / French hydrographic and oceanographic service",
+      "service_name": "data.shom.fr INSPIRE geospatial services",
+      "geographic_coverage": "Europe; French metropolitan and overseas exclusive economic zones for selectedReglementation-Navigation product;notworldwideproductcoverage",
+      "topical_coverage": "oceans; geospatial; transportation; law/civic data",
+      "dataset_families": "SelectedReglementation-Navigation17objectclasses,June2021edition perofficialproductpage. WMSsnapshot53namedlayers/54includingunnamedroot acrossmaritimeboundaries,bathymetry,surveys,tides,sediment,geophysics etc;notall53rights-cleared.",
+      "documentation_url": "https://diffusion.shom.fr/donnees/base-de-donnees-maritimes-et-littorales/reglementation-navigation.html",
+      "api_base_url": "https://services.data.shom.fr/INSPIRE/wms/v | https://services.data.shom.fr/INSPIRE/wmts | https://services.data.shom.fr/INSPIRE/wfs",
+      "format_protocol": "ActualWMS1.3.0capabilitiesXML;selectedlayerREGLEMENTATION_NAVIGATION_BDD_WMSV present. WMTS/WFSofficiallylinkedbutuntested.",
+      "authentication": "SelectedWMScapabilities anonymous200;native Fees/AccessConstraints both Soumis a abonnement. Actualfeature/map access andfree-eligibility unknown;noaccount/token/subscriptionobtained.",
+      "free_access_restrictions": "Anonymouscapabilitiesmetadatafree;serviceadvertises subscriptionconditions. Productpage saysfreeOpenData butgenericcart commercial-licencewarning. Current2026termsseparateopenproductsfrompaid/internallicences;freeAPIqueryeligibilitynotestablished,nopaidacquisition.",
+      "license": "OL2 explicitlyverifiedforselectedReglementation-Navigation product;broaderAPI/freeaccess eligibility unresolved",
+      "license_url": "https://diffusion.shom.fr/donnees/base-de-donnees-maritimes-et-littorales/reglementation-navigation.html | https://diffusion.shom.fr/Licences | https://diffusion.shom.fr/media/wysiwyg/licence/Document_RIP_2026-VF.pdf",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:42:09.611218+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
