@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T00:05:43.836174+00:00",
+  "published_at": "2026-10-17T00:07:46.342470+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:02:18.427369+00:00",
+  "research_updated_at": "2026-10-17T00:07:32.592135+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "3scopedopenAPIservices/4candidates/1restricted added thiscontinuation;Lithuania236namespace snapshot COMPLETE19942table names/0duplicatekeys;Gulf6seedrootoutcomescomplete;Estonia/GeorgiaEnglishdirectoryfrontiers ongoing;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Pacificnationalstatistics officialAPIconfig/actualSamoametadata;rights unresolved",
   "counts": {
     "verified": 151,
-    "candidates": 197,
+    "candidates": 199,
     "excluded": 26,
     "sample_successes": 189
   },
@@ -6526,6 +6526,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "fiji-statistics",
+      "provider": "Fiji Bureau of Statistics / FBOS",
+      "service_name": "FBOS Data Explorer national SDMX dissemination API",
+      "geographic_coverage": "Oceania; Pacific; Fiji",
+      "topical_coverage": "demographics; economics/finance; labor; public spending/contracts; transportation",
+      "dataset_families": "Officialexplorer topics:balanceofpayments,internationaltrade,nationalaccounts,prices,poverty,tourism/migration. API currentflowcount notenumerated.",
+      "documentation_url": "https://data.statsfiji.gov.fj/",
+      "api_base_url": "https://data-sdmx-disseminate.statsfiji.gov.fj/rest/",
+      "format_protocol": "Published publicdissemination RESTbase and /rest/v2 inofficialfrontendconfiguration. SamoaobservedSDMX-JSONstructure-message meta/data envelope;FijiselectedSDMXrequestreturnedHTTP500,notstructure/data success. Noindependentprotocolconformancevalidation.",
+      "authentication": "AnonymousmetadataattemptreturnedHTTP500;actualauth/free-tier unconfirmed",
+      "free_access_restrictions": "Publicfrontend200/noaccount. Datasetreuse andotherdataresources/free-tierrestrictions unknown;no accounts/keys/paiddata.",
+      "license": "unknown;no operative national statistical API data grant verified",
+      "license_url": "https://www.statsfiji.gov.fj/terms-of-use/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:07:32.509851+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "finland",
       "provider": "Finnish government avoindata.fi",
       "service_name": "Finnish government avoindata.fi open data portal",
@@ -8539,6 +8557,24 @@
       "license_url": "https://www.fedstat.ru/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.934253+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "samoa-statistics",
+      "provider": "Samoa Bureau of Statistics / SBS",
+      "service_name": "Samoa Stats Portal national SDMX dissemination API",
+      "geographic_coverage": "Oceania; Pacific; Samoa",
+      "topical_coverage": "demographics; economics/finance; labor; public spending/contracts; transportation",
+      "dataset_families": "41native dataflow references:consumerpriceindex,employment,governmentfinance,internationalmerchandisetrade,annual/quarterlynationalaccounts. Not41independentproviders.",
+      "documentation_url": "https://www.sbs.gov.ws/ssp/ | https://data.sbs.gov.ws/",
+      "api_base_url": "https://data-sdmx-disseminate.sbs.gov.ws/rest/",
+      "format_protocol": "Published publicdissemination RESTbase and /rest/v2 inofficialfrontendconfiguration. SamoaobservedSDMX-JSONstructure-message meta/data envelope;FijiselectedSDMXrequestreturnedHTTP500,notstructure/data success. Noindependentprotocolconformancevalidation.",
+      "authentication": "Samoaselectedmetadataanonymous200withoutcredentials;dataqueryauthunknown",
+      "free_access_restrictions": "Publicfrontend200/noaccount. Datasetreuse andotherdataresources/free-tierrestrictions unknown;no accounts/keys/paiddata.",
+      "license": "unknown;no operative national statistical API data grant verified",
+      "license_url": "https://www.sbs.gov.ws/ssp/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:07:32.328688+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
