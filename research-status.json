@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T01:29:25.610711+00:00",
+  "published_at": "2026-10-17T01:31:27.984460+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:27:02.016891+00:00",
+  "research_updated_at": "2026-10-17T01:29:57.378357+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Africa institutional-network batch started: independent AfDB Kenya SDMX Swagger and WASCAL legacy GeoNetwork/operative DSP, no original access bypass.",
+  "latest_milestone": "AfDB-hosted Kenya SDMX actual API/dataflow metadata verified, licensing unresolved",
   "counts": {
     "verified": 156,
-    "candidates": 210,
+    "candidates": 211,
     "excluded": 27,
     "sample_successes": 203
   },
@@ -5869,6 +5869,24 @@
       "license_url": "https://www.afdb.org/en/disclaimer-and-copyright",
       "api_verification_state": "current_documentation_policy_deferred_api_rights_unresolved",
       "latest_checked_utc": "2026-10-16T20:26:00.729570+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "afdb-kenya-sdmx",
+      "provider": "African Development Bank-hosted Kenya SDMX service (native agency KE1)",
+      "service_name": "Kenya SDMX NSI REST service",
+      "geographic_coverage": "Kenya; exact native series geography and time ranges not queried",
+      "topical_coverage": "demographics; economics/finance; labor; agriculture; education; health; public spending/contracts; transportation; energy; water; housing",
+      "dataset_families": "340 native KE1 dataflow stubs, including procurement AGPO, agricultural production/prices, national statistics; detailed observation coverage unqueried. Native titles recorded in separate index.",
+      "documentation_url": "https://ke.sdmx.afdb.org/ns-ws/swagger/index.html?urls.primaryName=v1+%7C+https%3A%2F%2Fke.sdmx.afdb.org%2Fns-ws%2Fswagger%2Fv1%2Fswagger.json",
+      "api_base_url": "https://ke.sdmx.afdb.org/ns-ws/rest/",
+      "format_protocol": "SDMX2.1 structure XML; OpenAPI3 metadata; further formats depend on operation/Accept",
+      "authentication": "No credentials required for successful documentation and dataflow metadata GET; other operations untested",
+      "free_access_restrictions": "Anonymous sampled metadata; no paid acquisition/account/key. Open data copyright grant, full service conditions and observation-query restrictions unknown.",
+      "license": "unknown; published OpenAPI describes SDMX protocol, not a data licence",
+      "license_url": "",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T01:29:57.266893+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
