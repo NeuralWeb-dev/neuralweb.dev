@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T18:17:06.338867+00:00",
+  "published_at": "2026-10-17T18:19:09.276365+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:16:11.649018+00:00",
+  "research_updated_at": "2026-10-17T18:18:51.259961+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EVA1103native study IDs, MissouriMapServer native metadata and INDI scoped restrictions checkpointed",
+  "latest_milestone": "Six original tasks reviewed; five records added, UniProt family aliases deduplicated; EVA1103study IDs and ERS77native service references indexed with scoped rights gaps",
   "counts": {
     "verified": 271,
-    "candidates": 498,
+    "candidates": 500,
     "excluded": 93,
     "sample_successes": 476
   },
@@ -592,6 +592,8 @@
           "california-open-data",
           "edmonton-open-data",
           "texas-state-open-data",
+          "usda-ers-arms-api",
+          "usda-ers-geospatial-services",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -630,6 +632,7 @@
           "dol-public-data-api",
           "edmonton-open-data",
           "texas-state-open-data",
+          "usda-ers-arms-api",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -651,6 +654,8 @@
           "montana-state-library-gis-services",
           "ontario-data-catalog",
           "oregon-open-data",
+          "usda-ers-arms-api",
+          "usda-ers-geospatial-services",
           "usda-nass"
         ],
         "restricted_provider_ids": [
@@ -717,6 +722,7 @@
           "burlington-navigate",
           "calhhs-open-data",
           "hawaii-open-data-catalogue",
+          "missouri-dnr-geology-portal",
           "north-okanagan-gis-open-data",
           "polar-data-catalogue-metadata-api",
           "whitehorse-restricted-data-portal"
@@ -754,6 +760,7 @@
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace",
+          "missouri-dnr-geology-portal",
           "polar-data-catalogue-metadata-api",
           "whitehorse-restricted-data-portal"
         ]
@@ -796,6 +803,7 @@
           "opendataphilly-jkan",
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
+          "usda-ers-geospatial-services",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -853,6 +861,7 @@
           "registry-gisdata-mn-gov",
           "surrey-open-data-map-service",
           "toronto-open-data-catalog-api",
+          "usda-ers-geospatial-services",
           "welland-open-data-planning-api"
         ],
         "restricted_provider_ids": [
@@ -958,6 +967,7 @@
           "surrey-open-data-map-service",
           "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
+          "usda-ers-geospatial-services",
           "vernon-public-geospatial-api",
           "washington-state-geospatial-portal",
           "waterloo-city-open-data",
@@ -972,6 +982,7 @@
           "hawaii-open-data-catalogue",
           "idaho-taxing-district-gis",
           "mississauga-open-data",
+          "missouri-dnr-geology-portal",
           "north-okanagan-gis-open-data",
           "polar-data-catalogue-metadata-api",
           "whitehorse-restricted-data-portal"
@@ -1102,6 +1113,8 @@
           "opendataphilly-jkan",
           "oregon-open-data",
           "smithsonian",
+          "usda-ers-arms-api",
+          "usda-ers-geospatial-services",
           "usda-nass"
         ],
         "restricted_provider_ids": [
@@ -8562,7 +8575,7 @@
       "service_name": "UniProt Consortium API",
       "geographic_coverage": "Global",
       "topical_coverage": "research; health; biodiversity",
-      "dataset_families": "Proteins; taxonomy; function annotations",
+      "dataset_families": "Proteins; taxonomy; function annotations; UniParc protein archive and UniRef100/90/50 sequence-cluster families retained under same provider",
       "documentation_url": "https://www.uniprot.org/help/api",
       "api_base_url": "https://rest.uniprot.org/",
       "format_protocol": "REST/JSON",
@@ -8571,7 +8584,7 @@
       "license": "CC BY 4.0",
       "license_url": "https://rest.uniprot.org/help/license?format=json",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:41:04.944817+00:00",
+      "latest_checked_utc": "2026-10-17T18:17:50.975019+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16242,6 +16255,42 @@
       "license_url": "https://www.usaspending.gov/about",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T20:43:19.791507+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usda-ers-arms-api",
+      "provider": "USDA Economic Research Service",
+      "service_name": "ARMS survey data REST/GraphQL API",
+      "geographic_coverage": "United States; national/state farm and operator household survey statistics",
+      "topical_coverage": "agriculture | economics | labor | finance | demographics",
+      "dataset_families": "Agricultural Resource Management Survey farm financial/production/household measures; states, years, reports and variable metadata",
+      "documentation_url": "https://www.ers.usda.gov/developer/data-apis/arms-data-api",
+      "api_base_url": "https://api.ers.usda.gov/data/",
+      "format_protocol": "REST GET/POST JSON, OPTIONS schema; GraphQL also documented",
+      "authentication": "Free api.data.gov key via registration mandatory; no key/account requested",
+      "free_access_restrictions": "Official docs describe free API key, no subscription purchased. Key required so sample untested.",
+      "license": "ERS API use terms permit search/display/analyze/retrieve; full data/source redistribution grant unconfirmed",
+      "license_url": "https://www.ers.usda.gov/developer/api-terms-of-service",
+      "api_verification_state": "documented_API_key_required_sample_untested_effective_data_grant_unconfirmed",
+      "latest_checked_utc": "2026-10-17T18:17:50.975019+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usda-ers-geospatial-services",
+      "provider": "USDA Economic Research Service",
+      "service_name": "ERS public ArcGIS map/feature services",
+      "geographic_coverage": "United States; county/state food access and rural measures, source-dependent extent",
+      "topical_coverage": "agriculture | housing | demographics | health | economics | geospatial",
+      "dataset_families": "Food Environment Atlas, Food Access Research Atlas, Rural and Small-Town America and reference boundaries",
+      "documentation_url": "https://www.ers.usda.gov/developer/geospatial-apis",
+      "api_base_url": "https://gisportal.ers.usda.gov/server/rest/services",
+      "format_protocol": "ArcGIS REST JSON; MapServer/FeatureServer service metadata; SOAP documented",
+      "authentication": "Anonymous native service directory requests succeeded; no key used",
+      "free_access_restrictions": "Public GIS directory accessible anonymously; separate ARMS key requirement not transferred. Individual source/layer terms unresolved.",
+      "license": "Effective source/layer data rights unconfirmed; ERS API terms and individual metadata may apply",
+      "license_url": "https://www.ers.usda.gov/developer/api-terms-of-service",
+      "api_verification_state": "native_anonymous_JSON_selected_public_data_catalogue_verified_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T18:17:50.975019+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
