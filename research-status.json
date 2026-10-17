@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T00:50:39.389106+00:00",
+  "published_at": "2026-10-17T00:52:42.056760+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:48:36.575860+00:00",
+  "research_updated_at": "2026-10-17T00:51:13.069645+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Pacificfollowup:OPT4publicFeatureServicecataloguesnapshot;PCCOS16detailoutcomesinprogress/TuvaluNonCommercial;GeoNCmixedsourcesAPIunconfirmed",
+  "latest_milestone": "PacificoriginalOPTcandidate/PCCOSmixedTHREDDS_NCsourceandpolicycandidate",
   "counts": {
     "verified": 153,
-    "candidates": 205,
-    "excluded": 26,
+    "candidates": 207,
+    "excluded": 27,
     "sample_successes": 197
   },
   "remaining_work": [
@@ -7923,6 +7923,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "opt-nc-data",
+      "provider": "Office des Postes et Telecommunications de Nouvelle-Caledonie / OPT-NC",
+      "service_name": "OPT-NC Open Data municipal/territorial GIS portal",
+      "geographic_coverage": "Oceania; Pacific; New Caledonia;selectedmobilecoverage publisherdescribesNewCaledoniaterritory",
+      "topical_coverage": "geospatial; transportation",
+      "dataset_families": "Publishedgroup4FeatureServices:Agences,CouvertureMobile,DeploiementFibre,BoitesauxlettresOPT-NC. Not4providers;noindividualaddress/customerrecordsqueried.",
+      "documentation_url": "https://maps.opendata.opt.nc/ | https://developers.arcgis.com/rest/users-groups-and-items/item/ | https://developers.arcgis.com/rest/users-groups-and-items/search/",
+      "api_base_url": "https://www.arcgis.com/sharing/rest/ (OPTpublicitems/catalogue) | https://services6.arcgis.com/k3ZIRnRpeM4Ht4fG/arcgis/rest/services/CouvertureMobile/FeatureServer (published,policy-deferred)",
+      "format_protocol": "ActualSharingRESTsite/item/catalogueJSON;publishedFeatureServerdatainterfaceuntestedbecauseoriginalrobots;publicHubconfigparsedwithoutJS.",
+      "authentication": "PublicSharingRESTmetadataanonymous200. PublishedFeatureServeroriginalpolicydeferredbeforetarget;dataauthunknown,noaccount/token.",
+      "free_access_restrictions": "Selectedcatalogue/itemmetadatafree/noaccount. Fullreturneddatareuse/freeAPIeligibilityunconfirmed. SourceHubrobots60seccrawldelayrespectedonpriorrootfetch;noadditionalHubrootrequests.",
+      "license": "LicenceOuverte/OpenLicence,unversionedunlinkednativeCouvertureMobilelabel;othersblank",
+      "license_url": "https://www.arcgis.com/sharing/rest/content/items/38c9763501b34a0fba20d54555f15ac2?f=json",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:51:12.612716+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "pacific-data",
       "provider": "Pacific Community Pacific Data Hub",
       "service_name": "Pacific Data Hub CKAN Data Catalogue API",
@@ -8967,6 +8985,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "spc-pccos-tds",
+      "provider": "Pacific Community / SPC PCCOS and attributedupstream modelproviders",
+      "service_name": "PCCOS tds.pacificdata.org THREDDS catalogue/services",
+      "geographic_coverage": "Oceania; Pacific;primarycataloguedescribesPacificextractionsandregionalfish/oceanmodels;notuniformwholeworldcoverage",
+      "topical_coverage": "oceans; climate/weather/environment; biodiversity; agriculture; research",
+      "dataset_families": "PublishedPCCOSlinks:Mercator/CMEMSGLORYS,BOM/AUSWAVEregional/global,HYCOM,MFWAM,SEAPODYMquarterdegree/twodegreehindcast/projection,WCPFCaggregatepurseseinecatch/effort. Fullcontent/rightsnotverified.",
+      "documentation_url": "https://pccos.spc.int/ocean-catalogue | https://pccos.spc.int/ocean-catalogue/bomauswave-regional-ocean-waves-forecast",
+      "api_base_url": "https://tds.pacificdata.org/thredds/",
+      "format_protocol": "OfficialproviderlinkedTHREDDScataloguepaths;protocolsfromthisinstancenotruntimeconfirmed;do nottransfernoumahi-mahiserviceconfig.",
+      "authentication": "ActualAPI/catalogueauthunknown;originalrobotsinaccessible,targetnotsent. Noaccounts/keys/alternatehostprobe.",
+      "free_access_restrictions": "PCCOSHTMLmetadatafree/public;tdsactualAPI/datafreetier/accessunknown. Model/sourcegrants/versionsexceptionsunreviewed,no paidacquisition.",
+      "license": "MixednativeCCAttribution(unversioned),OtherPublicDomain,OtherOpen,missinglabels;operativeupstreamgrantsnotreviewed",
+      "license_url": "https://pccos.spc.int/ocean-catalogue/bomauswave-regional-ocean-waves-forecast | https://pccos.spc.int/ocean-catalogue/hycom-global-ocean-model-forecast | https://pccos.spc.int/ocean-catalogue/public-domain-aggregated-catcheffort-data-purse-seine-data-1deg-x-1deg-monthly",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:51:12.982608+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sri-lanka",
       "provider": "Sri Lanka Department of Census and Statistics",
       "service_name": "Sri Lanka Department of Census and Statistics open data API",
@@ -9848,6 +9884,24 @@
       "license_url": "https://data.bs.ch/terms/terms-and-conditions/ | https://data.bs.ch/explore/dataset/100189/information/",
       "api_verification_state": "historical_catalog_metadata_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:33:40.805266+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "spc-pccos-thredds",
+      "provider": "Pacific Community / SPC PCCOS",
+      "service_name": "PCCOS noumahi-mahi THREDDS services",
+      "geographic_coverage": "Oceania; Pacific;selectedTuvalu/MarshallIslandswavehindcasts;otherpublishednoumahi-mahireferencesincludeSolomonIslands/SeaandKiritimati",
+      "topical_coverage": "oceans; climate/weather/environment; geospatial; research",
+      "dataset_families": "SelectedTuvaluSWANwavehindcast:557nativeNetCDFfilereferences,2unsearchedsubcatalogues. PCCOS16detailssnapshotlinksdistinctnoumahi-mahiandtdsinstances;not16providers. Othernoumahicirculation/hindcastfamilies notfullrightsreviewed.",
+      "documentation_url": "https://pccos.spc.int/ocean-catalogue/tuvalu-wave-hindcast | https://noumahi-mahi.spc.int/thredds/catalog/POP/SWAN_TUVALU/catalog.html | https://docs.unidata.ucar.edu/tds/current/userguide/basic_config_catalog.html",
+      "api_base_url": "https://noumahi-mahi.spc.int/thredds/",
+      "format_protocol": "ActualTHREDDSInvCatalogv1XML;nativecompoundserviceadvertisesOPeNDAP,DAP4,WCS,WMS,NCSS,CdmRemote,ISO,NCML,UDDC,andHTTPfiles. OnlycatalogueXMLtested;HTTPfilenamesalone notAPIproof.",
+      "authentication": "SelectedHTML/XMLcataloguemetadataanonymous200. Actualdatasubsetting/OPeNDAP/OGCauthunknown;notqueried.",
+      "free_access_restrictions": "Publicmetadatafree;selectedTuvaluandMarshallIslandsprimarypagesexplicitOtherNonCommercial. VeryheavyTuvaludatasetwarning/timeplotdisabled;no bulk data/download/timeseries/map requests.",
+      "license": "ExplicitOther(Non-Commercial) forTuvaluandMarshallIslands;otherfamiliescustomOther(Open)labelswithoperativegrantsunknown",
+      "license_url": "https://pccos.spc.int/ocean-catalogue/tuvalu-wave-hindcast | https://pccos.spc.int/ocean-catalogue/marshall-islands-wave-hindcast",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:51:12.798895+00:00",
       "classification": "restricted"
     },
     {
