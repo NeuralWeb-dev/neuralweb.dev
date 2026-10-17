@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:38:19.590837+00:00",
+  "published_at": "2026-10-17T17:40:22.177756+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:37:25.746831+00:00",
+  "research_updated_at": "2026-10-17T17:39:46.508367+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Regional science: OceanRepnonprofitOAIrestricted/held; DEIMScurrentNCterms/specdedup; ISG280modelrefs indexed",
+  "latest_milestone": "Nine originaltasksreviewed; Figshare.commetadataCC0scopepromoted, five distinctrecordsadded; PDCnativeJSONLD,ISG280refs andDEIMS7specoperations saved",
   "counts": {
-    "verified": 263,
+    "verified": 264,
     "candidates": 487,
-    "excluded": 81,
+    "excluded": 82,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -121,6 +121,7 @@
           "csiro-data-access-portal",
           "dataone",
           "dataterra-eosc-resource-catalogue",
+          "deadtrees-earth-api",
           "esa-ecology",
           "hdx",
           "hycom",
@@ -140,6 +141,7 @@
           "copernicus-marine",
           "deims",
           "fao",
+          "oceanrep-oai-metadata",
           "open-meteo",
           "openaq"
         ]
@@ -283,6 +285,7 @@
           "copernicus-stac",
           "dataone",
           "dataterra-eosc-resource-catalogue",
+          "deadtrees-earth-api",
           "mit-timdex",
           "nsidc",
           "planetary-computer",
@@ -347,6 +350,7 @@
           "csiro-data-access-portal",
           "dataone",
           "dataterra-eosc-resource-catalogue",
+          "deadtrees-earth-api",
           "ena",
           "esa-ecology",
           "idigbio",
@@ -385,6 +389,7 @@
         ],
         "restricted_provider_ids": [
           "copernicus-marine",
+          "oceanrep-oai-metadata",
           "worms"
         ]
       },
@@ -460,6 +465,7 @@
           "doaj",
           "dryad",
           "esgf-cmip5-discovery",
+          "figshare",
           "gavo",
           "geoboundaries",
           "geri",
@@ -501,10 +507,10 @@
           "datahub-legacy-catalog-api",
           "dataone",
           "dataterra-eosc-resource-catalogue",
+          "deadtrees-earth-api",
           "ena",
           "esa-ecology",
           "europepmc",
-          "figshare",
           "getty-museum",
           "gwas-catalog",
           "huggingface-dataset-hub",
@@ -538,6 +544,7 @@
           "ghdx-ihme-discovery",
           "harvard-dataverse",
           "ipd-immunopolymorphism-api",
+          "oceanrep-oai-metadata",
           "orcid",
           "phi-base-api",
           "un-comtrade"
@@ -686,6 +693,7 @@
           "calhhs-open-data",
           "hawaii-open-data-catalogue",
           "north-okanagan-gis-open-data",
+          "polar-data-catalogue-metadata-api",
           "whitehorse-restricted-data-portal"
         ]
       },
@@ -721,6 +729,7 @@
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace",
+          "polar-data-catalogue-metadata-api",
           "whitehorse-restricted-data-portal"
         ]
       },
@@ -767,7 +776,8 @@
         "restricted_provider_ids": [
           "calhhs-open-data",
           "colorado-information-marketplace",
-          "hawaii-open-data-catalogue"
+          "hawaii-open-data-catalogue",
+          "polar-data-catalogue-metadata-api"
         ]
       },
       "education": {
@@ -937,6 +947,7 @@
           "idaho-taxing-district-gis",
           "mississauga-open-data",
           "north-okanagan-gis-open-data",
+          "polar-data-catalogue-metadata-api",
           "whitehorse-restricted-data-portal"
         ]
       },
@@ -1026,7 +1037,9 @@
           "goa-ecology",
           "neracoos-erddap"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       },
       "astronomy": {
         "status": "unsearched",
@@ -1102,7 +1115,9 @@
           "smithsonian",
           "us-data-gov-catalog"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       }
     },
     "Latin America/Caribbean": {
@@ -3738,7 +3753,9 @@
           "aadc-weather",
           "nsidc"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       },
       "water": {
         "status": "partial_verified",
@@ -3748,7 +3765,9 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       },
       "energy": {
         "status": "partial_verified",
@@ -3764,7 +3783,9 @@
           "greenland-statistics"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       },
       "education": {
         "status": "partial_verified",
@@ -3801,7 +3822,9 @@
           "aadc-metadata",
           "nsidc"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       },
       "public spending/contracts": {
         "status": "partial_verified",
@@ -3843,7 +3866,9 @@
           "pangaea"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       },
       "astronomy": {
         "status": "unsearched",
@@ -3869,7 +3894,9 @@
         "candidate_provider_ids": [
           "aadc-metadata"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "polar-data-catalogue-metadata-api"
+        ]
       }
     },
     "Central Asia": {
@@ -5628,6 +5655,24 @@
       "license_url": "https://www.hagstova.fo/fo/nytslutreytir",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
       "latest_checked_utc": "2026-10-16T21:00:38.988407+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "figshare",
+      "provider": "Figshare",
+      "service_name": "Figshare public API: Figshare.com-published descriptive metadata subset",
+      "geographic_coverage": "Global",
+      "topical_coverage": "research",
+      "dataset_families": "Research-output descriptions:datasets,publications,media and metadata; accepted scope only Figshare.com-published publicmetadata. Institutional/client repositories and all files require separate rights checks.",
+      "documentation_url": "https://info.figshare.com/user-guide/how-to-use-the-figshare-api/ | https://docs.figshare.com/",
+      "api_base_url": "https://api.figshare.com/v2/",
+      "format_protocol": "REST/JSON or XML as documented",
+      "authentication": "HistoricalsmallpublicJSONread succeededwithoutkey; currentproviderAPIguide describes publicmetadata methods. No newnativequeryafterAdelaide/rootlegalpolicyholds; private/writes/tokenmethodsunused.",
+      "free_access_restrictions": "Publiclypublishedcontent policy no login; bulkAPI/mining dependsauthorlicence. Metadata CC0scope independent ofperfilelicences/clientoverrides; no paiddata/key/account.",
+      "license": "CC0 1.0 Universal for metadata published by Figshare.com; client repositories may override",
+      "license_url": "https://info.figshare.com/user-guide/figshare-policies/ | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "historical_native_sample_success_current_public_API_docs_and_scoped_CC0_metadata_grant_verified_current_terms_endpoint_policy_held",
+      "latest_checked_utc": "2026-10-17T17:38:43.804312+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10385,6 +10430,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "deadtrees-earth-api",
+      "provider": "deadtrees.earth / Deadwood-ai",
+      "service_name": "deadtrees.earth forest aerial-imagery API",
+      "geographic_coverage": "Contributed georeferenced forest aerialimagery; globalplatform ambition, actualobservationcoverage unenumerated",
+      "topical_coverage": "biodiversity; environment; geospatial; research",
+      "dataset_families": "Forestorthophotos,deadwood/treecover segmentation labels,geospatialmetadata and COGproducts; public/private access modes",
+      "documentation_url": "https://github.com/Deadwood-ai/deadtrees | https://github.com/Deadwood-ai/deadtrees/blob/main/upload_guide.md",
+      "api_base_url": "https://data2.deadtrees.earth/api/v1/",
+      "format_protocol": "Provider-associated software READMEFastAPI; uploadguide explicitly productionAPIbase; currentreadquery/schema contract unresolved",
+      "authentication": "Guide uploadworkflow usesplatformcredentials; anonymouspublicretrieval requirements unknown; noneused",
+      "free_access_restrictions": "Public/private data modes in softwaredocs; no uniformlyverifiedfreeAPI/tier/currentterms",
+      "license": "unknown operative metadata/data grant; per-record licence field documented",
+      "license_url": "",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-17T17:38:43.804312+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "detroit-open-data",
       "provider": "City of Detroit",
       "service_name": "Detroit Open Data Hub OGC catalog",
@@ -10796,24 +10859,6 @@
       "license_url": "https://europepmc.org/Copyright | https://europepmc.org/help",
       "api_verification_state": "historical_search_metadata_sample_success_current_license_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:19:05.609718+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "figshare",
-      "provider": "Figshare",
-      "service_name": "Figshare public API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "research",
-      "dataset_families": "Research outputs; datasets; publications; media; metadata",
-      "documentation_url": "https://docs.figshare.com/",
-      "api_base_url": "https://api.figshare.com/v2/",
-      "format_protocol": "REST/JSON or XML as documented",
-      "authentication": "none for tested public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://info.figshare.com/user-guide/how-to-use-and-cite-figshare-content/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:44:50.793151+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18376,6 +18421,24 @@
       "license_url": "https://dk.um.si/info/index.php/eng/policies",
       "api_verification_state": "actual_native_OAI_Identify_XML_success_default_metadata_reuse_NC_restricted",
       "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "memento-ocean-gas-data",
+      "provider": "GEOMAR Kiel Data Management Team / MEMENTO",
+      "service_name": "MEMENTO marine methane and nitrous oxide research database",
+      "geographic_coverage": "Worldocean marine methane/nitrousoxide observations; actualcoverage varies bysubmission",
+      "topical_coverage": "oceans; climate/weather; environment; research",
+      "dataset_families": "MarineCH4/N2O observations, originalsubmissions, standarddepthprofiles andgridded1degree surfaceproducts",
+      "documentation_url": "https://memento.geomar.de/data-access.html",
+      "api_base_url": "",
+      "format_protocol": "PublicHTMLdocumentation; currentpublicmachineAPI unresolved",
+      "authentication": "Originaldata accessuponrequest/contactforlogin; harmonizedproducts directcontact",
+      "free_access_restrictions": "No paymentclaimed; formalcontact/login fordata; unpublishedcontributionuse mayrequire contributoragreement/coauthorshipinvitation",
+      "license": "Custom freelyusable statement withcontributor/publicationconditions; accessuponrequest",
+      "license_url": "https://memento.geomar.de/terms-of-use.html | https://memento.geomar.de/data-access.html",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T17:38:43.804312+00:00",
       "classification": "restricted"
     },
     {
