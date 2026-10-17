@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T09:09:39.664931+00:00",
+  "published_at": "2026-10-17T09:11:42.663043+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:05:03.094672+00:00",
+  "research_updated_at": "2026-10-17T09:11:07.355153+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Frontier18 originals: Edmonton1521 descriptions/5019claims candidate;Fingal416/1441 scoped ACA CC BY4, layer held;EU deduplicated/current metadataCC0.659 services:215open/400candidates/44restricted;374 originals remain;global in_progress.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 215,
-    "candidates": 400,
-    "excluded": 44,
-    "sample_successes": 410
+    "verified": 216,
+    "candidates": 402,
+    "excluded": 45,
+    "sample_successes": 413
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3867,6 +3867,24 @@
       "license_url": "https://www.bea.gov/index.php/help/faq/145",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:38:13.778221+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "belgium-rmi-synop",
+      "provider": "Royal Meteorological Institute of Belgium (RMI/IRM/KMI)",
+      "service_name": "RMI SYNOP observations and station OGC services",
+      "geographic_coverage": "Belgium synoptic network; named metadataalso1foreignstation; actualstationAPIcount30versusmetadata29, causeunknown",
+      "topical_coverage": "climate/weather/environment; geospatial",
+      "dataset_families": "Named SYNOP observations: precipitation,temperature,wind,humidity,weathertype,pressure,sunshine,radiation,cloudiness. Metadata temporalstart1952,notprovenallparameters/periodscomplete. Actual WFS1.1.0advertises synop:synop_data/synop:synop_station; one station GeoJSONfeature tested.",
+      "documentation_url": "https://opendata.meteo.be/documentation/?dataset=synop",
+      "api_base_url": "https://opendata.meteo.be/service/synop/wfs | https://opendata.meteo.be/service/synop/wms (documented,untested)",
+      "format_protocol": "ActualOGCWFS1.1.0 XMLcapabilitiesandGeoJSONFeatureCollection; advertisedGML/CSV/Excel/KML/ZIP;WMSuntested",
+      "authentication": "Actual anonymous capabilities and1stationreferencefeature; no account/key",
+      "free_access_restrictions": "Smallpublicrequestswithoutpayment; nameddatasetCCBY4permitscommercialuse withcredit/licencelink/changeindication. NotallRMIorpartnerworkgrants.",
+      "license": "CC BY4.0, named SYNOP dataset and its advertised services",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "actual_public_JSON_sample_success_one_station_and_XML_WFS_capabilities",
+      "latest_checked_utc": "2026-10-17T09:10:26.812315+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9268,7 +9286,7 @@
       "license": "unknown",
       "license_url": "https://www.avoindata.fi/en/terms-of-use",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:26:39.788001+00:00",
+      "latest_checked_utc": "2026-10-17T09:10:26.812383+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9323,6 +9341,24 @@
       "license_url": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
       "api_verification_state": "actual_public_JSON_sample_success_service_schema_and_directory_only",
       "latest_checked_utc": "2026-10-17T07:20:26.762426+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "geo-be-metadata-catalog",
+      "provider": "Belgian federal geographic portal / National Geographic Institute; named metadata publisher Royal Meteorological Institute",
+      "service_name": "geo.be published GeoNetwork metadata record API",
+      "geographic_coverage": "Belgium federal geographic catalogue; only one named record inspected",
+      "topical_coverage": "geospatial; climate/weather/environment; widercataloguefamiliesunreviewed",
+      "dataset_families": "Actual ISO-style JSON RMI_DATASET_SYNOP record,8documented resource URLs. Catalogue-wide counts/metadata rights notverified. Named workCCBY4 applies toRMI SYNOP,notcatalogueasawhole.",
+      "documentation_url": "https://publish.geo.be/geonetwork/f0ow2say/api/records/RMI_DATASET_SYNOP?language=fre",
+      "api_base_url": "https://publish.geo.be/geonetwork/f0ow2say/api/records/",
+      "format_protocol": "Actual JSON ISO19139-like namespace properties; websiteHTMLapp shells notAPIproof",
+      "authentication": "Actual anonymous one publicmetadatarecordread; no key/account",
+      "free_access_restrictions": "Actual smallpublicrecord withoutpayment; metadatareusegrant andproviderAPIquotaunknown.",
+      "license": "unknown catalogue metadata reuse grant; named SYNOP resourceCCBY4 separately recorded",
+      "license_url": "https://publish.geo.be/geonetwork/f0ow2say/api/records/RMI_DATASET_SYNOP?language=fre",
+      "api_verification_state": "actual_public_JSON_sample_success_named_ISO_metadata_record_catalogue_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T09:10:26.812102+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9413,6 +9449,24 @@
       "license_url": "https://data.gov.gh/terms-use | https://data.gov.gh/dataset/households-engaged-agriculture-type-activity-and-region",
       "api_verification_state": "indexed_api_claim_direct_docs_policy_deferred",
       "latest_checked_utc": "2026-10-16T21:45:08.122917+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ghent-open-data",
+      "provider": "Stad Gent / District09",
+      "service_name": "Ghent Open Data Opendatasoft Explore API console",
+      "geographic_coverage": "Ghent,Belgium",
+      "topical_coverage": "Municipal multisector open-data catalogue; exact current dataset families unenumerated",
+      "dataset_families": "Current explore/API-console/info HTML shells readable. Console observedredirect /api-console/explore/v2.1/. No returned datasetlist or verified named-work licence; catalogue request held.",
+      "documentation_url": "https://data.stad.gent/api-console/",
+      "api_base_url": "https://data.stad.gent/api/explore/v2.1/ (console-advertised family; exact tested catalogue request policy-held)",
+      "format_protocol": "Advertised Opendatasoft Explorev2.1 console; currentJSONsampleuntested/policyheld",
+      "authentication": "PublicHTMLdocsread; currentAPIrequestunsent, authenticationunknown",
+      "free_access_restrictions": "No payment forreadablepages; API quota/free-tier/individualgrantunknown. Linked generalwebsite terms allowpersonal/noncommercialuse andrequirepermissionforredistribution; applicability/overriding datasetlicences unresolved.",
+      "license": "unknown effective API/dataset grant; linked general website terms restrictive",
+      "license_url": "https://data.stad.gent/terms/terms-and-conditions/",
+      "api_verification_state": "documented_console_HTML_only_sample_policy_held_unresolved",
+      "latest_checked_utc": "2026-10-17T09:10:26.811923+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14743,6 +14797,24 @@
       "license_url": "https://data.chhs.ca.gov/pages/terms",
       "api_verification_state": "current_CKAN_API_linked_documentation_original_sample_policy_held_restricted_terms",
       "latest_checked_utc": "2026-10-17T05:48:49.679044+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "catalonia-open-data",
+      "provider": "Generalitat de Catalunya; named sampled work METEOCAT",
+      "service_name": "Catalonia native open-data catalogue and named SODA weather-variable metadata API",
+      "geographic_coverage": "Catalonia,Spain",
+      "topical_coverage": "Regionalmultisectorcatalogue;namedclimate/weather metadata",
+      "dataset_families": "1447 unique native descriptions/4812distribution claims.1379omit licence,53CCBY4/14ODCBY/1CC0 claims; namedCCBY4examples include externalFGC/ICGC resources. Actual Metadades variables meteorològiques4fb2-n3yi view/one code row, SEE_TERMS_OF_USE/Meteocat notice.",
+      "documentation_url": "https://analisi.transparenciacatalunya.cat/",
+      "api_base_url": "https://analisi.transparenciacatalunya.cat/data.json | https://analisi.transparenciacatalunya.cat/api/views/ | https://analisi.transparenciacatalunya.cat/resource/",
+      "format_protocol": "Actual JSON native DCAT-like catalogue/Socrata metadata/SODA variable reference",
+      "authentication": "Actual anonymous catalogue/view/one code reference read; no account/key",
+      "free_access_restrictions": "Actual small public metadata requests without payment. Named Meteocat licence restricts protected-content reproduction/redistribution/transformation and substantial/repeated database reuse; non-IP reuse conditions include no alteration/source/update date.",
+      "license": "Restricted for named METEOCAT weather-variable work under its explicitly linked notice; other portal works individually licensed",
+      "license_url": "http://www.meteo.cat/wpweb/avis-legal/",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_named_metadata_and_one_variable_reference_restricted_named_terms",
+      "latest_checked_utc": "2026-10-17T09:10:26.811660+00:00",
       "classification": "restricted"
     },
     {
