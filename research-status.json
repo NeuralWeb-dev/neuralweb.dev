@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T14:18:06.756316+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-17T14:20:09.353079+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:17:52.149634+00:00",
+  "research_updated_at": "2026-10-17T14:19:42.882187+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "UrbanPacific8origins:758services245open455candidates58restricted;Vernon4nativeinterfaces indexed,USAspendingdeduplicated;83originals and broader queues remain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 245,
     "candidates": 455,
@@ -519,7 +519,8 @@
           "dc-open-data",
           "greenland-statistics",
           "kitchener-geohub",
-          "statcan"
+          "statcan",
+          "vancouver-open-data-api"
         ],
         "candidate_provider_ids": [
           "california-open-data",
@@ -606,6 +607,7 @@
           "reddeer-open-data",
           "usda-cdl",
           "usgs-water",
+          "utah-ugrc-api",
           "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
@@ -621,6 +623,7 @@
           "esa-ecology",
           "knb",
           "minneapolis-open-data",
+          "montreal-open-data-catalog",
           "neracoos-erddap",
           "north-dakota-gis-hub",
           "okanagan-similkameen-open-data",
@@ -634,6 +637,7 @@
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
+          "vernon-public-geospatial-api",
           "washington-state-open-data",
           "wis2-ucsd-scripps"
         ],
@@ -668,7 +672,8 @@
           "neracoos-erddap",
           "sfwmd-repository",
           "texas-state-open-data",
-          "toronto-open-data-catalog-api"
+          "toronto-open-data-catalog-api",
+          "vernon-public-geospatial-api"
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace"
@@ -707,6 +712,7 @@
           "connect211-search",
           "donnees-quebec-catalog",
           "healthdata-gov-catalog",
+          "montreal-open-data-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "texas-state-open-data",
@@ -723,7 +729,8 @@
         "verified_provider_ids": [
           "alberta-open-government",
           "greenland-statistics",
-          "hartford-open-data"
+          "hartford-open-data",
+          "vancouver-open-data-api"
         ],
         "candidate_provider_ids": [
           "donnees-quebec-catalog",
@@ -747,7 +754,9 @@
           "greenland-statistics",
           "hartford-open-data",
           "new-orleans-open-data",
-          "reddeer-open-data"
+          "reddeer-open-data",
+          "utah-ugrc-api",
+          "vancouver-open-data-api"
         ],
         "candidate_provider_ids": [
           "census-geocoder",
@@ -767,13 +776,16 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "greenland-statistics",
-          "reddeer-open-data"
+          "reddeer-open-data",
+          "utah-ugrc-api",
+          "vancouver-open-data-api"
         ],
         "candidate_provider_ids": [
           "annarbor-open-data",
           "dnv-geoweb",
           "donnees-quebec-catalog",
           "edmonton-open-data",
+          "montreal-open-data-catalog",
           "nyc",
           "opendataphilly-jkan",
           "oregon-open-data",
@@ -781,6 +793,7 @@
           "surrey-open-data-map-service",
           "thunderbay-transit-realtime",
           "toronto-open-data-catalog-api",
+          "vernon-public-geospatial-api",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -810,6 +823,8 @@
           "reddeer-open-data",
           "seafloor",
           "usda-cdl",
+          "utah-ugrc-api",
+          "vancouver-open-data-api",
           "windsor-open-data",
           "wis2-gdc-canada"
         ],
@@ -834,6 +849,7 @@
           "madison-open-data",
           "miami-dade-open-data",
           "minneapolis-open-data",
+          "montreal-open-data-catalog",
           "nashville-open-data",
           "nevada-county-open-data",
           "north-dakota-gis-hub",
@@ -849,6 +865,7 @@
           "surrey-open-data-map-service",
           "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
+          "vernon-public-geospatial-api",
           "waterloo-city-open-data",
           "wis2-ucsd-scripps"
         ],
@@ -966,7 +983,8 @@
           "greenland-statistics",
           "metmuseum",
           "usda-cdl",
-          "usda-food"
+          "usda-food",
+          "vancouver-open-data-api"
         ],
         "candidate_provider_ids": [
           "artic",
@@ -975,6 +993,7 @@
           "donnees-quebec-catalog",
           "getty-museum",
           "loc",
+          "montreal-open-data-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "oregon-open-data",
@@ -7926,7 +7945,7 @@
       "license": "CC BY4.0 default except metadata overrides; publisher disclaimer/metadata republication requirements",
       "license_url": "https://gis.utah.gov/documentation/policy/license/",
       "api_verification_state": "official_key_required_API_documented_sample_untested",
-      "latest_checked_utc": "2026-10-17T14:17:30.716992+00:00",
+      "latest_checked_utc": "2026-10-17T14:15:56.740471+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7944,7 +7963,7 @@
       "license": "Open Government Licence – Vancouver1.0",
       "license_url": "https://opendata.vancouver.ca/pages/licence/",
       "api_verification_state": "official_API_documented_original_legacy_route_policy_held_no_data_workaround",
-      "latest_checked_utc": "2026-10-17T14:17:30.707762+00:00",
+      "latest_checked_utc": "2026-10-17T14:15:58.078747+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11474,7 +11493,7 @@
       "license": "Publisher CC BY4 default with additional identification-use prohibition; effective scope unresolved",
       "license_url": "https://donnees.montreal.ca/pages/licence-d-utilisation",
       "api_verification_state": "publisher_CKAN_documented_conventional_API_sample_policy_held_target_unsent",
-      "latest_checked_utc": "2026-10-17T14:17:30.726276+00:00",
+      "latest_checked_utc": "2026-10-17T14:14:54.516677+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14840,7 +14859,7 @@
       "license": "Conflicting or differently scoped open-catalogue and restrictive map terms; no effective open grant established",
       "license_url": "https://www.vernon.ca/government-services/maps-gis/open-data-catalogue",
       "api_verification_state": "native_public_directory_sample_success_rights_scope_unresolved",
-      "latest_checked_utc": "2026-10-17T14:17:30.735499+00:00",
+      "latest_checked_utc": "2026-10-17T14:14:55.330857+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
