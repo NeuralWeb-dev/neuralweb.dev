@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T03:09:39.998455+00:00",
+  "published_at": "2026-10-17T03:11:42.406810+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T03:03:37.085086+00:00",
+  "research_updated_at": "2026-10-17T03:11:23.668928+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Started four queued primary metadata-policy/API leads: LINDAT repository,PORTULAN repository,ADS,ONBwebarchive",
+  "latest_milestone": "Queued metadata neighbors4processed:2scopedopen/2maintenancecandidates;LINDAT3117headers andONB26crawlcollection metadata complete;global in_progress",
   "counts": {
-    "verified": 172,
-    "candidates": 307,
+    "verified": 174,
+    "candidates": 309,
     "excluded": 32,
-    "sample_successes": 318
+    "sample_successes": 320
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4607,6 +4607,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "lindat-repository",
+      "provider": "LINDAT/CLARIAH-CZ / Charles University",
+      "service_name": "LINDAT repository public metadata APIs",
+      "geographic_coverage": "Czechia/international multilingual language resources and tools",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "Public repository resource descriptions;3117nativeOAIheaders (2634active/483deleted),27sets/17formats; no deposited files",
+      "documentation_url": "https://lindat.mff.cuni.cz/repository/static/metadata",
+      "api_base_url": "https://lindat.mff.cuni.cz/repository/server/oai/request",
+      "format_protocol": "OAI-PMH2/XML; CMDI,DublinCore and17native format descriptors",
+      "authentication": "None for tested publicmetadataGETs",
+      "free_access_restrictions": "Metadata page explicitly CC0; reserves right to be informed about commercial metadata use with use-case description. No notification sent. General defaultNC service terms have explicit specific-service exceptions; deposited content has individual rights.",
+      "license": "CC0 — repository metadata only",
+      "license_url": "https://lindat.mff.cuni.cz/repository/static/metadata",
+      "api_verification_state": "actual_OAI_XML_GetRecord_and_native_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T03:11:21.719233+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "linz",
       "provider": "Land Information New Zealand Data Service",
       "service_name": "Land Information New Zealand Data Service API",
@@ -5000,6 +5018,24 @@
       "license_url": "https://data.gov.om/s3/gov_license.pdf | https://data.gov.om/legal/termsofuse",
       "api_verification_state": "documented_sdmx_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T19:32:10.636094+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "onb-webarchive",
+      "provider": "Austrian National Library / ONB Labs",
+      "service_name": "Webarchive Austria metadata feeds and documented search API",
+      "geographic_coverage": "Austrian webspace: .at/ac.at/gv.at,.wien,.tirol andselectedAustrian-content sites; topical/event crawl metadata",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "26selected/event crawlcollections,128groups,70150seedoccurrences; object statistics and15otherarchive references; not allarchivedwebpages",
+      "documentation_url": "https://labs.onb.ac.at/en/dataset/webarchive/ | https://webarchiv.onb.ac.at/api/api-docs",
+      "api_base_url": "https://webarchiv.onb.ac.at/api/ | https://webarchiv.onb.ac.at/data/",
+      "format_protocol": "Documented REST/OpenAPI3; publicmetadataJSON feeds; bearerqueryAPIuntested",
+      "authentication": "Publicmetadatafeeds anonymous; currentOpenAPIrequiresBearerJWT/Authorization for search operations. No tokenobtained orAPIauthentication call.",
+      "free_access_restrictions": "FourpublicmetadataJSONfeed reads succeededfree/noaccount. QueryAPIbearer credentialeligibility/free-tier costs/rate caps unknown; no paidsubscription/account/token acquisition. No APIsearch/fulltext/snapshot orasyncjob actions.",
+      "license": "CC0 — Webarchive Austria metadata only",
+      "license_url": "https://labs.onb.ac.at/en/dataset/webarchive/ | https://labs.onb.ac.at/en/terms/",
+      "api_verification_state": "documented_bearer_query_API_untested_public_metadata_JSON_feeds_sample_success",
+      "latest_checked_utc": "2026-10-17T03:11:21.719233+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6352,6 +6388,24 @@
       "license_url": "https://data.adb.org/terms-use-data",
       "api_verification_state": "current_api_and_terms_requests_policy_deferred",
       "latest_checked_utc": "2026-10-16T18:48:32.758136+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ads-archaeology",
+      "provider": "Archaeology Data Service / University of York",
+      "service_name": "ADS public metadata services (exact current interfaces unresolved)",
+      "geographic_coverage": "UK archaeological sites,finds,historicbuildings andprojectarchives; international discovery contributions",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "Inventory/archive/report/journal metadata; currentpolicy describes externalARIADNE/MEDIN/NERC/HeritageGateway/DataCite delivery, not allseparateADSAPIs",
+      "documentation_url": "https://archaeologydataservice.ac.uk/about/policies/metadata/metadata-services/",
+      "api_base_url": "",
+      "format_protocol": "OAI-PMH/SPARQL andexternalmetadata delivery documented; currentexactAPItestunresolved",
+      "authentication": "unknown for currentqueryAPI; publicqueryUI attempt returnedmaintenanceHTML",
+      "free_access_restrictions": "Metadata explicitlyCC0; currentexactAPI bases/access/rates unresolved. Legacyresource TOU are research/learning/teaching unlessCC/OGgrant specified, not universal restrictions on independentlyCC0metadata.",
+      "license": "CC0 explicitly verified for allADSmetadata; APIreadiness unresolved",
+      "license_url": "https://archaeologydataservice.ac.uk/about/policies/metadata/",
+      "api_verification_state": "documented_metadata_API_families_query_UI_maintenance_HTML_no_structured_response",
+      "latest_checked_utc": "2026-10-17T03:11:21.719233+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9214,6 +9268,24 @@
       "license_url": "https://portulanclarin.net/agreement/",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:57:13.231313+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "portulan-repository",
+      "provider": "PORTULAN CLARIN",
+      "service_name": "PORTULAN repository metadata interface (current maintenance)",
+      "geographic_coverage": "Portugal/international language-resource repository",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "Deposited language-resource descriptions; current corpus not enumerated duringmaintenance",
+      "documentation_url": "https://portulanclarin.net/repository/ | https://portulanclarin.net/agreement/",
+      "api_base_url": "https://portulanclarin.net/repository/oaipmh/ (registry-listed OAI claim; no current XML verified)",
+      "format_protocol": "OAI-PMH claimed by registry; testedresponseHTMLmaintenance,notXML",
+      "authentication": "unknown forcurrentAPI; attemptedpublicIdentifywithoutcredentials",
+      "free_access_restrictions": "Repository and listedOAI endpoint return200maintenanceHTML; publicgrant/access nowunconfirmed. Noalternatehost/path probing oraccounts.",
+      "license": "Unconfirmed currentmetadata distribution; depositagreement authorizes CC0release",
+      "license_url": "https://portulanclarin.net/agreement/",
+      "api_verification_state": "registry_claimed_OAI_endpoint_returns_maintenance_HTML_not_API_response",
+      "latest_checked_utc": "2026-10-17T03:11:21.719233+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
