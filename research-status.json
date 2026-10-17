@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:35:30.090911+00:00",
+  "published_at": "2026-10-17T18:37:32.527623+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:33:36.709271+00:00",
+  "research_updated_at": "2026-10-17T18:36:01.282455+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed; ACIS native55metadata source licence unresolved,3restricted records,INFRA-ART3valid collection objects/CRCNS153dataset references indexed",
+  "latest_milestone": "Nine original tasks reviewed; ACIS native55metadata source licence unresolved,5restricted records and Harvard alias deduplicated; INFRA-ART3/CRCNS153/CORA66references indexed",
   "counts": {
     "verified": 273,
     "candidates": 501,
-    "excluded": 99,
+    "excluded": 101,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -18567,6 +18567,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "cora-default-noncommercial-surveys",
+      "provider": "Queen's University / Canadian Opinion Research Archive",
+      "service_name": "CORA survey holdings via Odesi (reported noncommercial scope)",
+      "geographic_coverage": "Canadian public opinion; historical commercial/independent surveys from1970s onwards; individual study coverage varies",
+      "topical_coverage": "civic | demographics | health | education | research",
+      "dataset_families": "Election, political opinion, social attitudes and commercial polling survey holdings",
+      "documentation_url": "https://www.queensu.ca/cora/access | https://www.queensu.ca/cora/data-holdings",
+      "api_base_url": "",
+      "format_protocol": "HTML catalogue; DDI standard and data exploration/download UI documented; exact machine API unknown",
+      "authentication": "Access page requires agreement to terms before data download; institutional/source access varies; no terms accepted or account used",
+      "free_access_restrictions": "Provider about page describes holdings accessible to noncommercial users; precise per-survey restrictions/alternative licences unreviewed",
+      "license": "Provider-reported noncommercial audience/access; exact survey data grants must be reviewed individually",
+      "license_url": "https://www.queensu.ca/cora/about | https://www.queensu.ca/cora/access",
+      "api_verification_state": "reported_noncommercial_portal_documented_public_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:35:42.166928+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "cranachnet-mediawiki",
       "provider": "Cranach Research Institute / CranachNet hosted by Heidelberg University Library",
       "service_name": "CranachNet MediaWiki API",
@@ -18654,6 +18672,24 @@
       "license_url": "https://opendata-geospatialdenver.hub.arcgis.com/data.json",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
       "latest_checked_utc": "2026-10-17T08:46:28.966088+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "dgcis-trade-dissemination-restricted",
+      "provider": "DGCI&S / India Department of Commerce",
+      "service_name": "DGCI&S merchandise trade dissemination and linked EIDB source data (restricted)",
+      "geographic_coverage": "India merchandise trade by commodity, partner country, port and selected state dimensions; EIDB displayed fiscal2017-18 through2025-26",
+      "topical_coverage": "economics | trade | public statistics",
+      "dataset_families": "Aggregated merchandise export/import values and quantities; source policy excludes general transaction/company-level dissemination",
+      "documentation_url": "https://tradestat.commerce.gov.in/eidb/commodity_wise_export | https://www.dgciskol.gov.in/Writereaddata/Downloads/Data_dissemination_policy1.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML query interface and separate dissemination service; exact public machine API unverified",
+      "authentication": "EIDB landing page anonymous. Separate DGCI&S dissemination policy describes official/guest/subscriber login; no account or paid data used.",
+      "free_access_restrictions": "Source policy permits limited free summary access and paid/private dissemination. EIDB anonymous page not itself proof paid; no paid subscription or acquisition.",
+      "license": "DGCI&S copyright and redistribution permission restrictions",
+      "license_url": "https://www.dgciskol.gov.in/Writereaddata/Downloads/Data_dissemination_policy1.pdf",
+      "api_verification_state": "restricted_source_policy_and_public_HTML_verified_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:35:42.166928+00:00",
       "classification": "restricted"
     },
     {
@@ -18869,7 +18905,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
-      "latest_checked_utc": "2026-10-17T17:30:21.803279+00:00",
+      "latest_checked_utc": "2026-10-17T18:35:42.166928+00:00",
       "classification": "restricted"
     },
     {
