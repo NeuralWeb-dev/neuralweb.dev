@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:36:17.206724+00:00",
+  "published_at": "2026-10-17T17:38:19.590837+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:35:39.615407+00:00",
+  "research_updated_at": "2026-10-17T17:37:25.746831+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TalkBankandPolarDataCatalogue restrictiveprimaryterms verified;PDCnativeJSONLDsample;PLANTSplantinformationgrantbutAPIunresolved",
+  "latest_milestone": "Regional science: OceanRepnonprofitOAIrestricted/held; DEIMScurrentNCterms/specdedup; ISG280modelrefs indexed",
   "counts": {
     "verified": 263,
     "candidates": 487,
-    "excluded": 80,
+    "excluded": 81,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -17917,15 +17917,15 @@
       "geographic_coverage": "Global",
       "topical_coverage": "biodiversity; climate/weather/environment; research",
       "dataset_families": "Environmental monitoring sites; ecological research facilities; networks",
-      "documentation_url": "https://deims.org/api",
+      "documentation_url": "https://deims.org/api | https://deims.org/terms",
       "api_base_url": "https://deims.org/api/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read candidate",
       "free_access_restrictions": "Public API sample succeeded without key, but terms restrict downstream use and automated content collection",
-      "license": "CC BY-NC 4.0 and additional service restrictions",
+      "license": "CC BY-NC4.0 plus service/content-collection restrictions",
       "license_url": "https://deims.org/terms",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:58:57.603548+00:00",
+      "api_verification_state": "historical_native_sample_success_current_OpenAPI_documentation_verified_no_new_dataquery_under_terms",
+      "latest_checked_utc": "2026-10-17T17:37:21.035432+00:00",
       "classification": "restricted"
     },
     {
@@ -18556,6 +18556,24 @@
       "license_url": "https://ppsr.companiesoffice.govt.nz/help-centre/paying-ppsr-fees/schedule-of-fees/",
       "api_verification_state": "documented_paid_search_key_required_untested",
       "latest_checked_utc": "2026-10-16T20:04:48.522155+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "oceanrep-oai-metadata",
+      "provider": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+      "service_name": "OceanRep repository OAI-PMH metadata service",
+      "geographic_coverage": "Marine research output from GEOMAR and additional collections; item geography varies globally",
+      "topical_coverage": "oceans; environment; climate/weather; research",
+      "dataset_families": "Marine scientific articles,conference papers,book chapters,theses,cruise reports and other institutional research output metadata; fulltexts separate",
+      "documentation_url": "https://oceanrep.geomar.de/ | https://oceanrep.geomar.de/policies.html",
+      "api_base_url": "https://oceanrep.geomar.de/cgi/oai2",
+      "format_protocol": "Homepage explicitly OAI2.0; current XML sample withheld before target,not verified",
+      "authentication": "Metadata policy freeaccess; original OAIattempt policy-held,targetunsent. Deposit/memberaccess separate.",
+      "free_access_restrictions": "Metadata reuse only not-for-profit withOAIidentifier/originalrecordlink; commercialrequiresformalpermission. Fulltexts additionalpersonal/research/education/notforprofit limits.",
+      "license": "Custom noncommercial/not-for-profit metadata policy",
+      "license_url": "https://oceanrep.geomar.de/policies.html",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-17T17:37:21.035432+00:00",
       "classification": "restricted"
     },
     {
