@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T21:10:50.414092+00:00",
+  "published_at": "2026-10-17T21:12:53.698965+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:06:43.658962+00:00",
+  "research_updated_at": "2026-10-17T21:11:00.344813+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original discovery tasks processed in three batches; nine services added: two scoped-open, five candidates, two restricted. IDC179 collection summaries and CERN OAI formats indexed. Global discovery remains unfinished.",
+  "latest_milestone": "ScienceBase/VFB native JSON sampled with exact source-rights gaps; distinct DNB SRU/OAI scoped metadata grant and native SRU/OAI verified, SPARQL identity preserved.",
   "counts": {
-    "verified": 292,
-    "candidates": 568,
+    "verified": 293,
+    "candidates": 570,
     "excluded": 124,
     "sample_successes": 475
   },
@@ -5646,7 +5646,25 @@
       "license": "CC0 1.0 Universal",
       "license_url": "https://sparql.dnb.de/gnd",
       "api_verification_state": "documented_reference_metadata_sample_success",
-      "latest_checked_utc": "2026-10-16T19:00:56.603104+00:00",
+      "latest_checked_utc": "2026-10-17T21:10:55.213296+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "dnb-sru-oai-metadata",
+      "provider": "German National Library (Deutsche Nationalbibliothek)",
+      "service_name": "DNB SRU and OAI-PMH metadata services via DNBLab",
+      "geographic_coverage": "German national bibliography, international authority entities, ZDB serials and ISIL library metadata; varies by catalogue, not global source-text coverage",
+      "topical_coverage": "culture | education | research | law/civic data",
+      "dataset_families": "Bibliographic records, GND authority data, selected licensed holdings, ZDB serials, ISIL metadata and cross-concordances; copyrighted digital objects/full texts excluded",
+      "documentation_url": "https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/SRU/sru_node.html | https://www.dnb.de/EN/Professionell/Metadatendienste/Datenbezug/OAI/oai_node.html | https://www.dnb.de/businessmodel.html?nn=250720",
+      "api_base_url": "https://services.dnb.de/sru/dnb | https://services.dnb.de/sru/authorities | https://services.dnb.de/sru/zdb | https://services.dnb.de/oai/repository",
+      "format_protocol": "Native SRU1.1 Explain XML, one MARC21 XML bibliographic record and OAI-PMH Identify XML verified; RDF and other supported formats documented with catalogue-specific limits",
+      "authentication": "Native anonymous SRU Explain/search and OAI Identify succeeded; no registration for these reads, private/depositor IDs and accounts not queried",
+      "free_access_restrictions": "Basic self-service metadata free; active custom SFTP/WWW provision can incur charges and was not used. No guarantees of availability, completeness or third-party rights.",
+      "license": "CC0 1.0 bibliographic/GND/ISIL metadata and GND-STW concordance; other GND thesaurus concordances CC BY4; holdings only when record tagged accordingly",
+      "license_url": "https://www.dnb.de/businessmodel.html?nn=250720",
+      "api_verification_state": "native_SRU_Explain_and_one_MARC_record_plus_OAI_Identify_success_explicit_scoped_metadata_CC0_BY4_grant_verified",
+      "latest_checked_utc": "2026-10-17T21:10:55.213296+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18108,6 +18126,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "usgs-sciencebase-catalogue",
+      "provider": "US Geological Survey",
+      "service_name": "ScienceBase Catalog item metadata REST API",
+      "geographic_coverage": "US-centered and international geoscience/ecological collections; individual item extent varies. Sample describes California Current marine birds, not global coverage.",
+      "topical_coverage": "geospatial | biodiversity | oceans | water | energy | climate/weather/environment | research",
+      "dataset_families": "Scientific data releases, spatial/map resources, biodiversity/ecological research and partner collections; sample marine bird/offshore-wind vulnerability metadata",
+      "documentation_url": "https://www.usgs.gov/sciencebase-instructions-and-documentation/api-and-web-services | https://www.sciencebase.gov/catalog/userAgreement/show",
+      "api_base_url": "https://www.sciencebase.gov/catalog/item/ | https://www.sciencebase.gov/catalog/items",
+      "format_protocol": "Native item JSON verified; operator documents REST, item core model and OGC/OAI metadata integration; no write or directory operations invoked",
+      "authentication": "Anonymous public documentation/metadata only; no accounts or credentials",
+      "free_access_restrictions": "Public items readable by general public, private items restricted; operator prohibits disruptive/high-volume behavior and may suspend access. Numeric quota unknown.",
+      "license": "USGS-authored/produced data policy states U.S. Public Domain; exact item/partner/image rights vary, blanket metadata/database/source grant unconfirmed",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits | https://www.sciencebase.gov/catalog/item/58f7fadae4b0b7ea5451fc5c?format=json",
+      "api_verification_state": "native_anonymous_documented_item_JSON_success_sample_reuse_condition_and_universal_catalogue_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T21:10:55.213296+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "uzbekistan-statistics-category-api",
       "provider": "National Statistics Committee of the Republic of Uzbekistan",
       "service_name": "Published statistics category API",
@@ -18249,6 +18285,24 @@
       "license_url": "http://galaxy-catalogue.dur.ac.uk:8080/Millennium/Help?page=credits",
       "api_verification_state": "native_anonymous_synchronous_SQL_CSV_one_row_success",
       "latest_checked_utc": "2026-10-17T19:50:53.456043+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "virtual-fly-brain-query",
+      "provider": "Virtual Fly Brain consortium",
+      "service_name": "VFBquery read-only query service",
+      "geographic_coverage": "Drosophila neuroanatomy/connectomics; biological rather than population/geographic data coverage",
+      "topical_coverage": "biodiversity | research | neuroscience",
+      "dataset_families": "Drosophila anatomy ontology, image metadata, connectomics, gene/driver cross-references and source publications; original image/dataset rights retained",
+      "documentation_url": "https://virtualflybrain.org/docs/apis/vfbquery/ | https://v3-cached.virtualflybrain.org/docs.json | https://virtualflybrain.org/docs/data/",
+      "api_base_url": "https://v3-cached.virtualflybrain.org/",
+      "format_protocol": "Native JSON operation catalogue and one-row search success; operator documents read-only GET query groups and separate CATMAID pass-through",
+      "authentication": "Operator documents query API without account/key; native anonymous schema/search succeeded",
+      "free_access_restrictions": "Public access and exact source reuse conditions remain separate",
+      "license": "Source-specific original-producer licenses; older datasets may have no recorded grant; blanket integrated metadata/database license unknown",
+      "license_url": "https://virtualflybrain.org/docs/data/#licences",
+      "api_verification_state": "native_anonymous_query_catalogue_and_one_JSON_search_row_success_source_metadata_database_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:10:55.213296+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
