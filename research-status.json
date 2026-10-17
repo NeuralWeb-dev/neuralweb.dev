@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T16:26:48.323989+00:00",
+  "published_at": "2026-10-17T16:28:50.600925+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:25:37.520200+00:00",
+  "research_updated_at": "2026-10-17T16:27:15.040079+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Eight repository/biodiversity tasks reviewed: IntAct nativecount/CCBY4,CU metadata scopedCC0,Bristol nativeCKAN/NC,Health nativepublicPOST candidate,Tropicos keyrequired candidate",
+  "latest_milestone": "11research/network discovery tasks reviewed;6new services,800total;BioCASe54/PSICQUIC34references indexed,global discovery unfinished",
   "counts": {
     "verified": 257,
     "candidates": 476,
@@ -178,6 +178,7 @@
           "chebi",
           "datacommons",
           "doaj",
+          "intact-imex-psicquic",
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
@@ -325,6 +326,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "gbif",
+          "intact-imex-psicquic",
           "obis",
           "uniprot"
         ],
@@ -447,6 +449,7 @@
           "geri",
           "getty-provenance",
           "getty-vocabularies",
+          "intact-imex-psicquic",
           "metmuseum",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -1405,6 +1408,7 @@
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
+          "nfdi4health-study-hub",
           "puglia-open-data-catalog",
           "registry-opendata-fr-ch",
           "russia",
@@ -1720,6 +1724,7 @@
           "latvia-statistics",
           "lithuania-statistics",
           "navarra-open-data",
+          "nfdi4health-study-hub",
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
           "swissubase-oai",
@@ -2245,6 +2250,7 @@
           "kielipankki-fcs",
           "kpbc-digital-library",
           "ksamsok",
+          "nfdi4health-study-hub",
           "ortolang-fcs",
           "perspectivia",
           "portulan-fcs",
@@ -2363,7 +2369,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "saudi-statistics"
+          "saudi-statistics",
+          "ubb-digital-commons-data"
         ],
         "restricted_provider_ids": [
           "gccstat"
@@ -2455,7 +2462,9 @@
         "verified_provider_ids": [
           "digitalearth-africa"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "ubb-digital-commons-data"
+        ],
         "restricted_provider_ids": []
       }
     },
