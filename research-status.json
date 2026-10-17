@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T04:19:10.033810+00:00",
+  "published_at": "2026-10-17T04:21:12.875257+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T04:17:52.859747+00:00",
+  "research_updated_at": "2026-10-17T04:21:11.897335+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve contiguous OpenKnowledge registry origins processed. Four services added: scoped Alberta OGLA2.2 and Amsterdam Maps custom open grant; Ann Arbor/Terrassa candidates. Amsterdam municipality GeoJSON verified and185native UI layer IDs indexed. Global discovery remains unfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Two successive portal batches processed18original registry origins. Scoped Alberta,Amsterdam Maps,AngersODbL,AndalusiaCCBY4 added;833Andalusia and2425Aragon native metadata complete,410NCdatasets separated. All51Andalusia API-directory occurrences resolve29details,all29read/all29specification targets policy-held. Global discovery remains in_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
-    "verified": 183,
-    "candidates": 340,
+    "verified": 185,
+    "candidates": 343,
     "excluded": 35,
-    "sample_successes": 338
+    "sample_successes": 341
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1134,6 +1134,7 @@
       "labor": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "andalusia-open-data",
           "cbs",
           "cessda-elsst",
           "croatia-statistics",
@@ -1158,8 +1159,11 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "aragon-core",
+          "aragon-sparql",
           "latvia-statistics",
           "lithuania-statistics",
+          "registry-opendata-aragon-es",
           "russia",
           "serbia-rzs",
           "stat-portugal"
@@ -1169,6 +1173,7 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "andalusia-open-data",
           "croatia-statistics",
           "estonia-statistics",
           "eurostat",
@@ -1191,6 +1196,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "amsterdam-maps-data",
+          "andalusia-open-data",
           "bgs",
           "cefas",
           "croatia-statistics",
@@ -1217,12 +1223,15 @@
           "wales-statistics"
         ],
         "candidate_provider_ids": [
+          "aragon-core",
+          "aragon-sparql",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "latvia-statistics",
           "lithuania-statistics",
           "os-os-places-api",
+          "registry-opendata-aragon-es",
           "terrassa-open-data",
           "wis2-poland",
           "wis2-russian-federation"
@@ -1280,6 +1289,7 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "andalusia-open-data",
           "cessda-elsst",
           "estonia-statistics",
           "faroe-statistics",
@@ -1297,9 +1307,12 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "aragon-core",
+          "aragon-sparql",
           "cessda-catalogue",
           "latvia-statistics",
           "lithuania-statistics",
+          "registry-opendata-aragon-es",
           "terrassa-open-data"
         ],
         "restricted_provider_ids": []
@@ -1307,6 +1320,7 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "andalusia-open-data",
           "arche-repository",
           "cessda-elsst",
           "cessda-vocabularies",
@@ -1335,6 +1349,9 @@
           "acdh-fcs",
           "ads-archaeology",
           "aland-statistics",
+          "andalusia-regional-rest",
+          "aragon-core",
+          "aragon-sparql",
           "bas-fcs",
           "cessda-catalogue",
           "clarin-dk-fcs",
@@ -1352,6 +1369,7 @@
           "ortolang-fcs",
           "portulan-fcs",
           "portulan-repository",
+          "registry-opendata-aragon-es",
           "saw-leipzig-fcs",
           "serbia-rzs",
           "terrassa-open-data",
@@ -1420,6 +1438,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "amsterdam-maps-data",
+          "andalusia-open-data",
+          "angers-open-data",
           "bgs",
           "ea-asset-management",
           "ea-catchment-data",
@@ -1441,11 +1461,14 @@
         ],
         "candidate_provider_ids": [
           "anfr-data",
+          "aragon-core",
+          "aragon-sparql",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "os-os-places-api",
           "poland-gus-teryt",
+          "registry-opendata-aragon-es",
           "shom-data",
           "ukho-tidal",
           "wis2-poland",
@@ -1568,6 +1591,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "amsterdam-maps-data",
+          "andalusia-open-data",
           "arche-repository",
           "bnf-catalogue",
           "clarin-dk",
@@ -1598,6 +1622,7 @@
           "acdh-fcs",
           "ads-archaeology",
           "aland-statistics",
+          "andalusia-regional-rest",
           "bas-fcs",
           "clarin-dk-fcs",
           "clarin-fcs",
@@ -3381,6 +3406,42 @@
       "license_url": "https://maps.amsterdam.nl/open_geodata/terms.php",
       "api_verification_state": "actual_GeoJSON_entity_sample_success_and_readonly_metadata_sample_success_custom_open_grant_verified",
       "latest_checked_utc": "2026-10-17T04:10:03.009364+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "andalusia-open-data",
+      "provider": "Junta de Andalucía",
+      "service_name": "Andalusia CKAN data catalog API — explicit CC BY4 scope",
+      "geographic_coverage": "Spain; Andalucía",
+      "topical_coverage": "Regional government, environment, education, health, labor, agriculture, economics, culture, transport, geospatial, law",
+      "dataset_families": "833native catalog records:786CC-BY-4.0,2CC-BY-3.0,8genericcc-by,19CC-BY-NC4and18Consultar-* specific terms. ExplicitCCBY4subset only accepted; teacher/school organic staffing representative record separately displaysCCBY4.",
+      "documentation_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset",
+      "api_base_url": "https://www.juntadeandalucia.es/datosabiertos/portal/api/3/action/",
+      "format_protocol": "CKAN Action API JSON; distributions CSV/ODS/XLSX/JSON and other native formats, not all bodies downloaded",
+      "authentication": "Anonymous actual native catalog metadata requests succeeded",
+      "free_access_restrictions": "Verified scope individually explicitCCBY4records; excludes19noncommercial,26generic/consultation instrument/version unresolved and2otherCCBY3outsideCCBY4scope. General website CC BY3text licence not universal dataset grant.",
+      "license": "CC BY4.0 — only explicit designated native records,786current claims; representative dataset page independently confirms",
+      "license_url": "https://www.juntadeandalucia.es/datosabiertos/portal/dataset/plantillas-organicas-de-centros-docentes-publicos",
+      "api_verification_state": "actual_catalog_metadata_sample_success_scoped_CCBY4_dataset_grant_verified",
+      "latest_checked_utc": "2026-10-17T04:16:51.942637+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "angers-open-data",
+      "provider": "Angers Loire Métropole",
+      "service_name": "Angers Loire Métropole Explore API — default ODbL scope",
+      "geographic_coverage": "France; Angers Loire Métropole, member communes and associated organizations",
+      "topical_coverage": "Local multisector data, transport/geospatial and public services",
+      "dataset_families": "Native open-data portal catalog/records; individual dataset counts/families not enumerated under original API hold",
+      "documentation_url": "https://data.angers.fr/api-console/",
+      "api_base_url": "https://data.angers.fr/api/explore/v2.1/",
+      "format_protocol": "Explore v2.1 JSON; current publisher Swagger console references /api/explore/v2.1/swagger.json",
+      "authentication": "Public HTML console/terms; anonymous API sample target unsent under robots policy",
+      "free_access_restrictions": "Full native terms: open data free under default ODbL unless another legal framework specified; each dataset information tab supplies licence. Above5000connections/day requires registration; no account requested.",
+      "license": "Open Database Licence (ODbL) default — version unspecified by full tenant terms",
+      "license_url": "https://data.angers.fr/pages/mentions/",
+      "api_verification_state": "official_current_API_console_and_default_ODbL_grant_verified_sample_policy_deferred_target_unsent",
+      "latest_checked_utc": "2026-10-17T04:13:22.321608+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6716,6 +6777,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "andalusia-regional-rest",
+      "provider": "Junta de Andalucía",
+      "service_name": "Regional public-data REST API specification families",
+      "geographic_coverage": "Spain; Andalucía",
+      "topical_coverage": "Government/civic, law, tourism, culture, education, employment, regional statistics",
+      "dataset_families": "29published specification families: institutional agenda,immovables,RPT,employment,news,tourism,registryoffices,regulations,training/events,governingcouncil,heritage,procedures,municipalities,BOJA,statistics,agreements,publications,holidays. No private/person data queried.",
+      "documentation_url": "https://www.juntadeandalucia.es/datosabiertos/portal/aplicaciones/buscador-apis",
+      "api_base_url": "",
+      "format_protocol": "29distinct published OpenAPI JSON references; exact servers/paths/security unverified because spec targets unsent",
+      "authentication": "Unknown; no original specifications or runtime requests sent under policy holds",
+      "free_access_restrictions": "Public directory/detail documentation; service free-tier, keys, reuse terms and actual operation access unknown. No data licence inherited from CKAN/website/open standard.",
+      "license": "API-family-specific data grants unconfirmed",
+      "license_url": "https://www.juntadeandalucia.es/informacion/legal.html",
+      "api_verification_state": "all29_original_specification_targets_policy_deferred_documented_families_runtime_untested",
+      "latest_checked_utc": "2026-10-17T04:17:58.545305+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "anfr-data",
       "provider": "Agence nationale des frequences / ANFR",
       "service_name": "ANFR Open Data / Data4Citizen API",
@@ -6749,6 +6828,42 @@
       "license_url": "https://data.a2gov.org/city-of-ann-arbor/zoning-districts",
       "api_verification_state": "official_CKAN_link_API_policy_deferred_target_unsent",
       "latest_checked_utc": "2026-10-17T04:08:14.389070+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "aragon-core",
+      "provider": "Gobierno de Aragón / Aragón Open Data",
+      "service_name": "GA OD Core tabular data REST API",
+      "geographic_coverage": "Spain; Aragón and participating publishers",
+      "topical_coverage": "Multisector regional statistics, government, labor, health, education, environment, geospatial, civic data",
+      "dataset_families": "Published tabular views registry, column schemas, preview and JSON/CSV/XML/XLSX downloads; actual view list/underlying records untested",
+      "documentation_url": "https://opendata.aragon.es/informacion/herramientas-para-usuarios-as-y-desarrolladores-as/interfaz-de-programacion-de-aplicaciones-apis-y-punto-sparql/ga-od-core",
+      "api_base_url": "https://opendata.aragon.es/GA_OD_Core/",
+      "format_protocol": "Published REST Swagger /ui/; JSON views/show_columns/preview and download formats",
+      "authentication": "Original public views target unsent under robots policy; runtime access/authentication unknown",
+      "free_access_restrictions": "Small anonymous CKAN/SPARQL requests work; full current reuse terms/extra conditions and per-record NC exceptions must be assessed separately. No paid acquisition.",
+      "license": "Mixed: native catalog2033CC-BY-4.0,1CC-BY-SA-4.0,391CC-BY-NC-4.0; full service terms add conditions",
+      "license_url": "https://opendata.aragon.es/informacion/terminos-de-uso-licencias",
+      "api_verification_state": "official_Core_methods_documented_views_target_policy_deferred_untested",
+      "latest_checked_utc": "2026-10-17T04:15:18.801472+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "aragon-sparql",
+      "provider": "Gobierno de Aragón / Aragón Open Data",
+      "service_name": "Aragón linked data SPARQL endpoint",
+      "geographic_coverage": "Spain; Aragón and participating publishers",
+      "topical_coverage": "Multisector regional statistics, government, labor, health, education, environment, geospatial, civic data",
+      "dataset_families": "Published linked regional statistical/geographic RDF graph http://opendata.aragon.es/def/ei2av2; one RDFtypebinding sampled, not full graph coverage",
+      "documentation_url": "https://opendata.aragon.es/informacion/herramientas-para-usuarios-as-y-desarrolladores-as/interfaz-de-programacion-de-aplicaciones-apis-y-punto-sparql/sparql",
+      "api_base_url": "https://opendata.aragon.es/sparql",
+      "format_protocol": "SPARQL SELECT over HTTPS; actual JSON results head.vars/type and results.bindings",
+      "authentication": "Anonymous actual SELECT LIMIT1succeeded; no writes/updates/private queries",
+      "free_access_restrictions": "Small anonymous CKAN/SPARQL requests work; full current reuse terms/extra conditions and per-record NC exceptions must be assessed separately. No paid acquisition.",
+      "license": "Mixed: native catalog2033CC-BY-4.0,1CC-BY-SA-4.0,391CC-BY-NC-4.0; full service terms add conditions",
+      "license_url": "https://opendata.aragon.es/informacion/terminos-de-uso-licencias",
+      "api_verification_state": "actual_SPARQL_type_binding_sample_success_current_graph_service_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T04:15:16.274833+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10299,20 +10414,20 @@
     },
     {
       "identifier": "registry-opendata-aragon-es",
-      "provider": "Aragón Open Data",
-      "service_name": "Aragón Open Data portal API",
-      "geographic_coverage": "ES",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
-      "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
-      "documentation_url": "https://opendata.aragon.es/",
-      "api_base_url": "https://opendata.aragon.es/catalogo/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://opendata.aragon.es/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:41:53.169472+00:00",
+      "provider": "Gobierno de Aragón / Aragón Open Data",
+      "service_name": "Aragón CKAN data catalog API — current documented route",
+      "geographic_coverage": "Spain; Aragón and participating publishers",
+      "topical_coverage": "Multisector regional statistics, government, labor, health, education, environment, geospatial, civic data",
+      "dataset_families": "2425native dataset metadata:2033CCBY4,1CCBYSA4,391CCBYNC4. All indexed as metadata claims, not universal corpus/service open grant.",
+      "documentation_url": "https://opendata.aragon.es/informacion/herramientas-para-usuarios-as-y-desarrolladores-as/interfaz-de-programacion-de-aplicaciones-apis-y-punto-sparql/api-ckan",
+      "api_base_url": "https://opendata.aragon.es/aod/api/action/",
+      "format_protocol": "CKAN JSON Action API; current official docs show /aod/api/action rather than historical /catalogo/api/3/action",
+      "authentication": "No credentials for actual metadata requests",
+      "free_access_restrictions": "Small anonymous CKAN/SPARQL requests work; full current reuse terms/extra conditions and per-record NC exceptions must be assessed separately. No paid acquisition.",
+      "license": "Mixed: native catalog2033CC-BY-4.0,1CC-BY-SA-4.0,391CC-BY-NC-4.0; full service terms add conditions",
+      "license_url": "https://opendata.aragon.es/informacion/terminos-de-uso-licencias",
+      "api_verification_state": "actual_native_catalog_metadata_sample_success_current_service_terms_unresolved",
+      "latest_checked_utc": "2026-10-17T04:17:03.009329+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
