@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T16:24:45.826297+00:00",
+  "published_at": "2026-10-17T16:26:48.323989+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:16:31.451461+00:00",
+  "research_updated_at": "2026-10-17T16:25:37.520200+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three European research/network tasks assessed; UBB API candidate, Debrecen held, BioCASe54provider directory extracted/individually queued",
+  "latest_milestone": "Eight repository/biodiversity tasks reviewed: IntAct nativecount/CCBY4,CU metadata scopedCC0,Bristol nativeCKAN/NC,Health nativepublicPOST candidate,Tropicos keyrequired candidate",
   "counts": {
-    "verified": 255,
-    "candidates": 474,
-    "excluded": 66,
-    "sample_successes": 468
+    "verified": 257,
+    "candidates": 476,
+    "excluded": 67,
+    "sample_successes": 471
   },
   "remaining_work": [
     "Original saved portal-review frontier is empty; it is only one discovery subset. Global status remains in_progress.",
@@ -4890,6 +4890,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cu-scholar-metadata",
+      "provider": "University of Colorado Boulder Libraries",
+      "service_name": "CU Scholar public OAI-PMH metadata service",
+      "geographic_coverage": "CU Boulder institutional scholarship; item geographic scope varies",
+      "topical_coverage": "research; education; culture; multidisciplinary",
+      "dataset_families": "Bibliographic/descriptive metadata for institutional scholarship; full texts outside accepted scope",
+      "documentation_url": "https://libraries.colorado.edu/about/policies/open-metadata-policy-cu-boulder-libraries",
+      "api_base_url": "https://scholar.colorado.edu/catalog/oai",
+      "format_protocol": "OAI-PMH/XML documented; independent SOLR endpoint not resolved/tested",
+      "authentication": "unknown for registered exact endpoint; original root held, no API query",
+      "free_access_restrictions": "CC0 library-owned bibliographic/descriptive metadata unless otherwise noted or practical/contractual/privacy exceptions apply. No patron/user data.",
+      "license": "CC0 1.0 for library-created bibliographic/descriptive metadata, subject to stated exceptions",
+      "license_url": "https://libraries.colorado.edu/about/policies/open-metadata-policy-cu-boulder-libraries",
+      "api_verification_state": "official_metadata_CC0_and_OAI_documented_original_root_policy_held_endpoint_untested",
+      "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "cyprus-national",
       "provider": "Republic of Cyprus National Open Data Portal / Directorate for Digital Policy and Communications",
       "service_name": "Cyprus EKAN datastore query and dataset DCAT-AP metadata interfaces",
@@ -5913,6 +5931,24 @@
       "license_url": "https://www.ine.es/aviso_legal/",
       "api_verification_state": "documented_operation_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T18:57:51.344768+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "intact-imex-psicquic",
+      "provider": "EMBL-EBI IntAct / IMEx consortium",
+      "service_name": "IntAct PSICQUIC molecular interaction data API",
+      "geographic_coverage": "Global biological research; experimental organism/protein coverage varies",
+      "topical_coverage": "health; biodiversity; research",
+      "dataset_families": "Curated molecular/protein interactions; IMEx central records; publications and experimental evidence",
+      "documentation_url": "https://psicquic.github.io/PsicquicSpec_1_4_Rest.html | https://imex-consortium.github.io/about/",
+      "api_base_url": "http://www.ebi.ac.uk/Tools/webservices/psicquic/intact/webservices/current/search/",
+      "format_protocol": "PSICQUIC REST; native numeric count tested; documented PSI-MITAB,PSI-MI XML,BioPAX,XGMML formats",
+      "authentication": "None for tested count request; no account/key acquired",
+      "free_access_restrictions": "CCBY4 data with attribution; provider retains no-warranty and possible third-party patent rights. No broad source downloads; other PSICQUIC providers have independent terms.",
+      "license": "Creative Commons Attribution4.0 International for IntAct data",
+      "license_url": "https://imex-consortium.github.io/about/ | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "actual_native_numeric_count_sample_success_current_official_CCBY4_data_grant_verified",
+      "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12200,6 +12236,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nfdi4health-study-hub",
+      "provider": "NFDI4Health",
+      "service_name": "Health Study Hub public study metadata search API",
+      "geographic_coverage": "Germany-focused clinical,epidemiological and public-health study discovery; imported registry coverage varies",
+      "topical_coverage": "health; research; demographics",
+      "dataset_families": "Study descriptions; study-document metadata; research-resource links; no participant data retrieved",
+      "documentation_url": "https://health-study-hub.de/doc/api | https://health-study-hub.de/api/openapi.yaml",
+      "api_base_url": "https://health-study-hub.de/api/",
+      "format_protocol": "REST/JSON with OpenAPI3.0.1,YAML spec and NFDI4Health metadata schema",
+      "authentication": "Anonymous option explicitly permitted and tested for published-resource search; private/user/management routes require OAuth2/OpenIDConnect and were not queried",
+      "free_access_restrictions": "Public metadata search tested without account. Publication/management operations separate; source documents licences vary. No source/participant files acquired.",
+      "license": "Provider FAQ asserts published metadata not copyrighted/freely usable; formal licence/database/third-party scope unresolved",
+      "license_url": "https://www.nfdi4health.de/en/service/health-study-hub/frequently-asked-questions.html",
+      "api_verification_state": "actual_native_public_POST_search_metadata_sample_success_provider_freely_usable_claim_formal_scope_unresolved",
+      "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "niagara-regional-open-data",
       "provider": "Niagara Region / Niagara Open Data",
       "service_name": "Officially linked regional multi-publisher open-data catalog",
@@ -15080,6 +15134,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tropicos-web-services",
+      "provider": "Missouri Botanical Garden / Tropicos",
+      "service_name": "Tropicos REST web services",
+      "geographic_coverage": "Botanical nomenclature/specimen resource; geographic completeness unreviewed",
+      "topical_coverage": "biodiversity; research",
+      "dataset_families": "Taxonomic names,synonyms,accepted names,distributions,references,images,specimens,chromosome counts",
+      "documentation_url": "https://services.tropicos.org/",
+      "api_base_url": "http://services.tropicos.org/",
+      "format_protocol": "REST documented; method-specific response formats not tested",
+      "authentication": "API key required in every method call per official overview; none requested or used",
+      "free_access_restrictions": "unknown; mandatory authorised key, no account or paid acquisition",
+      "license": "unknown; no operative reuse licence verified",
+      "license_url": "",
+      "api_verification_state": "official_indexed_REST_overview_key_required_untested_original_frontend_policy_held_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tuebingen-fcs",
       "provider": "University of Tübingen / WebLicht",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -15195,7 +15267,7 @@
       "topical_coverage": "research; education; multidisciplinary",
       "dataset_families": "Institutional research datasets; reproducibility metadata; bibliographic citation exports",
       "documentation_url": "https://opendata.openscience.ubbcluj.ro/api/docs/ | https://opendata.openscience.ubbcluj.ro/faq",
-      "api_base_url": "https://opendata.openscience.ubbcluj.ro/oai (published OAI); https://opendata.openscience.ubbcluj.ro/api/citations/ (published citation export paths)",
+      "api_base_url": "https://opendata.openscience.ubbcluj.ro/oai",
       "format_protocol": "Published OAI-PMH and citation API paths; DataCite XML/BibTeX/RIS/text citation formats advertised by catalogue links",
       "authentication": "unknown for published read interfaces; no key/account acquired or sample after hold",
       "free_access_restrictions": "Dataset-specific access and licenses; cannot assume defaultCCBY4 covers all data or metadata. Terms/access scope unresolved.",
@@ -17221,6 +17293,24 @@
       "license_url": "https://opendata.bonn.de/seiten/nutzungsbedingungen",
       "api_verification_state": "actual_public_JSON_sample_success_DKAN_names_exact_park_metadata_current_restricted_terms_reviewed",
       "latest_checked_utc": "2026-10-17T11:48:19.864639+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bristol-data-repository",
+      "provider": "University of Bristol Research Data Service",
+      "service_name": "data.bris Research Data Repository CKAN API",
+      "geographic_coverage": "Institutional research repository; dataset-specific geographic scope",
+      "topical_coverage": "research; education; multidisciplinary",
+      "dataset_families": "Research datasets and descriptive catalogue metadata; discipline/family granularity unreviewed",
+      "documentation_url": "http://docs.ckan.org/en/2.7/api/ | https://data.bris.ac.uk/data/",
+      "api_base_url": "https://data.bris.ac.uk/data/api/3/",
+      "format_protocol": "CKAN Action API/JSON",
+      "authentication": "None for tested public catalogue search; source file/data restrictions separate",
+      "free_access_restrictions": "Default datasets under Non-Commercial Government Licence; contents CCBY4 only where applicable; no blanket metadata grant inferred.",
+      "license": "Default Non-Commercial Government Licence; individual contents may have applicable CC BY4",
+      "license_url": "https://data.bris.ac.uk/data/licence",
+      "api_verification_state": "actual_native_CKAN_metadata_sample_success_default_dataset_reuse_NC_restricted",
+      "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
       "classification": "restricted"
     },
     {
