@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T00:46:34.145933+00:00",
+  "published_at": "2026-10-17T00:48:36.657879+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:46:27.461116+00:00",
+  "research_updated_at": "2026-10-17T00:46:47.474321+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "3IDGservicesadded:1NoumeascopedOL2/2ANFRShomcandidates;ANFR9/Noumea25/Shom53metadata snapshots complete;27IDGrootoutcomes COMPLETE24HTTP200/3policydeferrals;global50938source-originAPIrightsqueueunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 153,
     "candidates": 205,
@@ -228,7 +228,8 @@
           "osm"
         ],
         "candidate_provider_ids": [
-          "openchargemap"
+          "openchargemap",
+          "shom-data"
         ],
         "restricted_provider_ids": [
           "un-comtrade"
@@ -256,6 +257,7 @@
           "nsidc",
           "planetary-computer",
           "saudi-mofa",
+          "shom-data",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": []
@@ -291,6 +293,7 @@
         ],
         "candidate_provider_ids": [
           "saudi-mofa",
+          "shom-data",
           "unhcr"
         ],
         "restricted_provider_ids": [
@@ -331,7 +334,8 @@
         "candidate_provider_ids": [
           "noaa-erddap",
           "noaa-ncei",
-          "pangaea"
+          "pangaea",
+          "shom-data"
         ],
         "restricted_provider_ids": [
           "copernicus-marine",
@@ -1249,7 +1253,8 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
-          "lithuania-statistics"
+          "lithuania-statistics",
+          "shom-data"
         ],
         "restricted_provider_ids": [
           "registry-data-bs-ch"
@@ -1272,7 +1277,9 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "anfr-data",
           "poland-gus-teryt",
+          "shom-data",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
@@ -1336,6 +1343,7 @@
           "poland-gus-strateg",
           "poland-gus-teryt",
           "serbia-apr",
+          "shom-data",
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": [
@@ -1360,7 +1368,9 @@
           "ices-dome",
           "transportapi-fi"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "shom-data"
+        ],
         "restricted_provider_ids": [
           "copernicus-marine"
         ]
@@ -1426,6 +1436,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "anfr-data",
           "b2share",
           "fsd-finland",
           "perspectivia",
@@ -2386,6 +2397,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "abs",
+          "noumea-data",
           "worldpop-geo",
           "worldpop-rest",
           "worldpop-stac"
@@ -2524,6 +2536,7 @@
           "ala",
           "australia",
           "linz",
+          "noumea-data",
           "worldpop-geo",
           "worldpop-rest",
           "worldpop-stac"
