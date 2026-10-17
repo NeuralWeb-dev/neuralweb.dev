@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T14:50:47.386887+00:00",
+  "published_at": "2026-10-17T14:52:50.464966+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:43:28.490478+00:00",
+  "research_updated_at": "2026-10-17T14:52:19.417602+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SaudiGeospatial8origins:765records247open457candidates61restricted;Montana39publishedinterfaces35bases;OpenAQhostednoncompetitionrestriction;59originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "TelanganaPacific8origins:767records248open457candidates62restricted;LINZBasemaps scopedeligiblecontent,GéoGuyaneCSWcapabilities/restrictedterms;51originals/allbroaderqueuesremain.",
   "counts": {
-    "verified": 247,
+    "verified": 248,
     "candidates": 457,
-    "excluded": 61,
-    "sample_successes": 461
+    "excluded": 62,
+    "sample_successes": 462
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6050,7 +6050,25 @@
       "license": "Creative Commons Attribution4.0 International for verified coastline layer",
       "license_url": "https://data.linz.govt.nz/layer/51153-nz-coastlines-and-islands-polygons-topo-150k/",
       "api_verification_state": "documented_key_required_untested_ancillary_sample_policy_restricted",
-      "latest_checked_utc": "2026-10-16T18:14:18.636856+00:00",
+      "latest_checked_utc": "2026-10-17T14:52:18.642449+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "linz-basemaps-api",
+      "provider": "Toitū Te Whenua / Land Information New Zealand",
+      "service_name": "LINZ Basemaps tile and style APIs",
+      "geographic_coverage": "New Zealand; product-dependent adjacent/marine imagery coverage",
+      "topical_coverage": "geospatial; environment; transportation; mapping",
+      "dataset_families": "Scoped acceptance: eligible LINZ-produced Topographic Basemap content. The separate Aerial Basemap includes LINZ imagery, Maxar/Sinergise/Copernicus contributions and GEBCO bathymetry; individual source attribution and grants remain relevant.",
+      "documentation_url": "https://www.linz.govt.nz/guidance/data-service/linz-basemaps-guide/how-use-linz-basemaps-apis",
+      "api_base_url": "https://basemaps.linz.govt.nz/v1/tiles/",
+      "format_protocol": "DocumentedXYZ/WMTS1.0.0rasterWebP/JPEG/PNG;TopographicMVT/PBFandTileJSON/StyleJSON. Key-dependentnativeAPIuntested.",
+      "authentication": "Standard access requires no registration but allocates a dynamic API key. Developer access uses registered static keys restricted to a site. No key was acquired or public example value used. This differs from LDS registration.",
+      "free_access_restrictions": "Standard and developer access currently have no charge. Reasonable use, access suspension and service discontinuance terms apply. Standard keys expire after90days; no registration or developer-access request was made.",
+      "license": "CC BY4.0 for eligible LINZ-produced topographic basemap content; material-specific attribution/source exceptions",
+      "license_url": "https://www.linz.govt.nz/copyright",
+      "api_verification_state": "official_key_dependent_Basemaps_API_documented_sample_untested_scoped_grant_verified",
+      "latest_checked_utc": "2026-10-17T14:52:18.627461+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7309,8 +7327,8 @@
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.426983+00:00",
+      "api_verification_state": "prior_documented_sample_success_current_query_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T14:52:18.642276+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13376,9 +13394,9 @@
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
       "license": "unknown",
-      "license_url": "https://opendefinition.org/licenses/cc-by/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:12.695993+00:00",
+      "license_url": "",
+      "api_verification_state": "legacy_API_candidate_current_original_root_policy_held_untested",
+      "latest_checked_utc": "2026-10-17T14:52:18.642392+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16945,6 +16963,24 @@
       "license_url": "https://dp.marsa.gccstat.org/terms-use",
       "api_verification_state": "documented_portal_JSON_catalog_metadata_sample_success_conditional_reuse_restricted",
       "latest_checked_utc": "2026-10-16T23:54:44.253850+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "geoguyane-csw-catalogue",
+      "provider": "AUDeG / GéoGuyane geographic information partnership",
+      "service_name": "GéoGuyane GeoNetwork CSW catalogue",
+      "geographic_coverage": "French Guiana; France overseas; South America",
+      "topical_coverage": "geospatial; environment; water; housing; transportation; biodiversity; civic data",
+      "dataset_families": "Geographic metadata covering water, land use, planning, housing, transport, biodiversity and local statistics. Native CSW capabilities only; no complete dataset catalogue enumerated.",
+      "documentation_url": "https://www.geoguyane.fr/accueil/geoservice",
+      "api_base_url": "https://catalogue.geoguyane.fr/geonetwork/srv/fre/csw",
+      "format_protocol": "Observed OGC CSW2.0.2 Capabilities XML,13791bytes, with seven advertised operations. Five concern read-only discovery; Transaction and Harvest were not executed. No features or observations tested.",
+      "authentication": "The capabilities request succeeded anonymously without an account or key. Access to other operations and individual resources remains untested.",
+      "free_access_restrictions": "The small capabilities request required no payment. Data-resource fees and access remain unknown. Publisher terms require metadata-specific conditions and source credit and prohibit transformations of data/metadata; possible work-level overrides remain unresolved.",
+      "license": "Publisher terms prohibit alteration/transformation of data and metadata; individual source grants may differ",
+      "license_url": "https://www.geoguyane.fr/accueil/mentions-legales",
+      "api_verification_state": "documented_sample_success_native_CSW_capabilities_only_reuse_restricted",
+      "latest_checked_utc": "2026-10-17T14:52:18.642032+00:00",
       "classification": "restricted"
     },
     {
