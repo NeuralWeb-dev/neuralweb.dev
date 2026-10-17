@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T15:03:04.222797+00:00",
+  "published_at": "2026-10-17T15:05:06.598747+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:02:23.835599+00:00",
+  "research_updated_at": "2026-10-17T15:04:13.223733+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "LincolnshireBrazil8origins:772records249open460candidates63restricted;5servicesadded,DFdocs/JSON404;43originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 249,
     "candidates": 460,
@@ -1123,6 +1123,7 @@
           "eclac",
           "edac-gstore",
           "esa-ecology",
+          "fortaleza-ckan-api",
           "montevideo-beaches",
           "wis2-argentina",
           "wis2-brazil",
@@ -1165,9 +1166,11 @@
         "candidate_provider_ids": [
           "ciencia-aberta",
           "dominican-data",
+          "fortaleza-ckan-api",
           "mexico-national-open-data",
           "montevideo-beaches",
-          "opendatasus"
+          "opendatasus",
+          "registry-dados-df-gov-br"
         ],
         "restricted_provider_ids": []
       },
@@ -1176,14 +1179,17 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "dominican-data",
-          "mexico-national-open-data"
+          "mexico-national-open-data",
+          "registry-dados-df-gov-br"
         ],
         "restricted_provider_ids": []
       },
       "housing": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "fortaleza-ckan-api"
+        ],
         "restricted_provider_ids": []
       },
       "transportation": {
@@ -1193,7 +1199,9 @@
           "recife-open-data"
         ],
         "candidate_provider_ids": [
+          "fortaleza-ckan-api",
           "montevideo-transport",
+          "registry-dados-df-gov-br",
           "rosario-city"
         ],
         "restricted_provider_ids": []
@@ -1229,9 +1237,12 @@
           "registry-dados-rs-gov-br"
         ],
         "candidate_provider_ids": [
+          "brazil-camara-dados-abertos",
           "dominican-data",
+          "fortaleza-ckan-api",
           "jamaica-data",
           "mindagri-ne",
+          "registry-dados-df-gov-br",
           "senado-br"
         ],
         "restricted_provider_ids": []
@@ -1252,6 +1263,7 @@
           "registry-dados-prefeitura-sp-gov-br"
         ],
         "candidate_provider_ids": [
+          "brazil-camara-dados-abertos",
           "dominican-data",
           "ecuador-cuenca",
           "montevideo-catalog",
@@ -1511,6 +1523,7 @@
           "iceland-statistics",
           "ices-dome",
           "italy-istat-sdmx",
+          "lincolnshire-open-data-portal",
           "madrid-open-data",
           "netherlands-catalog-metadata",
           "noi-opendatahub-metadata",
@@ -1687,6 +1700,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "italy-istat-sdmx",
+          "lincolnshire-open-data-portal",
           "lindat-repository",
           "moldova-data",
           "netherlands-catalog-metadata",
@@ -1760,6 +1774,7 @@
           "iceland-statistics",
           "italy-istat-sdmx",
           "jersey-government-open-data",
+          "lincolnshire-open-data-portal",
           "madrid-open-data",
           "netherlands-catalog-metadata",
           "oulu-open-data-api",
@@ -1796,6 +1811,7 @@
           "fingal-open-data",
           "georgia-statistics",
           "iceland-statistics",
+          "lincolnshire-open-data-portal",
           "netherlands-catalog-metadata",
           "piemonte-opendata-catalog",
           "poland-bdl",
@@ -1912,12 +1928,14 @@
         "verified_provider_ids": [
           "faroe-statistics",
           "iceland-statistics",
+          "lincolnshire-open-data-portal",
           "moldova-data",
           "poland-bdl",
           "redbridge-datashare",
           "ukraine-data"
         ],
         "candidate_provider_ids": [
+          "france-culture-open-data-portal",
           "poland-gus-smup"
         ],
         "restricted_provider_ids": []
@@ -1933,6 +1951,7 @@
         "candidate_provider_ids": [
           "charity-commission",
           "companies-house",
+          "france-culture-open-data-portal",
           "insee",
           "poland-gus-regon",
           "serbia-apr"
@@ -2049,6 +2068,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "italy-istat-sdmx",
+          "lincolnshire-open-data-portal",
           "lindat-repository",
           "lithuania-dataportal",
           "madrid-open-data",
@@ -2085,6 +2105,7 @@
           "cocoon-fcs",
           "czech-national-corpus-fcs",
           "diba-open-data-api",
+          "france-culture-open-data-portal",
           "galicia-abertos-catalog",
           "gotriple",
           "ilc4clarin-fcs",
@@ -2162,6 +2183,7 @@
           "clarin-vcr",
           "cocoon-fcs",
           "czech-national-corpus-fcs",
+          "france-culture-open-data-portal",
           "gotriple",
           "granada-university-open-data",
           "ilc4clarin-fcs",
@@ -6044,7 +6066,7 @@
       "license": "Open Government Licence v3.0; accepted Land and Building Assets work only",
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "documented_metadata_API_sample_policy_held_target_unsent_MCP_untested",
-      "latest_checked_utc": "2026-10-17T15:02:22.448006+00:00",
+      "latest_checked_utc": "2026-10-17T14:58:51.614838+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8998,7 +9020,7 @@
       "license": "unknown comprehensive data reuse instrument; explicit commercial application permission in FAQ",
       "license_url": "https://dadosabertos.camara.leg.br/faq/faq-home.html",
       "api_verification_state": "primary_indexed_documented_API_original_root_policy_held_sample_untested",
-      "latest_checked_utc": "2026-10-17T15:02:22.473421+00:00",
+      "latest_checked_utc": "2026-10-17T15:02:22.438444+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10366,7 +10388,7 @@
       "license": "unknown; infrastructure policy is not the adopted work licence",
       "license_url": "https://dados.fortaleza.ce.gov.br/base/pdf/decreto-imdafor-.pdf",
       "api_verification_state": "documented_API_small_catalogue_sample_policy_held_target_unsent",
-      "latest_checked_utc": "2026-10-17T15:02:22.456379+00:00",
+      "latest_checked_utc": "2026-10-17T15:01:28.220067+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10384,7 +10406,7 @@
       "license": "Work-specific licence labels; comprehensive licence verification pending",
       "license_url": "https://data.culturecommunication.gouv.fr/explore/dataset/zoneemploi_entrep_18/export/",
       "api_verification_state": "primary_indexed_dataset_API_documentation_root_policy_held_sample_untested",
-      "latest_checked_utc": "2026-10-17T15:02:22.482127+00:00",
+      "latest_checked_utc": "2026-10-17T15:02:22.438444+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13372,7 +13394,7 @@
       "license": "unknown; generic openness explanation and old work labels are not a blanket operative grant",
       "license_url": "",
       "api_verification_state": "documented_CKAN_current_sample_JSON404_not_API_success",
-      "latest_checked_utc": "2026-10-17T15:02:22.482389+00:00",
+      "latest_checked_utc": "2026-10-17T14:58:51.672612+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17604,7 +17626,7 @@
       "license": "Restricted municipal site/content terms; no open data grant verified",
       "license_url": "https://opendata.tel-aviv.gov.il/he/terms",
       "api_verification_state": "primary_indexed_API_documentation_original_root_policy_held_no_sample",
-      "latest_checked_utc": "2026-10-17T15:02:22.464991+00:00",
+      "latest_checked_utc": "2026-10-17T15:02:22.438444+00:00",
       "classification": "restricted"
     },
     {
