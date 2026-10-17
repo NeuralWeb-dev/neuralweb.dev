@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T22:08:02.821991+00:00",
+  "published_at": "2026-10-17T22:10:05.314688+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:07:09.873979+00:00",
+  "research_updated_at": "2026-10-17T22:09:24.531211+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed: iDigBio existing transition alias and five new services(three candidates,two restricted). UNITE125releaseDOIs, CAP29projects, PlutoF13rootlinks andNCED22rows indexed, source/runtime gaps retained.",
+  "latest_milestone": "HUNT restricted access verified; PRISM two native metadata responses/current custom terms verified but full open scope unresolved; GRACE mission deduplicated existingISDC.",
   "counts": {
     "verified": 303,
-    "candidates": 598,
-    "excluded": 141,
+    "candidates": 599,
+    "excluded": 142,
     "sample_successes": 474
   },
   "remaining_work": [
@@ -13820,16 +13820,16 @@
       "service_name": "ISDC public file-distribution hub and GNSS network source portal",
       "geographic_coverage": "Global satellite/geodetic mission and station products; GNSS page reports51stations available, not enumerated",
       "topical_coverage": "geodesy | satellite | gravity | GNSS | atmosphere | research",
-      "dataset_families": "GNSS RINEX/navigation/GPS data and mission/gravity archive partition references; raw binary onrequest and real-time services separate",
-      "documentation_url": "https://isdc.gfz.de/ | https://isdc.gfz.de/gnss-station-network/",
+      "dataset_families": "Existing GNSS/public mission archive plus GRACELevel1B instrument/orbit/AOD,Level2spherical harmonics andLevel3gridded products; GRACE atmospheric radio occultation",
+      "documentation_url": "https://isdc.gfz.de/ | https://isdc.gfz.de/gnss-station-network/ | https://isdc.gfz.de/grace-isdc/",
       "api_base_url": "https://isdc-data.gfz.de/ ; public file-directory frontend, independent machine-query API unestablished",
       "format_protocol": "HTTP/FTP file distribution documented; RINEX/NetCDF navbit files, no scientific query interface verified",
       "authentication": "Public root directory/documentation accessible; specific source file/stream conditions untested, no credentials/accounts",
       "free_access_restrictions": "Exact GNSS tracking-network source CC BY4 verified; other missions, station-metadata and service grants unknown; raw data on request not acquired",
       "license": "CC BY4 for named GNSS source collection; exact all-archive/metadata/database grants unknown",
       "license_url": "https://dataservices.gfz.de/10.5880/gfz.1.1.2020.001/gnss-data-of-the-global-gfz-tracking-network | https://isdc.gfz.de/legal-notice/",
-      "api_verification_state": "official_public_HTML_directory_and_source_grant_verified_no_independent_query_API",
-      "latest_checked_utc": "2026-10-17T20:17:40.620505+00:00",
+      "api_verification_state": "prior_public_HTML_directory_success_current_GRACE_mission_alias_and_FTP_docs_verified_independent_query_API_unestablished",
+      "latest_checked_utc": "2026-10-17T22:09:20.457958+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16530,6 +16530,24 @@
       "license_url": "https://data-cityofpg.opendata.arcgis.com/pages/about-open-data",
       "api_verification_state": "official_indexed_API_documented_sample_policy_deferred",
       "latest_checked_utc": "2026-10-17T12:19:31.402410+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "prism-climate-web-services",
+      "provider": "PRISM Group / Oregon State University NACSE",
+      "service_name": "PRISM grid, releaseDate and gridCount web services",
+      "geographic_coverage": "Documented current services CONUS; Alaska/Hawaii/Puerto Rico placeholders not claimed implemented",
+      "topical_coverage": "climate | weather | environment | agriculture | research",
+      "dataset_families": "Daily/monthly/annual precipitation, minimum/maximum/mean temperature, dewpoint and vapour-pressure deficit grids; release metadata and update counters",
+      "documentation_url": "https://prism.oregonstate.edu/downloads/ | https://prism.oregonstate.edu/documents/PRISM_downloads_web_service.pdf",
+      "api_base_url": "https://services.nacse.org/prism/data/get/",
+      "format_protocol": "Native anonymous releaseDate JSON5position array and gridCount numeric7 confirmed; raster ZIP/COG/NetCDF/ASCII/BIL documented, not downloaded",
+      "authentication": "Anonymous metadata samples succeeded; no key/account used",
+      "free_access_restrictions": "Native website says public data free; terms permit reproduction/distribution with attribution/access date. Ownership reserved; explicit derivative grant unresolved",
+      "license": "Custom terms explicitly allow free data reproduction/distribution and require source/access-date acknowledgement; explicit derivative-use permission unknown",
+      "license_url": "https://prism.oregonstate.edu/terms",
+      "api_verification_state": "native_anonymous_gridCount_scalar7_and_releaseDate_JSON5fields_success_current_custom_reuse_terms_verified_open_scope_unresolved",
+      "latest_checked_utc": "2026-10-17T22:09:20.457958+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22004,6 +22022,24 @@
       "license_url": "https://openarchive.tk.mta.hu/policies.html",
       "api_verification_state": "native_OAI2_documented_Identify_robots_disallowed_target_unsent_NC_metadata_policy_verified",
       "latest_checked_utc": "2026-10-17T22:01:12.811476+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "hunt-health-study",
+      "provider": "Norwegian University of Science and Technology / HUNT Research Centre",
+      "service_name": "HUNT Databank / Trøndelag Health Study",
+      "geographic_coverage": "Trøndelag, Norway population health research; exact cohort/wave inventory not queried",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Population health study variables, questionnaires, genetic/large-scale biodata and biospecimen research access",
+      "documentation_url": "https://www.ntnu.edu/hunt/dataaccess",
+      "api_base_url": "",
+      "format_protocol": "Native institutional access documentation; no machine API established",
+      "authentication": "Research application/account, ethics approval, DAC approval and signed agreement required for study data; none used",
+      "free_access_restrictions": "Project-specific time-limited agreement and invoiced data analysis/publication access; external researchers need Norwegian PI collaboration. No paid acquisition",
+      "license": "Restricted project-specific permission; no verified open data/metadata licence",
+      "license_url": "https://www.ntnu.edu/hunt/dataaccess",
+      "api_verification_state": "native_research_approval_agreement_and_fee_requirements_verified_no_public_API_sample",
+      "latest_checked_utc": "2026-10-17T22:09:20.457958+00:00",
       "classification": "restricted"
     },
     {
