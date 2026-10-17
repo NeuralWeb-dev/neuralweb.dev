@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T14:26:16.958720+00:00",
+  "published_at": "2026-10-17T14:28:19.457943+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:25:57.279773+00:00",
+  "research_updated_at": "2026-10-17T14:27:06.613650+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "WesternCivic8origins:762records246open457candidates59restricted;WA2097names/search2917 discrepancy;WinnipegscopedOGL;WhitehorserestrictedportalAPIunconfirmed;75originals and broaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 246,
     "candidates": 457,
@@ -608,6 +608,7 @@
           "usda-cdl",
           "usgs-water",
           "utah-ugrc-api",
+          "winnipeg-open-data-api",
           "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
@@ -644,7 +645,8 @@
         "restricted_provider_ids": [
           "burlington-navigate",
           "calhhs-open-data",
-          "north-okanagan-gis-open-data"
+          "north-okanagan-gis-open-data",
+          "whitehorse-restricted-data-portal"
         ]
       },
       "water": {
@@ -676,7 +678,8 @@
           "vernon-public-geospatial-api"
         ],
         "restricted_provider_ids": [
-          "colorado-information-marketplace"
+          "colorado-information-marketplace",
+          "whitehorse-restricted-data-portal"
         ]
       },
       "energy": {
@@ -768,9 +771,12 @@
           "opendataphilly-jkan",
           "princegeorge-road-traffic-api",
           "surrey-open-data-map-service",
-          "toronto-open-data-catalog-api"
+          "toronto-open-data-catalog-api",
+          "welland-open-data-planning-api"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "whitehorse-restricted-data-portal"
+        ]
       },
       "transportation": {
         "status": "partial_verified",
@@ -778,7 +784,8 @@
           "greenland-statistics",
           "reddeer-open-data",
           "utah-ugrc-api",
-          "vancouver-open-data-api"
+          "vancouver-open-data-api",
+          "winnipeg-open-data-api"
         ],
         "candidate_provider_ids": [
           "annarbor-open-data",
@@ -797,7 +804,8 @@
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
-          "denver-open-data"
+          "denver-open-data",
+          "whitehorse-restricted-data-portal"
         ]
       },
       "geospatial": {
@@ -867,6 +875,7 @@
           "us-data-gov-catalog",
           "vernon-public-geospatial-api",
           "waterloo-city-open-data",
+          "welland-open-data-planning-api",
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
@@ -875,7 +884,8 @@
           "denver-open-data",
           "idaho-taxing-district-gis",
           "mississauga-open-data",
-          "north-okanagan-gis-open-data"
+          "north-okanagan-gis-open-data",
+          "whitehorse-restricted-data-portal"
         ]
       },
       "public spending/contracts": {
@@ -1018,7 +1028,8 @@
           "metmuseum",
           "nih-rxnav",
           "sctld",
-          "seafloor"
+          "seafloor",
+          "winnipeg-open-data-api"
         ],
         "candidate_provider_ids": [
           "artic",
@@ -3206,6 +3217,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "csiro-data-access-portal",
+          "data-wa-catalogue-api",
           "pacific-stat",
           "qspatial-csw-catalog",
           "spc-pccos-tds"
@@ -3226,6 +3238,7 @@
           "aims-metadata-catalog",
           "brisbane-open-data",
           "csiro-data-access-portal",
+          "data-wa-catalogue-api",
           "esa-ecology",
           "mbie-geodata",
           "nsw-open-data-catalog",
@@ -3252,6 +3265,7 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "data-wa-catalogue-api",
           "qspatial-csw-catalog",
           "queensland-data",
           "sunshine-coast-open-data-search",
@@ -3263,6 +3277,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "data-wa-catalogue-api",
           "mbie-geodata"
         ],
         "restricted_provider_ids": []
@@ -3272,6 +3287,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "ada-dataverse",
+          "data-wa-catalogue-api",
           "pacific-data",
           "pacific-stat"
         ],
@@ -3281,6 +3297,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "data-wa-catalogue-api",
           "nsw-open-data-catalog",
           "pacific-data",
           "pacific-stat",
@@ -3309,6 +3326,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "data-wa-catalogue-api",
           "georep-localisation",
           "opt-nc-data",
           "queensland-data",
@@ -3333,6 +3351,7 @@
           "aadc-metadata",
           "brisbane-open-data",
           "cook-geospatial",
+          "data-wa-catalogue-api",
           "fiji-tltb",
           "georep-localisation",
           "mbie-geodata",
@@ -3441,6 +3460,7 @@
         "candidate_provider_ids": [
           "brisbane-open-data",
           "csiro-data-access-portal",
+          "data-wa-catalogue-api",
           "pacific-stat",
           "qspatial-csw-catalog",
           "spc-pccos-tds",
