@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T10:43:36.771708+00:00",
+  "published_at": "2026-10-17T10:45:39.586483+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T10:43:26.788331+00:00",
+  "research_updated_at": "2026-10-17T10:44:10.970093+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Regional north ten origins checkpointed:693services228open416candidates49restricted;NOLA240nativeassets108CC0;NiagaraFalls349assets318city-onlyOGL;LowerAustriaactualXML/restrictedadditionalterms;Navarra/Nevada/NiagaraRegioncandidates.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 228,
     "candidates": 416,
@@ -699,7 +699,8 @@
           "census",
           "dc-open-data",
           "greenland-statistics",
-          "hartford-open-data"
+          "hartford-open-data",
+          "new-orleans-open-data"
         ],
         "candidate_provider_ids": [
           "census-geocoder",
@@ -741,6 +742,8 @@
           "kingston-open-data",
           "kitchener-geohub",
           "nanaimo-open-data",
+          "new-orleans-open-data",
+          "niagara-falls-open-data",
           "pasadena-open-data",
           "seafloor",
           "usda-cdl",
@@ -768,6 +771,7 @@
           "miami-dade-open-data",
           "minneapolis-open-data",
           "nashville-open-data",
+          "nevada-county-open-data",
           "palo-alto-open-data",
           "sacramento-open-data",
           "us-data-gov-catalog",
@@ -1376,6 +1380,7 @@
         "restricted_provider_ids": [
           "catalonia-open-data",
           "copernicus-marine",
+          "lower-austria-ogd",
           "ticino-palma-api"
         ]
       },
@@ -1459,6 +1464,7 @@
           "cessda-catalogue",
           "latvia-statistics",
           "lithuania-statistics",
+          "navarra-open-data",
           "registry-opendata-aragon-es",
           "terrassa-open-data"
         ],
@@ -1638,6 +1644,7 @@
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "mulhouse-alsace-open-data",
+          "navarra-open-data",
           "os-os-places-api",
           "poland-gus-teryt",
           "registry-daten-sg-ch",
