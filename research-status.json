@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T10:04:48.592992+00:00",
+  "published_at": "2026-10-17T10:06:51.082490+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T10:01:47.639226+00:00",
+  "research_updated_at": "2026-10-17T10:06:49.154156+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "North Atlantic:10 original origins reviewed; Data Mill641 andKingston418 native descriptions indexed. NamedSheffield spendingOGL3 andKingstonSoccerFields localOGL1 verified.676 services:222open/407candidates/47restricted;314 originals remain;global in_progress.",
+  "latest_milestone": "Regional10origins:London1306native descriptions/named2016resultsOGL3;Loire namedEtalab2documentedAPIheld.677services:224open/406candidates/47restricted;304originals remain;global_in_progress.",
   "counts": {
-    "verified": 222,
-    "candidates": 407,
+    "verified": 224,
+    "candidates": 406,
     "excluded": 47,
-    "sample_successes": 420
+    "sample_successes": 421
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5634,6 +5634,42 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "loire-atlantique-open-data",
+      "provider": "Departement de Loire-Atlantique, France",
+      "service_name": "Loire-Atlantique Explore API; scoped decrees and decisions work",
+      "geographic_coverage": "Loire-Atlantique, France",
+      "topical_coverage": "law and civic data; regional government; multisector portal discovery",
+      "dataset_families": "Verified licensed scope: Arretes et decisions du Departement de Loire-Atlantique, native ID224400028_arretes-et-decisions-conseil-departemental. Named HTML says publication since1November2024 and embeds17 schema fields. Embedded4686-record claim is not a tested API count or complete record inventory. Other works unreviewed.",
+      "documentation_url": "https://data.loire-atlantique.fr/explore/dataset/224400028_arretes-et-decisions-conseil-departemental/api/",
+      "api_base_url": "https://data.loire-atlantique.fr/api/explore/v2.1/",
+      "format_protocol": "Documented Explore API2.1 JSON and record-query console. Actual sample was held; metadata extracted from HTML remains documentation, not an API response.",
+      "authentication": "Portal terms document public access. Runtime API authentication untested because request was held before sending; no account/key used.",
+      "free_access_restrictions": "Full portal terms say public datasets are accessible/downloadable without charge, with reuse governed by the licence specified for each dataset. Only named work bound to Etalab2.",
+      "license": "Etalab Licence Ouverte / Open Licence2.0; named decrees and decisions work only",
+      "license_url": "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf",
+      "api_verification_state": "documented_Explore_API_untested_policy_held_named_HTML_grant_verified",
+      "latest_checked_utc": "2026-10-17T10:06:48.663675+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "london",
+      "provider": "Greater London Authority, London Datastore",
+      "service_name": "London Datastore public metadata API; scoped2016 election-results work",
+      "geographic_coverage": "London,United Kingdom; accepted work: ward,borough and constituency election results",
+      "topical_coverage": "law and civic data; elections; multisector regional catalog discovery",
+      "dataset_families": "Verified licensed scope: London Elections Results2016,Wards,Boroughs,Constituency, native IDemq4p,three file references. Native public export1306 unique descriptions,11369 file references and313 external links. Other1305 works and whole-metadata grant remain unconfirmed.",
+      "documentation_url": "https://data.london.gov.uk/guidance/datastore-api",
+      "api_base_url": "https://data.london.gov.uk/api/v3/dataset/ | https://data.london.gov.uk/api/v3/datasets/export.json",
+      "format_protocol": "Actual public JSON named-dataset metadata and full public catalog export. Underlying selected work files were not downloaded.",
+      "authentication": "Anonymous metadata reads succeeded. Current official guide links DataPress documentation; optional key for private/editor use not obtained or exercised.",
+      "free_access_restrictions": "Current official homepage calls the portal free; tested public metadata required no payment. Named2016 results explicitly OGL3. Other contributed works have varying terms.",
+      "license": "UK Open Government Licence v3.0; named2016 election-results work only",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "api_verification_state": "actual_public_JSON_sample_success_named_dataset_metadata_and_full_catalogue_scoped_OGL3",
+      "latest_checked_utc": "2026-10-17T10:06:48.664015+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "los-angeles-data",
       "provider": "City of Los Angeles",
       "service_name": "DataLA Socrata APIs,scoped budget dataset",
@@ -10421,24 +10457,6 @@
       "license_url": "https://www.dati.lombardia.it/stories/s/ide6-ffgv",
       "api_verification_state": "actual_public_JSON_sample_success_named_metadata_and_suppressed_aggregate_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T08:32:01.193415+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "london",
-      "provider": "Greater London Authority Datastore",
-      "service_name": "Greater London Authority Datastore open data portal",
-      "geographic_coverage": "United Kingdom/London",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://data.london.gov.uk/",
-      "api_base_url": "https://data.london.gov.uk/",
-      "format_protocol": "catalog API unresolved",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://data.london.gov.uk/terms/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:27:24.764633+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
