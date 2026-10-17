@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:55:55.471099+00:00",
+  "published_at": "2026-10-17T18:57:58.034322+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:52:52.538191+00:00",
+  "research_updated_at": "2026-10-17T18:57:45.927693+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NUKazakhstan OAIverified/rightsunknown; coastMapWFS16featuretypes verified/NCdefault; CDIPno-alteration default documented under nativehold",
+  "latest_milestone": "Nine originals reviewed,eightrecords added; FREDmetadata/MassBankopenrecordnativeinterfaces verified,NUOAI/coastMapWFS sampled; explicitsource/legal gaps retained",
   "counts": {
-    "verified": 275,
+    "verified": 276,
     "candidates": 506,
-    "excluded": 105,
+    "excluded": 106,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -113,6 +113,7 @@
           "emodnet",
           "esgf-cmip5-discovery",
           "geri",
+          "igb-fred-metadata-interface",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
@@ -161,6 +162,7 @@
         "verified_provider_ids": [
           "emodnet",
           "geri",
+          "igb-fred-metadata-interface",
           "nasa-cmr"
         ],
         "candidate_provider_ids": [
@@ -362,6 +364,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "gbif",
+          "igb-fred-metadata-interface",
           "intact-imex-psicquic",
           "obis",
           "uniprot"
@@ -501,6 +504,7 @@
           "geri",
           "getty-provenance",
           "getty-vocabularies",
+          "igb-fred-metadata-interface",
           "intact-imex-psicquic",
           "marine-regions-modern-boundaries-ogc",
           "metmuseum",
@@ -543,6 +547,7 @@
           "ena",
           "esa-ecology",
           "europepmc",
+          "georoc2-testing-api",
           "getty-museum",
           "gwas-catalog",
           "huggingface-dataset-hub",
@@ -4070,7 +4075,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "kazakhstan-ogd"
+          "kazakhstan-ogd",
+          "nur-kazakhstan-oai"
         ],
         "restricted_provider_ids": [
           "kyrgyz-nso"
@@ -4157,9 +4163,11 @@
         ]
       },
       "research": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nur-kazakhstan-oai"
+        ],
         "restricted_provider_ids": []
       }
     }
@@ -6791,6 +6799,24 @@
       "license_url": "https://www.marineregions.org/disclaimer.php | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "official_OGC_documentation_verified_native_runtime_untested_original_policy_hold",
       "latest_checked_utc": "2026-10-17T18:28:37.337476+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "massbank-europe-rest",
+      "provider": "MassBank / European MassBank consortium",
+      "service_name": "MassBank3 REST spectral-record API (open-record scope)",
+      "geographic_coverage": "International research-contributor spectral library; not population geography",
+      "topical_coverage": "chemistry | environment | biology | research",
+      "dataset_families": "Reference mass spectra, chemical identifiers, experimental/acquisition metadata and record-specific publication/licence information",
+      "documentation_url": "https://massbank.eu/MassBank-api/ui/ | https://massbank.eu/MassBank-api/ui/openapi.yaml | https://github.com/MassBank/MassBank3",
+      "api_base_url": "https://massbank.eu/MassBank-api",
+      "format_protocol": "REST JSON; liveOpenAPI3.0.3schema; record/filter/count/metadata/similarity interfaces documented",
+      "authentication": "Anonymous single-record JSON and count requests succeeded; no key/account used",
+      "free_access_restrictions": "Selected public API calls no payment/account; per-record licences govern reuse, noncommercial variants excluded from open scope",
+      "license": "CC BY-SA explicit sampled record label; version unspecified. Other records individually licensed.",
+      "license_url": "https://massbank.eu/MassBank-api/records/MSBNK-AAFC-AC000001 | https://raw.githubusercontent.com/MassBank/MassBank-web/dev/Documentation/MassBankRecordFormat.md",
+      "api_verification_state": "native_anonymous_JSON_spectral_record_and_numeric_count_success_liveOpenAPI_verified",
+      "latest_checked_utc": "2026-10-17T18:56:32.676384+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -19215,6 +19241,24 @@
       "license_url": "https://www.imf.org/en/About/copyright-and-terms.",
       "api_verification_state": "documented_api_untested",
       "latest_checked_utc": "2026-10-16T17:36:21.542031+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "imk-iaa-mipas-restricted",
+      "provider": "KIT IMK / Instituto de Astrofisica de Andalucia",
+      "service_name": "IMK/IAA processed MIPAS-Envisat data access (restricted)",
+      "geographic_coverage": "Satellite atmospheric profiles across MIPASmission and observation modes; source-specific extent",
+      "topical_coverage": "climate | atmosphere | environment | research",
+      "dataset_families": "Processed temperature/trace-gas/aerosol/cloud retrieval profiles and selected climatologies",
+      "documentation_url": "https://www.imkasf.kit.edu/english/308.php | https://www.imk-asf.kit.edu/english/1500.php",
+      "api_base_url": "",
+      "format_protocol": "Public product documentation and registration portal, not verified public machine API",
+      "authentication": "Scientists must specify research task and confirm data protocol; registration required, not performed",
+      "free_access_restrictions": "Third-group redistribution requires processor written permission; publication references and reciprocal-data-access expectations documented",
+      "license": "Custom research/data-protocol agreement prohibiting redistribution without written permission",
+      "license_url": "https://www.imk-asf.kit.edu/english/1500.php",
+      "api_verification_state": "restricted_registration_terms_and_product_portal_verified_public_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:56:32.676384+00:00",
       "classification": "restricted"
     },
     {
