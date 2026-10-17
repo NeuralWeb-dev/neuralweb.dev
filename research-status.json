@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-17T17:11:44.572276+00:00",
+  "published_at": "2026-10-17T17:13:47.135354+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:07:01.851046+00:00",
+  "research_updated_at": "2026-10-17T17:12:29.043544+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Seven original repository tasks reviewed; existing B2SHARE public metadata CC0 verified with runtime held, INDEPTH restricted and SURF candidate added; EUDAT7 references indexed",
+  "latest_milestone": "Threeclinical/lexical/geospatialoriginsreviewed;TIGERnative37services1987refs+Californiaqueryandscopedpublicdomaingrant,CNRTLnativecandidate,ZKSAPIunresolved",
   "counts": {
-    "verified": 262,
+    "verified": 263,
     "candidates": 481,
     "excluded": 72,
     "sample_successes": 473
@@ -4753,6 +4753,24 @@
       "license_url": "https://api.census.gov/data/2023/acs/acs5.json",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:57:11.397197+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "census-tigerweb",
+      "provider": "US Census Bureau",
+      "service_name": "TIGERweb ArcGIS REST services",
+      "geographic_coverage": "United States",
+      "topical_coverage": "geospatial; demographics",
+      "dataset_families": "TIGER geographic boundaries,states/counties,tracts/blocks,tribal/legislative/school/urbanareas,transportation/hydrography;versionedMapServicesandlabelsindexedseparately,notdemographicsintrinsictoTIGER/Lineshapefiles",
+      "documentation_url": "https://www.census.gov/data/developers/data-sets/TIGERweb-map-service.html | https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_restmapservice.html",
+      "api_base_url": "https://tigerweb.geo.census.gov/arcgis/rest/services/",
+      "format_protocol": "REST/JSON; resource-specific formats",
+      "authentication": "None for nativefolder,37servicedescriptors,layerdescriptorandonepublicattributequery",
+      "free_access_restrictions": "AcceptedCensus-sourcedTIGERgeographicdataexplicitpublicdomain;sourcecreditrequested/trademarksseparate. No sourceZIPshapefiles,images,addresses/person-leveldataorbulkgeometriesacquired.",
+      "license": "Public-domain TIGER geographic data per explicit Census provider statement",
+      "license_url": "https://www.census.gov/newsroom/archives/2014-pr/cb14-208.html",
+      "api_verification_state": "actual_native_folder37_service_descriptors1987layer_refs_and_one_California_attribute_JSON_query_success_explicit_TIGER_publicdomain_source_verified",
+      "latest_checked_utc": "2026-10-17T17:12:24.778906+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9582,24 +9600,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "census-tigerweb",
-      "provider": "US Census Bureau",
-      "service_name": "TIGERweb ArcGIS REST services",
-      "geographic_coverage": "United States",
-      "topical_coverage": "geospatial; demographics",
-      "dataset_families": "Census geographic boundaries; tracts; blocks; administrative areas",
-      "documentation_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-web.html",
-      "api_base_url": "https://tigerweb.geo.census.gov/arcgis/rest/services/",
-      "format_protocol": "REST/JSON; resource-specific formats",
-      "authentication": "unknown; no-key public sample candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown for this API service; source data rights require explicit confirmation",
-      "license_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:13:11.876057+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "cerp-sfwmd",
       "provider": "CERP - South Florida Water Management District",
       "service_name": "CERP - South Florida Water Management District DataONE research repository API",
@@ -9939,6 +9939,24 @@
       "license_url": "https://collections.clarin.eu/swagger.json",
       "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
       "latest_checked_utc": "2026-10-17T02:50:06.926212+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cnrtl-portail-lexical-suggestions",
+      "provider": "CNRTL / Portail lexical",
+      "service_name": "Portail lexical OpenSearch JSON suggestions API",
+      "geographic_coverage": "French-languagelexicalforms;institutionFrance,notgeographicobservationdata",
+      "topical_coverage": "culture; education; research",
+      "dataset_families": "OpenSearchlexicalautocomplete/suggestedforms;fulllexicographicentriesnotverifiedasAPI",
+      "documentation_url": "https://www.cnrtl.fr/opensearch.xml | https://www.cnrtl.fr/",
+      "api_base_url": "https://www.cnrtl.fr/api/opensearch/",
+      "format_protocol": "OpenSearch1.1XMLdescriptor;application/x-suggestions+json readresponse",
+      "authentication": "None for successful publicdescriptor/suggestionread",
+      "free_access_restrictions": "Publicsmallreadwithoutcredentials;currentreuselicense/free-tiertermsunknown. No user/account/dictionarybulkqueries.",
+      "license": "unknown for current JSON suggestion output/sourcelexicalcorpus",
+      "license_url": "https://www.cnrtl.fr/info/",
+      "api_verification_state": "actual_native_OpenSearch_XML_descriptor_and_JSON_suggestion_sample_success_current_grant_unconfirmed",
+      "latest_checked_utc": "2026-10-17T17:12:24.778906+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
