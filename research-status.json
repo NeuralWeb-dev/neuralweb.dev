@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T02:18:29.328970+00:00",
+  "published_at": "2026-10-17T02:20:31.865950+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:12:54.451627+00:00",
+  "research_updated_at": "2026-10-17T02:19:05.958790+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research metadata API/rights batch started: FSD,DOAJ,BioStudies,EuropePMC",
+  "latest_milestone": "Researchmetadata5service reviews checkpointed: FSD scopedCC0promotion,DOAJnewCC0,BioStudies/CESSDA/EuropePMCcandidate;nativeindexesongoing",
   "counts": {
-    "verified": 162,
-    "candidates": 288,
+    "verified": 164,
+    "candidates": 289,
     "excluded": 30,
-    "sample_successes": 286
+    "sample_successes": 290
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3711,6 +3711,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "doaj",
+      "provider": "DOAJ Fonden / Directory of Open Access Journals",
+      "service_name": "DOAJ Fonden / Directory of Open Access Journals public metadata APIs",
+      "geographic_coverage": "Global; journal publisher countries indexed separately",
+      "topical_coverage": "research; education; health",
+      "dataset_families": "Open access journal and article descriptive metadata; journalCSV; OAI-PMH and public APIsearch; publisher CRUD/admin routes excluded",
+      "documentation_url": "https://doaj.org/docs/api/",
+      "api_base_url": "https://doaj.org/api/",
+      "format_protocol": "REST/JSON Swagger2;OAI-PMH/XML documented;CSV metadata export",
+      "authentication": "Anonymous public journal/article GET tested; publisher write/admin APIs require keys and were not used",
+      "free_access_restrictions": "Public metadata API and CSV accessed without payment/key; optional Premium services outside scope",
+      "license": "CC0 1.0",
+      "license_url": "https://doaj.org/terms/",
+      "api_verification_state": "actual_journal_and_article_JSON_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:19:05.609897+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "dryad",
       "provider": "Dryad",
       "service_name": "Dryad public API",
@@ -4014,6 +4032,24 @@
       "license_url": "https://ratings.food.gov.uk/terms-and-conditions",
       "api_verification_state": "documented_reference_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T18:55:28.099683+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "fsd-finland",
+      "provider": "Finnish Social Science Data Archive",
+      "service_name": "Finnish Social Science Data Archive public metadata APIs",
+      "geographic_coverage": "Finland; international and comparative social science studies",
+      "topical_coverage": "research; demographics; health; education",
+      "dataset_families": "FSD public research-study descriptions and variable/question metadata; Kuha2 OAI-PMH/DDI/DC/EAD3; SKG-IF basic research products; published Finnish/English DDI URL indexes",
+      "documentation_url": "https://www.fsd.tuni.fi/fi/aineistot/taustatietoa/ddi-records/",
+      "api_base_url": "https://services.fsd.tuni.fi/v0/oai | https://api.fsd.tuni.fi/skg-if/",
+      "format_protocol": "OAI-PMH/XML;DDI-C2.5XML;SKG-IFJSON-LD/OpenAPI",
+      "authentication": "No credentials for tested public metadata; survey microdata access varies separately",
+      "free_access_restrictions": "FSD documentation says services free; only public descriptive metadata accepted,notallmicrodata",
+      "license": "CC0 1.0 since19March2026",
+      "license_url": "https://www.fsd.tuni.fi/en/news/news-releases/084/ | https://www.fsd.tuni.fi/fi/aineistot/taustatietoa/ddi-records/",
+      "api_verification_state": "actual_SKGIF_JSON_and_DDI_XML_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:19:05.609864+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6233,6 +6269,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "biostudies",
+      "provider": "EMBL-EBI BioStudies",
+      "service_name": "EMBL-EBI BioStudies public metadata APIs",
+      "geographic_coverage": "Global; biological studies and publication-linked supplementary datasets",
+      "topical_coverage": "research; health; biodiversity",
+      "dataset_families": "Publication-associated biological study metadata and supplementary-data references; ArrayExpress,EuropePMC and other native collections indexed separately",
+      "documentation_url": "https://www.ebi.ac.uk/biostudies/help/help.html",
+      "api_base_url": "https://www.ebi.ac.uk/biostudies/api/v1/",
+      "format_protocol": "REST/JSON;PageTab study structures;publiccollectionsearch metadata",
+      "authentication": "Anonymous public search tested; private/embargoed/authenticated/secret-key interfaces excluded",
+      "free_access_restrictions": "Public study metadata accessible withoutlogin; terms/data-owner-rights apply; no generalunrestrictedcorpusgrant established",
+      "license": "Per-study License field; otherwise EMBL-EBI terms retain original owner rights",
+      "license_url": "https://www.ebi.ac.uk/biostudies/help/help.html | https://www.ebi.ac.uk/about/terms-of-use/",
+      "api_verification_state": "actual_public_search_and_collection_JSON_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:19:05.609921+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "botswana-microdata",
       "provider": "Statistics Botswana",
       "service_name": "Statistics Botswana NADA study-catalog metadata API",
@@ -6410,6 +6464,24 @@
       "license_url": "https://cerp-sfwmd.dataone.org/metacat/d1/mn/v2/object/urn%3Auuid%3Ac930a0ef-2da0-4c07-a58e-578c1de57859",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:27.565970+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cessda-catalogue",
+      "provider": "CESSDA ERIC",
+      "service_name": "CESSDA ERIC public metadata APIs",
+      "geographic_coverage": "Europe; contributing social science archives and multilingual metadata",
+      "topical_coverage": "research; demographics; health; education",
+      "dataset_families": "Federated multilingual European social-science study metadata;11nativeOAIsets indexed; not respondent datasets",
+      "documentation_url": "https://datacatalogue.cessda.eu/documentation/",
+      "api_base_url": "https://datacatalogue.cessda.eu/oai-pmh/v0/oai",
+      "format_protocol": "OAI-PMH/XML;DDICodebook/Lifecycle metadata aggregation",
+      "authentication": "No credentials for tested OAIIdentify/ListSets metadata",
+      "free_access_restrictions": "Public metadata requests succeeded; operative corpusgrant unknown; upstream archives have ownaccess/rights",
+      "license": "unknown; CC BY4userguidefooter does not establish aggregatedmetadata grant",
+      "license_url": "",
+      "api_verification_state": "actual_OAIIdentify_and_ListSets_XML_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:19:05.609939+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6937,7 +7009,7 @@
     {
       "identifier": "europepmc",
       "provider": "EMBL-EBI / Europe PMC",
-      "service_name": "EMBL-EBI / Europe PMC API",
+      "service_name": "EMBL-EBI / Europe PMC public metadata APIs",
       "geographic_coverage": "Global",
       "topical_coverage": "health; research",
       "dataset_families": "Biomedical publication metadata; grants; open-access full text",
@@ -6946,10 +7018,10 @@
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://europepmc.org/Copyright",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:28:36.152054+00:00",
+      "license": "Metadata corpus reuse grant unconfirmed; material retains author/publisher rights unless explicitly otherwise licensed",
+      "license_url": "https://europepmc.org/Copyright | https://europepmc.org/help",
+      "api_verification_state": "historical_search_metadata_sample_success_current_license_policy_deferred",
+      "latest_checked_utc": "2026-10-17T02:19:05.609960+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7022,24 +7094,6 @@
       "license_url": "https://www.avoindata.fi/en/terms-of-use",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:26:39.788001+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "fsd-finland",
-      "provider": "Finnish Social Science Data Archive",
-      "service_name": "Finnish Social Science Data Archive API",
-      "geographic_coverage": "Finland/Global",
-      "topical_coverage": "research; demographics; health; education",
-      "dataset_families": "Social science study metadata; survey datasets",
-      "documentation_url": "https://www.fsd.tuni.fi/en/services/search-services/",
-      "api_base_url": "https://services.fsd.tuni.fi/v0/oai",
-      "format_protocol": "OAI-PMH/XML; metadata services",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.fsd.tuni.fi/en/data-archive/documents-and-agreements/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:58:57.614115+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
