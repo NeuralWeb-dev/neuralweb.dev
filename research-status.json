@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T06:34:08.587425+00:00",
+  "published_at": "2026-10-17T06:36:11.480073+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:18:01.894885+00:00",
+  "research_updated_at": "2026-10-17T06:36:03.821696+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve further city original origins reviewed;9newservices(2scopedopen,5candidates,2restricted),AnalyzeBostonupdated. Boulder176catalogIDs/2pages;Asheville nativepass details in componentaudit;4546inheritedSocrataassetreferences notfreshcensus.526originalsplusbroaderuniverseunfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Municipalfollowupinitial:12servicesadded(2scopedopen,10candidates);PasadenaSpecificPlansCCBY4/WindsorOGL1 verified;keyedPaloAlto/CityScaleuntested. BDLguardedresumeactive;native/indexworkcontinues;globalin_progress.",
   "counts": {
-    "verified": 201,
-    "candidates": 365,
+    "verified": 203,
+    "candidates": 375,
     "excluded": 40,
-    "sample_successes": 370
+    "sample_successes": 379
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5935,6 +5935,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "pasadena-open-data",
+      "provider": "City of Pasadena,California",
+      "service_name": "Pasadena Open Data OGCcatalog,scopedSpecificPlans",
+      "geographic_coverage": "Pasadena,California,United States",
+      "topical_coverage": "Geospatial,planning,transport,infrastructure",
+      "dataset_families": "FullcurrentcityITpageexplicitlylinksOpenDataPortal. NativeSpecificPlansFeatureService itemexplicitlylicensesCCBY4,ownedbyCityOfPasadenaCAGIS;fullCCBY4legaltextread. Scopeonlynamedwork,notall117nativecatalogitems/metadata/partnerdata. ActualOGCdiscovery/catalog JSON;exactpublishedSpecificPlanAreasFeatureServerschemaheld,targetunsent,nobypass/noactualplanfeatures. RootorgIdabsent,notinventedorgmatch;nativeowner/officialportalbindingrecorded.",
+      "documentation_url": "https://www.cityofpasadena.net/information-technology/",
+      "api_base_url": "https://data.cityofpasadena.net/api/search/v1",
+      "format_protocol": "OGCAPIRecords/JSON",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "FullcurrentcityITpageexplicitlylinksOpenDataPortal. NativeSpecificPlansFeatureService itemexplicitlylicensesCCBY4,ownedbyCityOfPasadenaCAGIS;fullCCBY4legaltextread. Scopeonlynamedwork,notall117nativecatalogitems/metadata/partnerdata. ActualOGCdiscovery/catalog JSON;exactpublishedSpecificPlanAreasFeatureServerschemaheld,targetunsent,nobypass/noactualplanfeatures. RootorgIdabsent,notinventedorgmatch;nativeowner/officialportalbindingrecorded.",
+      "license": "CC BY4.0,only namedSpecificPlans dataset",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "api_verification_state": "actual_public_JSON_sample_success_open_license_verified",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "pdb",
       "provider": "RCSB Protein Data Bank",
       "service_name": "RCSB Protein Data Bank API",
@@ -6922,6 +6940,24 @@
       "license_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:23:41.647150+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "windsor-open-data",
+      "provider": "Corporation of the City of Windsor",
+      "service_name": "WindsorOpenDataHubOGCcatalog",
+      "geographic_coverage": "Windsor,Ontario,Canada",
+      "topical_coverage": "Municipalgeospatial,cityservices",
+      "dataset_families": "Full2pageofficialOGL1read:worldwideroyaltyfreeperpetualcommercialcopy/modify/adapt/distribute,sourceattribution/noendorsement. Excludespersonal/nonaccessible/unauthorizedthirdparty/IP/symbols. CurrentcityPrivacysectionexplicitlybindsOpenDataCataloguetoCityOGLandlinksnewHub;generalwebsiteNC/no-alterationrulesnotappliedbydefaulttoexpressOGLcatalogueexception. ActualcurrentOGCJSON;notallpartnerdata/metadata/underlyingfeatures. Legacycity003713.asp404notclaimedredirect.",
+      "documentation_url": "https://www.citywindsor.ca/eservices",
+      "api_base_url": "https://open-data-portal-citywindsor.hub.arcgis.com/api/search/v1",
+      "format_protocol": "OGCAPIRecords/JSON",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "Full2pageofficialOGL1read:worldwideroyaltyfreeperpetualcommercialcopy/modify/adapt/distribute,sourceattribution/noendorsement. Excludespersonal/nonaccessible/unauthorizedthirdparty/IP/symbols. CurrentcityPrivacysectionexplicitlybindsOpenDataCataloguetoCityOGLandlinksnewHub;generalwebsiteNC/no-alterationrulesnotappliedbydefaulttoexpressOGLcatalogueexception. ActualcurrentOGCJSON;notallpartnerdata/metadata/underlyingfeatures. Legacycity003713.asp404notclaimedredirect.",
+      "license": "OpenGovernmentLicence–CorporationoftheCityofWindsor,version1.0",
+      "license_url": "https://opendata.citywindsor.ca/Documents/OpenDataTermsofUse.pdf",
+      "api_verification_state": "actual_public_JSON_sample_success_open_license_verified",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8058,6 +8094,24 @@
       "license_url": "https://support.nii.ac.jp/en/cinii/copyright | https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cityscale-open-data-api",
+      "provider": "CityScale",
+      "service_name": "CityScaleAPI-keydownloadservice",
+      "geographic_coverage": "Ukraine;historicalnationalandcitydatasets",
+      "topical_coverage": "Housingprices,utilities,transport,environment,historicalcrime/economics",
+      "dataset_families": "Primarydocs200explicitlydescribeapi_keyparameterandregistration/dashboardkey;noneacquired,nopaid/API/previewdownloads. Listeddatafamiliesincludechargedfilesandotherswithoutshownprice,notverifiedfree. Fulluseragreementgovernspaidfulfilment,attributionandno-bypass;doesnotproveuniversalopen/freerights. NativeembeddedJSON-LDoriginallyinvalidbecausewholelinecomments;comments-onlynormalizedderivativeindexpreserves119CCBY4claims,not119independentverifiedgrants/validAPIresponses. Thirdpartysources/externalreferencesnotautomaticallyrelicensed.",
+      "documentation_url": "https://www.cityscale.com.ua/opendata.htm",
+      "api_base_url": "https://www.cityscale.com.ua/scripts/php/get_open_data.php",
+      "format_protocol": "RESTkeyedfile-download/CSV,XLS,ZIP",
+      "authentication": "MandatoryregisteredAPIkeydocumented;untested,noaccount/keyacquisition",
+      "free_access_restrictions": "Primarydocs200explicitlydescribeapi_keyparameterandregistration/dashboardkey;noneacquired,nopaid/API/previewdownloads. Listeddatafamiliesincludechargedfilesandotherswithoutshownprice,notverifiedfree. Fulluseragreementgovernspaidfulfilment,attributionandno-bypass;doesnotproveuniversalopen/freerights. NativeembeddedJSON-LDoriginallyinvalidbecausewholelinecomments;comments-onlynormalizedderivativeindexpreserves119CCBY4claims,not119independentverifiedgrants/validAPIresponses. Thirdpartysources/externalreferencesnotautomaticallyrelicensed.",
+      "license": "119nativeCCBY4claims;upstream/effectiveAPI/freeaccessscopeunconfirmed,mixedpriceddata",
+      "license_url": "https://www.cityscale.com.ua/opendata.htm",
+      "api_verification_state": "documented_current_key_required_API_untested",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9555,6 +9609,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "madison-open-data",
+      "provider": "City of Madison,Wisconsin",
+      "service_name": "Madison current OGC catalog",
+      "geographic_coverage": "Madison,Wisconsin,United States",
+      "topical_coverage": "Geospatial,municipalgovernment",
+      "dataset_families": "Current official developerpage200andcity/dataURLredirecttocurrentArcGIShost,independentlyoflegacydata.cityofmadison.comoriginalhold. ActualcurrentOGCJSONdiscovery. Native siteitemCC-BY-SA is notautomatically dataset/API/metadata grant orversion. Noalternateprotectedoldhostquery.",
+      "documentation_url": "https://www.cityofmadison.com/data/developer/",
+      "api_base_url": "https://data-cityofmadison.opendata.arcgis.com/api/search/v1",
+      "format_protocol": "OGCAPIRecords/JSON",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "Current official developerpage200andcity/dataURLredirecttocurrentArcGIShost,independentlyoflegacydata.cityofmadison.comoriginalhold. ActualcurrentOGCJSONdiscovery. Native siteitemCC-BY-SA is notautomatically dataset/API/metadata grant orversion. Noalternateprotectedoldhostquery.",
+      "license": "Current underlying data/metadata licence unconfirmed",
+      "license_url": "https://www.cityofmadison.com/data/developer/",
+      "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mauritius",
       "provider": "Mauritius national Open Data Portal / Mauritius Digital Promotion Agency (MDPA)",
       "service_name": "Open Data Mauritius CKAN catalog and Datastore API",
@@ -9606,6 +9678,24 @@
       "license_url": "https://www.datosabiertos.gob.pe/dataset/n%C3%BAcleos-ejecutores-ministerio-de-agricultura-y-riego | http://opendefinition.org/licenses/odc-by/ | http://opendatacommons.org/licenses/by/1.0/",
       "api_verification_state": "documented_legacy_rest_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T22:16:18.587026+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "minneapolis-open-data",
+      "provider": "City of Minneapolis",
+      "service_name": "OpenDataMPLS OGC public catalog",
+      "geographic_coverage": "Minneapolis,Minnesota,United States",
+      "topical_coverage": "Geospatial,civic,environment,municipalservices",
+      "dataset_families": "ActualOGCJSONandfinitecatalog267/3pages. Native same-city-org CityCouncilWards eca44c33fc5744478e285d957f9c5a0d explicitlywaivescopyright/neighboringrightsandlinksCC0;fullsameitemtext saysreferencepurposesonly anddisclaimsprecision/navigation uses. Effectiveinteraction ofpurpose wording andCC0waiverkeptunresolved,notblanketopenorclosedclaim. Generalcitywebsitecopyrightfortext/imagesnottransferredtoalldata. ExactunderlyingWARD_BOUNDARIESFeatureServerschemaheld,notentitytest;noalternates.",
+      "documentation_url": "https://opendata.minneapolismn.gov/",
+      "api_base_url": "https://opendata.minneapolismn.gov/api/search/v1",
+      "format_protocol": "OGCAPIRecords/JSON",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "ActualOGCJSONandfinitecatalog267/3pages. Native same-city-org CityCouncilWards eca44c33fc5744478e285d957f9c5a0d explicitlywaivescopyright/neighboringrightsandlinksCC0;fullsameitemtext saysreferencepurposesonly anddisclaimsprecision/navigation uses. Effectiveinteraction ofpurpose wording andCC0waiverkeptunresolved,notblanketopenorclosedclaim. Generalcitywebsitecopyrightfortext/imagesnottransferredtoalldata. ExactunderlyingWARD_BOUNDARIESFeatureServerschemaheld,notentitytest;noalternates.",
+      "license": "Named CityCouncilWards nativeCC0waiver;additional reference-purpose constraint interpretation unresolved",
+      "license_url": "https://opendata.minneapolismn.gov/",
+      "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10581,6 +10671,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "palo-alto-open-data",
+      "provider": "City of Palo Alto",
+      "service_name": "Palo Alto Junar key-required datastream API",
+      "geographic_coverage": "Palo Alto,California,United States",
+      "topical_coverage": "Public spending,permits,geospatial,library,utilities,infrastructure",
+      "dataset_families": "Current officialcityOpenDataPortallandingredirectsto data.paloalto.gov/home anddirectlylinksdata.paloalto.gov/developers/. Primarydeveloperpage200documentsRESTdatastreams,JSON/XML/CSV/HTMLandmandatoryauth_key. NoGetAuthKey/register/account/APIrequestperformed,nosecretsacquired. DocumentationpublishesHTTPAPIbase,HTTPSsupportuntested. CityfulltermsreserveallCity/thirdpartyIPrights andrequireper-fileterms;genericfooterPDDLlinknotappliedtoeverydataset. Legacydata.cityofpaloalto.org404notclaimedredirect.",
+      "documentation_url": "https://data.paloalto.gov/developers/",
+      "api_base_url": "http://api.data.paloalto.gov/api/v2/datastreams/",
+      "format_protocol": "JunarREST/JSON,XML,CSV,HTML documented",
+      "authentication": "MandatoryregisteredAPIkeydocumented;untested,noaccount/keyacquisition",
+      "free_access_restrictions": "Current officialcityOpenDataPortallandingredirectsto data.paloalto.gov/home anddirectlylinksdata.paloalto.gov/developers/. Primarydeveloperpage200documentsRESTdatastreams,JSON/XML/CSV/HTMLandmandatoryauth_key. NoGetAuthKey/register/account/APIrequestperformed,nosecretsacquired. DocumentationpublishesHTTPAPIbase,HTTPSsupportuntested. CityfulltermsreserveallCity/thirdpartyIPrights andrequireper-fileterms;genericfooterPDDLlinknotappliedtoeverydataset. Legacydata.cityofpaloalto.org404notclaimedredirect.",
+      "license": "Fullcustom2018citytermspermitaccess/use butnoexplicitIPgrant;effective datasetgrantunconfirmed",
+      "license_url": "https://data.paloalto.gov/developers/",
+      "api_verification_state": "documented_current_key_required_API_untested",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "pangaea",
       "provider": "PANGAEA Data Publisher for Earth and Environmental Science",
       "service_name": "PANGAEA Data Publisher for Earth and Environmental Science API",
@@ -10848,6 +10956,24 @@
       "license_url": "https://portulanclarin.net/agreement/",
       "api_verification_state": "registry_claimed_OAI_endpoint_returns_maintenance_HTML_not_API_response",
       "latest_checked_utc": "2026-10-17T03:04:42.888056+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "providence-open-data",
+      "provider": "City of Providence,Rhode Island",
+      "service_name": "Providence Socrata metadata and data API portal",
+      "geographic_coverage": "Providence,Rhode Island,United States",
+      "topical_coverage": "Budgets/economy,neighborhoods,publicsafety,references",
+      "dataset_families": "Actualanonymousmetadata255h-hfq9isofficialhrefasset ArcGISRESTServicesEndpoint,notmappingfeatures. Itpublisheswebgis.providenceri.gov/server/rest/services;exactsmallJSONdirectoryrequestheld,noalternative. NoextraGISproviderrowfromuntestedlink. RootdeveloperlinkSocrata;otherdatasetrights/pagination/unsearched. Maintenancebanner17Oct2026 18:00–19:00UTCfuturetocheck,notcurrentAPIabsence.",
+      "documentation_url": "https://data.providenceri.gov/",
+      "api_base_url": "https://data.providenceri.gov/api/views/",
+      "format_protocol": "SocrataSODA/JSON,selectedmetadataorbudgetrow",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "Actualanonymousmetadata255h-hfq9isofficialhrefasset ArcGISRESTServicesEndpoint,notmappingfeatures. Itpublisheswebgis.providenceri.gov/server/rest/services;exactsmallJSONdirectoryrequestheld,noalternative. NoextraGISproviderrowfromuntestedlink. RootdeveloperlinkSocrata;otherdatasetrights/pagination/unsearched. Maintenancebanner17Oct2026 18:00–19:00UTCfuturetocheck,notcurrentAPIabsence.",
+      "license": "Current sampled metadata/resource has no licence;portal-wide grant unknown",
+      "license_url": "https://data.providenceri.gov/",
+      "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11301,6 +11427,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "richmond-va-open-data",
+      "provider": "City of Richmond,Virginia",
+      "service_name": "Richmond Socrata public data APIs",
+      "geographic_coverage": "Richmond,Virginia,United States",
+      "topical_coverage": "Publicbudgets,municipalgovernment,transport,neighborhoods",
+      "dataset_families": "ActualpublicCityBudgetGeneralFund7nru-hsrxmetadataandonebudgetrow200,officialprovenance;no pet/persondataqueried. No licenceId/licensefieldinsampledmetadata. PortalfooterlinksplatformSocrataterms,notautomaticallycopyrightgranttoCitydata. Open-dataordinance/indexedpolicygoalsnotassumedlicence. Fullprovider-operativedataterms/source-specificrightsremainunreviewed.",
+      "documentation_url": "https://data.richmondgov.com/",
+      "api_base_url": "https://data.richmondgov.com/resource/",
+      "format_protocol": "SocrataSODA/JSON,selectedmetadataorbudgetrow",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "ActualpublicCityBudgetGeneralFund7nru-hsrxmetadataandonebudgetrow200,officialprovenance;no pet/persondataqueried. No licenceId/licensefieldinsampledmetadata. PortalfooterlinksplatformSocrataterms,notautomaticallycopyrightgranttoCitydata. Open-dataordinance/indexedpolicygoalsnotassumedlicence. Fullprovider-operativedataterms/source-specificrightsremainunreviewed.",
+      "license": "CityBudgetmetadatahas no licence;operative datatermsunconfirmed",
+      "license_url": "https://data.richmondgov.com/",
+      "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rijksmuseum",
       "provider": "Rijksmuseum",
       "service_name": "Rijksmuseum current data services",
@@ -11355,6 +11499,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "sacramento-open-data",
+      "provider": "City of Sacramento",
+      "service_name": "Sacramento OGCpubliccatalog",
+      "geographic_coverage": "Sacramento,California,United States",
+      "topical_coverage": "Municipaldata,geospatial,budget,parks,transport",
+      "dataset_families": "ActualpublicOGCdiscoveryJSONandpublishedlinks;currentportaldescribesdownload/appreuse butnooperativeopenlicenceestablished. No all-feature orresourcegrantinferredfrompublicendpoint/cityownership. Catalogenumerationandindividualrightsremainunsearchedthispass.",
+      "documentation_url": "https://data.cityofsacramento.org/",
+      "api_base_url": "https://data.cityofsacramento.org/api/search/v1",
+      "format_protocol": "OGCAPIRecords/JSON",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "ActualpublicOGCdiscoveryJSONandpublishedlinks;currentportaldescribesdownload/appreuse butnooperativeopenlicenceestablished. No all-feature orresourcegrantinferredfrompublicendpoint/cityownership. Catalogenumerationandindividualrightsremainunsearchedthispass.",
+      "license": "Native licenceInfo null;effective data/metadata grantunknown",
+      "license_url": "https://data.cityofsacramento.org/",
+      "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "samoa-statistics",
       "provider": "Samoa Bureau of Statistics / SBS",
       "service_name": "Samoa Stats Portal national SDMX dissemination API",
@@ -11370,6 +11532,24 @@
       "license_url": "https://www.sbs.gov.ws/ssp/",
       "api_verification_state": "documented_national_SDMX_API_JSON_structure_sample_success_data_license_unconfirmed",
       "latest_checked_utc": "2026-10-17T00:05:41.513905+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "san-jose-open-data",
+      "provider": "City of San José",
+      "service_name": "San José CKANActionAPI",
+      "geographic_coverage": "San José,California,United States",
+      "topical_coverage": "Municipalgovernment,permits,publicsafety,servicecalls",
+      "dataset_families": "Currentroot/aboutHTML200andCKAN2.9APIguideexplicitlylinked. Exactsmallpackage_searchrequestpolicyheld,targetunsent,nootherAPIaction/path/querybypass. Root/aboutdescribecityOpenDataPolicy/Architecture,butnoeffectiveuniversaldata/metadatareusegrantestablished. No employee/permit/personrecordsqueried.",
+      "documentation_url": "https://data.sanjoseca.gov/",
+      "api_base_url": "https://data.sanjoseca.gov/api/3/action/",
+      "format_protocol": "CKANActionAPI/JSON documented",
+      "authentication": "Publicreadauthenticationuntested,originalpolicyheld",
+      "free_access_restrictions": "Currentroot/aboutHTML200andCKAN2.9APIguideexplicitlylinked. Exactsmallpackage_searchrequestpolicyheld,targetunsent,nootherAPIaction/path/querybypass. Root/aboutdescribecityOpenDataPolicy/Architecture,butnoeffectiveuniversaldata/metadatareusegrantestablished. No employee/permit/personrecordsqueried.",
+      "license": "Current scope/instrument unconfirmed;openpolicylabelnotcopyrightgrant",
+      "license_url": "https://data.sanjoseca.gov/",
+      "api_verification_state": "documented_CKAN_API_original_sample_policy_held_untested",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12201,6 +12381,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "waterloo-city-open-data",
+      "provider": "City of Waterloo,Ontario",
+      "service_name": "CityofWaterlooOGCpubliccatalog",
+      "geographic_coverage": "Waterloo,Ontario,Canada",
+      "topical_coverage": "Municipalgeospatial,infrastructure,transport,parks",
+      "dataset_families": "Currentdata.waterloo.ca independentlydiscoveredofficialpublicportal,actualOGCJSON200. Legacyopendata.waterloo.caoriginalheld;noassumedredirect. Literal /pages/open-data-licence200returnsapptitleonly,notreviewableoperativegrant. Indexedopenlicencesummary/A007principlesnotfullgrant;separateRegionofWaterlooandUniversitylicencesnottransferred. Allunderlyingdata/metadata/paginationrightsunreviewed.",
+      "documentation_url": "https://data.waterloo.ca/",
+      "api_base_url": "https://data.waterloo.ca/api/search/v1",
+      "format_protocol": "OGCAPIRecords/JSON",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "Currentdata.waterloo.ca independentlydiscoveredofficialpublicportal,actualOGCJSON200. Legacyopendata.waterloo.caoriginalheld;noassumedredirect. Literal /pages/open-data-licence200returnsapptitleonly,notreviewableoperativegrant. Indexedopenlicencesummary/A007principlesnotfullgrant;separateRegionofWaterlooandUniversitylicencesnottransferred. Allunderlyingdata/metadata/paginationrightsunreviewed.",
+      "license": "CurrentOpenDataLicencepageHTMLshell;fullinstrumentunconfirmed",
+      "license_url": "https://data.waterloo.ca/",
+      "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wberks-georeport",
       "provider": "West Berkshire Council",
       "service_name": "GeoReport/Open311 service claim",
@@ -12234,6 +12432,24 @@
       "license_url": "https://developers.wellcomecollection.org/docs/catalogue",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T02:03:52.460259+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "west-hollywood-open-data",
+      "provider": "City of West Hollywood",
+      "service_name": "WestHollywoodSocrataAPIs",
+      "geographic_coverage": "WestHollywood,California,United States",
+      "topical_coverage": "Publicbudgets,municipaldata",
+      "dataset_families": "ActualpublicofficialBudgetExpenditureDetailFY17-21metadata6pse-xeqx200,licencefieldsabsent. No data-person/entityrows. Platformfooterterm/notpublicendpointnotopenlicence. FullcurrentCitydataset/sourcegrantsandcatalogenumerationunreviewed.",
+      "documentation_url": "https://data.weho.org/",
+      "api_base_url": "https://data.weho.org/resource/",
+      "format_protocol": "SocrataSODA/JSON,selectedmetadataorbudgetrow",
+      "authentication": "Actualsmallanonymouspublicread;otheroperationsindividuallyuntested",
+      "free_access_restrictions": "ActualpublicofficialBudgetExpenditureDetailFY17-21metadata6pse-xeqx200,licencefieldsabsent. No data-person/entityrows. Platformfooterterm/notpublicendpointnotopenlicence. FullcurrentCitydataset/sourcegrantsandcatalogenumerationunreviewed.",
+      "license": "Namedbudgetmetadatahasnoexplicitlicence;effectivegrantunknown",
+      "license_url": "https://data.weho.org/",
+      "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
