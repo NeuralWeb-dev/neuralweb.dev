@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T02:08:13.483214+00:00",
+  "published_at": "2026-10-17T02:10:16.350869+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:06:13.944568+00:00",
+  "research_updated_at": "2026-10-17T02:09:06.635278+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Seven cultural/ontology services manually reviewed: three scoped open,three candidate,one mixed restricted; finite vocabulary-license discovery ongoing",
+  "latest_milestone": "Cultural batch10distinct services reviewed; Getty provenance actualJSON/CC0 and vocabularydocumentedODCBy scoped, Museum Collection docs404unresolved",
   "counts": {
-    "verified": 160,
-    "candidates": 287,
+    "verified": 162,
+    "candidates": 288,
     "excluded": 30,
-    "sample_successes": 285
+    "sample_successes": 286
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4110,6 +4110,42 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "getty-provenance",
+      "provider": "J. Paul Getty Trust",
+      "service_name": "Getty Provenance Index API",
+      "geographic_coverage": "United States; global art history, cultural entities and places",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Dealer stock books, sales catalogues and archival inventories; art-object sales activities, historical actors and provenance entities",
+      "documentation_url": "https://data.getty.edu/provenance/docs/",
+      "api_base_url": "https://data.getty.edu/provenance/",
+      "format_protocol": "Linked Data; JSON-LD/RDF; SPARQL; ActivityStreams interfaces vary",
+      "authentication": "No credentials needed for tested JSON-LD record, stream root and first native page",
+      "free_access_restrictions": "Public data interfaces documented; no key/account/payment obtained",
+      "license": "CC0 1.0",
+      "license_url": "https://data.getty.edu/provenance/docs/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T02:09:06.283028+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "getty-vocabularies",
+      "provider": "J. Paul Getty Trust",
+      "service_name": "Getty Vocabulary Program linked data",
+      "geographic_coverage": "United States; global art history, cultural entities and places",
+      "topical_coverage": "culture; research; geospatial",
+      "dataset_families": "AAT Art & Architecture Thesaurus; TGN geographic names; ULAN artist names. CONA and IA documentation distinguishes unavailable semantic RDF examples/legacyservice snapshots",
+      "documentation_url": "https://www.getty.edu/research-conservation/tools-databases/vocabularies/data-services/",
+      "api_base_url": "https://vocab.getty.edu/sparql",
+      "format_protocol": "Linked Data; JSON-LD/RDF; SPARQL; ActivityStreams interfaces vary",
+      "authentication": "Anonymous SPARQL interface advertised; direct doc/sample policy-deferred before target, no credentials",
+      "free_access_restrictions": "Public data interfaces documented; no key/account/payment obtained",
+      "license": "Open Data Commons Attribution1.0",
+      "license_url": "https://www.getty.edu/research-conservation/tools-databases/vocabularies/data-services/",
+      "api_verification_state": "documented_SPARQL_API_original_policy_deferred_untested",
+      "latest_checked_utc": "2026-10-17T02:09:06.259386+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "gleif",
       "provider": "Global Legal Entity Identifier Foundation (GLEIF)",
       "service_name": "GLEIF LEI Reference Data API",
@@ -7025,6 +7061,24 @@
       "license_url": "https://www.govdata.de/web/guest/lizenzen",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:26:36.487963+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "getty-museum",
+      "provider": "J. Paul Getty Trust",
+      "service_name": "Getty Museum Collection data API",
+      "geographic_coverage": "United States; global art history, cultural entities and places",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Published directory claims artwork, people, groups, exhibitions and gallery location APIs; detailed schema and active endpoints unresolved",
+      "documentation_url": "https://data.getty.edu/museum/collection/docs/",
+      "api_base_url": "https://data.getty.edu/museum/collection/",
+      "format_protocol": "Linked Data; JSON-LD/RDF; SPARQL; ActivityStreams interfaces vary",
+      "authentication": "Unknown operational requirements; no credentials used",
+      "free_access_restrictions": "Public data interfaces documented; no key/account/payment obtained",
+      "license": "unknown; other Getty services/media licenses not transferred",
+      "license_url": "https://data.getty.edu/museum/collection/docs/",
+      "api_verification_state": "documented_directory_claim_original_doc_HTTP404_no_successful_API_sample",
+      "latest_checked_utc": "2026-10-17T02:09:06.309943+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
