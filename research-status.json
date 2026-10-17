@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T18:10:58.783691+00:00",
+  "published_at": "2026-10-17T18:13:01.569111+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:10:55.956179+00:00",
+  "research_updated_at": "2026-10-17T18:11:41.604497+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MetaboLights3543native identifiers, VEuPath24native schema and OMPS interface gap checkpointed",
+  "latest_milestone": "Six original tasks reviewed, four distinct records added; PhysioNet739versions/549slugs and MetaboLights3543IDs fully indexed at native snapshots; effective grants remain scoped/unresolved",
   "counts": {
     "verified": 271,
     "candidates": 497,
@@ -713,6 +713,7 @@
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
+          "akn-data-access-portal",
           "burlington-navigate",
           "calhhs-open-data",
           "hawaii-open-data-catalogue",
@@ -964,6 +965,7 @@
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
+          "akn-data-access-portal",
           "baton-rouge-open-data",
           "burlington-navigate",
           "denver-open-data",
@@ -1043,7 +1045,9 @@
           "knb",
           "smithsonian"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "akn-data-access-portal"
+        ]
       },
       "oceans": {
         "status": "partial_verified",
@@ -1140,6 +1144,7 @@
           "us-data-gov-catalog"
         ],
         "restricted_provider_ids": [
+          "akn-data-access-portal",
           "polar-data-catalogue-metadata-api"
         ]
       }
