@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T13:18:52.117684+00:00",
+  "published_at": "2026-10-17T13:20:54.524053+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:17:17.176208+00:00",
+  "research_updated_at": "2026-10-17T13:20:52.167358+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SeoulCapeeightorigins:737services240open440candidates57restricted;Singapore137pages1370collections;MunicipalMoneyexistingupdated;Seoulvalidpublicdemo/candidate;SLIPupdateNC4restricted;131originalsremain,in_progress.",
+  "latest_milestone": "Seoul/Cape eight origins checkpointed:737 services,240 scoped-open,440 candidates,57 restricted. Singapore137pages/1370collections/2336childIDs;existingMunicipalMoney21cubes rechecked;Seoulpublicdemo candidate;SLIPupdateCCBYNC4restricted.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 240,
     "candidates": 440,
@@ -2787,7 +2787,8 @@
         ],
         "candidate_provider_ids": [
           "busan-public-apis",
-          "sejong-bigdata-open-api"
+          "sejong-bigdata-open-api",
+          "seoul-open-data-api"
         ],
         "restricted_provider_ids": []
       },
@@ -3157,7 +3158,8 @@
           "qspatial-csw-catalog",
           "queensland-data",
           "spc-pccos-tds",
-          "victoria-datavic"
+          "victoria-datavic",
+          "wa-slip-public-geospatial-services"
         ],
         "restricted_provider_ids": [
           "spc-pccos-thredds"
@@ -3171,7 +3173,8 @@
         ],
         "candidate_provider_ids": [
           "qspatial-csw-catalog",
-          "queensland-data"
+          "queensland-data",
+          "wa-slip-public-geospatial-services"
         ],
         "restricted_provider_ids": []
       },
@@ -3213,7 +3216,8 @@
           "qspatial-csw-catalog",
           "stats-nz",
           "stats-nz-geographic",
-          "victoria-datavic"
+          "victoria-datavic",
+          "wa-slip-public-geospatial-services"
         ],
         "restricted_provider_ids": [
           "nz-lbp"
@@ -3225,7 +3229,8 @@
         "candidate_provider_ids": [
           "georep-localisation",
           "opt-nc-data",
-          "queensland-data"
+          "queensland-data",
+          "wa-slip-public-geospatial-services"
         ],
         "restricted_provider_ids": []
       },
@@ -3253,10 +3258,12 @@
           "qspatial-csw-catalog",
           "stats-nz-geographic",
           "victoria-datavic",
+          "wa-slip-public-geospatial-services",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
-          "spc-pccos-thredds"
+          "spc-pccos-thredds",
+          "wa-slip-data-update-api"
         ]
       },
       "public spending/contracts": {
@@ -3378,7 +3385,8 @@
         "restricted_provider_ids": [
           "digitalnz",
           "rda-australia",
-          "spc-pccos-thredds"
+          "spc-pccos-thredds",
+          "wa-slip-data-update-api"
         ]
       }
     },
@@ -7097,7 +7105,7 @@
       "license": "National Treasury Municipal Money Terms of Use version1.0: free commercial/noncommercial data reuse",
       "license_url": "https://municipaldata.treasury.gov.za/terms",
       "api_verification_state": "documented_sample_success_native_cube_metadata_rechecked",
-      "latest_checked_utc": "2026-10-17T13:17:16.614524+00:00",
+      "latest_checked_utc": "2026-10-17T13:12:59.293476+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7385,7 +7393,7 @@
       "license": "Singapore Open Data Licence version1.0",
       "license_url": "https://data.gov.sg/open-data-licence",
       "api_verification_state": "sample_success_current_collection_JSON;prior_weather_JSON_preserved",
-      "latest_checked_utc": "2026-10-17T13:17:16.614116+00:00",
+      "latest_checked_utc": "2026-10-17T13:15:49.897094+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8845,7 +8853,7 @@
       "license": "unknown;explicit current dataset/service reuse licence not established",
       "license_url": "https://odp-cctegis.opendata.arcgis.com/",
       "api_verification_state": "documented_sample_structured_error_service_not_started",
-      "latest_checked_utc": "2026-10-17T13:17:16.614772+00:00",
+      "latest_checked_utc": "2026-10-17T13:04:20.730346+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13687,7 +13695,7 @@
       "license": "Named work KOGL Type1 permits attributed commercial use/adaptation; broader service-use conditions unresolved",
       "license_url": "https://data.seoul.go.kr/dataList/OA-12914/S/1/datasetView.do?tab=A",
       "api_verification_state": "sample_success_JSON_named_aggregate_public_demonstration_only",
-      "latest_checked_utc": "2026-10-17T13:17:16.612323+00:00",
+      "latest_checked_utc": "2026-10-17T13:06:19.227073+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14479,7 +14487,7 @@
       "license": "unknown; mixed work/product licences, not blanket platform grant",
       "license_url": "https://www.landgate.wa.gov.au/location-data-and-services/discovering-landgate-data/licensing/",
       "api_verification_state": "official_public_services_documented_indexed_runtime_untested_original_held",
-      "latest_checked_utc": "2026-10-17T13:17:16.612761+00:00",
+      "latest_checked_utc": "2026-10-17T13:13:28.638999+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16947,7 +16955,7 @@
       "license": "Creative Commons Attribution-NonCommercial 4.0 International",
       "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
       "api_verification_state": "official_API_documented_guide_HTTP403_runtime_untested",
-      "latest_checked_utc": "2026-10-17T13:17:16.613047+00:00",
+      "latest_checked_utc": "2026-10-17T13:09:09.745023+00:00",
       "classification": "restricted"
     },
     {
