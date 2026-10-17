@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-17T20:19:46.412908+00:00",
+  "published_at": "2026-10-17T20:21:48.827125+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
@@ -7,7 +7,7 @@
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "ISDC parent/GNSS deduplicated, GNSSsourceBY4 and publicdirectory verified; MünsterAPI documented/robots-held, terms licence scope corrected",
   "counts": {
-    "verified": 282,
+    "verified": 283,
     "candidates": 544,
     "excluded": 119,
     "sample_successes": 475
@@ -6222,6 +6222,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "geofon-earthquake-event-api",
+      "provider": "GEOFON / GFZ Helmholtz Centre for Geosciences with GEVN partner networks",
+      "service_name": "GEOFON FDSN earthquake-event parameter API",
+      "geographic_coverage": "Global located earthquake events since1August2007 per official service docs; network coverage and revisions vary",
+      "topical_coverage": "earthquakes | seismicity | geophysics | hazards | research",
+      "dataset_families": "Earthquake event origin time, location/depth, magnitude and identifiers; moment tensors documented; waveform/network data separate",
+      "documentation_url": "https://geofon.gfz.de/waveform/webservices/ | https://geofon.gfz.de/waveform/webservices/fdsnws.php | https://geofon.gfz.de/eqinfo/faq/",
+      "api_base_url": "https://geofon.gfz.de/fdsnws/event/1/",
+      "format_protocol": "Native FDSN event1 HTTP pipe-delimited text sample, one historical event; QuakeML documented",
+      "authentication": "Anonymous event sample succeeded; no credentials or accounts. Other waveform/network access conditions separate",
+      "free_access_restrictions": "Earthquake products explicitlyCCBY4; attribution to GEOFON/GFZ/GEVN. Provider warns large catalogue access resource-intensive, aggressive polling may triggerblocks",
+      "license": "Creative Commons Attribution4.0 International for GEOFON-produced earthquake products",
+      "license_url": "https://geofon.gfz.de/eqinfo/faq/",
+      "api_verification_state": "native_anonymous_FDSN_event_pipe_delimited_one_row_success_explicit_event_product_BY4_verified",
+      "latest_checked_utc": "2026-10-17T20:21:44.531829+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "geonames",
       "provider": "GeoNames / unxos gmbh",
       "service_name": "GeoNames free geographical web services",
@@ -12376,7 +12394,7 @@
       "license": "Exact catalogue and source grants unresolved; policy prefers Creative Commons releases but requires dataset-specific licences",
       "license_url": "https://www.cen.uni-hamburg.de/en/icdc/research/data-management.html",
       "api_verification_state": "native_anonymous_THREDDS_catalogue_XML_success_OPeNDAP_services_declared_arrays_untested",
-      "latest_checked_utc": "2026-10-17T19:50:53.456043+00:00",
+      "latest_checked_utc": "2026-10-17T20:21:44.531829+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19054,7 +19072,7 @@
       "license": "CC BY4 explicitly verified for source database release2025; exact OAI metadata/database grant unresolved; source software varies",
       "license_url": "https://dataservices.gfz.de/10.5880/wsm.2025.001/world-stress-map-database-release-2025 | https://www.world-stress-map.org/download/",
       "api_verification_state": "native_anonymous_OAI_Identify_and_full_WSM_set_XML_success_source2025_grant_verified",
-      "latest_checked_utc": "2026-10-17T19:50:53.456043+00:00",
+      "latest_checked_utc": "2026-10-17T20:21:44.531829+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
