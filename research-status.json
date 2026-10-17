@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T14:42:37.248336+00:00",
+  "published_at": "2026-10-17T14:44:39.705810+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:42:33.329915+00:00",
+  "research_updated_at": "2026-10-17T14:43:28.490478+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "SaudiGeospatial8origins:765records247open457candidates61restricted;Montana39publishedinterfaces35bases;OpenAQhostednoncompetitionrestriction;59originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 247,
     "candidates": 457,
@@ -130,7 +130,6 @@
           "noaa-ncei",
           "noaa-ncei-access",
           "nsidc",
-          "openaq",
           "pangaea",
           "planetary-computer",
           "undata-official-sdmx-api",
@@ -140,7 +139,8 @@
           "copernicus-marine",
           "deims",
           "fao",
-          "open-meteo"
+          "open-meteo",
+          "openaq"
         ]
       },
       "water": {
@@ -198,11 +198,11 @@
           "hdx",
           "nih-clinicaltrials",
           "ocha-hapi",
-          "openaq",
           "wfp"
         ],
         "restricted_provider_ids": [
           "ghdx-ihme-discovery",
+          "openaq",
           "who"
         ]
       },
@@ -583,6 +583,7 @@
           "california-open-data",
           "county-grande-prairie-open-data",
           "donnees-quebec-catalog",
+          "montana-state-library-gis-services",
           "ontario-data-catalog",
           "oregon-open-data",
           "usda-nass"
@@ -626,6 +627,7 @@
           "esa-ecology",
           "knb",
           "minneapolis-open-data",
+          "montana-state-library-gis-services",
           "montreal-open-data-catalog",
           "neracoos-erddap",
           "north-dakota-gis-hub",
@@ -674,6 +676,7 @@
           "edi",
           "epa",
           "knb",
+          "montana-state-library-gis-services",
           "nashville-open-data",
           "neracoos-erddap",
           "registry-gisdata-mn-gov",
@@ -774,6 +777,7 @@
           "connect211-search",
           "dnv-geoweb",
           "edmonton-open-data",
+          "montana-state-library-gis-services",
           "nyc",
           "opendataphilly-jkan",
           "princegeorge-road-traffic-api",
@@ -800,6 +804,7 @@
           "dnv-geoweb",
           "donnees-quebec-catalog",
           "edmonton-open-data",
+          "montana-state-library-gis-services",
           "montreal-open-data-catalog",
           "nyc",
           "opendataphilly-jkan",
@@ -866,6 +871,7 @@
           "madison-open-data",
           "miami-dade-open-data",
           "minneapolis-open-data",
+          "montana-state-library-gis-services",
           "montreal-open-data-catalog",
           "nashville-open-data",
           "nevada-county-open-data",
@@ -1014,6 +1020,7 @@
           "donnees-quebec-catalog",
           "getty-museum",
           "loc",
+          "montana-state-library-gis-services",
           "montreal-open-data-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
