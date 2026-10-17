@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T19:38:49.397588+00:00",
+  "published_at": "2026-10-17T19:40:52.627873+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:35:41.321465+00:00",
+  "research_updated_at": "2026-10-17T19:40:47.719637+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals reviewed; five services added, three existing services updated; HCDC discovery metadata scoped-open, EGA public JSON verified with licence unresolved, source/API gaps retained",
+  "latest_milestone": "EdaphobasenativerestrictedtaxonomyAPIverified; BSRN62citations/customlicence; DWDOpenDatagrant/WFSruntimegap preserved",
   "counts": {
     "verified": 280,
-    "candidates": 519,
-    "excluded": 111,
+    "candidates": 520,
+    "excluded": 113,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -7677,7 +7677,7 @@
       "license": "CC0 1.0 for published dataset metadata only; data dataset-specific",
       "license_url": "https://wiki.pangaea.de/wiki/Ticket_System | https://wiki.pangaea.de/wiki/License",
       "api_verification_state": "historical_OAI_Identify_XML_sample_success_current_metadata_CC0_and_access_docs_verified_no_reharvest",
-      "latest_checked_utc": "2026-10-17T18:41:21.359940+00:00",
+      "latest_checked_utc": "2026-10-17T19:40:43.228097+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11082,6 +11082,24 @@
       "license_url": "https://drp.dataone.org/metacat/d1/mn/v2/object/fed1b39e-d57f-4c10-8511-f32d9dc6c0ac",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:28.200214+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dwd-cdc-geospatial",
+      "provider": "Deutscher Wetterdienst / Climate Data Center",
+      "service_name": "DWD CDC climate portal / documented OGC geoservices candidate",
+      "geographic_coverage": "Germanclimate observations and grids plus source-specific international products",
+      "topical_coverage": "climate | weather | environment | water | geospatial | research",
+      "dataset_families": "Climateobservations/time series/gridded products and CDCdiscovery; exactWFSfeaturefamiliesunverified",
+      "documentation_url": "https://www.dwd.de/DE/leistungen/geodienste/help/nutzung_geodienste.html?lsbId=621762+%7C+https%3A%2F%2Fcdc.dwd.de%2Fportal%2F",
+      "api_base_url": "https://cdc.dwd.de/geoserver/wfs ; documentedcandidate,nativeruntimepolicyheld",
+      "format_protocol": "OfficialindexedOGCWFSdocumentation; nativecapabilitiestargetunsent, noXML/APIresponseobtained",
+      "authentication": "NativeWFSwithheldbyrobotspolicy, exactauthunknown; rootpublicportalHTMLsucceededafter120secondcrawl-delay",
+      "free_access_restrictions": "CDCOpenDatafilesexplicitCCBY4; exactWFSmetadata/layer/licence scopeunconfirmed. Registryfee/accountlabelsnotuniversalcurrentAPIconditions.",
+      "license": "CCBY4verifiedforCDCOpenDataarea; currentWFSmetadata/layerexactgrantruntimeunresolved",
+      "license_url": "https://opendata.dwd.de/climate_environment/CDC/Terms_of_use.pdf | https://www.dwd.de/copyright",
+      "api_verification_state": "official_indexed_WFS_documented_native_capabilities_robots_withheld_target_unsent",
+      "latest_checked_utc": "2026-10-17T19:40:43.228097+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18935,6 +18953,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "bsrn-wrmc-radiation-archive",
+      "provider": "World Radiation Monitoring Center / AWI / BSRN",
+      "service_name": "BSRN radiation data archive and account-restricted FTP distribution",
+      "geographic_coverage": "Globalnetworkofsurface radiationstations; station/time/instrumentcoveragevaries",
+      "topical_coverage": "climate | solarenergy | atmosphere | research",
+      "dataset_families": "Station-monthsurface radiationlogicalrecords and meteorologicalobservations; per-stationPANGAEAcollections",
+      "documentation_url": "https://bsrn.awi.de/data/conditions-of-data-release/ | https://bsrn.awi.de/",
+      "api_base_url": "",
+      "format_protocol": "DocumentedFTPstation-to-archivefiles; PANGAEAdataaccessdescribed,butnotnewindependentqueryAPItested",
+      "authentication": "OfficialFTPreadaccountrequirescontactandacceptance; notrequested. Publiclegal/citationdocumentationonly",
+      "free_access_restrictions": "No-costbonafideresearchaccess withBSRNLicense1.0; thirdpartypassingrequiresWRMCagreement anddirectcommercialusesellingforbidden; exactexceptionsseparate",
+      "license": "Baseline Surface Radiation Network License1.0; restrictedthirdpartyredistribution/directcommercialsale",
+      "license_url": "https://bsrn.awi.de/data/conditions-of-data-release/",
+      "api_verification_state": "official_FTP_distribution_and_restricted_release_verified_accountrequired_untested_query_APIgap",
+      "latest_checked_utc": "2026-10-17T19:40:43.228097+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "burlington-navigate",
       "provider": "City of Burlington",
       "service_name": "Navigate Burlington OGC public catalog API",
@@ -19328,6 +19364,24 @@
       "license_url": "https://www.birds.cornell.edu/home/ebird-api-terms-of-use/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T19:03:24.478790+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "edaphobase-soil-biodiversity-api",
+      "provider": "Edaphobase / Senckenberg Museum of Natural History Görlitz",
+      "service_name": "Edaphobase Portal REST API",
+      "geographic_coverage": "InitiallyCentralEurope, nowworldwidesoilbiodiversitysources; exactobservationcoveragevaries",
+      "topical_coverage": "biodiversity | soil | environment | ecology | research",
+      "dataset_families": "Soilorganisms/taxonomy, speciesoccurrence/habitat/sourceinformation; sampledonlymajor-groupdictionary",
+      "documentation_url": "https://api.edaphobase.org/doc/ | https://api.edaphobase.org/api.yaml",
+      "api_base_url": "https://api.edaphobase.org/",
+      "format_protocol": "OpenAPI3.1.0APIv2.0.0RESTJSON; nativesmalltaxonomylist",
+      "authentication": "AnonymousmajorGroupsJSONsucceeded; schemaapi-keyandloginrequirements fordetaileddata/otherfunctions. Noaccounts/keys.",
+      "free_access_restrictions": "June2023policyexplicitlyprohibitscommercialusewithoutindividualsourceproviderpermission; staggeredpublic/embargo/anonymisedaccess, exactsourceexceptionsunreviewed",
+      "license": "Edaphobase DataPolicyrestrictivecommercialuse; registryNC4labelnottreatedasuniversalexplicitcurrentdata/metadata licence",
+      "license_url": "https://portal.edaphobase.org/resource/docs/data_policy.pdf",
+      "api_verification_state": "native_anonymous_major_group_dictionary_JSON_success_published_OpenAPI_verified",
+      "latest_checked_utc": "2026-10-17T19:40:43.228097+00:00",
       "classification": "restricted"
     },
     {
