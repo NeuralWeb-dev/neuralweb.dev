@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:45:35.339327+00:00",
+  "published_at": "2026-10-17T21:47:37.665568+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:44:31.707393+00:00",
+  "research_updated_at": "2026-10-17T21:46:14.861744+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UTM explicit Open Data BY4/API contract verified with failedRDF400; Earthdata umbrella deduplicatedCMR; Edinburgh explicit metadata terms verified with original repository hold.",
+  "latest_milestone": "Six original tasks processed in two batches; five new services(one scoped-open UTM,three candidates,one restrictedASU) and Earthdata/CMR alias update. UTM RDF400 and repository holds preserved; source inventories unresolved.",
   "counts": {
     "verified": 301,
-    "candidates": 587,
-    "excluded": 131,
+    "candidates": 589,
+    "excluded": 132,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -299,6 +299,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "asu-research-dataverse",
           "cinii-research",
           "karlsruher-wolkenatlas",
           "orcid"
@@ -706,6 +707,7 @@
           "acled",
           "agdc-geomagnetic-portal",
           "alspac-cohort-access-portal",
+          "asu-research-dataverse",
           "aviso-authenticated-data-services",
           "bnf-gallica",
           "bsrn-wrmc-radiation-archive",
@@ -4122,7 +4124,8 @@
           "arctic-data",
           "nasa-cmr",
           "ocean-networks-canada",
-          "pangaea"
+          "pangaea",
+          "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
           "aadc-weather",
@@ -4143,7 +4146,8 @@
         "verified_provider_ids": [
           "arctic-data",
           "nasa-cmr",
-          "ocean-networks-canada"
+          "ocean-networks-canada",
+          "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
           "apgc-permafrost-ckan",
@@ -4200,7 +4204,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
-          "nasa-cmr"
+          "nasa-cmr",
+          "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
           "aadc-gazetteer",
@@ -4255,7 +4260,8 @@
         "verified_provider_ids": [
           "arctic-data",
           "ocean-networks-canada",
-          "pangaea"
+          "pangaea",
+          "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
           "lter-italy-dataset-asset-registry",
@@ -4288,7 +4294,8 @@
         "verified_provider_ids": [
           "arctic-data",
           "nasa-cmr",
-          "pangaea"
+          "pangaea",
+          "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
           "aadc-metadata",
@@ -12656,6 +12663,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "flytrap-registry-original",
+      "provider": "Flytrap registry lead / historical Edinburgh research attribution unresolved for current domain",
+      "service_name": "Flytrap original-domain research-resource identity review",
+      "geographic_coverage": "Historical Drosophila expression research resource; present original-domain content does not establish current source coverage or institutional operation",
+      "topical_coverage": "research | biodiversity",
+      "dataset_families": "Historical registry claims gene-expression/protein-trap resource; current root shows biomedical posts and commercial categories, no verified research-data catalogue",
+      "documentation_url": "https://www.fly-trap.org/",
+      "api_base_url": "",
+      "format_protocol": "Native WordPress-style biomedical article/category HTML; no verified current scientific machine interface",
+      "authentication": "No accounts, tokens, credential discovery or private routes used",
+      "free_access_restrictions": "Public documentation/access and reuse permission kept separate",
+      "license": "unknown verified original research-data or metadata/database grant",
+      "license_url": "https://www.fly-trap.org/",
+      "api_verification_state": "native_root200_current_content_identity_mismatch_research_API_and_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T21:45:39.625045+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "fortaleza-ckan-api",
       "provider": "Prefeitura Municipal de Fortaleza / CITINOVA",
       "service_name": "Fortaleza Dados Abertos CKAN Action API",
@@ -15371,6 +15396,24 @@
       "license_url": "https://data.open-contracting.org/en/about/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:28:45.803654+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "open-research-exeter",
+      "provider": "University of Exeter",
+      "service_name": "Open Research Exeter research-output metadata repository",
+      "geographic_coverage": "Exeter institutional research outputs, source study locations vary internationally; not all-world inventory",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Research articles, theses, datasets, code/software, images and related output metadata; source embargo/permissions vary",
+      "documentation_url": "https://www.exeter.ac.uk/research/researchdatamanagement/policies/ore/ | https://www.exeter.ac.uk/v8media/universityofexeter/research/openaccess/ORE_policy.pdf",
+      "api_base_url": "",
+      "format_protocol": "Native official policy-page HTML and linkedPDF saved; official webPDF metadata grant read, no native current API protocol response",
+      "authentication": "No accounts, tokens, credential discovery or private routes used",
+      "free_access_restrictions": "Public documentation/access and reuse permission kept separate",
+      "license": "Metadata policy explicitly CC0; adjacent clause asks original OAI identifier/link for commercial resale. Source contents have separate per-item licenses/NC/no-change default.",
+      "license_url": "https://www.exeter.ac.uk/v8media/universityofexeter/research/openaccess/ORE_policy.pdf",
+      "api_verification_state": "native_operator_policy_page_PDF_verified_explicit_metadata_CC0_current_repository_root_policy_hold_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:45:39.625045+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20629,6 +20672,24 @@
       "license_url": "https://www.arthistoricum.net/impressum",
       "api_verification_state": "native_provider_docs_default_website_rights_verified_dependent_interfaces_distinguished_no_central_query_success",
       "latest_checked_utc": "2026-10-17T20:48:04.505451+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "asu-research-dataverse",
+      "provider": "Arizona State University Library",
+      "service_name": "ASU Research Data Repository Dataverse APIs",
+      "geographic_coverage": "ASU institutional multidisciplinary research; source geography varies, not inferred as worldwide inventory",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research datasets, supplementary quantitative/qualitative materials and metadata; source-specific licenses vary",
+      "documentation_url": "https://asulibrary.atlassian.net/wiki/spaces/ARDRUD/pages/381681676/API+Terms+of+Use | https://asulibrary.atlassian.net/wiki/spaces/ARDRUD/pages/375685300",
+      "api_base_url": "https://dataverse.asu.edu/api (documented framework/service, native runtime policy held)",
+      "format_protocol": "Native official ASU Confluence API/general terms HTML; Dataverse APIs documented, no successful repository JSON/XML response",
+      "authentication": "No accounts, tokens, credential discovery or private routes used",
+      "free_access_restrictions": "Public documentation/access and reuse permission kept separate",
+      "license": "API terms prohibit selling/leasing/sublicensing datasets or other server information; general terms prohibit automated use/scraping. Dataset CC0 default may be replaced with custom terms.",
+      "license_url": "https://asulibrary.atlassian.net/wiki/spaces/ARDRUD/pages/381681676/API+Terms+of+Use | https://asulibrary.atlassian.net/wiki/spaces/ARDRUD/pages/375685300",
+      "api_verification_state": "native_current_official_API_general_terms_restrictions_verified_original_repository_policy_hold_no_sample",
+      "latest_checked_utc": "2026-10-17T21:45:39.625045+00:00",
       "classification": "restricted"
     },
     {
