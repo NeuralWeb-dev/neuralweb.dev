@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T23:15:31.488419+00:00",
+  "published_at": "2026-10-17T23:17:34.052209+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:13:28.164011+00:00",
+  "research_updated_at": "2026-10-17T23:16:17.253462+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RODAplannedharvesting/per-versionterms; CTRIfreepublicsearch/noAPIgrant; ForestPlotsownerproprietary/redistribution/AI constraints.",
+  "latest_milestone": "NASAPCoE11staticreferences/grantsunresolved; PRISMOAIactualXML+metadataNCrestriction; Summitexternalarchiverefdiscovery.",
   "counts": {
     "verified": 309,
-    "candidates": 631,
-    "excluded": 157,
+    "candidates": 633,
+    "excluded": 158,
     "sample_successes": 471
   },
   "remaining_work": [
@@ -13362,6 +13362,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "geosummit-observatory-data-discovery",
+      "provider": "GEOSummit / Summit Station science coordination",
+      "service_name": "Greenland Environmental Observatory at Summit Station data discovery",
+      "geographic_coverage": "Summit Station Greenland atmospheric/cryosphere monitoring; external archive geographic scopes differ",
+      "topical_coverage": "climate | weather | environment | water | oceans | research",
+      "dataset_families": "Baseline atmospheric composition, meteorology, radiation, cryosphere and external long-term observation archive references",
+      "documentation_url": "https://geo-summit.org/data",
+      "api_base_url": "",
+      "format_protocol": "Source discovery links to ADC/IASOA/NOAA/GCNet/NSIDC and other archives, not independent GEOSummit machineAPI proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native data page says interestedparties can access through external archives; perarchive/product policies not uniformly verified",
+      "license": "unknown exact GEOSummit/aggregate/source database grant; funding/dataavailability not licence",
+      "license_url": "https://geo-summit.org/data",
+      "api_verification_state": "native_station_and_external_archive_discovery_docs_verified_independent_API_and_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T23:16:13.046415+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "germany",
       "provider": "GovData Germany",
       "service_name": "GovData Germany open data portal",
@@ -15393,6 +15411,24 @@
       "license_url": "https://heasarc.gsfc.nasa.gov/docs/heasarc/data_policy.html",
       "api_verification_state": "documented_api_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:02:16.435130+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-pcoe-prognostics-repository",
+      "provider": "NASA Prognostics Center of Excellence / contributing research partners",
+      "service_name": "PCoE prognostics dataset repository and published PHM archive references",
+      "geographic_coverage": "Engineering testbeds/simulations and partner research, not geographic population inventory",
+      "topical_coverage": "research | transportation | energy | astronomy",
+      "dataset_families": "Battery/electronics/mechanical degradation, turbofan simulation and other prognostics benchmarking datasets",
+      "documentation_url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+      "api_base_url": "",
+      "format_protocol": "Published static archive links and dataset descriptions/citations, not public dataquery API proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Source describes public research availability; some data explicitly unavailable directdownload with contact workflow, not used. Exact partner data terms vary/unverified",
+      "license": "unknown exact PCoE/source grant; NASA STI general policy scope not blanket partner-data licence",
+      "license_url": "https://sti.nasa.gov/disclaimers/",
+      "api_verification_state": "native_repository_and_general_STI_terms_verified_static_archive_refs_independent_API_and_exact_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T23:16:13.046415+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22019,6 +22055,24 @@
       "license_url": "https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf",
       "api_verification_state": "actual_native_OGC_catalog_metadata_sample_success_current_terms_bound_data_revocable_restricted",
       "latest_checked_utc": "2026-10-17T05:34:27.028732+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "calgary-prism-scholaris-repository",
+      "provider": "University of Calgary Libraries & Cultural Resources",
+      "service_name": "PRISM Scholaris institutional repository OAI-PMH",
+      "geographic_coverage": "Canada institution with international research subjects; exact holdings geographic scope unenumerated",
+      "topical_coverage": "research | education | health | culture",
+      "dataset_families": "Institutional scholarly works, theses and collection metadata; PRISMData/Borealis separate service",
+      "documentation_url": "https://library.ucalgary.ca/frequently-asked-questions/question/199050 | https://ucalgary.scholaris.ca/home",
+      "api_base_url": "https://ucalgary.scholaris.ca/server/oai/request",
+      "format_protocol": "OAI-PMH2 XML Identify success after Acceptapplication/xml atsameURL; initialHTML OAI view not XML counted",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Official metadata policy free access/nonprofit reuse with identifier/source link; commercial reuse needs formal permission. Item/source rights separate",
+      "license": "Metadata nonprofit-use permission, commercial reuse permission-required; individualitem rights vary",
+      "license_url": "https://library.ucalgary.ca/frequently-asked-questions/question/199050",
+      "api_verification_state": "anonymous_OAI_Identify_XML_success_native_metadata_nonprofit_reuse_commercial_permission_required_verified",
+      "latest_checked_utc": "2026-10-17T23:16:13.046415+00:00",
       "classification": "restricted"
     },
     {
