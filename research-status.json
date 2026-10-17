@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T10:59:56.231292+00:00",
+  "published_at": "2026-10-17T11:01:58.870177+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T10:53:20.963979+00:00",
+  "research_updated_at": "2026-10-17T11:01:26.845294+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NorthPacific tenorigins checkpointed:697services228open418candidates51restricted;NSW17170names/ND396/RDNO80nativeassetsindexed;NYsenatekeyrequired/restrictedCC+;NYCcurrentFAQ/termsupdated.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 228,
-    "candidates": 418,
+    "verified": 229,
+    "candidates": 421,
     "excluded": 51,
-    "sample_successes": 431
+    "sample_successes": 433
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6336,6 +6336,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "opendata-dk",
+      "provider": "OS2opendatadk / Open Data DK",
+      "service_name": "Danish multi-publisher CKAN catalog including migrated Aarhus partition",
+      "geographic_coverage": "Denmark;scoped verification of Aarhus municipality publisher partition",
+      "topical_coverage": "multisector municipal metadata;environment;transport;culture;demographics;government",
+      "dataset_families": "638native catalog dataset names;121Aarhus descriptions/449resource claims.108AarhusCCBY4,4CC0,eightblank andoneother-open. Only112explicitly licensed Aarhus works accepted;other517names not individually reviewed.",
+      "documentation_url": "https://www.opendata.dk/anvend-data",
+      "api_base_url": "https://portal.opendata.dk/api/3/action/",
+      "format_protocol": "Actual CKANJSON package_search and package_list. Individual advertised WFS,JSON,files and other resource endpoints not tested.",
+      "authentication": "Anonymous metadata/list requests200validJSON;officialguide saysfree/no registration. Noaccount/key.",
+      "free_access_restrictions": "Currentofficialguide saysfree/no registration butlicences setperdataset conditions. No blanketwholeportal/datafilegrant.",
+      "license": "CC BY4.0 for108Aarhus descriptions;CC0 1.0 for4;other works unconfirmed",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/ | https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "api_verification_state": "actual_public_JSON_sample_success_native_CKAN_partition_and_name_list_scoped_CC_BY4_CC0_verified",
+      "latest_checked_utc": "2026-10-17T11:00:53.916737+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "openplz",
       "provider": "OpenPotato / STÜBER SYSTEMS GmbH",
       "service_name": "OpenPLZ street/postal/administrative-directory API",
@@ -11306,6 +11324,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "oakville-open-data",
+      "provider": "Town of Oakville",
+      "service_name": "Officially linked Oakville open-data portal;API unverified",
+      "geographic_coverage": "Oakville,Ontario,Canada",
+      "topical_coverage": "municipal government;geospatial;planning;exactcurrentinventoryunverified",
+      "dataset_families": "Currentofficialpage saysover85datasets;publisherUIclaim,notliveAPIenumeration. CurrentpageandfullmunicipalOGLverified;individualworkbindingsunreviewed.",
+      "documentation_url": "https://www.oakville.ca/town-hall/mayor-council-administration/accountability-transparency/open-data/",
+      "api_base_url": "",
+      "format_protocol": "Currentofficialpage linksArcGISHub portal;individualAPIexistence/protocolnotverifiedinthisbatch.",
+      "authentication": "unknowncurrentAPIaccess;noaccount,keyorbackend request.",
+      "free_access_restrictions": "Fullmunicipallicence grants royaltyfreeperpetualcommercialreusewithattribution forinformationofferedunderit. Currenteligiblework/APIbindingunknown.",
+      "license": "Town of Oakville Open Data Licence,basedonOGLCanada2.0;policyverified,workbindingunconfirmed",
+      "license_url": "https://www.oakville.ca/town-hall/plans-strategies/open-data/open-data-licence/",
+      "api_verification_state": "official_current_portal_and_full_OGL_documented_original_policy_held_API_work_binding_unresolved",
+      "latest_checked_utc": "2026-10-17T11:00:53.916941+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ocha-hapi",
       "provider": "UN OCHA HDX Humanitarian API",
       "service_name": "UN OCHA HDX Humanitarian API open data API",
@@ -11321,6 +11357,42 @@
       "license_url": "https://data.humdata.org/faqs/terms",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:36:59.165287+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "okanagan-similkameen-open-data",
+      "provider": "Regional District of Okanagan-Similkameen",
+      "service_name": "RDOS Open Data Hub native catalog",
+      "geographic_coverage": "Okanagan-Similkameen,BritishColumbia,Canada",
+      "topical_coverage": "regional geospatial;planning;environment;publicgovernmentmetadata",
+      "dataset_families": "15native descriptions/70distribution claims;all15pointtooneexacttermspublicitemURL. Fullinstrumentunread;not15independentlyverifiedopenAPIs.",
+      "documentation_url": "https://hub-rdos.opendata.arcgis.com/",
+      "api_base_url": "https://hub-rdos.opendata.arcgis.com/data.json",
+      "format_protocol": "Actualcomplete nativeDCAT-likeJSONcatalog;advertisedunderlyingGeoServicesunverified.",
+      "authentication": "Anonymouscatalog200validJSON,noaccount/key. ExactlegalURLredirectheldbefore signedassetrequest.",
+      "free_access_restrictions": "Publiccatalogreadwithoutpayment. Portalpreamble sayspersonaluse,butfulloperativegrantunverified;notinferredblanketNCnoropenlicence.",
+      "license": "unknown effective grant;exacttermsfileunreadafter signedassetredirectheld",
+      "license_url": "https://rdos.maps.arcgis.com/sharing/rest/content/items/b0b3b151f79d4385a49276f12c9ce7e0/data",
+      "api_verification_state": "actual_public_JSON_sample_success_native_catalogue_exact_legal_instrument_redirect_held_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T11:00:53.917190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "oklahoma-open-data",
+      "provider": "State of Oklahoma",
+      "service_name": "Oklahoma open-data catalog;CKANAPIunverified",
+      "geographic_coverage": "Oklahoma,UnitedStates",
+      "topical_coverage": "public spending;government;labor;education;licensingmetadata",
+      "dataset_families": "Currentofficialportal advertises fiscal/catalogfamilies. NoAPIenumeration;no391-countsecondaryclaimaccepted. Payroll/vendor/personrecordsnotqueried.",
+      "documentation_url": "https://data.ok.gov/",
+      "api_base_url": "https://data.ok.gov/api/3/action/ (standardCKANpattern,individualendpointunverified)",
+      "format_protocol": "CurrentCKANfrontendverified. Smallstandardpackage_showrequestpolicyheld;noactualAPIresponseorprovider-specificcontractverified.",
+      "authentication": "Publicrootaccessiblewithoutcredentials;APIauthuntestedbecauserequestheld. Noaccount/key.",
+      "free_access_restrictions": "unknownAPI/reuseterms. Fulllinkedpolicyindexandcopyright/DMCApageare notdatareusegrants.",
+      "license": "unknown effective data/metadata grant",
+      "license_url": "https://oklahoma.gov/about/copyright-and-protection-acts.html",
+      "api_verification_state": "current_CKAN_frontend_verified_guessed_small_API_request_policy_held_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T11:00:53.917059+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
