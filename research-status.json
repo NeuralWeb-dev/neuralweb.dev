@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T14:54:54.065378+00:00",
+  "published_at": "2026-10-17T14:56:56.467225+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:54:09.123689+00:00",
+  "research_updated_at": "2026-10-17T14:55:03.734389+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "TelanganaPacific8origins:767records248open457candidates62restricted;LINZBasemaps scopedeligiblecontent,GéoGuyaneCSWcapabilities/restrictedterms;51originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 248,
     "candidates": 457,
@@ -1558,6 +1558,7 @@
           "bonn-open-data",
           "catalonia-open-data",
           "copernicus-marine",
+          "geoguyane-csw-catalogue",
           "lower-austria-ogd",
           "ticino-palma-api",
           "tirol-ogd-geospatial-search",
@@ -1588,6 +1589,7 @@
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
+          "geoguyane-csw-catalogue",
           "tirol-ogd-geospatial-search"
         ]
       },
@@ -1781,7 +1783,9 @@
           "sardinia-geospatial-wfs",
           "serbia-rzs"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "geoguyane-csw-catalogue"
+        ]
       },
       "transportation": {
         "status": "partial_verified",
@@ -1819,6 +1823,7 @@
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
+          "geoguyane-csw-catalogue",
           "registry-data-bs-ch",
           "tirol-ogd-geospatial-search"
         ]
@@ -1895,6 +1900,7 @@
         ],
         "restricted_provider_ids": [
           "bonn-open-data",
+          "geoguyane-csw-catalogue",
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
           "tirol-ogd-geospatial-search",
@@ -1994,7 +2000,9 @@
           "ea-public-registers-for-environmental-information",
           "ea-water-quality"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "geoguyane-csw-catalogue"
+        ]
       },
       "oceans": {
         "status": "partial_verified",
@@ -3258,6 +3266,7 @@
         "verified_provider_ids": [
           "ala",
           "geri",
+          "linz-basemaps-api",
           "ocean-networks-canada",
           "south-australia-datasa"
         ],
@@ -3352,8 +3361,10 @@
         ]
       },
       "transportation": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "linz-basemaps-api"
+        ],
         "candidate_provider_ids": [
           "data-wa-catalogue-api",
           "georep-localisation",
@@ -3370,6 +3381,7 @@
           "ala",
           "australia",
           "linz",
+          "linz-basemaps-api",
           "noumea-data",
           "worldpop-geo",
           "worldpop-rest",
