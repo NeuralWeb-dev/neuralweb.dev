@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T06:48:28.427217+00:00",
+  "published_at": "2026-10-17T06:50:31.382431+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:44:12.949126+00:00",
+  "research_updated_at": "2026-10-17T06:50:21.810189+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Municipal/community batch:20 original origins processed;12 services added(2 scoped open,10 candidates). Minneapolis267/Pasadena117/Windsor190 unique native catalog records;356 service-origin claims. Global in_progress.",
+  "latest_milestone": "Regional/science batch in progress:6 services added,Palermo named aggregate CC BY4,Colorado restricted,current Cook/CSIRO/Bordeaux candidates. Native Cook traversal pending; global in_progress.",
   "counts": {
-    "verified": 203,
-    "candidates": 375,
-    "excluded": 40,
-    "sample_successes": 379
+    "verified": 204,
+    "candidates": 379,
+    "excluded": 41,
+    "sample_successes": 384
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5925,6 +5925,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "palermo-open-data",
+      "provider": "Comune di Palermo",
+      "service_name": "Palermo DCAT-AP-IT catalog and scoped aggregate CSV",
+      "geographic_coverage": "Palermo,Sicily,Italy",
+      "topical_coverage": "Elections,municipal budgets,environment,transport,culture,education",
+      "dataset_families": "1684 native dataset records and1768 distribution records in the full DCAT document; scoped accepted work is2025 referendum question5 aggregate turnout CSV. Other data,including2018 transit references,need their own rights/access review.",
+      "documentation_url": "https://opendata.comune.palermo.it/",
+      "api_base_url": "https://opendata.comune.palermo.it/dcat/dcat.php",
+      "format_protocol": "DCAT-AP-IT/Turtle and named CSV",
+      "authentication": "Anonymous selected read observed;other operations independently untested",
+      "free_access_restrictions": "The full primary DCAT distribution explicitly links CC BY4.0 for the named aggregate file; the full standard legal code was reviewed previously. Actual CSV200,header plus4 aggregate rows. General portal legal text protects copyright and says downloads are free; it does not clear all metadata or sources. Original legacy page404. The historical transit API announcement is not current runtime proof. Initial1.8MB DCAT response was truncated; same exact URL refetched with12MB cap returned complete4.3MB document,original retained. Native index uses bounded lexical extraction,not a full RDF parser.",
+      "license": "CC BY4.0,only named2025 referendum question5 aggregate turnout CSV.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "api_verification_state": "actual_public_structured_sample_success_aggregate_CSV",
+      "latest_checked_utc": "2026-10-17T06:50:21.562121+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "paris",
       "provider": "City of Paris Open Data",
       "service_name": "City of Paris Open Data open data portal",
@@ -7637,6 +7655,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bordeaux-metropole-datahub",
+      "provider": "Bordeaux Métropole",
+      "service_name": "DataHub Explore API and documented geospatial services",
+      "geographic_coverage": "Bordeaux Métropole,France",
+      "topical_coverage": "Transport,geospatial,environment,public services,urban planning",
+      "dataset_families": "Government API listing associates406 dataset references with the service; not a fresh full inventory or accepted open dataset count. Current portal documents geospatial WMS/WFS/WPS/WMTS/GeoJSON services.",
+      "documentation_url": "https://www.data.gouv.fr/dataservices/explore-api-v2-https-datahub-bordeaux-metropole-fr",
+      "api_base_url": "https://datahub.bordeaux-metropole.fr/api/explore/v2.1/",
+      "format_protocol": "Explore REST/JSON documented;OGC/GeoJSON separately documented",
+      "authentication": "Explore public-access documented;original sample held. Geospatial keys separate;untested.",
+      "free_access_restrictions": "Full current terms distinguish open and particular dataset licences and require source attribution and per-work review; substantial extraction outside a consented licence is restricted. The message-posting commercial-content rule is not treated as a blanket ban on commercial data reuse. French government listing expressly publishes current Explore base and open-access claim; exact small catalog request was held and unsent,so runtime is untested. Geospatial services have separate key-request documentation; no key/account acquired or embedded example credential used. Legacy LaCUB origin held,not claimed redirect.",
+      "license": "Per-dataset open or particular licence required; effective sampled source grant unconfirmed.",
+      "license_url": "https://datahub.bordeaux-metropole.fr/terms/terms-and-conditions/",
+      "api_verification_state": "documented_Explore_API_original_sample_policy_held_untested",
+      "latest_checked_utc": "2026-10-17T06:50:21.562477+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "botswana-microdata",
       "provider": "Statistics Botswana",
       "service_name": "Statistics Botswana NADA study-catalog metadata API",
@@ -8321,6 +8357,42 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cook-central-gis",
+      "provider": "Cook County Government GIS",
+      "service_name": "Cook Central OGC public catalog",
+      "geographic_coverage": "Cook County,Illinois,United States",
+      "topical_coverage": "Geospatial,municipal planning,infrastructure",
+      "dataset_families": "Cook Central GIS catalog records,applications,maps and references; catalog traversal recorded separately from entity-data access.",
+      "documentation_url": "https://hub-cookcountyil.opendata.arcgis.com/",
+      "api_base_url": "https://hub-cookcountyil.opendata.arcgis.com/api/search/v1",
+      "format_protocol": "OGC API Records/JSON",
+      "authentication": "Anonymous selected read observed;other operations independently untested",
+      "free_access_restrictions": "Actual OGC discovery JSON plus native collections and OpenAPI. Site licenceInfo says CC-BY-SA,but is not transferred to every dataset,partner work or metadata component. Full county website terms reviewed separately; no universal open or closed grant inferred. This GIS catalog is a different interface from county Socrata and not collapsed into it.",
+      "license": "Site item CC-BY-SA label; version and underlying data/metadata scope unconfirmed.",
+      "license_url": "https://www.cookcountyil.gov/terms-use",
+      "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata",
+      "latest_checked_utc": "2026-10-17T06:50:21.562318+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cook-county-open-data",
+      "provider": "Cook County Government",
+      "service_name": "Cook County Socrata Open Data APIs",
+      "geographic_coverage": "Cook County,Illinois,United States",
+      "topical_coverage": "Budgets,government finance,public services,property",
+      "dataset_families": "Selected budget requests by amount,office and department; wider tenant families remain unenumerated this pass.",
+      "documentation_url": "https://datacatalog.cookcountyil.gov/stories/s/How-To-Use-Open-Data/v7eg-r69c/",
+      "api_base_url": "https://datacatalog.cookcountyil.gov/resource/",
+      "format_protocol": "Socrata SODA/JSON,CSV,XML",
+      "authentication": "Anonymous selected read observed;other operations independently untested",
+      "free_access_restrictions": "Selected official budget metadata rbu7-x8mh is anonymous JSON200 and says PUBLIC_DOMAIN without a linked dedication instrument. Full county terms disclaim warranties,exclude third-party rights and presume permission for images/graphics; those rules are not automatically a closed-data ban. The official How To page says API requests need an account; anonymous metadata demonstrably works. Entity/API scope and effective per-work terms remain unresolved; no account or budget rows requested.",
+      "license": "Native Public Domain label on selected budget; complete effective grant unconfirmed.",
+      "license_url": "https://www.cookcountyil.gov/terms-use",
+      "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata",
+      "latest_checked_utc": "2026-10-17T06:50:21.562219+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cook-geospatial",
       "provider": "Government of the Cook Islands / CookGeoportal",
       "service_name": "CookGeoportal OGC catalogue and geospatial services",
@@ -8372,6 +8444,24 @@
       "license_url": "https://www.courtlistener.com/terms/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:28:46.492545+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "csiro-data-access-portal",
+      "provider": "CSIRO",
+      "service_name": "Data Access Portal public read-only REST services",
+      "geographic_coverage": "Australia and global scientific research",
+      "topical_coverage": "Agriculture,climate,biodiversity,oceans,astronomy,geoscience,research",
+      "dataset_families": "Scientific collection metadata across CSIRO disciplines. Initial collection search includes Parkes astronomy references; no science files downloaded.",
+      "documentation_url": "https://research.csiro.au/dap/developer-tools/",
+      "api_base_url": "https://data.csiro.au/dap/ws/v2/collections",
+      "format_protocol": "REST/JSON;XML also documented",
+      "authentication": "Anonymous selected read observed;other operations independently untested",
+      "free_access_restrictions": "Current primary developer guide documents stable public read-only ws/v2 and separately staff-only deposit api/v2,which was not called. Actual anonymous25-result collection JSON succeeded. Default search is relevance-sorted,total10000+,complete:false;400-page last link is a capped search horizon,not full repository enumeration. Primary licence guide explicitly lists CC BY/SA as well as NC/ND and software/custom terms; none transfers to all collections. Parent ws/v2 root404 is not API absence. Swagger route held; no protected-route workaround.",
+      "license": "Per-collection mixed data/software licences; effective sampled work and metadata grants unconfirmed.",
+      "license_url": "https://research.csiro.au/dap/licences/",
+      "api_verification_state": "actual_public_structured_sample_success_collection_metadata",
+      "latest_checked_utc": "2026-10-17T06:50:21.562399+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14026,6 +14116,24 @@
       "license_url": "https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf | https://support.nii.ac.jp/en/cinii/copyright",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "colorado-information-marketplace",
+      "provider": "State of Colorado",
+      "service_name": "Colorado Information Marketplace SODA APIs",
+      "geographic_coverage": "Colorado,United States",
+      "topical_coverage": "Water,business,demographics,transport,energy,health,education,agriculture",
+      "dataset_families": "State portal families include wells,water rights,business registrations,education,transport and health. Sampled metadata is City of Denver Checkbook,wnau-xrqi.",
+      "documentation_url": "https://dev.socrata.com/foundry/data.colorado.gov/wnau-xrqi",
+      "api_base_url": "https://data.colorado.gov/resource/",
+      "format_protocol": "Socrata SODA/JSON,CSV,XML",
+      "authentication": "Anonymous selected read observed;other operations independently untested",
+      "free_access_restrictions": "The complete current terms reserve termination of data use for any reason and require an application disclaimer. The sampled Denver Checkbook metadata says Public Domain without a linked instrument; that label is not treated as overriding the restrictive service terms. Actual anonymous metadata JSON only; no payee/person rows. Legacy colorado.gov/data returned403; the independently published current data portal is not claimed to be its redirect.",
+      "license": "Custom terms permit required cessation of displaying,distributing or otherwise using any data for any reason.",
+      "license_url": "https://data.colorado.gov/terms",
+      "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata",
+      "latest_checked_utc": "2026-10-17T06:50:21.561972+00:00",
       "classification": "restricted"
     },
     {
