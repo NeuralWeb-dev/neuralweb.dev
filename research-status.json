@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T11:55:05.050000+00:00",
+  "published_at": "2026-10-17T11:57:07.466447+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:54:38.510673+00:00",
+  "research_updated_at": "2026-10-17T11:55:25.916501+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Baltic/academic ten originals checkpointed:715services234scoped-open426candidates55restricted;Bonn287native names/108Cockpitlinks restrictedterms;RostockCC0/JerseyOGL-Jscopedrights/API runtimesheld;Brussels/Hungary/UGRcandidates.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 234,
     "candidates": 426,
@@ -1191,6 +1191,7 @@
           "iceland-statistics",
           "ine-spain",
           "italy-istat-sdmx",
+          "jersey-government-open-data",
           "madrid-open-data",
           "moldova-data",
           "ons",
@@ -1240,6 +1241,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
+          "jersey-government-open-data",
           "lithuania-dataportal",
           "moldova-data",
           "ons",
@@ -1267,7 +1269,9 @@
           "stat-portugal",
           "uk-trade-tariff"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "bonn-open-data"
+        ]
       },
       "labor": {
         "status": "partial_verified",
@@ -1285,6 +1289,7 @@
           "iceland-statistics",
           "ine-spain",
           "italy-istat-sdmx",
+          "jersey-government-open-data",
           "ons",
           "poland-bdl",
           "registry-opendata-gov-je",
@@ -1396,6 +1401,7 @@
           "wis2-russian-federation"
         ],
         "restricted_provider_ids": [
+          "bonn-open-data",
           "catalonia-open-data",
           "copernicus-marine",
           "lower-austria-ogd",
@@ -1467,9 +1473,11 @@
           "georgia-statistics",
           "iceland-statistics",
           "italy-istat-sdmx",
+          "jersey-government-open-data",
           "moldova-data",
           "poland-bdl",
           "poland-gus-sdg",
+          "rostock-open-data",
           "scotland-catalog",
           "ukraine-data",
           "wales-statistics"
@@ -1538,6 +1546,7 @@
           "czech-national-corpus-fcs",
           "galicia-abertos-catalog",
           "gotriple",
+          "granada-university-open-data",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
           "latvia-statistics",
@@ -1552,6 +1561,7 @@
           "tuebingen-fcs"
         ],
         "restricted_provider_ids": [
+          "bonn-open-data",
           "lindat-fcs",
           "swiss-al-fcs"
         ]
@@ -1570,6 +1580,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "italy-istat-sdmx",
+          "jersey-government-open-data",
           "madrid-open-data",
           "poland-bdl",
           "poland-gus-sdg",
@@ -1644,6 +1655,7 @@
           "registry-data-bl-ch",
           "registry-data-sz-ch",
           "registry-europeandataportal-eu",
+          "rostock-open-data",
           "transportapi-fi",
           "uk-police",
           "worldpop-geo",
@@ -1681,6 +1693,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "bonn-open-data",
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
           "vienna-ogd-wfs"
@@ -1921,6 +1934,7 @@
           "cocoon-fcs",
           "czech-national-corpus-fcs",
           "gotriple",
+          "granada-university-open-data",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
           "ksamsok",
