@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T19:06:08.768027+00:00",
+  "published_at": "2026-10-17T19:08:11.163295+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:02:13.258623+00:00",
+  "research_updated_at": "2026-10-17T19:07:28.607139+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IAGOS native public metadata and production schemas verified with policy conflict retained; APGC CKAN held/rights unresolved; AIRS legal grant but file/API gap",
+  "latest_milestone": "Local Jülich B2SHARE native metadata verified; Copernicus721collection snapshot indexed with source entitlements separated; Tropopause data grant/API gap recorded",
   "counts": {
     "verified": 276,
-    "candidates": 508,
+    "candidates": 509,
     "excluded": 106,
-    "sample_successes": 476
+    "sample_successes": 475
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -10554,15 +10554,15 @@
       "geographic_coverage": "Global",
       "topical_coverage": "geospatial; climate/weather/environment",
       "dataset_families": "Sentinel satellite collections; imagery metadata",
-      "documentation_url": "https://documentation.dataspace.copernicus.eu/APIs/STAC.html",
-      "api_base_url": "https://stac.dataspace.copernicus.eu/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://dataspace.copernicus.eu/terms-and-conditions",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:28:43.496144+00:00",
+      "documentation_url": "https://documentation.dataspace.copernicus.eu/APIs/STAC.html | https://dataspace.copernicus.eu/news/2026-10-16-new-sfeos-stac-catalogue-endpoint",
+      "api_base_url": "https://stac.opensearch.dataspace.copernicus.eu/v1/ | https://stac.dataspace.copernicus.eu/v1/",
+      "format_protocol": "STAC JSON; collection discovery and documented search interfaces",
+      "authentication": "New endpoint anonymous collection metadata succeeded; data/product and other API authentication may differ",
+      "free_access_restrictions": "Anonymous public catalogue access verified; individual data entitlements, licence and authentication remain source-specific. No account/licence acceptance or data download.",
+      "license": "Mixed/source-specific; metadata/API-wide open grant unresolved. Sentinel data separately free/full/open under its legal notice; portal material restrictions and CCM licences have distinct scopes.",
+      "license_url": "https://dataspace.copernicus.eu/terms-and-conditions | https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions",
+      "api_verification_state": "new_parallel_endpoint_native_anonymous_JSON_721_collection_snapshot_complete_returned_pagination",
+      "latest_checked_utc": "2026-10-17T19:07:24.578077+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12219,6 +12219,24 @@
       "license_url": "https://ssd-api.jpl.nasa.gov/doc/",
       "api_verification_state": "documented_untested_user_agent_contact_requirement_unresolved",
       "latest_checked_utc": "2026-10-16T18:40:03.469699+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "juelich-b2share-public-metadata",
+      "provider": "Forschungszentrum Jülich / Jülich Supercomputing Centre",
+      "service_name": "Local Jülich B2SHARE public record metadata REST API",
+      "geographic_coverage": "Research published through Forschungszentrum Jülich; source-specific geographic extent",
+      "topical_coverage": "research | multidisciplinary science",
+      "dataset_families": "Published research datasets and descriptive metadata; record-specific licences and access conditions",
+      "documentation_url": "https://www.fz-juelich.de/en/jsc/services/data-services/generic-services/data-publication-service",
+      "api_base_url": "https://b2share.fz-juelich.de/api/",
+      "format_protocol": "REST JSON record search; hits/aggregations/links",
+      "authentication": "Anonymous metadata sample succeeded; operator documents profile token for writing/publishing, not exercised",
+      "free_access_restrictions": "Public metadata sample; source data and publication access differ by record. No paid access used.",
+      "license": "Deployment-wide public metadata grant unknown; sampled record declares CC BY4.0",
+      "license_url": "https://b2share.fz-juelich.de/api/records/?size=1+%7C+https%3A%2F%2Fwww.fz-juelich.de%2Fen%2Fjsc%2Fservices%2Fdata-services%2Fgeneric-services%2Fdata-publication-service",
+      "api_verification_state": "native_anonymous_JSON_record_search_success",
+      "latest_checked_utc": "2026-10-17T19:07:24.578077+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
