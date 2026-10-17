@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T13:29:04.510212+00:00",
+  "published_at": "2026-10-17T13:31:06.860540+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:21:21.774647+00:00",
+  "research_updated_at": "2026-10-17T13:30:48.150727+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Seoul/Cape eight origins checkpointed:737 services,240 scoped-open,440 candidates,57 restricted. Singapore137pages/1370collections/2336childIDs;existingMunicipalMoney21cubes rechecked;Seoulpublicdemo candidate;SLIPupdateCCBYNC4restricted.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 240,
-    "candidates": 440,
+    "candidates": 442,
     "excluded": 57,
-    "sample_successes": 449
+    "sample_successes": 450
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -10519,6 +10519,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "illinois-open-data-portal",
+      "provider": "State of Illinois",
+      "service_name": "Illinois Open Data portal / advertised Socrata APIs",
+      "geographic_coverage": "United States; Illinois",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Portal datasets; individual families/endpoints not enumerated under linked copying terms",
+      "documentation_url": "http://dev.socrata.com",
+      "api_base_url": "https://data.illinois.gov/",
+      "format_protocol": "Socrata APIs explicitly linked from official root; concrete dataset endpoint/schema unverified",
+      "authentication": "unknown; no keys/account acquired",
+      "free_access_restrictions": "Current root public; continued free availability not guaranteed by linked Illinois notice; applicable data grants and platform overrides unknown",
+      "license": "unknown; linked platform copying/commercial-use restrictions and no publisher override established",
+      "license_url": "https://www.tylertech.com/terms",
+      "api_verification_state": "official_root_API_advertisement_runtime_untested_terms_hold",
+      "latest_checked_utc": "2026-10-17T13:23:22.435729+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "india",
       "provider": "Government of India data.gov.in",
       "service_name": "Government of India data.gov.in open data portal",
@@ -13860,10 +13878,10 @@
       "format_protocol": "REST/DCAT JSON/RDF",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://datos.gob.es/en/aviso-legal",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:26:36.213920+00:00",
+      "license": "General commercial/noncommercial reuse grant for subjected documents; federated data/metadata scope unresolved",
+      "license_url": "https://datos.gob.es/es/aviso-legal",
+      "api_verification_state": "documented_sample_success_catalog_metadata_only",
+      "latest_checked_utc": "2026-10-17T13:29:32.274497+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13954,6 +13972,24 @@
       "license_url": "https://datafinder.stats.govt.nz/layer/106666-regional-council-2022-generalised/",
       "api_verification_state": "documented_key_required_layer_license_verified_api_access_unresolved",
       "latest_checked_utc": "2026-10-16T20:05:00.713336+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sunshine-coast-open-data-search",
+      "provider": "Sunshine Coast Council",
+      "service_name": "SCC Open Data Search API",
+      "geographic_coverage": "Australia; Queensland; Sunshine Coast Council area",
+      "topical_coverage": "geospatial; environment; water; transportation; housing; civic data",
+      "dataset_families": "Publisher portal categories include assets,biota,boundaries,elevation,emergency,health/waste,planning,roads,administration,fees,society and water; families not individually rights-cleared",
+      "documentation_url": "https://data.sunshinecoast.qld.gov.au/api/search/definition/",
+      "api_base_url": "https://data.sunshinecoast.qld.gov.au/api/search/v1/",
+      "format_protocol": "OGC API Records / JSON documented; native sample state in notes",
+      "authentication": "No credentials supplied for small catalogue request; other interfaces unknown",
+      "free_access_restrictions": "Publisher advertises free public resources; per-work rights and other interfaces unresolved",
+      "license": "unknown; publisher open licensing intent is not a blanket operative grant",
+      "license_url": "https://www.sunshinecoast.qld.gov.au/council/organisation-and-governance/open-data",
+      "api_verification_state": "documented_sample_success_catalog_metadata_only",
+      "latest_checked_utc": "2026-10-17T13:27:29.278835+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
