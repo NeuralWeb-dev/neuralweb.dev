@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:54:30.184613+00:00",
+  "published_at": "2026-10-17T20:56:32.550670+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:52:13.210445+00:00",
+  "research_updated_at": "2026-10-17T20:56:27.182548+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Scrippsarchiveidentitiespartitioned; ECBDpublicdataBY4/APIprimaryverified, nativequeryholdsretained",
+  "latest_milestone": "Sixoriginaltasks reviewed across two batches; sixrecordsadded, UniProtdeduplicated. ECBDpublicBY4documentedwithnativehold; GeochronCC0metadata/nativecountand302selectors, EarthChemWFS29featuretypesverified. Globaldiscoveryunfinished.",
   "counts": {
-    "verified": 289,
-    "candidates": 561,
+    "verified": 290,
+    "candidates": 563,
     "excluded": 122,
     "sample_successes": 475
   },
@@ -133,6 +133,7 @@
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
+          "earthchem-library-repository",
           "esa-ecology",
           "georem-reference-materials",
           "gpcc-precipitation-product-portal",
@@ -151,6 +152,7 @@
           "noaa-ncei-access",
           "nsidc",
           "planetary-computer",
+          "scripps-ogdc-data-portal",
           "seabass-sst-validation-api",
           "sesar-sample-metadata-api",
           "undata-official-sdmx-api",
@@ -190,7 +192,8 @@
           "dataone",
           "gpcc-precipitation-product-portal",
           "icdc-climate-thredds",
-          "isimip-impact-repository"
+          "isimip-impact-repository",
+          "scripps-ogdc-data-portal"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -348,6 +351,7 @@
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
+          "earthchem-library-repository",
           "earthscope-sponsored-miniseed-object-repository",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
@@ -357,8 +361,10 @@
           "nsidc",
           "planetary-computer",
           "saudi-mofa",
+          "scripps-ogdc-data-portal",
           "sesar-sample-metadata-api",
           "shom-data",
+          "sioexplorer-legacy-cruise-archive",
           "trove-cultural-discovery-api",
           "world-stress-map-oai",
           "worldpop-wopr"
@@ -469,8 +475,10 @@
           "litterbase-marine-litter-portal",
           "noaa-erddap",
           "noaa-ncei",
+          "scripps-ogdc-data-portal",
           "seabass-sst-validation-api",
-          "shom-data"
+          "shom-data",
+          "sioexplorer-legacy-cruise-archive"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -534,6 +542,7 @@
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
+          "sioexplorer-legacy-cruise-archive",
           "smithsonian",
           "trove-cultural-discovery-api",
           "wellcome-collection",
@@ -623,6 +632,7 @@
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
           "digis-repository-interfaces",
+          "earthchem-library-repository",
           "earthscope-sponsored-miniseed-object-repository",
           "ena",
           "esa-ecology",
@@ -657,9 +667,11 @@
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
+          "scripps-ogdc-data-portal",
           "sddb-scientific-drilling-oai",
           "seabass-sst-validation-api",
           "sesar-sample-metadata-api",
+          "sioexplorer-legacy-cruise-archive",
           "smithsonian",
           "tritrypdb",
           "trove-cultural-discovery-api",
@@ -1922,6 +1934,7 @@
           "birmingham-city-observatory",
           "bristol-open-data",
           "cessda-elsst",
+          "ecbd-chemical-biology-api",
           "estonia-statistics",
           "faroe-statistics",
           "fsa-alerts",
@@ -2474,6 +2487,7 @@
           "croatia-statistics",
           "darus",
           "dnb",
+          "ecbd-chemical-biology-api",
           "emep-mscw-model-thredds",
           "faroe-statistics",
           "finna",
@@ -3796,6 +3810,7 @@
         "verified_provider_ids": [
           "ala",
           "australia",
+          "geochron-geochronology-api",
           "linz",
           "linz-basemaps-api",
           "noumea-data",
@@ -3939,6 +3954,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "geochron-geochronology-api",
           "geri"
         ],
         "candidate_provider_ids": [
@@ -6371,6 +6387,24 @@
       "license_url": "https://www.geoboundaries.org/",
       "api_verification_state": "documented_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T18:23:19.393044+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "geochron-geochronology-api",
+      "provider": "Geochron / University of Kansas; EarthChem and EARTHTIME initiatives",
+      "service_name": "Geochron public metadata and age-estimation REST API",
+      "geographic_coverage": "Internationalgeochronologic/thermochronologicrecords; individualsite/methodcoveragevaries. Australiafilteredcount0notfullcoverageabsence",
+      "topical_coverage": "geospatial | geophysics | research | geology",
+      "dataset_families": "Publicsample/aliquotageestimationmetadata,data,analysismethods/materials/rocktypes/purposeselectors; private records excluded",
+      "documentation_url": "https://www.geochron.org/rest_search_documentation | https://www.geochron.org/policies",
+      "api_base_url": "https://www.geochron.org/restsearchservice | https://www.geochron.org/restitems/",
+      "format_protocol": "NativeJSONcount, fourXMLselectorlists; searchJSON/XML/CSV/JSONP documented",
+      "authentication": "Operator statespublicsearch/APIwithoutregistrationandfree; nativeanonymousmetadata success,privateaccountnotaccessed",
+      "free_access_restrictions": "Publicmetadata/data accordingtoexplicitgrant; maintenancestate/best-effortavailability, notguaranteedSLA",
+      "license": "CC0 1.0 publicdescriptivemetadata; CC BY4defaultpublicdataunlessindividualrecordstatesotherwise",
+      "license_url": "https://www.geochron.org/policies",
+      "api_verification_state": "native_anonymous_JSON_count_success_zeroresult_and_four_complete_XML_selector_lists_explicit_CC0_metadata_BY4_default_source_scope_verified",
+      "latest_checked_utc": "2026-10-17T20:55:08.485710+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9106,7 +9140,7 @@
       "license": "CC BY 4.0",
       "license_url": "https://rest.uniprot.org/help/license?format=json",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T19:26:34.890393+00:00",
+      "latest_checked_utc": "2026-10-17T20:55:08.485710+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11593,6 +11627,42 @@
       "license_url": "https://environment.data.gov.uk/water-quality/view/doc/reference | https://environment.data.gov.uk/support/faqs/275811163/275811177 | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "registry_claim_original_documentation_HTTP_or_policy_access_unresolved_no_API_sample",
       "latest_checked_utc": "2026-10-17T03:29:34.219861+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "earthchem-library-repository",
+      "provider": "EarthChem / Interdisciplinary Earth Data Alliance, Lamont-Doherty Earth Observatory",
+      "service_name": "EarthChem Library deposited-data repository",
+      "geographic_coverage": "InternationalEarth/planetaryresearchdatasets withper-sourceglobal/regional/localextent",
+      "topical_coverage": "research | geophysics | geospatial | climate/weather/environment | geology",
+      "dataset_families": "Geochemical/petrological/experimental/geochronologyresearchcollections andrelateddatasets; exactnamedTibethornblende-cumulate sourceBY4checked",
+      "documentation_url": "https://earthchem.org/ecl/policies | https://ecl.earthchem.org/search.php | https://earthchem.org/resources/developers",
+      "api_base_url": "",
+      "format_protocol": "HTMLsource-record/search; schemaURLisdatamodel, notnativequeryAPI. SeparateEarthChemPortalWFSnotECLinterface",
+      "authentication": "Anonymouspublicreads; noaccounts/credentials",
+      "free_access_restrictions": "Operatorstatesaccessopen/free, sourceembargouptotwoyearsandper-datasetreuseconditions; nofilesobtained",
+      "license": "Provider-selectedsourceCC0/PDDL/BY4/BY-SA4currentoptions; exactdataset4299BY4, blanketmetadata/databasegrantunconfirmed",
+      "license_url": "https://earthchem.org/ecl/policies | https://earthchem.org/legal/terms-of-use/ | https://ecl.earthchem.org/view.php?id=4299",
+      "api_verification_state": "native_repository_HTML_current_source_policy_and_one_explicit_source_BY4_verified_independent_ECL_query_API_metadata_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T20:55:08.485710+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "earthchem-portal-wfs",
+      "provider": "EarthChem / Lamont-Doherty Earth Observatory",
+      "service_name": "EarthChem Portal geochemical WFS",
+      "geographic_coverage": "Geochemicalsamplegeographiesacrosscontributingdatabases; otherdemo layersnotchemicalcoverage",
+      "topical_coverage": "geospatial | geophysics | research | geology",
+      "dataset_families": "EarthChemsamples,isotope/noblegas/rareearth/stableisotope/trace/U-series/volatile/whole-rockfeaturetypes; partner/sourcegrantsindividual",
+      "documentation_url": "https://earthchem.org/resources/developers | https://earthchem.org/legal/terms-of-use/",
+      "api_base_url": "http://portal.earthchem.org/wfs/ows",
+      "format_protocol": "NativeOGCWFS1.0.0GetCapabilitiesXML29featuretypes; GetFeature/Transactiondescribedbutnotinvoked",
+      "authentication": "Anonymouspublicreads; noaccounts/credentials",
+      "free_access_restrictions": "Publicaccess/source-specificlicencesandembargoesmustbedistinguished",
+      "license": "unknown blanketreturnedmetadata/database/sourcegrant; varyingCreativeCommonslicences andsourcecitation terms",
+      "license_url": "https://earthchem.org/legal/terms-of-use/",
+      "api_verification_state": "native_anonymous_WFS1_GetCapabilities_XML_success_29_featuretypes_exact_metadata_source_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:55:08.485710+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
