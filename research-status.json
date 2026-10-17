@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T23:44:08.548924+00:00",
+  "published_at": "2026-10-17T23:46:11.681152+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:41:18.269407+00:00",
+  "research_updated_at": "2026-10-17T23:46:04.557767+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "15 originals reviewed in5batches;11 newrecords,4 aliases update3 existingproviders. OzFlux71-ID8page frontier complete with conflictingrights; PDBnativeCC0 reconfirmed, latestholdingsheld.",
+  "latest_milestone": "Three records added: JGOFS generalNCsite/data licence restricted with specificArabianSeaPD claim preserved; ESAheritage andCLARIAHIATEXT candidates. Nativeofficialdocs verified, legacyJG/EO-CATtargets guarddeferred andCLARIAHJSshellnotAPI success. 8 ESAmissionpagerefs indexed, not exhaustivearchive orsourcegrantclearance.",
   "counts": {
     "verified": 314,
-    "candidates": 644,
-    "excluded": 165,
+    "candidates": 649,
+    "excluded": 166,
     "sample_successes": 470
   },
   "remaining_work": [
@@ -10779,6 +10779,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "aoos-ocean-erddap-services",
+      "provider": "Alaska Ocean Observing System",
+      "service_name": "AOOS Ocean Data Explorer and ERDDAP data services",
+      "geographic_coverage": "Alaska: Arctic, Bering Sea/Aleutians and Gulf of Alaska; exact serviceholdings unenumerated",
+      "topical_coverage": "oceans | climate | environment | water | research",
+      "dataset_families": "Marine/coastal/watershed observations, water levels, waves, meteorology, ecosystem information and model layers",
+      "documentation_url": "https://aoos.org/ocean-data-explorer/ | https://erddap.aoos.org/erddap/",
+      "api_base_url": "https://erddap.aoos.org/erddap/",
+      "format_protocol": "Native ERDDAP2.31.1 docs and structured metadataHTML; planned machineJSON never requested, not APIresponse success",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Public documentation/metadata read withoutkey; exact source access/usage conditions vary; sustainedAPI/free-tier limits unknown",
+      "license": "Source-specific; Nome example permits free use/redistribution with attribution/warranty caveat, canonical blanket grant/adaptation rights unconfirmed",
+      "license_url": "https://erddap.aoos.org/erddap/legal.html | https://erddap.aoos.org/erddap/info/nome-ak-241/index.html",
+      "api_verification_state": "native_ERDDAP_docs_and_Nome_metadata_freeuse_redistribution_text_verified_JSON_catalog_and_sample_unsent_robots_deferred",
+      "latest_checked_utc": "2026-10-17T23:44:11.425837+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "apgc-permafrost-ckan",
       "provider": "Alfred Wegener Institute / Arctic Permafrost Geospatial Centre",
       "service_name": "APGC permafrost CKAN portal/API candidate",
@@ -11838,6 +11856,24 @@
       "license_url": "https://library.claremont.edu/sca/accessing-and-using-materials/ | https://library.claremont.edu/copyright-resources/",
       "api_verification_state": "native_anonymous_CONTENTdm_collection_list_JSON_success_80_distinct_aliases_grants_unconfirmed",
       "latest_checked_utc": "2026-10-17T21:19:00.264640+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clariah-iatext-repository",
+      "provider": "Universidad de Las Palmas de Gran Canaria / IATEXT CLARIAH node",
+      "service_name": "CLARIAH-IATEXT repository",
+      "geographic_coverage": "Spain/CanaryIslands institutional language/digitalhumanities resources; exact sourceregions unenumerated",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Linguistic datasets, corpora, applications and digitalhumanities materials described by nativeoperator",
+      "documentation_url": "https://clariah.iatext.ulpgc.es/ | https://www.iatext.ulpgc.es/es/iatext_centrob_clarin_acreditacion",
+      "api_base_url": "",
+      "format_protocol": "Repository/discovery website; OAI/REST endpoint/schema unverified",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Operator describes researchresource access andpreservation, exact source/APIconditions unknown; nofederatedlogin",
+      "license": "unknown precise repositorymetadata/resource grants; registry genericCC not accepted",
+      "license_url": "https://clariah.iatext.ulpgc.es/",
+      "api_verification_state": "native_operator_repository_identity_verified_repository_JSshell_API_and_exact_licence_unresolved",
+      "latest_checked_utc": "2026-10-17T23:46:00.085349+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13119,6 +13155,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "esa-heritage-mission-data-discovery",
+      "provider": "European Space Agency / Earth Online Heritage Space Programme",
+      "service_name": "ESA heritage mission data discovery",
+      "geographic_coverage": "Global Earth observation heritage satellites/campaigns; exact collection footprints unenumerated",
+      "topical_coverage": "geospatial | climate | environment | oceans | research",
+      "dataset_families": "Retired mission Earth-observation archives and curated long-term records; distinct ESA/third-party access conditions",
+      "documentation_url": "https://earth.esa.int/eogateway/missions/heritage-missions | https://eocat.esa.int/eo-catalogue/thesauri.html",
+      "api_base_url": "",
+      "format_protocol": "Mission discovery and accesscategories documented, EO-CAT thesauri API primaryindexed not currentruntime proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Official site distinguishes open/sign-in, proposal/restrained and sample access; exact mission/APIconditions vary",
+      "license": "unknown exact heritagecollection/metadata grants; EarthOnlinewebsite copyright and separatelymarkedCCBYSA3IGOmedia distinct",
+      "license_url": "https://earth.esa.int/eogateway/terms-and-conditions",
+      "api_verification_state": "native_heritagefamilies_and_web_terms_verified_EOCAT_docguardheld_exact_source_grants_and_API_unresolved",
+      "latest_checked_utc": "2026-10-17T23:46:00.085349+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "esa-iso-science-archive",
       "provider": "European Space Agency",
       "service_name": "Infrared Space Observatory science archive / legacy AIO",
@@ -14358,6 +14412,24 @@
       "license_url": "https://wiki.ims.uni-stuttgart.de/extern/CLARIN-D",
       "api_verification_state": "native_IMS_workflow_OAI_publication_verified_original_VLO_policy_hold_current_IMS_API_and_grants_unresolved",
       "latest_checked_utc": "2026-10-17T21:48:59.670748+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "incois-ocean-erddap-services",
+      "provider": "Indian National Centre for Ocean Information Services",
+      "service_name": "INCOIS ocean information services / ERDDAP discovery",
+      "geographic_coverage": "Indian Ocean and India ocean/coastal services; exact data holdings unenumerated",
+      "topical_coverage": "oceans | climate | environment | water | research",
+      "dataset_families": "Ocean observations/Argo, remote sensing, forecasts and ocean information described on nativehomepage",
+      "documentation_url": "https://incois.gov.in/site/index.jsp | https://erddap.incois.gov.in/",
+      "api_base_url": "https://erddap.incois.gov.in/erddap/ (provider-linked ERDDAP, runtime untested)",
+      "format_protocol": "ERDDAP linked from official homepage; deployed data protocols/schema/runtime untested",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "unknown current ERDDAP/API access and free tier; registry restrictedaccess not independentlyconfirmed",
+      "license": "unknown exact source/metadata grant; IIOE publication CC claim not transferred to allINCOIS datasets",
+      "license_url": "https://erddap.incois.gov.in/erddap/legal.html",
+      "api_verification_state": "native_provider_ERDDAP_link_verified_ERDDAP_original_docs_unsent_robots_deferred_open_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T23:44:11.425837+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16014,6 +16086,24 @@
       "license_url": "https://www.nlr.gov/disclaimer",
       "api_verification_state": "native_archive_reference_table_and_general_data_terms_verified_query_API_exact_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "noaa-antarctic-uv-network",
+      "provider": "NOAA Global Monitoring Laboratory / Antarctic UV Monitoring Network",
+      "service_name": "Antarctic UV product discovery and registered data access",
+      "geographic_coverage": "Antarctica: McMurdo, Palmer and South Pole stations",
+      "topical_coverage": "climate | environment | health | research",
+      "dataset_families": "Spectral ultraviolet irradiance, integrated/dose products, ozone, cloud/albedo and calibration/quality documentation",
+      "documentation_url": "https://gml.noaa.gov/grad/antuv/ | https://gml.noaa.gov/grad/antuv/Data.jsp",
+      "api_base_url": "",
+      "format_protocol": "Product file access and visualization documented, no verified current query API",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native data page requires username/password for accessarea. No registration/credentials acquired. Public docs/volume inventory only",
+      "license": "NOAA GML explicit public-domain/free-use default for own governmentserver information unlessannotated; exact product exceptions/thirdparty conditions apply",
+      "license_url": "https://gml.noaa.gov/about/disclaimer.html",
+      "api_verification_state": "native_PD_default_terms_and_registered_dataaccess_verified_product_inventoryHTML_read_public_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T23:44:11.425837+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24764,6 +24854,24 @@
       "license_url": "https://comtradeplus.un.org/LicenseAgreement",
       "api_verification_state": "documented_untested_terms_restricted",
       "latest_checked_utc": "2026-10-16T18:30:24.351037+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "us-jgofs-legacy-data-system",
+      "provider": "U.S. Joint Global Ocean Flux Study / Woods Hole Oceanographic Institution",
+      "service_name": "US JGOFS legacy ocean carbon data system",
+      "geographic_coverage": "International ocean studies including Arabian Sea and Southern Ocean; exact holdings unenumerated",
+      "topical_coverage": "oceans | climate | environment | research",
+      "dataset_families": "Ocean carbon/nutrient biogeochemistry, process studies, synthesis and model-data resources",
+      "documentation_url": "https://usjgofs.whoi.edu/ | https://usjgofs.whoi.edu/copyright.html",
+      "api_base_url": "http://usjgofs.whoi.edu/jg/dir/jgofs/ (provider-linked legacydatasystem, runtime untested)",
+      "format_protocol": "Legacy JGOFS data system linked; current queryAPI/protocol schema unverified. JGView software/TSV exports not live APIproof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "General native site terms noncommercial educational/scholarly use; study-specific rights differ, no accounts/contact",
+      "license": "General site licence noncommercial educational/scholarly; ArabianSea study expressly publicdomain, scope distinction unresolved acrossarchive",
+      "license_url": "https://usjgofs.whoi.edu/copyright.html | https://usjgofs.whoi.edu/research/arabian.html",
+      "api_verification_state": "native_general_NC_and_specific_study_PD_scopes_verified_legacydatasystem_unsent_robots_deferred",
+      "latest_checked_utc": "2026-10-17T23:46:00.085349+00:00",
       "classification": "restricted"
     },
     {
