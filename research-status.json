@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T03:15:48.357974+00:00",
+  "published_at": "2026-10-17T03:17:51.102065+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T03:11:23.668928+00:00",
+  "research_updated_at": "2026-10-17T03:17:44.211973+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Queued metadata neighbors4processed:2scopedopen/2maintenancecandidates;LINDAT3117headers andONB26crawlcollection metadata complete;global in_progress",
+  "latest_milestone": "Relatedarchive15root finitepass complete;Arquivo.pt restricted docAPIadded,14otherAPI/rights unresolved;metadata4leadbatch preserved;global in_progress",
   "counts": {
     "verified": 174,
     "candidates": 309,
-    "excluded": 32,
+    "excluded": 33,
     "sample_successes": 320
   },
   "remaining_work": [
@@ -11934,6 +11934,24 @@
       "license_url": "https://acleddata.com/eula",
       "api_verification_state": "documented_account_oauth_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:09:07.747183+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "arquivo-pt",
+      "provider": "FCT/FCCN / Arquivo.pt",
+      "service_name": "Arquivo.pt web capture metadata and archive search APIs",
+      "geographic_coverage": "Portuguese web archive; actual geographic breadth of indexed sites unenumerated",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "Captureindex metadata(URL,time,status,digest,collection/source references); fourdocumented API families Text/URL,Image,CDX,Memento, groupedoneprovider",
+      "documentation_url": "https://github.com/arquivo/pwa-technologies/wiki/APIs | https://github.com/arquivo/pwa-technologies/wiki/URL-search:-CDX-server-API",
+      "api_base_url": "https://arquivo.pt/wayback/cdx",
+      "format_protocol": "CDXJ/NDJSON/Memento link metadata documented; actualquery notrequested byrobots",
+      "authentication": "Documented CDX requiresurl parameter; no credentials used; runtimeauthentication untested becausetargetpolicydeferred",
+      "free_access_restrictions": "Currentpublisherterms freeeducational/scientific/research support only; commercial use expressly prohibited, redistribution/modification limits unless lawprovidesotherwise. No paidsubscription/account/keyoperations.",
+      "license": "Restricted currentuse terms:noncommercial research/educational access; redistribution/modification limited",
+      "license_url": "https://sobre.arquivo.pt/pt/acerca/termos-e-condicoes/",
+      "api_verification_state": "documented_CDX_API_sample_policy_deferred_target_unsent",
+      "latest_checked_utc": "2026-10-17T03:17:43.785774+00:00",
       "classification": "restricted"
     },
     {
