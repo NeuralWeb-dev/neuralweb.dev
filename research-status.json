@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T14:40:34.831334+00:00",
+  "published_at": "2026-10-17T14:42:37.248336+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:34:06.072041+00:00",
+  "research_updated_at": "2026-10-17T14:42:33.329915+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SaudiGeospatial8origins/currentprimarydocs/terms saved; Montana39currentpublishedURLs and OpenAQhostednoncompetitionclause reviewed,notintegrated. Main764records unchanged;originalfrontier67.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 247,
     "candidates": 457,
-    "excluded": 60,
+    "excluded": 61,
     "sample_successes": 461
   },
   "remaining_work": [
@@ -11521,6 +11521,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "montana-state-library-gis-services",
+      "provider": "Montana State Library / Montana Spatial Data Infrastructure",
+      "service_name": "Current MSL cloud GIS web services",
+      "geographic_coverage": "United States; Montana",
+      "topical_coverage": "geospatial; environment; water; transportation; housing; agriculture; civic data",
+      "dataset_families": "Primary migration guide lists administrativeboundaries,cadastre,elevation,imagery,soils,structures/addresses,transportation,wetlands andothermap/locatorservices.39unique currentinterfaceURLs/35parentservicebases,not39cleareddatasets.",
+      "documentation_url": "https://msl.mt.gov/geoinfo/GISWebServiceChanges",
+      "api_base_url": "https://gisservice.mt.gov/arcgis/rest/services/",
+      "format_protocol": "PrimarypublisherdocumentsArcGISREST MapServer/ImageServer/GeocodeServer endpointreplacements. Smallmetadataquerypolicyheld,targetunsent;notJSON/runtimesuccess.",
+      "authentication": "unknown foractualruntime; documentedpublisherURLs public,querytargetunsent,noaccounts/keys.",
+      "free_access_restrictions": "Libraryadvertisesopenaccess; operativeper-workreuse/price/accessconditions unconfirmed. No paidaccess/registration/permissionsacquired.",
+      "license": "unknown; explicit effective grant for thisservice/data/metadata notestablished",
+      "license_url": "https://msl.mt.gov/geoinfo/msdi/administrative_boundaries/",
+      "api_verification_state": "official_current_REST_services_documented_original_metadata_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T14:35:49.250786+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "montevideo-beaches",
       "provider": "Intendencia de Montevideo",
       "service_name": "Montevideo API beaches/environment REST service",
@@ -12220,24 +12238,6 @@
       "license_url": "https://open.africa/about/terms-and-conditions",
       "api_verification_state": "documented_official_api_snippet_sample_policy_deferred_rights_unresolved",
       "latest_checked_utc": "2026-10-16T20:27:13.297284+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "openaq",
-      "provider": "OpenAQ",
-      "service_name": "OpenAQ API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "climate/weather/environment; health",
-      "dataset_families": "Air quality locations; sensors; measurements",
-      "documentation_url": "https://docs.openaq.org/using-the-api/api-key",
-      "api_base_url": "https://api.openaq.org/v3/",
-      "format_protocol": "REST/JSON",
-      "authentication": "key required:X-API-Key via registered valid name/email; no account/key obtained",
-      "free_access_restrictions": "General-use API free within documented limits; higher limits paid/custom agreement,not acquired. Registered/authorized API/export access required; no unauthorized scraping.",
-      "license": "Mixed source/provider licences; no blanket corpus grant established",
-      "license_url": "https://docs.openaq.org/about/terms",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T18:15:40.286966+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17334,6 +17334,24 @@
       "license_url": "https://open-meteo.com/en/terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.362473+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "openaq",
+      "provider": "OpenAQ",
+      "service_name": "OpenAQ API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "climate/weather/environment; health",
+      "dataset_families": "Air quality locations; sensors; measurements",
+      "documentation_url": "https://docs.openaq.org/using-the-api/api-key",
+      "api_base_url": "https://api.openaq.org/v3/",
+      "format_protocol": "REST/JSON",
+      "authentication": "key required:X-API-Key via registered valid name/email; no account/key obtained",
+      "free_access_restrictions": "GeneralAPIusefreewithregisteredkeywithin60/minuteand2000/hour. HostedAPIanticompetitioncondition;authorizedregisteredaccessrequired,unauthorizedscrapingprohibited. Higherlimitscustompaidagreementnotacquired.",
+      "license": "Hosted API noncompetition restriction; underlying data licences remain source-specific",
+      "license_url": "https://docs.openaq.org/about/terms",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-17T14:36:14.300815+00:00",
       "classification": "restricted"
     },
     {
