@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T17:26:03.174439+00:00",
+  "published_at": "2026-10-17T17:28:05.876878+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:24:59.265110+00:00",
+  "research_updated_at": "2026-10-17T17:27:20.160875+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Tropical/repository reviews: M-TROPICS published404 service candidate; Brown API documented/challenge held; ScholarSphere defaultNC and key-required",
+  "latest_milestone": "Six original tasks reviewed; DataTerra native211 mixed resource summaries indexed, four candidates/one restricted added; no grant inferred",
   "counts": {
     "verified": 263,
-    "candidates": 486,
+    "candidates": 488,
     "excluded": 76,
-    "sample_successes": 474
+    "sample_successes": 475
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -115,10 +115,12 @@
           "usgs-earthquake"
         ],
         "candidate_provider_ids": [
+          "argo-gdac-data-interfaces",
           "cifor-icraf",
           "copernicus-stac",
           "csiro-data-access-portal",
           "dataone",
+          "dataterra-eosc-resource-catalogue",
           "esa-ecology",
           "hdx",
           "hycom",
@@ -150,6 +152,7 @@
           "nasa-cmr"
         ],
         "candidate_provider_ids": [
+          "argo-gdac-data-interfaces",
           "dataone"
         ],
         "restricted_provider_ids": [
@@ -279,6 +282,7 @@
         "candidate_provider_ids": [
           "copernicus-stac",
           "dataone",
+          "dataterra-eosc-resource-catalogue",
           "mit-timdex",
           "nsidc",
           "planetary-computer",
@@ -342,6 +346,7 @@
           "cifor-icraf",
           "csiro-data-access-portal",
           "dataone",
+          "dataterra-eosc-resource-catalogue",
           "ena",
           "esa-ecology",
           "idigbio",
@@ -369,7 +374,9 @@
           "pangaea"
         ],
         "candidate_provider_ids": [
+          "argo-gdac-data-interfaces",
           "csiro-data-access-portal",
+          "dataterra-eosc-resource-catalogue",
           "hycom",
           "noaa-erddap",
           "noaa-ncei",
@@ -484,6 +491,7 @@
           "zenodo"
         ],
         "candidate_provider_ids": [
+          "argo-gdac-data-interfaces",
           "artic",
           "biostudies",
           "checklistbank",
@@ -492,6 +500,7 @@
           "csiro-data-access-portal",
           "datahub-legacy-catalog-api",
           "dataone",
+          "dataterra-eosc-resource-catalogue",
           "ena",
           "esa-ecology",
           "europepmc",
@@ -2772,6 +2781,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "mtropics-sedoo-metadata",
           "nepal",
           "pakistan-odp"
         ],
@@ -2782,6 +2792,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "esa-ecology",
+          "mtropics-sedoo-metadata",
           "nepal",
           "wis2-india",
           "wis2-nepal"
@@ -2792,6 +2803,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "mtropics-sedoo-metadata",
           "nepal"
         ],
         "restricted_provider_ids": []
@@ -2890,6 +2902,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "mtropics-sedoo-metadata",
           "nepal",
           "pakistan-odp"
         ],
@@ -2900,6 +2913,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "esa-ecology",
+          "mtropics-sedoo-metadata",
           "pakistan-odp"
         ],
         "restricted_provider_ids": []
@@ -9111,6 +9125,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "argo-gdac-data-interfaces",
+      "provider": "International Argo Program / Argo Data Management Team",
+      "service_name": "Argo GDAC published data interfaces",
+      "geographic_coverage": "Global ocean float observations",
+      "topical_coverage": "oceans; water; climate/weather; environment; research",
+      "dataset_families": "Argo profile, trajectory, metadata, technical and biogeochemical observations; quality-controlled and experimental auxiliary distinctions",
+      "documentation_url": "https://www.argodatamgt.org/DataAccess.html",
+      "api_base_url": "https://erddap.ifremer.fr/erddap/ | https://tds0.ifremer.fr/thredds/",
+      "format_protocol": "Official data-access docs publish ERDDAP tabledap ArgoFloats and THREDDS OPeNDAP/OGC interfaces; GDAC NetCDF and ASCIICSV indices/FTP/HTTP/S3 separate file-distribution paths",
+      "authentication": "Official docs describe freely available GDAC data; specific native service auth not tested",
+      "free_access_restrictions": "Freely available statement and requested publication/product acknowledgment; no paid/credential access used",
+      "license": "unknown explicit open reuse licence; freely available/acknowledgment statement verified",
+      "license_url": "https://www.argodatamgt.org/",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-17T17:26:30.069295+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "armenia-statbank",
       "provider": "Statistical Committee of the Republic of Armenia / Armstat",
       "service_name": "Official statistics ArmStatBank PxWeb API",
@@ -10332,6 +10364,24 @@
       "license_url": "https://www.dataone.org/faq/ | https://dataoneorg.github.io/api-documentation/apis/CN_APIs.html",
       "api_verification_state": "documented_registry_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:38:08.495772+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dataterra-eosc-resource-catalogue",
+      "provider": "Data Terra EOSC Node / Earth Data Community",
+      "service_name": "Data Terra EOSC Resource Catalogue",
+      "geographic_coverage": "French and German harvested research resources; item spatial coverage varies globally",
+      "topical_coverage": "environment; biodiversity; oceans; geospatial; climate/weather; research",
+      "dataset_families": "Datasets, publications, software, services and semantic artefacts aggregated in DCAT resource model",
+      "documentation_url": "https://earth-data-community.github.io/docs-website/docs/eosc-node-data-terra/api/ | https://resources-dev.earth-data.eu/redoc",
+      "api_base_url": "https://resources-dev.earth-data.eu",
+      "format_protocol": "REST JSON; DCAT3/DCAT-AP JSON-LD federation; OAI-PMH documented in OpenAPI3.1.0",
+      "authentication": "Published read endpoints no security requirement in spec; one anonymous resource query succeeded; downstream service-specific AAI/access may apply",
+      "free_access_restrictions": "Catalogue metadata queried without credentials/payment; AUP requires source licences and service quotas/access terms respected; no downstream resources acquired",
+      "license": "unknown blanket catalogue metadata grant; source-specific rights",
+      "license_url": "https://earth-data-community.github.io/docs-website/docs/eosc-node-data-terra/policies/user-access/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T17:26:30.069295+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
