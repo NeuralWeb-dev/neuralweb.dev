@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T07:31:26.844777+00:00",
+  "published_at": "2026-10-17T07:33:29.543124+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:29:42.343658+00:00",
+  "research_updated_at": "2026-10-17T07:33:21.869831+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Swiss canton batch:8 original origins processed;two named Zürich open services andone GenevaSITG candidate added. Fribourg fullcurrentHTMLterms read,additionalpurposeconditionsmoveexistingentrytocandidate. Zürich731metadata/1549resourceclaims/13referenceentities;SITG1824servicerefs. Global in_progress.",
+  "latest_milestone": "Central Swiss six-original batch integrated:3 newgeoservices,StGallenreclassifiedcandidate,SchwyzCCBY4confirmed;454originalleadsremain,globalin_progress.",
   "counts": {
-    "verified": 207,
-    "candidates": 385,
-    "excluded": 41,
-    "sample_successes": 391
+    "verified": 206,
+    "candidates": 388,
+    "excluded": 42,
+    "sample_successes": 392
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6278,15 +6278,15 @@
       "geographic_coverage": "Switzerland/Schwyz",
       "topical_coverage": "geospatial; culture",
       "dataset_families": "Cantonal datasets; sampled Panoramatafeln",
-      "documentation_url": "https://data.sz.ch/",
+      "documentation_url": "https://data.sz.ch/api-console/",
       "api_base_url": "https://data.sz.ch/api/explore/v2.1/",
       "format_protocol": "Opendatasoft Explore API/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.404965+00:00",
+      "license_url": "https://data.sz.ch/terms/terms-and-conditions/",
+      "api_verification_state": "documented_sample_success;historical_success_preserved_latest_original_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T07:33:21.570225+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6305,24 +6305,6 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:43:35.409273+00:00",
-      "classification": "open_license_verified"
-    },
-    {
-      "identifier": "registry-daten-sg-ch",
-      "provider": "Datenkatalog Kanton St. Gallen",
-      "service_name": "Datenkatalog Kanton St. Gallen portal API",
-      "geographic_coverage": "Switzerland/St Gallen",
-      "topical_coverage": "geospatial; transportation",
-      "dataset_families": "Cantonal datasets; sampled traffic control WMS",
-      "documentation_url": "https://daten.sg.ch",
-      "api_base_url": "https://daten.sg.ch/api/explore/v2.1/",
-      "format_protocol": "Opendatasoft Explore API/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.413527+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11512,6 +11494,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "registry-daten-sg-ch",
+      "provider": "Datenkatalog Kanton St. Gallen",
+      "service_name": "Datenkatalog Kanton St. Gallen portal API",
+      "geographic_coverage": "Switzerland/St Gallen",
+      "topical_coverage": "geospatial; transportation",
+      "dataset_families": "Cantonal datasets; sampled traffic control WMS",
+      "documentation_url": "https://www.daten.sg.ch/api-console/explore/v2.1/",
+      "api_base_url": "https://daten.sg.ch/api/explore/v2.1/",
+      "format_protocol": "Opendatasoft Explore API/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
+      "license": "CC BY 4.0",
+      "license_url": "https://daten.sg.ch/terms/terms-and-conditions/",
+      "api_verification_state": "documented_sample_success;historical_success_preserved_latest_original_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T07:33:21.570325+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "registry-docs-dataportal-se",
       "provider": "Sweden's National Data Portal",
       "service_name": "Sweden's National Data Portal portal API",
@@ -11944,6 +11944,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "schaffhausen-geoservices",
+      "provider": "Kanton Schaffhausen,Amt fuer Geoinformation",
+      "service_name": "REST geospatial query services",
+      "geographic_coverage": "Schaffhausen,Switzerland",
+      "topical_coverage": "Geospatial,land cover,place names,cadastral reference",
+      "dataset_families": "23 documented GET operation templates;selected flurname response only. Parcel/building functions documented,not queried.",
+      "documentation_url": "https://services.sh.ch/de/services/api-fur-geoservices-nutzen",
+      "api_base_url": "https://api.geo.sh.ch/geo/",
+      "format_protocol": "STAC/JSON,COG,WMS,WMTS,REST documented",
+      "authentication": "Per-service possible authentication/contact/contract;no credentials acquired",
+      "free_access_restrictions": "Current service page documents freely available JSON/GeoJSON/XML and PNG operations. Full primary OGD page explicitly requires per-dataset terms and only legally unrestricted data qualify. Actual anonymous place-name JSON is not a grant for all23operations or cadastral/person records.",
+      "license": "Dataset-specific reuse terms;selected place-name grant not established.",
+      "license_url": "https://services.sh.ch/de/services/geodaten-als-open-government-data-ogd",
+      "api_verification_state": "actual_public_JSON_sample_success_one_place_name",
+      "latest_checked_utc": "2026-10-17T07:33:21.570564+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "seattle-open-data",
       "provider": "City of Seattle",
       "service_name": "Seattle Socrata metadata and public-data portal",
@@ -12067,6 +12085,24 @@
       "license_url": "https://www.si.edu/openaccess/faq",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T17:30:21.627680+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "solothurn-gis-dataservice",
+      "provider": "Kanton Solothurn,Amt fuer Geoinformation",
+      "service_name": "GIS Dataservice REST interface",
+      "geographic_coverage": "Solothurn,Switzerland",
+      "topical_coverage": "Geospatial,multisector GIS",
+      "dataset_families": "Provider describes reading/writing GIS datasets using GeoJSON and filters;individual datasets unverified.",
+      "documentation_url": "https://so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-geoinformation/geoportal/geodienste/dataservice/",
+      "api_base_url": "https://geo.so.ch/api/data/v1/",
+      "format_protocol": "REST/GeoJSON documented",
+      "authentication": "Detailed access unknown;no credentials acquired",
+      "free_access_restrictions": "Official canton describes a REST GIS service. Published detailed documentation target policy-held/unsent;no protected-route workaround. No API data response obtained,write operations never attempted. General site terms require permission for protected material with listed exceptions;no automatic extension to all GIS datasets. Dataset-specific rights remain unresolved.",
+      "license": "API data grant unknown;general website copyright is not automatically the data-specific licence.",
+      "license_url": "https://so.ch/rechtliches/",
+      "api_verification_state": "documented_API_detailed_reference_policy_held_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T07:33:21.570663+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14643,6 +14679,24 @@
       "license_url": "https://microdata.nsanamibia.com/index.php/catalog/19",
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T01:35:44.608383+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "neuchatel-sitn-geoservices",
+      "provider": "Canton de Neuchatel,SGRF/SITN",
+      "service_name": "SITN geoservices and published STAC catalogue",
+      "geographic_coverage": "Neuchatel,Switzerland",
+      "topical_coverage": "Geospatial,LiDAR,imagery,territory",
+      "dataset_families": "Published COG,search,STAC,translation,WMS andWMTS documentation families;no complete catalogue enumerated.",
+      "documentation_url": "https://sitn.ne.ch/services/docs/api/",
+      "api_base_url": "https://sitn.ne.ch/services/",
+      "format_protocol": "STAC/JSON,COG,WMS,WMTS,REST documented",
+      "authentication": "Per-service possible authentication/contact/contract;no credentials acquired",
+      "free_access_restrictions": "Full7-page conditions v2025-11-01 reviewed via official PDF web extraction. Section4.6 restricts API/iFrame integration without prior express permission;section3.1 preserves supplier rights. Not a blanket paid-service or no-download claim. Published small STAC example returned404,not proof whole service nonexistent. No contact/account/contract or embedding undertaken.",
+      "license": "Custom SITN conditions;prior permission required for embedding API services;per-supplier data rights.",
+      "license_url": "https://sitn.ne.ch/web/conditions_utilisation/Conditions_Generales.pdf",
+      "api_verification_state": "documented_API_original_STAC_example_HTTP404",
+      "latest_checked_utc": "2026-10-17T07:33:21.570749+00:00",
       "classification": "restricted"
     },
     {
