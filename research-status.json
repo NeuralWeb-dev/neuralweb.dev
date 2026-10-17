@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T21:23:06.835198+00:00",
+  "published_at": "2026-10-17T21:25:10.105016+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:22:11.261341+00:00",
+  "research_updated_at": "2026-10-17T21:23:12.415032+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "VU Yoda native206published-package identifiers completed; Caltech legacy/API identity remains unresolved, BioImages primary noncommercial terms recorded as restricted.",
+  "latest_milestone": "Six original tasks processed in two batches; six records added: one scoped-open, three candidates, two restricted. Claremont80collection entries, TextGrid39sets/3formats/oneBY4edition and VU206unique identifiers across3terminal pages verified. Global discovery unfinished.",
   "counts": {
     "verified": 294,
     "candidates": 575,
@@ -258,6 +258,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "charite-zebanc-biobank",
           "ghdx-ihme-discovery",
           "ipd-immunopolymorphism-api",
           "openaq",
@@ -699,6 +700,7 @@
           "aviso-authenticated-data-services",
           "bnf-gallica",
           "bsrn-wrmc-radiation-archive",
+          "charite-zebanc-biobank",
           "cinii-research",
           "copernicus-marine",
           "deims",
@@ -1891,6 +1893,7 @@
         ],
         "candidate_provider_ids": [
           "bonares-soil-agricultural-repository",
+          "claremont-colleges-digital-library",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -2028,6 +2031,7 @@
           "slovenia-statistics",
           "staedel-museum-oai",
           "switzerland",
+          "textgrid-public-repository",
           "torino-aperto-catalog-api",
           "ukraine-data",
           "wales-statistics",
@@ -2042,6 +2046,7 @@
           "aragon-sparql",
           "bas-fcs",
           "cessda-catalogue",
+          "claremont-colleges-digital-library",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2074,6 +2079,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "bioimages-uk-field-guide",
           "bonn-open-data",
           "lindat-fcs",
           "maribor-dkum-oai",
@@ -2217,6 +2223,7 @@
           "bologna-open-data",
           "bordeaux-metropole-datahub",
           "cambridgeshire-insight",
+          "claremont-colleges-digital-library",
           "crc806-legacy-research-database",
           "diba-open-data-api",
           "ea-bathing-water",
@@ -2325,6 +2332,7 @@
           "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
+          "claremont-colleges-digital-library",
           "european-history-online",
           "la-rochelle-data4citizen",
           "paris",
@@ -2364,6 +2372,7 @@
           "ufz-spatial-geonetwork"
         ],
         "restricted_provider_ids": [
+          "bioimages-uk-field-guide",
           "edaphobase-soil-biodiversity-api",
           "geoguyane-csw-catalogue"
         ]
@@ -2434,6 +2443,7 @@
           "slovenia-statistics",
           "staedel-museum-oai",
           "tampere-open-news-feeds",
+          "textgrid-public-repository",
           "ukraine-data",
           "wales-statistics",
           "zaragoza-open-data-api"
@@ -2447,6 +2457,7 @@
           "bas-fcs",
           "bologna-open-data",
           "bonares-soil-agricultural-repository",
+          "claremont-colleges-digital-library",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2530,6 +2541,7 @@
           "saw-leipzig-repository",
           "slovenia-statistics",
           "staedel-museum-oai",
+          "textgrid-public-repository",
           "uk-police"
         ],
         "candidate_provider_ids": [
@@ -2542,6 +2554,7 @@
           "bexis-biodiversity-exploratories",
           "bonares-soil-agricultural-repository",
           "cessda-catalogue",
+          "claremont-colleges-digital-library",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2578,6 +2591,7 @@
           "tuebingen-fcs",
           "ufz-spatial-geonetwork",
           "ukedc-discovery-portal",
+          "vu-yoda-publication-metadata",
           "wellcome-collection",
           "yoda-utrecht",
           "zvdd-metadata-interfaces"
@@ -2586,6 +2600,7 @@
           "agdc-geomagnetic-portal",
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
+          "bioimages-uk-field-guide",
           "bnf-gallica",
           "cdgp-geothermal-portal",
           "copernicus-marine",
@@ -3095,6 +3110,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "claremont-colleges-digital-library",
           "mtropics-sedoo-metadata",
           "nepal"
         ],
@@ -3121,6 +3137,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "claremont-colleges-digital-library",
           "pakistan-odp"
         ],
         "restricted_provider_ids": []
@@ -3146,6 +3163,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "claremont-colleges-digital-library",
           "wis2-india",
           "wis2-nepal"
         ],
@@ -3164,9 +3182,11 @@
         "restricted_provider_ids": []
       },
       "law/civic": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "claremont-colleges-digital-library"
+        ],
         "restricted_provider_ids": []
       },
       "biodiversity": {
@@ -3194,6 +3214,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "claremont-colleges-digital-library",
           "mtropics-sedoo-metadata",
           "nepal",
           "pakistan-odp"
@@ -3204,6 +3225,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "claremont-colleges-digital-library",
           "esa-ecology",
           "mtropics-sedoo-metadata",
           "pakistan-odp"
