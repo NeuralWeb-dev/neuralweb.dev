@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:00:46.542507+00:00",
+  "published_at": "2026-10-17T18:02:48.990263+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:58:56.693510+00:00",
+  "research_updated_at": "2026-10-17T18:02:41.808095+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed, twelve distinct records added; ETH six specifications/59 operations and ALSPAC eight references indexed; API/licence/access scopes retained",
+  "latest_milestone": "BiGG current v3 NC, IE native OAI and DEG original hold checkpointed",
   "counts": {
     "verified": 271,
-    "candidates": 491,
-    "excluded": 87,
+    "candidates": 494,
+    "excluded": 89,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -11475,6 +11475,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "griidc-erddap",
+      "provider": "GRIIDC / Harte Research Institute, Texas A&M University-Corpus Christi",
+      "service_name": "GRIIDC ERDDAP scientific data services",
+      "geographic_coverage": "Gulf coastal/marine ecosystems; broader contributed scientific coverage varies by dataset",
+      "topical_coverage": "oceans | environment | biodiversity | climate | research",
+      "dataset_families": "Coastal and marine research data; gridded/tabular datasets and metadata",
+      "documentation_url": "https://erddap.griidc.org/erddap/rest.html",
+      "api_base_url": "https://erddap.griidc.org/erddap/",
+      "format_protocol": "ERDDAP REST, OPeNDAP griddap/tabledap; JSON CSV NetCDF and other documented formats",
+      "authentication": "Public interfaces documented; private-dataset authentication separately controlled, not used",
+      "free_access_restrictions": "Repository says search/download free; storage fee separate. ERDDAP local requests policy-withheld; no alternate native queries.",
+      "license": "Unresolved effective per-dataset grant; repository text CC0 but linked data licence CC BY4.0",
+      "license_url": "https://www.griidc.org/terms-and-conditions | https://erddap.griidc.org/erddap/legal.html",
+      "api_verification_state": "documented_api_original_policy_withheld_sample_untested",
+      "latest_checked_utc": "2026-10-17T18:01:13.588169+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gwas-catalog",
       "provider": "NHGRI-EBI GWAS Catalog",
       "service_name": "NHGRI-EBI GWAS Catalog public data API",
@@ -11706,6 +11724,24 @@
       "license_url": "https://www.idigbio.org/sites/default/files/iDigBio_Intellectual_Property_Policy_20141001.pdf",
       "api_verification_state": "documented_collection_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T19:05:45.373897+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ie-repository-oai",
+      "provider": "IE University",
+      "service_name": "IE Repository OAI-PMH metadata service",
+      "geographic_coverage": "Spanish institutional research repository, international academic content; exact subject geography varies",
+      "topical_coverage": "research | education | economics | law | culture",
+      "dataset_families": "Institutional outputs, research, teaching material and theses; metadata only sampled",
+      "documentation_url": "https://rebiun.org/directorio-repositorios/ie-repository | https://repositorio.ie.edu/home",
+      "api_base_url": "https://repositorio.ie.edu/server/oai/request",
+      "format_protocol": "OAI-PMH2.0 XML",
+      "authentication": "Anonymous Identify GET200 valid protocol response; no login",
+      "free_access_restrictions": "Anonymous service identification succeeded; underlying item access/licences vary and remain unverified",
+      "license": "unknown for metadata; registry CC BY4 claim unverified on primary repository",
+      "license_url": "https://www.ie.edu/legal-notice/",
+      "api_verification_state": "native_anonymous_OAI_Identify_XML_verified_license_unconfirmed",
+      "latest_checked_utc": "2026-10-17T18:02:37.884628+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13956,6 +13992,24 @@
       "license_url": "https://planetarycomputer.microsoft.com/terms",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:28:43.954903+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "plasmodb-wdk-service",
+      "provider": "VEuPathDB / PlasmoDB",
+      "service_name": "PlasmoDB WDK REST service",
+      "geographic_coverage": "Plasmodium organism/genome research; no inferred human population/geographic coverage",
+      "topical_coverage": "biology | health | research",
+      "dataset_families": "Genes, transcripts, organisms, sequences, pathways, compounds and source-dataset metadata",
+      "documentation_url": "https://static-content.veupathdb.org/documents/Using-Web-services-Dec2023.pdf | https://plasmodb.org/plasmo/app/static-content/content/PlasmoDB/webServices.html",
+      "api_base_url": "https://plasmodb.org/plasmo/service/",
+      "format_protocol": "WDK REST JSON; documented search reporters JSON/tabular FASTA GFF3; only schema list tested",
+      "authentication": "Anonymous record-types GET succeeded; user/workspace branches not queried",
+      "free_access_restrictions": "No payment or key needed for tested schema; broader dataset access/release policy varies and remains unverified",
+      "license": "unknown for served data; source-specific release policies must be reviewed",
+      "license_url": "https://plasmodb.org/plasmo/app/static-content/about.html#about_use",
+      "api_verification_state": "native_anonymous_JSON_schema_sample_verified_data_license_unconfirmed",
+      "latest_checked_utc": "2026-10-17T18:01:13.588169+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17957,6 +18011,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "bigg-current-model-api",
+      "provider": "BiGG / Reconstruction Research Group, BRIGHT, Technical University of Denmark",
+      "service_name": "BiGG metabolic model API v3",
+      "geographic_coverage": "Genome-scale metabolic models from diverse organisms; not terrestrial population geography",
+      "topical_coverage": "biology | research | health",
+      "dataset_families": "Metabolic models and collections; metabolites, reactions, genomes, genes and compartments",
+      "documentation_url": "https://bigg.bio/data_access",
+      "api_base_url": "https://bigg.bio/api/v3/",
+      "format_protocol": "POST JSON object/table query interfaces; model/metabolite/reaction downloads separately documented",
+      "authentication": "No credentials stated in published object-query example; runtime untested",
+      "free_access_restrictions": "Freely available for non-commercial use per current official About licence section",
+      "license": "Custom non-commercial permission",
+      "license_url": "https://bigg.bio/about#about_license",
+      "api_verification_state": "documented_v3_API_restricted_sample_untested",
+      "latest_checked_utc": "2026-10-17T18:02:37.884628+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "biocyc-limited-pathway-api",
       "provider": "SRI International / BioCyc",
       "service_name": "BioCyc shared pathway/genome web services: MetaCyc and HumanCyc limited-database scope",
@@ -18332,6 +18404,24 @@
       "license_url": "https://www.cosmos.esa.int/web/gaia-users/license",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T19:11:05.630009+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "eurocat-controlled-research-data",
+      "provider": "European Commission Joint Research Centre / EUROCAT",
+      "service_name": "EUROCAT research data access portal (restricted; public API unresolved)",
+      "geographic_coverage": "European congenital-anomaly surveillance registries; exact current registry coverage not enumerated",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Congenital anomalies registry research data; public prevalence/statistical tables separately scoped",
+      "documentation_url": "https://eu-rd-platform.jrc.ec.europa.eu/eurocat/data-collection/requesting-data_en",
+      "api_base_url": "",
+      "format_protocol": "Public information and data request documents; machine data API unestablished",
+      "authentication": "Research request and registry permissions; ethics approval if required",
+      "free_access_restrictions": "Research proposal-specific use, confidential storage, no third-party disclosure; no contact/request made",
+      "license": "EUROCAT-specific restricted research terms, last update06.02.2023",
+      "license_url": "https://eu-rd-platform.jrc.ec.europa.eu/system/files/public/eurocat/Terms%20and%20conditions_vs06.02.2023.pdf",
+      "api_verification_state": "restricted_portal_documented_public_api_unresolved",
+      "latest_checked_utc": "2026-10-17T18:01:13.588169+00:00",
       "classification": "restricted"
     },
     {
