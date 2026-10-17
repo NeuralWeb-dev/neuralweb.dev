@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:01:19.176733+00:00",
+  "published_at": "2026-10-17T20:03:21.709330+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:59:01.028121+00:00",
+  "research_updated_at": "2026-10-17T20:02:23.383524+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LMU Physics21 OAI identifiers/8 formats verified; GDI-DE CSW/REST documented and GeoReM ownership/citation reviewed, exact grants unresolved",
+  "latest_milestone": "Six originals reviewed; repOS HCU metadata CC0 and native OAI accepted; LMU21 identifiers, HCU139 sets/13 dataset identifiers indexed. GDI-DE/GeoReM/TRR API and exact grants remain unresolved.",
   "counts": {
-    "verified": 281,
-    "candidates": 535,
+    "verified": 282,
+    "candidates": 537,
     "excluded": 115,
     "sample_successes": 475
   },
@@ -133,6 +133,7 @@
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
           "esa-ecology",
+          "georem-reference-materials",
           "gpcc-precipitation-product-portal",
           "hdx",
           "hycom",
@@ -592,6 +593,7 @@
           "ena",
           "esa-ecology",
           "europepmc",
+          "georem-reference-materials",
           "georoc2-testing-api",
           "getty-museum",
           "gpcc-precipitation-product-portal",
@@ -1763,6 +1765,7 @@
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "galicia-abertos-catalog",
+          "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
           "latvia-statistics",
@@ -2137,6 +2140,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
           "mulhouse-alsace-open-data",
@@ -2747,7 +2751,8 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
-          "cifor-icraf"
+          "cifor-icraf",
+          "trr228-african-futures-database"
         ],
         "restricted_provider_ids": [
           "wascal"
@@ -2906,7 +2911,8 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
-          "cifor-icraf"
+          "cifor-icraf",
+          "trr228-african-futures-database"
         ],
         "restricted_provider_ids": [
           "wascal"
@@ -2922,7 +2928,8 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "laws-africa-knowledge",
-          "sanbi-birdie"
+          "sanbi-birdie",
+          "trr228-african-futures-database"
         ],
         "restricted_provider_ids": [
           "indepth-ishare-data-repository",
@@ -6415,6 +6422,24 @@
       "license_url": "https://hcdc.hereon.de/disclaimer/Disclaimer_HCDC_EN.pdf | https://hcdc.hereon.de/searchapi/playground/info",
       "api_verification_state": "native_anonymous_database_discovery_JSON_success_published_contract_JSON",
       "latest_checked_utc": "2026-10-17T19:32:23.436297+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "hcu-repos-oai-metadata",
+      "provider": "HafenCity University Hamburg Library",
+      "service_name": "repOS HCU institutional repository OAI-PMH bibliographic metadata",
+      "geographic_coverage": "HCU-related urban/built-environment scholarship, source-specific German/international study areas",
+      "topical_coverage": "research | urban studies | housing | architecture | geospatial | environment | education",
+      "dataset_families": "Bibliographic descriptions of publications and research data, theses, urban/built-environment datasets;13 research-data identifiers in native set",
+      "documentation_url": "https://repos.hcu-hamburg.de/about/policy/ | https://repos.hcu-hamburg.de/",
+      "api_base_url": "https://repos.hcu-hamburg.de/oai/request",
+      "format_protocol": "Native OAI-PMH2 XML Identify, ListSets and scoped dataset ListIdentifiers",
+      "authentication": "Anonymous OAI metadata requests succeeded; account/write/deposit functions not accessed",
+      "free_access_restrictions": "Bibliographic metadata CC0 for subsequent use/redistribution. Default source documents/data limited to private/scientific use unless individual CC licence grants more",
+      "license": "CC0 for bibliographic metadata; individual source data/document rights separate",
+      "license_url": "https://repos.hcu-hamburg.de/about/policy/ | https://repos.hcu-hamburg.de/about/tos",
+      "api_verification_state": "native_anonymous_OAI_Identify_sets_and_scoped_dataset_identifier_inventory_success_CC0_metadata_verified",
+      "latest_checked_utc": "2026-10-17T20:01:33.958206+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16716,6 +16741,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tr32-land-atmosphere-database",
+      "provider": "University of Cologne / partner research institutions",
+      "service_name": "CRC/TR32 soil-vegetation-atmosphere research database portal",
+      "geographic_coverage": "Project soil/vegetation/atmosphere studies, source-specific German study regions; exact source footprints unenumerated",
+      "topical_coverage": "soil | land use | remote sensing | vegetation | atmosphere | hydrology | geospatial | research",
+      "dataset_families": "Measured/modelled data, geodata, reports, presentations, publications and pictures;2021 landing announces phase3 DATA availability subject to dataset terms",
+      "documentation_url": "https://www.tr32db.uni-koeln.de/site/index.php | https://www.tr32db.uni-koeln.de/site/faq.php",
+      "api_base_url": "",
+      "format_protocol": "Project web metadata/search and file distribution; independent API contract not established",
+      "authentication": "Public landing/FAQ accessible; source download/edit permissions vary, no accounts requested",
+      "free_access_restrictions": "Data files may be public, project-only or subgroup restricted; exact source licence must be checked separately",
+      "license": "Exact metadata/database and scientific-source licences unresolved; source-specific permissions retained",
+      "license_url": "https://www.tr32db.uni-koeln.de/site/faq.php | https://www.tr32db.uni-koeln.de/datapolicy/data_policy_crc_tr32.pdf",
+      "api_verification_state": "native_official_HTML_portal_and_permission_documentation_verified_query_API_gap",
+      "latest_checked_utc": "2026-10-17T20:01:33.958206+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "trentino-open-data",
       "provider": "Provincia autonoma di Trento / Dati Trentino",
       "service_name": "Dati Trentino CKAN open-data catalog",
@@ -16785,6 +16828,24 @@
       "license_url": "https://trove.nla.gov.au/about/create-something/using-api/trove-api-terms-use | https://trove.nla.gov.au/about/policies/terms-use",
       "api_verification_state": "official_v3_API_documented_keyrequired_untested_terms_challenge",
       "latest_checked_utc": "2026-10-17T19:30:03.054703+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "trr228-african-futures-database",
+      "provider": "University of Cologne / partner research institutions",
+      "service_name": "CRC/TRR228 African futures research database portal",
+      "geographic_coverage": "African research regions; native landing names Kenya, Namibia, Tanzania, Zambia and Botswana; exact per-dataset coverage varies",
+      "topical_coverage": "agriculture | ecology | economics | infrastructure | politics | society | culture | research",
+      "dataset_families": "Project measurements/models, maps, reports, publications and image descriptions; purchased geodata and project-only household surveys separately permissioned",
+      "documentation_url": "https://www.trr228db.uni-koeln.de/site/index.php | https://www.trr228db.uni-koeln.de/site/faq.php",
+      "api_base_url": "",
+      "format_protocol": "Project web metadata/search and file distribution; independent API contract not established",
+      "authentication": "Public landing/FAQ accessible; source download/edit permissions vary, no accounts requested",
+      "free_access_restrictions": "Data files may be public, project-only or subgroup restricted; exact source licence must be checked separately",
+      "license": "Exact metadata/database and scientific-source licences unresolved; source-specific permissions retained",
+      "license_url": "https://www.trr228db.uni-koeln.de/site/faq.php | https://www.trr228db.uni-koeln.de/datapolicy/TRR_228_DATA_policy.pdf",
+      "api_verification_state": "native_official_HTML_portal_and_permission_documentation_verified_query_API_gap",
+      "latest_checked_utc": "2026-10-17T20:01:33.958206+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
