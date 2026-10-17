@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T22:06:00.444446+00:00",
+  "published_at": "2026-10-17T22:08:02.821991+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:04:52.387661+00:00",
+  "research_updated_at": "2026-10-17T22:07:09.873979+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "iDigBio existing provider transition deduplicated; UNITE BY4 native/root13JSON verified but SH route unresolved; CAP nativeNC-SA4 restricted.125release and29project references indexed.",
+  "latest_milestone": "Six original tasks processed: iDigBio existing transition alias and five new services(three candidates,two restricted). UNITE125releaseDOIs, CAP29projects, PlutoF13rootlinks andNCED22rows indexed, source/runtime gaps retained.",
   "counts": {
     "verified": 303,
-    "candidates": 596,
-    "excluded": 140,
+    "candidates": 598,
+    "excluded": 141,
     "sample_successes": 474
   },
   "remaining_work": [
@@ -148,6 +148,7 @@
           "muenster-datastore-rest",
           "nasa-api",
           "nasa-power",
+          "nced-data-repository",
           "noaa-erddap",
           "noaa-ncei",
           "noaa-ncei-access",
@@ -157,6 +158,7 @@
           "seabass-sst-validation-api",
           "sesar-sample-metadata-api",
           "undata-official-sdmx-api",
+          "unite-species-hypotheses",
           "unsd",
           "usgs-sciencebase-catalogue"
         ],
@@ -195,6 +197,7 @@
           "gpcc-precipitation-product-portal",
           "icdc-climate-thredds",
           "isimip-impact-repository",
+          "nced-data-repository",
           "scripps-ogdc-data-portal",
           "usgs-sciencebase-catalogue"
         ],
@@ -297,7 +300,8 @@
           "internet-archive-metadata",
           "kth-data-repository-api",
           "mit-timdex",
-          "trove-cultural-discovery-api"
+          "trove-cultural-discovery-api",
+          "ubc-circle-open-collections"
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
@@ -370,6 +374,7 @@
           "ioerdata-spatial-research-portal",
           "ivs-vlbi-data-portal",
           "mit-timdex",
+          "nced-data-repository",
           "nsidc",
           "planetary-computer",
           "saudi-mofa",
@@ -378,6 +383,7 @@
           "shom-data",
           "sioexplorer-legacy-cruise-archive",
           "trove-cultural-discovery-api",
+          "ubc-circle-open-collections",
           "usgs-sciencebase-catalogue",
           "world-stress-map-oai",
           "worldpop-wopr"
@@ -455,6 +461,7 @@
           "planetary-computer",
           "smithsonian",
           "tritrypdb",
+          "unite-species-hypotheses",
           "usgs-sciencebase-catalogue"
         ],
         "restricted_provider_ids": [
@@ -566,6 +573,7 @@
           "sioexplorer-legacy-cruise-archive",
           "smithsonian",
           "trove-cultural-discovery-api",
+          "ubc-circle-open-collections",
           "wellcome-collection",
           "wfp"
         ],
@@ -690,6 +698,7 @@
           "loc",
           "mit-timdex",
           "muenster-datastore-rest",
+          "nced-data-repository",
           "nih-clinicaltrials",
           "nims-mdr",
           "osi-licenses",
@@ -703,7 +712,9 @@
           "smithsonian",
           "tritrypdb",
           "trove-cultural-discovery-api",
+          "ubc-circle-open-collections",
           "undata-official-sdmx-api",
+          "unite-species-hypotheses",
           "usgs-sciencebase-catalogue",
           "wellcome-collection",
           "world-stress-map-oai"
@@ -995,6 +1006,7 @@
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "toronto-open-data-catalog-api",
+          "ubc-circle-open-collections",
           "us-data-gov-catalog",
           "washington-state-open-data"
         ],
@@ -1135,6 +1147,7 @@
           "strathcona-open-data-search",
           "surrey-open-data-map-service",
           "toronto-open-data-catalog-api",
+          "ubc-circle-open-collections",
           "us-data-gov-catalog",
           "usda-ers-geospatial-services",
           "vernon-public-geospatial-api",
@@ -1282,6 +1295,7 @@
           "opendataphilly-jkan",
           "oregon-open-data",
           "smithsonian",
+          "ubc-circle-open-collections",
           "usda-ers-arms-api",
           "usda-ers-geospatial-services",
           "usda-nass"
@@ -1323,6 +1337,7 @@
           "neracoos-erddap",
           "sfwmd-repository",
           "smithsonian",
+          "ubc-circle-open-collections",
           "ucla-social-science-dataverse",
           "us-data-gov-catalog"
         ],
@@ -2667,6 +2682,7 @@
           "bioimages-uk-field-guide",
           "bnf-gallica",
           "cdgp-geothermal-portal",
+          "comparative-agendas-project",
           "copernicus-marine",
           "cranachnet-mediawiki",
           "dhsnl-dnb-household-survey",
@@ -4113,6 +4129,7 @@
         ],
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
+          "comparative-agendas-project",
           "digitalnz",
           "indepth-ishare-data-repository",
           "national-vegetation-survey-nz",
@@ -14950,6 +14967,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nced-data-repository",
+      "provider": "University of Minnesota / National Center for Earth-Surface Dynamics",
+      "service_name": "NCED Data Repository directory",
+      "geographic_coverage": "Named earth-surface experimental and field-study collections, including Eel River/Angelo and SRTM; no comprehensive national/global inventory claim",
+      "topical_coverage": "water | geospatial | environment | research",
+      "dataset_families": "Alluvial channels, streamlab/delta/flume experiments, DEMs, geomorphology, riparian vegetation and river studies",
+      "documentation_url": "https://nced.umn.edu/about/nced-data-repository",
+      "api_base_url": "",
+      "format_protocol": "HTML table with Globus file-manager links, not proof of query API or unauthenticated transfer API",
+      "authentication": "No accounts or credentials used",
+      "free_access_restrictions": "Public documentation availability does not establish dataset access or reuse rights",
+      "license": "unknown exact source/metadata/database reuse grant",
+      "license_url": "https://nced.umn.edu/about/nced-data-repository",
+      "api_verification_state": "native_Globus_linked_directory_verified_query_API_and_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T22:06:20.676100+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ncei-space-weather-dpmf",
       "provider": "NOAA/NESDIS National Centers for Environmental Information",
       "service_name": "Space Weather Portal DPMF/HAPI discovery API",
@@ -18529,6 +18564,24 @@
       "license_url": "https://opendata.openscience.ubbcluj.ro/faq | https://opendata.openscience.ubbcluj.ro/about",
       "api_verification_state": "official_catalogue_published_API_OAI_links_documentation_policy_held_no_native_API_sample",
       "latest_checked_utc": "2026-10-17T16:16:27.225881+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ubc-circle-open-collections",
+      "provider": "University of British Columbia Library",
+      "service_name": "cIRcle institutional repository via Open Collections API",
+      "geographic_coverage": "UBC community and partner research outputs, Canada with international subject matter; not globally representative datasets",
+      "topical_coverage": "research | education | culture | geospatial",
+      "dataset_families": "Published/unpublished academic/creative material, theses, dissertations, conferences and faculty/student/community collections",
+      "documentation_url": "https://circle.ubc.ca/about/ | https://open.library.ubc.ca/docs",
+      "api_base_url": "",
+      "format_protocol": "Native institutional about page documents Open Collections API; docs200challenge not successful API/schema",
+      "authentication": "No accounts or credentials used",
+      "free_access_restrictions": "Public documentation availability does not establish dataset access or reuse rights",
+      "license": "Source-selected licences; unknown exact sampled open source or blanket metadata/database grant",
+      "license_url": "https://circle.ubc.ca/about/policies/",
+      "api_verification_state": "native_institutional_API_reference_and_source_selected_policy_verified_docs_HTTP200_access_block_runtime_untested",
+      "latest_checked_utc": "2026-10-17T22:06:20.676100+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22401,6 +22454,24 @@
       "license_url": "https://mo.gov/data-policy",
       "api_verification_state": "native_anonymous_MapServer_metadata_verified_restricted_portal_policy",
       "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "morphbank-biological-imaging",
+      "provider": "Florida State University / Morphbank Biological Imaging",
+      "service_name": "Morphbank query services",
+      "geographic_coverage": "International biological specimen/image contributors; source-specific geographic coverage",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Biological images, specimens, views, localities, collections, annotations, publications and taxa",
+      "documentation_url": "https://www.morphbank.net/schema/API1.html",
+      "api_base_url": "http://services.morphbank.net/mb3/request",
+      "format_protocol": "Native query docs describe GET key/value, XML/RSS/RDF/ID formats; sample target unsent due inaccessible services-host robots",
+      "authentication": "No accounts or credentials used",
+      "free_access_restrictions": "Public documentation availability does not establish dataset access or reuse rights",
+      "license": "Default Creative Commons BY-NC-SA3.0 for images; less restrictive or public-domain image exceptions possible",
+      "license_url": "https://www.morphbank.net/About/Copyright/",
+      "api_verification_state": "native_GET_API_documentation_and_default_NC_SA3_policy_verified_services_robots_inaccessible_sample_unsent",
+      "latest_checked_utc": "2026-10-17T22:06:20.676100+00:00",
       "classification": "restricted"
     },
     {
