@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T23:48:14.455754+00:00",
+  "published_at": "2026-10-17T23:50:17.043531+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:46:04.557767+00:00",
+  "research_updated_at": "2026-10-17T23:48:23.478417+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three records added: JGOFS generalNCsite/data licence restricted with specificArabianSeaPD claim preserved; ESAheritage andCLARIAHIATEXT candidates. Nativeofficialdocs verified, legacyJG/EO-CATtargets guarddeferred andCLARIAHJSshellnotAPI success. 8 ESAmissionpagerefs indexed, not exhaustivearchive orsourcegrantclearance.",
+  "latest_milestone": "Three newrecords: scoped-open e-cienciaDatos andWarsawmetadata/collectionrights, restrictedSILSO NCBY4 solar data. Exactgrants verifiedwithnativeoperatorpolicy/officialEnglishterms;APIIdentifytargetsoriginalunsentguard-deferred. CachedhomepageDOIreferences indexedonly, notfullcatalogues/sourcefileclearance. English/Polishauthority andCCOtypography caveats retained.",
   "counts": {
-    "verified": 314,
+    "verified": 316,
     "candidates": 649,
-    "excluded": 166,
+    "excluded": 167,
     "sample_successes": 470
   },
   "remaining_work": [
@@ -6313,6 +6313,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ecienciadatos-madrono-metadata",
+      "provider": "Consorcio Madroño and memberuniversities",
+      "service_name": "e-cienciaDatos research metadata / Dataverse repository",
+      "geographic_coverage": "Spain/Madrid university research; sourcegeographies multidisciplinarity notinferred as onlySpain",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Multidisciplinary researchdatasets from Madroñomemberuniversities; exactsourcefamilies/catalogue unenumerated",
+      "documentation_url": "https://edatos.consorciomadrono.es | https://www.consorciomadrono.es/en/investigam/politicas/",
+      "api_base_url": "https://edatos.consorciomadrono.es/oai (providerpolicy documentsOAI-PMH; runtimeheld)",
+      "format_protocol": "OAI-PMH officiallydocumented; registryDataverse REST/SWORD genericdocs notcurrentdeploymentproof",
+      "authentication": "No credentials/accounts/keys used; publicdocs only",
+      "free_access_restrictions": "Publicmetadata documented; datasetlegal/ethical/technologytransferexceptions and embargoes mayapply. No sourcefiles/accounts",
+      "license": "CC0 for metadata (operatorpolicy rendered CCO, officialindexed resource saysCreativeCommonsZero); filelicences vary",
+      "license_url": "https://www.consorciomadrono.es/en/investigam/politicas/",
+      "api_verification_state": "native_official_OAI_metadata_CC0_scope_verified_original_Identify_unsent_robots_deferred",
+      "latest_checked_utc": "2026-10-17T23:48:18.597388+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ecuador-sercop",
       "provider": "Servicio Nacional de Contratación Pública del Ecuador (SERCOP)",
       "service_name": "Contrataciones Abiertas Ecuador OCDS API",
@@ -10108,6 +10126,24 @@
       "license_url": "https://www.gov.wales/copyright-statement | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "documented_v1_v2_OpenAPI_v2_catalog_metadata_and_observation_json_sample_success",
       "latest_checked_utc": "2026-10-16T23:09:20.725390+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "warsaw-research-data-metadata",
+      "provider": "University of Warsaw",
+      "service_name": "Dane Badawcze UW research metadata repository",
+      "geographic_coverage": "Poland institutionalscientificresearch; underlyingstudygeographies unenumerated",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary researchdatasets, metadata and separatelylicensedfiles",
+      "documentation_url": "https://danebadawcze.uw.edu.pl/ | https://info.danebadawcze.uw.edu.pl/en/how-to-deposit/",
+      "api_base_url": "https://danebadawcze.uw.edu.pl/oai (registryclaimed, runtimeheld)",
+      "format_protocol": "Dataversehomepage verified; OAIregisteredclaim, genericRESTdocumentation notcurrentmachineproof",
+      "authentication": "No credentials/accounts/keys used; publicdocs only",
+      "free_access_restrictions": "Officialterms publicbrowsing/downloadfree subjecttolicences; filesmaybepublic/nonpublic/embargoed. Noaccountsused",
+      "license": "CC0 metadata and rightsin datasetsascollectionoffiles; individualfiles separatelylicensed/restricted",
+      "license_url": "https://info.danebadawcze.uw.edu.pl/wp-content/uploads/2025/06/Terms-of-Use-DBUW.pdf | https://danebadawcze.uw.edu.pl/terms-of-use-page.xhtml",
+      "api_verification_state": "official_primary_Englishterms_CC0_metadata_collection_scope_verified_original_OAI_and_bindingPolishpage_unsent_robots_deferred",
+      "latest_checked_utc": "2026-10-17T23:48:18.597388+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -24638,6 +24674,24 @@
       "license_url": "https://dataportal.senckenberg.de/legal",
       "api_verification_state": "CKAN_portal_confirmed_native_candidate_API_sample_robots_withheld",
       "latest_checked_utc": "2026-10-17T19:32:23.436297+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "silso-sunspot-data",
+      "provider": "Royal Observatory of Belgium / SIDC SILSO World Data Center",
+      "service_name": "SILSO sunspot index and long-term solar observations",
+      "geographic_coverage": "Solar observations; global observingnetwork notcountrydata",
+      "topical_coverage": "astronomy | climate | research",
+      "dataset_families": "Sunspotindices, estimatedinternational sunspotnumber and longtermsolaractivity observations",
+      "documentation_url": "https://www.sidc.be/SILSO/home | https://www.sidc.be/SILSO/eisninfo",
+      "api_base_url": "",
+      "format_protocol": "Webdata/documentation; currentmachinequeryAPI unverified",
+      "authentication": "No credentials/accounts/keys used; publicdocs only",
+      "free_access_restrictions": "Native source licence limitscommercialuse; no accounts/downloads",
+      "license": "CreativeCommonsAttribution-NonCommercial4.0 (CCBYNC4)",
+      "license_url": "https://www.sidc.be/SILSO/eisninfo",
+      "api_verification_state": "native_SILSO_CCBYNC4_data_terms_verified_public_queryAPI_unconfirmed",
+      "latest_checked_utc": "2026-10-17T23:48:18.597388+00:00",
       "classification": "restricted"
     },
     {
