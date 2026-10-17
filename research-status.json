@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T05:40:57.989458+00:00",
+  "published_at": "2026-10-17T05:43:00.721467+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:37:20.160804+00:00",
+  "research_updated_at": "2026-10-17T05:42:52.253837+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PacificCanada:4newservices sofar(1scopedopen/2candidates/1restricted);Busan2keyedAPIsdocumented, Burlingtonrevocablecurrenttermsverified;native/HTMLcatalogpassescontinue.Globalin_progress.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 198,
     "candidates": 356,
@@ -5127,7 +5127,7 @@
       "service_name": "Kitchener GeoHub public OGC catalog and geospatial API references",
       "geographic_coverage": "Kitchener,Ontario,Canada",
       "topical_coverage": "Geospatial,transport,landuse,municipal infrastructure,demographics,environment,local economy",
-      "dataset_families": "Council-designated open datasets and current public GeoHub dataset/document/map/app catalog; individual external/third-party or non-open datasets not universally covered. Native traversal pending checkpoint.",
+      "dataset_families": "City-designated open datasets plus561public catalog records(6pages),including datasets/documents/maps/apps; city-owned Business_Park item reproduces full matching customOGL1 terms. External/partner/metadata rights not universal.",
       "documentation_url": "https://www.kitchener.ca/council-and-city-administration/data-and-maps/open-data/ | https://open-kitchenergis.opendata.arcgis.com/api/search/definition/?f=json",
       "api_base_url": "https://open-kitchenergis.opendata.arcgis.com/api/search/v1/",
       "format_protocol": "Actual public OGC API discovery JSON with links to collections and OpenAPI; city docs explicitly REST/GeoJSON data integration. Catalog schema not all underlying feature data.",
@@ -5136,7 +5136,7 @@
       "license": "Open Government Licence - The Corporation of the City of Kitchener,version1.0,attribution optional",
       "license_url": "https://www.kitchener.ca/council-and-city-administration/data-and-maps/open-data-licence/",
       "api_verification_state": "actual_current_OGC_discovery_metadata_sample_success_scoped_custom_Kitchener_OGL1_verified",
-      "latest_checked_utc": "2026-10-17T05:29:59.059872+00:00",
+      "latest_checked_utc": "2026-10-17T05:37:22.314478+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7568,7 +7568,7 @@
       "license": "Primary label 이용허락범위 제한 없음 (unrestricted permission scope); precise grant/instrument/attribution applicability unresolved",
       "license_url": "https://www.data.go.kr/data/15092750/openapi.do | https://www.data.go.kr/data/15056954/openapi.do | https://www.data.go.kr/ugs/selectPortalPolicyView.do",
       "api_verification_state": "official_two_key_required_data_APIs_documented_data_samples_untested_public_catalog_metadata_only_200",
-      "latest_checked_utc": "2026-10-17T05:36:03.669331+00:00",
+      "latest_checked_utc": "2026-10-17T05:33:21.517005+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7586,7 +7586,7 @@
       "license": "Current dataset/metadata reuse licence unconfirmed; policy and disclosure guidance are not a universal grant",
       "license_url": "https://data.ca.gov/docs/developer-documentation | https://handbook.data.ca.gov/disclosures/ | https://data.ca.gov/docs/open-data-policy",
       "api_verification_state": "official_current_published_CKAN_API_anonymous_reads_documented_original_sample_policy_held_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T05:29:59.059872+00:00",
+      "latest_checked_utc": "2026-10-17T05:26:47.614687+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13474,7 +13474,7 @@
       "license": "City of Burlington Open Data Terms of Use,19September2011: revocable, post-cancellation reuse prohibited",
       "license_url": "https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf",
       "api_verification_state": "actual_native_OGC_catalog_metadata_sample_success_current_terms_bound_data_revocable_restricted",
-      "latest_checked_utc": "2026-10-17T05:36:03.669331+00:00",
+      "latest_checked_utc": "2026-10-17T05:34:27.028732+00:00",
       "classification": "restricted"
     },
     {
