@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T11:40:47.007628+00:00",
+  "published_at": "2026-10-17T11:42:49.438794+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:40:16.404717+00:00",
+  "research_updated_at": "2026-10-17T11:42:25.916926+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Mekong/Nordic tenorigins;ODC14149native names/restrictedterms;Raleigh dataset metadata/policyunread;Baltimore dataset pass scopedCCBY3;OpenAidPDMpublisher/commonIATIreference;Kenya legacy404.709services232open423candidates54restricted;214originalsremain;in_progress.",
+  "latest_milestone": "Mekong/Nordic ten originals checkpointed:709services232scoped-open423candidates54restricted;ODC14149native names/restrictedterms;Raleigh dataset metadata/policyunread;Baltimore native catalog/scopedCCBY3;OpenAid PDMexports APIunestablished;Kenya legacy404.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 232,
     "candidates": 423,
@@ -63,7 +63,6 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
-          "iati",
           "unsd"
         ],
         "restricted_provider_ids": [
@@ -282,7 +281,6 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "hdx",
-          "iati",
           "open-contracting"
         ],
         "restricted_provider_ids": []
@@ -607,6 +605,7 @@
           "north-dakota-gis-hub",
           "okanagan-similkameen-open-data",
           "ontario-data-catalog",
+          "raleigh-open-data",
           "seattle-open-data",
           "sfwmd-repository",
           "us-data-gov-catalog",
@@ -738,6 +737,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
+          "baltimore-open-data",
           "boston-maps-open-data",
           "boulder-open-data",
           "brampton-geohub",
@@ -783,6 +783,7 @@
           "oakville-open-data",
           "okanagan-similkameen-open-data",
           "palo-alto-open-data",
+          "raleigh-open-data",
           "sacramento-open-data",
           "us-data-gov-catalog",
           "waterloo-city-open-data",
@@ -3900,10 +3901,10 @@
       "format_protocol": "Actual JSON OGC collections and GeoJSON record metadata. Native published OpenAPI HTML shell documents existence; not counted as structured API sample.",
       "authentication": "Anonymous collection and catalog metadata200validJSON; no key/account/token.",
       "free_access_restrictions": "Anonymous catalog metadata without payment; scoped CC BY3 works allow commercial reuse with attribution/change notices. Other works and external interfaces require separate review.",
-      "license": "CC BY3.0 Unported for 18 explicitly marked native works; other works and corpus rights unconfirmed",
+      "license": "CC BY3.0 Unported for 19 explicitly marked native works; other works and corpus rights unconfirmed",
       "license_url": "https://creativecommons.org/licenses/by/3.0/legalcode",
       "api_verification_state": "actual_public_JSON_sample_success_OGC_native_catalog_scoped_explicit_CCBY3_work_grants_verified",
-      "latest_checked_utc": "2026-10-17T11:40:15.947827+00:00",
+      "latest_checked_utc": "2026-10-17T11:38:42.247601+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10115,7 +10116,7 @@
       "license": "Publisher-specific open-licence requirement documented; effective individual work/whole-service grant unconfirmed",
       "license_url": "https://reference.iatistandard.org/en/guidance/publishing-data/what-data-to-publish/how-to-license-your-data/",
       "api_verification_state": "documented_key_required_API_untested_no_credentials_used",
-      "latest_checked_utc": "2026-10-17T11:40:15.943460+00:00",
+      "latest_checked_utc": "2026-10-17T11:32:13.732772+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10403,7 +10404,7 @@
       "license": "unknown",
       "license_url": "https://www.opendata.go.ke/",
       "api_verification_state": "legacy_original_portal_root_HTTP404_current_API_and_terms_unresolved",
-      "latest_checked_utc": "2026-10-17T11:40:15.936274+00:00",
+      "latest_checked_utc": "2026-10-17T11:22:27.695950+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12383,7 +12384,7 @@
       "license": "unknown effective dataset/catalog-metadata licence",
       "license_url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR21/Open%20Raleigh%20Data%20Policy.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_OGC_root_and_native_catalog_policy_unread_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T11:40:15.947692+00:00",
+      "latest_checked_utc": "2026-10-17T11:36:40.125603+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16129,7 +16130,7 @@
       "license": "Current ODC offer: CC BY-SA4 headline plus commercial-gain restriction; conflicting/restricted",
       "license_url": "https://opendevelopmentcambodia.net/terms-of-use/",
       "api_verification_state": "actual_public_JSON_sample_success_CKAN_metadata_and_native_names_current_restricted_offer_reviewed",
-      "latest_checked_utc": "2026-10-17T11:40:15.947505+00:00",
+      "latest_checked_utc": "2026-10-17T11:23:42.029459+00:00",
       "classification": "restricted"
     },
     {
