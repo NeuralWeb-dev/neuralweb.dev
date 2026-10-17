@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T00:34:19.030964+00:00",
+  "published_at": "2026-10-17T00:36:21.473936+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:33:59.211347+00:00",
+  "research_updated_at": "2026-10-17T00:36:14.184535+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NCgeospatial2candidates actualGeoJSON/WMSXML;ProvinceSud83metadata snapshot complete;Georep27IDGgroupsqueued;Dateno43614registry/50938source-origin tasks;globaloriginalAPI/license reviewsunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
     "verified": 152,
-    "candidates": 201,
+    "candidates": 203,
     "excluded": 26,
     "sample_successes": 192
   },
@@ -6234,6 +6234,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cook-geospatial",
+      "provider": "Government of the Cook Islands / CookGeoportal",
+      "service_name": "CookGeoportal OGC catalogue and geospatial services",
+      "geographic_coverage": "Oceania; Pacific; Cook Islands",
+      "topical_coverage": "geospatial; climate/weather/environment; oceans",
+      "dataset_families": "PublicGeoportal maps/datasets/documents andimagery;native CSW summary catalogue75records,individualdata/resource rights unreviewed.",
+      "documentation_url": "https://cookgeo.gov.ck/developer/ | https://cookgeo.gov.ck/about/",
+      "api_base_url": "https://cookgeo.gov.ck/catalogue/csw | https://cookgeo.gov.ck/geoserver/ows",
+      "format_protocol": "NativeCSW2.0.2 capabilities andGetRecords validXML;developer linksWMS1.1.1/WFS1.1.0/WCS1.1.1/WMTS1.0.0/OpenSearch/OAI-PMH. OAIselectedIdentify500;othersdocumentedonly.",
+      "authentication": "SelectedCSWcapabilities/GetRecords anonymous200. PublishedOAI-PMHIdentifyreturnedHTTP500;otherOGCinterfacesuntested;noaccounts/keys",
+      "free_access_restrictions": "Selectedpublicmetadata requestsfree/noaccount. Unknown broaderdata/free-tier/access restrictions;no paid acquisition.",
+      "license": "unknown;no operative returned-data grant verified",
+      "license_url": "https://cookgeo.gov.ck/developer/ | https://cookgeo.gov.ck/about/",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:35:18.596235+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "copernicus-stac",
       "provider": "Copernicus Data Space Ecosystem",
       "service_name": "Copernicus Data Space Ecosystem API",
@@ -6573,6 +6591,24 @@
       "license_url": "https://www.statsfiji.gov.fj/terms-of-use/",
       "api_verification_state": "documented_national_SDMX_dissemination_API_sample_HTTP500_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T00:04:28.916983+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "fiji-tltb",
+      "provider": "iTaukei Land Trust Board / TLTB",
+      "service_name": "TLTB ArcGIS REST services",
+      "geographic_coverage": "Oceania; Pacific; Fiji",
+      "topical_coverage": "geospatial; housing",
+      "dataset_families": "Root10foldernames and2MapServer references:LEASEMASTER_2021 andSampleWorldCities;notobserved lease/landowner records or verified geographic completeness.",
+      "documentation_url": "https://maps.tltb.com.fj/arcgis/rest/services",
+      "api_base_url": "https://maps.tltb.com.fj/arcgis/rest/services/",
+      "format_protocol": "Observed ArcGIS JSON root version10.81;rootHTML linksREST/SOAP/WSDL,SOAPuntested",
+      "authentication": "Rootlisting anonymous200;protected subservices/auth unknown;no Login/GetToken calls",
+      "free_access_restrictions": "Selectedpublicmetadata requestsfree/noaccount. Unknown broaderdata/free-tier/access restrictions;no paid acquisition.",
+      "license": "unknown;no operative returned-data grant verified",
+      "license_url": "https://maps.tltb.com.fj/arcgis/rest/services",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T00:35:18.410020+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
