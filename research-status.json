@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:22:28.682778+00:00",
+  "published_at": "2026-10-17T19:24:31.327608+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:20:36.738077+00:00",
+  "research_updated_at": "2026-10-17T19:23:29.324819+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BRFSS native public-domain prevalence API evidence added to CDC; BsubCyc shared restricted service deduplicated; UKEDC OGLmetadata/API deployment gap retained",
+  "latest_milestone": "TERENO native THREDDS catalogue/source grant-policy conflict verified; Southampton OAI held/terms unresolved; AMIGA4archive refs and current API gap retained",
   "counts": {
     "verified": 279,
-    "candidates": 514,
+    "candidates": 516,
     "excluded": 109,
     "sample_successes": 475
   },
@@ -15804,6 +15804,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "southampton-eprints-oai",
+      "provider": "University of Southampton Library",
+      "service_name": "ePrints Soton institutional repository OAI-PMH",
+      "geographic_coverage": "Southampton research outputs; source-specific international coverage",
+      "topical_coverage": "research | education | multidisciplinary science",
+      "dataset_families": "Institutional bibliographic metadata, publications, theses and associated research outputs; content/source grants vary",
+      "documentation_url": "https://eprints.soton.ac.uk/ | https://library.soton.ac.uk/openaccess/policies",
+      "api_base_url": "https://eprints.soton.ac.uk/cgi/oai2",
+      "format_protocol": "Official indexed landing documents OAI2base; native protocol/sample not runtime-verified",
+      "authentication": "Public repository described, native target withheld and render403; no OAI backend/alternatehost workaround",
+      "free_access_restrictions": "Effective metadata/database grant unknown; library deposit/open-access policy and thesis/source terms are not universal metadata reuse licence",
+      "license": "unknown for repository metadata; output manuscripts/theses/data subject to source-specific licences",
+      "license_url": "https://library.soton.ac.uk/openaccess/policies",
+      "api_verification_state": "official_cached_landing_OAI_documented_native_runtime_policy_held",
+      "latest_checked_utc": "2026-10-17T19:23:24.791628+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "spain",
       "provider": "Spanish government datos.gob.es",
       "service_name": "Spanish government datos.gob.es open data portal",
@@ -16125,6 +16143,24 @@
       "license_url": "https://www.tepapa.govt.nz/assets/76067/1693184837-collections_api_terms_of_use.pdf",
       "api_verification_state": "documented_key_required_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.439565+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tereno-soilnet-thredds-discovery",
+      "provider": "TERENO / Forschungszentrum Jülich and contributing observatories",
+      "service_name": "TERENO Data Discovery Portal / SoilNet THREDDS catalogue",
+      "geographic_coverage": "German terrestrial observatories; sampled catalogue Wuestebach and Rollesbroich",
+      "topical_coverage": "environment | climate | water | geospatial | research",
+      "dataset_families": "SoilNet soil water/temperature grid holdings and broader terrestrial observatory discovery; sample only two catalogue references",
+      "documentation_url": "https://ddp.tereno.net/tereno.wiki/doku.php?id=search+%7C+https%3A%2F%2Fddp.tereno.net%2Fddp%2F",
+      "api_base_url": "https://service.tereno.net/thredds/ ; published OPENDAP base /thredds/dodsC/",
+      "format_protocol": "Native THREDDS1.2 catalogueXML with OPENDAP and HTTPServer definitions; actual measurement subset not queried",
+      "authentication": "Anonymous catalogueXML succeeded; linked policy asks user identity/use purpose and acceptance for data downloads, some holdings restricted",
+      "free_access_restrictions": "Native source catalogue grants BYSA4 but general linked policy limits noncommercial/scientific use with data-use identification/acceptance and results obligations; effective source exception unresolved",
+      "license": "Native source metadata says CC BY-SA4.0; conflicting linked TERENO Data PolicyV2.0, exact effective scope unresolved",
+      "license_url": "https://service.tereno.net/thredds/catalog/terenoCatalog.xml | https://ddp.tereno.net/ddp/docs/TERENO-Data%20Policy%20V2.0.pdf",
+      "api_verification_state": "native_anonymous_THREDDS_catalog_XML_success_OPENDAP_documented_not_data_subset_tested",
+      "latest_checked_utc": "2026-10-17T19:23:24.791628+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
