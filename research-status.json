@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T03:26:02.007474+00:00",
+  "published_at": "2026-10-17T03:28:04.412477+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T03:20:08.387667+00:00",
+  "research_updated_at": "2026-10-17T03:27:36.283698+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Two saved primary leads processed: OSI actual126-entry catalog remains reuse-unconfirmed; TNA OGL data with restrictive no-store API terms, untested",
+  "latest_milestone": "Two saved primary leads plus selected fourarchive published documentation chains processed: OSI126distinct JSON license entries indexed but data grant unresolved; TNA OGL data/no-storeAPI service restricted; IAactualcollectionmetadataJSON added candidate. Global universe and14relatedarchive API/rights gaps remain.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 174,
-    "candidates": 309,
-    "excluded": 33,
-    "sample_successes": 320
+    "candidates": 311,
+    "excluded": 34,
+    "sample_successes": 322
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -213,7 +213,8 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
-          "cinii-books"
+          "cinii-books",
+          "internet-archive-metadata"
         ],
         "restricted_provider_ids": [
           "cinii-research",
@@ -300,6 +301,7 @@
           "geoboundaries"
         ],
         "candidate_provider_ids": [
+          "osi-licenses",
           "saudi-mofa",
           "shom-data",
           "unhcr"
@@ -362,6 +364,7 @@
           "nasa-spdf-sscweb"
         ],
         "candidate_provider_ids": [
+          "internet-archive-metadata",
           "jpl-ssd",
           "nasa-api",
           "nasa-exoplanet"
@@ -388,9 +391,11 @@
           "cifor-icraf",
           "cinii-books",
           "getty-museum",
+          "internet-archive-metadata",
           "loc",
           "nasa-power",
           "ocha-hapi",
+          "osi-licenses",
           "perspectivia",
           "rijksmuseum",
           "smithsonian",
@@ -462,10 +467,12 @@
           "harvard-dataverse",
           "hycom",
           "idigbio",
+          "internet-archive-metadata",
           "jpl-ssd",
           "loc",
           "nih-clinicaltrials",
           "nims-mdr",
+          "osi-licenses",
           "pangaea",
           "perspectivia",
           "rijksmuseum",
@@ -1454,7 +1461,8 @@
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": [
-          "registry-data-bs-ch"
+          "registry-data-bs-ch",
+          "tna-discovery"
         ]
       },
       "biodiversity": {
@@ -1549,7 +1557,8 @@
         "restricted_provider_ids": [
           "bnf-gallica",
           "lindat-fcs",
-          "swiss-al-fcs"
+          "swiss-al-fcs",
+          "tna-discovery"
         ]
       },
       "research": {
@@ -1616,7 +1625,8 @@
           "bnf-gallica",
           "copernicus-marine",
           "lindat-fcs",
-          "swiss-al-fcs"
+          "swiss-al-fcs",
+          "tna-discovery"
         ]
       }
     },
@@ -7951,6 +7961,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "internet-archive-metadata",
+      "provider": "Internet Archive",
+      "service_name": "Archive.org item and collection metadata Read API",
+      "geographic_coverage": "Global/international community and institutional cultural/research collections; not independently enumerated",
+      "topical_coverage": "culture; research; education; astronomy",
+      "dataset_families": "Item/collection bibliographic descriptions, identifiers, dates, subjects, licensing references; sampled NASA collection description only. File/archive-content rights separate.",
+      "documentation_url": "https://help.archive.org/help/api-information/ | http://archive.org/developers/md-read.html | http://archive.org/developers/bots.html",
+      "api_base_url": "https://archive.org/metadata/",
+      "format_protocol": "REST/JSON; native partial field/subfield reads; one actual result object",
+      "authentication": "Public metadata read succeeded anonymously; no credentials/account acquired. Current bot guide recommends authentication when possible but no mandatory key documented for tested Read.",
+      "free_access_restrictions": "Developer portal describes freely available access and no new copyright/proprietary rights asserted by Archive. This does not extinguish underlying rights or establish universal metadata open licence. Full main terms still unreadable in prior200SPAHTML evidence.",
+      "license": "API database common open licence unconfirmed; Archive states no new proprietary rights",
+      "license_url": "http://archive.org/developers/index.html | http://archive.org/developers/bots.html | https://archive.org/about/terms.php",
+      "api_verification_state": "actual_JSON_collection_metadata_Read_sample_success",
+      "latest_checked_utc": "2026-10-17T03:25:31.123807+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "irs",
       "provider": "US Internal Revenue Service",
       "service_name": "US Internal Revenue Service API",
@@ -8956,6 +8984,24 @@
       "license_url": "https://www.ortolang.fr/en/home/charter/",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:57:16.307672+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "osi-licenses",
+      "provider": "Open Source Initiative",
+      "service_name": "Current OSI Approved Licenses metadata API",
+      "geographic_coverage": "Global open source software license registry; no country completeness claim",
+      "topical_coverage": "culture; research; law/civic data",
+      "dataset_families": "126published native license metadata entries: identifiers,SPDXcrosswalks,versions,approval dates,stewards,keywords and official links; not126providers",
+      "documentation_url": "https://opensource.org/blog/introducing-the-new-api-for-osi-approved-licenses | https://discuss.opensource.org/t/introducing-the-new-api-for-osi-approved-licenses/1169",
+      "api_base_url": "https://opensource.org/api/license | https://opensource.org/api/licenses",
+      "format_protocol": "REST/JSON; native collection arrays and HATEOAS self/html/collection links",
+      "authentication": "None documented in official forum documentation; anonymous collection and detail GETs actually succeeded",
+      "free_access_restrictions": "Official announcement says fully public/free; no subscription/key/account used. Explicit API database reuse licence unconfirmed.",
+      "license": "Unconfirmed for API metadata/database; website CC BY4 footer not automatically transferred",
+      "license_url": "https://opensource.org/blog/introducing-the-new-api-for-osi-approved-licenses | https://discuss.opensource.org/t/introducing-the-new-api-for-osi-approved-licenses/1169",
+      "api_verification_state": "actual_JSON_detail_and_complete_published_collection_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T03:22:41.249948+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12450,6 +12496,24 @@
       "license_url": "https://github.zhaw.ch/pages/digitallinguistics/swiss-al-docu/terms-of-use.html",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:58:11.434863+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "tna-discovery",
+      "provider": "The National Archives (United Kingdom)",
+      "service_name": "Discovery catalogue descriptions API",
+      "geographic_coverage": "United Kingdom and international contributing archives; official terms describe more than2500 archives/institutions",
+      "topical_coverage": "culture; research; law/civic data",
+      "dataset_families": "Archival catalogue descriptions and hierarchy; official terms describe more than37million descriptions, not digitized document fulltext",
+      "documentation_url": "https://www.nationalarchives.gov.uk/terms-and-conditions/discovery-for-developers-about-the-application-programming-interface-api/ | https://discovery.nationalarchives.gov.uk/API/sandbox/index",
+      "api_base_url": "https://discovery.nationalarchives.gov.uk/API",
+      "format_protocol": "XML/JSON documented; documentation sandbox200HTML is not API record success",
+      "authentication": "Published terms request email contact with caller IP for API access. No contact, account or key acquisition performed; actual runtime enforcement untested.",
+      "free_access_restrictions": "Terms welcome personal/educational/commercial reuse under OGL, but expressly prohibit caching or storing any API-returned content. Email/IP access prerequisite unresolved; service beta/no availability guarantee.",
+      "license": "OGL data reuse stated, with restrictive API no-cache/no-store service terms",
+      "license_url": "https://www.nationalarchives.gov.uk/terms-and-conditions/discovery-for-developers-about-the-application-programming-interface-api/",
+      "api_verification_state": "documented_XML_JSON_API_sandbox_HTML_only_data_sample_untested_service_terms_hold",
+      "latest_checked_utc": "2026-10-17T03:22:32.417684+00:00",
       "classification": "restricted"
     },
     {
