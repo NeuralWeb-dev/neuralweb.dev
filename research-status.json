@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T16:41:05.402377+00:00",
+  "published_at": "2026-10-17T16:43:07.843026+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:34:44.024104+00:00",
+  "research_updated_at": "2026-10-17T16:42:46.132049+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three nature/space/spectroscopy registry tasks reviewed;NCEI nativeHAPI31metadata candidate,iNaturalist restrictions retained,VAMDC131references indexed/queued",
+  "latest_milestone": "Eight scientific origins reviewed;EBAS CC BY4 public catalogue14141file definitions verified,NIST RMM12APIreferences candidate,DaRUS deduplicated",
   "counts": {
-    "verified": 257,
-    "candidates": 477,
+    "verified": 258,
+    "candidates": 478,
     "excluded": 67,
     "sample_successes": 472
   },
@@ -4963,11 +4963,11 @@
       "api_base_url": "https://darus.uni-stuttgart.de/api/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read candidate",
-      "free_access_restrictions": "Public search and native dataset metadata endpoints succeeded without credentials",
+      "free_access_restrictions": "Public search and native dataset metadata endpoints succeeded without credentials Provider terms distinguish service registration and protected downloads from released public objects; per-dataset owner access/licence controls,possible name/affiliation requests. No blanket anonymous access guarantee.",
       "license": "CC BY-SA 4.0 for explicitly verified dataset subset",
       "license_url": "https://darus.uni-stuttgart.de/api/datasets/:persistentId/?persistentId=doi%3A10.18419%2FDARUS-1637",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:58:57.593147+00:00",
+      "latest_checked_utc": "2026-10-17T16:42:42.064274+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5256,6 +5256,24 @@
       "license_url": "https://environment.data.gov.uk/hydrology/doc/reference | https://environment.data.gov.uk/support/faqs/275811163/275811177 | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "actual_structured_data_sample_success",
       "latest_checked_utc": "2026-10-17T03:31:48.373499+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ebas-quality-controlled-thredds",
+      "provider": "NILU / EBAS, World Data Centre for Aerosols",
+      "service_name": "EBAS public quality-controlled THREDDS/OPeNDAP catalogue",
+      "geographic_coverage": "International atmospheric monitoring stations; per-file station/time coverage",
+      "topical_coverage": "climate/weather/environment; research",
+      "dataset_families": "Quality-controlled atmospheric composition, aerosols, gases and related station observations; versioned netCDF file definitions",
+      "documentation_url": "https://ebas.nilu.no/data-access/otheraccess/thredds/ | https://www.gaw-wdca.org/browse-obtain-data/",
+      "api_base_url": "https://thredds.nilu.no/thredds/dodsC/ebas/",
+      "format_protocol": "THREDDS XML catalogue; documented OPeNDAP/netCDF CF and HTTP file access",
+      "authentication": "No credentials for successful public XML catalogue; ACTRIS NRT requires approval and was not queried",
+      "free_access_restrictions": "Public quality-controlled collection documented; attribution/citation required. Restricted NRT excluded. No source files or observation arrays acquired.",
+      "license": "Creative Commons Attribution4.0 International",
+      "license_url": "https://ebas.nilu.no/data-access/otheraccess/thredds/ | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "native_THREDDS_catalogue_XML_success_14141file_entries_documented_OPeNDAP_published_DDS_example404_no_data_values_tested",
+      "latest_checked_utc": "2026-10-17T16:42:42.064274+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12332,6 +12350,24 @@
       "license_url": "https://mdr.nims.go.jp/terms",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T17:07:43.715303+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nist-resource-metadata-api",
+      "provider": "National Institute of Standards and Technology",
+      "service_name": "Resource Metadata Management API",
+      "geographic_coverage": "NIST research resources; source-dependent geographic scope",
+      "topical_coverage": "research; health; energy; economics/finance",
+      "dataset_families": "Research resource records and references to data,APIs,papers,code,patents and releasesets; this verification sampled API references only",
+      "documentation_url": "https://data.nist.gov/rmm/ | https://data.nist.gov/rmm/openapi.json | https://www.nist.gov/open/information-developers",
+      "api_base_url": "https://data.nist.gov/rmm",
+      "format_protocol": "REST/JSON; OpenAPI3.1 document",
+      "authentication": "None for successful API-reference JSON sample; protected/write operations not requested",
+      "free_access_restrictions": "Public metadata sample without credentials; referenced resources may be restricted,obsolete or static downloads. No biometrics or scientific source files acquired.",
+      "license": "NIST non-SRD employee-data reuse grant documented; exact metadata/third-party-source scope unconfirmed; SRD may be copyrighted",
+      "license_url": "https://www.nist.gov/open/license",
+      "api_verification_state": "native_API_reference_JSON_array_success12entries11unique_full_OpenAPI_verified_metadata_grant_scope_unconfirmed",
+      "latest_checked_utc": "2026-10-17T16:42:42.064274+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
