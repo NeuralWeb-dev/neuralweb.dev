@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T16:49:16.462490+00:00",
+  "published_at": "2026-10-17T16:51:18.888640+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:48:16.280520+00:00",
+  "research_updated_at": "2026-10-17T16:49:18.646036+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three immunogenetics/atomicbibliography registrytasksreviewed;IPD/HLAsharedRESTdeduplicatedrestrictedND,CGIbibliographyAPI/grantunresolved",
+  "latest_milestone": "Sixoriginalregistrytasksreviewed;fournewservicesincludingStaedelCC0metadata,EMEPscopedmodeloutputs,ZVDDcandidate,IPDNDrestricted;Staedel66pagecursorchain32361uniqueIDs",
   "counts": {
     "verified": 260,
     "candidates": 479,
@@ -13,11 +13,11 @@
     "sample_successes": 472
   },
   "remaining_work": [
-    "Resume next-re3data-provider-review-batch.json (selected queued tasks,not researched).",
-    "Review VAMDC131,BioCASe54,otherPSICQUIC33 original-source leads independently; registry listings are not API/grant acceptance.",
-    "NIST11unique APIreferences need exact child identity/deployment/rights review; remaining CfA children/static atomic data APIs unresolved.",
-    "NCEI exact worldwide metadata/source grant and actual product availability unresolved; EBAS published DDSexample404,no OPeNDAPvalues tested; ACTRISNRTapproval-only excluded.",
-    "Retain all prior geographic/sector/work-rights queues and BDL deadline2026-10-17T18:20:40.045886+00:00; no retry until fresh quota/PID/ledger checks."
+    "Resume next-re3data-provider-review-batch.json; queuedtasksnotresearched.",
+    "Review4EMEPcentreleads in emep-centre-source-review-leads.json independently; EBASalreadydeduplicated,MSCWgrantnotuniversal.",
+    "Staedelall66returnedcursorpagesprocessed;32361uniqueIDs/32702occurrences,341duplicates. No sourceimage/fullLIDOharvest andno replayneeded; use audit forresidualsnapshotlimits.",
+    "REFODATchallenge,ZVDD/met.no/IPDrobotsheld; no alternateendpointretries. IPDNDrestrictionsremain,NISTSRD109API/grantunresolved.",
+    "RetainVAMDC131,BioCASe54,PSICQUICother33,NIST11uniquereferences,worldgeographic/sector/workrightsqueues. BDLholduntil2026-10-17T18:20:40.045886+00:00thenfreshquota/PID/ledgerchecks."
   ],
   "external_blocker": null,
   "coverage": {
@@ -201,6 +201,7 @@
         ],
         "restricted_provider_ids": [
           "ghdx-ihme-discovery",
+          "ipd-immunopolymorphism-api",
           "openaq",
           "phi-base-api",
           "who"
@@ -347,6 +348,7 @@
           "deims",
           "ebird",
           "inaturalist",
+          "ipd-immunopolymorphism-api",
           "phi-base-api",
           "worms"
         ]
@@ -517,6 +519,7 @@
           "deims",
           "ebird",
           "ghdx-ihme-discovery",
+          "ipd-immunopolymorphism-api",
           "orcid",
           "phi-base-api",
           "un-comtrade"
@@ -1562,6 +1565,7 @@
           "ea-ecology-and-fish-data",
           "ea-flood-monitoring",
           "ea-hydrology",
+          "emep-mscw-model-thredds",
           "emodnet",
           "estonia-statistics",
           "faroe-statistics",
@@ -1763,6 +1767,7 @@
           "scotland-catalog",
           "serbia-data",
           "slovenia-statistics",
+          "staedel-museum-oai",
           "switzerland",
           "torino-aperto-catalog-api",
           "ukraine-data",
@@ -1803,7 +1808,8 @@
           "swissubase-oai",
           "terrassa-open-data",
           "tuebingen-fcs",
-          "tuscany-open-data-catalog"
+          "tuscany-open-data-catalog",
+          "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
           "bonn-open-data",
@@ -2140,6 +2146,7 @@
           "saw-leipzig-repository",
           "serbia-data",
           "slovenia-statistics",
+          "staedel-museum-oai",
           "tampere-open-news-feeds",
           "ukraine-data",
           "wales-statistics",
@@ -2183,7 +2190,8 @@
           "trentino-open-data",
           "tuebingen-fcs",
           "uk-trade-tariff",
-          "wellcome-collection"
+          "wellcome-collection",
+          "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
@@ -2207,6 +2215,7 @@
           "croatia-statistics",
           "darus",
           "dnb",
+          "emep-mscw-model-thredds",
           "faroe-statistics",
           "finna",
           "finto",
@@ -2226,6 +2235,7 @@
           "registry-europeandataportal-eu",
           "saw-leipzig-repository",
           "slovenia-statistics",
+          "staedel-museum-oai",
           "uk-police"
         ],
         "candidate_provider_ids": [
@@ -2260,7 +2270,8 @@
           "swissubase-oai",
           "tuebingen-fcs",
           "wellcome-collection",
-          "yoda-utrecht"
+          "yoda-utrecht",
+          "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
@@ -7918,8 +7929,8 @@
       "free_access_restrictions": "Public metadataCC0; guide separately describes linked imagesCCBYSA4 attribution. No image downloads or blanketimagerygrant requiredforacceptedmetadata.",
       "license": "CC0 1.0 Universal Public Domain Dedication(metadata)",
       "license_url": "https://sammlung.staedelmuseum.de/de/oai/guide | https://creativecommons.org/publicdomain/zero/1.0/",
-      "api_verification_state": "native_OAI_Identify_ListSets_ListIdentifiers_XML_success_metadata_CC0_explicit_snapshot_identifier_harvest_in_progress",
-      "latest_checked_utc": "2026-10-17T16:46:37.367139+00:00",
+      "api_verification_state": "native_OAI_Identify_ListSets_and_full_returned_ListIdentifiers_cursor_chain_XML_success_66pages32361uniqueIDs_CC0_metadata_explicit_duplicates341",
+      "latest_checked_utc": "2026-10-17T16:49:18.481109+00:00",
       "classification": "open_license_verified"
     },
     {
