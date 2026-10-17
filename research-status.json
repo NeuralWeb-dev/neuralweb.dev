@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T08:14:23.800330+00:00",
+  "published_at": "2026-10-17T08:16:26.398933+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T08:14:00.009928+00:00",
+  "research_updated_at": "2026-10-17T08:16:10.578446+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Mixed4origins:Hartford128catalogworks/804distributionclaims andscopedCC0 propertyJSONschema verified,Norway5APIinterfaces documented/licenceunresolved,Lincoln/METIheld.647services:209open/395candidates/43restricted;428originalleads remain;globalin_progress.",
+  "latest_milestone": "Mixed4origins:Hartford128works/804distributionclaims,scopedCC0propertylayerJSONschema verified;Norway5interfacefamiliesdocumented/rightsunresolved,Lincoln/METIheld.647services:209open/395candidates/43restricted;428originalleads remain;globalin_progress.",
   "counts": {
     "verified": 209,
     "candidates": 395,
@@ -662,7 +662,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "alberta-open-government",
-          "greenland-statistics"
+          "greenland-statistics",
+          "hartford-open-data"
         ],
         "candidate_provider_ids": [
           "us-data-gov-catalog"
@@ -677,7 +678,8 @@
           "alberta-open-government",
           "brampton-geohub",
           "census",
-          "greenland-statistics"
+          "greenland-statistics",
+          "hartford-open-data"
         ],
         "candidate_provider_ids": [
           "census-geocoder",
@@ -5171,7 +5173,7 @@
       "license": "CC0 1.0 Universal for named City Owned Property dataset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_and_named_layer_schema_only",
-      "latest_checked_utc": "2026-10-17T08:13:59.709804+00:00",
+      "latest_checked_utc": "2026-10-17T08:12:27.182985+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6143,7 +6145,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T08:08:10.750056+00:00",
+      "latest_checked_utc": "2026-10-17T08:14:30.761345+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10339,7 +10341,7 @@
       "license": "unknown effective metadata/API grant; NLOD2.0 linked historically but not binding proof for all catalog content",
       "license_url": "https://data.norge.no/nlod/en/2.0",
       "api_verification_state": "current_official_API_documentation_verified_resource_sample_policy_held_runtime_untested",
-      "latest_checked_utc": "2026-10-17T08:13:59.710481+00:00",
+      "latest_checked_utc": "2026-10-17T08:11:16.638000+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
