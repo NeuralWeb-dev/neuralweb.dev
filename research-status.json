@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T22:26:25.613492+00:00",
+  "published_at": "2026-10-17T22:28:28.280818+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:22:13.365492+00:00",
+  "research_updated_at": "2026-10-17T22:27:37.819529+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PetDBnativev4metrics confirmed/mixedsourcegrants; DHSspatialODbL1/DBCL1 sourcegrant verified/separateinterfaceunresolved; RITOAIheld/mixedrights.",
+  "latest_milestone": "GTNPlegacyrestricted separated currentBY4metadataAPI/PT700ALT107frontiers; StudyForrestPDDLdata/APIunresolved; existingCCHDOpublishedERDDAPmetadataCC0verified.",
   "counts": {
-    "verified": 304,
-    "candidates": 606,
-    "excluded": 145,
-    "sample_successes": 474
+    "verified": 305,
+    "candidates": 607,
+    "excluded": 146,
+    "sample_successes": 473
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -5247,15 +5247,15 @@
       "geographic_coverage": "Global/international;cruise-basedoceanographicdata;percruiseextents/availabilityunreviewed",
       "topical_coverage": "oceans; climate/weather/environment; research",
       "dataset_families": "CTD/hydrographic/bottlephysicalandchemicaloceanprofilesandpubliccruisereferences;13,831autocompletetermsnot13,831datasets/providers. OnlypublicmetadataAPItested,nooceanprofile/filesdownloaded.",
-      "documentation_url": "https://cchdo.ucsd.edu/submit | https://learning.cchdo.io/policies_and_procedures/data_license",
-      "api_base_url": "https://cchdo.ucsd.edu/api/v1/ (publishedtypeaheadendpoint;otheroperationsundocumented/unverified)",
-      "format_protocol": "ActualpublicJSONobjecttypeahead/listofstrings;currentprimaryHTMLexplicitlypublishesGETURL/clientresponsefield. FullversionedAPIcontractnotfound;NetCDF/Exchange/WOCErepositoryformatsnotseparatelyverifiedAPIinterfaces.",
+      "documentation_url": "https://cchdo.ucsd.edu/ | https://learning.cchdo.io/policies_and_procedures/data_license | https://data.pmel.noaa.gov/generic/erddap/info/cchdo_ctd/index.json",
+      "api_base_url": "https://cchdo.ucsd.edu/api/v1/ (priorverifiedtypeahead); https://data.pmel.noaa.gov/generic/erddap/ (exactcchdo_ctdmetadata verified)",
+      "format_protocol": "Prior typeaheadJSON retained; currentpublishedERDDAPdataset-info JSONtable412metadata/schema rows verified, no profilesobservations",
       "authentication": "PublishedGETmetadataanonymous200/noaccount;otherAPI/dataauthunknown. Nosubmissions/uploads/privateaccountactions.",
       "free_access_restrictions": "Selectedmetadatafree/noaccount. AggregatecollectionCC0default;individualcruiseCCBYexceptions/headersmustbehonored. Citationrequests/scientificnormsdistinguishedfromCC0legalrequirements. No paidacquisition.",
       "license": "CC0 aggregatecollection/defaultsubmissions;CCBY4cruise-levelexceptionsperexplicitpolicy/submitlinks",
       "license_url": "https://learning.cchdo.io/policies_and_procedures/data_license | https://cchdo.ucsd.edu/submit | https://creativecommons.org/publicdomain/zero/1.0/legalcode | https://creativecommons.org/licenses/by/4.0/legalcode",
-      "api_verification_state": "published_primary_frontend_GET_metadata_JSON_sample_success_scoped_aggregate_CC0_verified_other_API_contract_unresolved",
-      "latest_checked_utc": "2026-10-17T01:08:42.249899+00:00",
+      "api_verification_state": "prior_typeahead_JSON_and_current_home_published_PMEL_ERDDAP_cchdo_ctd_info_JSON412schema_rows_globalCC0_verified_scoped",
+      "latest_checked_utc": "2026-10-17T22:27:33.660893+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6930,6 +6930,24 @@
       "license_url": "https://stat.gl/dialog/topmain.asp?lang=da&sc=GS&subject=Om+Gr%C3%B8nlands+Statistik",
       "api_verification_state": "sample_success_scoped_custom_open_permission_metadata",
       "latest_checked_utc": "2026-10-16T21:08:13.263985+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "gtnp-current-data-platform-api",
+      "provider": "Global Terrestrial Network for Permafrost / currentGTN-PDataPlatform",
+      "service_name": "GTN-P currentRESTmetadata and dataset-discoveryAPI",
+      "geographic_coverage": "International permafroststudies; samplePT123siteMackenzieDelta Canada. Not complete globalnetwork/measurementcoverage claim",
+      "topical_coverage": "climate | environment | water | geospatial | research",
+      "dataset_families": "PermafrostTemperaturePT andActiveLayerThicknessALT datasetmetadata/site/borehole/activelayer descriptions; rawdata downloads notused",
+      "documentation_url": "https://data.gtn-p.org/api | https://data.gtn-p.org/api/openapi.json",
+      "api_base_url": "https://data.gtn-p.org/api/",
+      "format_protocol": "Native anonymousJSON PTobject123, OpenAPI9paths/8metadataGEToperations, PT700 andALT107metadata arrays verified",
+      "authentication": "No credentials,keys,accounts or paid acquisition used",
+      "free_access_restrictions": "CurrentnativeDataPolicyCCBY4unlessspecified;9Restricted and148null datasetlabels not cleared byaccess. No downloads/cart/registration/upload used",
+      "license": "Currentplatform defaultCCBY4unlessotherwise specified; acceptedgeneralmetadata/default declaration only, datasetexceptions retained",
+      "license_url": "https://data.gtn-p.org/data-policy",
+      "api_verification_state": "native_current_BY4_default_policy_and_anonymous_metadataJSON_OpenAPI_PT700_ALT107_frontiers_verified_scoped_source_exceptions",
+      "latest_checked_utc": "2026-10-17T22:27:33.660893+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18113,6 +18131,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "studyforrest-research-portal",
+      "provider": "StudyForrest Project",
+      "service_name": "StudyForrest neuroimaging/annotation data-discoveryportal",
+      "geographic_coverage": "Project-specifichuman neuroscience and movieannotation studies; not representativepopulation/geographicinventory",
+      "topical_coverage": "health | research | culture",
+      "dataset_families": "Functional/structuralMRI,physiology,eyetracking,derivedbrain data andmovieannotations; publiccomponentdescriptions only",
+      "documentation_url": "https://www.studyforrest.org/ | https://www.studyforrest.org/data.html",
+      "api_base_url": "",
+      "format_protocol": "Projectdata-type headings/repositorylinks not independentmachinequeryAPI or sourcerecordsample",
+      "authentication": "No credentials,keys,accounts or paid acquisition used",
+      "free_access_restrictions": "NativehomedeclaresprojectdataPDDL; websitecontentBY-SA4 unlessindicated. Exacthostedrelease and movie/musicstimulusrights not globallycleared",
+      "license": "Projectdataset PDDLdeclaration; websitecontentCCBY-SA4 distinct; exactsource/release exceptions unreviewed",
+      "license_url": "https://www.studyforrest.org/ | https://opendatacommons.org/licenses/pddl/1-0/",
+      "api_verification_state": "native_project_PDDL_declaration_component_descriptions_verified_independent_query_API_unresolved",
+      "latest_checked_utc": "2026-10-17T22:27:33.660893+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sunshine-coast-open-data-search",
       "provider": "Sunshine Coast Council",
       "service_name": "SCC Open Data Search API",
@@ -22108,6 +22144,24 @@
       "license_url": "https://www.gtap.agecon.purdue.edu/databases/documents/GTAP12DataBase_TermsConditions.pdf",
       "api_verification_state": "restricted_portal_documented_public_api_unconfirmed",
       "latest_checked_utc": "2026-10-17T17:55:04.291522+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "gtnp-legacy-permafrost-database",
+      "provider": "Global Terrestrial Network for Permafrost / ArcticPortal and AWI legacydatabase",
+      "service_name": "LegacyGTN-P database registration/data-request portal",
+      "geographic_coverage": "International permafrost temperature and annualthaw-depth studies; exact sourceinventory unqueried",
+      "topical_coverage": "climate | environment | water | geospatial | research",
+      "dataset_families": "Permafrosttemperature and activelayerthickness measurements/metadata through legacyregistered request service",
+      "documentation_url": "https://gtnpdatabase.org/ | https://gtnp.arcticportal.org/index.php/component/content/article/15-data/database/15-data-policies",
+      "api_base_url": "",
+      "format_protocol": "Native betaHTMLportal and terms; registryNetCDFformat not queryAPI",
+      "authentication": "No credentials,keys,accounts or paid acquisition used",
+      "free_access_restrictions": "Registration for nominalpublicdownloads, restrictedsourcePIapproval; legacydatausage terms prohibit redistribution",
+      "license": "Legacy Open/Regulated datausepolicies both forbid redistribution; not an open licence",
+      "license_url": "https://gtnp.arcticportal.org/index.php/component/content/article/15-data/database/15-data-policies",
+      "api_verification_state": "native_legacy_nonredistribution_and_registration_policy_verified_publicquery_API_unestablished",
+      "latest_checked_utc": "2026-10-17T22:27:33.660893+00:00",
       "classification": "restricted"
     },
     {
