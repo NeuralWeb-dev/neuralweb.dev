@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:27:19.157970+00:00",
+  "published_at": "2026-10-17T18:29:21.683895+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:24:51.742692+00:00",
+  "research_updated_at": "2026-10-17T18:29:07.102709+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CXIDB CC0 grant/API gap, CTD restricted API docs and EarthStat twelve-family rights review checkpointed",
+  "latest_milestone": "Six original tasks reviewed; TOAR scoped open/native metadata, Marine Regions scoped open/documented OGC, three restricted records; CXIDB213/EarthStat12/VLIZ12 references indexed",
   "counts": {
-    "verified": 271,
+    "verified": 273,
     "candidates": 500,
-    "excluded": 95,
+    "excluded": 96,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -97,6 +97,7 @@
           "wfp"
         ],
         "restricted_provider_ids": [
+          "earthstat-restricted-raster-families",
           "fao",
           "gtap-current-database",
           "phi-base-api",
@@ -116,6 +117,7 @@
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
           "pangaea",
+          "toar-surface-observation-api",
           "usgs-earthquake"
         ],
         "candidate_provider_ids": [
@@ -147,6 +149,7 @@
           "aviso-authenticated-data-services",
           "copernicus-marine",
           "deims",
+          "earthstat-restricted-raster-families",
           "fao",
           "oceanrep-oai-metadata",
           "open-meteo",
@@ -166,6 +169,7 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
+          "earthstat-restricted-raster-families",
           "fao"
         ]
       },
@@ -285,6 +289,7 @@
           "geoboundaries",
           "geonames",
           "getty-vocabularies",
+          "marine-regions-modern-boundaries-ogc",
           "nasa-cmr",
           "opencontext",
           "osm",
@@ -310,7 +315,8 @@
         ],
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
-          "aviso-authenticated-data-services"
+          "aviso-authenticated-data-services",
+          "earthstat-restricted-raster-families"
         ]
       },
       "public spending/contracts": {
@@ -392,6 +398,7 @@
           "earthbyte-gplates-web-service",
           "emodnet",
           "esgf-cmip5-discovery",
+          "marine-regions-modern-boundaries-ogc",
           "obis",
           "pangaea"
         ],
@@ -464,6 +471,7 @@
         "restricted_provider_ids": [
           "bnf-gallica",
           "cinii-research",
+          "earthstat-restricted-raster-families",
           "fao",
           "gtap-current-database",
           "phi-base-api",
@@ -493,6 +501,7 @@
           "getty-provenance",
           "getty-vocabularies",
           "intact-imex-psicquic",
+          "marine-regions-modern-boundaries-ogc",
           "metmuseum",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -511,6 +520,7 @@
           "pdb",
           "re3data",
           "ror",
+          "toar-surface-observation-api",
           "unesco",
           "uniprot",
           "wikidata",
@@ -1822,6 +1832,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "anc-restricted-data-portal",
           "eurocat-controlled-research-data"
         ]
       },
@@ -2374,6 +2385,7 @@
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
           "alspac-cohort-access-portal",
+          "anc-restricted-data-portal",
           "bnf-gallica",
           "cdgp-geothermal-portal",
           "copernicus-marine",
@@ -6734,6 +6746,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "marine-regions-modern-boundaries-ogc",
+      "provider": "Flanders Marine Institute / Marine Regions",
+      "service_name": "Marine Regions modern maritime-boundary OGC services",
+      "geographic_coverage": "Global marine boundaries; product-version-specific coverage",
+      "topical_coverage": "oceans | geospatial | research",
+      "dataset_families": "Modern maritime boundary products; legacy products and exact service-layer versions require separate review",
+      "documentation_url": "https://www.marineregions.org/webservices.php",
+      "api_base_url": "https://geo.vliz.be/geoserver/MarineRegions/wfs | https://geo.vliz.be/geoserver/MarineRegions/wms",
+      "format_protocol": "OGC WFS/WMS; capabilities XML; feature formats documented including GML/JSON/CSV",
+      "authentication": "unknown; public service documentation, runtime not tested",
+      "free_access_restrictions": "CC terms apply to scoped modern products. Raw original host policy-held; no alternate native backend request.",
+      "license": "CC BY 4.0",
+      "license_url": "https://www.marineregions.org/disclaimer.php | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "official_OGC_documentation_verified_native_runtime_untested_original_policy_hold",
+      "latest_checked_utc": "2026-10-17T18:28:37.337476+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "metmuseum",
       "provider": "The Metropolitan Museum of Art",
       "service_name": "Met Collection Open Access API",
@@ -8405,6 +8435,24 @@
       "license_url": "https://thoth.pub/docs/policies/terms-thoth-metadata",
       "api_verification_state": "actual_REST_export_reference_catalog_and_book_metadata_sample_success_GraphQL_unresolved",
       "latest_checked_utc": "2026-10-17T02:48:07.920288+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "toar-surface-observation-api",
+      "provider": "Forschungszentrum Juelich / TOAR",
+      "service_name": "TOAR Surface Observation Database API v2",
+      "geographic_coverage": "Global contributing surface observation stations; station-specific periods and completeness",
+      "topical_coverage": "climate | environment | research",
+      "dataset_families": "Surface ozone measurements and exposure metrics, meteorology/precursors, station and timeseries characterization",
+      "documentation_url": "https://toar-data.fz-juelich.de/api/v2/",
+      "api_base_url": "https://toar-data.fz-juelich.de/api/v2/",
+      "format_protocol": "REST JSON",
+      "authentication": "Anonymous one-record metadata request succeeded. Data endpoint documents AccessToken from dashboard profile, expires after one hour; token not acquired.",
+      "free_access_restrictions": "Terms permit users to read metadata/data; measurement endpoint needs documented token. No paid acquisition or registration undertaken.",
+      "license": "CC BY 4.0",
+      "license_url": "https://toar-data.fz-juelich.de/footer/terms-of-use.html | https://toar-data.org/contribute/",
+      "api_verification_state": "native_anonymous_metadata_JSON_success_measurement_endpoint_token_required_untested",
+      "latest_checked_utc": "2026-10-17T18:28:37.337476+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18093,6 +18141,24 @@
       "license_url": "https://www.bristol.ac.uk/alspac/researchers/access/",
       "api_verification_state": "restricted_access_portal_documented_public_api_unconfirmed",
       "latest_checked_utc": "2026-10-17T17:57:47.395375+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "anc-restricted-data-portal",
+      "provider": "Austrian NeuroCloud / Paris Lodron University Salzburg",
+      "service_name": "Austrian NeuroCloud dataset access portal (restricted; CC0 metadata separate)",
+      "geographic_coverage": "Neuroscience studies hosted by Austrian institution; participant geography not inferred",
+      "topical_coverage": "health | neuroscience | research",
+      "dataset_families": "Neuroscience datasets and associated public summary metadata; individual participant data not queried",
+      "documentation_url": "https://anc.plus.ac.at | https://handbook.anc.plus.ac.at/terms/metadata_specification/ | https://handbook.anc.plus.ac.at/ops/data-steward/services/neurobagel/",
+      "api_base_url": "",
+      "format_protocol": "Public HTML interface; metadata DataCite/Neurobagel infrastructure described, exact public API unverified",
+      "authentication": "Dataset-specific registration/access agreements; no accounts requested",
+      "free_access_restrictions": "Default Data Use Agreement permits scientific/educational use; forbids redistribution and third-party transmission; alternative pre-existing licences may apply.",
+      "license": "ANC Data Use Agreement v1.0.2 for default datasets; public metadata separately CC0",
+      "license_url": "https://handbook.anc.plus.ac.at/terms/anc_data_use_agreement/ | https://handbook.anc.plus.ac.at/terms/transfer_and_license_agreement/",
+      "api_verification_state": "restricted_data_portal_documented_metadata_CC0_verified_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:28:37.337476+00:00",
       "classification": "restricted"
     },
     {
