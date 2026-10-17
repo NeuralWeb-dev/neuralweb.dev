@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T22:44:50.824181+00:00",
+  "published_at": "2026-10-17T22:46:53.443177+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:43:58.693958+00:00",
+  "research_updated_at": "2026-10-17T22:46:44.892783+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WURM nativeNC-SA3 and mineral references; Pakistan native subscription/fees; heidICON OAI Identify success with substantial-storage prohibition.",
+  "latest_milestone": "Six original tasks processed; four restricted services and two candidates added. heidICON OAI Identify succeeded; WURM325 mineral references indexed. Source restrictions and original access holds retained.",
   "counts": {
     "verified": 305,
-    "candidates": 615,
-    "excluded": 152,
+    "candidates": 617,
+    "excluded": 153,
     "sample_successes": 472
   },
   "remaining_work": [
@@ -315,6 +315,7 @@
           "alspac-cohort-access-portal",
           "asu-research-dataverse",
           "cinii-research",
+          "heidicon-object-multimedia-repository",
           "karlsruher-wolkenatlas",
           "orcid"
         ]
@@ -594,6 +595,7 @@
           "earthstat-restricted-raster-families",
           "fao",
           "gtap-current-database",
+          "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
           "infra-art-restricted-spectra",
           "phi-base-api",
@@ -751,6 +753,7 @@
           "eida-orfeus-routing-federation",
           "ghdx-ihme-discovery",
           "harvard-dataverse",
+          "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
           "infra-art-restricted-spectra",
           "intermagnet-geomagnetic-api",
@@ -1021,6 +1024,7 @@
         ],
         "candidate_provider_ids": [
           "donnees-quebec-catalog",
+          "ku-scholarworks-repository",
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "toronto-open-data-catalog-api",
@@ -1309,6 +1313,7 @@
           "county-grande-prairie-open-data",
           "donnees-quebec-catalog",
           "getty-museum",
+          "ku-scholarworks-repository",
           "loc",
           "montana-state-library-gis-services",
           "montreal-open-data-catalog",
@@ -1355,6 +1360,7 @@
           "goa-ecology",
           "healthdata-gov-catalog",
           "knb",
+          "ku-scholarworks-repository",
           "loc",
           "neracoos-erddap",
           "nlr-metropolitan-travel-survey-archive",
@@ -1938,6 +1944,7 @@
           "tethys-geosphere-oai",
           "tuscany-open-data-catalog",
           "ufz-spatial-geonetwork",
+          "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
           "wis2-poland",
           "wis2-russian-federation"
@@ -2172,6 +2179,7 @@
           "bioimages-uk-field-guide",
           "bonn-open-data",
           "elaborate-digital-edition-services",
+          "heidicon-object-multimedia-repository",
           "lindat-fcs",
           "maribor-dkum-oai",
           "meertens-collections-portal",
@@ -2492,9 +2500,11 @@
         ]
       },
       "astronomy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "uk-solar-system-data-centre"
+        ],
         "restricted_provider_ids": []
       },
       "culture": {
@@ -2597,6 +2607,7 @@
           "bnf-gallica",
           "cranachnet-mediawiki",
           "elaborate-digital-edition-services",
+          "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
           "lindat-fcs",
           "maribor-dkum-oai",
@@ -2704,6 +2715,7 @@
           "tethys-geosphere-oai",
           "tuebingen-fcs",
           "ufz-spatial-geonetwork",
+          "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
           "vu-yoda-publication-metadata",
           "wellcome-collection",
@@ -2725,6 +2737,7 @@
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
           "eurocat-controlled-research-data",
+          "heidicon-object-multimedia-repository",
           "hunt-health-study",
           "indexs-exsiccatae-api",
           "lindat-fcs",
@@ -3251,7 +3264,9 @@
           "nepal",
           "pakistan-odp"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "pakistan-petroleum-data-repository"
+        ]
       },
       "health": {
         "status": "partial_candidates_only",
@@ -3295,7 +3310,9 @@
           "wis2-india",
           "wis2-nepal"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "pakistan-petroleum-data-repository"
+        ]
       },
       "public spending/contracts": {
         "status": "unsearched",
@@ -3358,7 +3375,9 @@
           "mtropics-sedoo-metadata",
           "pakistan-odp"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "pakistan-petroleum-data-repository"
+        ]
       }
     },
     "East Asia": {
@@ -14398,6 +14417,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ku-scholarworks-repository",
+      "provider": "University of Kansas Libraries",
+      "service_name": "KU ScholarWorks institutional repository OAI-PMH",
+      "geographic_coverage": "United States institutional scholarship, international subjects; exact holdings unenumerated",
+      "topical_coverage": "research | education | culture | social sciences",
+      "dataset_families": "Articles, theses/dissertations, research outputs, code and creative works; exact research-data subset unenumerated",
+      "documentation_url": "https://lib.ku.edu/kusw",
+      "api_base_url": "https://kuscholarworks.ku.edu/server/oai/request (registry endpoint claim; native institutional guide verifies OAI availability)",
+      "format_protocol": "Institutional guide explicitly describes OAI-PMH metadata harvesting; current endpoint/XML untested",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Public repository with embargo exceptions; reuse depends on holder permissions or indicated item CC licence",
+      "license": "Copyright retained; nonexclusive repository distribution licence is not general third-party open grant; some items Creative Commons",
+      "license_url": "https://lib.ku.edu/kusw | https://www.lib.ku.edu/kusw-license",
+      "api_verification_state": "original_root_robots_deferred_native_institutional_OAI_and_copyright_docs_verified_endpoint_unsent",
+      "latest_checked_utc": "2026-10-17T22:46:16.508270+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kyrgyz-ogd",
       "provider": "Kyrgyz Republic national Open Data portal",
       "service_name": "Open Data Kyrgyzstan CKAN catalogue API candidate",
@@ -19042,6 +19079,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "uk-solar-system-data-centre",
+      "provider": "UK Solar System Data Centre / STFC RAL Space, UKRI",
+      "service_name": "UKSSDC solar-terrestrial science archives",
+      "geographic_coverage": "UK-operated national/international solar-system science archives; exact observations coverage unenumerated",
+      "topical_coverage": "astronomy | environment | climate | research",
+      "dataset_families": "Solar, interplanetary, magnetospheric, ionospheric and geomagnetic archives; exact current dataset service inventory unverified",
+      "documentation_url": "https://www.ukri.org/what-we-do/browse-our-areas-of-investment-and-support/computational-science/",
+      "api_base_url": "",
+      "format_protocol": "Official institutional archive description and indexed FITS access form; file availability not query API proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Original root deferred by robots guard; indexed TRACE page requires registration, not universal archive access policy",
+      "license": "unknown exact current metadata/database/source grant; registry OGL2 not accepted without native scope",
+      "license_url": "https://www.ukssdc.ac.uk/",
+      "api_verification_state": "original_root_robots_deferred_independent_institutional_scope_docs_source_API_and_rights_unresolved",
+      "latest_checked_utc": "2026-10-17T22:46:16.508270+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "uk-trade-tariff",
       "provider": "HM Revenue & Customs / GOV.UK Trade Tariff",
       "service_name": "GOV.UK Trade Tariff API",
@@ -21165,6 +21220,24 @@
       "license_url": "https://acleddata.com/eula",
       "api_verification_state": "documented_account_oauth_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:09:07.747183+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "addgene-research-data-api",
+      "provider": "Addgene nonprofit scientific repository",
+      "service_name": "Addgene Developers Portal data API",
+      "geographic_coverage": "International molecular biology research community; geographic holdings unenumerated",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Plasmid and sequence metadata; documented daily JSON bulk and query access",
+      "documentation_url": "https://help.addgene.org/hc/en-us/articles/38241923181453-What-is-the-Developers-Portal",
+      "api_base_url": "",
+      "format_protocol": "Official indexed guide documents JSON bulk and query APIs; native guide403, API runtime untested",
+      "authentication": "Approval, scope-specific licence acceptance and token required; no account/token/approval requested",
+      "free_access_restrictions": "Nonprofit/for-profit access options documented; exact API scope prices/terms unknown. Website default informational noncommercial use only",
+      "license": "Website content default noncommercial informational use with retained notices; separate scope-specific API licences require acceptance",
+      "license_url": "https://www.addgene.org/terms-of-use/",
+      "api_verification_state": "native_noncommercial_default_terms_and_official_indexed_approval_API_docs_verified_native_guide403_sample_untested",
+      "latest_checked_utc": "2026-10-17T22:46:16.508270+00:00",
       "classification": "restricted"
     },
     {
