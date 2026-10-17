@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T15:11:14.568062+00:00",
+  "published_at": "2026-10-17T15:13:17.878176+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:11:07.656886+00:00",
+  "research_updated_at": "2026-10-17T15:13:00.924097+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "BrazilStates8origins:775records249open463candidates63restricted;3documentedcandidates,Rio/MGlegacycorrections,Curitibadownloadonly;35originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 249,
     "candidates": 463,
@@ -1102,9 +1102,11 @@
         "restricted_provider_ids": []
       },
       "labor": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "goias-state-ckan-api"
+        ],
         "restricted_provider_ids": []
       },
       "agriculture": {
@@ -1167,6 +1169,7 @@
           "ciencia-aberta",
           "dominican-data",
           "fortaleza-ckan-api",
+          "goias-state-ckan-api",
           "mexico-national-open-data",
           "montevideo-beaches",
           "opendatasus",
@@ -1179,6 +1182,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "dominican-data",
+          "goias-state-ckan-api",
           "mexico-national-open-data",
           "registry-dados-df-gov-br"
         ],
@@ -1237,13 +1241,16 @@
           "registry-dados-rs-gov-br"
         ],
         "candidate_provider_ids": [
+          "almg-open-data-api",
           "brazil-camara-dados-abertos",
           "dominican-data",
           "fortaleza-ckan-api",
+          "goias-state-ckan-api",
           "jamaica-data",
           "mindagri-ne",
           "registry-dados-df-gov-br",
-          "senado-br"
+          "senado-br",
+          "tcepb-sagres-municipal-query-api"
         ],
         "restricted_provider_ids": []
       },
@@ -1263,6 +1270,7 @@
           "registry-dados-prefeitura-sp-gov-br"
         ],
         "candidate_provider_ids": [
+          "almg-open-data-api",
           "brazil-camara-dados-abertos",
           "dominican-data",
           "ecuador-cuenca",
@@ -8624,7 +8632,7 @@
       "license": "ALMG original-content reuse with source/author attribution, specific restrictions reserved; exact API/source grant unconfirmed",
       "license_url": "https://www.almg.gov.br/portal-da-almg/termos-de-uso-e-politica-de-privacidade/",
       "api_verification_state": "primary_documented_current_v2_API_original_and_docs_policy_held_no_sample",
-      "latest_checked_utc": "2026-10-17T15:10:36.952041+00:00",
+      "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9020,7 +9028,7 @@
       "license": "unknown;no data-specific open grant verified for locality/SIDRA APIs",
       "license_url": "https://www.ibge.gov.br/acesso-informacao/acoes-e-programas/politica-de-privacidade.html",
       "api_verification_state": "historical_reference_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-17T06:57:05.324025+00:00",
+      "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10640,7 +10648,7 @@
       "license": "Publisher about-page reuse statement; exact operative CC4 variant and metadata/source scope unresolved",
       "license_url": "https://dadosabertos.go.gov.br/about",
       "api_verification_state": "documented_CKAN_small_catalogue_sample_policy_held_target_unsent",
-      "latest_checked_utc": "2026-10-17T15:10:36.951934+00:00",
+      "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13574,7 +13582,7 @@
       "license": "unknown; individual item metadata and underlying data grants require review",
       "license_url": "",
       "api_verification_state": "current_ArcGIS_referencing_HTML_frontend_only_legacy_CKAN_claim_unverified",
-      "latest_checked_utc": "2026-10-17T15:10:36.952281+00:00",
+      "latest_checked_utc": "2026-10-17T15:06:22.441306+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13772,7 +13780,7 @@
       "license": "unknown",
       "license_url": "",
       "api_verification_state": "current_original_root_policy_held_exact_API_and_rights_unresolved",
-      "latest_checked_utc": "2026-10-17T15:10:36.952333+00:00",
+      "latest_checked_utc": "2026-10-17T15:06:19.048223+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14564,7 +14572,7 @@
       "license": "Apache2.0 specification label; production data grant unconfirmed",
       "license_url": "https://docs-api.tce.pb.gov.br/docs/openapi-captura-municipal",
       "api_verification_state": "official_indexed_current_API_documented_Bearer_required_sample_untested_direct_docs_JS_shell",
-      "latest_checked_utc": "2026-10-17T15:10:36.952100+00:00",
+      "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
