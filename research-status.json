@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T15:56:10.233533+00:00",
+  "published_at": "2026-10-17T15:58:12.933828+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:53:42.598578+00:00",
+  "research_updated_at": "2026-10-17T15:58:01.259964+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CrossRegionalFrontier12origins:786records253open470candidates63restricted;NSW/PraguescopedCCBY4,Prague214items,DadosJus124refs;originalfrontier0/globalqueuesunfinished.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "scientific-followup: three existing services reviewed; PANGAEA published metadata CC0 scoped promotion; global discovery unfinished",
   "counts": {
-    "verified": 253,
-    "candidates": 470,
+    "verified": 254,
+    "candidates": 469,
     "excluded": 63,
     "sample_successes": 469
   },
@@ -6658,7 +6658,7 @@
       "license": "CC BY4.0 for data solely owned by Ocean Networks Canada",
       "license_url": "https://www.oceannetworks.ca/data/data-policy/",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T18:20:44.925001+00:00",
+      "latest_checked_utc": "2026-10-17T15:58:00.890623+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6983,6 +6983,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "actual_public_structured_sample_success_aggregate_CSV",
       "latest_checked_utc": "2026-10-17T06:46:33.100772+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "pangaea",
+      "provider": "PANGAEA Data Publisher for Earth and Environmental Science",
+      "service_name": "PANGAEA Data Publisher for Earth and Environmental Science API",
+      "geographic_coverage": "Global/Polar",
+      "topical_coverage": "oceans; climate/weather/environment; research",
+      "dataset_families": "Georeferenced earth science and environmental datasets",
+      "documentation_url": "https://wiki.pangaea.de/wiki/Data_Access_and_Reuse",
+      "api_base_url": "https://ws.pangaea.de/",
+      "format_protocol": "OAI-PMH/XML metadata; DOI content negotiation for metadata/data; no separate proprietary data API per current guide",
+      "authentication": "none for public metadata",
+      "free_access_restrictions": "Terms section 5.5 allows fair-use API access and permits limits/disconnection for excessive or mass metadata/data retrieval and commercial automated website extraction unless prior authorization is obtained. Additional API-specific limits may apply. No bulk harvest performed.",
+      "license": "CC0 1.0 for published dataset metadata only; data dataset-specific",
+      "license_url": "https://wiki.pangaea.de/wiki/Ticket_System | https://wiki.pangaea.de/wiki/License",
+      "api_verification_state": "historical_OAI_Identify_XML_sample_success_current_metadata_CC0_and_access_docs_verified_no_reharvest",
+      "latest_checked_utc": "2026-10-17T15:58:00.890623+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13090,24 +13108,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "pangaea",
-      "provider": "PANGAEA Data Publisher for Earth and Environmental Science",
-      "service_name": "PANGAEA Data Publisher for Earth and Environmental Science API",
-      "geographic_coverage": "Global/Polar",
-      "topical_coverage": "oceans; climate/weather/environment; research",
-      "dataset_families": "Georeferenced earth science and environmental datasets",
-      "documentation_url": "https://wiki.pangaea.de/wiki/Web_services",
-      "api_base_url": "https://ws.pangaea.de/",
-      "format_protocol": "OAI-PMH/XML; DOI data services",
-      "authentication": "none for public metadata",
-      "free_access_restrictions": "Terms section 5.5 allows fair-use API access and permits limits/disconnection for excessive or mass metadata/data retrieval and commercial automated website extraction unless prior authorization is obtained. Additional API-specific limits may apply. No bulk harvest performed.",
-      "license": "Dataset-specific;no particular dataset open licence confirmed in this API review",
-      "license_url": "https://www.pangaea.de/about/terms.php",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T18:27:32.318292+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "paris",
       "provider": "City of Paris Open Data",
       "service_name": "City of Paris Open Data open data portal",
@@ -13139,8 +13139,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://perspectivia.net/content/publish/policies.xml",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:58:57.644373+00:00",
+      "api_verification_state": "historical_OAI_Identify_XML_success_OpenAPI_description_success_current_policy_held_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T15:58:00.890623+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
