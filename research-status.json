@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T10:19:06.709098+00:00",
+  "published_at": "2026-10-17T10:21:09.758041+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T10:18:16.297373+00:00",
+  "research_updated_at": "2026-10-17T10:20:08.764439+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Metro/water10originals: Nashville167native validcatalogue;Miami433completeprefixonly;MAPCdocumentedAPIuntested;Melbournecurrentinterface/fullpolicycorrected.680 services:224open/409candidates/47restricted;294originalsremain;global in_progress.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 224,
     "candidates": 409,
@@ -630,6 +630,7 @@
           "edi",
           "epa",
           "knb",
+          "nashville-open-data",
           "neracoos-erddap",
           "sfwmd-repository"
         ],
@@ -760,7 +761,9 @@
           "las-vegas-open-data",
           "lexington-data-hub",
           "madison-open-data",
+          "miami-dade-open-data",
           "minneapolis-open-data",
+          "nashville-open-data",
           "palo-alto-open-data",
           "sacramento-open-data",
           "us-data-gov-catalog",
@@ -10492,7 +10495,7 @@
       "license": "unknown effective data/metadata grant",
       "license_url": "",
       "api_verification_state": "documented_export_query_API_client_verified_backend_untested_auth_terms_unresolved",
-      "latest_checked_utc": "2026-10-17T10:17:27.378998+00:00",
+      "latest_checked_utc": "2026-10-17T10:11:45.504607+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10546,7 +10549,7 @@
       "license": "unknown effective work or catalog-metadata licence",
       "license_url": "",
       "api_verification_state": "HTTP200_malformed_catalogue_partial_complete_objects_only_not_JSON_success",
-      "latest_checked_utc": "2026-10-17T10:17:27.378861+00:00",
+      "latest_checked_utc": "2026-10-17T10:11:03.692426+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10726,7 +10729,7 @@
       "license": "Effective individual-work and whole-metadata grant unconfirmed",
       "license_url": "https://www.nashville.gov/departments/metro-clerk/legal-resources/executive-orders/mayor-freddie-oconnell/fo018",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_effective_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-17T10:17:27.378697+00:00",
+      "latest_checked_utc": "2026-10-17T10:13:34.424597+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12130,7 +12133,7 @@
       "license": "Current policy explicitly links CC BY4.0;effective per-work overrides and whole-metadata scope unconfirmed",
       "license_url": "https://data.melbourne.vic.gov.au/pages/about-our-data",
       "api_verification_state": "current_Explore_API_documented_sample_policy_held_data_policy_verified_work_scope_unconfirmed",
-      "latest_checked_utc": "2026-10-17T10:17:27.379048+00:00",
+      "latest_checked_utc": "2026-10-17T10:10:40.781968+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
