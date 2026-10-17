@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T18:33:27.699040+00:00",
+  "published_at": "2026-10-17T18:35:30.090911+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:33:08.045289+00:00",
+  "research_updated_at": "2026-10-17T18:33:36.709271+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WRCC migration/ACIS metadata verified, source rights unknown; CORUM CC BY data grant but API held/unestablished; CRCNS restricted default and exceptions separated",
+  "latest_milestone": "Six original tasks reviewed; ACIS native55metadata source licence unresolved,3restricted records,INFRA-ART3valid collection objects/CRCNS153dataset references indexed",
   "counts": {
     "verified": 273,
     "candidates": 501,
@@ -474,6 +474,7 @@
           "earthstat-restricted-raster-families",
           "fao",
           "gtap-current-database",
+          "infra-art-restricted-spectra",
           "phi-base-api",
           "un-comtrade"
         ]
@@ -577,6 +578,7 @@
           "ebird",
           "ghdx-ihme-discovery",
           "harvard-dataverse",
+          "infra-art-restricted-spectra",
           "ipd-immunopolymorphism-api",
           "oceanrep-oai-metadata",
           "orcid",
@@ -2580,7 +2582,8 @@
           "tunisia"
         ],
         "restricted_provider_ids": [
-          "gccstat"
+          "gccstat",
+          "infra-art-restricted-spectra"
         ]
       },
       "research": {
@@ -2591,7 +2594,9 @@
         "candidate_provider_ids": [
           "ubb-digital-commons-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "infra-art-restricted-spectra"
+        ]
       }
     },
     "Sub-Saharan Africa": {
@@ -3492,6 +3497,7 @@
           "landcare-research-datastore",
           "pacific-stat",
           "qspatial-csw-catalog",
+          "rcc-acis-web-services",
           "spc-pccos-tds"
         ],
         "restricted_provider_ids": []
@@ -3523,6 +3529,7 @@
           "province-sud-geospatial",
           "qspatial-csw-catalog",
           "queensland-data",
+          "rcc-acis-web-services",
           "spc-pccos-tds",
           "sunshine-coast-open-data-search",
           "victoria-datavic",
@@ -3543,6 +3550,7 @@
           "data-wa-catalogue-api",
           "qspatial-csw-catalog",
           "queensland-data",
+          "rcc-acis-web-services",
           "sunshine-coast-open-data-search",
           "wa-slip-public-geospatial-services"
         ],
@@ -3749,6 +3757,7 @@
           "landcare-research-datastore",
           "pacific-stat",
           "qspatial-csw-catalog",
+          "rcc-acis-web-services",
           "spc-pccos-tds",
           "te-papa"
         ],
