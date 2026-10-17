@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T17:05:36.456981+00:00",
+  "published_at": "2026-10-17T17:07:38.951642+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:05:34.501643+00:00",
+  "research_updated_at": "2026-10-17T17:07:01.851046+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Fourregionalresearchoriginsreviewed;existingB2SHAREscopedmetadataCC0verified(currentruntimeheld),SURFAPIguideheldcandidate,CEDR/CSESAPI/grantsunresolved",
+  "latest_milestone": "Seven original repository tasks reviewed; existing B2SHARE public metadata CC0 verified with runtime held, INDEPTH restricted and SURF candidate added; EUDAT7 references indexed",
   "counts": {
     "verified": 262,
     "candidates": 481,
@@ -13,12 +13,12 @@
     "sample_successes": 473
   },
   "remaining_work": [
-    "Resume next-re3data-provider-review-batch.json; selected sources queued, not researched.",
-    "KTH REST docs require account-generated bearer token. No key/account authorised/obtained; sample untested and default CC BY4 not a blanket metadata/source grant.",
-    "SeaBASS SST route documented but one-day JSON request404HTML; current route and exact source/metadata rights unresolved. Do not count HTML errors as native API responses; no source files/orders acquired.",
-    "SCAR/Antarctic occurrence portal uses existing GBIF API. One CC0-filtered network record verified, not all networks or full MEASO polygon; project/current-techdocs holds retained. Bolin NetCDF/static data and B2SAFE replication software are not verified public APIs.",
-    "Birdata extract files cannot be shared publicly without approval; no request/contact. GRSP exact public API/data grant unresolved. Retain all prior ABES/TERN/VAMDC/BioCASe/PSICQUIC/NIST/EMEP/world coverage queues.",
-    "BDL quota hold remains until2026-10-17T18:20:40.045886+00:00, followed by fresh quota/PID/ledger checks before any retry."
+    "Resume next-re3data-provider-review-batch.json; selected sources queued, not yet researched.",
+    "B2SHARE public descriptive metadata accepted CC0 under current explicit terms; exact native listing robots-held, no enumeration. Source research files/private records remain independently licensed. No alternate API/OAI after hold.",
+    "ESTIA/DIAS Anubis challenges and INDEPTH original policy hold remain; separate official institutional OAI statements do not supply exact current base or blanket open grants. No accounts or microdata.",
+    "SURF API guide/terms direct401challenge; indexed agreement has per-object/default-NC transformation and metadata DOI/link permissions; uniform exact grant/API details unresolved. CEDR/CSES formal machine APIs and effective grants unestablished from reviewed public pages.",
+    "Review eudat-service-reference-review-queue.json distinct source references, deduplicate prior B2FIND/DataCite/etc records and inspect source-specific grants; no universal EUDAT acceptance. Retain ABES/TERN/VAMDC/BioCASe/PSICQUIC/NIST/EMEP and worldwide geographic/sector/work-rights queues.",
+    "BDL quota hold unchanged until2026-10-17T18:20:40.045886+00:00; fresh quota/PID/ledger checks required before any later retry."
   ],
   "external_blocker": null,
   "coverage": {
@@ -440,6 +440,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arxiv",
+          "b2share",
           "bgs",
           "bnf-catalogue",
           "cchdo",
@@ -482,7 +483,6 @@
         ],
         "candidate_provider_ids": [
           "artic",
-          "b2share",
           "biostudies",
           "checklistbank",
           "cifor-icraf",
@@ -1813,6 +1813,7 @@
           "registry-opendata-aragon-es",
           "saw-leipzig-fcs",
           "serbia-rzs",
+          "surf-data-repository",
           "swissubase-oai",
           "terrassa-open-data",
           "tuebingen-fcs",
@@ -2215,6 +2216,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arche-repository",
+          "b2share",
           "bgs",
           "bnf-catalogue",
           "cessda-elsst",
@@ -2252,7 +2254,6 @@
           "ads-archaeology",
           "aland-statistics",
           "anfr-data",
-          "b2share",
           "bas-fcs",
           "cessda-catalogue",
           "clarin-dk-fcs",
@@ -2276,6 +2277,7 @@
           "portulan-repository",
           "rijksmuseum",
           "saw-leipzig-fcs",
+          "surf-data-repository",
           "swissubase-oai",
           "tuebingen-fcs",
           "wellcome-collection",
@@ -2505,7 +2507,9 @@
           "south-africa-statssa",
           "worldpop-wopr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "indepth-ishare-data-repository"
+        ]
       },
       "economics/finance": {
         "status": "partial_verified",
@@ -2597,7 +2601,9 @@
         "candidate_provider_ids": [
           "afdb-kenya-sdmx"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "indepth-ishare-data-repository"
+        ]
       },
       "education": {
         "status": "partial_candidates_only",
@@ -2717,6 +2723,7 @@
           "sanbi-birdie"
         ],
         "restricted_provider_ids": [
+          "indepth-ishare-data-repository",
           "laws-africa",
           "wascal"
         ]
@@ -3326,7 +3333,9 @@
           "stats-nz-geographic",
           "worldpop-wopr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "indepth-ishare-data-repository"
+        ]
       },
       "economics/finance": {
         "status": "partial_verified",
@@ -3441,7 +3450,9 @@
           "pacific-data",
           "pacific-stat"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "indepth-ishare-data-repository"
+        ]
       },
       "education": {
         "status": "partial_candidates_only",
@@ -3646,6 +3657,7 @@
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
           "digitalnz",
+          "indepth-ishare-data-repository",
           "rda-australia",
           "spc-pccos-thredds",
           "wa-slip-data-update-api"
@@ -14962,11 +14974,11 @@
       "api_base_url": "",
       "format_protocol": "HTML InvenioRDM portal; provider-published REST API guide link exists,protocol/runtime details unverified",
       "authentication": "unknown for API; portal offers login. No account/key/credentials used.",
-      "free_access_restrictions": "Indexed official consumeragreement requires exactDigitalObjectcopyright/licencecompliance; no uniform openmetadata/sourcegrant established. API/terms docs direct401challenge.",
+      "free_access_restrictions": "Indexed official agreement: DigitalObject copyright/licence governs; transformations default non-commercial unless accompanying licence says otherwise. Metadata reuse/resale with DOI/link has separate wording. Direct documentation401challenge; exact applicability/current API grant unresolved.",
       "license": "Per-object licences; uniform metadata/source terms unconfirmed",
       "license_url": "https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/37388397/Data+Repository+Data+Consumer+Agreement",
       "api_verification_state": "public_HTML_portal_provider_API_guide_link_verified_direct_docs401_challenge_exact_API_grant_unresolved_no_native_sample",
-      "latest_checked_utc": "2026-10-17T17:05:30.355144+00:00",
+      "latest_checked_utc": "2026-10-17T17:06:58.606802+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
