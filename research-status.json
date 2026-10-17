@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-17T04:35:32.427828+00:00",
+  "published_at": "2026-10-17T04:37:34.989421+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T04:35:28.989685+00:00",
+  "research_updated_at": "2026-10-17T04:37:09.878048+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
@@ -1044,6 +1044,7 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alcobendas-open-data",
           "cbs",
           "cessda-elsst",
           "cessda-vocabularies",
@@ -1195,6 +1196,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alcobendas-open-data",
           "amsterdam-maps-data",
           "andalusia-open-data",
           "bgs",
@@ -1289,6 +1291,7 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alcobendas-open-data",
           "andalusia-open-data",
           "cessda-elsst",
           "estonia-statistics",
@@ -1320,6 +1323,7 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alcobendas-open-data",
           "andalusia-open-data",
           "arche-repository",
           "cessda-elsst",
@@ -1383,6 +1387,7 @@
       "housing": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alcobendas-open-data",
           "amsterdam-maps-data",
           "cbs",
           "denmark-statbank",
@@ -1590,6 +1595,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alcobendas-open-data",
           "amsterdam-maps-data",
           "andalusia-open-data",
           "arche-repository",
@@ -2779,6 +2785,7 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "aadc-weather",
           "esa-ecology",
           "mbie-geodata",
           "pacific-data",
@@ -2816,6 +2823,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "ada-dataverse",
           "pacific-data",
           "pacific-stat"
         ],
@@ -2865,6 +2873,8 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "aadc-gazetteer",
+          "aadc-metadata",
           "cook-geospatial",
           "fiji-tltb",
           "georep-localisation",
@@ -2974,6 +2984,7 @@
           "geri"
         ],
         "candidate_provider_ids": [
+          "aadc-metadata",
           "esa-ecology",
           "nz-iponz",
           "pacioos-erddap",
@@ -3029,6 +3040,7 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "aadc-weather",
           "nsidc",
           "pangaea"
         ],
@@ -3091,6 +3103,8 @@
           "nasa-cmr"
         ],
         "candidate_provider_ids": [
+          "aadc-gazetteer",
+          "aadc-metadata",
           "nsidc"
         ],
         "restricted_provider_ids": []
@@ -3159,6 +3173,7 @@
           "nasa-cmr"
         ],
         "candidate_provider_ids": [
+          "aadc-metadata",
           "pangaea"
         ],
         "restricted_provider_ids": []
@@ -3567,7 +3582,7 @@
       "license": "Creative Commons Attribution4.0International — Register publisher content, namedexceptions retained",
       "license_url": "https://www.legislation.gov.au/terms-of-use#copyright",
       "api_verification_state": "actual_native_title_metadata_sample_success_full_CCBY4_terms_verified",
-      "latest_checked_utc": "2026-10-17T04:31:36.338809+00:00",
+      "latest_checked_utc": "2026-10-17T04:36:24.536731+00:00",
       "classification": "open_license_verified"
     },
     {
