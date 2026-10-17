@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T23:29:49.518487+00:00",
+  "published_at": "2026-10-17T23:31:52.537876+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:29:26.236520+00:00",
+  "research_updated_at": "2026-10-17T23:30:13.701921+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three distinct services reviewed: enviPath restricted academic/NC use; Côte d’Azur institutional collection candidate under original robots hold; Mitelman explicitCCBY4 database with documented BigQuery interface, account/project access untested.20 published table descriptors indexed without querying source cases/clinical data. No cloudresources, keys, subscriptions or datafiles.",
+  "latest_milestone": "Nine original tasks reviewed: three scoped-open grants/services, four candidates, two restricted; Ensembl native JSON356 species snapshot, DSAL50 OCLC and Mitelman20 table references indexed.",
   "counts": {
     "verified": 314,
     "candidates": 638,
@@ -133,6 +133,7 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "china-national-earth-observation-center",
           "cifor-icraf",
           "copernicus-stac",
           "csiro-data-access-portal",
@@ -253,6 +254,7 @@
           "chebi",
           "datacommons",
           "doaj",
+          "ensembl-rest-genome-service",
           "intact-imex-psicquic",
           "neuromorpho",
           "nih-mesh",
@@ -385,6 +387,7 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "china-national-earth-observation-center",
           "copernicus-stac",
           "dataone",
           "dataterra-eosc-resource-catalogue",
@@ -464,6 +467,7 @@
       "biodiversity": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "ensembl-rest-genome-service",
           "fdat-tuebingen-metadata-api",
           "gbif",
           "igb-fred-metadata-interface",
@@ -643,6 +647,7 @@
           "earthbyte-gplates-web-service",
           "earthscope-geodetic-web-services",
           "earthscope-seismic-web-services",
+          "ensembl-rest-genome-service",
           "esgf-cmip5-discovery",
           "fdat-tuebingen-metadata-api",
           "figshare",
@@ -694,6 +699,7 @@
           "artic",
           "biostudies",
           "checklistbank",
+          "china-national-earth-observation-center",
           "cifor-icraf",
           "cinii-books",
           "csiro-data-access-portal",
@@ -2151,6 +2157,7 @@
           "dnb",
           "estonia-statistics",
           "faroe-statistics",
+          "frankfurt-digital-collections-metadata",
           "fsd-finland",
           "georgia-statistics",
           "gutenberg-mainz-oai-metadata",
@@ -2195,6 +2202,7 @@
           "clarin-vcr",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
+          "cotedazur-recherche-data-gouv-collection",
           "czech-national-corpus-fcs",
           "galicia-abertos-catalog",
           "glasgow-enlighten-research-data",
@@ -2576,6 +2584,7 @@
           "fingal-open-data",
           "finna",
           "finto",
+          "frankfurt-digital-collections-metadata",
           "georgia-statistics",
           "gutenberg-mainz-oai-metadata",
           "iceland-statistics",
@@ -2689,6 +2698,7 @@
           "faroe-statistics",
           "finna",
           "finto",
+          "frankfurt-digital-collections-metadata",
           "fsd-finland",
           "geri",
           "gutenberg-mainz-oai-metadata",
@@ -2732,6 +2742,7 @@
           "clinicalcodes-repository",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
+          "cotedazur-recherche-data-gouv-collection",
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "drks-german-clinical-trials-register",
@@ -3257,6 +3268,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "digital-south-asia-library",
           "nepal",
           "pakistan",
           "pakistan-odp",
@@ -3343,6 +3355,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "digital-south-asia-library",
           "pakistan-odp",
           "udiseplus-education-data-api"
         ],
@@ -3370,6 +3383,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "digital-south-asia-library",
           "issdc-space-science-archive",
           "wis2-india",
           "wis2-nepal"
@@ -3426,6 +3440,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "digital-south-asia-library",
           "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal",
@@ -3439,6 +3454,7 @@
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
           "clinical-trials-registry-india",
+          "digital-south-asia-library",
           "esa-ecology",
           "india-environment-portal",
           "issdc-space-science-archive",
@@ -3512,6 +3528,7 @@
         ],
         "candidate_provider_ids": [
           "busan-public-apis",
+          "china-national-earth-observation-center",
           "hk-weather",
           "japan-egov-data-catalog",
           "taiwan-cwa",
@@ -3563,6 +3580,7 @@
           "japan-egov-data-catalog"
         ],
         "restricted_provider_ids": [
+          "chiba-curator-repository",
           "cinii-research"
         ]
       },
@@ -3598,6 +3616,7 @@
         ],
         "candidate_provider_ids": [
           "busan-public-apis",
+          "china-national-earth-observation-center",
           "gbif-japan",
           "taiwan-cwa",
           "thailand-gistda",
@@ -3650,9 +3669,11 @@
         "restricted_provider_ids": []
       },
       "astronomy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "smoka-science-archive"
+        ],
         "restricted_provider_ids": []
       },
       "culture": {
@@ -3666,6 +3687,7 @@
           "thailand-gistda"
         ],
         "restricted_provider_ids": [
+          "chiba-curator-repository",
           "cinii-research"
         ]
       },
@@ -3675,11 +3697,14 @@
           "taibif-portal-v3"
         ],
         "candidate_provider_ids": [
+          "china-national-earth-observation-center",
           "cinii-books",
           "nims-mdr",
+          "smoka-science-archive",
           "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
+          "chiba-curator-repository",
           "cinii-research"
         ]
       }
