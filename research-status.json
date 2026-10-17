@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T01:41:40.450797+00:00",
+  "published_at": "2026-10-17T01:43:42.966537+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:40:07.144705+00:00",
+  "research_updated_at": "2026-10-17T01:43:13.244995+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Processing all18 southern-African original published URL claim outcomes; cached/manual service reviews and known original host policy deferrals preserved",
+  "latest_milestone": "Zambia independent NADA actual metadata API25native studies indexed; selected rights timeout/candidate",
   "counts": {
     "verified": 156,
-    "candidates": 211,
+    "candidates": 212,
     "excluded": 29,
     "sample_successes": 206
   },
@@ -9652,6 +9652,24 @@
       "license_url": "https://public.yoda.uu.nl/",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:56:48.562402+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "zambia-nada",
+      "provider": "Zambia Statistics Agency (ZamStats)",
+      "service_name": "Zambia National Data Archive (Z-NADA) study metadata API",
+      "geographic_coverage": "Zambia",
+      "topical_coverage": "demographics; health; labor; economics/finance; housing; agriculture; energy; geospatial; research",
+      "dataset_families": "25 native public study metadata descriptors, including living-conditions, demographic/health, labour, finance, agricultural and energy studies; descriptors not underlying observations/microdata",
+      "documentation_url": "https://nada.zamstats.gov.zm/ | https://www.zamstats.gov.zm/faqs/",
+      "api_base_url": "https://nada.zamstats.gov.zm/index.php/api/",
+      "format_protocol": "NADA JSON result.rows metadata; no variable/file or observation API queried",
+      "authentication": "No credentials for successful ps1/ps100 catalogue metadata GETs; underlying study access workflows vary",
+      "free_access_restrictions": "Anonymous sampled metadata; no operative unrestricted data grant established. ZamStats FAQ says commercial use may have conditions. No registration/forms/accounts/datafiles requested.",
+      "license": "unknown; no complete applicable metadata/data licence established",
+      "license_url": "https://www.zamstats.gov.zm/faqs/ | https://nada.zamstats.gov.zm/index.php/catalog/34",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T01:43:13.136613+00:00",
       "classification": "licensing_unconfirmed"
     }
   ],
