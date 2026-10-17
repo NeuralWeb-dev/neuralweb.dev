@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T23:07:20.752318+00:00",
+  "published_at": "2026-10-17T23:09:23.411116+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:06:32.487169+00:00",
+  "research_updated_at": "2026-10-17T23:08:44.629316+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OLACnativecollectionmetadataCC0/currentprotocol; PROMICEcuratedBY4+customwording andmachineAPI/nofollowholds; SLAnativePDMmarker/APIunresolved.",
+  "latest_milestone": "NovaScotiaoriginaladminlogin/regulatorNC; existingONSalias currentOGLdocs andfairuseidentityhold; ANUsampleCCBYversionunknown/noqueryAPIproof.",
   "counts": {
     "verified": 309,
-    "candidates": 628,
-    "excluded": 155,
-    "sample_successes": 472
+    "candidates": 629,
+    "excluded": 156,
+    "sample_successes": 471
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -8246,8 +8246,8 @@
       "free_access_restrictions": "Open unrestricted public API; beta service may make breaking changes; rate/bot policies apply",
       "license": "Open Government Licence v3.0 except where otherwise stated",
       "license_url": "https://www.ons.gov.uk/methodology/geography/licences",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:23:57.216921+00:00",
+      "api_verification_state": "prior_actual_dataset_metadata_JSON_success_current_native_OGL_terms_and_API_docs_verified_further_requests_fair_use_identity_hold",
+      "latest_checked_utc": "2026-10-17T23:08:35.315167+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10536,6 +10536,24 @@
       "license_url": "https://data.a2gov.org/city-of-ann-arbor/zoning-districts",
       "api_verification_state": "official_CKAN_link_API_policy_deferred_target_unsent",
       "latest_checked_utc": "2026-10-17T04:08:14.389070+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "anu-data-commons-repository",
+      "provider": "Australian National University",
+      "service_name": "ANU Data Commons multidisciplinary data repository",
+      "geographic_coverage": "Australia institution with international/multidisciplinary research subjects; actual geographic holdings unenumerated",
+      "topical_coverage": "research | education | biodiversity | environment | economics",
+      "dataset_families": "Research dataset/project/service metadata; exact source includes published costingmodel anudc:6464",
+      "documentation_url": "https://datacommons.anu.edu.au/DataCommons/rest/about | https://datacommons.anu.edu.au/DataCommons/rest/display/anudc:6464?layout=def%3Adisplay",
+      "api_base_url": "",
+      "format_protocol": "Native public repository/UI paths contain rest prefix but returnedHTML is not machineREST/JSONAPIproof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Official aboutpage permits public browse and embargo arrangements; exact sampleitem openaccess, otherdata controls vary",
+      "license": "Sample anudc:6464 native label CC-BY Attribution, version/licenceURL unspecified; blanket repository/database grant unknown",
+      "license_url": "https://datacommons.anu.edu.au/DataCommons/rest/display/anudc:6464?layout=def%3Adisplay",
+      "api_verification_state": "native_about_and_public_item_access_CC_BY_label_verified_machine_API_and_blanket_source_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T23:08:35.315167+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23552,6 +23570,24 @@
       "license_url": "https://www.rdno.ca/government-administration/terms-and-conditions-use",
       "api_verification_state": "actual_public_JSON_sample_success_native_catalogue_restricted_work_terms_verified",
       "latest_checked_utc": "2026-10-17T10:48:18.804999+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nova-scotia-offshore-data-centre",
+      "provider": "Canada-Nova Scotia Offshore Energy Regulator / former Offshore Petroleum Board",
+      "service_name": "Offshore Data Management Centre / registry-linked Geoviewer endpoint",
+      "geographic_coverage": "Offshore Nova Scotia Canada geoscience/petroleum information; exact public holdings unenumerated",
+      "topical_coverage": "energy | oceans | geospatial | research",
+      "dataset_families": "Offshore seismic/well/geoscientific information and data management; exact current service inventory unverified",
+      "documentation_url": "https://cnsopbdigitaldata.ca/geoviewer/dmc | https://cnsoer.ca/website-terms-of-use",
+      "api_base_url": "",
+      "format_protocol": "Administrative login gate; no public REST/OGC/ArcGIS endpoint verified",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Original discovered route requires login. Independent regulator publicwebsite default personal/noncommercial use and permission-based reproduction; exact geodata grants unverified",
+      "license": "Regulator website copyright/personal-noncommercial terms; current target admin-only, no open source grant verified",
+      "license_url": "https://cnsoer.ca/website-terms-of-use",
+      "api_verification_state": "native_original_administrative_login_gate_and_independent_regulator_NC_terms_verified_public_API_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T23:08:35.315167+00:00",
       "classification": "restricted"
     },
     {
