@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T05:16:26.060333+00:00",
+  "published_at": "2026-10-17T05:18:28.936961+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:10:05.725717+00:00",
+  "research_updated_at": "2026-10-17T05:18:27.628500+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Eightoriginalportaloriginsprocessed;4newservices(2scopedopen/2candidates). MadridpublicGETspec/generalreusegrantverified,sampleheld. Santanderconflictingtermscandidate. Banff12layerschemaactual/APIgrantunconfirmed. Bath151datasetpages13nativepages+page1aliasandindividualmetadatapass,parkingAPIzeroactualrows. Globalin_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Sixteenoriginalportaloriginsprocessed;6newservices(2scopedopen/4candidates),3nativeOGCcatalogpasses;globalin_progress.",
   "counts": {
-    "verified": 193,
-    "candidates": 352,
+    "verified": 195,
+    "candidates": 356,
     "excluded": 35,
-    "sample_successes": 350
+    "sample_successes": 353
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3715,6 +3715,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "birmingham-city-observatory",
+      "provider": "Birmingham City Council",
+      "service_name": "Birmingham City Observatory Explore API",
+      "geographic_coverage": "Birmingham, United Kingdom",
+      "topical_coverage": "Demographics,economics,health,housing,transport,environment,municipal spending",
+      "dataset_families": "Council and partner city data, publications and statistics; current native inventory not enumerated because original API requests are policy-held.",
+      "documentation_url": "https://www.cityobservatory.birmingham.gov.uk/api-console/explore/v2.1/",
+      "api_base_url": "https://www.cityobservatory.birmingham.gov.uk/api/explore/v2.1/",
+      "format_protocol": "Published Explore API v2.1 console and literal swagger.json reference; REST/JSON documented, runtime untested.",
+      "authentication": "No account/key acquired; anonymous documentation inspected. API sample state is separate from documentation availability.",
+      "free_access_restrictions": "Current full Observatory terms explicitly OGL3 text/data files except dataset-specific derived-data restrictions. City landing links OGL2; current Observatory HTML/PDF state version3. No universal free quota or partner-data grant inferred.",
+      "license": "UK Open Government Licence version 3, subject to explicitly stated dataset exceptions",
+      "license_url": "https://www.cityobservatory.birmingham.gov.uk/terms/terms-and-conditions/ | https://www.cityobservatory.birmingham.gov.uk/terms/terms-and-conditions.pdf",
+      "api_verification_state": "official_Explore_v2_1_console_documented_original_spec_and_sample_policy_held_runtime_untested",
+      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "bls",
       "provider": "Bureau of Labor Statistics",
       "service_name": "Bureau of Labor Statistics API",
@@ -3766,6 +3784,24 @@
       "license_url": "https://dadosabertos.bcb.gov.br/dataset/11-taxa-de-juros---selic",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:52:20.119899+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "bristol-open-data",
+      "provider": "Bristol City Council",
+      "service_name": "Open Data Bristol OGC catalog API",
+      "geographic_coverage": "Bristol,United Kingdom",
+      "topical_coverage": "Housing,community,health,social care,transport,environment,municipal spending,geospatial",
+      "dataset_families": "Council and partner dataset/document/map/app catalog; scoped council-authored open data OGL3. Catalog inventory is separate from underlying observations/features.",
+      "documentation_url": "https://opendata.bristol.gov.uk/api/search/definition/",
+      "api_base_url": "https://opendata.bristol.gov.uk/api/search/v1/",
+      "format_protocol": "Actual OGC API discovery/collections/OpenAPI and public catalog GeoJSON metadata. Not old retired API pilot or OpenReferral feed identity.",
+      "authentication": "Actual anonymous public native metadata requests; no key/account used.",
+      "free_access_restrictions": "Full current council open-data page explicitly OGL3 for its open data, links local portal; council local-information page says per-dataset licence controls. Grant scoped to council open data, not every external/partner item or catalog metadata.",
+      "license": "UK Open Government Licence version3, scoped to Bristol council open data; partner/dataset exceptions retained",
+      "license_url": "https://www.bristol.gov.uk/council/data-protection-and-foi/open-data",
+      "api_verification_state": "actual_native_OGC_discovery_collections_OpenAPI_sample_success_scoped_council_OGL3",
+      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7317,6 +7353,42 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bologna-open-data",
+      "provider": "Comune di Bologna",
+      "service_name": "Bologna current municipal Explore API",
+      "geographic_coverage": "Bologna,Italy",
+      "topical_coverage": "Municipal administration,transport,environment,culture,demographics,geospatial",
+      "dataset_families": "Current municipal Opendatasoft platform; native catalog/sample held. Legacy dati.comune.bologna.it/dati serves generic CC BY4 legal text in shell, not current dataset rights proof.",
+      "documentation_url": "https://opendata.comune.bologna.it/api-console/explore/v2.1/",
+      "api_base_url": "https://opendata.comune.bologna.it/api/explore/v2.1/",
+      "format_protocol": "Current official Explore v2.1 console/REST JSON; original bounded sample policy-held.",
+      "authentication": "No account/key acquired; anonymous documentation inspected. API sample state is separate from documentation availability.",
+      "free_access_restrictions": "Current full terms instruct compliance with the licence specified for each dataset; no platform-wide data/metadata grant established. No credential/payment acquired.",
+      "license": "Per-dataset licence; current universal grant unconfirmed",
+      "license_url": "https://opendata.comune.bologna.it/terms/terms-and-conditions/",
+      "api_verification_state": "official_current_Explore_console_documented_original_sample_policy_held_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "boston-maps-open-data",
+      "provider": "City of Boston / BostonGIS",
+      "service_name": "BostonMaps Open Data Hub catalog API",
+      "geographic_coverage": "Boston,Massachusetts,United States",
+      "topical_coverage": "Geospatial,land use,transport,environment,municipal facilities and services",
+      "dataset_families": "Current ArcGIS Hub public all-collection metadata: datasets, documents, maps/apps. Derived native index excludes feature geometry, contacts/admin/user properties. Not every underlying service or dataset licence verified.",
+      "documentation_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/definition/?f=json",
+      "api_base_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/v1/",
+      "format_protocol": "Actual OGC API discovery JSON, collections and OpenAPI definitions; catalog GeoJSON metadata, not underlying feature samples.",
+      "authentication": "Actual anonymous public discovery/collection/OpenAPI GETs; no key/account/admin endpoint used.",
+      "free_access_restrictions": "Site item licenseInfo says CC-BY-SA without version, scope site item only. Former City data-license URL redirects to Analyze Boston policy-file page labelled PDDL for that resource, not all Boston data. Public catalog does not imply a blanket data grant.",
+      "license": "Dataset/API corpus licence unconfirmed; site item unversioned CC-BY-SA and policy-file PDDL not transferred",
+      "license_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/v1 | https://www.boston.gov/government/cabinets/innovation-and-technology/city-boston-data-license-agreement",
+      "api_verification_state": "actual_native_OGC_discovery_collections_OpenAPI_sample_success_individual_corpus_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "botswana-microdata",
       "provider": "Statistics Botswana",
       "service_name": "Statistics Botswana NADA study-catalog metadata API",
@@ -7332,6 +7404,24 @@
       "license_url": "https://www.statsbots.org.bw/terms-use",
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T01:35:47.461865+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "brampton-geohub",
+      "provider": "City of Brampton",
+      "service_name": "Brampton GeoHub OGC catalog API",
+      "geographic_coverage": "Brampton,Ontario,Canada",
+      "topical_coverage": "Geospatial,demographics,housing,transport,local economy,municipal services",
+      "dataset_families": "Public city GeoHub dataset/document/map/app catalog; census and city operational families. Catalog listing does not imply every item has a data API or uniform licence.",
+      "documentation_url": "https://geohub.brampton.ca/api/search/definition/?f=json",
+      "api_base_url": "https://geohub.brampton.ca/api/search/v1/",
+      "format_protocol": "Actual public OGC discovery JSON and current collections/OpenAPI schema; underlying feature services unqueried.",
+      "authentication": "Actual public anonymous native API metadata GETs; no account/key/admin/data mutation.",
+      "free_access_restrictions": "2015 official seven-page Open Data Policy requires separate Terms of Use and release assessment. Public policy is not itself a universal grant. Native site item CC-BY-SA4 applies to site item, not all datasets. Third-party licence counts from directories not adopted.",
+      "license": "Per-dataset licence and current Terms of Use applicability unconfirmed; site item CC BY-SA4 not corpus grant",
+      "license_url": "https://www.brampton.ca/en/city-hall/policies-directives/Documents/Open%20Data%20Policy%2014.18.1.pdf | https://geohub.brampton.ca/api/search/v1",
+      "api_verification_state": "actual_native_OGC_discovery_sample_success_dataset_terms_scope_unconfirmed",
+      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7371,6 +7461,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "brisbane-open-data",
+      "provider": "Brisbane City Council",
+      "service_name": "Brisbane open-data Explore API",
+      "geographic_coverage": "Brisbane,Queensland,Australia",
+      "topical_coverage": "Transport,environment,geospatial,municipal services,demographics,culture",
+      "dataset_families": "Current city open-data platform; individual datasets and full catalog not enumerated. Distinct from Queensland state data portal.",
+      "documentation_url": "https://data.brisbane.qld.gov.au/api-console/explore/v2.1/",
+      "api_base_url": "https://data.brisbane.qld.gov.au/api/explore/v2.1/",
+      "format_protocol": "Current official Explore API console, REST JSON documented; original catalog sample policy-held.",
+      "authentication": "No account/key acquired; anonymous documentation inspected. API sample state is separate from documentation availability.",
+      "free_access_restrictions": "Terms clause2.2.5 states CC BY4 default except terms/dataset licences. Clause2.2.4(i) restricts using website data in ways damaging Council good standing; broad intellectual-property exceptions/indemnity also retained. Durable unrestricted open reuse unresolved; not all data declared closed.",
+      "license": "Candidate: stated CC BY4 default with additional data-use conditions and exceptions",
+      "license_url": "https://data.brisbane.qld.gov.au/terms/terms-and-conditions/",
+      "api_verification_state": "official_current_Explore_API_documented_original_sample_policy_held_extra_reuse_conditions_unresolved",
+      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "buenos-aires",
       "provider": "Buenos Aires Data",
       "service_name": "Buenos Aires Data open data portal",
@@ -7382,9 +7490,9 @@
       "format_protocol": "CKAN Action API / JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Current portal/dataset reuse terms remain unconfirmed",
       "license_url": "https://data.buenosaires.gob.ar/tyc",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "api_verification_state": "historical_catalog_sample_success_current_original_request_policy_held_terms_URL_404",
       "latest_checked_utc": "2026-10-16T16:27:27.957608+00:00",
       "classification": "licensing_unconfirmed"
     },
