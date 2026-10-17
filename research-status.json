@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T08:55:20.111723+00:00",
+  "published_at": "2026-10-17T08:57:22.959447+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T08:55:09.179906+00:00",
+  "research_updated_at": "2026-10-17T08:56:28.894273+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Americas13origins: DC scoped wards CC BY4, Denver engineering restriction, DNV70 service pairs/API licence unresolved; Uruguay exact0.1 confirmed/API hold retained.657 services:214open/399candidates/44restricted;392 original leads remain;global in_progress.",
   "counts": {
     "verified": 214,
     "candidates": 399,
@@ -504,6 +504,7 @@
         "verified_provider_ids": [
           "brampton-geohub",
           "census",
+          "dc-open-data",
           "greenland-statistics",
           "kitchener-geohub",
           "statcan"
@@ -613,6 +614,7 @@
           "banff-open-data",
           "california-open-data",
           "cerp-sfwmd",
+          "dnv-geoweb",
           "edi",
           "epa",
           "knb",
@@ -678,6 +680,7 @@
           "alberta-open-government",
           "brampton-geohub",
           "census",
+          "dc-open-data",
           "greenland-statistics",
           "hartford-open-data"
         ],
@@ -685,6 +688,7 @@
           "census-geocoder",
           "connect211-hsda",
           "connect211-search",
+          "dnv-geoweb",
           "nyc"
         ],
         "restricted_provider_ids": []
@@ -696,9 +700,12 @@
         ],
         "candidate_provider_ids": [
           "annarbor-open-data",
+          "dnv-geoweb",
           "nyc"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "denver-open-data"
+        ]
       },
       "geospatial": {
         "status": "partial_verified",
@@ -707,6 +714,7 @@
           "boston-maps-open-data",
           "boulder-open-data",
           "brampton-geohub",
+          "dc-open-data",
           "eccc-geomet",
           "epa-aqs",
           "getty-vocabularies",
@@ -727,6 +735,7 @@
           "chattanooga-open-data",
           "cook-central-gis",
           "detroit-open-data",
+          "dnv-geoweb",
           "drp",
           "edac-gstore",
           "las-vegas-open-data",
@@ -741,7 +750,8 @@
         ],
         "restricted_provider_ids": [
           "baton-rouge-open-data",
-          "burlington-navigate"
+          "burlington-navigate",
+          "denver-open-data"
         ]
       },
       "public spending/contracts": {
@@ -772,6 +782,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "canada",
+          "dc-open-data",
           "govinfo",
           "greenland-statistics",
           "registry-data-boston-gov"
@@ -4473,7 +4484,7 @@
       "license": "CC BY4.0, named Wards from 2022 only",
       "license_url": "https://creativecommons.org/licenses/by/4.0",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
-      "latest_checked_utc": "2026-10-17T08:54:36.297870+00:00",
+      "latest_checked_utc": "2026-10-17T08:50:25.349173+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6201,7 +6212,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T08:38:22.376888+00:00",
+      "latest_checked_utc": "2026-10-17T08:54:56.721870+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7011,7 +7022,7 @@
       "license": "Licencia de Datos Abiertos – Uruguay v0.1 for explicitly marked datasets/metadata",
       "license_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/publicaciones/licencia_de_datos_abiertos_0.pdf",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T08:54:36.298469+00:00",
+      "latest_checked_utc": "2026-10-17T08:43:13.885343+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8831,7 +8842,7 @@
       "license": "Open Government Licence North Vancouver v2.0 for offered files; API work binding unconfirmed",
       "license_url": "https://geoweb.dnv.org/data/",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
-      "latest_checked_utc": "2026-10-17T08:54:36.298374+00:00",
+      "latest_checked_utc": "2026-10-17T08:48:14.884832+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14791,7 +14802,7 @@
       "license": "Named rail dataset engineering-purpose restriction",
       "license_url": "https://opendata-geospatialdenver.hub.arcgis.com/data.json",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
-      "latest_checked_utc": "2026-10-17T08:54:36.298269+00:00",
+      "latest_checked_utc": "2026-10-17T08:46:28.966088+00:00",
       "classification": "restricted"
     },
     {
