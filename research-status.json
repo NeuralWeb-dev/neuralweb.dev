@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:35:22.906148+00:00",
+  "published_at": "2026-10-17T21:37:25.375162+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:34:56.375900+00:00",
+  "research_updated_at": "2026-10-17T21:37:10.808088+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BOLD, COD and Chemotion reviewed; Chemotion scoped-open source and native public metadata verified, BOLD/COD retained as candidates with original holds.",
+  "latest_milestone": "Six original providers reviewed in two batches: Chemotion scoped-open, BOLD/COD/DHS/UPN candidates, CITF restricted. Fourteen Chemotion operations, two OAI formats and one source-license sample indexed. Global discovery unfinished.",
   "counts": {
     "verified": 300,
-    "candidates": 581,
-    "excluded": 127,
+    "candidates": 583,
+    "excluded": 128,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -259,6 +259,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "charite-zebanc-biobank",
+          "citf-controlled-databank",
           "ghdx-ihme-discovery",
           "ipd-immunopolymorphism-api",
           "openaq",
@@ -580,6 +581,7 @@
           "bonndata-published-metadata",
           "cchdo",
           "chebi",
+          "chemotion-public-repository-api",
           "cleveland-art",
           "columbia-academic-commons-api",
           "crossref",
@@ -702,6 +704,7 @@
           "bsrn-wrmc-radiation-archive",
           "charite-zebanc-biobank",
           "cinii-research",
+          "citf-controlled-databank",
           "copernicus-marine",
           "deims",
           "ebird",
@@ -955,6 +958,7 @@
         ],
         "restricted_provider_ids": [
           "calhhs-open-data",
+          "citf-controlled-databank",
           "colorado-information-marketplace",
           "hawaii-open-data-catalogue",
           "polar-data-catalogue-metadata-api"
@@ -1305,6 +1309,7 @@
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
+          "citf-controlled-databank",
           "polar-data-catalogue-metadata-api"
         ]
       }
@@ -1317,6 +1322,7 @@
         ],
         "candidate_provider_ids": [
           "brazil",
+          "dhs-indicator-data-api",
           "eclac",
           "jamaica-data",
           "opendatasus"
@@ -1414,6 +1420,7 @@
         ],
         "candidate_provider_ids": [
           "ciencia-aberta",
+          "dhs-indicator-data-api",
           "dominican-data",
           "fortaleza-ckan-api",
           "goias-state-ckan-api",
@@ -1428,10 +1435,12 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "dhs-indicator-data-api",
           "dominican-data",
           "goias-state-ckan-api",
           "mexico-national-open-data",
-          "registry-dados-df-gov-br"
+          "registry-dados-df-gov-br",
+          "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -1439,6 +1448,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "dhs-indicator-data-api",
           "fortaleza-ckan-api",
           "registry-portaldados-ppgau-uff-br"
         ],
@@ -1546,6 +1556,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "bold-v5-public-data-api",
           "esa-ecology"
         ],
         "restricted_provider_ids": []
@@ -1567,7 +1578,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "mexico-national-open-data",
-          "mindagri-ne"
+          "mindagri-ne",
+          "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -1575,10 +1587,13 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "bold-v5-public-data-api",
           "ciencia-aberta",
+          "dhs-indicator-data-api",
           "edac-gstore",
           "esa-ecology",
-          "registry-portaldados-ppgau-uff-br"
+          "registry-portaldados-ppgau-uff-br",
+          "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
       }
@@ -2518,6 +2533,7 @@
           "bnf-catalogue",
           "cessda-elsst",
           "cessda-vocabularies",
+          "chemotion-public-repository-api",
           "clarin-dk",
           "clarin-pl",
           "croatia-statistics",
@@ -2835,6 +2851,7 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "dhs-indicator-data-api",
           "ghana",
           "kenya-knbs",
           "south-africa-statssa",
@@ -2933,7 +2950,8 @@
           "rwanda"
         ],
         "candidate_provider_ids": [
-          "afdb-kenya-sdmx"
+          "afdb-kenya-sdmx",
+          "dhs-indicator-data-api"
         ],
         "restricted_provider_ids": [
           "indepth-ishare-data-repository"
@@ -2943,7 +2961,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "afdb-kenya-sdmx"
+          "afdb-kenya-sdmx",
+          "dhs-indicator-data-api"
         ],
         "restricted_provider_ids": []
       },
@@ -2953,7 +2972,8 @@
           "registry-municipaldata-treasury-gov-za"
         ],
         "candidate_provider_ids": [
-          "afdb-kenya-sdmx"
+          "afdb-kenya-sdmx",
+          "dhs-indicator-data-api"
         ],
         "restricted_provider_ids": []
       },
@@ -3054,6 +3074,7 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "dhs-indicator-data-api",
           "laws-africa-knowledge",
           "sanbi-birdie",
           "trr228-african-futures-database"
@@ -11758,6 +11779,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dhs-indicator-data-api",
+      "provider": "The Demographic and Health Surveys Program / ICF",
+      "service_name": "DHS aggregated indicator REST API",
+      "geographic_coverage": "Multiple survey countries across Africa, Asia, Latin America and other participating regions; country/survey-specific coverage, not all-world population inventory",
+      "topical_coverage": "demographics | health | education | housing | research",
+      "dataset_families": "Aggregated population, reproductive/maternal/child health, nutrition, survey indicators, countries/surveys and metadata; controlled microdata separate",
+      "documentation_url": "https://api.dhsprogram.com/ | https://api.dhsprogram.com/html/introapi.cfm | https://api.dhsprogram.com/html/api-countries.cfm",
+      "api_base_url": "https://api.dhsprogram.com/rest/dhs/",
+      "format_protocol": "Official REST/query-based JSON,XML,CSV,GeoJSON/JSONP/PJSON documented; native sample policy deferred, target not requested",
+      "authentication": "No credentials used. Aggregated API documented separately; survey microdata require registration and approval, not requested.",
+      "free_access_restrictions": "Public documentation access is distinct from source access and reuse",
+      "license": "unknown explicit open metadata/database license",
+      "license_url": "https://api.dhsprogram.com/html/terms.cfm | https://dhsprogram.com/data/Using-DataSets-for-Analysis.cfm",
+      "api_verification_state": "native_official_current_API_docs_and_citation_terms_verified_countries_endpoint_policy_hold_target_unsent",
+      "latest_checked_utc": "2026-10-17T21:36:35.871065+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "diba-open-data-api",
       "provider": "Diputació de Barcelona",
       "service_name": "Regional public read-only data API",
@@ -18400,6 +18439,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "upn-institutional-repository",
+      "provider": "Universidad Privada del Norte",
+      "service_name": "UPN institutional research repository",
+      "geographic_coverage": "Peru institutional research repository; source topics may extend beyond Peru, not inferred from operator country",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional theses, research outputs and descriptions; open/embargo/restricted source access varies",
+      "documentation_url": "https://repositorio.upn.edu.pe/ | https://repositorio.upn.edu.pe/politica.pdf",
+      "api_base_url": "",
+      "format_protocol": "Root and OAI Identify both native200 React application shell, not XML/API success",
+      "authentication": "No account, key or authenticated query used",
+      "free_access_restrictions": "Public documentation access is distinct from source access and reuse",
+      "license": "Indexed official institutional policy describes CC BY4 documents; current native policy content not independently parsed, metadata/database and exact source grants unresolved",
+      "license_url": "https://repositorio.upn.edu.pe/politica.pdf",
+      "api_verification_state": "native_200_HTML_shell_at_root_and_historical_OAI_Identify_not_successful_API",
+      "latest_checked_utc": "2026-10-17T21:36:35.871065+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "us-data-gov-catalog",
       "provider": "United States General Services Administration / Data.gov",
       "service_name": "Data.gov Catalog API v4 and legacy read-only CKAN migration reference",
@@ -20811,6 +20868,24 @@
       "license_url": "https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf | https://support.nii.ac.jp/en/cinii/copyright",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "citf-controlled-databank",
+      "provider": "COVID-19 Immunity Task Force Databank / McGill University",
+      "service_name": "CITF Data Portal and controlled research-data access",
+      "geographic_coverage": "Canada-focused COVID-19 immunity studies with international researcher eligibility; not global source coverage",
+      "topical_coverage": "health | research",
+      "dataset_families": "Harmonized individual-study and multi-study COVID-19 immunity/vaccine research; public metadata descriptions distinct from controlled data",
+      "documentation_url": "https://portal.citf.mcgill.ca/ | https://portal.citf.mcgill.ca/data-access-process",
+      "api_base_url": "",
+      "format_protocol": "Native public HTML OBiBa Mica portal; policy PDF fetched; no public machine query contract established",
+      "authentication": "Controlled access requires account, online application and committee approval; no signup/login/application performed",
+      "free_access_restrictions": "Research justification, ethics approval or exemption, CV and data access review required for controlled data; numeric costs unknown in inspected native HTML",
+      "license": "Controlled research access; no explicit open source-data license established",
+      "license_url": "https://portal.citf.mcgill.ca/data-access-process | https://portal.citf.mcgill.ca/assets/files/data-access-policy-en.pdf",
+      "api_verification_state": "native_public_operator_access_requirements_verified_no_public_API_or_open_source_grant",
+      "latest_checked_utc": "2026-10-17T21:36:35.871065+00:00",
       "classification": "restricted"
     },
     {
