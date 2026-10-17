@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:31:24.565303+00:00",
+  "published_at": "2026-10-17T18:33:27.699040+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:30:53.831523+00:00",
+  "research_updated_at": "2026-10-17T18:33:08.045289+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Kinder host hold retained; INFRA-ART current metadata/data grants separated and public API under development; Zeolite commercial redistribution restriction verified",
+  "latest_milestone": "WRCC migration/ACIS metadata verified, source rights unknown; CORUM CC BY data grant but API held/unestablished; CRCNS restricted default and exceptions separated",
   "counts": {
     "verified": 273,
-    "candidates": 500,
-    "excluded": 98,
+    "candidates": 501,
+    "excluded": 99,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -14470,6 +14470,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rcc-acis-web-services",
+      "provider": "NOAA Regional Climate Centers / Applied Climate Information System",
+      "service_name": "RCC ACIS Web Services v2",
+      "geographic_coverage": "US station and gridded climate resources; WRCC applications focus western US, Alaska, Hawaii and Pacific territories. Individual source extent varies.",
+      "topical_coverage": "climate | weather | environment | water | agriculture",
+      "dataset_families": "Station metadata and daily observations, multi-station data, gridded climate and geographic metadata",
+      "documentation_url": "https://docs.rcc-acis.org/acisws/ | https://wrcc.dri.edu/migrating-to-wrcc-archive",
+      "api_base_url": "http://data.rcc-acis.org/",
+      "format_protocol": "HTTP GET or JSON params POST; JSON responses; metadata and observation/gridded operations",
+      "authentication": "Anonymous documented county metadata example succeeded; no key/account used",
+      "free_access_restrictions": "Selected metadata endpoint accessible without payment; source-wide free tier limits and charged WRCC products unverified",
+      "license": "unknown; effective data/database/source redistribution grant unconfirmed",
+      "license_url": "",
+      "api_verification_state": "native_anonymous_metadata_JSON_success_55station_county_sample",
+      "latest_checked_utc": "2026-10-17T18:33:04.020205+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "registry-africaopendata-org",
       "provider": "Africa Open Data",
       "service_name": "Africa Open Data portal API",
@@ -18555,6 +18573,24 @@
       "license_url": "https://cranach.ub.uni-heidelberg.de/wiki/index.php?title=CranachNet%3AImpressum",
       "api_verification_state": "native_JSON_error_readapidenied_not_data_success_documented_RSD",
       "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "crcns-default-restricted-data",
+      "provider": "Collaborative Research in Computational Neuroscience / CRCNS.org",
+      "service_name": "CRCNS neuroscience datasets under default terms (restricted)",
+      "geographic_coverage": "Multi-laboratory neuroscience experiments; population geography not inferred",
+      "topical_coverage": "health | neuroscience | research",
+      "dataset_families": "Neural/physiological recordings, sensory and memory systems, eye movements, stimuli, simulations and methods datasets",
+      "documentation_url": "https://crcns.org/download | https://crcns.org/news/new-tools-available-for-bulk-downloading-data | https://github.com/jeffteeters/crcns-downloader",
+      "api_base_url": "",
+      "format_protocol": "HTML catalogue and documented Python batch-file downloader with MD5 verification; no public JSON API claimed",
+      "authentication": "Free CRCNS account prerequisite for documented downloads; no account requested",
+      "free_access_restrictions": "Default scientific use only; redistribution prohibited except direct collaborators/classroom; unnecessary downloading prohibited",
+      "license": "CRCNS custom scientific-use/no-redistribution default; explicit dataset alternatives may supersede",
+      "license_url": "https://crcns.org/terms | https://crcns.org/data-sets/ia/ia-1/conditions/",
+      "api_verification_state": "restricted_account_batch_download_documented_public_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:33:04.020205+00:00",
       "classification": "restricted"
     },
     {
