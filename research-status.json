@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T00:42:29.202950+00:00",
+  "published_at": "2026-10-17T00:44:31.781383+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:42:09.889477+00:00",
+  "research_updated_at": "2026-10-17T00:43:40.383018+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OfficialIDG3services reviewed;NoumeaselectedQuartiersOL2,ANFRtermsconflict/Shomaccesscandidate",
+  "latest_milestone": "NoumeaselectedQuartiersOL2/publicSharingRESTJSON verified;ANFR9catalogueIDs legalconflictcandidate;Shom53WMSlayers APIeligibilitycandidate;GeorepIDGrootoutcomes 15/27;global50938source-originreviewunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 153,
     "candidates": 205,
     "excluded": 26,
-    "sample_successes": 194
+    "sample_successes": 197
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4411,8 +4411,8 @@
       "free_access_restrictions": "SelectedpublicSharingRESTmetadata/cataloguefree/noaccount. QuartiersOL2reusefree;FeatureServerruntime/free-tier unverified. Otheritemsincludeinternaluse/noncommercial-nomodificationrestrictions,notuniformlyopen.",
       "license": "LicenceOuverteEtalab2.0verifiedselectedQuartiersitemonly",
       "license_url": "https://www.arcgis.com/sharing/rest/content/items/33f91ef1da014808b5375c0be0b92141?f=json+%7C+https%3A%2F%2Fwww.etalab.gouv.fr%2Fwp-content%2Fuploads%2F2017%2F04%2FETALAB-Licence-Ouverte-v2.0.pdf+%7C+https%3A%2F%2Fraw.githubusercontent.com%2Fetalab%2Flicence-ouverte%2Fmaster%2FLO.md",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:42:09.799127+00:00",
+      "api_verification_state": "documented_public_Sharing_REST_catalogue_item_JSON_sample_success_scoped_OL2_FeatureServer_policy_deferred",
+      "latest_checked_utc": "2026-10-17T00:40:45.941635+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5799,8 +5799,8 @@
       "free_access_restrictions": "Publiccataloguefree/noaccount. Legalnotice restrictsmodification/advertising andrequiresfree redistribution;selecteddatasetOL2conflicts unresolved. No paidacquisition.",
       "license": "Selectedmobile dataset and9nativecataloguelabels OL2;conflicting blanketlegalnotice,operativeprecedenceunresolved",
       "license_url": "https://data.anfr.fr/explore/dataset/observatoire_2g_3g_4g/ | https://data.anfr.fr/mentions_legales | https://data.anfr.fr/politique-open-data",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:42:09.414095+00:00",
+      "api_verification_state": "documented_Data4Citizen_public_catalog_JSON_sample_success_license_conflict_unresolved",
+      "latest_checked_utc": "2026-10-17T00:39:24.687974+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8877,8 +8877,8 @@
       "free_access_restrictions": "Anonymouscapabilitiesmetadatafree;serviceadvertises subscriptionconditions. Productpage saysfreeOpenData butgenericcart commercial-licencewarning. Current2026termsseparateopenproductsfrompaid/internallicences;freeAPIqueryeligibilitynotestablished,nopaidacquisition.",
       "license": "OL2 explicitlyverifiedforselectedReglementation-Navigation product;broaderAPI/freeaccess eligibility unresolved",
       "license_url": "https://diffusion.shom.fr/donnees/base-de-donnees-maritimes-et-littorales/reglementation-navigation.html | https://diffusion.shom.fr/Licences | https://diffusion.shom.fr/media/wysiwyg/licence/Document_RIP_2026-VF.pdf",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:42:09.611218+00:00",
+      "api_verification_state": "documented_WMS_XML_capabilities_sample_success_selected_OL2_product_free_API_eligibility_unresolved",
+      "latest_checked_utc": "2026-10-17T00:38:39.436420+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
