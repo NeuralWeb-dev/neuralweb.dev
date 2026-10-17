@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T14:09:56.166219+00:00",
+  "published_at": "2026-10-17T14:11:58.818331+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:05:29.778344+00:00",
+  "research_updated_at": "2026-10-17T14:11:47.690364+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Toronto/Tuscanyvalidated751services243open450candidates58restricted;Toronto555namesindexed;nextUN/university8roots/currentprimaryguides/legalpages saved,notintegrated.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
     "verified": 243,
-    "candidates": 450,
+    "candidates": 453,
     "excluded": 58,
-    "sample_successes": 458
+    "sample_successes": 459
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -9688,6 +9688,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dol-public-data-api",
+      "provider": "U.S. Department of Labor",
+      "service_name": "DOL public Data Portal v4 API",
+      "geographic_coverage": "United States",
+      "topical_coverage": "labor; economics; public spending; law/civic data",
+      "dataset_families": "Official guide describes statistical, enforcement, legal, policy, administrative and financial datasets; current native catalogue could not be enumerated.",
+      "documentation_url": "https://www.dataportal.dol.gov/pdf/dol-api-user-guide.pdf",
+      "api_base_url": "https://apiprod.dol.gov/v4/",
+      "format_protocol": "Documented REST JSON/XML/CSV data and JSON/CSV metadata; anonymous datasets catalogue JSON. Target held, no runtime/schema success.",
+      "authentication": "Guide explicitly exempts /v4/datasets from API-key requirement. Metadata/data require registered X-API-KEY. No account or key acquired or public example value used.",
+      "free_access_restrictions": "Public API guide documents registration; current account/tier restrictions unknown. No paid access acquired. Guide prohibits sharing registered keys.",
+      "license": "Conditional publisher public-domain statement for government-created material; effective individual API-work grants unconfirmed",
+      "license_url": "https://www.dol.gov/general/aboutdol/copyright",
+      "api_verification_state": "documented_API_anonymous_catalogue_policy_held_target_unsent_keyed_operations_untested",
+      "latest_checked_utc": "2026-10-17T14:11:23.875205+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dominican-data",
       "provider": "Dominican Republic national open data portal / DIGEIG",
       "service_name": "Datos.gob.do open data portal;CKAN API candidate",
@@ -14581,6 +14599,42 @@
       "license_url": "https://www.admiralty.co.uk/access-data/apis | https://copyright.ukho.gov.uk/",
       "api_verification_state": "documented_API_registered_access_data_sample_untested_operative_grant_unresolved",
       "latest_checked_utc": "2026-10-17T03:42:34.023908+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ulsan-bis-open-api",
+      "provider": "Ulsan Metropolitan City / Traffic Management",
+      "service_name": "Ulsan BIS bus information Open API",
+      "geographic_coverage": "South Korea; Ulsan",
+      "topical_coverage": "transportation; geospatial",
+      "dataset_families": "Bus routes, stops, location identifiers, arrival predictions, directions, timetables and transit-card recharge shops, per named official service description.",
+      "documentation_url": "https://data.go.kr/data/15052669/openapi.do",
+      "api_base_url": "http://openapi.its.ulsan.kr/UlsanAPI/",
+      "format_protocol": "HTTP Open API; named route operation explicitly documented; actual payload format/schema untested",
+      "authentication": "City guide requires data.go.kr registration and service key; registry development/production automatic approval. Key parameter name unverified. No key/account/sample request.",
+      "free_access_restrictions": "Named registry declares free and use restrictions none; city membership terms commercial-service approval clause needs scope reconciliation with data-specific declaration.",
+      "license": "Named service declares no usage restrictions; precise effective reuse instrument and service-terms scope unresolved",
+      "license_url": "https://data.go.kr/data/15052669/openapi.do",
+      "api_verification_state": "official_named_key_required_API_documented_sample_untested",
+      "latest_checked_utc": "2026-10-17T14:11:23.886517+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "undata-official-sdmx-api",
+      "provider": "United Nations Statistics Division / UNdata",
+      "service_name": "Official UNdata SDMX web services",
+      "geographic_coverage": "Global/international; coverage varies by source datamart",
+      "topical_coverage": "demographics; economics; environment; energy; research metadata",
+      "dataset_families": "15 dataflow descriptors in native response, including air emissions, physical energy flows and financial accounts. Official guide says API unavailable for some datamarts; no claim of entire UNdata dataset coverage.",
+      "documentation_url": "https://data.un.org/Host.aspx?Content=API",
+      "api_base_url": "https://data.un.org/legacy/ws/rest/",
+      "format_protocol": "Documented SDMX REST and SOAP2.0/2.1; JSON/XML/CSV. Sample200 application/json, references map with15 actual Dataflow descriptors; resources=[] is not an empty catalogue.",
+      "authentication": "Native small dataflow metadata request succeeded anonymously; other operation access restrictions unknown; no accounts/keys acquired.",
+      "free_access_restrictions": "Official terms: data and metadata free of charge, may be copied/duplicated/further distributed with UNdata citation. No paid access acquired.",
+      "license": "Affirmative free copying and redistribution with UNdata citation; broader commercial/adaptation/effective-work grant scope unconfirmed",
+      "license_url": "https://data.un.org/Host.aspx?Content=UNdataUse",
+      "api_verification_state": "documented_sample_success_native_dataflow_metadata_JSON_only",
+      "latest_checked_utc": "2026-10-17T14:11:23.896523+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
