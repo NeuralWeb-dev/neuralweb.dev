@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:12:53.698965+00:00",
+  "published_at": "2026-10-17T21:14:56.248036+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:11:00.344813+00:00",
+  "research_updated_at": "2026-10-17T21:14:10.946713+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ScienceBase/VFB native JSON sampled with exact source-rights gaps; distinct DNB SRU/OAI scoped metadata grant and native SRU/OAI verified, SPARQL identity preserved.",
+  "latest_milestone": "SAW original deduplicated, Wortschatz policy Anubis hold preserved; animal-sound interface rights unresolved and Digital Case restrictive source policy verified.",
   "counts": {
     "verified": 293,
-    "candidates": 570,
-    "excluded": 124,
+    "candidates": 572,
+    "excluded": 125,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -8634,7 +8634,7 @@
       "license": "Provider public-domain declaration — metadata for any purpose",
       "license_url": "https://repo.data.saw-leipzig.de/licenses/de",
       "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_catalog_sample_success",
-      "latest_checked_utc": "2026-10-17T03:00:03.599027+00:00",
+      "latest_checked_utc": "2026-10-17T21:14:06.318185+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10239,6 +10239,24 @@
       "license_url": "",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:56:12.634748+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "berlin-animal-sound-archive",
+      "provider": "Museum für Naturkunde Berlin",
+      "service_name": "Tierstimmenarchiv Animal Sound Archive public discovery",
+      "geographic_coverage": "Operator reports field recordings from all continents, mainly Central/Eastern Europe, and zoological/experimental recordings; exact deposited geographic inventory not enumerated",
+      "topical_coverage": "biodiversity | climate/weather/environment | research | bioacoustics",
+      "dataset_families": "Bird, mammal and other animal-group sound recordings with taxonomic/location/date/recording descriptions; no audio or occurrence rows retrieved",
+      "documentation_url": "https://www.museumfuernaturkunde.berlin/en/research/collection/animal-sound-archive/ | https://suche.tierstimmenarchiv.de/",
+      "api_base_url": "",
+      "format_protocol": "Native HTML collection description and search form; no API response verified",
+      "authentication": "No accounts, credentials or source access requests",
+      "free_access_restrictions": "Operator states public database access; exact API access, download fees/terms and record-level rights unknown. Registry fee claims not treated as current provider evidence.",
+      "license": "Per-record terms unresolved; search filters expose CC BY, CC BY-SA, CC BY-NC-SA and Unknown; no universal metadata/database grant established",
+      "license_url": "https://suche.tierstimmenarchiv.de/ | https://www.museumfuernaturkunde.berlin/en/legal-notice/",
+      "api_verification_state": "native_operator_collection_scope_and_HTML_search_license_filters_verified_independent_API_and_exact_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:14:06.318185+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13662,6 +13680,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "leipzig-wortschatz-api",
+      "provider": "Leipzig Corpora Collection / Wortschatz; registry association with SAW repository",
+      "service_name": "Wortschatz web-service API discovery lead",
+      "geographic_coverage": "Language/corpus resources associated with Leipzig; exact current country/language catalogue unverified",
+      "topical_coverage": "culture | education | research | linguistics",
+      "dataset_families": "Corpus/lexical services claimed in registry; exact current API operations, datasets and source rights unconfirmed",
+      "documentation_url": "https://api.wortschatz-leipzig.de/ws/swagger-ui/index.html | https://wortschatz-leipzig.de/en/usage",
+      "api_base_url": "https://api.wortschatz-leipzig.de/ws/ (registry-linked Swagger interface only, query contract not verified)",
+      "format_protocol": "Swagger UI documentation shell; no successful native JSON contract or corpus API response",
+      "authentication": "No accounts, credentials or source access requests",
+      "free_access_restrictions": "Exact source terms remain separate from public discovery",
+      "license": "unknown current API metadata/database/source grant; registry restrictions not promoted to verified provider terms",
+      "license_url": "https://wortschatz-leipzig.de/en/usage",
+      "api_verification_state": "registry_linked_native_Swagger_UI_HTML_usage_Anubis_challenge_query_API_and_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:14:06.318185+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lexington-data-hub",
       "provider": "Lexington-Fayette Urban County Government",
       "service_name": "Lexington Data Hub OGC catalog",
@@ -16682,7 +16718,7 @@
       "license": "unknown for FCS metadata/search content; no blanket open grant verified",
       "license_url": "https://repo.data.saw-leipzig.de/licenses/de",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:57:04.074834+00:00",
+      "latest_checked_utc": "2026-10-17T21:14:06.318185+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20555,6 +20591,24 @@
       "license_url": "https://ctdbase.org/about/legal.jsp | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701581/",
       "api_verification_state": "provider_authored_API_documented_original_policy_held_sample_untested",
       "latest_checked_utc": "2026-10-17T18:24:47.696814+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "cwru-digital-case",
+      "provider": "Case Western Reserve University / Kelvin Smith Library",
+      "service_name": "Digital Case cultural heritage and archival repository",
+      "geographic_coverage": "CWRU and Northeast Ohio partner archival collections, with source-specific historical/cultural coverage",
+      "topical_coverage": "culture | education | research | history",
+      "dataset_families": "Digitized special collections, rare books/manuscripts, university archives, photographs and audio; public object metadata, source rights vary",
+      "documentation_url": "https://case.edu/library/research-tools/digitized-collections | https://researchguides.case.edu/c.php?g=1339746&p=10784481",
+      "api_base_url": "",
+      "format_protocol": "Native operator/collection-policy HTML; original discovery JavaScript shell, no JSON/OAI/query API established",
+      "authentication": "No accounts, credentials or source access requests",
+      "free_access_restrictions": "Public discovery/viewing described; reuse subject to source copyright/NC labels and embargoes. Policy mentions potential digitization/preservation costs for large deposits, not a proven read-API fee; no paid service used.",
+      "license": "Official policy uses CC BY-NC4 where possible with object labels; other materials may remain copyrighted; exact open exceptions and metadata grant unreviewed",
+      "license_url": "https://researchguides.case.edu/c.php?g=1339746&p=10784481",
+      "api_verification_state": "native_operator_rights_policy_NC_preference_and_copyright_conditions_verified_original_JS_shell_query_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:14:06.318185+00:00",
       "classification": "restricted"
     },
     {
