@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T07:49:50.893082+00:00",
+  "published_at": "2026-10-17T07:51:53.657543+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:48:54.213269+00:00",
+  "research_updated_at": "2026-10-17T07:51:19.191352+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Swissmunicipalbatch:fiveoriginsprocessed,Zurich941nativeworks/4509resources,Bern324metadata. Two scopedopenservices(financekeyuntested)+onecandidate added. 443originalleadsremain;globalin_progress.",
+  "latest_milestone": "Swissmunicipal:fiveoriginalsprocessed. Zurich941uniqueCKANmetadata/4509resourceclaims finite10pages;two scopedopenservices (financialAPI keyrequireduntested),Bern324catalogmetadata candidate. 443originalleadsremain;globalin_progress.",
   "counts": {
     "verified": 208,
     "candidates": 392,
@@ -1297,12 +1297,14 @@
           "slovenia-statistics",
           "transportapi-fi",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zurich-city-open-catalog"
         ],
         "candidate_provider_ids": [
           "aragon-core",
           "aragon-sparql",
           "balearic-open-data",
+          "bern-geodata-catalog-api",
           "bologna-open-data",
           "bordeaux-metropole-datahub",
           "ea-bathing-water",
@@ -1489,7 +1491,8 @@
           "ssb",
           "statfin",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zurich-city-open-catalog"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1563,6 +1566,7 @@
           "aragon-core",
           "aragon-sparql",
           "austria-invekos-ogc",
+          "bern-geodata-catalog-api",
           "bologna-open-data",
           "bordeaux-metropole-datahub",
           "cambridgeshire-insight",
@@ -6112,7 +6116,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T07:40:42.054072+00:00",
+      "latest_checked_utc": "2026-10-17T07:49:54.827186+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7192,7 +7196,7 @@
       "license": "CC0 fornamedFinanzdaten derStadtZuerich dataset;data-rightsverified,accesskeyuntested.",
       "license_url": "https://data.stadt-zuerich.ch/dataset/fd_rpktool",
       "api_verification_state": "documented_key_required_untested_data_CC0_verified",
-      "latest_checked_utc": "2026-10-17T07:48:53.628063+00:00",
+      "latest_checked_utc": "2026-10-17T07:46:41.808715+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7210,7 +7214,7 @@
       "license": "CustomcityOGDlaw;scopednamedCC0dataset verified;otherCCBY/CCBYSAexceptionsretained.",
       "license_url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/statistik-und-daten/open-government-data/rahmenbedingungen.html",
       "api_verification_state": "actual_public_JSON_sample_success_CKAN_catalog_metadata",
-      "latest_checked_utc": "2026-10-17T07:48:53.627895+00:00",
+      "latest_checked_utc": "2026-10-17T07:46:41.808715+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7752,7 +7756,7 @@
       "license": "CustomcitygeodatatermsforA/Bwithdifferentpermissions;catalogmetadata/selectedworkgrantunconfirmed.",
       "license_url": "https://map.bern.ch/geoportal/data/Nutzungsbedingungen_Geodaten_Stadt-Bern_1.0.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_catalog_metadata_only",
-      "latest_checked_utc": "2026-10-17T07:48:53.628160+00:00",
+      "latest_checked_utc": "2026-10-17T07:46:33.025215+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
