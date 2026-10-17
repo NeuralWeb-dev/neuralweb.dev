@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T21:47:37.665568+00:00",
+  "published_at": "2026-10-17T21:49:40.263730+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:46:14.861744+00:00",
+  "research_updated_at": "2026-10-17T21:49:03.983114+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed in two batches; five new services(one scoped-open UTM,three candidates,one restrictedASU) and Earthdata/CMR alias update. UTM RDF400 and repository holds preserved; source inventories unresolved.",
+  "latest_milestone": "DARIAH390OAIsets/2formats and CC_BY record verified; IMS native OAI workflow and eLaborate auth editing/public-edition distinction documented.",
   "counts": {
-    "verified": 301,
-    "candidates": 589,
+    "verified": 302,
+    "candidates": 591,
     "excluded": 132,
     "sample_successes": 475
   },
@@ -5584,6 +5584,24 @@
       "license_url": "https://opendatacommons.org/licenses/by/1-0/",
       "api_verification_state": "actual_public_JSON_sample_success_one_budget_row",
       "latest_checked_utc": "2026-10-17T06:58:24.492673+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "dariah-de-repository-oai",
+      "provider": "DARIAH-DE Repository / SUB Göttingen and GWDG",
+      "service_name": "DARIAH-DE public repository OAI-PMH and documented dissemination APIs",
+      "geographic_coverage": "Humanities/cultural research including international collections and languages, German/European infrastructure; not worldwide source completeness",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Research collections, documents, metadata, digital editions and related objects; accepted only explicitly CC BY source example/scope",
+      "documentation_url": "https://repository.de.dariah.eu/doc/services/ | https://repository.de.dariah.eu/doc/services/submodules/dhoaipmh/docs_dhrep/index.html",
+      "api_base_url": "https://repository.de.dariah.eu/1.0/oaipmh/oai",
+      "format_protocol": "Native OAI-PMH XML Identify,2formats,390sets and one record in DC/DataCite. Other CRUD/digilib/IIIF/publish interfaces documented only, not invoked.",
+      "authentication": "No accounts, tokens, credentials or private queries used",
+      "free_access_restrictions": "Public discovery and source reuse/access terms distinct",
+      "license": "Per-source license; sampled Universal-Kirchenzeitung-Volltext_036.pdf record explicitly CC BY, version not declared",
+      "license_url": "https://repository.de.dariah.eu/1.0/oaipmh/oai?verb=GetRecord&identifier=hdl%3A21.11113%2F0000-000B-C9ED-8&metadataPrefix=oai_dc+%7C+https%3A%2F%2Frepository.de.dariah.eu%2Fdoc%2Fservices%2Fdata-policies.html",
+      "api_verification_state": "native_OAI_Identify_2formats_390unique_sets_and_CC_BY_source_record_DC_DataCite_success_version_unspecified",
+      "latest_checked_utc": "2026-10-17T21:48:59.670748+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12357,6 +12375,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "elaborate-digital-edition-services",
+      "provider": "Huygens Institute / KNAW",
+      "service_name": "eLaborate editing backend and published edition discovery",
+      "geographic_coverage": "Dutch/European and multilingual historical editions; exact edition/source geography varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Digital text editions, transcriptions, annotations and facsimile descriptions; editing workspace and public editions separate",
+      "documentation_url": "https://elaborate.huygens.knaw.nl/for-programmers/ | https://github.com/HuygensING/elaborate4-backend/blob/master/README.md | https://elaborate.huygens.knaw.nl/for-users/",
+      "api_base_url": "",
+      "format_protocol": "Native institutional HTML and source-repository README; REST backend contract documented but authenticated operations not queried",
+      "authentication": "No accounts, tokens, credentials or private queries used",
+      "free_access_restrictions": "Public discovery and source reuse/access terms distinct",
+      "license": "unknown current source-edition/metadata grant; registry NC-SA assertion not accepted without source evidence; GPL3 source software only",
+      "license_url": "https://elaborate.huygens.knaw.nl/for-programmers/ | https://elaborate.huygens.knaw.nl/for-users/",
+      "api_verification_state": "native_operator_docs_auth_editing_REST_and_published_edition_links_verified_no_anonymous_query_sample_or_data_grant",
+      "latest_checked_utc": "2026-10-17T21:48:59.670748+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ena",
       "provider": "EMBL-EBI European Nucleotide Archive",
       "service_name": "EMBL-EBI European Nucleotide Archive API",
@@ -13524,6 +13560,24 @@
       "license_url": "https://www.tylertech.com/terms",
       "api_verification_state": "official_root_API_advertisement_runtime_untested_terms_hold",
       "latest_checked_utc": "2026-10-17T13:23:22.435729+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ims-stuttgart-language-repository",
+      "provider": "Institute for Natural Language Processing / University of Stuttgart",
+      "service_name": "IMS CLARIN-D language-resource repository",
+      "geographic_coverage": "Language resources/software with resource-specific linguistic/study coverage; institution in Germany not source-location inventory",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Linguistic resources, CMDI descriptions, corpora and computational-linguistics software; exact source permissions variable",
+      "documentation_url": "https://wiki.ims.uni-stuttgart.de/extern/CLARIN-D | https://vlo.clarin.eu/search?fq=organisation%3AUniversit%C3%A4t+Stuttgart",
+      "api_base_url": "",
+      "format_protocol": "Official native IMS workflow documents OAI-PMH metadata publication, Fedora REST access/management; current base/interface not runtime verified",
+      "authentication": "No accounts, tokens, credentials or private queries used",
+      "free_access_restrictions": "Public discovery and source reuse/access terms distinct",
+      "license": "unknown explicit blanket metadata/database open grant; source licenses selected by depositor, public/academic access differs",
+      "license_url": "https://wiki.ims.uni-stuttgart.de/extern/CLARIN-D",
+      "api_verification_state": "native_IMS_workflow_OAI_publication_verified_original_VLO_policy_hold_current_IMS_API_and_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T21:48:59.670748+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
