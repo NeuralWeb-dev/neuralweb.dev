@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T05:59:21.766135+00:00",
+  "published_at": "2026-10-17T06:01:24.803754+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:55:52.954056+00:00",
+  "research_updated_at": "2026-10-17T06:01:24.624829+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Civic continuation: Camera scoped CC-BY-SA data/SPARQL verified(version unspecified); BCN/Chatham/Chattanooga candidates; existing Chicago moved restricted after full terms. Native catalog traversal underway;globalin_progress.",
+  "latest_milestone": "WorldPop4distinctservices:3scopedCCBY4verified/WOPRcandidate;248collections,18families115products,21SGPdatasets/metadatahealth200;Tanzania8guides6endpoints/MauritiusAPIrightscandidates;Africaresidualqueued",
   "counts": {
     "verified": 199,
     "candidates": 360,
@@ -698,6 +698,8 @@
           "canadensys",
           "census-geocoder",
           "census-tigerweb",
+          "chatham-kent-open-data",
+          "chattanooga-open-data",
           "drp",
           "edac-gstore",
           "us-data-gov-catalog",
@@ -976,6 +978,7 @@
         ],
         "candidate_provider_ids": [
           "brazil",
+          "chile-bcn-linked-data",
           "edac-gstore",
           "montevideo-catalog",
           "montevideo-transport",
@@ -4086,7 +4089,7 @@
       "license": "CC0 1.0 for explicitly marked dataset subset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:48:24.750566+00:00",
+      "latest_checked_utc": "2026-10-17T05:59:51.624870+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5130,7 +5133,7 @@
       "license": "Creative Commons Attribution ShareAlike; dataset declaration does not specify version",
       "license_url": "https://dati.camera.it/ocd-rappresentazione-semantica-e-documentazione",
       "api_verification_state": "actual_bounded_SPARQL_sample_success_scoped_explicit_CC_BY_SA_version_unspecified",
-      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
+      "latest_checked_utc": "2026-10-17T05:52:45.746168+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7805,7 +7808,7 @@
       "service_name": "Chatham-Kent public OGC open-data catalog",
       "geographic_coverage": "Chatham-Kent,Ontario,Canada",
       "topical_coverage": "Geospatial,municipal infrastructure,public administration",
-      "dataset_families": "Actual public OGCdiscovery metadata; current site item supplies no licence. Legacy municipal registry URL404; current public branded site independently discovered,not a proven redirect. Published collection/schema/catalog traversal recorded separately; not all underlying features or rights.",
+      "dataset_families": "Actual public OGCdiscovery metadata; current site item supplies no licence. Legacy municipal registry URL404; current public branded site independently discovered,not a proven redirect. Published collection/schema/catalog traversal recorded separately; not all underlying features or rights. Native public catalog: {'Hub Page': 11, 'Web Experience': 4, 'Feature Service': 11, 'PDF': 4, 'Web Mapping Application': 6, 'Document Link': 3, 'StoryMap': 1}.",
       "documentation_url": "https://opendata-chatham-kent.opendata.arcgis.com/",
       "api_base_url": "https://opendata-chatham-kent.opendata.arcgis.com/api/search/v1",
       "format_protocol": "OGC API Records/JSON,ArcGIS Hub catalog discovery",
@@ -7814,7 +7817,7 @@
       "license": "Portal and underlying data licence unconfirmed",
       "license_url": "https://opendata-chatham-kent.opendata.arcgis.com/",
       "api_verification_state": "actual_OGC_catalog_discovery_metadata_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
+      "latest_checked_utc": "2026-10-17T05:56:16.025683+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7823,7 +7826,7 @@
       "service_name": "Chattanooga Hub OGC open-data catalog",
       "geographic_coverage": "Chattanooga,Tennessee,United States",
       "topical_coverage": "Geospatial,municipal services,public administration",
-      "dataset_families": "Current official city announcement independently identifies updateddata.chattanooga.gov; olddata.chattlibrary.org held,not a proven redirect. Actual public OGCdiscovery JSON; site licenceInfo null. Open-data executive policy/development repository not assumed data licence. Native collection/schema/catalog traversal saved separately; underlying entity APIs/rights not tested.",
+      "dataset_families": "Current official city announcement independently identifies updateddata.chattanooga.gov; olddata.chattlibrary.org held,not a proven redirect. Actual public OGCdiscovery JSON; site licenceInfo null. Open-data executive policy/development repository not assumed data licence. Native collection/schema/catalog traversal saved separately; underlying entity APIs/rights not tested. Native public catalog: {'CSV': 23, 'Web Experience': 25, 'Feature Service': 17, 'Hub Site Application': 1, 'Hub Page': 2, 'Map Service': 6, 'Dashboard': 11, 'StoryMap': 4, 'Web Mapping Application': 2, 'Web Map': 1}.",
       "documentation_url": "https://chattanooga.gov/stay-informed/latest-news/city-launches-updated-open-data-portal-boost-residents-user-experience",
       "api_base_url": "https://data.chattanooga.gov/api/search/v1",
       "format_protocol": "OGC API Records/JSON,ArcGIS Hub catalog discovery",
@@ -7832,7 +7835,7 @@
       "license": "Current portal and underlying data licence unconfirmed",
       "license_url": "https://chattanooga.gov/stay-informed/latest-news/city-launches-updated-open-data-portal-boost-residents-user-experience",
       "api_verification_state": "actual_OGC_catalog_discovery_metadata_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
+      "latest_checked_utc": "2026-10-17T05:57:20.921974+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7886,7 +7889,7 @@
       "license": "Reuse described; explicit data licensing instrument unconfirmed,registry PDDL not established",
       "license_url": "https://datos.bcn.cl/es/documentacion/consultas-sparql",
       "api_verification_state": "actual_bounded_SPARQL_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
+      "latest_checked_utc": "2026-10-17T05:54:33.303757+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13630,7 +13633,7 @@
       "license": "Custom City of Chicago Data Terms of Use; cessation of reuse for any reason",
       "license_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:27:37.556575+00:00",
+      "latest_checked_utc": "2026-10-17T05:51:35.595378+00:00",
       "classification": "restricted"
     },
     {
