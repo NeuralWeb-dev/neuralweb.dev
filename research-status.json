@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T11:12:11.465969+00:00",
+  "published_at": "2026-10-17T11:14:13.687868+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:02:52.241284+00:00",
+  "research_updated_at": "2026-10-17T11:14:09.285958+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Oakregional tenorigins checkpointed:701services229open421candidates51restricted;OpenDataDK638names/Aarhus121metadata112scopedopen;RDOS15catalogue/legalredirectheld;Oakville/Oklahomacandidates;Jena68discoverylinks.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Alpineglobal10origins;NOI191parentdescriptors175CC0;Vienna378WFS types restrictedterms;Ontario/Trentino candidates;NYstate restricted.706services230open423candidates53restricted;234originalsremain;in_progress.",
   "counts": {
-    "verified": 229,
-    "candidates": 421,
-    "excluded": 51,
-    "sample_successes": 433
+    "verified": 230,
+    "candidates": 423,
+    "excluded": 53,
+    "sample_successes": 436
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6090,6 +6090,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "noi-opendatahub-metadata",
+      "provider": "NOI Techpark / Open Data Hub",
+      "service_name": "NOI Open Data Hub public dataset-descriptor metadata API",
+      "geographic_coverage": "SouthTyrol/AltoAdige,Italy,andbeyond;individualdescriptorcoveragevaries",
+      "topical_coverage": "research/data discovery;mobility;tourism;environment;geospatial metadata",
+      "dataset_families": "191unique datasetdescriptors:140content,48timeseries,3untyped.175explicitCC0parentrecordsaccepted;12missinglicence,2Closed,2unversionedCCBYoutsideacceptance. Underlyingobservations/contentnotverifiedopen.",
+      "documentation_url": "https://docs.opendatahub.com/domains-and-datasets",
+      "api_base_url": "https://tourism.api.opendatahub.com/v1/MetaData",
+      "format_protocol": "ActualpublicJSONmetadataenvelope. DocumentedContent/TimeSeries/Geo/Transmodel/DATEXinterfacesareseparateunquerieddataservices;descriptorsindexedwithoutauto-followingURLs.",
+      "authentication": "Anonymousmetadatacalls200validJSON. Closed/reducedunderlyingdatasetsrequireapplicableroles;noOAuth,keys,accountsorprivate/paiddataqueries.",
+      "free_access_restrictions": "UsedpublishedfreeUNREGISTEREDtieronly. OfficialservicepagelistsfreeBasicregistrationandpaidPremium,neitherused. Underlyinghistoricalwindows/accessvary;metadataavailabilitynotpaid/closedcontentpermission.",
+      "license": "CC0 1.0 for175explicitlylicensedparentdataset-descriptorrecords;other16unconfirmed/restricted",
+      "license_url": "https://docs.opendatahub.com/licensing",
+      "api_verification_state": "actual_public_JSON_sample_success_full_native_metadata_catalogue_scoped_parent_CC0_verified",
+      "latest_checked_utc": "2026-10-17T11:14:08.960859+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "noumea-data",
       "provider": "Ville de Noumea / City of Noumea, New Caledonia",
       "service_name": "Noumea Data municipal ArcGIS Hub portal and published geospatial services",
@@ -11402,6 +11420,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ontario-data-catalog",
+      "provider": "Government of Ontario",
+      "service_name": "Ontario Data Catalogue documented CKAN catalog/DataStore APIs",
+      "geographic_coverage": "Ontario,Canada",
+      "topical_coverage": "multisector government;agriculture;economics;education;health;environment;transport",
+      "dataset_families": "Current catalog homepage claims2964datasets,including open,under-review andrestricted inventory records. UIcount notAPIenumeration. No individual work/files reviewed.",
+      "documentation_url": "https://data.ontario.ca/about",
+      "api_base_url": "https://data.ontario.ca/api/3/action/",
+      "format_protocol": "Officially documented CKAN catalog/DataStore APIs;first smallcatalog requestheld,notruntimeproof.",
+      "authentication": "Publicdocumentation accessible;runtimeAPIauth untested because requestheld. No account/key.",
+      "free_access_restrictions": "Officialaboutpage distinguishes open/restricted/under-review records and says absent licence grants no use right. DataStore requests must be server-side. No blanket free/unrestricted work claim.",
+      "license": "OGL–Ontario1.0 full policy verified;individual work binding and whole-metadata grant unconfirmed",
+      "license_url": "https://www.ontario.ca/page/open-government-licence-ontario",
+      "api_verification_state": "current_official_CKAN_API_documented_first_small_sample_policy_held_work_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T11:14:08.960320+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "open-contracting",
       "provider": "Open Contracting Partnership Data Registry",
       "service_name": "Open Contracting Partnership Data Registry API",
@@ -13469,6 +13505,24 @@
       "license_url": "",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T19:41:56.381579+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "trentino-open-data",
+      "provider": "Provincia autonoma di Trento / Dati Trentino",
+      "service_name": "Dati Trentino CKAN open-data catalog",
+      "geographic_coverage": "ProvinceofTrento,Italy;multiple local publishers",
+      "topical_coverage": "multisector regional metadata;government;agriculture;labor;transport",
+      "dataset_families": "CurrentCKANhomepage lists2026regional datasets and links currentprovince FAQ/legal/licencepages. Nativeinventory notenumerated. Not everymunicipalAPI merged into provincecatalog.",
+      "documentation_url": "https://dati.trentino.it/",
+      "api_base_url": "https://dati.trentino.it/api/3/action/",
+      "format_protocol": "CurrentCKANfrontend withlinked vendorAPIdocs;standardaction queryheldbefore sending. IndividualcurrentAPIresponseunverified.",
+      "authentication": "unknown actualAPIauth;noaccount/key. Currentpublicdocumentation/root200.",
+      "free_access_restrictions": "unknown effectiveindividualdata/metadata terms. LinkedcurrentFAQ/legal/licencepages returnednavigation/headings withoutoperativegrant text.",
+      "license": "unknown effectiveindividualdataset/catalog-metadata grant",
+      "license_url": "https://www.provincia.tn.it/Media/FAQ-Domande-frequenti/FAQ-Catalogo-opendata/Licenze",
+      "api_verification_state": "current_CKAN_frontend_verified_first_small_API_policy_held_operative_terms_unresolved",
+      "latest_checked_utc": "2026-10-17T11:14:08.960498+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15922,6 +15976,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "new-york-state-open-data",
+      "provider": "State of New York / OPEN-NY",
+      "service_name": "Open NY Socrata metadata and advertised data APIs",
+      "geographic_coverage": "NewYorkState,UnitedStates",
+      "topical_coverage": "multisector;government;finance;transport;education;health;environment",
+      "dataset_families": "Portaladvertisesstateagencydata across10categories. Onelegalassetview/schema metadata andexactlinkedtermsPDFread. No wholecatalog/datarecords enumerated.",
+      "documentation_url": "https://data.ny.gov/",
+      "api_base_url": "https://data.ny.gov/api/views/ | https://data.ny.gov/resource/",
+      "format_protocol": "ActualSocrataJSONview/schema metadata;exactlinkedPDFislegalinstrument,notdataAPIresponse. IndividualSODArowsuntested.",
+      "authentication": "Anonymouslegalassetmetadataview200validJSON,noaccount/token. Otheroperationsnotqueried.",
+      "free_access_restrictions": "Legalmetadata/PDFreadwithoutpayment. Permissiveintrodoesnotremoveoperative revocation,IPandindividualcontentterms. No furthercatalogharvest aftertermreview.",
+      "license": "OPEN-NY Terms of Use:revocable currentlicence and retainedIP/individualterms;restrictedoffer",
+      "license_url": "https://data.ny.gov/api/views/77gx-ii52/files/ef0c1840-ad54-4240-92fd-6397c49fde46?filename=OPEN-NY_20Terms_20of_20Use.pdf",
+      "api_verification_state": "actual_public_JSON_sample_success_legalasset_metadata_full_restricted_terms_read",
+      "latest_checked_utc": "2026-10-17T11:14:08.960736+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "north-okanagan-gis-open-data",
       "provider": "Regional District of North Okanagan",
       "service_name": "RDNO GIS Open Data native catalog",
@@ -16153,6 +16225,24 @@
       "license_url": "https://comtradeplus.un.org/LicenseAgreement",
       "api_verification_state": "documented_untested_terms_restricted",
       "latest_checked_utc": "2026-10-16T18:30:24.351037+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "vienna-ogd-wfs",
+      "provider": "Stadt Wien (City of Vienna)",
+      "service_name": "Vienna OGD WFS geospatial capabilities/API",
+      "geographic_coverage": "Vienna,Austria",
+      "topical_coverage": "geospatial;municipalgovernment;planning;environment;transport;publicamenities",
+      "dataset_families": "378unique advertised WFSFeatureTypes indexed fromonecompletecapabilitiesdocument. Officialhandbookexamplesusepool/park featurelayers;noindividualfeaturesorwork-overridesqueried.",
+      "documentation_url": "https://handbuch.wien.gv.at/pattern-library/patterns/fetch/",
+      "api_base_url": "https://data.wien.gv.at/daten/geo",
+      "format_protocol": "Actual OGCWFS1.1.0capabilitiesXML. OfficialhandbookdocumentsGeoJSONGetFeatureexamples;noJSONrecordorgeometryquery.",
+      "authentication": "AnonymouscapabilitiesHTTP200structuredXML,noaccount/key.",
+      "free_access_restrictions": "Publiccapabilityreadwithoutpayment. Fullcurrentterms addpurposeconditions toCCBY4andidentifyCCBY-NC4cases;unrestrictedblanketgrantnotaccepted.",
+      "license": "Published CC BY4.0 plus additional use restrictions;someCCBY-NC4cases;restricted/conflicting currentoffer",
+      "license_url": "https://digitales.wien.gv.at/ogd-nutzungsbedingungen/",
+      "api_verification_state": "actual_public_XML_sample_success_WFS_capabilities_restricted_current_terms_verified",
+      "latest_checked_utc": "2026-10-17T11:14:08.960622+00:00",
       "classification": "restricted"
     },
     {
