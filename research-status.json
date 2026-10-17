@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T07:13:01.440698+00:00",
+  "published_at": "2026-10-17T07:15:04.415358+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:12:39.673085+00:00",
+  "research_updated_at": "2026-10-17T07:13:51.058815+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Northern batch:10 original origins processed;4 services added(1 scoped open,3 candidates). Castilla named aggregate CC BY4 verified,original API sample held. Lexington finite native catalog;Seattle policy-story metadata andVictoria docs;three existing services matched. Global in_progress.",
   "counts": {
     "verified": 206,
     "candidates": 383,
@@ -588,6 +588,7 @@
           "knb",
           "minneapolis-open-data",
           "neracoos-erddap",
+          "seattle-open-data",
           "sfwmd-repository",
           "us-data-gov-catalog",
           "wis2-ucsd-scripps"
@@ -727,6 +728,7 @@
           "drp",
           "edac-gstore",
           "las-vegas-open-data",
+          "lexington-data-hub",
           "madison-open-data",
           "minneapolis-open-data",
           "palo-alto-open-data",
@@ -2907,7 +2909,8 @@
           "pisco",
           "province-sud-geospatial",
           "queensland-data",
-          "spc-pccos-tds"
+          "spc-pccos-tds",
+          "victoria-datavic"
         ],
         "restricted_provider_ids": [
           "spc-pccos-thredds"
@@ -2947,7 +2950,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "pacific-data",
-          "pacific-stat"
+          "pacific-stat",
+          "victoria-datavic"
         ],
         "restricted_provider_ids": []
       },
@@ -2958,7 +2962,8 @@
         ],
         "candidate_provider_ids": [
           "stats-nz",
-          "stats-nz-geographic"
+          "stats-nz-geographic",
+          "victoria-datavic"
         ],
         "restricted_provider_ids": [
           "nz-lbp"
@@ -2996,6 +3001,7 @@
           "opt-nc-data",
           "province-sud-geospatial",
           "stats-nz-geographic",
+          "victoria-datavic",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
@@ -4012,7 +4018,7 @@
       "license": "CC BY4.0 for named Administración Electrónica aggregate dataset only.",
       "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "documented_API_original_bounded_sample_policy_held_untested",
-      "latest_checked_utc": "2026-10-17T07:09:20.840748+00:00",
+      "latest_checked_utc": "2026-10-17T07:06:08.569843+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6100,7 +6106,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T07:02:50.936323+00:00",
+      "latest_checked_utc": "2026-10-17T07:12:23.212491+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7578,7 +7584,7 @@
       "license": "unknown",
       "license_url": "https://www.data.gv.at/infos/lizenz/",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-17T04:22:59.209280+00:00",
+      "latest_checked_utc": "2026-10-17T07:05:08.617395+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9270,7 +9276,7 @@
       "license": "CustomDATA.GOV.HK terms1.2;commercialredistribution allowed,butopenadaptationrights unconfirmed",
       "license_url": "https://data.gov.hk/en/terms-and-conditions",
       "api_verification_state": "documented_catalog_id_sample_success_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-16T19:19:36.757213+00:00",
+      "latest_checked_utc": "2026-10-17T07:04:44.251694+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9756,7 +9762,7 @@
       "license": "Full custom LFUCG terms;effective underlying dataset and metadata grants unconfirmed.",
       "license_url": "https://data.lexingtonky.gov/api/search/v1",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
-      "latest_checked_utc": "2026-10-17T07:09:20.840434+00:00",
+      "latest_checked_utc": "2026-10-17T07:10:54.816170+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11898,7 +11904,7 @@
       "license": "Custom Seattle terms;lists of individuals commercial-purpose restriction;effective non-personal data grant unconfirmed.",
       "license_url": "https://data.seattle.gov/stories/s/Data-Policy/6ukr-wvup/",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
-      "latest_checked_utc": "2026-10-17T07:09:20.840577+00:00",
+      "latest_checked_utc": "2026-10-17T07:06:37.109727+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12438,7 +12444,7 @@
       "license": "unknown",
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:48:24.780623+00:00",
+      "latest_checked_utc": "2026-10-17T07:04:42.792005+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12600,7 +12606,7 @@
       "license": "Named API product record CC BY4;website-produced content CC BY4 except exclusions;underlying catalog/source grant unconfirmed.",
       "license_url": "https://www.data.vic.gov.au/copyright",
       "api_verification_state": "documented_API_original_bounded_sample_policy_held_untested",
-      "latest_checked_utc": "2026-10-17T07:09:20.840669+00:00",
+      "latest_checked_utc": "2026-10-17T07:06:37.110398+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
