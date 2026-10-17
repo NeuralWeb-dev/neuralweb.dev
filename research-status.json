@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T15:19:25.571043+00:00",
+  "published_at": "2026-10-17T15:21:27.969470+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:18:40.823399+00:00",
+  "research_updated_at": "2026-10-17T15:19:34.554166+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "SouthBrazil8origins:778records250open465candidates63restricted;TCE-RNscopedcustomgrant/nativeJSON,TCE-SP644referenceJSON;27originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 250,
     "candidates": 465,
@@ -1097,7 +1097,8 @@
           "chile-bcentral",
           "eclac",
           "jamaica-data",
-          "openei-urdb"
+          "openei-urdb",
+          "tce-sp-municipal-transparency-api"
         ],
         "restricted_provider_ids": []
       },
@@ -1238,7 +1239,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "ecuador-sercop",
-          "registry-dados-rs-gov-br"
+          "registry-dados-rs-gov-br",
+          "tce-rn-open-data-api"
         ],
         "candidate_provider_ids": [
           "almg-open-data-api",
@@ -1250,6 +1252,7 @@
           "mindagri-ne",
           "registry-dados-df-gov-br",
           "senado-br",
+          "tce-sp-municipal-transparency-api",
           "tcepb-sagres-municipal-query-api"
         ],
         "restricted_provider_ids": []
@@ -1267,7 +1270,8 @@
         "verified_provider_ids": [
           "ecuador-sercop",
           "recife-open-data",
-          "registry-dados-prefeitura-sp-gov-br"
+          "registry-dados-prefeitura-sp-gov-br",
+          "tce-rn-open-data-api"
         ],
         "candidate_provider_ids": [
           "almg-open-data-api",
@@ -1276,7 +1280,8 @@
           "ecuador-cuenca",
           "montevideo-catalog",
           "rosario-city",
-          "senado-br"
+          "senado-br",
+          "tce-sp-municipal-transparency-api"
         ],
         "restricted_provider_ids": []
       },
