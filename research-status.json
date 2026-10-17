@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T16:06:23.700078+00:00",
+  "published_at": "2026-10-17T16:08:26.081449+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:02:59.480457+00:00",
+  "research_updated_at": "2026-10-17T16:08:08.615223+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Culture/forest three registry tasks assessed: one new API candidate, existing NeuroMorpho deduplicated, NFD open downloads API-unresolved",
+  "latest_milestone": "Eight institution/research registry tasks processed with residuals; NOAA deduplicated, CMIP5 scoped current grant/nativeJSON, SWISSUbase nativeOAI, TIMDEX GET404",
   "counts": {
-    "verified": 254,
-    "candidates": 470,
+    "verified": 255,
+    "candidates": 472,
     "excluded": 63,
     "sample_successes": 468
   },
@@ -5308,6 +5308,24 @@
       "license_url": "https://www.epa.gov/outdoor-air-quality-data/do-i-need-request-permission-use-monitoring-data-and-graphics-airdata",
       "api_verification_state": "documented_status_sample_success_data_key_required_untested",
       "latest_checked_utc": "2026-10-16T17:42:33.848803+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "esgf-cmip5-discovery",
+      "provider": "ESGF / PCMDI CMIP5",
+      "service_name": "ESGF CMIP5 model-output discovery API, LLNL index node",
+      "geographic_coverage": "Global climate model output; gridded spatial/temporal coverage varies by experiment/model",
+      "topical_coverage": "climate/weather/environment; oceans; energy; research",
+      "dataset_families": "CMIP5 climate model simulations; historical/decadal/future experiments; atmosphere,ocean,land variables",
+      "documentation_url": "https://esgf.github.io/esg-search/ESGF_Search_RESTful_API.html | https://pcmdi.llnl.gov/mips/cmip5/data-access-getting-started.html",
+      "api_base_url": "https://esgf-node.llnl.gov/esg-search/search",
+      "format_protocol": "REST SolrJSON/XML metadata search; associated model output NetCDF delivery handled by source services",
+      "authentication": "None for tested one-result search; source downloads may have node-specific registration/access conditions, not tested",
+      "free_access_restrictions": "Current CMIP5 terms unrestricted use with source acknowledgment/model references, limitations acknowledgment, reasonable research feedback and redistribution notices. No full catalogue or source downloads. Historical getting-started registration instructions may be stale; current source access untested.",
+      "license": "Custom CMIP5 unrestricted-use terms, May2020 update/document version28September2021",
+      "license_url": "https://pcmdi.llnl.gov/mips/cmip5/terms-of-use.html",
+      "api_verification_state": "actual_native_SolrJSON_single_CMIP5_metadata_result_success_scoped_model_output_reuse_terms_verified",
+      "latest_checked_utc": "2026-10-17T16:08:03.016062+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11847,6 +11865,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mit-timdex",
+      "provider": "MIT Libraries",
+      "service_name": "TIMDEX discovery GraphQL API",
+      "geographic_coverage": "MIT Libraries collections; global subjects; source-specific geographic coverage",
+      "topical_coverage": "culture; research; education; geospatial",
+      "dataset_families": "Aggregated library/repository bibliographic and geospatial discovery metadata; originating systems and rights retained",
+      "documentation_url": "https://mitlibraries.github.io/timdex/ | https://mitlibraries.github.io/timdex/reference/",
+      "api_base_url": "https://timdex.mit.edu/graphql",
+      "format_protocol": "GraphQL/JSON documented; historical REST removed early2023",
+      "authentication": "unknown; public documented GET sample sent without credentials returned404",
+      "free_access_restrictions": "Official documentation describes free discovery API; third-party rights apply to metadata. No account/key acquired.",
+      "license": "Mixed originating metadata rights; MIT staff-created metadata CC0 1.0 only",
+      "license_url": "https://libraries.mit.edu/about/policies/open-metadata-policy/",
+      "api_verification_state": "official_GraphQL_documented_small_GET_404_HTML_not_API_success",
+      "latest_checked_utc": "2026-10-17T16:08:03.016062+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "moldova-open-data",
       "provider": "Government of Moldova,Electronic Governance Agency",
       "service_name": "Current open-data portal and CKAN dataset catalog",
@@ -12220,8 +12256,8 @@
       "free_access_restrictions": "unknown",
       "license": "NCEI policy:Federal-origin data public domain inUS;contributed holdings mixed/licensingnotretroactive",
       "license_url": "https://www.ncei.noaa.gov/archive",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T19:14:21.595387+00:00",
+      "api_verification_state": "documented_key_required_untested_current_CDO_docs_quotas_rechecked",
+      "latest_checked_utc": "2026-10-17T16:08:03.016062+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14688,6 +14724,24 @@
       "license_url": "https://docs.dataportal.se/dcat/en/",
       "api_verification_state": "documented_sample_success_public_metadata_search",
       "latest_checked_utc": "2026-10-17T13:34:47.790339+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "swissubase-oai",
+      "provider": "SWISSUbase Consortium / FORS, University of Zurich, University of Neuchâtel",
+      "service_name": "SWISSUbase public OAI-PMH metadata service",
+      "geographic_coverage": "Switzerland-focused multidisciplinary research; individual study coverage varies",
+      "topical_coverage": "research; demographics; education; health; culture",
+      "dataset_families": "Research project/dataset metadata; social sciences, linguistics and other disciplines",
+      "documentation_url": "https://info.swissubase.ch/resources/?sr=921",
+      "api_base_url": "https://www.swissubase.ch/oai-pmh/v1/oai",
+      "format_protocol": "OAI-PMH/XML; Dublin Core, DDI2.5, CMDI1.2 documented",
+      "authentication": "No authentication for OAI-PMH per specific official API guide and successful Identify; separate management REST requires bearer token",
+      "free_access_restrictions": "Services currently no charge, future fees reserved in ToU; avoid disproportionate load. Data-specific CC or download contracts apply, some restrict redistribution. No account or authenticated data API used.",
+      "license": "unknown for full public OAI metadata; uploads retain depositor rights and dataset-specific CC/contracts",
+      "license_url": "https://info.swissubase.ch/resources/?sr=2529+%7C+https%3A%2F%2Finfo.swissubase.ch%2Fresources%2F%3Fsr%3D5536",
+      "api_verification_state": "actual_OAI_Identify_XML_success_provider_specific_docs_verified_metadata_reuse_unconfirmed",
+      "latest_checked_utc": "2026-10-17T16:08:03.016062+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
