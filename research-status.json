@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T05:22:34.161154+00:00",
+  "published_at": "2026-10-17T05:24:36.692294+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:18:54.270847+00:00",
+  "research_updated_at": "2026-10-17T05:24:34.673582+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixteenoriginalportaloriginsprocessed;6newservices(2scopedopen/4candidates),3nativeOGCcatalogpasses;globalin_progress.",
+  "latest_milestone": "Sixteen original portal origins processed; six services added (four scoped open/two candidates), existing Buenos Aires reassessed. Boston/Bristol/Brampton actual OGC metadata and native catalog passes saved with duplicate/ordering and individual rights caveats. Global in_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
-    "verified": 195,
-    "candidates": 356,
+    "verified": 197,
+    "candidates": 354,
     "excluded": 35,
     "sample_successes": 353
   },
@@ -495,6 +495,7 @@
       "demographics": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "brampton-geohub",
           "census",
           "greenland-statistics",
           "statcan"
@@ -549,6 +550,7 @@
         "verified_provider_ids": [
           "alberta-open-government",
           "arctic-data",
+          "boston-maps-open-data",
           "eccc-geomet",
           "epa-aqs",
           "geri",
@@ -638,6 +640,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "alberta-open-government",
+          "brampton-geohub",
           "census",
           "greenland-statistics"
         ],
@@ -664,6 +667,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
+          "boston-maps-open-data",
+          "brampton-geohub",
           "eccc-geomet",
           "epa-aqs",
           "getty-vocabularies",
@@ -1047,6 +1052,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "alcobendas-open-data",
+          "birmingham-city-observatory",
           "cbs",
           "cessda-elsst",
           "cessda-vocabularies",
@@ -1079,6 +1085,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "bologna-open-data",
           "cessda-catalogue",
           "insee",
           "latvia-statistics",
@@ -1204,6 +1211,8 @@
           "amsterdam-maps-data",
           "andalusia-open-data",
           "bgs",
+          "birmingham-city-observatory",
+          "bristol-open-data",
           "cefas",
           "croatia-statistics",
           "ea-asset-management",
@@ -1232,6 +1241,7 @@
         "candidate_provider_ids": [
           "aragon-core",
           "aragon-sparql",
+          "bologna-open-data",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -1300,6 +1310,8 @@
         "verified_provider_ids": [
           "alcobendas-open-data",
           "andalusia-open-data",
+          "birmingham-city-observatory",
+          "bristol-open-data",
           "cessda-elsst",
           "estonia-statistics",
           "faroe-statistics",
@@ -1396,6 +1408,8 @@
         "verified_provider_ids": [
           "alcobendas-open-data",
           "amsterdam-maps-data",
+          "birmingham-city-observatory",
+          "bristol-open-data",
           "cbs",
           "denmark-statbank",
           "estonia-statistics",
@@ -1456,6 +1470,7 @@
           "angers-open-data",
           "austria-breitband-wmts",
           "bgs",
+          "bristol-open-data",
           "ea-asset-management",
           "ea-catchment-data",
           "ea-ecology-and-fish-data",
@@ -1481,6 +1496,7 @@
           "aragon-core",
           "aragon-sparql",
           "austria-invekos-ogc",
+          "bologna-open-data",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -1646,6 +1662,7 @@
           "andalusia-regional-rest",
           "austria-invekos-ogc",
           "bas-fcs",
+          "bologna-open-data",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2743,6 +2760,7 @@
         ],
         "candidate_provider_ids": [
           "adb",
+          "brisbane-open-data",
           "fiji-statistics",
           "pacific-data",
           "pacific-stat",
@@ -2804,6 +2822,7 @@
           "aadc-weather",
           "aims-data-platform",
           "aims-metadata-catalog",
+          "brisbane-open-data",
           "esa-ecology",
           "mbie-geodata",
           "pacific-data",
@@ -2893,6 +2912,7 @@
         "candidate_provider_ids": [
           "aadc-gazetteer",
           "aadc-metadata",
+          "brisbane-open-data",
           "cook-geospatial",
           "fiji-tltb",
           "georep-localisation",
@@ -2990,6 +3010,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "brisbane-open-data",
           "pacific-stat",
           "spc-pccos-tds",
           "te-papa"
@@ -3729,7 +3750,7 @@
       "license": "UK Open Government Licence version 3, subject to explicitly stated dataset exceptions",
       "license_url": "https://www.cityobservatory.birmingham.gov.uk/terms/terms-and-conditions/ | https://www.cityobservatory.birmingham.gov.uk/terms/terms-and-conditions.pdf",
       "api_verification_state": "official_Explore_v2_1_console_documented_original_spec_and_sample_policy_held_runtime_untested",
-      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "latest_checked_utc": "2026-10-17T05:07:07.169427+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3769,6 +3790,42 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "boston-maps-open-data",
+      "provider": "City of Boston / BostonGIS",
+      "service_name": "BostonMaps Open Data Hub catalog API",
+      "geographic_coverage": "Boston,Massachusetts,United States",
+      "topical_coverage": "Geospatial,land use,transport,environment,municipal facilities and services",
+      "dataset_families": "Verified open subset: Boston Street Segments (SAM System). Public catalog includes other datasets/documents/maps/apps whose grants and data APIs remain individually unreviewed; native inventory is metadata, not all open data.",
+      "documentation_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/definition/?f=json",
+      "api_base_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/v1/ | https://gisportal.boston.gov/arcgis/rest/services/SAM/Live_SAM_Address/FeatureServer/3",
+      "format_protocol": "Actual OGC API discovery JSON, collections and OpenAPI definitions; catalog GeoJSON metadata, not underlying feature samples.",
+      "authentication": "Actual anonymous public discovery/collection/OpenAPI GETs; no key/account/admin endpoint used.",
+      "free_access_restrictions": "Named street-segment data explicitly PDDL1.0, actual anonymous read-only layer schema/oneIDrecord; not general portal corpus grant/free-quota claim.",
+      "license": "Open Data Commons Public Domain Dedication and License v1.0 (PDDL), named Boston Street Segments layer only",
+      "license_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/v1/collections/all/items?limit=100+%7C+https%3A%2F%2Fopendatacommons.org%2Flicenses%2Fpddl%2F1.0%2F",
+      "api_verification_state": "actual_native_catalog_and_scoped_PDDL_street_layer_schema_and_one_OBJECTID_record_sample_success",
+      "latest_checked_utc": "2026-10-17T05:20:15.721544+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "brampton-geohub",
+      "provider": "City of Brampton",
+      "service_name": "Brampton GeoHub OGC catalog API",
+      "geographic_coverage": "Brampton,Ontario,Canada",
+      "topical_coverage": "Geospatial,demographics,housing,transport,local economy,municipal services",
+      "dataset_families": "Verified open subset: Official Plan: Street Lines. Public catalog includes other datasets/documents/maps/apps whose grants and data APIs remain individually unreviewed; native inventory is metadata, not all open data.",
+      "documentation_url": "https://geohub.brampton.ca/api/search/definition/?f=json",
+      "api_base_url": "https://geohub.brampton.ca/api/search/v1/ | https://services3.arcgis.com/rl7ACuZkiFsmDA2g/arcgis/rest/services/Planning_Official_Plan/FeatureServer/5",
+      "format_protocol": "Actual public OGC discovery JSON and current collections/OpenAPI schema; underlying feature services unqueried.",
+      "authentication": "Actual public anonymous native API metadata GETs; no account/key/admin/data mutation.",
+      "free_access_restrictions": "Named Street Lines layer explicitly CC BY4, attribution required. Other data/metadata/current general Terms remain individually unconfirmed. Direct layer API request policy-held, no account/key acquired.",
+      "license": "Creative Commons Attribution4.0 International, named Official Plan Street Lines layer only",
+      "license_url": "https://geohub.brampton.ca/api/search/v1/collections/all/items?limit=100&startindex=101+%7C+https%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F4.0%2Flegalcode.en",
+      "api_verification_state": "actual_native_catalog_metadata_sample_success_scoped_CC_BY4_street_lines_direct_API_schema_policy_held",
+      "latest_checked_utc": "2026-10-17T05:19:52.928361+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "brazil-bcb",
       "provider": "Central Bank of Brazil Open Data",
       "service_name": "Banco Central do Brasil SGS time-series API",
@@ -3801,7 +3858,7 @@
       "license": "UK Open Government Licence version3, scoped to Bristol council open data; partner/dataset exceptions retained",
       "license_url": "https://www.bristol.gov.uk/council/data-protection-and-foi/open-data",
       "api_verification_state": "actual_native_OGC_discovery_collections_OpenAPI_sample_success_scoped_council_OGL3",
-      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "latest_checked_utc": "2026-10-17T05:20:05.580704+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7367,25 +7424,7 @@
       "license": "Per-dataset licence; current universal grant unconfirmed",
       "license_url": "https://opendata.comune.bologna.it/terms/terms-and-conditions/",
       "api_verification_state": "official_current_Explore_console_documented_original_sample_policy_held_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "boston-maps-open-data",
-      "provider": "City of Boston / BostonGIS",
-      "service_name": "BostonMaps Open Data Hub catalog API",
-      "geographic_coverage": "Boston,Massachusetts,United States",
-      "topical_coverage": "Geospatial,land use,transport,environment,municipal facilities and services",
-      "dataset_families": "Current ArcGIS Hub public all-collection metadata: datasets, documents, maps/apps. Derived native index excludes feature geometry, contacts/admin/user properties. Not every underlying service or dataset licence verified.",
-      "documentation_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/definition/?f=json",
-      "api_base_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/v1/",
-      "format_protocol": "Actual OGC API discovery JSON, collections and OpenAPI definitions; catalog GeoJSON metadata, not underlying feature samples.",
-      "authentication": "Actual anonymous public discovery/collection/OpenAPI GETs; no key/account/admin endpoint used.",
-      "free_access_restrictions": "Site item licenseInfo says CC-BY-SA without version, scope site item only. Former City data-license URL redirects to Analyze Boston policy-file page labelled PDDL for that resource, not all Boston data. Public catalog does not imply a blanket data grant.",
-      "license": "Dataset/API corpus licence unconfirmed; site item unversioned CC-BY-SA and policy-file PDDL not transferred",
-      "license_url": "https://bostonopendata-boston.opendata.arcgis.com/api/search/v1 | https://www.boston.gov/government/cabinets/innovation-and-technology/city-boston-data-license-agreement",
-      "api_verification_state": "actual_native_OGC_discovery_collections_OpenAPI_sample_success_individual_corpus_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "latest_checked_utc": "2026-10-17T05:08:57.907756+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7404,24 +7443,6 @@
       "license_url": "https://www.statsbots.org.bw/terms-use",
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T01:35:47.461865+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "brampton-geohub",
-      "provider": "City of Brampton",
-      "service_name": "Brampton GeoHub OGC catalog API",
-      "geographic_coverage": "Brampton,Ontario,Canada",
-      "topical_coverage": "Geospatial,demographics,housing,transport,local economy,municipal services",
-      "dataset_families": "Public city GeoHub dataset/document/map/app catalog; census and city operational families. Catalog listing does not imply every item has a data API or uniform licence.",
-      "documentation_url": "https://geohub.brampton.ca/api/search/definition/?f=json",
-      "api_base_url": "https://geohub.brampton.ca/api/search/v1/",
-      "format_protocol": "Actual public OGC discovery JSON and current collections/OpenAPI schema; underlying feature services unqueried.",
-      "authentication": "Actual public anonymous native API metadata GETs; no account/key/admin/data mutation.",
-      "free_access_restrictions": "2015 official seven-page Open Data Policy requires separate Terms of Use and release assessment. Public policy is not itself a universal grant. Native site item CC-BY-SA4 applies to site item, not all datasets. Third-party licence counts from directories not adopted.",
-      "license": "Per-dataset licence and current Terms of Use applicability unconfirmed; site item CC BY-SA4 not corpus grant",
-      "license_url": "https://www.brampton.ca/en/city-hall/policies-directives/Documents/Open%20Data%20Policy%2014.18.1.pdf | https://geohub.brampton.ca/api/search/v1",
-      "api_verification_state": "actual_native_OGC_discovery_sample_success_dataset_terms_scope_unconfirmed",
-      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7475,7 +7496,7 @@
       "license": "Candidate: stated CC BY4 default with additional data-use conditions and exceptions",
       "license_url": "https://data.brisbane.qld.gov.au/terms/terms-and-conditions/",
       "api_verification_state": "official_current_Explore_API_documented_original_sample_policy_held_extra_reuse_conditions_unresolved",
-      "latest_checked_utc": "2026-10-17T05:18:27.332795+00:00",
+      "latest_checked_utc": "2026-10-17T05:08:58.746045+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7493,7 +7514,7 @@
       "license": "Current portal/dataset reuse terms remain unconfirmed",
       "license_url": "https://data.buenosaires.gob.ar/tyc",
       "api_verification_state": "historical_catalog_sample_success_current_original_request_policy_held_terms_URL_404",
-      "latest_checked_utc": "2026-10-16T16:27:27.957608+00:00",
+      "latest_checked_utc": "2026-10-17T05:08:45.882102+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
