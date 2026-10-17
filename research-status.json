@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T08:06:13.007176+00:00",
+  "published_at": "2026-10-17T08:08:15.531188+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T08:00:51.679477+00:00",
+  "research_updated_at": "2026-10-17T08:08:00.420774+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Transregional6originalsprocessed:France1266API-directoryentries/13created-sortpages,Galicia566DCATworks/1142refs,Japan18832names versus18826searchcount. Two newAPIcandidates,existingFrance/Colorado/BCupdated. 437originalleadsremain;globalin_progress.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
     "verified": 208,
-    "candidates": 394,
+    "candidates": 395,
     "excluded": 43,
     "sample_successes": 399
   },
@@ -5235,15 +5235,15 @@
       "geographic_coverage": "Ireland",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://data.gov.ie/pages/developers",
+      "documentation_url": "https://data.gov.ie/en_GB/pages/developers",
       "api_base_url": "https://data.gov.ie/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "Public CKAN metadata sample succeeded without key",
       "license": "CC BY 4.0 default; CC0 permitted",
-      "license_url": "https://data.gov.ie/pages/opendatalicence",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:29:28.928961+00:00",
+      "license_url": "https://data.gov.ie/license",
+      "api_verification_state": "documented_sample_success;historical_sample_preserved_current_API_policy_held",
+      "latest_checked_utc": "2026-10-17T08:07:26.691912+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6737,7 +6737,7 @@
       "license": "Open Government Data License Taiwan v1.0; CC BY 4.0 compatible",
       "license_url": "https://data.gov.tw/license",
       "api_verification_state": "historical_same_day_sample_success_current_catalog_policy_deferred",
-      "latest_checked_utc": "2026-10-16T21:58:50.179119+00:00",
+      "latest_checked_utc": "2026-10-17T08:07:26.692008+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9385,7 +9385,7 @@
       "license": "CustomDATA.GOV.HK terms1.2;commercialredistribution allowed,butopenadaptationrights unconfirmed",
       "license_url": "https://data.gov.hk/en/terms-and-conditions",
       "api_verification_state": "documented_catalog_id_sample_success_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-17T07:04:44.251694+00:00",
+      "latest_checked_utc": "2026-10-17T08:07:26.691966+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11096,6 +11096,24 @@
       "license_url": "https://psa.gov.ph/terms-of-use",
       "api_verification_state": "documented_directory_metadata_sample_success_license_unresolved",
       "latest_checked_utc": "2026-10-16T19:57:58.666091+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "philippines-national-odph",
+      "provider": "Government of the Philippines, Open Data Philippines portal",
+      "service_name": "Open Data Philippines national catalogue public-client API",
+      "geographic_coverage": "Philippines; national multi-agency catalogue, individual dataset coverage unverified",
+      "topical_coverage": "Multisector catalogue; sector extent unverified",
+      "dataset_families": "Client-declared dataset search, count, featured datasets, topics, dataset/resource details. No current API metadata enumerated.",
+      "documentation_url": "https://data.gov.ph/main.28614807276661d4.js",
+      "api_base_url": "https://api.data.gov.ph/api/public/",
+      "format_protocol": "HTTP client-declared REST; expected JSON not runtime verified",
+      "authentication": "Published client supplies X-API-KEY. Issuance/eligibility unknown; no embedded key extracted or used.",
+      "free_access_restrictions": "Portal policy says datasets free by default with metadata exceptions; API key availability, free access and quotas unknown. No subscription/account/key acquired.",
+      "license": "Custom public data policy default free/no restriction with attribution; different dataset licences may apply",
+      "license_url": "https://data.gov.ph/index/terms-of-use",
+      "api_verification_state": "published_client_interface_documented_key_header_declared_runtime_untested",
+      "latest_checked_utc": "2026-10-17T08:07:26.691859+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
