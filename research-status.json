@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T13:51:31.084258+00:00",
+  "published_at": "2026-10-17T13:53:33.602345+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:51:09.941917+00:00",
+  "research_updated_at": "2026-10-17T13:52:02.949860+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Texas/alpine8origins:747services242open447candidates58restricted;LangleyOGLv2scopedopen;Tirolconditionalrestricted;Texas/DataHublegacy/ThunderBaycandidates.107originals31newprimarydirectoryleadsandbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 242,
     "candidates": 447,
@@ -468,6 +468,7 @@
           "cifor-icraf",
           "cinii-books",
           "csiro-data-access-portal",
+          "datahub-legacy-catalog-api",
           "dataone",
           "ena",
           "esa-ecology",
@@ -520,6 +521,7 @@
           "california-open-data",
           "census-tigerweb",
           "edmonton-open-data",
+          "texas-state-open-data",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -556,6 +558,7 @@
         ],
         "candidate_provider_ids": [
           "edmonton-open-data",
+          "texas-state-open-data",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": []
@@ -591,6 +594,7 @@
           "geri",
           "kamloops-open-data",
           "kitchener-geohub",
+          "langley-open-data-search",
           "nanaimo-open-data",
           "noaa-weather",
           "ocean-networks-canada",
@@ -622,6 +626,7 @@
           "seattle-open-data",
           "sfwmd-repository",
           "surrey-open-data-map-service",
+          "texas-state-open-data",
           "us-data-gov-catalog",
           "washington-state-open-data",
           "wis2-ucsd-scripps"
@@ -639,6 +644,7 @@
           "cib",
           "eccc-geomet",
           "geri",
+          "langley-open-data-search",
           "nanaimo-open-data",
           "ncei-coops",
           "ocean-networks-canada",
@@ -654,7 +660,8 @@
           "knb",
           "nashville-open-data",
           "neracoos-erddap",
-          "sfwmd-repository"
+          "sfwmd-repository",
+          "texas-state-open-data"
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace"
@@ -695,6 +702,7 @@
           "healthdata-gov-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
+          "texas-state-open-data",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -761,6 +769,7 @@
           "oregon-open-data",
           "princegeorge-road-traffic-api",
           "surrey-open-data-map-service",
+          "thunderbay-transit-realtime",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -782,6 +791,7 @@
           "kamloops-open-data",
           "kingston-open-data",
           "kitchener-geohub",
+          "langley-open-data-search",
           "nanaimo-open-data",
           "new-orleans-open-data",
           "niagara-falls-open-data",
@@ -1483,6 +1493,7 @@
           "copernicus-marine",
           "lower-austria-ogd",
           "ticino-palma-api",
+          "tirol-ogd-geospatial-search",
           "vienna-ogd-wfs"
         ]
       },
@@ -1508,7 +1519,9 @@
           "sardinia-geospatial-wfs",
           "ukho-tidal"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "tirol-ogd-geospatial-search"
+        ]
       },
       "energy": {
         "status": "partial_verified",
@@ -1728,7 +1741,8 @@
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
-          "registry-data-bs-ch"
+          "registry-data-bs-ch",
+          "tirol-ogd-geospatial-search"
         ]
       },
       "geospatial": {
@@ -1802,6 +1816,7 @@
           "bonn-open-data",
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
+          "tirol-ogd-geospatial-search",
           "vienna-ogd-wfs"
         ]
       },
