@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T23:40:03.452208+00:00",
+  "published_at": "2026-10-17T23:42:06.013093+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:38:27.484109+00:00",
+  "research_updated_at": "2026-10-17T23:41:18.269407+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks reviewed:10 new records,2 deduplicated updates; OzFlux full71collection8page HTML frontier processed with exact rights unresolved,19social and5BAS references indexed.",
+  "latest_milestone": "15 originals reviewed in5batches;11 newrecords,4 aliases update3 existingproviders. OzFlux71-ID8page frontier complete with conflictingrights; PDBnativeCC0 reconfirmed, latestholdingsheld.",
   "counts": {
     "verified": 314,
     "candidates": 644,
-    "excluded": 164,
-    "sample_successes": 471
+    "excluded": 165,
+    "sample_successes": 470
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -952,6 +952,7 @@
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
+          "atlantic-canada-conservation-data-centre",
           "burlington-navigate",
           "calhhs-open-data",
           "hawaii-open-data-catalogue",
@@ -1224,6 +1225,7 @@
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
+          "atlantic-canada-conservation-data-centre",
           "baton-rouge-open-data",
           "burlington-navigate",
           "denver-open-data",
@@ -1307,7 +1309,8 @@
           "smithsonian"
         ],
         "restricted_provider_ids": [
-          "akn-data-access-portal"
+          "akn-data-access-portal",
+          "atlantic-canada-conservation-data-centre"
         ]
       },
       "oceans": {
@@ -1420,6 +1423,7 @@
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
+          "atlantic-canada-conservation-data-centre",
           "calgary-prism-scholaris-repository",
           "citf-controlled-databank",
           "nova-scotia-offshore-data-centre",
@@ -8776,20 +8780,20 @@
     },
     {
       "identifier": "pdb",
-      "provider": "RCSB Protein Data Bank",
-      "service_name": "RCSB Protein Data Bank API",
+      "provider": "RCSB Protein Data Bank / worldwide PDB archive collaboration",
+      "service_name": "RCSB PDB Data API (REST and GraphQL) / shared wwPDB archive",
       "geographic_coverage": "Global",
       "topical_coverage": "research; health",
       "dataset_families": "Molecular structures; experiments; entry metadata",
-      "documentation_url": "https://data.rcsb.org/",
-      "api_base_url": "https://data.rcsb.org/rest/v1/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read",
-      "free_access_restrictions": "Public structural-entry API sample succeeded without credentials",
-      "license": "CC0 1.0",
-      "license_url": "https://www.rcsb.org/pages/policies",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:32:30.370280+00:00",
+      "documentation_url": "https://data.rcsb.org/index.html | https://www.rcsb.org/docs/programmatic-access/web-apis-overview | https://www.wwpdb.org/validation/onedep-validation-web-service-interface",
+      "api_base_url": "https://data.rcsb.org/rest/v1/ | https://data.rcsb.org/graphql (documented, not sampled this round)",
+      "format_protocol": "REST GET JSON and GraphQL documented; earlier entry JSON verified, no latest holdings sample obtained",
+      "authentication": "Historical anonymous entry sample succeeded; current holdings target unsent underguard, no credentials/accounts used",
+      "free_access_restrictions": "Native policy explicitly CC0 archive/APIdata; programmatic rate limits and fair-use guidance apply. No keys/accounts/payment used",
+      "license": "CC0 1.0 Universal for PDB archive files and RCSB programmatic API data",
+      "license_url": "https://www.wwpdb.org/about/usage-policies | https://www.rcsb.org/pages/usage-policy",
+      "api_verification_state": "historical_anonymous_entry_JSON_success_current_native_CC0_API_terms_verified_latest_holdings_target_unsent_robots_deferred",
+      "latest_checked_utc": "2026-10-17T23:40:37.694872+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -22186,6 +22190,24 @@
       "license_url": "https://asulibrary.atlassian.net/wiki/spaces/ARDRUD/pages/381681676/API+Terms+of+Use | https://asulibrary.atlassian.net/wiki/spaces/ARDRUD/pages/375685300",
       "api_verification_state": "native_current_official_API_general_terms_restrictions_verified_original_repository_policy_hold_no_sample",
       "latest_checked_utc": "2026-10-17T21:45:39.625045+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "atlantic-canada-conservation-data-centre",
+      "provider": "Atlantic Canada Conservation Data Centre",
+      "service_name": "Atlantic Canada conservation database and data-request service",
+      "geographic_coverage": "Atlantic Canada: New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland and Labrador",
+      "topical_coverage": "biodiversity | environment | geospatial | research",
+      "dataset_families": "Species of conservation concern, conservation ranks, observation/site records and custom biodiversity/GIS reports described by public documentation",
+      "documentation_url": "http://accdc.com/ | http://accdc.com/en/fee-usage.html",
+      "api_base_url": "",
+      "format_protocol": "Public website and custom reports described; no verified public queryAPI",
+      "authentication": "No accounts/credentials used; source requests not submitted",
+      "free_access_restrictions": "Native fee page effective2026-01-01 describes paid data requests; possible conservation/education arrangements requirecontact, not used",
+      "license": "Specified-user/nontransferable source use, trained-personnel limit and12month deletion/update requirement; paid requests",
+      "license_url": "http://accdc.com/en/fee-usage.html",
+      "api_verification_state": "native_fees_user_specific_nontransferability_and12month_deletion_terms_verified_public_query_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T23:40:37.694872+00:00",
       "classification": "restricted"
     },
     {
