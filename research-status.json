@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T13:41:19.204364+00:00",
+  "published_at": "2026-10-17T13:43:21.642044+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:40:31.723333+00:00",
+  "research_updated_at": "2026-10-17T13:41:27.105804+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Nordic/counties eight origins:742services241scoped-open444candidates57restricted. TampereRSS explicitcustomgrant/25items;Sweden EntryStore sample corrected/deduplicated;Surrey265layerdeclarations;Strathconacatalog config.115originalsandbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 241,
     "candidates": 444,
@@ -519,7 +519,8 @@
         "candidate_provider_ids": [
           "california-open-data",
           "census-tigerweb",
-          "edmonton-open-data"
+          "edmonton-open-data",
+          "washington-state-open-data"
         ],
         "restricted_provider_ids": [
           "calhhs-open-data",
@@ -554,7 +555,8 @@
           "statcan"
         ],
         "candidate_provider_ids": [
-          "edmonton-open-data"
+          "edmonton-open-data",
+          "washington-state-open-data"
         ],
         "restricted_provider_ids": []
       },
@@ -619,7 +621,9 @@
           "raleigh-open-data",
           "seattle-open-data",
           "sfwmd-repository",
+          "surrey-open-data-map-service",
           "us-data-gov-catalog",
+          "washington-state-open-data",
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
@@ -690,7 +694,8 @@
           "donnees-quebec-catalog",
           "healthdata-gov-catalog",
           "ontario-data-catalog",
-          "opendataphilly-jkan"
+          "opendataphilly-jkan",
+          "washington-state-open-data"
         ],
         "restricted_provider_ids": [
           "calhhs-open-data",
@@ -708,7 +713,8 @@
           "donnees-quebec-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
-          "us-data-gov-catalog"
+          "us-data-gov-catalog",
+          "washington-state-open-data"
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace"
@@ -734,7 +740,8 @@
           "edmonton-open-data",
           "nyc",
           "opendataphilly-jkan",
-          "princegeorge-road-traffic-api"
+          "princegeorge-road-traffic-api",
+          "surrey-open-data-map-service"
         ],
         "restricted_provider_ids": []
       },
@@ -752,7 +759,9 @@
           "nyc",
           "opendataphilly-jkan",
           "oregon-open-data",
-          "princegeorge-road-traffic-api"
+          "princegeorge-road-traffic-api",
+          "surrey-open-data-map-service",
+          "washington-state-open-data"
         ],
         "restricted_provider_ids": [
           "denver-open-data"
@@ -815,6 +824,8 @@
           "princegeorge-road-traffic-api",
           "raleigh-open-data",
           "sacramento-open-data",
+          "strathcona-open-data-search",
+          "surrey-open-data-map-service",
           "us-data-gov-catalog",
           "waterloo-city-open-data",
           "wis2-ucsd-scripps"
@@ -1847,6 +1858,7 @@
           "registry-open-nrw",
           "registry-transparenz-karlsruhe-de",
           "serbia-data",
+          "tampere-open-news-feeds",
           "uk-police",
           "ukraine-data",
           "wales-statistics"
@@ -1947,6 +1959,7 @@
           "saw-leipzig-repository",
           "serbia-data",
           "slovenia-statistics",
+          "tampere-open-news-feeds",
           "ukraine-data",
           "wales-statistics"
         ],
