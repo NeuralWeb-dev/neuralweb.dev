@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T05:04:09.511642+00:00",
+  "published_at": "2026-10-17T05:06:12.560109+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:03:45.268766+00:00",
+  "research_updated_at": "2026-10-17T05:05:58.528591+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Eightoriginalportaloriginsprocessed;4newservices(2scopedopen/2candidates). MadridpublicGETspec/generalreusegrantverified,sampleheld. Santanderconflictingtermscandidate. Banff12layerschemaactual/APIgrantunconfirmed. Bath151datasetpages13nativepages+page1aliasandindividualmetadatapass,parkingAPIzeroactualrows. Globalin_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 193,
     "candidates": 352,
@@ -586,6 +586,7 @@
           "usgs-water"
         ],
         "candidate_provider_ids": [
+          "banff-open-data",
           "cerp-sfwmd",
           "edi",
           "epa",
@@ -671,6 +672,7 @@
           "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
+          "banff-open-data",
           "canadensys",
           "census-geocoder",
           "census-tigerweb",
@@ -1058,6 +1060,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
+          "madrid-open-data",
           "moldova-data",
           "ons",
           "poland-bdl",
@@ -1216,6 +1219,7 @@
           "geri",
           "iceland-statistics",
           "ices-dome",
+          "madrid-open-data",
           "poland-bdl",
           "poland-gus-sdg",
           "poland-gus-transtat",
@@ -1235,6 +1239,7 @@
           "lithuania-statistics",
           "os-os-places-api",
           "registry-opendata-aragon-es",
+          "santander-open-data",
           "terrassa-open-data",
           "wis2-poland",
           "wis2-russian-federation"
@@ -1260,6 +1265,7 @@
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "os-os-places-api",
+          "santander-open-data",
           "ukho-tidal"
         ],
         "restricted_provider_ids": []
@@ -1395,6 +1401,7 @@
           "estonia-statistics",
           "georgia-statistics",
           "iceland-statistics",
+          "madrid-open-data",
           "poland-bdl",
           "poland-gus-sdg",
           "scb",
@@ -1432,6 +1439,7 @@
           "aland-statistics",
           "lithuania-statistics",
           "os-os-places-api",
+          "santander-open-data",
           "shom-data",
           "tfl",
           "ukho-tidal"
@@ -1455,6 +1463,7 @@
           "ea-hydrology",
           "emodnet",
           "france",
+          "madrid-open-data",
           "openplz",
           "portugal",
           "registry-data-bl-ch",
@@ -1478,6 +1487,7 @@
           "os-os-places-api",
           "poland-gus-teryt",
           "registry-opendata-aragon-es",
+          "santander-open-data",
           "shom-data",
           "ukho-tidal",
           "wis2-poland",
@@ -1618,6 +1628,7 @@
           "iceland-statistics",
           "lindat-repository",
           "lithuania-dataportal",
+          "madrid-open-data",
           "onb-webarchive",
           "poland-bdl",
           "registry-data-sz-ch",
