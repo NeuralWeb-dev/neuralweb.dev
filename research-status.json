@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:16:21.203721+00:00",
+  "published_at": "2026-10-17T19:18:23.575317+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:14:23.076130+00:00",
+  "research_updated_at": "2026-10-17T19:17:46.288973+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OSIS native public platform REST verified with rights unresolved; TRY CC BY4 grant/API gap and Risklayer API/grant gap preserved",
+  "latest_milestone": "WDCC/bonndata scoped CC0 metadata verified with native API samples; Bonn metadata catalogue paginated; ISIMIP documented mixed rights/runtime hold retained",
   "counts": {
-    "verified": 277,
-    "candidates": 512,
+    "verified": 279,
+    "candidates": 513,
     "excluded": 109,
     "sample_successes": 475
   },
@@ -4692,6 +4692,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "bonndata-published-metadata",
+      "provider": "University of Bonn Research Data Service Center / HRZ",
+      "service_name": "bonndata published research metadata Dataverse REST search",
+      "geographic_coverage": "Bonn institutional multidisciplinary research; source-specific worldwide coverage",
+      "topical_coverage": "research | multidisciplinary science | education",
+      "dataset_families": "Published institutional research dataset metadata; source data/files/access terms separate",
+      "documentation_url": "https://bonndata.uni-bonn.de/ | https://guides.dataverse.org/en/latest/api/search.html",
+      "api_base_url": "https://bonndata.uni-bonn.de/api/",
+      "format_protocol": "Native Dataverse REST JSON search, status/data/items/global_id",
+      "authentication": "Anonymous published dataset search succeeded; no accounts, restricted/private files or writes",
+      "free_access_restrictions": "Published metadata CC0 under terms1.3/3.9; data content may be restricted, request-only, embargoed or separately licensed",
+      "license": "CC0 explicitly granted for published mandatory, optional and subject-specific metadata",
+      "license_url": "https://bonndata.uni-bonn.de/terms/bonndata_terms_of_use.pdf",
+      "api_verification_state": "native_anonymous_published_dataset_search_JSON_success_paginated_metadata_snapshot",
+      "latest_checked_utc": "2026-10-17T19:17:42.253860+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "boston-maps-open-data",
       "provider": "City of Boston / BostonGIS",
       "service_name": "BostonMaps Open Data Hub catalog API",
@@ -8904,6 +8922,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "wdcc-climate-metadata",
+      "provider": "World Data Center for Climate / DKRZ",
+      "service_name": "WDCC public climate metadata REST and OAI-PMH",
+      "geographic_coverage": "Global climate research/model archives, project-specific extents",
+      "topical_coverage": "climate | environment | geospatial | research",
+      "dataset_families": "Climate project/experiment/dataset bibliographic, spatial, temporal, provenance and variable metadata; source data excluded from blanket acceptance",
+      "documentation_url": "https://www.wdc-climate.de/ui/docu | https://www.wdc-climate.de/ui/wdcc-api-docs/",
+      "api_base_url": "https://www.wdc-climate.de/ui/ | https://dmoai.cloud.dkrz.de/oai/provider",
+      "format_protocol": "OpenAPI3 REST JSON Solr metadata search plus native OAI-PMH2 XML Identify",
+      "authentication": "Anonymous bounded metadata search and OAI Identify succeeded; cookie auth/user/download interfaces not exercised",
+      "free_access_restrictions": "Accepted metadata CC0; data licences depend on source/project and source download access may require account. Fair-use/numeric API limits unknown.",
+      "license": "CC0 Universal explicitly stated for metadata",
+      "license_url": "https://www.wdc-climate.de/ui/info?site=fairsummary",
+      "api_verification_state": "native_anonymous_REST_search_JSON_and_OAI_Identify_XML_success",
+      "latest_checked_utc": "2026-10-17T19:17:42.253860+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "wikidata",
       "provider": "Wikimedia / Wikidata",
       "service_name": "Wikimedia / Wikidata API",
@@ -12161,6 +12197,24 @@
       "license_url": "https://www.irs.gov/about-irs/irs-privacy-policy",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:24:56.927431+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "isimip-impact-repository",
+      "provider": "ISIMIP / Potsdam Institute for Climate Impact Research",
+      "service_name": "ISIMIP climate impact data repository REST API",
+      "geographic_coverage": "Global and regional climate impact simulations across ISIMIP sectors, rounds and scenarios",
+      "topical_coverage": "climate | agriculture | water | biodiversity | energy | research",
+      "dataset_families": "Input forcing, output climate-impact simulations, secondary input/output and derived output data; round/model/source-specific grants",
+      "documentation_url": "https://www.isimip.org/outputdata/isimip-repository/",
+      "api_base_url": "https://data.isimip.org/api/v1/",
+      "format_protocol": "Official documented REST JSON dataset/file search, count/next/previous/results pagination; native response withheld",
+      "authentication": "Public data repository documented distinct from embargo workspace; native read sample robots-withheld, no account or tokens",
+      "free_access_restrictions": "Exact assigned source licence controls; CC0 preferred for ISIMIP3output, BY4 preferred older rounds, BYSA and NC models also present. No blanket open grant.",
+      "license": "Mixed CC0, CC BY4, CC BY-SA4 and CC BY-NC4; exact API-wide metadata/database grant unresolved",
+      "license_url": "https://www.isimip.org/gettingstarted/terms-of-use/licenses-publicly-available-isimip-data/ | https://www.isimip.org/gettingstarted/terms-of-use/terms-use-publicly-available-isimip-data-after-embargo-period/",
+      "api_verification_state": "official_API_documentation_verified_native_sample_robots_withheld",
+      "latest_checked_utc": "2026-10-17T19:17:42.253860+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
