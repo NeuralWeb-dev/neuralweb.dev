@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:28:36.991637+00:00",
+  "published_at": "2026-10-17T19:30:39.707984+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:27:32.124806+00:00",
+  "research_updated_at": "2026-10-17T19:30:07.113573+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed; four new records and four existing services updated; BRFSS public-domain API and UniSave version metadata native verified, policy conflicts retained",
+  "latest_milestone": "EGA native public-study metadata API verified with grant gap; COLdeduplicated/held sourcecriteria reviewed; Trovev3reviewedkey/termschallenge candidate",
   "counts": {
     "verified": 279,
-    "candidates": 516,
+    "candidates": 518,
     "excluded": 110,
     "sample_successes": 475
   },
@@ -10259,7 +10259,7 @@
       "license": "unknown for individual ChecklistBank datasets and exact current release metadata grant",
       "license_url": "https://www.catalogueoflife.org/data/metadata | https://www.catalogueoflife.org/tools/api",
       "api_verification_state": "documented_api_policy_deferred_no_successful_sample",
-      "latest_checked_utc": "2026-10-16T20:11:54.280788+00:00",
+      "latest_checked_utc": "2026-10-17T19:30:03.054703+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11232,6 +11232,24 @@
       "license_url": "https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_metadata_and_one_aggregate_city_terms_unresolved",
       "latest_checked_utc": "2026-10-17T08:58:29.672966+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ega-public-metadata",
+      "provider": "European Genome-phenome Archive / EMBL-EBI and CRG",
+      "service_name": "EGA public study/dataset discovery metadata REST API",
+      "geographic_coverage": "International biomedical research study metadata; underlying participants/source cohorts controlled and project-specific",
+      "topical_coverage": "health | genomics | research",
+      "dataset_families": "Public study/dataset descriptions and reference relations; participant-level metadata and genetic/phenotypic/clinical source files excluded",
+      "documentation_url": "https://ega-archive.org/discovery/metadata/public-metadata-api/",
+      "api_base_url": "https://metadata.ega-archive.org/",
+      "format_protocol": "REST JSON GET/HEAD; native one public study-description object",
+      "authentication": "Anonymous public studyJSONsucceeded; documented token layer can disclose protected metadata with permissions, not accessed",
+      "free_access_restrictions": "Public metadata access verified; exactmetadata/database reuse grant unknown. Source data subject DAC approval/consent agreements; registryfeeclaim not accepted as universal metadata charge.",
+      "license": "unknown for public API metadata/database; protected source-data conditions separate",
+      "license_url": "https://ega-archive.org/legal-notice/ | https://www.ebi.ac.uk/about/terms-of-use",
+      "api_verification_state": "native_anonymous_single_public_study_description_JSON_success",
+      "latest_checked_utc": "2026-10-17T19:30:03.054703+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16398,6 +16416,24 @@
       "license_url": "",
       "api_verification_state": "official_indexed_REST_overview_key_required_untested_original_frontend_policy_held_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "trove-cultural-discovery-api",
+      "provider": "National Library of Australia / Trove partners",
+      "service_name": "Trove v3 cultural collections discovery API",
+      "geographic_coverage": "Australian cultural/library collections and partner holdings with worldwide topics/content",
+      "topical_coverage": "culture | history | research | geospatial | education",
+      "dataset_families": "Newspapers/gazettes, books, pictures/maps/artefacts, research, archives, music/media and people/organisations metadata; exact source rights vary",
+      "documentation_url": "https://trove.nla.gov.au/about/create-something/using-api | https://api.trove.nla.gov.au/v3/",
+      "api_base_url": "https://api.trove.nla.gov.au/v3/",
+      "format_protocol": "Official documented machine-readable complex-query APIv3; native APIresponse not tested",
+      "authentication": "Account and APIkey application/review mandatory for ongoing APIuse; no account/keyrequest/contact",
+      "free_access_restrictions": "Current usage review separates personal/education/research, commercial/fulltext/AI and exceptions; actual free tier/charges and exact approved-use conditions unknown.",
+      "license": "unknown for API-wide metadata; source rights and exactAPIterms unresolved underchallenge",
+      "license_url": "https://trove.nla.gov.au/about/create-something/using-api/trove-api-terms-use | https://trove.nla.gov.au/about/policies/terms-use",
+      "api_verification_state": "official_v3_API_documented_keyrequired_untested_terms_challenge",
+      "latest_checked_utc": "2026-10-17T19:30:03.054703+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
