@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T05:55:16.609518+00:00",
+  "published_at": "2026-10-17T05:57:19.215045+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:50:57.649024+00:00",
+  "research_updated_at": "2026-10-17T05:55:52.954056+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Eight further original portal origins reviewed; Balearic/Cambridgeshire structured samples retained as rights-unconfirmed candidates; CalHHS current custom termination terms restricted; 548 original leads remain. Global in_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Civic continuation: Camera scoped CC-BY-SA data/SPARQL verified(version unspecified); BCN/Chatham/Chattanooga candidates; existing Chicago moved restricted after full terms. Native catalog traversal underway;globalin_progress.",
   "counts": {
-    "verified": 198,
-    "candidates": 358,
-    "excluded": 37,
-    "sample_successes": 357
+    "verified": 199,
+    "candidates": 360,
+    "excluded": 38,
+    "sample_successes": 361
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5116,6 +5116,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "italy-camera-ocd",
+      "provider": "Camera dei deputati,Italy",
+      "service_name": "Camera OCD Linked Open Data SPARQL",
+      "geographic_coverage": "Italy",
+      "topical_coverage": "Law,civic,parliamentary proceedings,votes,legislatures,bibliography",
+      "dataset_families": "Explicit official documentation states proposed data released CC Attribution ShareAlike and directly reusable in external applications/RDFserializations. The site footer links CC BY-SA4.0; read full4.0legaltext but do not infer that footer fixes version for every dataset. Scoped to OCD proposed repository data,not all linked photographs/PDFs/thirdpartyworks. Actual bounded SPARQL returned one legislature URI; no persons queried.",
+      "documentation_url": "https://dati.camera.it/ocd-rappresentazione-semantica-e-documentazione",
+      "api_base_url": "https://dati.camera.it/sparql",
+      "format_protocol": "SPARQL1.1/RDF/JSONresults",
+      "authentication": "Actual small anonymous read,no key/account;other operations individually untested",
+      "free_access_restrictions": "Small public no-cost read verified;other quotas/licence exceptions unknown. Explicit official documentation states proposed data released CC Attribution ShareAlike and directly reusable in external applications/RDFserializations. The site footer links CC BY-SA4.0; read full4.0legaltext but do not infer that footer fixes version for every dataset. Scoped to OCD proposed repository data,not all linked photographs/PDFs/thirdpartyworks. Actual bounded SPARQL returned one legislature URI; no persons queried.",
+      "license": "Creative Commons Attribution ShareAlike; dataset declaration does not specify version",
+      "license_url": "https://dati.camera.it/ocd-rappresentazione-semantica-e-documentazione",
+      "api_verification_state": "actual_bounded_SPARQL_sample_success_scoped_explicit_CC_BY_SA_version_unspecified",
+      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "japan",
       "provider": "Japanese government e-Stat",
       "service_name": "Japanese government e-Stat open data portal",
@@ -7782,6 +7800,42 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "chatham-kent-open-data",
+      "provider": "Municipality of Chatham-Kent",
+      "service_name": "Chatham-Kent public OGC open-data catalog",
+      "geographic_coverage": "Chatham-Kent,Ontario,Canada",
+      "topical_coverage": "Geospatial,municipal infrastructure,public administration",
+      "dataset_families": "Actual public OGCdiscovery metadata; current site item supplies no licence. Legacy municipal registry URL404; current public branded site independently discovered,not a proven redirect. Published collection/schema/catalog traversal recorded separately; not all underlying features or rights.",
+      "documentation_url": "https://opendata-chatham-kent.opendata.arcgis.com/",
+      "api_base_url": "https://opendata-chatham-kent.opendata.arcgis.com/api/search/v1",
+      "format_protocol": "OGC API Records/JSON,ArcGIS Hub catalog discovery",
+      "authentication": "Actual small anonymous read,no key/account;other operations individually untested",
+      "free_access_restrictions": "Small public no-cost read verified;other quotas/licence exceptions unknown. Actual public OGCdiscovery metadata; current site item supplies no licence. Legacy municipal registry URL404; current public branded site independently discovered,not a proven redirect. Published collection/schema/catalog traversal recorded separately; not all underlying features or rights.",
+      "license": "Portal and underlying data licence unconfirmed",
+      "license_url": "https://opendata-chatham-kent.opendata.arcgis.com/",
+      "api_verification_state": "actual_OGC_catalog_discovery_metadata_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "chattanooga-open-data",
+      "provider": "City of Chattanooga",
+      "service_name": "Chattanooga Hub OGC open-data catalog",
+      "geographic_coverage": "Chattanooga,Tennessee,United States",
+      "topical_coverage": "Geospatial,municipal services,public administration",
+      "dataset_families": "Current official city announcement independently identifies updateddata.chattanooga.gov; olddata.chattlibrary.org held,not a proven redirect. Actual public OGCdiscovery JSON; site licenceInfo null. Open-data executive policy/development repository not assumed data licence. Native collection/schema/catalog traversal saved separately; underlying entity APIs/rights not tested.",
+      "documentation_url": "https://chattanooga.gov/stay-informed/latest-news/city-launches-updated-open-data-portal-boost-residents-user-experience",
+      "api_base_url": "https://data.chattanooga.gov/api/search/v1",
+      "format_protocol": "OGC API Records/JSON,ArcGIS Hub catalog discovery",
+      "authentication": "Actual small anonymous read,no key/account;other operations individually untested",
+      "free_access_restrictions": "Small public no-cost read verified;other quotas/licence exceptions unknown. Current official city announcement independently identifies updateddata.chattanooga.gov; olddata.chattlibrary.org held,not a proven redirect. Actual public OGCdiscovery JSON; site licenceInfo null. Open-data executive policy/development repository not assumed data licence. Native collection/schema/catalog traversal saved separately; underlying entity APIs/rights not tested.",
+      "license": "Current portal and underlying data licence unconfirmed",
+      "license_url": "https://chattanooga.gov/stay-informed/latest-news/city-launches-updated-open-data-portal-boost-residents-user-experience",
+      "api_verification_state": "actual_OGC_catalog_discovery_metadata_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "checklistbank",
       "provider": "Catalogue of Life / ChecklistBank",
       "service_name": "ChecklistBank taxonomic datasets and Catalogue of Life API",
@@ -7800,24 +7854,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "chicago",
-      "provider": "City of Chicago Open Data",
-      "service_name": "City of Chicago Open Data open data portal",
-      "geographic_coverage": "United States/Chicago",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://data.cityofchicago.org/",
-      "api_base_url": "https://data.cityofchicago.org/resource/",
-      "format_protocol": "Socrata SODA/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:27:37.556575+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "chile-bcentral",
       "provider": "Central Bank of Chile",
       "service_name": "Central Bank of Chile open data API",
@@ -7833,6 +7869,24 @@
       "license_url": "https://www.bcentral.cl/web/banco-central/terminos-y-condiciones",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:36:58.391584+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "chile-bcn-linked-data",
+      "provider": "Biblioteca del Congreso Nacional de Chile",
+      "service_name": "BCN Linked Open Data SPARQL and linked-resource services",
+      "geographic_coverage": "Chile",
+      "topical_coverage": "Law,civic,geospatial,parliament,public spending",
+      "dataset_families": "Full official SPARQL/project/dataset docs describe RDF reuse and mixing; no inspected explicit PDDL instrument. Do not infer from registry,open-data label or public endpoint. One actual nonpersonal legal-norm URI returned. Dataset docs name norms,localities,persons; additional developing domains not claimed fully populated. Separate18service directory references/3pages are discovery claims,individual specs/keys/rights not reviewed.",
+      "documentation_url": "https://datos.bcn.cl/es/documentacion/consultas-sparql",
+      "api_base_url": "https://datos.bcn.cl/sparql",
+      "format_protocol": "SPARQL1.1/RDF/JSONresults",
+      "authentication": "Actual small anonymous read,no key/account;other operations individually untested",
+      "free_access_restrictions": "Small public no-cost read verified;other quotas/licence exceptions unknown. Full official SPARQL/project/dataset docs describe RDF reuse and mixing; no inspected explicit PDDL instrument. Do not infer from registry,open-data label or public endpoint. One actual nonpersonal legal-norm URI returned. Dataset docs name norms,localities,persons; additional developing domains not claimed fully populated. Separate18service directory references/3pages are discovery claims,individual specs/keys/rights not reviewed.",
+      "license": "Reuse described; explicit data licensing instrument unconfirmed,registry PDDL not established",
+      "license_url": "https://datos.bcn.cl/es/documentacion/consultas-sparql",
+      "api_verification_state": "actual_bounded_SPARQL_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T05:55:52.723168+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13559,6 +13613,24 @@
       "license_url": "https://data.chhs.ca.gov/pages/terms",
       "api_verification_state": "current_CKAN_API_linked_documentation_original_sample_policy_held_restricted_terms",
       "latest_checked_utc": "2026-10-17T05:48:49.679044+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "chicago",
+      "provider": "City of Chicago Open Data",
+      "service_name": "City of Chicago Open Data open data portal",
+      "geographic_coverage": "Chicago,Illinois,United States",
+      "topical_coverage": "multisector public data",
+      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "documentation_url": "https://data.cityofchicago.org/",
+      "api_base_url": "https://data.cityofchicago.org/resource/",
+      "format_protocol": "Socrata SODA/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public portal access does not override current data-use terms. City may require cessation for any reason; no durable universal open grant.",
+      "license": "Custom City of Chicago Data Terms of Use; cessation of reuse for any reason",
+      "license_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
+      "api_verification_state": "sample_success_documentation_or_license_review_pending",
+      "latest_checked_utc": "2026-10-16T16:27:37.556575+00:00",
       "classification": "restricted"
     },
     {
