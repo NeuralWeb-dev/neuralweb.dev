@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T11:14:13.687868+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-17T11:16:16.148359+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:14:09.285958+00:00",
+  "research_updated_at": "2026-10-17T11:15:54.047028+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Alpineglobal10origins;NOI191parentdescriptors175CC0;Vienna378WFS types restrictedterms;Ontario/Trentino candidates;NYstate restricted.706services230open423candidates53restricted;234originalsremain;in_progress.",
+  "latest_milestone": "Alpine/global ten originals checkpointed:706services230scoped-open423candidates53restricted;NOI191descriptors175CC0parents;Vienna378WFS types/restrictedterms;Ontario/Trentino candidates,NYstate restricted.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 230,
     "candidates": 423,
@@ -566,6 +566,7 @@
         "candidate_provider_ids": [
           "california-open-data",
           "county-grande-prairie-open-data",
+          "ontario-data-catalog",
           "usda-nass"
         ],
         "restricted_provider_ids": [
@@ -605,6 +606,7 @@
           "neracoos-erddap",
           "north-dakota-gis-hub",
           "okanagan-similkameen-open-data",
+          "ontario-data-catalog",
           "seattle-open-data",
           "sfwmd-repository",
           "us-data-gov-catalog",
@@ -673,7 +675,8 @@
           "california-open-data",
           "connect211-hsda",
           "connect211-search",
-          "healthdata-gov-catalog"
+          "healthdata-gov-catalog",
+          "ontario-data-catalog"
         ],
         "restricted_provider_ids": [
           "calhhs-open-data",
@@ -688,6 +691,7 @@
           "hartford-open-data"
         ],
         "candidate_provider_ids": [
+          "ontario-data-catalog",
           "us-data-gov-catalog"
         ],
         "restricted_provider_ids": [
@@ -899,6 +903,7 @@
           "county-grande-prairie-open-data",
           "getty-museum",
           "loc",
+          "ontario-data-catalog",
           "smithsonian",
           "usda-nass"
         ],
@@ -1299,7 +1304,8 @@
           "registry-opendata-aragon-es",
           "russia",
           "serbia-rzs",
-          "stat-portugal"
+          "stat-portugal",
+          "trentino-open-data"
         ],
         "restricted_provider_ids": []
       },
@@ -1324,6 +1330,7 @@
           "galicia-abertos-catalog",
           "lithuania-statistics",
           "serbia-rzs",
+          "trentino-open-data",
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": []
@@ -1354,6 +1361,7 @@
           "ices-dome",
           "italy-istat-sdmx",
           "madrid-open-data",
+          "noi-opendatahub-metadata",
           "opendata-dk",
           "palermo-open-data",
           "poland-bdl",
@@ -1390,7 +1398,8 @@
           "catalonia-open-data",
           "copernicus-marine",
           "lower-austria-ogd",
-          "ticino-palma-api"
+          "ticino-palma-api",
+          "vienna-ogd-wfs"
         ]
       },
       "water": {
@@ -1628,6 +1637,7 @@
           "emodnet",
           "fingal-open-data",
           "madrid-open-data",
+          "noi-opendatahub-metadata",
           "openplz",
           "portugal",
           "registry-data-bl-ch",
@@ -1671,7 +1681,8 @@
         ],
         "restricted_provider_ids": [
           "neuchatel-sitn-geoservices",
-          "registry-data-bs-ch"
+          "registry-data-bs-ch",
+          "vienna-ogd-wfs"
         ]
       },
       "public spending/contracts": {
@@ -1849,6 +1860,7 @@
           "saw-leipzig-fcs",
           "serbia-rzs",
           "terrassa-open-data",
+          "trentino-open-data",
           "tuebingen-fcs",
           "uk-trade-tariff",
           "wellcome-collection"
@@ -1882,6 +1894,7 @@
           "ices-dome",
           "lindat-repository",
           "lithuania-dataportal",
+          "noi-opendatahub-metadata",
           "onb-webarchive",
           "poland-bdl",
           "registry-data-bl-ch",
@@ -6104,7 +6117,7 @@
       "license": "CC0 1.0 for175explicitlylicensedparentdataset-descriptorrecords;other16unconfirmed/restricted",
       "license_url": "https://docs.opendatahub.com/licensing",
       "api_verification_state": "actual_public_JSON_sample_success_full_native_metadata_catalogue_scoped_parent_CC0_verified",
-      "latest_checked_utc": "2026-10-17T11:14:08.960859+00:00",
+      "latest_checked_utc": "2026-10-17T11:08:45.437313+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11434,7 +11447,7 @@
       "license": "OGL–Ontario1.0 full policy verified;individual work binding and whole-metadata grant unconfirmed",
       "license_url": "https://www.ontario.ca/page/open-government-licence-ontario",
       "api_verification_state": "current_official_CKAN_API_documented_first_small_sample_policy_held_work_grant_unresolved",
-      "latest_checked_utc": "2026-10-17T11:14:08.960320+00:00",
+      "latest_checked_utc": "2026-10-17T11:05:17.353000+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13522,7 +13535,7 @@
       "license": "unknown effectiveindividualdataset/catalog-metadata grant",
       "license_url": "https://www.provincia.tn.it/Media/FAQ-Domande-frequenti/FAQ-Catalogo-opendata/Licenze",
       "api_verification_state": "current_CKAN_frontend_verified_first_small_API_policy_held_operative_terms_unresolved",
-      "latest_checked_utc": "2026-10-17T11:14:08.960498+00:00",
+      "latest_checked_utc": "2026-10-17T11:06:42.576384+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15990,7 +16003,7 @@
       "license": "OPEN-NY Terms of Use:revocable currentlicence and retainedIP/individualterms;restrictedoffer",
       "license_url": "https://data.ny.gov/api/views/77gx-ii52/files/ef0c1840-ad54-4240-92fd-6397c49fde46?filename=OPEN-NY_20Terms_20of_20Use.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_legalasset_metadata_full_restricted_terms_read",
-      "latest_checked_utc": "2026-10-17T11:14:08.960736+00:00",
+      "latest_checked_utc": "2026-10-17T11:05:18.891873+00:00",
       "classification": "restricted"
     },
     {
@@ -16242,7 +16255,7 @@
       "license": "Published CC BY4.0 plus additional use restrictions;someCCBY-NC4cases;restricted/conflicting currentoffer",
       "license_url": "https://digitales.wien.gv.at/ogd-nutzungsbedingungen/",
       "api_verification_state": "actual_public_XML_sample_success_WFS_capabilities_restricted_current_terms_verified",
-      "latest_checked_utc": "2026-10-17T11:14:08.960622+00:00",
+      "latest_checked_utc": "2026-10-17T11:07:22.596728+00:00",
       "classification": "restricted"
     },
     {
