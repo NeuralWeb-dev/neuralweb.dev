@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:51:50.534379+00:00",
+  "published_at": "2026-10-17T18:53:52.917496+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:49:47.994215+00:00",
+  "research_updated_at": "2026-10-17T18:52:52.538191+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FRED scoped metadata CC BY4/nativeXML/EML accepted; GEOROC testingkeyAPI and UFZdocumentedJSONsharing retained as rights/access candidates",
+  "latest_milestone": "NUKazakhstan OAIverified/rightsunknown; coastMapWFS16featuretypes verified/NCdefault; CDIPno-alteration default documented under nativehold",
   "counts": {
     "verified": 275,
-    "candidates": 505,
-    "excluded": 103,
+    "candidates": 506,
+    "excluded": 105,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -13276,6 +13276,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nur-kazakhstan-oai",
+      "provider": "Nazarbayev University / Kazakhstan",
+      "service_name": "NU Research Data Repository OAI-PMH metadata service",
+      "geographic_coverage": "Kazakhstan university research, individual study geography varies",
+      "topical_coverage": "research | education | multidisciplinary",
+      "dataset_families": "Institutional research datasets and associated metadata; exact current catalogue coverage unresolved",
+      "documentation_url": "https://nurdata.nu.edu.kz/server/oai/request?verb=Identify+%7C+https%3A%2F%2Fnurdata.nu.edu.kz%2Finfo%2Fend-user-agreement",
+      "api_base_url": "https://nurdata.nu.edu.kz/server/oai/request",
+      "format_protocol": "Native OAI-PMH2.0XML; formats advertised separately including oai_dc/MODS/METS/XOAI variants",
+      "authentication": "Anonymous Identify/formats/identifier responses succeeded; no account, drafts or private endpoints used",
+      "free_access_restrictions": "Public metadata endpoint accessible; effective work/API reuse terms and source restrictions unknown",
+      "license": "unknown; effective metadata/database and individual data grants unresolved",
+      "license_url": "https://nurdata.nu.edu.kz/info/end-user-agreement",
+      "api_verification_state": "native_anonymous_OAI_XML_Identify_formats_and_identifiers_success_terms_unreadable",
+      "latest_checked_utc": "2026-10-17T18:52:48.221384+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nyc",
       "provider": "New York City Open Data",
       "service_name": "NYC Open Data Socrata catalog and data APIs",
@@ -18588,6 +18606,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "cdip-restricted-wave-data",
+      "provider": "Scripps Institution of Oceanography / UC San Diego Coastal Data Information Program",
+      "service_name": "CDIP wave data access services under no-alteration default (restricted)",
+      "geographic_coverage": "Coastal wave observations/model products, including California nearshore virtual-buoy model coverage; station extent varies",
+      "topical_coverage": "oceans | water | weather | climate | research",
+      "dataset_families": "Archived/realtime buoy spectra and motion, wave parameters, model validation/grid/alongshore products",
+      "documentation_url": "https://cdip.ucsd.edu/m/documents/data_access.html",
+      "api_base_url": "https://thredds.cdip.ucsd.edu/ (documented THREDDS host; dataset-specific OPeNDAP paths untested)",
+      "format_protocol": "Operator documents THREDDS/OPeNDAP, netCDF-based Python access and legacy CGI; file format alone not API proof",
+      "authentication": "unknown; public documentation, native runtime not tested under hold",
+      "free_access_restrictions": "Public use stated conditional on data/products not being altered; source acknowledgment and web link requested",
+      "license": "Custom free-public-use/no-alteration data policy",
+      "license_url": "https://cdip.ucsd.edu/m/documents/data_access.html#data-use-and-acknowledgements",
+      "api_verification_state": "operator_documented_API_services_native_original_policy_held_untested",
+      "latest_checked_utc": "2026-10-17T18:52:48.221384+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "chicago",
       "provider": "City of Chicago Open Data",
       "service_name": "City of Chicago Open Data open data portal",
@@ -18621,6 +18657,24 @@
       "license_url": "https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf | https://support.nii.ac.jp/en/cinii/copyright",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "coastmap-campaign-restricted-wfs",
+      "provider": "Hereon / Helmholtz Coastal Data Center",
+      "service_name": "coastMap campaign WFS under inspected noncommercial download policy",
+      "geographic_coverage": "North Sea and coastal campaign/model research; individual layer/source extents vary",
+      "topical_coverage": "oceans | environment | water | geospatial | research",
+      "dataset_families": "Campaign water-column/seafloor/atmosphere measurements and metadata; model reference/filter layers separately advertised",
+      "documentation_url": "https://www.hereon.de/institutes/carbon_cycles/data_coastal_research/coastmap/index.php.en | https://hcdc.hereon.de/dbdocs/coastMap_data_description.pdf",
+      "api_base_url": "https://hcdc.hereon.de/geoserver/coastmap/ows",
+      "format_protocol": "OGC WFS1.0capabilitiesXML succeeded;16advertised featuretypes. Campaign exportsCSV/shapefile documented.",
+      "authentication": "Anonymous capabilities succeeded; feature/source access not tested",
+      "free_access_restrictions": "Inspected download instructions specify CC BY-NC4 and source/DOI citation requirements; source/layer alternatives possible",
+      "license": "CC BY-NC4.0 inspected campaign-download policy; current source/layer exceptions unreviewed",
+      "license_url": "https://hcdc.hereon.de/dbdocs/coastMap_data_description.pdf",
+      "api_verification_state": "native_anonymous_WFS_capabilities_XML_success_effective_layer_grants_unresolved_under_NCdefault",
+      "latest_checked_utc": "2026-10-17T18:52:48.221384+00:00",
       "classification": "restricted"
     },
     {
