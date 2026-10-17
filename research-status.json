@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T04:33:29.850767+00:00",
+  "published_at": "2026-10-17T04:35:32.427828+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T04:28:52.379333+00:00",
+  "research_updated_at": "2026-10-17T04:35:28.989685+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six next original portals checked; AADC currentmetadata/gazetteer actualJSONverified,3431reportedmetadataheaders traversal active atsize100 afterrecorded500timeout. ADAoriginalrepositoryAnubischallengeheld,noAPIbypass;AIHW/Gijonoriginalpolicyheld. AlcobendasfullCCBY3ESdefaultterms/API-docsinspected,APIoriginaltargetheld.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 185,
-    "candidates": 343,
+    "verified": 187,
+    "candidates": 347,
     "excluded": 35,
-    "sample_successes": 341
+    "sample_successes": 345
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3391,6 +3391,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "alcobendas-open-data",
+      "provider": "Ayuntamiento de Alcobendas",
+      "service_name": "Alcobendas CKAN open-data catalog API",
+      "geographic_coverage": "Spain; Alcobendas",
+      "topical_coverage": "Municipal environment, economy, transport, government/spending, demographics, education, health, culture, housing, urban infrastructure",
+      "dataset_families": "Public catalog withtrees,activities,weather/airquality,cartography,municipalspending andotherlocalfamilies; no native catalog enumeration under originalAPIhold.",
+      "documentation_url": "https://datos.alcobendas.org/pages/api-open-data",
+      "api_base_url": "https://datos.alcobendas.org/api/3/action/",
+      "format_protocol": "Publisher explicitly documents CKAN REST package_list/package_search/group_list/tag_list/package_show; JSON runtime untested",
+      "authentication": "Anonymous public documentation; original API sample disallowed/unsent, exact current runtime auth/entitlement unknown",
+      "free_access_restrictions": "Full tenant terms explicitly permit commercial copy/distribution/adaptation defaultCCBY3ES unlessotherwise; source/date/metadata preservation/nonendorsement required. Reserves specificallypaid datasets; no fee acquired or blanket free/data entitlement asserted.",
+      "license": "Creative Commons Attribution3.0Spain (CC BY3.0ES) default, unless dataset-specific terms override",
+      "license_url": "https://datos.alcobendas.org/pages/aviso-legal",
+      "api_verification_state": "official_API_documented_scoped_default_CCBY3ES_grant_verified_original_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-17T04:27:12.240659+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "amsterdam-maps-data",
       "provider": "Gemeente Amsterdam",
       "service_name": "Maps Amsterdam geographic dataset API",
@@ -3532,6 +3550,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:48:24.741915+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "australia-federal-legislation",
+      "provider": "Australian Office of Parliamentary Counsel",
+      "service_name": "Federal Register of Legislation public API",
+      "geographic_coverage": "Australia; Commonwealth legislation and related documents, including Norfolk Island collections",
+      "topical_coverage": "Law, legislation, public administration, civic data",
+      "dataset_families": "Titles, versions, documents/content, departments, schedules, crossreferences/lifecycle metadata; Acts,instruments,notices/gazettes/arrangements per Register. One titlemetadatarecord sampled; not fullcorpus enumeration.",
+      "documentation_url": "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/data-share-and-reuse | https://api.prod.legislation.gov.au/swagger/index.html",
+      "api_base_url": "https://api.prod.legislation.gov.au/v1/",
+      "format_protocol": "REST/ODataJSON, document formats; actual OpenAPI3.0.4schema (websitehelp advertises3.0.1).111operationtemplates/108paths indexed, not111separateAPIs.",
+      "authentication": "Officiallyfree/noAPIkeys; actual anonymous OData $top1request succeeded",
+      "free_access_restrictions": "CCBY4publisher content exceptCoatofArms/otherwiseidentifiedthirdpartyrights; linksource,attributeanddateddownload/correctionsstatement. Load guidance advisescontactbeforefullcrawl/highresourceuse andpreferincrementaloutside0800–2000UTC+10; boundedreadonlysample only,no messages/fullcrawl.",
+      "license": "Creative Commons Attribution4.0International — Register publisher content, namedexceptions retained",
+      "license_url": "https://www.legislation.gov.au/terms-of-use#copyright",
+      "api_verification_state": "actual_native_title_metadata_sample_success_full_CCBY4_terms_verified",
+      "latest_checked_utc": "2026-10-17T04:31:36.338809+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6669,6 +6705,60 @@
   ],
   "candidates": [
     {
+      "identifier": "aadc-gazetteer",
+      "provider": "Australian Antarctic Division / Australian Antarctic Data Centre",
+      "service_name": "AADC gazetteer PostgREST API",
+      "geographic_coverage": "Antarctica, sub-Antarctic and Southern Ocean; Australian Antarctic Program",
+      "topical_coverage": "Geospatial, Antarctic place/feature names and coordinates",
+      "dataset_families": "Native published place_names andgazetteers; one publicplace record requested withname_id/latitude/longitudeonly, no full gazetteer enumeration.",
+      "documentation_url": "https://data.aad.gov.au/gazetteer/api",
+      "api_base_url": "https://data.aad.gov.au/gazetteer/api",
+      "format_protocol": "Actual Swagger2/PostgREST14.1 schema; JSONarray public place record. AuthRPC listed in schema but not invoked.",
+      "authentication": "No credentials for actual OpenAPI/public placerecord request; no rpc/authenticate call",
+      "free_access_restrictions": "Observed public requests anonymous. Indexed conditions distinguish public downloadable data from restricted/on-demand/login applications; current complete conditions/grant not retrieved. No account, personal details or downloads submitted.",
+      "license": "Current API-specific reuse grant unconfirmed. Official indexed conditions claim default CC BY4 scientific data but original full conditions target policy-held.",
+      "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
+      "api_verification_state": "actual_public_place_record_sample_success_data_grant_unconfirmed",
+      "latest_checked_utc": "2026-10-17T04:25:33.881621+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "aadc-metadata",
+      "provider": "Australian Antarctic Division / Australian Antarctic Data Centre",
+      "service_name": "AADC GCMD DIF metadata REST API",
+      "geographic_coverage": "Antarctica, sub-Antarctic and Southern Ocean; Australian Antarctic Program",
+      "topical_coverage": "Scientific research metadata, ocean bathymetry and polar geospatial research",
+      "dataset_families": "GCMD DIF research dataset records;3431reported current public headers,1400unique indexed beforetimeout. Representative AAD_Bathy_Acoustic_1985-2012 fullrecord identifies CC BY4for underlying bathymetry data.",
+      "documentation_url": "https://data.aad.gov.au/metadata/api/",
+      "api_base_url": "https://data.aad.gov.au/metadata/api/",
+      "format_protocol": "Custom REST JSON documentation routes/list; individual DIF JSON/XML/HTML documented. Actual JSON search envelope total/count/results/facet and individual success/error/data.",
+      "authentication": "No credentials for actual public metadata search/individual record",
+      "free_access_restrictions": "Observed public requests anonymous. Indexed conditions distinguish public downloadable data from restricted/on-demand/login applications; current complete conditions/grant not retrieved. No account, personal details or downloads submitted.",
+      "license": "Current API-specific reuse grant unconfirmed. Official indexed conditions claim default CC BY4 scientific data but original full conditions target policy-held.",
+      "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
+      "api_verification_state": "actual_public_metadata_sample_success_native_traversal_timeout_deferred_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T04:28:16.122437+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "aadc-weather",
+      "provider": "Australian Antarctic Division / Australian Antarctic Data Centre",
+      "service_name": "AADC automatic weather station observations API",
+      "geographic_coverage": "Antarctica, sub-Antarctic and Southern Ocean; Australian Antarctic Program",
+      "topical_coverage": "Climate, weather, environment, Antarctic station observations",
+      "dataset_families": "Five returned current station observations with airpressure/temperature/humidity/wind/dewpoint/rainfall-snowfall and timestamp; current station references indexed, no historical series download.",
+      "documentation_url": "https://data.aad.gov.au/assets/Home-Be3JXKM8.js | https://data.aad.gov.au/assets/Station-BXdFwj2T.js",
+      "api_base_url": "https://data.aad.gov.au/aws/api",
+      "format_protocol": "Published frontend GET /station and /station/{id}; actual JSON5stationobservationarray. RootJSONstringbanner notcounted as entity/sample success. CSV/datequeries advertised byclient, nottested.",
+      "authentication": "Anonymous actual station-observation array succeeded",
+      "free_access_restrictions": "Observed public requests anonymous. Indexed conditions distinguish public downloadable data from restricted/on-demand/login applications; current complete conditions/grant not retrieved. No account, personal details or downloads submitted.",
+      "license": "Current API-specific reuse grant unconfirmed. Official indexed conditions claim default CC BY4 scientific data but original full conditions target policy-held.",
+      "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
+      "api_verification_state": "actual_current_station_observation_sample_success_data_grant_unconfirmed",
+      "latest_checked_utc": "2026-10-17T04:29:30.195538+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "acdh-fcs",
       "provider": "Austrian Academy of Sciences / ACDH",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -6684,6 +6774,24 @@
       "license_url": "http://arche.acdh.oeaw.ac.at/browser/terms-of-use",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:57:10.584324+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ada-dataverse",
+      "provider": "Australian Data Archive / Australian National University",
+      "service_name": "ADA Dataverse repository — API and metadata rights unresolved",
+      "geographic_coverage": "Australia and international social-science studies",
+      "topical_coverage": "Social science, longitudinal studies, elections/politics, attitudes/opinion, health",
+      "dataset_families": "Publisher homepage claims over1700datasets,1838present; no current API enumeration. Access guide distinguishes open/general/restricted/special categories, muchdata controlled.",
+      "documentation_url": "https://ada.edu.au/accessing-data/ | https://dataverse.ada.edu.au",
+      "api_base_url": "",
+      "format_protocol": "Publisher documents Dataverse platform and metadata/terms/files/version UI, not proof current instance-specific API route",
+      "authentication": "Original public repository challenge held; no puzzle/botworkaround/browserautomation/account/token. Underlying data oftenlogin/request/undertaking required.",
+      "free_access_restrictions": "Official guide says no cost unlessspecialconditions/restrictions; access mediated, depositor permission/undertakings for many studies, research/education focus. Openaccess category isnotuniversalopenlicence.",
+      "license": "Public metadata and any unrestricted data subset licensing unconfirmed; archive data access mixed",
+      "license_url": "https://ada.edu.au/accessing-data/",
+      "api_verification_state": "official_repository_linked_API_unverified_original_anti_bot_challenge_held",
+      "latest_checked_utc": "2026-10-17T04:24:07.395820+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6917,7 +7025,7 @@
       "license": "unknown",
       "license_url": "https://www.data.gv.at/infos/lizenz/",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:26:38.550481+00:00",
+      "latest_checked_utc": "2026-10-17T04:22:59.209280+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
