@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T15:58:12.933828+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-17T16:00:15.491764+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:58:01.259964+00:00",
+  "research_updated_at": "2026-10-17T15:59:29.375720+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "scientific-followup: three existing services reviewed; PANGAEA published metadata CC0 scoped promotion; global discovery unfinished",
+  "latest_milestone": "repository-access: three repository discovery tasks reviewed with explicit residuals; global universe in progress",
   "counts": {
     "verified": 254,
     "candidates": 469,
@@ -108,6 +108,7 @@
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
+          "pangaea",
           "usgs-earthquake"
         ],
         "candidate_provider_ids": [
@@ -124,7 +125,6 @@
           "noaa-ncei",
           "noaa-ncei-access",
           "nsidc",
-          "pangaea",
           "planetary-computer",
           "undata-official-sdmx-api",
           "unsd"
@@ -346,14 +346,14 @@
           "bgs",
           "cchdo",
           "emodnet",
-          "obis"
+          "obis",
+          "pangaea"
         ],
         "candidate_provider_ids": [
           "csiro-data-access-portal",
           "hycom",
           "noaa-erddap",
           "noaa-ncei",
-          "pangaea",
           "shom-data"
         ],
         "restricted_provider_ids": [
@@ -448,6 +448,7 @@
           "openalex",
           "opencitations",
           "opencontext",
+          "pangaea",
           "pdb",
           "re3data",
           "ror",
@@ -484,7 +485,6 @@
           "nih-clinicaltrials",
           "nims-mdr",
           "osi-licenses",
-          "pangaea",
           "perspectivia",
           "rijksmuseum",
           "smithsonian",
@@ -3627,12 +3627,12 @@
         "verified_provider_ids": [
           "arctic-data",
           "nasa-cmr",
-          "ocean-networks-canada"
+          "ocean-networks-canada",
+          "pangaea"
         ],
         "candidate_provider_ids": [
           "aadc-weather",
-          "nsidc",
-          "pangaea"
+          "nsidc"
         ],
         "restricted_provider_ids": []
       },
@@ -3735,11 +3735,10 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
-          "ocean-networks-canada"
-        ],
-        "candidate_provider_ids": [
+          "ocean-networks-canada",
           "pangaea"
         ],
+        "candidate_provider_ids": [],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -3760,11 +3759,11 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "arctic-data",
-          "nasa-cmr"
+          "nasa-cmr",
+          "pangaea"
         ],
         "candidate_provider_ids": [
-          "aadc-metadata",
-          "pangaea"
+          "aadc-metadata"
         ],
         "restricted_provider_ids": []
       }
@@ -6852,11 +6851,11 @@
       "api_base_url": "https://opencontext.org/",
       "format_protocol": "REST/JSON-LD; linked data",
       "authentication": "none for public read candidate",
-      "free_access_restrictions": "Public one-result JSON-LD search succeeded without credentials",
+      "free_access_restrictions": "Free of charge for users under current terms; extensive continual API use requires provider arrangements. Respect source-specific licenses, sensitive material and contributor rights.",
       "license": "CC BY 4.0 or public-domain release under publishing agreement",
       "license_url": "https://opencontext.org/about/publishing",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:58:57.634502+00:00",
+      "latest_checked_utc": "2026-10-17T15:59:28.999844+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16901,8 +16900,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://public.yoda.uu.nl/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:56:48.562402+00:00",
+      "api_verification_state": "documented_OAI_design_historical_sample_HTML_not_API_success_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T15:59:28.999844+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
