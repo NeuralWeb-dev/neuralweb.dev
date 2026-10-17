@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T05:02:06.710337+00:00",
+  "published_at": "2026-10-17T05:04:09.511642+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T04:59:29.386905+00:00",
+  "research_updated_at": "2026-10-17T05:03:45.268766+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sevenremainingprimaryneighborsprocessed;7servicesadded(4scopedopen/3candidates). GewerbeCheck75records/OpenPLZ62adminrefs+38ops/WMTS4layersindexed. RIScurrentCCBY4technicalrulesverified/APIheld. AADCresume898newIDs,total2298/23pages/2duplicates,from2300timeout;NOTcomplete. Globalin_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 191,
-    "candidates": 350,
+    "verified": 193,
+    "candidates": 352,
     "excluded": 35,
-    "sample_successes": 348
+    "sample_successes": 350
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3632,6 +3632,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "bath-hacked",
+      "provider": "Bath:Hacked community project / Bath and North East Somerset data contributors",
+      "service_name": "Bath:Hacked public dataset metadata and data APIs",
+      "geographic_coverage": "Bath andNorthEastSomerset,UnitedKingdom",
+      "topical_coverage": "Transport,environment,energy,housing,health,education,culture,localgovernment",
+      "dataset_families": "151uniqueHTMLdatasetpages/13nativepages+page1alias/163appearances;dataset-specificAPIroutes andlicencesreviewedseparately. Parkingid8OGL2;currentrows0,notclaimedlive. Catalogmetadataisnotallopen/runtime-tested.",
+      "documentation_url": "https://data.bathhacked.org/datasets/banes-live-car-park-occupancy",
+      "api_base_url": "https://data.bathhacked.org/api/datasets/",
+      "format_protocol": "ActualJSONmetadata(dataobject),12columnschemas(dataarray),rows(dataemptyarray,paginationtotal0);HTMLcatalognotAPIrecords",
+      "authentication": "Actualanonymousmetadata/columns/rowsrequests200,noaccount/keyused;notallAPIsdocumented/tested",
+      "free_access_restrictions": "ExplicitparkingdatasetOGL2attributiongrant;otherdatasetsindividuallicencesnotuniform. Providerasksthoughtfulnesswithrepeatedlargedownloads;noexactquotaestablished. Noaccount/contact/writes/fullrows/CSVdownloads.",
+      "license": "UK Open Government Licence version 2.0: scoped parking dataset; catalog mixes per-dataset grants",
+      "license_url": "https://data.bathhacked.org/datasets/banes-live-car-park-occupancy | http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+      "api_verification_state": "actual_parking_metadata_and_columns_sample_success_empty_rows_total0_not_live_data_claim",
+      "latest_checked_utc": "2026-10-17T05:02:57.395820+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "bcc-services",
       "provider": "Buckinghamshire Council / Family Information Service",
       "service_name": "Family Information community services API",
@@ -5069,6 +5087,24 @@
       "license_url": "https://dataportal.gov.lt/lt/datasets/sd001594 | https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "documented_anonymous_readonly_POST_observation_and_schema_sample_success_scoped_CC_BY4",
       "latest_checked_utc": "2026-10-16T23:59:56.562837+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "madrid-open-data",
+      "provider": "Ayuntamiento de Madrid",
+      "service_name": "Madrid municipal open-data catalog and public GET API",
+      "geographic_coverage": "Madrid, Spain",
+      "topical_coverage": "Demographics,transport,housing,environment,culture,municipaladministration/spending,geospatial",
+      "dataset_families": "Currenthomepage674datasets/11574files(displaycounts,notnativeinventory). Dataset/resource/group/tag/licenseAPI;municipalstatistics/facilities/services. EMT,bibliothequesandMadridDestinoseparatetermsnotuniversallycovered.",
+      "documentation_url": "https://datos.madrid.es/swagger/openapi | https://datos.madrid.es/swagger/openapi.yaml",
+      "api_base_url": "https://datos.madrid.es/api/3/action/",
+      "format_protocol": "OfficialOpenAPI3YAML/CKANpublicGET;JSONdocumented,notruntimeproved;HTMLSwaggerUI notdataresponse",
+      "authentication": "PublishedPublicGETAPI;noauthschemeinspec;actualanonymoussamplepolicyheld,targetunsent",
+      "free_access_restrictions": "Explicitroyalty-freeworldwidecommercial/adaptedreuseforgeneral-regimedocuments,CCBY4link. Source/update/licencemetadataattribution,noendorsement/noreidentification;specialEMT/library/Destinoanddatasetexceptionsretained.No universalfreeAPIquota established.",
+      "license": "CC BY 4.0 linked; explicit municipal general reuse grant for documents subject to that regime",
+      "license_url": "https://datos.madrid.es/pages/condiciones-de-uso | https://datos.madrid.es/pages/condiciones-generales-ayuntamiento-de-madrid",
+      "api_verification_state": "official_OpenAPI_public_GET_documented_original_sample_policy_held_runtime_untested",
+      "latest_checked_utc": "2026-10-17T04:58:20.586925+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7195,6 +7231,24 @@
       "license_url": "https://eudat.eu/services/userdoc/license-selector",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:56:54.500330+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "banff-open-data",
+      "provider": "Town of Banff",
+      "service_name": "BanffOpenData ArcGIS FeatureServer/MapServer",
+      "geographic_coverage": "Banff,Alberta,Canada",
+      "topical_coverage": "Geospatial,transport,landuse,water,municipalfacilities",
+      "dataset_families": "12nativeFeatureServerlayers:addresspoints,hydrants,centreline,trails,contours,BowFalls,buildingfootprints,roadway,hydrography,boundary,parcels,landuse. SeparateMapServerlisted;imagery/trafficappsnotenumerated.",
+      "documentation_url": "https://maps.banff.ca/arcgis/rest/services/BanffOpenData | https://maps.banff.ca/opendata/",
+      "api_base_url": "https://maps.banff.ca/arcgis/rest/services/BanffOpenData/BanffOpenData/FeatureServer",
+      "format_protocol": "ActualArcGISRESTJSONfolder/service/layerschema;featurequerytimeout,notfeaturedataresponse",
+      "authentication": "Anonymousfolder/service/layerschemarequests200,nokeyused;featurequerytimedout",
+      "free_access_restrictions": "FullportaldatasetlicenceOGL-Banff2royaltyfreecommercial/adaptation,preservedoldversiongrant,excludespersonal/logos/unauthorizedthirdparty/IP. APIcopyrightTownGISbutnoexplicitservicegrantlink,retaincandidateuntilscopeconfirmed. Noediting/uploadoperationsinvokeddespiteadvertisedcapabilities.",
+      "license": "Open Data Licence Town of Banff version 2.0 verified for designated portal datasets; API-service applicability unconfirmed",
+      "license_url": "https://maps.banff.ca/opendata/",
+      "api_verification_state": "actual_native_folder_and_12_layer_schema_sample_success_feature_query_timeout_API_grant_unconfirmed",
+      "latest_checked_utc": "2026-10-17T04:59:24.621944+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10885,6 +10939,24 @@
       "license_url": "https://birdieapp.sanbi.org.za/resources.html",
       "api_verification_state": "documented_indexed_openapi_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:45:08.122917+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "santander-open-data",
+      "provider": "Ayuntamiento de Santander",
+      "service_name": "Santander CKAN catalog and RTOD data APIs",
+      "geographic_coverage": "Santander,Spain",
+      "topical_coverage": "Transportation,municipalspending,water,environment,geospatial,civicservices",
+      "dataset_families": "Publisherdisplays61datasets/735distributions;RTODcollections/recordsplusCKANcatalog. Notcurrentnativecountvalidated.",
+      "documentation_url": "https://datos.santander.es/documentacion-api/",
+      "api_base_url": "http://apicatalogo.santander.es/api/3/action/ | http://datos.santander.es/api/rest/",
+      "format_protocol": "CKANJSON;RTODXML/Atom/JSON/RDF/Turtle/N3/CSV/HTMLdocumented;originalsamplespolicyheld,notactualAPIresponse",
+      "authentication": "PublishedGETexamplesno-key;runtimeauthunverifiedbecauseoriginalAPIrequestsheld",
+      "free_access_restrictions": "DocumentationsaysCCBY4defaultunlessotherwise,butpaidexceptionsreserved,CCBY3ESattributiontextalsoexists;post-cancellationreusebanandbroadharm/inconvenienceconditionsunresolved.NoCORSdefault,activationrequirescontactnotperformed.",
+      "license": "Candidate: stated CC BY 4.0 default conflicts with extra durable-reuse conditions/version text",
+      "license_url": "https://datos.santander.es/documentacion/ | https://datos.santander.es/nota-legal",
+      "api_verification_state": "official_CKAN_RTOD_documented_both_original_samples_policy_held_runtime_untested",
+      "latest_checked_utc": "2026-10-17T04:58:10.164204+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
