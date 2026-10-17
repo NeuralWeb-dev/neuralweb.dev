@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T16:55:23.966814+00:00",
+  "published_at": "2026-10-17T16:57:26.455639+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:54:15.108056+00:00",
+  "research_updated_at": "2026-10-17T16:55:29.553720+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Fouroriginalarchives/ecology/spectroscopytasksreviewed;IdRefnativeRDFopenmetadata,ArachneJSONN CNDrestricted;TERNthreeAPIreferencesindexedwithholds/testhostlimits",
+  "latest_milestone": "Seven original scientific/archive sources reviewed; IdRef RDF scoped-open and Arachne native JSON restricted verified; CDGP terms conflict recorded; TERN3/ABES5 discovery references indexed",
   "counts": {
     "verified": 261,
     "candidates": 479,
@@ -13,11 +13,11 @@
     "sample_successes": 473
   },
   "remaining_work": [
-    "Resume next-re3data-provider-review-batch.json; queuedtasksnotresearched.",
-    "Review4EMEPcentreleads in emep-centre-source-review-leads.json independently; EBASalreadydeduplicated,MSCWgrantnotuniversal.",
-    "Staedelall66returnedcursorpagesprocessed;32361uniqueIDs/32702occurrences,341duplicates. No sourceimage/fullLIDOharvest andno replayneeded; use audit forresidualsnapshotlimits.",
-    "REFODATchallenge,ZVDD/met.no/IPDrobotsheld; no alternateendpointretries. IPDNDrestrictionsremain,NISTSRD109API/grantunresolved.",
-    "RetainVAMDC131,BioCASe54,PSICQUICother33,NIST11uniquereferences,worldgeographic/sector/workrightsqueues. BDLholduntil2026-10-17T18:20:40.045886+00:00thenfreshquota/PID/ledgerchecks."
+    "Resume next-re3data-provider-review-batch.json; selected sources queued, not researched.",
+    "Review ABES four other service families and nested methods from abes-service-family-review-queue.json. IdRef RDF grant does not clear supplier-restricted MARC or every ABES source; no paid custom exports.",
+    "TERN full table three references saved: TDDP and EcoPlots documentation policy-held; EcoImages table link is a test host, not queried. Read tern-published-api-review-queue.json; no alternate backend/key/account requests. AEKOS current API and exact data grants remain unconfirmed.",
+    "CDGP resource151 CC BY4 label conflicts with general restrictive terms; public API unresolved. SAHA/transition bibliography APIs unestablished, IAEA AMBDAS/Catena original holds retained.",
+    "Retain VAMDC131/BioCASe54/otherPSICQUIC33, NIST11unique API references, EMEP4centre leads and worldwide geographic/sector/work-rights queues. BDL retry no earlier than2026-10-17T18:20:40.045886+00:00 with fresh quota/PID/ledger checks."
   ],
   "external_blocker": null,
   "coverage": {
@@ -1622,6 +1622,7 @@
         "restricted_provider_ids": [
           "bonn-open-data",
           "catalonia-open-data",
+          "cdgp-geothermal-portal",
           "copernicus-marine",
           "geoguyane-csw-catalogue",
           "lower-austria-ogd",
@@ -1686,6 +1687,7 @@
           "zagreb-open-data"
         ],
         "restricted_provider_ids": [
+          "cdgp-geothermal-portal",
           "registry-data-bs-ch"
         ]
       },
@@ -1978,6 +1980,7 @@
         ],
         "restricted_provider_ids": [
           "bonn-open-data",
+          "cdgp-geothermal-portal",
           "geoguyane-csw-catalogue",
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
@@ -2275,6 +2278,7 @@
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
+          "cdgp-geothermal-portal",
           "copernicus-marine",
           "cranachnet-mediawiki",
           "lindat-fcs",
