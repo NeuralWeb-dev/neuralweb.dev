@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T12:35:56.018879+00:00",
+  "published_at": "2026-10-17T12:37:58.485747+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T12:24:40.693126+00:00",
+  "research_updated_at": "2026-10-17T12:36:15.136915+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Iberian/regional/research ten origins checkpointed:722 services,236 scoped-open,431 candidates,55 restricted;Piemonte1621unique public descriptors/0duplicates;Portugal September2026terms;PrinceGeorge trafficAPI candidate;Kent restrictive offer/APIunestablished in separate non-API list.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Quebecequatorial10origins;Puglia2061names/countgap8/candidate;RecifenamedODbLwork/APIheld;QuebecsharedAPI/QSpatialhistoricalclaimcandidates.726services237open434candidates55restricted;164originalsremain;in_progress.",
   "counts": {
-    "verified": 236,
-    "candidates": 431,
+    "verified": 237,
+    "candidates": 434,
     "excluded": 55,
-    "sample_successes": 443
+    "sample_successes": 444
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6807,6 +6807,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "recife-open-data",
+      "provider": "Prefeitura da Cidade do Recife / EMPREL and municipal publishers",
+      "service_name": "Recife municipal open-data CKAN portal/API",
+      "geographic_coverage": "Brazil/Pernambuco/Recife;acceptednamedworkcitybicyclenetwork",
+      "topical_coverage": "transportation; geospatial; health; law/civic; spending",
+      "dataset_families": "Acceptedlicensedwork:Malha Cicloviária do Recife bicycle-networkdatabase. Portalalsoadvertisesroad-speeds,COVID/public-health andprocurementdata;thoseworkrights/accessnotacceptedhere.",
+      "documentation_url": "https://dados.recife.pe.gov.br/ | https://dados.recife.pe.gov.br/pages/sobre | https://docs.ckan.org/en/2.11/api/",
+      "api_base_url": "https://dados.recife.pe.gov.br/api/3/action/",
+      "format_protocol": "PublisheradvertisesCKANAPI;standardActionAPI/JSONcanonicalrouteattemptdeferred. Provider-specificnativeJSON/schema/currentruntimeunverified;CSV/GeoJSON/metadataJSONresourcesadvertisednotfetched.",
+      "authentication": "unknown currentAPIruntime;publicportal,about/FAQ andlicencedocumentaccessible withoutcredentials",
+      "free_access_restrictions": "NamedworkODbLpermitsroyalty-freecommercialdatabaseusewithconditions. GeneralFAQ/publicationstandard describesfreepublicaccess; APIquota/free-tier detailsunknown. Nosignup/key/payment.",
+      "license": "Open Data Commons Open Database License (ODbL)1.0 for namedbicycle-networkwork",
+      "license_url": "https://dados.recife.pe.gov.br/dataset/malha-cicloviaria-do-recife | http://www.opendefinition.org/licenses/odc-odbl | https://opendatacommons.org/licenses/odbl/1-0/",
+      "api_verification_state": "publisher_CKAN_API_advertised_canonical_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-17T12:36:14.779082+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "registry-admin-opendatani-gov-uk",
       "provider": "OpenDataNI",
       "service_name": "OpenDataNI portal API",
@@ -9434,6 +9452,24 @@
       "license_url": "https://datos.gob.do/dataset/sol",
       "api_verification_state": "portal_metadata_verified_api_discovery_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:29:17.528724+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "donnees-quebec-catalog",
+      "provider": "Données Québec partnership: Government of Québec and participating municipalities/organizations",
+      "service_name": "Données Québec common CKAN catalog and DataStore API",
+      "geographic_coverage": "Canada/Québec;provincial and participating municipal datasets,notallmunicipalAPIs",
+      "topical_coverage": "agriculture; economics/finance; education; research; environment; energy; spending; law/civic; health; geospatial; transportation; culture",
+      "dataset_families": "Shared provincial/municipal dataset metadata;catalog/list/search/show and DataStore resources where enabled. CityQuébec currentofficialpage points to sharedportal. No currentnative inventory fetched.",
+      "documentation_url": "https://www.donneesquebec.ca/page-api/ | https://www.donneesquebec.ca/exploiter/utiliser-les-donnees/",
+      "api_base_url": "https://www.donneesquebec.ca/recherche/api/3/action/",
+      "format_protocol": "Official indexed CKAN Action API/JSON UTF-8;DataStore SQL/search documented separately;currentdeploymentruntimeuntested",
+      "authentication": "IndexedpublicGETexamples;writes requireauthorizationtoken. CurrentanonymousAPIauth/access notruntimeverified;no token/account acquired",
+      "free_access_restrictions": "Official indexed usage guidance says gratis downloading/viewing/sharing subject to datasetlicence;commercialreuse/adaptation depend on variant. No inference allCCvariantsareopen.",
+      "license": "licensing-unconfirmed mixed per-dataset Creative Commons variants",
+      "license_url": "https://www.donneesquebec.ca/exploiter/utiliser-les-donnees/ | https://www.donneesquebec.ca/fr/licence/",
+      "api_verification_state": "official_indexed_API_documented_original_and_docs_policy_held_sample_untested",
+      "latest_checked_utc": "2026-10-17T12:36:14.778833+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12623,6 +12659,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "puglia-open-data-catalog",
+      "provider": "Regione Puglia and participating municipal/agency publishers",
+      "service_name": "Open Data Regione Puglia CKAN catalog API",
+      "geographic_coverage": "Italy/Puglia;regional and participating municipal publisher extents",
+      "topical_coverage": "environment; agriculture; economics/finance; education; culture; energy; health; law/civic; geospatial; transportation; demographics; spending",
+      "dataset_families": "Public regional/municipal metadata,local and harvested. Copertino tree census and ARTI Accompagnamento PIN Giovani sampled as metadata only.2061native names versus2053initial searchcount;not reconciled or universally licensed.",
+      "documentation_url": "https://dati.puglia.it/web/guest/a-p-i-pubbliche-ckan",
+      "api_base_url": "https://dati.puglia.it/ckan/api/3/action/",
+      "format_protocol": "Documented CKAN Action API/JSON;catalog metadata search/show/list,organization methods;DataStore separate",
+      "authentication": "Anonymous metadata search and complete names response200JSON;no credentials used",
+      "free_access_restrictions": "Official page offers public metadata API. Notice disables login/insertion/update during maintenance,not observed reads. Underlying resource access/free tiers and grants not universal.",
+      "license": "unconfirmed per-work/instrument version; observed CC BY4 normalization and unversioned CC BY/CC BY-SA",
+      "license_url": "https://www.regione.puglia.it/note-legali | https://dati.comune.copertino.le.it/dataset/censimento-arboreo-comune-di-copertino | http://www.opendefinition.org/licenses/cc-by-sa",
+      "api_verification_state": "documented_native_catalog_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T12:36:14.778632+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "qatar-data",
       "provider": "Qatar National Planning Council",
       "service_name": "Qatar Open Data Portal Explore API candidate",
@@ -12638,6 +12692,24 @@
       "license_url": "https://www.data.gov.qa/pages/license/annexes | https://www.npc.qa/en/media/Documents/OpenData/En_OpenDataLicensingPolicy.pdf",
       "api_verification_state": "documented_portal_api_link_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T19:31:27.909688+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "qspatial-csw-catalog",
+      "provider": "Queensland Government / Queensland Spatial Catalogue (QSpatial)",
+      "service_name": "QSpatial CSW metadata catalog interface (historically documented)",
+      "geographic_coverage": "Australia/Queensland;metadata/source-specific extents",
+      "topical_coverage": "geospatial; environment; biodiversity; housing; agriculture; water",
+      "dataset_families": "Spatial andassociateddataset discovery;environment/natural-resource andmappingfamilies advertised bycurrentofficialguide. Notalllinkeddepartments/productspartofoneAPIorlicence.",
+      "documentation_url": "https://www.data.qld.gov.au/datarequest/comment/89b76aeb-e85e-409a-85e2-f382a01a875b | https://environment.qld.gov.au/resources/maps-data",
+      "api_base_url": "https://qldspatial.information.qld.gov.au/catalogue/csw",
+      "format_protocol": "Official2021publisherclaim CSW2.0.2/XML;currentcapabilities/version notverified",
+      "authentication": "unknown currentruntime;official2021publicendpointclaim,notfreshanonymoussuccess",
+      "free_access_restrictions": "Currentofficialguide sayssomeviewed/requestedmaps/datafree andlicenceconditionsapply;notallCSWmetadata/resources guaranteedfree. No signup/paiddata/emailrequest performed.",
+      "license": "unknown;dataset-specific conditions unreviewed",
+      "license_url": "https://environment.qld.gov.au/resources/maps-data",
+      "api_verification_state": "official_2021_API_claim_current_runtime_unverified_original_policy_held",
+      "latest_checked_utc": "2026-10-17T12:36:14.778963+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
