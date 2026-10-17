@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T19:08:11.163295+00:00",
+  "published_at": "2026-10-17T19:10:13.510611+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:07:28.607139+00:00",
+  "research_updated_at": "2026-10-17T19:09:56.959588+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Local Jülich B2SHARE native metadata verified; Copernicus721collection snapshot indexed with source entitlements separated; Tropopause data grant/API gap recorded",
+  "latest_milestone": "Nine original discovery tasks reviewed; six services added, existing CDSE updated;721collection snapshot indexed, rights/API gaps explicit",
   "counts": {
     "verified": 276,
-    "candidates": 509,
-    "excluded": 106,
+    "candidates": 510,
+    "excluded": 108,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -132,6 +132,7 @@
           "esa-ecology",
           "hdx",
           "hycom",
+          "iagos-atmospheric-rest",
           "nasa-api",
           "nasa-power",
           "noaa-erddap",
@@ -151,6 +152,7 @@
           "copernicus-marine",
           "deims",
           "earthstat-restricted-raster-families",
+          "eida-orfeus-routing-federation",
           "fao",
           "oceanrep-oai-metadata",
           "open-meteo",
@@ -552,6 +554,7 @@
           "gwas-catalog",
           "huggingface-dataset-hub",
           "hycom",
+          "iagos-atmospheric-rest",
           "iati-dashboard-metadata",
           "idigbio",
           "internet-archive-metadata",
@@ -581,6 +584,7 @@
           "copernicus-marine",
           "deims",
           "ebird",
+          "eida-orfeus-routing-federation",
           "ghdx-ihme-discovery",
           "harvard-dataverse",
           "infra-art-restricted-spectra",
@@ -1697,6 +1701,7 @@
           "aragon-sparql",
           "balearic-open-data",
           "bern-geodata-catalog-api",
+          "bexis-biodiversity-exploratories",
           "bologna-open-data",
           "bordeaux-metropole-datahub",
           "ea-bathing-water",
@@ -1725,6 +1730,7 @@
           "catalonia-open-data",
           "cdgp-geothermal-portal",
           "copernicus-marine",
+          "eida-orfeus-routing-federation",
           "geoguyane-csw-catalogue",
           "lower-austria-ogd",
           "ticino-palma-api",
@@ -2192,6 +2198,7 @@
           "ices-dome"
         ],
         "candidate_provider_ids": [
+          "bexis-biodiversity-exploratories",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality"
@@ -2361,6 +2368,7 @@
           "aland-statistics",
           "anfr-data",
           "bas-fcs",
+          "bexis-biodiversity-exploratories",
           "cessda-catalogue",
           "clarin-dk-fcs",
           "clarin-fcs",
@@ -2400,6 +2408,7 @@
           "cdgp-geothermal-portal",
           "copernicus-marine",
           "cranachnet-mediawiki",
+          "eida-orfeus-routing-federation",
           "eurocat-controlled-research-data",
           "lindat-fcs",
           "maribor-dkum-oai",
@@ -3843,6 +3852,7 @@
         ],
         "candidate_provider_ids": [
           "aadc-weather",
+          "apgc-permafrost-ckan",
           "nsidc"
         ],
         "restricted_provider_ids": [
@@ -3857,7 +3867,9 @@
           "nasa-cmr",
           "ocean-networks-canada"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "apgc-permafrost-ckan"
+        ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "polar-data-catalogue-metadata-api"
@@ -3914,6 +3926,7 @@
         "candidate_provider_ids": [
           "aadc-gazetteer",
           "aadc-metadata",
+          "apgc-permafrost-ckan",
           "nsidc"
         ],
         "restricted_provider_ids": [
@@ -3988,7 +4001,8 @@
           "pangaea"
         ],
         "candidate_provider_ids": [
-          "aadc-metadata"
+          "aadc-metadata",
+          "apgc-permafrost-ckan"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -9717,6 +9731,24 @@
       "license_url": "https://map.bern.ch/geoportal/data/Nutzungsbedingungen_Geodaten_Stadt-Bern_1.0.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_catalog_metadata_only",
       "latest_checked_utc": "2026-10-17T07:46:33.025215+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bexis-biodiversity-exploratories",
+      "provider": "Biodiversity Exploratories / Friedrich Schiller University Jena",
+      "service_name": "BExIS biodiversity research repository REST API candidate",
+      "geographic_coverage": "Germany Biodiversity Exploratories and contributing research projects; source-specific sites",
+      "topical_coverage": "biodiversity | ecology | climate | research",
+      "dataset_families": "Biodiversity/ecosystem research datasets, public climate data and curated metadata",
+      "documentation_url": "https://www.bexis.uni-jena.de/apihelp/index | https://www.bexis.uni-jena.de/footer/termsandconditions",
+      "api_base_url": "",
+      "format_protocol": "Registry REST claim only; BEXIS2 software does not establish deployment API/runtime",
+      "authentication": "Current terms say public data without account but dedicated agreement confirmation; guest account needed for full metadata, source access varies. No account/agreement acceptance.",
+      "free_access_restrictions": "Current data agreement states CC BY4 and required co-authorship offer for significant contribution; effective additional conditions unresolved. Manuscript circulation is encouraged, not silently recast mandatory.",
+      "license": "CC BY4 stated for public datasets; effective additional agreement conditions and metadata/API scope unresolved",
+      "license_url": "https://www.bexis.uni-jena.de/footer/termsandconditions",
+      "api_verification_state": "native_APIhelp_robots_withheld_target_unsent_registry_REST_claim_unverified",
+      "latest_checked_utc": "2026-10-17T19:09:04.012539+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19010,6 +19042,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "eida-orfeus-routing-federation",
+      "provider": "ORFEUS / European Integrated Data Archive",
+      "service_name": "EIDA routing service and federated FDSN/EIDA service discovery",
+      "geographic_coverage": "European seismic data centres with worldwide network holdings; source/network-specific scope",
+      "topical_coverage": "geophysics | environment | research",
+      "dataset_families": "Seismic waveforms, station metadata, availability, waveform quality, PSD and routing; current probe only one routing answer",
+      "documentation_url": "https://www.orfeus-eu.org/data/eida/webservices/ | https://www.orfeus-eu.org/data/eida/webservices/routing/",
+      "api_base_url": "https://www.orfeus-eu.org/eidaws/routing/1/",
+      "format_protocol": "Routing REST JSON/XML/text; documented federated FDSN station/availability, miniSEED waveform and EIDA services",
+      "authentication": "Anonymous bounded routing request succeeded; source-specific restrictions/authentication vary; federator documentation excludes restricted data",
+      "free_access_restrictions": "Official data policy prohibits unaltered commercial reuse; network-specific grants/access may differ. Fair use forbids excessive/anomalous requests.",
+      "license": "Default EIDA usage policy: free of use but cannot be reused unaltered for commercial use; individual network grants unresolved",
+      "license_url": "https://www.orfeus-eu.org/data/eida/acknowledgements/",
+      "api_verification_state": "native_anonymous_bounded_routing_JSON_success_one_GE_destination",
+      "latest_checked_utc": "2026-10-17T19:09:04.012539+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "esa-gaia",
       "provider": "European Space Agency Gaia Archive",
       "service_name": "European Space Agency Gaia Archive API",
@@ -19421,6 +19471,24 @@
       "license_url": "https://www.iza-structure.org/databases/DatabaseCredits.php",
       "api_verification_state": "restricted_portal_documented_public_API_unestablished",
       "latest_checked_utc": "2026-10-17T18:30:45.286387+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "kcdc-datashop",
+      "provider": "Karlsruhe Institute of Technology / KASCADE collaboration",
+      "service_name": "KASCADE Cosmic Ray Data Centre DataShop REST API",
+      "geographic_coverage": "KASCADE experimental cosmic-ray observations and simulations; detector-specific coverage",
+      "topical_coverage": "astronomy | astroparticle physics | research",
+      "dataset_families": "Cosmic-ray air-shower event parameters, detector observations and simulations; detailed detector/period families source-specific",
+      "documentation_url": "https://kcdc.iap.kit.edu/datashop/api/docs/index.html | https://kcdc.iap.kit.edu/static/schema/schema.yml",
+      "api_base_url": "https://kcdc.iap.kit.edu/datashop/api",
+      "format_protocol": "Swagger2.0 REST JSON; documented description/status/submit interfaces",
+      "authentication": "Published schema requires Basic authentication on operations; no credentials/account requested",
+      "free_access_restrictions": "Default EULA limited personal noncommercial academic use, revocable/nontransferable/non-sublicensable; commercial licence separate and not pursued",
+      "license": "Restrictive KCDC End User Licence Agreement; academic/noncommercial and personal copying limitations",
+      "license_url": "https://kcdc.iap.kit.edu/lawnorder/",
+      "api_verification_state": "published_native_Swagger_schema_verified_account_required_data_sample_untested",
+      "latest_checked_utc": "2026-10-17T19:09:04.012539+00:00",
       "classification": "restricted"
     },
     {
