@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:57:50.008354+00:00",
+  "published_at": "2026-10-17T21:59:52.479871+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:56:13.002259+00:00",
+  "research_updated_at": "2026-10-17T21:59:32.909033+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed: three new services(one scoped-open ModelDB,two candidates) and three ICRAF/Harvard collection aliases. ModelDB1931IDs/11types/two source samples indexed; global discovery unfinished.",
+  "latest_milestone": "Three originals reviewed: UCLA and MINDS remain candidates; NVS restricted redistribution verified; original API/robots holds retained.",
   "counts": {
     "verified": 303,
-    "candidates": 592,
-    "excluded": 136,
+    "candidates": 594,
+    "excluded": 137,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -14613,6 +14613,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "minds-uw-repository",
+      "provider": "University of Wisconsin Libraries",
+      "service_name": "MINDS@UW repository discovery",
+      "geographic_coverage": "University of Wisconsin research and teaching outputs; exact current geographic dataset coverage unknown",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research and teaching outputs; exact native inventory unverified",
+      "documentation_url": "https://minds.wisc.edu/ | https://www.library.wisc.edu/research-support/minds/faq/",
+      "api_base_url": "",
+      "format_protocol": "unknown native current API protocol; third-party OAI claims not provider verification",
+      "authentication": "No accounts or keys used; repository/file access may require registration",
+      "free_access_restrictions": "Per-source access and reuse restrictions; no paid access acquired",
+      "license": "unknown exact native source/metadata/database reuse grant",
+      "license_url": "https://www.library.wisc.edu/research-support/minds/faq/",
+      "api_verification_state": "original_repository_and_FAQ_robots_inaccessible_targets_unsent_API_and_terms_unresolved",
+      "latest_checked_utc": "2026-10-17T21:59:27.952936+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "minneapolis-open-data",
       "provider": "City of Minneapolis",
       "service_name": "OpenDataMPLS OGC public catalog",
@@ -18483,6 +18501,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ucla-social-science-dataverse",
+      "provider": "UCLA Library Data Science Center",
+      "service_name": "UCLA Dataverse / Social Science Data Archive",
+      "geographic_coverage": "United States, California and international social science survey collections including China and South Africa; not exhaustive national coverage",
+      "topical_coverage": "demographics | economics | health | research | civic data",
+      "dataset_families": "Surveys, enumerations, public opinion, health, social mobility, census and administrative records; collection predominantly harvested metadata",
+      "documentation_url": "https://dataverse.ucla.edu/dataverse/ssda_ucla | https://guides.dataverse.org/en/5.14/user | https://ucla-dataverse-doc.netlify.app/policy/terms/",
+      "api_base_url": "https://dataverse.ucla.edu/api/ (deployment runtime untested)",
+      "format_protocol": "HTML deployment confirmed Dataverse 5.14; framework REST/OAI claims not successful deployment JSON/XML",
+      "authentication": "No accounts or keys used; repository/file access may require registration",
+      "free_access_restrictions": "Per-source access and reuse restrictions; no paid access acquired",
+      "license": "unknown exact SSDA item/metadata grant; deployment-branded policy describes CC0 default with custom/restricted exceptions",
+      "license_url": "https://ucla-dataverse-doc.netlify.app/policy/terms/",
+      "api_verification_state": "native_collection_HTML_verified_API_sample_robots_disallowed_target_unsent",
+      "latest_checked_utc": "2026-10-17T21:59:27.952936+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ufz-drp-archive-json-interface",
       "provider": "Helmholtz Centre for Environmental Research / UFZ",
       "service_name": "UFZ DRP / DMP Archive documented JSON sharing interface",
@@ -22316,6 +22352,24 @@
       "license_url": "https://microdata.nsanamibia.com/index.php/catalog/19",
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T01:35:44.608383+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "national-vegetation-survey-nz",
+      "provider": "New Zealand Institute for Bioeconomy Science Limited / NVS",
+      "service_name": "National Vegetation Survey Databank",
+      "geographic_coverage": "New Zealand vegetation survey data; additional geographic coverage not established",
+      "topical_coverage": "biodiversity | environment | research | geospatial",
+      "dataset_families": "Vegetation plots, location information, vegetation measures, maps, metadata and derived information products",
+      "documentation_url": "https://nvs.landcareresearch.co.nz/ | https://nvs.landcareresearch.co.nz/Data/Tools",
+      "api_base_url": "",
+      "format_protocol": "HTML terms and tools confirmed; NVS Express and spreadsheets are not proof of query API",
+      "authentication": "No accounts or keys used; repository/file access may require registration",
+      "free_access_restrictions": "Per-source access and reuse restrictions; no paid access acquired",
+      "license": "Copyright; third-party disclosure requires prior written permission and use limited to applicable licence",
+      "license_url": "https://nvs.landcareresearch.co.nz/Home/Copyright | https://nvs.landcareresearch.co.nz/Home/Terms",
+      "api_verification_state": "native_HTML_policy_and_tools_verified_restricted_source_rights_API_unresolved",
+      "latest_checked_utc": "2026-10-17T21:59:27.952936+00:00",
       "classification": "restricted"
     },
     {
