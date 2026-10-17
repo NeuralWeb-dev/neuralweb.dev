@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T22:55:03.586121+00:00",
+  "published_at": "2026-10-17T22:57:06.053942+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:52:48.807684+00:00",
+  "research_updated_at": "2026-10-17T22:56:36.881929+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UDISE APIhosthold; formerCornell redirect to currentESMIS JSON/OpenAPI verified; NOAA BRW generalPD with sourceAPI unresolved.",
+  "latest_milestone": "Nine original tasks; eight newrecords(three scoped-open,four candidates,one restricted), Archivealiasupdated. METforecast andESMISpublicationJSONsuccess, ITIS/MG-RASTsourcegrant/nativeAPI docs withruntimeholds. ESMIS101-pagepublicmetadatafrontier active under10seccrawl-delay.",
   "counts": {
-    "verified": 307,
+    "verified": 308,
     "candidates": 621,
-    "excluded": 153,
+    "excluded": 154,
     "sample_successes": 472
   },
   "remaining_work": [
@@ -119,6 +119,8 @@
           "gtnp-current-data-platform-api",
           "hcdc-datasearch-metadata-api",
           "igb-fred-metadata-interface",
+          "itis-taxonomic-web-services",
+          "met-norway-weather-api",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
@@ -153,6 +155,7 @@
           "nasa-power",
           "nced-data-repository",
           "noaa-erddap",
+          "noaa-gml-barrow-observatory",
           "noaa-ncei",
           "noaa-ncei-access",
           "nsidc",
@@ -218,12 +221,14 @@
           "bgs",
           "eia",
           "esgf-cmip5-discovery",
+          "met-norway-weather-api",
           "worldbank-catalog"
         ],
         "candidate_provider_ids": [
           "isimip-impact-repository",
           "nasa-power",
           "nims-mdr",
+          "noaa-gml-barrow-observatory",
           "openchargemap",
           "openei-urdb",
           "undata-official-sdmx-api",
@@ -454,6 +459,7 @@
           "gbif",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
+          "itis-taxonomic-web-services",
           "obis",
           "uniprot"
         ],
@@ -499,6 +505,7 @@
           "esgf-cmip5-discovery",
           "hcdc-datasearch-metadata-api",
           "marine-regions-modern-boundaries-ogc",
+          "met-norway-weather-api",
           "obis",
           "pangaea"
         ],
@@ -637,8 +644,10 @@
           "hcdc-datasearch-metadata-api",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
+          "itis-taxonomic-web-services",
           "kitopen-bibliographic-oai",
           "marine-regions-modern-boundaries-ogc",
+          "met-norway-weather-api",
           "metmuseum",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -717,6 +726,7 @@
           "nced-data-repository",
           "nih-clinicaltrials",
           "nims-mdr",
+          "noaa-gml-barrow-observatory",
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
@@ -869,6 +879,7 @@
           "epa-aqs",
           "geri",
           "gtnp-current-data-platform-api",
+          "itis-taxonomic-web-services",
           "kamloops-open-data",
           "kitchener-geohub",
           "langley-open-data-search",
@@ -884,6 +895,7 @@
         ],
         "candidate_provider_ids": [
           "annarbor-open-data",
+          "barrow-area-information-database",
           "california-open-data",
           "cerp-sfwmd",
           "donnees-quebec-catalog",
@@ -1052,6 +1064,7 @@
           "vancouver-open-data-api"
         ],
         "candidate_provider_ids": [
+          "barrow-area-information-database",
           "census-geocoder",
           "connect211-hsda",
           "connect211-search",
@@ -1137,6 +1150,7 @@
         "candidate_provider_ids": [
           "asheville-open-data",
           "banff-open-data",
+          "barrow-area-information-database",
           "canadensys",
           "census-geocoder",
           "chatham-kent-open-data",
@@ -1251,6 +1265,7 @@
           "ca-opc",
           "cib",
           "fwc",
+          "itis-taxonomic-web-services",
           "sctld",
           "seafloor"
         ],
@@ -1342,6 +1357,7 @@
           "getty-provenance",
           "getty-vocabularies",
           "gtnp-current-data-platform-api",
+          "itis-taxonomic-web-services",
           "metmuseum",
           "nih-rxnav",
           "sctld",
@@ -1350,6 +1366,7 @@
         ],
         "candidate_provider_ids": [
           "artic",
+          "barrow-area-information-database",
           "cerp-sfwmd",
           "donnees-quebec-catalog",
           "drp",
@@ -1892,6 +1909,7 @@
           "italy-istat-sdmx",
           "lincolnshire-open-data-portal",
           "madrid-open-data",
+          "met-norway-weather-api",
           "netherlands-catalog-metadata",
           "noi-opendatahub-metadata",
           "opendata-dk",
@@ -2010,6 +2028,7 @@
           "faroe-statistics",
           "georgia-statistics",
           "iceland-statistics",
+          "met-norway-weather-api",
           "netherlands-catalog-metadata",
           "oulu-open-data-api",
           "piemonte-opendata-catalog",
@@ -2487,6 +2506,7 @@
           "emodnet",
           "hcdc-datasearch-metadata-api",
           "ices-dome",
+          "met-norway-weather-api",
           "transportapi-fi"
         ],
         "candidate_provider_ids": [
@@ -2646,6 +2666,7 @@
           "ices-dome",
           "lindat-repository",
           "lithuania-dataportal",
+          "met-norway-weather-api",
           "noi-opendatahub-metadata",
           "onb-webarchive",
           "oulu-open-data-api",
@@ -3204,7 +3225,8 @@
           "nepal",
           "pakistan",
           "pakistan-odp",
-          "sri-lanka"
+          "sri-lanka",
+          "udiseplus-education-data-api"
         ],
         "restricted_provider_ids": []
       },
@@ -3281,7 +3303,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
-          "pakistan-odp"
+          "pakistan-odp",
+          "udiseplus-education-data-api"
         ],
         "restricted_provider_ids": []
       },
@@ -3373,7 +3396,8 @@
           "claremont-colleges-digital-library",
           "esa-ecology",
           "mtropics-sedoo-metadata",
-          "pakistan-odp"
+          "pakistan-odp",
+          "udiseplus-education-data-api"
         ],
         "restricted_provider_ids": [
           "pakistan-petroleum-data-repository"
@@ -4249,6 +4273,7 @@
           "copenhagen-geomagnetic-index-archive",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
+          "noaa-gml-barrow-observatory",
           "nsidc"
         ],
         "restricted_provider_ids": [
@@ -4279,7 +4304,9 @@
         "verified_provider_ids": [
           "greenland-statistics"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "noaa-gml-barrow-observatory"
+        ],
         "restricted_provider_ids": []
       },
       "health": {
@@ -4418,7 +4445,8 @@
           "apgc-permafrost-ckan",
           "copenhagen-geomagnetic-index-archive",
           "lter-italy-dataset-asset-registry",
-          "marine-data-germany-portal"
+          "marine-data-germany-portal",
+          "noaa-gml-barrow-observatory"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -7662,6 +7690,24 @@
       "license_url": "https://massbank.eu/MassBank-api/records/MSBNK-AAFC-AC000001 | https://raw.githubusercontent.com/MassBank/MassBank-web/dev/Documentation/MassBankRecordFormat.md",
       "api_verification_state": "native_anonymous_JSON_spectral_record_and_numeric_count_success_liveOpenAPI_verified",
       "latest_checked_utc": "2026-10-17T18:56:32.676384+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "met-norway-weather-api",
+      "provider": "Norwegian Meteorological Institute (MET Norway)",
+      "service_name": "MET Weather API / Locationforecast",
+      "geographic_coverage": "Locationforecast worldwide point forecasts; many other products Norway/Nordic/NorthwesternEurope, not all services global",
+      "topical_coverage": "climate | weather | environment | oceans | energy | research",
+      "dataset_families": "Point weather forecasts; documented air quality, alerts, nowcasts, ocean forecasts and other product families with individual coverage",
+      "documentation_url": "https://api.met.no/ | https://api.met.no/weatherapi/locationforecast/2.0/documentation",
+      "api_base_url": "https://api.met.no/weatherapi/",
+      "format_protocol": "Anonymous REST JSON GeoJSONFeature with geometry/properties/meta/timeseries; product-specific JSON/XML and other formats documented",
+      "authentication": "No API key for sampled Locationforecast; identifying application User-Agent required, contact recommended; default research-app UA used, no invented contact",
+      "free_access_restrictions": "Open standard download service; customized delivery/partner data exceptions and other services separately scoped; no SLA guaranteed",
+      "license": "CC BY4.0 International and NLOD2.0 unless specified otherwise",
+      "license_url": "https://api.met.no/doc/License | https://www.met.no/en/free-meteorological-data/Licensing-and-crediting",
+      "api_verification_state": "native_B_Y4_NLOD2_API_docs_and_anonymous_Locationforecast_point_JSON_success",
+      "latest_checked_utc": "2026-10-17T22:55:16.537109+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13998,8 +14044,8 @@
       "free_access_restrictions": "Developer portal describes freely available access and no new copyright/proprietary rights asserted by Archive. This does not extinguish underlying rights or establish universal metadata open licence. Full main terms still unreadable in prior200SPAHTML evidence.",
       "license": "API database common open licence unconfirmed; Archive states no new proprietary rights",
       "license_url": "http://archive.org/developers/index.html | http://archive.org/developers/bots.html | https://archive.org/about/terms.php",
-      "api_verification_state": "actual_JSON_collection_metadata_Read_sample_success",
-      "latest_checked_utc": "2026-10-17T03:25:31.123807+00:00",
+      "api_verification_state": "prior_actual_JSON_collection_metadata_Read_sample_success_current_terms_JS_shell_no_new_grant",
+      "latest_checked_utc": "2026-10-17T22:55:16.537109+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23560,6 +23606,24 @@
       "license_url": "https://www.polardata.ca/policy/usage",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T17:35:35.619513+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "primate-life-histories-database",
+      "provider": "Evolutionary Ecology of Primate Life Histories Working Group / Max Planck Institute for Evolutionary Anthropology",
+      "service_name": "Primate Life Histories Database external portal",
+      "geographic_coverage": "Wild primate field populations across taxa; exact study locations/universe unenumerated",
+      "topical_coverage": "biodiversity | demographics | health | research",
+      "dataset_families": "Individual primate mortality/fertility life-history schedules and comparative ecological data",
+      "documentation_url": "https://plhdb-ext.eva.mpg.de/index.html",
+      "api_base_url": "",
+      "format_protocol": "Source describes searchable downloadable CSV; not public API proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native introduction explicitly says current access limited to workinggroup members; example subsets mentioned but not queried",
+      "license": "unknown unrestricted reuse grant; workinggroup-only access, copyright retained",
+      "license_url": "https://plhdb-ext.eva.mpg.de/index.html",
+      "api_verification_state": "native_workinggroup_only_access_verified_query_API_and_exact_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T22:55:16.537109+00:00",
       "classification": "restricted"
     },
     {
