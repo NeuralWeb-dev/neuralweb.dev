@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T04:49:50.951812+00:00",
+  "published_at": "2026-10-17T04:51:53.493534+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T04:49:40.358379+00:00",
+  "research_updated_at": "2026-10-17T04:50:38.115210+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Sevenremainingprimaryneighborsprocessed;7servicesadded(4scopedopen/3candidates). GewerbeCheck75records/OpenPLZ62adminrefs+38ops/WMTS4layersindexed. RIScurrentCCBY4technicalrulesverified/APIheld. AADCresume898newIDs,total2298/23pages/2duplicates,from2300timeout;NOTcomplete. Globalin_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 191,
     "candidates": 350,
@@ -1187,6 +1187,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "austria-invekos-ogc",
           "lithuania-statistics",
           "serbia-rzs",
           "uk-trade-tariff"
@@ -1445,6 +1446,7 @@
           "amsterdam-maps-data",
           "andalusia-open-data",
           "angers-open-data",
+          "austria-breitband-wmts",
           "bgs",
           "ea-asset-management",
           "ea-catchment-data",
@@ -1453,6 +1455,7 @@
           "ea-hydrology",
           "emodnet",
           "france",
+          "openplz",
           "portugal",
           "registry-data-bl-ch",
           "registry-data-sz-ch",
@@ -1468,6 +1471,7 @@
           "anfr-data",
           "aragon-core",
           "aragon-sparql",
+          "austria-invekos-ogc",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -1629,6 +1633,7 @@
           "ads-archaeology",
           "aland-statistics",
           "andalusia-regional-rest",
+          "austria-invekos-ogc",
           "bas-fcs",
           "clarin-dk-fcs",
           "clarin-fcs",
@@ -2786,6 +2791,8 @@
         ],
         "candidate_provider_ids": [
           "aadc-weather",
+          "aims-data-platform",
+          "aims-metadata-catalog",
           "esa-ecology",
           "mbie-geodata",
           "pacific-data",
@@ -2951,6 +2958,8 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "aims-data-platform",
+          "aims-metadata-catalog",
           "pacioos-erddap",
           "pisco",
           "province-sud-geospatial",
@@ -2985,6 +2994,7 @@
         ],
         "candidate_provider_ids": [
           "aadc-metadata",
+          "aims-metadata-catalog",
           "esa-ecology",
           "nz-iponz",
           "pacioos-erddap",
@@ -3600,7 +3610,7 @@
       "license": "CreativeCommonsAttribution3.0Austria(CCBY3.0AT)",
       "license_url": "https://breitbandatlas.gv.at/resources/gwc/service/wmts?request=GetCapabilities",
       "api_verification_state": "actual_WMTS_capabilities_metadata_sample_success_explicit_CCBY3AT_grant_verified",
-      "latest_checked_utc": "2026-10-17T04:48:32.406372+00:00",
+      "latest_checked_utc": "2026-10-17T04:43:17.525733+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3618,7 +3628,7 @@
       "license": "CreativeCommonsAttribution4.0International(CCBY4.0) explicitlyRIS-OGDdata",
       "license_url": "https://www.ris.bka.gv.at/UI/Ogd.aspx",
       "api_verification_state": "current_primary_OGD_CCBY4_and_API_documentation_verified_original_root_policy_held_untested",
-      "latest_checked_utc": "2026-10-17T04:48:32.406372+00:00",
+      "latest_checked_utc": "2026-10-17T04:42:08.610625+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4806,7 +4816,7 @@
       "license": "CreativeCommonsAttribution4.0International(CCBY4.0)",
       "license_url": "https://gewerbecheck.at/api/ | https://gewerbecheck.at/api/v1/gewerbe.json",
       "api_verification_state": "actual_complete_75_trade_record_sample_success_explicit_CCBY4_verified",
-      "latest_checked_utc": "2026-10-17T04:48:32.406372+00:00",
+      "latest_checked_utc": "2026-10-17T04:39:31.501930+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5598,7 +5608,7 @@
       "license": "ODC Open Database Licence(ODbL);versionnotexplicitlydeclaredbyFAQ/linkedlicencetext",
       "license_url": "https://www.openplzapi.org/en/faq/ | https://raw.githubusercontent.com/openpotato/openplzapi.data/refs/heads/main/LICENSE",
       "api_verification_state": "actual_four_country_admin_array_sample_success_processed_ODbL_grant_verified",
-      "latest_checked_utc": "2026-10-17T04:48:32.406372+00:00",
+      "latest_checked_utc": "2026-10-17T04:44:04.121017+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6824,7 +6834,7 @@
       "license": "Current API-specific reuse grant unconfirmed. Official indexed conditions claim default CC BY4 scientific data but original full conditions target policy-held.",
       "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
       "api_verification_state": "actual_public_metadata_sample_success_native_traversal_timeout_deferred_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T04:28:16.122437+00:00",
+      "latest_checked_utc": "2026-10-17T04:45:31.663481+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6968,7 +6978,7 @@
       "license": "Dataset-specificAPIdatagrantsunconfirmed;AIMSrepositorymixCCBY/CCBYNC/contractlimits",
       "license_url": "https://www.aims.gov.au/cc-copyright | https://www.aims.gov.au/cc-attribution",
       "api_verification_state": "official_DOI_platform_key_required_documented_original_Swagger_policy_held_sample_untested",
-      "latest_checked_utc": "2026-10-17T04:48:32.406372+00:00",
+      "latest_checked_utc": "2026-10-17T04:43:19.918977+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6986,7 +6996,7 @@
       "license": "Publicmetadatareusegrantandopen-data-subsetscopesunconfirmed",
       "license_url": "https://www.aims.gov.au/sites/default/files/2023-05/Repository-User-Guide-2023.pdf | https://www.aims.gov.au/cc-copyright",
       "api_verification_state": "official_harvesting_protocols_documented_original_catalog_policy_held_runtime_unverified",
-      "latest_checked_utc": "2026-10-17T04:48:32.406372+00:00",
+      "latest_checked_utc": "2026-10-17T04:43:19.918977+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7166,7 +7176,7 @@
       "license": "Currentservice/percollectionreusegrantunconfirmed",
       "license_url": "https://www.data.gv.at/katalog/en/dataset/33078dd6-05e0-4263-a464-f35bd1607ecd",
       "api_verification_state": "primary_indexed_OGC_reference_original_JSON_policy_held_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T04:48:32.406372+00:00",
+      "latest_checked_utc": "2026-10-17T04:41:17.280140+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
