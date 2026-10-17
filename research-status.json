@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T16:14:33.286878+00:00",
+  "published_at": "2026-10-17T16:16:35.582359+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:12:56.726282+00:00",
+  "research_updated_at": "2026-10-17T16:16:31.451461+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "19 scientific/cultural/forest discovery tasks reviewed in three saved batches;8new services,794total255scopedopen473candidate66restricted;global universe unfinished",
+  "latest_milestone": "Three European research/network tasks assessed; UBB API candidate, Debrecen held, BioCASe54provider directory extracted/individually queued",
   "counts": {
     "verified": 255,
-    "candidates": 473,
+    "candidates": 474,
     "excluded": 66,
     "sample_successes": 468
   },
@@ -15185,6 +15185,24 @@
       "license_url": "https://bayanat.ae/en/Terms-and-Conditions",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:27:26.065777+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ubb-digital-commons-data",
+      "provider": "Babeș-Bolyai University",
+      "service_name": "Digital Commons Data institutional repository interfaces",
+      "geographic_coverage": "Romanian institution; multidisciplinary research with dataset-specific geographical scope",
+      "topical_coverage": "research; education; multidisciplinary",
+      "dataset_families": "Institutional research datasets; reproducibility metadata; bibliographic citation exports",
+      "documentation_url": "https://opendata.openscience.ubbcluj.ro/api/docs/ | https://opendata.openscience.ubbcluj.ro/faq",
+      "api_base_url": "https://opendata.openscience.ubbcluj.ro/oai (published OAI); https://opendata.openscience.ubbcluj.ro/api/citations/ (published citation export paths)",
+      "format_protocol": "Published OAI-PMH and citation API paths; DataCite XML/BibTeX/RIS/text citation formats advertised by catalogue links",
+      "authentication": "unknown for published read interfaces; no key/account acquired or sample after hold",
+      "free_access_restrictions": "Dataset-specific access and licenses; cannot assume defaultCCBY4 covers all data or metadata. Terms/access scope unresolved.",
+      "license": "Dataset-specific license choices; defaultCCBY4 not universal; metadata grant unknown",
+      "license_url": "https://opendata.openscience.ubbcluj.ro/faq | https://opendata.openscience.ubbcluj.ro/about",
+      "api_verification_state": "official_catalogue_published_API_OAI_links_documentation_policy_held_no_native_API_sample",
+      "latest_checked_utc": "2026-10-17T16:16:27.225881+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
