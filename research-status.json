@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T14:32:24.410001+00:00",
+  "published_at": "2026-10-17T14:34:27.288578+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:32:16.115555+00:00",
+  "research_updated_at": "2026-10-17T14:34:06.072041+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "ZambeziCivic8origins:764records247open457candidates60restricted;Zaragozanativecataloguedescriptor/scopedterms,Hawaiirestrictedplatform;67originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 247,
     "candidates": 457,
@@ -567,7 +567,9 @@
           "texas-state-open-data",
           "washington-state-open-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "hawaii-open-data-catalogue"
+        ]
       },
       "agriculture": {
         "status": "partial_verified",
@@ -632,6 +634,7 @@
           "opendataphilly-jkan",
           "oregon-open-data",
           "raleigh-open-data",
+          "registry-gisdata-mn-gov",
           "seattle-open-data",
           "sfwmd-repository",
           "surrey-open-data-map-service",
@@ -645,6 +648,7 @@
         "restricted_provider_ids": [
           "burlington-navigate",
           "calhhs-open-data",
+          "hawaii-open-data-catalogue",
           "north-okanagan-gis-open-data",
           "whitehorse-restricted-data-portal"
         ]
@@ -672,6 +676,7 @@
           "knb",
           "nashville-open-data",
           "neracoos-erddap",
+          "registry-gisdata-mn-gov",
           "sfwmd-repository",
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
@@ -724,7 +729,8 @@
         ],
         "restricted_provider_ids": [
           "calhhs-open-data",
-          "colorado-information-marketplace"
+          "colorado-information-marketplace",
+          "hawaii-open-data-catalogue"
         ]
       },
       "education": {
@@ -744,7 +750,8 @@
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
-          "colorado-information-marketplace"
+          "colorado-information-marketplace",
+          "hawaii-open-data-catalogue"
         ]
       },
       "housing": {
@@ -770,6 +777,7 @@
           "nyc",
           "opendataphilly-jkan",
           "princegeorge-road-traffic-api",
+          "registry-gisdata-mn-gov",
           "surrey-open-data-map-service",
           "toronto-open-data-catalog-api",
           "welland-open-data-planning-api"
@@ -797,6 +805,7 @@
           "opendataphilly-jkan",
           "oregon-open-data",
           "princegeorge-road-traffic-api",
+          "registry-gisdata-mn-gov",
           "surrey-open-data-map-service",
           "thunderbay-transit-realtime",
           "toronto-open-data-catalog-api",
@@ -868,6 +877,7 @@
           "palo-alto-open-data",
           "princegeorge-road-traffic-api",
           "raleigh-open-data",
+          "registry-gisdata-mn-gov",
           "sacramento-open-data",
           "strathcona-open-data-search",
           "surrey-open-data-map-service",
@@ -882,6 +892,7 @@
           "baton-rouge-open-data",
           "burlington-navigate",
           "denver-open-data",
+          "hawaii-open-data-catalogue",
           "idaho-taxing-district-gis",
           "mississauga-open-data",
           "north-okanagan-gis-open-data",
@@ -1321,7 +1332,8 @@
           "wales-statistics",
           "worldpop-geo",
           "worldpop-rest",
-          "worldpop-stac"
+          "worldpop-stac",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1420,7 +1432,8 @@
           "slovenia-statistics",
           "ssb",
           "statfin",
-          "wales-statistics"
+          "wales-statistics",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1506,6 +1519,7 @@
           "transportapi-fi",
           "ukraine-data",
           "wales-statistics",
+          "zaragoza-open-data-api",
           "zurich-city-open-catalog"
         ],
         "candidate_provider_ids": [
@@ -1587,7 +1601,8 @@
           "poland-bdl",
           "slovenia-statistics",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "lithuania-statistics",
@@ -1626,7 +1641,8 @@
           "rostock-open-data",
           "scotland-catalog",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1677,7 +1693,8 @@
           "switzerland",
           "torino-aperto-catalog-api",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "acdh-fcs",
@@ -1745,6 +1762,7 @@
           "statfin",
           "ukraine-data",
           "wales-statistics",
+          "zaragoza-open-data-api",
           "zurich-city-open-catalog"
         ],
         "candidate_provider_ids": [
@@ -1777,7 +1795,8 @@
           "torino-aperto-catalog-api",
           "transportapi-fi",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "aland-statistics",
@@ -1829,7 +1848,8 @@
           "uk-police",
           "worldpop-geo",
           "worldpop-rest",
-          "worldpop-stac"
+          "worldpop-stac",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "anfr-data",
@@ -1930,7 +1950,8 @@
           "tampere-open-news-feeds",
           "uk-police",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "la-rochelle-data4citizen",
@@ -2030,7 +2051,8 @@
           "slovenia-statistics",
           "tampere-open-news-feeds",
           "ukraine-data",
-          "wales-statistics"
+          "wales-statistics",
+          "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
           "acdh-fcs",
@@ -8199,7 +8221,7 @@
       "license": "Publisher municipal general reuse terms for namedcatalogue; 2026ordinanceCCBY4default subjectto specificworklicence",
       "license_url": "https://www.zaragoza.es/sede/portal/aviso-legal#condiciones",
       "api_verification_state": "native_named_catalogue_descriptor_JSON_success_before_later_list_query_policy_hold",
-      "latest_checked_utc": "2026-10-17T14:31:37.480033+00:00",
+      "latest_checked_utc": "2026-10-17T14:29:01.413592+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13457,7 +13479,7 @@
       "license": "unknown",
       "license_url": "https://gisdata.mn.gov/dataset",
       "api_verification_state": "legacy_API_returned_HTML_current_root_redirects_JS_shell_API_unconfirmed",
-      "latest_checked_utc": "2026-10-17T14:31:51.639852+00:00",
+      "latest_checked_utc": "2026-10-17T14:27:23.844719+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16951,7 +16973,7 @@
       "license": "Platform terms allow termination of data displays for any reason; per-dataset licences and effective overriding grants unreviewed",
       "license_url": "https://opendata.hawaii.gov/pages/terms-of-use",
       "api_verification_state": "publisher_CKAN_API_documented_conventional_sample_policy_held_target_unsent",
-      "latest_checked_utc": "2026-10-17T14:31:37.489223+00:00",
+      "latest_checked_utc": "2026-10-17T14:29:36.839718+00:00",
       "classification": "restricted"
     },
     {
