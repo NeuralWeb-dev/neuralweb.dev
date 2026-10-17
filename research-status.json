@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T16:10:28.508951+00:00",
+  "published_at": "2026-10-17T16:12:30.957768+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:08:08.615223+00:00",
+  "research_updated_at": "2026-10-17T16:12:00.998110+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Eight institution/research registry tasks processed with residuals; NOAA deduplicated, CMIP5 scoped current grant/nativeJSON, SWISSUbase nativeOAI, TIMDEX GET404",
+  "latest_milestone": "Eight disciplinary repository leads assessed: Maribor nativeOAI restricted, Cranach readapidenied/reuse reserved, PHI API documented restricted, TriTryp candidate",
   "counts": {
     "verified": 255,
-    "candidates": 472,
-    "excluded": 63,
+    "candidates": 473,
+    "excluded": 66,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -15033,6 +15033,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tritrypdb",
+      "provider": "TriTrypDB / VEuPathDB",
+      "service_name": "TriTrypDB REST web services",
+      "geographic_coverage": "Global kinetoplastid pathogen research; not national population data",
+      "topical_coverage": "health; biodiversity; research",
+      "dataset_families": "Kinetoplastid functional genomics; genes, genomic sequences, experimental annotations; details pending live documentation",
+      "documentation_url": "https://tritrypdb.org/tritrypdb/app/static-content/content/TriTrypDB/webServices.html | https://veupathdb.org/service-api.html",
+      "api_base_url": "",
+      "format_protocol": "REST documented by indexed official news; registry docs/about currently SPA shell",
+      "authentication": "unknown; no account/token acquired",
+      "free_access_restrictions": "unknown",
+      "license": "unknown; registry Public Domain claim not verified by operative provider terms",
+      "license_url": "https://tritrypdb.org/tritrypdb/app/static-content/about.html",
+      "api_verification_state": "indexed_official_REST_existence_docs_SPA_shell_generic_docs_held_no_native_API_success",
+      "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tuebingen-fcs",
       "provider": "University of Tübingen / WebLicht",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -17285,6 +17303,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "cranachnet-mediawiki",
+      "provider": "Cranach Research Institute / CranachNet hosted by Heidelberg University Library",
+      "service_name": "CranachNet MediaWiki API",
+      "geographic_coverage": "European Renaissance art; Lucas Cranach workshop and surroundings",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Art historical corpus; scholarly articles; artworks/images and wiki metadata",
+      "documentation_url": "https://cranach.ub.uni-heidelberg.de/wiki/api.php?action=rsd",
+      "api_base_url": "https://cranach.ub.uni-heidelberg.de/wiki/api.php",
+      "format_protocol": "MediaWiki API/JSON; RSD/XML service description",
+      "authentication": "Native read API returned readapidenied; read permission/login required, no account requested",
+      "free_access_restrictions": "Reuse reserved by project; article/image authors retain rights. No API content reads succeeded.",
+      "license": "All reuse reserved; individual author/image and aggregation rights",
+      "license_url": "https://cranach.ub.uni-heidelberg.de/wiki/index.php?title=CranachNet%3AImpressum",
+      "api_verification_state": "native_JSON_error_readapidenied_not_data_success_documented_RSD",
+      "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "deims",
       "provider": "DEIMS-SDR",
       "service_name": "DEIMS-SDR API",
@@ -17663,6 +17699,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "maribor-dkum-oai",
+      "provider": "University of Maribor",
+      "service_name": "DKUM OAI-PMH metadata service",
+      "geographic_coverage": "Slovenia institutional research; individual works vary",
+      "topical_coverage": "research; education; culture; multidisciplinary",
+      "dataset_families": "Institutional scholarly works, theses, research dataset metadata",
+      "documentation_url": "https://dk.um.si/oai/",
+      "api_base_url": "https://dk.um.si/oai/oai2.php",
+      "format_protocol": "OAI-PMH/XML",
+      "authentication": "None for successful native Identify; some metadata/full items controlled per policy",
+      "free_access_restrictions": "Metadata reuse default not-for-profit only with OAI/source attribution; some/full-item access controlled. No full-text robot harvesting except narrowly transient indexing/citation analysis.",
+      "license": "Custom not-for-profit metadata reuse policy; item-specific exceptions unreviewed",
+      "license_url": "https://dk.um.si/info/index.php/eng/policies",
+      "api_verification_state": "actual_native_OAI_Identify_XML_success_default_metadata_reuse_NC_restricted",
+      "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "mississauga-open-data",
       "provider": "City of Mississauga",
       "service_name": "Open Data Hub native catalog and advertised distributions",
@@ -17894,6 +17948,24 @@
       "license_url": "https://info.orcid.org/public-client-terms-of-service/ | https://info.orcid.org/public-data-file-use-policy/ | https://info.orcid.org/privacy-policy/",
       "api_verification_state": "documented_public_api_untested_restricted_noncommercial",
       "latest_checked_utc": "2026-10-16T20:16:51.004779+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "phi-base-api",
+      "provider": "Rothamsted Research / PHI-base consortium",
+      "service_name": "PHI-base pathogen-host interaction REST API",
+      "geographic_coverage": "Global biological research; pathogen/host coverage varies",
+      "topical_coverage": "agriculture; health; biodiversity; research",
+      "dataset_families": "Pathogen-host interactions; mutant phenotypes; host/pathogen genes; anti-infectives",
+      "documentation_url": "https://www.phi-base.org/developerResources.htm | https://raw.githubusercontent.com/PHI-base/data/master/releases/API_PHIbase4_2018-05-21.pdf",
+      "api_base_url": "http://www.phi-base.org/",
+      "format_protocol": "Documented REST/JSON search, queryID/result and details",
+      "authentication": "unknown; no data sample under restricted research/commercial terms",
+      "free_access_restrictions": "Free for academic research; commercial research requires contacting provider. Redistributing/publishing database/data to third parties requires prior permission.",
+      "license": "Custom academic-research/permission-required redistribution terms; not unrestricted open data",
+      "license_url": "https://www.phi-base.org/disclaimer.htm",
+      "api_verification_state": "official_provider_linked_REST_manual_verified_runtime_untested_restricted_terms",
+      "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
       "classification": "restricted"
     },
     {
