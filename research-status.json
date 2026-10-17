@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T16:02:18.272133+00:00",
+  "published_at": "2026-10-17T16:04:20.755328+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:59:29.375720+00:00",
+  "research_updated_at": "2026-10-17T16:02:59.480457+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "repository-access: three repository discovery tasks reviewed with explicit residuals; global universe in progress",
+  "latest_milestone": "Culture/forest three registry tasks assessed: one new API candidate, existing NeuroMorpho deduplicated, NFD open downloads API-unresolved",
   "counts": {
     "verified": 254,
-    "candidates": 469,
+    "candidates": 470,
     "excluded": 63,
-    "sample_successes": 469
+    "sample_successes": 468
   },
   "remaining_work": [
     "Original saved portal-review frontier is empty; it is only one discovery subset. Global status remains in_progress.",
@@ -6455,11 +6455,11 @@
       "api_base_url": "https://neuromorpho.org/api/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read candidate",
-      "free_access_restrictions": "Public neuron metadata API sample succeeded without credentials",
+      "free_access_restrictions": "Use API for scripted metadata retrieval and direct file URLs for reconstruction files; scripted JSP scraping forbidden. Preserve CC BY4.0 attribution/source-paper citations.",
       "license": "CC BY 4.0",
       "license_url": "https://neuromorpho.org/useterm.jsp",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:58:57.624526+00:00",
+      "api_verification_state": "historical_native_neuron_JSON_success_current_indexed_API_only_access_terms_no_new_sample",
+      "latest_checked_utc": "2026-10-17T16:02:54.502806+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11502,6 +11502,24 @@
       "license_url": "https://opendatakosovo.org/data-for-developers/",
       "api_verification_state": "official_provider_GET_JSON_documented_small_aggregate_policy_held_data_rights_unresolved",
       "latest_checked_utc": "2026-10-17T11:17:08.716049+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "kpbc-digital-library",
+      "provider": "Nicolaus Copernicus University / Kujawsko-Pomorska Digital Library",
+      "service_name": "KPBC OAI-PMH repository",
+      "geographic_coverage": "Poland; Kujawy and Pomerania cultural collections; broader holdings unreviewed",
+      "topical_coverage": "culture; education; research",
+      "dataset_families": "Digital cultural heritage; educational and regional materials; bibliographic metadata",
+      "documentation_url": "https://kpbc.umk.pl/dlibra",
+      "api_base_url": "https://kpbc.umk.pl/dlibra/oai-pmh-repository.xml",
+      "format_protocol": "OAI-PMH/XML claimed by registry; primary indexed items expose OAI identifiers",
+      "authentication": "unknown; no direct API request after access hold",
+      "free_access_restrictions": "unknown",
+      "license": "unknown for repository metadata; individual item licenses vary",
+      "license_url": "https://kpbc.umk.pl/dlibra/publication/25379/edition/33915",
+      "api_verification_state": "primary_indexed_OAI_identifiers_registry_endpoint_claim_direct_root_policy_held_API_untested",
+      "latest_checked_utc": "2026-10-17T16:02:54.502806+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
