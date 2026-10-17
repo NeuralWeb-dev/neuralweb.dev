@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T08:00:04.661412+00:00",
+  "published_at": "2026-10-17T08:02:07.409681+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:59:36.483511+00:00",
+  "research_updated_at": "2026-10-17T08:00:51.679477+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Transregional6originalsprocessed:France1266API-directoryentries/13created-sortpages,Galicia566DCATworks/1142refs,Japan18832names versus18826searchcount. Two newAPIcandidates,existingFrance/Colorado/BCupdated. 437originalleadsremain;globalin_progress.",
   "counts": {
     "verified": 208,
     "candidates": 394,
@@ -1258,6 +1258,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "austria-invekos-ogc",
+          "galicia-abertos-catalog",
           "lithuania-statistics",
           "serbia-rzs",
           "uk-trade-tariff"
@@ -1283,7 +1284,6 @@
           "emodnet",
           "estonia-statistics",
           "faroe-statistics",
-          "france",
           "georgia-statistics",
           "geri",
           "iceland-statistics",
@@ -1310,6 +1310,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "galicia-abertos-catalog",
           "latvia-statistics",
           "lithuania-statistics",
           "os-os-places-api",
@@ -1453,6 +1454,7 @@
           "clarin-vcr",
           "cocoon-fcs",
           "czech-national-corpus-fcs",
+          "galicia-abertos-catalog",
           "gotriple",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
@@ -1548,7 +1550,6 @@
           "ea-flood-monitoring",
           "ea-hydrology",
           "emodnet",
-          "france",
           "madrid-open-data",
           "openplz",
           "portugal",
@@ -1752,6 +1753,7 @@
           "cocoon-fcs",
           "czech-national-corpus-fcs",
           "diba-open-data-api",
+          "galicia-abertos-catalog",
           "gotriple",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
@@ -2483,6 +2485,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "japan-egov-data-catalog",
           "thailand-gistda"
         ],
         "restricted_provider_ids": []
@@ -2493,6 +2496,7 @@
         "candidate_provider_ids": [
           "busan-public-apis",
           "hk-weather",
+          "japan-egov-data-catalog",
           "taiwan-cwa",
           "thailand-gistda",
           "wis2-china",
@@ -2516,6 +2520,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "japan-egov-data-catalog",
           "nims-mdr"
         ],
         "restricted_provider_ids": []
@@ -2525,7 +2530,9 @@
         "verified_provider_ids": [
           "japan-dashboard"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "japan-egov-data-catalog"
+        ],
         "restricted_provider_ids": []
       },
       "education": {
@@ -2534,7 +2541,8 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
-          "cinii-books"
+          "cinii-books",
+          "japan-egov-data-catalog"
         ],
         "restricted_provider_ids": [
           "cinii-research"
@@ -2630,6 +2638,7 @@
         ],
         "candidate_provider_ids": [
           "cinii-books",
+          "japan-egov-data-catalog",
           "thailand-gistda"
         ],
         "restricted_provider_ids": [
@@ -4856,7 +4865,7 @@
       "license": "Licence Ouverte / Open Licence version 2.0 for explicitly marked dataset subset",
       "license_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
       "api_verification_state": "actual_public_JSON_sample_success_current_dataset_and_API_directory_metadata",
-      "latest_checked_utc": "2026-10-17T07:58:23.371328+00:00",
+      "latest_checked_utc": "2026-10-17T07:56:11.055690+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6116,7 +6125,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T07:49:54.827186+00:00",
+      "latest_checked_utc": "2026-10-17T07:59:23.158921+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9088,7 +9097,7 @@
       "license": "NativeCCBYSA4claims;effectivegrantconflictedbynonalterationversusderivativewordinginfullcurrentterms.",
       "license_url": "https://abertos.xunta.gal/condicions-de-uso",
       "api_verification_state": "actual_public_XML_sample_success_DCAT_metadata_only",
-      "latest_checked_utc": "2026-10-17T07:58:23.371011+00:00",
+      "latest_checked_utc": "2026-10-17T07:54:02.659235+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9610,7 +9619,7 @@
       "license": "CurrentPDL1.0portalcontentdefaultwiththirdparty/otherterms;sampledindividualworkgrantunknown.",
       "license_url": "https://data.e-gov.go.jp/info/ja/terms",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_and_package_names",
-      "latest_checked_utc": "2026-10-17T07:58:23.371157+00:00",
+      "latest_checked_utc": "2026-10-17T07:54:59.156919+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11500,7 +11509,7 @@
       "license": "unknown",
       "license_url": "https://data.civicinfo.ca/",
       "api_verification_state": "registry_claim_not_verified_latest_original_policy_held",
-      "latest_checked_utc": "2026-10-17T07:58:23.371220+00:00",
+      "latest_checked_utc": "2026-10-17T07:51:55.756513+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14526,7 +14535,7 @@
       "license": "Custom terms permit required cessation of displaying,distributing or otherwise using any data for any reason.",
       "license_url": "https://data.colorado.gov/terms",
       "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata;historical_test_preserved_current_terms_reconfirmed_no_new_data_query",
-      "latest_checked_utc": "2026-10-17T07:58:23.371298+00:00",
+      "latest_checked_utc": "2026-10-17T07:52:03.098372+00:00",
       "classification": "restricted"
     },
     {
