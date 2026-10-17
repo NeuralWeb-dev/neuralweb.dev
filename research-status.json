@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T23:19:36.653799+00:00",
+  "published_at": "2026-10-17T23:21:39.016683+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:16:17.253462+00:00",
+  "research_updated_at": "2026-10-17T23:21:18.551119+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NASAPCoE11staticreferences/grantsunresolved; PRISMOAIactualXML+metadataNCrestriction; Summitexternalarchiverefdiscovery.",
+  "latest_milestone": "Grameneoriginalschemahold/sourcegrantsunknown; NCARDASHdefaultBY4/APIreferencewithoriginalholds; GutenbergmetadataCC0+actualXML/sets/ResearchDataIDs.",
   "counts": {
-    "verified": 309,
-    "candidates": 633,
+    "verified": 311,
+    "candidates": 634,
     "excluded": 158,
     "sample_successes": 471
   },
@@ -7060,6 +7060,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "gutenberg-mainz-oai-metadata",
+      "provider": "Johannes Gutenberg University Mainz / University Library",
+      "service_name": "Gutenberg Open Science OAI-PMH metadata",
+      "geographic_coverage": "Germany institutional scholarly/researchdata metadata; exact international subjects/languages unenumerated",
+      "topical_coverage": "research | education | culture | health",
+      "dataset_families": "Publication/thesis/researchdata metadata, repository set hierarchy and ResearchData identifiers; underlying files separately licensed",
+      "documentation_url": "https://openscience.ub.uni-mainz.de/help/guidelines",
+      "api_base_url": "https://openscience.ub.uni-mainz.de/oai/request",
+      "format_protocol": "OAI-PMH2 XML anonymousIdentify,ListSets andListIdentifiers/oai_dc; firstdefaultAccept HTML transformedview not counted as XML",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Official policy metadataCC0; underlying documents/researchdata deposit/content licences and legal withdrawals separate",
+      "license": "CC0 public-domain dedication for repository metadata",
+      "license_url": "https://openscience.ub.uni-mainz.de/help/guidelines",
+      "api_verification_state": "official_primary_CC0_metadata_policy_and_anonymous_Identify_ListSets_ResearchData_identifiers_XML_success",
+      "latest_checked_utc": "2026-10-17T23:21:14.478361+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "hartford-open-data",
       "provider": "City of Hartford, Connecticut",
       "service_name": "Open Data Hartford catalogue and ArcGIS geospatial APIs",
@@ -7921,6 +7939,24 @@
       "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html",
       "api_verification_state": "documented_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T18:12:49.124851+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ncar-ucar-dash-search",
+      "provider": "NSF NCAR / University Corporation for Atmospheric Research",
+      "service_name": "DASH Search digital asset metadata portal",
+      "geographic_coverage": "NCAR/UCAR global atmospheric/Earth system research assets; source-specific coverage varies",
+      "topical_coverage": "climate | weather | environment | water | geospatial | research",
+      "dataset_families": "Discoverymetadata for datasets, models, software, publications, images andcollections; external linkedresources separate",
+      "documentation_url": "https://data.ucar.edu/ | https://docs.ckan.org/en/2.11/api/",
+      "api_base_url": "https://data.ucar.edu/api/3/action/ (native CKANAPI reference, current action responses untested)",
+      "format_protocol": "Native deployed CKANportal links CKANAPI docs, expected JSONActionAPI; no current schema/result/IDs returned",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Publicmetadata discovery; UCARdatarepository terms grant defaultBY4 unless otherwise stated; no current anonymousAPI success or quota claim",
+      "license": "Default CC BY4.0 for copyrighted materials published in UCARdata repositories unless otherwise stated; lawful-use permission for noncopyright material",
+      "license_url": "https://www.ucar.edu/terms-of-use/data",
+      "api_verification_state": "native_DASH_CKAN_API_reference_and_UCAR_default_BY4_verified_original_action_targets_robots_held_schema_runtime_unverified",
+      "latest_checked_utc": "2026-10-17T23:21:14.478361+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13575,6 +13611,24 @@
       "license_url": "https://www.dwd.de/copyright ; prior native DWD host hold retained, not re-requested",
       "api_verification_state": "official_native_product_guides_verified_no_independent_query_API_or_exact_grant",
       "latest_checked_utc": "2026-10-17T19:54:49.738290+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gramene-plant-genomics-api",
+      "provider": "Gramene plant comparative genomics research collaboration",
+      "service_name": "Gramene genomic data REST services",
+      "geographic_coverage": "Plant/crop/algal comparative research internationally, exact genomes/taxa holdings unenumerated",
+      "topical_coverage": "agriculture | biodiversity | health | research",
+      "dataset_families": "Comparative genomes, genes/annotations/ontology and pathways; currentrelease/source grants independently unreviewed",
+      "documentation_url": "https://www.gramene.org/web-services | https://github.com/warelab/gramene-mcp/blob/main/README.md",
+      "api_base_url": "https://data.gramene.org/v69/ (primary operator-associated docs, currentruntime untested)",
+      "format_protocol": "Primary indexed REST/Swagger gene search, rows/start andJSON described; nativehomepage/web-services JSshell not schemaresponse",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Current numeric/free-tier/source terms unknown; historical freereuse/GPL claims not current blanket licence",
+      "license": "unknown exact currentv69data/source grant; historical GPL and softwareMIT not universal currentdata licence",
+      "license_url": "https://www.gramene.org/web-services",
+      "api_verification_state": "native_site_JSshell_primary_indexed_current_API_base_docs_original_schema_robots_hold_current_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T23:21:14.478361+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
