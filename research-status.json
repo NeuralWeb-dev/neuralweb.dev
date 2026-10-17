@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T01:06:58.318084+00:00",
+  "published_at": "2026-10-17T01:09:00.591861+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:04:18.993020+00:00",
+  "research_updated_at": "2026-10-17T01:07:20.617038+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EMODnetselectedCCBY4product/fullISOgrant/actualboundedWFSGeoJSONverified",
+  "latest_milestone": "Manual license/access reviews applied",
   "counts": {
     "verified": 154,
     "candidates": 210,
     "excluded": 27,
-    "sample_successes": 199
+    "sample_successes": 201
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3648,8 +3648,8 @@
       "free_access_restrictions": "Officialtermssaycentralservicesfree;selectedmetadata/dataqueryfree/noaccount. Thirdpartydatasetsretainoriginatorconditions;notallrecordsopen. NoNetCDF/fileZIPbulkdownloads or paidaccess.",
       "license": "CreativeCommonsAttribution4.0International,selectedEMODnetUWWTPTreatmentPlantsproduct",
       "license_url": "https://emodnet.ec.europa.eu/en/terms-use-emodnet-online-services-data-and-data-products | https://creativecommons.org/licenses/by/4.0/legalcode | https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&elementSetName=full&id=289bcdac-bd46-4387-8c52-4fdeaf07e98a&outputSchema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:04:18.894066+00:00",
+      "api_verification_state": "documented_CSW_XML_WFS_GeoJSON_one_feature_sample_success_scoped_CCBY4_verified",
+      "latest_checked_utc": "2026-10-17T01:07:05.869513+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6962,8 +6962,8 @@
       "free_access_restrictions": "Officialwebdocsaccessible/free. Dataserviceauth/free-tierunconfirmed;publicreleasestatementnotprovedopencommercial/adaptationgrant. Nopaidacquisition.",
       "license": "DoDDISTRIBUTIONA/ApprovedforPublicReleaseDistributionUnlimited statement;operativecopyright/reusegrantunconfirmed",
       "license_url": "https://www.hycom.org/ | https://www.hycom.org/dataserver/access-methods/thredds",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:58:26.662606+00:00",
+      "api_verification_state": "documented_primary_THREDDS_OPeNDAP_API_original_sample_policy_deferred_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T00:55:39.375541+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7574,8 +7574,8 @@
       "free_access_restrictions": "Selectedmetadatafree/noaccount. SelectednativeI01licensepermitsfreeuse/redistributionbutmentionsnotintendedforlegaluse;fitness/liabilitydisclaimers. Exactadaptation/commercialscope/providerwidegrantsunresolved.",
       "license": "SelectedI01customfreeuse/redistributionnotice;operativeall-dataset/fulladaptationgrantunconfirmed",
       "license_url": "https://data.neracoos.org/erddap/info/I01_ocean_001m/index.json",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:58:27.049616+00:00",
+      "api_verification_state": "documented_ERDDAP_public_catalogue_and_info_JSON_sample_success_perdataset_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T01:07:15.166722+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8060,8 +8060,8 @@
       "free_access_restrictions": "Publicprimaryindexedmetadata/docs;directserviceaccessunresolved. SelectedindexedACOmetadata commercialuse requiresPIcontact;fulltermsunread. NoPIcontactmessage/dataquery.",
       "license": "Mixed/unconfirmed:primaryindexedACOADCPexample requiresPIcontactbeforecommercialuse;blanketopenlicenceunverified",
       "license_url": "https://pae-paha.pacioos.hawaii.edu/erddap/tabledap/aco_adcp_temp.html | https://pae-paha.pacioos.hawaii.edu/erddap/rest.html",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:58:26.855581+00:00",
+      "api_verification_state": "documented_primary_indexed_ERDDAP_REST_direct_docs_and_sample_policy_deferred_data_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T01:04:50.687419+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9087,7 +9087,7 @@
       "license": "MixednativeCCAttribution(unversioned),OtherPublicDomain,OtherOpen,missinglabels;operativeupstreamgrantsnotreviewed",
       "license_url": "https://pccos.spc.int/ocean-catalogue/bomauswave-regional-ocean-waves-forecast | https://pccos.spc.int/ocean-catalogue/hycom-global-ocean-model-forecast | https://pccos.spc.int/ocean-catalogue/public-domain-aggregated-catcheffort-data-purse-seine-data-1deg-x-1deg-monthly",
       "api_verification_state": "documented_primary_THREDDS_catalogue_links_runtime_policy_deferred_data_grants_unconfirmed",
-      "latest_checked_utc": "2026-10-17T00:51:46.487495+00:00",
+      "latest_checked_utc": "2026-10-17T00:59:14.942837+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9989,7 +9989,7 @@
       "license": "ExplicitOther(Non-Commercial) forTuvaluandMarshallIslands;otherfamiliescustomOther(Open)labelswithoperativegrantsunknown",
       "license_url": "https://pccos.spc.int/ocean-catalogue/tuvalu-wave-hindcast | https://pccos.spc.int/ocean-catalogue/marshall-islands-wave-hindcast",
       "api_verification_state": "documented_THREDDS_native_XML_catalogue_sample_success_scoped_NC_restriction_other_grants_unresolved",
-      "latest_checked_utc": "2026-10-17T00:51:46.487495+00:00",
+      "latest_checked_utc": "2026-10-17T00:59:14.942837+00:00",
       "classification": "restricted"
     },
     {
