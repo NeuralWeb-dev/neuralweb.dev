@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:41:30.610841+00:00",
+  "published_at": "2026-10-17T21:43:33.021864+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:39:36.562171+00:00",
+  "research_updated_at": "2026-10-17T21:42:31.232867+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ClinicalCodes BY3/API future-work candidate, AmericasBarometer restricted, CDPP archive restricted and AMDA separate metadata/service candidate verified.",
+  "latest_milestone": "Six original tasks reviewed in two batches; six new services(three candidates,three restricted) and one existing Harvard IFPRI alias update. AMDA13operation/version entries and IGS9filtered public-network JSON results indexed. Global discovery unfinished.",
   "counts": {
     "verified": 300,
-    "candidates": 585,
-    "excluded": 130,
+    "candidates": 586,
+    "excluded": 131,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -141,6 +141,7 @@
           "hycom",
           "iagos-atmospheric-rest",
           "icdc-climate-thredds",
+          "igs-public-network-api",
           "ioerdata-spatial-research-portal",
           "isimip-impact-repository",
           "litterbase-marine-litter-portal",
@@ -362,6 +363,7 @@
           "earthscope-sponsored-miniseed-object-repository",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
+          "igs-public-network-api",
           "ioerdata-spatial-research-portal",
           "ivs-vlbi-data-portal",
           "mit-timdex",
@@ -457,6 +459,7 @@
           "ebird",
           "edaphobase-soil-biodiversity-api",
           "inaturalist",
+          "indexs-exsiccatae-api",
           "ipd-immunopolymorphism-api",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
@@ -507,6 +510,7 @@
           "nasa-spdf-sscweb"
         ],
         "candidate_provider_ids": [
+          "amda-space-plasma-rest",
           "csiro-data-access-portal",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
@@ -566,6 +570,7 @@
           "earthstat-restricted-raster-families",
           "fao",
           "gtap-current-database",
+          "indexs-exsiccatae-api",
           "infra-art-restricted-spectra",
           "phi-base-api",
           "un-comtrade"
@@ -633,6 +638,7 @@
           "zenodo"
         ],
         "candidate_provider_ids": [
+          "amda-space-plasma-rest",
           "argo-gdac-data-interfaces",
           "arizona-campus-repository",
           "artic",
@@ -666,6 +672,7 @@
           "idigbio",
           "iers-central-bureau-webservices",
           "igets-geodynamics-data-archive",
+          "igs-public-network-api",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
           "isdc-public-data-archive",
@@ -712,6 +719,7 @@
           "eida-orfeus-routing-federation",
           "ghdx-ihme-discovery",
           "harvard-dataverse",
+          "indexs-exsiccatae-api",
           "infra-art-restricted-spectra",
           "intermagnet-geomagnetic-api",
           "ipd-immunopolymorphism-api",
@@ -2001,6 +2009,7 @@
           "balearic-open-data",
           "cambridgeshire-insight",
           "cessda-catalogue",
+          "clinicalcodes-repository",
           "drks-german-clinical-trials-register",
           "latvia-statistics",
           "lithuania-statistics",
@@ -2394,7 +2403,8 @@
         "restricted_provider_ids": [
           "bioimages-uk-field-guide",
           "edaphobase-soil-biodiversity-api",
-          "geoguyane-csw-catalogue"
+          "geoguyane-csw-catalogue",
+          "indexs-exsiccatae-api"
         ]
       },
       "oceans": {
@@ -2518,6 +2528,7 @@
         "restricted_provider_ids": [
           "bnf-gallica",
           "cranachnet-mediawiki",
+          "indexs-exsiccatae-api",
           "lindat-fcs",
           "maribor-dkum-oai",
           "swiss-al-fcs",
@@ -2583,6 +2594,7 @@
           "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "clinicalcodes-repository",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
           "crc806-legacy-research-database",
@@ -2634,6 +2646,7 @@
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "eurocat-controlled-research-data",
+          "indexs-exsiccatae-api",
           "lindat-fcs",
           "maribor-dkum-oai",
           "neps-survey-research-access",
@@ -13399,6 +13412,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "igs-public-network-api",
+      "provider": "International GNSS Service",
+      "service_name": "IGS public network metadata API and data distribution discovery",
+      "geographic_coverage": "Global GNSS ground-station networks; international data centers, no all-country inventory claimed",
+      "topical_coverage": "geospatial | research | climate/weather/environment",
+      "dataset_families": "GNSS network/station/equipment metadata, station observations and derived precise orbit/clock/ionosphere/troposphere product discovery; source distribution centers separate",
+      "documentation_url": "https://igs.org/station-resources/ | https://network.igs.org/ | https://igs-slm.readthedocs.io/en/latest/ | https://igs-slm.readthedocs.io/en/latest/APIs.html",
+      "api_base_url": "https://network.igs.org/api/public/",
+      "format_protocol": "Native anonymous public-network JSON array9records; network root publishes public endpoint/search attribute. RINEX archives and NTRIP/RTCM streams documented separately, not sampled.",
+      "authentication": "Anonymous public-network query succeeded. SLM editing restricted to authorized operators; RTS streams require subscriber registration and acceptance, neither performed.",
+      "free_access_restrictions": "IGS terms say station data/products free for scientific/educational/commercial users; exact public metadata/database grant and distribution-center conditions remain distinct. No paid acquisition or signup.",
+      "license": "Custom IGS Data and Product Disclaimer and Terms of Use(2020-08-05); expressly unrestricted scientific/educational/commercial use of station data/products with attribution; explicit public metadata/database grant unresolved",
+      "license_url": "https://igs.org/wp-content/uploads/2020/09/IGS-Data-and-Product-Disclaimer-and-Terms-of-Use-200805.pdf",
+      "api_verification_state": "native_public_network_JSON9results_success_published_HTML_endpoint_verified_grant_scope_unresolved",
+      "latest_checked_utc": "2026-10-17T21:41:56.210757+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ilc4clarin-fcs",
       "provider": "ILC4CLARIN / CNR Institute for Computational Linguistics",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -21497,7 +21528,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
-      "latest_checked_utc": "2026-10-17T19:26:34.890393+00:00",
+      "latest_checked_utc": "2026-10-17T21:41:56.210757+00:00",
       "classification": "restricted"
     },
     {
@@ -21660,6 +21691,24 @@
       "license_url": "https://www.indepth-ishare.org/index.php/catalog/39/accesspolicy",
       "api_verification_state": "original_root_policy_held_indexed_primary_restrictive_terms_documented_public_API_unresolved_no_native_sample",
       "latest_checked_utc": "2026-10-17T17:03:58.479790+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "indexs-exsiccatae-api",
+      "provider": "SNSB Botanische Staatssammlung München / SNSB IT Center",
+      "service_name": "IndExs Index of Exsiccatae discovery portal and documented service",
+      "geographic_coverage": "Worldwide herbarium/exsiccatal-series references and holdings discovery, operated in Germany; no complete inventory enumerated",
+      "topical_coverage": "biodiversity | culture | research",
+      "dataset_families": "Exsiccatae series titles, abbreviations, contents, bibliographic/publication information and permanent series identifiers",
+      "documentation_url": "http://www.botanischestaatssammlung.de/DatabaseClients/IndExs/webservice.jsp | https://www.botanischestaatssammlung.de/DatabaseClients/IndExs/About.jsp",
+      "api_base_url": "https://services.snsb.info/indexs/api/v1 (registry-listed, current runtime untested)",
+      "format_protocol": "Native original portal HTML frame points to BSM client. Registry REST claim; official indexed About describes SOAP service, current API protocol/runtime unresolved.",
+      "authentication": "unknown public API auth; no credentials/accounts used",
+      "free_access_restrictions": "Indexed official current About permits search-result use for noncommercial purposes; commercial use requires prior written agreement, not sought",
+      "license": "Official indexed About search-result terms restrict commercial use; no current universal open data/database grant",
+      "license_url": "https://www.botanischestaatssammlung.de/DatabaseClients/IndExs/About.jsp",
+      "api_verification_state": "native_original_frame_verified_doc_target_policy_hold_indexed_official_NC_terms_no_API_sample",
+      "latest_checked_utc": "2026-10-17T21:41:56.210757+00:00",
       "classification": "restricted"
     },
     {
