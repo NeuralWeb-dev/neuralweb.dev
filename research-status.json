@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T20:09:29.335443+00:00",
+  "published_at": "2026-10-17T20:11:32.171636+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:09:09.955303+00:00",
+  "research_updated_at": "2026-10-17T20:10:20.452824+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DIGIS currentGFZ CC0/BY4 policy verified versus registryGROhold; ICGEM/LITTERBASE docs reviewed with API/source-rights gaps",
+  "latest_milestone": "Six originals processed; five records added and WDCC clarified without coastDat duplication. INTERMAGNET native154observatories/3074HAPI IDs verified underNCdefault; DIGIS currentGFZ rights versus legacyGROhold preserved; global discovery unfinished.",
   "counts": {
     "verified": 282,
     "candidates": 540,
@@ -141,6 +141,7 @@
           "icdc-climate-thredds",
           "ioerdata-spatial-research-portal",
           "isimip-impact-repository",
+          "litterbase-marine-litter-portal",
           "nasa-api",
           "nasa-power",
           "noaa-erddap",
@@ -164,6 +165,7 @@
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "fao",
+          "intermagnet-geomagnetic-api",
           "karlsruher-wolkenatlas",
           "oceanrep-oai-metadata",
           "open-meteo",
@@ -336,6 +338,7 @@
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
+          "icgem-gravity-model-portal",
           "ioerdata-spatial-research-portal",
           "ivs-vlbi-data-portal",
           "mit-timdex",
@@ -414,6 +417,7 @@
           "esa-ecology",
           "idigbio",
           "isimip-impact-repository",
+          "litterbase-marine-litter-portal",
           "planetary-computer",
           "smithsonian",
           "tritrypdb"
@@ -448,6 +452,7 @@
           "dataterra-eosc-resource-catalogue",
           "hycom",
           "icdc-climate-thredds",
+          "litterbase-marine-litter-portal",
           "noaa-erddap",
           "noaa-ncei",
           "seabass-sst-validation-api",
@@ -469,6 +474,7 @@
         ],
         "candidate_provider_ids": [
           "csiro-data-access-portal",
+          "icgem-gravity-model-portal",
           "internet-archive-metadata",
           "ivs-vlbi-data-portal",
           "jpl-ssd",
@@ -590,6 +596,7 @@
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
+          "digis-repository-interfaces",
           "ena",
           "esa-ecology",
           "europepmc",
@@ -603,6 +610,7 @@
           "iagos-atmospheric-rest",
           "iati-dashboard-metadata",
           "icdc-climate-thredds",
+          "icgem-gravity-model-portal",
           "idigbio",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
@@ -610,6 +618,7 @@
           "ivs-vlbi-data-portal",
           "jpl-ssd",
           "kth-data-repository-api",
+          "litterbase-marine-litter-portal",
           "loc",
           "mit-timdex",
           "nih-clinicaltrials",
@@ -642,6 +651,7 @@
           "ghdx-ihme-discovery",
           "harvard-dataverse",
           "infra-art-restricted-spectra",
+          "intermagnet-geomagnetic-api",
           "ipd-immunopolymorphism-api",
           "oceanrep-oai-metadata",
           "orcid",
@@ -3946,7 +3956,8 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
-          "polar-data-catalogue-metadata-api"
+          "polar-data-catalogue-metadata-api",
+          "seaice-portal"
         ]
       },
       "water": {
@@ -4070,7 +4081,8 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
-          "polar-data-catalogue-metadata-api"
+          "polar-data-catalogue-metadata-api",
+          "seaice-portal"
         ]
       },
       "astronomy": {
@@ -4101,7 +4113,8 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
-          "polar-data-catalogue-metadata-api"
+          "polar-data-catalogue-metadata-api",
+          "seaice-portal"
         ]
       }
     },
