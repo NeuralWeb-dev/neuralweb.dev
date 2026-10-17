@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:56:41.381704+00:00",
+  "published_at": "2026-10-17T17:58:44.107795+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:56:24.138000+00:00",
+  "research_updated_at": "2026-10-17T17:57:51.291886+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ISO, AGDC and Oxford Text Archive primary access/licensing review checkpointed",
+  "latest_milestone": "FlowRepository client API, EcoCyc exception and ALSPAC controlled access checkpointed",
   "counts": {
-    "verified": 270,
+    "verified": 271,
     "candidates": 491,
-    "excluded": 86,
+    "excluded": 87,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -5802,6 +5802,24 @@
       "license_url": "https://finto.fi/yso/en/ | https://api.finto.fi/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T02:07:01.322059+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "flowrepository-public-api",
+      "provider": "International Society for Advancement of Cytometry (ISAC)",
+      "service_name": "FlowRepository public experiment API",
+      "geographic_coverage": "International scientific contributions; exact country coverage unknown",
+      "topical_coverage": "health | research | biology",
+      "dataset_families": "MIFlowCyt-annotated flow cytometry experiments; public experiment metadata, FCS-file descriptions and attachments",
+      "documentation_url": "http://flowrepository.org/developers | http://flowrepository.org/images/pdf/FlowRepositoryAPI.pdf",
+      "api_base_url": "http://flowrepository.org/list",
+      "format_protocol": "Read-only HTTP GET XML; documented API version 0.1 beta; linked FCS/attachment files not fetched",
+      "authentication": "Assigned client ID required by API documentation; obtained by contacting operator. No contact or ID requested.",
+      "free_access_restrictions": "Public experiments browser-accessible without authentication per privacy policy. API client ID mandatory; price not stated. No paid access purchased. Current landing warns storage capacity impacts downloads and suspends new experiment creation.",
+      "license": "Custom attribution reuse permission for ISAC-controlled rights; third-party rights reserved",
+      "license_url": "http://flowrepository.org/terms_of_service | http://flowrepository.org/privacy_policy",
+      "api_verification_state": "documented_api_client_id_required_sample_untested",
+      "latest_checked_utc": "2026-10-17T17:57:47.395375+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17815,6 +17833,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "alspac-cohort-access-portal",
+      "provider": "University of Bristol",
+      "service_name": "ALSPAC cohort data access portal (restricted; public data API not established)",
+      "geographic_coverage": "Avon/Bristol United Kingdom birth cohort and subsequent generations; not worldwide population coverage",
+      "topical_coverage": "health | demographics | education | housing | labor | environment | research",
+      "dataset_families": "Longitudinal phenotypic, environmental, genetic, biological sample and linked health/education data; public variable catalogue/dictionary and external training-data references",
+      "documentation_url": "https://www.bristol.ac.uk/alspac/researchers/access/ | https://www.bristol.ac.uk/alspac/researchers/our-data/",
+      "api_base_url": "",
+      "format_protocol": "Access application workflow and public browser/ZIP variable documentation; no public participant-data API established",
+      "authentication": "Proposal approval by ALSPAC Executive Committee and access paperwork; no registration or submission performed",
+      "free_access_restrictions": "Access policy describes costs and approval process. Cohort data not open acquisition. External training/sample datasets independently scoped, not automatically cleared.",
+      "license": "Controlled access and agreements; open licence not established for participant data",
+      "license_url": "https://www.bristol.ac.uk/alspac/researchers/access/",
+      "api_verification_state": "restricted_access_portal_documented_public_api_unconfirmed",
+      "latest_checked_utc": "2026-10-17T17:57:47.395375+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "arachne-idai-objects-api",
       "provider": "German Archaeological Institute / University of Cologne",
       "service_name": "iDAI.objects Arachne REST API",
@@ -17901,7 +17937,7 @@
       "license": "SRI BioCyc Limited Use License: Limited Databases maynotberedistributed",
       "license_url": "https://bioinformatics.ai.sri.com/ptools/licensing/all-reg.shtml",
       "api_verification_state": "untested_policy_restricted",
-      "latest_checked_utc": "2026-10-17T17:44:25.357144+00:00",
+      "latest_checked_utc": "2026-10-17T17:57:47.395375+00:00",
       "classification": "restricted"
     },
     {
