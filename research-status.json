@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T07:25:18.454203+00:00",
+  "published_at": "2026-10-17T07:27:21.364235+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:22:21.374187+00:00",
+  "research_updated_at": "2026-10-17T07:25:19.079900+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Swiss canton batch in progress:two Zurich named open services andGenevaSITG rights-unconfirmed service added. Zurich731metadata/1549distributionclaims and13referenceentities;SITG1824advertisedservices. Original eightqueue notyet advanced;globalin_progress.",
+  "latest_milestone": "Swiss canton batch:3 servicesadded(2namedZürichopen,1SITGcandidate),FribourgcurrentfullHTMLtermsrevealadditionalpurposeconditionsandmoveexistingentrytocandidate. 633total=207open/385candidates/41restricted;globalin_progress.",
   "counts": {
-    "verified": 208,
-    "candidates": 384,
+    "verified": 207,
+    "candidates": 385,
     "excluded": 41,
     "sample_successes": 391
   },
@@ -6380,24 +6380,6 @@
       "classification": "open_license_verified"
     },
     {
-      "identifier": "registry-opendata-fr-ch",
-      "provider": "Opendata Canton de Fribourg",
-      "service_name": "Opendata Canton de Fribourg portal API",
-      "geographic_coverage": "Switzerland/Fribourg",
-      "topical_coverage": "demographics",
-      "dataset_families": "Cantonal datasets; sampled collective households",
-      "documentation_url": "https://opendata.fr.ch",
-      "api_base_url": "https://opendata.fr.ch/api/explore/v2.1/",
-      "format_protocol": "Opendatasoft Explore API/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.422590+00:00",
-      "classification": "open_license_verified"
-    },
-    {
       "identifier": "registry-opendata-gov-je",
       "provider": "opendata.gov.je",
       "service_name": "opendata.gov.je portal API",
@@ -11599,6 +11581,24 @@
       "license_url": "https://opendata.bratislava.sk",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:42:36.893564+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "registry-opendata-fr-ch",
+      "provider": "Opendata Canton de Fribourg",
+      "service_name": "Opendata Canton de Fribourg portal API",
+      "geographic_coverage": "Switzerland/Fribourg",
+      "topical_coverage": "demographics",
+      "dataset_families": "Cantonal datasets; sampled collective households",
+      "documentation_url": "https://opendata.fr.ch",
+      "api_base_url": "https://opendata.fr.ch/api/explore/v2.1/",
+      "format_protocol": "Opendatasoft Explore API/JSON",
+      "authentication": "unknown; public sample attempted without credentials",
+      "free_access_restrictions": "Public catalog JSON sample succeeded without credentials  Full current operative CGU sections1–10 read from independently published literal footer HTML terms link. PDF itself remains unreadable byavailableextractor;HTML200 was not an alternate protected-route workaround. Section4 adds purpose conditions alongsideCCBYSA4,andthird-party source exceptions;effective interaction unresolved,so entry moved fromverified-open tolicensing-unconfirmed. Section5 prohibits alteration of reproducedportalpages,not automaticallyadaptationofdata. Sections3/6 permitfuturedata/accesswithdrawal,notpostreusecancellation;section9 changingportalCGUs notautomaticallyretroactivewithdrawalofstandardlicence. No new non-personal entities or key/account requests.",
+      "license": "Native named-work CC BY-SA4.0 claim;additional current CGU purpose conditions unresolved.",
+      "license_url": "https://opendata.fr.ch/terms/terms-and-conditions/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-16T16:43:35.422590+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
