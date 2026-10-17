@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T22:38:43.072613+00:00",
+  "published_at": "2026-10-17T22:40:45.747640+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:38:22.620015+00:00",
+  "research_updated_at": "2026-10-17T22:40:28.693630+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed; five new records and NIMS updated. ERCOFTAC95 case references indexed; source restrictions and API/challenge/timeout/auth distinctions retained.",
+  "latest_milestone": "MMDB native Web API docs and third-party rights caveat; travel archive table/general terms; POLEN original robots hold.",
   "counts": {
     "verified": 305,
-    "candidates": 609,
+    "candidates": 612,
     "excluded": 149,
     "sample_successes": 472
   },
@@ -15125,6 +15125,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ncbi-mmdb-structure",
+      "provider": "NCBI / National Library of Medicine",
+      "service_name": "MMDB Structure and documented structure Web API",
+      "geographic_coverage": "International molecular structure research; not population/geographic observations",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Experimental protein/RNA/DNA structures derived from PDB; chemical graphs, domains, structure/sequence links",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/Structure/MMDB/docs/mmdb_help.html",
+      "api_base_url": "https://www.ncbi.nlm.nih.gov/Structure/mmdb/mmdb_strview.cgi",
+      "format_protocol": "Native MMDB help documents Web API JSON/XML/ASN.1/PDB with uid, biological unit, display and complexity parameters",
+      "authentication": "No credentials or accounts used",
+      "free_access_restrictions": "NCBI molecular data policy encourages use/distribution but expressly reserves possible submitter/country IP claims",
+      "license": "No restrictions imposed by NCBI itself on molecular data; exact underlying rights unresolved",
+      "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "api_verification_state": "native_MMDB_Web_API_docs_verified_Bookshelf_Eutilities_doc_HTTP200_recaptcha_sample_untested",
+      "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nced-data-repository",
       "provider": "University of Minnesota / National Center for Earth-Surface Dynamics",
       "service_name": "NCED Data Repository directory",
@@ -15320,6 +15338,24 @@
       "license_url": "https://www.nist.gov/open/license",
       "api_verification_state": "native_API_reference_JSON_array_success12entries11unique_full_OpenAPI_verified_metadata_grant_scope_unconfirmed",
       "latest_checked_utc": "2026-10-17T16:42:42.064274+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nlr-metropolitan-travel-survey-archive",
+      "provider": "National Laboratory of the Rockies / Transportation Secure Data Center",
+      "service_name": "Metropolitan Travel Survey Archive",
+      "geographic_coverage": "United States metropolitan/state travel surveys from public agencies; full geographic row references indexed",
+      "topical_coverage": "transportation | demographics | geospatial | research",
+      "dataset_families": "Historical travel surveys, standardized cleansed files and XML/PDF methodology metadata",
+      "documentation_url": "https://www.nlr.gov/transportation/secure-transportation-data/tsdc-metropolitan-travel-survey-archive",
+      "api_base_url": "",
+      "format_protocol": "Published raw-data file links and XML/PDF metadata links; not proof of query API",
+      "authentication": "No credentials or accounts used",
+      "free_access_restrictions": "Native archive describes continued public availability, standardized files with personal identifiers and detailed trip spatial data removed; linked files not accessed",
+      "license": "Native general data terms allow no-fee use/copy with notice and attribution; archive-specific derivative/third-party source scope unknown",
+      "license_url": "https://www.nlr.gov/disclaimer",
+      "api_verification_state": "native_archive_reference_table_and_general_data_terms_verified_query_API_exact_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16634,6 +16670,24 @@
       "license_url": "https://stat.gov.pl/en/copyright/",
       "api_verification_state": "documented_credential_required_untested_license_unconfirmed",
       "latest_checked_utc": "2026-10-16T21:24:01.619280+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "polen-datahub-portugal",
+      "provider": "FCCN / Fundação para a Ciência e a Tecnologia",
+      "service_name": "POLEN DataHub research data repository",
+      "geographic_coverage": "Portugal scientific community; actual dataset geographic inventory unenumerated",
+      "topical_coverage": "research | education | social sciences",
+      "dataset_families": "Multidisciplinary research datasets; exact current holdings unverified natively",
+      "documentation_url": "https://datahub.polen.fccn.pt/",
+      "api_base_url": "https://datahub.polen.fccn.pt/api/search (registry REST claim, untested)",
+      "format_protocol": "Registry Dataverse REST/OAI-PMH claims, current native schemas unverified; SWORD write interfaces excluded",
+      "authentication": "No credentials or accounts used",
+      "free_access_restrictions": "Registry open/restricted mix; current API access and per-item file controls unverified",
+      "license": "unknown exact native metadata/database and item licences; registry CC/CC0 mix not accepted as universal grant",
+      "license_url": "https://datahub.polen.fccn.pt/",
+      "api_verification_state": "native_root_robots_deferred_target_unsent_registry_API_and_exact_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
