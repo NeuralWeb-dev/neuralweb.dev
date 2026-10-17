@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T21:06:45.447740+00:00",
+  "published_at": "2026-10-17T21:08:48.065674+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:05:46.221038+00:00",
+  "research_updated_at": "2026-10-17T21:06:43.658962+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IDC scoped CC BY series/API metadata and CERN CC0/OAI verified; PublicnEUro mixed access candidate. Indexed 179 IDC collections, 21 operations, one license sample and five CERN format declarations.",
+  "latest_milestone": "Nine original discovery tasks processed in three batches; nine services added: two scoped-open, five candidates, two restricted. IDC179 collection summaries and CERN OAI formats indexed. Global discovery remains unfinished.",
   "counts": {
     "verified": 292,
     "candidates": 568,
@@ -242,6 +242,7 @@
         ],
         "candidate_provider_ids": [
           "biostudies",
+          "drks-german-clinical-trials-register",
           "ena",
           "europepmc",
           "gwas-catalog",
@@ -632,6 +633,7 @@
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
           "digis-repository-interfaces",
+          "drks-german-clinical-trials-register",
           "earthchem-library-repository",
           "earthscope-sponsored-miniseed-object-repository",
           "ena",
@@ -1670,6 +1672,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "bundesbank",
+          "european-history-online",
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
@@ -1963,10 +1966,12 @@
           "balearic-open-data",
           "cambridgeshire-insight",
           "cessda-catalogue",
+          "drks-german-clinical-trials-register",
           "latvia-statistics",
           "lithuania-statistics",
           "navarra-open-data",
           "nfdi4health-study-hub",
+          "publicneuro-repository",
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
           "swissubase-oai",
@@ -2308,6 +2313,7 @@
           "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
+          "european-history-online",
           "la-rochelle-data4citizen",
           "paris",
           "poland-gus-smup",
@@ -2438,6 +2444,7 @@
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "diba-open-data-api",
+          "european-history-online",
           "france-culture-open-data-portal",
           "galicia-abertos-catalog",
           "gotriple",
@@ -2530,7 +2537,9 @@
           "cocoon-fcs",
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
+          "drks-german-clinical-trials-register",
           "earthprints-geoscience-repository-api",
+          "european-history-online",
           "france-culture-open-data-portal",
           "gotriple",
           "granada-university-open-data",
@@ -2545,6 +2554,7 @@
           "perspectivia",
           "portulan-fcs",
           "portulan-repository",
+          "publicneuro-repository",
           "rijksmuseum",
           "saw-leipzig-fcs",
           "seadatanet-cdi-discovery-network",
@@ -4026,6 +4036,7 @@
           "aadc-weather",
           "apgc-permafrost-ckan",
           "copenhagen-geomagnetic-index-archive",
+          "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "nsidc"
         ],
@@ -4043,7 +4054,8 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
-          "apgc-permafrost-ckan"
+          "apgc-permafrost-ckan",
+          "lter-italy-dataset-asset-registry"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -4102,6 +4114,7 @@
           "aadc-gazetteer",
           "aadc-metadata",
           "apgc-permafrost-ckan",
+          "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "nsidc"
         ],
@@ -4140,6 +4153,7 @@
           "arctic-data"
         ],
         "candidate_provider_ids": [
+          "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal"
         ],
         "restricted_provider_ids": []
@@ -4152,6 +4166,7 @@
           "pangaea"
         ],
         "candidate_provider_ids": [
+          "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal"
         ],
         "restricted_provider_ids": [
@@ -4187,6 +4202,7 @@
           "aadc-metadata",
           "apgc-permafrost-ckan",
           "copenhagen-geomagnetic-index-archive",
+          "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal"
         ],
         "restricted_provider_ids": [
