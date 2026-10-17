@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:21:04.337519+00:00",
+  "published_at": "2026-10-17T21:23:06.835198+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:19:04.649044+00:00",
+  "research_updated_at": "2026-10-17T21:22:11.261341+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Claremont native80collection JSON verified, Charité restricted transfer documented, TextGrid public OAI39sets/3formats and exact BY4 edition grant verified with mixed-source limitations.",
+  "latest_milestone": "VU Yoda native206published-package identifiers completed; Caltech legacy/API identity remains unresolved, BioImages primary noncommercial terms recorded as restricted.",
   "counts": {
     "verified": 294,
-    "candidates": 573,
-    "excluded": 126,
+    "candidates": 575,
+    "excluded": 127,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -10598,6 +10598,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "caltech-labnotes-registry-findingaid",
+      "provider": "Caltech Archives and Special Collections (registry-linked finding-aid endpoint)",
+      "service_name": "CaltechLabNotes legacy repository identity / archival finding-aid lead",
+      "geographic_coverage": "Caltech/US institutional association from registry-linked host; exact described source geography unknown",
+      "topical_coverage": "research | culture | history",
+      "dataset_families": "unknown current collection/source families; registry labels CaltechLabNotes and links an archival-object page, not verified source dataset catalogue",
+      "documentation_url": "https://collections.archives.caltech.edu/repositories/2/archival_objects/135925",
+      "api_base_url": "",
+      "format_protocol": "Empty text/html HTTP202 response, not metadata/API success",
+      "authentication": "Unknown current read-API access; no source API contract or successful finding-aid body, no private route queried",
+      "free_access_restrictions": "Public discovery does not establish exact source reuse rights",
+      "license": "unknown current formal source, metadata or database grant",
+      "license_url": "https://collections.archives.caltech.edu/repositories/2/archival_objects/135925",
+      "api_verification_state": "original_native_empty_HTTP202_web_route_robots_blocked_current_repository_identity_API_and_rights_unresolved",
+      "latest_checked_utc": "2026-10-17T21:22:07.064817+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cambridgeshire-insight",
       "provider": "Cambridgeshire County Council and local partnership",
       "service_name": "Cambridgeshire and Peterborough DKAN metadata and datastore API",
@@ -18392,6 +18410,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "vu-yoda-publication-metadata",
+      "provider": "Vrije Universiteit Amsterdam / VU Yoda",
+      "service_name": "VU Yoda published-package OAI metadata feed",
+      "geographic_coverage": "Dutch institutional research repository; package-level research geographies not reviewed, not a Netherlands-only or world-complete data claim",
+      "topical_coverage": "research",
+      "dataset_families": "Published research-package DOI identifiers and structured metadata from VU Yoda; actual files span open, restricted and closed access with individual licenses",
+      "documentation_url": "https://rdm.vu.nl/tools/yoda/metadata.html | https://rdm.vu.nl/tools/yoda/workflow_metadata_licence.html | https://rdm.vu.nl/tools/yoda/",
+      "api_base_url": "https://publication.yoda.vu.nl/oai/oai",
+      "format_protocol": "Native OAI-PMH2 XML Identify, four formats, noSetHierarchy, complete current ListIdentifiers frontier in3pages",
+      "authentication": "Native publication OAI metadata anonymous; institutional collaborative storage/iRODS/WebDAV/SRAM access is distinct and not entered",
+      "free_access_restrictions": "Anonymous OAI metadata success; source restricted/closed packages not freely retrievable. Storage/custom access costs not inferred to be API fees; no paid service or account used.",
+      "license": "Per-package license/custom conditions, including open/restricted/closed; preferred or recommended open licenses are not universal source/metadata assignments",
+      "license_url": "https://rdm.vu.nl/tools/yoda/workflow_metadata_licence.html",
+      "api_verification_state": "native_OAI_Identify_four_formats_noSetHierarchy_206_unique_package_headers_three_terminal_pages_success_exact_metadata_source_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:22:07.064817+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wa-slip-public-geospatial-services",
       "provider": "Western Australia / Landgate Shared Location Information Platform",
       "service_name": "SLIP public geospatial web services",
@@ -20245,6 +20281,24 @@
       "license_url": "https://bioinformatics.ai.sri.com/ptools/licensing/all-reg.shtml",
       "api_verification_state": "untested_policy_restricted",
       "latest_checked_utc": "2026-10-17T19:20:32.572661+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bioimages-uk-field-guide",
+      "provider": "Malcolm Storey / BioImages UK and contributing photographers",
+      "service_name": "BioImages visual guide to Britain and Ireland biodiversity",
+      "geographic_coverage": "Britain and Ireland biodiversity, with a focus on smaller/less commonly photographed groups; exact species inventory unenumerated",
+      "topical_coverage": "biodiversity | research | education",
+      "dataset_families": "Species/taxonomic photographic descriptions, life stages, structures and diagnostic features; no media or full taxonomy inventory harvested",
+      "documentation_url": "https://www.bioimages.org.uk/ | https://www.bioimages.org.uk/cright.htm",
+      "api_base_url": "",
+      "format_protocol": "Native HTML guide/navigation/terms, no API response verified",
+      "authentication": "No account, key, credential or private source access",
+      "free_access_restrictions": "Public guide/terms readable; commercial image use can require per-image payment, not acquired. Exact API quotas/access unknown because no API contract established.",
+      "license": "CC BY-NC-SA2.0 UK England & Wales for original Malcolm Storey material unless otherwise stated; third-party copyright exceptions",
+      "license_url": "https://www.bioimages.org.uk/cright.htm | http://creativecommons.org/licenses/by-nc-sa/2.0/uk/",
+      "api_verification_state": "native_primary_noncommercial_source_terms_verified_no_public_query_API_established",
+      "latest_checked_utc": "2026-10-17T21:22:07.064817+00:00",
       "classification": "restricted"
     },
     {
