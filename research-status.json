@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T05:49:08.971168+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-17T05:51:11.680570+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T05:44:46.827342+00:00",
+  "research_updated_at": "2026-10-17T05:50:57.649024+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original Pacific/Canada portal origins processed; four services added (Kitchener scoped open, California/Busan candidates, Burlington restricted). Native catalogs561/162 complete next links; Newfoundland83HTMLmetadata/APIunestablished; ClimateCommons49references partial after timeout. Global in_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Eight further original portal origins reviewed; Balearic/Cambridgeshire structured samples retained as rights-unconfirmed candidates; CalHHS current custom termination terms restricted; 548 original leads remain. Global in_progress.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 198,
-    "candidates": 356,
-    "excluded": 36,
-    "sample_successes": 355
+    "candidates": 358,
+    "excluded": 37,
+    "sample_successes": 357
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -505,7 +505,9 @@
           "california-open-data",
           "census-tigerweb"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "calhhs-open-data"
+        ]
       },
       "economics/finance": {
         "status": "partial_verified",
@@ -580,7 +582,8 @@
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
-          "burlington-navigate"
+          "burlington-navigate",
+          "calhhs-open-data"
         ]
       },
       "water": {
@@ -634,7 +637,9 @@
           "connect211-hsda",
           "connect211-search"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "calhhs-open-data"
+        ]
       },
       "education": {
         "status": "partial_verified",
@@ -1101,6 +1106,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "bologna-open-data",
+          "cambridgeshire-insight",
           "cessda-catalogue",
           "insee",
           "latvia-statistics",
@@ -1256,6 +1262,7 @@
         "candidate_provider_ids": [
           "aragon-core",
           "aragon-sparql",
+          "balearic-open-data",
           "bologna-open-data",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
@@ -1346,6 +1353,8 @@
           "aland-statistics",
           "aragon-core",
           "aragon-sparql",
+          "balearic-open-data",
+          "cambridgeshire-insight",
           "cessda-catalogue",
           "latvia-statistics",
           "lithuania-statistics",
@@ -1441,6 +1450,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "cambridgeshire-insight",
           "lithuania-statistics",
           "os-os-places-api",
           "serbia-rzs"
@@ -1512,6 +1522,7 @@
           "aragon-sparql",
           "austria-invekos-ogc",
           "bologna-open-data",
+          "cambridgeshire-insight",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -7375,6 +7386,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "balearic-open-data",
+      "provider": "Govern de les Illes Balears",
+      "service_name": "Balearic Islands CKAN DataStore API",
+      "geographic_coverage": "Balearic Islands,Spain",
+      "topical_coverage": "Environment,air quality,tourism,transport,health,public administration",
+      "dataset_families": "Actual keyless public read returned success:true/one record/8784 total and pollutant/date fields. API examples include optional-looking token placeholders, but this bounded GET needed none. Full current terms explicitly permit commercial/adapted reuse, require source/update credit and prohibit alteration of information; exact interaction unresolved. Third-party rights/paid exceptions retained; not all datasets uniformly licensed.",
+      "documentation_url": "https://intranet.caib.es/opendatacataleg/es/api/1/util/snippet/api_info.html?resource_id=63799bbb-cb19-4e76-9a08-00806d7431b1",
+      "api_base_url": "https://intranet.caib.es/opendatacataleg/es/api/3/action/",
+      "format_protocol": "CKAN Action API/JSON",
+      "authentication": "Actual anonymous bounded read, no credentials",
+      "free_access_restrictions": "No paid access/account/key acquisition; exact quota and exceptional data conditions unknown. Actual keyless public read returned success:true/one record/8784 total and pollutant/date fields. API examples include optional-looking token placeholders, but this bounded GET needed none. Full current terms explicitly permit commercial/adapted reuse, require source/update credit and prohibit alteration of information; exact interaction unresolved. Third-party rights/paid exceptions retained; not all datasets uniformly licensed.",
+      "license": "CC BY 3.0 Spain linked default with additional no-alteration condition; reconciliation unresolved",
+      "license_url": "https://www.caib.es/sites/opendatacaib/es/politica_y_terminos_de_uso/",
+      "api_verification_state": "actual_air_quality_one_record_sample_success_additional_terms_unresolved",
+      "latest_checked_utc": "2026-10-17T05:48:03.263334+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "banff-open-data",
       "provider": "Town of Banff",
       "service_name": "BanffOpenData ArcGIS FeatureServer/MapServer",
@@ -7606,6 +7635,24 @@
       "license_url": "https://data.ca.gov/docs/developer-documentation | https://handbook.data.ca.gov/disclosures/ | https://data.ca.gov/docs/open-data-policy",
       "api_verification_state": "official_current_published_CKAN_API_anonymous_reads_documented_original_sample_policy_held_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T05:26:47.614687+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cambridgeshire-insight",
+      "provider": "Cambridgeshire County Council and local partnership",
+      "service_name": "Cambridgeshire and Peterborough DKAN metadata and datastore API",
+      "geographic_coverage": "Cambridgeshire,Peterborough,England,United Kingdom",
+      "topical_coverage": "Geospatial,demographics,public administration,health,housing",
+      "dataset_families": "Actual public DCAT dataset metadata object for Combined Authorities June2016; no explicit license field in this object. Description references OGL and OS Open Data terms together, instruments not independently reviewed. Indexed official API documentation lists metastore GET and datastore query/SQL routes, but fetched HTML is an app shell, not an API response. No boundary files/entities downloaded. Older indexed guide OGL is not transferred to all metadata/partner data.",
+      "documentation_url": "https://data.cambridgeshireinsight.org.uk/dataset/4f1a284f-dc60-40b9-a174-121f091ca34c/api",
+      "api_base_url": "https://data.cambridgeshireinsight.org.uk/api/1/",
+      "format_protocol": "DKAN REST/JSON,DCAT dataset object; datastore documented but untested",
+      "authentication": "Actual anonymous bounded read, no credentials",
+      "free_access_restrictions": "No paid access/account/key acquisition; exact quota and exceptional data conditions unknown. Actual public DCAT dataset metadata object for Combined Authorities June2016; no explicit license field in this object. Description references OGL and OS Open Data terms together, instruments not independently reviewed. Indexed official API documentation lists metastore GET and datastore query/SQL routes, but fetched HTML is an app shell, not an API response. No boundary files/entities downloaded. Older indexed guide OGL is not transferred to all metadata/partner data.",
+      "license": "Individual dataset OGL and Ordnance Survey terms referenced; portal-wide grant unconfirmed",
+      "license_url": "https://opendata.cambridgeshireinsight.org.uk/about",
+      "api_verification_state": "actual_single_dataset_metadata_sample_success_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T05:48:04.878168+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13494,6 +13541,24 @@
       "license_url": "https://opendata.burlington.ca/opendata-terms-of-use/City%20of%20Burlington%20-%20Open%20Data%20Terms%20of%20Use.pdf",
       "api_verification_state": "actual_native_OGC_catalog_metadata_sample_success_current_terms_bound_data_revocable_restricted",
       "latest_checked_utc": "2026-10-17T05:34:27.028732+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "calhhs-open-data",
+      "provider": "California Health and Human Services Agency",
+      "service_name": "CalHHS CKAN Open Data Portal",
+      "geographic_coverage": "California,United States",
+      "topical_coverage": "Health,healthcare facilities,demographics,environment,workforce",
+      "dataset_families": "Current agency page independently links current portal; legacy chhs.data.ca.gov held, no claimed redirect. Current portal links CKAN2.9 API docs. Exact bounded catalog request policy-held/target unsent, no workaround. Full terms allow download/use subject to specific source rights and reserve termination without notice; all licences and rights granted in these terms immediately cease on website/portal termination. Restricted durable-open reuse, not a claim all individually licensed data is closed or commercially forbidden.",
+      "documentation_url": "https://data.chhs.ca.gov/",
+      "api_base_url": "https://data.chhs.ca.gov/api/3/action/",
+      "format_protocol": "CKAN Action API/JSON",
+      "authentication": "Public portal; API authentication untested because original sample held",
+      "free_access_restrictions": "No paid access/account/key acquisition; exact quota and exceptional data conditions unknown. Current agency page independently links current portal; legacy chhs.data.ca.gov held, no claimed redirect. Current portal links CKAN2.9 API docs. Exact bounded catalog request policy-held/target unsent, no workaround. Full terms allow download/use subject to specific source rights and reserve termination without notice; all licences and rights granted in these terms immediately cease on website/portal termination. Restricted durable-open reuse, not a claim all individually licensed data is closed or commercially forbidden.",
+      "license": "Custom CalHHS Terms of Use,27January2023; all granted rights cease on portal termination",
+      "license_url": "https://data.chhs.ca.gov/pages/terms",
+      "api_verification_state": "current_CKAN_API_linked_documentation_original_sample_policy_held_restricted_terms",
+      "latest_checked_utc": "2026-10-17T05:48:49.679044+00:00",
       "classification": "restricted"
     },
     {
