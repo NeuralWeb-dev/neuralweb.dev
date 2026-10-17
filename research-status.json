@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T21:53:45.190972+00:00",
+  "published_at": "2026-10-17T21:55:47.569897+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:51:31.337826+00:00",
+  "research_updated_at": "2026-10-17T21:55:26.559222+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed in two batches; six new services(one scoped-open,two initial candidates,three restricted),eLaborate then reclassified restricted with native owner terms. DARIAH390sets/2formats/oneBYsource,20edition and23collection references indexed. Global discovery unfinished.",
+  "latest_milestone": "Three registry originals deduplicated to existing ICRAF/Harvard services; historical institutional guidance verified and prior auth/robots holds retained without alternative source queries.",
   "counts": {
-    "verified": 302,
-    "candidates": 590,
+    "verified": 303,
+    "candidates": 592,
     "excluded": 136,
     "sample_successes": 475
   },
@@ -7573,6 +7573,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "modeldb-neuroscience-api",
+      "provider": "ModelDB / computational neuroscience model repository",
+      "service_name": "ModelDB public REST metadata API",
+      "geographic_coverage": "International computational neuroscience research models; biological cell/organism coverage, not geographic population inventory",
+      "topical_coverage": "research | health | neuroscience",
+      "dataset_families": "Models and simulator/cell/current/gene/receptor/concept/paper descriptions; accepted only explicitly open source-model scope",
+      "documentation_url": "https://modeldb.science/api | https://modeldb.science/howtocite",
+      "api_base_url": "https://modeldb.science/api/v1",
+      "format_protocol": "Native JSON11types,1931model IDs and2model metadata records. No source code download/run.",
+      "authentication": "No credentials, keys, private routes or accounts used",
+      "free_access_restrictions": "Public access and source/data/database permissions remain distinct",
+      "license": "Per-model license; native model2041689 Cavitational Capacitive Drive declares MIT; example87284 has no license field",
+      "license_url": "https://modeldb.science/api/v1/models/2041689 | https://modeldb.science/howtocite",
+      "api_verification_state": "native_anonymous_JSON_11types_1931unique_model_IDs_two_records_MIT_source_declaration_verified_scoped",
+      "latest_checked_utc": "2026-10-17T21:53:44.042108+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "moldova-data",
       "provider": "Moldova Electronic Governance Agency (AGE)",
       "service_name": "Government Open Data Catalog (dataset.gov.md)",
@@ -10563,6 +10581,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bdgp-insitu-discovery",
+      "provider": "Berkeley Drosophila Genome Project",
+      "service_name": "BDGP in-situ gene-expression discovery resource",
+      "geographic_coverage": "Drosophila embryonic gene-expression research, not all-world geospatial inventory",
+      "topical_coverage": "biodiversity | research | health",
+      "dataset_families": "In-situ expression-pattern images and annotations described by registry; exact current native source inventory unverified",
+      "documentation_url": "https://insitu.fruitfly.org/cgi-bin/ex/insitu.pl",
+      "api_base_url": "",
+      "format_protocol": "No native current protocol success; registry FTP download path not proof of an API",
+      "authentication": "No credentials, keys, private routes or accounts used",
+      "free_access_restrictions": "Public access and source/data/database permissions remain distinct",
+      "license": "unknown verified current source-image/annotation/metadata/database grant",
+      "license_url": "https://insitu.fruitfly.org/cgi-bin/ex/insitu.pl",
+      "api_verification_state": "original_insitu_endpoint_robots_policy_hold_target_unsent_API_and_source_terms_unresolved",
+      "latest_checked_utc": "2026-10-17T21:53:44.042108+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "berlin-animal-sound-archive",
       "provider": "Museum für Naturkunde Berlin",
       "service_name": "Tierstimmenarchiv Animal Sound Archive public discovery",
@@ -11185,11 +11221,11 @@
       "api_base_url": "https://data.worldagroforestry.org/api/",
       "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
       "authentication": "key required by sampled Dataverse search (HTTP401 with explicit key requirement)",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "free_access_restrictions": "Historical2015institutional guidance requires source-file request; current free-registration/file/access terms unresolved. Prior searchAPI401 key requirement retained; no key or data request.",
+      "license": "unknown exact current source/metadata/database grant; registry NC-SA3 assertion not current verified blanket permission",
       "license_url": "https://data.worldagroforestry.org/terms-of-use.xhtml",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T17:07:43.682311+00:00",
+      "latest_checked_utc": "2026-10-17T21:55:22.169104+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17565,6 +17601,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "silva-rrna-resources",
+      "provider": "SILVA / Leibniz Institute DSMZ Digital Diversity",
+      "service_name": "SILVA rRNA database and taxonomy access interfaces",
+      "geographic_coverage": "Bacteria, Archaea and Eukarya rRNA sequences and taxonomy; international research sources, not all-world samples/locations claim",
+      "topical_coverage": "biodiversity | research | health",
+      "dataset_families": "SSU16S/18S and LSU23S/28S aligned rRNA, taxonomy, reference/nonredundant releases and classifier resources",
+      "documentation_url": "https://www.arb-silva.de/ | https://www.arb-silva.de/documentation",
+      "api_base_url": "",
+      "format_protocol": "Native website/manual and release references, structured API not verified. Registry FTP/ARB export formats not independent API. Historical direct-link browser/search URLs not native machine-response proof.",
+      "authentication": "No credentials, keys, private routes or accounts used",
+      "free_access_restrictions": "Public access and source/data/database permissions remain distinct",
+      "license": "Current native policy explicitly CC BY4 for databases, taxonomy and downloadable files; source release-specific historical terms still require review",
+      "license_url": "https://www.arb-silva.de/silva-license-information/",
+      "api_verification_state": "native_current_data_BY4_policy_and_manual_verified_machine_API_identity_and_runtime_unresolved",
+      "latest_checked_utc": "2026-10-17T21:53:44.042108+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sioexplorer-legacy-cruise-archive",
       "provider": "Scripps Institution of Oceanography / San Diego Supercomputer Center",
       "service_name": "SIOExplorer legacy oceanographic digital library",
@@ -21721,7 +21775,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
-      "latest_checked_utc": "2026-10-17T21:41:56.210757+00:00",
+      "latest_checked_utc": "2026-10-17T21:55:22.169104+00:00",
       "classification": "restricted"
     },
     {
