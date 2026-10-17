@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T17:21:56.926768+00:00",
+  "published_at": "2026-10-17T17:23:59.476774+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:21:46.396085+00:00",
+  "research_updated_at": "2026-10-17T17:22:20.151059+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Environmental/social discovery: Landcare CKAN policy-held mixed licences; ComBase restricted; IA2 reference universe saved and SourceForge403 held",
+  "latest_milestone": "Seven original tasks reviewed: SESAR and Landcare documented API candidates held; NEPS and ComBase restricted; NIPR/IA2/SourceForge explicit unresolved;49 IA2 references saved",
   "counts": {
     "verified": 263,
     "candidates": 484,
@@ -130,6 +130,7 @@
           "nsidc",
           "planetary-computer",
           "seabass-sst-validation-api",
+          "sesar-sample-metadata-api",
           "undata-official-sdmx-api",
           "unsd"
         ],
@@ -282,6 +283,7 @@
           "nsidc",
           "planetary-computer",
           "saudi-mofa",
+          "sesar-sample-metadata-api",
           "shom-data",
           "worldpop-wopr"
         ],
@@ -512,6 +514,7 @@
           "perspectivia",
           "rijksmuseum",
           "seabass-sst-validation-api",
+          "sesar-sample-metadata-api",
           "smithsonian",
           "tritrypdb",
           "undata-official-sdmx-api",
@@ -1428,7 +1431,9 @@
           "tuscany-open-data-catalog",
           "worldpop-wopr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "neps-survey-research-access"
+        ]
       },
       "economics/finance": {
         "status": "partial_verified",
@@ -1825,6 +1830,7 @@
           "bonn-open-data",
           "lindat-fcs",
           "maribor-dkum-oai",
+          "neps-survey-research-access",
           "swiss-al-fcs"
         ]
       },
@@ -2294,6 +2300,7 @@
           "cranachnet-mediawiki",
           "lindat-fcs",
           "maribor-dkum-oai",
+          "neps-survey-research-access",
           "swiss-al-fcs",
           "tna-discovery"
         ]
@@ -3378,6 +3385,7 @@
         "candidate_provider_ids": [
           "csiro-data-access-portal",
           "data-wa-catalogue-api",
+          "landcare-research-datastore",
           "pacific-stat",
           "qspatial-csw-catalog",
           "spc-pccos-tds"
@@ -3401,6 +3409,7 @@
           "csiro-data-access-portal",
           "data-wa-catalogue-api",
           "esa-ecology",
+          "landcare-research-datastore",
           "mbie-geodata",
           "nsw-open-data-catalog",
           "pacific-data",
@@ -3590,6 +3599,7 @@
         "candidate_provider_ids": [
           "csiro-data-access-portal",
           "esa-ecology",
+          "landcare-research-datastore",
           "pisco",
           "province-sud-geospatial",
           "qspatial-csw-catalog",
@@ -3632,6 +3642,7 @@
           "brisbane-open-data",
           "csiro-data-access-portal",
           "data-wa-catalogue-api",
+          "landcare-research-datastore",
           "pacific-stat",
           "qspatial-csw-catalog",
           "spc-pccos-tds",
@@ -3651,6 +3662,7 @@
           "aims-metadata-catalog",
           "csiro-data-access-portal",
           "esa-ecology",
+          "landcare-research-datastore",
           "nz-iponz",
           "pacioos-erddap",
           "pisco",
