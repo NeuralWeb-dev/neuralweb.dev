@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T09:48:28.783338+00:00",
+  "published_at": "2026-10-17T09:50:31.239633+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:42:51.560498+00:00",
+  "research_updated_at": "2026-10-17T09:50:05.959368+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Harbor/health10originals reviewed:HealthData19685 descriptions/19348 unique IDs/23912 claims candidate;IATI two documented API candidates;Idaho33 metadata with restricted purpose terms.672 services:218open/407candidates/47restricted;334originals remain;global_in_progress.",
+  "latest_milestone": "Asia/coastal10origins:SiaknamedCCBY4 andKamloopsnamedOGL1 APIsverified;12and225nativecataloguesindexed.674services:220open/407candidates/47restricted;324originalsremain;BDL61700definitions quotaheld;global_in_progress.",
   "counts": {
-    "verified": 218,
+    "verified": 220,
     "candidates": 407,
     "excluded": 47,
-    "sample_successes": 416
+    "sample_successes": 418
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5485,6 +5485,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "kamloops-open-data",
+      "provider": "City of Kamloops,British Columbia",
+      "service_name": "Kamloops open-data portal and scoped Brownfield ArcGIS service",
+      "geographic_coverage": "Kamloops,British Columbia,Canada",
+      "topical_coverage": "geospatial; environment; land-use reference; multisector metadata discovery",
+      "dataset_families": "Verified licensed scope: named Brownfield layer. Full current catalogue225unique asset descriptions/1056distribution claims;217licence fields contain localOGLname,8blank. Other224assets and whole-catalogue metadata grant not independentlyaccepted.",
+      "documentation_url": "https://www.kamloops.ca/city-services/maps-apps",
+      "api_base_url": "https://mydata-kamloops.opendata.arcgis.com/data.json | https://maps.kamloops.ca/arcgis/rest/services/OpenData/OpenDataDevelopment/MapServer/1",
+      "format_protocol": "Actual native catalogue JSON and ArcGIS layer-schema JSON; schema advertises JSON,GeoJSON,PBF query formats. No feature query or export.",
+      "authentication": "Anonymous catalogue and layer-schema reads succeeded; no account/key.",
+      "free_access_restrictions": "Full localOGL1 grants royalty-free commercial copying,adaptation,publication and redistribution with attribution and standard exceptions. Only namedBrownfieldwork scope verified; no payment used.",
+      "license": "Open Government Licence - Kamloops1.0; namedBrownfieldwork only",
+      "license_url": "https://www.kamloops.ca/open-data-catalogue-disclaimer",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_named_layer_schema_scoped_local_OGL1",
+      "latest_checked_utc": "2026-10-17T09:50:05.631888+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "kitchener-geohub",
       "provider": "City of Kitchener",
       "service_name": "Kitchener GeoHub public OGC catalog and geospatial API references",
@@ -6778,6 +6796,24 @@
       "license_url": "https://data.gov.rs/terms",
       "api_verification_state": "documented_catalog_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T19:31:01.348198+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "siak-regency-open-data",
+      "provider": "Government of Siak Regency,Diskominfo and Dinas Pendidikan",
+      "service_name": "IstanaData Siak REST dataset API; scoped school-sanitation work",
+      "geographic_coverage": "Siak Regency,Riau,Indonesia",
+      "topical_coverage": "education; water/sanitation; local public-data discovery",
+      "dataset_families": "Verified licensed scope: named2025 percentage of primary/junior-secondary school toilets in good condition. Catalogue has12 unique descriptions/16 distribution claims,all omit licence fields. Other11 works and whole-catalogue metadata grant unconfirmed.",
+      "documentation_url": "https://istanadata.siakkab.go.id/dokumentasi-api",
+      "api_base_url": "https://istanadata.siakkab.go.id/api/v1/ | https://istanadata.siakkab.go.id/data.json",
+      "format_protocol": "Actual REST JSON dataset list/detail and DCAT-like catalogue. Named work advertises CSV/XLSX files,not downloaded. Fifteen API path templates plusdata.json documented.",
+      "authentication": "Anonymous catalogue,list/detail reads succeeded. Optional X-API-Key for higher quota; no key/account acquired.",
+      "free_access_restrictions": "Official docs allow public no-key endpoints at standard quota. NamedworkCCBY4 permits commercial reuse with attribution; no payment used. Other works individually unreviewed.",
+      "license": "Creative Commons Attribution4.0 International; named2025 school-sanitation work only",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_list_named_detail_scoped_CC_BY4",
+      "latest_checked_utc": "2026-10-17T09:50:05.631728+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9875,7 +9911,7 @@
       "license": "unknown",
       "license_url": "https://www.data.gov.in/government-open-data-license-india",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T17:36:21.577946+00:00",
+      "latest_checked_utc": "2026-10-17T09:50:05.631930+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9893,7 +9929,7 @@
       "license": "unknown",
       "license_url": "https://data.go.id/",
       "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:26:53.899898+00:00",
+      "latest_checked_utc": "2026-10-17T09:50:05.631973+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
