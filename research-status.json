@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T04:10:59.645191+00:00",
+  "published_at": "2026-10-17T04:13:02.209211+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T04:08:37.559449+00:00",
+  "research_updated_at": "2026-10-17T04:12:50.895676+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "First six pending Open Knowledge portal origins checked with official follow-up documentation. Ann Arbor and Terrassa CKAN API targets policy-held; Terrassa full mixed reuse terms inspected. Next six contiguous registry origins under review.",
+  "latest_milestone": "Twelve contiguous OpenKnowledge registry origins processed. Four services added: scoped Alberta OGLA2.2 and Amsterdam Maps custom open grant; Ann Arbor/Terrassa candidates. Amsterdam municipality GeoJSON verified and185native UI layer IDs indexed. Global discovery remains unfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
-    "verified": 181,
-    "candidates": 338,
+    "verified": 183,
+    "candidates": 340,
     "excluded": 35,
-    "sample_successes": 337
+    "sample_successes": 338
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -523,6 +523,7 @@
       "labor": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "bls",
           "greenland-statistics",
           "statcan"
@@ -533,6 +534,7 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "greenland-statistics",
           "usda-cdl",
           "usda-food"
@@ -545,6 +547,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "arctic-data",
           "eccc-geomet",
           "epa-aqs",
@@ -556,6 +559,7 @@
           "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
+          "annarbor-open-data",
           "cerp-sfwmd",
           "drp",
           "edac-gstore",
@@ -594,6 +598,7 @@
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "eia",
           "greenland-statistics"
         ],
@@ -603,6 +608,7 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "cdc",
           "cms",
           "epa-aqs",
@@ -619,6 +625,7 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "greenland-statistics"
         ],
         "candidate_provider_ids": [
@@ -629,6 +636,7 @@
       "housing": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "census",
           "greenland-statistics"
         ],
@@ -646,6 +654,7 @@
           "greenland-statistics"
         ],
         "candidate_provider_ids": [
+          "annarbor-open-data",
           "nyc"
         ],
         "restricted_provider_ids": []
@@ -761,6 +770,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-open-government",
           "cleveland-art",
           "getty-provenance",
           "getty-vocabularies",
@@ -1072,6 +1082,7 @@
           "russia",
           "serbia-rzs",
           "stat-portugal",
+          "terrassa-open-data",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": []
@@ -1179,6 +1190,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amsterdam-maps-data",
           "bgs",
           "cefas",
           "croatia-statistics",
@@ -1211,6 +1223,7 @@
           "latvia-statistics",
           "lithuania-statistics",
           "os-os-places-api",
+          "terrassa-open-data",
           "wis2-poland",
           "wis2-russian-federation"
         ],
@@ -1242,6 +1255,7 @@
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amsterdam-maps-data",
           "bgs",
           "croatia-statistics",
           "estonia-statistics",
@@ -1285,7 +1299,8 @@
           "aland-statistics",
           "cessda-catalogue",
           "latvia-statistics",
-          "lithuania-statistics"
+          "lithuania-statistics",
+          "terrassa-open-data"
         ],
         "restricted_provider_ids": []
       },
@@ -1339,6 +1354,7 @@
           "portulan-repository",
           "saw-leipzig-fcs",
           "serbia-rzs",
+          "terrassa-open-data",
           "tuebingen-fcs"
         ],
         "restricted_provider_ids": [
@@ -1349,6 +1365,7 @@
       "housing": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amsterdam-maps-data",
           "cbs",
           "denmark-statbank",
           "estonia-statistics",
@@ -1402,6 +1419,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amsterdam-maps-data",
           "bgs",
           "ea-asset-management",
           "ea-catchment-data",
@@ -1506,6 +1524,7 @@
       "biodiversity": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amsterdam-maps-data",
           "cefas",
           "ea-asset-management",
           "ea-catchment-data",
@@ -1548,6 +1567,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amsterdam-maps-data",
           "arche-repository",
           "bnf-catalogue",
           "clarin-dk",
@@ -1598,6 +1618,7 @@
           "rijksmuseum",
           "saw-leipzig-fcs",
           "serbia-rzs",
+          "terrassa-open-data",
           "tuebingen-fcs",
           "uk-trade-tariff",
           "wellcome-collection"
@@ -3324,6 +3345,42 @@
       "license_url": "https://collections.ala.org.au/ws/dataResource/dr15863",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:07:43.650785+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "alberta-open-government",
+      "provider": "Government of Alberta",
+      "service_name": "Open Government Alberta CKAN API — OGLA-scoped datasets",
+      "geographic_coverage": "Canada; Alberta",
+      "topical_coverage": "Health, population, labor, economics, agriculture, environment, roads, government, energy, education, housing, culture",
+      "dataset_families": "Native open-data HTML reports3018datasets,3016OGLA/2No licence; scope accepted only individually OGLA-designated records, representative school/authority/grade enrolment explicitly OGLA",
+      "documentation_url": "https://open.alberta.ca/interact/for-developers",
+      "api_base_url": "https://open.alberta.ca/api/3/",
+      "format_protocol": "Official CKAN Action API JSON; resources include XLSX, CSV, XML, ESRI REST, WMS, JSON and IVT, not all individually API-tested",
+      "authentication": "Official API publicly documented; sample anonymous target unsent due robots. Exact key/anonymous runtime requirements unverified.",
+      "free_access_restrictions": "OGLA-designated information worldwide royalty-free perpetual commercial reuse, attribution required; excludes personal/restricted information, unlicensed third-party rights and official symbols. No portal-wide grant for No licence/other types.",
+      "license": "Open Government Licence – Alberta version2.2, only OGLA-designated records",
+      "license_url": "https://open.alberta.ca/licence | https://open.alberta.ca/opendata/student-enrolment-by-school-authority-and-grade-level",
+      "api_verification_state": "official_API_base_and_scoped_open_grant_verified_sample_policy_deferred_target_unsent",
+      "latest_checked_utc": "2026-10-17T04:10:20.890584+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "amsterdam-maps-data",
+      "provider": "Gemeente Amsterdam",
+      "service_name": "Maps Amsterdam geographic dataset API",
+      "geographic_coverage": "Netherlands; Amsterdam and selected metropolitan-region geographies",
+      "topical_coverage": "Geospatial, housing, energy, climate, biodiversity, transport, architecture, culture, civic/elections, public facilities",
+      "dataset_families": "185unique native UI layer selections indexed; city/neighborhood/district boundaries, transport, trees, zoning, housing, elections and amenities; one municipality polygon sampled",
+      "documentation_url": "https://maps.amsterdam.nl/open_geodata/",
+      "api_base_url": "https://maps.amsterdam.nl/open_geodata/",
+      "format_protocol": "Published parameterized GeoJSON HTTP GET; positional metadata JSON via read-only POST ID; CSV/MapInfo/SHP links also advertised",
+      "authentication": "No credentials for actual metadata and GeoJSON requests",
+      "free_access_restrictions": "Current custom terms explicitly free availability/commercial and noncommercial reuse; redistribution original/adapted paid/free must state original freely available at city and carry applicable terms. No logo/endorsement rights; availability/history not guaranteed.",
+      "license": "Custom Maps Data reuse licence; commercial use, derivatives and redistribution expressly permitted with pass-through terms",
+      "license_url": "https://maps.amsterdam.nl/open_geodata/terms.php",
+      "api_verification_state": "actual_GeoJSON_entity_sample_success_and_readonly_metadata_sample_success_custom_open_grant_verified",
+      "latest_checked_utc": "2026-10-17T04:10:03.009364+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6677,6 +6734,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "annarbor-open-data",
+      "provider": "City of Ann Arbor",
+      "service_name": "Ann Arbor CKAN catalog API and PortalJS frontend",
+      "geographic_coverage": "United States; Ann Arbor, Michigan",
+      "topical_coverage": "Environment, governance, infrastructure, planning, public safety, transportation",
+      "dataset_families": "Weather/air quality, solid waste, PFAS and rainfall, zoning/geospatial; maps and dashboards are separately typed catalog resources",
+      "documentation_url": "https://ckan.a2gov.org/ | https://docs.ckan.org/en/2.11/api/",
+      "api_base_url": "https://ckan.a2gov.org/api/3/action/",
+      "format_protocol": "Documented CKAN Action API/JSON; published CSV, GeoJSON, KMZ, SHP distributions",
+      "authentication": "Anonymous frontend/catalog documentation; API authentication requirements unconfirmed because sample target unsent under robots policy",
+      "free_access_restrictions": "Public HTML and download links; no verified data reuse grant or API entitlement",
+      "license": "Unconfirmed; inspected Zoning Districts native dataset state explicitly notspecified / License not specified",
+      "license_url": "https://data.a2gov.org/city-of-ann-arbor/zoning-districts",
+      "api_verification_state": "official_CKAN_link_API_policy_deferred_target_unsent",
+      "latest_checked_utc": "2026-10-17T04:08:14.389070+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "armenia-statbank",
       "provider": "Statistical Committee of the Republic of Armenia / Armstat",
       "service_name": "Official statistics ArmStatBank PxWeb API",
@@ -9984,8 +10059,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://africaopendata.org/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:41:50.417674+00:00",
+      "api_verification_state": "prior_API_sample_failed_current_original_root_403_access_unresolved",
+      "latest_checked_utc": "2026-10-17T04:06:47.315461+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10850,6 +10925,24 @@
       "license_url": "https://www.tepapa.govt.nz/assets/76067/1693184837-collections_api_terms_of_use.pdf",
       "api_verification_state": "documented_key_required_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.439565+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "terrassa-open-data",
+      "provider": "Ajuntament de Terrassa",
+      "service_name": "Open Data Terrassa CKAN API",
+      "geographic_coverage": "Spain; Terrassa, Catalonia",
+      "topical_coverage": "Demographics, welfare, public sector, urban infrastructure, transport, culture, health, tourism, education, environment",
+      "dataset_families": "Native catalog126reported datasets:94CSV and smaller KMZ/GeoJSON/SHP/GTFS/JSON families; demographic tables, facilities, municipal spending/contracts, boundaries",
+      "documentation_url": "https://opendata.terrassa.cat/dataset/ | http://docs.ckan.org/en/2.11/api/",
+      "api_base_url": "https://opendata.terrassa.cat/api/3/",
+      "format_protocol": "Publisher links CKAN API; JSON protocol documented, runtime untested",
+      "authentication": "Anonymous HTML catalog/terms; API target unsent under disallowed robots route",
+      "free_access_restrictions": "General terms permit commercial/noncommercial copy/distribute/modify/adapt, subject to per-dataset terms and third-party rights; reserve other specific conditions/payment, suspend access for prohibited/inconvenient uses. No fees acquired.",
+      "license": "Mixed explicit reuse terms: most CC BY4 per policy; third-party CC BY-ND4; catalog facet124cc-by,1odc-by,1odc-odbl. Current per-dataset applicability/extra restrictions unresolved.",
+      "license_url": "https://opendata.terrassa.cat/tou",
+      "api_verification_state": "official_API_link_documented_robots_disallowed_sample_target_unsent",
+      "latest_checked_utc": "2026-10-17T04:08:04.422611+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
