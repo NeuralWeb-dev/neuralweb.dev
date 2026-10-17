@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T19:18:23.575317+00:00",
+  "published_at": "2026-10-17T19:20:25.965537+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:17:46.288973+00:00",
+  "research_updated_at": "2026-10-17T19:18:33.894268+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WDCC/bonndata scoped CC0 metadata verified with native API samples; Bonn metadata catalogue paginated; ISIMIP documented mixed rights/runtime hold retained",
+  "latest_milestone": "Nine original tasks reviewed; KITopen/WDCC/bonndata scoped open metadata APIs verified, Bonn384dataset metadata snapshot indexed; seven service records added",
   "counts": {
     "verified": 279,
     "candidates": 513,
@@ -92,6 +92,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "csiro-data-access-portal",
+          "isimip-impact-repository",
           "nasa-power",
           "ocha-hapi",
           "wfp"
@@ -119,7 +120,8 @@
           "nasa-spdf-sscweb",
           "pangaea",
           "toar-surface-observation-api",
-          "usgs-earthquake"
+          "usgs-earthquake",
+          "wdcc-climate-metadata"
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
@@ -133,6 +135,7 @@
           "hdx",
           "hycom",
           "iagos-atmospheric-rest",
+          "isimip-impact-repository",
           "nasa-api",
           "nasa-power",
           "noaa-erddap",
@@ -169,7 +172,8 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
-          "dataone"
+          "dataone",
+          "isimip-impact-repository"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -186,6 +190,7 @@
           "worldbank-catalog"
         ],
         "candidate_provider_ids": [
+          "isimip-impact-repository",
           "nasa-power",
           "nims-mdr",
           "openchargemap",
@@ -236,7 +241,9 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "bonndata-published-metadata",
           "doaj",
+          "kitopen-bibliographic-oai",
           "oecd",
           "openaire",
           "openaire-broker",
@@ -298,6 +305,7 @@
           "opencontext",
           "osm",
           "usgs-earthquake",
+          "wdcc-climate-metadata",
           "wikidata",
           "worldbank-catalog",
           "worldpop-geo",
@@ -382,6 +390,7 @@
           "ena",
           "esa-ecology",
           "idigbio",
+          "isimip-impact-repository",
           "planetary-computer",
           "smithsonian",
           "tritrypdb"
@@ -449,6 +458,7 @@
           "cleveland-art",
           "getty-provenance",
           "getty-vocabularies",
+          "kitopen-bibliographic-oai",
           "metmuseum",
           "opencontext",
           "unesco",
@@ -462,6 +472,7 @@
           "csiro-data-access-portal",
           "getty-museum",
           "internet-archive-metadata",
+          "isimip-impact-repository",
           "loc",
           "mit-timdex",
           "nasa-power",
@@ -491,6 +502,7 @@
           "b2share",
           "bgs",
           "bnf-catalogue",
+          "bonndata-published-metadata",
           "cchdo",
           "chebi",
           "cleveland-art",
@@ -508,6 +520,7 @@
           "getty-vocabularies",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
+          "kitopen-bibliographic-oai",
           "marine-regions-modern-boundaries-ogc",
           "metmuseum",
           "nasa-cmr",
@@ -530,6 +543,7 @@
           "toar-surface-observation-api",
           "unesco",
           "uniprot",
+          "wdcc-climate-metadata",
           "wikidata",
           "worldbank-catalog",
           "zenodo"
@@ -558,6 +572,7 @@
           "iati-dashboard-metadata",
           "idigbio",
           "internet-archive-metadata",
+          "isimip-impact-repository",
           "jpl-ssd",
           "kth-data-repository-api",
           "loc",
@@ -3853,6 +3868,7 @@
         "candidate_provider_ids": [
           "aadc-weather",
           "apgc-permafrost-ckan",
+          "marine-data-germany-portal",
           "nsidc"
         ],
         "restricted_provider_ids": [
@@ -3927,6 +3943,7 @@
           "aadc-gazetteer",
           "aadc-metadata",
           "apgc-permafrost-ckan",
+          "marine-data-germany-portal",
           "nsidc"
         ],
         "restricted_provider_ids": [
@@ -3963,7 +3980,9 @@
         "verified_provider_ids": [
           "arctic-data"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "marine-data-germany-portal"
+        ],
         "restricted_provider_ids": []
       },
       "oceans": {
@@ -3973,7 +3992,9 @@
           "ocean-networks-canada",
           "pangaea"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "marine-data-germany-portal"
+        ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "polar-data-catalogue-metadata-api"
@@ -4002,7 +4023,8 @@
         ],
         "candidate_provider_ids": [
           "aadc-metadata",
-          "apgc-permafrost-ckan"
+          "apgc-permafrost-ckan",
+          "marine-data-germany-portal"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
