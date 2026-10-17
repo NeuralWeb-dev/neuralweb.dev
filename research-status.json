@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T19:51:05.838875+00:00",
+  "published_at": "2026-10-17T19:53:08.523165+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:50:57.578652+00:00",
+  "research_updated_at": "2026-10-17T19:52:50.136809+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ICDC THREDDS XML, Virgo one-row SQL CSV and WSM32 OAI descriptions verified; exact metadata/all-purpose grants unresolved",
+  "latest_milestone": "UFZ spatial native OAI/schema verified; IVS11 distribution references indexed; cloud atlas restricted terms excluded",
   "counts": {
     "verified": 281,
-    "candidates": 528,
-    "excluded": 113,
+    "candidates": 530,
+    "excluded": 114,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -12520,6 +12520,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ivs-vlbi-data-portal",
+      "provider": "International VLBI Service for Geodesy and Astrometry / NASA coordinating center and international partners",
+      "service_name": "IVS data/product discovery and mirror distribution portal",
+      "geographic_coverage": "Global geodetic/astrometric VLBI network and celestial/terrestrial reference systems",
+      "topical_coverage": "geodesy | geospatial | astronomy | Earth orientation | research",
+      "dataset_families": "VLBI vgosDB, NGS card, SWIN visibility and schedule/session-log references; EOP/TRF/CRF product descriptions",
+      "documentation_url": "https://ivscc.gsfc.nasa.gov/products-data/ | https://ivscc.gsfc.nasa.gov/products-data/data.html",
+      "api_base_url": "",
+      "format_protocol": "Documented file distribution via HTTP/FTP, binary/ASCII source formats; official HTML is not an API sample",
+      "authentication": "Public documentation accessible; each mirror data access conditions untested; submitter-registration rules not misapplied to read access",
+      "free_access_restrictions": "Publication citation instructions verified; per-mirror read access and exact source/database grants unconfirmed",
+      "license": "Exact international-source data/database grant unknown; NASA hosting and requested citation do not establish blanket public domain",
+      "license_url": "https://ivscc.gsfc.nasa.gov/publications/citation.html",
+      "api_verification_state": "official_distribution_and_citation_documentation_verified_query_API_gap",
+      "latest_checked_utc": "2026-10-17T19:52:45.880792+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "jamaica-data",
       "provider": "Government of Jamaica Open Data Portal",
       "service_name": "Jamaica DKAN catalog and Datastore API",
@@ -16804,6 +16822,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ufz-spatial-geonetwork",
+      "provider": "Helmholtz Centre for Environmental Research (UFZ)",
+      "service_name": "UFZ Spatial Data Catalogue GeoNetwork OAI-PMH / documented REST API",
+      "geographic_coverage": "Environmental spatial research, source-specific footprints; not identical to institutional Germany location",
+      "topical_coverage": "environment | geospatial | water | biodiversity | research",
+      "dataset_families": "Spatial dataset/service descriptive metadata; source scientific layers unenumerated",
+      "documentation_url": "https://web.app.ufz.de/geonetwork/doc/api/ | https://web.app.ufz.de/geonetwork/srv/api/doc",
+      "api_base_url": "https://web.app.ufz.de/geonetwork/srv/api/",
+      "format_protocol": "Native OAI-PMH2 XML Identify and6 metadata formats; published OpenAPI3.0.1 REST schema235paths, not all operations tested",
+      "authentication": "Anonymous OAI metadata service succeeds; restricted source data and API functions not tested",
+      "free_access_restrictions": "Read-only public OAI identification/format requests succeeded; exact source/metadata/database terms and numeric quotas unknown",
+      "license": "Exact metadata/database and source grants unknown; platform software licence and JSON-LD guide example are not data licences",
+      "license_url": "",
+      "api_verification_state": "native_anonymous_OAI_Identify_ListMetadataFormats_XML_success_OpenAPI_schema_verified",
+      "latest_checked_utc": "2026-10-17T19:52:45.880792+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "uganda-opendata",
       "provider": "AI Studio Uganda",
       "service_name": "Uganda Open Data Platform public catalog API",
@@ -19989,6 +20025,24 @@
       "license_url": "https://www.iza-structure.org/databases/DatabaseCredits.php",
       "api_verification_state": "restricted_portal_documented_public_API_unestablished",
       "latest_checked_utc": "2026-10-17T18:30:45.286387+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "karlsruher-wolkenatlas",
+      "provider": "Karlsruher Wolkenatlas / Bernhard Mühr",
+      "service_name": "Karlsruher Wolkenatlas image portal; no independent API established",
+      "geographic_coverage": "Cloud/weather photography; many images Karlsruhe and vicinity, not universal global observational coverage",
+      "topical_coverage": "weather | atmosphere | clouds | photography | education",
+      "dataset_families": "Cloud categories, optical phenomena, precipitation, lightning, rainbows and time-lapse images; landing reports2375 photos/117 galleries, not enumerated",
+      "documentation_url": "https://www.wolkenatlas.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML image galleries/documentation; no API contract verified",
+      "authentication": "Public documentation accessible; image rights require permission/arrangement depending use",
+      "free_access_restrictions": "Imprint permits private noncommercial copies, reserves reproduction/adaptation/distribution beyond statutory limits for written permission; image licensing page offers paid/arranged uses",
+      "license": "Copyright; private/noncommercial copying limits and author permission; source photographer rights vary",
+      "license_url": "https://www.wolkenatlas.de/wolken/impress.htm | https://www.wolkenatlas.de/wolken/best.htm",
+      "api_verification_state": "official_HTML_portal_and_restricted_terms_verified_no_API_established",
+      "latest_checked_utc": "2026-10-17T19:52:45.880792+00:00",
       "classification": "restricted"
     },
     {
