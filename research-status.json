@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T07:58:02.096427+00:00",
+  "published_at": "2026-10-17T08:00:04.661412+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:54:59.251126+00:00",
+  "research_updated_at": "2026-10-17T07:59:36.483511+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Transregional batch in progress: sixoriginalroots processed,Galicia566DCATworks/1142distributions,currentJapanCKANsample18826count andPDL1termsread;France1266APIregistry enumerationongoing. Originalqueue notyetadvanced.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
     "verified": 208,
-    "candidates": 392,
+    "candidates": 394,
     "excluded": 43,
-    "sample_successes": 397
+    "sample_successes": 399
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4846,17 +4846,17 @@
       "provider": "French government data.gouv.fr",
       "service_name": "French government data.gouv.fr open data portal",
       "geographic_coverage": "France",
-      "topical_coverage": "biodiversity; climate/weather/environment; geospatial",
-      "dataset_families": "Government open data; tested Saül forest habitat sensitivity and biodiversity dataset metadata",
-      "documentation_url": "https://www.data.gouv.fr/api/1/",
+      "topical_coverage": "Multisectorpublicmetadata/API-discovery;scopednamedbiodiversitydataset rights retained",
+      "dataset_families": "Government open data; tested Saül forest habitat sensitivity and biodiversity dataset metadata;currentdataservice-directory1266advertisedAPIs/allaccessclasses;datasetmetadata74488nativecount,notenumerated",
+      "documentation_url": "https://www.data.gouv.fr/dataservices/api-catalogue-des-donnees-ouvertes-data-gouv-fr",
       "api_base_url": "https://www.data.gouv.fr/api/1/",
       "format_protocol": "REST/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "Public uData metadata API sample succeeded without key",
       "license": "Licence Ouverte / Open Licence version 2.0 for explicitly marked dataset subset",
       "license_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:48:24.754816+00:00",
+      "api_verification_state": "actual_public_JSON_sample_success_current_dataset_and_API_directory_metadata",
+      "latest_checked_utc": "2026-10-17T07:58:23.371328+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9074,6 +9074,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "galicia-abertos-catalog",
+      "provider": "Xunta de Galicia,portal Abertos",
+      "service_name": "Abertos DCAT/RDF catalogue interface",
+      "geographic_coverage": "Galicia,Spain;individualworkcoveragevaries",
+      "topical_coverage": "Multisectormetadata,agriculture,education,transport,environment,economy,culture",
+      "dataset_families": "566DCATdatasetdescriptions/1142distributionclaims;33RESTformatclaimsintheHTMLfilterareadvertisements,notindependentlytestedAPIs.",
+      "documentation_url": "https://abertos.xunta.gal/busca-de-datos",
+      "api_base_url": "https://abertos.xunta.gal/busca-de-datos.rdf",
+      "format_protocol": "DCAT/RDF-XMLoverHTTP;underlyingresourceformatsandAPIsvary",
+      "authentication": "ActualanonymouscatalogueXMLread;underlyingservicesuntested",
+      "free_access_restrictions": "Metadatareadfreewithoutkey. Fulltermsreservepaid/speciallylicensedworkexceptions;individualresourcefees/accessunknown. Nopaidacquisition.",
+      "license": "NativeCCBYSA4claims;effectivegrantconflictedbynonalterationversusderivativewordinginfullcurrentterms.",
+      "license_url": "https://abertos.xunta.gal/condicions-de-uso",
+      "api_verification_state": "actual_public_XML_sample_success_DCAT_metadata_only",
+      "latest_checked_utc": "2026-10-17T07:58:23.371011+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gbif-japan",
       "provider": "Japan Biodiversity Information Facility JBIF",
       "service_name": "Japan Biodiversity Information Facility JBIF API",
@@ -9575,6 +9593,24 @@
       "license_url": "https://data.gov.jm/dataset/energy-tables",
       "api_verification_state": "documented_indexed_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:36:19.789458+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "japan-egov-data-catalog",
+      "provider": "Japan Digital Agency,e-Gov Data Portal",
+      "service_name": "e-Gov data catalogue CKAN API",
+      "geographic_coverage": "Japan,nationalgovernmentcatalog;individualdatasetcoveragevaries",
+      "topical_coverage": "Multisectormetadata,demography,economy,health,education,agriculture,energy,law,environment",
+      "dataset_families": "Actualpackage_searchmetadata1/count18826;actualpackage_list18832uniquenames. SamplePublicInformationProtectionCommissionvideoshaslicense_idnull/isopenfalse;noresourcevideosdownloaded.",
+      "documentation_url": "https://data.e-gov.go.jp/data/ja/api/1/util/snippet/api_info.html?resource_id=18cc31c4-0249-4cc5-a73a-2d4906704a24",
+      "api_base_url": "https://data.e-gov.go.jp/data/ja/api/3/action/",
+      "format_protocol": "CKANAction/DataStoreREST/JSONdocumented;catalogueactionsactuallytested",
+      "authentication": "Actualanonymousmetadata/name-listreads;write/DataStore/authoperationsuntested",
+      "free_access_restrictions": "Catalogmetadatareadwithoutkey. PDL1.0forapplicableportalcontentallowscommercialreuse;thirdparty/externallyobtainedcontentandseparatetermsapply. Underlyingresourceprice/accessnotuniversallyverified.",
+      "license": "CurrentPDL1.0portalcontentdefaultwiththirdparty/otherterms;sampledindividualworkgrantunknown.",
+      "license_url": "https://data.e-gov.go.jp/info/ja/terms",
+      "api_verification_state": "actual_public_JSON_sample_success_metadata_and_package_names",
+      "latest_checked_utc": "2026-10-17T07:58:23.371157+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11463,8 +11499,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://data.civicinfo.ca/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:41:59.505755+00:00",
+      "api_verification_state": "registry_claim_not_verified_latest_original_policy_held",
+      "latest_checked_utc": "2026-10-17T07:58:23.371220+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14489,8 +14525,8 @@
       "free_access_restrictions": "The complete current terms reserve termination of data use for any reason and require an application disclaimer. The sampled Denver Checkbook metadata says Public Domain without a linked instrument; that label is not treated as overriding the restrictive service terms. Actual anonymous metadata JSON only; no payee/person rows. Legacy colorado.gov/data returned403; the independently published current data portal is not claimed to be its redirect.",
       "license": "Custom terms permit required cessation of displaying,distributing or otherwise using any data for any reason.",
       "license_url": "https://data.colorado.gov/terms",
-      "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata",
-      "latest_checked_utc": "2026-10-17T06:45:11.782357+00:00",
+      "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata;historical_test_preserved_current_terms_reconfirmed_no_new_data_query",
+      "latest_checked_utc": "2026-10-17T07:58:23.371298+00:00",
       "classification": "restricted"
     },
     {
