@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:39:34.903641+00:00",
+  "published_at": "2026-10-17T18:41:37.307810+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:36:01.282455+00:00",
+  "research_updated_at": "2026-10-17T18:41:25.649503+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed; ACIS native55metadata source licence unresolved,5restricted records and Harvard alias deduplicated; INFRA-ART3/CRCNS153/CORA66references indexed",
+  "latest_milestone": "Bremen XDIS migration documented, JSCDataPub file-server/API gap under hold; EURO-CORDEX CC BY4 publisher metadata verified and PANGAEA canonical reused",
   "counts": {
-    "verified": 273,
+    "verified": 274,
     "candidates": 501,
-    "excluded": 101,
+    "excluded": 103,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -7507,7 +7507,7 @@
       "license": "CC0 1.0 for published dataset metadata only; data dataset-specific",
       "license_url": "https://wiki.pangaea.de/wiki/Ticket_System | https://wiki.pangaea.de/wiki/License",
       "api_verification_state": "historical_OAI_Identify_XML_sample_success_current_metadata_CC0_and_access_docs_verified_no_reharvest",
-      "latest_checked_utc": "2026-10-17T15:58:00.890623+00:00",
+      "latest_checked_utc": "2026-10-17T18:41:21.359940+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7976,6 +7976,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "prior_documented_sample_success_current_query_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T14:44:43.084593+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "riunet-public-metadata-oai",
+      "provider": "Universitat Politecnica de Valencia / Biblioteca UPV",
+      "service_name": "RiuNet public metadata OAI-PMH service",
+      "geographic_coverage": "Spanish university institutional research and cultural collections; dataset research geography varies",
+      "topical_coverage": "research | education | culture | multidisciplinary",
+      "dataset_families": "Research datasets and management plans, publications, theses, teaching and institutional collection metadata; deposited works separately licensed",
+      "documentation_url": "https://poliscience.blogs.upv.es/2021/11/03/actualizacion-de-la-politica-de-metadatos-en-riunet/ | https://riunet.upv.es/server/oai/request?verb=Identify",
+      "api_base_url": "https://riunet.upv.es/server/oai/request",
+      "format_protocol": "OAI-PMH2.0 XML; Dublin Core and context-specific metadata formats",
+      "authentication": "Anonymous Identify/ListSets metadata requests succeeded; no account used",
+      "free_access_restrictions": "Public metadata harvesting documented without barriers. Deposited files may be embargoed/restricted; not included in metadata grant.",
+      "license": "CC0 / public-domain metadata policy",
+      "license_url": "https://poliscience.blogs.upv.es/2021/11/03/actualizacion-de-la-politica-de-metadatos-en-riunet/",
+      "api_verification_state": "native_anonymous_OAI_XML_Identify_and_full_ListSets_success",
+      "latest_checked_utc": "2026-10-17T18:39:35.622833+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18603,6 +18621,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "crc1211-weather-restricted",
+      "provider": "Collaborative Research Centre1211 / University of Cologne",
+      "service_name": "CRC1211 Atacama weather data and restricted project portal",
+      "geographic_coverage": "Atacama Desert climate/landscape project; coastal-to-Andean transects; station inventory varies by date",
+      "topical_coverage": "climate | environment | geospatial | research",
+      "dataset_families": "Meteorological and soil stations; project measured/modelled research, reports and purchased geodata under separate rights",
+      "documentation_url": "https://www.crc1211db.uni-koeln.de/site/faq.php | https://www.crc1211db.uni-koeln.de/site/index.php",
+      "api_base_url": "",
+      "format_protocol": "HTML query/map/weather interfaces; RIS/BibTeX citation exports documented; no verified public API",
+      "authentication": "Weather data described freely viewable/downloadable. Other project/download/WebGIS functions participant-authorized; no accounts/contact used.",
+      "free_access_restrictions": "Weather observations NC-SA; purchased geodata/project source access restricted individually",
+      "license": "CC BY-NC-SA4.0 weather data per FAQ; other project data rights vary",
+      "license_url": "https://www.crc1211db.uni-koeln.de/site/faq.php | https://www.crc1211db.uni-koeln.de/datapolicy/CRC_1211_DATA_policy.pdf",
+      "api_verification_state": "restricted_weather_grant_and_access_documented_HTML_only_public_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:39:35.622833+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "crcns-default-restricted-data",
       "provider": "Collaborative Research in Computational Neuroscience / CRCNS.org",
       "service_name": "CRCNS neuroscience datasets under default terms (restricted)",
@@ -18888,6 +18924,24 @@
       "license_url": "https://www.gtap.agecon.purdue.edu/databases/documents/GTAP12DataBase_TermsConditions.pdf",
       "api_verification_state": "restricted_portal_documented_public_api_unconfirmed",
       "latest_checked_utc": "2026-10-17T17:55:04.291522+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "halo-default-restricted-data",
+      "provider": "DLR Institute of Atmospheric Physics / HALO Database",
+      "service_name": "HALO database default and selected NC-ND data scope (restricted)",
+      "geographic_coverage": "Aircraft/campaign atmospheric research; mission-dependent geographic coverage",
+      "topical_coverage": "climate | atmosphere | environment | research",
+      "dataset_families": "High Altitude and Long Range research-aircraft mission/instrument/model datasets and metadata",
+      "documentation_url": "https://halo-db.pa.op.dlr.de/faq | https://halo-db.pa.op.dlr.de/terms",
+      "api_base_url": "",
+      "format_protocol": "FAQ documents GTE/NASA Ames/NetCDF upload/file formats, not a verified public data API",
+      "authentication": "FAQ says dataset downloads need login and may require mission membership; no account requested",
+      "free_access_restrictions": "Default content reproduction noncommercial/private/scientific/pedagogic; dataset-specific alternative licences may apply",
+      "license": "Custom default noncommercial reproduction; selected licence3datasets CC BY-NC-ND3.0",
+      "license_url": "https://halo-db.pa.op.dlr.de/terms | https://halo-db.pa.op.dlr.de/license/3",
+      "api_verification_state": "rendered_primary_terms_and_FAQ_verified_original_native_policy_held_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:39:35.622833+00:00",
       "classification": "restricted"
     },
     {
