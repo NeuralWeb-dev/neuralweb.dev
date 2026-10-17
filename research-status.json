@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T22:48:56.233752+00:00",
+  "published_at": "2026-10-17T22:50:58.796598+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:46:44.892783+00:00",
+  "research_updated_at": "2026-10-17T22:49:07.434041+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed; four restricted services and two candidates added. heidICON OAI Identify succeeded; WURM325 mineral references indexed. Source restrictions and original access holds retained.",
+  "latest_milestone": "ITIS nativeCC0 and service docs; MG-RAST public-onlyCC0/citation and REST docs; Barrow originalhold/restricted imagery subset.",
   "counts": {
-    "verified": 305,
-    "candidates": 617,
+    "verified": 307,
+    "candidates": 618,
     "excluded": 153,
     "sample_successes": 472
   },
@@ -7269,6 +7269,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "itis-taxonomic-web-services",
+      "provider": "Integrated Taxonomic Information System",
+      "service_name": "ITIS taxonomic Web Services",
+      "geographic_coverage": "International taxonomic information; North American institutional partnership, exact global taxon completeness varies",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Scientific/common names, synonyms, TSN identifiers, hierarchies, jurisdiction/geography, taxonomic quality/source metadata",
+      "documentation_url": "https://www.itis.gov/ws_description.html | https://www.itis.gov/ws_tsnApiDescription.html",
+      "api_base_url": "https://www.itis.gov/ITISWebService/services/ITISService/",
+      "format_protocol": "Native docs SOAP/WSDL and URL-addressed readonly web services; current structured response untested",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Public documentation and CC0 work; exact production API quota unknown",
+      "license": "CC0 public-domain dedication",
+      "license_url": "https://www.itis.gov/privacy.html",
+      "api_verification_state": "native_current_API_docs_and_ITIS_CC0_verified_documented_small_sample_robots_deferred_target_unsent",
+      "latest_checked_utc": "2026-10-17T22:49:02.679405+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "japan",
       "provider": "Japanese government e-Stat",
       "service_name": "Japanese government e-Stat open data portal",
@@ -7680,6 +7698,24 @@
       "license_url": "https://www.inegi.org.mx/inegi/terminos.html",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:29:28.933082+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "mgrast-public-metagenomics-api",
+      "provider": "MG-RAST metagenomics research service",
+      "service_name": "MG-RAST public data REST API",
+      "geographic_coverage": "International metagenomic studies; actual geographic/sample inventory not enumerated",
+      "topical_coverage": "biodiversity | health | environment | research",
+      "dataset_families": "Public metagenomes, amplicon/metatranscriptomic datasets, standardized metadata, annotations and quality metrics",
+      "documentation_url": "https://help.mg-rast.org/api.html",
+      "api_base_url": "https://api.mg-rast.org/",
+      "format_protocol": "Native documentation describes REST/HTTP JSON with optional version path; homepage JavaScript shell not API success",
+      "authentication": "Public versus private data distinguished; private datasets require authorized credentials/webkey, none used",
+      "free_access_restrictions": "Public data under native CC0 statement with provider/original-author citation condition; private/embargoed data excluded",
+      "license": "CC0 for data publicly available in MG-RAST, with provider-stated citation requirement",
+      "license_url": "https://www.mg-rast.org/legal.html",
+      "api_verification_state": "native_public_data_CC0_and_REST_docs_verified_API_host_docs_robots_deferred_machine_sample_untested",
+      "latest_checked_utc": "2026-10-17T22:49:02.679405+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10688,6 +10724,24 @@
       "license_url": "https://data.gov.bd/dataset/national-e-service-list | https://data.gov.bd/terms-of-use",
       "api_verification_state": "documented_metadata_route_http200_malformed_json",
       "latest_checked_utc": "2026-10-16T21:37:59.439128+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "barrow-area-information-database",
+      "provider": "Barrow Area Information Database (BAID)",
+      "service_name": "BarrowMapped Arctic regional geospatial portal",
+      "geographic_coverage": "Utqiaġvik/Barrow region, northern Alaska, United States",
+      "topical_coverage": "geospatial | climate | environment | housing | research",
+      "dataset_families": "Regional imagery, coastal erosion, community planning and research infrastructure/project outputs; exact layer inventory unenumerated",
+      "documentation_url": "https://barrowmapped.org/data/ciap-deliverables/",
+      "api_base_url": "",
+      "format_protocol": "Official indexed mapping viewers and deliverable references; not current native ArcGIS/OGC API proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Some imagery explicitly no-sharing under DigitalGlobe EULA per primary indexed deliverables; other layer conditions unknown",
+      "license": "unknown blanket database/metadata/individual layer grants; named DigitalGlobe imagery restricted",
+      "license_url": "https://barrowmapped.org/data/ciap-deliverables/",
+      "api_verification_state": "original_root_robots_deferred_official_indexed_layer_restriction_API_and_other_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T22:49:02.679405+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
