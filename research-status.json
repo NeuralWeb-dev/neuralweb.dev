@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T08:20:31.860633+00:00",
+  "published_at": "2026-10-17T08:22:34.563025+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T08:16:10.578446+00:00",
+  "research_updated_at": "2026-10-17T08:22:16.335119+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Mixed4origins:Hartford128works/804distributionclaims,scopedCC0propertylayerJSONschema verified;Norway5interfacefamiliesdocumented/rightsunresolved,Lincoln/METIheld.647services:209open/395candidates/43restricted;428originalleads remain;globalin_progress.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 209,
-    "candidates": 395,
+    "verified": 210,
+    "candidates": 396,
     "excluded": 43,
-    "sample_successes": 400
+    "sample_successes": 401
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6145,7 +6145,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T08:14:30.761345+00:00",
+      "latest_checked_utc": "2026-10-17T08:21:25.011770+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6668,6 +6668,24 @@
       "license_url": "https://smithsonian.dataone.org/metacat/d1/mn/v2/object/doi%3A10.60635%2FC30C7C",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:30.096889+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "south-australia-datasa",
+      "provider": "Government of South Australia, Data.SA; named data publisher Environment Protection Authority (EPA)",
+      "service_name": "Data.SA CKAN catalogue and DataStore API",
+      "geographic_coverage": "South Australia,Australia;verifiednamedairqualityworkSellicksBeachLurlineBoulevard",
+      "topical_coverage": "Multisector regional discovery;verifiednamedairquality/environment observations",
+      "dataset_families": "1930nativecataloguedatasets/10255resourceadvertisements. VerifiednamedSellicksBeachLurlineBlvdparticlemonitoring,PM10/TSP,temperature,pressure,hourlyACST;oneactualDataStorerecord. Otherworksretainindividuallymixedrights.",
+      "documentation_url": "https://data.sa.gov.au",
+      "api_base_url": "https://data.sa.gov.au/data/api/3/action/",
+      "format_protocol": "CKANAction/DataStore REST JSON actuallyreturned;underlyingresourceformatsvary",
+      "authentication": "Actualanonymouscatalogue/DataStorereads,noaccount/key",
+      "free_access_restrictions": "Actualsmallmetadata/airqualityreadswithoutpayment;namedCCBY4reuse. Individualthirdparty/landservices/access/feeexceptionsnotuniversallyverified.",
+      "license": "CC BY4.0 for named EPA Sellicks Beach Lurline Blvd air-quality dataset",
+      "license_url": "http://creativecommons.org/licenses/by/4.0",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_and_named_air_quality_observation",
+      "latest_checked_utc": "2026-10-17T08:19:05.595113+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -14338,6 +14356,24 @@
       "license_url": "https://public.yoda.uu.nl/",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:56:48.562402+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "zagreb-open-data",
+      "provider": "City of Zagreb",
+      "service_name": "Zagreb open-data CKAN portal",
+      "geographic_coverage": "Zagreb,Croatia",
+      "topical_coverage": "Municipalmultisectordiscovery,transport,publicinstitutions,energy,economy",
+      "dataset_families": "RootHTMLadvertises199datasets/1organization/13groups,notenumerated. NamedroadclosuresdatasetpageclaimsJSON/XML/CSVand3minuteupdates;noactualAPI/dataresponseverified.",
+      "documentation_url": "https://data.zagreb.hr/about",
+      "api_base_url": "https://data.zagreb.hr/api/3/action/",
+      "format_protocol": "CKANAPIlinkedbyofficialportal;JSONexpected,runtimenotverified",
+      "authentication": "unknown;smallanonymoussamplepolicy-held/unsent",
+      "free_access_restrictions": "Aboutpagedescribesfreepublicreuse/commercialuse;actualAPIaccess/quotasunknown. Noaccount/key/payment.",
+      "license": "NativeOtvorenadozvola(OD)label;operativegrantnotverified",
+      "license_url": "http://data.gov.hr/otvorena-dozvola",
+      "api_verification_state": "official_CKAN_interface_documented_sample_policy_held_runtime_untested",
+      "latest_checked_utc": "2026-10-17T08:18:57.556795+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
