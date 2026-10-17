@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T02:06:10.765553+00:00",
+  "published_at": "2026-10-17T02:08:13.483214+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:02:17.406844+00:00",
+  "research_updated_at": "2026-10-17T02:06:13.944568+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Cultural metadata/vocabulary API primary discovery and verification batch in progress",
+  "latest_milestone": "Seven cultural/ontology services manually reviewed: three scoped open,three candidate,one mixed restricted; finite vocabulary-license discovery ongoing",
   "counts": {
-    "verified": 157,
-    "candidates": 284,
-    "excluded": 29,
-    "sample_successes": 280
+    "verified": 160,
+    "candidates": 287,
+    "excluded": 30,
+    "sample_successes": 285
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3462,6 +3462,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cleveland-art",
+      "provider": "Cleveland Museum of Art",
+      "service_name": "Cleveland Museum of Art public metadata API",
+      "geographic_coverage": "United States; global cultural collections",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Artwork metadata; creators and exhibition search endpoints; museum department/type and provenance fields",
+      "documentation_url": "https://openaccess-api.clevelandart.org/",
+      "api_base_url": "https://openaccess-api.clevelandart.org/api/",
+      "format_protocol": "REST/JSON",
+      "authentication": "No credentials required for tested metadata GET",
+      "free_access_restrictions": "Bounded public metadata read; see rights/access qualifications below",
+      "license": "CC0 1.0",
+      "license_url": "https://openaccess-api.clevelandart.org/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T02:06:13.696042+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "cms",
       "provider": "Centers for Medicare and Medicaid Services",
       "service_name": "Centers for Medicare and Medicaid Services API",
@@ -3873,6 +3891,42 @@
       "license_url": "https://www.hagstova.fo/fo/nytslutreytir",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
       "latest_checked_utc": "2026-10-16T21:00:38.988407+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "finna",
+      "provider": "National Library of Finland / Finna",
+      "service_name": "National Library of Finland / Finna public metadata API",
+      "geographic_coverage": "Finland",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Finnish library, archive and museum search/record metadata; authority search, bazaar and lists documented in OpenAPI; format facets indexed separately",
+      "documentation_url": "https://api.finna.fi/",
+      "api_base_url": "https://api.finna.fi/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "No registration required in official terms; successful anonymous search and OpenAPI GET",
+      "free_access_restrictions": "Bounded public metadata read; see rights/access qualifications below",
+      "license": "CC0 1.0",
+      "license_url": "https://www.kiwi.fi/spaces/Finna/pages/53839699/Finna+API+Terms+of+Use",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T02:06:13.704898+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "finto",
+      "provider": "National Library of Finland / Finto",
+      "service_name": "National Library of Finland / Finto public metadata API",
+      "geographic_coverage": "Finland; multilingual vocabularies",
+      "topical_coverage": "culture; research",
+      "dataset_families": "52published vocabularies/ontologies; selected YSO General Finnish Ontology; other vocabularies have individual declarations indexed separately",
+      "documentation_url": "https://api.finto.fi/",
+      "api_base_url": "https://api.finto.fi/rest/v1/",
+      "format_protocol": "REST/JSON",
+      "authentication": "No credentials required for tested metadata GET",
+      "free_access_restrictions": "Bounded public metadata read; see rights/access qualifications below",
+      "license": "Selected YSO CC BY4.0; other vocabulary licenses vary",
+      "license_url": "https://finto.fi/yso/en/ | https://api.finto.fi/",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T02:06:13.747186+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7442,6 +7496,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ksamsok",
+      "provider": "Swedish National Heritage Board / K-samsok",
+      "service_name": "Swedish National Heritage Board / K-samsok public metadata API",
+      "geographic_coverage": "Sweden",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Swedish cultural heritage: monuments, historic buildings, photos, museum objects; native institution/service metadata directory",
+      "documentation_url": "https://www.raa.se/hitta-information/k-samsok/att-anvanda-k-samsok/api/",
+      "api_base_url": "https://kulturarvsdata.se/ksamsok/api",
+      "format_protocol": "REST; XML/RDF and JSON/JSON-LD depending method",
+      "authentication": "No credentials for successful published institution/service directory GET",
+      "free_access_restrictions": "Bounded public metadata read; see rights/access qualifications below",
+      "license": "Official overview metadata CC0; full service terms include direct-call/nontransferable language and individual NC warnings",
+      "license_url": "https://www.raa.se/hitta-information/k-samsok/att-anvanda-k-samsok/api/ | https://www.raa.se/hitta-information/k-samsok/att-anvanda-k-samsok/anvandarvillkor/",
+      "api_verification_state": "actual_institution_directory_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:06:13.730405+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kyrgyz-ogd",
       "provider": "Kyrgyz Republic national Open Data portal",
       "service_name": "Open Data Kyrgyzstan CKAN catalogue API candidate",
@@ -9404,6 +9476,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "te-papa",
+      "provider": "Museum of New Zealand Te Papa Tongarewa",
+      "service_name": "Museum of New Zealand Te Papa Tongarewa public metadata API",
+      "geographic_coverage": "New Zealand; Pacific collections",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Collection objects/specimens, art, photography, social history, taonga, Pacific collections, zoology/botany; related agents, places, topics and taxonomy",
+      "documentation_url": "https://data.tepapa.govt.nz/docs/index.html",
+      "api_base_url": "https://data.tepapa.govt.nz/collection/",
+      "format_protocol": "REST/JSON",
+      "authentication": "key required; free registration documented; guestkeys30minute evaluation documented, none acquired",
+      "free_access_restrictions": "Free registration key per official museum page; optional guest evaluation key documented but not requested; no access credentials obtained",
+      "license": "Metadata CC BY4.0, Te Papa credit waived; linked media mixed ARR/NC-ND/no-known-restrictions",
+      "license_url": "https://www.tepapa.govt.nz/assets/76067/1693184837-collections_api_terms_of_use.pdf",
+      "api_verification_state": "documented_key_required_untested_original_docs_policy_deferred",
+      "latest_checked_utc": "2026-10-17T02:06:13.738684+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "thailand",
       "provider": "Thailand government data.go.th",
       "service_name": "Thailand government data.go.th open data portal",
@@ -9671,6 +9761,24 @@
       "license_url": "https://www.nso.gov.vn/en/homepage/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.948378+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wellcome-collection",
+      "provider": "Wellcome Collection",
+      "service_name": "Wellcome Collection public metadata API",
+      "geographic_coverage": "United Kingdom; global medical history",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Works, images and concepts; books, archives, pictures, medical-history collection metadata",
+      "documentation_url": "https://developers.wellcomecollection.org/api/catalogue",
+      "api_base_url": "https://api.wellcomecollection.org/catalogue/v2/",
+      "format_protocol": "REST/JSON",
+      "authentication": "No credentials required for tested metadata GET",
+      "free_access_restrictions": "Bounded public metadata read; see rights/access qualifications below",
+      "license": "Wellcome-created data CC0; thirdparty metadata differs and per-work origin/license not consistently identified",
+      "license_url": "https://developers.wellcomecollection.org/docs/catalogue",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T02:06:13.722120+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11167,6 +11275,24 @@
       "license_url": "https://deims.org/terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:58:57.603548+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "digitalnz",
+      "provider": "National Library of New Zealand / DigitalNZ",
+      "service_name": "National Library of New Zealand / DigitalNZ public metadata API",
+      "geographic_coverage": "New Zealand",
+      "topical_coverage": "culture; research",
+      "dataset_families": "Aggregated NZ-related image/audio/video/document/webpage descriptive metadata from cultural, government, educational and community partners",
+      "documentation_url": "https://digitalnz.org/developers",
+      "api_base_url": "https://api.digitalnz.org/v3/",
+      "format_protocol": "REST/JSON",
+      "authentication": "Current docs allow anonymous reads; optional key; no keys acquired",
+      "free_access_restrictions": "Anonymous permitted documented; commercial selected metadata agreement/key requirements unresolved against updated keyoptional docs; restricted uses/removal obligations/custom terms",
+      "license": "Mixed: default NC/custom commercial selected-metadata agreement; pre-existing Europeana CC0 and data.govt.nz CC BY3NZ exceptions",
+      "license_url": "https://digitalnz.org/about/terms-of-use/developer-api-terms-of-use",
+      "api_verification_state": "documented_API_untested_original_docs_policy_deferred",
+      "latest_checked_utc": "2026-10-17T02:06:13.713140+00:00",
       "classification": "restricted"
     },
     {
