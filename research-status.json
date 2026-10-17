@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T06:54:37.574812+00:00",
+  "published_at": "2026-10-17T06:56:40.340147+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:52:55.106620+00:00",
+  "research_updated_at": "2026-10-17T06:56:04.767616+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Regional/science batch in progress:6 services added,Palermo named aggregate CC BY4,Colorado restricted,current Cook/CSIRO/Bordeaux candidates. Native Cook traversal pending; global in_progress.",
+  "latest_milestone": "Regional/science batch:12 original origins processed;6 services added(1 scoped open,4 candidates,1 restricted). Palermo1684 dataset/1768 distribution claims;Cook Central finite catalog;CSIRO25 partial capped-search references. Global in_progress.",
   "counts": {
     "verified": 204,
     "candidates": 379,
@@ -89,6 +89,7 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "csiro-data-access-portal",
           "nasa-power",
           "ocha-hapi",
           "wfp"
@@ -114,6 +115,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "copernicus-stac",
+          "csiro-data-access-portal",
           "dataone",
           "esa-ecology",
           "hdx",
@@ -322,6 +324,7 @@
           "biostudies",
           "checklistbank",
           "cifor-icraf",
+          "csiro-data-access-portal",
           "dataone",
           "ena",
           "esa-ecology",
@@ -345,6 +348,7 @@
           "obis"
         ],
         "candidate_provider_ids": [
+          "csiro-data-access-portal",
           "hycom",
           "noaa-erddap",
           "noaa-ncei",
@@ -364,6 +368,7 @@
           "nasa-spdf-sscweb"
         ],
         "candidate_provider_ids": [
+          "csiro-data-access-portal",
           "internet-archive-metadata",
           "jpl-ssd",
           "nasa-api",
@@ -390,6 +395,7 @@
           "artic",
           "cifor-icraf",
           "cinii-books",
+          "csiro-data-access-portal",
           "getty-museum",
           "internet-archive-metadata",
           "loc",
@@ -457,6 +463,7 @@
           "checklistbank",
           "cifor-icraf",
           "cinii-books",
+          "csiro-data-access-portal",
           "dataone",
           "ena",
           "esa-ecology",
@@ -506,7 +513,8 @@
           "census-tigerweb"
         ],
         "restricted_provider_ids": [
-          "calhhs-open-data"
+          "calhhs-open-data",
+          "colorado-information-marketplace"
         ]
       },
       "economics/finance": {
@@ -548,7 +556,9 @@
           "california-open-data",
           "usda-nass"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "colorado-information-marketplace"
+        ]
       },
       "climate/weather/environment": {
         "status": "partial_verified",
@@ -608,7 +618,9 @@
           "neracoos-erddap",
           "sfwmd-repository"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "colorado-information-marketplace"
+        ]
       },
       "energy": {
         "status": "partial_verified",
@@ -620,7 +632,9 @@
         "candidate_provider_ids": [
           "california-open-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "colorado-information-marketplace"
+        ]
       },
       "health": {
         "status": "partial_verified",
@@ -639,7 +653,8 @@
           "connect211-search"
         ],
         "restricted_provider_ids": [
-          "calhhs-open-data"
+          "calhhs-open-data",
+          "colorado-information-marketplace"
         ]
       },
       "education": {
@@ -651,7 +666,9 @@
         "candidate_provider_ids": [
           "us-data-gov-catalog"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "colorado-information-marketplace"
+        ]
       },
       "housing": {
         "status": "partial_verified",
@@ -705,6 +722,7 @@
           "census-tigerweb",
           "chatham-kent-open-data",
           "chattanooga-open-data",
+          "cook-central-gis",
           "detroit-open-data",
           "drp",
           "edac-gstore",
@@ -829,7 +847,9 @@
           "smithsonian",
           "usda-nass"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "colorado-information-marketplace"
+        ]
       },
       "research": {
         "status": "partial_verified",
@@ -1267,6 +1287,7 @@
           "iceland-statistics",
           "ices-dome",
           "madrid-open-data",
+          "palermo-open-data",
           "poland-bdl",
           "poland-gus-sdg",
           "poland-gus-transtat",
@@ -1281,6 +1302,7 @@
           "aragon-sparql",
           "balearic-open-data",
           "bologna-open-data",
+          "bordeaux-metropole-datahub",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -1399,6 +1421,7 @@
           "lindat-repository",
           "moldova-data",
           "onb-webarchive",
+          "palermo-open-data",
           "poland-bdl",
           "poland-gus-sdg",
           "saw-leipzig-repository",
@@ -1539,6 +1562,7 @@
           "aragon-sparql",
           "austria-invekos-ogc",
           "bologna-open-data",
+          "bordeaux-metropole-datahub",
           "cambridgeshire-insight",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
@@ -1689,6 +1713,7 @@
           "lithuania-dataportal",
           "madrid-open-data",
           "onb-webarchive",
+          "palermo-open-data",
           "poland-bdl",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
@@ -2853,6 +2878,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "csiro-data-access-portal",
           "pacific-stat",
           "spc-pccos-tds"
         ],
@@ -2870,6 +2896,7 @@
           "aims-data-platform",
           "aims-metadata-catalog",
           "brisbane-open-data",
+          "csiro-data-access-portal",
           "esa-ecology",
           "mbie-geodata",
           "pacific-data",
@@ -3023,6 +3050,7 @@
           "ala"
         ],
         "candidate_provider_ids": [
+          "csiro-data-access-portal",
           "esa-ecology",
           "pisco",
           "province-sud-geospatial",
@@ -3038,6 +3066,7 @@
         "candidate_provider_ids": [
           "aims-data-platform",
           "aims-metadata-catalog",
+          "csiro-data-access-portal",
           "pacioos-erddap",
           "pisco",
           "province-sud-geospatial",
@@ -3048,9 +3077,11 @@
         ]
       },
       "astronomy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "csiro-data-access-portal"
+        ],
         "restricted_provider_ids": []
       },
       "culture": {
@@ -3058,6 +3089,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "brisbane-open-data",
+          "csiro-data-access-portal",
           "pacific-stat",
           "spc-pccos-tds",
           "te-papa"
@@ -3074,6 +3106,7 @@
         "candidate_provider_ids": [
           "aadc-metadata",
           "aims-metadata-catalog",
+          "csiro-data-access-portal",
           "esa-ecology",
           "nz-iponz",
           "pacioos-erddap",
@@ -5939,7 +5972,7 @@
       "license": "CC BY4.0,only named2025 referendum question5 aggregate turnout CSV.",
       "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "actual_public_structured_sample_success_aggregate_CSV",
-      "latest_checked_utc": "2026-10-17T06:50:21.562121+00:00",
+      "latest_checked_utc": "2026-10-17T06:46:33.100772+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7669,7 +7702,7 @@
       "license": "Per-dataset open or particular licence required; effective sampled source grant unconfirmed.",
       "license_url": "https://datahub.bordeaux-metropole.fr/terms/terms-and-conditions/",
       "api_verification_state": "documented_Explore_API_original_sample_policy_held_untested",
-      "latest_checked_utc": "2026-10-17T06:50:21.562477+00:00",
+      "latest_checked_utc": "2026-10-17T06:49:15.009308+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8371,7 +8404,7 @@
       "license": "Site item CC-BY-SA label; version and underlying data/metadata scope unconfirmed.",
       "license_url": "https://www.cookcountyil.gov/terms-use",
       "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata",
-      "latest_checked_utc": "2026-10-17T06:50:21.562318+00:00",
+      "latest_checked_utc": "2026-10-17T06:53:34.479929+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8389,7 +8422,7 @@
       "license": "Native Public Domain label on selected budget; complete effective grant unconfirmed.",
       "license_url": "https://www.cookcountyil.gov/terms-use",
       "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata",
-      "latest_checked_utc": "2026-10-17T06:50:21.562219+00:00",
+      "latest_checked_utc": "2026-10-17T06:45:57.948537+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8461,7 +8494,7 @@
       "license": "Per-collection mixed data/software licences; effective sampled work and metadata grants unconfirmed.",
       "license_url": "https://research.csiro.au/dap/licences/",
       "api_verification_state": "actual_public_structured_sample_success_collection_metadata",
-      "latest_checked_utc": "2026-10-17T06:50:21.562399+00:00",
+      "latest_checked_utc": "2026-10-17T06:48:51.126144+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14133,7 +14166,7 @@
       "license": "Custom terms permit required cessation of displaying,distributing or otherwise using any data for any reason.",
       "license_url": "https://data.colorado.gov/terms",
       "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata",
-      "latest_checked_utc": "2026-10-17T06:50:21.561972+00:00",
+      "latest_checked_utc": "2026-10-17T06:45:11.782357+00:00",
       "classification": "restricted"
     },
     {
