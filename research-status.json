@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T12:46:08.125549+00:00",
+  "published_at": "2026-10-17T12:48:10.555762+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T12:45:39.799066+00:00",
+  "research_updated_at": "2026-10-17T12:46:25.716068+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Recovery/regional nine origins checkpointed:728 services,239 scoped-open,433 candidates,56 restricted. Redbridge five XML categories/21schema descriptors; RedDeer JSON metadata only; RDA consumer schedule prior written product/service reuse agreement, moved restricted.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 239,
     "candidates": 433,
@@ -592,6 +592,7 @@
           "nanaimo-open-data",
           "noaa-weather",
           "ocean-networks-canada",
+          "reddeer-open-data",
           "usda-cdl",
           "usgs-water",
           "wis2-gdc-canada"
@@ -722,7 +723,8 @@
           "dc-open-data",
           "greenland-statistics",
           "hartford-open-data",
-          "new-orleans-open-data"
+          "new-orleans-open-data",
+          "reddeer-open-data"
         ],
         "candidate_provider_ids": [
           "census-geocoder",
@@ -739,7 +741,8 @@
       "transportation": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "greenland-statistics"
+          "greenland-statistics",
+          "reddeer-open-data"
         ],
         "candidate_provider_ids": [
           "annarbor-open-data",
@@ -774,6 +777,7 @@
           "new-orleans-open-data",
           "niagara-falls-open-data",
           "pasadena-open-data",
+          "reddeer-open-data",
           "seafloor",
           "usda-cdl",
           "windsor-open-data",
@@ -856,6 +860,7 @@
           "dc-open-data",
           "govinfo",
           "greenland-statistics",
+          "reddeer-open-data",
           "registry-data-boston-gov"
         ],
         "candidate_provider_ids": [
@@ -1427,6 +1432,7 @@
           "poland-bdl",
           "poland-gus-sdg",
           "poland-gus-transtat",
+          "redbridge-datashare",
           "registry-transparenz-karlsruhe-de",
           "slovenia-statistics",
           "transportapi-fi",
@@ -1653,6 +1659,7 @@
           "oulu-open-data-api",
           "poland-bdl",
           "poland-gus-sdg",
+          "redbridge-datashare",
           "scb",
           "ssb",
           "statfin",
@@ -1683,6 +1690,7 @@
           "piemonte-opendata-catalog",
           "poland-bdl",
           "poland-gus-transtat",
+          "redbridge-datashare",
           "registry-admin-opendatani-gov-uk",
           "slovenia-statistics",
           "transportapi-fi",
@@ -1782,6 +1790,7 @@
           "iceland-statistics",
           "moldova-data",
           "poland-bdl",
+          "redbridge-datashare",
           "ukraine-data"
         ],
         "candidate_provider_ids": [
@@ -1820,6 +1829,7 @@
           "poland",
           "poland-bdl",
           "poland-gus-sdg",
+          "redbridge-datashare",
           "registry-data-bl-ch",
           "registry-europeandataportal-eu",
           "registry-open-nrw",
@@ -3346,12 +3356,12 @@
           "nz-iponz",
           "pacioos-erddap",
           "pisco",
-          "rda-australia",
           "spc-pccos-tds",
           "te-papa"
         ],
         "restricted_provider_ids": [
           "digitalnz",
+          "rda-australia",
           "spc-pccos-thredds"
         ]
       }
