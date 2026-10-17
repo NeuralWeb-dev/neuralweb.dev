@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T15:23:30.498035+00:00",
+  "published_at": "2026-10-17T15:25:32.918044+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:19:34.554166+00:00",
+  "research_updated_at": "2026-10-17T15:25:07.963579+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SouthBrazil8origins:778records250open465candidates63restricted;TCE-RNscopedcustomgrant/nativeJSON,TCE-SP644referenceJSON;27originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 250,
-    "candidates": 465,
+    "verified": 251,
+    "candidates": 466,
     "excluded": 63,
     "sample_successes": 464
   },
@@ -6965,6 +6965,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "paraiba-state-open-data-portal",
+      "provider": "Governo do Estado da Paraíba",
+      "service_name": "Dados PB catalogue and source-data API",
+      "geographic_coverage": "Brazil; Paraíba state",
+      "topical_coverage": "public spending/contracts; economics/finance; health; labor",
+      "dataset_families": "Catalogue links revenue, expenditure, purchases, agreements, budget and other state works; individual operational sourcework exceptions and full inventory unreviewed",
+      "documentation_url": "https://api.dados.pb.gov.br/swagger/",
+      "api_base_url": "https://dados.pb.gov.br/api/3/action/ | https://api.dados.pb.gov.br/",
+      "format_protocol": "CKAN interface candidate; separate SwaggerUI publishes native schema location/api/v1/swagger.json; native protocols/schema untested",
+      "authentication": "Public portal/documentation read without credentials; source query/API authentication requirements unverified",
+      "free_access_restrictions": "Public documentation without registration/payment; actualAPI free tier/eligibility/service restrictions unknown",
+      "license": "Creative Commons Attribution4.0; eligible publisher portal data scope",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "primary_documented_source_API_and_CCBY4_native_catalogue_sample_policy_held_target_unsent_source_untested",
+      "latest_checked_utc": "2026-10-17T15:23:42.533836+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "pasadena-open-data",
       "provider": "City of Pasadena,California",
       "service_name": "Pasadena Open Data OGCcatalog,scopedSpecificPlans",
@@ -7212,8 +7230,8 @@
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC0 1.0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "api_verification_state": "historical_sample_success_current_enumeration_policy_deferred",
-      "latest_checked_utc": "2026-10-16T18:21:32.666354+00:00",
+      "api_verification_state": "historical_sample_success_current_original_root_and_enumeration_policy_held",
+      "latest_checked_utc": "2026-10-17T15:20:18.677471+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8641,6 +8659,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "alesp-open-data-interfaces",
+      "provider": "Assembleia Legislativa do Estado de São Paulo",
+      "service_name": "ALESP advertised REST interfaces and open-data portal",
+      "geographic_coverage": "Brazil; São Paulo state legislature",
+      "topical_coverage": "law/civic data; public spending/contracts",
+      "dataset_families": "Legislative process, state deputies, office expenses, legislation and agenda; original page advertises26datasets29resources, not native verified inventory",
+      "documentation_url": "https://www.al.sp.gov.br/dados-abertos/catalogo",
+      "api_base_url": "https://www.al.sp.gov.br/api/",
+      "format_protocol": "Advertised REST templates; officialFAQ describes staticXML instead; actual route404HTML",
+      "authentication": "unknown; representative advertised route attempted without credentials",
+      "free_access_restrictions": "unknown; openness purpose does not establish service terms or comprehensive licence",
+      "license": "unknown; no operative publisher data reuse instrument verified",
+      "license_url": "",
+      "api_verification_state": "documented_REST_conflicts_official_no_API_FAQ_representative_route404_replacement_policy_held",
+      "latest_checked_utc": "2026-10-17T15:21:45.048988+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "almg-open-data-api",
       "provider": "Assembleia Legislativa de Minas Gerais",
       "service_name": "ALMG Dados Abertos API v2",
@@ -9051,7 +9087,7 @@
       "license": "unknown;no data-specific open grant verified for locality/SIDRA APIs",
       "license_url": "https://www.ibge.gov.br/acesso-informacao/acoes-e-programas/politica-de-privacidade.html",
       "api_verification_state": "historical_reference_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
+      "latest_checked_utc": "2026-10-17T15:23:42.534049+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13533,7 +13569,7 @@
       "license": "unknown; historical Contratos Consolidado2026 licence fields null, other works vary",
       "license_url": "",
       "api_verification_state": "historical_sample_success_current_work_descriptor_policy_held_target_unsent",
-      "latest_checked_utc": "2026-10-17T15:14:08.619919+00:00",
+      "latest_checked_utc": "2026-10-17T15:16:50.123049+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13623,7 +13659,7 @@
       "license": "unknown; individual item metadata and underlying data grants require review",
       "license_url": "",
       "api_verification_state": "current_ArcGIS_referencing_HTML_frontend_only_legacy_CKAN_claim_unverified",
-      "latest_checked_utc": "2026-10-17T15:06:22.441306+00:00",
+      "latest_checked_utc": "2026-10-17T15:10:36.951059+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
