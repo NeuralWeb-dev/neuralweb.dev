@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T23:11:25.954287+00:00",
+  "published_at": "2026-10-17T23:13:29.020322+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:11:18.481554+00:00",
+  "research_updated_at": "2026-10-17T23:13:28.164011+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelveoriginaltasks reviewed: elevennewrecords(one scoped-open,eight candidates,two restricted), ONSaliasupdated. Språkbanken1502-IDarray andESMISreportedpublicationpagefrontier processed; exactsource-rights queues remain.",
+  "latest_milestone": "RODAplannedharvesting/per-versionterms; CTRIfreepublicsearch/noAPIgrant; ForestPlotsownerproprietary/redistribution/AI constraints.",
   "counts": {
     "verified": 309,
-    "candidates": 629,
-    "excluded": 156,
+    "candidates": 631,
+    "excluded": 157,
     "sample_successes": 471
   },
   "remaining_work": [
@@ -11724,6 +11724,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "clinical-trials-registry-india",
+      "provider": "ICMR National Institute for Research in Digital Health / Clinical Trials Registry India",
+      "service_name": "CTRI public clinical-trial registry",
+      "geographic_coverage": "India trials and multicountry studies with India participation, exact current inventory unenumerated",
+      "topical_coverage": "health | research",
+      "dataset_families": "Prospectively registered interventional study descriptions, sponsor/investigator submissions and status/version information; no participant-level records retrieved",
+      "documentation_url": "https://ctri.nic.in/Clinicaltrials/login.php | https://ctri.nic.in/Clinicaltrials/faq.php",
+      "api_base_url": "",
+      "format_protocol": "Official freely searchable web registry and WHOICTRP linkage, not current documented machineAPI proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native source says registration free and registeredtrials freely searchable; source open reuse/API access terms unknown",
+      "license": "unknown exact metadata/database/study-record reuse grant; no software Apache transfer",
+      "license_url": "https://ctri.nic.in/Clinicaltrials/disclaimer.php",
+      "api_verification_state": "native_free_public_search_and_registrant_responsibility_docs_verified_public_API_and_open_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T23:13:23.850841+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "clinicalcodes-repository",
       "provider": "University of Manchester / ClinicalCodes",
       "service_name": "ClinicalCodes code-list repository",
@@ -17808,6 +17826,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "romanian-social-data-archive",
+      "provider": "Romanian Social Data Archive (RODA)",
+      "service_name": "RODA social research data archive",
+      "geographic_coverage": "Romania institutional social-science archive; exact survey geographic holdings unenumerated",
+      "topical_coverage": "demographics | economics | labor | education | research",
+      "dataset_families": "Social-research studies, dataset versions, variables and supporting documentation; public/conditional/controlled access",
+      "documentation_url": "https://roda.ro/en/home | https://roda.ro/en/ordering-data/access-levels",
+      "api_base_url": "",
+      "format_protocol": "Open metadata standards described, not active protocol/endpoint proof; legacy labels not publication permission",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Dataset-version conditions: public direct access, conditional request/agreement or strictly controlled delivery. Agreement needed only when specified",
+      "license": "unknown blanket metadata/database grant; conditions assigned per dataset/version",
+      "license_url": "https://roda.ro/en/ordering-data/access-agreements | https://roda.ro/en/ordering-data/access-levels",
+      "api_verification_state": "native_planned_metadata_harvesting_and_per_version_access_terms_verified_active_API_and_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T23:13:23.850841+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rosario-city",
       "provider": "Municipalidad de Rosario",
       "service_name": "Rosario municipal DKAN datastore API candidate",
@@ -22667,6 +22703,24 @@
       "license_url": "https://www.fao.org/contact-us/terms/db-terms-of-use/en/",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T17:36:21.499639+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "forestplots-research-network",
+      "provider": "ForestPlots.net collaboration / University of Leeds and plot owners",
+      "service_name": "ForestPlots.net tropical forest monitoring database",
+      "geographic_coverage": "Tropical forest research networks internationally; individual plot locations/coordinates not retrieved or indexed",
+      "topical_coverage": "biodiversity | climate | environment | agriculture | research",
+      "dataset_families": "Forest plot/tree monitoring inventories and research data packages; exact source inventory not accessed",
+      "documentation_url": "https://forestplots.net/en/join-forestplots/code-of-conduct | https://forestplots.net/en/join-forestplots/privacy-copyright",
+      "api_base_url": "",
+      "format_protocol": "Secure collaborative repository and data packages described; no current public machineAPI proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Current code declares owner-proprietary data, collaboration/permission requirements, confidentiality and nonredistribution; special AI-use constraints. No restricted data accessed",
+      "license": "Proprietary owner data and University of Leeds website copyright; no verified unrestricted database grant",
+      "license_url": "https://forestplots.net/en/join-forestplots/code-of-conduct | https://forestplots.net/en/join-forestplots/privacy-copyright",
+      "api_verification_state": "native_owner_proprietary_nonredistribution_AI_constraints_and_website_copyright_verified_data_API_untested",
+      "latest_checked_utc": "2026-10-17T23:13:23.850841+00:00",
       "classification": "restricted"
     },
     {
