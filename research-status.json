@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T22:16:13.452632+00:00",
+  "published_at": "2026-10-17T22:18:15.835323+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:15:35.530328+00:00",
+  "research_updated_at": "2026-10-17T22:17:20.164868+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OpenML nativeJSON/catalogue and exact46938CC0 source verified; DFOscientificAPI/licence unresolved; DepositOnceCC0metadata/OAI documented but AIpolicy/runtimeheld.",
+  "latest_milestone": "CancerData currentNC4 verified; GenomeRNAi nativeBY3Unported recordsgrant but currentAPIunresolved; CSICindexedNC/systematicpermission policy retained underoriginalhold.",
   "counts": {
     "verified": 304,
-    "candidates": 602,
-    "excluded": 143,
+    "candidates": 603,
+    "excluded": 145,
     "sample_successes": 474
   },
   "remaining_work": [
@@ -12961,6 +12961,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "genomernai-phenotype-resources",
+      "provider": "GenomeRNAi / German Cancer Research Center DKFZ",
+      "service_name": "GenomeRNAi phenotypes and RNAi reagent discovery",
+      "geographic_coverage": "Human andDrosophila RNAi screens, not geographic population inventory",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Manually curated RNAi screen phenotypes, reagents/predicted quality, gene/screen/publication links",
+      "documentation_url": "https://genomernai.dkfz.de/About | https://genomernai.dkfz.de/SiteIndex",
+      "api_base_url": "",
+      "format_protocol": "HTML native source/about/siteindex; gene/reagent directlink templates not verified structured API. Home says genomebrowser switched fromDAS tobigbed/2bit, not proof everyDAS endpoint nonexistent",
+      "authentication": "No credentials, keys or accounts used",
+      "free_access_restrictions": "Native source reuse commercial permitted with appropriatecredit underBY3; current API/access identity unverified",
+      "license": "Creative Commons Attribution3.0 Unported, native all-records declaration",
+      "license_url": "https://genomernai.dkfz.de/About",
+      "api_verification_state": "native_BY3_Unported_database_record_grant_verified_legacyDASdocs_policy_held_current_structured_API_unresolved",
+      "latest_checked_utc": "2026-10-17T22:17:16.015009+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "geo-be-metadata-catalog",
       "provider": "Belgian federal geographic portal / National Geographic Institute; named metadata publisher Royal Meteorological Institute",
       "service_name": "geo.be published GeoNetwork metadata record API",
@@ -21297,6 +21315,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "cancerdata-radiotherapy-portal",
+      "provider": "CancerData",
+      "service_name": "CancerData cancer/radiotherapy resources portal",
+      "geographic_coverage": "International collaborative radiotherapy/brain contouring resources; exact patient/dataset geography unreviewed",
+      "topical_coverage": "health | research | education",
+      "dataset_families": "Brain atlas/contouring guidance, radiotherapy resources, education and related brainMRI resource descriptions",
+      "documentation_url": "https://www.cancerdata.org/ | https://www.cancerdata.org/terms-and-conditions",
+      "api_base_url": "",
+      "format_protocol": "Native HTML portal/terms; registry FTP/MIRC_CTP and oldOAI paths are discovery claims, not current service proof",
+      "authentication": "No credentials, keys or accounts used",
+      "free_access_restrictions": "Native footerCCBY-NC4, terms permit attributed sharing/distribution and forbid monetizing website. No paid data acquisition",
+      "license": "Creative Commons Attribution-NonCommercial4.0 native footer; terms/source third-party rights apply",
+      "license_url": "https://www.cancerdata.org/terms-and-conditions",
+      "api_verification_state": "native_current_NC4_terms_verified_legacy_OAI_FTP_claims_unverified_no_scientific_API_sample",
+      "latest_checked_utc": "2026-10-17T22:17:16.015009+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "catalonia-open-data",
       "provider": "Generalitat de Catalunya; named sampled work METEOCAT",
       "service_name": "Catalonia native open-data catalogue and named SODA weather-variable metadata API",
@@ -21708,6 +21744,24 @@
       "license_url": "https://www.centerdata.nl/projecten/dnb-household-survey-dhs-spaaronderzoek | https://en.centerdata.nl/app/uploads/sites/3/2021/11/Centerdata-Algemene-voorwaarden-EN.pdf",
       "api_verification_state": "native_operator_controlled_access_process_verified_original_portal_policy_hold_no_public_API_sample",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "digital-csic-repository",
+      "provider": "Consejo Superior de Investigaciones Científicas / DIGITAL.CSIC",
+      "service_name": "DIGITAL.CSIC institutional research repository interfaces",
+      "geographic_coverage": "SpanishCSIC research outputs with internationalsubjectmatter; not comprehensive Spanishnationaldatasets",
+      "topical_coverage": "research | education | culture | environment",
+      "dataset_families": "Institutional publications/research datasets and descriptive metadata; exact currentsource inventory unreviewed",
+      "documentation_url": "https://digital.csic.es/?locale=en+%7C+https%3A%2F%2Fopen-science-digitalcsic.atlassian.net%2Fwiki%2Fspaces%2Fdigitalcsic%2Fpages%2F58654752%2FCIENCIA%2BABIERTA%2BY%2BPROPIEDAD%2BINTELECTUAL",
+      "api_base_url": "https://digital.csic.es/dspace-oai/request (registrydocumented, runtimeuntested); RESTclaim not deploymentverified",
+      "format_protocol": "RegistryOAI/RESTclaims and official indexedpolicydescriptions, no currentnativeXML/JSONresponse; independent policyHTMLwrapper no visibletext",
+      "authentication": "No credentials, keys or accounts used",
+      "free_access_restrictions": "Official indexeddefaultpolicy allows freeaccess with noncommercialmetadata/contentreuse limits and systematicusepermission; exactitemlicences may supersede",
+      "license": "Default noncommercial metadata reuse; sourcecontent research/educational/nonprofit use withoutchanges; explicit per-item exceptions possible (official indexedpolicy)",
+      "license_url": "https://open-science-digitalcsic.atlassian.net/wiki/spaces/digitalcsic/pages/58654752/CIENCIA%2BABIERTA%2BY%2BPROPIEDAD%2BINTELECTUAL",
+      "api_verification_state": "original_robots_hold_target_unsent_official_indexed_NC_and_systematic_use_policy_native_wrapper_only_API_untested",
+      "latest_checked_utc": "2026-10-17T22:17:16.015009+00:00",
       "classification": "restricted"
     },
     {
