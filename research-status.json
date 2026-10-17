@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T23:27:46.910830+00:00",
+  "published_at": "2026-10-17T23:29:49.518487+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:27:44.967307+00:00",
+  "research_updated_at": "2026-10-17T23:29:26.236520+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three distinct scientific services: SMOKA and ChinaGEOSS candidates; Ensembl scoped unrestricted project-generated data permission and actual anonymous JSON ping/species verified. Full returned species-array frontier356 unique entries indexed, not globally cleared genomic datasets. Third-party rights queue retained; no source datafiles. SMOKA original guard holds and ChinaGEOSS JS shell unresolved.",
+  "latest_milestone": "Three distinct services reviewed: enviPath restricted academic/NC use; Côte d’Azur institutional collection candidate under original robots hold; Mitelman explicitCCBY4 database with documented BigQuery interface, account/project access untested.20 published table descriptors indexed without querying source cases/clinical data. No cloudresources, keys, subscriptions or datafiles.",
   "counts": {
-    "verified": 313,
-    "candidates": 637,
-    "excluded": 159,
+    "verified": 314,
+    "candidates": 638,
+    "excluded": 160,
     "sample_successes": 471
   },
   "remaining_work": [
@@ -7870,6 +7870,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "mitelman-cancer-database-bigquery",
+      "provider": "Mitelman Database / ISB Cancer Genomics Cloud, supported by NCI and Swedish research funders",
+      "service_name": "Mitelman cancer chromosome aberration and gene fusion database / public BigQuery tables",
+      "geographic_coverage": "International published cancer cytogenetics literature; source case geography not inferred from author country",
+      "topical_coverage": "health | research",
+      "dataset_families": "Cytogenetics, gene fusions, recurrent chromosome aberrations, clinical associations and literature references; published20 table descriptors, no case rows queried",
+      "documentation_url": "https://mitelmandatabase.isb-cgc.org/bq_data | https://cloud.google.com/bigquery/docs/reference/rest",
+      "api_base_url": "https://bigquery.googleapis.com (shared Google BigQuery REST service; provider-specific public tables documented separately)",
+      "format_protocol": "BigQuery SQL and REST JSON documented; no authenticated API response tested",
+      "authentication": "Provider workflow requires Google account/project; BigQuery API credentials not obtained or used",
+      "free_access_restrictions": "BigQuery documented first1TiB querydata processed/month free under on-demand pricing, other usage can incur charges and billing conditions apply; no paid subscription/query/project created",
+      "license": "Creative Commons Attribution 4.0 International for Mitelman Database",
+      "license_url": "https://mitelmandatabase.isb-cgc.org/about",
+      "api_verification_state": "native_database_CCBY4_and20_published_BigQuery_table_descriptors_verified_API_key_project_required_untested",
+      "latest_checked_utc": "2026-10-17T23:29:22.079455+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "modeldb-neuroscience-api",
       "provider": "ModelDB / computational neuroscience model repository",
       "service_name": "ModelDB public REST metadata API",
@@ -12153,6 +12171,24 @@
       "license_url": "https://about.coscine.de/en/faq/",
       "api_verification_state": "primary_API_docs_and_native_OpenAPI_schema_verified_Bearer_required_data_sample_untested_actual_source_grant_unconfirmed",
       "latest_checked_utc": "2026-10-17T17:14:03.358190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cotedazur-recherche-data-gouv-collection",
+      "provider": "Université Côte d’Azur / Recherche Data Gouv",
+      "service_name": "Université Côte d’Azur institutional Dataverse collection",
+      "geographic_coverage": "France institutional research collection; exact dataset geographies unenumerated",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary university research datasets; exact published inventory unresolved",
+      "documentation_url": "https://univ-cotedazur.fr/recherche-innovation/science-ouverte/donnees-de-la-recherche/entrepot-universite-cote-dazur",
+      "api_base_url": "https://entrepot.recherche.data.gouv.fr/oai (registry shared platform endpoint, institutional set not verified)",
+      "format_protocol": "Dataverse institutional collection provider identity verified on native university documentation; current OAI/API claim registry-only",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "unknown exact dataset/API access conditions; no accounts used",
+      "license": "unknown collection metadata and per-dataset grants",
+      "license_url": "https://entrepot.recherche.data.gouv.fr/dataverse/univ-cotedazur/",
+      "api_verification_state": "native_university_collection_identity_verified_original_collection_robots_deferred_API_and_licence_unresolved",
+      "latest_checked_utc": "2026-10-17T23:29:22.079455+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22865,6 +22901,24 @@
       "license_url": "https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/",
       "api_verification_state": "native_operator_docs_auth_editing_REST_and_published_edition_links_verified_no_anonymous_query_sample_or_data_grant_native_owner_default_NCSA4_verified",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "envipath-biotransformation-platform",
+      "provider": "enviPath platform / enviPath scientific collaboration",
+      "service_name": "enviPath contaminant biotransformation database and prediction REST interfaces",
+      "geographic_coverage": "International biotransformation research; exact data geographic coverage unenumerated",
+      "topical_coverage": "environment | water | health | research",
+      "dataset_families": "Contaminant compounds, reactions, rules, pathways, packages and environmental scenarios; no source data or predictions requested",
+      "documentation_url": "https://envipath.org/ | https://wiki.envipath.com/doku.php?id=start",
+      "api_base_url": "",
+      "format_protocol": "REST documented in wiki; current authenticated machine runtime untested",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Current site requires registration; terms free Academic Research only, commercial/mixed-use requires separate agreement. No registration/contact/payment",
+      "license": "Academic-use service terms; BBD and Soil packages CC BY-NC-SA 4.0 per wiki",
+      "license_url": "https://envipath.org/terms | https://wiki.envipath.com/doku.php?id=license",
+      "api_verification_state": "native_current_registration_academic_only_terms_and_NC_package_rights_verified_REST_documented_runtime_untested",
+      "latest_checked_utc": "2026-10-17T23:29:22.079455+00:00",
       "classification": "restricted"
     },
     {
