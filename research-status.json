@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:32:11.635685+00:00",
+  "published_at": "2026-10-17T17:34:14.607488+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:30:26.973385+00:00",
+  "research_updated_at": "2026-10-17T17:32:51.313320+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Registry aliases deduplicated London/SPT; DFL8 source labels and PlantTFDB publishedfile refs saved; current machineAPI/grants unresolved",
+  "latest_milestone": "Nine original tasks reviewed; HarvardAPI reclassified restricted, NISTASD restrictedadded; aliasesdeduplicated and DFL8/NARA4/Plant1131referenceindexes saved",
   "counts": {
     "verified": 263,
     "candidates": 487,
-    "excluded": 77,
+    "excluded": 78,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -507,7 +507,6 @@
           "figshare",
           "getty-museum",
           "gwas-catalog",
-          "harvard-dataverse",
           "huggingface-dataset-hub",
           "hycom",
           "iati-dashboard-metadata",
@@ -537,6 +536,7 @@
           "deims",
           "ebird",
           "ghdx-ihme-discovery",
+          "harvard-dataverse",
           "ipd-immunopolymorphism-api",
           "orcid",
           "phi-base-api",
@@ -11407,7 +11407,7 @@
       "license": "Publisher-specific open-licence requirement documented; effective individual work/whole-service grant unconfirmed",
       "license_url": "https://reference.iatistandard.org/en/guidance/publishing-data/what-data-to-publish/how-to-license-your-data/",
       "api_verification_state": "documented_key_required_API_untested_no_credentials_used",
-      "latest_checked_utc": "2026-10-17T11:32:13.732772+00:00",
+      "latest_checked_utc": "2026-10-17T17:32:08.112681+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18466,6 +18466,24 @@
       "license_url": "https://data.ny.gov/api/views/77gx-ii52/files/ef0c1840-ad54-4240-92fd-6397c49fde46?filename=OPEN-NY_20Terms_20of_20Use.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_legalasset_metadata_full_restricted_terms_read",
       "latest_checked_utc": "2026-10-17T11:05:18.891873+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nist-atomic-spectra-database",
+      "provider": "NIST Physical Measurement Laboratory",
+      "service_name": "Atomic Spectra Database (ASD / Standard Reference Database78) query interface",
+      "geographic_coverage": "Atomic/ionic reference spectra; not geographically bounded",
+      "topical_coverage": "astronomy; energy; research",
+      "dataset_families": "Atomic energy levels, wavelengths, transition probabilities, ground states and ionization energies",
+      "documentation_url": "https://www.nist.gov/pml/atomic-spectra-database | https://physics.nist.gov/PhysRefData/ASD/Html/help.html",
+      "api_base_url": "https://physics.nist.gov/cgi-bin/ASD/lines1.pl",
+      "format_protocol": "Published GETCGI form supports HTML, ASCII, CSV and tab-delimited outputs; no REST/OpenAPI contract claimed",
+      "authentication": "Public landing/help/form anonymous; one derived narrow no-key CGI query returnedHTTP500, not data success",
+      "free_access_restrictions": "Publicly accessible documentation; source reserves right to charge for data in future. No paid licence/data acquired.",
+      "license": "Copyrighted NIST Standard Reference Data; all rights reserved",
+      "license_url": "https://www.nist.gov/pml/atomic-spectra-database | https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-17T17:32:08.112681+00:00",
       "classification": "restricted"
     },
     {
