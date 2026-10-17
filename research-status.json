@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T00:11:51.271151+00:00",
+  "published_at": "2026-10-17T00:13:53.871453+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:07:32.592135+00:00",
+  "research_updated_at": "2026-10-17T00:12:43.829558+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Pacificnationalstatistics officialAPIconfig/actualSamoametadata;rights unresolved",
+  "latest_milestone": "Dateno43614catalog descriptors/106235endpointclaims finite snapshot normalized,208UIDcollisions preserved;50911source-origin tasks,notuniqueproviders;Samoa41actualSDMXJSONstubs/FijidocumentedAPI500 candidates;Pacific22rootfrontier ongoing;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 151,
     "candidates": 199,
     "excluded": 26,
-    "sample_successes": 189
+    "sample_successes": 190
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -2392,8 +2392,10 @@
         ],
         "candidate_provider_ids": [
           "adb",
+          "fiji-statistics",
           "pacific-data",
           "pacific-stat",
+          "samoa-statistics",
           "stats-nz",
           "stats-nz-geographic",
           "worldpop-wopr"
@@ -2407,9 +2409,11 @@
         ],
         "candidate_provider_ids": [
           "adb",
+          "fiji-statistics",
           "nz-charities",
           "nzbn",
           "pacific-stat",
+          "samoa-statistics",
           "stats-nz"
         ],
         "restricted_provider_ids": [
@@ -2422,7 +2426,9 @@
           "abs"
         ],
         "candidate_provider_ids": [
+          "fiji-statistics",
           "pacific-stat",
+          "samoa-statistics",
           "stats-nz"
         ],
         "restricted_provider_ids": [
@@ -2508,7 +2514,9 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "queensland-data"
+          "fiji-statistics",
+          "queensland-data",
+          "samoa-statistics"
         ],
         "restricted_provider_ids": []
       },
@@ -2533,7 +2541,9 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "queensland-data"
+          "fiji-statistics",
+          "queensland-data",
+          "samoa-statistics"
         ],
         "restricted_provider_ids": []
       },
@@ -3640,7 +3650,7 @@
       "license": "CC-BY-SA-4.0",
       "license_url": "https://andmed.stat.ee/en/help | https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
       "api_verification_state": "documented_JSON_metadata_and_one_cell_readonly_POST_observation_sample_success",
-      "latest_checked_utc": "2026-10-17T00:01:26.715700+00:00",
+      "latest_checked_utc": "2026-10-17T00:12:20.443687+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3856,7 +3866,7 @@
       "license": "Custom unrestricted statistical reuse permission with attribution",
       "license_url": "https://www.geostat.ge/en/page/monacemta-gamoyenebis-pirobebi",
       "api_verification_state": "documented_official_PxWeb_link_and_live_JSON_directory_metadata_sample_success_observations_untested",
-      "latest_checked_utc": "2026-10-17T00:01:13.579946+00:00",
+      "latest_checked_utc": "2026-10-17T00:11:32.870101+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6539,8 +6549,8 @@
       "free_access_restrictions": "Publicfrontend200/noaccount. Datasetreuse andotherdataresources/free-tierrestrictions unknown;no accounts/keys/paiddata.",
       "license": "unknown;no operative national statistical API data grant verified",
       "license_url": "https://www.statsfiji.gov.fj/terms-of-use/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:07:32.509851+00:00",
+      "api_verification_state": "documented_national_SDMX_dissemination_API_sample_HTTP500_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T00:04:28.916983+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8573,8 +8583,8 @@
       "free_access_restrictions": "Publicfrontend200/noaccount. Datasetreuse andotherdataresources/free-tierrestrictions unknown;no accounts/keys/paiddata.",
       "license": "unknown;no operative national statistical API data grant verified",
       "license_url": "https://www.sbs.gov.ws/ssp/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T00:07:32.328688+00:00",
+      "api_verification_state": "documented_national_SDMX_API_JSON_structure_sample_success_data_license_unconfirmed",
+      "latest_checked_utc": "2026-10-17T00:05:41.513905+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
