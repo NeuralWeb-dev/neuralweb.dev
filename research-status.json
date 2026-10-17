@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:19:01.251566+00:00",
+  "published_at": "2026-10-17T21:21:04.337519+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:15:15.972661+00:00",
+  "research_updated_at": "2026-10-17T21:19:04.649044+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original discovery tasks reviewed in two batches; six distinct services added: one scoped-open, four candidates, one restricted. DNB/SAW provider deduplication preserved; native ScienceBase/VFB/DNB metadata samples and scoped reference indexes saved. Global discovery unfinished.",
+  "latest_milestone": "Claremont native80collection JSON verified, Charité restricted transfer documented, TextGrid public OAI39sets/3formats and exact BY4 edition grant verified with mixed-source limitations.",
   "counts": {
-    "verified": 293,
-    "candidates": 572,
-    "excluded": 125,
+    "verified": 294,
+    "candidates": 573,
+    "excluded": 126,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -9012,6 +9012,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "textgrid-public-repository",
+      "provider": "TextGrid / DARIAH-DE / Göttingen State and University Library",
+      "service_name": "TextGrid public repository OAI metadata and documented search/dissemination",
+      "geographic_coverage": "Humanities editions and multilingual literary projects; German literature is a major base, native39public-project scope includes European and non-European language traditions",
+      "topical_coverage": "culture | education | research | linguistics",
+      "dataset_families": "Digital scholarly editions, TEI/XML text collections and image descriptions. Accepted source scope only explicitly verified BY4 editions, demonstrated by CoNSSA textgrid:40wr9.0; other sources not universally cleared.",
+      "documentation_url": "https://doc.dev.textgridlab.org/submodules/oai-pmh/docs_tgrep/index.html | https://doc.dev.textgridlab.org/submodules/tg-search/docs/index.html | https://doc.dev.textgridlab.org/data-policies.html",
+      "api_base_url": "https://textgridlab.org/1.0/tgoaipmh/oai | https://textgridlab.org/1.0/tgsearch-public/ | https://textgridlab.org/1.0/aggregator",
+      "format_protocol": "Native OAI-PMH2 XML Identify/39sets/3formats/oneedition record; public TG-search and aggregator conversion documented, not successful source-search/export samples",
+      "authentication": "Anonymous public OAI metadata success; documentation explicitly separates public search without sessionId from authenticated nonpublic search. Private search/auth never accessed.",
+      "free_access_restrictions": "Operator states public repository access free; source licenses/citations apply. No private data, accounts, source-file acquisition, conversion/analysis jobs or payment.",
+      "license": "CC BY4 explicitly verified for one CoNSSA source edition; source terms vary, including NC-SA4; universal formal metadata/database grant unknown",
+      "license_url": "https://textgridlab.org/1.0/tgoaipmh/oai?verb=GetRecord&identifier=textgrid%3A40wr9.0&metadataPrefix=oai_dc+%7C+https%3A%2F%2Ftextgridrep.org%2Fbrowse%2F49m97.0+%7C+https%3A%2F%2Fdoc.dev.textgridlab.org%2Fdata-policies.html",
+      "api_verification_state": "native_public_OAI_XML_Identify_39sets_3formats_one_source_BY4_record_success_aggregator_WADL500_other_source_rights_scoped",
+      "latest_checked_utc": "2026-10-17T21:19:00.264640+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "thoth",
       "provider": "Thoth Open Metadata CIC",
       "service_name": "Thoth public bibliographic metadata GraphQL and Export APIs",
@@ -10901,6 +10919,24 @@
       "license_url": "https://www.cityscale.com.ua/opendata.htm",
       "api_verification_state": "documented_current_key_required_API_untested",
       "latest_checked_utc": "2026-10-17T06:30:52.890586+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "claremont-colleges-digital-library",
+      "provider": "The Claremont Colleges Library and contributing institutions",
+      "service_name": "CCDL CONTENTdm collection metadata API",
+      "geographic_coverage": "Claremont/Southern California archival collections with international cultural holdings; native collection titles include Sri Lanka, Asian collections, Northern Ireland and other source-specific geographies",
+      "topical_coverage": "culture | research | education | law/civic data | water | geospatial",
+      "dataset_families": "Archival/manuscript/photo/art/music collections, California water documents, maps, institutional history and source descriptions",
+      "documentation_url": "https://help.oclc.org/Metadata_Services/CONTENTdm_classic_version/Advanced_website_customization/API_Reference/CONTENTdm_classic_version_API | https://library.claremont.edu/sca/accessing-and-using-materials/",
+      "api_base_url": "https://ccdl.claremont.edu/digital/bl/dmwebservices/index.php",
+      "format_protocol": "Native CONTENTdm dmGetCollectionList JSON array80; OCLC documents read-only JSON/XML services, no binary/media API invoked",
+      "authentication": "Anonymous public documentation/metadata only; no accounts or keys",
+      "free_access_restrictions": "Anonymous collection metadata success. Physical scanning/copy service fees are separate from API access and were not incurred; no read API quota/fee claim invented.",
+      "license": "unknown universal metadata/database/source grant; source public-domain and copyright/permissions conditions vary",
+      "license_url": "https://library.claremont.edu/sca/accessing-and-using-materials/ | https://library.claremont.edu/copyright-resources/",
+      "api_verification_state": "native_anonymous_CONTENTdm_collection_list_JSON_success_80_distinct_aliases_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:19:00.264640+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20407,6 +20443,24 @@
       "license_url": "https://cdip.ucsd.edu/m/documents/data_access.html#data-use-and-acknowledgements",
       "api_verification_state": "operator_documented_API_services_native_original_policy_held_untested",
       "latest_checked_utc": "2026-10-17T18:52:48.221384+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "charite-zebanc-biobank",
+      "provider": "Charité – Universitätsmedizin Berlin / Berlin Institute of Health",
+      "service_name": "ZeBanC central biobank and research request service",
+      "geographic_coverage": "Charité/BIH Berlin clinical research collections; eligible research collaborations inside and outside Charité, not open worldwide data coverage",
+      "topical_coverage": "health | research",
+      "dataset_families": "Blood/tissue/other biomaterials and associated clinical information; underlying participant/sample data not accessed",
+      "documentation_url": "https://biobank.charite.de/en/research/ | https://biobank.charite.de/en/service",
+      "api_base_url": "",
+      "format_protocol": "Native public operator HTML describing restricted research transfer; no successful public source API response",
+      "authentication": "Public operator documentation anonymous; private/project portal authentication untested and not entered",
+      "free_access_restrictions": "Research proposal/transfer approval required; numeric costs/free access unknown. No fees paid, application, meeting, ethics paperwork or contact performed.",
+      "license": "Controlled research transfer subject to ethics, data-protection processes and panel approval; no open source-data/metadata grant established",
+      "license_url": "https://biobank.charite.de/en/research/ | https://biobank.charite.de/en/service",
+      "api_verification_state": "native_operator_panel_approved_biomaterial_associated_data_access_verified_no_public_query_API_established",
+      "latest_checked_utc": "2026-10-17T21:19:00.264640+00:00",
       "classification": "restricted"
     },
     {
