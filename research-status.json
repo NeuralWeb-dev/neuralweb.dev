@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:44:26.967610+00:00",
+  "published_at": "2026-10-17T17:46:29.364611+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:43:47.339720+00:00",
+  "research_updated_at": "2026-10-17T17:44:29.477487+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "HelixcitationCC0/publishedrecordsAPIverifiedruntimeheld;ADEERfamilyreferencesindexed;PRRdigitalAPI/grantunresolved",
+  "latest_milestone": "ICPSRmetadataAPIcredentialrequired/NCverified;BioCycMetaHuman sharedAPIrestrictednoredistribution/SRIprimarylicence",
   "counts": {
     "verified": 265,
     "candidates": 487,
-    "excluded": 82,
+    "excluded": 84,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -17704,6 +17704,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "biocyc-limited-pathway-api",
+      "provider": "SRI International / BioCyc",
+      "service_name": "BioCyc shared pathway/genome web services: MetaCyc and HumanCyc limited-database scope",
+      "geographic_coverage": "Biochemical/metabolicpathways,notgeographicallybounded; organism/database-specificscope",
+      "topical_coverage": "health; biodiversity; agriculture; research",
+      "dataset_families": "MetaCycmetabolicpathways/enzymes andHumanCycdatabase via sharedPathwayToolswebservices; otherBioCycPGDBs distinctsource-rightsscope",
+      "documentation_url": "https://biocyc.org/web-services.shtml?orgid=META+%7C+https%3A%2F%2Fbiocyc.org%2Fweb-services.shtml%3Forgid%3DHUMAN+%7C+https%3A%2F%2Fbioinformatics.ai.sri.com%2Fptools%2Flicensing%2Fall-reg.shtml",
+      "api_base_url": "https://biocyc.org/",
+      "format_protocol": "SRIlicenceexplicitlyappliesBioCycwebservicesAPI; registryRESTclaim/methodformatsnotcurrentlyruntimeverified",
+      "authentication": "CurrentAPIauth/free-tier/subscriptionrequirements unknown; originalhostpolicyheld,no account/login/key used",
+      "free_access_restrictions": "Royalty-freeuse/modify ofLimitedDatabases underterms,redistributionprohibited; downloadformrequiresrequest/review, notsubmitted. Do notinferfreecurrentfullAPIaccess fromoldarticles.",
+      "license": "SRI BioCyc Limited Use License: Limited Databases maynotberedistributed",
+      "license_url": "https://bioinformatics.ai.sri.com/ptools/licensing/all-reg.shtml",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-17T17:44:25.357144+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "birdata-birdlife-australia",
       "provider": "BirdLife Australia",
       "service_name": "Birdata monitoring portal and permission-based data extracts(public API unresolved)",
@@ -18223,6 +18241,24 @@
       "license_url": "https://data.honolulu.gov/terms-of-use",
       "api_verification_state": "actual_public_parks_schema_metadata_sample_success_original_entity_HTTP403_restricted_display_terms",
       "latest_checked_utc": "2026-10-17T06:06:51.888216+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "icpsr-metadata-export-api",
+      "provider": "Inter-university Consortium for Political and Social Research / University of Michigan",
+      "service_name": "ICPSR Metadata/Object Export API",
+      "geographic_coverage": "Socialscience researchcollections; geographiccoverage variesperstudy",
+      "topical_coverage": "demographics; labor; economics/finance; education; health; law and civic data; research",
+      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate",
+      "documentation_url": "https://icpsr.github.io/metadata/icpsr_metadata_api/ | https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata",
+      "api_base_url": "",
+      "format_protocol": "Documentedmetadataexport API,DCAT-US/MARCXML/DublinCore; localDCATspatialExt/temporalExt extensions",
+      "authentication": "Currentproviderportal instructs temporaryUMaccount and APIcredentialrequest; noneobtained/used",
+      "free_access_restrictions": "MetadataNClicence,backlink/downloaddate; APIaccesscredentialrequest; membership/restrictedresearchdata separate; no paidsubscription/data acquired",
+      "license": "CC BY-NC4.0 metadata; studydatarestrictedredistribution andspecificterms",
+      "license_url": "https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata | https://www.icpsr.umich.edu/sites/icpsr/about/policies/terms-of-use",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-17T17:44:25.357144+00:00",
       "classification": "restricted"
     },
     {
