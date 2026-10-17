@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T15:25:32.918044+00:00",
+  "published_at": "2026-10-17T15:27:35.565437+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:25:07.963579+00:00",
+  "research_updated_at": "2026-10-17T15:26:03.705363+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "BrazilParliament8origins:780records251open466candidates63restricted;ParaíbaexplicitCCBY4,ALESPREST/FAQconflict404;19originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 251,
     "candidates": 466,
@@ -1090,6 +1090,7 @@
           "argentina",
           "brazil-bcb",
           "mexico",
+          "paraiba-state-open-data-portal",
           "registry-dados-rs-gov-br"
         ],
         "candidate_provider_ids": [
@@ -1103,8 +1104,10 @@
         "restricted_provider_ids": []
       },
       "labor": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "paraiba-state-open-data-portal"
+        ],
         "candidate_provider_ids": [
           "goias-state-ckan-api"
         ],
@@ -1164,6 +1167,7 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "paraiba-state-open-data-portal",
           "recife-open-data"
         ],
         "candidate_provider_ids": [
@@ -1239,10 +1243,12 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "ecuador-sercop",
+          "paraiba-state-open-data-portal",
           "registry-dados-rs-gov-br",
           "tce-rn-open-data-api"
         ],
         "candidate_provider_ids": [
+          "alesp-open-data-interfaces",
           "almg-open-data-api",
           "brazil-camara-dados-abertos",
           "dominican-data",
@@ -1274,6 +1280,7 @@
           "tce-rn-open-data-api"
         ],
         "candidate_provider_ids": [
+          "alesp-open-data-interfaces",
           "almg-open-data-api",
           "brazil-camara-dados-abertos",
           "dominican-data",
