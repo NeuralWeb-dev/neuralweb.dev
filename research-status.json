@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T16:51:18.888640+00:00",
+  "published_at": "2026-10-17T16:53:21.462087+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:49:18.646036+00:00",
+  "research_updated_at": "2026-10-17T16:51:47.685437+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginalregistrytasksreviewed;fournewservicesincludingStaedelCC0metadata,EMEPscopedmodeloutputs,ZVDDcandidate,IPDNDrestricted;Staedel66pagecursorchain32361uniqueIDs",
+  "latest_milestone": "Threeplasma/geothermaloriginsreviewed;CDGPrestrictiveportaltermsandCCBYlabelconflictretained,NISTinteractiveAPIs/grantsunresolved",
   "counts": {
     "verified": 260,
     "candidates": 479,
-    "excluded": 68,
+    "excluded": 69,
     "sample_successes": 472
   },
   "remaining_work": [
@@ -17493,6 +17493,24 @@
       "license_url": "http://www.meteo.cat/wpweb/avis-legal/",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_named_metadata_and_one_variable_reference_restricted_named_terms",
       "latest_checked_utc": "2026-10-17T09:08:32.772304+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "cdgp-geothermal-portal",
+      "provider": "University of Strasbourg / EOST / CDGP",
+      "service_name": "Deep Geothermal Data Centre portal(public API unresolved)",
+      "geographic_coverage": "Alsace,France;Soultz-sous-Forets,Rittershoffen,Vendenheim,UpperRhineGraben",
+      "topical_coverage": "energy; geospatial; research; climate/weather/environment",
+      "dataset_families": "Geothermalepisodes,seismological/hydraulic/geologicaldata,inducedseismicity andmodelresources; currentportalHTMLcountsnotAPIinventory",
+      "documentation_url": "https://data.eost.unistra.fr/CDGP/ | https://data.eost.unistra.fr/CDGP/ressource/151/",
+      "api_base_url": "",
+      "format_protocol": "HTMLportalverified; olderproviderdescribesGeOrchestra/EPOSintegration,notexactcurrentAPIverification",
+      "authentication": "PublicmetadataHTMLwithoutcredentials; legaltermsdescribeaccount/provider/projectauthorizationforrestricteddata,notqueried",
+      "free_access_restrictions": "GeneraltermsNC/projectscope,nomodification,nodisclosure/publicationwithoutapproval,return/eraseafterproject. Public/restrictedacademic/casebycaseindustrialaccesslevels. Noaccount/request/feeacquisition.",
+      "license": "Restrictiveportalterms; resource151CCBY4labelconflicts/applicabilityunresolved",
+      "license_url": "https://data.eost.unistra.fr/legal/ | https://data.eost.unistra.fr/CDGP/ressource/151/",
+      "api_verification_state": "public_HTMLportal_and_full_restrictive_terms_verified_current_documented_API_unresolved_no_native_sample",
+      "latest_checked_utc": "2026-10-17T16:51:43.296725+00:00",
       "classification": "restricted"
     },
     {
