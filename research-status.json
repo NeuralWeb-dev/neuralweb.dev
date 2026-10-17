@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T16:43:07.843026+00:00",
+  "published_at": "2026-10-17T16:45:10.708850+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:42:46.132049+00:00",
+  "research_updated_at": "2026-10-17T16:43:26.000572+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Eight scientific origins reviewed;EBAS CC BY4 public catalogue14141file definitions verified,NIST RMM12APIreferences candidate,DaRUS deduplicated",
+  "latest_milestone": "11original scientific tasks reviewed,3new distinct services;EBAS14141file definitions,HAPI31,VAMDC131,NIST12references indexed;global universe unfinished",
   "counts": {
     "verified": 258,
     "candidates": 478,
@@ -13,11 +13,11 @@
     "sample_successes": 472
   },
   "remaining_work": [
-    "Original saved portal-review frontier is empty; it is only one discovery subset. Global status remains in_progress.",
-    "Resume provider-verification-queue.jsonl and provider-verification-queue-progress.json; queue task totals include reviewed tasks and are not pending-provider counts.",
-    "Deduplicate and review remaining scientific/repository API leads, geographic/sector gaps and work-specific source rights. Preserve all earlier blockers and completed finite inventory provenance.",
-    "Review individual linked services/files/work grants in prague-native-catalogue-item-index.jsonl, belo-horizonte-native-name-index.jsonl, wa-native-work-rights-leads.jsonl, and earlier Montana/Texas/Toronto/UNdata/TCE-RN source queues.",
-    "BDL quota hold remains: no request before saved deadline and current quota/PID/ledger checks. No alternative data API after a held original request."
+    "Resume next-re3data-provider-review-batch.json (selected queued tasks,not researched).",
+    "Review VAMDC131,BioCASe54,otherPSICQUIC33 original-source leads independently; registry listings are not API/grant acceptance.",
+    "NIST11unique APIreferences need exact child identity/deployment/rights review; remaining CfA children/static atomic data APIs unresolved.",
+    "NCEI exact worldwide metadata/source grant and actual product availability unresolved; EBAS published DDSexample404,no OPeNDAPvalues tested; ACTRISNRTapproval-only excluded.",
+    "Retain all prior geographic/sector/work-rights queues and BDL deadline2026-10-17T18:20:40.045886+00:00; no retry until fresh quota/PID/ledger checks."
   ],
   "external_blocker": null,
   "coverage": {
