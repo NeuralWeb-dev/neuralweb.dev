@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:49:40.263730+00:00",
+  "published_at": "2026-10-17T21:51:42.740907+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:49:03.983114+00:00",
+  "research_updated_at": "2026-10-17T21:51:31.337826+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DARIAH390OAIsets/2formats and CC_BY record verified; IMS native OAI workflow and eLaborate auth editing/public-edition distinction documented.",
+  "latest_milestone": "Six originals reviewed in two batches; six new services(one scoped-open,two initial candidates,three restricted),eLaborate then reclassified restricted with native owner terms. DARIAH390sets/2formats/oneBYsource,20edition and23collection references indexed. Global discovery unfinished.",
   "counts": {
     "verified": 302,
-    "candidates": 591,
-    "excluded": 132,
+    "candidates": 590,
+    "excluded": 136,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -265,7 +265,8 @@
           "ipd-immunopolymorphism-api",
           "openaq",
           "phi-base-api",
-          "who"
+          "who",
+          "xenbase-model-organism-services"
         ]
       },
       "education": {
@@ -273,6 +274,7 @@
         "verified_provider_ids": [
           "bonndata-published-metadata",
           "columbia-academic-commons-api",
+          "dariah-de-repository-oai",
           "dnb-sru-oai-metadata",
           "doaj",
           "fdat-tuebingen-metadata-api",
@@ -464,7 +466,8 @@
           "ipd-immunopolymorphism-api",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
-          "worms"
+          "worms",
+          "xenbase-model-organism-services"
         ]
       },
       "oceans": {
@@ -531,6 +534,7 @@
           "bnf-catalogue",
           "cleveland-art",
           "columbia-academic-commons-api",
+          "dariah-de-repository-oai",
           "dnb-sru-oai-metadata",
           "fdat-tuebingen-metadata-api",
           "getty-provenance",
@@ -591,6 +595,7 @@
           "cleveland-art",
           "columbia-academic-commons-api",
           "crossref",
+          "dariah-de-repository-oai",
           "datacite",
           "dnb-sru-oai-metadata",
           "doaj",
@@ -731,7 +736,8 @@
           "senckenberg-research-metadata-portal",
           "terrasarx-sar-imagery-access",
           "terrasarx-tor-rso-archive",
-          "un-comtrade"
+          "un-comtrade",
+          "xenbase-model-organism-services"
         ]
       }
     },
@@ -1671,6 +1677,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "dhsnl-dnb-household-survey",
           "eurocat-controlled-research-data",
           "neps-survey-research-access"
         ]
@@ -1723,7 +1730,8 @@
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": [
-          "bonn-open-data"
+          "bonn-open-data",
+          "dhsnl-dnb-household-survey"
         ]
       },
       "labor": {
@@ -1770,7 +1778,8 @@
           "trentino-open-data"
         ],
         "restricted_provider_ids": [
-          "alspac-cohort-access-portal"
+          "alspac-cohort-access-portal",
+          "dhsnl-dnb-household-survey"
         ]
       },
       "agriculture": {
@@ -2027,6 +2036,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
+          "dhsnl-dnb-household-survey",
           "eurocat-controlled-research-data"
         ]
       },
@@ -2040,6 +2050,7 @@
           "cessda-vocabularies",
           "clarin-dk",
           "clarin-pl",
+          "dariah-de-repository-oai",
           "dnb",
           "estonia-statistics",
           "faroe-statistics",
@@ -2090,6 +2101,7 @@
           "gotriple",
           "granada-university-open-data",
           "ilc4clarin-fcs",
+          "ims-stuttgart-language-repository",
           "kielipankki-fcs",
           "kpbc-digital-library",
           "latvia-statistics",
@@ -2112,8 +2124,10 @@
           "alspac-cohort-access-portal",
           "bioimages-uk-field-guide",
           "bonn-open-data",
+          "elaborate-digital-edition-services",
           "lindat-fcs",
           "maribor-dkum-oai",
+          "meertens-collections-portal",
           "neps-survey-research-access",
           "swiss-al-fcs"
         ]
@@ -2162,6 +2176,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "dhsnl-dnb-household-survey",
           "geoguyane-csw-catalogue"
         ]
       },
@@ -2446,6 +2461,7 @@
           "clarin-dk",
           "clarin-pl",
           "croatia-statistics",
+          "dariah-de-repository-oai",
           "dnb",
           "estonia-statistics",
           "europeana",
@@ -2505,6 +2521,7 @@
           "galicia-abertos-catalog",
           "gotriple",
           "ilc4clarin-fcs",
+          "ims-stuttgart-language-repository",
           "kielipankki-fcs",
           "kpbc-digital-library",
           "ksamsok",
@@ -2530,9 +2547,11 @@
         "restricted_provider_ids": [
           "bnf-gallica",
           "cranachnet-mediawiki",
+          "elaborate-digital-edition-services",
           "indexs-exsiccatae-api",
           "lindat-fcs",
           "maribor-dkum-oai",
+          "meertens-collections-portal",
           "swiss-al-fcs",
           "tna-discovery"
         ]
@@ -2550,6 +2569,7 @@
           "clarin-dk",
           "clarin-pl",
           "croatia-statistics",
+          "dariah-de-repository-oai",
           "darus",
           "dnb",
           "ecbd-chemical-biology-api",
@@ -2611,6 +2631,7 @@
           "gotriple",
           "granada-university-open-data",
           "ilc4clarin-fcs",
+          "ims-stuttgart-language-repository",
           "ioerdata-spatial-research-portal",
           "kielipankki-fcs",
           "kpbc-digital-library",
@@ -2645,12 +2666,15 @@
           "cdgp-geothermal-portal",
           "copernicus-marine",
           "cranachnet-mediawiki",
+          "dhsnl-dnb-household-survey",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
+          "elaborate-digital-edition-services",
           "eurocat-controlled-research-data",
           "indexs-exsiccatae-api",
           "lindat-fcs",
           "maribor-dkum-oai",
+          "meertens-collections-portal",
           "neps-survey-research-access",
           "swiss-al-fcs",
           "tna-discovery"
@@ -12375,24 +12399,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "elaborate-digital-edition-services",
-      "provider": "Huygens Institute / KNAW",
-      "service_name": "eLaborate editing backend and published edition discovery",
-      "geographic_coverage": "Dutch/European and multilingual historical editions; exact edition/source geography varies",
-      "topical_coverage": "culture | research | education",
-      "dataset_families": "Digital text editions, transcriptions, annotations and facsimile descriptions; editing workspace and public editions separate",
-      "documentation_url": "https://elaborate.huygens.knaw.nl/for-programmers/ | https://github.com/HuygensING/elaborate4-backend/blob/master/README.md | https://elaborate.huygens.knaw.nl/for-users/",
-      "api_base_url": "",
-      "format_protocol": "Native institutional HTML and source-repository README; REST backend contract documented but authenticated operations not queried",
-      "authentication": "No accounts, tokens, credentials or private queries used",
-      "free_access_restrictions": "Public discovery and source reuse/access terms distinct",
-      "license": "unknown current source-edition/metadata grant; registry NC-SA assertion not accepted without source evidence; GPL3 source software only",
-      "license_url": "https://elaborate.huygens.knaw.nl/for-programmers/ | https://elaborate.huygens.knaw.nl/for-users/",
-      "api_verification_state": "native_operator_docs_auth_editing_REST_and_published_edition_links_verified_no_anonymous_query_sample_or_data_grant",
-      "latest_checked_utc": "2026-10-17T21:48:59.670748+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "ena",
       "provider": "EMBL-EBI European Nucleotide Archive",
       "service_name": "EMBL-EBI European Nucleotide Archive API",
@@ -21377,6 +21383,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "dhsnl-dnb-household-survey",
+      "provider": "Centerdata / DNB Household Survey",
+      "service_name": "DHS Data Access Netherlands",
+      "geographic_coverage": "Netherlands longitudinal household survey since1993; current operator says old Centerpanel ended2024 and collection now in representative LISS panel",
+      "topical_coverage": "demographics | economics/finance | labor | housing | health | research",
+      "dataset_families": "Household/work, housing/mortgages, health/income, assets/loans and economic/psychological survey research; no participant/source rows queried",
+      "documentation_url": "https://www.centerdata.nl/projecten/dnb-household-survey-dhs-spaaronderzoek | https://www.dhsdata.nl/",
+      "api_base_url": "",
+      "format_protocol": "Native operator project HTML verifies data access after user statement and approval; no verified anonymous JSON/XML API",
+      "authentication": "No accounts, statements, credential routes or source login used",
+      "free_access_restrictions": "Public discovery differs from controlled source access and reuse",
+      "license": "Controlled survey access requires user statement/application approval; no generally open source-data/metadata grant established",
+      "license_url": "https://www.centerdata.nl/projecten/dnb-household-survey-dhs-spaaronderzoek | https://en.centerdata.nl/app/uploads/sites/3/2021/11/Centerdata-Algemene-voorwaarden-EN.pdf",
+      "api_verification_state": "native_operator_controlled_access_process_verified_original_portal_policy_hold_no_public_API_sample",
+      "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "digitalnz",
       "provider": "National Library of New Zealand / DigitalNZ",
       "service_name": "National Library of New Zealand / DigitalNZ public metadata API",
@@ -21500,6 +21524,24 @@
       "license_url": "https://www.orfeus-eu.org/data/eida/acknowledgements/",
       "api_verification_state": "native_anonymous_bounded_routing_JSON_success_one_GE_destination",
       "latest_checked_utc": "2026-10-17T19:09:04.012539+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "elaborate-digital-edition-services",
+      "provider": "Huygens Institute / KNAW",
+      "service_name": "eLaborate editing backend and published edition discovery",
+      "geographic_coverage": "Dutch/European and multilingual historical editions; exact edition/source geography varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Digital text editions, transcriptions, annotations and facsimile descriptions; editing workspace and public editions separate",
+      "documentation_url": "https://elaborate.huygens.knaw.nl/for-programmers/ | https://github.com/HuygensING/elaborate4-backend/blob/master/README.md | https://elaborate.huygens.knaw.nl/for-users/",
+      "api_base_url": "",
+      "format_protocol": "Native institutional HTML and source-repository README; REST backend contract documented but authenticated operations not queried",
+      "authentication": "No accounts, tokens, credentials or private queries used",
+      "free_access_restrictions": "Public discovery and source reuse/access terms distinct",
+      "license": "Huygens institutional default CC BY-NC-SA4.0 for website and online sources/datasets unless otherwise indicated; exact edition exceptions unreviewed",
+      "license_url": "https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/",
+      "api_verification_state": "native_operator_docs_auth_editing_REST_and_published_edition_links_verified_no_anonymous_query_sample_or_data_grant_native_owner_default_NCSA4_verified",
+      "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
       "classification": "restricted"
     },
     {
@@ -22112,6 +22154,24 @@
       "license_url": "https://dk.um.si/info/index.php/eng/policies",
       "api_verification_state": "actual_native_OAI_Identify_XML_success_default_metadata_reuse_NC_restricted",
       "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "meertens-collections-portal",
+      "provider": "Meertens Institute / KNAW",
+      "service_name": "Meertens collections and database discovery portal",
+      "geographic_coverage": "Dutch language/culture, Netherlands and Flanders with source-specific historical/diaspora/linguistic coverage",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Dialect/syntax/morphology, names, songs/folktales, ethnology, audio, questionnaires, historical archives and collection descriptions",
+      "documentation_url": "https://meertens.knaw.nl/en/collections/ | https://meertens.knaw.nl/en/collectie-type/dataset-en/ | https://meertens.knaw.nl/en/disclaimer_eng_/",
+      "api_base_url": "",
+      "format_protocol": "Native operator HTML collection/database descriptions and database-rights terms; no successful scientific metadata-query API",
+      "authentication": "No accounts, statements, credential routes or source login used",
+      "free_access_restrictions": "Public discovery differs from controlled source access and reuse",
+      "license": "Operator reserves database rights and requires consent for substantial/repeated systematic extraction/reuse except stated private/teaching/scientific purposes; content copying/republication reserved",
+      "license_url": "https://meertens.knaw.nl/en/disclaimer_eng_/",
+      "api_verification_state": "native_operator_collection_catalogue_and_restrictive_database_reuse_policy_verified_no_public_API_sample",
+      "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
       "classification": "restricted"
     },
     {
@@ -22940,6 +23000,24 @@
       "license_url": "https://www.marinespecies.org/about.php#terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T17:26:01.002269+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "xenbase-model-organism-services",
+      "provider": "Xenbase / Xenopus Model Organism Knowledgebase",
+      "service_name": "Xenbase gene metadata API and research resource",
+      "geographic_coverage": "International Xenopus research, primary X.laevis/X.tropicalis; other amphibians partially supported. No worldwide specimen-location inventory",
+      "topical_coverage": "biodiversity | health | research",
+      "dataset_families": "Genes, genomes, expression, phenotypes, anatomy/development, disease models and literature/reagent discovery",
+      "documentation_url": "https://www.xenbase.org/xenbase/static/apis-links.jsp | https://www.xenbase.org/xenbase/static-xenbase/aboutMOD.jsp",
+      "api_base_url": "https://www.xenbase.org/xenbase/gene/geneAjax.do (official indexed API doc; native API untested)",
+      "format_protocol": "Official indexed docs describe genecheck and JSON gene page retrieval. Native credits/termsHTML200; original root429, no successful scientific API response",
+      "authentication": "No accounts, statements, credential routes or source login used",
+      "free_access_restrictions": "Public discovery differs from controlled source access and reuse",
+      "license": "Current native Terms require research/education use only; commercial use requires written permission. Specific Open Access reproductions use CC BY, not whole Xenbase",
+      "license_url": "https://www.xenbase.org/xenbase/static-xenbase/aboutMOD.jsp",
+      "api_verification_state": "native_terms200_research_education_only_verified_root429_API_docs_indexed_not_native_no_data_sample",
+      "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
       "classification": "restricted"
     }
   ],
