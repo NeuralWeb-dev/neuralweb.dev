@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T06:42:20.015059+00:00",
+  "published_at": "2026-10-17T06:44:22.850064+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:38:31.122227+00:00",
+  "research_updated_at": "2026-10-17T06:44:12.949126+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Municipal/community batch: twelve services reviewed with explicit source scopes; dataset families and terms clarified. BDL definitions continue under guarded resume; global in_progress.",
+  "latest_milestone": "Municipal/community batch:20 original origins processed;12 services added(2 scoped open,10 candidates). Minneapolis267/Pasadena117/Windsor190 unique native catalog records;356 service-origin claims. Global in_progress.",
   "counts": {
     "verified": 203,
     "candidates": 375,
@@ -576,6 +576,7 @@
           "epa",
           "esa-ecology",
           "knb",
+          "minneapolis-open-data",
           "neracoos-erddap",
           "sfwmd-repository",
           "us-data-gov-catalog",
@@ -690,8 +691,10 @@
           "epa-aqs",
           "getty-vocabularies",
           "kitchener-geohub",
+          "pasadena-open-data",
           "seafloor",
           "usda-cdl",
+          "windsor-open-data",
           "wis2-gdc-canada"
         ],
         "candidate_provider_ids": [
@@ -706,7 +709,12 @@
           "drp",
           "edac-gstore",
           "las-vegas-open-data",
+          "madison-open-data",
+          "minneapolis-open-data",
+          "palo-alto-open-data",
+          "sacramento-open-data",
           "us-data-gov-catalog",
+          "waterloo-city-open-data",
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
@@ -5949,7 +5957,7 @@
       "license": "CC BY 4.0 for the named Specific Plans dataset only.",
       "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "actual_public_JSON_sample_success_open_license_verified",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:30:54.454942+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6003,7 +6011,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-16T22:40:39.272677+00:00",
+      "latest_checked_utc": "2026-10-17T06:42:46.948226+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6957,7 +6965,7 @@
       "license": "Open Government Licence – The Corporation of the City of Windsor, version 1.0; City-designated information only.",
       "license_url": "https://opendata.citywindsor.ca/Documents/OpenDataTermsofUse.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_open_license_verified",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:38:04.696787+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8111,7 +8119,7 @@
       "license": "119 native CC BY 4.0 claims; effective upstream scope and free API eligibility unconfirmed.",
       "license_url": "https://www.cityscale.com.ua/opendata.htm",
       "api_verification_state": "documented_current_key_required_API_untested",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:30:52.890586+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9623,7 +9631,7 @@
       "license": "Underlying dataset and metadata licence unconfirmed.",
       "license_url": "https://www.cityofmadison.com/data/developer/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:20:34.872598+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9695,7 +9703,7 @@
       "license": "Named City Council Wards CC0 waiver; effective scope of additional purpose wording unresolved.",
       "license_url": "https://opendata.minneapolismn.gov/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:30:45.937346+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10685,7 +10693,7 @@
       "license": "Custom city terms dated 16 February 2018; effective open dataset grant unconfirmed.",
       "license_url": "https://data.paloalto.gov/developers/",
       "api_verification_state": "documented_current_key_required_API_untested",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:20:18.427274+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10973,7 +10981,7 @@
       "license": "Sampled metadata has no licence; effective portal and resource grants unconfirmed.",
       "license_url": "https://data.providenceri.gov/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:27:01.599417+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11441,7 +11449,7 @@
       "license": "No licence in sampled budget metadata; operative data terms unconfirmed.",
       "license_url": "https://data.richmondgov.com/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:26:59.256445+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11513,7 +11521,7 @@
       "license": "Underlying data and metadata grants unconfirmed; native site licenceInfo is null.",
       "license_url": "https://data.cityofsacramento.org/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:22:17.100268+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11549,7 +11557,7 @@
       "license": "Current licence instrument and scope unconfirmed.",
       "license_url": "https://data.sanjoseca.gov/",
       "api_verification_state": "documented_CKAN_API_original_sample_policy_held_untested",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:21:36.115968+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12395,7 +12403,7 @@
       "license": "Full current City Open Data Licence not established from the fetched application shell.",
       "license_url": "https://data.waterloo.ca/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:28:49.263329+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12449,7 +12457,7 @@
       "license": "No explicit licence in selected official budget metadata; effective grant unconfirmed.",
       "license_url": "https://data.weho.org/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:36:03.487173+00:00",
+      "latest_checked_utc": "2026-10-17T06:33:04.532463+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
