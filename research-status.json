@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T23:33:55.324601+00:00",
+  "published_at": "2026-10-17T23:35:58.193472+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:33:18.169865+00:00",
+  "research_updated_at": "2026-10-17T23:35:27.841297+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three original tasks reviewed: two new records (YRC candidate, Databrary restricted), PISCO deduplicated existing record. Native microscopy docs and coastal discovery verified; Databrary official primary parsed policy distinguishes restricted institutional/participant permissions. Prior PISCO21760-row inventory preserved without replay; external references not open dataset/provider counts.",
+  "latest_milestone": "Three original scientific tasks reviewed: salmon NC-SA2 and DFO IOS indirect licensed/fee access restricted; BAS public Locations API documented but original service-list target robots-deferred and source rights unresolved. Five official public service-doc refs indexed; five explicitly private services omitted. No source datasets, protected interfaces or licence agreements accessed.",
   "counts": {
     "verified": 314,
-    "candidates": 641,
-    "excluded": 161,
+    "candidates": 642,
+    "excluded": 163,
     "sample_successes": 471
   },
   "remaining_work": [
@@ -11026,6 +11026,24 @@
       "license_url": "",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:56:12.634748+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bas-locations-public-api",
+      "provider": "British Antarctic Survey / UK Research and Innovation",
+      "service_name": "BAS Locations gazetteer API and public-service discovery",
+      "geographic_coverage": "Polar gazetteer information and BAS public-service documentation; exact source coverage unenumerated",
+      "topical_coverage": "geospatial | research | oceans | environment",
+      "dataset_families": "Public gazetteer entries described by Locations API; separate catalogue/recruitment/Arctic-project services retained as discovery references",
+      "documentation_url": "https://docs.api.bas.ac.uk/services/locations/v1/usage | https://docs.api.bas.ac.uk/",
+      "api_base_url": "https://api.bas.ac.uk/locations/v1 (official legacy documentation, current runtime held)",
+      "format_protocol": "Documented versioned HTTPS API and separate CSW catalogue references; no machine runtime response obtained",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Official index distinguishes public versus private services; selected registered service-list target guard-deferred, exact API sustained access conditions unknown",
+      "license": "unknown exact Locations/gazetteer source grant; API-documentation site OGL3, general BAS website restrictive",
+      "license_url": "https://docs.api.bas.ac.uk/ | https://www.bas.ac.uk/about-this-site/copyright-statement/",
+      "api_verification_state": "native_public_Locations_API_documentation_verified_registered_service_list_unsent_robots_guard_source_grant_unknown",
+      "latest_checked_utc": "2026-10-17T23:35:23.692462+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22803,6 +22821,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "dfo-pacific-ios-archive",
+      "provider": "Fisheries and Oceans Canada / Institute of Ocean Sciences",
+      "service_name": "Pacific Region IOS Oceanographic Data Archive",
+      "geographic_coverage": "British Columbia coastal/inlet/shelf waters, North Pacific, Beaufort Sea and Arctic Archipelago",
+      "topical_coverage": "oceans | water | climate | environment | research",
+      "dataset_families": "Hydrographic bottle/CTD profiles, chemical/biological water properties, currents/tides, coastal station and buoy series, climate indicators",
+      "documentation_url": "https://www.pac.dfo-mpo.gc.ca/science/oceans/data-donnees/index-eng.html",
+      "api_base_url": "",
+      "format_protocol": "Header web search and IOS SHELL/export utilities described; not current anonymous API proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native archive says users must arrange access with analyst, most cases require data-use licence agreement and fee. No contact/request/agreement/paid acquisition",
+      "license": "Access arranged under source-specific data-use licence, generally fee; website commercial redistribution restricted unless otherwise specified",
+      "license_url": "https://www.pac.dfo-mpo.gc.ca/science/oceans/data-donnees/index-eng.html | https://www.dfo-mpo.gc.ca/terms-avis/terms-conditions-avis-eng.htm",
+      "api_verification_state": "native_indirect_data_library_access_licence_fee_conditions_verified_public_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T23:35:23.692462+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "dgcis-trade-dissemination-restricted",
       "provider": "DGCI&S / India Department of Commerce",
       "service_name": "DGCI&S merchandise trade dissemination and linked EIDB source data (restricted)",
@@ -24420,6 +24456,24 @@
       "license_url": "https://pccos.spc.int/ocean-catalogue/tuvalu-wave-hindcast | https://pccos.spc.int/ocean-catalogue/marshall-islands-wave-hindcast",
       "api_verification_state": "documented_THREDDS_native_XML_catalogue_sample_success_scoped_NC_restriction_other_grants_unresolved",
       "latest_checked_utc": "2026-10-17T01:19:13.340154+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "state-of-the-salmon-resources",
+      "provider": "State of the Salmon / Wild Salmon Center collaboration",
+      "service_name": "North Pacific salmon database and geospatial resource discovery",
+      "geographic_coverage": "North Pacific salmon habitats/ecoregions and watersheds",
+      "topical_coverage": "biodiversity | oceans | water | geospatial | environment | research",
+      "dataset_families": "Salmon distributions, ocean distributions, watershed/ecoregion biodiversity, historic geographic context and hosted conservation data",
+      "documentation_url": "http://www.stateofthesalmon.org/resources/ | http://www.stateofthesalmon.org/resources/sosdb.php",
+      "api_base_url": "",
+      "format_protocol": "Static download/map discovery; shapefiles linked, no active queryAPI verified",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native database footer NC-SA restrictions; exact hosted third-party grants vary",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike2.0 for work labelled on database page",
+      "license_url": "http://www.stateofthesalmon.org/resources/sosdb.php",
+      "api_verification_state": "native_NCSA2_database_grant_and_download_discovery_verified_query_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T23:35:23.692462+00:00",
       "classification": "restricted"
     },
     {
