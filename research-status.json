@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T09:17:50.789551+00:00",
+  "published_at": "2026-10-17T09:19:53.403327+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:14:16.105204+00:00",
+  "research_updated_at": "2026-10-17T09:19:39.157115+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "North/local10origins:Catalonia1447descriptions/4812claims,namedMeteocatrestricted;Gent/GeoBEcandidates;RMIscopedCCBY4actualWFS/1station,29vs30unresolved.663services:216open/402candidates/45restricted;364 originals remain;globalin_progress.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 216,
+    "verified": 218,
     "candidates": 402,
-    "excluded": 45,
+    "excluded": 46,
     "sample_successes": 413
   },
   "remaining_work": [
@@ -3835,6 +3835,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "bc-data-catalogue",
+      "provider": "Government of British Columbia / DataBC",
+      "service_name": "BC Data Catalogue metadata API",
+      "geographic_coverage": "British Columbia,Canada; ministries and broader public-sector publishers",
+      "topical_coverage": "Multisector catalogue: government data, applications and web services; current dataset census unenumerated",
+      "dataset_families": "Documented live published catalogue metadata through CKAN Action API. Official OpenAPI3.0.0 contract lists22GET operations. The catalogue includes OGL-BC, other licences and Access Only works; no fresh work count or full metadata pass was obtained.",
+      "documentation_url": "https://bcgov.github.io/data-publication/pages/dps_bcdc_api_w_how_to_use.html",
+      "api_base_url": "https://catalogue.data.gov.bc.ca/api/3/",
+      "format_protocol": "Documented CKAN JSON Action API; official OpenAPI3 contract retrieved. Root is an HTML application shell; runtime catalogue JSON untested.",
+      "authentication": "Official guide explicitly says public reads need no API key or account. No account, key or credential used.",
+      "free_access_restrictions": "Public reads documented without account/payment. OGL-BC permits commercial reuse for records explicitly specifying it. Access Only works can require permission/fees and are not accepted as open. API terms allow access limits to be imposed or adjusted.",
+      "license": "Open Government Licence - British Columbia v2.0, scoped to the named BC Data Catalogue API metadata record",
+      "license_url": "https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc",
+      "api_verification_state": "documented_public_read_no_key_required_sample_policy_held_unrequested",
+      "latest_checked_utc": "2026-10-17T09:18:53.702204+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "bcc-services",
       "provider": "Buckinghamshire Council / Family Information Service",
       "service_name": "Family Information community services API",
@@ -5218,6 +5236,24 @@
       "license_url": "https://gewerbecheck.at/api/ | https://gewerbecheck.at/api/v1/gewerbe.json",
       "api_verification_state": "actual_complete_75_trade_record_sample_success_explicit_CCBY4_verified",
       "latest_checked_utc": "2026-10-17T04:39:31.501930+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "gipuzkoa-irekia",
+      "provider": "Gipuzkoako Foru Aldundia and participating public bodies",
+      "service_name": "Gipuzkoa Irekia dataset and resource API",
+      "geographic_coverage": "Gipuzkoa,Basque Country,Spain; participating organizations",
+      "topical_coverage": "Regional/local public-data and transparency catalogue; current individual work families unenumerated",
+      "dataset_families": "Official guide documents eight read URL templates: dataset search/detail, resource metadata/download, organizations, licences and categories. Search filters include text, organization, category, modification dates, format and coordinates. No current dataset response/count obtained.",
+      "documentation_url": "https://www.gipuzkoairekia.eus/eu/garatzaileentzako-informazioa",
+      "api_base_url": "http://api.gipuzkoairekia.eus/",
+      "format_protocol": "Documented URL-based metadata/search/download API; actual response format unknown because sample was held",
+      "authentication": "Public developer guide gives read URL examples without credentials; current runtime authentication untested. No account/key.",
+      "free_access_restrictions": "Full notice supplies CC BY4.0 default for catalogue datasets/resources except where specified otherwise. Portal text/images use CC BY-SA4.0. Source credit/link and change notices required; individual metadata may override.",
+      "license": "CC BY4.0 default for catalogue datasets/resources, subject to explicit per-work overrides",
+      "license_url": "https://www.gipuzkoairekia.eus/lege-oharra",
+      "api_verification_state": "documented_API_default_open_data_grant_sample_policy_held_unrequested",
+      "latest_checked_utc": "2026-10-17T09:18:53.702394+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15032,6 +15068,24 @@
       "license_url": "https://dp.marsa.gccstat.org/terms-use",
       "api_verification_state": "documented_portal_JSON_catalog_metadata_sample_success_conditional_reuse_restricted",
       "latest_checked_utc": "2026-10-16T23:54:44.253850+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ghdx-ihme-discovery",
+      "provider": "University of Washington / Institute for Health Metrics and Evaluation",
+      "service_name": "GHDx IHME discovery RSS and restricted IHME data catalogue",
+      "geographic_coverage": "Global; returned feed includes global and country-specific public-health research descriptions",
+      "topical_coverage": "health; demographics; health economics/finance; research",
+      "dataset_families": "Current advertised IHME RSS feed contains10distinct item references. It describes recent IHME data releases, not a full GHDx dataset index or a queried analytical-data API. Underlying advertised IHME data covered by noncommercial agreement; other GHDx providers may have different rights.",
+      "documentation_url": "https://ghdx.healthdata.org/",
+      "api_base_url": "https://ghdx.healthdata.org/ihme_data/feed",
+      "format_protocol": "Actual RSS2.0 discovery response. Strict XML parsing fails due to one leading whitespace byte before declaration; in-memory removal yields valid RSS XML. No REST/analytical data API inferred.",
+      "authentication": "Anonymous public homepage/feed reads succeeded. Download agreement describes checkbox acceptance; none accepted, no account or data files acquired.",
+      "free_access_restrictions": "IHME agreement restricts eligibility and data use to noncommercial users/purposes, limits redistribution and derivative/database use, prohibits unauthorized rehosting, and permits termination. Commercial access is separately fee-based and was not acquired. RSS metadata reuse licence remains unknown.",
+      "license": "Restricted IHME data: Free-of-Charge Non-Commercial User Agreement; RSS metadata reuse grant unknown",
+      "license_url": "https://www.healthdata.org/about/ihme-free-charge-non-commercial-user-agreement",
+      "api_verification_state": "actual_RSS_response_normalized_XML_parse_success_raw_XML_leading_whitespace_error",
+      "latest_checked_utc": "2026-10-17T09:18:53.702499+00:00",
       "classification": "restricted"
     },
     {
