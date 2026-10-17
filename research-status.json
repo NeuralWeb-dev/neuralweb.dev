@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T12:03:14.864055+00:00",
+  "published_at": "2026-10-17T12:05:18.041708+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T12:02:59.301936+00:00",
+  "research_updated_at": "2026-10-17T12:04:35.624558+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Energy/civic ten originals checkpointed:717services234scoped-open428candidates55restricted;NRW11157native names;Philadelphia472JSONdescriptors/candidate;OpenEIURDBfree-keyrequired/candidate;OSMfullODbL/currentAPIpolicyreview.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 234,
     "candidates": 428,
@@ -63,6 +63,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "openei-urdb",
           "unsd"
         ],
         "restricted_provider_ids": [
@@ -164,7 +165,8 @@
         "candidate_provider_ids": [
           "nasa-power",
           "nims-mdr",
-          "openchargemap"
+          "openchargemap",
+          "openei-urdb"
         ],
         "restricted_provider_ids": [
           "un-comtrade"
@@ -535,7 +537,9 @@
           "statcan",
           "treasury"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "openei-urdb"
+        ],
         "restricted_provider_ids": [
           "fred"
         ]
@@ -605,6 +609,7 @@
           "north-dakota-gis-hub",
           "okanagan-similkameen-open-data",
           "ontario-data-catalog",
+          "opendataphilly-jkan",
           "raleigh-open-data",
           "seattle-open-data",
           "sfwmd-repository",
@@ -653,7 +658,8 @@
           "greenland-statistics"
         ],
         "candidate_provider_ids": [
-          "california-open-data"
+          "california-open-data",
+          "openei-urdb"
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace"
@@ -675,7 +681,8 @@
           "connect211-hsda",
           "connect211-search",
           "healthdata-gov-catalog",
-          "ontario-data-catalog"
+          "ontario-data-catalog",
+          "opendataphilly-jkan"
         ],
         "restricted_provider_ids": [
           "calhhs-open-data",
@@ -691,6 +698,7 @@
         ],
         "candidate_provider_ids": [
           "ontario-data-catalog",
+          "opendataphilly-jkan",
           "us-data-gov-catalog"
         ],
         "restricted_provider_ids": [
@@ -714,7 +722,8 @@
           "connect211-search",
           "dnv-geoweb",
           "edmonton-open-data",
-          "nyc"
+          "nyc",
+          "opendataphilly-jkan"
         ],
         "restricted_provider_ids": []
       },
@@ -727,7 +736,8 @@
           "annarbor-open-data",
           "dnv-geoweb",
           "edmonton-open-data",
-          "nyc"
+          "nyc",
+          "opendataphilly-jkan"
         ],
         "restricted_provider_ids": [
           "denver-open-data"
@@ -782,6 +792,7 @@
           "north-dakota-gis-hub",
           "oakville-open-data",
           "okanagan-similkameen-open-data",
+          "opendataphilly-jkan",
           "palo-alto-open-data",
           "raleigh-open-data",
           "sacramento-open-data",
@@ -835,6 +846,7 @@
           "congress",
           "courtlistener",
           "nyc",
+          "opendataphilly-jkan",
           "openstates",
           "us-data-gov-catalog"
         ],
@@ -905,6 +917,7 @@
           "getty-museum",
           "loc",
           "ontario-data-catalog",
+          "opendataphilly-jkan",
           "smithsonian",
           "usda-nass"
         ],
@@ -974,7 +987,8 @@
           "brazil",
           "chile-bcentral",
           "eclac",
-          "jamaica-data"
+          "jamaica-data",
+          "openei-urdb"
         ],
         "restricted_provider_ids": []
       },
@@ -1029,7 +1043,8 @@
         "candidate_provider_ids": [
           "dominican-data",
           "jamaica-data",
-          "mexico-national-open-data"
+          "mexico-national-open-data",
+          "openei-urdb"
         ],
         "restricted_provider_ids": []
       },
