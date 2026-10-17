@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T23:09:23.411116+00:00",
+  "published_at": "2026-10-17T23:11:25.954287+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:08:44.629316+00:00",
+  "research_updated_at": "2026-10-17T23:11:18.481554+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NovaScotiaoriginaladminlogin/regulatorNC; existingONSalias currentOGLdocs andfairuseidentityhold; ANUsampleCCBYversionunknown/noqueryAPIproof.",
+  "latest_milestone": "Twelveoriginaltasks reviewed: elevennewrecords(one scoped-open,eight candidates,two restricted), ONSaliasupdated. Språkbanken1502-IDarray andESMISreportedpublicationpagefrontier processed; exactsource-rights queues remain.",
   "counts": {
     "verified": 309,
     "candidates": 629,
@@ -93,6 +93,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "csiro-data-access-portal",
+          "india-environment-portal",
           "isimip-impact-repository",
           "nasa-power",
           "ocha-hapi",
@@ -147,6 +148,7 @@
           "iagos-atmospheric-rest",
           "icdc-climate-thredds",
           "igs-public-network-api",
+          "india-environment-portal",
           "ioerdata-spatial-research-portal",
           "isimip-impact-repository",
           "litterbase-marine-litter-portal",
@@ -204,6 +206,7 @@
           "flood-observatory-colorado",
           "gpcc-precipitation-product-portal",
           "icdc-climate-thredds",
+          "india-environment-portal",
           "isimip-impact-repository",
           "nced-data-repository",
           "scripps-ogdc-data-portal",
@@ -225,6 +228,7 @@
           "worldbank-catalog"
         ],
         "candidate_provider_ids": [
+          "india-environment-portal",
           "isimip-impact-repository",
           "nasa-power",
           "nims-mdr",
@@ -313,6 +317,7 @@
           "internet-archive-metadata",
           "kth-data-repository-api",
           "mit-timdex",
+          "olac-language-archives-network",
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections"
         ],
@@ -389,6 +394,7 @@
           "iers-central-bureau-webservices",
           "igs-public-network-api",
           "ioerdata-spatial-research-portal",
+          "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
           "mit-timdex",
           "nced-data-repository",
@@ -545,6 +551,7 @@
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
           "internet-archive-metadata",
+          "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
           "jpl-ssd",
           "nasa-api",
@@ -579,6 +586,7 @@
           "cinii-books",
           "csiro-data-access-portal",
           "getty-museum",
+          "india-environment-portal",
           "internet-archive-metadata",
           "isimip-impact-repository",
           "loc",
@@ -586,6 +594,7 @@
           "muenster-datastore-rest",
           "nasa-power",
           "ocha-hapi",
+          "olac-language-archives-network",
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
@@ -712,10 +721,12 @@
           "iers-central-bureau-webservices",
           "igets-geodynamics-data-archive",
           "igs-public-network-api",
+          "india-environment-portal",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
           "isdc-public-data-archive",
           "isimip-impact-repository",
+          "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
           "jpl-ssd",
           "kth-data-repository-api",
@@ -727,6 +738,7 @@
           "nih-clinicaltrials",
           "nims-mdr",
           "noaa-gml-barrow-observatory",
+          "olac-language-archives-network",
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
@@ -794,6 +806,7 @@
           "vancouver-open-data-api"
         ],
         "candidate_provider_ids": [
+          "ahrq-hcupnet-aggregate-statistics",
           "california-open-data",
           "edmonton-open-data",
           "nlr-metropolitan-travel-survey-archive",
@@ -989,7 +1002,8 @@
           "openei-urdb"
         ],
         "restricted_provider_ids": [
-          "colorado-information-marketplace"
+          "colorado-information-marketplace",
+          "nova-scotia-offshore-data-centre"
         ]
       },
       "health": {
@@ -1004,6 +1018,7 @@
           "usda-food"
         ],
         "candidate_provider_ids": [
+          "ahrq-hcupnet-aggregate-statistics",
           "california-open-data",
           "connect211-hsda",
           "connect211-search",
@@ -1205,6 +1220,7 @@
           "mississauga-open-data",
           "missouri-dnr-geology-portal",
           "north-okanagan-gis-open-data",
+          "nova-scotia-offshore-data-centre",
           "polar-data-catalogue-metadata-api",
           "whitehorse-restricted-data-portal"
         ]
@@ -1299,6 +1315,7 @@
           "neracoos-erddap"
         ],
         "restricted_provider_ids": [
+          "nova-scotia-offshore-data-centre",
           "polar-data-catalogue-metadata-api"
         ]
       },
@@ -1365,6 +1382,7 @@
           "winnipeg-open-data-api"
         ],
         "candidate_provider_ids": [
+          "ahrq-hcupnet-aggregate-statistics",
           "artic",
           "barrow-area-information-database",
           "cerp-sfwmd",
@@ -1390,6 +1408,7 @@
         "restricted_provider_ids": [
           "akn-data-access-portal",
           "citf-controlled-databank",
+          "nova-scotia-offshore-data-centre",
           "polar-data-catalogue-metadata-api"
         ]
       }
@@ -3251,6 +3270,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal",
           "pakistan-odp"
@@ -3262,6 +3282,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "esa-ecology",
+          "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal",
           "wis2-india",
@@ -3274,6 +3295,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal"
         ],
@@ -3283,6 +3305,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "india-environment-portal",
           "nepal",
           "pakistan-odp"
         ],
@@ -3330,6 +3353,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "issdc-space-science-archive",
           "wis2-india",
           "wis2-nepal"
         ],
@@ -3373,9 +3397,11 @@
         "restricted_provider_ids": []
       },
       "astronomy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "issdc-space-science-archive"
+        ],
         "restricted_provider_ids": []
       },
       "culture": {
@@ -3383,6 +3409,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal",
           "pakistan-odp"
@@ -3395,6 +3422,8 @@
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
           "esa-ecology",
+          "india-environment-portal",
+          "issdc-space-science-archive",
           "mtropics-sedoo-metadata",
           "pakistan-odp",
           "udiseplus-education-data-api"
@@ -3918,6 +3947,7 @@
           "aadc-weather",
           "aims-data-platform",
           "aims-metadata-catalog",
+          "anu-data-commons-repository",
           "brisbane-open-data",
           "csiro-data-access-portal",
           "data-wa-catalogue-api",
@@ -3993,6 +4023,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "anu-data-commons-repository",
           "data-wa-catalogue-api",
           "nsw-open-data-catalog",
           "pacific-data",
@@ -4128,6 +4159,7 @@
           "ala"
         ],
         "candidate_provider_ids": [
+          "anu-data-commons-repository",
           "csiro-data-access-portal",
           "esa-ecology",
           "landcare-research-datastore",
@@ -4197,6 +4229,7 @@
         "candidate_provider_ids": [
           "aadc-metadata",
           "aims-metadata-catalog",
+          "anu-data-commons-repository",
           "anzctr-trial-registry",
           "csiro-data-access-portal",
           "esa-ecology",
