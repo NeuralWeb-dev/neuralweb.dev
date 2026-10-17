@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T07:00:45.684326+00:00",
+  "published_at": "2026-10-17T07:02:48.317515+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:56:04.767616+00:00",
+  "research_updated_at": "2026-10-17T07:01:08.522895+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Regional/science batch:12 original origins processed;6 services added(1 scoped open,4 candidates,1 restricted). Palermo1684 dataset/1768 distribution claims;Cook Central finite catalog;CSIRO25 partial capped-search references. Global in_progress.",
+  "latest_milestone": "Neighbor portal batch:16 original roots reviewed;Dallas named budget database ODC-BY1 and Diba licensing-unconfirmed regional API added. Native43 Diba definitions indexed;matched existing services retained;global in_progress.",
   "counts": {
-    "verified": 204,
-    "candidates": 379,
+    "verified": 205,
+    "candidates": 380,
     "excluded": 41,
-    "sample_successes": 384
+    "sample_successes": 386
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4302,6 +4302,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "dallas-open-data",
+      "provider": "City of Dallas",
+      "service_name": "Dallas Socrata APIs,scoped Operating Budget database",
+      "geographic_coverage": "Dallas,Texas,United States",
+      "topical_coverage": "Public budgets,municipal government",
+      "dataset_families": "Operating Budget e2fs-y4nb explicitly ODC-BY1 database grant. Other portal datasets and independent contents need individual review.",
+      "documentation_url": "https://www.dallasopendata.com/",
+      "api_base_url": "https://www.dallasopendata.com/resource/",
+      "format_protocol": "Socrata SODA/JSON;CSV,XML separately supported",
+      "authentication": "Actual small anonymous reads;other operations independently untested",
+      "free_access_restrictions": "Native official Operating Budget metadata expressly links ODC-BY1. Full standard instrument reviewed:commercial extraction,derivative databases,attribution/notices;rights end only under stated breach terms. Licence does not license independent contents,patents,privacy or third-party rights. Full city terms recovered from11 static JSON-escaped HTML components without JS execution;terms themselves reserve IP and separately recognize per-data additional terms. Named database grant is kept narrow;not an assertion all independent contents or all Dallas works are cleared. Actual anonymous budget metadata and one budget row succeeded.",
+      "license": "Open Data Commons Attribution License v1.0,only named Operating Budget database rights.",
+      "license_url": "https://opendatacommons.org/licenses/by/1-0/",
+      "api_verification_state": "actual_public_JSON_sample_success_one_budget_row",
+      "latest_checked_utc": "2026-10-17T07:00:57.309434+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "darus",
       "provider": "University of Stuttgart DaRUS",
       "service_name": "University of Stuttgart DaRUS API",
@@ -7748,7 +7766,7 @@
       "geographic_coverage": "Brazil",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://dados.gov.br/dados/conteudo/api",
+      "documentation_url": "https://dados.gov.br/dados/conteudo/api | https://www.gov.br/conecta/catalogo/apis/api-portal-de-dados-abertos",
       "api_base_url": "https://dados.gov.br/",
       "format_protocol": "catalog REST; access unresolved",
       "authentication": "unknown; public sample attempted without credentials",
@@ -8567,6 +8585,24 @@
       "license_url": "https://data.detroitmi.gov/",
       "api_verification_state": "actual_public_metadata_sample_success_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T06:12:50.270514+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "diba-open-data-api",
+      "provider": "Diputació de Barcelona",
+      "service_name": "Regional public read-only data API",
+      "geographic_coverage": "Barcelona province,Catalonia,Spain;multiple municipalities",
+      "topical_coverage": "Culture,libraries,municipal reference,parks,sport,geospatial",
+      "dataset_families": "43 public API dataset definitions include theatres,events,municipal reference,libraries,heritage,parks,sports and elected-office reference families. Only one theatre-event entity tested.",
+      "documentation_url": "https://dadesobertes.diba.cat/dades-obertes/documentacio-tecnica/api",
+      "api_base_url": "https://do.diba.cat/api/",
+      "format_protocol": "Read-only REST path-pair API;JSON default,CSV/XML/RDF-XML documented",
+      "authentication": "Actual small anonymous reads;other operations independently untested",
+      "free_access_restrictions": "Actual anonymous API definition list and one theatre-event record succeeded;primary token guide says public datasets require no token. Terms summary says mostly CC0,while full licence chapter defaults to CC BY4,excludes public-administration-purpose reuse and includes general no-alteration conditions. Its BY-ND paragraph also says modification is allowed. Effective interaction with native work licences remains unresolved. This is a distinct regional API discovered from an Arenys municipal reference,not a replacement or redirect of held Arenys smartgovs portal. No accounts/tokens/private datasets requested.",
+      "license": "43 native CC BY4 claims;conflicting operative terms and purpose wording unresolved.",
+      "license_url": "https://dadesobertes.diba.cat/dades-obertes/condicions-utilitzacio/llicencia",
+      "api_verification_state": "actual_public_JSON_sample_success_native_definition_list_and_one_event",
+      "latest_checked_utc": "2026-10-17T07:00:57.309583+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
