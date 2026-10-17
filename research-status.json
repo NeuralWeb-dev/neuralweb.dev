@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T22:59:09.541782+00:00",
+  "published_at": "2026-10-17T23:01:12.158290+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:57:28.550589+00:00",
+  "research_updated_at": "2026-10-17T23:00:52.848862+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks; eight newrecords(three scoped-open,four candidates,one restricted), Archivealiasupdated. METforecast andESMISpublicationJSONsuccess, ITIS/MG-RASTsourcegrant/nativeAPI docs withruntimeholds. ESMIS101-pagepublicmetadatafrontier active under10seccrawl-delay.",
+  "latest_milestone": "Språkbanken native1502-ID frontier and exactSALDO BY4 sample; IndiaEnvironment originalhold/indexedfooter; TPA native release scope and IP caveat.",
   "counts": {
-    "verified": 308,
-    "candidates": 621,
+    "verified": 309,
+    "candidates": 623,
     "excluded": 154,
     "sample_successes": 472
   },
@@ -9313,6 +9313,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "spraakbanken-language-resource-apis",
+      "provider": "Språkbanken / University of Gothenburg",
+      "service_name": "Språkbanken Text language resource APIs and metadata v4",
+      "geographic_coverage": "Swedish-focused language resources with multilingual corpora/lexicons; exact language/geography coverage per resource",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Corpora, lexicons, models, analyses, utilities and collections; metadata and Korp corpus-query interfaces",
+      "documentation_url": "https://ws.spraakbanken.gu.se/docs/ | https://ws.spraakbanken.gu.se/docs/metadata | https://ws.spraakbanken.gu.se/ws/metadata/v4/openapi.json",
+      "api_base_url": "https://ws.spraakbanken.gu.se/ws/metadata/v4/ | https://ws.spraakbanken.gu.se/ws/korp/v8/",
+      "format_protocol": "Native OpenAPI JSON and anonymous resource metadataJSON; list-ids array successful. Korp documented separately; native Korp doc shell references source OpenAPI, actual Korp query not tested",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Official FAQ says APIs free private/commercial use; each underlying resource can restrict commercial reuse, no guarantee of service. MIT software not resource grant",
+      "license": "Scoped exact SALDO interface and LMF-download resource metadata CC BY4.0; other resources mixed, wholesale metadata/database grant unknown",
+      "license_url": "https://ws.spraakbanken.gu.se/ws/metadata/v4/?resource=saldo+%7C+https%3A%2F%2Fspraakbanken.gu.se%2Ffaq%2Fvilka-villkor-galler-for-anvandning-av-era-apier",
+      "api_verification_state": "anonymous_native_metadata_JSON_and_full_returned_ID_array_success_exact_SALDO_CC_BY4_scope_verified_other_resource_grants_pending",
+      "latest_checked_utc": "2026-10-17T23:00:47.780579+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ssb",
       "provider": "Statistics Norway",
       "service_name": "Statistics Norway StatBank PxWebApi v2",
@@ -13995,6 +14013,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "india-environment-portal",
+      "provider": "Centre for Science and Environment, India",
+      "service_name": "India Environment Portal research and policy information portal",
+      "geographic_coverage": "India/SouthAsia environmental development subjects; exact current global scope unverified",
+      "topical_coverage": "environment | climate | water | energy | agriculture | law | research",
+      "dataset_families": "Environmental reports, research, policies, news and data references; exact current holdings unenumerated",
+      "documentation_url": "https://indiaenvironmentportal.org.in/search/pages/?page=5&region_id=14153&region_id=14249&region_id=14270&region_id=14306&region_id=15290&selected_facets=im_content_tags%3A2150",
+      "api_base_url": "",
+      "format_protocol": "Primary indexed portal content/footers, not documented current REST/query API proof",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Current exact access/reuse conditions unknown; registryopen/restricted mix not native verification",
+      "license": "Official indexed portal footer claims CC BY-SA2.5India; current native scope/underlying external works unverified",
+      "license_url": "https://indiaenvironmentportal.org.in/search/pages/?page=5&region_id=14153&region_id=14249&region_id=14270&region_id=14306&region_id=15290&selected_facets=im_content_tags%3A2150",
+      "api_verification_state": "original_homepage_robots_deferred_official_indexed_footer_grant_API_and_exact_native_scope_unresolved",
+      "latest_checked_utc": "2026-10-17T23:00:47.780579+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "indonesia",
       "provider": "Satu Data Indonesia",
       "service_name": "Satu Data Indonesia open data portal",
@@ -15324,6 +15360,24 @@
       "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
       "api_verification_state": "native_MMDB_Web_API_docs_verified_Bookshelf_Eutilities_doc_HTTP200_recaptcha_sample_untested",
       "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ncbi-third-party-annotation",
+      "provider": "NCBI / International Nucleotide Sequence Database Collaboration",
+      "service_name": "Third Party Annotation sequence database family",
+      "geographic_coverage": "International third-party annotations of primary nucleotide sequences; exact taxa/studies unenumerated",
+      "topical_coverage": "biodiversity | health | research",
+      "dataset_families": "TPA sequence assemblies/annotations derived from public DDBJ/EMBL/GenBank primary sequences; public releases distinct from confidential submissions",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/genbank/tpa/",
+      "api_base_url": "",
+      "format_protocol": "Native page describes Nucleotide access and publication-conditioned release; web record links not machine API success",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "TPA held confidential until associated peer-reviewed publication/release; only published public scope considered",
+      "license": "NCBI imposes no molecular-data reuse/distribution restrictions but warns of submitter/country IP; exact TPA source grant unresolved",
+      "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "api_verification_state": "native_TPA_release_and_record_access_docs_verified_independent_query_API_and_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T23:00:47.780579+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
