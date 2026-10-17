@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T21:27:12.687193+00:00",
+  "published_at": "2026-10-17T21:29:15.232985+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:26:19.950341+00:00",
+  "research_updated_at": "2026-10-17T21:27:31.089511+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed in two batches; six records added: one scoped-open, three candidates, two restricted. Claremont80collection entries, TextGrid39sets/3formats/oneBY4edition and VU206unique identifiers across3terminal pages verified. Global discovery unfinished.",
+  "latest_milestone": "NEMAR906native catalogue entries/19pages and oneCC0source version verified; ANZCTRproduction held, ESGForiginal deduplicated with seven published nodes queued individually.",
   "counts": {
-    "verified": 294,
-    "candidates": 575,
+    "verified": 295,
+    "candidates": 576,
     "excluded": 127,
     "sample_successes": 475
   },
@@ -6060,7 +6060,7 @@
       "license": "Custom CMIP5 unrestricted-use terms, May2020 update/document version28September2021",
       "license_url": "https://pcmdi.llnl.gov/mips/cmip5/terms-of-use.html",
       "api_verification_state": "actual_native_SolrJSON_single_CMIP5_metadata_result_success_scoped_model_output_reuse_terms_verified",
-      "latest_checked_utc": "2026-10-17T16:08:03.016062+00:00",
+      "latest_checked_utc": "2026-10-17T21:27:26.858321+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7519,6 +7519,24 @@
       "license_url": "https://learn.canceridc.dev/data/licensing",
       "api_verification_state": "native_anonymous_v3_version_OpenAPI_179_collection_summaries_and_NLST_CC_BY_3_4_license_breakdown_success_source_scoped_acceptance",
       "latest_checked_utc": "2026-10-17T21:05:37.382801+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nemar-public-catalogue",
+      "provider": "NEMAR / UC San Diego, SCCN and SDSC",
+      "service_name": "NEMAR public dataset catalogue and documented read-data interfaces",
+      "geographic_coverage": "Multi-source international neurophysiology research datasets, varying study locations; no all-world population representation claimed",
+      "topical_coverage": "health | research | neuroscience",
+      "dataset_families": "EEG/MEG/iEEG/EMG and related study-level catalogue descriptions, source DOIs, version/license provenance. Accepted source scope only explicit CC0/BY4 data; excludes NC/ND and unresolved terms.",
+      "documentation_url": "https://docs.nemar.org/platform/api/ | https://docs.nemar.org/platform/data-api/ | https://docs.nemar.org/platform/for-agents/ | https://docs.nemar.org/policies/data-use/",
+      "api_base_url": "https://api.nemar.org/datasets | https://data.nemar.org/ (documented public Data API, not native data-file sampled)",
+      "format_protocol": "Native JSON public catalogue and dataset-detail; 19 offset-paginated pages906distinctdatasetIDs. Data-host/BIDS/Zarr/MCP interfaces documented only, no recordings or code jobs invoked.",
+      "authentication": "Anonymous catalogue/detail reads succeeded. Authenticated control-plane account/admin, upload/download credential and lifecycle routes not accessed.",
+      "free_access_restrictions": "Public catalogue and Data API documented without account; source restrictions remain. No recordings, presigned data URLs, manifests, credentials, participants/subject trees, account setup, files or compute cost incurred.",
+      "license": "Dataset-specific license; explicit CC0 and CC BY4 sources accepted only. Native on007327 detail declares CC0; mixed catalogue includes NC/ND/other/ambiguous/unknown forms.",
+      "license_url": "https://api.nemar.org/datasets/on007327 | https://docs.nemar.org/policies/data-use/",
+      "api_verification_state": "native_public_JSON_catalogue_906_unique_datasets_19pages_and_CC0_source_detail_version_success_scoped_source_acceptance",
+      "latest_checked_utc": "2026-10-17T21:27:26.858321+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10023,6 +10041,24 @@
       "license_url": "https://data.a2gov.org/city-of-ann-arbor/zoning-districts",
       "api_verification_state": "official_CKAN_link_API_policy_deferred_target_unsent",
       "latest_checked_utc": "2026-10-17T04:08:14.389070+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "anzctr-trial-registry",
+      "provider": "Australian New Zealand Clinical Trials Registry / University of Sydney",
+      "service_name": "ANZCTR trial-discovery portal",
+      "geographic_coverage": "Australian/New Zealand trial registry with other-country trial descriptions reported in official indexed production text; exact current inventory not accessible in this review",
+      "topical_coverage": "health | research",
+      "dataset_families": "Trial-registration/study summaries and results discovery; no clinical participant data requested",
+      "documentation_url": "https://www.anzctr.org.au/Support/Terms.aspx | https://www.sydney.edu.au/research/our-research/clinical-trials.html",
+      "api_base_url": "",
+      "format_protocol": "Native university operator page HTML verified; production registry root/terms withheld, no API response or query contract established",
+      "authentication": "No accounts, keys, credential discovery or private routes",
+      "free_access_restrictions": "Public discovery and exact source reuse terms remain separate",
+      "license": "unknown verified current production metadata/database/source grant",
+      "license_url": "https://www.anzctr.org.au/Support/Terms.aspx",
+      "api_verification_state": "production_root_terms_robots_policy_hold_native_university_link_verified_API_and_current_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T21:27:26.858321+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
