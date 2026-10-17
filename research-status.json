@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T20:58:34.998330+00:00",
+  "published_at": "2026-10-17T21:00:37.335036+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:56:27.182548+00:00",
+  "research_updated_at": "2026-10-17T21:00:17.683894+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original discovery tasks processed in two batches; six records added and UniProt deduplicated. ECBD public-data license documented with runtime held. Geochron metadata license, native count response and 302 selector rows verified; EarthChem WFS capabilities indexed. Integrity checks passed for 975 records and 23,197 evidence hashes. Global discovery remains unfinished.",
+  "latest_milestone": "Baltic institutional data, French survey catalogue and European history originals reviewed; native Progedo OAI verified with restricted data access, remaining grants/runtime scoped unresolved.",
   "counts": {
     "verified": 290,
-    "candidates": 563,
-    "excluded": 122,
+    "candidates": 565,
+    "excluded": 123,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -11990,6 +11990,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "european-history-online",
+      "provider": "Leibniz Institute of European History / Trier Center for Digital Humanities",
+      "service_name": "EGO European History Online",
+      "geographic_coverage": "European history and transnational cultural exchange across approximately 500 years of the modern era",
+      "topical_coverage": "culture | law/civic data | economics/finance | research | history",
+      "dataset_families": "German/English scholarly articles, historical source texts, images, statistics, maps and audiovisual materials; not enumerated",
+      "documentation_url": "https://www.ieg-mainz.de/ieg-digital/ego-europaeische-geschichte-online/ | https://www.ieg-ego.eu/en/ego/legal-details",
+      "api_base_url": "",
+      "format_protocol": "Operator describes bilingual HTML/multimedia publication; no public API verified",
+      "authentication": "Public operator documentation; no account, token or private source requested",
+      "free_access_restrictions": "Public discovery does not establish source reuse rights",
+      "license": "unknown verified current source/metadata license; registry NC/ND/SA claims not accepted as provider proof",
+      "license_url": "https://www.ieg-ego.eu/en/ego/legal-details",
+      "api_verification_state": "native_operator_project_description_verified_original_host_policy_hold_API_and_effective_licenses_unresolved",
+      "latest_checked_utc": "2026-10-17T21:00:13.561941+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "europepmc",
       "provider": "EMBL-EBI / Europe PMC",
       "service_name": "EMBL-EBI / Europe PMC public metadata APIs",
@@ -16307,6 +16325,24 @@
       "license_url": "https://data.rotterdam.nl/terms/terms-and-conditions/",
       "api_verification_state": "official_indexed_API_documented_sample_policy_held",
       "latest_checked_utc": "2026-10-17T12:49:37.739435+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "rsu-dataverse",
+      "provider": "Rīga Stradiņš University",
+      "service_name": "RSU Dataverse institutional research repository",
+      "geographic_coverage": "Latvian institutional repository; individual research study geography not enumerated",
+      "topical_coverage": "research | health | social sciences",
+      "dataset_families": "Institutional research datasets, study metadata and documentation; actual deposited families not inventoried",
+      "documentation_url": "https://www.rsu.lv/en/fair-data-management | https://www.rsu.lv/sites/default/files/imce/Zin%C4%81tnes%20departaments/Datu%20kuratori/RSU%20Dataverse/rsu-dataverse-user-guide_eng.pdf",
+      "api_base_url": "https://dataverse.rsu.lv/oai ; native Dataverse API routes not independently verified",
+      "format_protocol": "OAI-PMH XML claimed by registry, native request withheld; operator guide documents API token metadata retrieval, not exact anonymous search contract",
+      "authentication": "Public operator documentation; no account, token or private source requested",
+      "free_access_restrictions": "Operator distinguishes open, request-restricted, closed and embargoed sources; public access is not blanket permission",
+      "license": "unknown blanket metadata/database grant; source-specific Creative Commons choices include open and NC/ND restrictions",
+      "license_url": "https://www.rsu.lv/en/fair-data-management",
+      "api_verification_state": "operator_API_token_function_documented_registry_OAI_claim_native_robots_policy_hold_no_API_response",
+      "latest_checked_utc": "2026-10-17T21:00:13.561941+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21511,6 +21547,24 @@
       "license_url": "https://www.polardata.ca/policy/usage",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T17:35:35.619513+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "quetelet-progedo-catalogue",
+      "provider": "PROGEDO / CNRS; ADISP and INED DataLab",
+      "service_name": "Quetelet-Progedo social science catalogue and OAI-PMH",
+      "geographic_coverage": "French public-statistics and academic research studies; international researchers may apply, not proof all-world data coverage",
+      "topical_coverage": "demographics | economics/finance | labor | health | education | housing | transportation | research",
+      "dataset_families": "ADISP public-statistics and INED socio-demographic surveys; standard files and research-production files (FPR); public study/variable discovery",
+      "documentation_url": "https://data.progedo.fr/about | https://data.progedo.fr/access_conditions | https://data.progedo.fr/legal_notice",
+      "api_base_url": "https://data.progedo.fr/oai",
+      "format_protocol": "Native OAI-PMH 2.0 XML Identify and ListMetadataFormats; oai_dc and oai_ddi25; ListSets noSetHierarchy response",
+      "authentication": "Anonymous protocol metadata reads succeeded; data access requires account, institutional/research affiliation, project description, forms and approval",
+      "free_access_restrictions": "Operator states eligible research access free, some teaching permitted; FPR requires confidentiality undertaking and approval. Separate more detailed CASD access can be paid and was not pursued.",
+      "license": "Research-purpose/eligibility source access; unknown open catalogue metadata license; copyright notice for contents, AGPL only code/design",
+      "license_url": "https://data.progedo.fr/access_conditions | https://data.progedo.fr/legal_notice",
+      "api_verification_state": "native_anonymous_OAI_Identify_two_metadata_formats_and_noSetHierarchy_XML_verified_source_access_restricted_metadata_grant_unknown",
+      "latest_checked_utc": "2026-10-17T21:00:13.561941+00:00",
       "classification": "restricted"
     },
     {
