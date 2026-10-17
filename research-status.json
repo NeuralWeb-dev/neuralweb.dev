@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T09:40:19.244068+00:00",
+  "published_at": "2026-10-17T09:42:21.701653+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:34:24.621278+00:00",
+  "research_updated_at": "2026-10-17T09:42:11.255897+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Municipal10origins:County25descriptions/142claims candidate;Gyeonggi documentedAPI/termsunresolved candidate;GovDatahistory/currentholds andGraznationalredirect retained.668services:218open/404candidates/46restricted;344originalsremain;globalin_progress.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 218,
-    "candidates": 404,
-    "excluded": 46,
-    "sample_successes": 414
+    "candidates": 407,
+    "excluded": 47,
+    "sample_successes": 416
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6305,7 +6305,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T09:31:49.016477+00:00",
+      "latest_checked_utc": "2026-10-17T09:41:17.930213+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9677,6 +9677,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "healthdata-gov-catalog",
+      "provider": "US Department of Health and Human Services",
+      "service_name": "HealthData.gov federated health-data catalogue",
+      "geographic_coverage": "United States; coverage varies by contributing source",
+      "topical_coverage": "health; research; public health; health services; chemical compound reference metadata",
+      "dataset_families": "19685 returned descriptions,19348 unique native identifiers,337 duplicate occurrences;23912 distribution claims. NIH,CDC,FDA,state and other source metadata. Contributing-source accuracy and coverage are not independently verified.",
+      "documentation_url": "https://www.healthdata.gov/",
+      "api_base_url": "https://www.healthdata.gov/data.json",
+      "format_protocol": "Actual DCAT-US-like catalogue JSON; linked Socrata developer documentation. Distribution formats and APIs vary.",
+      "authentication": "Anonymous catalogue request succeeded; no account or key. Underlying services vary.",
+      "free_access_restrictions": "Catalogue read required no payment. Underlying terms vary; seven HCUP distributor licence pointers are leads, not verified freely reusable data.",
+      "license": "Whole-catalogue metadata grant unknown; individual downstream licence claims vary",
+      "license_url": "https://www.healthdata.gov/data.json",
+      "api_verification_state": "actual_public_JSON_sample_success_full_catalogue_metadata_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T09:37:38.553941+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "helsinki",
       "provider": "Helsinki Region Infoshare",
       "service_name": "Helsinki Region Infoshare open data portal",
@@ -9691,7 +9709,7 @@
       "license": "unknown",
       "license_url": "https://hri.fi/en_gb/ohjeet/avoimen-datan-lisenssit/",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:27:29.288534+00:00",
+      "latest_checked_utc": "2026-10-17T09:36:28.939183+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9763,7 +9781,43 @@
       "license": "unknown;current Datastore data-level publisher licence scope unresolved",
       "license_url": "https://iatistandard.org/en/guidance/publishing-data/getting-started/licensing/",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T18:19:29.739364+00:00",
+      "latest_checked_utc": "2026-10-17T09:38:15.994178+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iati-dashboard-metadata",
+      "provider": "International Aid Transparency Initiative",
+      "service_name": "IATI Dashboard metadata and limited CKAN-compatible read APIs",
+      "geographic_coverage": "Global development and humanitarian reporting; contributing-organisation coverage varies",
+      "topical_coverage": "public spending; development finance; humanitarian aid; organisations; research metadata",
+      "dataset_families": "Reporting-organisation and registered dataset metadata; Dashboard statistics documented separately. Four native GET path templates and five limited CKAN-compatible path templates documented,14 total method operations.",
+      "documentation_url": "https://docs.unified-platform.iatistandard.org/en/latest/dashboard/",
+      "api_base_url": "https://dashboard.iatistandard.org/api/ | https://dashboard.iatistandard.org/api/limited-ckan-compatible/",
+      "format_protocol": "Documented REST JSON and limited CKAN-compatible JSON; OpenAPI3 contracts read, not API responses",
+      "authentication": "Contracts include anonymous security alternative alongside cookie/basic auth. No account/credentials used; actual small anonymous request policy-held before sending.",
+      "free_access_restrictions": "No payment requirement identified for documented metadata reads; live access untested. Register Your Data is a distinct authenticated writing service and was not exercised.",
+      "license": "Effective metadata/data grant unknown; individual publisher terms require review",
+      "license_url": "https://reference.iatistandard.org/en/guidance/publishing-data/what-data-to-publish/how-to-license-your-data/",
+      "api_verification_state": "documented_API_OpenAPI_contracts_verified_small_GET_policy_held_untested",
+      "latest_checked_utc": "2026-10-17T09:38:15.994178+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iati-datastore",
+      "provider": "International Aid Transparency Initiative",
+      "service_name": "IATI Datastore version3 activity, transaction and budget query API",
+      "geographic_coverage": "Global development and humanitarian activity reporting; publisher submissions determine coverage",
+      "topical_coverage": "development finance; public spending; humanitarian aid; economics",
+      "dataset_families": "Documented activity,transaction,budget collections; query/filter aid activity data expressed in the IATI Standard. No live content count or complete publisher coverage verified.",
+      "documentation_url": "https://reference.iatistandard.org/en/iati-tools-and-resources/iati-datastore/how-to-use-the-datastore-api/",
+      "api_base_url": "https://api.iatistandard.org/datastore/",
+      "format_protocol": "Documented JSON,XML,CSV; Solr-style queries. Activity also supports IATI XML/structured JSON response modes.",
+      "authentication": "Free registered API subscription key required; Ocp-Apim-Subscription-Key header documented. No key acquired, obtained from environment or exposed; sample untested.",
+      "free_access_restrictions": "Official API Gateway guide documents free registration/key. No account or subscription acquired. Downstream individual work rights remain unresolved.",
+      "license": "Publisher-specific open-licence requirement documented; effective individual work/whole-service grant unconfirmed",
+      "license_url": "https://reference.iatistandard.org/en/guidance/publishing-data/what-data-to-publish/how-to-license-your-data/",
+      "api_verification_state": "documented_key_required_API_untested_no_credentials_used",
+      "latest_checked_utc": "2026-10-17T09:37:28.497079+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15148,6 +15202,24 @@
       "license_url": "https://data.honolulu.gov/terms-of-use",
       "api_verification_state": "actual_public_parks_schema_metadata_sample_success_original_entity_HTTP403_restricted_display_terms",
       "latest_checked_utc": "2026-10-17T06:06:51.888216+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "idaho-taxing-district-gis",
+      "provider": "Idaho State Tax Commission",
+      "service_name": "Idaho taxing-district GIS portal and advertised ArcGIS feature service",
+      "geographic_coverage": "Idaho,United States",
+      "topical_coverage": "geospatial; public finance; tax districts; local government boundaries",
+      "dataset_families": "33 unique native descriptions,354 distribution claims; taxing districts,annexations and related layers. These are metadata assets, not33 independent APIs.",
+      "documentation_url": "https://gisdata-istc.opendata.arcgis.com/",
+      "api_base_url": "https://gisdata-istc.opendata.arcgis.com/data.json | https://services.arcgis.com/91hXl6NfvLGEi8x5/arcgis/rest/services/Idaho_City_Taxing_Districts/FeatureServer",
+      "format_protocol": "Actual native DCAT-like JSON catalogue; advertised ArcGIS GeoServices REST API schema request held",
+      "authentication": "Anonymous catalogue succeeded. Feature-service schema request policy-held before sending; runtime authentication unknown.",
+      "free_access_restrictions": "Catalogue read without payment. All33 descriptions contain same disclaimer including a prohibition on final-design use; no open grant established.",
+      "license": "Custom GIS use disclaimer with final-design prohibition; restricted named-service scope",
+      "license_url": "https://gisdata-istc.opendata.arcgis.com/data.json",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_feature_schema_policy_held_restricted_terms",
+      "latest_checked_utc": "2026-10-17T09:39:05.144854+00:00",
       "classification": "restricted"
     },
     {
