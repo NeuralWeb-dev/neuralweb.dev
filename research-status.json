@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:49:03.520725+00:00",
+  "published_at": "2026-10-17T19:51:05.838875+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:47:49.114839+00:00",
+  "research_updated_at": "2026-10-17T19:50:57.578652+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original provider tasks reviewed; nine distinct records added. FID move scoped CC0 metadata and native27-record catalogue verified; Edaphobase restricted dictionary and ODIN licensing-unconfirmed dictionary verified; legal/runtime gaps retained.",
+  "latest_milestone": "ICDC THREDDS XML, Virgo one-row SQL CSV and WSM32 OAI descriptions verified; exact metadata/all-purpose grants unresolved",
   "counts": {
     "verified": 281,
-    "candidates": 525,
+    "candidates": 528,
     "excluded": 113,
     "sample_successes": 475
   },
@@ -12232,6 +12232,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "icdc-climate-thredds",
+      "provider": "Integrated Climate Data Center / University of Hamburg",
+      "service_name": "ICDC THREDDS public catalogue and documented OPeNDAP services",
+      "geographic_coverage": "Global and regional Earth-system data, source-specific footprints",
+      "topical_coverage": "climate | atmosphere | oceans | water | cryosphere | land | society | research",
+      "dataset_families": "In-situ/satellite observations, reanalyses, climate indices and society data; native public root includes37 child catalogue references",
+      "documentation_url": "https://www.cen.uni-hamburg.de/en/icdc/data.html | https://www.cen.uni-hamburg.de/en/icdc/research/data-management.html",
+      "api_base_url": "https://icdc.cen.uni-hamburg.de/thredds/",
+      "format_protocol": "Native THREDDS XML catalogues; root declares OPeNDAP, WCS, WMS, NetCDFSubset, ISO/NCML and HTTP files; no array/data plane query",
+      "authentication": "Anonymous public root catalogue succeeds; policy distinguishes internal network/account-restricted sources",
+      "free_access_restrictions": "Per-dataset access described on source sheets; some external data limited to Hamburg community or arrangement. No blanket free/source reuse claim",
+      "license": "Exact catalogue and source grants unresolved; policy prefers Creative Commons releases but requires dataset-specific licences",
+      "license_url": "https://www.cen.uni-hamburg.de/en/icdc/research/data-management.html",
+      "api_verification_state": "native_anonymous_THREDDS_catalogue_XML_success_OPeNDAP_services_declared_arrays_untested",
+      "latest_checked_utc": "2026-10-17T19:50:53.456043+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "idigbio",
       "provider": "Integrated Digitized Biocollections (iDigBio)",
       "service_name": "iDigBio Search API v2",
@@ -17182,6 +17200,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "virgo-millennium-sql",
+      "provider": "Virgo Consortium / Durham ICC / MPA Garching",
+      "service_name": "Virgo Millennium simulation HTTP SQL database",
+      "geographic_coverage": "Simulated cosmological volumes, not terrestrial coverage",
+      "topical_coverage": "astronomy | cosmology | research",
+      "dataset_families": "Halo/galaxy catalogues, merger trees and model families; tiny public milli-Millennium versus full registered databases",
+      "documentation_url": "http://galaxy-catalogue.dur.ac.uk:8080/Millennium/Help | http://galaxy-catalogue.dur.ac.uk:8080/Millennium/Help?page=wget",
+      "api_base_url": "http://galaxy-catalogue.dur.ac.uk:8080/Millennium",
+      "format_protocol": "Native synchronous HTTP SQL response, #OK plus CSV one haloid/snapnum row; published wget-style API",
+      "authentication": "Anonymous tiny public database sample succeeded; full database account required/not obtained",
+      "free_access_restrictions": "Official credits welcome own scientific purposes without consultation, model-specific citations; unrestricted redistribution/general commercial grant unestablished",
+      "license": "Scientific-use permission and citation expectations; registry public-domain claim not verified as unrestricted dedication",
+      "license_url": "http://galaxy-catalogue.dur.ac.uk:8080/Millennium/Help?page=credits",
+      "api_verification_state": "native_anonymous_synchronous_SQL_CSV_one_row_success",
+      "latest_checked_utc": "2026-10-17T19:50:53.456043+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wa-slip-public-geospatial-services",
       "provider": "Western Australia / Landgate Shared Location Information Platform",
       "service_name": "SLIP public geospatial web services",
@@ -18655,6 +18691,24 @@
       "license_url": "https://api-portal.tfwm.org.uk/signup?plan_ids%5B%5D=2357355859549",
       "api_verification_state": "documented_registered_key_required_GTFS_API_data_sample_untested",
       "latest_checked_utc": "2026-10-17T03:35:20.918275+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "world-stress-map-oai",
+      "provider": "World Stress Map / GFZ Helmholtz Centre for Geosciences",
+      "service_name": "World Stress Map release portal and DOIDB OAI-PMH collection",
+      "geographic_coverage": "Global crustal stress information; release2025 reports100842 records, not retrieved",
+      "topical_coverage": "geospatial | geophysics | geology | hazards | energy | research",
+      "dataset_families": "Crustal stress database releases, regional maps and research software descriptions;32 OAI records in WSM set",
+      "documentation_url": "https://www.world-stress-map.org/ | https://www.world-stress-map.org/download/",
+      "api_base_url": "https://doidb.wdc-terra.org//oaip/oai",
+      "format_protocol": "Native OAI-PMH2 Identify/ListSets/ListRecords XML; dataset DOI embeds schema.org JSON-LD",
+      "authentication": "Anonymous metadata Identify and WSM set records succeeded; no source files or CASMO jobs",
+      "free_access_restrictions": "Official release portal says download/use free; exact DOI source2025 explicitly CC BY4. OAI metadata/database formal grant unconfirmed",
+      "license": "CC BY4 explicitly verified for source database release2025; exact OAI metadata/database grant unresolved; source software varies",
+      "license_url": "https://dataservices.gfz.de/10.5880/wsm.2025.001/world-stress-map-database-release-2025 | https://www.world-stress-map.org/download/",
+      "api_verification_state": "native_anonymous_OAI_Identify_and_full_WSM_set_XML_success_source2025_grant_verified",
+      "latest_checked_utc": "2026-10-17T19:50:53.456043+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
