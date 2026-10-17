@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:23:13.979735+00:00",
+  "published_at": "2026-10-17T18:25:16.661341+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:18:51.259961+00:00",
+  "research_updated_at": "2026-10-17T18:24:51.742692+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed; five records added, UniProt family aliases deduplicated; EVA1103study IDs and ERS77native service references indexed with scoped rights gaps",
+  "latest_milestone": "CXIDB CC0 grant/API gap, CTD restricted API docs and EarthStat twelve-family rights review checkpointed",
   "counts": {
     "verified": 271,
     "candidates": 500,
-    "excluded": 93,
+    "excluded": 95,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -18492,6 +18492,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "ctd-toxicogenomics-data-access",
+      "provider": "Comparative Toxicogenomics Database",
+      "service_name": "CTD toxicogenomic data retrieval API/portal (restricted)",
+      "geographic_coverage": "Cross-species toxicogenomics research; no inferred population geography",
+      "topical_coverage": "health | environment | biology | research",
+      "dataset_families": "Chemical-gene, chemical-disease, gene-disease, phenotype, pathways and exposure associations",
+      "documentation_url": "https://ctdbase.org/help/linking.jsp#batchqueries | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701581/",
+      "api_base_url": "",
+      "format_protocol": "API data retrieval documented by operator authors; exact current response formats unverified",
+      "authentication": "unknown; no credential/contact action",
+      "free_access_restrictions": "Provider-authored2025update states non-commercial free access, commercial users asked to purchase download licence. No paid acquisition.",
+      "license": "Provider-reported non-commercial free/commercial-download licensing; live legal text policy-held",
+      "license_url": "https://ctdbase.org/about/legal.jsp | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701581/",
+      "api_verification_state": "provider_authored_API_documented_original_policy_held_sample_untested",
+      "latest_checked_utc": "2026-10-17T18:24:47.696814+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "deims",
       "provider": "DEIMS-SDR",
       "service_name": "DEIMS-SDR API",
@@ -18543,6 +18561,24 @@
       "license_url": "https://digitalnz.org/about/terms-of-use/developer-api-terms-of-use",
       "api_verification_state": "documented_API_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.438678+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "earthstat-restricted-raster-families",
+      "provider": "EarthStat / University of Minnesota and University of British Columbia",
+      "service_name": "EarthStat selected restricted raster families (API unestablished)",
+      "geographic_coverage": "Global agricultural and environmental rasters; family-specific periods and resolution",
+      "topical_coverage": "agriculture | environment | water | climate | geospatial",
+      "dataset_families": "Selected permission-restricted yield-gap, nutrient-balance, carbon-stock, crop-allocation and four-crop historical rasters; other families separately indexed",
+      "documentation_url": "http://www.earthstat.org/",
+      "api_base_url": "",
+      "format_protocol": "GeoTIFF/ZIP file distribution; registry NetCDF label not a verified API",
+      "authentication": "Public description pages; data-file access not tested",
+      "free_access_restrictions": "Selected families allow research/study/teaching download with citation; redistribution or commercial product incorporation requires explicit permission",
+      "license": "Custom permission-restricted selected families; other family grants mixed/conflicting",
+      "license_url": "http://www.earthstat.org/yield-gaps-climate-bins-major-crops/ | http://www.earthstat.org/total-nutrient-balance-140-crops/ | http://www.earthstat.org/carbon-stocks-potential-natural-vegetation/ | http://www.earthstat.org/crop-allocation-food-feed-nonfood/ | http://www.earthstat.org/harvested-area-yield-4-crops-1995-2005/",
+      "api_verification_state": "restricted_file_portal_documented_public_API_unestablished",
+      "latest_checked_utc": "2026-10-17T18:24:47.696814+00:00",
       "classification": "restricted"
     },
     {
