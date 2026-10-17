@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T22:20:18.505653+00:00",
+  "published_at": "2026-10-17T22:22:20.847614+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:18:15.990797+00:00",
+  "research_updated_at": "2026-10-17T22:22:13.365492+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks/sixservices added: OpenMLscopedCC0nativeAPI,threecandidates,tworestricted. OpenMLdefaultpublic6528IDfrontier completed8pages/terminal428; globaluniverseunfinished.",
+  "latest_milestone": "PetDBnativev4metrics confirmed/mixedsourcegrants; DHSspatialODbL1/DBCL1 sourcegrant verified/separateinterfaceunresolved; RITOAIheld/mixedrights.",
   "counts": {
     "verified": 304,
-    "candidates": 603,
+    "candidates": 606,
     "excluded": 145,
     "sample_successes": 474
   },
@@ -12025,7 +12025,25 @@
       "license": "unknown explicit open metadata/database license",
       "license_url": "https://api.dhsprogram.com/html/terms.cfm | https://dhsprogram.com/data/Using-DataSets-for-Analysis.cfm",
       "api_verification_state": "native_official_current_API_docs_and_citation_terms_verified_countries_endpoint_policy_hold_target_unsent",
-      "latest_checked_utc": "2026-10-17T21:36:35.871065+00:00",
+      "latest_checked_utc": "2026-10-17T22:22:09.228424+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dhs-spatial-data-repository",
+      "provider": "The DHS Program / Spatial Data Repository",
+      "service_name": "Spatial Data Repository geographic health/demographic products portal",
+      "geographic_coverage": "DHSsurvey countries and US Census subnational population products; portal does not prove complete worldwide national/subnational coverage",
+      "topical_coverage": "health | demographics | geospatial | education | research",
+      "dataset_families": "Surveyboundaries,geographic indicators,modelledsurfaces,geospatialcovariates,populationestimates and localmapping resources",
+      "documentation_url": "https://spatialdata.dhsprogram.com/home/ | https://spatialdata.dhsprogram.com/data/",
+      "api_base_url": "",
+      "format_protocol": "Native indicatorpage documents Shapefile/geodatabase packages and custom GISdownloads, not proof separate queryAPI. NativePDFschema archived, webPDFfetch403 not nativefetchfailure",
+      "authentication": "No credentials,keys,accounts or paid access used",
+      "free_access_restrictions": "Native indicatorportal displays packageoptions and attributionlicences; source/GPS/microdata access conditions remain distinct; no packages requested",
+      "license": "SpatialDataRepository database ODbL1.0; rights in individualcontents DBCL1.0, explicit native indicatorpage",
+      "license_url": "https://spatialdata.dhsprogram.com/data/ | https://opendatacommons.org/licenses/odbl/1.0/ | https://opendatacommons.org/licenses/dbcl/1.0/",
+      "api_verification_state": "native_ODbL1_DBCL1_spatial_database_grant_verified_independent_query_API_unestablished_linked_existing_API_hold",
+      "latest_checked_utc": "2026-10-17T22:22:09.228424+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16331,6 +16349,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "petdb-geochemistry-v4",
+      "provider": "EarthChem / PetDB",
+      "service_name": "PetDB2.0 geochemistry RESTAPIv4",
+      "geographic_coverage": "International geochemical/geochronological/petrological source collections; exact geographic completeness unknown",
+      "topical_coverage": "geospatial | oceans | research | environment",
+      "dataset_families": "Samples,citations,analytical variables/materials,laboratories,geological/taxonomic vocabularies and aggregatedmetrics",
+      "documentation_url": "https://earthchem.github.io/ec-doc/documentation/petdb_api.html | https://earthchem.github.io/ec-doc/release_notes/petdb_api.html",
+      "api_base_url": "https://api.earthchem.org/v4/",
+      "format_protocol": "Native anonymousJSON success,data.batches772804,citations3897,dataPoints7351000; readonly operationreferences documented",
+      "authentication": "No credentials,keys,accounts or paid access used",
+      "free_access_restrictions": "Native terms permit public/academic browsing with licence-specific citation and varyingCreativeCommons grants; export workflow has acceptterms/email, not used",
+      "license": "VaryingCreativeCommons source-specific licences; no verified universal PetDB/openmetadata/database grant",
+      "license_url": "https://earthchem.org/legal/terms-of-use/",
+      "api_verification_state": "native_anonymous_v4metrics_JSON_success_current_API_docs_and_mixed_rights_verified_exact_source_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T22:22:09.228424+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "philippines",
       "provider": "Philippine Statistics Authority (PSA)",
       "service_name": "PSA OpenSTAT PxWeb statistical API",
@@ -17264,6 +17300,24 @@
       "license_url": "https://data.rijksmuseum.nl/policy/information-and-data-policy",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T21:48:02.650130+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "rit-digital-repository",
+      "provider": "Rochester Institute of Technology Libraries",
+      "service_name": "RIT Digital Institutional Repository discovery",
+      "geographic_coverage": "RITacademic/institutional outputs, US-basedinstitution with international subjectmatter; not all-USdatasetinventory",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Researchpublications,datasets,theses/dissertations,archives,student/facultyscholarship,openpublishing anddigitizedculturalcollections",
+      "documentation_url": "https://repository.rit.edu/about.html | https://repository.rit.edu/faq.html",
+      "api_base_url": "",
+      "format_protocol": "NativeHTML/about/FAQverified; exploratoryframework-shaped OAIIdentify policydeferred targetunsent, not deploymentXMLsuccess",
+      "authentication": "No credentials,keys,accounts or paid access used",
+      "free_access_restrictions": "Nativeabout describes free fulltextaccess; copyrightretained and optional individualCCrestrictions. AuthorDashboard/login not publicAPI",
+      "license": "Unknown exact sampledopen source/metadata/database grant; optional source-selectedCC and copyrightretention",
+      "license_url": "https://repository.rit.edu/faq.html | https://repository.rit.edu/about.html",
+      "api_verification_state": "native_public_repository_and_mixed_item_rights_docs_verified_exploratory_OAI_robots_hold_target_unsent",
+      "latest_checked_utc": "2026-10-17T22:22:09.228424+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
