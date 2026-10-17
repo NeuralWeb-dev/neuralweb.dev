@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T22:50:58.796598+00:00",
+  "published_at": "2026-10-17T22:53:01.201734+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:49:07.434041+00:00",
+  "research_updated_at": "2026-10-17T22:52:48.807684+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ITIS nativeCC0 and service docs; MG-RAST public-onlyCC0/citation and REST docs; Barrow originalhold/restricted imagery subset.",
+  "latest_milestone": "UDISE APIhosthold; formerCornell redirect to currentESMIS JSON/OpenAPI verified; NOAA BRW generalPD with sourceAPI unresolved.",
   "counts": {
     "verified": 307,
-    "candidates": 618,
+    "candidates": 621,
     "excluded": 153,
     "sample_successes": 472
   },
@@ -15515,6 +15515,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "noaa-gml-barrow-observatory",
+      "provider": "NOAA Global Monitoring Laboratory",
+      "service_name": "Barrow Atmospheric Baseline Observatory BRW data discovery",
+      "geographic_coverage": "Utqiaġvik/Barrow Alaska observatory, Arctic atmospheric baseline science; broad GML portal has separate global networks",
+      "topical_coverage": "climate | environment | energy | research",
+      "dataset_families": "Atmospheric greenhouse gases, aerosols, ozone, radiation and meteorology observations/products associated with BRW",
+      "documentation_url": "https://gml.noaa.gov/obop/brw/ | https://gml.noaa.gov/data/",
+      "api_base_url": "",
+      "format_protocol": "Source discovery/viewer/product and FTP references; current documented independent machinequery API unresolved",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Native GML disclaimer says government-server information public domain unless annotated, with credit/no misleading endorsement conditions; exact products may have additional policies",
+      "license": "Native public-domain default unless annotated otherwise; exact BRW product policies/scope unresolved",
+      "license_url": "https://gml.noaa.gov/about/disclaimer.html",
+      "api_verification_state": "native_observatory_and_general_PD_policy_verified_query_API_and_exact_product_terms_unresolved",
+      "latest_checked_utc": "2026-10-17T22:52:44.400449+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "noaa-ncei",
       "provider": "NOAA National Centers for Environmental Information",
       "service_name": "NOAA National Centers for Environmental Information API",
@@ -19061,6 +19079,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "udiseplus-education-data-api",
+      "provider": "Department of School Education and Literacy / NIC, Government of India",
+      "service_name": "UDISE+ school data portal and documented developer APIs",
+      "geographic_coverage": "India national/state/district/block/school education data; exact current coverage unenumerated",
+      "topical_coverage": "education | demographics | research",
+      "dataset_families": "School information/code validation and regional lists; public aggregate reporting distinct from protected student/mobile services",
+      "documentation_url": "https://api.udiseplus.gov.in/",
+      "api_base_url": "https://api.udiseplus.gov.in/ (developer portal; exact data routes unverified)",
+      "format_protocol": "Primary official indexed API description; exact current protocol/schema unverified",
+      "authentication": "No credentials/accounts/keys used",
+      "free_access_restrictions": "Exact API credentials/approval/free tier/reuse terms unknown; no anonymous access inferred from public developer landing page",
+      "license": "unknown exact API/database/metadata open grant; no government-ownership inference",
+      "license_url": "https://udiseplus.gov.in/#/en/page/copyright",
+      "api_verification_state": "native_mainportal_JS_shell_official_indexed_API_description_APIhost_robots_hold_sample_unsent",
+      "latest_checked_utc": "2026-10-17T22:52:44.400449+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ufz-drp-archive-json-interface",
       "provider": "Helmholtz Centre for Environmental Research / UFZ",
       "service_name": "UFZ DRP / DMP Archive documented JSON sharing interface",
@@ -19400,6 +19436,24 @@
       "license_url": "https://www.ers.usda.gov/developer/api-terms-of-service",
       "api_verification_state": "native_anonymous_JSON_selected_public_data_catalogue_verified_grants_unresolved",
       "latest_checked_utc": "2026-10-17T18:17:50.975019+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usda-esmis-publication-api",
+      "provider": "USDA National Agricultural Library; former Cornell ESMIS archive",
+      "service_name": "Economics, Statistics and Market Information System current public metadata API",
+      "geographic_coverage": "USDA agricultural/economic market reports with national/international commodity subjects; exact publication geography unenumerated",
+      "topical_coverage": "agriculture | economics | labor | environment | research",
+      "dataset_families": "Agency, publication-series and release metadata for AMS, ERS, FAS, NASS and WAOB; not underlying report datafiles",
+      "documentation_url": "https://esmis.nal.usda.gov/api-documentation | https://esmis.nal.usda.gov/sites/default/files/swagger/esmis_public_api.yaml",
+      "api_base_url": "https://esmis.nal.usda.gov/api/v1/",
+      "format_protocol": "Native OpenAPI3 YAML; JSON response filters,pager,results,sorters,system; twelve documented GET metadata operations",
+      "authentication": "Native schema has no security requirement and anonymous publication JSON succeeded; no credentials used",
+      "free_access_restrictions": "Public metadata API; exact metadata/database/source publication licence not uniformly verified",
+      "license": "NAL most-information public-domain statement with copyrighted/personal-use exceptions; exact ESMIS metadata/source grant unresolved",
+      "license_url": "https://www.nal.usda.gov/web-policies-and-important-links",
+      "api_verification_state": "former_Cornell_native_redirect_current_ESMIS_OpenAPI_and_anonymous_publication_JSON_success_exact_source_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T22:52:44.400449+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
