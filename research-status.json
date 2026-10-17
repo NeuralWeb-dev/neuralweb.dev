@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T06:15:44.546318+00:00",
+  "published_at": "2026-10-17T06:17:47.090323+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:13:48.146633+00:00",
+  "research_updated_at": "2026-10-17T06:17:02.170077+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Citysupplement:Detroit/KC/LasVegascandidatesactualmetadata;DataLA namedbudgetCC0verified. CulverClearGov/GrandRapidsIISnotAPIproviders. Ashevillecatalogprogresscontinues;globalin_progress.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 201,
     "candidates": 365,
@@ -3855,7 +3855,7 @@
       "license": "CC0 1.0 for City of Boulder Open Data Catalog datasets",
       "license_url": "https://bouldercolorado.gov/services/open-data",
       "api_verification_state": "actual_bounded_JSON_sample_success_scoped_city_catalog_CC0_verified",
-      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "latest_checked_utc": "2026-10-17T06:08:37.045200+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5289,13 +5289,13 @@
       "dataset_families": "Current official tabular datasetmetadata explicitly CC0_10 withcanonicalCC0legalcode link:OpenBudget-AppropriationsFiscalYears2010-2025,5242-pnmt,officialprovenance. FullCC0legaltext reviewed in thisbatch. Scope namedbudgetdatasetonly,notallDataLA/site/partnercontent/metadata. Separateparkingmap2ckn-xmjp alsoCC0claim,butemptycolumnsnotallunderlyingfeaturesproof. Full2014portalterms requireprovider-specificterms;rightsgrantedbyuploaders toCity notmisstatedasuniversalenduseradaptationgrant.",
       "documentation_url": "https://data.lacity.org/",
       "api_base_url": "https://data.lacity.org/resource/",
-      "format_protocol": "Socrata SODA/JSON;selectedpublic metadata/schema",
+      "format_protocol": "SocrataSODA/JSON,actualonebudgetappropriationrecord plusofficiallicence/schema",
       "authentication": "Actual anonymous bounded metadataread;no key/account;otheroperations independentlyuntested",
       "free_access_restrictions": "Current official tabular datasetmetadata explicitly CC0_10 withcanonicalCC0legalcode link:OpenBudget-AppropriationsFiscalYears2010-2025,5242-pnmt,officialprovenance. FullCC0legaltext reviewed in thisbatch. Scope namedbudgetdatasetonly,notallDataLA/site/partnercontent/metadata. Separateparkingmap2ckn-xmjp alsoCC0claim,butemptycolumnsnotallunderlyingfeaturesproof. Full2014portalterms requireprovider-specificterms;rightsgrantedbyuploaders toCity notmisstatedasuniversalenduseradaptationgrant.",
       "license": "CC0 1.0,only named Appropriations budgetdataset5242-pnmt",
       "license_url": "https://data.lacity.org/api/views/5242-pnmt.json",
-      "api_verification_state": "actual_official_budget_metadata_sample_success_scoped_CC0_1_verified",
-      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
+      "api_verification_state": "actual_one_budget_record_sample_success_named_appropriations_dataset_CC0_1_verified",
+      "latest_checked_utc": "2026-10-17T06:13:16.082055+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6141,7 +6141,7 @@
       "license": "Open Data Commons PDDL 1.0",
       "license_url": "https://opendatacommons.org/licenses/pddl/1-0/",
       "api_verification_state": "historical_catalog_sample_success_current_original_sample_policy_held_scoped_PDDL_record_preserved",
-      "latest_checked_utc": "2026-10-16T16:43:35.395567+00:00",
+      "latest_checked_utc": "2026-10-17T06:05:05.245620+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7403,7 +7403,7 @@
       "license": "Current underlying dataset/API licence unconfirmed;siteitem CC-BY-SA not universalgrant",
       "license_url": "https://www.ashevillenc.gov/service/explore-city-data/",
       "api_verification_state": "actual_bounded_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "latest_checked_utc": "2026-10-17T06:15:16.953396+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7421,7 +7421,7 @@
       "license": "Current operative data terms not reliably readable;notinferredpublicdomain",
       "license_url": "https://data.austintexas.gov/stories/s/ranj-cccq",
       "api_verification_state": "actual_bounded_JSON_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "latest_checked_utc": "2026-10-17T06:04:36.744864+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8375,7 +8375,7 @@
       "license": "Current data/metadata grant unresolved;generalcityprivacy page held",
       "license_url": "https://data.detroitmi.gov/",
       "api_verification_state": "actual_public_metadata_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
+      "latest_checked_utc": "2026-10-17T06:12:50.270514+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9293,7 +9293,7 @@
       "license": "Native sampled budget labelled Public Domain;dedication/instrument scopeunconfirmed against generalterms",
       "license_url": "https://data.kcmo.org/terms",
       "api_verification_state": "actual_public_metadata_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
+      "latest_checked_utc": "2026-10-17T06:10:12.647703+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9455,7 +9455,7 @@
       "license": "Native disclaimer doesnotestablish openreuse grant",
       "license_url": "https://opendataportal-lasvegas.opendata.arcgis.com/",
       "api_verification_state": "actual_public_metadata_sample_success_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
+      "latest_checked_utc": "2026-10-17T06:10:54.391910+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13687,7 +13687,7 @@
       "license": "Custom Open Data BR Terms of Service;defaultpersonal/noncommercial/no-derivative licence with explicit exceptions",
       "license_url": "https://data.brla.gov/terms-of-service",
       "api_verification_state": "actual_bounded_JSON_sample_success_restricted",
-      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "latest_checked_utc": "2026-10-17T06:03:50.466639+00:00",
       "classification": "restricted"
     },
     {
@@ -13956,8 +13956,8 @@
       "free_access_restrictions": "Actual Parks by Activity public JSON metadata/schema; inspected metadata has no licenseId/license field. Current linked2015terms require dataset-specificlicence/disclaimer and reserve termination of any/all graphicaldisplays displaying/distributing/otherwiseusing data for any reason. This is not a claim that all non-display reuse is banned. Older/policy2012not substituted for current linkedterms. No blanket opengrant.",
       "license": "Custom Honolulu Terms of Use,1March2015;per-datasetlicences and graphical-display termination condition",
       "license_url": "https://data.honolulu.gov/terms-of-use",
-      "api_verification_state": "actual_bounded_JSON_sample_success_restricted",
-      "latest_checked_utc": "2026-10-17T06:07:25.159578+00:00",
+      "api_verification_state": "actual_public_parks_schema_metadata_sample_success_original_entity_HTTP403_restricted_display_terms",
+      "latest_checked_utc": "2026-10-17T06:06:51.888216+00:00",
       "classification": "restricted"
     },
     {
