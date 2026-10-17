@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T08:53:17.307215+00:00",
+  "published_at": "2026-10-17T08:55:20.111723+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T08:39:52.955048+00:00",
+  "research_updated_at": "2026-10-17T08:55:09.179906+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "City/region11origins:Veneto6757entries/6756unique/root6769,scopedTerrazzoCCBY4/ODatawrappercount0unresolved;LombardiapublicJSON/licencenull/fulltermscandidate,8rootsheld,DatiOpenvendorredirect.654services:213open/398candidates/43restricted;405originalsremain;globalin_progress.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 213,
-    "candidates": 398,
-    "excluded": 43,
-    "sample_successes": 405
+    "verified": 214,
+    "candidates": 399,
+    "excluded": 44,
+    "sample_successes": 408
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4459,6 +4459,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "dc-open-data",
+      "provider": "District of Columbia",
+      "service_name": "Open Data DC catalogue and named ward ArcGIS layer",
+      "geographic_coverage": "Washington,DC,United States",
+      "topical_coverage": "geospatial; demographics; housing; law/civic data",
+      "dataset_families": "1875 dataset descriptions;11038 distribution claims. Named Wards from 2022 explicit CC BY4.0. Other works individually licensed; two DC Water descriptions prohibit commercial/legal/other use.",
+      "documentation_url": "https://opendata.dc.gov/data.json",
+      "api_base_url": "https://opendata.dc.gov/data.json",
+      "format_protocol": "Actual JSON metadata; ArcGIS REST and native DCAT-like catalogues as applicable",
+      "authentication": "Anonymous successful metadata reads; protected/untested interfaces separately noted",
+      "free_access_restrictions": "Small public metadata reads without payment; dataset restrictions and API grant scope as specified",
+      "license": "CC BY4.0, named Wards from 2022 only",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
+      "latest_checked_utc": "2026-10-17T08:54:36.297870+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "denmark-statbank",
       "provider": "Statistics Denmark",
       "service_name": "Statistics Denmark API",
@@ -6991,9 +7009,9 @@
       "authentication": "none for initial successful catalog request",
       "free_access_restrictions": "Initial public catalog JSON succeeded; further API sample deferred under current robots policy without request; no bulk enumeration",
       "license": "Licencia de Datos Abiertos – Uruguay v0.1 for explicitly marked datasets/metadata",
-      "license_url": "https://www.gub.uy/agencia-reguladora-compras-estatales/datos-y-estadisticas/datos/licencia-datos-abiertos",
+      "license_url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/publicaciones/licencia_de_datos_abiertos_0.pdf",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:23:57.244396+00:00",
+      "latest_checked_utc": "2026-10-17T08:54:36.298469+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8796,6 +8814,24 @@
       "license_url": "https://dadesobertes.diba.cat/dades-obertes/condicions-utilitzacio/llicencia",
       "api_verification_state": "actual_public_JSON_sample_success_native_definition_list_and_one_event",
       "latest_checked_utc": "2026-10-17T06:58:24.491901+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dnv-geoweb",
+      "provider": "District of North Vancouver",
+      "service_name": "GeoWeb file catalogue and ArcGIS service directory",
+      "geographic_coverage": "District of North Vancouver,British Columbia,Canada",
+      "topical_coverage": "geospatial; transportation; water; housing",
+      "dataset_families": "140 visible metadata references;506 file links. Root62 service references plus8 across3 public folders,70 distinct name/type pairs. Two folders token-required, contents unknown.",
+      "documentation_url": "https://geoweb.dnv.org/arcgis/rest/services?f=pjson",
+      "api_base_url": "https://geoweb.dnv.org/arcgis/rest/services?f=pjson",
+      "format_protocol": "Actual JSON metadata; ArcGIS REST and native DCAT-like catalogues as applicable",
+      "authentication": "Anonymous successful metadata reads; protected/untested interfaces separately noted",
+      "free_access_restrictions": "Small public metadata reads without payment; dataset restrictions and API grant scope as specified",
+      "license": "Open Government Licence North Vancouver v2.0 for offered files; API work binding unconfirmed",
+      "license_url": "https://geoweb.dnv.org/data/",
+      "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
+      "latest_checked_utc": "2026-10-17T08:54:36.298374+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14738,6 +14774,24 @@
       "license_url": "https://deims.org/terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:58:57.603548+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "denver-open-data",
+      "provider": "City and County of Denver",
+      "service_name": "Denver Open Data native catalogue",
+      "geographic_coverage": "Denver,Colorado,United States",
+      "topical_coverage": "transportation; geospatial",
+      "dataset_families": "346 dataset descriptions;3320 distribution claims. Named Rail Transit Stations has explicit NOT FOR ENGINEERING PURPOSES conditions.339 catalogue licence fields contain this restriction; other7 require separate review.",
+      "documentation_url": "https://opendata-geospatialdenver.hub.arcgis.com/data.json",
+      "api_base_url": "https://opendata-geospatialdenver.hub.arcgis.com/data.json",
+      "format_protocol": "Actual JSON metadata; ArcGIS REST and native DCAT-like catalogues as applicable",
+      "authentication": "Anonymous successful metadata reads; protected/untested interfaces separately noted",
+      "free_access_restrictions": "Small public metadata reads without payment; dataset restrictions and API grant scope as specified",
+      "license": "Named rail dataset engineering-purpose restriction",
+      "license_url": "https://opendata-geospatialdenver.hub.arcgis.com/data.json",
+      "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
+      "latest_checked_utc": "2026-10-17T08:54:36.298269+00:00",
       "classification": "restricted"
     },
     {
