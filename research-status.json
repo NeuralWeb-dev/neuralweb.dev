@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T17:13:47.135354+00:00",
+  "published_at": "2026-10-17T17:15:49.564032+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:12:29.043544+00:00",
+  "research_updated_at": "2026-10-17T17:14:07.803021+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Threeclinical/lexical/geospatialoriginsreviewed;TIGERnative37services1987refs+Californiaqueryandscopedpublicdomaingrant,CNRTLnativecandidate,ZKSAPIunresolved",
+  "latest_milestone": "Fourecology/agriculture/researchoriginsreviewed;CoscineBearerOpenAPIcandidate,HellanicusnativeAtomrestricted,MGDdataCCBY4butAPIunresolved,ATTOAPI/grantunknown",
   "counts": {
     "verified": 263,
-    "candidates": 481,
-    "excluded": 72,
-    "sample_successes": 473
+    "candidates": 482,
+    "excluded": 73,
+    "sample_successes": 474
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selected sources queued, not yet researched.",
@@ -10122,6 +10122,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "coscine-research-api",
+      "provider": "RWTH Aachen University / Coscine.nrw",
+      "service_name": "Coscine project research-data REST API",
+      "geographic_coverage": "German/NorthRhine-Westphaliaresearchinstitutionsandcollaborations;project-specificdata",
+      "topical_coverage": "research; education",
+      "dataset_families": "Project/resource/graph/descriptivemetadata/storageinterfaces;publicmetadataresourcevisibilityoptional,notallprojectdataopen",
+      "documentation_url": "https://docs.coscine.de/en/api/api/ | https://coscine.rwth-aachen.de/coscine/api/swagger/v2/swagger.json",
+      "api_base_url": "https://coscine.rwth-aachen.de/coscine/api/v2",
+      "format_protocol": "REST/JSON;OpenAPI3.0.1publishedschema132pathsverified(documentation,notdataresponse)",
+      "authentication": "OfficialdocsandOpenAPIglobalBearerrequirement;tokencreatedinprofile. Noaccount/key/token/presignedfileURLobtainedorused.",
+      "free_access_restrictions": "Projectmembership/accesscontrols;publicmetadataandshort-livedfilesharingfeaturesvarybyresource. Datarecordlicencechoicesdo notmakefilepublic. No dataset/provider-wide grantverified.",
+      "license": "Per-resource owner-selected licence or copyright default; uniform public data/metadata grant unconfirmed",
+      "license_url": "https://about.coscine.de/en/faq/",
+      "api_verification_state": "primary_API_docs_and_native_OpenAPI_schema_verified_Bearer_required_data_sample_untested_actual_source_grant_unconfirmed",
+      "latest_checked_utc": "2026-10-17T17:14:03.358190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "county-grande-prairie-open-data",
       "provider": "County of Grande Prairie No.1,Alberta",
       "service_name": "County open-data catalogue and ArcGIS metadata services",
@@ -17951,6 +17969,24 @@
       "license_url": "https://opendata.hawaii.gov/pages/terms-of-use",
       "api_verification_state": "publisher_CKAN_API_documented_conventional_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T14:29:36.839718+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "hellanicus-opensearch-metadata",
+      "provider": "University of the Aegean Library / Hellanicus Repository",
+      "service_name": "Hellanicus OpenSearch Atom metadata feed",
+      "geographic_coverage": "UniversityofAegean,Greece;work-specificinternationalresearchtopics",
+      "topical_coverage": "research; education; culture",
+      "dataset_families": "Institutionalresearch/thesesbibliographicmetadata,handles/titles/authors/abstracts;one10entryAtompagesampled,nofulltexts",
+      "documentation_url": "https://hellanicus.lib.aegean.gr/",
+      "api_base_url": "https://hellanicus-api.lib.aegean.gr/server/opensearch/search",
+      "format_protocol": "OpenSearch1.1/AtomXML;publicSSRrootexplicitlylinksfeed",
+      "authentication": "NoneforsuccessfulpublicAtompage;privatefile/accountfunctionsnotqueried",
+      "free_access_restrictions": "Generalend-usertermslimitcontentpersonal/noncommercialuse;commercialcopy/aggregation/distributionpermissionrequired. Per-itemlicenceexceptionsunresolved;no sourcefiles/accounts/fullharvest.",
+      "license": "General personal/noncommercial terms; no uniform open metadata grant established",
+      "license_url": "https://hellanicus.lib.aegean.gr/info/end-user-agreement",
+      "api_verification_state": "actual_native_OpenSearch_Atom_XML_10entry_sample_success_general_restrictive_terms_verified_no_full_inventory",
+      "latest_checked_utc": "2026-10-17T17:14:03.358190+00:00",
       "classification": "restricted"
     },
     {
