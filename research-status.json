@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T21:33:20.393912+00:00",
+  "published_at": "2026-10-17T21:35:22.906148+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:32:07.745594+00:00",
+  "research_updated_at": "2026-10-17T21:34:56.375900+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Ten original tasks processed in two batches; nine distinct records added: five scoped-open and four candidates. NEMAR906 current summaries/19pages, ESGF seven nodes/132 model-license rows/four native query samples documented. Global discovery unfinished.",
+  "latest_milestone": "BOLD, COD and Chemotion reviewed; Chemotion scoped-open source and native public metadata verified, BOLD/COD retained as candidates with original holds.",
   "counts": {
-    "verified": 299,
-    "candidates": 579,
+    "verified": 300,
+    "candidates": 581,
     "excluded": 127,
     "sample_successes": 475
   },
@@ -5294,6 +5294,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "chemotion-public-repository-api",
+      "provider": "Chemotion Repository / Karlsruhe Institute of Technology",
+      "service_name": "Chemotion public REST metadata and OAI-PMH",
+      "geographic_coverage": "International chemistry research repository operated in Germany; no global completeness claimed",
+      "topical_coverage": "research | chemistry | materials science",
+      "dataset_families": "Published molecule, reaction, analytical publication and source-license metadata; explicit open source grants only",
+      "documentation_url": "https://www.chemotion.net/docs/repo/interfaces/oa-open-apis | https://www.chemotion.net/docs/repo/interfaces/oa-oai-pmh | https://www.chemotion-repository.net/swagger_doc.json",
+      "api_base_url": "https://www.chemotion-repository.net/api/v1/public/ | https://www.chemotion-repository.net/oai-pmh",
+      "format_protocol": "Native JSON molecule list and detail; OAI-PMH Identify and ListMetadataFormats XML; Swagger2 contract. RDF/ChemDCAT/source-export documented but not invoked.",
+      "authentication": "Current operator docs explicitly anonymous public metadata APIs; native reads succeeded without key/account",
+      "free_access_restrictions": "FAQ says no access/subscription fees, viewing open, source dataset downloads require free registration. Public REST metadata anonymous. No account/download performed.",
+      "license": "Dataset-specific CC BY-SA4, CC BY4, CC0 or public-domain mark per current operator FAQ; source sample declares CC BY-SA",
+      "license_url": "https://www.chemotion.net/docs/repo/faq | https://www.chemotion-repository.net/api/v1/public/molecule.json?id=6222",
+      "api_verification_state": "native_Swagger_OAI_identify_formats_JSON_list_detail_and_published_BYSA_source_success",
+      "latest_checked_utc": "2026-10-17T21:34:52.233567+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "chile",
       "provider": "Chilean government datos.gob.cl",
       "service_name": "Chilean government datos.gob.cl open data portal",
@@ -10498,6 +10516,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bold-v5-public-data-api",
+      "provider": "BOLD Systems / Centre for Biodiversity Genomics, University of Guelph",
+      "service_name": "BOLD v5 public biodiversity discovery API",
+      "geographic_coverage": "International specimen barcodes; documented taxonomic and country/ocean filters, including Argentina example; private/unreleased records excluded",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Public specimen/DNA-barcode metadata, BINs, taxonomy/geography and aggregate summaries",
+      "documentation_url": "https://www.boldsystems.org/data/api/?type=webservices+%7C+https%3A%2F%2Fportal.boldsystems.org%2Fapi%2Fdocs",
+      "api_base_url": "https://portal.boldsystems.org/api/",
+      "format_protocol": "Documented REST query preprocessing, summary, query token and JSON/TSV BCDM/Darwin Core retrieval; native API target unsent under policy",
+      "authentication": "FAQ says public portal/BIN/taxonomy viewing requires no account; data-package workflow requests free account. API anonymous runtime untested due policy hold.",
+      "free_access_restrictions": "Public discovery and source reuse terms are distinct; no paid data acquisition",
+      "license": "unknown verified current universal metadata/database grant",
+      "license_url": "https://www.boldsystems.org/resource-hub/faq/",
+      "api_verification_state": "native_v5_documentation_verified_API_docs_and_summary_robots_policy_hold_target_unsent",
+      "latest_checked_utc": "2026-10-17T21:34:52.233567+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bologna-open-data",
       "provider": "Comune di Bologna",
       "service_name": "Bologna current municipal Explore API",
@@ -11251,6 +11287,24 @@
       "license_url": "",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:56:09.812515+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cod-crystallography-discovery",
+      "provider": "Crystallography Open Database",
+      "service_name": "COD structure-search REST API",
+      "geographic_coverage": "International published crystallography research; institutional countries are not dataset location coverage",
+      "topical_coverage": "research | chemistry | materials science",
+      "dataset_families": "Crystal structures of organic, inorganic and organometallic compounds; bibliographic, chemical and lattice metadata",
+      "documentation_url": "https://wiki.crystallography.net/RESTful_API/ | https://wiki.crystallography.net/howtoobtaincod/",
+      "api_base_url": "https://www.crystallography.net/cod/result",
+      "format_protocol": "Official wiki documents search JSON/CSV/count/list/HTML and per-entry RDF; CIF/HKL source and deposition interfaces not invoked",
+      "authentication": "No account, key or credential route used",
+      "free_access_restrictions": "Public discovery and source reuse terms are distinct; no paid data acquisition",
+      "license": "Official indexed main-site text declares CC0 for data and database; native current licensing page unavailable under main-host policy hold",
+      "license_url": "https://www.crystallography.net/cod/documents/topic/privacy/COD-privacy-GDPR.pdf | https://wiki.crystallography.net/howtoobtaincod/",
+      "api_verification_state": "native_official_wiki_query_contract_verified_main_host_robots_hold_no_runtime_sample",
+      "latest_checked_utc": "2026-10-17T21:34:52.233567+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
