@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:25:54.071059+00:00",
+  "published_at": "2026-10-17T20:27:56.725851+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:23:59.529100+00:00",
+  "research_updated_at": "2026-10-17T20:27:23.424221+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed in three batches; seven records added, two existing service scopes clarified. GEOFON event products licensed BY4 with native sample; SDDB367 descriptions fully paginated. Global discovery unfinished.",
+  "latest_milestone": "Soil/marine/Earth-rotation originals reviewed; IERSnativeJSONverified, BonaResmap/SeaDataNetholds and exactgrants preserved",
   "counts": {
     "verified": 283,
-    "candidates": 544,
+    "candidates": 547,
     "excluded": 119,
     "sample_successes": 475
   },
@@ -10033,6 +10033,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bonares-soil-agricultural-repository",
+      "provider": "BonaRes Centre / Leibniz Centre for Agricultural Landscape Research (ZALF)",
+      "service_name": "BonaRes soil and agricultural research repository",
+      "geographic_coverage": "Germany and international soil/agricultural research; root reports532 European/German long-term experiments, not independently enumerated",
+      "topical_coverage": "agriculture | soil | ecology | water | climate/weather/environment | research",
+      "dataset_families": "Soil/agricultural research data, long-term field experiments, soil profiles, accompanying environmental observations",
+      "documentation_url": "https://www.bonares.de/service-portal/data-repository | https://standards.bonares.de/data_provision/geo_data_services/",
+      "api_base_url": "",
+      "format_protocol": "OGC WMS/WFS/CSW etc described by general standards guide; not evidence every service deployed at BonaRes",
+      "authentication": "unknown; no credentials/accounts requested",
+      "free_access_restrictions": "Root explicitly describes free research/community infrastructure; publication/metadata discoverability distinct from source embargo/restricted access",
+      "license": "CC BY standard for repository research data explicitly documented; metadata CC0 claim in policy requires parsed primary verification",
+      "license_url": "https://standards.bonares.de/data_provision/licenses/ | https://doi.org/10.20387/BonaRes-RYCV-30RK",
+      "api_verification_state": "provider_HTML_and_standard_data_licence_verified_API_identity_unestablished_map_robots_withheld",
+      "latest_checked_utc": "2026-10-17T20:27:19.178981+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bordeaux-metropole-datahub",
       "provider": "Bordeaux Métropole",
       "service_name": "DataHub Explore API and documented geospatial services",
@@ -12460,6 +12478,24 @@
       "license_url": "https://www.ie.edu/legal-notice/",
       "api_verification_state": "native_anonymous_OAI_Identify_XML_verified_license_unconfirmed",
       "latest_checked_utc": "2026-10-17T18:02:37.884628+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iers-central-bureau-webservices",
+      "provider": "International Earth Rotation and Reference Systems Service / Central Bureau at BKG",
+      "service_name": "Earth orientation and time-scale REST/SOAP web services",
+      "geographic_coverage": "Global terrestrial/celestial reference and Earth-orientation parameters; time service documented since1972, individual EOP series spans vary",
+      "topical_coverage": "geospatial | astronomy | geophysics | research",
+      "dataset_families": "Polar motion, UT1-UTC, length of day, celestial pole offsets and uncertainties by series/MJD; leap seconds and time scales documented",
+      "documentation_url": "https://www.iers.org/iers/en/dataproducts/tools/webservices/webservice | https://www.iers.org/iers/en/dataproducts/tools/webservices/webservice-eop | https://www.iers.org/iers/en/dataproducts/tools/webservices/webservice-time",
+      "api_base_url": "https://datacenter.iers.org/webservice/REST/eop/RestController.php | https://datacenter.iers.org/webservice/REST/timescales/RestController.php",
+      "format_protocol": "Native JSON single EOP result; REST JSON/XML/HTML content negotiation and SOAP WSDL documented",
+      "authentication": "Anonymous single EOP GET succeeded; SOAP/time-scale runtime not sampled",
+      "free_access_restrictions": "Public anonymous EOP sample succeeded; documented services expose epoch/parameter reads, explicit free-tier/legal redistribution grant unknown",
+      "license": "unknown explicit EOP/time-service data/database reuse grant; imprint contains liability disclaimer, not open licence",
+      "license_url": "https://www.iers.org/iers/en/service/imprint",
+      "api_verification_state": "native_anonymous_EOP_JSON_single_value_success_REST_SOAP_time_docs_verified_licence_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:27:19.178981+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16132,6 +16168,24 @@
       "license_url": "https://seabass.gsfc.nasa.gov/wiki/Access_Policy",
       "api_verification_state": "primary_SST_GET_API_documented_one_day_sample_HTTP404_HTML_not_native_API_success",
       "latest_checked_utc": "2026-10-17T16:59:59.975561+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "seadatanet-cdi-discovery-network",
+      "provider": "SeaDataNet pan-European marine data infrastructure",
+      "service_name": "Common Data Index and marine metadata discovery services",
+      "geographic_coverage": "Pan-European marine observing/data-centre network with wider ocean holdings; current full coverage unverified",
+      "topical_coverage": "oceans | water | biodiversity | climate/weather/environment | geospatial | research",
+      "dataset_families": "Marine environmental dataset descriptions and individual-data CDI; associated organisation/project/cruise/observing-system directories, source data distributed by partners",
+      "documentation_url": "https://www.seadatanet.org/ | https://www.seadatanet.org/Data-Access/License | https://www.seadatanet.org/content/download/2056/file/SDC_02_CDI-Upgrade_Schaap_EUDATJan2018.pdf",
+      "api_base_url": "",
+      "format_protocol": "CSW/OAI-PMH/WMS/WFS described in official historical indexed docs; NetCDF is data format, not independent API proof",
+      "authentication": "unknown; no credentials/accounts requested",
+      "free_access_restrictions": "unknown; public documentation alone is not an unrestricted source-data grant",
+      "license": "unknown current blanket metadata/database grant; historical2007 policy restrictive, official2022follow-up reports BY4/by-negotiation access categories",
+      "license_url": "https://www.seadatanet.org/Data-Access/License | https://www.seadatanet.org/content/download/1695/file/SeaDataNet%20Data%20Policy.pdf | https://www.seadatanet.org/content/download/7300/file/202203_follow_up.pdf",
+      "api_verification_state": "official_search_index_historical_interfaces_and_policy_leads_only_native_documentation_robots_held_API_untested",
+      "latest_checked_utc": "2026-10-17T20:27:19.178981+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
