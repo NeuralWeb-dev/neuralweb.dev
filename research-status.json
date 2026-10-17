@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T03:01:26.007401+00:00",
+  "published_at": "2026-10-17T03:03:28.724118+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:54:04.028190+00:00",
+  "research_updated_at": "2026-10-17T03:03:12.792685+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Finite36original FCS capability outcomes saved:17actualXML,19policy-deferred targets unsent,768native resource elements. Rights/service classification and repository metadata followup underway.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 170,
-    "candidates": 295,
-    "excluded": 30,
-    "sample_successes": 302
+    "verified": 172,
+    "candidates": 307,
+    "excluded": 32,
+    "sample_successes": 318
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3208,6 +3208,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "arche-repository",
+      "provider": "Austrian Academy of Sciences / ARCHE",
+      "service_name": "Public repository metadata OAI-PMH and documented metadata interfaces",
+      "geographic_coverage": "Austria/international humanities collections",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Repository public descriptive metadata; 4nativeOAIsets/7formats indexed; no binary/fulltext data accepted",
+      "documentation_url": "http://arche.acdh.oeaw.ac.at/browser/api-access",
+      "api_base_url": "https://arche.acdh.oeaw.ac.at/oaipmh/ | https://arche.acdh.oeaw.ac.at/oai",
+      "format_protocol": "OAI-PMH2/XML; ARCHE also documents RDF/core search/dissemination not alltested",
+      "authentication": "No credentials for actual Identify,formats,sets andGetRecord public metadata requests",
+      "free_access_restrictions": "Public metadata read succeeded without key/payment. Repository files have separate access modes/licences; no protected files or account operations.",
+      "license": "CC0 — ARCHE repository metadata",
+      "license_url": "http://arche.acdh.oeaw.ac.at/browser/deposition-agreement",
+      "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_catalog_sample_success",
+      "latest_checked_utc": "2026-10-17T02:58:36.012573+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "arctic-data",
       "provider": "NSF Arctic Data Center / NCEAS, University of California Santa Barbara",
       "service_name": "Arctic Data Center DataONE/Metacat public discovery and metadata API",
@@ -5548,6 +5566,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "saw-leipzig-repository",
+      "provider": "Saxon Academy of Sciences and Humanities / Leipzig repository",
+      "service_name": "Public repository metadata OAI-PMH and documented metadata interfaces",
+      "geographic_coverage": "Germany/international language-resource descriptions",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Repository public descriptive metadata; 12nativeOAIsets/2formats indexed; no binary/fulltext data accepted",
+      "documentation_url": "https://repo.data.saw-leipzig.de/",
+      "api_base_url": "https://repo.data.saw-leipzig.de/oai-pmh",
+      "format_protocol": "OAI-PMH2/XML; ARCHE also documents RDF/core search/dissemination not alltested",
+      "authentication": "No credentials for actual Identify,formats,sets andGetRecord public metadata requests",
+      "free_access_restrictions": "Public metadata read succeeded without key/payment. Repository files have separate access modes/licences; no protected files or account operations.",
+      "license": "Provider public-domain declaration — metadata for any purpose",
+      "license_url": "https://repo.data.saw-leipzig.de/licenses/de",
+      "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_catalog_sample_success",
+      "latest_checked_utc": "2026-10-17T03:00:03.599027+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "scb",
       "provider": "Statistics Sweden",
       "service_name": "Statistical Database PxWeb APIs v2 and legacy v1",
@@ -6234,6 +6270,24 @@
   ],
   "candidates": [
     {
+      "identifier": "acdh-fcs",
+      "provider": "Austrian Academy of Sciences / ACDH",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Austria; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 21native Resource elements. Examples: Austrian Baroque Corpus; Sitzungsprotokolle der Österreichischen Akademie der Wissenschaften.; Auden Musulin Papers: A Digital Edition of W. H. Auden's Letters to Stella Musulin.",
+      "documentation_url": "https://arche.acdh.oeaw.ac.at/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://fcs.acdh.oeaw.ac.at/",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "ARCHE repository metadata unrestricted/CC0 per deposition agreement. Broader ACDH FCS endpoint21resource descriptions include external editions; not equated with ARCHE OAI repository corpus. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "http://arche.acdh.oeaw.ac.at/browser/terms-of-use",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:57:10.584324+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "adb",
       "provider": "Asian Development Bank Data Library",
       "service_name": "Asian Development Bank Data Library open data API",
@@ -6411,6 +6465,24 @@
       "license_url": "https://data.gov.bd/dataset/national-e-service-list | https://data.gov.bd/terms-of-use",
       "api_verification_state": "documented_metadata_route_http200_malformed_json",
       "latest_checked_utc": "2026-10-16T21:37:59.439128+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bas-fcs",
+      "provider": "Bavarian Archive for Speech Signals / LMU Munich",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Germany; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 64native Resource elements. Examples: SmartWeb Motorbike Corpus SMC; BAS Alcohol Language Corpus; BAS Thesis data Veronika Neumeyer: CI Articulation",
+      "documentation_url": "http://hdl.handle.net/11858/00-1779-0000-000C-DAAF-B | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://clarin.phonetik.uni-muenchen.de/BASSRU/",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "No applicable common data/metadata grant found in inspected institutional pages; site/footer software licenses not used as data grants. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:56:12.634748+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6792,6 +6864,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "clarin-dk-fcs",
+      "provider": "CLARIN-DK / University of Copenhagen",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Denmark; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 7native Resource elements. Examples: DK-CLARIN LSP Corpus - Construction domain; DK-CLARIN Fagsprogligt Korpus - Byggeri og anlæg; DK-CLARIN LSP Corpus - Agriculture domain",
+      "documentation_url": "http://clarin.dk/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://alf.hum.ku.dk/korp/fcs/2.0/endpoint/sru",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "No applicable common data/metadata grant found in inspected institutional pages; site/footer software licenses not used as data grants. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:56:16.541950+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "clarin-fcs",
       "provider": "CLARIN ERIC / contributing language centers",
       "service_name": "Federated Content Search aggregator discovery API",
@@ -6807,6 +6897,24 @@
       "license_url": "https://contentsearch.clarin.eu/openapi.json",
       "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
       "latest_checked_utc": "2026-10-17T02:48:46.793346+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clarin-pl-fcs",
+      "provider": "CLARIN-PL language technology centre",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Poland; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 27native Resource elements. Examples: 1000Plus Novel; Corpus of Contemporary American English; COCA",
+      "documentation_url": "https://clarin-pl.eu | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://kontext.clarin-pl.eu/api/v2/fcs/2.0/endpoint/sru",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "No applicable common data/metadata grant found in inspected institutional pages; site/footer software licenses not used as data grants. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:56:28.498394+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6843,6 +6951,24 @@
       "license_url": "https://collections.clarin.eu/swagger.json",
       "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
       "latest_checked_utc": "2026-10-17T02:50:06.926212+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cocoon-fcs",
+      "provider": "COCOON / Huma-Num",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: France; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 5native Resource elements. Examples: ESLO1; ESLO2; CFPP2000",
+      "documentation_url": "http://cocoon.huma-num.fr | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://cocoon.huma-num.fr/exist/rest/db/www/xql/mysru.xql",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "No applicable common data/metadata grant found in inspected institutional pages; site/footer software licenses not used as data grants. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:56:09.812515+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6951,6 +7077,24 @@
       "license_url": "https://www.courtlistener.com/terms/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:28:46.492545+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "czech-national-corpus-fcs",
+      "provider": "Czech National Corpus",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Czechia; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 8native Resource elements. Examples: Diakorp - historická psaná čeština; Diakorp - written historical Czech; KSP v2 - současná poezie",
+      "documentation_url": "http://www.korpus.cz/clarin | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://www.korpus.cz/sru2/ | https://www.korpus.cz/sru1/",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "No applicable common data/metadata grant found in inspected institutional pages; site/footer software licenses not used as data grants. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:56:23.775306+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7620,6 +7764,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ilc4clarin-fcs",
+      "provider": "ILC4CLARIN / CNR Institute for Computational Linguistics",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Italy; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 6native Resource elements. Examples: The ILC4CLARIN corpora; Corpora offerti da ILC4CLARIN; ILC4CLARIN Italian Treebanks.",
+      "documentation_url": "https://dspace-clarin-it.ilc.cnr.it/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "http://ilc4clarin.ilc.cnr.it/fcs-korp-ep/sru",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "No applicable common data/metadata grant found in inspected institutional pages; site/footer software licenses not used as data grants. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:56:06.540074+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "india",
       "provider": "Government of India data.gov.in",
       "service_name": "Government of India data.gov.in open data portal",
@@ -7833,6 +7995,24 @@
       "license_url": "https://www.knbs.or.ke/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.920267+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "kielipankki-fcs",
+      "provider": "Language Bank of Finland / FIN-CLARIN",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Finland; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 15native Resource elements. Examples: Ylen uutiset 2011–2021; Yles nyheter 2011–2021; YLE News 2011–2021",
+      "documentation_url": "http://www.kielipankki.fi/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://www.kielipankki.fi/api/fcs/",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "General terms PUB/ACA/RES and per-resource rights; no universal FCS corpus/metadata grant verified. Public capability access not proof content commercial reuse. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "https://www.kielipankki.fi/kielipankki/kielipankin-yleiset-kayttoehdot/",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:57:21.389741+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8646,6 +8826,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ortolang-fcs",
+      "provider": "ORTOLANG",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: France; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 1native Resource elements. Examples: scienceshumaines",
+      "documentation_url": "https://www.ortolang.fr/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://repository.ortolang.fr/api/sru/fcs",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "Charter provides free distribution of administrative/descriptive metadata and per-resource rights/citation requirements; no clear universal adaptation/commercial metadata grant verified. Supported license menu is not a grant to all resources. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "https://www.ortolang.fr/en/home/charter/",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:57:16.307672+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "pacific-data",
       "provider": "Pacific Community Pacific Data Hub",
       "service_name": "Pacific Data Hub CKAN Data Catalogue API",
@@ -8949,6 +9147,24 @@
       "license_url": "https://stat.gov.pl/en/copyright/",
       "api_verification_state": "documented_credential_required_untested_license_unconfirmed",
       "latest_checked_utc": "2026-10-16T21:24:01.619280+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "portulan-fcs",
+      "provider": "PORTULAN CLARIN",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Portugal; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 1native Resource elements. Examples: CINTIL - International Corpus of Portuguese",
+      "documentation_url": "https://portulanclarin.net/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://portulanclarin.net/fcs/",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "Deposit agreement authorizes metadata CC0 distribution; resources retain depositor-selected license. Actual CINTIL FCS rights/metadata-grant scope not established by mere authorization to distribute repository metadata. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "https://portulanclarin.net/agreement/",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:57:13.231313+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9546,6 +9762,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "saw-leipzig-fcs",
+      "provider": "Saxon Academy of Sciences and Humanities / Leipzig language resources",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Germany; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 250native Resource elements. Examples: Wortschatz Leipzig Deutsch; Wortschatz Leipzig German; Deutsche Wortfeldetymologie in europäischem Kontext",
+      "documentation_url": "https://repo.data.saw-leipzig.de/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://fcs.data.saw-leipzig.de/dict | https://fcs.data.saw-leipzig.de/lcc",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "Repository metadata expressly public domain/any purpose; repository data default CC BY-NC except individual exceptions. Grant to repository metadata not automatically a blanket grant to all multilingual/third-party FCS resources. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "https://repo.data.saw-leipzig.de/licenses/de",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:57:04.074834+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "senado-br",
       "provider": "Brazil Federal Senate (Senado Federal)",
       "service_name": "Senado Federal legislative and administrative open-data APIs/catalog",
@@ -9939,6 +10173,24 @@
       "license_url": "",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T19:41:56.381579+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tuebingen-fcs",
+      "provider": "University of Tübingen / WebLicht",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Germany; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 338native Resource elements. Examples: German-Wikipedia-2018-Hamburger-Dependencies (formally: German Wikipedia Updated); TüBa-D/Z v11 UD; Ancient Greek Prose (Vanessa Gorman)",
+      "documentation_url": "https://uni-tuebingen.de/en/133894 | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "http://weblicht.sfs.uni-tuebingen.de/rws/sru/ | https://weblicht.sfs.uni-tuebingen.de/tundra-treebank-fcs-endpoint/fcs-endpoint/",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "No applicable common data/metadata grant found in inspected institutional pages; site/footer software licenses not used as data grants. No payment, account, key or message operations.",
+      "license": "unknown for FCS metadata/search content; no blanket open grant verified",
+      "license_url": "",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:56:21.972217+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11870,6 +12122,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "lindat-fcs",
+      "provider": "LINDAT/CLARIAH-CZ / Charles University",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Czechia; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 1native Resource elements. Examples: Corpus Vystadial 2013 - English - phone calls speech corpus (245k tokens)",
+      "documentation_url": "https://lindat.cz | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "http://lindat.mff.cuni.cz/services/fcs-kontext",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "General service TOU default personal/noncommercial and no redistribution/derivatives unless law or specific service grant provides otherwise; repository metadata explicitly CC0 is a separate exception. No payment, account, key or message operations.",
+      "license": "Restricted default service-use terms; explicit dataset exceptions remain separate",
+      "license_url": "https://lindat.mff.cuni.cz/en/terms-of-use",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:57:00.768840+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "namibia-microdata",
       "provider": "Namibia Statistics Agency (NSA)",
       "service_name": "Namibia Statistics Agency (NSA) NADA study-catalog metadata API",
@@ -12011,6 +12281,24 @@
       "license_url": "https://pccos.spc.int/ocean-catalogue/tuvalu-wave-hindcast | https://pccos.spc.int/ocean-catalogue/marshall-islands-wave-hindcast",
       "api_verification_state": "documented_THREDDS_native_XML_catalogue_sample_success_scoped_NC_restriction_other_grants_unresolved",
       "latest_checked_utc": "2026-10-17T01:19:13.340154+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "swiss-al-fcs",
+      "provider": "ZHAW Digital Discourse Lab / Swiss-AL",
+      "service_name": "Public FCS/SRU language-resource capability API",
+      "geographic_coverage": "Institution-country hint: Switzerland; corpus coverage/languages according to native metadata, not exhaustive geographic coverage",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language/corpus/dictionary/treebank capability metadata; 24native Resource elements. Examples: FR Organizational Corpus (2010-2024); FR Journalistic Corpus (high reach media, 2010-2025); DE Organizational VaxMo Corpus (keyword filtered, 2000-24)",
+      "documentation_url": "https://clarin-applied.zhaw.ch/ | https://clarin-eric.github.io/fcs-misc/fcs-core-1.0-specs/fcs-core-1.0.html",
+      "api_base_url": "https://api.swiss-al.zhaw.ch/fcs",
+      "format_protocol": "SRU 1.2 explain/XML; CLARIN-FCS EndpointDescription; corpus search not tested",
+      "authentication": "No credentials for successful capability metadata GETs; corpus/auth requirements vary and were not tested",
+      "free_access_restrictions": "Terms3.1–3.2 research/academic only and no commercial platform use;4.1–4.2 third-party text copyright, derivative/aggregate redistribution research/academic only with attribution. CC BY4 documentation footer is not corpus/service grant. No payment, account, key or message operations.",
+      "license": "Restricted default service-use terms; explicit dataset exceptions remain separate",
+      "license_url": "https://github.zhaw.ch/pages/digitallinguistics/swiss-al-docu/terms-of-use.html",
+      "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T02:58:11.434863+00:00",
       "classification": "restricted"
     },
     {
