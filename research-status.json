@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T00:30:14.094988+00:00",
+  "published_at": "2026-10-17T00:32:16.418749+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:24:26.206278+00:00",
+  "research_updated_at": "2026-10-17T00:31:37.469957+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Dateno43614snapshot/50911source-originqueue;Pacific22rootoutcomes COMPLETE,NewCaledonia selectedOL2grant/APIuntested plusSamoa/Fijicandidates;Estonia483dirs4998paths+statsql6dirs39paths,Georgia160dirs971paths;4/11unresolvedsubtrees retained;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 152,
-    "candidates": 199,
+    "verified": 153,
+    "candidates": 200,
     "excluded": 26,
-    "sample_successes": 190
+    "sample_successes": 192
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -4750,6 +4750,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "province-sud-geospatial",
+      "provider": "Province Sud, New Caledonia / DSIN and DDDT",
+      "service_name": "Province Sud open-data geospatial portal: Pandore REST and QGIS WMS",
+      "geographic_coverage": "Oceania; Pacific; New Caledonia; Province Sud",
+      "topical_coverage": "geospatial; biodiversity; climate/weather/environment; oceans",
+      "dataset_families": "Scoped Pandore families: protected areas and lagoon islands. Broader83entry catalogue includes environmental layers,forest/fire mapping,recreation and imagery;individual broader rights/access unreviewed.",
+      "documentation_url": "https://www.province-sud.nc/open/metadonnees | https://www.province-sud.nc/open/metadonnees/8a8186dd9debae3901a08e9006500033 | https://www.province-sud.nc/pandoreweb/openapi",
+      "api_base_url": "https://www.province-sud.nc/pandoreweb/ | https://www.province-sud.nc/geodataweb/public/server/webQgisPSUD/DDDT/environnement/Ilots/wms",
+      "format_protocol": "Pandore published OpenAPI3.0.1,4GEToperations,JSON/XML/binary response options;native specification contains trailing commas and is invalid JSON. Derived repair for analysis only. Selected QGIS WMS capabilities valid XML/version1.3.0.",
+      "authentication": "Pandore all4GEToperations declare jsession apiKey in cookie (empty name in published scheme);no session/account/key obtained or data probe sent. Selected WMS capabilities anonymous200;other resources unknown.",
+      "free_access_restrictions": "Public catalogue/specification and selectedWMSmetadata anonymously accessible. Pandore data free-tier/credential eligibility unknown;no paid acquisition.",
+      "license": "Etalab Licence Ouverte 2.0, scoped to published Pandore protected-area/island API declaration",
+      "license_url": "https://www.province-sud.nc/pandoreweb/openapi | https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf | https://raw.githubusercontent.com/etalab/licence-ouverte/master/LO.md",
+      "api_verification_state": "Pandore_documented_scoped_OL2_cookie_key_required_untested_QGIS_WMS_metadata_sample_success_rights_unconfirmed",
+      "latest_checked_utc": "2026-10-17T00:29:47.666835+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "re3data",
       "provider": "re3data Registry of Research Data Repositories",
       "service_name": "re3data Registry of Research Data Repositories public API",
@@ -6621,6 +6639,24 @@
       "license_url": "https://gbif.jp/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T17:03:29.531669+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "georep-localisation",
+      "provider": "Government of New Caledonia / Direction du Numerique et de la Modernisation",
+      "service_name": "API Localisation Nouvelle-Caledonie",
+      "geographic_coverage": "Oceania; Pacific; New Caledonia. Official guide:address coverage6of33communes;cadastre excludes Loyalty Islands;POI fill other locations. Not uniform complete address coverage.",
+      "topical_coverage": "geospatial; transportation",
+      "dataset_families": "Three native indexes:address (BAN),points of interest,and cadastral parcel centroids. Selected public library POI only;no cadastral/person queries.",
+      "documentation_url": "https://georep.nc/donnees-informations/geocodage-api-localisation | https://guide.data.gouv.nc/guide-du-developpeur/API-localisation/ | https://localisation.gouv.nc/api/openapi.yaml",
+      "api_base_url": "https://localisation.gouv.nc/api/",
+      "format_protocol": "REST;published OpenAPI3.0.1/specversion2.0.0 YAML;GET getCapabilities/search/reverse. Actual capabilities JSON;sample GeoJSON FeatureCollection with1Point. Runtime capabilities advertisesapi version1.0.0,retained discrepancy.",
+      "authentication": "Selected capabilities and one public POI search anonymous200;other operations nottested,no credentials acquired",
+      "free_access_restrictions": "Selected requests free/noaccount. Unknown operative all-source data grant/service conditions;no SLA or unlimited-free-tier claim.",
+      "license": "unknown;general portal OL2 default not verified applicable to all localisation source indexes",
+      "license_url": "https://guide.data.gouv.nc/open-data-public/licences/",
+      "api_verification_state": "documented_REST_GeoJSON_public_POI_sample_success_data_license_unconfirmed",
+      "latest_checked_utc": "2026-10-17T00:29:46.366991+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
