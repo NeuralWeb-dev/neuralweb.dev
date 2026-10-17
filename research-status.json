@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T22:01:55.012990+00:00",
+  "published_at": "2026-10-17T22:03:57.853230+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:01:17.239876+00:00",
+  "research_updated_at": "2026-10-17T22:01:55.901678+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Hungary KDK NC metadata and NIST SRD copyright verified; OSF mixed rights/current API transition documented; free-SRD references queued, runtime holds retained.",
+  "latest_milestone": "Six original tasks processed: three candidates and three restricted directory/services.50NIST free-SRD product references indexed/queued;49overview discrepancy unresolved. Global universe unfinished.",
   "counts": {
     "verified": 303,
     "candidates": 595,
@@ -758,6 +758,7 @@
           "california-open-data",
           "edmonton-open-data",
           "texas-state-open-data",
+          "ucla-social-science-dataverse",
           "usda-ers-arms-api",
           "usda-ers-geospatial-services",
           "washington-state-open-data"
@@ -969,6 +970,7 @@
           "opendataphilly-jkan",
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
+          "ucla-social-science-dataverse",
           "usda-ers-geospatial-services",
           "washington-state-open-data"
         ],
@@ -1321,6 +1323,7 @@
           "neracoos-erddap",
           "sfwmd-repository",
           "smithsonian",
+          "ucla-social-science-dataverse",
           "us-data-gov-catalog"
         ],
         "restricted_provider_ids": [
@@ -2894,6 +2897,7 @@
           "ghana",
           "kenya-knbs",
           "south-africa-statssa",
+          "ucla-social-science-dataverse",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
@@ -2990,7 +2994,8 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
-          "dhs-indicator-data-api"
+          "dhs-indicator-data-api",
+          "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
           "indepth-ishare-data-repository"
@@ -3116,7 +3121,8 @@
           "dhs-indicator-data-api",
           "laws-africa-knowledge",
           "sanbi-birdie",
-          "trr228-african-futures-database"
+          "trr228-african-futures-database",
+          "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
           "indepth-ishare-data-repository",
@@ -3311,7 +3317,8 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
-          "china-nbs"
+          "china-nbs",
+          "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
           "korea-kosis"
@@ -3399,7 +3406,8 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
-          "japan-egov-data-catalog"
+          "japan-egov-data-catalog",
+          "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": []
       },
@@ -3526,7 +3534,8 @@
         ],
         "candidate_provider_ids": [
           "cinii-books",
-          "nims-mdr"
+          "nims-mdr",
+          "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
           "cinii-research"
@@ -3837,6 +3846,7 @@
         ],
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
+          "national-vegetation-survey-nz",
           "spc-pccos-thredds"
         ]
       },
@@ -3962,6 +3972,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "national-vegetation-survey-nz",
           "spc-pccos-thredds",
           "wa-slip-data-update-api"
         ]
@@ -4025,7 +4036,8 @@
           "spc-pccos-tds"
         ],
         "restricted_provider_ids": [
-          "birdata-birdlife-australia"
+          "birdata-birdlife-australia",
+          "national-vegetation-survey-nz"
         ]
       },
       "oceans": {
@@ -4103,6 +4115,7 @@
           "birdata-birdlife-australia",
           "digitalnz",
           "indepth-ishare-data-repository",
+          "national-vegetation-survey-nz",
           "rda-australia",
           "spc-pccos-thredds",
           "wa-slip-data-update-api"
