@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T17:34:14.607488+00:00",
+  "published_at": "2026-10-17T17:36:17.206724+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:32:51.313320+00:00",
+  "research_updated_at": "2026-10-17T17:35:39.615407+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed; HarvardAPI reclassified restricted, NISTASD restrictedadded; aliasesdeduplicated and DFL8/NARA4/Plant1131referenceindexes saved",
+  "latest_milestone": "TalkBankandPolarDataCatalogue restrictiveprimaryterms verified;PDCnativeJSONLDsample;PLANTSplantinformationgrantbutAPIunresolved",
   "counts": {
     "verified": 263,
     "candidates": 487,
-    "excluded": 78,
-    "sample_successes": 475
+    "excluded": 80,
+    "sample_successes": 476
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -18667,6 +18667,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "polar-data-catalogue-metadata-api",
+      "provider": "Canadian Cryospheric Information Network / University of Waterloo",
+      "service_name": "Polar Data Catalogue Metadata API",
+      "geographic_coverage": "Arctic and Antarctic research; Canada-led repository with broader polar project coverage",
+      "topical_coverage": "climate/weather; environment; oceans; water; health; research; geospatial",
+      "dataset_families": "Polar research project/dataset descriptions across natural sciences,policy,health/socialscience; metadata distinct from archived researchfiles",
+      "documentation_url": "https://www.polardata.ca/api/ | https://www.polardata.ca/api/guide",
+      "api_base_url": "https://polardata.ca/api/metadata",
+      "format_protocol": "REST JSON-LD schema.org ItemList/Dataset; optional ISO19115XML documented",
+      "authentication": "Anonymous documented metadata reads; one explicitIDexample200validJSON; researchfiles may require separateaccess",
+      "free_access_restrictions": "Metadata reuse noncommercial only; commercial reuse needs formal authorization. Dataset defaultpersonal-use restrictions and ancillarylicences separately scoped.",
+      "license": "Custom terms: metadata noncommercial only; data defaultpersonal use",
+      "license_url": "https://www.polardata.ca/policy/usage",
+      "api_verification_state": "documented_sample_success",
+      "latest_checked_utc": "2026-10-17T17:35:35.619513+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "rda-australia",
       "provider": "Australian Research Data Commons / Research Data Australia",
       "service_name": "Australian Research Data Commons / Research Data Australia API",
@@ -18754,6 +18772,24 @@
       "license_url": "https://github.zhaw.ch/pages/digitallinguistics/swiss-al-docu/terms-of-use.html",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:58:11.434863+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "talkbank-research-portals",
+      "provider": "TalkBank",
+      "service_name": "TalkBank communication research repositories and TalkBankDB portal",
+      "geographic_coverage": "Contributed multilingual spoken communication research; source homepage reports over42languages,not complete geographic coverage",
+      "topical_coverage": "research; education; health; culture",
+      "dataset_families": "Conversation, child language, multilingualism and clinical communication corpora; transcripts/media, analysis tools and corpus descriptions",
+      "documentation_url": "https://talkbank.org/0share/access.html | https://talkbank.org/0info/DB/index.html",
+      "api_base_url": "",
+      "format_protocol": "CHAT JSON-compatible representation documented; TalkBankDB landing alone not a verified public machineAPI",
+      "authentication": "Open pages/programs; transcript/media registration; clinical approved research access; some corpora controlled training/interview requirements",
+      "free_access_restrictions": "Default noncommercial professional/research use; clinical confidentiality, localstorage/redistribution restrictions; accounts/approvals not requested",
+      "license": "CC BY-NC-SA3.0 default ground rules; source-specific exceptions and additional restrictions",
+      "license_url": "https://talkbank.org/0share/rules.html | https://talkbank.org/0share/access.html",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T17:35:35.619513+00:00",
       "classification": "restricted"
     },
     {
