@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T10:33:24.188289+00:00",
+  "published_at": "2026-10-17T10:35:26.508214+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T10:28:42.279896+00:00",
+  "research_updated_at": "2026-10-17T10:35:26.043455+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Cross-regional ten origins checkpointed:683services224open411candidates48restricted;Mississauga327metadata descriptions mixed/revocableterms;HFpublicrepositorymetadata candidate;MoldovacurrentconditionalCCBY4policy/APIheld;Moroccoexistingproviderupdated.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Southern/national ten origins checkpointed:687services226open413candidates48restricted;Nanaimo96nativeassets85OGLlinked;ISTATfreeSDMX/CCBY4verified runtimeheld;Mexico/Mulhousecandidates;NaturalEarthdownloadonly.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
-    "verified": 224,
-    "candidates": 411,
+    "verified": 226,
+    "candidates": 413,
     "excluded": 48,
-    "sample_successes": 424
+    "sample_successes": 425
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -583,6 +583,7 @@
           "geri",
           "kamloops-open-data",
           "kitchener-geohub",
+          "nanaimo-open-data",
           "noaa-weather",
           "ocean-networks-canada",
           "usda-cdl",
@@ -619,6 +620,7 @@
           "cib",
           "eccc-geomet",
           "geri",
+          "nanaimo-open-data",
           "ncei-coops",
           "ocean-networks-canada",
           "usgs-water"
@@ -738,6 +740,7 @@
           "kamloops-open-data",
           "kingston-open-data",
           "kitchener-geohub",
+          "nanaimo-open-data",
           "pasadena-open-data",
           "seafloor",
           "usda-cdl",
@@ -968,6 +971,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "mexico-national-open-data",
           "mindagri-ne"
         ],
         "restricted_provider_ids": []
@@ -1007,7 +1011,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "dominican-data",
-          "jamaica-data"
+          "jamaica-data",
+          "mexico-national-open-data"
         ],
         "restricted_provider_ids": []
       },
@@ -1017,6 +1022,7 @@
         "candidate_provider_ids": [
           "ciencia-aberta",
           "dominican-data",
+          "mexico-national-open-data",
           "montevideo-beaches",
           "opendatasus"
         ],
@@ -1026,7 +1032,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "dominican-data"
+          "dominican-data",
+          "mexico-national-open-data"
         ],
         "restricted_provider_ids": []
       },
@@ -1131,6 +1138,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "mexico-national-open-data",
           "mindagri-ne"
         ],
         "restricted_provider_ids": []
@@ -1165,6 +1173,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
+          "italy-istat-sdmx",
           "madrid-open-data",
           "moldova-data",
           "ons",
@@ -1257,6 +1266,7 @@
           "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
+          "italy-istat-sdmx",
           "ons",
           "poland-bdl",
           "registry-opendata-gov-je",
@@ -1290,6 +1300,7 @@
           "eurostat",
           "georgia-statistics",
           "iceland-statistics",
+          "italy-istat-sdmx",
           "poland-bdl",
           "serbia-data",
           "slovenia-statistics",
@@ -1329,6 +1340,7 @@
           "geri",
           "iceland-statistics",
           "ices-dome",
+          "italy-istat-sdmx",
           "madrid-open-data",
           "palermo-open-data",
           "poland-bdl",
@@ -1430,6 +1442,7 @@
           "fsd-finland",
           "georgia-statistics",
           "iceland-statistics",
+          "italy-istat-sdmx",
           "moldova-data",
           "poland-bdl",
           "poland-gus-sdg",
@@ -1467,6 +1480,7 @@
           "fsd-finland",
           "georgia-statistics",
           "iceland-statistics",
+          "italy-istat-sdmx",
           "lindat-repository",
           "moldova-data",
           "onb-webarchive",
@@ -1530,6 +1544,7 @@
           "fingal-open-data",
           "georgia-statistics",
           "iceland-statistics",
+          "italy-istat-sdmx",
           "madrid-open-data",
           "poland-bdl",
           "poland-gus-sdg",
@@ -1544,6 +1559,7 @@
           "aland-statistics",
           "cambridgeshire-insight",
           "lithuania-statistics",
+          "mulhouse-alsace-open-data",
           "os-os-places-api",
           "serbia-rzs"
         ],
@@ -1621,6 +1637,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "mulhouse-alsace-open-data",
           "os-os-places-api",
           "poland-gus-teryt",
           "registry-daten-sg-ch",
@@ -1770,6 +1787,7 @@
           "finto",
           "georgia-statistics",
           "iceland-statistics",
+          "italy-istat-sdmx",
           "lindat-repository",
           "lithuania-dataportal",
           "madrid-open-data",
@@ -5477,6 +5495,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "italy-istat-sdmx",
+      "provider": "Istituto Nazionale di Statistica (ISTAT)",
+      "service_name": "IstatData SDMX statistical dissemination API",
+      "geographic_coverage": "Italy,national andsubnational officialstatistics;series-specific coverage",
+      "topical_coverage": "demographics;economics;labor;agriculture;education;health;housing;environment;publicadministration",
+      "dataset_families": "Officialstatistical dissemination databases:population/households,nationalaccounts,enterprises,education/labor,welfare andagriculture; linked2010agricultural and2011population/industrycensusroots notindividuallytested.",
+      "documentation_url": "https://www.istat.it/en/classifications-and-tools/sdmx-web-services/",
+      "api_base_url": "https://esploradati.istat.it/SDMXWS/rest/",
+      "format_protocol": "Officiallydocumented SDMXREST/SOAP;currentv1SwaggerYAML obtained. RuntimeXML/JSONunverified;v2advertisementnotimplemented-proof.",
+      "authentication": "OfficialFAQ saysinternet/deviceaccess andfreewebservice; noaccount/keyused. FirstsmallstructureAPIrequestpolicyheldbefore sending.",
+      "free_access_restrictions": "OfficialFAQexplicitlyfree access. Statisticaldatagrantpermitscommercialreusewithsourcecitation. Microdata/researchlabaccess notcovered.",
+      "license": "Creative Commons Attribution4.0 (CC BY4.0)",
+      "license_url": "https://www.istat.it/dati/open-data/",
+      "api_verification_state": "official_SDMX_API_and_open_data_grant_verified_first_structure_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T10:30:45.839205+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "japan",
       "provider": "Japanese government e-Stat",
       "service_name": "Japanese government e-Stat open data portal",
@@ -5798,6 +5834,24 @@
       "license_url": "https://data.gov.ma/fr/node/14 | https://data.gov.ma/fr/node/13 | https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T10:23:07.565585+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nanaimo-open-data",
+      "provider": "City of Nanaimo",
+      "service_name": "GIS Open Data Portal native catalog and advertised GeoServices",
+      "geographic_coverage": "Nanaimo,BritishColumbia,Canada",
+      "topical_coverage": "geospatial;planning;transport;environment;water;localgovernment",
+      "dataset_families": "96nativeassetdescriptions,including85explicitOGLlinkeddescriptions,10blankand1othertermsfield. CensusTractPlanningAreas isoneexplicitlylinkedexample. Not96independentlyverifiedAPIs.",
+      "documentation_url": "https://gisdata.nanaimo.ca/",
+      "api_base_url": "https://gisdata.nanaimo.ca/data.json",
+      "format_protocol": "ActualnativeDCAT-likeJSONcatalog; advertisedArcGISGeoServicesREST anddownloadinterfaces. Individualdataendpointsunverified.",
+      "authentication": "Anonymousnativecatalog200validJSON;nokey/account. Advertisedcensuslayer metadatarequestheld,authenticationuntested.",
+      "free_access_restrictions": "Catalogaccesswithoutpayment; OGL2.0royaltyfreeperpetualcommercialreusewithattribution. Personal/nonpublicinformation,thirdpartyrightsandmarks excluded.",
+      "license": "Open Government Licence – Nanaimo2.0;85explicitlylinkeddescriptionssubset",
+      "license_url": "https://www.nanaimo.ca/your-government/maps-data/open-data-catalogue/open-data-catalogue-licence",
+      "api_verification_state": "actual_public_JSON_sample_success_native_catalogue_scoped_OGL_verified_layer_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T10:32:21.702352+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10555,6 +10609,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mexico-national-open-data",
+      "provider": "Government of Mexico,Plataforma Nacional de Datos Abiertos",
+      "service_name": "Current datos.gob.mx national catalog;CKANinterface unverified",
+      "geographic_coverage": "Mexico,nationalandfederalinstitution datasets",
+      "topical_coverage": "multisector;agriculture;culture;education;economics;health;energy;government",
+      "dataset_families": "CurrentHTMLfrontendlists8139bases and189institutions;these arepublisherUIcounts,notverifiedAPIinventory. Oneexactpostalstamp-program metadata pageinspected,with5advertisedCSVresources.",
+      "documentation_url": "https://www.datos.gob.mx/",
+      "api_base_url": "https://www.datos.gob.mx/api/3/action/ (standard CKAN pattern,individual endpoint unverified)",
+      "format_protocol": "CurrentHTMLcatalogusesCKANclientassets;standardCKANpackage_showtestpolicyheld. NoactualAPIresponseorprovider-specificAPIcontractverified.",
+      "authentication": "PublicHTMLmetadataanonymous. ProposedAPIaccessuntestedbecauseheld;nokey/account.",
+      "free_access_restrictions": "HTMLmetadatareadwithoutpayment;exactpostalprogramworklinksCCBY4.0. Catalog-wide/dataAPItermsandtechnicalquotas unconfirmed.",
+      "license": "Exactpostalstamp-programworkCCBY4.0verified;wholecatalogue/APIgrantandworkoverridesunconfirmed",
+      "license_url": "https://www.datos.gob.mx/dataset/programa_emisiones_estampillas_postales_conmemorativas_especiales",
+      "api_verification_state": "current_CKAN_frontend_and_scoped_work_grant_verified_guessed_API_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T10:30:34.265024+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "miami-dade-open-data",
       "provider": "Miami-Dade County,Florida",
       "service_name": "Miami-Dade Open Data Hub catalog and advertised distributions",
@@ -10678,6 +10750,24 @@
       "license_url": "https://api.montevideo.gub.uy/apidocs/publictransport",
       "api_verification_state": "documented_official_Swagger_API_credentials_required_sample_untested",
       "latest_checked_utc": "2026-10-16T23:11:44.861066+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mulhouse-alsace-open-data",
+      "provider": "Mulhouse Alsace Agglomération",
+      "service_name": "Documented Explore2.1 open-data portal",
+      "geographic_coverage": "MulhouseAlsaceagglomeration,France;per-workextentunverified",
+      "topical_coverage": "geospatial;housing;socialservices;localgovernment",
+      "dataset_families": "Officialnationaldataservicerecordlists145associateddatasetsand25HTMLpages. Firstpage6descriptionsonly;noAPIinventoryorfullgrantverification.",
+      "documentation_url": "https://www.data.gouv.fr/dataservices/explore-api-v2-35",
+      "api_base_url": "https://data.mulhouse-alsace.fr/api/explore/v2.1/",
+      "format_protocol": "Provider-submittedofficialdata.gouv.frrecorddocumentsExplore2.1base;nativeprotocol/runtimeunverified.",
+      "authentication": "OfficialdataservicerecordclaimsAccèsOuvert;notindependentlytested. Nokey/account.",
+      "free_access_restrictions": "unknownprovider-specificterms/quota;publicregistrydescriptionreadwithoutpayment.",
+      "license": "unknown effective data and portal metadata grant",
+      "license_url": "",
+      "api_verification_state": "official_registry_API_documentation_claim_verified_original404_current_provider_policy_held",
+      "latest_checked_utc": "2026-10-17T10:29:45.311494+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
