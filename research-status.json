@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T01:35:32.849612+00:00",
+  "published_at": "2026-10-17T01:37:35.468694+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:33:38.326005+00:00",
+  "research_updated_at": "2026-10-17T01:36:46.745874+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Southern Africa official portal/copyright seeds started; Zimbabwe original DBR documentation policy-deferred, not bypassed",
+  "latest_milestone": "Two southern African actual NADA metadata API services; Namibia selected-data restrictions, Botswana product-policy applicability unresolved",
   "counts": {
     "verified": 156,
-    "candidates": 210,
-    "excluded": 28,
+    "candidates": 211,
+    "excluded": 29,
     "sample_successes": 204
   },
   "remaining_work": [
@@ -6037,6 +6037,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "botswana-microdata",
+      "provider": "Statistics Botswana",
+      "service_name": "Statistics Botswana NADA study-catalog metadata API",
+      "geographic_coverage": "Botswana",
+      "topical_coverage": "demographics; labor; economics/finance; health; education; housing; research",
+      "dataset_families": "38 native study metadata descriptors; survey/census families listed in separate index, not underlying microdata or licensed distributions",
+      "documentation_url": "https://microdata.statsbots.org.bw",
+      "api_base_url": "https://microdata.statsbots.org.bw/index.php/api/",
+      "format_protocol": "NADA API JSON, result.rows metadata; variable/file APIs not queried",
+      "authentication": "No credentials required for successful catalogue metadata GETs; underlying access modes differ by study",
+      "free_access_restrictions": "Public metadata sampled anonymously; file access and use conditions vary; no accounts/forms/keys/datafiles requested",
+      "license": "Statistics Botswana main terms permit broad product use with attribution/derived-analysis disclosure; full applicability to all catalogue metadata and datafiles unconfirmed",
+      "license_url": "https://www.statsbots.org.bw/terms-use",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T01:36:46.630150+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "brazil",
       "provider": "Brazilian Institute of Geography and Statistics",
       "service_name": "Brazilian Institute of Geography and Statistics open data portal",
@@ -9942,6 +9960,24 @@
       "license_url": "https://laws.africa/platform/content/ | https://laws.africa/research-access/",
       "api_verification_state": "documented_bearer_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:28:16.872945+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "namibia-microdata",
+      "provider": "Namibia Statistics Agency (NSA)",
+      "service_name": "Namibia Statistics Agency (NSA) NADA study-catalog metadata API",
+      "geographic_coverage": "Namibia",
+      "topical_coverage": "demographics; labor; economics/finance; health; education; housing; research",
+      "dataset_families": "17 native study metadata descriptors; survey/census families listed in separate index, not underlying microdata or licensed distributions",
+      "documentation_url": "https://microdata.nsanamibia.com",
+      "api_base_url": "https://microdata.nsanamibia.com/index.php/api/",
+      "format_protocol": "NADA API JSON, result.rows metadata; variable/file APIs not queried",
+      "authentication": "No credentials required for successful catalogue metadata GETs; underlying access modes differ by study",
+      "free_access_restrictions": "Selected NFIS data redistribution/sale requires written NSA agreement, statistical-purpose/aggregate reporting and citation/publication-copy conditions. No microdata/download/account/contact actions performed.",
+      "license": "Mixed/restricted; selected 2025 Financial Inclusion Survey prohibits redistribution without written NSA agreement and restricts use to statistical purposes",
+      "license_url": "https://microdata.nsanamibia.com/index.php/catalog/19",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T01:36:46.629977+00:00",
       "classification": "restricted"
     },
     {
