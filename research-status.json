@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T22:03:57.853230+00:00",
+  "published_at": "2026-10-17T22:06:00.444446+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:01:55.901678+00:00",
+  "research_updated_at": "2026-10-17T22:04:52.387661+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks processed: three candidates and three restricted directory/services.50NIST free-SRD product references indexed/queued;49overview discrepancy unresolved. Global universe unfinished.",
+  "latest_milestone": "iDigBio existing provider transition deduplicated; UNITE BY4 native/root13JSON verified but SH route unresolved; CAP nativeNC-SA4 restricted.125release and29project references indexed.",
   "counts": {
     "verified": 303,
-    "candidates": 595,
-    "excluded": 139,
-    "sample_successes": 475
+    "candidates": 596,
+    "excluded": 140,
+    "sample_successes": 474
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -13495,7 +13495,7 @@
       "identifier": "idigbio",
       "provider": "Integrated Digitized Biocollections (iDigBio)",
       "service_name": "iDigBio Search API v2",
-      "geographic_coverage": "Global;collection/observation-specific coverage",
+      "geographic_coverage": "Legacy global specimen/media metadata, collection-specific; current hosted portal focuses U.S. institutional specimen-based collections",
       "topical_coverage": "biodiversity | research",
       "dataset_families": "Naturalhistory specimen andmedia metadata;recordset/collection discovery;specimenobservations notfetched",
       "documentation_url": "https://github.com/iDigBio/idigbio-search-api/wiki",
@@ -13505,8 +13505,8 @@
       "free_access_restrictions": "Publicmetadata query succeeded;source-specificrights,mixedlicences;not uniformopenaccess grant",
       "license": "Dataset-specific and mixed; no uniform open licence verified",
       "license_url": "https://www.idigbio.org/sites/default/files/iDigBio_Intellectual_Property_Policy_20141001.pdf",
-      "api_verification_state": "documented_collection_metadata_sample_success",
-      "latest_checked_utc": "2026-10-16T19:05:45.373897+00:00",
+      "api_verification_state": "prior_legacy_collection_metadata_JSON_success_current_hosted_portal_HTML_verified_about_policy_held",
+      "latest_checked_utc": "2026-10-17T22:04:48.281731+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18748,6 +18748,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "unite-species-hypotheses",
+      "provider": "UNITE community / University of Tartu biological informatics",
+      "service_name": "UNITE Species Hypotheses web services via PlutoF",
+      "geographic_coverage": "International eukaryotic ITS research; fungi and other eukaryotes, not globally representative environmental inventory",
+      "topical_coverage": "biodiversity | research | environment",
+      "dataset_families": "ITS species hypotheses, taxonomic annotations and versioned reference/representative sequence release descriptions",
+      "documentation_url": "https://unite.ut.ee/repository.php | https://plutof.docs.apiary.io/",
+      "api_base_url": "https://api.plutof.ut.ee/v1/public/ (PlutoF root verified; exact UNITE SH route unresolved)",
+      "format_protocol": "Native anonymous JSON root13resource links; exact UNITE SH response untested. Apiary native HTML is JavaScript wrapper, not parsed API schema.",
+      "authentication": "Public root no key/account; official indexed API policy says public data anonymous with named User-Agent; writes require OAuth, not used",
+      "free_access_restrictions": "Public root accessible; advanced PlutoF workbench requires registration. No keys/accounts or files used",
+      "license": "Native current UNITE footer explicitly CC BY4.0; registry BY-SA4 differs",
+      "license_url": "https://unite.ut.ee/ | https://unite.ut.ee/terms.php | https://unite.ut.ee/repository.php",
+      "api_verification_state": "native_current_BY4_statement_webservice_link_and_PlutoF_JSON_root13verified_exact_UNITE_SH_route_unresolved",
+      "latest_checked_utc": "2026-10-17T22:04:48.281731+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "unsd",
       "provider": "UN Statistics Division",
       "service_name": "UNSD Global SDG Indicators API v1",
@@ -21321,6 +21339,24 @@
       "license_url": "https://combase.ars.usda.gov/Disclaimer.aspx",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T17:21:42.365566+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "comparative-agendas-project",
+      "provider": "Comparative Agendas Project",
+      "service_name": "Comparative policy agenda datasets and codebooks portal",
+      "geographic_coverage": "Published country/subnational projects across Europe, Americas, Australia and Turkey;29project references include development projects, not29active national datasets",
+      "topical_coverage": "law | civic data | public spending | research",
+      "dataset_families": "Policy topics, government actions, agenda trends, project-generated coded variables and codebooks",
+      "documentation_url": "https://www.comparativeagendas.net/ | https://www.comparativeagendas.net/pages/How-to-cite",
+      "api_base_url": "",
+      "format_protocol": "HTML portal/download/trends interfaces; no machine-query API established",
+      "authentication": "Public documentation anonymous; exact dataset access unknown, no account used",
+      "free_access_restrictions": "Datasets downloadable per homepage, reuse noncommercial; underlying primary-source copyright may additionally apply",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike4.0 for project datasets/topic-code/project-generated variables",
+      "license_url": "https://www.comparativeagendas.net/pages/Copyright-and-Legal",
+      "api_verification_state": "native_NC_SA4_source_policy_verified_machine_query_API_unresolved",
+      "latest_checked_utc": "2026-10-17T22:04:48.281731+00:00",
       "classification": "restricted"
     },
     {
