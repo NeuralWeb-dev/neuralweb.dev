@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T11:38:44.780285+00:00",
+  "published_at": "2026-10-17T11:40:47.007628+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:36:28.859921+00:00",
+  "research_updated_at": "2026-10-17T11:40:16.404717+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Civic/Africa ten originals checkpointed:707services231scoped-open423candidates53restricted;Colombia native FAQ metadata/one rowCCBYSA4,inherited28139assets;Kosovo7projectdocs/procurementcandidate.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Mekong/Nordic tenorigins;ODC14149native names/restrictedterms;Raleigh dataset metadata/policyunread;Baltimore dataset pass scopedCCBY3;OpenAidPDMpublisher/commonIATIreference;Kenya legacy404.709services232open423candidates54restricted;214originalsremain;in_progress.",
   "counts": {
-    "verified": 231,
+    "verified": 232,
     "candidates": 423,
-    "excluded": 53,
-    "sample_successes": 436
+    "excluded": 54,
+    "sample_successes": 439
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3886,6 +3886,24 @@
       "license_url": "https://www.ris.bka.gv.at/UI/Ogd.aspx",
       "api_verification_state": "current_primary_OGD_CCBY4_and_API_documentation_verified_original_root_policy_held_untested",
       "latest_checked_utc": "2026-10-17T04:42:08.610625+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "baltimore-open-data",
+      "provider": "City of Baltimore, Maryland",
+      "service_name": "Open Baltimore OGC API Records catalog",
+      "geographic_coverage": "Baltimore, Maryland, United States",
+      "topical_coverage": "Multisector municipal catalog metadata; geospatial; transport; government",
+      "dataset_families": "343 unique native dataset-collection descriptions. Four advertised collections: dataset, apps/maps, documents and all. Dataset-collection pass does not enumerate apps/maps/documents or all city systems.",
+      "documentation_url": "https://data.baltimorecity.gov/api/search/definition/",
+      "api_base_url": "https://data.baltimorecity.gov/api/search/v1/",
+      "format_protocol": "Actual JSON OGC collections and GeoJSON record metadata. Native published OpenAPI HTML shell documents existence; not counted as structured API sample.",
+      "authentication": "Anonymous collection and catalog metadata200validJSON; no key/account/token.",
+      "free_access_restrictions": "Anonymous catalog metadata without payment; scoped CC BY3 works allow commercial reuse with attribution/change notices. Other works and external interfaces require separate review.",
+      "license": "CC BY3.0 Unported for 18 explicitly marked native works; other works and corpus rights unconfirmed",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/legalcode",
+      "api_verification_state": "actual_public_JSON_sample_success_OGC_native_catalog_scoped_explicit_CCBY3_work_grants_verified",
+      "latest_checked_utc": "2026-10-17T11:40:15.947827+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10065,24 +10083,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "iati",
-      "provider": "International Aid Transparency Initiative",
-      "service_name": "International Aid Transparency Initiative API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "public spending/contracts; economics/finance",
-      "dataset_families": "Development/humanitarian activities; aid transactions; organizations; budgets",
-      "documentation_url": "https://docs.datastore.iatistandard.org/en/latest/api/",
-      "api_base_url": "https://api.iatistandard.org/datastore/",
-      "format_protocol": "Datastore structured queries;JSON,CSV/XML interfaces;fl=iati_json/iati_xml preserves nested structure",
-      "authentication": "key required:official current Datastore docs instruct sign-up;no account/key obtained",
-      "free_access_restrictions": "unknown",
-      "license": "unknown;current Datastore data-level publisher licence scope unresolved",
-      "license_url": "https://iatistandard.org/en/guidance/publishing-data/getting-started/licensing/",
-      "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-17T09:38:15.994178+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "iati-dashboard-metadata",
       "provider": "International Aid Transparency Initiative",
       "service_name": "IATI Dashboard metadata and limited CKAN-compatible read APIs",
@@ -10115,7 +10115,7 @@
       "license": "Publisher-specific open-licence requirement documented; effective individual work/whole-service grant unconfirmed",
       "license_url": "https://reference.iatistandard.org/en/guidance/publishing-data/what-data-to-publish/how-to-license-your-data/",
       "api_verification_state": "documented_key_required_API_untested_no_credentials_used",
-      "latest_checked_utc": "2026-10-17T09:37:28.497079+00:00",
+      "latest_checked_utc": "2026-10-17T11:40:15.943460+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10402,8 +10402,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://www.opendata.go.ke/",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:27:00.572966+00:00",
+      "api_verification_state": "legacy_original_portal_root_HTTP404_current_API_and_terms_unresolved",
+      "latest_checked_utc": "2026-10-17T11:40:15.936274+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12366,6 +12366,24 @@
       "license_url": "https://www.data.qld.gov.au/dataset/resource-activities-environmental-protection-act-1994",
       "api_verification_state": "portal_root_verified_api_unrequested_policy_dataset_page202_empty_unresolved",
       "latest_checked_utc": "2026-10-16T19:57:13.945796+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "raleigh-open-data",
+      "provider": "City of Raleigh, North Carolina",
+      "service_name": "Open Data Raleigh OGC API Records catalog",
+      "geographic_coverage": "Raleigh, North Carolina, United States",
+      "topical_coverage": "Multisector municipal catalog metadata; geospatial; transport; environment",
+      "dataset_families": "192 unique native dataset records indexed from advertised dataset collection; underlying files/features not queried.",
+      "documentation_url": "https://data.raleighnc.gov/api/search/v1?f=json",
+      "api_base_url": "https://data.raleighnc.gov/api/search/v1/",
+      "format_protocol": "Actual public JSON OGC discovery root, native collection and dataset-record metadata. Root advertises own OpenAPI definition; HTML homepage alone not API proof.",
+      "authentication": "Anonymous metadata200validJSON; no account/token/key.",
+      "free_access_restrictions": "Public metadata retrieved without payment; effective full municipal data policy unread because its exact official PDF origin was policy-held before sending. No alternate policy route.",
+      "license": "unknown effective dataset/catalog-metadata licence",
+      "license_url": "https://cityofraleigh0drupal.blob.core.usgovcloudapi.net/drupal-prod/COR21/Open%20Raleigh%20Data%20Policy.pdf",
+      "api_verification_state": "actual_public_JSON_sample_success_OGC_root_and_native_catalog_policy_unread_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T11:40:15.947692+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16094,6 +16112,24 @@
       "license_url": "https://ppsr.companiesoffice.govt.nz/help-centre/paying-ppsr-fees/schedule-of-fees/",
       "api_verification_state": "documented_paid_search_key_required_untested",
       "latest_checked_utc": "2026-10-16T20:04:48.522155+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "odc-mekong-catalog",
+      "provider": "Open Development Cambodia / shared Open Development catalog",
+      "service_name": "ODC-hosted CKAN dataset catalog API",
+      "geographic_coverage": "Cambodia and shared catalog; all 14,149 names are not assumed Cambodian",
+      "topical_coverage": "Metadata discovery; economics/finance; energy; environment; agriculture; law/civic; geospatial",
+      "dataset_families": "14,149 unique native dataset names; one Cambodian retail-fuel-price description from ODC publisher. Other country/publisher work metadata unreviewed. No prices, files or geometries queried.",
+      "documentation_url": "https://opendevelopmentcambodia.net/",
+      "api_base_url": "https://data.opendevelopmentcambodia.net/api/3/action/",
+      "format_protocol": "Actual CKAN action API JSON: package_search success=true and package_list success=true.",
+      "authentication": "Anonymous metadata/name-list requests HTTP200 valid JSON; no account/key.",
+      "free_access_restrictions": "Metadata accessible without payment. Full current ODC terms prohibit commercial gain beyond cost recovery despite CC BY-SA4 headline. Third-party terms differ; not blanket NC for every shared-catalog work.",
+      "license": "Current ODC offer: CC BY-SA4 headline plus commercial-gain restriction; conflicting/restricted",
+      "license_url": "https://opendevelopmentcambodia.net/terms-of-use/",
+      "api_verification_state": "actual_public_JSON_sample_success_CKAN_metadata_and_native_names_current_restricted_offer_reviewed",
+      "latest_checked_utc": "2026-10-17T11:40:15.947505+00:00",
       "classification": "restricted"
     },
     {
