@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T14:01:45.803448+00:00",
+  "published_at": "2026-10-17T14:03:48.672054+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:01:27.089891+00:00",
+  "research_updated_at": "2026-10-17T14:02:24.062941+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Toronto/Tuscany8origins:751services243open450candidates58restricted;Toronto555uniqueAPIcataloguenames indexed,licenceconflictcandidate;TorinoeligibleCCBY4;99originalsandbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 243,
     "candidates": 450,
@@ -627,6 +627,7 @@
           "sfwmd-repository",
           "surrey-open-data-map-service",
           "texas-state-open-data",
+          "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
           "washington-state-open-data",
           "wis2-ucsd-scripps"
@@ -661,7 +662,8 @@
           "nashville-open-data",
           "neracoos-erddap",
           "sfwmd-repository",
-          "texas-state-open-data"
+          "texas-state-open-data",
+          "toronto-open-data-catalog-api"
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace"
@@ -703,6 +705,7 @@
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "texas-state-open-data",
+          "toronto-open-data-catalog-api",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -721,6 +724,7 @@
           "donnees-quebec-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
+          "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
           "washington-state-open-data"
         ],
@@ -749,7 +753,8 @@
           "nyc",
           "opendataphilly-jkan",
           "princegeorge-road-traffic-api",
-          "surrey-open-data-map-service"
+          "surrey-open-data-map-service",
+          "toronto-open-data-catalog-api"
         ],
         "restricted_provider_ids": []
       },
@@ -770,6 +775,7 @@
           "princegeorge-road-traffic-api",
           "surrey-open-data-map-service",
           "thunderbay-transit-realtime",
+          "toronto-open-data-catalog-api",
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
@@ -836,6 +842,7 @@
           "sacramento-open-data",
           "strathcona-open-data-search",
           "surrey-open-data-map-service",
+          "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
           "waterloo-city-open-data",
           "wis2-ucsd-scripps"
@@ -1274,6 +1281,7 @@
           "slovenia-statistics",
           "ssb",
           "statfin",
+          "torino-aperto-catalog-api",
           "wales-statistics",
           "worldpop-geo",
           "worldpop-rest",
@@ -1293,6 +1301,7 @@
           "serbia-rzs",
           "stat-portugal",
           "terrassa-open-data",
+          "tuscany-open-data-catalog",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": []
@@ -1484,6 +1493,7 @@
           "santander-open-data",
           "sardinia-geospatial-wfs",
           "terrassa-open-data",
+          "tuscany-open-data-catalog",
           "wis2-poland",
           "wis2-russian-federation"
         ],
@@ -1517,6 +1527,7 @@
           "os-os-places-api",
           "santander-open-data",
           "sardinia-geospatial-wfs",
+          "tuscany-open-data-catalog",
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
@@ -1593,7 +1604,8 @@
           "navarra-open-data",
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
-          "terrassa-open-data"
+          "terrassa-open-data",
+          "tuscany-open-data-catalog"
         ],
         "restricted_provider_ids": []
       },
@@ -1627,6 +1639,7 @@
           "serbia-data",
           "slovenia-statistics",
           "switzerland",
+          "torino-aperto-catalog-api",
           "ukraine-data",
           "wales-statistics"
         ],
@@ -1661,7 +1674,8 @@
           "saw-leipzig-fcs",
           "serbia-rzs",
           "terrassa-open-data",
-          "tuebingen-fcs"
+          "tuebingen-fcs",
+          "tuscany-open-data-catalog"
         ],
         "restricted_provider_ids": [
           "bonn-open-data",
@@ -1724,6 +1738,7 @@
           "redbridge-datashare",
           "registry-admin-opendatani-gov-uk",
           "slovenia-statistics",
+          "torino-aperto-catalog-api",
           "transportapi-fi",
           "ukraine-data",
           "wales-statistics"
@@ -1738,6 +1753,7 @@
           "sardinia-geospatial-wfs",
           "shom-data",
           "tfl",
+          "tuscany-open-data-catalog",
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
@@ -1772,6 +1788,7 @@
           "registry-data-sz-ch",
           "registry-europeandataportal-eu",
           "rostock-open-data",
+          "torino-aperto-catalog-api",
           "transportapi-fi",
           "uk-police",
           "worldpop-geo",
@@ -1805,6 +1822,7 @@
           "schaffhausen-geoservices",
           "shom-data",
           "solothurn-gis-dataservice",
+          "tuscany-open-data-catalog",
           "ukho-tidal",
           "valais-cantonal-geoservices",
           "vaud-apigeo",
