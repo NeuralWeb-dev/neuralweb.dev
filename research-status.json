@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T13:59:42.977366+00:00",
+  "published_at": "2026-10-17T14:01:45.803448+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:53:47.337592+00:00",
+  "research_updated_at": "2026-10-17T14:01:27.089891+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Texas/alpinevalidated747services242open447candidates58restricted;nextToronto/Tuscany8roots/currentprimarylicences/APIguides saved,notintegrated.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 242,
-    "candidates": 447,
+    "verified": 243,
+    "candidates": 450,
     "excluded": 58,
-    "sample_successes": 457
+    "sample_successes": 458
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7634,6 +7634,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "torino-aperto-catalog-api",
+      "provider": "Città di Torino / aperTO",
+      "service_name": "aperTO CKAN catalogue API",
+      "geographic_coverage": "Italy; Turin",
+      "topical_coverage": "demographics; public finance; transportation; education; geospatial; civic data",
+      "dataset_families": "City catalogue of statistical,demographic,school,civic and transport datasets; individual resources may override default licence,including thirdparty5T IODL2 declarations",
+      "documentation_url": "https://aperto.comune.torino.it/api",
+      "api_base_url": "https://aperto.comune.torino.it/api/3/action/",
+      "format_protocol": "Documented CKAN Action HTTP/JSON; sample target deferred by robots,not a response",
+      "authentication": "Publisher documents read catalogue queries without registered key examples; actual anonymous sample policy-held,targetunsent",
+      "free_access_restrictions": "Default city catalogue/data/information CC BY4 except metadata/other documentation overrides. No credentials/account or paid access acquired.",
+      "license": "Creative Commons Attribution4.0 International,default except specified works",
+      "license_url": "https://aperto.comune.torino.it/licenze",
+      "api_verification_state": "documented_API_original_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T13:54:45.221498+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "transportapi-fi",
       "provider": "Fintraffic Digitraffic",
       "service_name": "Fintraffic Digitraffic road, railway and marine open-data APIs",
@@ -14314,6 +14332,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "toronto-open-data-catalog-api",
+      "provider": "City of Toronto Open Data",
+      "service_name": "Toronto public CKAN catalogue metadata API",
+      "geographic_coverage": "Canada; Ontario; Toronto",
+      "topical_coverage": "housing; health; transportation; education; public finance; environment; water; geospatial; civic data",
+      "dataset_families": "555unique names in one complete nativepackage_list response; one DailyShelter&OvernightServiceOccupancy&Capacity metadata descriptor sampled. Otherfamilies per officialFAQ,not all measurements/works cleared.",
+      "documentation_url": "https://open.toronto.ca/docs/frequently-asked-questions/",
+      "api_base_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/",
+      "format_protocol": "Native CKAN Action HTTP/JSON;success=true,result.count555/one descriptor;package_listsuccess555unique names",
+      "authentication": "Small publicmetadata queries succeeded without credentials; no account/key acquired",
+      "free_access_restrictions": "CityFAQdeclaresfreecommercial/noncommercialOGLToronto default; samplednativeworkmetadata saysnotspecified. Effective work-level licence reconciliation pending; no paid data.",
+      "license": "Publisher OGLToronto1.0 default declaration; samplednativeworklicenceunspecified,scope unresolved",
+      "license_url": "https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-licence/",
+      "api_verification_state": "documented_sample_success_CKAN_catalogue_metadata_only",
+      "latest_checked_utc": "2026-10-17T13:56:17.206795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "trentino-open-data",
       "provider": "Provincia autonoma di Trento / Dati Trentino",
       "service_name": "Dati Trentino CKAN open-data catalog",
@@ -14350,6 +14386,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tuik-statistical-classification-webservice",
+      "provider": "Türkiye İstatistik Kurumu / TurkStat",
+      "service_name": "TÜİK statistical classification web service",
+      "geographic_coverage": "Türkiye; national statistical classifications and international crosswalk context",
+      "topical_coverage": "economics; labor; companies; statistical classifications; research metadata",
+      "dataset_families": "Classificationserver describes statisticalactivity/product/occupation and internationalclassificationuse; actual serviceoperationfamilies/schema not fetched under WSDLhold",
+      "documentation_url": "https://siniflama.tuik.gov.tr/",
+      "api_base_url": "https://tuikws.tuik.gov.tr/ws/TUIKSS",
+      "format_protocol": "WSDL web-service interface explicitly linked as WebServis by publisher; SOAP/binding/schema unverified because WSDL targetpolicyheld",
+      "authentication": "unknown; no WSDL/schema or operation tested,no account/key/sessioncredentials used",
+      "free_access_restrictions": "Currentclassificationguidepublic; no explicit reusabledata grant/freeoperationterms established. Governmentdomain and downloadable classificationpages not licenceproof.",
+      "license": "unknown; no operative open-data grant established for this service",
+      "license_url": "https://siniflama.tuik.gov.tr/",
+      "api_verification_state": "official_WSDL_link_documented_original_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T13:57:13.061327+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tunisia",
       "provider": "Tunisia Ministry of Agriculture / Agridata portal",
       "service_name": "Tunisia agricultural open-data CKAN portal API",
@@ -14383,6 +14437,24 @@
       "license_url": "https://www.ins.tn/en/conditions-utilisation",
       "api_verification_state": "official_api_link_documentation_policy_deferred_no_sample",
       "latest_checked_utc": "2026-10-16T18:54:23.507592+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tuscany-open-data-catalog",
+      "provider": "Regione Toscana / participating municipal publishers",
+      "service_name": "OpenData Toscana catalogue API candidate",
+      "geographic_coverage": "Italy; Tuscany and participating municipalities",
+      "topical_coverage": "environment; water; geospatial; demographics; spending; transportation; science; health; education",
+      "dataset_families": "Officialrootcataloguecategories; advertises12k+datasets,not testedcount. Federatedmunicipalresources and DCATAPIT catalogue; individual grants/interfaces unreviewed.",
+      "documentation_url": "https://dati.toscana.it/about",
+      "api_base_url": "https://dati.toscana.it/",
+      "format_protocol": "CKAN catalogue explicitly described by primary/about; conventionalActionpath attemptedbutpolicyheld,not verified APIbase; DCATlinksadvertised,not queriedafterhold",
+      "authentication": "unknown; no credentials supplied,API target unsent under robots policy",
+      "free_access_restrictions": "Portalpublic,per-worklicencesunreviewed; generalpublisherwebsitelegalnoticeprotectscopyright/limitspermittedcopies personalnoncommercial. Exactscopeoverfederateddata/metadata unresolved.",
+      "license": "unknown for effective catalogue/data grants; genericregionwebsitecontent restrictive",
+      "license_url": "https://www.regione.toscana.it/note-legali",
+      "api_verification_state": "documented_CKAN_catalogue_conventional_API_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T13:55:16.625828+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
