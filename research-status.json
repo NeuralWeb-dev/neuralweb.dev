@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T16:53:21.462087+00:00",
+  "published_at": "2026-10-17T16:55:23.966814+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:51:47.685437+00:00",
+  "research_updated_at": "2026-10-17T16:54:15.108056+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Threeplasma/geothermaloriginsreviewed;CDGPrestrictiveportaltermsandCCBYlabelconflictretained,NISTinteractiveAPIs/grantsunresolved",
+  "latest_milestone": "Fouroriginalarchives/ecology/spectroscopytasksreviewed;IdRefnativeRDFopenmetadata,ArachneJSONN CNDrestricted;TERNthreeAPIreferencesindexedwithholds/testhostlimits",
   "counts": {
-    "verified": 260,
+    "verified": 261,
     "candidates": 479,
-    "excluded": 69,
-    "sample_successes": 472
+    "excluded": 70,
+    "sample_successes": 473
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; queuedtasksnotresearched.",
@@ -3991,6 +3991,24 @@
     }
   },
   "catalog": [
+    {
+      "identifier": "abes-idref-authority-api",
+      "provider": "Agence bibliographique de l enseignement superieur(ABES)",
+      "service_name": "IdRef authority linked-data and bibliographic web services",
+      "geographic_coverage": "Frenchhighereducation/researchlibraryauthoritynetworks;internationalpeople,organisations,placesandworkreferences",
+      "topical_coverage": "culture; research; education; geospatial",
+      "dataset_families": "Authorityidentifiers,organisation/person/placeconceptmetadata,externalidentifieralignmentsandlinkedbibliographicreferences;acceptedRDFauthorityscope,MARCexceptionsretained",
+      "documentation_url": "https://abes.fr/reseaux-idref-orcid/reutiliser-les-donnees-idref/formats-de-donnees-disponibles/ | https://abes.fr/api-et-web-services/",
+      "api_base_url": "https://www.idref.fr/",
+      "format_protocol": "RDF/XMLidentifierdereferencing/contentnegotiationverified;Solr,otherRESTwebservicesandOAI-PMHdocumentedbutnotqueried",
+      "authentication": "NoneforsuccessfulpublicABESorganisationauthorityRDFsample; protected/memberexportservicesnotqueried",
+      "free_access_restrictions": "Openauthoritydataattribution/source/retrievaldateandcreator/created/modifiedmetadatapreserved. SomeMARCsuppliersdisallowopenreuse;somecustom/memberexportstariffedandnotacquired.",
+      "license": "Etalab Licence Ouverte / Open Licence(versionnotestablishedbyreviewedgrantpages)",
+      "license_url": "https://abes.fr/pages-mentions-legales/idref.html | https://abes.fr/reseaux-idref-orcid/reutiliser-les-donnees-idref/formats-de-donnees-disponibles/",
+      "api_verification_state": "actual_native_RDF_XML_organisation_authority_sample_success_primary_reuse_grant_verified_RDFscope_MARCexceptions_retained",
+      "latest_checked_utc": "2026-10-17T16:54:10.446037+00:00",
+      "classification": "open_license_verified"
+    },
     {
       "identifier": "abs",
       "provider": "Australian Bureau of Statistics",
@@ -17313,6 +17331,24 @@
       "license_url": "https://acleddata.com/eula",
       "api_verification_state": "documented_account_oauth_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:09:07.747183+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "arachne-idai-objects-api",
+      "provider": "German Archaeological Institute / University of Cologne",
+      "service_name": "iDAI.objects Arachne REST API",
+      "geographic_coverage": "Internationalarchaeologicalobjects/sitesandclassicalantiquities;collection-specificprovenance",
+      "topical_coverage": "culture; geospatial; research; education",
+      "dataset_families": "Archaeologicalobjects,buildings,images,books,contextualmetadata,locations/dating/bibliographicreferences. Onlyoneimage-entitymetadatarecordsampled",
+      "documentation_url": "https://github.com/dainst/arachne4/blob/main/frontend/docs/rest-api-reference.md | https://arachne.dainst.org/info/en/about.html",
+      "api_base_url": "https://arachne.dainst.org/data",
+      "format_protocol": "REST/JSON; entity/search/contextandothermethodsdocumented",
+      "authentication": "NoneforsuccessfulentitymetadataJSON; HTTPbasicauthsupported,somemethodsrequireit;scrollrequireslogin. Noaccountsorcredentialsused",
+      "free_access_restrictions": "CCBY-NC-ND3.0forpublicportal/databasecontent; highresolutionprintablescansoutsidethatgrant/separatepermissionandfees. Noimagefiles/download/orders.",
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivs3.0",
+      "license_url": "https://arachne.dainst.org/info/en/order.html | http://creativecommons.org/licenses/by-nc-nd/3.0/",
+      "api_verification_state": "actual_native_entity_JSON_metadata_success_primary_production_API_docs_and_NC_ND_terms_verified",
+      "latest_checked_utc": "2026-10-17T16:54:10.446037+00:00",
       "classification": "restricted"
     },
     {
