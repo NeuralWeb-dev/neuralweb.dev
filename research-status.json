@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:32:42.335221+00:00",
+  "published_at": "2026-10-17T19:34:44.700294+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:32:27.650132+00:00",
+  "research_updated_at": "2026-10-17T19:34:40.438541+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "HCDCnativeopen discoverymetadata APIverified; Senckenbergdefaultcopyright/nativehold; IODP6operatorrefs and source/APIgaps indexed",
+  "latest_milestone": "ioerDATAportal/nativehold/source-rightsgaps retained; CARIBICandPhysioBankdeduplicated withsourceprotocol/software-API distinctions",
   "counts": {
     "verified": 280,
-    "candidates": 518,
+    "candidates": 519,
     "excluded": 111,
     "sample_successes": 475
   },
@@ -12059,7 +12059,7 @@
       "license": "CC BY4.0 explicitly stated; additional policy conditions and metadata/API scope unresolved",
       "license_url": "https://iagos.aeris-data.fr/data-policy/",
       "api_verification_state": "native_anonymous_public_parameter_JSON_success_production_OpenAPI_verified",
-      "latest_checked_utc": "2026-10-17T19:02:09.169833+00:00",
+      "latest_checked_utc": "2026-10-17T19:34:35.204212+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12240,6 +12240,24 @@
       "license_url": "http://archive.org/developers/index.html | http://archive.org/developers/bots.html | https://archive.org/about/terms.php",
       "api_verification_state": "actual_JSON_collection_metadata_Read_sample_success",
       "latest_checked_utc": "2026-10-17T03:25:31.123807+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ioerdata-spatial-research-portal",
+      "provider": "Leibniz Institute of Ecological Urban and Regional Development / IOERResearchDataCentre",
+      "service_name": "ioerDATA spatial sustainability Dataverse metadata/APIcandidate",
+      "geographic_coverage": "Spatial sustainability research centered onGermany/Europe; source-specific worldwidecoverage",
+      "topical_coverage": "geospatial | housing | landuse | climate | urban | environment | research",
+      "dataset_families": "Urbanstructure, settlement/open-space monitoring, canopy/landcovermodels, climate regulation and replicationdatasetmetadata; no sourcefiles reviewed",
+      "documentation_url": "https://data.fdz.ioer.de/ | https://guides.dataverse.org/en/latest/api/search.html",
+      "api_base_url": "",
+      "format_protocol": "PortalidentifiesDataverse6.10.1; REST/OAIcandidateinterfaces, bothnativerequestspolicy-withheld,targetunsent",
+      "authentication": "Landingmentionsaccount/APItokenfordata, exactpublicmetadataauthunverified duehold. No account/token/request.",
+      "free_access_restrictions": "Source datasetsmixedBY4/BYSA4/NC4andpossiblelegal/accessrequirements; exactmetadata/databasegrantunknown. No blanketopenacceptance.",
+      "license": "unknownforcataloguemetadata/database; per-sourceCClicencesmixedandunreviewed",
+      "license_url": "https://data.fdz.ioer.de/",
+      "api_verification_state": "Dataverse_portal_verified_REST_OAI_samples_robots_withheld_target_unsent",
+      "latest_checked_utc": "2026-10-17T19:34:35.204212+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14471,7 +14489,7 @@
       "license": "Mixed project-specific licence labels; metadata-wide grant unconfirmed; selected MIT-BIH database ODC-BY1 verified",
       "license_url": "https://physionet.org/about/publish/ | https://physionet.org/content/mitdb/view-license/1.0.0/",
       "api_verification_state": "native_anonymous_JSON_published_catalogue_verified_effective_metadata_and_content_rights_unresolved",
-      "latest_checked_utc": "2026-10-17T18:09:31.452925+00:00",
+      "latest_checked_utc": "2026-10-17T19:34:35.204212+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
