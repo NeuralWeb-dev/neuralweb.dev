@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T00:32:16.418749+00:00",
+  "published_at": "2026-10-17T00:34:19.030964+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:31:37.469957+00:00",
+  "research_updated_at": "2026-10-17T00:33:59.211347+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "NCgeospatial2candidates actualGeoJSON/WMSXML;ProvinceSud83metadata snapshot complete;Georep27IDGgroupsqueued;Dateno43614registry/50938source-origin tasks;globaloriginalAPI/license reviewsunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
-    "verified": 153,
-    "candidates": 200,
+    "verified": 152,
+    "candidates": 201,
     "excluded": 26,
     "sample_successes": 192
   },
@@ -2454,6 +2454,7 @@
           "pacific-data",
           "pacific-stat",
           "pisco",
+          "province-sud-geospatial",
           "queensland-data"
         ],
         "restricted_provider_ids": []
@@ -2512,6 +2513,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "georep-localisation",
           "queensland-data"
         ],
         "restricted_provider_ids": []
@@ -2527,7 +2529,9 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "georep-localisation",
           "mbie-geodata",
+          "province-sud-geospatial",
           "stats-nz-geographic",
           "worldpop-wopr"
         ],
@@ -2584,7 +2588,8 @@
         ],
         "candidate_provider_ids": [
           "esa-ecology",
-          "pisco"
+          "pisco",
+          "province-sud-geospatial"
         ],
         "restricted_provider_ids": []
       },
@@ -2594,7 +2599,8 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
-          "pisco"
+          "pisco",
+          "province-sud-geospatial"
         ],
         "restricted_provider_ids": []
       },
@@ -4747,24 +4753,6 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:48:24.772066+00:00",
-      "classification": "open_license_verified"
-    },
-    {
-      "identifier": "province-sud-geospatial",
-      "provider": "Province Sud, New Caledonia / DSIN and DDDT",
-      "service_name": "Province Sud open-data geospatial portal: Pandore REST and QGIS WMS",
-      "geographic_coverage": "Oceania; Pacific; New Caledonia; Province Sud",
-      "topical_coverage": "geospatial; biodiversity; climate/weather/environment; oceans",
-      "dataset_families": "Scoped Pandore families: protected areas and lagoon islands. Broader83entry catalogue includes environmental layers,forest/fire mapping,recreation and imagery;individual broader rights/access unreviewed.",
-      "documentation_url": "https://www.province-sud.nc/open/metadonnees | https://www.province-sud.nc/open/metadonnees/8a8186dd9debae3901a08e9006500033 | https://www.province-sud.nc/pandoreweb/openapi",
-      "api_base_url": "https://www.province-sud.nc/pandoreweb/ | https://www.province-sud.nc/geodataweb/public/server/webQgisPSUD/DDDT/environnement/Ilots/wms",
-      "format_protocol": "Pandore published OpenAPI3.0.1,4GEToperations,JSON/XML/binary response options;native specification contains trailing commas and is invalid JSON. Derived repair for analysis only. Selected QGIS WMS capabilities valid XML/version1.3.0.",
-      "authentication": "Pandore all4GEToperations declare jsession apiKey in cookie (empty name in published scheme);no session/account/key obtained or data probe sent. Selected WMS capabilities anonymous200;other resources unknown.",
-      "free_access_restrictions": "Public catalogue/specification and selectedWMSmetadata anonymously accessible. Pandore data free-tier/credential eligibility unknown;no paid acquisition.",
-      "license": "Etalab Licence Ouverte 2.0, scoped to published Pandore protected-area/island API declaration",
-      "license_url": "https://www.province-sud.nc/pandoreweb/openapi | https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf | https://raw.githubusercontent.com/etalab/licence-ouverte/master/LO.md",
-      "api_verification_state": "Pandore_documented_scoped_OL2_cookie_key_required_untested_QGIS_WMS_metadata_sample_success_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-17T00:29:47.666835+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8133,6 +8121,24 @@
       "license_url": "https://stat.gov.pl/en/copyright/",
       "api_verification_state": "documented_credential_required_untested_license_unconfirmed",
       "latest_checked_utc": "2026-10-16T21:24:01.619280+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "province-sud-geospatial",
+      "provider": "Province Sud, New Caledonia / DSIN and DDDT",
+      "service_name": "Province Sud open-data geospatial portal: Pandore REST and QGIS WMS",
+      "geographic_coverage": "Oceania; Pacific; New Caledonia; Province Sud",
+      "topical_coverage": "geospatial; biodiversity; climate/weather/environment; oceans",
+      "dataset_families": "Scoped Pandore families: protected areas and lagoon islands. Broader83entry catalogue includes environmental layers,forest/fire mapping,recreation and imagery;individual broader rights/access unreviewed.",
+      "documentation_url": "https://www.province-sud.nc/open/metadonnees | https://www.province-sud.nc/open/metadonnees/8a8186dd9debae3901a08e9006500033 | https://www.province-sud.nc/pandoreweb/openapi",
+      "api_base_url": "https://www.province-sud.nc/pandoreweb/ | https://www.province-sud.nc/geodataweb/public/server/webQgisPSUD/DDDT/environnement/Ilots/wms",
+      "format_protocol": "Pandore published OpenAPI3.0.1,4GEToperations,JSON/XML/binary response options;native specification contains trailing commas and is invalid JSON. Derived repair for analysis only. Selected QGIS WMS capabilities valid XML/version1.3.0.",
+      "authentication": "Pandore all4GEToperations declare jsession apiKey in cookie (empty name in published scheme);no session/account/key obtained or data probe sent. Selected WMS capabilities anonymous200;other resources unknown.",
+      "free_access_restrictions": "Public catalogue/specification and selectedWMSmetadata anonymously accessible. Pandore data free-tier/credential eligibility unknown;no paid acquisition.",
+      "license": "Etalab Licence Ouverte 2.0 declared in OpenAPI info.license;data applicability unconfirmed",
+      "license_url": "https://www.province-sud.nc/pandoreweb/openapi | https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf | https://raw.githubusercontent.com/etalab/licence-ouverte/master/LO.md",
+      "api_verification_state": "documented_Pandore_cookie_key_required_untested_QGIS_WMS_metadata_sample_success_data_license_scope_unconfirmed",
+      "latest_checked_utc": "2026-10-17T00:32:36.674744+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
