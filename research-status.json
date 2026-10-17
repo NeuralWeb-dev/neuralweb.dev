@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T09:52:33.682299+00:00",
+  "published_at": "2026-10-17T09:54:36.103774+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:52:00.169986+00:00",
+  "research_updated_at": "2026-10-17T09:52:42.812860+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Asia/coastal: ten original origins reviewed; scoped Siak CC BY4 and Kamloops OGL1 services verified. Native catalogues12 and225 descriptions indexed.674 services:220open/407candidates/47restricted;324originals remain. Global in_progress.;BDL61700definitions quota-deferred: API calls quota exceeded! Maximum admitted 100 per 15 min.",
   "counts": {
     "verified": 220,
     "candidates": 407,
@@ -580,6 +580,7 @@
           "eccc-geomet",
           "epa-aqs",
           "geri",
+          "kamloops-open-data",
           "kitchener-geohub",
           "noaa-weather",
           "ocean-networks-canada",
@@ -732,6 +733,7 @@
           "eccc-geomet",
           "epa-aqs",
           "getty-vocabularies",
+          "kamloops-open-data",
           "kitchener-geohub",
           "pasadena-open-data",
           "seafloor",
@@ -2759,7 +2761,8 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "siak-regency-open-data"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -2783,7 +2786,8 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "siak-regency-open-data"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
