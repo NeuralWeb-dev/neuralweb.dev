@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:08:55.958022+00:00",
+  "published_at": "2026-10-17T18:10:58.783691+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:05:05.394003+00:00",
+  "research_updated_at": "2026-10-17T18:10:55.956179+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original discovery tasks reviewed; six distinct records added, RDA deduplicated; PlasmoDB native24schema list and IE native OAI verified; AVISO Issue20 redistribution restrictions preserved",
+  "latest_milestone": "MetaboLights3543native identifiers, VEuPath24native schema and OMPS interface gap checkpointed",
   "counts": {
     "verified": 271,
-    "candidates": 494,
-    "excluded": 90,
+    "candidates": 497,
+    "excluded": 91,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -12442,6 +12442,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "metabolights-public-study-api",
+      "provider": "EMBL-EBI / MetaboLights",
+      "service_name": "MetaboLights public study and metadata API",
+      "geographic_coverage": "International metabolomics research; per-study organism, sample and geographic coverage varies",
+      "topical_coverage": "biology | health | research | environment",
+      "dataset_families": "Metabolomics studies, compounds and ISA-Tab experimental metadata; raw/derived spectra in separately distributed files",
+      "documentation_url": "https://www.ebi.ac.uk/metabolights/ws/api/spec.json | https://ebi-metabolights.github.io/guides/Files/",
+      "api_base_url": "https://www.ebi.ac.uk/metabolights/ws",
+      "format_protocol": "REST JSON; OpenAPI specification; ISA-Tab metadata/file links separately documented",
+      "authentication": "Anonymous public study-ID list succeeded; accounts/private studies/tokens/internal endpoints excluded",
+      "free_access_restrictions": "Public studies free download/modify per EBI training; native ID list needs no key. Full study/source rights remain separately scoped.",
+      "license": "Resource/study rights unconfirmed; EBI no-additional-restrictions policy reserves original-owner rights",
+      "license_url": "https://www.ebi.ac.uk/about/terms-of-use | https://www.ebi.ac.uk/metabolights/about",
+      "api_verification_state": "native_anonymous_JSON_public_study_catalogue_verified_study_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T18:10:51.999639+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mexico-national-open-data",
       "provider": "Government of Mexico,Plataforma Nacional de Datos Abiertos",
       "service_name": "Current datos.gob.mx national catalog;CKANinterface unverified",
@@ -13969,6 +13987,24 @@
       "license_url": "https://data.gov.ph/index/terms-of-use",
       "api_verification_state": "published_client_interface_documented_key_header_declared_runtime_untested",
       "latest_checked_utc": "2026-10-17T08:03:38.864640+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "physionet-published-project-api",
+      "provider": "PhysioNet / MIT Laboratory for Computational Physiology",
+      "service_name": "PhysioNet published-project REST metadata API",
+      "geographic_coverage": "International physiological and clinical research collections; individual project populations vary",
+      "topical_coverage": "health | research | biology",
+      "dataset_families": "Physiological signals, clinical research datasets, software and models; versioned project descriptions and access/licence metadata",
+      "documentation_url": "https://github.com/MIT-LCP/physionet/blob/main/README.md | https://raw.githubusercontent.com/MIT-LCP/physionet/main/physionet/api/endpoints.py",
+      "api_base_url": "https://physionet.org/api/v1/",
+      "format_protocol": "REST JSON; native complete published project/version list",
+      "authentication": "Anonymous published list succeeded; file/checksum and restricted/credentialed data access separately controlled, not used",
+      "free_access_restrictions": "Public project metadata no key/payment in tested request. Underlying access Open/Restricted/Credentialed/Contributor Review; no account, DUA or training requested.",
+      "license": "Mixed project-specific licence labels; metadata-wide grant unconfirmed; selected MIT-BIH database ODC-BY1 verified",
+      "license_url": "https://physionet.org/about/publish/ | https://physionet.org/content/mitdb/view-license/1.0.0/",
+      "api_verification_state": "native_anonymous_JSON_published_catalogue_verified_effective_metadata_and_content_rights_unresolved",
+      "latest_checked_utc": "2026-10-17T18:09:31.452925+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16276,6 +16312,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "veupathdb-portal-wdk-api",
+      "provider": "VEuPathDB",
+      "service_name": "VEuPathDB cross-component portal WDK REST service",
+      "geographic_coverage": "International pathogen/vector/host organism research; not inferred population geography",
+      "topical_coverage": "biology | health | research",
+      "dataset_families": "Cross-component organisms, genes/transcripts, pathways, compounds and source datasets; portal/component differences apply",
+      "documentation_url": "https://static-content.veupathdb.org/documents/Using-Web-services-Dec2023.pdf",
+      "api_base_url": "https://veupathdb.org/veupathdb/service/",
+      "format_protocol": "WDK REST JSON; documented JSON/tabular/FASTA/GFF3 reporters, schema list only tested",
+      "authentication": "Anonymous record-types list succeeded; no user/workspace calls",
+      "free_access_restrictions": "No key/payment for tested schema; underlying dataset release/access policies unverified",
+      "license": "unknown for served data and metadata",
+      "license_url": "https://veupathdb.org/veupathdb/app/static-content/about.html#about_use",
+      "api_verification_state": "native_anonymous_JSON_schema_sample_verified_data_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T18:10:51.999639+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "victoria-datavic",
       "provider": "State Government of Victoria,Department of Government Services",
       "service_name": "DataVic CKAN catalog and documented Open Data API",
@@ -17931,6 +17985,24 @@
       "license_url": "http://mag.gcras.ru/datapolicy.html",
       "api_verification_state": "restricted_portal_and_published_machine_service_link_documented_sample_untested",
       "latest_checked_utc": "2026-10-17T17:56:20.216605+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "akn-data-access-portal",
+      "provider": "Avian Knowledge Network",
+      "service_name": "AKN mixed-access bird observation portal (public API unresolved)",
+      "geographic_coverage": "Western Hemisphere partnership; tools include United States regional bird summaries, individual source scopes vary",
+      "topical_coverage": "biodiversity | environment | geospatial | research",
+      "dataset_families": "Bird survey observations, locations, protocols and summary tools; project metadata and multiple regional portals",
+      "documentation_url": "https://avianknowledge.net/tools/",
+      "api_base_url": "",
+      "format_protocol": "Browser tools; no public data API verified",
+      "authentication": "Downloader requires account; analyst requires account/project-leader role; some protocol/species/map/phenology tools public",
+      "free_access_restrictions": "Owners control sharing levels; written permission/agreements for applicable data. Share Openly level permits use without explicit permission, individually unreviewed.",
+      "license": "Custom owner-controlled sharing/use policy; no uniform open data licence",
+      "license_url": "https://avianknowledge.net/akn-data-sharing-guidelines/",
+      "api_verification_state": "restricted_mixed_access_portal_documented_public_API_unresolved",
+      "latest_checked_utc": "2026-10-17T18:09:31.452925+00:00",
       "classification": "restricted"
     },
     {
