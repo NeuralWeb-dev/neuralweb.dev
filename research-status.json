@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T04:04:51.440649+00:00",
+  "published_at": "2026-10-17T04:06:53.891215+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T04:01:26.786636+00:00",
+  "research_updated_at": "2026-10-17T04:06:17.373347+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Saved Porism lead and all twelve native ORUK registered-feed origins processed. Seven services added: one scoped OGL and six candidates. North Lincolnshire 877-entry catalog completed in nine pages. Four original targets remain policy-held; global discovery is unfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "All three global Open Referral implementation-reference leads processed: current San Mateo AI resource finder has no established current API grant; Sarapis original target policy-held; Connect211 two documented bearer-key API candidates, no runtime samples. Global source-origin and geographic-sector discovery unfinished.;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 181,
-    "candidates": 336,
+    "candidates": 338,
     "excluded": 35,
     "sample_successes": 337
   },
@@ -610,7 +610,10 @@
           "nih-rxnav",
           "usda-food"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "connect211-hsda",
+          "connect211-search"
+        ],
         "restricted_provider_ids": []
       },
       "education": {
@@ -631,6 +634,8 @@
         ],
         "candidate_provider_ids": [
           "census-geocoder",
+          "connect211-hsda",
+          "connect211-search",
           "nyc"
         ],
         "restricted_provider_ids": []
@@ -7317,6 +7322,42 @@
       "license_url": "https://www.congress.gov/help/using-data-offsite",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:34:13.631548+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "connect211-hsda",
+      "provider": "Connect 211",
+      "service_name": "HSDA data replication API",
+      "geographic_coverage": "United States client directories; tenant-specific geographic access, no universal national coverage established",
+      "topical_coverage": "Community human services; health, housing, food, employment, social support",
+      "dataset_families": "Client-controlled directory organizations, services, locations and taxonomies; search API has derived geospatial/facet and multilingual index schema",
+      "documentation_url": "https://help.connect211.com/en/articles/11909839-hsda-api-documentation",
+      "api_base_url": "https://c211.io/api/v1/",
+      "format_protocol": "HTTPS JSON; Subset of Open Referral HSDA plus provider extensions",
+      "authentication": "Authorization: Bearer API key; client/partner-specific permissions",
+      "free_access_restrictions": "Free public documentation. Free API entitlement/pricing unknown; partner/client-controlled access, no key requested or acquired. Open standards explicitly do not imply open data.",
+      "license": "Underlying client directory data reuse grant unconfirmed; no universal open-data licence",
+      "license_url": "https://connect211.com/services/hsda-data-replication/",
+      "api_verification_state": "official_endpoint_and_bearer_access_documented_key_required_sample_untested",
+      "latest_checked_utc": "2026-10-17T04:04:48.804800+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "connect211-search",
+      "provider": "Connect 211",
+      "service_name": "Search API",
+      "geographic_coverage": "United States client directories; tenant-specific geographic access, no universal national coverage established",
+      "topical_coverage": "Community human services; health, housing, food, employment, social support",
+      "dataset_families": "Client-controlled directory organizations, services, locations and taxonomies; search API has derived geospatial/facet and multilingual index schema",
+      "documentation_url": "https://help.connect211.com/en/articles/11907563-using-the-search-api",
+      "api_base_url": "https://search-api.c211.io/v1/elasticsearch/",
+      "format_protocol": "HTTPS JSON; Elasticsearch-compatible search proxy",
+      "authentication": "Authorization: Bearer API key; client/partner-specific permissions",
+      "free_access_restrictions": "Free public documentation. Free API entitlement/pricing unknown; partner/client-controlled access, no key requested or acquired. Open standards explicitly do not imply open data.",
+      "license": "Underlying client directory data reuse grant unconfirmed; no universal open-data licence",
+      "license_url": "https://connect211.com/services/hsda-data-replication/",
+      "api_verification_state": "official_endpoint_and_bearer_access_documented_key_required_sample_untested",
+      "latest_checked_utc": "2026-10-17T04:04:48.804800+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
