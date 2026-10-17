@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T09:30:06.958031+00:00",
+  "published_at": "2026-10-17T09:32:09.541421+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:20:58.543996+00:00",
+  "research_updated_at": "2026-10-17T09:32:03.687160+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Civic/health10origins:BCscopedOGL2/APIterms1.1 andGipuzkoaCCBY4default,APIsamplesheld;GHDxRSS10normalizeditems/IHME-NC restricted.666services:218open/402candidates/46restricted;354originalsremain;globalin_progress.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
     "verified": 218,
-    "candidates": 402,
+    "candidates": 404,
     "excluded": 46,
-    "sample_successes": 413
+    "sample_successes": 414
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7852,7 +7852,7 @@
       "license": "unknown",
       "license_url": "https://www.data.gv.at/infos/lizenz/",
       "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-17T07:05:08.617395+00:00",
+      "latest_checked_utc": "2026-10-17T09:30:46.038514+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8792,6 +8792,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "county-grande-prairie-open-data",
+      "provider": "County of Grande Prairie No.1,Alberta",
+      "service_name": "County open-data catalogue and ArcGIS metadata services",
+      "geographic_coverage": "County of Grande Prairie,Alberta,Canada",
+      "topical_coverage": "geospatial; agriculture; public administration; emergency-service reference metadata",
+      "dataset_families": "25 unique native descriptions, including datasets, maps and applications;142 distribution claims.18 licence fields blank,7 name County licence in varying forms. Actual Point of Interest iteminfo JSON from a separate county service; no feature rows downloaded.",
+      "documentation_url": "https://opendata.countygp.ab.ca/",
+      "api_base_url": "https://opendata.countygp.ab.ca/data.json | https://atlasservices.countygp.ab.ca/arcgis/rest/services/External/Points_of_Interest/MapServer/13/iteminfo",
+      "format_protocol": "Actual DCAT-like catalogue JSON and ArcGIS iteminfo JSON; advertised feature APIs not all tested",
+      "authentication": "Anonymous catalogue/iteminfo reads succeeded; no key/account. Individual advertised endpoints vary or remain untested.",
+      "free_access_restrictions": "Public metadata reads without payment. Full current County OGLv2 allows commercial reuse with attribution and standard exceptions; effective legacy work/version binding and third-party exclusions remain unresolved.",
+      "license": "Current County Open Government Licence v2.0 text verified; effective named API work/version scope unresolved",
+      "license_url": "https://www.countygp.ab.ca/business-building-development/maps/open-data/open-data-licence/",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_and_named_iteminfo_named_feature_endpoint404_rights_scope_unresolved",
+      "latest_checked_utc": "2026-10-17T09:30:46.038271+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "courtlistener",
       "provider": "Free Law Project / CourtListener",
       "service_name": "Free Law Project / CourtListener API",
@@ -9427,7 +9445,7 @@
       "service_name": "GovData Germany open data portal",
       "geographic_coverage": "Germany",
       "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
+      "dataset_families": "Catalogue datasets/distributions. Current root headline168670 versus16Oct actual JSON count168673; not a fresh API comparison. Historical B85-2008 record has four explicit resource-level CC BY4 URI claims/BASt credit, despite blank dataset licence fields. Producer CSV grants/access not independently verified.",
       "documentation_url": "https://www.govdata.de/web/guest/suchen",
       "api_base_url": "https://www.govdata.de/ckan/api/3/action/",
       "format_protocol": "CKAN Action API / JSON",
@@ -9435,8 +9453,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://www.govdata.de/web/guest/lizenzen",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:26:36.487963+00:00",
+      "api_verification_state": "historical_JSON_sample_success_current_root_only_current_docs_licence_policy_held",
+      "latest_checked_utc": "2026-10-17T09:30:46.038480+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9599,6 +9617,24 @@
       "license_url": "https://www.ebi.ac.uk/gwas/docs/about/ | https://www.ebi.ac.uk/gwas/docs/faq/",
       "api_verification_state": "documented_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:30:15.121823+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gyeonggi-data-dream",
+      "provider": "Gyeonggi Province,Republic of Korea",
+      "service_name": "Gyeonggi Data Dream public-data Open API",
+      "geographic_coverage": "Gyeonggi Province,Republic of Korea",
+      "topical_coverage": "multisector public data; current individual resource families unverified",
+      "dataset_families": "Official usage guide establishes provincial public-data APIs. No live catalogue or individual schema was enumerated. Indexed dataset pages lack usable request-address text; no specific resource URL verified.",
+      "documentation_url": "https://data.gg.go.kr/portal/openapi/usagePage.do",
+      "api_base_url": "https://openapi.gg.go.kr",
+      "format_protocol": "Documented REST XML/JSON",
+      "authentication": "Registered key for normal use; documented anonymous five-row mode untested. No account/key obtained.",
+      "free_access_restrictions": "Fees unknown; no registration, key use or data request performed.",
+      "license": "unknown effective work grant; full operative terms unresolved",
+      "license_url": "https://data.gg.go.kr/portal/termsPolicyPage.do",
+      "api_verification_state": "documented_registered_key_for_full_use_untested_anonymous_mode_not_exercised",
+      "latest_checked_utc": "2026-10-17T09:30:46.038438+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
