@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T23:01:12.158290+00:00",
+  "published_at": "2026-10-17T23:03:14.716417+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:00:52.848862+00:00",
+  "research_updated_at": "2026-10-17T23:02:31.841363+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Språkbanken native1502-ID frontier and exactSALDO BY4 sample; IndiaEnvironment originalhold/indexedfooter; TPA native release scope and IP caveat.",
+  "latest_milestone": "HCUPnet aggregate-specificDUA notrawHCUPterms; ISSDCnativeinstitutional scope without exactAPIgrant; WholeBrain nativecopyrightrestriction.",
   "counts": {
     "verified": 309,
-    "candidates": 623,
-    "excluded": 154,
+    "candidates": 625,
+    "excluded": 155,
     "sample_successes": 472
   },
   "remaining_work": [
@@ -10359,6 +10359,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ahrq-hcupnet-aggregate-statistics",
+      "provider": "Agency for Healthcare Research and Quality",
+      "service_name": "HCUPnet aggregate hospital-care statistics query tool",
+      "geographic_coverage": "United States national/state/county aggregates; participation/product/year coverage varies",
+      "topical_coverage": "health | economics | demographics | research",
+      "dataset_families": "Hospital utilization, diagnoses/procedures, costs/charges and readmission aggregate statistics; not paid encounter-level HCUP databases",
+      "documentation_url": "https://datatools.ahrq.gov/hcupnet/faq/ | https://datatools.ahrq.gov/hcupnet/hcupnet-dua",
+      "api_base_url": "",
+      "format_protocol": "Documented interactive query and PDF/Excel result exports, not current public machine API proof",
+      "authentication": "No credentials/accounts used",
+      "free_access_restrictions": "HCUPnet free query tool; user agreement forbids identification, small-cell discovery/linkage/contact. Paid HCUP raw-data restrictions separately scoped",
+      "license": "HCUPnet custom data-use conditions; general open metadata/statistics reuse grant unknown",
+      "license_url": "https://datatools.ahrq.gov/hcupnet/hcupnet-dua",
+      "api_verification_state": "native_current_HCUPnet_FAQ_and_aggregate_DUA_verified_public_machine_API_and_open_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T23:02:27.611507+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "aims-data-platform",
       "provider": "Australian Institute of Marine Science",
       "service_name": "AIMS DOI-addressed REST data platform",
@@ -14226,6 +14244,24 @@
       "license_url": "https://data.gov.il/terms",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-17T06:59:08.496260+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "issdc-space-science-archive",
+      "provider": "Indian Space Science Data Center / ISTRAC / ISRO",
+      "service_name": "ISSDC space-science mission payload archives",
+      "geographic_coverage": "Indian space science missions with lunar/planetary/astronomical subjects; global science community, exact mission/product coverage unenumerated",
+      "topical_coverage": "astronomy | geospatial | research",
+      "dataset_families": "AstroSat, Chandrayaan, Mars Orbiter and other mission payload/ancillary archives, per-mission access/policies",
+      "documentation_url": "https://www.issdc.gov.in/about.html | https://www.issdc.gov.in/terms_conditions.html",
+      "api_base_url": "",
+      "format_protocol": "Institutional ingest/process/archive/dissemination and public access descriptions; mission datafiles/PDS/CDF availability not API proof",
+      "authentication": "No credentials/accounts used",
+      "free_access_restrictions": "Principal investigators primary users, other scientists/generalpublic access described; exact per-mission registration/embargo/free conditions unverified",
+      "license": "unknown exact source payload/database grant; native terms do not establish unrestricted reuse",
+      "license_url": "https://www.issdc.gov.in/terms_conditions.html",
+      "api_verification_state": "native_institutional_archive_scope_and_terms_verified_independent_machine_API_and_per_mission_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T23:02:27.611507+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22670,6 +22706,24 @@
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
       "latest_checked_utc": "2026-10-17T21:55:22.169104+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "harvard-whole-brain-atlas",
+      "provider": "Whole Brain Atlas / Harvard Medical School-associated project",
+      "service_name": "Whole Brain Atlas neuroimaging educational reference",
+      "geographic_coverage": "Neuroanatomy/clinical imaging educational cases, not population/geographic inventory",
+      "topical_coverage": "health | education | research",
+      "dataset_families": "Normal brain anatomy and vascular/clinical neuroimaging atlas with MRI/PET and educational cases",
+      "documentation_url": "https://www.med.harvard.edu/AANLIB/ | https://www.med.harvard.edu/AANLIB/cprt.html",
+      "api_base_url": "",
+      "format_protocol": "Published educational atlas with JavaScript/legacy Java navigation; not data API proof",
+      "authentication": "No credentials/accounts used",
+      "free_access_restrictions": "Personal/educational portions with attribution/context permitted; commercial reproduction/multiple distribution prohibited",
+      "license": "Copyright all rights reserved, limited personal/educational permissions; reproduction otherwise requires written permission",
+      "license_url": "https://www.med.harvard.edu/AANLIB/cprt.html",
+      "api_verification_state": "native_copyright_and_educational_noncommercial_restrictions_verified_query_API_unresolved",
+      "latest_checked_utc": "2026-10-17T23:02:27.611507+00:00",
       "classification": "restricted"
     },
     {
