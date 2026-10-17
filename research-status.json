@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:02:03.820363+00:00",
+  "published_at": "2026-10-17T19:04:06.281173+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:58:33.666972+00:00",
+  "research_updated_at": "2026-10-17T19:02:13.258623+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine provider reviews checkpointed; FRED metadata and MassBank open-record interfaces verified; NU OAI and coastMap WFS sampled, source-rights gaps preserved.",
+  "latest_milestone": "IAGOS native public metadata and production schemas verified with policy conflict retained; APGC CKAN held/rights unresolved; AIRS legal grant but file/API gap",
   "counts": {
     "verified": 276,
-    "candidates": 506,
+    "candidates": 508,
     "excluded": 106,
     "sample_successes": 476
   },
@@ -9450,6 +9450,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "apgc-permafrost-ckan",
+      "provider": "Alfred Wegener Institute / Arctic Permafrost Geospatial Centre",
+      "service_name": "APGC permafrost CKAN portal/API candidate",
+      "geographic_coverage": "Arctic and permafrost geospatial studies; source-specific extents",
+      "topical_coverage": "climate | geospatial | environment | water | research",
+      "dataset_families": "Ground ice/deformation, hydrology, land-cover/landscape changes, permafrost extent and related geospatial metadata",
+      "documentation_url": "https://apgc.awi.de/ | https://docs.ckan.org/en/2.11/api/",
+      "api_base_url": "",
+      "format_protocol": "Portal identifies CKAN and links framework API docs; actual deployment JSON response not obtained",
+      "authentication": "unknown; native sample not sent because robots policy withheld. No account or alternate data calls.",
+      "free_access_restrictions": "Public descriptions link external open-access data; effective metadata/source reuse terms vary and remain unresolved",
+      "license": "unknown; metadata/database-wide licence unconfirmed, external datasets separately licensed",
+      "license_url": "https://apgc.awi.de/imprint",
+      "api_verification_state": "CKAN_portal_framework_documentation_linked_native_sample_robots_withheld_runtime_unverified",
+      "latest_checked_utc": "2026-10-17T19:02:09.169833+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "aragon-core",
       "provider": "Gobierno de Aragón / Aragón Open Data",
       "service_name": "GA OD Core tabular data REST API",
@@ -11877,6 +11895,24 @@
       "license_url": "https://www.hycom.org/ | https://www.hycom.org/dataserver/access-methods/thredds",
       "api_verification_state": "documented_primary_THREDDS_OPeNDAP_API_original_sample_policy_deferred_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T00:55:39.375541+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iagos-atmospheric-rest",
+      "provider": "IAGOS Data Centre / AERIS",
+      "service_name": "IAGOS production REST services v1/v2",
+      "geographic_coverage": "Global participating commercial-aircraft atmospheric research; route, instrument and period coverage varies",
+      "topical_coverage": "atmosphere | climate | environment | research",
+      "dataset_families": "Aircraft observational parameters, profiles/time series, derived atmospheric products and discovery metadata",
+      "documentation_url": "https://services.iagos-data.fr/prod/swagger-ui/index.html | https://services.iagos-data.fr/prod/api-docs/iagos-api-2.0 | https://services.iagos-data.fr/prod/api-docs/iagos-api-1.0",
+      "api_base_url": "https://services.iagos-data.fr/prod/",
+      "format_protocol": "REST JSON; production OpenAPI3.0.1 documents v1/v2 routes; public parameter dictionary sampled",
+      "authentication": "Anonymous public-parameter response succeeded. Swagger supports Bearer SSO; observational data registration/identity/research-description requirements documented. No account/token requested.",
+      "free_access_restrictions": "Data policy grants CC BY4 but adds required acknowledgments, co-authorship offer in significant-use cases and registration/research description; effective conditions require resolution",
+      "license": "CC BY4.0 explicitly stated; additional policy conditions and metadata/API scope unresolved",
+      "license_url": "https://iagos.aeris-data.fr/data-policy/",
+      "api_verification_state": "native_anonymous_public_parameter_JSON_success_production_OpenAPI_verified",
+      "latest_checked_utc": "2026-10-17T19:02:09.169833+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
