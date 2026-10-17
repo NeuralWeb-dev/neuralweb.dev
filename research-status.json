@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T18:15:03.954820+00:00",
+  "published_at": "2026-10-17T18:17:06.338867+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T18:11:41.604497+00:00",
+  "research_updated_at": "2026-10-17T18:16:11.649018+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed, four distinct records added; PhysioNet739versions/549slugs and MetaboLights3543IDs fully indexed at native snapshots; effective grants remain scoped/unresolved",
+  "latest_milestone": "EVA1103native study IDs, MissouriMapServer native metadata and INDI scoped restrictions checkpointed",
   "counts": {
     "verified": 271,
-    "candidates": 497,
-    "excluded": 91,
+    "candidates": 498,
+    "excluded": 93,
     "sample_successes": 476
   },
   "remaining_work": [
@@ -11115,6 +11115,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eva-variation-api",
+      "provider": "EMBL-EBI / European Variation Archive",
+      "service_name": "EVA genetic variation REST and identifier APIs",
+      "geographic_coverage": "All-species genetic variation research; exact study/population geography varies",
+      "topical_coverage": "biology | health | agriculture | research",
+      "dataset_families": "Short variation studies, variants, segments, genes, file metadata and submitted/clustered accession lookups; structural variation API separate",
+      "documentation_url": "https://www.ebi.ac.uk/eva/",
+      "api_base_url": "https://www.ebi.ac.uk/eva/webservices/rest/v1/ | https://www.ebi.ac.uk/eva/webservices/identifiers/v1/",
+      "format_protocol": "Read-only GET REST JSON; native study metadata catalogue",
+      "authentication": "Anonymous all-studies GET succeeded; no accounts or submissions",
+      "free_access_restrictions": "Open-access archive documented; no key/payment needed for tested catalogue. Original-owner data rights unresolved.",
+      "license": "unknown effective source study/metadata grant; general EBI terms preserve original-owner rights",
+      "license_url": "https://www.ebi.ac.uk/about/terms-of-use",
+      "api_verification_state": "native_anonymous_JSON1103study_catalogue_verified_grants_unresolved",
+      "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "fiji-statistics",
       "provider": "Fiji Bureau of Statistics / FBOS",
       "service_name": "FBOS Data Explorer national SDMX dissemination API",
@@ -18803,6 +18821,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "indi-neuroimaging-access-portal",
+      "provider": "International Neuroimaging Data-sharing Initiative / Child Mind Institute",
+      "service_name": "INDI mixed-access neuroimaging portal (API unresolved)",
+      "geographic_coverage": "International contributing neuroimaging collections; individual study scope varies",
+      "topical_coverage": "health | research | neuroscience",
+      "dataset_families": "Functional/morphometric/diffusion neuroimaging; human and nonhuman-primate collections",
+      "documentation_url": "https://fcon_1000.projects.nitrc.org/",
+      "api_base_url": "",
+      "format_protocol": "Research portal and documented data distribution; API unestablished",
+      "authentication": "Official homepage describes registration for INDI access; no account requested",
+      "free_access_restrictions": "General homepage describes non-commercial usage; PRIME-DE documents collection-specific CC-BY, NC and custom DUA options",
+      "license": "Mixed collection-specific restrictions; general non-commercial access, selected alternatives unreviewed",
+      "license_url": "https://fcon_1000.projects.nitrc.org/ | https://fcon_1000.projects.nitrc.org/indiPRIME.html",
+      "api_verification_state": "restricted_portal_primary_documentation_reviewed_original_policy_held_API_unresolved",
+      "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "ipd-immunopolymorphism-api",
       "provider": "Anthony Nolan HLA Informatics Group / EMBL-EBI",
       "service_name": "IPD Immuno Polymorphism Database REST API including IMGT/HLA",
@@ -18980,6 +19016,24 @@
       "license_url": "http://www5.mississauga.ca/research_catalogue/CityofMississauga_TermsofUse.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_restricted_mixed_terms",
       "latest_checked_utc": "2026-10-17T10:25:48.619088+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "missouri-dnr-geology-portal",
+      "provider": "Missouri Department of Natural Resources / Missouri Geological Survey",
+      "service_name": "Missouri Geological Survey portal and MapList service",
+      "geographic_coverage": "Missouri, United States",
+      "topical_coverage": "geospatial | geology | water | environment",
+      "dataset_families": "Geologic map footprints and map-image references; broader geological survey portal data separately scoped",
+      "documentation_url": "https://gis-modnr.opendata.arcgis.com/pages/dnr-missouri-geological-survey | https://gis.dnr.mo.gov/host/rest/services/geology/maplist/MapServer",
+      "api_base_url": "https://gis.dnr.mo.gov/host/rest/services/geology/maplist/MapServer",
+      "format_protocol": "ArcGIS REST JSON service metadata; Map/Query/Data capabilities",
+      "authentication": "Anonymous service metadata GET200; no credentials",
+      "free_access_restrictions": "MapList described as free viewing access. Portal links Missouri data policy with required disclaimers and right to require termination of displaying/distributing/using data for any reason; layer-specific exceptions unreviewed.",
+      "license": "Custom statewide revocable data-use policy; source-level open grant not established",
+      "license_url": "https://mo.gov/data-policy",
+      "api_verification_state": "native_anonymous_MapServer_metadata_verified_restricted_portal_policy",
+      "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
       "classification": "restricted"
     },
     {
