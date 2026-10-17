@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T08:36:53.344390+00:00",
+  "published_at": "2026-10-17T08:38:55.932516+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T08:29:49.117860+00:00",
+  "research_updated_at": "2026-10-17T08:38:36.329874+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Capital/registry6origins:ACTnamedCCBY4assemblyAPIrecord;DataPortals631PDDLJSON/allpriorseedIDs,noqueueinflation;Greececurrentterms/docsbutAPIheldcandidate.652services:212open/397candidates/43restricted;416originalleadsremain;globalin_progress.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 212,
-    "candidates": 397,
+    "verified": 213,
+    "candidates": 398,
     "excluded": 43,
-    "sample_successes": 403
+    "sample_successes": 405
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7069,6 +7069,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "veneto-open-data",
+      "provider": "Regione del Veneto; named rights holder Comune di Terrazzo",
+      "service_name": "Open Data Veneto CKAN-compatible catalogue and OData proxy",
+      "geographic_coverage": "Veneto,Italy;namedworkComune di Terrazzo demographictrend",
+      "topical_coverage": "Regionalmultisectorcatalogue;namedlicensedworkdemography/population",
+      "dataset_families": "6757returnedpackage-listentries/6756uniqueIDs,versus6769HTMLheadline. OnefullnamedTerrazzodemographymetadatarecord/tworesourceadvertisements,explicitCCBY4. ODataJSONonezero-filledrow/nativecount0,semanticsunresolved;notvalidatedpopulationstatistics.",
+      "documentation_url": "https://dati.veneto.it/content/sviluppatori",
+      "api_base_url": "https://dati.veneto.it/SpodCkanApi/api/3/action/ | https://dati.veneto.it/ODataProxy/ | https://dati.veneto.it/sparql",
+      "format_protocol": "ActualCKAN-compatibleJSONmetadata/listandOData-shapedJSONwrapper;SPARQL/v1/v2documenteduntested",
+      "authentication": "Actualanonymouscatalogue/list/ODatareads;SPARQLuntested,noaccount/key",
+      "free_access_restrictions": "Actualsmallmetadata/wrapperreadswithoutpayment. FulltermsCCBY3ITsite defaultexceptspecified;namedworkCCBY4specificbinding,otherdatasetsindividualrights/externalterms.",
+      "license": "CC BY4.0 for named Andamento demografico - Comune di Terrazzo dataset",
+      "license_url": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_and_named_OData_wrapper_native_count_zero_quality_unresolved",
+      "latest_checked_utc": "2026-10-17T08:37:46.177728+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "wales-statistics",
       "provider": "Welsh Government / StatsWales",
       "service_name": "StatsWales public REST APIs v2 and v1",
@@ -9676,8 +9694,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://www.dati.gov.it/note-legali",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:26:37.547985+00:00",
+      "api_verification_state": "unresolved;current_original_policy_held_unsent",
+      "latest_checked_utc": "2026-10-17T08:37:46.177923+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10020,6 +10038,24 @@
       "license_url": "https://www.loc.gov/legal/",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T21:47:28.205600+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lombardia-open-data",
+      "provider": "Regione Lombardia; named tourism data publisher Polis Lombardia - ISTAT",
+      "service_name": "Open Data Regione Lombardia Socrata API",
+      "geographic_coverage": "Lombardia,Italy;namedaggregatedmunicipaltourism2019-2024description",
+      "topical_coverage": "Regionalmultisectorcatalogue;actualnamedtourismaggregate",
+      "dataset_families": "NamedFlussituristicineicomunilombardi,vyxt-7jdx:actualviewmetadataandonepublicaggregateJSONrow. MetadatahaslicenseId/licenseabsent;numericvaluesreturnedDato riservato,notrecovered. Portal-widecatalogueunenumerated.",
+      "documentation_url": "https://www.dati.lombardia.it/",
+      "api_base_url": "https://www.dati.lombardia.it/api/views/ | https://www.dati.lombardia.it/resource/",
+      "format_protocol": "ActualSocrata/SODA JSONmetadataandpublicaggregaterow;ODataavailableinplatformbutuntestedhere",
+      "authentication": "Actualanonymousnamedmetadata/recordreads,noaccount/key",
+      "free_access_restrictions": "ActualsmallpublicAPIreadswithoutpayment. FulltermsCC0defaultwithindividualdataset/licence/thirdpartyexceptionsandcreditrequirement;namedgrantbindingunresolved. Suppressedvaluesarepublicmarkers,notpermissiontoquerywithhelddata.",
+      "license": "PortalCC0defaultpluscredit/specificdatasetexceptions;namedtourismmetadatahasnoexplicitlicence",
+      "license_url": "https://www.dati.lombardia.it/stories/s/ide6-ffgv",
+      "api_verification_state": "actual_public_JSON_sample_success_named_metadata_and_suppressed_aggregate_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T08:37:46.177884+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
