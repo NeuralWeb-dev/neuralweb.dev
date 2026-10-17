@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T16:47:14.023402+00:00",
+  "published_at": "2026-10-17T16:49:16.462490+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:46:42.750477+00:00",
+  "research_updated_at": "2026-10-17T16:48:16.280520+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "REFODATheld,EMEPmodelgrant/documentedOPeNDAP,ZVDDdeprecatedcandidate;StaedelCC0nativeOAI and resumableidentifierharvest",
+  "latest_milestone": "Three immunogenetics/atomicbibliography registrytasksreviewed;IPD/HLAsharedRESTdeduplicatedrestrictedND,CGIbibliographyAPI/grantunresolved",
   "counts": {
     "verified": 260,
     "candidates": 479,
-    "excluded": 67,
+    "excluded": 68,
     "sample_successes": 472
   },
   "remaining_work": [
@@ -17842,6 +17842,24 @@
       "license_url": "https://www.inaturalist.org/pages/terms",
       "api_verification_state": "historical_native_metadata_sample_success_current_official_terms_indexed_rechecked_direct_docs403_no_new_API_query",
       "latest_checked_utc": "2026-10-17T16:34:38.662553+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ipd-immunopolymorphism-api",
+      "provider": "Anthony Nolan HLA Informatics Group / EMBL-EBI",
+      "service_name": "IPD Immuno Polymorphism Database REST API including IMGT/HLA",
+      "geographic_coverage": "Human andnonhuman immune-gene reference nomenclature/sequences; worldwide researchcoverage,not demographicobservations",
+      "topical_coverage": "health; research; biodiversity",
+      "dataset_families": "Documented alleleprojectsHLA,MHC,KIR,NHKIR; publiccell metadata operations documented but notqueried. HPA/ESTDAB websitebranches notassumedcoveredbyalleleAPI",
+      "documentation_url": "https://www.ebi.ac.uk/ipd/rest/ | https://www.ebi.ac.uk/ipd/imgt/hla/",
+      "api_base_url": "https://www.ebi.ac.uk/cgi-bin/ipd/api/",
+      "format_protocol": "REST/JSON; embeddedOpenAPI3.0.1; sixdocumentedGEToperations",
+      "authentication": "PublicAPIserverspecified; noauthdeclaredinspec. Native readsampleheldbyrobotspolicybeforetargetrequest,not verifiedanonymoussuccess",
+      "free_access_restrictions": "Copyrightableparts/alignments Attribution-NoDerivs; attributioncitation andmodifieddistributionpermissionrequired; providermirroringopposed. Commercialuseallowedasstated,notpaid-subscriptioninferred. Patents/otherrightsmayapply.",
+      "license": "Creative Commons Attribution-NoDerivs(versionnotstatedonreviewedpages); modifieddistributionrequirespermission",
+      "license_url": "https://www.ebi.ac.uk/ipd/licence/ | https://www.ebi.ac.uk/ipd/imgt/hla/licence/",
+      "api_verification_state": "primary_embedded_OpenAPI_verified_native_allele_sample_robots_held_target_unsent_ND_restrictions_verified",
+      "latest_checked_utc": "2026-10-17T16:48:12.185871+00:00",
       "classification": "restricted"
     },
     {
