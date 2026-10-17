@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T20:46:19.464322+00:00",
+  "published_at": "2026-10-17T20:48:21.908988+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:41:27.613388+00:00",
+  "research_updated_at": "2026-10-17T20:48:08.761955+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed across two batches; six records added and CLARIN deduplicated. EarthScope facility-origin BY4 scopes documented with query holds; FDATCC0metadata/nativeOAI and scoped identifiers verified. Global discovery unfinished.",
+  "latest_milestone": "Art/GnpIS/Dryad originalsreviewed; HEIDIscopedCC0documented, heiDATA503andGnpISchallengepreserved, Dryaddeduplicated",
   "counts": {
-    "verified": 286,
-    "candidates": 555,
-    "excluded": 121,
+    "verified": 288,
+    "candidates": 559,
+    "excluded": 122,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -5301,6 +5301,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "columbia-academic-commons-api",
+      "provider": "Columbia University Libraries / Academic Commons",
+      "service_name": "Academic Commons bibliographic REST/OAI-PMH API",
+      "geographic_coverage": "Columbiaandaffiliatescholarshipwithinternationaltopics; globalreaderaccess, notcompleteworldresearch",
+      "topical_coverage": "research | education | culture | social sciences",
+      "dataset_families": "Bibliographicmetadataforarticles,reports,theses,conferenceobjects,datasets; acceptanceexcludesabstracttextandfiles",
+      "documentation_url": "https://academiccommons.columbia.edu/developers | https://academiccommons.columbia.edu/api/v1/swagger_doc",
+      "api_base_url": "https://academiccommons.columbia.edu/api/v1/ | https://academiccommons.columbia.edu/oai",
+      "format_protocol": "NativeOAI-PMH2IdentifyXML andSwagger2JSONcontract; GETsearch/DOIrecordJSONdocumented, notreturnedrecordsample",
+      "authentication": "AnonymousOAIIdentifyandAPIschema succeeded; OAIlargeharvest mayrequirepriorcustomuseragentarrangement. No contact/accounts",
+      "free_access_restrictions": "PublicbibliographicmetadataCC0exceptabstracts; noaggressivecrawling, expressrobotsrestrictions apply; restrictedbulkdata_feedonlyforarrangedColumbiaentities",
+      "license": "Creative Commons Zero1.0 Universal for bibliographicmetadata excludingabstracts",
+      "license_url": "https://academiccommons.columbia.edu/developers",
+      "api_verification_state": "native_anonymous_OAI_Identify_XML_and_Swagger_JSON_success_explicit_CC0_bibliographic_metadata_scope_verified",
+      "latest_checked_utc": "2026-10-17T20:46:18.970620+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "croatia-statistics",
       "provider": "Croatian Bureau of Statistics (DZS)",
       "service_name": "PC-Axis / PxWeb statistical database API",
@@ -5603,7 +5621,7 @@
       "license": "CC0 1.0 for published datasets",
       "license_url": "https://datadryad.org/stash/terms",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:45:59.912680+00:00",
+      "latest_checked_utc": "2026-10-17T20:48:04.505451+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6576,6 +6594,24 @@
       "license_url": "https://repos.hcu-hamburg.de/about/policy/ | https://repos.hcu-hamburg.de/about/tos",
       "api_verification_state": "native_anonymous_OAI_Identify_sets_and_scoped_dataset_identifier_inventory_success_CC0_metadata_verified",
       "latest_checked_utc": "2026-10-17T20:01:33.958206+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "heidelberg-heidi-catalogue-data-api",
+      "provider": "Heidelberg University Library",
+      "service_name": "HEIDI bibliographic RDF/MODS and catalogue BEACON interfaces",
+      "geographic_coverage": "HeidelberglibrarybibliographiccatalogueandheiBIBinstitutionalbibliography, internationalpublicationtopics",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "BibliographicRDF/MODStitlerecords andcatalogue/heiBIBauthoritylinkBEACONdata; notallHeidelbergrepository/sourcefiles",
+      "documentation_url": "https://www.ub.uni-heidelberg.de/helios/kataloge/lod.html | https://www.ub.uni-heidelberg.de/helios/kataloge/datenschnittstellen.html",
+      "api_base_url": "https://katalog.ub.uni-heidelberg.de/titel/{id}/rdf | https://katalog.ub.uni-heidelberg.de/titel/{id}/mods",
+      "format_protocol": "OperatorRDF/MODSHTTPexport andBEACONdatasets documented; nativequerynotobtained",
+      "authentication": "Publicreadexamplesdocumented, noaccount; sampletargetrobots-withheld",
+      "free_access_restrictions": "CataloguedataexplicitCC0unrestrictedreuse; robotsreadholdseparatefromlegalgrant",
+      "license": "Creative Commons Zero (CC0) for publishedcataloguedataandlistedBEACONderiveddata",
+      "license_url": "https://www.ub.uni-heidelberg.de/helios/kataloge/lod.html",
+      "api_verification_state": "primary_operator_CC0_catalogue_grant_and_RDF_MODS_contract_verified_native_RDF_robots_withheld_target_unsent",
+      "latest_checked_utc": "2026-10-17T20:48:04.505451+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12215,6 +12251,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gnpis-plant-data-services",
+      "provider": "URGI / INRAE / Université Paris-Saclay",
+      "service_name": "GnpIS plant genetic and phenomic information services",
+      "geographic_coverage": "Internationalplant/foresttreegeneticandphenomicresearch; exactspecies/geographiccatalogueunverified",
+      "topical_coverage": "agriculture | biodiversity | biology | research",
+      "dataset_families": "Geneticresources,phenotypes,markers/maps/QTLs,genomics; BrAPI/GnpISREST anddistinctInterMine/RepetDB/grapemine leadspublished",
+      "documentation_url": "https://urgi.versailles.inrae.fr/Tools/Web-services | https://urgi.versailles.inrae.fr/Platform/General-Terms-of-Use",
+      "api_base_url": "",
+      "format_protocol": "Officialindexed2019docsBrAPI/REST/WADL/InterMine; warnsolderBreedingAPIdeprecated. Currentdeploymentunverified",
+      "authentication": "unknown; noaccounts/credentialsused",
+      "free_access_restrictions": "Publicdiscovery andsourcegrants distinguished",
+      "license": "OfficialindexedtermsstatepublicdataCCBYdefault, exceptions/privateconsortiumandpersonal-data conditions; exactversion/effectivesource/metadata grant unresolved",
+      "license_url": "https://urgi.versailles.inrae.fr/Platform/General-Terms-of-Use",
+      "api_verification_state": "native_portal_and_doc_requests_Anubis_challenges_primary_indexed_API_and_policy_claims_only_runtime_untested",
+      "latest_checked_utc": "2026-10-17T20:48:04.505451+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "goa-ecology",
       "provider": "Gulf of Alaska Data Portal",
       "service_name": "Gulf of Alaska Data Portal DataONE research repository API",
@@ -12428,6 +12482,24 @@
       "license_url": "https://www.healthdata.gov/data.json",
       "api_verification_state": "actual_public_JSON_sample_success_full_catalogue_metadata_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T09:37:38.553941+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "heidata-research-metadata-api",
+      "provider": "Heidelberg University Library / Heidelberg University",
+      "service_name": "heiDATA research repository API including arthistoricum collection",
+      "geographic_coverage": "Heidelberginstitutionalandarthistoricumresearch withinternationalstudy/artsubjects; collectionextentunverified",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Researchdataset/softwaredescriptionsincludingarthistoricum art-historyresearchdata; individualimages/audio/video/tabularsourceworks notrequested",
+      "documentation_url": "https://www.ub.uni-heidelberg.de/helios/kataloge/datenschnittstellen.html | https://www.arthistoricum.net/publizieren/forschungsdaten",
+      "api_base_url": "https://heidata.uni-heidelberg.de/oai (officiallydocumented) | https://heidata.uni-heidelberg.de/api/ (querycontractunverified)",
+      "format_protocol": "OAI-PMHofficialoperatorlisted; Dataversecollection/versionprobe503, noJSON/XMLdataverified",
+      "authentication": "unknown; noaccounts/credentialsused",
+      "free_access_restrictions": "Publicdiscovery andsourcegrants distinguished",
+      "license": "unknownuniversalheiDATAmetadata/databasegrant; individualdataset/softwarelicencesneedreview",
+      "license_url": "https://www.arthistoricum.net/publizieren/forschungsdaten | https://www.ub.uni-heidelberg.de/helios/kataloge/lod.html",
+      "api_verification_state": "primary_operator_OAI_documented_native_collection_and_version_HTTP503_temporary_unavailability_not_absence",
+      "latest_checked_utc": "2026-10-17T20:48:04.505451+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14084,6 +14156,24 @@
       "license_url": "https://www.nfdi4health.de/en/service/health-study-hub/frequently-asked-questions.html",
       "api_verification_state": "actual_native_public_POST_search_metadata_sample_success_provider_freely_usable_claim_formal_scope_unresolved",
       "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nfdi4ing-ingest-metadata-api",
+      "provider": "University and State Library Darmstadt / NFDI4ING",
+      "service_name": "ing.est engineering metadata OAI-PMH/REST/SPARQL",
+      "geographic_coverage": "Engineeringresearch fromcivilengineering,architecture,urbanism; depositor/studygeographiesvary, notGermany-onlycoverage",
+      "topical_coverage": "research | housing | geospatial | engineering | culture",
+      "dataset_families": "Engineering2D/3Dresearchdata descriptions,RDFapplicationprofiles,deposit/searchmetadata; conversion/previewprocessinginterfaces documentedbutnotused",
+      "documentation_url": "https://nfdi4ing.de/ingest/ | https://ingest.nfdi4ing.de/api/ | https://ingest.nfdi4ing.de/api/v1/openapi.json",
+      "api_base_url": "https://ingest.nfdi4ing.de/api/v1/",
+      "format_protocol": "Native OAI-PMH2XMLIdentify,ListMetadataFormats,ListIdentifiers; nativeOpenAPIJSON; REST/SPARQLdocumented",
+      "authentication": "Anonymous publicdocumentation; noaccounts orcredentials",
+      "free_access_restrictions": "Publicdiscovery andsource-specificaccess/grantsmustbedistinguished",
+      "license": "unknown universalmetadata/databasegrant; sourcecontentpublished underdepositor-selectedlicences",
+      "license_url": "https://docs.ulb.tu-darmstadt.de/nfdi4ing-ingest/nutzungsvereinbarung/",
+      "api_verification_state": "native_anonymous_OAI_Identify_fourformats_and33identifiers_complete_OpenAPI_JSON_verified_licence_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:46:18.970620+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16244,6 +16334,24 @@
       "license_url": "https://www.sardegnageoportale.it/documentazione/notelegali/",
       "api_verification_state": "sample_success_WFS2_capabilities_XML_only",
       "latest_checked_utc": "2026-10-17T12:55:09.710923+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sarig-geoscience-data-services",
+      "provider": "Geological Survey of South Australia / Department for Energy and Mining",
+      "service_name": "SARIG geoscience catalogue CSW and documented OGC data services",
+      "geographic_coverage": "SouthAustralia geology/mineral/petroleum/tenement/drilling resources; exactlayer/collectionspansvary",
+      "topical_coverage": "geospatial | energy | water | geoscience | public administration | research",
+      "dataset_families": "Geosciencedataset/map/report/boreholecatalogue; officialindexdescribesgeology,drilling,geochemistry,mineral/energytenement WMS/WFS",
+      "documentation_url": "https://github.com/GeologicalSurveySouthAustralia/SARIG-Catalogue-CSW | https://www.energymining.sa.gov.au/industry/geological-survey/products-and-services/map-viewers-databases-and-services/data-services",
+      "api_base_url": "https://catalog.sarig.sa.gov.au/csw (documented; activation/runtime unverified)",
+      "format_protocol": "OfficialCSW2.0.2andCKANqueryexamples, OGCWMS/WFSclaims; nativeAPIresponse notobtained",
+      "authentication": "Officialdocclaimsnoaccessconstraints, not independentlyverified; noaccounts",
+      "free_access_restrictions": "Publicdiscovery andsource-specificaccess/grantsmustbedistinguished",
+      "license": "unknown metadata/database/sourcegrants; officialcoderepositoryCCBY4 appliescode/contentonly",
+      "license_url": "https://github.com/GeologicalSurveySouthAustralia/SARIG-Catalogue-CSW#license",
+      "api_verification_state": "primary_owner_CSW_contract_documented_temporary_disable_warning_native_API_untested_energymining_documentation_robotsheld",
+      "latest_checked_utc": "2026-10-17T20:46:18.970620+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19612,6 +19720,24 @@
       "license_url": "https://sobre.arquivo.pt/pt/acerca/termos-e-condicoes/",
       "api_verification_state": "documented_CDX_API_sample_policy_deferred_target_unsent",
       "latest_checked_utc": "2026-10-17T03:17:43.785774+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "arthistoricum-art-discovery-portal",
+      "provider": "SLUB Dresden and Heidelberg University Library",
+      "service_name": "arthistoricum.net art-history discovery/publication portal",
+      "geographic_coverage": "Internationalarthistory/culturalcollectionswithGermanresearchinfrastructure; sourcecoveragevaries",
+      "topical_coverage": "culture | research | education | history",
+      "dataset_families": "Artbibliographies/auctions/publications/exhibitions/images; ART-Dok/ART-Books/journals/researchdata andIIIFreferences distinctservices",
+      "documentation_url": "https://www.arthistoricum.net/ | https://www.arthistoricum.net/service/forschungstools-datendienste | https://www.arthistoricum.net/publizieren/forschungsdaten",
+      "api_base_url": "",
+      "format_protocol": "ProviderHTML,IIIF/imageviewertooldescriptions andexternalresearchrepo links; no centralJSON/XMLquery verified",
+      "authentication": "unknown; noaccounts/credentialsused",
+      "free_access_restrictions": "Publicdiscovery andsourcegrants distinguished",
+      "license": "Defaultwebsitecontent requiresrights-holderpermission; individualpublishedsource/metadata grants maydiffer",
+      "license_url": "https://www.arthistoricum.net/impressum",
+      "api_verification_state": "native_provider_docs_default_website_rights_verified_dependent_interfaces_distinguished_no_central_query_success",
+      "latest_checked_utc": "2026-10-17T20:48:04.505451+00:00",
       "classification": "restricted"
     },
     {
