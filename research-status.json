@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-17T13:20:54.524053+00:00",
+  "published_at": "2026-10-17T13:22:57.114844+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:20:52.167358+00:00",
+  "research_updated_at": "2026-10-17T13:21:21.774647+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Seoul/Cape eight origins checkpointed:737 services,240 scoped-open,440 candidates,57 restricted. Singapore137pages/1370collections/2336childIDs;existingMunicipalMoney21cubes rechecked;Seoulpublicdemo candidate;SLIPupdateCCBYNC4restricted.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
@@ -2896,7 +2896,8 @@
       "economics/finance": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "singapore"
         ],
         "candidate_provider_ids": [
           "philippines",
@@ -2908,7 +2909,8 @@
       "labor": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "singapore"
         ],
         "candidate_provider_ids": [
           "philippines"
@@ -2952,7 +2954,8 @@
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "singapore"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -2960,7 +2963,8 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "singapore"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -2969,7 +2973,8 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "malaysia",
-          "siak-regency-open-data"
+          "siak-regency-open-data",
+          "singapore"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": []
@@ -2977,7 +2982,8 @@
       "housing": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "singapore"
         ],
         "candidate_provider_ids": [
           "thailand-gistda"
@@ -7383,8 +7389,8 @@
       "provider": "Singapore government data.gov.sg",
       "service_name": "data.gov.sg real-time and collection/dataset API interfaces",
       "geographic_coverage": "Singapore",
-      "topical_coverage": "climate/weather/environment; transportation; demographics",
-      "dataset_families": "Weather; transport; government tables",
+      "topical_coverage": "climate/weather/environment; transportation; demographics; economics/finance; education; housing; health; energy; labor",
+      "dataset_families": "Weather; transport; government tables; collection catalogue includes taxable-company aggregates, education progression, HDB resident population, healthier-choice product listings, electricity-generation fuel mix and labour-force participation. Individual work grants/rows not checked.",
       "documentation_url": "https://guide.data.gov.sg/developer-guide/api-overview",
       "api_base_url": "https://api-open.data.gov.sg/",
       "format_protocol": "REST JSON; realtime api-open.data.gov.sg; collection api-production.data.gov.sg/v2/public/api/; see separate interface index",
