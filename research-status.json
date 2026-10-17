@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:57:13.566160+00:00",
+  "published_at": "2026-10-17T19:59:15.963417+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:55:53.435870+00:00",
+  "research_updated_at": "2026-10-17T19:59:01.028121+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals processed; native ICDC THREDDS, Virgo one-row SQL CSV, WSM32 OAI descriptions, UFZ OAI/formats and D-PLACE root JSON verified. Exact open scope preserved; cloud atlas and D-PLACE restricted. IOW parent deduplicated; global discovery unfinished.",
+  "latest_milestone": "LMU Physics21 OAI identifiers/8 formats verified; GDI-DE CSW/REST documented and GeoReM ownership/citation reviewed, exact grants unresolved",
   "counts": {
     "verified": 281,
-    "candidates": 532,
+    "candidates": 535,
     "excluded": 115,
     "sample_successes": 475
   },
@@ -11730,6 +11730,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gdi-de-geodatenkatalog",
+      "provider": "GDI-DE / Federal Agency for Cartography and Geodesy (BKG)",
+      "service_name": "Geodatenkatalog.de federal/state geospatial metadata catalogue",
+      "geographic_coverage": "Germany federal/state and other participating catalogues; European/international metadata exchange",
+      "topical_coverage": "geospatial | environment | government | multidisciplinary",
+      "dataset_families": "Geospatial datasets, services and applications harvested from distributed federal/state, business and academic catalogues",
+      "documentation_url": "https://www.gdi-de.org/praxis-projekte/servicefunktionen/geodatenkatalog-de | https://docs.fitko.de/de/resources/geodatenkatalog/ | https://gdk.gdi-de.org/gdi-de/doc/api/",
+      "api_base_url": "https://gdk.gdi-de.org/ ; CSW/REST documented, exact current data-query path/runtime unresolved",
+      "format_protocol": "Official CSW and REST documentation; native root GeoNetwork HTML not a successful API sample",
+      "authentication": "Public operator documentation; exact current API access/authentication unknown",
+      "free_access_restrictions": "Operator says metadata content freely available through standardized interface, formal output/database licence and service restrictions unresolved",
+      "license": "Exact harvested metadata/database grant unknown; source-data and federal-only reuse regulations not applied universally",
+      "license_url": "https://www.gdi-de.org/praxis-projekte/servicefunktionen/geodatenkatalog-de",
+      "api_verification_state": "official_CSW_REST_documented_native_landing_HTML_only_docs_connection_failures_preserved",
+      "latest_checked_utc": "2026-10-17T19:58:54.964718+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "geneva-sitg-geoservices",
       "provider": "État de Genève,SITG partner network",
       "service_name": "SITG public geospatial services and vector directory",
@@ -11763,6 +11781,24 @@
       "license_url": "https://publish.geo.be/geonetwork/f0ow2say/api/records/RMI_DATASET_SYNOP?language=fre",
       "api_verification_state": "actual_public_JSON_sample_success_named_ISO_metadata_record_catalogue_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T09:07:44.552811+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "georem-reference-materials",
+      "provider": "International Association of Geoanalysts / GeoReM with DIGIS hosting",
+      "service_name": "GeoReM geochemical reference-material database portal",
+      "geographic_coverage": "Worldwide reference materials and analytical laboratories; not a geographic field-observation coverage claim",
+      "topical_coverage": "geochemistry | geology | materials | environment | research",
+      "dataset_families": "Reference materials, published/preferred major/trace-element and isotope values, analytical methods, uncertainties and bibliography",
+      "documentation_url": "https://georem.earth/ | https://georem.earth/CiteGeorem.html",
+      "api_base_url": "",
+      "format_protocol": "Web query forms and citation guide; no machine-query endpoint/documentation verified",
+      "authentication": "Public documentation accessible; query/data export access conditions untested",
+      "free_access_restrictions": "Public use described with citation; exact source/database grant and API access terms unknown",
+      "license": "Exact GeoReM source/metadata/database licence unknown; IAG copyright/ownership and citation guide not unrestricted grant",
+      "license_url": "https://georem.earth/ | https://georem.earth/CiteGeorem.html",
+      "api_verification_state": "official_HTML_reference_database_and_citation_verified_API_contract_gap",
+      "latest_checked_utc": "2026-10-17T19:58:54.964718+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13023,6 +13059,24 @@
       "license_url": "https://osp.stat.gov.lt/en/rdb-rest",
       "api_verification_state": "documented_primary_SDMX_service_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T23:48:06.144992+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lmu-physics-oai",
+      "provider": "LMU Faculty of Physics / LMU Library / Leibniz Supercomputing Centre",
+      "service_name": "Open Data LMU Physics OAI-PMH repository",
+      "geographic_coverage": "Physics and weather/atmosphere research, source-specific experimental/model domains",
+      "topical_coverage": "physics | weather | climate | materials | research",
+      "dataset_families": "Research dataset descriptions including numerical weather prediction, radiative transfer, condensed-matter/quantum physics and laboratory data",
+      "documentation_url": "https://opendata.physik.lmu.de/",
+      "api_base_url": "https://lmuphys.rdm.lab.lrz.de/oai2d",
+      "format_protocol": "Native OAI-PMH2 XML Identify, 8 metadata formats and paginated identifiers",
+      "authentication": "Anonymous OAI identification/formats/identifiers succeeded; source files not requested",
+      "free_access_restrictions": "One specific ICON-D2 dataset explicitly CC BY4; blanket metadata/database/source terms unconfirmed",
+      "license": "Exact OAI metadata/database grant unknown; source DOI10.57970/d1dn5-zwj06 explicitly CC BY4",
+      "license_url": "https://opendata.physik.lmu.de/d1dn5-zwj06/",
+      "api_verification_state": "native_anonymous_OAI_Identify_formats_and_complete_identifier_cursor_success",
+      "latest_checked_utc": "2026-10-17T19:58:54.964718+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
