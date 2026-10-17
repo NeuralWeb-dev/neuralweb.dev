@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T02:51:11.924128+00:00",
+  "published_at": "2026-10-17T02:53:14.365152+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:45:23.949893+00:00",
+  "research_updated_at": "2026-10-17T02:52:32.307704+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Started queued CLARIN DK/PL and Thoth primary metadata/API verification batch",
+  "latest_milestone": "CLARIN primary portal13spec claims processed:2new metadata candidates,1diagnostic utility excluded,4policy deferrals retained; native metadata indexes and global unresolved gaps saved",
   "counts": {
-    "verified": 167,
-    "candidates": 293,
+    "verified": 170,
+    "candidates": 295,
     "excluded": 30,
-    "sample_successes": 297
+    "sample_successes": 302
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3574,6 +3574,42 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "clarin-dk",
+      "provider": "University of Copenhagen / CLARIN-DK",
+      "service_name": "CLARIN-DK repository public metadata APIs",
+      "geographic_coverage": "Denmark; Danish and multilingual language-resource metadata",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language corpora, lexicons, tools and resource descriptions; 46 native OAI identifiers indexed; deposited files have separate rights/access",
+      "documentation_url": "https://repository.clarin.dk/static/metadata",
+      "api_base_url": "https://repository.clarin.dk/server/oai/request",
+      "format_protocol": "OAI-PMH 2.0/XML; CMDI and Dublin Core metadata formats advertised",
+      "authentication": "None for tested public Identify, formats, sets, identifiers and GetRecord",
+      "free_access_restrictions": "Public metadata requests succeeded anonymously. Reserves right to be informed about commercial metadata use with use-case description. No paid access or accounts used; no notification sent. Deposited resources may require authentication/licence acceptance.",
+      "license": "CC0 1.0 — repository metadata only",
+      "license_url": "https://repository.clarin.dk/static/metadata",
+      "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_native_catalog_sample_success",
+      "latest_checked_utc": "2026-10-17T02:51:13.922289+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "clarin-pl",
+      "provider": "Wrocław University of Science and Technology / CLARIN-PL",
+      "service_name": "CLARIN-PL repository public metadata APIs",
+      "geographic_coverage": "Poland; Polish and multilingual language-resource metadata",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Language corpora, lexicons, tools and resource descriptions; 734 native OAI identifiers indexed; deposited files have separate rights/access",
+      "documentation_url": "https://clarin-pl.eu/dspace/static/metadata",
+      "api_base_url": "https://clarin-pl.eu/oai/request",
+      "format_protocol": "OAI-PMH 2.0/XML; CMDI and Dublin Core metadata formats advertised",
+      "authentication": "None for tested public Identify, formats, sets, identifiers and GetRecord",
+      "free_access_restrictions": "Public metadata requests succeeded anonymously. Requests informing Helpdesk about commercial metadata use with use-case description. No paid access or accounts used; no notification sent. Deposited resources may require authentication/licence acceptance.",
+      "license": "CC0 1.0 — repository metadata only",
+      "license_url": "https://clarin-pl.eu/dspace/static/metadata",
+      "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_native_catalog_sample_success",
+      "latest_checked_utc": "2026-10-17T02:51:13.922289+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "cleveland-art",
       "provider": "Cleveland Museum of Art",
       "service_name": "Cleveland Museum of Art public metadata API",
@@ -5770,6 +5806,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "thoth",
+      "provider": "Thoth Open Metadata CIC",
+      "service_name": "Thoth public bibliographic metadata GraphQL and Export APIs",
+      "geographic_coverage": "International; participating open-access book publishers",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Open-access book bibliographic metadata; export catalogs11formats/18platforms/17specifications; one book metadata record tested",
+      "documentation_url": "https://thoth.pub/docs | https://api.thoth.pub/graphiql | https://export.thoth.pub/openapi.json",
+      "api_base_url": "https://api.thoth.pub/graphql | https://export.thoth.pub/",
+      "format_protocol": "REST/JSON,ONIX,MARC,KBART,BibTeX metadata exports; GraphQL documented, query result unresolved",
+      "authentication": "No credentials for tested public Export catalog and work metadata. GraphQL editor public; write/publisher account operations not used.",
+      "free_access_restrictions": "Current official terms section5 explicitly unrestricted access/use of metadata under CC0; publisher management/dissemination services have separate service/account terms. No paid service acquired.",
+      "license": "CC0 1.0 — all Thoth metadata",
+      "license_url": "https://thoth.pub/docs/policies/terms-thoth-metadata",
+      "api_verification_state": "actual_REST_export_reference_catalog_and_book_metadata_sample_success_GraphQL_unresolved",
+      "latest_checked_utc": "2026-10-17T02:51:13.922289+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "transportapi-fi",
       "provider": "Fintraffic Digitraffic",
       "service_name": "Fintraffic Digitraffic road, railway and marine open-data APIs",
@@ -6726,6 +6780,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "clarin-fcs",
+      "provider": "CLARIN ERIC / contributing language centers",
+      "service_name": "Federated Content Search aggregator discovery API",
+      "geographic_coverage": "Europe/international; participating language-resource institutions",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "792language/corpus/tool discovery descriptors,36original endpoint URLclaims,12nativeconsortiumlabels; no text corpus search executed",
+      "documentation_url": "https://contentsearch.clarin.eu/openapi.json",
+      "api_base_url": "https://contentsearch.clarin.eu/rest/",
+      "format_protocol": "REST/JSON; OpenAPI; XML or FCS/SRU upstream interfaces documented where applicable",
+      "authentication": "No credentials for tested public discovery GETs; private/write operations not used",
+      "free_access_restrictions": "Anonymous bounded metadata requests succeeded, no payment/account/key used. Dataset/service reuse grant and production rate guarantees unknown.",
+      "license": "unknown for aggregated metadata and referenced content",
+      "license_url": "https://contentsearch.clarin.eu/openapi.json",
+      "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
+      "latest_checked_utc": "2026-10-17T02:52:31.829394+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "clarin-skgif",
       "provider": "CLARIN / KNAW Humanities Cluster",
       "service_name": "CLARIN VLO SKG-IF staging API",
@@ -6741,6 +6813,24 @@
       "license_url": "https://vlo.clarin.eu/about",
       "api_verification_state": "actual_product_metadata_JSONLD_sample_success",
       "latest_checked_utc": "2026-10-17T02:41:10.608141+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clarin-vcr",
+      "provider": "CLARIN ERIC",
+      "service_name": "Virtual Collection Registry public collections API",
+      "geographic_coverage": "Europe/international; participating language-resource institutions",
+      "topical_coverage": "research; culture; education",
+      "dataset_families": "Public virtual collections and linked language-resource references;38 unique collection descriptors indexed from reported41",
+      "documentation_url": "https://collections.clarin.eu/swagger.json",
+      "api_base_url": "https://collections.clarin.eu/service/",
+      "format_protocol": "REST/JSON; OpenAPI; XML or FCS/SRU upstream interfaces documented where applicable",
+      "authentication": "No credentials for tested public discovery GETs; private/write operations not used",
+      "free_access_restrictions": "Anonymous bounded metadata requests succeeded, no payment/account/key used. Dataset/service reuse grant and production rate guarantees unknown.",
+      "license": "unknown for aggregated metadata and referenced content",
+      "license_url": "https://collections.clarin.eu/swagger.json",
+      "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
+      "latest_checked_utc": "2026-10-17T02:52:31.829394+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
