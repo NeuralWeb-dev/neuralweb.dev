@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-17T01:21:16.069596+00:00",
+  "published_at": "2026-10-17T01:23:18.487481+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:21:12.565590+00:00",
+  "research_updated_at": "2026-10-17T01:23:07.347374+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Africa official statistical-service follow-up started: Ghana current PxWeb root/terms; distinct Rwanda PxWeb; distinct Tunisia national CKAN selected record. Prior inaccessible INS/OGD endpoints not retried.",
+  "latest_milestone": "Rwanda distinct PxWeb actual root metadata API and scoped NISR CC BY4 default verified; lower namespace unresolved",
   "counts": {
-    "verified": 155,
+    "verified": 156,
     "candidates": 210,
     "excluded": 27,
     "sample_successes": 202
@@ -5168,6 +5168,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "rwanda-pxweb",
+      "provider": "National Institute of Statistics of Rwanda (NISR)",
+      "service_name": "NISR Statistical Databases PxWeb API",
+      "geographic_coverage": "Rwanda",
+      "topical_coverage": "Official statistics; exact published table families unresolved",
+      "dataset_families": "One native API database: NISR Statistical Databases. UI labels service beta; lower directory outcome unresolved, no observation or detailed coverage claim.",
+      "documentation_url": "https://pxweb.statistics.gov.rw/pxweb/en/",
+      "api_base_url": "https://pxweb.statistics.gov.rw/api/v1/en/",
+      "format_protocol": "PxWeb v1; structured JSON metadata; data-query contract untested",
+      "authentication": "No credentials required for successful root metadata GET; other operations unknown",
+      "free_access_restrictions": "NISR policy says Internet data free; resource-specific exceptions supersede default. No account/key acquired.",
+      "license": "CC BY 4.0 default for NISR data/analysis, with embedded content exceptions",
+      "license_url": "https://statistics.gov.rw/terms-use",
+      "api_verification_state": "documented_standard_protocol_root_metadata_sample_success_lower_directory_unresolved",
+      "latest_checked_utc": "2026-10-17T01:22:14.444319+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "scb",
       "provider": "Statistics Sweden",
       "service_name": "Statistical Database PxWeb APIs v2 and legacy v1",
@@ -6831,16 +6849,16 @@
       "service_name": "Ghana Statistical Service StatsBank open data portal",
       "geographic_coverage": "Ghana",
       "topical_coverage": "demographics; economics/finance",
-      "dataset_families": "Official statistical tables",
-      "documentation_url": "https://statsbank.statsghana.gov.gh/",
+      "dataset_families": "Current native root exposes ten dbid namespaces including AHIES, Education(Admin), Agriculture census, GLSS7, two distinct Macro Economic labels, PHC2021, PHC2010, Search Bar and Trade; native table index retains paths.",
+      "documentation_url": "https://statsbank.statsghana.gov.gh/pxweb/en/",
       "api_base_url": "https://statsbank.statsghana.gov.gh/api/v1/en/",
       "format_protocol": "PXWeb/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://statsghana.gov.gh/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:27:14.988438+00:00",
+      "authentication": "Root and successful directory metadata GETs anonymous; data-query operations untested",
+      "free_access_restrictions": "No operative open-license grant verified. Native public metadata accessible without key; complete data access conditions unknown.",
+      "license": "unknown; no operative aggregate StatsBank reuse grant identified",
+      "license_url": "https://statsbank.statsghana.gov.gh/Resources/GSS/GSS_Footer.html",
+      "api_verification_state": "current_root_metadata_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T01:23:08.230602+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9324,7 +9342,7 @@
       "license": "Sample declares Tunisia national public-open-data licence;full current terms not completely inspected",
       "license_url": "https://data.gov.tn/fr/licences-de-r%C3%A9utilisation-des-donn%C3%A9es-publiques-ouvertes/licence-nationale-de-donn%C3%A9es-publiques-ouvertes/",
       "api_verification_state": "historical_metadata_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-16T23:05:31.640155+00:00",
+      "latest_checked_utc": "2026-10-17T01:21:09.628646+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
