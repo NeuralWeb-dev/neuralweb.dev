@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T11:53:02.359143+00:00",
+  "published_at": "2026-10-17T11:55:05.050000+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:47:02.544357+00:00",
+  "research_updated_at": "2026-10-17T11:54:38.510673+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Mekong/Nordic ten originals checkpointed:709services232scoped-open423candidates54restricted;ODC14149native names/restrictedterms;Raleigh dataset metadata/policyunread;Baltimore native catalog/scopedCCBY3;OpenAid publisherPDM/commonIATI,standalonelegacyAPIunestablished;Kenya legacy404.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 232,
-    "candidates": 423,
-    "excluded": 54,
-    "sample_successes": 439
+    "verified": 234,
+    "candidates": 426,
+    "excluded": 55,
+    "sample_successes": 440
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5618,6 +5618,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "jersey-government-open-data",
+      "provider": "Government of Jersey",
+      "service_name": "Government of Jersey CKAN catalog / documented DataStore API",
+      "geographic_coverage": "Jersey, Crown Dependency; published government information",
+      "topical_coverage": "Demographics; economics/finance; labor; health; housing; government data discovery",
+      "dataset_families": "Current homepage categories include population, employment, economy, health, housing and earnings. Native inventory not enumerated; third-party118dataset claims not accepted as count.",
+      "documentation_url": "https://opendata.gov.je/api/1/util/snippet/api_info.html?resource_id=03ed6604-6d06-4f3c-8906-049bc23246b4",
+      "api_base_url": "https://opendata.gov.je/api/3/action/",
+      "format_protocol": "Current official indexed resource docs describe CKAN DataStore JSON/JSONP read/query interfaces. Workspace first API request held; doc examples not live responses.",
+      "authentication": "Current API authentication untested because sample held before sending; no key/account/token obtained.",
+      "free_access_restrictions": "Full OGL-J1 grants eligible information reuse without charges, with attribution. Runtime access/auth/rate limits unverified; no signup/key. Separately licensed States Assembly/third-party material not silently included.",
+      "license": "Open Government Licence–Jersey1.0 for eligible offered government information",
+      "license_url": "https://www.gov.je/ServiceManual/opendata/Pages/open-government-licence-jersey-ogl-j-v1-0.aspx",
+      "api_verification_state": "official_indexed_CKAN_API_documented_full_OGL_J1_scoped_verified_first_sample_policy_held",
+      "latest_checked_utc": "2026-10-17T11:46:38.767167+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "kamloops-open-data",
       "provider": "City of Kamloops,British Columbia",
       "service_name": "Kamloops open-data portal and scoped Brownfield ArcGIS service",
@@ -6911,6 +6929,24 @@
       "license_url": "https://ror.readme.io/docs/display",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.372780+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "rostock-open-data",
+      "provider": "Hanse- und Universitätsstadt Rostock",
+      "service_name": "OpenData.HRO CKAN catalog and optional DataStore APIs",
+      "geographic_coverage": "Rostock, Germany",
+      "topical_coverage": "Municipal metadata; geospatial; health/public amenities",
+      "dataset_families": "Official API documentation demonstrates pharmacy dataset metadata and optional DataStore resource queries. No current native dataset count or individual resource inventory verified.",
+      "documentation_url": "https://www.opendata-hro.de/api_info",
+      "api_base_url": "https://www.opendata-hro.de/api/3/action/",
+      "format_protocol": "Official web-reader/indexed provider documentation describes CKAN JSON package_search/package_show and optional DataStore. Code examples are documentation, not live responses.",
+      "authentication": "Official read examples show no key; current runtime auth untested. Workspace original origin held; no API sample sent afterward.",
+      "free_access_restrictions": "Official indexed full terms specify CC0 1.0 for website content unless otherwise marked. No current API fee/tier or numeric quota verified.",
+      "license": "CC0 1.0 default for eligible published website content, except otherwise marked",
+      "license_url": "https://www.opendata-hro.de/terms_of_use",
+      "api_verification_state": "official_indexed_API_documented_CC0_terms_verified_workspace_policy_held_API_sample_untested",
+      "latest_checked_utc": "2026-10-17T11:46:38.767461+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8428,6 +8464,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "brussels-city-open-data",
+      "provider": "City of Brussels / Ville de Bruxelles / Stad Brussel",
+      "service_name": "City of Brussels Opendatasoft catalog and Explore API",
+      "geographic_coverage": "City of Brussels, Belgium; individual regional/external datasets vary",
+      "topical_coverage": "Multisector municipal discovery; geospatial; transport; environment",
+      "dataset_families": "Current portal menus advertise data, observatory and API; no native inventory count verified. Search-discovered external/reused dataset pages are discovery claims only.",
+      "documentation_url": "https://opendata.brussels.be/api-console/explore/v2.1/",
+      "api_base_url": "https://opendata.brussel.be/api/explore/v2.1/",
+      "format_protocol": "Official indexed Explore2.1 console advertises REST/GET/JSON; current web-reader page is a navigation shell. Actual API schema/data response untested, not inferred from HTML200.",
+      "authentication": "Current API authentication untested because sample held before sending; no key/account/token obtained.",
+      "free_access_restrictions": "Full terms require each dataset specific licence. Logo/trademark and out-of-dataset images excluded. Licence page returned navigation only; no blanket licence or all-work free tier established.",
+      "license": "unknown effective individual dataset or catalog-metadata licence",
+      "license_url": "https://opendata.brussel.be/terms/terms-and-conditions/",
+      "api_verification_state": "official_portal_API_navigation_and_indexed_console_documented_first_sample_policy_held_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T11:50:06.156855+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "buenos-aires",
       "provider": "Buenos Aires Data",
       "service_name": "Buenos Aires Data open data portal",
@@ -9868,6 +9922,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "granada-university-open-data",
+      "provider": "Universidad de Granada / Oficina de Software Libre",
+      "service_name": "OpenData UGR CKAN, advertised DCAT/SPARQL and DataStore interfaces",
+      "geographic_coverage": "University of Granada, Spain",
+      "topical_coverage": "Education; research; university administration; budgets; metadata discovery",
+      "dataset_families": "Official site describes academic/research/service/budget data and advertises65datasets/3organizations/11groups as UI claims only, not native enumeration.",
+      "documentation_url": "https://opendata.ugr.es/es/api/1/util/snippet/api_info.html?resource_id=455f020b-460c-49e2-9a6f-4555d7cd73c8",
+      "api_base_url": "https://opendata.ugr.es/es/api/3/action/",
+      "format_protocol": "Official indexed CKAN DataStore read examples; current homepage also advertises RDF/DCAT and SPARQL. No live API/RDF/query response tested.",
+      "authentication": "Current API authentication untested because sample held before sending; no key/account/token obtained.",
+      "free_access_restrictions": "Official about encourages public/private reuse, but no effective named instrument verified from current university pages. No account or paid tier used.",
+      "license": "unknown current eligible dataset and metadata grant; directory ODC-BY claim not adopted",
+      "license_url": "https://opendata.ugr.es/about",
+      "api_verification_state": "official_CKAN_DataStore_and_DCAT_SPARQL_documented_first_small_API_policy_held_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T11:49:12.539163+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "greece",
       "provider": "Greece Ministry of Digital Governance / data.gov.gr",
       "service_name": "Greek national data portal and Data Services directory (catalog API unresolved)",
@@ -10063,6 +10135,24 @@
       "license_url": "",
       "api_verification_state": "actual_public_JSON_sample_success_repository_metadata_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T10:23:55.385930+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "hungary-community-opendata",
+      "provider": "K-Monitor community / opendata.hu; hosting Precognox",
+      "service_name": "Hungarian community CKAN data catalog",
+      "geographic_coverage": "Hungary; contributor-specific coverage",
+      "topical_coverage": "Community multisector discovery; civic; energy; economics",
+      "dataset_families": "Current community homepage describes gas/industry and tax-related metadata examples; individual datasets and inventory not enumerated.",
+      "documentation_url": "https://www.opendata.hu/about",
+      "api_base_url": "https://www.opendata.hu/api/3/action/",
+      "format_protocol": "Official about page names CKAN and footer links its API docs; native API response not obtained.",
+      "authentication": "Current API authentication untested because sample held before sending; no key/account/token obtained.",
+      "free_access_restrictions": "Official about calls service free/public, but this is not a data-rights grant or proof of runtime API authentication. Contributor rules do not establish all catalog reuse rights.",
+      "license": "unknown current effective per-work/catalog-metadata licence",
+      "license_url": "http://www.opendata.hu/html/felhasznalasifeltetelek.html",
+      "api_verification_state": "official_CKAN_service_documented_first_API_policy_held_linked_terms_HTTP404_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T11:44:35.295293+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15501,6 +15591,24 @@
       "license_url": "https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica | https://www.bnf.fr/en/order-reproduction-commercial-use",
       "api_verification_state": "documented_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:53:50.981610+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bonn-open-data",
+      "provider": "Bundesstadt Bonn",
+      "service_name": "Bonn DKAN catalog API and documented municipal interface families",
+      "geographic_coverage": "Bonn, Germany",
+      "topical_coverage": "Multisector municipal metadata; geospatial; economics/finance; transport; environment; spending; education",
+      "dataset_families": "287 unique native catalog names and one park-work metadata response; 108 unique official Cockpit dataset links tagged as API-related discovery, not independently verified APIs.",
+      "documentation_url": "https://ogdcockpit.bonn.de/API_Beschreibungen",
+      "api_base_url": "https://opendata.bonn.de/api/3/action/",
+      "format_protocol": "Actual DKAN CKAN-compatible JSON package_list and package_show. package_show wraps one object in a list. Full CKAN action parity not assumed.",
+      "authentication": "Anonymous native name list and exact park metadata HTTP200 valid JSON; no credentials.",
+      "free_access_restrictions": "Public metadata reads without payment. Current full terms add purpose prohibitions to CC0 and permit withdrawal of service; do not infer unrestricted grant from branding or external provider terms.",
+      "license": "CC0 1.0 headline plus additional purpose restrictions; conflicting/restricted current published offer",
+      "license_url": "https://opendata.bonn.de/seiten/nutzungsbedingungen",
+      "api_verification_state": "actual_public_JSON_sample_success_DKAN_names_exact_park_metadata_current_restricted_terms_reviewed",
+      "latest_checked_utc": "2026-10-17T11:48:19.864639+00:00",
       "classification": "restricted"
     },
     {
