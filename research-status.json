@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T12:21:38.450616+00:00",
+  "published_at": "2026-10-17T12:23:41.225192+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T12:11:54.404178+00:00",
+  "research_updated_at": "2026-10-17T12:23:07.604704+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Northern cities ten originals checkpointed:720 services,235 scoped-open,430 candidates,55 restricted;Oulu native47paths/46GETresources and one aggregate;Netherlands metadataCC0/APIheld;Oregon candidate;Paris current-terms scope unresolved,earlierODbL preserved.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 235,
-    "candidates": 430,
+    "verified": 236,
+    "candidates": 431,
     "excluded": 55,
-    "sample_successes": 442
+    "sample_successes": 443
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6666,6 +6666,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "piemonte-opendata-catalog",
+      "provider": "Regione Piemonte / CSI Piemonte and dataset-specific publishers",
+      "service_name": "Piemonte open-data catalog metadata and summary API",
+      "geographic_coverage": "Italy/Piedmont; regional and participating municipal/provincial publishers, resource-specific extents",
+      "topical_coverage": "agriculture; environment; energy; economics/finance; spending; demographics; education; culture; geospatial; transportation; law/civic; health; research",
+      "dataset_families": "1621 public catalog descriptors; native source labels669CSW/952CKAN,32owner labels. Regional/municipal datasets, geospatial resources and civic/environment/economic families; labels not independently verified APIs/grants.",
+      "documentation_url": "https://www.dati.piemonte.it/ | https://www.dati.piemonte.it/js/app.507c9671.js | https://www.dati.piemonte.it/api/view/comefareper/2",
+      "api_base_url": "https://www.dati.piemonte.it/api/",
+      "format_protocol": "JSON public GET summary/editorial endpoints; read-only POST /api/datasets/search with native frontend request schema; no script execution or write-route use",
+      "authentication": "Anonymous summary, editorial JSON and metadata search succeeded; no account/key used",
+      "free_access_restrictions": "Small public reads and finite metadata pass without payment/registration. Other Yucca/SmartDataNet, private/IoT, resource and publisher services have independent conditions; not tested or accepted as all free.",
+      "license": "CC BY 4.0 default for site content except expressly marked materials",
+      "license_url": "https://www.dati.piemonte.it/js/chunk-806e9c88.74b1ea4c.js | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "documented_frontend_native_JSON_summary_and_metadata_search_sample_success",
+      "latest_checked_utc": "2026-10-17T12:21:35.309219+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "poland",
       "provider": "Government of Poland",
       "service_name": "Government of Poland open data portal",
@@ -6739,7 +6757,7 @@
     },
     {
       "identifier": "portugal",
-      "provider": "Portuguese government dados.gov.pt",
+      "provider": "Agência para a Reforma Tecnológica do Estado (ARTE) / dados.gov.pt",
       "service_name": "Portuguese government dados.gov.pt open data portal",
       "geographic_coverage": "Portugal",
       "topical_coverage": "geospatial",
@@ -6747,12 +6765,12 @@
       "documentation_url": "https://dados.gov.pt/api/1/",
       "api_base_url": "https://dados.gov.pt/api/1/",
       "format_protocol": "REST/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "Public uData metadata API sample succeeded without key",
+      "authentication": "Current official terms/help document free unregistered public reading; historical anonymous datasetJSON success retained, no fresh data/API query this batch",
+      "free_access_restrictions": "Current official terms: platform use free, reading/downloading requires no registration; write/community functions require individual registration/authentication. No account/key used. Numerical read-request quota unknown.",
       "license": "CC BY 4.0 for explicitly marked dataset subset",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:48:24.772066+00:00",
+      "license_url": "https://dados.gov.pt/pt/termos-de-utilizacao | https://dados.gov.pt/en/pages/faqs/licenses/ | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "documented_historical_sample_success_current_origin_policy_deferred",
+      "latest_checked_utc": "2026-10-17T12:21:35.309519+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12533,6 +12551,24 @@
       "license_url": "https://portulanclarin.net/agreement/",
       "api_verification_state": "registry_claimed_OAI_endpoint_returns_maintenance_HTML_not_API_response",
       "latest_checked_utc": "2026-10-17T03:04:42.888056+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "princegeorge-road-traffic-api",
+      "provider": "City of Prince George",
+      "service_name": "OpenData RoadTraffic ArcGIS FeatureServer",
+      "geographic_coverage": "Canada/British Columbia/City of Prince George; service-specific extent",
+      "topical_coverage": "transportation; geospatial; housing",
+      "dataset_families": "Street/traffic infrastructure: sidewalks, walkways, lights/signals, roads/edges, railway, bridges/intersections, parking lots and traffic-equipment tables. Official indexed descriptors, not live feature inventory.",
+      "documentation_url": "https://services2.arcgis.com/CnkB6jCzAsyli34z/ArcGIS/rest/services/OpenData_RoadTraffic/FeatureServer | https://www.princegeorge.ca/city-hall/maps-access-information",
+      "api_base_url": "https://services2.arcgis.com/CnkB6jCzAsyli34z/ArcGIS/rest/services/OpenData_RoadTraffic/FeatureServer",
+      "format_protocol": "Documented ArcGIS REST/JSON service; layer-level GeoJSON/PBF advertised in indexed schema, not tested",
+      "authentication": "unknown for current API runtime; official indexed documentation public; anonymous sample target unsent under robots/policy",
+      "free_access_restrictions": "City page links current open-data Hub; observed HTMLshell only. Dataset access, free-use conditions and rights unresolved. No accounts, keys, features or paid access used.",
+      "license": "unconfirmed for this service and each source/layer",
+      "license_url": "https://data-cityofpg.opendata.arcgis.com/pages/about-open-data",
+      "api_verification_state": "official_indexed_API_documented_sample_policy_deferred",
+      "latest_checked_utc": "2026-10-17T12:21:35.309447+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
