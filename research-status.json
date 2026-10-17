@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-17T11:18:19.777993+00:00",
+  "published_at": "2026-10-17T11:20:22.287304+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:17:58.698134+00:00",
+  "research_updated_at": "2026-10-17T11:19:55.834370+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Alpine/global ten originals checkpointed:706services230scoped-open423candidates53restricted;NOI191descriptors175CC0parents;Vienna378WFS types/restrictedterms;Ontario/Trentino candidates,NYstate restricted.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
   "counts": {
-    "verified": 230,
+    "verified": 231,
     "candidates": 423,
     "excluded": 53,
     "sample_successes": 436
@@ -4444,6 +4444,24 @@
       "license_url": "https://data.cms.gov/data.json",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:51:48.757221+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "colombia",
+      "provider": "Colombian government datos.gov.co",
+      "service_name": "Colombia datos.gov.co Socrata data APIs; scoped MinTIC FAQ verification",
+      "geographic_coverage": "Colombia",
+      "topical_coverage": "Multisector public-data portal; verified FAQ/publication-quality guidance only",
+      "dataset_families": "Native MinTIC FAQ asset antb-69gi explicitly CC BY-SA4, metadata and one FAQ row tested. Inherited discovery index28139 distinct domain+asset keys, not28139 verified APIs or open works.",
+      "documentation_url": "https://herramientas.datos.gov.co/node/304",
+      "api_base_url": "https://www.datos.gov.co/resource/ | https://www.datos.gov.co/api/views/",
+      "format_protocol": "Socrata SODA/JSON",
+      "authentication": "Anonymous native view metadata and one FAQ row200validJSON; official FAQ says registration unnecessary for reading/downloading. No account/key/token.",
+      "free_access_restrictions": "Official current terms permit commercial/noncommercial use, redistribution, extraction, copying and adaptation with source credit and update-date/terms metadata preservation. External content and content-specific terms require separate review; no government-ownership licence inference.",
+      "license": "CC BY-SA4.0 for native MinTIC FAQ asset antb-69gi; current portal custom reuse terms reviewed separately",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "api_verification_state": "actual_public_JSON_sample_success_native_FAQ_metadata_and_one_row_scoped_CCBYSA4_verified",
+      "latest_checked_utc": "2026-10-17T11:19:27.960728+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8913,24 +8931,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "colombia",
-      "provider": "Colombian government datos.gov.co",
-      "service_name": "Colombian government datos.gov.co open data portal",
-      "geographic_coverage": "Colombia",
-      "topical_coverage": "multisector public data",
-      "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://dev.socrata.com/foundry/www.datos.gov.co/",
-      "api_base_url": "https://www.datos.gov.co/resource/",
-      "format_protocol": "Socrata SODA/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://www.datos.gov.co/nominate/2890",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:26:59.396364+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "companies-house",
       "provider": "UK Companies House",
       "service_name": "UK Companies House API",
@@ -10476,6 +10476,24 @@
       "license_url": "https://www.data.go.kr/en/ugs/selectPortalPolicyView.do",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T06:59:08.495663+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "kosovo-eprokurimi",
+      "provider": "Open Data Kosovo / e-Prokurimi",
+      "service_name": "Kosovo municipal procurement API",
+      "geographic_coverage": "Kosovo; six documented municipality values",
+      "topical_coverage": "Public spending/contracts; local budgets; procurement analytics",
+      "dataset_families": "Documented procurement budget/procedure summaries, monthly counts, red flags, treemap/pie charts; years2010–2016 listed. Sample request targets2012Prishtina aggregate only. Company endpoints documented but unqueried.",
+      "documentation_url": "https://github.com/opendatakosovo/e-prokurimi-api/blob/master/README.md",
+      "api_base_url": "http://e-prokurimi.org/api/municipality-procurements/",
+      "format_protocol": "Provider-owned repository documents HTTP GET and JSON schemas; no successful live API response this batch.",
+      "authentication": "Unknown current runtime requirements. Documentation examples contain no key; sample held before sending, no account/key.",
+      "free_access_restrictions": "Official developer directory calls resources open/free; effective data licence, current free tier and operating status unconfirmed. Software/open-source wording does not grant procurement data rights.",
+      "license": "unknown effective procurement-data licence",
+      "license_url": "https://opendatakosovo.org/data-for-developers/",
+      "api_verification_state": "official_provider_GET_JSON_documented_small_aggregate_policy_held_data_rights_unresolved",
+      "latest_checked_utc": "2026-10-17T11:19:27.960834+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
