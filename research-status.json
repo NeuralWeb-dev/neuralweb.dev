@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:03:33.999913+00:00",
+  "published_at": "2026-10-17T17:05:36.456981+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:01:05.164137+00:00",
+  "research_updated_at": "2026-10-17T17:05:34.501643+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Seven scientific/ecology registry tasks reviewed; Birdata restricted, KTH and SeaBASS candidates; SCAR CC0 native GBIF sample deduplicated into existing service",
+  "latest_milestone": "Fourregionalresearchoriginsreviewed;existingB2SHAREscopedmetadataCC0verified(currentruntimeheld),SURFAPIguideheldcandidate,CEDR/CSESAPI/grantsunresolved",
   "counts": {
-    "verified": 261,
+    "verified": 262,
     "candidates": 481,
-    "excluded": 71,
+    "excluded": 72,
     "sample_successes": 473
   },
   "remaining_work": [
@@ -4309,6 +4309,24 @@
       "license_url": "https://www.ris.bka.gv.at/UI/Ogd.aspx",
       "api_verification_state": "current_primary_OGD_CCBY4_and_API_documentation_verified_original_root_policy_held_untested",
       "latest_checked_utc": "2026-10-17T04:42:08.610625+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "b2share",
+      "provider": "EUDAT B2SHARE",
+      "service_name": "EUDAT B2SHARE public descriptive metadata API",
+      "geographic_coverage": "Europe/Global",
+      "topical_coverage": "research",
+      "dataset_families": "Research data records; communities; file metadata",
+      "documentation_url": "https://docs.eudat.eu/b2share/rest/records/ | https://docs.eudat.eu/b2share/rest/httpapi/",
+      "api_base_url": "https://b2share.eudat.eu/api/",
+      "format_protocol": "Documented REST/JSON; current record schema differs from older examples",
+      "authentication": "Current docs: public listing/read not access-controlled; private/write operations require OAuth bearer token. No credentials used. Native current sample held before target request.",
+      "free_access_restrictions": "Accepted only public descriptive metadata under explicit terms CC0. Files/embargo/restricted content separately licensed; account/private/write workflows not queried.",
+      "license": "CC0 1.0 Universal for public service metadata per current explicit terms",
+      "license_url": "https://b2share.eudat.eu/terms-of-use | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "current_primary_public_REST_deployment_and_metadata_CC0_grant_verified_native_sample_robots_held_target_unsent_historical_slash404_preserved",
+      "latest_checked_utc": "2026-10-17T17:05:30.355144+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9153,24 +9171,6 @@
       "license_url": "https://www.data.gv.at/katalog/en/dataset/33078dd6-05e0-4263-a464-f35bd1607ecd",
       "api_verification_state": "primary_indexed_OGC_reference_original_JSON_policy_held_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T04:41:17.280140+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
-      "identifier": "b2share",
-      "provider": "EUDAT B2SHARE",
-      "service_name": "EUDAT B2SHARE API",
-      "geographic_coverage": "Europe/Global",
-      "topical_coverage": "research",
-      "dataset_families": "Research data records; communities; file metadata",
-      "documentation_url": "https://eudat.eu/services/userdoc/b2share-http-rest-api",
-      "api_base_url": "https://b2share.eudat.eu/api/",
-      "format_protocol": "REST/JSON",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://eudat.eu/services/userdoc/license-selector",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:56:54.500330+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14952,6 +14952,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "surf-data-repository",
+      "provider": "SURF",
+      "service_name": "SURF Data Repository portal and published REST API guide(runtime unresolved)",
+      "geographic_coverage": "Netherlands research institutions and international collaborations; per-record scope",
+      "topical_coverage": "research; education",
+      "dataset_families": "Research datasets/collections,communities,persistent DOI/Handle records; no records queried",
+      "documentation_url": "https://repository.surf.nl | https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/329842698/SDR+REST+API",
+      "api_base_url": "",
+      "format_protocol": "HTML InvenioRDM portal; provider-published REST API guide link exists,protocol/runtime details unverified",
+      "authentication": "unknown for API; portal offers login. No account/key/credentials used.",
+      "free_access_restrictions": "Indexed official consumeragreement requires exactDigitalObjectcopyright/licencecompliance; no uniform openmetadata/sourcegrant established. API/terms docs direct401challenge.",
+      "license": "Per-object licences; uniform metadata/source terms unconfirmed",
+      "license_url": "https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/37388397/Data+Repository+Data+Consumer+Agreement",
+      "api_verification_state": "public_HTML_portal_provider_API_guide_link_verified_direct_docs401_challenge_exact_API_grant_unresolved_no_native_sample",
+      "latest_checked_utc": "2026-10-17T17:05:30.355144+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "surrey-open-data-map-service",
       "provider": "City of Surrey, British Columbia",
       "service_name": "Surrey OpenData ArcGIS map service",
@@ -17975,6 +17993,24 @@
       "license_url": "https://www.inaturalist.org/pages/terms",
       "api_verification_state": "historical_native_metadata_sample_success_current_official_terms_indexed_rechecked_direct_docs403_no_new_API_query",
       "latest_checked_utc": "2026-10-17T16:34:38.662553+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "indepth-ishare-data-repository",
+      "provider": "INDEPTH Network / iSHARE",
+      "service_name": "INDEPTH health and demographic data repository(public API unresolved)",
+      "geographic_coverage": "Health/demographic surveillance sites in Africa,Asia and Oceania; reviewed accesspolicy example Nairobi,Kenya",
+      "topical_coverage": "demographics; health; research",
+      "dataset_families": "Longitudinal health/demographic surveillance datasets and documentation; no microdata acquired",
+      "documentation_url": "https://www.indepth-ishare.org/index.php/howtouse | https://www.indepth-ishare.org/index.php/catalog/39/accesspolicy",
+      "api_base_url": "",
+      "format_protocol": "Indexed HTML repository/data-dictionary/export documentation; no native machine API verified",
+      "authentication": "Indexed official instructions require registration/login for microdata downloads; no account or credentials used",
+      "free_access_restrictions": "Reviewed dataset39 requires written permission for redistribution/sale and single-centre analysis; registration/data-use agreement. No form,download,contact or agreement accepted.",
+      "license": "CC BY-NC4.0 for reviewed dataset documentation; data-use agreement and redistribution/analysis restrictions",
+      "license_url": "https://www.indepth-ishare.org/index.php/catalog/39/accesspolicy",
+      "api_verification_state": "original_root_policy_held_indexed_primary_restrictive_terms_documented_public_API_unresolved_no_native_sample",
+      "latest_checked_utc": "2026-10-17T17:03:58.479790+00:00",
       "classification": "restricted"
     },
     {
