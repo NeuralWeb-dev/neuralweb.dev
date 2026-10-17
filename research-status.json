@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:39:28.062050+00:00",
+  "published_at": "2026-10-17T21:41:30.610841+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:37:10.808088+00:00",
+  "research_updated_at": "2026-10-17T21:39:36.562171+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original providers reviewed in two batches: Chemotion scoped-open, BOLD/COD/DHS/UPN candidates, CITF restricted. Fourteen Chemotion operations, two OAI formats and one source-license sample indexed. Global discovery unfinished.",
+  "latest_milestone": "ClinicalCodes BY3/API future-work candidate, AmericasBarometer restricted, CDPP archive restricted and AMDA separate metadata/service candidate verified.",
   "counts": {
     "verified": 300,
-    "candidates": 583,
-    "excluded": 128,
+    "candidates": 585,
+    "excluded": 130,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -10123,6 +10123,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "amda-space-plasma-rest",
+      "provider": "CDPP / IRAP",
+      "service_name": "AMDA REST web services",
+      "geographic_coverage": "Multi-mission solar-system/heliospheric/space-plasma observations and models; physical space locations, not global administrative coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Mission/instrument/parameter metadata, observations, time tables and catalogs from local and remote providers",
+      "documentation_url": "https://amda.irap.omp.eu/help/info.html | https://amda.irap.omp.eu/help/apidoc/ | https://amda.irap.omp.eu/help/apidoc/api_data.js",
+      "api_base_url": "https://amda.irap.omp.eu/php/rest/",
+      "format_protocol": "Native apiDoc JavaScript operation contract parsed; JSON health endpoint success only, not time-series/data-query success. REST/SOAP/SAMP/EPN-TAP documented.",
+      "authentication": "Anonymous health request succeeded; contract documents auth token for data/orbit/parameter routes and optional credentials for user-owned data. No auth/token/user-owned request performed.",
+      "free_access_restrictions": "Public discovery is distinct from source access/reuse; no paid acquisition",
+      "license": "unknown explicit universal metadata/database grant",
+      "license_url": "https://amda.irap.omp.eu/help/info.html | https://cdpp.irap.omp.eu/index.php/licence-sipad",
+      "api_verification_state": "native_13_operation_version_contract_and_JSON_health_success_no_data_source_sample_or_open_grant",
+      "latest_checked_utc": "2026-10-17T21:39:32.420303+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "andalusia-regional-rest",
       "provider": "Junta de Andalucía",
       "service_name": "Regional public-data REST API specification families",
@@ -11254,6 +11272,24 @@
       "license_url": "https://collections.clarin.eu/swagger.json",
       "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
       "latest_checked_utc": "2026-10-17T02:50:06.926212+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clinicalcodes-repository",
+      "provider": "University of Manchester / ClinicalCodes",
+      "service_name": "ClinicalCodes code-list repository",
+      "geographic_coverage": "UK primary-care oriented clinical code lists with Read/ICD/SNOMED code systems and research article links; not patient-level records",
+      "topical_coverage": "health | research",
+      "dataset_families": "Published study phenotypes and clinical code lists; source lists differ from underlying clinical terminology licensing",
+      "documentation_url": "https://clinicalcodes.rss.mhs.man.ac.uk/ | https://clinicalcodes.rss.mhs.man.ac.uk/faq/",
+      "api_base_url": "",
+      "format_protocol": "Native HTML repository/FAQ; CSV code-list downloads described, no verified API response",
+      "authentication": "No accounts, keys, credentials or private queries used",
+      "free_access_restrictions": "Public discovery is distinct from source access/reuse; no paid acquisition",
+      "license": "FAQ explicitly assumes CC BY3.0 Unported for code lists; independent API and blanket article/database rights unresolved",
+      "license_url": "https://clinicalcodes.rss.mhs.man.ac.uk/faq/",
+      "api_verification_state": "native_source_license_FAQ_verified_API_described_as_future_work_current_query_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:39:32.420303+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20439,6 +20475,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "americasbarometer-public-data",
+      "provider": "Vanderbilt Center for Global Democracy / LAPOP Lab",
+      "service_name": "AmericasBarometer public data and premium archive",
+      "geographic_coverage": "National public-opinion surveys across the Americas since2004; exact country/year collection not enumerated",
+      "topical_coverage": "demographics | law/civic data | research",
+      "dataset_families": "Democracy, governance, political attitudes, public opinion, survey-country and regional research data",
+      "documentation_url": "https://www.vanderbilt.edu/cgd/americasbarometer/ | https://www.vanderbilt.edu/cgd/data-access/",
+      "api_base_url": "",
+      "format_protocol": "Native HTML source/access terms; R package and playground described, not proof of public query API",
+      "authentication": "No accounts, keys, credentials or private queries used",
+      "free_access_restrictions": "Free public data described; annual paid premium archive/merged files/support offered. No subscription or source data acquired.",
+      "license": "Current operator terms prohibit sharing full datasets; restricted replication extracts and subscriber-only merged services",
+      "license_url": "https://www.vanderbilt.edu/cgd/data-access/ | https://www.vanderbilt.edu/cgd/americasbarometer/",
+      "api_verification_state": "native_current_free_access_and_redistribution_restrictions_verified_public_API_unestablished",
+      "latest_checked_utc": "2026-10-17T21:39:32.420303+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "anc-restricted-data-portal",
       "provider": "Austrian NeuroCloud / Paris Lodron University Salzburg",
       "service_name": "Austrian NeuroCloud dataset access portal (restricted; CC0 metadata separate)",
@@ -20814,6 +20868,24 @@
       "license_url": "https://cdip.ucsd.edu/m/documents/data_access.html#data-use-and-acknowledgements",
       "api_verification_state": "operator_documented_API_services_native_original_policy_held_untested",
       "latest_checked_utc": "2026-10-17T18:52:48.221384+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "cdpp-archived-products",
+      "provider": "CDPP / CNES and CNRS",
+      "service_name": "CDPP archived-products access and SIPAD legacy terms",
+      "geographic_coverage": "Solar-system natural plasma observations, primarily French instrument contributions; physical space coverage, not country demographics",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Archived space-plasma scientific products, instrument/processing descriptions and associated software/documentation",
+      "documentation_url": "https://cdpp.irap.omp.eu/ | https://cdpp.irap.omp.eu/index.php/licence-sipad",
+      "api_base_url": "",
+      "format_protocol": "Native HTML archive description and license; root says REGARDS replaced SIPAD, not an independently verified current API",
+      "authentication": "No accounts, keys, credentials or private queries used",
+      "free_access_restrictions": "Public discovery is distinct from source access/reuse; no paid acquisition",
+      "license": "Published archived-product license v1.1(2000-01-04): own-needs use/processing, redistribution by prior written agreement and no commercial use",
+      "license_url": "https://cdpp.irap.omp.eu/index.php/licence-sipad",
+      "api_verification_state": "native_published_archived_product_restrictions_verified_current_REGARDS_API_and_licensing_transition_unresolved",
+      "latest_checked_utc": "2026-10-17T21:39:32.420303+00:00",
       "classification": "restricted"
     },
     {
