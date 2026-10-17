@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T07:47:48.318480+00:00",
+  "published_at": "2026-10-17T07:49:50.893082+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:45:22.035945+00:00",
+  "research_updated_at": "2026-10-17T07:48:54.213269+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Swiss municipal batch in progress: fiveoriginalroots reviewed,ZuerichactualCKAN941metadatarecords finite10pagepass. Law/fullcurrentframeworkread,othercityAPI/rights unresolved. Nooriginalqueueadvanceyet.",
+  "latest_milestone": "Swissmunicipalbatch:fiveoriginsprocessed,Zurich941nativeworks/4509resources,Bern324metadata. Two scopedopenservices(financekeyuntested)+onecandidate added. 443originalleadsremain;globalin_progress.",
   "counts": {
-    "verified": 206,
-    "candidates": 391,
+    "verified": 208,
+    "candidates": 392,
     "excluded": 43,
-    "sample_successes": 395
+    "sample_successes": 397
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7178,6 +7178,42 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "zurich-city-finance-api",
+      "provider": "Stadt Zuerich,Finanzverwaltung",
+      "service_name": "RPK public financial data API",
+      "geographic_coverage": "City Zurich,Switzerland",
+      "topical_coverage": "Municipalfinance,budget,accounts,publicspending",
+      "dataset_families": "Budget,supplementalappropriations andaccounts forcitydepartments/institutions since2012 percurrentofficialOGDpage;12documentedGEToperations,noactualfinancialrowsqueried.",
+      "documentation_url": "https://opendatazurich.github.io/rpk-api/docs/",
+      "api_base_url": "https://api.stadt-zuerich.ch/rpkk-rs/v1/",
+      "format_protocol": "OpenAPI3YAML;REST/JSON documented",
+      "authentication": "key_required_currentOpenAPIsecurity;noneobtainedorused;scheme names api-key/ApiKeyAuth inconsistent",
+      "free_access_restrictions": "NamedfinancialdatasetCC0 verified andcityOGDdatafree. APIkeyissuance/pricing/free-tier/capsUNKNOWN;notpromisedanonymousorfreeAPIkey. No paidacquisitionoraccounts.",
+      "license": "CC0 fornamedFinanzdaten derStadtZuerich dataset;data-rightsverified,accesskeyuntested.",
+      "license_url": "https://data.stadt-zuerich.ch/dataset/fd_rpktool",
+      "api_verification_state": "documented_key_required_untested_data_CC0_verified",
+      "latest_checked_utc": "2026-10-17T07:48:53.628063+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "zurich-city-open-catalog",
+      "provider": "Stadt Zuerich,Statistik Stadt Zuerich",
+      "service_name": "City of Zurich CKAN open-data catalogue API",
+      "geographic_coverage": "City Zurich andresource-specific neighboringterritories,Switzerland",
+      "topical_coverage": "Municipalmultisector,statistics,environment,housing,mobility,government",
+      "dataset_families": "941 currentpublicdatasetdescriptions/4509advertisedresources;metadataonly,nouniversalresourceAPI/rightstest.",
+      "documentation_url": "https://data.stadt-zuerich.ch/api/3/action/help_show?name=package_search",
+      "api_base_url": "https://data.stadt-zuerich.ch/api/3/action/",
+      "format_protocol": "CKAN Action API/JSON metadata;resourceinterfacesvary",
+      "authentication": "Actual anonymouspubliccatalogGET;DataStore/key-dependentoperationsindependentlyuntested",
+      "free_access_restrictions": "City OGD policy permits freecommercial/adaptedreusewithresourceexceptions andpossiblecredit. Publiccatalogrequestsnocredentials;notall4509resourceaccessroutesverified.",
+      "license": "CustomcityOGDlaw;scopednamedCC0dataset verified;otherCCBY/CCBYSAexceptionsretained.",
+      "license_url": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/statistik-und-daten/open-government-data/rahmenbedingungen.html",
+      "api_verification_state": "actual_public_JSON_sample_success_CKAN_catalog_metadata",
+      "latest_checked_utc": "2026-10-17T07:48:53.627895+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "zurich-regional-reference",
       "provider": "Kanton Zürich,Amt für Statistik und Daten",
       "service_name": "Gebietsstammdaten regional reference API",
@@ -7699,6 +7735,24 @@
       "license_url": "",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:56:12.634748+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bern-geodata-catalog-api",
+      "provider": "Stadt Bern,Geoinformation",
+      "service_name": "Bern public geodata product catalogue interface",
+      "geographic_coverage": "City Bern andprovider-specificexternalproducts,Switzerland",
+      "topical_coverage": "Geospatial,cadastre,planning,environment,infrastructure",
+      "dataset_families": "324advertisedcatalogdescriptions:312products/12collections. Accesslabels289A/30B/5C;publicmetadataonly,noprotectedunderlyingdata.",
+      "documentation_url": "https://map.bern.ch/geoportal/js/custom/ProdukteViewModel.js",
+      "api_base_url": "https://map.bern.ch/geoportal/rest/api/GeoDataSet/",
+      "format_protocol": "PublishedwebsiteREST/JSONproductmetadata interface,notastability-guaranteeddeveloperAPI",
+      "authentication": "ActualanonymouspubliccatalogGETusingpublishedUIdefaultstatus4;orders/payment/accounts/adminneverqueried",
+      "free_access_restrictions": "CatalogJSONanonymous. Nativecost/accessflagsarenotgeneralgrants;customprocesseddatafeeconditionsandB/Caccessrestrictionsretained. Noorder/paymentoperation.",
+      "license": "CustomcitygeodatatermsforA/Bwithdifferentpermissions;catalogmetadata/selectedworkgrantunconfirmed.",
+      "license_url": "https://map.bern.ch/geoportal/data/Nutzungsbedingungen_Geodaten_Stadt-Bern_1.0.pdf",
+      "api_verification_state": "actual_public_JSON_sample_success_catalog_metadata_only",
+      "latest_checked_utc": "2026-10-17T07:48:53.628160+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
