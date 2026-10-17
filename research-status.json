@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T08:12:21.014883+00:00",
+  "published_at": "2026-10-17T08:14:23.800330+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T08:09:39.377507+00:00",
+  "research_updated_at": "2026-10-17T08:14:00.009928+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "National portals5origins reviewed:Philippines key-declared static-client API candidate,Ireland/HK current docs/terms read,Taiwan/Romania holds retained.646services:208open/395candidates/43restricted;432original leads remain;globalin_progress.",
+  "latest_milestone": "Mixed4origins:Hartford128catalogworks/804distributionclaims andscopedCC0 propertyJSONschema verified,Norway5APIinterfaces documented/licenceunresolved,Lincoln/METIheld.647services:209open/395candidates/43restricted;428originalleads remain;globalin_progress.",
   "counts": {
-    "verified": 208,
+    "verified": 209,
     "candidates": 395,
     "excluded": 43,
-    "sample_successes": 399
+    "sample_successes": 400
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5154,6 +5154,24 @@
       "license_url": "https://stat.gl/dialog/topmain.asp?lang=da&sc=GS&subject=Om+Gr%C3%B8nlands+Statistik",
       "api_verification_state": "sample_success_scoped_custom_open_permission_metadata",
       "latest_checked_utc": "2026-10-16T21:08:13.263985+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "hartford-open-data",
+      "provider": "City of Hartford, Connecticut",
+      "service_name": "Open Data Hartford catalogue and ArcGIS geospatial APIs",
+      "geographic_coverage": "Hartford, Connecticut, United States",
+      "topical_coverage": "Housing/property,planning,zoning,public infrastructure,education districts,public spending,transport,community services; verified named scope municipal property layer",
+      "dataset_families": "128 native dataset descriptions and804 advertised distributions. Verified CC0 named City Owned Property layer schema;127 native CC0 labels and1 unlicensed DataAxle-derived work are separately indexed,not blanket accepted.",
+      "documentation_url": "https://data.hartford.gov/data.json",
+      "api_base_url": "https://data.hartford.gov/data.json | https://utility.arcgis.com/usrsvcs/servers/8e4ef8c879594a6f8f01805e7d0b0235/rest/services/CityOwnedPropertyForAGSOL/MapServer/0",
+      "format_protocol": "DCAT-US JSON catalogue; actual ArcGIS layer JSON schema; advertised query JSON/GeoJSON/PBF",
+      "authentication": "Actual anonymous catalogue and named layer schema reads; no key/account",
+      "free_access_restrictions": "Actual anonymous small metadata reads without payment. Named City Owned Property CC0 scoped reuse; other individual resources/quotas not universally verified.",
+      "license": "CC0 1.0 Universal for named City Owned Property dataset",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0",
+      "api_verification_state": "actual_public_JSON_sample_success_catalogue_and_named_layer_schema_only",
+      "latest_checked_utc": "2026-10-17T08:13:59.709804+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -10313,15 +10331,15 @@
       "geographic_coverage": "Norway",
       "topical_coverage": "multisector public data",
       "dataset_families": "Catalog datasets and distributions; dataset-specific coverage and licenses",
-      "documentation_url": "https://data.norge.no/",
-      "api_base_url": "https://data.norge.no/",
-      "format_protocol": "DCAT/catalog; API unresolved",
-      "authentication": "unknown; public sample attempted without credentials",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "documentation_url": "https://data.norge.no/en/technical/api",
+      "api_base_url": "https://search.api.fellesdatakatalog.digdir.no/search | https://sparql.fellesdatakatalog.digdir.no | https://resource.api.fellesdatakatalog.digdir.no | https://aisearch.api.fellesdatakatalog.digdir.no",
+      "format_protocol": "Documented REST JSON/RDF resource lookup,Elasticsearch search,read-only SPARQL;AI discovery separate;runtime not verified",
+      "authentication": "Search/SPARQL/resource/AI documented public no-auth; separate catalog-view protected Maskinporten,not public interface",
+      "free_access_restrictions": "Public no-auth interfaces documented; explicit effective metadata/API licence and fee scope unknown. Protected organizational view not requested; no account/key/contact.",
+      "license": "unknown effective metadata/API grant; NLOD2.0 linked historically but not binding proof for all catalog content",
       "license_url": "https://data.norge.no/nlod/en/2.0",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:26:39.828189+00:00",
+      "api_verification_state": "current_official_API_documentation_verified_resource_sample_policy_held_runtime_untested",
+      "latest_checked_utc": "2026-10-17T08:13:59.710481+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
