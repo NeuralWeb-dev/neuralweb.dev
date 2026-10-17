@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:17:41.234403+00:00",
+  "published_at": "2026-10-17T20:19:46.412908+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:15:10.710479+00:00",
+  "research_updated_at": "2026-10-17T20:17:45.477896+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SDDB367OAI descriptions complete; IGETSoneBY4/source registration; TOR RSOv1NC4 corrected versus separate SAR restriction",
+  "latest_milestone": "ISDC parent/GNSS deduplicated, GNSSsourceBY4 and publicdirectory verified; MünsterAPI documented/robots-held, terms licence scope corrected",
   "counts": {
     "verified": 282,
-    "candidates": 542,
+    "candidates": 544,
     "excluded": 119,
     "sample_successes": 475
   },
@@ -12650,6 +12650,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "isdc-public-data-archive",
+      "provider": "GFZ Information System and Data Center",
+      "service_name": "ISDC public file-distribution hub and GNSS network source portal",
+      "geographic_coverage": "Global satellite/geodetic mission and station products; GNSS page reports51stations available, not enumerated",
+      "topical_coverage": "geodesy | satellite | gravity | GNSS | atmosphere | research",
+      "dataset_families": "GNSS RINEX/navigation/GPS data and mission/gravity archive partition references; raw binary onrequest and real-time services separate",
+      "documentation_url": "https://isdc.gfz.de/ | https://isdc.gfz.de/gnss-station-network/",
+      "api_base_url": "https://isdc-data.gfz.de/ ; public file-directory frontend, independent machine-query API unestablished",
+      "format_protocol": "HTTP/FTP file distribution documented; RINEX/NetCDF navbit files, no scientific query interface verified",
+      "authentication": "Public root directory/documentation accessible; specific source file/stream conditions untested, no credentials/accounts",
+      "free_access_restrictions": "Exact GNSS tracking-network source CC BY4 verified; other missions, station-metadata and service grants unknown; raw data on request not acquired",
+      "license": "CC BY4 for named GNSS source collection; exact all-archive/metadata/database grants unknown",
+      "license_url": "https://dataservices.gfz.de/10.5880/gfz.1.1.2020.001/gnss-data-of-the-global-gfz-tracking-network | https://isdc.gfz.de/legal-notice/",
+      "api_verification_state": "official_public_HTML_directory_and_source_grant_verified_no_independent_query_API",
+      "latest_checked_utc": "2026-10-17T20:17:40.620505+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "isimip-impact-repository",
       "provider": "ISIMIP / Potsdam Institute for Climate Impact Research",
       "service_name": "ISIMIP climate impact data repository REST API",
@@ -13547,6 +13565,24 @@
       "license_url": "",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "muenster-datastore-rest",
+      "provider": "University of Münster / University and State Library Service Center for Data Management",
+      "service_name": "datastore university research-data repository REST API",
+      "geographic_coverage": "Multidisciplinary university research, source-specific global/local coverage",
+      "topical_coverage": "research | multidisciplinary | materials | culture | health | environment",
+      "dataset_families": "Published research dataset metadata and associated data; source families vary, no full inventory",
+      "documentation_url": "https://datastore.uni-muenster.de/faq | https://inveniordm.docs.cern.ch/reference/rest_api_quickstart/",
+      "api_base_url": "https://datastore.uni-muenster.de/api/records",
+      "format_protocol": "Provider explicitly documents deployed InvenioRDM REST API; no native JSON/API response obtained",
+      "authentication": "Provider describes public metadata access/advanced API; native request withheld, exact API read authentication not tested",
+      "free_access_restrictions": "Terms6.1 public metadata,7.3 external re-provision only compatible with dataset licence; source embargoes/individual licences. Publication/access free under10.1/10.2",
+      "license": "Exact blanket metadata/database grant unknown; dataset-specific licences. CC0 footer covers terms document, not all repository outputs",
+      "license_url": "https://datastore.uni-muenster.de/terms",
+      "api_verification_state": "provider_REST_API_documented_native_target_robots_withheld_before_transmission",
+      "latest_checked_utc": "2026-10-17T20:17:40.620505+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
