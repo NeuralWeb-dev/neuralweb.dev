@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:59:52.479871+00:00",
+  "published_at": "2026-10-17T22:01:55.012990+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:59:32.909033+00:00",
+  "research_updated_at": "2026-10-17T22:01:17.239876+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Three originals reviewed: UCLA and MINDS remain candidates; NVS restricted redistribution verified; original API/robots holds retained.",
+  "latest_milestone": "Hungary KDK NC metadata and NIST SRD copyright verified; OSF mixed rights/current API transition documented; free-SRD references queued, runtime holds retained.",
   "counts": {
     "verified": 303,
-    "candidates": 594,
-    "excluded": 137,
+    "candidates": 595,
+    "excluded": 139,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -15531,6 +15531,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "open-science-framework",
+      "provider": "Center for Open Science",
+      "service_name": "Open Science Framework public APIs",
+      "geographic_coverage": "International multidisciplinary research outputs; no all-world representative coverage claim",
+      "topical_coverage": "research | education | health",
+      "dataset_families": "Public projects/components, registrations, preprints and research metadata; SHARE/Trove separately unresolved interface leads",
+      "documentation_url": "https://help.osf.io/article/744-osf-projects-api-impact | https://developer.osf.io/",
+      "api_base_url": "",
+      "format_protocol": "Native help documents /v2/nodes GET/POST interfaces; osf.io home200 is HTML application shell, not API success",
+      "authentication": "No accounts, keys or private access used",
+      "free_access_restrictions": "Terms describe public content shared free unless otherwise noted; private/embargo/limited content excluded. No credentials used.",
+      "license": "Source-selected licences including no licence and restricted variants; terms grant scoped public-content use, exact sampled open item not established",
+      "license_url": "https://osf.io/terms-of-use/ | https://help.osf.io/article/148-licensing",
+      "api_verification_state": "native_public_API_help_and_mixed_source_terms_verified_developer_docs_robots_inaccessible_runtime_untested",
+      "latest_checked_utc": "2026-10-17T22:01:12.811476+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "openafrica",
       "provider": "Code for Africa (CfA)",
       "service_name": "openAFRICA community data portal and CKAN API",
@@ -21869,6 +21887,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "hungary-kdk-repository",
+      "provider": "Centre for Social Sciences / Research Documentation Centre, Hungary",
+      "service_name": "KDK Repository OAI-PMH",
+      "geographic_coverage": "Hungarian social science institutional research, not national comprehensive dataset coverage",
+      "topical_coverage": "research | law | civic data | economics | education",
+      "dataset_families": "Law, minority studies, political science and sociology research collections and publications",
+      "documentation_url": "https://openarchive.tk.mta.hu/",
+      "api_base_url": "https://openarchive.tk.mta.hu/cgi/oai2",
+      "format_protocol": "Native home documents OAI2 base; Identify policy-deferred target unsent, no XML success",
+      "authentication": "No accounts, keys or private access used",
+      "free_access_restrictions": "Some collections public without registration; some access controlled. No paid access or permissions requested.",
+      "license": "Metadata noncommercial reuse with identifier/link; commercial use requires formal permission",
+      "license_url": "https://openarchive.tk.mta.hu/policies.html",
+      "api_verification_state": "native_OAI2_documented_Identify_robots_disallowed_target_unsent_NC_metadata_policy_verified",
+      "latest_checked_utc": "2026-10-17T22:01:12.811476+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "icpsr-metadata-export-api",
       "provider": "Inter-university Consortium for Political and Social Research / University of Michigan",
       "service_name": "ICPSR Metadata/Object Export API",
@@ -22460,6 +22496,24 @@
       "license_url": "https://www.nist.gov/pml/atomic-spectra-database | https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-17T17:32:08.112681+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nist-standard-reference-data-directory",
+      "provider": "National Institute of Standards and Technology",
+      "service_name": "Standard Reference Data product discovery directory",
+      "geographic_coverage": "Physical/chemical/material reference properties; not population or national geographic data",
+      "topical_coverage": "research | energy | environment | astronomy",
+      "dataset_families": "Chemistry, engineering, fluids, materials, mathematics and physics reference products",
+      "documentation_url": "https://www.nist.gov/srd | https://www.nist.gov/srd/free-srd",
+      "api_base_url": "",
+      "format_protocol": "Product links and HTML documentation not generic scientific API; separate NIST RMM and Atomic Spectra records retained",
+      "authentication": "No accounts, keys or private access used",
+      "free_access_restrictions": "Native root reports49free and41fee-based databases, operator summaries not verified dataset counts. Paid products excluded from acquisition; free product permissions individually pending.",
+      "license": "SRD copyright reserved under Standard Reference Data Act; product-specific permissions required",
+      "license_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
+      "api_verification_state": "native_SRD_directory_and_copyright_policy_verified_no_directorywide_API_scientific_sample",
+      "latest_checked_utc": "2026-10-17T22:01:12.811476+00:00",
       "classification": "restricted"
     },
     {
