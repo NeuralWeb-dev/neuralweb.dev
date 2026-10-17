@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T13:49:28.796977+00:00",
+  "published_at": "2026-10-17T13:51:31.084258+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T13:44:22.848189+00:00",
+  "research_updated_at": "2026-10-17T13:51:09.941917+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nordic/counties validated742services241open444candidates57restricted;nextTexas/alpineeightleads primary roots/terms/APIguides saved,notintegrated.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 241,
-    "candidates": 444,
-    "excluded": 57,
-    "sample_successes": 454
+    "verified": 242,
+    "candidates": 447,
+    "excluded": 58,
+    "sample_successes": 457
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5873,6 +5873,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "langley-open-data-search",
+      "provider": "Township of Langley, British Columbia",
+      "service_name": "Township of Langley Open Data catalogue search API",
+      "geographic_coverage": "Canada; British Columbia; Township of Langley",
+      "topical_coverage": "geospatial; environment; water; municipal data",
+      "dataset_families": "Township municipal open-data discovery; individual property/business/person records not queried. Catalogue configuration sample,not complete dataset listing.",
+      "documentation_url": "https://data-tol.opendata.arcgis.com/api/search/definition/",
+      "api_base_url": "https://data-tol.opendata.arcgis.com/api/search/v1/",
+      "format_protocol": "ArcGISHub/OGC Records search API; native catalogue configuration only",
+      "authentication": "No credentials for tested small catalogue configuration request; other work interfaces untested",
+      "free_access_restrictions": "Eligible Township Information worldwide royalty-free perpetual commercial/adaptive reuse with attribution,nonendorsement and exceptions under municipal OGLv2. No accounts/paid data.",
+      "license": "Open Government License – Township of Langley, version2",
+      "license_url": "https://www.tol.ca/en/connect/open-data-licence.aspx",
+      "api_verification_state": "documented_sample_success_catalog_configuration_only",
+      "latest_checked_utc": "2026-10-17T13:47:01.093443+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "legislation-uk",
       "provider": "UK National Archives legislation.gov.uk",
       "service_name": "UK National Archives legislation.gov.uk API",
@@ -9526,6 +9544,24 @@
       "license_url": "https://data.gov.cz/podmínky-užití",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:41.121820+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "datahub-legacy-catalog-api",
+      "provider": "Datopian / DataHub v1",
+      "service_name": "DataHub legacy catalogue metadata CKAN API",
+      "geographic_coverage": "Global; historical cross-domain dataset registry",
+      "topical_coverage": "research metadata; multisector public data; linked data",
+      "dataset_families": "Historical catalogue of11,000+ datasets claimed by current archive; third-party linked datasets and licence declarations are discovery,not primary proof. One LicenseDB metadata request attempted,held.",
+      "documentation_url": "https://old.datahub.io/%40global/licensedb/",
+      "api_base_url": "https://api.old.datahub.io/api/3/action/",
+      "format_protocol": "CKAN Action metadata API explicitly linked by current archive; native runtime untested under policy hold",
+      "authentication": "Public metadata link advertised; sample sent without credentials but target deferred by robots policy; authentication requirements unknown",
+      "free_access_restrictions": "Archive public; service TOS and individual original-work grants differ. Basic public hosting is not a public reuse grant; no paid tier/account.",
+      "license": "unknown for whole archive metadata; per-work declarations vary",
+      "license_url": "https://docs.datahub.io/terms-of-service",
+      "api_verification_state": "documented_API_original_sample_policy_held_target_unsent",
+      "latest_checked_utc": "2026-10-17T13:45:59.535437+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14155,6 +14191,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "texas-state-open-data",
+      "provider": "Texas Department of Information Resources / State of Texas",
+      "service_name": "Texas Open Data Portal",
+      "geographic_coverage": "United States; Texas state and participating agencies",
+      "topical_coverage": "multisector public data; demographics; health; environment; water; economics; labor; spending",
+      "dataset_families": "State agency catalogue and linked statewide/local portals; professional licensing records are not data-use licences; individual work grants mixed/unreviewed",
+      "documentation_url": "https://data.texas.gov/",
+      "api_base_url": "https://data.texas.gov/",
+      "format_protocol": "Socrata SODA/OData advertised by official portal and DIR resource guide; concrete dataset endpoint/runtime untested",
+      "authentication": "Public developer interface advertised; per-interface/key requirements unknown,no account acquired",
+      "free_access_restrictions": "Public portal; dataset-specific data licences may be unspecified. Not all Texas government data public domain. No paid data/accounts.",
+      "license": "unknown portal-wide and effective per-work scope",
+      "license_url": "http://www.socrata.com/terms-of-service",
+      "api_verification_state": "official_API_documented_native_runtime_untested_terms_review",
+      "latest_checked_utc": "2026-10-17T13:49:47.747885+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tfl",
       "provider": "Transport for London",
       "service_name": "Transport for London API",
@@ -14224,6 +14278,24 @@
       "license_url": "",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T19:41:56.381579+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "thunderbay-transit-realtime",
+      "provider": "City of Thunder Bay Transit / NextLift",
+      "service_name": "Thunder Bay GTFS realtime transit feeds",
+      "geographic_coverage": "Canada; Ontario; Thunder Bay transit service area",
+      "topical_coverage": "transportation",
+      "dataset_families": "Scheduled GTFSzip and realtime vehicle/trip feeds advertised; one tripupdates native snapshot inspected. Alerts label duplicates tripupdates URL in official guide.",
+      "documentation_url": "https://www.thunderbay.ca/city-services/transit/",
+      "api_base_url": "http://api.nextlift.ca/gtfs-realtime/",
+      "format_protocol": "GTFS Realtime Protocol Buffers; HTTP200application/x-protobuf observed,FeedHeader version1.0; generic wire/envelope inspection,not full semantic validation",
+      "authentication": "No credentials for tested public tripupdates feed",
+      "free_access_restrictions": "City explicitly says API at no charge for for-profit/nonprofit desktop/web/mobile apps. Broader copying/adaptation/redistribution grant or operative instrument unverified.",
+      "license": "Commercial app use expressly permitted; complete open-data reuse instrument unconfirmed",
+      "license_url": "https://www.thunderbay.ca/city-services/transit/",
+      "api_verification_state": "sample_success_native_protobuf_wire_header_envelopes_only",
+      "latest_checked_utc": "2026-10-17T13:43:42.239987+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16998,6 +17070,24 @@
       "license_url": "https://www.oasi.ti.ch/palma/resources/disclaimer/en/disclaimer-v1.html",
       "api_verification_state": "documented_account_required_untested_no_credentials",
       "latest_checked_utc": "2026-10-17T07:38:01.745155+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "tirol-ogd-geospatial-search",
+      "provider": "Land Tirol / TIRIS",
+      "service_name": "Tirol OGD geospatial catalogue search API",
+      "geographic_coverage": "Austria; Tyrol",
+      "topical_coverage": "geospatial; environment; water; land use; transportation",
+      "dataset_families": "Official OGDgeospatial discovery portal; terrain/DGM/DOM and related services documented by LandTirol,individual work interfaces not all checked",
+      "documentation_url": "https://data-tiris.opendata.arcgis.com/api/search/definition/",
+      "api_base_url": "https://data-tiris.opendata.arcgis.com/api/search/v1/",
+      "format_protocol": "ArcGISHub/OGC Records search API; native catalogue configuration state separately audited",
+      "authentication": "No credentials for small catalogue configuration request; individual service access unknown",
+      "free_access_restrictions": "Publisher declares CCBY4 with additional reporting/use restrictions; not accepted as unrestricted open licence. Research only,no app/notification/purchase.",
+      "license": "CC BY4.0 declared plus publisher extensions restricting uses and requiring application-location notification",
+      "license_url": "https://www.tirol.gv.at/data/nutzungsbedingungen/",
+      "api_verification_state": "documented_sample_success_catalog_configuration_only",
+      "latest_checked_utc": "2026-10-17T13:47:37.466127+00:00",
       "classification": "restricted"
     },
     {
