@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T16:12:30.957768+00:00",
+  "published_at": "2026-10-17T16:14:33.286878+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T16:12:00.998110+00:00",
+  "research_updated_at": "2026-10-17T16:12:56.726282+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Eight disciplinary repository leads assessed: Maribor nativeOAI restricted, Cranach readapidenied/reuse reserved, PHI API documented restricted, TriTryp candidate",
+  "latest_milestone": "19 scientific/cultural/forest discovery tasks reviewed in three saved batches;8new services,794total255scopedopen473candidate66restricted;global universe unfinished",
   "counts": {
     "verified": 255,
     "candidates": 473,
@@ -94,6 +94,7 @@
         ],
         "restricted_provider_ids": [
           "fao",
+          "phi-base-api",
           "un-comtrade"
         ]
       },
@@ -104,6 +105,7 @@
           "cchdo",
           "datacommons",
           "emodnet",
+          "esgf-cmip5-discovery",
           "geri",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -156,6 +158,7 @@
         "verified_provider_ids": [
           "bgs",
           "eia",
+          "esgf-cmip5-discovery",
           "worldbank-catalog"
         ],
         "candidate_provider_ids": [
@@ -192,11 +195,13 @@
           "hdx",
           "nih-clinicaltrials",
           "ocha-hapi",
+          "tritrypdb",
           "wfp"
         ],
         "restricted_provider_ids": [
           "ghdx-ihme-discovery",
           "openaq",
+          "phi-base-api",
           "who"
         ]
       },
@@ -218,7 +223,8 @@
         ],
         "candidate_provider_ids": [
           "cinii-books",
-          "internet-archive-metadata"
+          "internet-archive-metadata",
+          "mit-timdex"
         ],
         "restricted_provider_ids": [
           "cinii-research",
@@ -267,6 +273,7 @@
         "candidate_provider_ids": [
           "copernicus-stac",
           "dataone",
+          "mit-timdex",
           "nsidc",
           "planetary-computer",
           "saudi-mofa",
@@ -331,12 +338,14 @@
           "esa-ecology",
           "idigbio",
           "planetary-computer",
-          "smithsonian"
+          "smithsonian",
+          "tritrypdb"
         ],
         "restricted_provider_ids": [
           "deims",
           "ebird",
           "inaturalist",
+          "phi-base-api",
           "worms"
         ]
       },
@@ -346,6 +355,7 @@
           "bgs",
           "cchdo",
           "emodnet",
+          "esgf-cmip5-discovery",
           "obis",
           "pangaea"
         ],
@@ -400,6 +410,7 @@
           "getty-museum",
           "internet-archive-metadata",
           "loc",
+          "mit-timdex",
           "nasa-power",
           "ocha-hapi",
           "osi-licenses",
@@ -413,6 +424,7 @@
           "bnf-gallica",
           "cinii-research",
           "fao",
+          "phi-base-api",
           "un-comtrade"
         ]
       },
@@ -429,6 +441,7 @@
           "datacite",
           "doaj",
           "dryad",
+          "esgf-cmip5-discovery",
           "gavo",
           "geoboundaries",
           "geri",
@@ -482,12 +495,14 @@
           "internet-archive-metadata",
           "jpl-ssd",
           "loc",
+          "mit-timdex",
           "nih-clinicaltrials",
           "nims-mdr",
           "osi-licenses",
           "perspectivia",
           "rijksmuseum",
           "smithsonian",
+          "tritrypdb",
           "undata-official-sdmx-api",
           "wellcome-collection"
         ],
@@ -500,6 +515,7 @@
           "ebird",
           "ghdx-ihme-discovery",
           "orcid",
+          "phi-base-api",
           "un-comtrade"
         ]
       }
@@ -1394,6 +1410,7 @@
           "russia",
           "serbia-rzs",
           "stat-portugal",
+          "swissubase-oai",
           "terrassa-open-data",
           "tuscany-open-data-catalog",
           "worldpop-wopr"
@@ -1705,6 +1722,7 @@
           "navarra-open-data",
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
+          "swissubase-oai",
           "terrassa-open-data",
           "tuscany-open-data-catalog"
         ],
@@ -1767,6 +1785,7 @@
           "granada-university-open-data",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
+          "kpbc-digital-library",
           "latvia-statistics",
           "lithuania-statistics",
           "ortolang-fcs",
@@ -1776,6 +1795,7 @@
           "registry-opendata-aragon-es",
           "saw-leipzig-fcs",
           "serbia-rzs",
+          "swissubase-oai",
           "terrassa-open-data",
           "tuebingen-fcs",
           "tuscany-open-data-catalog"
@@ -1783,6 +1803,7 @@
         "restricted_provider_ids": [
           "bonn-open-data",
           "lindat-fcs",
+          "maribor-dkum-oai",
           "swiss-al-fcs"
         ]
       },
@@ -2140,6 +2161,7 @@
           "gotriple",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
+          "kpbc-digital-library",
           "ksamsok",
           "lithuania-statistics",
           "ortolang-fcs",
@@ -2151,6 +2173,7 @@
           "sardinia-geospatial-wfs",
           "saw-leipzig-fcs",
           "serbia-rzs",
+          "swissubase-oai",
           "terrassa-open-data",
           "trentino-open-data",
           "tuebingen-fcs",
@@ -2159,7 +2182,9 @@
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
+          "cranachnet-mediawiki",
           "lindat-fcs",
+          "maribor-dkum-oai",
           "swiss-al-fcs",
           "tna-discovery"
         ]
@@ -2218,6 +2243,7 @@
           "granada-university-open-data",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
+          "kpbc-digital-library",
           "ksamsok",
           "ortolang-fcs",
           "perspectivia",
@@ -2225,6 +2251,7 @@
           "portulan-repository",
           "rijksmuseum",
           "saw-leipzig-fcs",
+          "swissubase-oai",
           "tuebingen-fcs",
           "wellcome-collection",
           "yoda-utrecht"
@@ -2232,7 +2259,9 @@
         "restricted_provider_ids": [
           "bnf-gallica",
           "copernicus-marine",
+          "cranachnet-mediawiki",
           "lindat-fcs",
+          "maribor-dkum-oai",
           "swiss-al-fcs",
           "tna-discovery"
         ]
