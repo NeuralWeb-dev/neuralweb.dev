@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T22:36:39.758223+00:00",
+  "published_at": "2026-10-17T22:38:43.072613+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:32:26.903945+00:00",
+  "research_updated_at": "2026-10-17T22:38:22.620015+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ERCOFTACnativeNC4/casereferences; VertNetnewportal/legacy2014API docs withcurrentguidehold; WRDSindexedsubscription/automationrestrictions retained.",
+  "latest_milestone": "Six original tasks processed; five new records and NIMS updated. ERCOFTAC95 case references indexed; source restrictions and API/challenge/timeout/auth distinctions retained.",
   "counts": {
     "verified": 305,
-    "candidates": 608,
-    "excluded": 148,
-    "sample_successes": 473
+    "candidates": 609,
+    "excluded": 149,
+    "sample_successes": 472
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -275,6 +275,7 @@
           "openaq",
           "phi-base-api",
           "who",
+          "who-icd-api",
           "xenbase-model-organism-services"
         ]
       },
@@ -761,6 +762,7 @@
           "terrasarx-sar-imagery-access",
           "terrasarx-tor-rso-archive",
           "un-comtrade",
+          "who-icd-api",
           "xenbase-model-organism-services"
         ]
       }
@@ -2144,6 +2146,7 @@
           "latvia-statistics",
           "lithuania-statistics",
           "ortolang-fcs",
+          "phaidra-university-vienna",
           "portulan-fcs",
           "portulan-repository",
           "puglia-open-data-catalog",
@@ -2566,6 +2569,7 @@
           "nfdi4ing-ingest-metadata-api",
           "ortolang-fcs",
           "perspectivia",
+          "phaidra-university-vienna",
           "portulan-fcs",
           "portulan-repository",
           "puglia-open-data-catalog",
@@ -2677,6 +2681,7 @@
           "nfdi4ing-ingest-metadata-api",
           "ortolang-fcs",
           "perspectivia",
+          "phaidra-university-vienna",
           "portulan-fcs",
           "portulan-repository",
           "publicneuro-repository",
@@ -15289,14 +15294,14 @@
       "topical_coverage": "research; energy",
       "dataset_families": "Materials science datasets; experimental metadata; research outputs",
       "documentation_url": "https://dice.nims.go.jp/services/MDR/manual/html/api.html",
-      "api_base_url": "https://mdr.nims.go.jp/",
-      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
-      "authentication": "unknown; public sample attempted without credentials",
+      "api_base_url": "https://mdr.nims.go.jp/api/v1/datasets | https://mdr.nims.go.jp/oai",
+      "format_protocol": "Documented beta JSON REST catalogue and individual metadata; OAI-PMH XML",
+      "authentication": "No credentials used; public REST documented; prior anonymous OAI Identify success",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://mdr.nims.go.jp/terms",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T17:07:43.715303+00:00",
+      "license": "Datasets available under licences specified on individual pages; blanket metadata/database grant unknown",
+      "license_url": "https://mdr.nims.go.jp/page/terms_of_use",
+      "api_verification_state": "prior_anonymous_OAI_Identify_success_current_native_beta_REST_docs_verified_catalog_read_timeout_source_grants_per_item_unresolved",
+      "latest_checked_utc": "2026-10-17T22:37:48.372275+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16395,6 +16400,24 @@
       "license_url": "https://earthchem.org/legal/terms-of-use/",
       "api_verification_state": "native_anonymous_v4metrics_JSON_success_current_API_docs_and_mixed_rights_verified_exact_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T22:22:09.228424+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "phaidra-university-vienna",
+      "provider": "University of Vienna",
+      "service_name": "PHAIDRA Vienna institutional repository",
+      "geographic_coverage": "Austria institution; research collections across disciplines, exact geographic holdings unenumerated",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Research data, digital collections, teaching and cultural heritage objects",
+      "documentation_url": "https://rdm.univie.ac.at/phaidra-repository/faqs-and-user-guide/",
+      "api_base_url": "https://phaidra.univie.ac.at/api/oai/ (registry claim, current deployment unverified)",
+      "format_protocol": "Registry OAI-PMH claim; native homepage HTML challenge not API success",
+      "authentication": "Repository public metadata; files public/restricted/private per institutional guide; API access unresolved",
+      "free_access_restrictions": "Public metadata described; depositor-selected file access and licence",
+      "license": "Mixed item-selected Creative Commons, public domain, MIT or all rights reserved; blanket metadata/database licence unknown",
+      "license_url": "https://rdm.univie.ac.at/phaidra-repository/faqs-and-user-guide/",
+      "api_verification_state": "native_home_Anubis_challenge_institutional_guide_verified_API_unsent_rights_per_item",
+      "latest_checked_utc": "2026-10-17T22:37:48.372275+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23615,6 +23638,24 @@
       "license_url": "https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.955902+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "who-icd-api",
+      "provider": "World Health Organization",
+      "service_name": "ICD classification REST API",
+      "geographic_coverage": "Global classification system; multilingual releases, exact language/release inventory unenumerated",
+      "topical_coverage": "health | research",
+      "dataset_families": "ICD Foundation, ICD-11 linearizations including MMS, ICD-10; exact ICF/ICHI release support requires review",
+      "documentation_url": "https://icd.who.int/docs/icd-api/APIDoc-Version2/",
+      "api_base_url": "https://id.who.int/",
+      "format_protocol": "REST JSON-LD; search JSON; API-Version v2 header; Accept-Language; RDF/XML deprecated",
+      "authentication": "Registration and OAuth2 client credentials required; no account, client secret or token obtained",
+      "free_access_restrictions": "Royalty-free licence subject to conditions; hosted service numeric quota/fees unknown. No paid acquisition",
+      "license": "CC BY-ND 3.0 IGO for classification; separate software conditions",
+      "license_url": "https://icd.who.int/docs/icd-api/license | https://icd.who.int/en/docs/ICD11-license.pdf",
+      "api_verification_state": "official_current_REST_OAuth_docs_and_NoDerivs_licence_verified_key_required_sample_untested",
+      "latest_checked_utc": "2026-10-17T22:37:48.372275+00:00",
       "classification": "restricted"
     },
     {
