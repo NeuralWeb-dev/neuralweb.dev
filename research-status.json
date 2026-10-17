@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T01:13:06.450116+00:00",
+  "published_at": "2026-10-17T01:15:08.731112+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:09:46.771515+00:00",
+  "research_updated_at": "2026-10-17T01:15:05.167883+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CCHDOcurrentpublishedGETmetadataAPIactualJSON/scopedaggregateCC0verified",
+  "latest_milestone": "Five services added: EMODnet/CCHDO scoped open; HYCOM/PacIOOS/NERACOOS candidates. NERACOOS283 info outcomes complete; EMODnet73pages/7186IDs/native cursor ended with4-ID gap; CCHDO2637 chooser references and actual metadata API;67 interface claims;global51005 source-origin tasks unfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 155,
     "candidates": 210,
     "excluded": 27,
-    "sample_successes": 201
+    "sample_successes": 202
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -103,7 +103,9 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "cchdo",
           "datacommons",
+          "emodnet",
           "geri",
           "nasa-cmr",
           "nasa-spdf-cdaweb",
@@ -116,6 +118,7 @@
           "dataone",
           "esa-ecology",
           "hdx",
+          "hycom",
           "nasa-api",
           "nasa-power",
           "noaa-erddap",
@@ -137,6 +140,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "emodnet",
           "geri",
           "nasa-cmr"
         ],
@@ -239,6 +243,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "emodnet",
           "geoboundaries",
           "geonames",
           "nasa-cmr",
@@ -329,9 +334,12 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "cchdo",
+          "emodnet",
           "obis"
         ],
         "candidate_provider_ids": [
+          "hycom",
           "noaa-erddap",
           "noaa-ncei",
           "pangaea",
@@ -393,6 +401,7 @@
           "arxiv",
           "bgs",
           "bnf-catalogue",
+          "cchdo",
           "crossref",
           "datacite",
           "dryad",
@@ -435,6 +444,7 @@
           "figshare",
           "fsd-finland",
           "harvard-dataverse",
+          "hycom",
           "idigbio",
           "jpl-ssd",
           "loc",
@@ -528,6 +538,7 @@
           "epa",
           "esa-ecology",
           "knb",
+          "neracoos-erddap",
           "sfwmd-repository",
           "us-data-gov-catalog"
         ],
@@ -549,6 +560,7 @@
           "edi",
           "epa",
           "knb",
+          "neracoos-erddap",
           "sfwmd-repository"
         ],
         "restricted_provider_ids": []
@@ -700,7 +712,8 @@
           "seafloor"
         ],
         "candidate_provider_ids": [
-          "goa-ecology"
+          "goa-ecology",
+          "neracoos-erddap"
         ],
         "restricted_provider_ids": []
       },
@@ -749,6 +762,7 @@
           "goa-ecology",
           "knb",
           "loc",
+          "neracoos-erddap",
           "sfwmd-repository",
           "smithsonian",
           "us-data-gov-catalog"
@@ -1102,6 +1116,7 @@
           "bgs",
           "cefas",
           "croatia-statistics",
+          "emodnet",
           "estonia-statistics",
           "faroe-statistics",
           "france",
@@ -1129,6 +1144,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "emodnet",
           "geri",
           "iceland-statistics"
         ],
@@ -1264,6 +1280,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "emodnet",
           "france",
           "portugal",
           "registry-data-bl-ch",
@@ -1365,6 +1382,7 @@
         "verified_provider_ids": [
           "bgs",
           "cefas",
+          "emodnet",
           "ices-dome",
           "transportapi-fi"
         ],
@@ -2466,6 +2484,7 @@
           "mbie-geodata",
           "pacific-data",
           "pacific-stat",
+          "pacioos-erddap",
           "pisco",
           "province-sud-geospatial",
           "queensland-data",
@@ -2623,6 +2642,7 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "pacioos-erddap",
           "pisco",
           "province-sud-geospatial",
           "spc-pccos-tds"
@@ -2654,6 +2674,7 @@
         "candidate_provider_ids": [
           "esa-ecology",
           "nz-iponz",
+          "pacioos-erddap",
           "pisco",
           "rda-australia",
           "spc-pccos-tds"
@@ -3270,8 +3291,8 @@
       "free_access_restrictions": "Selectedmetadatafree/noaccount. AggregatecollectionCC0default;individualcruiseCCBYexceptions/headersmustbehonored. Citationrequests/scientificnormsdistinguishedfromCC0legalrequirements. No paidacquisition.",
       "license": "CC0 aggregatecollection/defaultsubmissions;CCBY4cruise-levelexceptionsperexplicitpolicy/submitlinks",
       "license_url": "https://learning.cchdo.io/policies_and_procedures/data_license | https://cchdo.ucsd.edu/submit | https://creativecommons.org/publicdomain/zero/1.0/legalcode | https://creativecommons.org/licenses/by/4.0/legalcode",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:09:46.659028+00:00",
+      "api_verification_state": "published_primary_frontend_GET_metadata_JSON_sample_success_scoped_aggregate_CC0_verified_other_API_contract_unresolved",
+      "latest_checked_utc": "2026-10-17T01:08:42.249899+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3657,7 +3678,7 @@
       "provider": "European Marine Observation and Data Network / EU DG MARE and thematicpartners",
       "service_name": "EMODnet central metadata catalogue and linked thematic OGC services",
       "geographic_coverage": "Europe;pan-Europeanmarine/coastalareas;someglobal/cross-basinproducts. SelectedcoastalUrbanWasteWaterTreatmentPlantsproduct coversreportingEuropeancoastalregions;notuniformwholeworldcoverage.",
-      "topical_coverage": "oceans; water; climate/weather/environment; geospatial; energy; biodiversity; transportation; research",
+      "topical_coverage": "oceans; water; climate/weather/environment; geospatial",
       "dataset_families": "Sevenpublishedthemes:Bathymetry,Biology,Chemistry,Geology,HumanActivities,Physics,SeabedHabitats. AcceptanceONLYselectedEMODnetHumanActivitiesUrbanWasteWaterTreatmentDirectiveTreatmentPlants product289bcdac-bd46-4387-8c52-4fdeaf07e98a;notallthirdpartyrecords/themes.",
       "documentation_url": "https://emodnet.ec.europa.eu/en/emodnet-web-service-documentation",
       "api_base_url": "https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw | https://ows.emodnet-humanactivities.eu/wfs",
@@ -3667,7 +3688,7 @@
       "license": "CreativeCommonsAttribution4.0International,selectedEMODnetUWWTPTreatmentPlantsproduct",
       "license_url": "https://emodnet.ec.europa.eu/en/terms-use-emodnet-online-services-data-and-data-products | https://creativecommons.org/licenses/by/4.0/legalcode | https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&version=2.0.2&request=GetRecordById&elementSetName=full&id=289bcdac-bd46-4387-8c52-4fdeaf07e98a&outputSchema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd",
       "api_verification_state": "documented_CSW_XML_WFS_GeoJSON_one_feature_sample_success_scoped_CCBY4_verified",
-      "latest_checked_utc": "2026-10-17T01:07:05.869513+00:00",
+      "latest_checked_utc": "2026-10-17T01:09:48.819671+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7593,7 +7614,7 @@
       "license": "SelectedI01customfreeuse/redistributionnotice;operativeall-dataset/fulladaptationgrantunconfirmed",
       "license_url": "https://data.neracoos.org/erddap/info/I01_ocean_001m/index.json",
       "api_verification_state": "documented_ERDDAP_public_catalogue_and_info_JSON_sample_success_perdataset_grants_unconfirmed",
-      "latest_checked_utc": "2026-10-17T01:07:15.166722+00:00",
+      "latest_checked_utc": "2026-10-17T01:07:29.919812+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
