@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T22:10:05.314688+00:00",
+  "published_at": "2026-10-17T22:12:07.901144+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T22:09:24.531211+00:00",
+  "research_updated_at": "2026-10-17T22:11:44.648618+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "HUNT restricted access verified; PRISM two native metadata responses/current custom terms verified but full open scope unresolved; GRACE mission deduplicated existingISDC.",
+  "latest_milestone": "Six original tasks processed: four new records(two candidates,two restricted) and two existing-provider aliases. PRISM two native metadata responses verified; full open scope unresolved. Global universe unfinished.",
   "counts": {
     "verified": 303,
-    "candidates": 599,
-    "excluded": 142,
+    "candidates": 600,
+    "excluded": 143,
     "sample_successes": 474
   },
   "remaining_work": [
@@ -1697,6 +1697,7 @@
           "alspac-cohort-access-portal",
           "dhsnl-dnb-household-survey",
           "eurocat-controlled-research-data",
+          "hunt-health-study",
           "neps-survey-research-access"
         ]
       },
@@ -2055,7 +2056,8 @@
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
           "dhsnl-dnb-household-survey",
-          "eurocat-controlled-research-data"
+          "eurocat-controlled-research-data",
+          "hunt-health-study"
         ]
       },
       "education": {
@@ -2690,6 +2692,7 @@
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
           "eurocat-controlled-research-data",
+          "hunt-health-study",
           "indexs-exsiccatae-api",
           "lindat-fcs",
           "maribor-dkum-oai",
@@ -3773,6 +3776,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "hilda-australia-household-survey",
           "indepth-ishare-data-repository"
         ]
       },
@@ -3805,6 +3809,7 @@
           "stats-nz"
         ],
         "restricted_provider_ids": [
+          "hilda-australia-household-survey",
           "nz-lbp"
         ]
       },
@@ -3904,6 +3909,7 @@
           "pacific-stat"
         ],
         "restricted_provider_ids": [
+          "hilda-australia-household-survey",
           "indepth-ishare-data-repository"
         ]
       },
@@ -3918,7 +3924,9 @@
           "trove-cultural-discovery-api",
           "victoria-datavic"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "hilda-australia-household-survey"
+        ]
       },
       "housing": {
         "status": "partial_verified",
@@ -3934,6 +3942,7 @@
           "wa-slip-public-geospatial-services"
         ],
         "restricted_provider_ids": [
+          "hilda-australia-household-survey",
           "nz-lbp"
         ]
       },
@@ -4131,6 +4140,7 @@
           "birdata-birdlife-australia",
           "comparative-agendas-project",
           "digitalnz",
+          "hilda-australia-household-survey",
           "indepth-ishare-data-repository",
           "national-vegetation-survey-nz",
           "rda-australia",
@@ -13383,6 +13393,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "human-metabolome-database",
+      "provider": "Wishart Research Group / Human Metabolome Database",
+      "service_name": "Human Metabolome Database discovery",
+      "geographic_coverage": "Human metabolite biochemistry research; no representative geographic population coverage claim",
+      "topical_coverage": "health | research | biochemistry",
+      "dataset_families": "Chemical, clinical and molecular-biological descriptions of human small-molecule metabolites, linked protein/sequence information per native operator guide",
+      "documentation_url": "https://www.wishartlab.com/web_servers | https://hmdb.ca/",
+      "api_base_url": "",
+      "format_protocol": "Native operator resource description verified, current structured query API unverified",
+      "authentication": "unknown exact current API authentication; no accounts or credentials used",
+      "free_access_restrictions": "Operator guide says freely available; this does not establish open licence, commercial rights or API access",
+      "license": "unknown verified current native data/metadata/database grant",
+      "license_url": "https://hmdb.ca/",
+      "api_verification_state": "original_root_robots_policy_hold_operator_resource_guide_verified_current_API_and_source_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T22:10:58.604059+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "hungary-community-opendata",
       "provider": "K-Monitor community / opendata.hu; hosting Precognox",
       "service_name": "Hungarian community CKAN data catalog",
@@ -21989,6 +22017,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "hilda-australia-household-survey",
+      "provider": "Melbourne Institute / Australian Department of Social Services",
+      "service_name": "HILDA longitudinal household survey research access",
+      "geographic_coverage": "Australia household panel; exact wave/sample/geographic exclusions not natively reviewed",
+      "topical_coverage": "demographics | labor | economics | health | education | housing | research",
+      "dataset_families": "Household and family relationships, income/employment, health and education longitudinal survey per official indexed institutional descriptions",
+      "documentation_url": "https://melbourneinstitute.unimelb.edu.au/hilda | https://melbourneinstitute.unimelb.edu.au/hilda/for-data-users",
+      "api_base_url": "",
+      "format_protocol": "Official indexed pages describe approved-researcher dataset application; Dataverse distribution not an independently verified source-specific API",
+      "authentication": "Approved-researcher application documented in official indexed text; exact current native account/permission conditions unreviewed",
+      "free_access_restrictions": "Researcher eligibility/application approval; exact costs not established. No paid access acquired",
+      "license": "Restricted approved-researcher access; exact current native source licence not reviewed",
+      "license_url": "https://melbourneinstitute.unimelb.edu.au/hilda/for-data-users",
+      "api_verification_state": "official_indexed_approved_researcher_access_documented_original_robots_inaccessible_native_terms_and_API_untested",
+      "latest_checked_utc": "2026-10-17T22:10:58.604059+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "honolulu-open-data",
       "provider": "City and County of Honolulu",
       "service_name": "Honolulu Socrata public data APIs",
@@ -23038,16 +23084,16 @@
       "service_name": "TalkBank communication research repositories and TalkBankDB portal",
       "geographic_coverage": "Contributed multilingual spoken communication research; source homepage reports over42languages,not complete geographic coverage",
       "topical_coverage": "research; education; health; culture",
-      "dataset_families": "Conversation, child language, multilingualism and clinical communication corpora; transcripts/media, analysis tools and corpus descriptions",
-      "documentation_url": "https://talkbank.org/0share/access.html | https://talkbank.org/0info/DB/index.html",
+      "dataset_families": "ExistingTalkBank language repositories including CHILDES child-language corpora/transcripts/media, database tools and corpus descriptions",
+      "documentation_url": "https://talkbank.org/ | https://talkbank.org/0share/rules.html | https://talkbank.org/childes/ | https://talkbank.org/childes/access.html",
       "api_base_url": "",
       "format_protocol": "CHAT JSON-compatible representation documented; TalkBankDB landing alone not a verified public machineAPI",
       "authentication": "Open pages/programs; transcript/media registration; clinical approved research access; some corpora controlled training/interview requirements",
       "free_access_restrictions": "Default noncommercial professional/research use; clinical confidentiality, localstorage/redistribution restrictions; accounts/approvals not requested",
       "license": "CC BY-NC-SA3.0 default ground rules; source-specific exceptions and additional restrictions",
       "license_url": "https://talkbank.org/0share/rules.html | https://talkbank.org/0share/access.html",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T17:35:35.619513+00:00",
+      "api_verification_state": "existing_restricted_provider_CHILDES_component_and_native_three_access_levels_verified_source_API_unresolved",
+      "latest_checked_utc": "2026-10-17T22:10:58.604059+00:00",
       "classification": "restricted"
     },
     {
