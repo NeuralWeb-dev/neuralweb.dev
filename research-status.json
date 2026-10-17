@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T07:02:48.317515+00:00",
+  "published_at": "2026-10-17T07:04:50.874296+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:01:08.522895+00:00",
+  "research_updated_at": "2026-10-17T07:04:13.491522+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Neighbor portal batch:16 original roots reviewed;Dallas named budget database ODC-BY1 and Diba licensing-unconfirmed regional API added. Native43 Diba definitions indexed;matched existing services retained;global in_progress.",
+  "latest_milestone": "Neighbor batch:16 original portal origins processed;Dallas named Operating Budget database ODC-BY1 and Diba licensing-unconfirmed regional API added. Seven existing services matched without grant expansion. Diba43 definitions,Dallas1087 inherited asset references,Korean12 pending origins. Global in_progress.",
   "counts": {
     "verified": 205,
     "candidates": 380,
@@ -1564,6 +1564,7 @@
           "bologna-open-data",
           "bordeaux-metropole-datahub",
           "cambridgeshire-insight",
+          "diba-open-data-api",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -1738,6 +1739,7 @@
           "clarin-vcr",
           "cocoon-fcs",
           "czech-national-corpus-fcs",
+          "diba-open-data-api",
           "gotriple",
           "ilc4clarin-fcs",
           "kielipankki-fcs",
@@ -3686,7 +3688,7 @@
       "license": "Dataset-specific; confirmed CC BY 4.0 subset",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:48:24.741915+00:00",
+      "latest_checked_utc": "2026-10-17T06:57:13.502909+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -3992,7 +3994,7 @@
       "license": "Open Government Licence Canada v2.0 for explicitly marked records",
       "license_url": "https://open.canada.ca/en/open-government-licence-canada",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:48:24.746313+00:00",
+      "latest_checked_utc": "2026-10-17T06:59:08.495096+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4316,7 +4318,7 @@
       "license": "Open Data Commons Attribution License v1.0,only named Operating Budget database rights.",
       "license_url": "https://opendatacommons.org/licenses/by/1-0/",
       "api_verification_state": "actual_public_JSON_sample_success_one_budget_row",
-      "latest_checked_utc": "2026-10-17T07:00:57.309434+00:00",
+      "latest_checked_utc": "2026-10-17T06:58:24.492673+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6062,7 +6064,7 @@
       "license": "CC0 1.0 / Public Domain for explicitly identified dataset subset",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:48:24.767829+00:00",
+      "latest_checked_utc": "2026-10-17T06:57:10.663452+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6080,7 +6082,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T06:42:46.948226+00:00",
+      "latest_checked_utc": "2026-10-17T07:02:50.936323+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7756,7 +7758,7 @@
       "license": "unknown;no data-specific open grant verified for locality/SIDRA APIs",
       "license_url": "https://www.ibge.gov.br/acesso-informacao/acoes-e-programas/politica-de-privacidade.html",
       "api_verification_state": "historical_reference_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-16T22:08:35.905891+00:00",
+      "latest_checked_utc": "2026-10-17T06:57:05.324025+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7774,7 +7776,7 @@
       "license": "unknown",
       "license_url": "https://dados.gov.br/termos-de-uso",
       "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:26:55.513618+00:00",
+      "latest_checked_utc": "2026-10-17T06:57:05.324025+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -8602,7 +8604,7 @@
       "license": "43 native CC BY4 claims;conflicting operative terms and purpose wording unresolved.",
       "license_url": "https://dadesobertes.diba.cat/dades-obertes/condicions-utilitzacio/llicencia",
       "api_verification_state": "actual_public_JSON_sample_success_native_definition_list_and_one_event",
-      "latest_checked_utc": "2026-10-17T07:00:57.309583+00:00",
+      "latest_checked_utc": "2026-10-17T06:58:24.491901+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9430,7 +9432,7 @@
       "license": "unknown",
       "license_url": "https://data.gov.il/terms",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:27:15.673124+00:00",
+      "latest_checked_utc": "2026-10-17T06:59:08.496260+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9628,7 +9630,7 @@
       "license": "unknown",
       "license_url": "https://www.data.go.kr/en/ugs/selectPortalPolicyView.do",
       "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-16T16:26:54.513317+00:00",
+      "latest_checked_utc": "2026-10-17T06:59:08.495663+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11860,7 +11862,7 @@
       "license": "Unconfirmed;officialaboutdefinesopendataatmostattribution,notclearlyanoperativecorpusgrant",
       "license_url": "https://www12.senado.leg.br/dados-abertos/sobre | https://www12.senado.leg.br/dados-abertos/dados-abertos",
       "api_verification_state": "documented_services_sample_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T22:16:44.977030+00:00",
+      "latest_checked_utc": "2026-10-17T06:56:38.230577+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
