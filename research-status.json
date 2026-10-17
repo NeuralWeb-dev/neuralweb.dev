@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:32:01.630643+00:00",
+  "published_at": "2026-10-17T20:34:04.483150+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:31:57.632805+00:00",
+  "research_updated_at": "2026-10-17T20:33:51.099908+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Copenhagen/Wittliff/MGnify originals reviewed; nativeMGnifyv2biomes492complete andProteinAPIonehit/twooperations, rightsdiscrepancy andchallengeholds explicit",
+  "latest_milestone": "Nine original tasks reviewed across three batches, ten records added. IERSnativeEOP, MGnify492biomerows/485lineages and separateProteinAPI, Earth-prints62collections verified; exact grants and access holds explicit. Global discovery unfinished.",
   "counts": {
     "verified": 283,
-    "candidates": 550,
+    "candidates": 553,
     "excluded": 120,
     "sample_successes": 475
   },
@@ -275,6 +275,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "arizona-campus-repository",
           "cinii-books",
           "internet-archive-metadata",
           "kth-data-repository-api",
@@ -341,6 +342,7 @@
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
           "icgem-gravity-model-portal",
+          "iers-central-bureau-webservices",
           "ioerdata-spatial-research-portal",
           "ivs-vlbi-data-portal",
           "mit-timdex",
@@ -478,6 +480,7 @@
         "candidate_provider_ids": [
           "csiro-data-access-portal",
           "icgem-gravity-model-portal",
+          "iers-central-bureau-webservices",
           "internet-archive-metadata",
           "ivs-vlbi-data-portal",
           "jpl-ssd",
@@ -503,6 +506,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "arizona-campus-repository",
           "artic",
           "cifor-icraf",
           "cinii-books",
@@ -591,6 +595,7 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "arizona-campus-repository",
           "artic",
           "biostudies",
           "checklistbank",
@@ -617,6 +622,7 @@
           "icdc-climate-thredds",
           "icgem-gravity-model-portal",
           "idigbio",
+          "iers-central-bureau-webservices",
           "igets-geodynamics-data-archive",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
@@ -1717,6 +1723,7 @@
         "candidate_provider_ids": [
           "aland-statistics",
           "austria-invekos-ogc",
+          "bonares-soil-agricultural-repository",
           "galicia-abertos-catalog",
           "lithuania-statistics",
           "puglia-open-data-catalog",
@@ -1780,11 +1787,13 @@
           "bern-geodata-catalog-api",
           "bexis-biodiversity-exploratories",
           "bologna-open-data",
+          "bonares-soil-agricultural-repository",
           "bordeaux-metropole-datahub",
           "crc806-legacy-research-database",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "earthprints-geoscience-repository-api",
           "galicia-abertos-catalog",
           "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
@@ -1797,6 +1806,7 @@
           "registry-opendata-aragon-es",
           "santander-open-data",
           "sardinia-geospatial-wfs",
+          "seadatanet-cdi-discovery-network",
           "terrassa-open-data",
           "tethys-geosphere-oai",
           "tuscany-open-data-catalog",
@@ -1836,12 +1846,15 @@
           "oulu-open-data-api"
         ],
         "candidate_provider_ids": [
+          "bonares-soil-agricultural-repository",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "earthprints-geoscience-repository-api",
           "os-os-places-api",
           "santander-open-data",
           "sardinia-geospatial-wfs",
+          "seadatanet-cdi-discovery-network",
           "tuscany-open-data-catalog",
           "ufz-spatial-geonetwork",
           "ukho-tidal"
@@ -2161,6 +2174,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "earthprints-geoscience-repository-api",
           "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
@@ -2175,6 +2189,7 @@
           "santander-open-data",
           "sardinia-geospatial-wfs",
           "schaffhausen-geoservices",
+          "seadatanet-cdi-discovery-network",
           "shom-data",
           "solothurn-gis-dataservice",
           "tethys-geosphere-oai",
@@ -2294,6 +2309,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "seadatanet-cdi-discovery-network",
           "ufz-spatial-geonetwork"
         ],
         "restricted_provider_ids": [
@@ -2312,6 +2328,8 @@
           "transportapi-fi"
         ],
         "candidate_provider_ids": [
+          "earthprints-geoscience-repository-api",
+          "seadatanet-cdi-discovery-network",
           "shom-data",
           "ukho-tidal"
         ],
@@ -2377,6 +2395,7 @@
           "austria-invekos-ogc",
           "bas-fcs",
           "bologna-open-data",
+          "bonares-soil-agricultural-repository",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2466,6 +2485,7 @@
           "anfr-data",
           "bas-fcs",
           "bexis-biodiversity-exploratories",
+          "bonares-soil-agricultural-repository",
           "cessda-catalogue",
           "clarin-dk-fcs",
           "clarin-fcs",
@@ -2476,6 +2496,7 @@
           "cocoon-fcs",
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
+          "earthprints-geoscience-repository-api",
           "france-culture-open-data-portal",
           "gotriple",
           "granada-university-open-data",
@@ -2491,6 +2512,7 @@
           "portulan-repository",
           "rijksmuseum",
           "saw-leipzig-fcs",
+          "seadatanet-cdi-discovery-network",
           "surf-data-repository",
           "swissubase-oai",
           "tethys-geosphere-oai",
@@ -3962,6 +3984,7 @@
         "candidate_provider_ids": [
           "aadc-weather",
           "apgc-permafrost-ckan",
+          "copenhagen-geomagnetic-index-archive",
           "marine-data-germany-portal",
           "nsidc"
         ],
@@ -4097,9 +4120,11 @@
         ]
       },
       "astronomy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "copenhagen-geomagnetic-index-archive"
+        ],
         "restricted_provider_ids": []
       },
       "culture": {
@@ -4120,6 +4145,7 @@
         "candidate_provider_ids": [
           "aadc-metadata",
           "apgc-permafrost-ckan",
+          "copenhagen-geomagnetic-index-archive",
           "marine-data-germany-portal"
         ],
         "restricted_provider_ids": [
@@ -9781,6 +9807,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "arizona-campus-repository",
+      "provider": "University of Arizona Libraries",
+      "service_name": "UA Campus Repository",
+      "geographic_coverage": "University of Arizona scholarship with international subjects and worldwide readeraccess; no all-country datasetcoverage claim",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Faculty scholarship, theses/dissertations, researchposters/projects and campus institutionalworks; separateReDATA researchdata repository not conflated",
+      "documentation_url": "https://repository.arizona.edu/home | https://lib.arizona.edu/research/share/open-access/policy | https://libguides.library.arizona.edu/PHX/SP",
+      "api_base_url": "",
+      "format_protocol": "Official institutional policy/guide HTML only; repositorysoftware/APIdeployment not verified",
+      "authentication": "unknown; no accounts/credentials used",
+      "free_access_restrictions": "OApolicy targets freelyavailable facultyarticles, allowswaivers/delay, doesnot transfercopyright; nativecontent availability untested",
+      "license": "unknown universal metadata/database/source reusegrant; facultyOApolicy grants University rightto makearticles freelyavailable, copyrightremainsauthor",
+      "license_url": "https://lib.arizona.edu/research/share/open-access/policy",
+      "api_verification_state": "repositoryroot_robots_withheld_institutional_policy_verified_independent_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:32:41.353944+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "armenia-statbank",
       "provider": "Statistical Committee of the Republic of Armenia / Armstat",
       "service_name": "Official statistics ArmStatBank PxWeb API",
@@ -10897,6 +10941,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cornell-ccss-data-reproduction-repository",
+      "provider": "Cornell Center for Social Sciences (CCSS)",
+      "service_name": "CCSS Data and Reproduction Repository",
+      "geographic_coverage": "Cornell-supported socialscienceresearch and external sourceworks; geographicextent varies perstudy",
+      "topical_coverage": "research | economics/finance | demographics | social sciences",
+      "dataset_families": "Researchreproduction packages with code,data,documentation and comparisonoutputs; depositedsource rights vary",
+      "documentation_url": "https://data.socialsciences.cornell.edu/ | https://socialsciences.cornell.edu/research-support/R-squared",
+      "api_base_url": "",
+      "format_protocol": "OfficialCCSS institutionalHTMLdescribesarchive/Dataversepractice; actualAPI/formatruntime unverified",
+      "authentication": "unknown; no accounts/credentials used",
+      "free_access_restrictions": "CCSSprovides onlinearchive; some reproductionpackages mayomit source data becauseprovider accessconditions. No blanketfree open sourcegrant established",
+      "license": "unknown blanketmetadata/database grant; institutional guidance tellsdepositor tospecifydata/code licences, absence means no reuse permission",
+      "license_url": "https://socialsciences.cornell.edu/research-support/R-squared",
+      "api_verification_state": "native_repositoryroot_robots_withheld_institutional_archive_guidance_verified_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:32:41.353944+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cornell-ecommons-repository-api",
       "provider": "Cornell University Library",
       "service_name": "eCommons institutional repository OAI-PMH and documented REST API",
@@ -11398,6 +11460,24 @@
       "license_url": "https://environment.data.gov.uk/water-quality/view/doc/reference | https://environment.data.gov.uk/support/faqs/275811163/275811177 | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "registry_claim_original_documentation_HTTP_or_policy_access_unresolved_no_API_sample",
       "latest_checked_utc": "2026-10-17T03:29:34.219861+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "earthprints-geoscience-repository-api",
+      "provider": "Earth-prints / Istituto Nazionale di Geofisica e Vulcanologia (INGV)",
+      "service_name": "Earth-prints DSpace-CRIS geoscience bibliographic API",
+      "geographic_coverage": "International Earth-science publications with INGV participation; Italian archive, not geographically restricted to Italy",
+      "topical_coverage": "geophysics | climate/weather/environment | oceans | water | geospatial | research",
+      "dataset_families": "Atmosphere, cryosphere, hydrosphere, solidEarth publications/preprints, reports, theses, projects and software descriptions;62collections indexed",
+      "documentation_url": "https://www.earth-prints.org/home | https://www.earth-prints.org/server/api | https://www.earth-prints.org/earth-prints/policies",
+      "api_base_url": "https://www.earth-prints.org/server/api",
+      "format_protocol": "Native DSpace-CRIS HAL JSON root and collections catalogue; HTMLpolicies separate",
+      "authentication": "Anonymous public APIroot and collectionmetadata succeeded; no eperson/auth/admin/workflow/statistics endpoints accessed",
+      "free_access_restrictions": "Archive author registration/deposit free; author ownership and institutional access restrictions remain source-specific, no sourcefiles obtained",
+      "license": "unknown explicit blanket metadata/database grant; depositagreement grants archive hosting, encourages authorCClicenses or asserts owncopyright",
+      "license_url": "https://www.earth-prints.org/earth-prints/policies | https://www.earth-prints.org/info/end-user-agreement",
+      "api_verification_state": "native_anonymous_HAL_root_and_complete62collection_metadata_JSON_success_licence_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:32:41.353944+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
