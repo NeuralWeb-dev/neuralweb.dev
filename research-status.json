@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T20:13:34.543607+00:00",
+  "published_at": "2026-10-17T20:15:37.470155+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:10:20.452824+00:00",
+  "research_updated_at": "2026-10-17T20:15:10.710479+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals processed; five records added and WDCC clarified without coastDat duplication. INTERMAGNET native154observatories/3074HAPI IDs verified underNCdefault; DIGIS currentGFZ rights versus legacyGROhold preserved; global discovery unfinished.",
+  "latest_milestone": "SDDB367OAI descriptions complete; IGETSoneBY4/source registration; TOR RSOv1NC4 corrected versus separate SAR restriction",
   "counts": {
     "verified": 282,
-    "candidates": 540,
-    "excluded": 117,
+    "candidates": 542,
+    "excluded": 119,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -12434,6 +12434,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "igets-geodynamics-data-archive",
+      "provider": "International Geodynamics and Earth Tide Service / GFZ ISDC",
+      "service_name": "IGETS gravity/pressure station archive and registered SFTP distribution",
+      "geographic_coverage": "Worldwide geodynamic station network; station/instrument periods vary",
+      "topical_coverage": "gravity | geodynamics | geophysics | Earth tides | research",
+      "dataset_families": "Level1 raw gravity/local pressure atsecond/minute cadence, correctedLevel2 and residualLevel3 products, station/DOI descriptions",
+      "documentation_url": "https://isdc.gfz.de/igets-data-base/ | https://isdc.gfz.de/igets-data-base/data-access | https://isdc.gfz.de/igets-data-base/documentation",
+      "api_base_url": "",
+      "format_protocol": "Documented registered encrypted SFTP file distribution, old classical FTP disabled; HTML/DOI metadata not machine-queryAPI success",
+      "authentication": "Operator explicitly requires registration and IGETS account for data-product downloads; no account/key requested or discovered",
+      "free_access_restrictions": "Exact AubureLevel1 source CC BY4; technical registration remains separate. Other station/source grants and service quotas unreviewed",
+      "license": "CC BY4 verified for AubureLevel1 source; exact all-station/catalogue/API metadata grant unknown",
+      "license_url": "https://dataservices.gfz.de/10.5880/igets.au.l1.001/superconducting-gravimeter-data-from-aubure | https://isdc.gfz.de/legal-notice/",
+      "api_verification_state": "official_SFTP_account_requirement_and_exact_source_grant_verified_query_API_unestablished",
+      "latest_checked_utc": "2026-10-17T20:15:01.364540+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ilc4clarin-fcs",
       "provider": "ILC4CLARIN / CNR Institute for Computational Linguistics",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -16013,6 +16031,24 @@
       "license_url": "https://services.sh.ch/de/services/geodaten-als-open-government-data-ogd",
       "api_verification_state": "actual_public_JSON_sample_success_one_place_name",
       "latest_checked_utc": "2026-10-17T07:31:54.048100+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sddb-scientific-drilling-oai",
+      "provider": "Scientific Drilling Database / GFZ Data Services",
+      "service_name": "SDDB archived scientific-drilling descriptions via DOIDB OAI-PMH",
+      "geographic_coverage": "Scientific drilling projects and geological core/sample studies; source-specific global sites",
+      "topical_coverage": "geology | drilling | geochemistry | geophysics | research",
+      "dataset_families": "Geological drilling/core records, operational reports, scientific datasets, imagery descriptions and bibliography",
+      "documentation_url": "https://dataservices.gfz-potsdam.de/portal/?fq=datacentre_symbol%3ADOIDB.SDDB+%3B+old+portal+HTTP410+%7C+https%3A%2F%2Fdoidb.wdc-terra.org%2F%2Foaip%2Foai%3Fverb%3DListRecords&metadataPrefix=oai_dc&set=DOIDB.SDDB",
+      "api_base_url": "https://doidb.wdc-terra.org//oaip/oai ; set DOIDB.SDDB",
+      "format_protocol": "Native OAI-PMH2 XML source descriptions; current scoped set remains available despite retired HTML portal",
+      "authentication": "Anonymous OAI set requests succeeded; source access untested",
+      "free_access_restrictions": "Per-source rights preserved in index, including CC licences and missing statements; no universal source or metadata grant established",
+      "license": "Exact OAI metadata/database grant unknown; individual described sources have varying/unknown rights, no blanket CC BY3 inferred",
+      "license_url": "https://doidb.wdc-terra.org//oaip/oai?verb=ListRecords&metadataPrefix=oai_dc&set=DOIDB.SDDB",
+      "api_verification_state": "native_anonymous_OAI_full_scoped_set_success_old_portal410_not_nonexistence",
+      "latest_checked_utc": "2026-10-17T20:15:01.364540+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21001,6 +21037,42 @@
       "license_url": "https://opendata.tel-aviv.gov.il/he/terms",
       "api_verification_state": "primary_indexed_API_documentation_original_root_policy_held_no_sample",
       "latest_checked_utc": "2026-10-17T15:02:22.438444+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "terrasarx-sar-imagery-access",
+      "provider": "DLR / Airbus TerraSAR-X SAR data services",
+      "service_name": "TerraSAR-X SAR imagery scientific-proposal/commercial distribution access",
+      "geographic_coverage": "Satellite SAR acquisitions, scene/tasking-dependent global coverage",
+      "topical_coverage": "satellite imagery | geospatial | Earth observation | research",
+      "dataset_families": "SSC/MGD/GEC/EEC SAR image product descriptions, multiple imaging modes; not TOR orbit/GPS payload",
+      "documentation_url": "https://www.dlr.de/en/research-and-transfer/projects-and-missions/terrasar-x/data-access-and-products",
+      "api_base_url": "",
+      "format_protocol": "Official HTML product/access documentation only, no API response sampled",
+      "authentication": "Scientific data provided for accepted proposals; commercial distribution Airbus, no access obtained",
+      "free_access_restrictions": "Scientific application/proposal conditions and separate commercial product terms; no universally open source-data licence established",
+      "license": "Application-specific scientific user licence/proposal terms and commercial rights; excluded from unrestricted open-data catalog",
+      "license_url": "https://www.dlr.de/en/research-and-transfer/projects-and-missions/terrasar-x/data-access-and-products",
+      "api_verification_state": "official_restricted_access_and_product_documentation_verified_API_untested",
+      "latest_checked_utc": "2026-10-17T20:15:01.364540+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "terrasarx-tor-rso-archive",
+      "provider": "GFZ TOR payload/ISDC with DLR TerraSAR-X mission",
+      "service_name": "TerraSAR-X TOR / Rapid Science Orbit product archive",
+      "geographic_coverage": "Orbit/GPS/occultation-derived satellite observations; global orbit coverage, source-version-specific periods",
+      "topical_coverage": "satellite geodesy | gravity | atmosphere | navigation | research",
+      "dataset_families": "TOR tracking/occultation/ranging payload and derived Rapid Science Orbit products; inspected DOI v1, not all raw TORdata",
+      "documentation_url": "https://www.gfz.de/sektion/globales-geomonitoring-und-schwerefeld/projekte/tor-gfz-nutzlast-auf-terrasar-x-und-tandem-x | https://isdc.gfz.de/orbit",
+      "api_base_url": "",
+      "format_protocol": "Documented CHORB/sp3 orbit file families; DOI landing embeds schema.org JSON-LD, not native observation-query API",
+      "authentication": "Exact orbit/RAW TOR data download auth unknown; registry registration claim not tested; IGETS-specific SFTP rules not transferred to all orbit products",
+      "free_access_restrictions": "Inspected GFZ TerraSAR-X RSO version1 DOI explicitly CC BY-NC4; remaining TOR/source versions and raw data rights separate",
+      "license": "CC BY-NC4 explicitly for GFZ TerraSAR-X Rapid Science Orbits version1",
+      "license_url": "https://dataservices.gfz.de/10.5880/gfz_orbit/rso/l13_g_v01/gfz-terrasar-x-rapid-science-orbits-version",
+      "api_verification_state": "exact_RSO_v1_NC4_source_grant_and_TOR_identity_verified_query_API_gap",
+      "latest_checked_utc": "2026-10-17T20:15:01.364540+00:00",
       "classification": "restricted"
     },
     {
