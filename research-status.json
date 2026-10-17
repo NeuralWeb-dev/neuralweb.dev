@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T09:19:53.403327+00:00",
+  "published_at": "2026-10-17T09:21:56.341232+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T09:19:39.157115+00:00",
+  "research_updated_at": "2026-10-17T09:20:58.543996+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Civic/health10origins:BCscopedOGL2/APIterms1.1 andGipuzkoaCCBY4default,APIsamplesheld;GHDxRSS10normalizeditems/IHME-NC restricted.666services:218open/402candidates/46restricted;354originalsremain;globalin_progress.",
   "counts": {
     "verified": 218,
     "candidates": 402,
@@ -48,7 +48,9 @@
           "wfp",
           "worldpop-wopr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "ghdx-ihme-discovery"
+        ]
       },
       "economics/finance": {
         "status": "partial_verified",
@@ -67,6 +69,7 @@
         "restricted_provider_ids": [
           "bis",
           "fred",
+          "ghdx-ihme-discovery",
           "imf",
           "opensanctions",
           "un-comtrade"
@@ -195,6 +198,7 @@
           "wfp"
         ],
         "restricted_provider_ids": [
+          "ghdx-ihme-discovery",
           "who"
         ]
       },
@@ -493,6 +497,7 @@
           "copernicus-marine",
           "deims",
           "ebird",
+          "ghdx-ihme-discovery",
           "orcid",
           "un-comtrade"
         ]
@@ -3849,7 +3854,7 @@
       "license": "Open Government Licence - British Columbia v2.0, scoped to the named BC Data Catalogue API metadata record",
       "license_url": "https://www2.gov.bc.ca/gov/content/data/open-data/open-government-licence-bc",
       "api_verification_state": "documented_public_read_no_key_required_sample_policy_held_unrequested",
-      "latest_checked_utc": "2026-10-17T09:18:53.702204+00:00",
+      "latest_checked_utc": "2026-10-17T09:17:23.020512+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5253,7 +5258,7 @@
       "license": "CC BY4.0 default for catalogue datasets/resources, subject to explicit per-work overrides",
       "license_url": "https://www.gipuzkoairekia.eus/lege-oharra",
       "api_verification_state": "documented_API_default_open_data_grant_sample_policy_held_unrequested",
-      "latest_checked_utc": "2026-10-17T09:18:53.702394+00:00",
+      "latest_checked_utc": "2026-10-17T09:16:07.299991+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6297,7 +6302,7 @@
       "license": "CC BY4.0",
       "license_url": "https://api.stat.gov.pl/home/bdlapi",
       "api_verification_state": "documented_prior_metadata_sample_success_current_429_quota_deferred",
-      "latest_checked_utc": "2026-10-17T09:12:45.755947+00:00",
+      "latest_checked_utc": "2026-10-17T09:19:26.318547+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15085,7 +15090,7 @@
       "license": "Restricted IHME data: Free-of-Charge Non-Commercial User Agreement; RSS metadata reuse grant unknown",
       "license_url": "https://www.healthdata.org/about/ihme-free-charge-non-commercial-user-agreement",
       "api_verification_state": "actual_RSS_response_normalized_XML_parse_success_raw_XML_leading_whitespace_error",
-      "latest_checked_utc": "2026-10-17T09:18:53.702499+00:00",
+      "latest_checked_utc": "2026-10-17T09:15:37.867205+00:00",
       "classification": "restricted"
     },
     {
