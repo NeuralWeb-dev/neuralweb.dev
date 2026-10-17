@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:23:59.476774+00:00",
+  "published_at": "2026-10-17T17:26:03.174439+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:22:20.151059+00:00",
+  "research_updated_at": "2026-10-17T17:24:59.265110+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Seven original tasks reviewed: SESAR and Landcare documented API candidates held; NEPS and ComBase restricted; NIPR/IA2/SourceForge explicit unresolved;49 IA2 references saved",
+  "latest_milestone": "Tropical/repository reviews: M-TROPICS published404 service candidate; Brown API documented/challenge held; ScholarSphere defaultNC and key-required",
   "counts": {
     "verified": 263,
-    "candidates": 484,
-    "excluded": 75,
+    "candidates": 486,
+    "excluded": 76,
     "sample_successes": 474
   },
   "remaining_work": [
@@ -9453,6 +9453,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "brown-digital-repository-api",
+      "provider": "Brown University Library",
+      "service_name": "Brown Digital Repository public collection/item APIs",
+      "geographic_coverage": "Brown institutional collections; item geography varies",
+      "topical_coverage": "culture; research; education",
+      "dataset_families": "Public repository collections and items, structured metadata and digital scholarly/cultural holdings",
+      "documentation_url": "https://github.com/Brown-University-Library/bdr_api_documentation/wiki",
+      "api_base_url": "https://repository.library.brown.edu/api/",
+      "format_protocol": "JSON public collection/item/search APIs; optional callback",
+      "authentication": "Wiki describes public collection/item APIs; original access challenge held",
+      "free_access_restrictions": "unknown",
+      "license": "Mixed item rights; metadata grant unknown",
+      "license_url": "",
+      "api_verification_state": "untested_policy_restricted",
+      "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "brussels-city-open-data",
       "provider": "City of Brussels / Ville de Bruxelles / Stad Brussel",
       "service_name": "City of Brussels Opendatasoft catalog and Explore API",
@@ -12258,6 +12276,24 @@
       "license_url": "https://donnees.montreal.ca/pages/licence-d-utilisation",
       "api_verification_state": "publisher_CKAN_documented_conventional_API_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T14:14:54.516677+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mtropics-sedoo-metadata",
+      "provider": "M-TROPICS / SEDOO",
+      "service_name": "Tropical catchment catalogue metadata service",
+      "geographic_coverage": "Tropical catchments in Cameroon, India, Laos and Vietnam",
+      "topical_coverage": "water; environment; climate/weather; agriculture; research",
+      "dataset_families": "Meteorological, hydrological, geochemical and ecological time series; catchment data catalogue",
+      "documentation_url": "https://mtropics.obs-mip.fr/catalogue-m-tropics/",
+      "api_base_url": "https://api.sedoo.fr/theia-catalogue-prod/metadata",
+      "format_protocol": "Published SEDOO web-component metadata service; request contract unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown",
+      "license": "unknown current service/data grant",
+      "license_url": "",
+      "api_verification_state": "documented_sample_failed",
+      "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18596,6 +18632,24 @@
       "license_url": "https://data.bs.ch/terms/terms-and-conditions/ | https://data.bs.ch/explore/dataset/100189/information/",
       "api_verification_state": "historical_catalog_metadata_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:33:40.805266+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "scholarsphere-api",
+      "provider": "Penn State University Libraries",
+      "service_name": "ScholarSphere repository API",
+      "geographic_coverage": "Penn State scholarly output; item geography varies",
+      "topical_coverage": "research; education; culture",
+      "dataset_families": "Scholarly works, research data, instructional and creative works, DOI/resource links",
+      "documentation_url": "https://raw.githubusercontent.com/psu-libraries/scholarsphere/main/openapi.yml",
+      "api_base_url": "https://scholarsphere.psu.edu/api/v1",
+      "format_protocol": "REST JSON; OpenAPI3.0.2",
+      "authentication": "APIKey security for DOI reads and other operations in official spec; no authorized key used",
+      "free_access_restrictions": "Site/content made available free of charge; restricted community/subgroup items and noncommercial default use; API key acquisition/free tier unknown",
+      "license": "Default noncommercial academic/research use; per-item exceptions",
+      "license_url": "https://scholarsphere.psu.edu/terms/",
+      "api_verification_state": "documented_key_required_untested",
+      "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
       "classification": "restricted"
     },
     {
