@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T12:01:12.146639+00:00",
+  "published_at": "2026-10-17T12:03:14.864055+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:55:25.916501+00:00",
+  "research_updated_at": "2026-10-17T12:02:59.301936+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Baltic/academic ten originals checkpointed:715services234scoped-open426candidates55restricted;Bonn287native names/108Cockpitlinks restrictedterms;RostockCC0/JerseyOGL-Jscopedrights/API runtimesheld;Brussels/Hungary/UGRcandidates.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
     "verified": 234,
-    "candidates": 426,
+    "candidates": 428,
     "excluded": 55,
-    "sample_successes": 440
+    "sample_successes": 441
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6528,7 +6528,7 @@
       "license": "Open Database License (ODbL) 1.0",
       "license_url": "https://www.openstreetmap.org/copyright",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:29:28.937176+00:00",
+      "latest_checked_utc": "2026-10-17T11:59:19.327136+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6726,7 +6726,7 @@
       "license": "Open Government Licence UK v3.0",
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.373492+00:00",
+      "latest_checked_utc": "2026-10-17T11:57:10.528553+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6882,13 +6882,13 @@
       "dataset_families": "Regional portal datasets; sampled civic participation statistics",
       "documentation_url": "https://open.nrw",
       "api_base_url": "https://open.nrw/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
-      "authentication": "unknown; public sample attempted without credentials",
+      "format_protocol": "Documented CKAN Action API/JSON; JSON-LD/RDF advertised, not sampled",
+      "authentication": "Anonymous catalog sample and package_list succeeded",
       "free_access_restrictions": "Public catalog JSON sample succeeded without credentials",
       "license": "CC0 1.0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:43:35.418286+00:00",
+      "latest_checked_utc": "2026-10-17T11:59:39.704912+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11664,6 +11664,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "opendataphilly-jkan",
+      "provider": "OpenDataPhilly volunteer community; municipal and nonmunicipal publishers",
+      "service_name": "OpenDataPhilly JKAN public JSON catalog",
+      "geographic_coverage": "United States/Philadelphia region and linked surrounding counties; source-specific extent",
+      "topical_coverage": "culture; transportation; environment; health; education; housing; economics; law/civic; geospatial; spending",
+      "dataset_families": "472 catalog descriptors: municipal and nonprofit/academic/regional data, applications and API links; not472 independently verified APIs",
+      "documentation_url": "https://opendataphilly.org/about/ | https://github.com/opendataphilly/opendataphilly-jkan",
+      "api_base_url": "https://opendataphilly.org/data.json",
+      "format_protocol": "Static JSON catalog; Project Open Data v1.1-style dataset/distribution metadata; JKAN/Jekyll",
+      "authentication": "Anonymous read succeeded; no account/key used",
+      "free_access_restrictions": "Public static catalog fetched without payment; linked service fees/quotas/access vary and remain unverified",
+      "license": "unconfirmed for aggregate metadata and linked works; per-work licence declarations retained",
+      "license_url": "https://opendataphilly.org/about/ | https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/",
+      "api_verification_state": "documented_static_json_catalog_sample_success",
+      "latest_checked_utc": "2026-10-17T12:00:04.647782+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "opendatasus",
       "provider": "Brazil Ministry of Health / DEMAS",
       "service_name": "SUS Open Data portal and DEMAS Open Data API",
@@ -11679,6 +11697,24 @@
       "license_url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude | https://dadosabertos.saude.gov.br/dataset/macrorregiao-de-saude | https://apidadosabertos.saude.gov.br/static/swagger.json | https://dadosabertos.saude.gov.br/",
       "api_verification_state": "documented_api_anonymous_nonpersonal_lookup_sample_success",
       "latest_checked_utc": "2026-10-16T22:18:40.950098+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "openei-urdb",
+      "provider": "OpenEI / National Laboratory of the Rockies; Illinois State University and utility contributors",
+      "service_name": "OpenEI Utility Rate Database REST API",
+      "geographic_coverage": "Primarily United States; documented international rates include Belize and Mexico, not worldwide complete",
+      "topical_coverage": "energy; economics/finance",
+      "dataset_families": "Electricity tariffs, utilities, time-of-use and tiered energy/demand charges; provider says over3700USutilities, annually maintained subset roughly150utilities/70percentUSload; documentation claim, not enumerated",
+      "documentation_url": "https://openei.org/services/ | https://openei.org/services/doc/rest/util_rates?version=7",
+      "api_base_url": "https://api.openei.org/utility_rates",
+      "format_protocol": "REST GET JSON/CSV/json_plain; version3-7/latest; versions4+ international support",
+      "authentication": "Free registered API key required by official docs; no key obtained or used",
+      "free_access_restrictions": "Official docs describe free key signup; runtime/free-tier quota, SLA and all reuse rights unconfirmed. No signup/key/data query performed.",
+      "license": "CC0 website/wiki default except otherwise noted; applicability to all URDB API records unresolved",
+      "license_url": "https://openei.org/wiki/Utility_Rate_Database | https://openei.org/wiki/OpenEI:General_disclaimer | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "documented_key_required_sample_untested",
+      "latest_checked_utc": "2026-10-17T11:59:40.171149+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
