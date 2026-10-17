@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T23:21:39.016683+00:00",
+  "published_at": "2026-10-17T23:23:41.447219+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:21:18.551119+00:00",
+  "research_updated_at": "2026-10-17T23:22:33.033162+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Grameneoriginalschemahold/sourcegrantsunknown; NCARDASHdefaultBY4/APIreferencewithoriginalholds; GutenbergmetadataCC0+actualXML/sets/ResearchDataIDs.",
+  "latest_milestone": "Nine newprovider/service records: two scoped-openmetadata,five candidates,two restricted. PRISM/MainzactualOAI XML; Mainz181-set/34-ResearchData-IDreturnedfrontiers processed, exactsource-rights pending.",
   "counts": {
     "verified": 311,
     "candidates": 634,
@@ -125,6 +125,7 @@
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
+          "ncar-ucar-dash-search",
           "pangaea",
           "toar-surface-observation-api",
           "usgs-earthquake",
@@ -198,7 +199,8 @@
           "gtnp-current-data-platform-api",
           "hcdc-datasearch-metadata-api",
           "igb-fred-metadata-interface",
-          "nasa-cmr"
+          "nasa-cmr",
+          "ncar-ucar-dash-search"
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
@@ -371,6 +373,7 @@
           "hcdc-datasearch-metadata-api",
           "marine-regions-modern-boundaries-ogc",
           "nasa-cmr",
+          "ncar-ucar-dash-search",
           "opencontext",
           "osm",
           "usgs-earthquake",
@@ -661,6 +664,7 @@
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
+          "ncar-ucar-dash-search",
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
@@ -1034,6 +1038,7 @@
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
+          "calgary-prism-scholaris-repository",
           "calhhs-open-data",
           "citf-controlled-databank",
           "colorado-information-marketplace",
@@ -1060,6 +1065,7 @@
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
+          "calgary-prism-scholaris-repository",
           "colorado-information-marketplace",
           "hawaii-open-data-catalogue"
         ]
@@ -1359,6 +1365,7 @@
           "usda-nass"
         ],
         "restricted_provider_ids": [
+          "calgary-prism-scholaris-repository",
           "colorado-information-marketplace"
         ]
       },
@@ -1407,6 +1414,7 @@
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
+          "calgary-prism-scholaris-repository",
           "citf-controlled-databank",
           "nova-scotia-offshore-data-centre",
           "polar-data-catalogue-metadata-api"
@@ -2085,6 +2093,7 @@
           "fsa-fhrs",
           "fsd-finland",
           "georgia-statistics",
+          "gutenberg-mainz-oai-metadata",
           "iceland-statistics",
           "italy-istat-sdmx",
           "jersey-government-open-data",
@@ -2144,6 +2153,7 @@
           "faroe-statistics",
           "fsd-finland",
           "georgia-statistics",
+          "gutenberg-mainz-oai-metadata",
           "iceland-statistics",
           "italy-istat-sdmx",
           "lincolnshire-open-data-portal",
@@ -2567,6 +2577,7 @@
           "finna",
           "finto",
           "georgia-statistics",
+          "gutenberg-mainz-oai-metadata",
           "iceland-statistics",
           "italy-istat-sdmx",
           "lincolnshire-open-data-portal",
@@ -2680,6 +2691,7 @@
           "finto",
           "fsd-finland",
           "geri",
+          "gutenberg-mainz-oai-metadata",
           "hcdc-datasearch-metadata-api",
           "iceland-statistics",
           "ices-dome",
@@ -2794,6 +2806,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "romanian-social-data-archive",
           "saudi-statistics",
           "tunisia-ins"
         ],
@@ -2818,6 +2831,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "romanian-social-data-archive",
           "saudi-statistics",
           "tunisia-ins"
         ],
@@ -2885,6 +2899,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "romanian-social-data-archive",
           "saudi-statistics",
           "ubb-digital-commons-data"
         ],
@@ -2980,6 +2995,7 @@
           "digitalearth-africa"
         ],
         "candidate_provider_ids": [
+          "romanian-social-data-archive",
           "ubb-digital-commons-data"
         ],
         "restricted_provider_ids": [
@@ -3317,6 +3333,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "clinical-trials-registry-india",
           "pakistan-odp"
         ],
         "restricted_provider_ids": []
@@ -3421,6 +3438,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "clinical-trials-registry-india",
           "esa-ecology",
           "india-environment-portal",
           "issdc-space-science-archive",
