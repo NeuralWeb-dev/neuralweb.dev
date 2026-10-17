@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T19:26:33.907574+00:00",
+  "published_at": "2026-10-17T19:28:36.991637+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:23:29.324819+00:00",
+  "research_updated_at": "2026-10-17T19:27:32.124806+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TERENO native THREDDS catalogue/source grant-policy conflict verified; Southampton OAI held/terms unresolved; AMIGA4archive refs and current API gap retained",
+  "latest_milestone": "Nine original tasks reviewed; four new records and four existing services updated; BRFSS public-domain API and UniSave version metadata native verified, policy conflicts retained",
   "counts": {
     "verified": 279,
     "candidates": 516,
-    "excluded": 109,
+    "excluded": 110,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -1735,6 +1735,7 @@
           "terrassa-open-data",
           "tethys-geosphere-oai",
           "tuscany-open-data-catalog",
+          "ukedc-discovery-portal",
           "wis2-poland",
           "wis2-russian-federation"
         ],
@@ -1806,6 +1807,7 @@
           "nordpool-entsoe",
           "puglia-open-data-catalog",
           "uk-trade-tariff",
+          "ukedc-discovery-portal",
           "zagreb-open-data"
         ],
         "restricted_provider_ids": [
@@ -2411,6 +2413,7 @@
           "swissubase-oai",
           "tethys-geosphere-oai",
           "tuebingen-fcs",
+          "ukedc-discovery-portal",
           "wellcome-collection",
           "yoda-utrecht",
           "zvdd-metadata-interfaces"
@@ -8769,8 +8772,8 @@
       "service_name": "UniProt Consortium API",
       "geographic_coverage": "Global",
       "topical_coverage": "research; health; biodiversity",
-      "dataset_families": "Proteins; taxonomy; function annotations; UniParc protein archive and UniRef100/90/50 sequence-cluster families retained under same provider",
-      "documentation_url": "https://www.uniprot.org/help/api",
+      "dataset_families": "Proteins; taxonomy; function annotations; UniParc protein archive and UniRef100/90/50 sequence-cluster families retained under same provider | UniSave historical UniProtKB entry/sequence annotation version metadata, current /unisave interface",
+      "documentation_url": "https://www.uniprot.org/help/api | https://www.ebi.ac.uk/uniprot/unisave/app/partials/help.html",
       "api_base_url": "https://rest.uniprot.org/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
@@ -8778,7 +8781,7 @@
       "license": "CC BY 4.0",
       "license_url": "https://rest.uniprot.org/help/license?format=json",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T18:17:50.975019+00:00",
+      "latest_checked_utc": "2026-10-17T19:26:34.890393+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -19411,7 +19414,7 @@
       "service_name": "Harvard Dataverse public API",
       "geographic_coverage": "Global",
       "topical_coverage": "research",
-      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections",
+      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections | AfricaRice hosted agricultural research collection, distinct per-dataset rights unreviewed under nativehosthold",
       "documentation_url": "https://guides.dataverse.org/en/latest/api/",
       "api_base_url": "https://dataverse.harvard.edu/api/",
       "format_protocol": "REST/JSON or XML as documented",
@@ -19420,7 +19423,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
-      "latest_checked_utc": "2026-10-17T18:35:42.166928+00:00",
+      "latest_checked_utc": "2026-10-17T19:26:34.890393+00:00",
       "classification": "restricted"
     },
     {
@@ -20303,6 +20306,24 @@
       "license_url": "https://opendata.tel-aviv.gov.il/he/terms",
       "api_verification_state": "primary_indexed_API_documentation_original_root_policy_held_no_sample",
       "latest_checked_utc": "2026-10-17T15:02:22.438444+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "thereda-thermodynamic-database",
+      "provider": "THEREDA collaboration / BGE-funded thermodynamic reference database",
+      "service_name": "THEREDA geochemical thermodynamic data portal; API gap",
+      "geographic_coverage": "Geochemical thermodynamic systems and nuclear-waste-disposal research; not geographic observations",
+      "topical_coverage": "chemistry | environment | energy | research",
+      "dataset_families": "Evaluated thermodynamic reference data and compiled geochemical model data for saline nuclear-waste-disposal systems",
+      "documentation_url": "https://www.thereda.de/en | https://www.thereda.de/en/data-access",
+      "api_base_url": "",
+      "format_protocol": "Human web portal describes compiled database access; machine query interface unknown",
+      "authentication": "Public description/license200; data-access page exposes login/registration navigation, exact data/API access unknown. No account/form used.",
+      "free_access_restrictions": "Compiled data licensed CC BY-ND4.0; additional explicit prohibition on systematic/substantial scraping for paid resale/subscriptions/commercial databases",
+      "license": "Creative Commons Attribution-NoDerivatives4.0 plus stated systematic commercial-resale restriction",
+      "license_url": "https://www.thereda.de/en/data-access/license",
+      "api_verification_state": "official_portal_and_restrictive_licence_verified_public_query_API_unestablished",
+      "latest_checked_utc": "2026-10-17T19:26:34.890393+00:00",
       "classification": "restricted"
     },
     {
