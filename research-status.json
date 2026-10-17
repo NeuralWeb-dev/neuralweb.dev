@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T20:05:24.069722+00:00",
+  "published_at": "2026-10-17T20:07:26.649151+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:02:23.383524+00:00",
+  "research_updated_at": "2026-10-17T20:06:14.038544+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed; repOS HCU metadata CC0 and native OAI accepted; LMU21 identifiers, HCU139 sets/13 dataset identifiers indexed. GDI-DE/GeoReM/TRR API and exact grants remain unresolved.",
+  "latest_milestone": "INTERMAGNET native154observatories/3074HAPI IDs verified underNCdefault; coastDat mappedWDCCmetadata/source distinction; Seaice host held",
   "counts": {
     "verified": 282,
     "candidates": 537,
-    "excluded": 115,
+    "excluded": 117,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -9085,7 +9085,7 @@
       "license": "CC0 Universal explicitly stated for metadata",
       "license_url": "https://www.wdc-climate.de/ui/info?site=fairsummary",
       "api_verification_state": "native_anonymous_REST_search_JSON_and_OAI_Identify_XML_success",
-      "latest_checked_utc": "2026-10-17T19:17:42.253860+00:00",
+      "latest_checked_utc": "2026-10-17T20:06:09.918811+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20181,6 +20181,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "intermagnet-geomagnetic-api",
+      "provider": "INTERMAGNET / contributing observatory institutes / BGS Edinburgh GIN",
+      "service_name": "INTERMAGNET GIN HTTP query and HAPI services",
+      "geographic_coverage": "Global network of geomagnetic observatories; exact periods/cadence and institute embargoes vary",
+      "topical_coverage": "geomagnetism | geophysics | space weather | research",
+      "dataset_families": "Minute/second geomagnetic time series with reported/adjusted/quasi-definitive/definitive states and component variants; sampled only discovery metadata",
+      "documentation_url": "https://imag-data.bgs.ac.uk/GIN_V1/ | https://intermagnet.org/data_download.html",
+      "api_base_url": "https://imag-data.bgs.ac.uk/GIN_V1/GINServices | https://imag-data.bgs.ac.uk/GIN_V1/hapi",
+      "format_protocol": "Native GIN GetCapabilities JSON and HAPI3.1 catalog JSON(status1200); data JSON/XML/IAGA2002/CDF/CSV protocols documented, not measurements sampled",
+      "authentication": "Anonymous capabilities/catalog succeeded; embargo overrides may require credentials, not obtained",
+      "free_access_restrictions": "Default CC BY-NC4; commercial/sale/bulk third-party distribution requires institute permission; current legal page listsBCMT exceptions not reviewed individually",
+      "license": "Default Creative Commons Attribution-NonCommercial4.0; institute-specific exceptions and metadata grants separate",
+      "license_url": "https://intermagnet.org/data_conditions.html",
+      "api_verification_state": "native_anonymous_GIN_capabilities_and_HAPI_catalogue_JSON_success_under_scoped_NCdefault",
+      "latest_checked_utc": "2026-10-17T20:06:09.918811+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "ipd-immunopolymorphism-api",
       "provider": "Anthony Nolan HLA Informatics Group / EMBL-EBI",
       "service_name": "IPD Immuno Polymorphism Database REST API including IMGT/HLA",
@@ -20808,6 +20826,24 @@
       "license_url": "https://scholarsphere.psu.edu/terms/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "seaice-portal",
+      "provider": "AWI / University of Bremen Institute of Environmental Physics",
+      "service_name": "Meereis Portal / Seaice Portal data and graphics portal",
+      "geographic_coverage": "Arctic and Antarctic sea ice; source-specific satellite/buoy products",
+      "topical_coverage": "climate | cryosphere | oceans | environment | research",
+      "dataset_families": "Sea-ice concentration/extent/trends, maps/graphics and buoy-data references; no source inventory enumerated",
+      "documentation_url": "https://www.meereisportal.de/en/",
+      "api_base_url": "",
+      "format_protocol": "Official public HTML documentation; no query API response established. Registry externalNSIDCFTP not portal API proof",
+      "authentication": "Public main-site documentation accessible; data-host access/API authentication unknown",
+      "free_access_restrictions": "Website imagery default permission/private/editorial limits; maps/graphics reference attribution clause and individually CC-licensed works separate, exact numeric-source grants unconfirmed",
+      "license": "Default website imagery/content restricted; exact source maps/numerical data may have distinct grants, not universally cleared",
+      "license_url": "https://www.meereisportal.de/impressum",
+      "api_verification_state": "official_main_site_and_scoped_terms_verified_data_host_robots_withheld_no_API_success",
+      "latest_checked_utc": "2026-10-17T20:06:09.918811+00:00",
       "classification": "restricted"
     },
     {
