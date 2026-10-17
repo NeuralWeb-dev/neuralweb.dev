@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T20:48:21.908988+00:00",
+  "published_at": "2026-10-17T20:50:24.955670+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:48:08.761955+00:00",
+  "research_updated_at": "2026-10-17T20:49:15.421580+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Art/GnpIS/Dryad originalsreviewed; HEIDIscopedCC0documented, heiDATA503andGnpISchallengepreserved, Dryaddeduplicated",
+  "latest_milestone": "Sixoriginaltasksreviewedintwobatches; sevenrecordsaddedandDryaddeduplicated. ColumbiaCC0bibliographyexcludingabstracts/HEIDIcatalogueCC0scopesverified; ing.est33identifierscomplete. Globaldiscoveryunfinished.",
   "counts": {
     "verified": 288,
     "candidates": 559,
@@ -262,6 +262,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bonndata-published-metadata",
+          "columbia-academic-commons-api",
           "doaj",
           "fdat-tuebingen-metadata-api",
           "kitopen-bibliographic-oai",
@@ -505,6 +506,7 @@
         "verified_provider_ids": [
           "bnf-catalogue",
           "cleveland-art",
+          "columbia-academic-commons-api",
           "fdat-tuebingen-metadata-api",
           "getty-provenance",
           "getty-vocabularies",
@@ -559,6 +561,7 @@
           "cchdo",
           "chebi",
           "cleveland-art",
+          "columbia-academic-commons-api",
           "crossref",
           "datacite",
           "doaj",
@@ -2085,6 +2088,7 @@
           "ioerdata-spatial-research-portal",
           "lithuania-statistics",
           "mulhouse-alsace-open-data",
+          "nfdi4ing-ingest-metadata-api",
           "os-os-places-api",
           "sardinia-geospatial-wfs",
           "serbia-rzs"
@@ -2194,6 +2198,7 @@
           "la-rochelle-data4citizen",
           "mulhouse-alsace-open-data",
           "navarra-open-data",
+          "nfdi4ing-ingest-metadata-api",
           "os-os-places-api",
           "poland-gus-teryt",
           "puglia-open-data-catalog",
@@ -2428,6 +2433,7 @@
           "kpbc-digital-library",
           "ksamsok",
           "lithuania-statistics",
+          "nfdi4ing-ingest-metadata-api",
           "ortolang-fcs",
           "perspectivia",
           "portulan-fcs",
@@ -2520,6 +2526,7 @@
           "kpbc-digital-library",
           "ksamsok",
           "nfdi4health-study-hub",
+          "nfdi4ing-ingest-metadata-api",
           "ortolang-fcs",
           "perspectivia",
           "portulan-fcs",
@@ -3709,6 +3716,7 @@
           "qspatial-csw-catalog",
           "queensland-data",
           "rcc-acis-web-services",
+          "sarig-geoscience-data-services",
           "sunshine-coast-open-data-search",
           "wa-slip-public-geospatial-services"
         ],
@@ -3719,7 +3727,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "data-wa-catalogue-api",
-          "mbie-geodata"
+          "mbie-geodata",
+          "sarig-geoscience-data-services"
         ],
         "restricted_provider_ids": []
       },
@@ -3807,6 +3816,7 @@
           "opt-nc-data",
           "province-sud-geospatial",
           "qspatial-csw-catalog",
+          "sarig-geoscience-data-services",
           "stats-nz-geographic",
           "sunshine-coast-open-data-search",
           "trove-cultural-discovery-api",
@@ -3940,6 +3950,7 @@
           "nz-iponz",
           "pacioos-erddap",
           "pisco",
+          "sarig-geoscience-data-services",
           "spc-pccos-tds",
           "te-papa",
           "trove-cultural-discovery-api"
