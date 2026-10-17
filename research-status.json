@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T20:29:59.203964+00:00",
+  "published_at": "2026-10-17T20:32:01.630643+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:27:23.424221+00:00",
+  "research_updated_at": "2026-10-17T20:31:57.632805+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Soil/marine/Earth-rotation originals reviewed; IERSnativeJSONverified, BonaResmap/SeaDataNetholds and exactgrants preserved",
+  "latest_milestone": "Copenhagen/Wittliff/MGnify originals reviewed; nativeMGnifyv2biomes492complete andProteinAPIonehit/twooperations, rightsdiscrepancy andchallengeholds explicit",
   "counts": {
     "verified": 283,
-    "candidates": 547,
-    "excluded": 119,
+    "candidates": 550,
+    "excluded": 120,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -10861,6 +10861,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "copenhagen-geomagnetic-index-archive",
+      "provider": "DTU Space / World Data Center for Geomagnetism Copenhagen",
+      "service_name": "PCN/Kp and analogue geomagnetic archive",
+      "geographic_coverage": "Northern polar-cap index from Qaanaaq Greenland; Kp from Niemegk and historical observatory archive; full analogue coverage unenumerated",
+      "topical_coverage": "geophysics | astronomy | climate/weather/environment | research",
+      "dataset_families": "Definitive/provisional/quick-look PCN, distributed Kp and derivatives; analogue magnetograms, hourly means, quick-run/pulsation/special events,K/Qcatalogues",
+      "documentation_url": "https://www.space.dtu.dk/english/research/scientific_data_and_models/world_data_center_for_geomagnetism | https://www.space.dtu.dk/english/research-divisions/geomagnetism-and-geospace/research-areas/Ground-based-magnetometry-instrumentration-infrastructure/PCN-index",
+      "api_base_url": "",
+      "format_protocol": "Published FTP/HTTPS source archives and six PDF catalogue references; not native API success",
+      "authentication": "unknown; no credentials or accounts",
+      "free_access_restrictions": "unknown exact free access and source rights; public endpoint not licence proof",
+      "license": "Explicit CC BY4 for DTUPC Nindex and distributedGFZ Kp/derivatives; broader analogue/archive metadata rights unknown",
+      "license_url": "https://www.space.dtu.dk/english/research/scientific_data_and_models/world_data_center_for_geomagnetism | https://www.space.dtu.dk/english/research-divisions/geomagnetism-and-geospace/research-areas/Ground-based-magnetometry-instrumentration-infrastructure/PCN-index",
+      "api_verification_state": "native_provider_documentation_scoped_BY4_index_grants_verified_no_query_API_established",
+      "latest_checked_utc": "2026-10-17T20:31:53.492138+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "copernicus-stac",
       "provider": "Copernicus Data Space Ecosystem",
       "service_name": "Copernicus Data Space Ecosystem API",
@@ -13432,6 +13450,42 @@
       "license_url": "https://www.datos.gob.mx/dataset/programa_emisiones_estampillas_postales_conmemorativas_especiales",
       "api_verification_state": "current_CKAN_frontend_and_scoped_work_grant_verified_guessed_API_sample_policy_held",
       "latest_checked_utc": "2026-10-17T10:30:34.265024+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mgnify-microbiome-api",
+      "provider": "MGnify / EMBL-EBI",
+      "service_name": "MGnify microbiome studies and biome classification API v2",
+      "geographic_coverage": "International microbiome studies; environments/hosts represented by current492biome classifications, not coverage of every world location",
+      "topical_coverage": "biodiversity | biology | agriculture | oceans | health | research",
+      "dataset_families": "Studies, samples, runs, analyses, biomes, genomes and analysis outputs; only biome classification metadata sampled/enumerated",
+      "documentation_url": "https://docs.mgnify.org/src/docs/api.html | https://docs.mgnify.org/src/docs/faqs.html",
+      "api_base_url": "https://www.ebi.ac.uk/metagenomics/api/v2/",
+      "format_protocol": "Native v2JSON count/items; current docs/OpenAPI describe REST. Oldv1 deprecated and frozen, not used",
+      "authentication": "Anonymous biomeJSON succeeded; private analyses explicitlyrequirecredentials and were not accessed",
+      "free_access_restrictions": "PublicreadbiomeJSONsuccessful; submittedprivate/embargoed resources separate. GeneralEBIpolicy retainsoriginal-owner restrictions",
+      "license": "unknown explicit grant for all mainAPI returned metadata/database/source works; no additional EBI restrictions beyond original owners is not universalCC0",
+      "license_url": "https://www.ebi.ac.uk/about/terms-of-use/",
+      "api_verification_state": "native_anonymous_v2_biome_JSON_success_scoped_biome_list_complete_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:31:53.492138+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mgnify-proteins-api",
+      "provider": "MGnify / EMBL-EBI",
+      "service_name": "MGnify Protein Database synchronous read API v1",
+      "geographic_coverage": "International public metagenomic assemblies and biomes; current2026_07release per official docs, not universal organism coverage",
+      "topical_coverage": "biodiversity | biology | research | agriculture | oceans",
+      "dataset_families": "Protein cluster-representative accession/full-length/cluster-size metadata, detail annotations/sequences and biome/Pfam search documented; only one marine accession hit requested",
+      "documentation_url": "https://docs.mgnify.org/src/docs/mgnify-proteins-api.html | https://docs.mgnify.org/src/docs/mgnify-proteins.html",
+      "api_base_url": "https://www.ebi.ac.uk/metagenomics/proteins/api/v1",
+      "format_protocol": "Native JSON one-hit array; native OpenAPIJSONtwoGEToperations verified",
+      "authentication": "Official docs noauthentication/APIkey; anonymous sample succeeded",
+      "free_access_restrictions": "Synchronous GET for individual proteins/smallsets; no paidcloudaccount used. Rate limiting documented; large data redirected to bulk channels not used",
+      "license": "Provider text explicitlyCC0 1.0 academic/commercial, but licence-anchor actuallyCCBY4legalcode; exact governing grant discrepancy unresolved",
+      "license_url": "https://docs.mgnify.org/src/docs/mgnify-proteins-api.html | https://docs.mgnify.org/src/docs/mgnify-proteins.html",
+      "api_verification_state": "native_anonymous_one_accession_JSON_and_OpenAPI_success_explicit_open_licence_text_hyperlink_discrepancy_pending",
+      "latest_checked_utc": "2026-10-17T20:31:53.492138+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21372,6 +21426,24 @@
       "license_url": "https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.955902+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wittliff-digital-collections",
+      "provider": "Texas State University Libraries / The Wittliff Collections",
+      "service_name": "Wittliff digital collections and archival discovery",
+      "geographic_coverage": "US Southwest/Texas and Mexican photography/culture collections; not national statistical coverage",
+      "topical_coverage": "culture | research | history | literature | music",
+      "dataset_families": "Southwestern writers, Southwestern/Mexican photography, Texas music, LonesomeDove and archival collection descriptions",
+      "documentation_url": "https://www.thewittliffcollections.txstate.edu/research.html | https://www.thewittliffcollections.txstate.edu/research/visit/policies/publication.html",
+      "api_base_url": "",
+      "format_protocol": "HTML institutional policy only; no OAI/REST/IIIF deployment established",
+      "authentication": "unknown; no credentials or accounts",
+      "free_access_restrictions": "Reading/research admission free by appointment; donor/material access restrictions and reproduction/publication fees/permissions separate",
+      "license": "Default duplication/publication requires permissions; fair-use and individual source rights exceptions remain separate",
+      "license_url": "https://www.thewittliffcollections.txstate.edu/research/visit/policies/publication.html",
+      "api_verification_state": "native_root_HTTP200_challenge_not_API_success_default_publication_policy_verified_no_backend_bypass",
+      "latest_checked_utc": "2026-10-17T20:31:53.492138+00:00",
       "classification": "restricted"
     },
     {
