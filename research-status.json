@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T01:31:27.984460+00:00",
+  "published_at": "2026-10-17T01:33:30.270563+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:29:57.378357+00:00",
+  "research_updated_at": "2026-10-17T01:32:22.978000+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AfDB-hosted Kenya SDMX actual API/dataflow metadata verified, licensing unresolved",
+  "latest_milestone": "AfDBKenya distinctSDMX actualOpenAPI/XML/JSON340flowstubs candidate; WASCAL754package names indexed and mixedNC/ODbLworkingpolicy restricted; legacyGeoNetworkoriginalpolicydeferred;394services156open210candidate28restricted;globaldiscoveryunfinished;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 156,
-    "candidates": 211,
-    "excluded": 27,
-    "sample_successes": 203
+    "candidates": 210,
+    "excluded": 28,
+    "sample_successes": 204
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -1669,6 +1669,7 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "afdb-kenya-sdmx",
           "ghana",
           "kenya-knbs",
           "south-africa-statssa",
@@ -1683,6 +1684,7 @@
           "rwanda"
         ],
         "candidate_provider_ids": [
+          "afdb-kenya-sdmx",
           "ghana",
           "kenya-knbs",
           "registry-data-vulekamali-gov-za",
@@ -1696,6 +1698,7 @@
           "rwanda"
         ],
         "candidate_provider_ids": [
+          "afdb-kenya-sdmx",
           "south-africa-statssa"
         ],
         "restricted_provider_ids": []
@@ -1707,10 +1710,12 @@
           "rwanda"
         ],
         "candidate_provider_ids": [
-          "cifor-icraf",
-          "wascal"
+          "afdb-kenya-sdmx",
+          "cifor-icraf"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "wascal"
+        ]
       },
       "climate/weather/environment": {
         "status": "partial_verified",
@@ -1720,10 +1725,11 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
-          "sanbi-birdie",
-          "wascal"
+          "sanbi-birdie"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "wascal"
+        ]
       },
       "water": {
         "status": "partial_verified",
@@ -1733,17 +1739,21 @@
           "registry-municipaldata-treasury-gov-za"
         ],
         "candidate_provider_ids": [
-          "sanbi-birdie",
-          "wascal"
+          "afdb-kenya-sdmx",
+          "sanbi-birdie"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "wascal"
+        ]
       },
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
           "registry-municipaldata-treasury-gov-za"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "afdb-kenya-sdmx"
+        ],
         "restricted_provider_ids": []
       },
       "health": {
@@ -1751,13 +1761,17 @@
         "verified_provider_ids": [
           "rwanda"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "afdb-kenya-sdmx"
+        ],
         "restricted_provider_ids": []
       },
       "education": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "afdb-kenya-sdmx"
+        ],
         "restricted_provider_ids": []
       },
       "housing": {
@@ -1765,13 +1779,17 @@
         "verified_provider_ids": [
           "registry-municipaldata-treasury-gov-za"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "afdb-kenya-sdmx"
+        ],
         "restricted_provider_ids": []
       },
       "transportation": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "afdb-kenya-sdmx"
+        ],
         "restricted_provider_ids": []
       },
       "geospatial": {
@@ -1794,6 +1812,7 @@
           "registry-municipaldata-treasury-gov-za"
         ],
         "candidate_provider_ids": [
+          "afdb-kenya-sdmx",
           "registry-data-vulekamali-gov-za"
         ],
         "restricted_provider_ids": []
@@ -1842,10 +1861,12 @@
           "rwanda"
         ],
         "candidate_provider_ids": [
-          "cifor-icraf",
-          "wascal"
+          "afdb-kenya-sdmx",
+          "cifor-icraf"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "wascal"
+        ]
       },
       "research": {
         "status": "partial_verified",
@@ -1857,11 +1878,11 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "laws-africa-knowledge",
-          "sanbi-birdie",
-          "wascal"
+          "sanbi-birdie"
         ],
         "restricted_provider_ids": [
-          "laws-africa"
+          "laws-africa",
+          "wascal"
         ]
       }
     },
@@ -5868,7 +5889,7 @@
       "license": "unknown",
       "license_url": "https://www.afdb.org/en/disclaimer-and-copyright",
       "api_verification_state": "current_documentation_policy_deferred_api_rights_unresolved",
-      "latest_checked_utc": "2026-10-16T20:26:00.729570+00:00",
+      "latest_checked_utc": "2026-10-17T01:29:24.841762+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -5885,8 +5906,8 @@
       "free_access_restrictions": "Anonymous sampled metadata; no paid acquisition/account/key. Open data copyright grant, full service conditions and observation-query restrictions unknown.",
       "license": "unknown; published OpenAPI describes SDMX protocol, not a data licence",
       "license_url": "",
-      "api_verification_state": "unresolved",
-      "latest_checked_utc": "2026-10-17T01:29:57.266893+00:00",
+      "api_verification_state": "documented_OpenAPI_and_dataflow_XML_metadata_sample_success",
+      "latest_checked_utc": "2026-10-17T01:29:24.841762+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9562,24 +9583,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "wascal",
-      "provider": "WASCAL Scientific Research Data Catalog",
-      "service_name": "WASCAL Scientific Research Data Catalog API",
-      "geographic_coverage": "West Africa/Sub-Saharan Africa",
-      "topical_coverage": "agriculture; water; climate/weather/environment; research",
-      "dataset_families": "DKAN compatibility API returned apparent demo/default US polling and foreclosure dataset names; intended West African climate families not yet verified",
-      "documentation_url": "https://wascal-dataportal.org/",
-      "api_base_url": "https://wascal-dataportal.org/",
-      "format_protocol": "DKAN/CKAN compatibility JSON candidate",
-      "authentication": "none for public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown; API response does not establish data reuse rights",
-      "license_url": "https://wascal-dataportal.org/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:58:57.665531+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "wfp",
       "provider": "World Food Programme HungerMap",
       "service_name": "World Food Programme HungerMap API",
@@ -10083,6 +10086,24 @@
       "license_url": "https://comtradeplus.un.org/LicenseAgreement",
       "api_verification_state": "documented_untested_terms_restricted",
       "latest_checked_utc": "2026-10-16T18:30:24.351037+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wascal",
+      "provider": "WASCAL Scientific Research Data Catalog",
+      "service_name": "WASCAL Scientific Research Data Catalog API",
+      "geographic_coverage": "West Africa/Sub-Saharan Africa",
+      "topical_coverage": "agriculture; water; climate/weather/environment; research",
+      "dataset_families": "754 unique native package names in current complete package_list response; includes West African flood/climate/research entries and demo/default US entries. Names only, not validated observations or individually licensed datasets.",
+      "documentation_url": "https://wascal-dataportal.org/",
+      "api_base_url": "https://wascal-dataportal.org/",
+      "format_protocol": "DKAN/CKAN compatibility JSON candidate",
+      "authentication": "none for public read candidate",
+      "free_access_restrictions": "Published policy7.1 states scientific-purpose access, download contact/purpose details and acceptance of record-specific licence; restricted networks require verified registration. No forms, accounts or contact details submitted.",
+      "license": "Mixed: published DSP2.0 assigns CC BY-NC-SA4 to qualifying copyright data and ODbL1.0 to qualifying non-IP databases; third-party agreements vary",
+      "license_url": "https://wascal-dataportal.org/sites/default/files/WASCAL-Data-Sharing_Policy_and_Guideline_V2.0_2021.pdf",
+      "api_verification_state": "current_catalog_metadata_sample_success_mixed_restricted_policy",
+      "latest_checked_utc": "2026-10-17T01:30:21.350273+00:00",
       "classification": "restricted"
     },
     {
