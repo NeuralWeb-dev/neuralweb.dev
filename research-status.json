@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T19:20:25.965537+00:00",
+  "published_at": "2026-10-17T19:22:28.682778+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T19:18:33.894268+00:00",
+  "research_updated_at": "2026-10-17T19:20:36.738077+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed; KITopen/WDCC/bonndata scoped open metadata APIs verified, Bonn384dataset metadata snapshot indexed; seven service records added",
+  "latest_milestone": "BRFSS native public-domain prevalence API evidence added to CDC; BsubCyc shared restricted service deduplicated; UKEDC OGLmetadata/API deployment gap retained",
   "counts": {
     "verified": 279,
-    "candidates": 513,
+    "candidates": 514,
     "excluded": 109,
     "sample_successes": 475
   },
@@ -4917,7 +4917,7 @@
       "service_name": "US Centers for Disease Control and Prevention API",
       "geographic_coverage": "United States",
       "topical_coverage": "health",
-      "dataset_families": "Public health datasets; mortality; surveillance",
+      "dataset_families": "Public health datasets; mortality; surveillance | BRFSS aggregate prevalence data (2011 to present), native dataset dttw-5yxu public-domain metadata verified",
       "documentation_url": "https://data.cdc.gov/",
       "api_base_url": "https://data.cdc.gov/resource/",
       "format_protocol": "Socrata discovery JSON and SODA JSON/CSV data endpoints",
@@ -4926,7 +4926,7 @@
       "license": "US public domain default with identified contractor/third-party exceptions",
       "license_url": "https://www.cdc.gov/other/agencymaterials.html",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:37:23.722940+00:00",
+      "latest_checked_utc": "2026-10-17T19:20:32.572661+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16560,6 +16560,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ukedc-discovery-portal",
+      "provider": "UK Energy Research Centre / UK Research and Innovation / STFC",
+      "service_name": "Energy Data Centre discovery portal and reference API candidate",
+      "geographic_coverage": "UK energy research with international project/source coverage",
+      "topical_coverage": "energy | climate | economics | research",
+      "dataset_families": "Energy research dataset metadata, projects, grey literature, visualisations and collections; individual sources separately licensed",
+      "documentation_url": "https://ukedc.ac.uk/about-us/ | https://ukerc.rl.ac.uk/publications/technical_report/Developing_a_specification_for_a_FAIR-enabled_API_for_the_Energy_Data_Centre.pdf",
+      "api_base_url": "",
+      "format_protocol": "Report describes FastAPI/OpenAPI3metadata-only reference implementation; actual current public runtime unverified",
+      "authentication": "unknown for prototype/production API; public descriptive and legal pages succeeded; some source data registration/licence requirements separate",
+      "free_access_restrictions": "Metadata OGLv3allows commercial/noncommercial reuse with attribution; source datasets have CC-BY/OGL and specialised/restricted terms. Prototype output terms not assumed current production access.",
+      "license": "OGLv3verified for metadata; API deployment/runtime and reference implementation terms unresolved",
+      "license_url": "https://ukedc.ac.uk/about-us/licenses-and-access-rights/",
+      "api_verification_state": "official_reference_API_report_verified_current_production_API_unestablished",
+      "latest_checked_utc": "2026-10-17T19:20:32.572661+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ukho-avcs-online-discovery-api",
       "provider": "UK Hydrographic Office / ADMIRALTY",
       "service_name": "ADMIRALTY AVCS Online Discovery API",
@@ -18670,10 +18688,10 @@
     {
       "identifier": "biocyc-limited-pathway-api",
       "provider": "SRI International / BioCyc",
-      "service_name": "BioCyc shared pathway/genome web services: MetaCyc and HumanCyc limited-database scope",
+      "service_name": "BioCyc shared pathway/genome web services: MetaCyc, HumanCyc and BsubCyc limited-database scope",
       "geographic_coverage": "Biochemical/metabolicpathways,notgeographicallybounded; organism/database-specificscope",
       "topical_coverage": "health; biodiversity; agriculture; research",
-      "dataset_families": "MetaCycmetabolicpathways/enzymes andHumanCycdatabase via sharedPathwayToolswebservices; otherBioCycPGDBs distinctsource-rightsscope",
+      "dataset_families": "MetaCycmetabolicpathways/enzymes andHumanCycdatabase via sharedPathwayToolswebservices; otherBioCycPGDBs distinctsource-rightsscope | BsubCyc (Bacillus subtilis), shared database selector BSUB, reviewed under saved SRI LimitedDatabase terms",
       "documentation_url": "https://biocyc.org/web-services.shtml?orgid=META+%7C+https%3A%2F%2Fbiocyc.org%2Fweb-services.shtml%3Forgid%3DHUMAN+%7C+https%3A%2F%2Fbioinformatics.ai.sri.com%2Fptools%2Flicensing%2Fall-reg.shtml",
       "api_base_url": "https://biocyc.org/",
       "format_protocol": "SRIlicenceexplicitlyappliesBioCycwebservicesAPI; registryRESTclaim/methodformatsnotcurrentlyruntimeverified",
@@ -18682,7 +18700,7 @@
       "license": "SRI BioCyc Limited Use License: Limited Databases maynotberedistributed",
       "license_url": "https://bioinformatics.ai.sri.com/ptools/licensing/all-reg.shtml",
       "api_verification_state": "untested_policy_restricted",
-      "latest_checked_utc": "2026-10-17T17:57:47.395375+00:00",
+      "latest_checked_utc": "2026-10-17T19:20:32.572661+00:00",
       "classification": "restricted"
     },
     {
