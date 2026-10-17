@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T17:15:49.564032+00:00",
+  "published_at": "2026-10-17T17:17:52.106570+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:14:07.803021+00:00",
+  "research_updated_at": "2026-10-17T17:15:59.424186+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Fourecology/agriculture/researchoriginsreviewed;CoscineBearerOpenAPIcandidate,HellanicusnativeAtomrestricted,MGDdataCCBY4butAPIunresolved,ATTOAPI/grantunknown",
+  "latest_milestone": "Sevenoriginaltasksreviewed;TIGERsourcepublicdomain/native37services1987refs+Californiaverified,CNRTLnativecandidate,CoscineBearerandHellanicusrestrictedAtomadded",
   "counts": {
     "verified": 263,
     "candidates": 482,
@@ -13,12 +13,12 @@
     "sample_successes": 474
   },
   "remaining_work": [
-    "Resume next-re3data-provider-review-batch.json; selected sources queued, not yet researched.",
-    "B2SHARE public descriptive metadata accepted CC0 under current explicit terms; exact native listing robots-held, no enumeration. Source research files/private records remain independently licensed. No alternate API/OAI after hold.",
-    "ESTIA/DIAS Anubis challenges and INDEPTH original policy hold remain; separate official institutional OAI statements do not supply exact current base or blanket open grants. No accounts or microdata.",
-    "SURF API guide/terms direct401challenge; indexed agreement has per-object/default-NC transformation and metadata DOI/link permissions; uniform exact grant/API details unresolved. CEDR/CSES formal machine APIs and effective grants unestablished from reviewed public pages.",
-    "Review eudat-service-reference-review-queue.json distinct source references, deduplicate prior B2FIND/DataCite/etc records and inspect source-specific grants; no universal EUDAT acceptance. Retain ABES/TERN/VAMDC/BioCASe/PSICQUIC/NIST/EMEP and worldwide geographic/sector/work-rights queues.",
-    "BDL quota hold unchanged until2026-10-17T18:20:40.045886+00:00; fresh quota/PID/ledger checks required before any later retry."
+    "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
+    "TIGERreturnedfolder37descriptors/1987refscomplete;otherArcGISrootfolders/generalizedfamilies/featuresremainunsearched. 36descriptorsCensussource,1blank;acceptedsource-scopestated,notallmembermetadataautomaticallycleared. No inventoryreplay.",
+    "CNRTLsuggestionAPIverifiednativeJSON,actualcurrentoutput/corpusgrantunconfirmed. ZKSclinicalmanagementnotpublicAPIproof,nohealth/privatequeries.",
+    "MGDexplicitCCBY4data/metadata/maps/imagesbutmachineAPIunknown;7networkrefs in mgd-network-source-review-queue.json requirededup/sourceAPI/grants. PhysicalgermplasmSMTAoutsidework.",
+    "CoscineBearertokenAPI/documentedschemonly;sourceprojectgrantsunconfirmed,nokeys/accounts. HellanicusnativeAtomgeneralpersonal/noncommercialterms,per-itemexceptionsunresolved,nofulltext/harvest. ATTOAPI/grantunestablished,documentationJSshell.",
+    "Retainallpriorglobalgeographic/sector/ABES/TERN/VAMDC/BioCASe/PSICQUIC/NIST/EMEP/EUDATsourcequeues. BDLholduntil2026-10-17T18:20:40.045886+00:00thenfreshquota/PID/ledgerchecks."
   ],
   "external_blocker": null,
   "coverage": {
@@ -538,6 +538,7 @@
         "verified_provider_ids": [
           "brampton-geohub",
           "census",
+          "census-tigerweb",
           "dc-open-data",
           "greenland-statistics",
           "kitchener-geohub",
@@ -546,7 +547,6 @@
         ],
         "candidate_provider_ids": [
           "california-open-data",
-          "census-tigerweb",
           "edmonton-open-data",
           "texas-state-open-data",
           "washington-state-open-data"
@@ -852,6 +852,7 @@
           "boston-maps-open-data",
           "boulder-open-data",
           "brampton-geohub",
+          "census-tigerweb",
           "dc-open-data",
           "eccc-geomet",
           "epa-aqs",
@@ -877,7 +878,6 @@
           "banff-open-data",
           "canadensys",
           "census-geocoder",
-          "census-tigerweb",
           "chatham-kent-open-data",
           "chattanooga-open-data",
           "cook-central-gis",
@@ -1796,6 +1796,7 @@
           "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
           "czech-national-corpus-fcs",
           "galicia-abertos-catalog",
@@ -2175,6 +2176,7 @@
           "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
           "czech-national-corpus-fcs",
           "diba-open-data-api",
@@ -2261,6 +2263,7 @@
           "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
           "czech-national-corpus-fcs",
           "france-culture-open-data-portal",
@@ -4770,7 +4773,7 @@
       "license": "Public-domain TIGER geographic data per explicit Census provider statement",
       "license_url": "https://www.census.gov/newsroom/archives/2014-pr/cb14-208.html",
       "api_verification_state": "actual_native_folder37_service_descriptors1987layer_refs_and_one_California_attribute_JSON_query_success_explicit_TIGER_publicdomain_source_verified",
-      "latest_checked_utc": "2026-10-17T17:12:24.778906+00:00",
+      "latest_checked_utc": "2026-10-17T17:15:52.495485+00:00",
       "classification": "open_license_verified"
     },
     {
