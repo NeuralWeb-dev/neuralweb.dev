@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T00:24:06.248840+00:00",
+  "published_at": "2026-10-17T00:26:08.778817+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T00:24:04.105437+00:00",
+  "research_updated_at": "2026-10-17T00:24:26.206278+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
+  "latest_milestone": "Dateno43614snapshot/50911source-originqueue;Pacific22rootoutcomes COMPLETE,NewCaledonia selectedOL2grant/APIuntested plusSamoa/Fijicandidates;Estonia483dirs4998paths+statsql6dirs39paths,Georgia160dirs971paths;4/11unresolvedsubtrees retained;BDL19400definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 152,
     "candidates": 199,
@@ -2395,7 +2395,6 @@
           "fiji-statistics",
           "pacific-data",
           "pacific-stat",
-          "samoa-statistics",
           "stats-nz",
           "stats-nz-geographic",
           "worldpop-wopr"
@@ -2426,7 +2425,6 @@
           "abs"
         ],
         "candidate_provider_ids": [
-          "fiji-statistics",
           "pacific-stat",
           "samoa-statistics",
           "stats-nz"
@@ -2514,9 +2512,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "fiji-statistics",
-          "queensland-data",
-          "samoa-statistics"
+          "queensland-data"
         ],
         "restricted_provider_ids": []
       },
@@ -2538,10 +2534,11 @@
         "restricted_provider_ids": []
       },
       "public spending/contracts": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "new-caledonia-ogd"
+        ],
         "candidate_provider_ids": [
-          "fiji-statistics",
           "queensland-data",
           "samoa-statistics"
         ],
@@ -2564,7 +2561,8 @@
       "law/civic": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "australia"
+          "australia",
+          "new-caledonia-ogd"
         ],
         "candidate_provider_ids": [
           "nz-charities",
