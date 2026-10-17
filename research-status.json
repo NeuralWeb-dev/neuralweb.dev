@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-17T01:09:00.591861+00:00",
+  "published_at": "2026-10-17T01:11:03.224739+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T01:07:20.617038+00:00",
+  "research_updated_at": "2026-10-17T01:09:46.771515+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Manual license/access reviews applied",
+  "latest_milestone": "CCHDOcurrentpublishedGETmetadataAPIactualJSON/scopedaggregateCC0verified",
   "counts": {
-    "verified": 154,
+    "verified": 155,
     "candidates": 210,
     "excluded": 27,
     "sample_successes": 201
@@ -3254,6 +3254,24 @@
       "license_url": "https://www.cbs.nl/en-gb/about-us/website/copyright",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:37:23.719777+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "cchdo",
+      "provider": "CLIVAR and Carbon Hydrographic Data Office / CCHDO, UCSD Scripps",
+      "service_name": "CCHDO public metadata API and hydrographic repository",
+      "geographic_coverage": "Global/international;cruise-basedoceanographicdata;percruiseextents/availabilityunreviewed",
+      "topical_coverage": "oceans; climate/weather/environment; research",
+      "dataset_families": "CTD/hydrographic/bottlephysicalandchemicaloceanprofilesandpubliccruisereferences;13,831autocompletetermsnot13,831datasets/providers. OnlypublicmetadataAPItested,nooceanprofile/filesdownloaded.",
+      "documentation_url": "https://cchdo.ucsd.edu/submit | https://learning.cchdo.io/policies_and_procedures/data_license",
+      "api_base_url": "https://cchdo.ucsd.edu/api/v1/ (publishedtypeaheadendpoint;otheroperationsundocumented/unverified)",
+      "format_protocol": "ActualpublicJSONobjecttypeahead/listofstrings;currentprimaryHTMLexplicitlypublishesGETURL/clientresponsefield. FullversionedAPIcontractnotfound;NetCDF/Exchange/WOCErepositoryformatsnotseparatelyverifiedAPIinterfaces.",
+      "authentication": "PublishedGETmetadataanonymous200/noaccount;otherAPI/dataauthunknown. Nosubmissions/uploads/privateaccountactions.",
+      "free_access_restrictions": "Selectedmetadatafree/noaccount. AggregatecollectionCC0default;individualcruiseCCBYexceptions/headersmustbehonored. Citationrequests/scientificnormsdistinguishedfromCC0legalrequirements. No paidacquisition.",
+      "license": "CC0 aggregatecollection/defaultsubmissions;CCBY4cruise-levelexceptionsperexplicitpolicy/submitlinks",
+      "license_url": "https://learning.cchdo.io/policies_and_procedures/data_license | https://cchdo.ucsd.edu/submit | https://creativecommons.org/publicdomain/zero/1.0/legalcode | https://creativecommons.org/licenses/by/4.0/legalcode",
+      "api_verification_state": "unresolved",
+      "latest_checked_utc": "2026-10-17T01:09:46.659028+00:00",
       "classification": "open_license_verified"
     },
     {
