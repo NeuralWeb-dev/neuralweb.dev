@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T12:56:20.933849+00:00",
+  "published_at": "2026-10-17T12:58:23.686848+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T12:52:39.427413+00:00",
+  "research_updated_at": "2026-10-17T12:57:48.396763+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Rhine/coastal eight origins checkpointed:731 services,239 scoped-open,436 candidates,56 restricted. RLPcurrentAPI/docsupdated;RI165derivedlinkdescriptors/rawXMLleading#defect;Rotterdamtermsundefined/APIheld;LaRochelleaccountsubscription/pricingunresolved.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Senateislandseightorigins:734services240open438candidates56restricted;Senatepublishergrant/actualSPARQLpredicate;Sardinia359layersconditionalgrantsunconfirmed;Sejongapprovedkeycandidate;139originalsremain,in_progress.",
   "counts": {
-    "verified": 239,
-    "candidates": 436,
+    "verified": 240,
+    "candidates": 438,
     "excluded": 56,
-    "sample_successes": 446
+    "sample_successes": 448
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5666,6 +5666,24 @@
       "license_url": "https://data.gov.ie/license",
       "api_verification_state": "documented_sample_success;historical_sample_preserved_current_API_policy_held",
       "latest_checked_utc": "2026-10-17T08:03:06.378041+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "italian-senate-linked-data",
+      "provider": "Senato della Repubblica (Italian Senate)",
+      "service_name": "dati.senato.it SPARQL linked-data service",
+      "geographic_coverage": "Italy; national parliamentary institutions",
+      "topical_coverage": "law/civic data",
+      "dataset_families": "Senate parliamentary linked data: bills and legislative stages, voting, parliamentary groups/committees, mandates; exact temporal completeness unverified",
+      "documentation_url": "https://dati.senato.it/sito/23",
+      "api_base_url": "https://dati.senato.it/sparql",
+      "format_protocol": "SPARQL/RDF; application/sparql-results+json observed",
+      "authentication": "None for successful bounded read-only predicate query",
+      "free_access_restrictions": "Public anonymous sample observed; publisher expressly permits commercial reuse/modification of its published data subject to attribution/licence conditions",
+      "license": "Publisher explicit open reuse grant / CC BY 3.0; Unported-versus-Italy link selection unresolved",
+      "license_url": "https://dati.senato.it/sito/19?testo_generico=24",
+      "api_verification_state": "sample_success_SPARQL_JSON_one_predicate_binding",
+      "latest_checked_utc": "2026-10-17T12:57:47.942987+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13465,6 +13483,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "sardinia-geospatial-wfs",
+      "provider": "Regione Autonoma della Sardegna / Sardegna Geoportale",
+      "service_name": "SITR GeoServer WFS and advertised layer catalogue",
+      "geographic_coverage": "Italy; Sardinia",
+      "topical_coverage": "geospatial; agriculture; water; environment; housing; transportation; culture",
+      "dataset_families": "359 advertised feature types; irrigation consortium areas, territorial/environmental maps, infrastructure and land-use families; cadastral access specifically limited by guide",
+      "documentation_url": "https://www.sardegnageoportale.it/index.php?c=8835&s=29692&t=1&v=2&xsl=1598",
+      "api_base_url": "http://webgis.regione.sardegna.it/geoserver/ows",
+      "format_protocol": "OGC WFS: capabilities XML2.0.0 observed; guide1.1.0 and optional1.0.0 described",
+      "authentication": "Anonymous capabilities succeeded; guide restricts experimental cadastral data to enabled regional offices; individual feature access untested",
+      "free_access_restrictions": "Region-owned digital data generally free; other owners/orthophotos/metadata-specific conditions and reproduction costs may differ; no paid acquisition",
+      "license": "Conditional CC BY4.0 publisher grant for region-owned works whose metadata says Nessuna limitazione d’uso; no qualifying work grant verified",
+      "license_url": "https://www.sardegnageoportale.it/documentazione/notelegali/",
+      "api_verification_state": "sample_success_WFS2_capabilities_XML_only",
+      "latest_checked_utc": "2026-10-17T12:57:47.943714+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "saudi",
       "provider": "Saudi Arabia Open Data",
       "service_name": "Saudi Arabia Open Data open data portal",
@@ -13588,6 +13624,24 @@
       "license_url": "https://data.seattle.gov/stories/s/Data-Policy/6ukr-wvup/",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
       "latest_checked_utc": "2026-10-17T07:06:37.109727+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sejong-bigdata-open-api",
+      "provider": "Sejong Special Self-Governing City",
+      "service_name": "Sedamteo big-data platform dataRequest Open API",
+      "geographic_coverage": "South Korea; Sejong",
+      "topical_coverage": "multisector public data; transportation; economics/finance (platform navigation, individual API families unreviewed)",
+      "dataset_families": "Platform documents Open API discovery/application; mobility and consumption analyses visible in navigation are not all confirmed dataRequest outputs",
+      "documentation_url": "https://www2.sejong.go.kr/bigdata/systemOpenApiUse.do",
+      "api_base_url": "http://www2.sejong.go.kr/bigdata/dataRequest.do",
+      "format_protocol": "REST GET sample code; Content-type application/xml request header is not verified response format",
+      "authentication": "Application and staff review/approval workflow; dataKey required in documented example; no registration/key acquisition",
+      "free_access_restrictions": "Price/free tier, approval eligibility, volume and commercial terms unknown",
+      "license": "unknown; current linked city copyright page policy-held",
+      "license_url": "https://www.sejong.go.kr/kor/sitemap_07.do",
+      "api_verification_state": "official_API_documented_approved_key_required_untested",
+      "latest_checked_utc": "2026-10-17T12:57:47.944036+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
