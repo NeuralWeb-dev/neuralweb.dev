@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T06:13:41.791504+00:00",
+  "published_at": "2026-10-17T06:15:44.546318+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T06:07:25.393439+00:00",
+  "research_updated_at": "2026-10-17T06:13:48.146633+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Citybatchinitial: Boulder scopedCC0/currentOGCverified;Asheville/Austincandidates;Honolulu/BRrestricteddefaultterms;AnalyzeBostonhistoricalscopedPDDLpreserved/currentAPIheld. Nativepassescontinue;globalin_progress.",
+  "latest_milestone": "Citysupplement:Detroit/KC/LasVegascandidatesactualmetadata;DataLA namedbudgetCC0verified. CulverClearGov/GrandRapidsIISnotAPIproviders. Ashevillecatalogprogresscontinues;globalin_progress.",
   "counts": {
-    "verified": 200,
-    "candidates": 362,
+    "verified": 201,
+    "candidates": 365,
     "excluded": 40,
-    "sample_successes": 366
+    "sample_successes": 370
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -5281,6 +5281,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "los-angeles-data",
+      "provider": "City of Los Angeles",
+      "service_name": "DataLA Socrata APIs,scoped budget dataset",
+      "geographic_coverage": "Los Angeles,California,United States",
+      "topical_coverage": "Public spending,budgets,municipalgovernment;otherportal sectorsrights unreviewed",
+      "dataset_families": "Current official tabular datasetmetadata explicitly CC0_10 withcanonicalCC0legalcode link:OpenBudget-AppropriationsFiscalYears2010-2025,5242-pnmt,officialprovenance. FullCC0legaltext reviewed in thisbatch. Scope namedbudgetdatasetonly,notallDataLA/site/partnercontent/metadata. Separateparkingmap2ckn-xmjp alsoCC0claim,butemptycolumnsnotallunderlyingfeaturesproof. Full2014portalterms requireprovider-specificterms;rightsgrantedbyuploaders toCity notmisstatedasuniversalenduseradaptationgrant.",
+      "documentation_url": "https://data.lacity.org/",
+      "api_base_url": "https://data.lacity.org/resource/",
+      "format_protocol": "Socrata SODA/JSON;selectedpublic metadata/schema",
+      "authentication": "Actual anonymous bounded metadataread;no key/account;otheroperations independentlyuntested",
+      "free_access_restrictions": "Current official tabular datasetmetadata explicitly CC0_10 withcanonicalCC0legalcode link:OpenBudget-AppropriationsFiscalYears2010-2025,5242-pnmt,officialprovenance. FullCC0legaltext reviewed in thisbatch. Scope namedbudgetdatasetonly,notallDataLA/site/partnercontent/metadata. Separateparkingmap2ckn-xmjp alsoCC0claim,butemptycolumnsnotallunderlyingfeaturesproof. Full2014portalterms requireprovider-specificterms;rightsgrantedbyuploaders toCity notmisstatedasuniversalenduseradaptationgrant.",
+      "license": "CC0 1.0,only named Appropriations budgetdataset5242-pnmt",
+      "license_url": "https://data.lacity.org/api/views/5242-pnmt.json",
+      "api_verification_state": "actual_official_budget_metadata_sample_success_scoped_CC0_1_verified",
+      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "madrid-open-data",
       "provider": "Ayuntamiento de Madrid",
       "service_name": "Madrid municipal open-data catalog and public GET API",
@@ -8343,6 +8361,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "detroit-open-data",
+      "provider": "City of Detroit",
+      "service_name": "Detroit Open Data Hub OGC catalog",
+      "geographic_coverage": "Detroit,Michigan,United States",
+      "topical_coverage": "Geospatial,municipaldata;individualfamilies unreviewed",
+      "dataset_families": "Actual anonymous OGCdiscovery JSON;native site licenceInfo null. General cityprivacy fullpagepolicyheld,targetunsent;indexedprimarysnippet mentions commercialpermission requirement but applicability/exceptions to this dataAPI notestablished. No governmentownership/publicendpoint/openlabel licence inference. Publishedcatalogoperations/access/underlyingrights needindividualreview.",
+      "documentation_url": "https://data.detroitmi.gov/",
+      "api_base_url": "https://data.detroitmi.gov/api/search/v1",
+      "format_protocol": "OGC API Records/JSON",
+      "authentication": "Actual anonymous bounded metadataread;no key/account;otheroperations independentlyuntested",
+      "free_access_restrictions": "Actual anonymous OGCdiscovery JSON;native site licenceInfo null. General cityprivacy fullpagepolicyheld,targetunsent;indexedprimarysnippet mentions commercialpermission requirement but applicability/exceptions to this dataAPI notestablished. No governmentownership/publicendpoint/openlabel licence inference. Publishedcatalogoperations/access/underlyingrights needindividualreview.",
+      "license": "Current data/metadata grant unresolved;generalcityprivacy page held",
+      "license_url": "https://data.detroitmi.gov/",
+      "api_verification_state": "actual_public_metadata_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dominican-data",
       "provider": "Dominican Republic national open data portal / DIGEIG",
       "service_name": "Datos.gob.do open data portal;CKAN API candidate",
@@ -9243,6 +9279,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kansas-city-open-data",
+      "provider": "City of Kansas City,Missouri",
+      "service_name": "Open Data KC Socrata APIs",
+      "geographic_coverage": "Kansas City,Missouri,United States",
+      "topical_coverage": "Public budgets,municipalgovernment,multisectorpublicdata",
+      "dataset_families": "Actual anonymous metadata/schema of official FY2017-18LineItemBudget4k9c-9uxr:licenseIdPUBLIC_DOMAIN/namePublicDomain. No complete instrument/explicit copyrightdedication located. Fullterms requiremodifieddata disclaimer/additionalagencyterms and reserveIPrights;they explicitly do notgranttitleorright to CityIP. They allowwithdrawal ofavailability,not an inventedcessation-of-downloadedreuse ban. PublicDomain nativeclaim retained,notallcorpusopen orclosed.",
+      "documentation_url": "https://data.kcmo.org/",
+      "api_base_url": "https://data.kcmo.org/resource/",
+      "format_protocol": "Socrata SODA/JSON;selectedpublic metadata/schema",
+      "authentication": "Actual anonymous bounded metadataread;no key/account;otheroperations independentlyuntested",
+      "free_access_restrictions": "Actual anonymous metadata/schema of official FY2017-18LineItemBudget4k9c-9uxr:licenseIdPUBLIC_DOMAIN/namePublicDomain. No complete instrument/explicit copyrightdedication located. Fullterms requiremodifieddata disclaimer/additionalagencyterms and reserveIPrights;they explicitly do notgranttitleorright to CityIP. They allowwithdrawal ofavailability,not an inventedcessation-of-downloadedreuse ban. PublicDomain nativeclaim retained,notallcorpusopen orclosed.",
+      "license": "Native sampled budget labelled Public Domain;dedication/instrument scopeunconfirmed against generalterms",
+      "license_url": "https://data.kcmo.org/terms",
+      "api_verification_state": "actual_public_metadata_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kazakhstan-ogd",
       "provider": "Republic of Kazakhstan Open Government / data.egov.kz",
       "service_name": "Kazakhstan national open-data API v4 and Detailed API",
@@ -9384,6 +9438,24 @@
       "license_url": "https://data.gov.kg/",
       "api_verification_state": "portal_documented_standard_CKAN_API_candidate_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T23:30:56.354739+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "las-vegas-open-data",
+      "provider": "City of Las Vegas",
+      "service_name": "Las Vegas public OGC Records catalog",
+      "geographic_coverage": "Las Vegas,Nevada,United States",
+      "topical_coverage": "Geospatial,municipaldata;individualfamilies unreviewed",
+      "dataset_families": "Actual anonymous OGCdiscovery JSON;site licenceInfo only accuracy/liabilitydisclaimer,notcopyright/reusepermission. Policy guide/indexeddefinitions ofopendata not substituted for operativegrant. Individualcatalogdatasets/underlyingAPIs,fullterms and enumeration unresolved;notclosedinferredfrommissinglicence.",
+      "documentation_url": "https://opendataportal-lasvegas.opendata.arcgis.com/",
+      "api_base_url": "https://opendataportal-lasvegas.opendata.arcgis.com/api/search/v1",
+      "format_protocol": "OGC API Records/JSON",
+      "authentication": "Actual anonymous bounded metadataread;no key/account;otheroperations independentlyuntested",
+      "free_access_restrictions": "Actual anonymous OGCdiscovery JSON;site licenceInfo only accuracy/liabilitydisclaimer,notcopyright/reusepermission. Policy guide/indexeddefinitions ofopendata not substituted for operativegrant. Individualcatalogdatasets/underlyingAPIs,fullterms and enumeration unresolved;notclosedinferredfrommissinglicence.",
+      "license": "Native disclaimer doesnotestablish openreuse grant",
+      "license_url": "https://opendataportal-lasvegas.opendata.arcgis.com/",
+      "api_verification_state": "actual_public_metadata_sample_success_licensing_unconfirmed",
+      "latest_checked_utc": "2026-10-17T06:13:47.909220+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
