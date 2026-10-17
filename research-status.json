@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T15:48:00.378631+00:00",
+  "published_at": "2026-10-17T15:50:02.749931+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T15:33:56.308174+00:00",
+  "research_updated_at": "2026-10-17T15:49:57.852272+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AmericasFiscal7origins:782records251open468candidates63restricted;BH613namesversus614search,TCEPE72methods,WAGeoHubmetadata;12originals/allbroaderqueuesremain.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 251,
-    "candidates": 468,
+    "verified": 253,
+    "candidates": 470,
     "excluded": 63,
-    "sample_successes": 465
+    "sample_successes": 469
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -6595,8 +6595,8 @@
       "free_access_restrictions": "UsedpublishedfreeUNREGISTEREDtieronly. OfficialservicepagelistsfreeBasicregistrationandpaidPremium,neitherused. Underlyinghistoricalwindows/accessvary;metadataavailabilitynotpaid/closedcontentpermission.",
       "license": "CC0 1.0 for175explicitlylicensedparentdataset-descriptorrecords;other16unconfirmed/restricted",
       "license_url": "https://docs.opendatahub.com/licensing",
-      "api_verification_state": "actual_public_JSON_sample_success_full_native_metadata_catalogue_scoped_parent_CC0_verified",
-      "latest_checked_utc": "2026-10-17T11:08:45.437313+00:00",
+      "api_verification_state": "prior_native_JSON_sample_success_full_metadata_inventory_scoped_CC0_current_docs_rechecked_no_reenumeration",
+      "latest_checked_utc": "2026-10-17T15:34:22.834159+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7137,6 +7137,24 @@
       "license_url": "https://dados.gov.pt/pt/termos-de-utilizacao | https://dados.gov.pt/en/pages/faqs/licenses/ | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_historical_sample_success_current_origin_policy_deferred",
       "latest_checked_utc": "2026-10-17T12:13:26.796965+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "prague-geoportal-records-api",
+      "provider": "Prague Institute of Planning and Development / Geoportal Prague",
+      "service_name": "PragueOGCRecords catalogue and standardopen GISoutputs",
+      "geographic_coverage": "Czechia; Prague",
+      "topical_coverage": "geospatial; housing; transportation; publicplanning",
+      "dataset_families": "Nativecatalogue214items across multiple itemtypes; cityGIS map/data/service descriptions, not214uniformdatasets orsourceworkrightsclearance",
+      "documentation_url": "https://geoportalpraha.cz/en/data-and-services/open-data",
+      "api_base_url": "https://opendata.geoportalpraha.cz/api/search/v1/",
+      "format_protocol": "OGCRecordsJSONlanding/collections/GeoJSONFeatureCollection metadata verified; otherGISdata services unqueried",
+      "authentication": "Standardopendata no registration perfullRules; nativecataloguesamples unauthenticated",
+      "free_access_restrictions": "Standardtypedopendata/mapoutputs freeperRules; assisted/custom/nonpublicelectronic services separate registration/handlingfees/contracts, not acquired",
+      "license": "CCBY4.0 withIPRPraguesourcecredit; standardopenmetadata/data scope",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "actual_native_OGC_Records_JSON_sample_success_all_returned_catalogue_pages_indexed_scoped_CCBY4",
+      "latest_checked_utc": "2026-10-17T15:48:10.334774+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7875,6 +7893,24 @@
       "license_url": "https://aperto.comune.torino.it/licenze",
       "api_verification_state": "documented_API_original_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T13:54:45.221498+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "transport-nsw-trip-planner-api",
+      "provider": "Transport for NSW",
+      "service_name": "Trip Planner APIs",
+      "geographic_coverage": "Australia; New South Wales public transport",
+      "topical_coverage": "transportation; geospatial",
+      "dataset_families": "Tripplanning, stopfinding, departures, servicealerts, coordinate requests; otherHubdata families outsideaccepted scope",
+      "documentation_url": "https://opendata.transport.nsw.gov.au/dataset/trip-planner-apis",
+      "api_base_url": "https://api.transport.nsw.gov.au/v1/tp/",
+      "format_protocol": "DocumentedREST/JSON;5GEToperations, runtimeuntested",
+      "authentication": "Registration and APIcredentials required; FAQ recommendsAPIkey and also documentsOAuth2",
+      "free_access_restrictions": "Publicdocs readwithoutpayment; registration/APIkeys, servicetermination and fullAUPconditions apply. Numericfreequota/pricingguarantee unknown; noaccount or subscription acquired.",
+      "license": "CCBY4.0; scopedTripPlannerdata, separateHubterms/AUP",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "official_current_API_documentation_full_terms_CCBY4_verified_key_required_sample_untested",
+      "latest_checked_utc": "2026-10-17T15:48:10.334984+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9929,6 +9965,24 @@
       "license_url": "https://data.gov.cz/podmínky-užití",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:41.121820+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dadosjusbr-public-api",
+      "provider": "DadosJusBR",
+      "service_name": "Publicreference and justice-transparency APIv2",
+      "geographic_coverage": "Brazil; justice/publicprosecution organisations trackedbyproject, notfullnationalcompletecoverage",
+      "topical_coverage": "law/civic data; public spending/contracts",
+      "dataset_families": "Organisationreference metadata verified; documentedtransparencyindices, aggregation and remuneration routes unqueried",
+      "documentation_url": "https://api.dadosjusbr.org/swagger/index.html",
+      "api_base_url": "https://api.dadosjusbr.org/v2/",
+      "format_protocol": "Swagger2.0/RESTJSON verified",
+      "authentication": "Reference and specrequests succeeded withoutcredentials; definition declares nosecurityscheme, no allrouteguarantee",
+      "free_access_restrictions": "Publicreferencesamplewithoutregistration/payment; rate/tier/fees and effective API data reuse conditions unknown",
+      "license": "unknown data/metadata licence; open-sourceAPIclaim is not data grant",
+      "license_url": "",
+      "api_verification_state": "actual_native_Swagger22_GET_and124organisation_reference_JSON_sample_success",
+      "latest_checked_utc": "2026-10-17T15:37:25.058633+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11998,7 +12052,7 @@
       "license": "SampledofficialNSOdatasetpages explicitlyNo License Provided;noopengrant established",
       "license_url": "https://data.nsonepal.gov.np/lt/dataset/environmental-statistics | https://data.nsonepal.gov.np/ro/dataset/nepal-economic-census-2018",
       "api_verification_state": "official_indexed_catalog_ckan_claim_api_untested_robots_inaccessible",
-      "latest_checked_utc": "2026-10-16T19:50:59.908160+00:00",
+      "latest_checked_utc": "2026-10-17T15:34:57.441439+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13773,14 +13827,14 @@
       "topical_coverage": "multisector public data (sector detail unreviewed)",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
       "documentation_url": "https://opendata.bratislava.sk",
-      "api_base_url": "https://opendata.bratislava.sk/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
+      "api_base_url": "",
+      "format_protocol": "CurrentArcGISHubsite metadataJSON; source datasetAPIroots unreviewed",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://opendata.bratislava.sk",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:36.893564+00:00",
+      "license": "unknown; siteitemlicenseInfoNone",
+      "license_url": "",
+      "api_verification_state": "actual_native_Hubsite_item_JSON_sample_success_source_dataset_API_rights_unreviewed",
+      "latest_checked_utc": "2026-10-17T15:40:20.287201+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13809,14 +13863,14 @@
       "topical_coverage": "multisector public data (sector detail unreviewed)",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
       "documentation_url": "https://www.opendata.ps/",
-      "api_base_url": "https://www.opendata.ps/api/3/action/",
-      "format_protocol": "CKAN Action API candidate/JSON",
+      "api_base_url": "",
+      "format_protocol": "ExactcurrentAPIunconfirmed",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
       "license": "unknown",
-      "license_url": "https://opendefinition.org/licenses/cc-by/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:29.683048+00:00",
+      "license_url": "",
+      "api_verification_state": "current_original_root_policy_held_API_and_grant_unresolved",
+      "latest_checked_utc": "2026-10-17T15:34:15.044339+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13831,10 +13885,10 @@
       "format_protocol": "CKAN Action API candidate/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T17:25:17.628138+00:00",
+      "license": "ConflictingBY4label/BYSA4link and work-specific labels; exacteffectivegrant unconfirmed",
+      "license_url": "https://opendatanepal.com/privacy-policy",
+      "api_verification_state": "prior_published_API_host_policy_held_current_frontend_policy_rechecked_no_APIretry",
+      "latest_checked_utc": "2026-10-17T15:34:57.441439+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13842,17 +13896,17 @@
       "provider": "Portal de Dados Urbanos PPGAU UFF - Open data portal for Urban Resarch",
       "service_name": "Portal de Dados Urbanos PPGAU UFF - Open data portal for Urban Resarch portal API",
       "geographic_coverage": "BR",
-      "topical_coverage": "multisector public data (sector detail unreviewed)",
+      "topical_coverage": "geospatial; housing; transportation; energy; urbanresearch",
       "dataset_families": "Portal catalog records and distributions; family coverage pending inspection",
       "documentation_url": "https://portaldados.ppgau.uff.br/",
       "api_base_url": "https://portaldados.ppgau.uff.br/api/3/action/",
       "format_protocol": "CKAN Action API candidate/JSON",
       "authentication": "unknown; public sample attempted without credentials",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "unknown; indexedsampleworklabels licenceunspecified",
       "license_url": "https://portaldados.ppgau.uff.br/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T16:42:31.583146+00:00",
+      "api_verification_state": "current_original_root_policy_held_indexed_CKAN_docs_work_licences_unspecified",
+      "latest_checked_utc": "2026-10-17T15:48:10.333807+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14950,7 +15004,7 @@
       "license": "Sample declares Tunisia national public-open-data licence;full current terms not completely inspected",
       "license_url": "https://data.gov.tn/fr/licences-de-r%C3%A9utilisation-des-donn%C3%A9es-publiques-ouvertes/licence-nationale-de-donn%C3%A9es-publiques-ouvertes/",
       "api_verification_state": "historical_metadata_sample_success_current_policy_deferred",
-      "latest_checked_utc": "2026-10-17T01:21:09.628646+00:00",
+      "latest_checked_utc": "2026-10-17T15:34:57.969832+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15221,6 +15275,24 @@
       "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T20:43:19.205193+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uzbekistan-statistics-category-api",
+      "provider": "National Statistics Committee of the Republic of Uzbekistan",
+      "service_name": "Published statistics category API",
+      "geographic_coverage": "Uzbekistan; national statistics",
+      "topical_coverage": "demographics; gender statistics",
+      "dataset_families": "Published gender-statistics category metadata and childgroups; other categories/observations unreviewed",
+      "documentation_url": "https://stat.uz/en/reporting-forms/14-official-statistics/5641-gender-statistics",
+      "api_base_url": "https://api.stat.uz/api/v1.0/",
+      "format_protocol": "PublicJSONcategorymetadata verified",
+      "authentication": "Publishedcategoryrequest succeeded withoutcredentials; otherinterfaces unreviewed",
+      "free_access_restrictions": "Publicsamplewithoutregistration/payment; broaderAPIquota/eligibility/servicefee guarantee unknown",
+      "license": "WebsiteCCBY4label; effective separate API/category/sourcework grant unconfirmed",
+      "license_url": "https://stat.uz/en/reporting-forms/14-official-statistics/5641-gender-statistics",
+      "api_verification_state": "actual_exact_published_JSON_gender_category_sample_success_rights_scope_unconfirmed",
+      "latest_checked_utc": "2026-10-17T15:37:25.058228+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
