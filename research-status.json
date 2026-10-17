@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T12:37:58.485747+00:00",
+  "published_at": "2026-10-17T12:40:00.816589+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T12:36:15.136915+00:00",
+  "research_updated_at": "2026-10-17T12:39:34.136647+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Quebecequatorial10origins;Puglia2061names/countgap8/candidate;RecifenamedODbLwork/APIheld;QuebecsharedAPI/QSpatialhistoricalclaimcandidates.726services237open434candidates55restricted;164originalsremain;in_progress.",
+  "latest_milestone": "Québec/regional/equatorial ten origins checkpointed:726 services,237 scoped-open,434 candidates,55 restricted. Puglia2061native names versus2053searchcount unresolved; Recife named bicycle databaseODbL1/APIheld; QuébecsharedAPI and historical QSpatialCSW candidates.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 237,
     "candidates": 434,
@@ -538,6 +538,7 @@
           "treasury"
         ],
         "candidate_provider_ids": [
+          "donnees-quebec-catalog",
           "openei-urdb"
         ],
         "restricted_provider_ids": [
@@ -568,6 +569,7 @@
         "candidate_provider_ids": [
           "california-open-data",
           "county-grande-prairie-open-data",
+          "donnees-quebec-catalog",
           "ontario-data-catalog",
           "oregon-open-data",
           "usda-nass"
@@ -598,6 +600,7 @@
           "annarbor-open-data",
           "california-open-data",
           "cerp-sfwmd",
+          "donnees-quebec-catalog",
           "drp",
           "edac-gstore",
           "edi",
@@ -661,6 +664,7 @@
         ],
         "candidate_provider_ids": [
           "california-open-data",
+          "donnees-quebec-catalog",
           "openei-urdb"
         ],
         "restricted_provider_ids": [
@@ -682,6 +686,7 @@
           "california-open-data",
           "connect211-hsda",
           "connect211-search",
+          "donnees-quebec-catalog",
           "healthdata-gov-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan"
@@ -699,6 +704,7 @@
           "hartford-open-data"
         ],
         "candidate_provider_ids": [
+          "donnees-quebec-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "us-data-gov-catalog"
@@ -738,6 +744,7 @@
         "candidate_provider_ids": [
           "annarbor-open-data",
           "dnv-geoweb",
+          "donnees-quebec-catalog",
           "edmonton-open-data",
           "nyc",
           "opendataphilly-jkan",
@@ -784,6 +791,7 @@
           "county-grande-prairie-open-data",
           "detroit-open-data",
           "dnv-geoweb",
+          "donnees-quebec-catalog",
           "drp",
           "edac-gstore",
           "edmonton-open-data",
@@ -853,6 +861,7 @@
         "candidate_provider_ids": [
           "congress",
           "courtlistener",
+          "donnees-quebec-catalog",
           "nyc",
           "opendataphilly-jkan",
           "openstates",
@@ -923,6 +932,7 @@
           "artic",
           "california-open-data",
           "county-grande-prairie-open-data",
+          "donnees-quebec-catalog",
           "getty-museum",
           "loc",
           "ontario-data-catalog",
@@ -954,6 +964,7 @@
         "candidate_provider_ids": [
           "artic",
           "cerp-sfwmd",
+          "donnees-quebec-catalog",
           "drp",
           "edac-gstore",
           "edi",
@@ -1059,8 +1070,10 @@
         "restricted_provider_ids": []
       },
       "health": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "recife-open-data"
+        ],
         "candidate_provider_ids": [
           "ciencia-aberta",
           "dominican-data",
@@ -1088,7 +1101,8 @@
       "transportation": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "chile"
+          "chile",
+          "recife-open-data"
         ],
         "candidate_provider_ids": [
           "montevideo-transport",
@@ -1099,7 +1113,8 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "mexico"
+          "mexico",
+          "recife-open-data"
         ],
         "candidate_provider_ids": [
           "brazil",
@@ -1145,6 +1160,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "ecuador-sercop",
+          "recife-open-data",
           "registry-dados-prefeitura-sp-gov-br"
         ],
         "candidate_provider_ids": [
@@ -1244,6 +1260,7 @@
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
+          "puglia-open-data-catalog",
           "registry-opendata-fr-ch",
           "russia",
           "serbia-rzs",
@@ -1292,6 +1309,7 @@
           "latvia-statistics",
           "lithuania-statistics",
           "poland-gus-strateg",
+          "puglia-open-data-catalog",
           "russia",
           "serbia-apr",
           "serbia-rzs",
@@ -1368,6 +1386,7 @@
           "austria-invekos-ogc",
           "galicia-abertos-catalog",
           "lithuania-statistics",
+          "puglia-open-data-catalog",
           "serbia-rzs",
           "trentino-open-data",
           "uk-trade-tariff"
@@ -1429,6 +1448,7 @@
           "latvia-statistics",
           "lithuania-statistics",
           "os-os-places-api",
+          "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
           "santander-open-data",
           "terrassa-open-data",
@@ -1489,6 +1509,7 @@
         "candidate_provider_ids": [
           "lithuania-statistics",
           "nordpool-entsoe",
+          "puglia-open-data-catalog",
           "uk-trade-tariff",
           "zagreb-open-data"
         ],
@@ -1534,6 +1555,7 @@
           "latvia-statistics",
           "lithuania-statistics",
           "navarra-open-data",
+          "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
           "terrassa-open-data"
         ],
@@ -1598,6 +1620,7 @@
           "ortolang-fcs",
           "portulan-fcs",
           "portulan-repository",
+          "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
           "saw-leipzig-fcs",
           "serbia-rzs",
@@ -1670,6 +1693,7 @@
           "aland-statistics",
           "lithuania-statistics",
           "os-os-places-api",
+          "puglia-open-data-catalog",
           "registry-daten-sg-ch",
           "santander-open-data",
           "shom-data",
@@ -1730,6 +1754,7 @@
           "navarra-open-data",
           "os-os-places-api",
           "poland-gus-teryt",
+          "puglia-open-data-catalog",
           "registry-daten-sg-ch",
           "registry-opendata-aragon-es",
           "santander-open-data",
@@ -1809,6 +1834,7 @@
           "poland-gus-smup",
           "poland-gus-strateg",
           "poland-gus-teryt",
+          "puglia-open-data-catalog",
           "serbia-apr",
           "shom-data",
           "uk-trade-tariff"
@@ -1927,6 +1953,7 @@
           "perspectivia",
           "portulan-fcs",
           "portulan-repository",
+          "puglia-open-data-catalog",
           "rijksmuseum",
           "saw-leipzig-fcs",
           "serbia-rzs",
@@ -3074,6 +3101,7 @@
         "candidate_provider_ids": [
           "csiro-data-access-portal",
           "pacific-stat",
+          "qspatial-csw-catalog",
           "spc-pccos-tds"
         ],
         "restricted_provider_ids": []
@@ -3100,6 +3128,7 @@
           "pacioos-erddap",
           "pisco",
           "province-sud-geospatial",
+          "qspatial-csw-catalog",
           "queensland-data",
           "spc-pccos-tds",
           "victoria-datavic"
@@ -3115,6 +3144,7 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "qspatial-csw-catalog",
           "queensland-data"
         ],
         "restricted_provider_ids": []
@@ -3154,6 +3184,7 @@
           "abs"
         ],
         "candidate_provider_ids": [
+          "qspatial-csw-catalog",
           "stats-nz",
           "stats-nz-geographic",
           "victoria-datavic"
@@ -3193,6 +3224,7 @@
           "mbie-geodata",
           "opt-nc-data",
           "province-sud-geospatial",
+          "qspatial-csw-catalog",
           "stats-nz-geographic",
           "victoria-datavic",
           "worldpop-wopr"
@@ -3255,6 +3287,7 @@
           "esa-ecology",
           "pisco",
           "province-sud-geospatial",
+          "qspatial-csw-catalog",
           "spc-pccos-tds"
         ],
         "restricted_provider_ids": []
@@ -3292,6 +3325,7 @@
           "brisbane-open-data",
           "csiro-data-access-portal",
           "pacific-stat",
+          "qspatial-csw-catalog",
           "spc-pccos-tds",
           "te-papa"
         ],
@@ -6821,7 +6855,7 @@
       "license": "Open Data Commons Open Database License (ODbL)1.0 for namedbicycle-networkwork",
       "license_url": "https://dados.recife.pe.gov.br/dataset/malha-cicloviaria-do-recife | http://www.opendefinition.org/licenses/odc-odbl | https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "publisher_CKAN_API_advertised_canonical_sample_policy_deferred",
-      "latest_checked_utc": "2026-10-17T12:36:14.779082+00:00",
+      "latest_checked_utc": "2026-10-17T12:31:14.226834+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9469,7 +9503,7 @@
       "license": "licensing-unconfirmed mixed per-dataset Creative Commons variants",
       "license_url": "https://www.donneesquebec.ca/exploiter/utiliser-les-donnees/ | https://www.donneesquebec.ca/fr/licence/",
       "api_verification_state": "official_indexed_API_documented_original_and_docs_policy_held_sample_untested",
-      "latest_checked_utc": "2026-10-17T12:36:14.778833+00:00",
+      "latest_checked_utc": "2026-10-17T12:30:50.986728+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12673,7 +12707,7 @@
       "license": "unconfirmed per-work/instrument version; observed CC BY4 normalization and unversioned CC BY/CC BY-SA",
       "license_url": "https://www.regione.puglia.it/note-legali | https://dati.comune.copertino.le.it/dataset/censimento-arboreo-comune-di-copertino | http://www.opendefinition.org/licenses/cc-by-sa",
       "api_verification_state": "documented_native_catalog_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T12:36:14.778632+00:00",
+      "latest_checked_utc": "2026-10-17T12:29:22.800186+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -12709,7 +12743,7 @@
       "license": "unknown;dataset-specific conditions unreviewed",
       "license_url": "https://environment.qld.gov.au/resources/maps-data",
       "api_verification_state": "official_2021_API_claim_current_runtime_unverified_original_policy_held",
-      "latest_checked_utc": "2026-10-17T12:36:14.778963+00:00",
+      "latest_checked_utc": "2026-10-17T12:33:07.727600+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
