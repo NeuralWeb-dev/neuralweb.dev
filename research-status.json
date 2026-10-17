@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T17:28:05.876878+00:00",
+  "published_at": "2026-10-17T17:30:08.443317+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T17:27:20.160875+00:00",
+  "research_updated_at": "2026-10-17T17:29:38.586597+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed; DataTerra native211 mixed resource summaries indexed, four candidates/one restricted added; no grant inferred",
+  "latest_milestone": "Alias/forest reviews: B2SHARE deduplicated scope held; HarvardAPI custom restrictions verified/reclassified;3Dtrees public retrieval unresolved",
   "counts": {
     "verified": 263,
-    "candidates": 488,
-    "excluded": 76,
+    "candidates": 487,
+    "excluded": 77,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -4367,7 +4367,7 @@
       "license": "CC0 1.0 Universal for public service metadata per current explicit terms",
       "license_url": "https://b2share.eudat.eu/terms-of-use | https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "current_primary_public_REST_deployment_and_metadata_CC0_grant_verified_native_sample_robots_held_target_unsent_historical_slash404_preserved",
-      "latest_checked_utc": "2026-10-17T17:05:30.355144+00:00",
+      "latest_checked_utc": "2026-10-17T17:29:33.642578+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11231,24 +11231,6 @@
       "classification": "licensing_unconfirmed"
     },
     {
-      "identifier": "harvard-dataverse",
-      "provider": "Harvard Dataverse",
-      "service_name": "Harvard Dataverse public API",
-      "geographic_coverage": "Global",
-      "topical_coverage": "research",
-      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections",
-      "documentation_url": "https://guides.dataverse.org/en/latest/api/",
-      "api_base_url": "https://dataverse.harvard.edu/api/",
-      "format_protocol": "REST/JSON or XML as documented",
-      "authentication": "none for tested public read candidate",
-      "free_access_restrictions": "unknown",
-      "license": "unknown",
-      "license_url": "https://dataverse.harvard.edu/dataverse/harvard",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T16:44:47.817372+00:00",
-      "classification": "licensing_unconfirmed"
-    },
-    {
       "identifier": "hdx",
       "provider": "UN OCHA Humanitarian Data Exchange",
       "service_name": "UN OCHA Humanitarian Data Exchange API",
@@ -18106,6 +18088,24 @@
       "license_url": "https://www.healthdata.org/about/ihme-free-charge-non-commercial-user-agreement",
       "api_verification_state": "actual_RSS_response_normalized_XML_parse_success_raw_XML_leading_whitespace_error",
       "latest_checked_utc": "2026-10-17T09:15:37.867205+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "harvard-dataverse",
+      "provider": "Harvard Dataverse",
+      "service_name": "Harvard Dataverse public API",
+      "geographic_coverage": "Global",
+      "topical_coverage": "research",
+      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections",
+      "documentation_url": "https://guides.dataverse.org/en/latest/api/",
+      "api_base_url": "https://dataverse.harvard.edu/api/",
+      "format_protocol": "REST/JSON or XML as documented",
+      "authentication": "none for tested public read candidate",
+      "free_access_restrictions": "Guests may access public content subject to per-dataset terms; fullservice account; APIs subject bandwidth and no-sale/lease/sublicensing restrictions; private/restricted data separate",
+      "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
+      "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
+      "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
+      "latest_checked_utc": "2026-10-17T17:29:33.642578+00:00",
       "classification": "restricted"
     },
     {
