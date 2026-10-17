@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T02:22:34.523539+00:00",
+  "published_at": "2026-10-17T02:24:37.154811+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T02:22:20.140541+00:00",
+  "research_updated_at": "2026-10-17T02:23:28.217187+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Queued CESSDA vocabulary,ChEBI,GWAS Catalog primary API/rights verification started",
   "counts": {
     "verified": 164,
     "candidates": 289,
@@ -41,7 +41,6 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
-          "fsd-finland",
           "hdx",
           "ocha-hapi",
           "unhcr",
@@ -171,6 +170,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "datacommons",
+          "doaj",
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
@@ -181,9 +181,9 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "biostudies",
           "ena",
           "europepmc",
-          "fsd-finland",
           "hdx",
           "nih-clinicaltrials",
           "ocha-hapi",
@@ -197,6 +197,7 @@
       "education": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "doaj",
           "oecd",
           "openaire",
           "openaire-broker",
@@ -210,8 +211,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
-          "cinii-books",
-          "fsd-finland"
+          "cinii-books"
         ],
         "restricted_provider_ids": [
           "cinii-research",
@@ -315,6 +315,7 @@
           "uniprot"
         ],
         "candidate_provider_ids": [
+          "biostudies",
           "checklistbank",
           "cifor-icraf",
           "dataone",
@@ -411,6 +412,7 @@
           "cleveland-art",
           "crossref",
           "datacite",
+          "doaj",
           "dryad",
           "gavo",
           "geoboundaries",
@@ -443,6 +445,7 @@
         "candidate_provider_ids": [
           "artic",
           "b2share",
+          "biostudies",
           "checklistbank",
           "cifor-icraf",
           "cinii-books",
@@ -451,7 +454,6 @@
           "esa-ecology",
           "europepmc",
           "figshare",
-          "fsd-finland",
           "getty-museum",
           "harvard-dataverse",
           "hycom",
@@ -1023,6 +1025,7 @@
           "estonia-statistics",
           "eurostat",
           "faroe-statistics",
+          "fsd-finland",
           "georgia-statistics",
           "iceland-statistics",
           "ine-spain",
@@ -1044,7 +1047,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
-          "fsd-finland",
+          "cessda-catalogue",
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
@@ -1227,6 +1230,7 @@
           "faroe-statistics",
           "fsa-alerts",
           "fsa-fhrs",
+          "fsd-finland",
           "georgia-statistics",
           "iceland-statistics",
           "moldova-data",
@@ -1238,7 +1242,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
-          "fsd-finland",
+          "cessda-catalogue",
           "latvia-statistics",
           "lithuania-statistics"
         ],
@@ -1250,6 +1254,7 @@
           "dnb",
           "estonia-statistics",
           "faroe-statistics",
+          "fsd-finland",
           "georgia-statistics",
           "iceland-statistics",
           "moldova-data",
@@ -1264,7 +1269,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
-          "fsd-finland",
+          "cessda-catalogue",
           "latvia-statistics",
           "lithuania-statistics",
           "serbia-rzs"
@@ -1494,6 +1499,7 @@
           "faroe-statistics",
           "finna",
           "finto",
+          "fsd-finland",
           "geri",
           "iceland-statistics",
           "ices-dome",
@@ -1509,7 +1515,7 @@
           "aland-statistics",
           "anfr-data",
           "b2share",
-          "fsd-finland",
+          "cessda-catalogue",
           "ksamsok",
           "perspectivia",
           "rijksmuseum",
@@ -3725,7 +3731,7 @@
       "license": "CC0 1.0",
       "license_url": "https://doaj.org/terms/",
       "api_verification_state": "actual_journal_and_article_JSON_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:19:05.609897+00:00",
+      "latest_checked_utc": "2026-10-17T02:17:37.115673+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -4049,7 +4055,7 @@
       "license": "CC0 1.0 since19March2026",
       "license_url": "https://www.fsd.tuni.fi/en/news/news-releases/084/ | https://www.fsd.tuni.fi/fi/aineistot/taustatietoa/ddi-records/",
       "api_verification_state": "actual_SKGIF_JSON_and_DDI_XML_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:19:05.609864+00:00",
+      "latest_checked_utc": "2026-10-17T02:18:52.638452+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -6283,7 +6289,7 @@
       "license": "Per-study License field; otherwise EMBL-EBI terms retain original owner rights",
       "license_url": "https://www.ebi.ac.uk/biostudies/help/help.html | https://www.ebi.ac.uk/about/terms-of-use/",
       "api_verification_state": "actual_public_search_and_collection_JSON_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:19:05.609921+00:00",
+      "latest_checked_utc": "2026-10-17T02:19:05.609114+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -6481,7 +6487,7 @@
       "license": "unknown; CC BY4userguidefooter does not establish aggregatedmetadata grant",
       "license_url": "",
       "api_verification_state": "actual_OAIIdentify_and_ListSets_XML_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:19:05.609939+00:00",
+      "latest_checked_utc": "2026-10-17T02:16:31.833296+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -7021,7 +7027,7 @@
       "license": "Metadata corpus reuse grant unconfirmed; material retains author/publisher rights unless explicitly otherwise licensed",
       "license_url": "https://europepmc.org/Copyright | https://europepmc.org/help",
       "api_verification_state": "historical_search_metadata_sample_success_current_license_policy_deferred",
-      "latest_checked_utc": "2026-10-17T02:19:05.609960+00:00",
+      "latest_checked_utc": "2026-10-17T02:19:05.609718+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
