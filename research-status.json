@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T14:24:14.656038+00:00",
+  "published_at": "2026-10-17T14:26:16.958720+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T14:19:42.882187+00:00",
+  "research_updated_at": "2026-10-17T14:25:57.279773+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WesternCivic8roots/primaryterms/3nativeJSONsamples and WA2097finite-name-response saved; main758services unchanged until integration. Originalfrontier83.",
+  "latest_milestone": "Research checkpoint: scoped provider reviews and registry discovery; finite World Bank, CMS and Rwanda listings complete",
   "counts": {
-    "verified": 245,
-    "candidates": 455,
-    "excluded": 58,
-    "sample_successes": 460
+    "verified": 246,
+    "candidates": 457,
+    "excluded": 59,
+    "sample_successes": 461
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -8039,6 +8039,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "winnipeg-open-data-api",
+      "provider": "City of Winnipeg",
+      "service_name": "Winnipeg Socrata open-data portal APIs",
+      "geographic_coverage": "Canada; Manitoba; Winnipeg",
+      "topical_coverage": "civic data; public spending; transportation; environment; research metadata",
+      "dataset_families": "Municipal catalogue; sampled Web Analytics descriptor has5columns and OGLWinnipeg custom metadata. Native full catalogue/measurement rows not enumerated.",
+      "documentation_url": "https://data.winnipeg.ca/dataset/Web-Analytics/k87h-wzbk",
+      "api_base_url": "https://data.winnipeg.ca/",
+      "format_protocol": "Native Socrata JSON view metadata; publisher work page advertises API/OData interfaces; no observation query",
+      "authentication": "Small native metadata request succeeded anonymously; account/key not acquired. Other endpoint/access tiers untested.",
+      "free_access_restrictions": "Eligible city information royalty-free commercial/adaptive use under OGLWinnipeg; per-work exceptions remain.",
+      "license": "Open Government Licence – Winnipeg1.0",
+      "license_url": "https://data.winnipeg.ca/open-data-licence",
+      "api_verification_state": "native_JSON_metadata_sample_success_scoped_open_grant_verified",
+      "latest_checked_utc": "2026-10-17T14:20:57.361528+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "wis2-gdc-canada",
       "provider": "Environment and Climate Change Canada, Meteorological Service of Canada",
       "service_name": "WIS2 Global Discovery Catalogue OGC API - Records (selected ECCC metadata scope)",
@@ -8811,7 +8829,7 @@
       "license": "Per-dataset open or particular licence required; effective sampled source grant unconfirmed.",
       "license_url": "https://datahub.bordeaux-metropole.fr/terms/terms-and-conditions/",
       "api_verification_state": "documented_Explore_API_original_sample_policy_held_untested",
-      "latest_checked_utc": "2026-10-17T06:49:15.009308+00:00",
+      "latest_checked_utc": "2026-10-17T14:20:51.529688+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -9658,6 +9676,24 @@
       "license_url": "https://data.gov.cz/podmínky-užití",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:41.121820+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "data-wa-catalogue-api",
+      "provider": "Government of Western Australia / Data WA / participating publishers",
+      "service_name": "Data WA CKAN catalogue API",
+      "geographic_coverage": "Australia; Western Australia",
+      "topical_coverage": "geospatial; environment; transportation; agriculture; energy; water; health; education; economics; civic data",
+      "dataset_families": "Multisector catalogue,not identical to SLIPfeature or DUTupdate services. One MiningTenementsDMIRS003 metadata descriptor sampled withCCBY4. Searchcount2917 versus package_list2097unique names discrepancy unresolved.",
+      "documentation_url": "https://catalogue.data.wa.gov.au/about",
+      "api_base_url": "https://catalogue.data.wa.gov.au/api/3/action/",
+      "format_protocol": "Native CKAN Action REST/JSON success=true; one searchdescriptor and finite package_list2097names response",
+      "authentication": "Small native catalogue requests succeeded anonymously; no key/account acquired. Underlyingresources may requirelogin/payment/approval/governmenteligibility.",
+      "free_access_restrictions": "Mixed open/login/fee/restricted/government-only resource categories documented. Native workCCBY4 not a universal catalogue metadata/data grant. No fees/accounts acquired.",
+      "license": "Mixed per-work licences; sampled data descriptor CC BY4; effective catalogue metadata grant unresolved",
+      "license_url": "https://data.wa.gov.au/copyright",
+      "api_verification_state": "native_CKAN_catalogue_metadata_samples_success_mixed_rights_and_count_discrepancy",
+      "latest_checked_utc": "2026-10-17T14:21:47.549234+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14971,6 +15007,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "welland-open-data-planning-api",
+      "provider": "City of Welland",
+      "service_name": "Welland OpenData ArcGIS planning services",
+      "geographic_coverage": "Canada; Ontario; Welland",
+      "topical_coverage": "geospatial; housing; civic data; urban planning",
+      "dataset_families": "OfficialPlan service:AreaSpecificPolicy,AppealDeferralAreas,ScheduleB; three native layerdescriptors only. Widerportalworks unenumerated.",
+      "documentation_url": "https://arcgisweb.welland.ca/serverprod/rest/services/OpenData/OPENDATA_Official_Plan/FeatureServer",
+      "api_base_url": "https://arcgisweb.welland.ca/serverprod/rest/services/OpenData/",
+      "format_protocol": "Native ArcGIS REST JSON service metadata,3layers/0tables,JSONqueries,maxRecordCount1000. No features/geometry queried.",
+      "authentication": "Native service metadata succeeded anonymously; otheroperationaccess untested,noaccount/key.",
+      "free_access_restrictions": "Currentportal advertises open-data reuse; fulloperative TermsOfUse/license not recovered fromJSshell. Publicaccess/blankcopyrightText not open rights proof.",
+      "license": "unknown; current operative data grant unconfirmed",
+      "license_url": "https://open.welland.ca/",
+      "api_verification_state": "native_ArcGIS_service_metadata_success_data_grant_unconfirmed",
+      "latest_checked_utc": "2026-10-17T14:21:00.026356+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wellcome-collection",
       "provider": "Wellcome Collection",
       "service_name": "Wellcome Collection public metadata API",
@@ -17436,6 +17490,24 @@
       "license_url": "https://wascal-dataportal.org/sites/default/files/WASCAL-Data-Sharing_Policy_and_Guideline_V2.0_2021.pdf",
       "api_verification_state": "current_catalog_metadata_sample_success_mixed_restricted_policy",
       "latest_checked_utc": "2026-10-17T01:30:21.350273+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "whitehorse-restricted-data-portal",
+      "provider": "City of Whitehorse",
+      "service_name": "Whitehorse open-data download portal / WhitehorseMap (API unconfirmed)",
+      "geographic_coverage": "Canada; Yukon; Whitehorse",
+      "topical_coverage": "geospatial; water; transportation; environment; housing",
+      "dataset_families": "Municipal spatial download listings including transportation,utilities,parks,zoning,buildings,parcels,imagery. Downloadlinks only; query API unconfirmed.",
+      "documentation_url": "https://data.whitehorse.ca/",
+      "api_base_url": "",
+      "format_protocol": "Public HTML downloadportal lists SHP/DWG/KML/imagery; these are files,not proof of API. MaplandingtermsHTML notruntime/schema.",
+      "authentication": "Publicdocumentation fetchedanonymously; no account/permissionrequested. Serviceoperationaccess unknown.",
+      "free_access_restrictions": "Internalbusiness/personal use; resale,sublicensing,servicebureau and commercialreproduction/publication/dissemination requirepriorwrittenconsent. No consent/paiddata acquired.",
+      "license": "Publisher restrictive proprietary terms; commercial redistribution requires prior written consent",
+      "license_url": "https://data.whitehorse.ca/",
+      "api_verification_state": "public_restricted_portal_terms_verified_query_API_unconfirmed_not_API_success",
+      "latest_checked_utc": "2026-10-17T14:21:24.775310+00:00",
       "classification": "restricted"
     },
     {
