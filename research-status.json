@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T07:08:56.543682+00:00",
+  "published_at": "2026-10-17T07:10:59.010792+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:04:13.491522+00:00",
+  "research_updated_at": "2026-10-17T07:09:44.801416+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Neighbor batch:16 original portal origins processed;Dallas named Operating Budget database ODC-BY1 and Diba licensing-unconfirmed regional API added. Seven existing services matched without grant expansion. Diba43 definitions,Dallas1087 inherited asset references,Korean12 pending origins. Global in_progress.",
+  "latest_milestone": "Northern portal batch in progress:4 services added(1 scoped open,3 candidates);Castilla named aggregate CC BY4,Lexington/Seattle/Victoria access/rights limits explicit. Native Lexington traversal pending;global in_progress.",
   "counts": {
-    "verified": 205,
-    "candidates": 380,
+    "verified": 206,
+    "candidates": 383,
     "excluded": 41,
-    "sample_successes": 386
+    "sample_successes": 388
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -3995,6 +3995,24 @@
       "license_url": "https://open.canada.ca/en/open-government-licence-canada",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T06:59:08.495096+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "castilla-leon-open-data",
+      "provider": "Junta de Castilla y León",
+      "service_name": "Open data Explore API,scoped Administración Electrónica dataset",
+      "geographic_coverage": "Castilla y León,Spain",
+      "topical_coverage": "Government digital services,public-sector statistics",
+      "dataset_families": "Named Administración Electrónica aggregate use counts for digital-service applications;native metadata claims72741 records. Not underlying individual benefit/health records.",
+      "documentation_url": "https://analisis.datosabiertos.jcyl.es/explore/dataset/administracion-electronica/api/?flg=es-es",
+      "api_base_url": "https://analisis.datosabiertos.jcyl.es/api/explore/v2.1/",
+      "format_protocol": "Explore REST/JSON documented",
+      "authentication": "Original sample held/unsent;effective API authentication and other operations untested",
+      "free_access_restrictions": "Primary native dataset metadata embedded in ctx-dataset-schema expressly names Junta de Castilla y León andlinks canonical CC BY4 for this aggregate work. One attribute decoded with brace normalization andstrictJSON parse;not an API response. Full standard legal code previously reviewed. Current dataset page documents Explore API2.1;exact small catalog request was held/unsent andruntime untested,no alternate query/format. Tenant terms page says not defined;no blanket portal/metadata/partner grant inferred. Legacy www portal held;current analysis service independently published in primary documentation. Native72741 count is a claim,not downloaded records.",
+      "license": "CC BY4.0 for named Administración Electrónica aggregate dataset only.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "api_verification_state": "documented_API_original_bounded_sample_policy_held_untested",
+      "latest_checked_utc": "2026-10-17T07:09:20.840748+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9724,6 +9742,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "lexington-data-hub",
+      "provider": "Lexington-Fayette Urban County Government",
+      "service_name": "Lexington Data Hub OGC catalog",
+      "geographic_coverage": "Lexington-Fayette County,Kentucky,United States",
+      "topical_coverage": "Municipal geospatial,planning,infrastructure",
+      "dataset_families": "Current public GIS catalog;complete native metadata traversal tracked separately. No universal underlying feature/work grant.",
+      "documentation_url": "https://data.lexingtonky.gov",
+      "api_base_url": "https://data.lexingtonky.gov/api/search/v1",
+      "format_protocol": "OGC API Records/JSON",
+      "authentication": "Actual small anonymous metadata/discovery read;other operations untested",
+      "free_access_restrictions": "Actual anonymous OGC discovery JSON includes full LFUCG usage terms. Full sectionsI–VIII read:IP rights not granted by these terms,per-work conditions apply,warranties/indemnity andposting-based term changes. No government/public endpoint/open label grant inferred. Native site term binding retained;no universal closed-data ban claimed.",
+      "license": "Full custom LFUCG terms;effective underlying dataset and metadata grants unconfirmed.",
+      "license_url": "https://data.lexingtonky.gov/api/search/v1",
+      "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
+      "latest_checked_utc": "2026-10-17T07:09:20.840434+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lithuania-statistics",
       "provider": "State Data Agency / Statistics Lithuania",
       "service_name": "OSP statistical indicators SDMX REST service",
@@ -11848,6 +11884,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "seattle-open-data",
+      "provider": "City of Seattle",
+      "service_name": "Seattle Socrata metadata and public-data portal",
+      "geographic_coverage": "Seattle,Washington,United States",
+      "topical_coverage": "Municipal government,budgets,transport,environment",
+      "dataset_families": "Selected Terms of Use story metadata only. Other tenant families and entity datasets not enumerated in this pass.",
+      "documentation_url": "https://data.seattle.gov/",
+      "api_base_url": "https://data.seattle.gov/api/views/",
+      "format_protocol": "Socrata metadata/JSON;SODA interfaces documented separately",
+      "authentication": "Actual small anonymous metadata/discovery read;other operations untested",
+      "free_access_restrictions": "Actual anonymous metadata for official Terms of Use story6ukr-wvup succeeded. Full terms recovered from one static JSON-escapedHTMLcomponent without executing scripts. Commercial-purpose prohibition applies to lists of individuals or data readily configured as such,not automatically every non-personal dataset. No attribution generally required is not treated as a complete copyright/database grant. Withdrawal of future availability is not a post-reuse termination clause. A bounded central catalog budget search returned zero;earlier global snapshot has no exact tenant matches. Neither is proof Seattle API/data absence. Guessed /terms returned404;literal footer policy link read.",
+      "license": "Custom Seattle terms;lists of individuals commercial-purpose restriction;effective non-personal data grant unconfirmed.",
+      "license_url": "https://data.seattle.gov/stories/s/Data-Policy/6ukr-wvup/",
+      "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
+      "latest_checked_utc": "2026-10-17T07:09:20.840577+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "senado-br",
       "provider": "Brazil Federal Senate (Senado Federal)",
       "service_name": "Senado Federal legislative and administrative open-data APIs/catalog",
@@ -12529,6 +12583,24 @@
       "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T20:43:19.205193+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "victoria-datavic",
+      "provider": "State Government of Victoria,Department of Government Services",
+      "service_name": "DataVic CKAN catalog and documented Open Data API",
+      "geographic_coverage": "Victoria,Australia",
+      "topical_coverage": "Housing,transport,education,environment,community,geospatial",
+      "dataset_families": "State portal lists Vicmap,school zones,rental/building reports,traffic/environment and public-sector data. Named Open Data API2.1.0 product record is CC BY4;underlying datasets vary.",
+      "documentation_url": "https://discover.data.vic.gov.au/en_AU/dataset/datavic-open-data-api-version-2-1-0",
+      "api_base_url": "https://discover.data.vic.gov.au/api/3/action/",
+      "format_protocol": "CKAN Action API/JSON and API2.1.0 wrapper documented",
+      "authentication": "Original sample held/unsent;effective API authentication and other operations untested",
+      "free_access_restrictions": "Current primary API product record describes CKAN2.7.3 functionality and an API2.1.0 wrapper conforming to state API design standards. Exact bounded CKAN request was held and unsent;no locale/action/host workaround. Current copyright page applies CC BY4 to Department-produced website material,excluding images,branding andthird-party content;not transferred to all catalog metadata or source datasets. API wrapper authentication/free tier/quota remain untested;no account/key acquired. Internal VPS directory is not public open data and was not queried.",
+      "license": "Named API product record CC BY4;website-produced content CC BY4 except exclusions;underlying catalog/source grant unconfirmed.",
+      "license_url": "https://www.data.vic.gov.au/copyright",
+      "api_verification_state": "documented_API_original_bounded_sample_policy_held_untested",
+      "latest_checked_utc": "2026-10-17T07:09:20.840669+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
