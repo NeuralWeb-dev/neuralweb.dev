@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-17T07:21:12.517102+00:00",
+  "published_at": "2026-10-17T07:23:15.393071+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T07:13:51.058815+00:00",
+  "research_updated_at": "2026-10-17T07:22:21.374187+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Northern batch:10 original origins processed;4 services added(1 scoped open,3 candidates). Castilla named aggregate CC BY4 verified,original API sample held. Lexington finite native catalog;Seattle policy-story metadata andVictoria docs;three existing services matched. Global in_progress.",
+  "latest_milestone": "Swiss canton batch in progress:two Zurich named open services andGenevaSITG rights-unconfirmed service added. Zurich731metadata/1549distributionclaims and13referenceentities;SITG1824advertisedservices. Original eightqueue notyet advanced;globalin_progress.",
   "counts": {
-    "verified": 206,
-    "candidates": 383,
+    "verified": 208,
+    "candidates": 384,
     "excluded": 41,
-    "sample_successes": 388
+    "sample_successes": 391
   },
   "remaining_work": [
     "World Bank indicator listing completed across 60 pages; investigate 11 duplicate same-source keys and preserve snapshot/revision uncertainty; no observations enumerated",
@@ -7188,6 +7188,42 @@
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:32:30.380222+00:00",
       "classification": "open_license_verified"
+    },
+    {
+      "identifier": "zurich-cantonal-metadata",
+      "provider": "Kanton Zürich,Fachstelle Open Government Data",
+      "service_name": "Cantonal metadata web service",
+      "geographic_coverage": "Canton Zürich,Switzerland",
+      "topical_coverage": "Multisector metadata,municipal indicators,statistics",
+      "dataset_families": "731 native dataset descriptions and1549 distribution claims. Catalog includes frequently requested tables,municipal portrait indicators,statistics publications and designated OGD;open geodata excluded from this feed.",
+      "documentation_url": "https://openzh.github.io/ogd-handbook/anleitungen/datenkatalog-nutzen/",
+      "api_base_url": "https://www.web.statistik.zh.ch/ogd/daten/zhweb.json",
+      "format_protocol": "Single native JSON metadata document",
+      "authentication": "Actual small anonymous read;other operations independently untested",
+      "free_access_restrictions": "Named metadata-service record1461@fachstelle-ogd-kanton-zuerich,distribution2839 expressly permits noncommercial/commercial reuse with reference. Full current cantonal OGD terms allow copying,redistribution,adaptation andcommercial use. Actual complete bounded JSON document731descriptions/1549resource claims;no cursor fields. Metadata service grant is not transferred to all underlying data,partners or geodata. All1549resource licence codes are native claims,not independent legal/API reviews.",
+      "license": "Custom cantonal OGD permission for named metadata service;commercial use allowed,source credit required.",
+      "license_url": "https://www.zh.ch/de/politik-staat/opendata.html",
+      "api_verification_state": "actual_public_JSON_sample_success_native_metadata_document",
+      "latest_checked_utc": "2026-10-17T07:22:21.065513+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "zurich-regional-reference",
+      "provider": "Kanton Zürich,Amt für Statistik und Daten",
+      "service_name": "Gebietsstammdaten regional reference API",
+      "geographic_coverage": "Canton Zürich,Switzerland",
+      "topical_coverage": "Municipality,district and planning-region reference data",
+      "dataset_families": "Current municipal codes/names,district membership,planning regions andmunicipal changes since1990. Actual district response has13 reference entries,including a district-free-area entry.",
+      "documentation_url": "https://gebietsstammdaten.statistik.zh.ch/",
+      "api_base_url": "https://gebietsstammdaten.statistik.zh.ch/api/",
+      "format_protocol": "Read-only REST/JSON;OpenRefine reconcile docs separate",
+      "authentication": "Actual small anonymous read;other operations independently untested",
+      "free_access_restrictions": "Named OGD record3082@statistisches-amt-kanton-zuerich explicitly lists the reference API distribution6713 with commercial/noncommercial permission andreference not required. Full cantonal OGD terms reviewed. Actual anonymous district JSON;13entries includesdistrict-freearea,not13 ordinary districts. Scope is named statistical code/reference API,not a grant for separate generalised map geometry/geodata products,which have separate terms.",
+      "license": "Custom cantonal OGD permission for named region-reference API;commercial use allowed,no source-credit requirement in native resource.",
+      "license_url": "https://www.zh.ch/de/politik-staat/opendata.html",
+      "api_verification_state": "actual_public_JSON_sample_success_district_reference_list",
+      "latest_checked_utc": "2026-10-17T07:22:21.065701+00:00",
+      "classification": "open_license_verified"
     }
   ],
   "candidates": [
@@ -9025,6 +9061,24 @@
       "license_url": "https://gbif.jp/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T17:03:29.531669+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "geneva-sitg-geoservices",
+      "provider": "État de Genève,SITG partner network",
+      "service_name": "SITG public geospatial services and vector directory",
+      "geographic_coverage": "Geneva canton,cross-border Greater Geneva and dataset-specific neighboring territories",
+      "topical_coverage": "Geospatial,administrative boundaries,planning,environment,transport",
+      "dataset_families": "1824 advertised vector-root service references plus separately documented raster,thematic,locator andvector-tile families. Selected AGGLO_COMMUNES FeatureServer schema only;notallfeatures/works tested.",
+      "documentation_url": "https://sitg.ge.ch/ressources/services-web-api",
+      "api_base_url": "https://vector.sitg.ge.ch/arcgis/rest/services/ | https://raster.sitg.ge.ch/arcgis/rest/services/ | https://thematic.sitg.ge.ch/arcgis/rest/services/",
+      "format_protocol": "ArcGIS REST/JSON schema/directory;vector/raster/thematic interfaces documented",
+      "authentication": "Actual small anonymous read;other operations independently untested",
+      "free_access_restrictions": "Current primary API docs publish service directories andnamed hosted communes service. Actual anonymous FeatureServer schema andvectorroot directory JSON succeeded;nofeature,imagery or restrictedBdata requested. A summary permits commercial copying/adaptation with source/extraction attribution;A* requires commercial permission andmay involve remuneration;B isnotpublic. Full binding data-usePDFheld/unsent;do not acceptallAworksfromsummaryalone. Current ge.chgeneralcopyright requires permission for protectedwebsitecontent;interaction withdata-specificgrant unresolved. The thematic-map instruction says consumewholemaps,notindividualcomponentclasses;not treated asuniversalvector-data ban. Official statistics website is a separate original discovery origin,not replaced bythisGISservice.",
+      "license": "Per-work A/A*/B access regimes;selected work classification/full binding data terms unresolved.",
+      "license_url": "https://sitg.ge.ch/ressources/conditions-utilisation-donnees",
+      "api_verification_state": "actual_public_JSON_sample_success_service_schema_and_directory_only",
+      "latest_checked_utc": "2026-10-17T07:22:21.065794+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
