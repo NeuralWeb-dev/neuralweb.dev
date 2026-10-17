@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T11:01:58.870177+00:00",
+  "published_at": "2026-10-17T11:04:01.591049+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T11:01:26.845294+00:00",
+  "research_updated_at": "2026-10-17T11:02:52.241284+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Provider-root and research-repository discovery passes checkpointed",
+  "latest_milestone": "Oakregional tenorigins checkpointed:701services229open421candidates51restricted;OpenDataDK638names/Aarhus121metadata112scopedopen;RDOS15catalogue/legalredirectheld;Oakville/Oklahomacandidates;Jena68discoverylinks.;BDL62900definitions quota-deferred: API calls quota exceeded! Maximum admitted 1000 per 12 h.",
   "counts": {
     "verified": 229,
     "candidates": 421,
@@ -604,6 +604,7 @@
           "minneapolis-open-data",
           "neracoos-erddap",
           "north-dakota-gis-hub",
+          "okanagan-similkameen-open-data",
           "seattle-open-data",
           "sfwmd-repository",
           "us-data-gov-catalog",
@@ -775,6 +776,8 @@
           "nashville-open-data",
           "nevada-county-open-data",
           "north-dakota-gis-hub",
+          "oakville-open-data",
+          "okanagan-similkameen-open-data",
           "palo-alto-open-data",
           "sacramento-open-data",
           "us-data-gov-catalog",
@@ -1185,6 +1188,7 @@
           "madrid-open-data",
           "moldova-data",
           "ons",
+          "opendata-dk",
           "poland-bdl",
           "poland-gus-sdg",
           "registry-opendata-gov-je",
@@ -1350,6 +1354,7 @@
           "ices-dome",
           "italy-istat-sdmx",
           "madrid-open-data",
+          "opendata-dk",
           "palermo-open-data",
           "poland-bdl",
           "poland-gus-sdg",
@@ -1803,6 +1808,7 @@
           "lithuania-dataportal",
           "madrid-open-data",
           "onb-webarchive",
+          "opendata-dk",
           "palermo-open-data",
           "poland-bdl",
           "registry-data-sz-ch",
@@ -6350,7 +6356,7 @@
       "license": "CC BY4.0 for108Aarhus descriptions;CC0 1.0 for4;other works unconfirmed",
       "license_url": "https://creativecommons.org/licenses/by/4.0/ | https://creativecommons.org/publicdomain/zero/1.0/legalcode",
       "api_verification_state": "actual_public_JSON_sample_success_native_CKAN_partition_and_name_list_scoped_CC_BY4_CC0_verified",
-      "latest_checked_utc": "2026-10-17T11:00:53.916737+00:00",
+      "latest_checked_utc": "2026-10-17T10:56:16.860303+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11338,7 +11344,7 @@
       "license": "Town of Oakville Open Data Licence,basedonOGLCanada2.0;policyverified,workbindingunconfirmed",
       "license_url": "https://www.oakville.ca/town-hall/plans-strategies/open-data/open-data-licence/",
       "api_verification_state": "official_current_portal_and_full_OGL_documented_original_policy_held_API_work_binding_unresolved",
-      "latest_checked_utc": "2026-10-17T11:00:53.916941+00:00",
+      "latest_checked_utc": "2026-10-17T10:54:20.044183+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11374,7 +11380,7 @@
       "license": "unknown effective grant;exacttermsfileunreadafter signedassetredirectheld",
       "license_url": "https://rdos.maps.arcgis.com/sharing/rest/content/items/b0b3b151f79d4385a49276f12c9ce7e0/data",
       "api_verification_state": "actual_public_JSON_sample_success_native_catalogue_exact_legal_instrument_redirect_held_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-17T11:00:53.917190+00:00",
+      "latest_checked_utc": "2026-10-17T10:56:59.129132+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -11392,7 +11398,7 @@
       "license": "unknown effective data/metadata grant",
       "license_url": "https://oklahoma.gov/about/copyright-and-protection-acts.html",
       "api_verification_state": "current_CKAN_frontend_verified_guessed_small_API_request_policy_held_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-17T11:00:53.917059+00:00",
+      "latest_checked_utc": "2026-10-17T10:56:16.861080+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
