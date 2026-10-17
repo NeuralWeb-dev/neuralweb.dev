@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-17T20:40:11.766642+00:00",
+  "published_at": "2026-10-17T20:42:14.060812+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T20:36:35.712000+00:00",
+  "research_updated_at": "2026-10-17T20:41:27.613388+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GAGE/IRIS/EarthScope identitiesreconciled; facility-originBY4documented, queryholds andrestrictedNTRIPconnection distinguished",
+  "latest_milestone": "Six original tasks reviewed across two batches; six records added and CLARIN deduplicated. EarthScope facility-origin BY4 scopes documented with query holds; FDATCC0metadata/nativeOAI and scoped identifiers verified. Global discovery unfinished.",
   "counts": {
-    "verified": 285,
-    "candidates": 554,
+    "verified": 286,
+    "candidates": 555,
     "excluded": 121,
     "sample_successes": 475
   },
@@ -111,6 +111,7 @@
           "bgs",
           "cchdo",
           "datacommons",
+          "earthscope-geodetic-web-services",
           "emodnet",
           "esgf-cmip5-discovery",
           "geri",
@@ -177,6 +178,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "earthscope-geodetic-web-services",
           "emodnet",
           "geri",
           "hcdc-datasearch-metadata-api",
@@ -261,6 +263,7 @@
         "verified_provider_ids": [
           "bonndata-published-metadata",
           "doaj",
+          "fdat-tuebingen-metadata-api",
           "kitopen-bibliographic-oai",
           "oecd",
           "openaire",
@@ -319,7 +322,10 @@
         "verified_provider_ids": [
           "bgs",
           "earthbyte-gplates-web-service",
+          "earthscope-geodetic-web-services",
+          "earthscope-seismic-web-services",
           "emodnet",
+          "fdat-tuebingen-metadata-api",
           "geoboundaries",
           "geonames",
           "getty-vocabularies",
@@ -341,6 +347,7 @@
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
+          "earthscope-sponsored-miniseed-object-repository",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
           "ioerdata-spatial-research-portal",
@@ -404,6 +411,7 @@
       "biodiversity": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "fdat-tuebingen-metadata-api",
           "gbif",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
@@ -473,6 +481,7 @@
       "astronomy": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "earthscope-seismic-web-services",
           "gavo",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb"
@@ -496,6 +505,7 @@
         "verified_provider_ids": [
           "bnf-catalogue",
           "cleveland-art",
+          "fdat-tuebingen-metadata-api",
           "getty-provenance",
           "getty-vocabularies",
           "kitopen-bibliographic-oai",
@@ -554,7 +564,10 @@
           "doaj",
           "dryad",
           "earthbyte-gplates-web-service",
+          "earthscope-geodetic-web-services",
+          "earthscope-seismic-web-services",
           "esgf-cmip5-discovery",
+          "fdat-tuebingen-metadata-api",
           "figshare",
           "gavo",
           "geoboundaries",
@@ -607,6 +620,7 @@
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
           "digis-repository-interfaces",
+          "earthscope-sponsored-miniseed-object-repository",
           "ena",
           "esa-ecology",
           "europepmc",
@@ -6043,6 +6057,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "fdat-tuebingen-metadata-api",
+      "provider": "University of Tübingen / FDAT Research Data Repository",
+      "service_name": "FDAT public research metadata OAI-PMH/REST (including migrated TALAR collections)",
+      "geographic_coverage": "Tübingeninstitutionalresearch acrossdisciplines andinternationalstudy/geographic/language subjects; notworldwidecomplete",
+      "topical_coverage": "research | education | culture | language | social sciences | biodiversity | geospatial",
+      "dataset_families": "Publicdataset/researchsoftware metadata,34communitysets; migratedTALAR/CRC441/CRC833linguistic resources; individualsourcefiles/lexicalworks mixedrights",
+      "documentation_url": "https://dh-center.uni-tuebingen.de/fdat-policy/faq.html | https://talar.sfb833.uni-tuebingen.de/ | https://uni-tuebingen.de/en/134314",
+      "api_base_url": "https://fdat.uni-tuebingen.de/oai2d | https://fdat.uni-tuebingen.de/api/",
+      "format_protocol": "NativeOAI-PMH2UTF8XMLIdentify/ListSets andscopedListIdentifiers; RESTInvenioRDM documented, notsampled",
+      "authentication": "AnonymousOAImetadata succeeded; OAuth/upload/authentication/privateendpoints notaccessed",
+      "free_access_restrictions": "PublishedmetadataCC0 andOAIharvestingdocumented; sourcefilesmaybeembargoed/restricted andindividuallicences apply",
+      "license": "Creative Commons CC0 for publishedmetadata perofficialFDATFAQ",
+      "license_url": "https://dh-center.uni-tuebingen.de/fdat-policy/faq.html",
+      "api_verification_state": "native_anonymous_OAI_XML_Identify_and_complete34sets_CC0metadata_primarypolicy_verified",
+      "latest_checked_utc": "2026-10-17T20:41:22.613603+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "fid-move-research-data-api",
       "provider": "TIB / FID move with SLUB Dresden",
       "service_name": "FID move mobility and transport research data repository CKAN API",
@@ -10739,7 +10771,7 @@
       "license": "unknown for aggregated metadata; VLO about page GPLv3 explicitly covers software",
       "license_url": "https://vlo.clarin.eu/about",
       "api_verification_state": "actual_product_metadata_JSONLD_sample_success",
-      "latest_checked_utc": "2026-10-17T02:47:56.572085+00:00",
+      "latest_checked_utc": "2026-10-17T20:41:22.613603+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17994,6 +18026,24 @@
       "license_url": "https://www.wfp.org/terms-and-conditions",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:28:50.894140+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wind-data-hub-api",
+      "provider": "Wind Data Hub / US DOE WETO; managed by Pacific Northwest National Laboratory",
+      "service_name": "Wind Data Hub public portal/API configuration",
+      "geographic_coverage": "Windenergyfield/modelcampaigns withvariousUS/offshore/internationalprojects; fullcatalogueextentunverified",
+      "topical_coverage": "energy | climate/weather/environment | oceans | research",
+      "dataset_families": "WETOobservationalandbenchmarkmodelwinddata, meteorological/oceanographicmeasurementdescriptions; sourcecatalogue notenumerated",
+      "documentation_url": "https://wdh.energy.gov/home | https://www.pnnl.gov/wind-data-management",
+      "api_base_url": "https://wdh.energy.gov/api/",
+      "format_protocol": "NativeJSONserviceinfo(siteName/siteShortName/siteDoi/apiUrl); mainHTMLJSshellnotAPIsuccess. BoundedfirstpartyJSreferenceexamined, actualsourcequerycontract unresolved",
+      "authentication": "Anonymousapi/infoJSONsucceeded; accounts/proprietary/privateendpoints notqueried",
+      "free_access_restrictions": "Providerindexedofficialdescriptiondistinguishespublicandproprietaryauthoriseddata; exactfreetier/API/dataaccessunresolved",
+      "license": "unknown explicitmetadatadatabaseandindividualsourcegrants; government/labidentitynotpublicdomainproof",
+      "license_url": "https://www.pnnl.gov/wind-data-management",
+      "api_verification_state": "native_anonymous_public_API_configuration_JSON_success_dataset_query_contract_and_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T20:41:22.613603+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
