@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-17T21:02:39.846602+00:00",
+  "published_at": "2026-10-17T21:04:42.404755+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T21:00:17.683894+00:00",
+  "research_updated_at": "2026-10-17T21:02:58.896026+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Baltic institutional data, French survey catalogue and European history originals reviewed; native Progedo OAI verified with restricted data access, remaining grants/runtime scoped unresolved.",
+  "latest_milestone": "MycoBank restrictive indexed terms, DRKS date-dependent grants and LTER-Italy documented OGC/SensorThings scope reviewed; runtime holds and unknown metadata/database grants preserved.",
   "counts": {
     "verified": 290,
-    "candidates": 565,
-    "excluded": 123,
+    "candidates": 567,
+    "excluded": 124,
     "sample_successes": 475
   },
   "remaining_work": [
@@ -11522,6 +11522,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "drks-german-clinical-trials-register",
+      "provider": "Federal Institute for Drugs and Medical Devices (BfArM)",
+      "service_name": "German Clinical Trials Register public search and exports",
+      "geographic_coverage": "Clinical studies conducted in Germany; operator warns other registers also contain German studies, not a complete global trial universe",
+      "topical_coverage": "health | research",
+      "dataset_families": "Public clinical trial registration descriptions, design, recruitment, identifiers and related study-level exports; no participant data",
+      "documentation_url": "https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/Studie-suchen/_node.html | https://www.bfarm.de/SharedDocs/Downloads/DE/BfArM/DRKS/drks-hilfe-anwendung-oeffentlich.pdf?__blob=publicationFile",
+      "api_base_url": "",
+      "format_protocol": "Operator documents public search and individual/multiple study exports, indexed public guide describes JSON and downloadable JSON schema; schema runtime withheld by robots/access policy",
+      "authentication": "Operator states public search free and publicly accessible; registration/data submission separate and not accessed",
+      "free_access_restrictions": "Anonymous public study discovery documented; per-source dates/rights and database terms apply, no blanket historical archive grant",
+      "license": "Date-dependent source CC BY 4.0 for specified newer entries; older entries can require author consent; separate database rights retained",
+      "license_url": "https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/Studie-suchen/_node.html",
+      "api_verification_state": "native_operator_search_export_and_date_scoped_source_terms_verified_schema_target_policy_held_query_API_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:02:54.913997+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "drp",
       "provider": "Defense Resiliency Platform Against Extreme Cold Weather",
       "service_name": "Defense Resiliency Platform Against Extreme Cold Weather DataONE research repository API",
@@ -13679,6 +13697,24 @@
       "license_url": "https://www.dati.lombardia.it/stories/s/ide6-ffgv",
       "api_verification_state": "actual_public_JSON_sample_success_named_metadata_and_suppressed_aggregate_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T08:32:01.193415+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lter-italy-dataset-asset-registry",
+      "provider": "LTER-Italy / CNR-ISMAR and CNR-IREA",
+      "service_name": "LTER-Italy network Digital Asset Registry",
+      "geographic_coverage": "Initial repository focus marine/transitional Italian LTER sites. Operator describes broader Italian network including Himalayan and Antarctic sites; not proof those sites have deposited datasets here.",
+      "topical_coverage": "biodiversity | oceans | water | climate/weather/environment | geospatial | research",
+      "dataset_families": "Ecological research datasets and digital assets; initial marine/transitional scope, geospatial maps and metadata. Deposited inventory not enumerated.",
+      "documentation_url": "https://dataregistry.lteritalia.it/about/ | https://dataregistry.lteritalia.it/",
+      "api_base_url": "https://dataregistry.lteritalia.it/api/ (registry claim, native route held); exact OGC/SensorThings read endpoints not independently verified",
+      "format_protocol": "Operator documents GeoNode, OGC sharing services and FROST SensorThings integration; native /api/ withheld by robots policy, no JSON/OGC capabilities response obtained",
+      "authentication": "Public home/about/datasets HTML accessible; operator describes ORCID authentication in project material, anonymous API authentication untested",
+      "free_access_restrictions": "Unknown exact API quotas, per-source licenses, source access/embargo controls. No account or token requested.",
+      "license": "unknown current blanket metadata/database and exact deposited source grants; registry CC BY-SA 4.0 claim unconfirmed by operator terms",
+      "license_url": "https://dataregistry.lteritalia.it/about/",
+      "api_verification_state": "native_operator_OGC_SensorThings_integration_documented_API_path_policy_held_source_grants_unconfirmed",
+      "latest_checked_utc": "2026-10-17T21:02:54.913997+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21223,6 +21259,24 @@
       "license_url": "https://mo.gov/data-policy",
       "api_verification_state": "native_anonymous_MapServer_metadata_verified_restricted_portal_policy",
       "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "mycobank-fungal-nomenclature",
+      "provider": "MycoBank; Westerdijk Fungal Biodiversity Institute and cooperating mycological institutions",
+      "service_name": "MycoBank fungal nomenclature and species database",
+      "geographic_coverage": "International fungal nomenclature and species; individual taxonomic coverage not enumerated",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Fungal names, nomenclatural/taxonomic references and associated database content; individual source entries not harvested",
+      "documentation_url": "https://www.mycobank.org/ | https://www.mycobank.org/page/Name%20details%20page/430331",
+      "api_base_url": "",
+      "format_protocol": "Native HTML JavaScript shell only; search-indexed official source describes nomenclature database and reuse terms, not API response",
+      "authentication": "Public operator documentation; no accounts, tokens or source access requests",
+      "free_access_restrictions": "Public lookup does not remove noncommercial/adaptation restrictions; no API quota or source download terms established",
+      "license": "Official-domain indexed terms restrict reuse to noncommercial purposes; label CC BY-NC, accompanying text also says unadapted form only; exact version/label consistency unresolved",
+      "license_url": "https://www.mycobank.org/page/Name%20details%20page/430331",
+      "api_verification_state": "official_domain_indexed_restrictive_terms_native_HTML_loading_shell_API_not_verified",
+      "latest_checked_utc": "2026-10-17T21:02:54.913997+00:00",
       "classification": "restricted"
     },
     {
