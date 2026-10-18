@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-18T05:38:11.101028+00:00",
+  "published_at": "2026-10-18T05:40:14.242677+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:36:12.907400+00:00",
+  "research_updated_at": "2026-10-18T05:39:53.055893+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UNIPROBEspecifiedDNAprobeacademicrestrictionverified; arthistoricumheiDATAdedup; GigaDBindexedCC0default/nativeSPA/APIidentitygapsretained.",
+  "latest_milestone": "IndependentOpenUniversityKGnativeBY3defaultandemptyASKSPARQLJSONverifiedwithoutsourcegraphaccess; originalREDholdretained.",
   "counts": {
-    "verified": 360,
+    "verified": 361,
     "candidates": 847,
     "excluded": 250,
     "sample_successes": 465
@@ -9756,6 +9756,24 @@
       "license_url": "https://www.ons.gov.uk/methodology/geography/licences",
       "api_verification_state": "prior_actual_dataset_metadata_JSON_success_current_native_OGL_terms_and_API_docs_verified_further_requests_fair_use_identity_hold",
       "latest_checked_utc": "2026-10-17T23:08:35.315167+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "open-university-knowledge-graphs",
+      "provider": "The Open University / Knowledge Media Institute",
+      "service_name": "Open University RDF/SPARQL metadata service",
+      "geographic_coverage": "Open University institutional metadata and source-specific researchgraphs; exactgraphcoverage varies",
+      "topical_coverage": "education | culture | research",
+      "dataset_families": "Institutional educational/research/schema metadata and separatelylicensed researchgraphs; no graphrecords acquired",
+      "documentation_url": "https://data.open.ac.uk/ | https://data.open.ac.uk/sparql | https://data.open.ac.uk/yasgui-editor",
+      "api_base_url": "https://data.open.ac.uk/sparql",
+      "format_protocol": "RDF/SPARQL; nativeSPARQLJSONbooleantrueverified, no bindings/graphrecords",
+      "authentication": "Anonymousempty-patternASKsucceeded, no credentials/accounts used",
+      "free_access_restrictions": "DefaultCCBY3unlessotherwise specified; source/graphspecificexceptions retained. Publicendpointunionofgraphsbydefault, includespersonal/sourcegraphs notqueried.",
+      "license": "Default CC BY3.0 Unported fordataunderdata.open.ac.uk unlessotherwise specified",
+      "license_url": "https://data.open.ac.uk/",
+      "api_verification_state": "Nativeoperatorroot/queryUI/embeddededitor200HTML; editorexplicitlyconfigureshttps://data.open.ac.uk/sparql. OneGETwithqueryASK{}andAcceptSPARQLJSON200valid{\"boolean\":true,\"head\":{}}. Empty-patternavailabilitytest accessesnotriples.",
+      "latest_checked_utc": "2026-10-18T05:39:47.857532+00:00",
       "classification": "open_license_verified"
     },
     {
