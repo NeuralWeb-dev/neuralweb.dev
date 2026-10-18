@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T18:02:49.586432+00:00",
+  "published_at": "2026-10-18T18:04:52.676675+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:02:39.092072+00:00",
+  "research_updated_at": "2026-10-18T18:03:08.041001+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Wissenschaftsstatistik native paid/noncommercial terms and remote conflict; DeZIM mixed tiers/OAI held; KOSSDA indexed restricted member terms/native hold.",
+  "latest_milestone": "Six originals: DGD source restrictions, FDZ-RV project/deletion terms, SAFE mixed categories, Wissenschaftsstatistik paid/noncommercial and remote conflict, DeZIM mixed tiers/OAI held, KOSSDA indexed member restrictions/native held.",
   "counts": {
     "verified": 442,
     "candidates": 1221,
@@ -2489,6 +2489,7 @@
           "cessda-catalogue",
           "cews-gender-academia-directory",
           "cis-spain-survey-data-bank",
+          "dezim-research-data-centre",
           "discuss-data-repository",
           "edina-research-service-portal",
           "german-cancer-registry-data-centre",
@@ -2526,6 +2527,7 @@
           "eurocat-controlled-research-data",
           "european-social-survey-api",
           "fdz-health-statistics-portal",
+          "fdz-rv-pension-research",
           "fors-swiss-social-science-archive",
           "german-statistical-rdc",
           "hunt-health-study",
@@ -2593,6 +2595,7 @@
           "puglia-open-data-catalog",
           "rigsarkivet-born-digital-portal",
           "russia",
+          "safe-research-data-centre",
           "serbia-apr",
           "serbia-rzs",
           "stat-portugal",
@@ -2604,6 +2607,7 @@
           "bundesbank-rdsc-microdata",
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
+          "fdz-wissenschaftsstatistik",
           "german-statistical-rdc",
           "iab-fdz-research-data",
           "share-eric-research-data",
@@ -2671,6 +2675,7 @@
           "dza-research-data-centre",
           "european-social-survey-api",
           "fdz-dzhw-research-data",
+          "fdz-rv-pension-research",
           "fors-swiss-social-science-archive",
           "iab-fdz-research-data",
           "issda-safeguarded-social-data",
@@ -3051,6 +3056,7 @@
           "ezrc-resource-portal",
           "fdpg-german-medical-research-data",
           "fdz-health-statistics-portal",
+          "fdz-rv-pension-research",
           "fli-tsis-animal-disease-portal",
           "gepard-health-claims",
           "german-statistical-rdc",
@@ -3238,9 +3244,11 @@
           "elaborate-digital-edition-services",
           "european-social-survey-api",
           "fdz-dzhw-research-data",
+          "fdz-wissenschaftsstatistik",
           "fors-swiss-social-science-archive",
           "heidicon-object-multimedia-repository",
           "huelva-arias-montano",
+          "ids-dgd-spoken-german",
           "issda-safeguarded-social-data",
           "lifbi-research-data-centre",
           "lindat-fcs",
@@ -3809,6 +3817,7 @@
           "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
           "huelva-arias-montano",
+          "ids-dgd-spoken-german",
           "indexs-exsiccatae-api",
           "leiden-edepot-archives",
           "lindat-fcs",
@@ -3947,6 +3956,7 @@
           "dans-physical-technical-station",
           "datapb-ufpb-dataverse",
           "dataversenl-central-repository",
+          "dezim-research-data-centre",
           "digitum-murcia-public-metadata",
           "direno-lower-austria-repository",
           "discuss-data-repository",
@@ -4038,6 +4048,7 @@
           "roderic-uv-repository",
           "rosat-mpe-mission-archive",
           "saarland-clarind-language-repository",
+          "safe-research-data-centre",
           "san-raffaele-ordr",
           "saw-leipzig-fcs",
           "science-repository-dk",
@@ -4111,6 +4122,8 @@
           "fdpg-german-medical-research-data",
           "fdz-dzhw-research-data",
           "fdz-health-statistics-portal",
+          "fdz-rv-pension-research",
+          "fdz-wissenschaftsstatistik",
           "fiz-icsd-licensed-api",
           "flora-frankfurt-portal",
           "fors-swiss-social-science-archive",
@@ -4123,6 +4136,7 @@
           "huelva-arias-montano",
           "hunt-health-study",
           "iab-fdz-research-data",
+          "ids-dgd-spoken-german",
           "indexs-exsiccatae-api",
           "issda-safeguarded-social-data",
           "lasa-amsterdam-controlled-data",
@@ -4263,7 +4277,8 @@
           "ubb-digital-commons-data"
         ],
         "restricted_provider_ids": [
-          "gccstat"
+          "gccstat",
+          "ids-dgd-spoken-german"
         ]
       },
       "housing": {
@@ -4352,6 +4367,7 @@
         ],
         "restricted_provider_ids": [
           "gccstat",
+          "ids-dgd-spoken-german",
           "infra-art-restricted-spectra",
           "tair-arabidopsis-service"
         ]
@@ -4370,6 +4386,7 @@
           "ubb-digital-commons-data"
         ],
         "restricted_provider_ids": [
+          "ids-dgd-spoken-german",
           "infra-art-restricted-spectra",
           "tair-arabidopsis-service",
           "us-jgofs-legacy-data-system"
@@ -4933,6 +4950,7 @@
         "restricted_provider_ids": [
           "china-phda-metadata-api",
           "korea-kosis",
+          "kossda-social-science-archive",
           "social-science-japan-data-archive"
         ]
       },
@@ -4964,6 +4982,7 @@
         ],
         "restricted_provider_ids": [
           "korea-kosis",
+          "kossda-social-science-archive",
           "social-science-japan-data-archive"
         ]
       },
@@ -5074,6 +5093,7 @@
         "restricted_provider_ids": [
           "chiba-curator-repository",
           "cinii-research",
+          "kossda-social-science-archive",
           "sciencedb-api-oai",
           "social-science-japan-data-archive"
         ]
@@ -5252,6 +5272,7 @@
           "china-phda-metadata-api",
           "cinii-research",
           "japan-dias-platform",
+          "kossda-social-science-archive",
           "nii-idr-restricted-dataset-service",
           "sciencedb-api-oai",
           "social-science-japan-data-archive",
@@ -5701,6 +5722,7 @@
         ],
         "restricted_provider_ids": [
           "hilda-australia-household-survey",
+          "ids-dgd-spoken-german",
           "paradisec-language-archive"
         ]
       },
@@ -5916,6 +5938,7 @@
         "restricted_provider_ids": [
           "australian-national-corpus-restricted",
           "digitalnz",
+          "ids-dgd-spoken-german",
           "lris-landcare-data-services",
           "paradisec-language-archive"
         ]
@@ -5979,6 +6002,7 @@
           "dfo-pacific-ios-archive",
           "digitalnz",
           "hilda-australia-household-survey",
+          "ids-dgd-spoken-german",
           "indepth-ishare-data-repository",
           "lris-landcare-data-services",
           "national-vegetation-survey-nz",
