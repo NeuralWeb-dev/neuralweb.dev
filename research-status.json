@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:15:09.340168+00:00",
+  "published_at": "2026-10-18T18:17:12.146641+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:12:49.237513+00:00",
+  "research_updated_at": "2026-10-18T18:16:47.702294+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EarthPortal public metadata Open License/documented key API; Frankfurt challenge; AWS partial source-reference queue; MorphoMuseuM500/NC; HF dedup; OEP API/legal docs/catalog guard.",
+  "latest_milestone": "Five Harvard-hosted originals deduplicated with source-rights queues; Urutai native owner link; KWTRP dated consent/managed policy; CIFOR policy gap; Mindboggle nativeBY4/version-alias discrepancy; FactGrid challenge/indexedCC0.",
   "counts": {
     "verified": 445,
-    "candidates": 1227,
+    "candidates": 1228,
     "excluded": 368,
     "sample_successes": 464
   },
@@ -918,6 +918,7 @@
           "csiro-data-access-portal",
           "cugir-geospatial-repository",
           "econbiz-literature-api",
+          "factgrid-historical-knowledge",
           "getty-museum",
           "google-code-public-archive",
           "hubblesite-nasa-multimedia",
@@ -1113,6 +1114,7 @@
           "eumetsat-data-store-api",
           "eurolas-data-center-api",
           "europepmc",
+          "factgrid-historical-knowledge",
           "flood-observatory-colorado",
           "fossilworks-ecoregister",
           "gawsis-station-metadata",
@@ -20724,6 +20726,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "factgrid-historical-knowledge",
+      "provider": "FactGrid / Historical Data Centre Saxony-Anhalt and hosting partners",
+      "service_name": "FactGrid historical research knowledge graph",
+      "geographic_coverage": "Global historical research knowledge graph; project-specific coverage",
+      "topical_coverage": "culture | civic data | research",
+      "dataset_families": "Historical research project/authority/statement metadata; no historical person/source graph rows",
+      "documentation_url": "https://database.factgrid.de/wiki/FactGrid%3ATerms_of_Service",
+      "api_base_url": "https://database.factgrid.de/query/",
+      "format_protocol": "Owner indexed terms document graph API and SPARQL; exact public endpoint contract/runtime unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 owner data declaration; exact current public API contract unverified",
+      "license_url": "https://database.factgrid.de/wiki/FactGrid%3ATerms_of_Service",
+      "api_verification_state": "Original root HTTP200 proof-of-work/challenge shell, not substantive API/HTML success. Indexed native terms reviewed; no alternate API, SPARQL or siteinfo request.",
+      "latest_checked_utc": "2026-10-18T18:15:58.237286+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "fantom-research-data",
       "provider": "RIKEN / FANTOM Consortium",
       "service_name": "FANTOM functional genome research portal",
@@ -39352,7 +39372,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified; Stockholm hosted collection guard-deferred; independent university guide HTTP 200",
-      "latest_checked_utc": "2026-10-18T14:42:18.389424+00:00",
+      "latest_checked_utc": "2026-10-18T18:15:58.237286+00:00",
       "classification": "restricted"
     },
     {
