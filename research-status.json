@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:10:02.123766+00:00",
+  "published_at": "2026-10-18T01:12:04.684670+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:07:56.551702+00:00",
+  "research_updated_at": "2026-10-18T01:10:13.812024+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WorldBank currentdatasetlegalURL/APIverified; WRDCnoncommercialnotice retained; ForestDataJS/API/termsgap preserved.",
+  "latest_milestone": "CLARIAHHALJSON andDLREOCSTAC69collections verified; GWPCCBY4scopedopen, EVIArestricted andWDCAPI/rightsresiduals retained.",
   "counts": {
-    "verified": 327,
-    "candidates": 706,
-    "excluded": 183,
+    "verified": 328,
+    "candidates": 708,
+    "excluded": 184,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -6253,6 +6253,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "dlr-eoc-geoservice",
+      "provider": "German Aerospace Center Earth Observation Center",
+      "service_name": "DLR EOC GeoService STAC and OGC data services",
+      "geographic_coverage": "Global/European/GermanEOcollections; verifiedopenexampleGlobalWaterPackyearlyglobalwatercover",
+      "topical_coverage": "water | climate/weather/environment | geospatial | agriculture | research",
+      "dataset_families": "EOcollectionmetadata; GlobalWaterPackyearlycompositesexplicitlyCCBY4. Otherwater,land,forest,atmosphericproductsrequireexactrightsreview",
+      "documentation_url": "https://geoservice.dlr.de/data-assets/bv9z3b59iu12.html",
+      "api_base_url": "https://geoservice.dlr.de/eoc/ogc/stac/v1 | https://geoservice.dlr.de/eoc/land/wms",
+      "format_protocol": "STACJSON; linkedOGCWMS, noimageryqueried",
+      "authentication": "AnonymousGWPcollection and69collectionlisting succeeded; sourceassetsotheraccessuntested",
+      "free_access_restrictions": "CCBY4verifiedGWPyearlysubset; othercollectionsNC/proprietary/conflictinglabels explicitlyexcludedfromblanketopenacceptance",
+      "license": "CC BY4.0 for verifiedGlobalWaterPackyearly; sourcecollectionlicencesdiffer",
+      "license_url": "https://geoservice.dlr.de/data-assets/bv9z3b59iu12.html",
+      "api_verification_state": "NativeproductpolicyHTTP200; anonymousGWPSTACcollection and69collectionlistingHTTP200validJSON",
+      "latest_checked_utc": "2026-10-18T01:10:09.532850+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "dnb",
       "provider": "German National Library (Deutsche Nationalbibliothek)",
       "service_name": "DNB Linked Data SPARQL Service",
@@ -12465,6 +12483,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "clariah-hitz-repository",
+      "provider": "HiTZ Basque Center for Language Technology / CLARIAH-EUS/ES",
+      "service_name": "CLARIAH-HiTZ DSpace language-resource metadata API",
+      "geographic_coverage": "Basque/Spanishandotherlanguage researchresources; deposit-specificcoverage",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Languageresource/tool/corpus/lexicalmetadata; publichomepage7items",
+      "documentation_url": "https://clariah.hitz.eus/server/api",
+      "api_base_url": "https://clariah.hitz.eus/server/api",
+      "format_protocol": "DSpaceRESTHALJSONdiscovery",
+      "authentication": "AnonymousAPIdiscoveryroot succeeded; sourceaccessrestrictionsseparate",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://clariah.hitz.eus/static/about",
+      "api_verification_state": "NativeAPIrootHTTP200 validHALJSON; nofile/datarecordquery",
+      "latest_checked_utc": "2026-10-18T01:10:09.532850+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "clariah-iatext-repository",
       "provider": "Universidad de Las Palmas de Gran Canaria / IATEXT CLARIAH node",
       "service_name": "CLARIAH-IATEXT repository",
@@ -13308,6 +13344,24 @@
       "license_url": "https://dsal.uchicago.edu/about.html",
       "api_verification_state": "native_resource_families_and_resource_specific_rights_verified_active_API_unresolved",
       "latest_checked_utc": "2026-10-17T23:25:42.227565+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dlr-wdc-rsat",
+      "provider": "German Aerospace Center / World Data Center for Remote Sensing of the Atmosphere",
+      "service_name": "WDC-RSAT atmospheric remote-sensing map/data portal",
+      "geographic_coverage": "Globalandregionalatmosphericremotesensing products; source-specificcoverage",
+      "topical_coverage": "climate/weather/environment | astronomy | research",
+      "dataset_families": "Atmosphericsatellite/mapproducts andrelatedserviceviewerreferences",
+      "documentation_url": "https://wdc.dlr.de/data_products/VIEWER/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://wdc.dlr.de/about/wdc-impressum.en.html",
+      "api_verification_state": "NativeviewerandimprintHTTP200HTML; exactreadonlyWDCdataAPI/sourcegrant unresolved",
+      "latest_checked_utc": "2026-10-18T01:10:09.532850+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24812,6 +24866,24 @@
       "license_url": "https://eu-rd-platform.jrc.ec.europa.eu/system/files/public/eurocat/Terms%20and%20conditions_vs06.02.2023.pdf",
       "api_verification_state": "restricted_portal_documented_public_api_unresolved",
       "latest_checked_utc": "2026-10-17T18:01:13.588169+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "evia-ethnographic-archive",
+      "provider": "Indiana University / University of Michigan",
+      "service_name": "EVIA Digital Archive ethnographic recordings",
+      "geographic_coverage": "Internationalethnographicculturalcollections; exactgroups/placesvary",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Ethnographicvideorecordings, annotations andcollectiondescriptions; recordingcontentnotaccessed",
+      "documentation_url": "https://media.eviada.org/eviadasb/log.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Recordingsrequirelogin/EULA; no accountoragreementused",
+      "free_access_restrictions": "Individualnonprofiteducational/researchaccess only; nocopy/distributionofrecordings orcontent",
+      "license": "RestrictedEVIAend-userlicenceagreement",
+      "license_url": "https://media.eviada.org/eviadasb/log.html",
+      "api_verification_state": "Nativepublichomepage/EULAHTTP200HTML; no publicqueryAPIverified",
+      "latest_checked_utc": "2026-10-18T01:10:09.532850+00:00",
       "classification": "restricted"
     },
     {
