@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T12:24:05.090150+00:00",
+  "published_at": "2026-10-18T12:26:08.866939+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:23:56.574947+00:00",
+  "research_updated_at": "2026-10-18T12:25:51.788459+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CEWSsourceheld; LUHCKANdocumented/statusheld/rightsunknown; O2A currentOpenAPI110paths/data rightsunconfirmed.",
+  "latest_milestone": "MDZ collectionfrontier advanced to454pages/454000refs;2759503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 402,
+    "verified": 404,
     "candidates": 1039,
-    "excluded": 302,
+    "excluded": 303,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -9497,6 +9497,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "jlupub-public-metadata-oai",
+      "provider": "Justus Liebig University Giessen / University Library",
+      "service_name": "JLUpub CC0 metadata OAI-PMH",
+      "geographic_coverage": "Giessen Germany institutional research and international study subjects",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional publication/research-dataset metadata; source objects retain individual author/publisher licences",
+      "documentation_url": "https://www.uni-giessen.de/ub/en/publish/jlupub/policy",
+      "api_base_url": "https://jlupub.ub.uni-giessen.de/server/oai/request",
+      "format_protocol": "OAI-PMH2 XML;13format declarations",
+      "authentication": "Anonymous Identify and formats validXML; no account or source access",
+      "free_access_restrictions": "Owner metadataCC0 available through open interfaces; source licences/embargoes separate",
+      "license": "CC0 for metadata per native university repository policy",
+      "license_url": "https://www.uni-giessen.de/ub/en/publish/jlupub/policy",
+      "api_verification_state": "Native root/library guidance/currentpolicy200HTML; anonymousIdentify/formats200validOAI-PMHXML without errors. Native Identify confirms exactbaseURI.",
+      "latest_checked_utc": "2026-10-18T12:25:35.005788+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "johns-hopkins-turbulence-database",
       "provider": "Johns Hopkins University / JHTDB",
       "service_name": "Johns Hopkins Turbulence Databases SOAP service",
@@ -9818,6 +9836,24 @@
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "actual_public_JSON_sample_success_named_dataset_metadata_and_full_catalogue_scoped_OGL3",
       "latest_checked_utc": "2026-10-17T17:30:21.803279+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "london-ontario-open-data",
+      "provider": "Corporation of the City of London, Ontario",
+      "service_name": "City of London Ontario open-data portal and ArcGIS API",
+      "geographic_coverage": "City of London, Ontario, Canada",
+      "topical_coverage": "geospatial | transportation | housing | public spending/contracts | environment | law/civic data",
+      "dataset_families": "Municipal basemaps, budget, community/election and transportation catalogue families documented in native portal configuration; not enumerated dataset inventory",
+      "documentation_url": "https://opendata.london.ca/ | https://london.ca/government/council-civic-administration/open-data",
+      "api_base_url": "https://london.maps.arcgis.com/sharing/rest",
+      "format_protocol": "ArcGIS sharing REST JSON and Hub catalogue; individual feature service/layer interfaces not tested",
+      "authentication": "Anonymous owner-linked ArcGIS RESTroot200JSON currentVersion2026.2; no token/login",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "City of London custom open-data licence, modification/redistribution for any lawful purpose",
+      "license_url": "https://london.ca/government/council-civic-administration/open-data",
+      "api_verification_state": "Native citypolicy200HTML; portal200JSshell with embedded owner/organization/catalogue config. Exact owner-linked ArcGIS RESTroot200validJSON currentVersion2026.2, no error. No features/observations queried.",
+      "latest_checked_utc": "2026-10-18T12:25:35.005788+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21734,8 +21770,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across439successfulpages/439000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T12:18:24.590684+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across454successfulpages/454000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T12:25:41.426524+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34968,6 +35004,24 @@
       "license_url": "https://lris.scinfo.org.nz/license/landcare-data-use-licence-v1/",
       "api_verification_state": "Native portalHTTP200 JavaScript shell and licenceHTTP200; owner API guide guard-deferred/indexed only, no runtime data response",
       "latest_checked_utc": "2026-10-18T00:55:40.924458+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "maastricht-digital-collections-api",
+      "provider": "Maastricht University Library",
+      "service_name": "Maastricht Digital Collections Omeka S API",
+      "geographic_coverage": "Netherlands cultural collections and international historical subjects",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Historical books/journals/articles/proclamations, Jesuit collections and digital exhibitions; media rights separate from metadata",
+      "documentation_url": "https://digitalcollections.library.maastrichtuniversity.nl/api",
+      "api_base_url": "https://digitalcollections.library.maastrichtuniversity.nl/api",
+      "format_protocol": "Omeka S REST explicitly described by deployed API HTML resource directory; no JSONsource response tested",
+      "authentication": "API root public; native directory says some resources/features require authentication, none attempted",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-NC-ND4 for stored digital material",
+      "license_url": "https://digitalcollections.library.maastrichtuniversity.nl/terms-of-use.html",
+      "api_verification_state": "Native root/terms/APIroot200HTML. APIroot is deployment-specific documentation listing27resources, not successful JSONresponse despite AcceptJSON.",
+      "latest_checked_utc": "2026-10-18T12:25:35.005788+00:00",
       "classification": "restricted"
     },
     {
