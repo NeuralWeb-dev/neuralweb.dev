@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:27:07.033276+00:00",
+  "published_at": "2026-10-18T00:29:09.817941+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:26:44.533873+00:00",
+  "research_updated_at": "2026-10-18T00:28:20.718374+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DARWINsource-specific industrial/no-sale terms retained; CDHA studyreferences indexed; CNGBshell/rights/API unresolved.",
+  "latest_milestone": "ExistingARCHEscopedmetadata updated; LIPIDMAPS indexedofficialCCBY4/APIverified withnativeholds; AHRIapproval-basedsourceaccess retained.",
   "counts": {
-    "verified": 324,
+    "verified": 325,
     "candidates": 670,
-    "excluded": 173,
+    "excluded": 174,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -5046,15 +5046,15 @@
       "geographic_coverage": "Austria/international humanities collections",
       "topical_coverage": "research; culture; education",
       "dataset_families": "Repository public descriptive metadata; 4nativeOAIsets/7formats indexed; no binary/fulltext data accepted",
-      "documentation_url": "http://arche.acdh.oeaw.ac.at/browser/api-access",
+      "documentation_url": "https://arche.acdh.oeaw.ac.at/browser/api-access",
       "api_base_url": "https://arche.acdh.oeaw.ac.at/oaipmh/ | https://arche.acdh.oeaw.ac.at/oai",
       "format_protocol": "OAI-PMH2/XML; ARCHE also documents RDF/core search/dissemination not alltested",
       "authentication": "No credentials for actual Identify,formats,sets andGetRecord public metadata requests",
       "free_access_restrictions": "Public metadata read succeeded without key/payment. Repository files have separate access modes/licences; no protected files or account operations.",
       "license": "CC0 — ARCHE repository metadata",
-      "license_url": "http://arche.acdh.oeaw.ac.at/browser/deposition-agreement",
+      "license_url": "https://arche.acdh.oeaw.ac.at/browser/deposition-agreement",
       "api_verification_state": "actual_OAI_XML_metadata_GetRecord_and_catalog_sample_success",
-      "latest_checked_utc": "2026-10-17T02:58:36.012573+00:00",
+      "latest_checked_utc": "2026-10-18T00:28:16.469670+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -7935,6 +7935,24 @@
       "license_url": "https://www.linz.govt.nz/copyright",
       "api_verification_state": "official_key_dependent_Basemaps_API_documented_sample_untested_scoped_grant_verified",
       "latest_checked_utc": "2026-10-17T14:48:40.283290+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "lipidmaps-rest-sparql",
+      "provider": "LIPID MAPS consortium",
+      "service_name": "LIPID MAPS REST andSPARQL databaseinterfaces",
+      "geographic_coverage": "Biochemical lipid/gene/proteinresources; worldwide researchusage, notgeographicpopulationdata",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Lipidstructures andclassification, lipid-relatedgene/proteinidentifiers andannotations",
+      "documentation_url": "https://www.lipidmaps.org/resources/rest | https://www.lipidmaps.org/resources/sparql",
+      "api_base_url": "https://www.lipidmaps.org/rest | https://lipidmaps.org/sparql (documented; notrequested)",
+      "format_protocol": "RESTJSON default/textdocumented; SPARQL1.1 documented",
+      "authentication": "Publicprogrammaticaccess documented; runtime/keyconditions nottested",
+      "free_access_restrictions": "Officialindexed databaseCCBY4; attributionrequired, linkedthirdpartyrights separate. No paidacquisition.",
+      "license": "CC BY4.0 for allLIPIDMAPSdatabases perofficialterms",
+      "license_url": "https://www.lipidmaps.org/terms-of-use",
+      "api_verification_state": "Primaryindexed officialAPIandrights verified; nativehomepage/docs guard-deferred, no successfulAPIresponse",
+      "latest_checked_utc": "2026-10-18T00:28:16.469670+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -22825,6 +22843,24 @@
       "license_url": "http://mag.gcras.ru/datapolicy.html",
       "api_verification_state": "restricted_portal_and_published_machine_service_link_documented_sample_untested",
       "latest_checked_utc": "2026-10-17T17:56:20.216605+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ahri-research-data-repository",
+      "provider": "Africa Health Research Institute",
+      "service_name": "AHRI research data repository andapproval-based analytical dataaccess",
+      "geographic_coverage": "PredominantlySouthAfrica; exactstudycountry/timecoveragevaries andsomecross-countrydata referenced",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Health/demographic surveillance, cohort andintervention study metadata; protectedparticipantdatasets separate",
+      "documentation_url": "https://www.ahri.org/research/ | https://data.ahri.org/index.php/home",
+      "api_base_url": "",
+      "format_protocol": "PublicHTMLstudy/catalogue descriptions; machinemetadataAPIunverified",
+      "authentication": "Bona fideresearchers require datacustodian approvals andterms foranalyticaldatasets; no application/accountentered",
+      "free_access_restrictions": "Approval-basedsourceaccess; publicmetadata/directoutputs maydiffer andneedexactgrantreview",
+      "license": "Approval/terms-based analyticaldata; exactsourceagreements, no blanketopen grant",
+      "license_url": "https://www.ahri.org/research/",
+      "api_verification_state": "Nativepublichomepage andoperatorresearchpolicyHTTP200; no machineAPI/sourcefiletest",
+      "latest_checked_utc": "2026-10-18T00:28:16.469670+00:00",
       "classification": "restricted"
     },
     {
