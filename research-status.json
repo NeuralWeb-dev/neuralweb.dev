@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:59:49.271741+00:00",
+  "published_at": "2026-10-18T01:01:51.837673+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:58:31.444347+00:00",
+  "research_updated_at": "2026-10-18T01:00:48.437715+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ORTOLANG REST nativeJSON verified, FCS policy updated; mediaTUM and GRANTS portal/API/rights gaps preserved.",
+  "latest_milestone": "DataverseUA publishedmetadataCC0/OAI verified with79headers; DTUmetadata policy verified butAPIheld; ISRICmixedsourcepolicy/hold retained.",
   "counts": {
-    "verified": 326,
-    "candidates": 696,
+    "verified": 327,
+    "candidates": 698,
     "excluded": 180,
     "sample_successes": 469
   },
@@ -8403,6 +8403,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "nasukraine-dataverseua",
+      "provider": "National Academy of Sciences of Ukraine / Bogolyubov Institute for Theoretical Physics",
+      "service_name": "DataverseUA published metadata OAI service",
+      "geographic_coverage": "Ukrainian institutional and wider research deposits; dataset geography varies",
+      "topical_coverage": "research",
+      "dataset_families": "Multidisciplinary research dataset metadata; research source content separately licensed",
+      "documentation_url": "https://opendata.nas.gov.ua/",
+      "api_base_url": "https://opendata.nas.gov.ua/oai",
+      "format_protocol": "OAI-PMH XML;5advertised metadata formats; registry REST/SWORD not tested",
+      "authentication": "Anonymous publicOAI Identify/formats/identifiers succeeded; registered source/download/deposit access separate",
+      "free_access_restrictions": "CC0 publishedmetadata; private/unpublished metadata and dataset permissions not included. No registration/account.",
+      "license": "CC0 for published metadata explicitly defined in native repository terms",
+      "license_url": "https://opendata.nas.gov.ua/",
+      "api_verification_state": "Nativehomepage/terms andthree anonymous OAIverbsHTTP200, parsed XML;79metadataheaders indexed",
+      "latest_checked_utc": "2026-10-18T01:00:44.275285+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ncar-ucar-dash-search",
       "provider": "NSF NCAR / University Corporation for Atmospheric Research",
       "service_name": "DASH Search digital asset metadata portal",
@@ -13391,6 +13409,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dtu-data-repository",
+      "provider": "Technical University of Denmark / DTU Library",
+      "service_name": "DTU Data institutional research repository",
+      "geographic_coverage": "DTU research with international subject coverage; deposit-specific extent",
+      "topical_coverage": "research",
+      "dataset_families": "Research data, code, media, metadata-only and embargoed source descriptions",
+      "documentation_url": "https://www.bibliotek.dtu.dk/en/Research-service/Research-data/Publishing/dtu-data/Guides-for-DTU-Data/User-Manual-DTU-Data",
+      "api_base_url": "",
+      "format_protocol": "Owner documents OAI-PMH/public metadata; Figshare REST guides, exact portal routing/runtime pending",
+      "authentication": "Native current terms say public search/view/download without registration; deposition requires DTUauthorizedaccount. No credentials used.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Published metadata CreativeCommons1.0Universal/unrestricted-reuse default with exceptions; depositor-selected content licences",
+      "license_url": "https://www.bibliotek.dtu.dk/-/media/andre_universitetsenheder/bibliotek/bibliotek_newdesign/rdm/files/dtu-data-terms-of-use_version_1.pdf",
+      "api_verification_state": "Nativeportalguard-deferred; independentcurrentowner guide/termsHTTP200. ExactinstitutionAPI/OAI mapping/runtime unverified; candidate despite metadata rights verification",
+      "latest_checked_utc": "2026-10-18T01:00:44.275285+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dwd-cdc-geospatial",
       "provider": "Deutscher Wetterdienst / Climate Data Center",
       "service_name": "DWD CDC climate portal / documented OGC geoservices candidate",
@@ -15494,6 +15530,24 @@
       "license_url": "https://data.gov.il/terms",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-17T06:59:08.496260+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "isric-soil-data-hub",
+      "provider": "ISRIC World Soil Information",
+      "service_name": "ISRIC Soil Data Hub metadata catalogue",
+      "geographic_coverage": "Global soil resources and source-specific regional/national datasets",
+      "topical_coverage": "agriculture | climate/weather/environment | geospatial | research",
+      "dataset_families": "Soil dataset and service metadata; point/covariate data and derived predictions have distinct access categories",
+      "documentation_url": "https://www.isric.org/about/data-policy",
+      "api_base_url": "https://data.isric.org/geonetwork/ ; exact public API route not verified",
+      "format_protocol": "Official metadata documentation describes GeoNetwork/ISO19115; current stable query API unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Source-specific CC-BY/CC-BY-NC or corresponding categories; no blanket catalogue metadata grant verified",
+      "license_url": "https://www.isric.org/about/data-policy",
+      "api_verification_state": "Original soilhubrootguard-deferred; independentnativeowner policyHTTP200PDF, no publiccatalogue API sample",
+      "latest_checked_utc": "2026-10-18T01:00:44.275285+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
