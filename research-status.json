@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T09:09:13.745774+00:00",
+  "published_at": "2026-10-18T09:11:16.490335+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:08:15.113594+00:00",
+  "research_updated_at": "2026-10-18T09:10:13.376111+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals: BDR scopedCC0/OAIheld; MDZIIIF1000refs/3213503totalnextcursor; PDSJSON4105schemas/sourcegrantsvary; SNDscopedDORISCC0/APIunresolved and LISS/GISAID/SOEP restrictions.",
+  "latest_milestone": "MassBank nativeOpenAPI10operations/versionJSONverified andmixedrecordlicences; BODRgrant/interfaceheld; MorphoBankownerFAQpublishedGETAPI/mixedmedia terms documented.",
   "counts": {
     "verified": 384,
-    "candidates": 965,
+    "candidates": 968,
     "excluded": 287,
     "sample_successes": 465
   },
@@ -13880,6 +13880,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "blue-obelisk-data-repository",
+      "provider": "Blue Obelisk project",
+      "service_name": "Blue Obelisk Data Repository",
+      "geographic_coverage": "Chemical element/isotope reference data, not geographic observations",
+      "topical_coverage": "research",
+      "dataset_families": "Element/isotope chemistry reference library per native ownerREADME; exact source grant/content unreviewed",
+      "documentation_url": "https://github.com/BlueObelisk/bodr",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Owner GitHubroot200HTML; linked datafolder held/unsent. No REST-data or source retrieval response; no alternate GitHub/raw/backend request after hold.",
+      "latest_checked_utc": "2026-10-18T09:10:08.856964+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bold-v5-public-data-api",
       "provider": "BOLD Systems / Centre for Biodiversity Genomics, University of Guelph",
       "service_name": "BOLD v5 public biodiversity discovery API",
@@ -20450,6 +20468,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "massbank-spectral-api",
+      "provider": "MassBank consortium / IPB Halle and partners",
+      "service_name": "MassBank3 REST API (European/IPB service)",
+      "geographic_coverage": "International contributor mass-spectral library; exact contributor/source geographic coverage unenumerated",
+      "topical_coverage": "research | health | environment",
+      "dataset_families": "Reference mass spectra/chemical metadata and record filters; source spectra/structures not queried",
+      "documentation_url": "https://github.com/MassBank/MassBank3 | https://massbank.eu/MassBank-api/ui/openapi.yaml",
+      "api_base_url": "https://massbank.eu/MassBank-api | IPB parallel instance https://msbi.ipb-halle.de/MassBank-api",
+      "format_protocol": "OpenAPI3.0.3 YAML native200parseable,10operations; documented versionGET200validJSON; source recordJSON untested",
+      "authentication": "Anonymous OpenAPI/version metadata successful; source/API operation restrictions untested",
+      "free_access_restrictions": "Public docs/versionfree; source licences vary per mandatory recordLICENSE, including NC restrictions. No paid access/account acquired.",
+      "license": "Per-record Creative Commons choices including CC0/BY/BYSA/BYNC/BYNCSA; not uniform open licence",
+      "license_url": "https://github.com/MassBank/MassBank-documentation/blob/dev/MassBankRecordFormat.md",
+      "api_verification_state": "IPB/EUroot200appshells; owner software/docs confirm runningEU plus parallelIPB identity. NativeSwaggerroot redirected /ui/, published initializer links ./openapi.yaml; schema200YAML and version200JSON. HTML not source API success.",
+      "latest_checked_utc": "2026-10-18T09:10:08.856964+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mauritius",
       "provider": "Mauritius national Open Data Portal / Mauritius Digital Promotion Agency (MDPA)",
       "service_name": "Open Data Mauritius CKAN catalog and Datastore API",
@@ -20969,6 +21005,24 @@
       "license_url": "https://motor-research-data.de/en/Nutzungsbedingungen_EN.pdf",
       "api_verification_state": "Native root200HTMLloading shellnotAPIresponse; originaltermsPDFurlopentimeout. ExactAPI/currentterms unresolved; noalternates/testsourcequery.",
       "latest_checked_utc": "2026-10-18T05:23:40.324158+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "morphobank-public-api",
+      "provider": "MorphoBank / Phoenix Bioinformatics",
+      "service_name": "MorphoBank published-resource API",
+      "geographic_coverage": "International morphological phylogenetic research across taxa; exact source geography unknown",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Published morphology projects/matrices/documents/media; private unpublished projects distinct",
+      "documentation_url": "https://phoenixbioinformatics.atlassian.net/wiki/spaces/MD/pages/42226561/FAQ",
+      "api_base_url": "https://www.morphobank.org/api (registry and native owner FAQ documented, not requested)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-provider media licence choices; no blanket open API/data grant",
+      "license_url": "https://phoenixbioinformatics.atlassian.net/wiki/spaces/MD/pages/42226561/FAQ",
+      "api_verification_state": "Native morphobankroot guard-deferred/unsent; independent ownerFAQ200read confirms publicAPI HTTPGET forpublishedresources. No native API/data/alternatehost/backend after hold.",
+      "latest_checked_utc": "2026-10-18T09:10:08.856964+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
