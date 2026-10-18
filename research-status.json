@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T21:32:34.962441+00:00",
+  "published_at": "2026-10-18T21:34:38.127064+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:29:53.380263+00:00",
+  "research_updated_at": "2026-10-18T21:33:41.702838+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CefasOGLv3/79operations/2licenceJSON verified; FaceBase/SRDA restricted; IncluSet/DOOR unresolved; APIS native access/use/OAI documentation clarified.",
+  "latest_milestone": "AMCR NC and OAIidentity; MOSP license/API gap; CNR4DMED namedBY4 and WMSmetadata verified with challenge separation.",
   "counts": {
-    "verified": 473,
-    "candidates": 1372,
-    "excluded": 400,
+    "verified": 474,
+    "candidates": 1373,
+    "excluded": 401,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -8369,6 +8369,24 @@
       "license_url": "https://data.cms.gov/data.json",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:51:48.757221+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "cnr-4dmed-sea-data-services",
+      "provider": "CNR ISMAR / ESA 4DMED-Sea consortium",
+      "service_name": "4DMED-Sea product data services",
+      "geographic_coverage": "Mediterranean Sea reconstructed bio-physical products; source products/time ranges vary",
+      "topical_coverage": "oceans | water | climate | environment | research",
+      "dataset_families": "Marine temperature/salinity/density/chlorophyll/velocity reconstruction, primary production, altimetry and derived products; challenge dataset separate rights",
+      "documentation_url": "http://ricerca.ismar.cnr.it/4DMED/Products.html | https://4dmed.artov.ismar.cnr.it/thredds/catalog/4dmed/catalog_NN.html?dataset=4DMED-ESA_CNR-NN_aggregated+%7C+https%3A%2F%2F2024c-dc-4dmedsea-esa.readthedocs.io%2Fen%2Flatest%2F1_getstarted%2Fgetstarted_data.html",
+      "api_base_url": "https://4dmed.artov.ismar.cnr.it/thredds/wms/4dmed-cnr-nn-aggr | https://4dmed.artov.ismar.cnr.it/thredds/dodsC/4dmed-cnr-nn-aggr (documented, untested)",
+      "format_protocol": "WMS1.3 XML capabilities verified; aggregate OPeNDAP DAP2 and NetcdfSubset documented, not actual data requests",
+      "authentication": "Anonymous catalog/description/WMS capabilities succeeded, no credentials; other access untested",
+      "free_access_restrictions": "Named aggregate CC BY4; other products and source components separately licensed, no paid acquisition",
+      "license": "CC BY4.0 named CNR neural-network aggregated product; not all challenge/partner data",
+      "license_url": "https://4dmed.artov.ismar.cnr.it/thredds/catalog/4dmed/catalog_NN.html?dataset=4DMED-ESA_CNR-NN_aggregated",
+      "api_verification_state": "Native project/products/catalog/aggregate-description HTTP200. Exact returned native WMS GetCapabilities HTTP200 valid WMS1.3 XML, no GetMap/GetFeatureInfo/arrays. Aggregate OPeNDAP/NCSS documented, not tested. Registry OpenDAPURL is challenge documentation with separate MEOM server, not CNRendpoint.",
+      "latest_checked_utc": "2026-10-18T21:33:36.945549+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -26896,6 +26914,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "malaysia-open-science-platform",
+      "provider": "Academy of Sciences Malaysia / MOSP",
+      "service_name": "Malaysia Open Science Platform",
+      "geographic_coverage": "Malaysia research discovery, source institutional coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research metadata discovery across institutional/agency/domain repositories, exact current inventory unverified",
+      "documentation_url": "https://mosp.gov.my/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root HTTP200 minimal MOSP JavaScript shell, no readable license/API contract or native query response. Indexed planning material discusses integration, not current exact public API proof.",
+      "latest_checked_utc": "2026-10-18T21:33:36.945549+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "manchester-institutional-figshare",
       "provider": "University of Manchester",
       "service_name": "University of Manchester Figshare",
@@ -40287,6 +40323,24 @@
       "license_url": "https://www.bristol.ac.uk/alspac/researchers/access/",
       "api_verification_state": "restricted_access_portal_documented_public_api_unconfirmed",
       "latest_checked_utc": "2026-10-17T17:57:47.395375+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "amcr-czech-archaeological-api",
+      "provider": "Archaeological Institutes CAS / AIS CR",
+      "service_name": "Archaeological Map Czech Republic API",
+      "geographic_coverage": "Czech Republic archaeological information and research records",
+      "topical_coverage": "culture | geospatial | research",
+      "dataset_families": "Archaeological events/sites/documents/finds and controlled vocabularies; source records not queried",
+      "documentation_url": "https://arup-cas.github.io/aiscr-api-home/ | https://arup-cas.github.io/aiscr-api-home/oai-pmh/index.html",
+      "api_base_url": "https://api.aiscr.cz/oai | https://api.aiscr.cz/2.2/oai (documented pinned version)",
+      "format_protocol": "OAI-PMH2 XML; DublinCore/AMCR XML formats documented; file/auth/import APIs separate",
+      "authentication": "Anonymous OAI Identify succeeded. Native docs anonymous/researcher/archaeologist/archivist roles and BasicAuth for protected data; no credentials used",
+      "free_access_restrictions": "DefaultNC data/API commercial use needs prior written agreement; per-record role/state access and specific exceptions separate",
+      "license": "CC BY-NC4.0 by default; commercial API use requires written agreement",
+      "license_url": "https://arup-cas.github.io/aiscr-api-home/",
+      "api_verification_state": "Native docs HTTP200; exact original OAI Identify HTTP200 valid OAI-PMH2 XML. Generic endpoint documented redirects latest; pinnedv2.2/older docs not runtime-tested. Systemidentity only, no archaeological/location/person/source records.",
+      "latest_checked_utc": "2026-10-18T21:33:36.945549+00:00",
       "classification": "restricted"
     },
     {
