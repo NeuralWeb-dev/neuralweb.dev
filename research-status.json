@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T17:05:16.175529+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T17:07:19.088764+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:05:15.468376+00:00",
+  "research_updated_at": "2026-10-18T17:06:24.606794+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BOARD/Mendeley nativeOAIIdentifyXMLverified and identityindexes; source/metadata-license scope unresolved. HKUSTownertermsselectedlicenses/APIheld.",
+  "latest_milestone": "Six originals: Juelich native defaultmetadataCC0/runtimeheld; LXCat no redistribution/commercialuse; Fudan titleonlyshell; BOARD/Mendeley OAIIdentifyXMLsuccess/metadata grant gaps; HKUSTselectedlicenses/runtimeheld; MDZ910000 incomplete.",
   "counts": {
     "verified": 441,
     "candidates": 1181,
@@ -486,6 +486,7 @@
           "kth-data-repository-api",
           "lse-research-online",
           "marburg-open-umr-apis",
+          "mendeley-data-oai",
           "micelio-uca-research-platform",
           "mit-timdex",
           "mpi-the-language-archive",
@@ -1138,6 +1139,7 @@
           "maizegdb-api",
           "mansfeld-crop-database",
           "marburg-open-umr-apis",
+          "mendeley-data-oai",
           "mgds-marine-geoscience-services",
           "micelio-uca-research-platform",
           "mit-timdex",
@@ -3034,6 +3036,7 @@
           "iceland-statistics",
           "italy-istat-sdmx",
           "jlupub-public-metadata-oai",
+          "juelich-data-repository",
           "ki-repository-public-metadata",
           "kings-kords",
           "lincolnshire-open-data-portal",
@@ -3075,6 +3078,7 @@
           "aussda-social-science-dataverse",
           "bas-fcs",
           "bathspa-data-repository",
+          "bicocca-board-research-data",
           "bielefeld-pub-data",
           "boris-bern-portal",
           "cessda-catalogue",
@@ -3781,6 +3785,7 @@
           "italy-nnb-ogc-features",
           "italy-nnb-reporting-api",
           "jlupub-public-metadata-oai",
+          "juelich-data-repository",
           "ki-repository-public-metadata",
           "kings-kords",
           "lindat-repository",
@@ -3825,6 +3830,7 @@
           "bexis-biodiversity-exploratories",
           "bgs-geoscenic-archive",
           "bgs-ngdc-ags-access-api",
+          "bicocca-board-research-data",
           "bielefeld-pub-data",
           "biodata-dmportal",
           "bonares-soil-agricultural-repository",
@@ -4798,6 +4804,7 @@
         ],
         "candidate_provider_ids": [
           "china-nbs",
+          "fudan-social-science-data",
           "ucla-social-science-dataverse",
           "wdcrre-resources-environment"
         ],
@@ -4815,6 +4822,7 @@
         ],
         "candidate_provider_ids": [
           "china-nbs",
+          "fudan-social-science-data",
           "sejong-bigdata-open-api",
           "thailand-govspending"
         ],
@@ -4937,6 +4945,7 @@
         "candidate_provider_ids": [
           "china-nbs",
           "cinii-books",
+          "hkust-dataspace",
           "japan-egov-data-catalog",
           "kyoto-kurenai-repository"
         ],
@@ -5098,6 +5107,8 @@
           "china-ncdc-cryosphere-desert-portal",
           "cinii-books",
           "cngbdb-resource-portal",
+          "fudan-social-science-data",
+          "hkust-dataspace",
           "jst-grants-data",
           "kigam-geobigdata-open-api",
           "korea-sequence-read-archive",
