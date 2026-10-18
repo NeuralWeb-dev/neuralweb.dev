@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T21:09:47.158031+00:00",
+  "published_at": "2026-10-18T21:12:01.765079+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:06:34.618009+00:00",
+  "research_updated_at": "2026-10-18T21:11:00.664805+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GML Data Finder snapshot5425rows/28pages complete; NOAA-owned PD/ERDDAPversion and zbMATH-owned BYSAmetadata verified; GRSF/Post45/phylogenetics/API and OEIS legal conflicts retained.",
+  "latest_milestone": "UiTM NC restricted; RADAR4Memory and WueData CC0 metadata verified, shared OAI identity versus invalid WueData response distinguished.",
   "counts": {
-    "verified": 463,
+    "verified": 465,
     "candidates": 1362,
-    "excluded": 395,
+    "excluded": 396,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -13117,6 +13117,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "radar4memory-research-data",
+      "provider": "FIZ Karlsruhe / NFDI4Memory",
+      "service_name": "RADAR4Memory metadata services",
+      "geographic_coverage": "Historical humanities research; publishing eligibility Germany, dataset coverage varies",
+      "topical_coverage": "culture | research | economics",
+      "dataset_families": "Historical humanities dataset metadata; publication-specific source files/rights separate",
+      "documentation_url": "https://radar.products.fiz-karlsruhe.de/de/radarabout/radar4memory | https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-api",
+      "api_base_url": "https://www.radar-service.eu/oai/OAIHandler | https://www.radar-service.eu/sparql | https://www.radar-service.eu/radar/api/",
+      "format_protocol": "OAI-PMH XML; documented REST JSON, SPARQL and Turtle knowledge graph",
+      "authentication": "Anonymous OAI Identify succeeded; REST most operations require OAuth client activation/local account; no credentials used",
+      "free_access_restrictions": "Metadata public; publication offer eligible publicly funded German research/cultural institutions, source embargo and per-dataset licenses separate. No paid acquisition.",
+      "license": "CC0 metadata; source datasets chosen individual licenses",
+      "license_url": "https://radar.products.fiz-karlsruhe.de/sites/default/files/radar/docs/terms/License_and_User_Instructions_for_Data_Providers_RADAR4Memory.pdf",
+      "api_verification_state": "Native portal/documentation/legalPDF HTTP200; shared Radar OAI Identify HTTP200 valid OAI-PMH2 XML without errors. Identity belongs shared platform, not proof memory set contents. SPARQL/REST/source requests untested.",
+      "latest_checked_utc": "2026-10-18T21:10:55.854422+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "rat-genome-database-rest",
       "provider": "Medical College of Wisconsin / Rat Genome Database",
       "service_name": "RGD REST API",
@@ -14986,6 +15004,24 @@
       "license_url": "https://api.stac.worldpop.org/collections | https://hub.worldpop.org/geodata/summary?id=75901+%7C+https%3A%2F%2Fhub.worldpop.org%2Fdata%2Flicence.txt",
       "api_verification_state": "documented_stac_collection_and_item_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T22:26:49.093624+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "wuedata-research-repository",
+      "provider": "Julius-Maximilians-Universität Würzburg",
+      "service_name": "WueData research data metadata API",
+      "geographic_coverage": "Germany institutional research; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary institutional research dataset metadata; source packages separately licensed",
+      "documentation_url": "https://www.rz.uni-wuerzburg.de/dienste/forschung-digital/wuedata/faq/",
+      "api_base_url": "https://wuedata.uni-wuerzburg.de/oai/ | https://wuedata.uni-wuerzburg.de/radar/api/datasets (registry path; actual REST request untested)",
+      "format_protocol": "OAI-PMH and REST documented; attempted OAI response not valid XML",
+      "authentication": "Native FAQ says published datasets freely available via REST; further functionality requires credentials. No account or credential used.",
+      "free_access_restrictions": "Native terms state research/search and downloads free for users; source package rights and embargo separate. Provider storage may cost, not purchased.",
+      "license": "CC0 metadata; individual licenses for source packages",
+      "license_url": "https://www.rz.uni-wuerzburg.de/dienste/forschung-digital/wuedata/nutzungsbedingungen/",
+      "api_verification_state": "Native home/terms HTTP200; OAI Identify HTTP200 but XML parse failed, no valid identity/API success claimed. Native FAQ documents OAI and REST; actual data/search interface untested.",
+      "latest_checked_utc": "2026-10-18T21:10:55.854422+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -46076,6 +46112,24 @@
       "license_url": "https://lib.uct.ac.za/digitalservices/documentation/zivahub-terms-access",
       "api_verification_state": "Original portal/OAI guard-deferredunsent; native independentowner200HTML reviewed, no currentAPI response.",
       "latest_checked_utc": "2026-10-18T15:28:11.621691+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "uitm-research-data-repository",
+      "provider": "Universiti Teknologi MARA",
+      "service_name": "UiTM Research Data Repository",
+      "geographic_coverage": "Malaysia institutional research; multidisciplinary source coverage varies",
+      "topical_coverage": "research | education | agriculture | health | environment | economics",
+      "dataset_families": "Institutional multidisciplinary research dataset descriptions",
+      "documentation_url": "https://data.uitm.edu.my/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Noncommercial metadata reuse with attribution/link; commercial permission required",
+      "license_url": "https://data.uitm.edu.my/policies.html",
+      "api_verification_state": "Native home/policy HTTP200. Policy references OAI identifiers but no exact native API base verified. Third-party EPrints endpoint listings are discovery only; no source or OAI query.",
+      "latest_checked_utc": "2026-10-18T21:10:55.854422+00:00",
       "classification": "restricted"
     },
     {
