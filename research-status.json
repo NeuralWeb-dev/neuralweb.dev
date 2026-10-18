@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:12:48.179460+00:00",
+  "published_at": "2026-10-18T00:14:51.161369+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:11:49.679002+00:00",
+  "research_updated_at": "2026-10-18T00:13:59.198693+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RADAR4KIT distinct candidate added; existing ALA/BGS records updated with current provider-specific rights and access caveats.",
+  "latest_milestone": "FishBase/NIIIDR restrictions verified; NASC currentREST documentation found but datalicence/bounded query unresolved.",
   "counts": {
     "verified": 321,
-    "candidates": 661,
-    "excluded": 167,
+    "candidates": 662,
+    "excluded": 169,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -16063,6 +16063,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nasc-plant-stock-webservices",
+      "provider": "University of Nottingham / Eurasian Arabidopsis Stock Centre",
+      "service_name": "NASC public stock-data REST webservices",
+      "geographic_coverage": "Europe-facing stockcentre with worldwide Arabidopsis material sources; exact stock/data geography varies",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Arabidopsis seed-stock, accession, mutant, marker and related annotation data",
+      "documentation_url": "https://arabidopsis.info/bioinformatics/webservices/index.html",
+      "api_base_url": "http://128.243.206.28/api/ (public IP published in native docs; runtime untested)",
+      "format_protocol": "REST/JSON documented; historicalSOAP/BioMOBY claims notcurrentruntimeproof",
+      "authentication": "Public stockmetadata REST described; exact API authentication unknown; physical seedorder/MTA/fees separate",
+      "free_access_restrictions": "Native docs >800000accessions; documented all-stock query not a smallsample. Exact data licence andbounded retrieval unknown.",
+      "license": "unknown exact metadata/source-data reuse grant",
+      "license_url": "",
+      "api_verification_state": "Native official/maintainer documentation reviewed; no successful machineAPI sample, details in notes",
+      "latest_checked_utc": "2026-10-18T00:13:54.922793+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nashville-open-data",
       "provider": "Metropolitan Government of Nashville and Davidson County",
       "service_name": "Nashville open-data catalog and advertised geospatial distributions",
@@ -23733,6 +23751,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "fishbase-programmatic-data",
+      "provider": "FishBase Consortium / rOpenSci programmatic access",
+      "service_name": "FishBase data via documented S3-compatible service",
+      "geographic_coverage": "Global fish species coverage; exact species/source/version inventory not enumerated",
+      "topical_coverage": "biodiversity | oceans | research",
+      "dataset_families": "Fish taxonomy, species traits, distributions, fisheries descriptions and references",
+      "documentation_url": "https://github.com/ropensci/fishbaseapi | https://fishbaseapi.readme.io/reference/license",
+      "api_base_url": "https://fishbase.ropensci.org/fishbase",
+      "format_protocol": "S3-compatibleREST/Parquet documented; former RubycustomRESTdeprecated",
+      "authentication": "Documented public programmatic access; exact current credentials/quota untested",
+      "free_access_restrictions": "Noncommercial reuse restriction; third-party pictures/drawings have individual rights",
+      "license": "CC BY-NC4.0 current indexed provider footer; olderAPIlicenceCC BY-NC3.0",
+      "license_url": "https://fishbaseapi.readme.io/reference/license | https://fishbase.se/search",
+      "api_verification_state": "Native official/maintainer documentation reviewed; no successful machineAPI sample, details in notes",
+      "latest_checked_utc": "2026-10-18T00:13:54.922793+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "forestplots-research-network",
       "provider": "ForestPlots.net collaboration / University of Leeds and plot owners",
       "service_name": "ForestPlots.net tropical forest monitoring database",
@@ -24648,6 +24684,24 @@
       "license_url": "https://data.ny.gov/api/views/77gx-ii52/files/ef0c1840-ad54-4240-92fd-6397c49fde46?filename=OPEN-NY_20Terms_20of_20Use.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_legalasset_metadata_full_restricted_terms_read",
       "latest_checked_utc": "2026-10-17T11:05:18.891873+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nii-idr-restricted-dataset-service",
+      "provider": "National Institute of Informatics / Center for Dataset Sharing and Collaborative Research",
+      "service_name": "Informatics Research Data Repository dataset-agreement service",
+      "geographic_coverage": "Japan-operated informatics datasets; geographic/content scope varies byprovider",
+      "topical_coverage": "research | housing | law/civic data | culture",
+      "dataset_families": "Housing listings, NTCIR retrievaltestcollections, speech, dialogue, cookingvideo, judicialprecedentHTML and sign-language corpus families",
+      "documentation_url": "https://www.nii.ac.jp/dsc/idr/en/ | https://www.nii.ac.jp/dsc/idr/en/service/documents/service-policy-org.html",
+      "api_base_url": "",
+      "format_protocol": "PublicHTML familydirectory; approveddownload/media delivery not a verified openAPI",
+      "authentication": "Application, licensorapproval anddatasetagreement; protected access information suppliedafterapproval",
+      "free_access_restrictions": "Academicresearchonly under service terms; generallyfree butsource/licensor/deliverychargespossible; nopaidacquisition",
+      "license": "Restricted academic-purpose service andper-datasetlicenceagreements; no open grant",
+      "license_url": "https://www.nii.ac.jp/dsc/idr/en/service/documents/service-policy-org.html",
+      "api_verification_state": "Native official/maintainer documentation reviewed; no successful machineAPI sample, details in notes",
+      "latest_checked_utc": "2026-10-18T00:13:54.922793+00:00",
       "classification": "restricted"
     },
     {
