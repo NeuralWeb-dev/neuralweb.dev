@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:23:23.013407+00:00",
+  "published_at": "2026-10-18T18:25:26.303822+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:23:10.478328+00:00",
+  "research_updated_at": "2026-10-18T18:24:10.575762+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CfA/NDS shared-service dedup and scoped owner context; FS Research Data Archive native reuse agreement/API gap.",
+  "latest_milestone": "Four Harvard-hosted originals deduplicated; Forest Service native CC-BY/agreement with exact API gap; Peking University guard/indexed per-dataset terms, separate candidate.",
   "counts": {
     "verified": 445,
-    "candidates": 1229,
+    "candidates": 1230,
     "excluded": 368,
     "sample_successes": 464
   },
@@ -1482,6 +1482,7 @@
           "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
           "usda-soil-data-access",
+          "usfs-research-data-archive",
           "vernon-public-geospatial-api",
           "washington-state-open-data",
           "wis2-ucsd-scripps"
@@ -1535,6 +1536,7 @@
           "sfwmd-repository",
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
+          "usfs-research-data-archive",
           "vernon-public-geospatial-api"
         ],
         "restricted_provider_ids": [
@@ -1909,6 +1911,7 @@
           "knb",
           "nps-irma-resource-services",
           "smithsonian",
+          "usfs-research-data-archive",
           "zfin-model-organism-database"
         ],
         "restricted_provider_ids": [
@@ -2063,6 +2066,7 @@
           "ubc-circle-open-collections",
           "ucla-social-science-dataverse",
           "us-data-gov-catalog",
+          "usfs-research-data-archive",
           "zfin-model-organism-database"
         ],
         "restricted_provider_ids": [
@@ -4976,6 +4980,7 @@
         "candidate_provider_ids": [
           "china-nbs",
           "fudan-social-science-data",
+          "pku-open-research-data",
           "ucla-social-science-dataverse",
           "wdcrre-resources-environment"
         ],
@@ -5120,7 +5125,8 @@
           "cinii-books",
           "hkust-dataspace",
           "japan-egov-data-catalog",
-          "kyoto-kurenai-repository"
+          "kyoto-kurenai-repository",
+          "pku-open-research-data"
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
@@ -5256,6 +5262,7 @@
           "cinii-books",
           "japan-egov-data-catalog",
           "kyoto-kurenai-repository",
+          "pku-open-research-data",
           "silkpathdb-repository",
           "thailand-gistda",
           "wdcrre-resources-environment"
@@ -5291,6 +5298,7 @@
           "ngdc-mammalian-transcriptomic",
           "nict-wdc-ionosphere-spaceweather",
           "nims-mdr",
+          "pku-open-research-data",
           "proteomexchange-proteomecentral",
           "silkpathdb-repository",
           "smoka-science-archive",
@@ -29114,6 +29122,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "pku-open-research-data",
+      "provider": "Peking University Library",
+      "service_name": "Peking University Open Research Data repository",
+      "geographic_coverage": "China and international research deposits; individual source geography varies",
+      "topical_coverage": "research | demographics | culture | education",
+      "dataset_families": "Multidisciplinary research dataset/collection descriptions; no actual source values/files",
+      "documentation_url": "https://opendata.pku.edu.cn/handbook.xhtml",
+      "api_base_url": "https://opendata.pku.edu.cn/oai",
+      "format_protocol": "Registry OAI-PMH/Dataverse REST claims, exact native contract not verified",
+      "authentication": "Indexed native guide describes anonymous discovery and registered/reviewed file access with per-dataset terms; none used",
+      "free_access_restrictions": "Formal current service/free-tier/source restrictions unresolved; public visibility not unrestricted reuse",
+      "license": "Per-dataset licenses and access terms; no uniform metadata/source grant verified",
+      "license_url": "https://opendata.pku.edu.cn/pkutermofuse.xhtml",
+      "api_verification_state": "Original root guard-deferred target unsent; legal URL deferred unsent following host failure. Indexed official guide reviewed, no OAI/REST/schema or API payload success.",
+      "latest_checked_utc": "2026-10-18T18:23:40.965512+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "planetary-computer",
       "provider": "Microsoft Planetary Computer",
       "service_name": "Microsoft Planetary Computer API",
@@ -39390,7 +39416,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified; Stockholm hosted collection guard-deferred; independent university guide HTTP 200",
-      "latest_checked_utc": "2026-10-18T18:23:05.624138+00:00",
+      "latest_checked_utc": "2026-10-18T18:23:40.965512+00:00",
       "classification": "restricted"
     },
     {
