@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T22:19:51.940954+00:00",
+  "published_at": "2026-10-18T22:21:54.911713+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:16:56.051299+00:00",
+  "research_updated_at": "2026-10-18T22:20:04.521102+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine tasks: Unisante named BY4/JSON, ROSAP OAIformats; Share_it CC0 depositmetadata and SBDI named BY4/schema; Abacus/ALBA holds, INAH NCND, Constellation gap, GovInfo dedup.",
+  "latest_milestone": "DASSHservice references/defaultgrantgap; LAADSdedup/classic404/retired; GAMSderivedDC CC0/documentedOAIheld.",
   "counts": {
-    "verified": 486,
-    "candidates": 1398,
+    "verified": 487,
+    "candidates": 1399,
     "excluded": 404,
     "sample_successes": 464
   },
@@ -10568,6 +10568,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "graz-gams-repository",
+      "provider": "University of Graz Department of Digital Humanities",
+      "service_name": "GAMS humanities repository metadata services",
+      "geographic_coverage": "Austrian/Graz and international humanities/cultural research collections",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Derived Dublin Core metadata, project-specific scholarly edition/culturalobject descriptions; sources separatelylicensed",
+      "documentation_url": "https://gams.uni-graz.at/context%3Agams?locale=en&mode=about+%7C+https%3A%2F%2Fgams.uni-graz.at%2Farchive%2Fobjects%2Fo%3Agams.oai%2Fmethods%2Fsdef%3ATEI%2Fget%3Flocale%3Dde",
+      "api_base_url": "https://gams.uni-graz.at/oaiprovider",
+      "format_protocol": "Native OAI-PMH documentation: oai_dc, oai_openaire, oai_edm, oai_tei_cmdi; actual XML runtime untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 for derived Dublin Core metadata only",
+      "license_url": "https://gams.uni-graz.at/context%3Agams?locale=en&mode=about",
+      "api_verification_state": "Native rootHTTP200HTML publishesOAIdocumentationandBYNCsourcefooter; registeredOAIIdentify robots-deferredunsent. OfficialindexedAbout explicitlydocumentsprotocol/prefixes/metadataCC0. No actualAPI/XMLresponseclaimed and noalternateabout/OAI/server/image URL fetched afterhold.",
+      "latest_checked_utc": "2026-10-18T22:19:58.577859+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "greenland-statistics",
       "provider": "Statistics Greenland / Gronlands Statistik",
       "service_name": "Statbank Greenland PxWeb API",
@@ -20416,6 +20434,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dassh-marine-data-services",
+      "provider": "Marine Biological Association / DASSH",
+      "service_name": "DASSH marine species and habitats archive services",
+      "geographic_coverage": "Primarily UK marine/coastal research with international source holdings",
+      "topical_coverage": "biodiversity | oceans | environment | water | research",
+      "dataset_families": "Marine species/habitat discovery metadata, archived survey descriptions and spatial-service references",
+      "documentation_url": "https://www.dassh.ac.uk/data_retrieving-data | https://www.dassh.ac.uk/toolsguidance",
+      "api_base_url": "https://www.dassh.ac.uk/geoserver (native published base, current exact public OGC endpoint unresolved) | https://metadata.marinebiodiversity.org (native published catalogue)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.dassh.ac.uk/terms-and-conditions",
+      "api_verification_state": "Native root/terms/retrieval/toolsHTTP200HTML publish GeoServer and metadata catalogue references. Exactpublished GeoServerbaseHTTP200JavaScript redirect shell, not capability/APIresponse. No JSexecution/administration/login or guessed WMS/WFS/status backend request.",
+      "latest_checked_utc": "2026-10-18T22:19:58.577859+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dassi-social-science-repository",
       "provider": "DASSI Data Archive for Social Sciences in Italy",
       "service_name": "DASSI Dataverse research-data catalogue",
@@ -28782,7 +28818,7 @@
       "license": "unknown exact API metadata and source reuse grant; free access not open licence",
       "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
       "api_verification_state": "Native MODIS owner and current LAADS services/quickstart/specification HTML200. Exact documented measurements OpenAPI GET500, held; no successful JSON API response. Classic API explicitly retired31August2026 and replaced by API V2.",
-      "latest_checked_utc": "2026-10-18T11:42:40.153233+00:00",
+      "latest_checked_utc": "2026-10-18T22:19:58.577859+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
