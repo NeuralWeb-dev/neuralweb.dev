@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:34:03.814059+00:00",
+  "published_at": "2026-10-18T17:36:07.904918+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:33:14.043391+00:00",
+  "research_updated_at": "2026-10-18T17:35:54.324076+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: Gaia native TAP/XML and representative NC source grant; Epidatheld/DEEMYtitle; BBAW indexeddefaultCCBYSA/holds; BIH controlledpolicy; NIRD anonymous5subjectJSON/defaultBY4 metadata gap; MDZ967000incomplete.",
+  "latest_milestone": "CSIRO dedup/prior API success retained; Yabelana portal/guide holds; TRDMC native personalNC/no systematic retrieval restrictions.",
   "counts": {
     "verified": 441,
-    "candidates": 1204,
-    "excluded": 350,
+    "candidates": 1205,
+    "excluded": 351,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -18237,7 +18237,7 @@
       "license": "Per-collection mixed data/software licences; effective sampled work and metadata grants unconfirmed.",
       "license_url": "https://research.csiro.au/dap/licences/",
       "api_verification_state": "actual_public_structured_sample_success_collection_metadata",
-      "latest_checked_utc": "2026-10-17T06:48:51.126144+00:00",
+      "latest_checked_utc": "2026-10-18T17:35:48.662677+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33019,6 +33019,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ukzn-yabelana-data",
+      "provider": "University of KwaZulu-Natal Library",
+      "service_name": "Yabelana research-data repository",
+      "geographic_coverage": "South Africa institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Yabelana research-data repository",
+      "documentation_url": "https://libguides.ukzn.ac.za/c.php?g=951325&p=6861976",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://libguides.ukzn.ac.za/c.php?g=951325&p=6861976",
+      "api_verification_state": "Native portal guard-deferred. Independent institutional RDM guideHTTP200 substantiveHTML. Linked step-by-step guide guard/redirect deferred; official web-reader inaccessible. No API/schema response.",
+      "latest_checked_utc": "2026-10-18T17:35:48.662677+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "uliege-dataverse-repository",
       "provider": "University of Liège",
       "service_name": "ULiège Dataverse",
@@ -41622,6 +41640,24 @@
       "license_url": "https://www.oasi.ti.ch/palma/resources/disclaimer/en/disclaimer-v1.html",
       "api_verification_state": "documented_account_required_untested_no_credentials",
       "latest_checked_utc": "2026-10-17T07:38:01.745155+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "tigray-health-research-repository",
+      "provider": "Tigray Health Research Institute / Regional Data Management Center for Health",
+      "service_name": "TRDMC health repository",
+      "geographic_coverage": "Tigray Ethiopia health research; exact current collection coverage unresolved",
+      "topical_coverage": "health | research",
+      "dataset_families": "TRDMC health repository",
+      "documentation_url": "https://rdmcrepo.thri.gov.et/info/end-user-agreement",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native personal noncommercial site-use terms; systematic retrieval requires written permission",
+      "license_url": "https://rdmcrepo.thri.gov.et/info/end-user-agreement",
+      "api_verification_state": "Native End User AgreementHTTP200 substantiveHTML. No exact public API/schema verified, no data/API query. DSpace source-code license link is not data grant.",
+      "latest_checked_utc": "2026-10-18T17:35:48.662677+00:00",
       "classification": "restricted"
     },
     {
