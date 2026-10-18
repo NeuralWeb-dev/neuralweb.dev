@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T20:26:41.522433+00:00",
+  "published_at": "2026-10-18T20:28:45.432396+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:21:55.960341+00:00",
+  "research_updated_at": "2026-10-18T20:28:23.198008+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Concordia operational BY4/keyed API verified; Hydro NC/source exception; Saskatoon reuse permission/API gap; Saskatchewan directory57refs; SKCDC controlled and Whitby unresolved.",
+  "latest_milestone": "ICES public JCDP BY4/API documented, Riverkeeper and Halton rights/API unresolved.",
   "counts": {
-    "verified": 454,
-    "candidates": 1339,
+    "verified": 455,
+    "candidates": 1341,
     "excluded": 391,
     "sample_successes": 464
   },
@@ -10439,6 +10439,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ices-cetaceans-jcdp",
+      "provider": "International Council for the Exploration of the Sea",
+      "service_name": "Joint Cetacean Data Programme API",
+      "geographic_coverage": "International marine cetacean surveys; individual survey extent varies",
+      "topical_coverage": "oceans | biodiversity | research",
+      "dataset_families": "Cetacean survey identifiers, effort/environment, sightings and grid/year summary interface descriptions",
+      "documentation_url": "https://cetaceans.ices.dk/webservices",
+      "api_base_url": "https://cetaceans.ices.dk/API/",
+      "format_protocol": "REST web services documented; JWT for organization-restricted records",
+      "authentication": "Documentation permits public records anonymously and organization records via optional JWT; no token/login request",
+      "free_access_restrictions": "Public versus restricted records distinguished by provider; exact rate limits unknown",
+      "license": "CC BY 4.0 public data only",
+      "license_url": "https://cetaceans.ices.dk/Inventory?sortOrder=DataAccess",
+      "api_verification_state": "Official service documentation HTTP200; runtime source methods untested. No observation, grid, file, upload, screening session or credential operation.",
+      "latest_checked_utc": "2026-10-18T20:28:17.296616+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ices-dome",
       "provider": "International Council for the Exploration of the Sea (ICES)",
       "service_name": "DOME marine environmental data API",
@@ -18772,6 +18790,24 @@
       "license_url": "https://connect211.com/services/hsda-data-replication/",
       "api_verification_state": "official_endpoint_and_bearer_access_documented_key_required_sample_untested",
       "latest_checked_utc": "2026-10-17T04:04:48.804800+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "conservation-halton-open-data",
+      "provider": "Conservation Halton",
+      "service_name": "Conservation Halton Open Data and Mapping Hub",
+      "geographic_coverage": "Conservation Halton watershed Ontario Canada",
+      "topical_coverage": "water | climate/weather/environment | geospatial",
+      "dataset_families": "Watershed mapping/environmental monitoring and GIS catalog descriptions",
+      "documentation_url": "https://www.conservationhalton.ca/about-us/geographic-information-systems/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.conservationhalton.ca/wp-content/uploads/2022/08/DataHoldings_Availability20220101.pdf",
+      "api_verification_state": "Original portal root HTTP200 JavaScript shell; owner overview and holdings PDF robots-deferred unsent. No exact anonymous read API established; generic ArcGIS docs not instance proof.",
+      "latest_checked_utc": "2026-10-18T20:28:17.296616+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30166,6 +30202,24 @@
       "license_url": "https://www.uottawa.ca/library/research-data-management/where-publish-data/uottawa-dataverse/deposit-guidelines",
       "api_verification_state": "Native independent institutional documentation HTTP200 substantive HTML; not API response. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD test.",
       "latest_checked_utc": "2026-10-18T18:46:49.549560+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ottawa-riverkeeper-open-data",
+      "provider": "Ottawa Riverkeeper",
+      "service_name": "Ottawa Riverkeeper watershed Open Data Hub",
+      "geographic_coverage": "Ottawa River watershed Canada",
+      "topical_coverage": "water | climate/weather/environment | biodiversity | geospatial",
+      "dataset_families": "Watershed monitoring/community-science and partner environmental report descriptions",
+      "documentation_url": "https://ottawariverkeeper.ca/community-science/ | https://ottawariverkeeper.ca/what-we-do-2/initiatives/watershed-health-assessment-and-monitoring/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://ottawariverkeeper.ca/home/ottawa-river/",
+      "api_verification_state": "Hub root HTTP200 JavaScript shell, not API JSON. Exact instance read API not established; generic registry ArcGIS docs insufficient.",
+      "latest_checked_utc": "2026-10-18T20:28:17.296616+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
