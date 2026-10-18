@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T07:30:51.202170+00:00",
+  "published_at": "2026-10-18T07:32:53.888085+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:28:47.179791+00:00",
+  "research_updated_at": "2026-10-18T07:31:05.760564+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals and NCRMP lead reviewed; Open-archeOcsean native BY4/GitHub metadata verified, DESY OAI date defect and scoped policy, source-specific restrictions/holds preserved.",
+  "latest_milestone": "RADOGOST mixed licence facets/terms hold, CryoSeek policy shell, ZBW dark archive and separate EconBiz API held reviewed.",
   "counts": {
     "verified": 376,
-    "candidates": 910,
-    "excluded": 268,
+    "candidates": 913,
+    "excluded": 269,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -15312,6 +15312,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cryoseek-structural-database",
+      "provider": "CryoSeek / Shenzhen Medical Academy of Research and Translation (registry attribution)",
+      "service_name": "CryoSeek cryo-electron microscopy structural resource",
+      "geographic_coverage": "Structural biology database; current experimental/source coverage unenumerated",
+      "topical_coverage": "research | health",
+      "dataset_families": "Cryo-electron microscopy/glycoprotein structural data as registry description; source content not fetched",
+      "documentation_url": "https://www.cryoseek.org",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.cryoseek.org/home/policies/dataPolicy",
+      "api_verification_state": "Native root/policy200 app shells, no actual API documentation/runtime or parsed data policy",
+      "latest_checked_utc": "2026-10-18T07:31:01.365583+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "csiro-data-access-portal",
       "provider": "CSIRO",
       "service_name": "Data Access Portal public read-only REST services",
@@ -16299,6 +16317,24 @@
       "license_url": "https://www.cepal.org/en/terms-and-conditions",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:36:58.233795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "econbiz-literature-api",
+      "provider": "ZBW Leibniz Information Centre for Economics",
+      "service_name": "EconBiz bibliographic discovery API",
+      "geographic_coverage": "German/international economics literature, not worldwide statistics observations",
+      "topical_coverage": "economics/finance | research | culture",
+      "dataset_families": "Bibliographic discovery/index of economic literature, including free and licensed underlying documents",
+      "documentation_url": "https://api.econbiz.de/",
+      "api_base_url": "https://api.econbiz.de/v1/",
+      "format_protocol": "Official indexed REST search documentation; native current runtime untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native exact API-doc request guard-deferred unsent. Indexed official documentation1.00 exists; no search/API JSON response.",
+      "latest_checked_utc": "2026-10-18T07:31:01.365583+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23247,6 +23283,24 @@
       "license_url": "https://www.bibliothek.kit.edu/radar4kit.php",
       "api_verification_state": "Native operator policy documents metadataCC0 and OAI/REST; rootHTTP200 blank shell. Own endpoint/runtime unverified, no guessed API request.",
       "latest_checked_utc": "2026-10-18T00:11:45.309725+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "radogost-humanities-repository",
+      "provider": "DARIAH-PL / RADOGOST repository",
+      "service_name": "RADOGOST humanities and archaeology data repository",
+      "geographic_coverage": "Polish humanities repository with international archaeological research sources",
+      "topical_coverage": "culture | research | geospatial",
+      "dataset_families": "Humanities/archaeology research descriptions and collections, local deposits and externally linked sources",
+      "documentation_url": "https://radogost.dariah.pl/",
+      "api_base_url": "https://radogost.dariah.pl/oai | https://radogost.dariah.pl/api/search",
+      "format_protocol": "Registry OAI-PMH/REST claims, native Fairchive1.4.0-SNAPSHOT portal; API runtime untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed per-source BY4/CC0/NC/file-specific terms; metadata-wide grant unconfirmed",
+      "license_url": "https://radogost.dariah.pl/terms-of-use-page.xhtml",
+      "api_verification_state": "Native portal200; linked terms held unsent, no alternate API/OAI/search after hold. HTML item/term counts not API response.",
+      "latest_checked_utc": "2026-10-18T07:31:01.365583+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33563,6 +33617,24 @@
       "license_url": "https://www.xenbase.org/xenbase/static-xenbase/aboutMOD.jsp",
       "api_verification_state": "native_terms200_research_education_only_verified_root429_API_docs_indexed_not_native_no_data_sample",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "zbw-digital-long-term-archive",
+      "provider": "ZBW Leibniz Information Centre for Economics",
+      "service_name": "ZBW Digital Long-Term Archive / Rosetta preservation service",
+      "geographic_coverage": "Worldwide economics literature preserved by German ZBW; not an economic-statistics API",
+      "topical_coverage": "economics/finance | culture | research",
+      "dataset_families": "Preserved born-digital/economic publications, metadata and archival packages; representations exposed by separate platforms",
+      "documentation_url": "https://www.zbw.eu/en/about-us/information-organisation/digital-preservation/preservation-policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native policy allows only ZBW Digital Preservation Team access; no public direct archive API",
+      "free_access_restrictions": "Staff-only dark archive; representation-platform access/source rights separate",
+      "license": "Restricted archival access; rights/permission to preserve not a public reuse grant",
+      "license_url": "https://www.zbw.eu/en/about-us/information-organisation/digital-preservation/preservation-policy",
+      "api_verification_state": "Native overview/preservation-policy200. Registry EconBiz search URL belongs to separate discovery platform, not dark archive API; no archival API attempted.",
+      "latest_checked_utc": "2026-10-18T07:31:01.365583+00:00",
       "classification": "restricted"
     },
     {
