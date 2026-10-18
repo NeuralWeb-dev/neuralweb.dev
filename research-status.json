@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:27:38.635061+00:00",
+  "published_at": "2026-10-18T13:29:41.736371+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:27:36.510645+00:00",
+  "research_updated_at": "2026-10-18T13:29:09.972878+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nineoriginalsprocessed:MarburgOAI/HAL10;eyeGENErestricted;BMCRAPIunknown;LIBCC0/NCtension;CancerModelsBioStudiesdedup;GFCBY4/EEschema;CellosaurusBY4/releaseJSON;ExPASy180refs;FDZrestricted;IRSAheld;MDZ527000incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to541pages/541000refs;2672503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 415,
-    "candidates": 1054,
-    "excluded": 311,
+    "candidates": 1056,
+    "excluded": 312,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -17127,6 +17127,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "datanator-molecular-data-api",
+      "provider": "Karr Lab / Datanator team",
+      "service_name": "Datanator molecular data REST API",
+      "geographic_coverage": "Internationalintegratedmolecular/cell-modelingdata; individualsource/organismcoveragevaries",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Metabolite/RNA/protein abundances, complexes, bindingmotifs, kineticparameters andcuratedliteraturecontent; thirdpartysourcedata retainrights",
+      "documentation_url": "https://github.com/KarrLab/datanator | https://pmc.ncbi.nlm.nih.gov/articles/PMC7779073/",
+      "api_base_url": "https://api.datanator.info/",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Team-curatedcopyrightablecontent/database structureCC0; thirdpartysourcesmixed and APIrights partitionunverified",
+      "license_url": "https://github.com/KarrLab/datanator/blob/master/LICENSE-DATA | https://github.com/KarrLab/datanator/blob/master/LICENSE-THIRD-PARTY-DATA | https://github.com/KarrLab/datanator",
+      "api_verification_state": "Website/APIrootsguard-deferredtargetunsent. OwnerREADME/data/thirdpartylicences200HTML; authorprimarypublicationdocumentsAPI,indexedreviewonly. No APIJSON/schema/runtimeverified.",
+      "latest_checked_utc": "2026-10-18T13:28:53.573231+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dataone",
       "provider": "DataONE / participating research repositories",
       "service_name": "DataONE Coordinating Node discovery and object-metadata APIs",
@@ -21321,6 +21339,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kigam-geobigdata-open-api",
+      "provider": "Korea Institute of Geoscience and Mineral Resources (KIGAM)",
+      "service_name": "Geo Big Data Open Platform APIs",
+      "geographic_coverage": "SouthKoreangeoscience/mineralresearchdatasets andassociatedmaps; perdatasetcoveragevaries",
+      "topical_coverage": "geospatial | environment | energy | research",
+      "dataset_families": "Geosciencedatasetmetadata/detail, thematicWMSmaps andpublicfiledownloadinterfaces documented; sourcecatalogueunqueried",
+      "documentation_url": "https://data.kigam.re.kr/guide/openapi?lang=en+%7C+https%3A%2F%2Fdata.kigam.re.kr%2Fmanage%2Fdata%2Fguide",
+      "api_base_url": "https://data.kigam.re.kr/openapi/",
+      "format_protocol": "Indexedofficialguide JSON/REST datasetsearch/detail andWMS documented; nativecontract/runtimeunverified",
+      "authentication": "Issuedauthenticationkeyrequired perindexedofficialguide. No keyrequested/accessed or account/applicationused.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Dataset-specificdepositor-selectedlicences; exactblanketmetadata/sourceopenlicenceunconfirmed",
+      "license_url": "https://data.kigam.re.kr/manage/data/license | https://data.kigam.re.kr/manage/data/guide",
+      "api_verification_state": "Nativeportalrootguard-deferredtargetunsent; licensefollowupunsent. IndexedofficialAPI/managementguide reviewed, notnativeHTTPsuccess/APIresponse. Keyrequired, untested.",
+      "latest_checked_utc": "2026-10-18T13:28:53.573231+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kit-whole-body-motion",
       "provider": "Karlsruhe Institute of Technology / H2T",
       "service_name": "KIT Whole-Body Human Motion Database: API deactivated",
@@ -22216,8 +22252,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across527successfulpages/527000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T13:18:04.409269+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across541successfulpages/541000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T13:29:05.400072+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -36656,6 +36692,24 @@
       "license_url": "https://www.polardata.ca/policy/usage",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T17:35:35.619513+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "primate-cell-type-database",
+      "provider": "JMT Lab / Western University, Canada",
+      "service_name": "Primate Cell Type Database",
+      "geographic_coverage": "Nonhumanprimate laboratory research, lateralprefrontalcortexcelltypes; institutionalCanada not datasetgeographicextent",
+      "topical_coverage": "research | health",
+      "dataset_families": "Electrophysiology and morphology laboratory resources; source recordings/images notqueried",
+      "documentation_url": "https://primatedatabase.com/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-NC4.0 footer plus nativepersonal/noncommercialuse andcopyright/citationterms",
+      "license_url": "https://primatedatabase.com/citation.html",
+      "api_verification_state": "Nativeroot/citationpolicy200HTML; no currentdocumentedpublicAPI/schema or machine sample established.",
+      "latest_checked_utc": "2026-10-18T13:28:53.573231+00:00",
       "classification": "restricted"
     },
     {
