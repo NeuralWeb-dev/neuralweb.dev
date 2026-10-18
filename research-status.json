@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:49:01.039900+00:00",
+  "published_at": "2026-10-18T21:51:04.454936+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:48:15.913425+00:00",
+  "research_updated_at": "2026-10-18T21:50:34.451280+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "World Bank package-specific rights/API scope; Tilburg shared DataverseNL; Cologne REST/OAI links with holds, three candidates.",
+  "latest_milestone": "WGI36XMLindicator descriptors/compositeBY4/proprietaryexceptions; CLARIN-IS OAI documentation; SAEON customlicense policy.",
   "counts": {
-    "verified": 477,
-    "candidates": 1382,
+    "verified": 478,
+    "candidates": 1384,
     "excluded": 401,
     "sample_successes": 464
   },
@@ -3352,6 +3352,7 @@
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-int-language-portal",
+          "clarin-is-language-repository",
           "clarin-pl-fcs",
           "clarin-si-repository",
           "clarin-skgif",
@@ -3995,6 +3996,7 @@
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-int-language-portal",
+          "clarin-is-language-repository",
           "clarin-pl-fcs",
           "clarin-si-repository",
           "clarin-skgif",
@@ -4223,6 +4225,7 @@
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-int-language-portal",
+          "clarin-is-language-repository",
           "clarin-pl-fcs",
           "clarin-si-repository",
           "clarin-skgif",
@@ -4794,6 +4797,7 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "saeon-open-data-platform",
           "sanbi-birdie",
           "west-african-vegetation-network",
           "wis2-ghana",
@@ -4813,6 +4817,7 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "saeon-open-data-platform",
           "sanbi-birdie"
         ],
         "restricted_provider_ids": [
@@ -4825,7 +4830,8 @@
           "registry-municipaldata-treasury-gov-za"
         ],
         "candidate_provider_ids": [
-          "afdb-kenya-sdmx"
+          "afdb-kenya-sdmx",
+          "saeon-open-data-platform"
         ],
         "restricted_provider_ids": []
       },
@@ -4938,6 +4944,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "roceeh-road-prehistory-database",
+          "saeon-open-data-platform",
           "sanbi-birdie",
           "west-african-vegetation-network"
         ],
@@ -5002,6 +5009,7 @@
           "pretoria-institutional-figshare",
           "rhodes-research-data",
           "roceeh-road-prehistory-database",
+          "saeon-open-data-platform",
           "sanbi-birdie",
           "stellenbosch-sunscholardata",
           "trr228-african-futures-database",
@@ -15255,6 +15263,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "worldbank-worldwide-governance-indicators",
+      "provider": "World Bank",
+      "service_name": "Worldwide Governance Indicators API source",
+      "geographic_coverage": "More than200economies; current2026release describes1996-2025 estimates",
+      "topical_coverage": "economics | law | civic | research",
+      "dataset_families": "Six composite governance dimensions, estimates/scores/ranks/uncertainty indicator descriptions; proprietary underlying-source values excluded",
+      "documentation_url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators",
+      "api_base_url": "https://api.worldbank.org/v2/sources/3/indicators",
+      "format_protocol": "World Bank Indicators API XML metadata sample verified",
+      "authentication": "Anonymous published indicator metadata GET verified, no key used",
+      "free_access_restrictions": "Composite indicators public CC BY4; five third-party source-derived standardized values have redistribution restrictions overriding general terms",
+      "license": "CC BY4.0 for WGI composite indicators; proprietary source-derived values expressly excluded",
+      "license_url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators | https://www.worldbank.org/en/publication/worldwide-governance-indicators/usage-advisory",
+      "api_verification_state": "Native catalog and usage advisoryHTTP200. Exact published source3indicator URL anonymousHTTP200valid XML with36descriptors, page1of1,total36; no statistical values or underlying-source data requested.",
+      "latest_checked_utc": "2026-10-18T21:50:11.781828+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "worldpop-geo",
       "provider": "WorldPop, University of Southampton and dataset-specific partners",
       "service_name": "WorldPop Geospatial analysis API v1/v2",
@@ -18962,6 +18988,24 @@
       "license_url": "",
       "api_verification_state": "Original portal guard-deferred unsent; no native portal/API response. Indexed official page supports identity and qualified access only; exact deployed API/schema and runtime unresolved.",
       "latest_checked_utc": "2026-10-18T10:27:05.831737+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clarin-is-language-repository",
+      "provider": "CLARIN-IS / Icelandic language research infrastructure",
+      "service_name": "CLARIN-IS repository metadata services",
+      "geographic_coverage": "Icelandic language research; resource-specific language/geographic scope",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Language resource/tool metadata and repository lifecycle descriptions; source corpora not acquired",
+      "documentation_url": "https://repository.clarin.is/repository/xmlui/page/item-lifecycle | https://repository.clarin.is/repository/xmlui/page/terms-of-service",
+      "api_base_url": "",
+      "format_protocol": "Native lifecycle explicitly documents OAI-PMH harvesting; exact deployment base not verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://repository.clarin.is/repository/xmlui/page/terms-of-service",
+      "api_verification_state": "Native national root, repository terms and lifecycle HTTP200 HTML; lifecycle documents OAI-PMH metadata harvesting but no current machine response sampled. Central registry-directory URL not treated as local API.",
+      "latest_checked_utc": "2026-10-18T21:50:11.781828+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33794,6 +33838,24 @@
       "license_url": "https://bibliothek.uni-halle.de/schulungen/forschungsdaten-2/sadar/ | https://sadar.uni-halle.de/Allgemeine_Bedingungen.jsp",
       "api_verification_state": "Native root/terms200HTML; independent library policy readtimeout, no exact machine-query API verified",
       "latest_checked_utc": "2026-10-18T06:11:20.924419+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "saeon-open-data-platform",
+      "provider": "South African Environmental Observation Network / NRF",
+      "service_name": "SAEON Open Data Platform catalogue",
+      "geographic_coverage": "South African earth/environmental research; hosted provider dataset scopes vary",
+      "topical_coverage": "environment | climate | water | biodiversity | energy | research",
+      "dataset_families": "Environmental dataset discovery metadata, provider-hosted data and catalog harvesting services",
+      "documentation_url": "https://odpwiki.saeon.ac.za/start | https://odpwiki.saeon.ac.za/saeon_data_policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Perdataset licenses/access/sensitive-source controls; download acknowledgement/citation acceptance described. Paidcustomhosting services mentioned bypolicy, not purchased or equated with allpublicdata beingpaid.",
+      "license": "unknown verified data grant",
+      "license_url": "https://odpwiki.saeon.ac.za/saeon_data_policy",
+      "api_verification_state": "Catalogue rootHTTP200JavaScript-required shell, not machine response. Native wiki/policyHTTP200 documents metadata harvesting and provider hosting but exactpublic API/schema/auth remainsunknown.",
+      "latest_checked_utc": "2026-10-18T21:50:11.781828+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
