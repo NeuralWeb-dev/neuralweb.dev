@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:06:34.362164+00:00",
+  "published_at": "2026-10-18T14:08:37.243019+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:05:18.687663+00:00",
+  "research_updated_at": "2026-10-18T14:08:21.312778+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ISRCTN scoped CC0/BY4 and draft XML guide; DISGENET current restrictive terms; UniCatt OAI Identify verified/docs held/rights unknown",
+  "latest_milestone": "Six originals: ISRCTN scoped CC0/BY4/XML docs; DISGENET restricted; UniCatt OAI identity/docsheld; CSDB RDF/rightsunknown; SwissLipids SIB BY4/6JSON descriptors; RDG per-dataset policy/runtimeheld; MDZ584000incomplete.",
   "counts": {
-    "verified": 421,
-    "candidates": 1065,
+    "verified": 422,
+    "candidates": 1067,
     "excluded": 319,
     "sample_successes": 464
   },
@@ -12640,6 +12640,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "swisslipids-api",
+      "provider": "SIB Swiss Institute of Bioinformatics / Swiss-Prot and Vital-IT",
+      "service_name": "SwissLipids API and data-family discovery",
+      "geographic_coverage": "International lipid knowledge resource; exact source/organism coverage unqueried",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Lipid knowledge and cross-reference families described by six downloadable-file descriptors; no molecular records retrieved",
+      "documentation_url": "https://www.swisslipids.org/#/api | https://www.expasy.org/resources/swisslipids",
+      "api_base_url": "https://www.swisslipids.org/api/",
+      "format_protocol": "Anonymous JSON file-descriptor discovery verified; query API docs client-rendered and untested",
+      "authentication": "Anonymous descriptor request succeeded; other operation authentication untested",
+      "free_access_restrictions": "Public descriptor access verified, numeric quotas/free-tier restrictions unknown",
+      "license": "CC BY 4.0 for owner-described SwissLipids resource",
+      "license_url": "https://www.expasy.org/resources/swisslipids | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native root/SIB detail200HTML, anonymous downloadData200validJSON array of six file descriptors. No lipid/query/source-file observations, schema or SPARQL query tested.",
+      "latest_checked_utc": "2026-10-18T14:07:18.575344+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "switzerland",
       "provider": "opendata.swiss",
       "service_name": "opendata.swiss open data portal",
@@ -15555,6 +15573,24 @@
       "license_url": "https://odp-cctegis.opendata.arcgis.com/",
       "api_verification_state": "documented_sample_structured_error_service_not_started",
       "latest_checked_utc": "2026-10-17T13:04:20.730346+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "carbohydrate-structure-database",
+      "provider": "Zelinsky Institute of Organic Chemistry / CSDB project",
+      "service_name": "Carbohydrate Structure Database RDF interface",
+      "geographic_coverage": "International carbohydrate research literature; exact organism/geographic corpus unqueried",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Bacterial, plant and fungal carbohydrate structures and literature/source relationships",
+      "documentation_url": "https://csdb.glycoscience.ru/database/core/help.php?db=database&topic=extras",
+      "api_base_url": "http://csdb.glycoscience.ru/integration/make_rdf.php",
+      "format_protocol": "Owner documents RDF feed serializations Turtle/RDFXML/RDFJSON/NTriples",
+      "authentication": "No credentials in published RDF examples; runtime authentication untested",
+      "free_access_restrictions": "Small RDF feeds documented, owner says interface not intended for bulk generation; bulk dump not fetched",
+      "license": "Unknown verified data grant; registry public-domain assertion not established",
+      "license_url": "",
+      "api_verification_state": "Native root/help HTTP200 HTML. Owner exact RDF interface and parameters documented, RDF/runtime untested.",
+      "latest_checked_utc": "2026-10-18T14:07:18.575344+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22483,8 +22519,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across569successfulpages/569000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T13:59:34.113665+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across584successfulpages/584000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:07:25.366540+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26805,6 +26841,24 @@
       "license_url": "",
       "api_verification_state": "native_anonymous_metadata_JSON_success_55station_county_sample",
       "latest_checked_utc": "2026-10-17T18:33:04.020205+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "recherche-data-gouv-repository",
+      "provider": "Recherche Data Gouv / INRAE / French research ministry",
+      "service_name": "Recherche Data Gouv national research repository",
+      "geographic_coverage": "French public research and international collaborations; repository distinct from catalogue of external repositories",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary institutional/generic repository datasets; external harvested catalogue records separate",
+      "documentation_url": "https://recherche.data.gouv.fr/fr/faq | https://recherche.data.gouv.fr/fr/page/conditions-generales-d-utilisation-de-la-plateforme-de-recherche-data-gouv",
+      "api_base_url": "https://entrepot.recherche.data.gouv.fr/oai (registry claim, untested under prior hosthold)",
+      "format_protocol": "Owner FAQ documents Dataverse APIs; registry OAI endpoint untested, no software default as deployment proof",
+      "authentication": "Owner terms public consultation without registration; restricted files may require login. API runtime/auth untested",
+      "free_access_restrictions": "Owner terms free user consultation/download; contributor deposition thresholds/financial conventions separate; no deposit/account used",
+      "license": "Per-dataset open licenses required by owner terms; effective metadata-wide grant unresolved",
+      "license_url": "https://recherche.data.gouv.fr/fr/page/conditions-generales-d-utilisation-de-la-plateforme-de-recherche-data-gouv",
+      "api_verification_state": "Independent national FAQ/terms200 substantive HTML. Prior entrepot hostguard preserved from institutional collection; no new repository/OAI/API request. Current exact machine contract/runtime unverified.",
+      "latest_checked_utc": "2026-10-18T14:07:18.575344+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
