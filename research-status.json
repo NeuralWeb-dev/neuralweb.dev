@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:37:58.392913+00:00",
+  "published_at": "2026-10-18T23:40:01.361625+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:37:34.688967+00:00",
+  "research_updated_at": "2026-10-18T23:39:50.017106+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NOMADCC0/BY4/OPTIMADEinfoJSON and122documentedoperations; NISTtenchilddirectoryleads; DARECLIMEDrestrictedLAS.",
+  "latest_milestone": "Six originals: NOMADCC0/BY4/OPTIMADEinfoJSON/122operationrefs; NIST10childleads; DARECLIMED/PlantsTaiwanrestricted; CGRIS/CPCAPIgaps/11CPCrefs.",
   "counts": {
     "verified": 498,
-    "candidates": 1433,
-    "excluded": 412,
+    "candidates": 1435,
+    "excluded": 413,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -130,6 +130,7 @@
           "mansfeld-crop-database",
           "nasa-power",
           "nasc-plant-stock-webservices",
+          "noaa-cpc-climate-products",
           "ocha-hapi",
           "ornl-daac-biogeochemical-archive",
           "plant-adaptation-hub",
@@ -253,6 +254,7 @@
           "nced-data-repository",
           "nlr-geospatial-data-services",
           "noaa-class-environmental-archive",
+          "noaa-cpc-climate-products",
           "noaa-erddap",
           "noaa-gml-barrow-observatory",
           "noaa-ncei",
@@ -357,6 +359,7 @@
           "knmi-climate-explorer",
           "lpdaac-land-processes-data",
           "nced-data-repository",
+          "noaa-cpc-climate-products",
           "noaa-paleo-search-api",
           "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
@@ -398,6 +401,7 @@
           "nasa-power",
           "nims-mdr",
           "nlr-geospatial-data-services",
+          "noaa-cpc-climate-products",
           "noaa-gml-barrow-observatory",
           "openchargemap",
           "openei-urdb",
@@ -858,6 +862,7 @@
           "litterbase-marine-litter-portal",
           "mgds-marine-geoscience-services",
           "noaa-class-environmental-archive",
+          "noaa-cpc-climate-products",
           "noaa-erddap",
           "noaa-ncei",
           "noaa-paleo-search-api",
@@ -985,6 +990,7 @@
           "nasa-power",
           "nasc-plant-stock-webservices",
           "nhm-data-portal-api",
+          "noaa-cpc-climate-products",
           "ocha-hapi",
           "olac-language-archives-network",
           "ornl-daac-biogeochemical-archive",
@@ -5423,6 +5429,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "china-crop-germplasm-cgris",
           "china-nbs",
           "japan-egov-data-catalog",
           "silkpathdb-repository",
@@ -5536,6 +5543,7 @@
           "chiba-curator-repository",
           "cinii-research",
           "kossda-social-science-archive",
+          "ntu-plants-taiwan",
           "polyu-research-data-repository",
           "sciencedb-api-oai",
           "social-science-japan-data-archive",
@@ -5629,6 +5637,7 @@
           "taibif-portal-v3"
         ],
         "candidate_provider_ids": [
+          "china-crop-germplasm-cgris",
           "cngbdb-resource-portal",
           "gbif-japan",
           "korea-ecobank-api",
@@ -5638,6 +5647,7 @@
           "taiwan-fish-database"
         ],
         "restricted_provider_ids": [
+          "ntu-plants-taiwan",
           "stomicsdb-spatial-omics"
         ]
       },
@@ -5668,6 +5678,7 @@
           "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
+          "china-crop-germplasm-cgris",
           "china-nbs",
           "cinii-books",
           "japan-egov-data-catalog",
@@ -5681,7 +5692,8 @@
           "chiba-curator-repository",
           "cinii-research",
           "japan-dias-platform",
-          "nii-idr-restricted-dataset-service"
+          "nii-idr-restricted-dataset-service",
+          "ntu-plants-taiwan"
         ]
       },
       "research": {
@@ -5693,6 +5705,7 @@
         "candidate_provider_ids": [
           "cgs-geoscientific-discovery-publishing",
           "china-bmcr-cell-resource-portal",
+          "china-crop-germplasm-cgris",
           "china-national-earth-observation-center",
           "china-national-marine-data-information",
           "china-nbs",
@@ -5728,6 +5741,7 @@
           "japan-dias-platform",
           "kossda-social-science-archive",
           "nii-idr-restricted-dataset-service",
+          "ntu-plants-taiwan",
           "polyu-research-data-repository",
           "sciencedb-api-oai",
           "social-science-japan-data-archive",
@@ -19139,6 +19153,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "china-crop-germplasm-cgris",
+      "provider": "Chinese Crop Germplasm Resources Information System",
+      "service_name": "Chinese Crop Germplasm Resources Information System portal",
+      "geographic_coverage": "China crop germplasm resource discovery; source geographic coverage unverified",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Crop germplasm resource discovery candidate; native response exposes title only",
+      "documentation_url": "https://www.cgris.net/home",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.cgris.net/home",
+      "api_verification_state": "Native root200HTMLtitle ChineseCropGermplasmInformationNetwork, no readable API/legal content. ExactnetworkAPIbase/schema/runtime unknown; no frontend execution/guessedinternalroutes or alternatehost.",
+      "latest_checked_utc": "2026-10-18T23:39:16.301719+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "china-forest-grassland-data",
       "provider": "National Forestry and Grassland Science Data Center China",
       "service_name": "ForestData forestry/grassland data portal and API candidate",
@@ -30674,6 +30706,24 @@
       "license_url": "https://www.noaa.gov/disclaimer",
       "api_verification_state": "Native CRCP homepage200; historical coris.noaa.gov root200 redirects to CRCP homepage, not API. Disclaimer guard-deferred, no scientific/API response.",
       "latest_checked_utc": "2026-10-18T07:21:25.981664+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "noaa-cpc-climate-products",
+      "provider": "NOAA National Weather Service / NCEP Climate Prediction Center",
+      "service_name": "Climate Prediction Center products and GIS discovery services",
+      "geographic_coverage": "UnitedStates climate/droughtoutlooks; global/region-specific climate monitoring and CMORPH/SSTproduct families",
+      "topical_coverage": "climate | environment | water | oceans | energy | agriculture",
+      "dataset_families": "Climateoutlooks,drought,globalprecipitation/SST and hazards metadata references; actualsourcevalues/files notacquired",
+      "documentation_url": "https://www.cpc.ncep.noaa.gov/ | https://www.weather.gov/gis/cloudgiswebservices | https://www.weather.gov/gis/IDP-GISRestMetadata",
+      "api_base_url": "",
+      "format_protocol": "NativeGISdocs describeOGCWMS/WFS/WCS, plus11CPCmetadatareferenceXMLlinks; exactactiveCPCbackend/schema unknown",
+      "authentication": "Nativepages anonymous; exactCPCAPIauthentication unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "NWS-origin information public domain unless otherwise indicated; thirdparty restrictions separate",
+      "license_url": "https://www.weather.gov/disclaimer/",
+      "api_verification_state": "NativeCPCroot/NWSdisclaimer/cloudGIS/metadata-directory200HTML. CloudGISstaticbody has emptyclimatetables while indexedversion mentionsCPCoutlooks; no activeAPIclaimed. Exact nativepublisheddroughtmetadataXMLlink returned404, source-specificweather.govhold retained, no alternatefile/host/backend workaround. No successfulCPCAPIresponse.",
+      "latest_checked_utc": "2026-10-18T23:39:16.301719+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -46966,6 +47016,24 @@
       "license_url": "https://sleepdata.org/about/data-security",
       "api_verification_state": "Native FAIRguideguard-deferredtargetunsent, aboutunsentafterhold. IndexedownerJSONAPIexistence/accesspolicy only; no native schema/APIresponse.",
       "latest_checked_utc": "2026-10-18T14:35:05.719587+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ntu-plants-taiwan",
+      "provider": "National Taiwan University Institute of Ecology and Evolutionary Biology",
+      "service_name": "Plants of Taiwan integrated botanical information system",
+      "geographic_coverage": "Taiwan botanical names/floras and herbarium discovery; contributing collections international",
+      "topical_coverage": "biodiversity | culture | education | research",
+      "dataset_families": "Plant name references, digitized herbarium and historic botany literature; source specimens/images/locations/fulltext not acquired",
+      "documentation_url": "https://tai2.ntu.edu.tw/ | https://tai2.ntu.edu.tw/about",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Publicroot/about accessible anonymously; exact APIcredentials unknown",
+      "free_access_restrictions": "Publicweb discovery; commercialuse requires separate permission, no contact/payment performed",
+      "license": "Attribution/research citation permitted; profit-making uses restricted, commercial use requires contact",
+      "license_url": "https://tai2.ntu.edu.tw/ | https://tai2.ntu.edu.tw/about",
+      "api_verification_state": "Native root/about200HTMLverifyservice and restrictions; exact publicnetworkAPI/schema/runtime unverified. No specimen/name/location/source query.",
+      "latest_checked_utc": "2026-10-18T23:39:16.301719+00:00",
       "classification": "restricted"
     },
     {
