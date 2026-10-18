@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T05:25:52.280667+00:00",
+  "published_at": "2026-10-18T05:27:55.279874+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:23:45.474409+00:00",
+  "research_updated_at": "2026-10-18T05:27:39.248915+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NordicanaPDFredistributionrestrictionverified/rootheld; FID4SAcentralheiDATAdedupand503hold; MO|REterms timeout/licensing/APIunresolved.",
+  "latest_milestone": "Twelve original tasks; STRING/Open Causal API samples verified, FlyBase scoped grant/API documented but held; FID4SA/DSDR dedup; source-rights/access gaps retained",
   "counts": {
     "verified": 360,
-    "candidates": 842,
+    "candidates": 844,
     "excluded": 246,
     "sample_successes": 465
   },
@@ -658,6 +658,7 @@
           "ipd-immunopolymorphism-api",
           "iucn-red-list-api-v4",
           "jgi-gold-api",
+          "macaulay-library-media-archive",
           "ndsf-data-access-portal",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
@@ -819,6 +820,7 @@
           "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
           "infra-art-restricted-spectra",
+          "macaulay-library-media-archive",
           "phi-base-api",
           "un-comtrade"
         ]
@@ -1054,6 +1056,7 @@
           "iucn-red-list-api-v4",
           "jgi-gold-api",
           "kyoto-geomagnetic-hapi",
+          "macaulay-library-media-archive",
           "metoffice-weather-datahub",
           "mgds-seismic-catalog",
           "ndsf-data-access-portal",
@@ -3932,6 +3935,7 @@
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
           "digital-south-asia-library",
+          "heidata-research-metadata-api",
           "pakistan-odp",
           "udiseplus-education-data-api"
         ],
@@ -4025,6 +4029,7 @@
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
           "digital-south-asia-library",
+          "heidata-research-metadata-api",
           "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal",
@@ -4042,6 +4047,7 @@
           "clinical-trials-registry-india",
           "digital-south-asia-library",
           "esa-ecology",
+          "heidata-research-metadata-api",
           "incois-ocean-erddap-services",
           "india-biodiversity-portal",
           "india-environment-portal",
@@ -5052,6 +5058,7 @@
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
           "nipr-arctic-antarctic-data-system",
+          "nordicana-d-data-series",
           "polar-data-catalogue-metadata-api",
           "seaice-portal",
           "usap-data-center-api"
@@ -5074,6 +5081,7 @@
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
+          "nordicana-d-data-series",
           "polar-data-catalogue-metadata-api",
           "usap-data-center-api"
         ]
@@ -5149,6 +5157,7 @@
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "nipr-arctic-antarctic-data-system",
+          "nordicana-d-data-series",
           "polar-data-catalogue-metadata-api",
           "usap-data-center-api"
         ]
@@ -5186,7 +5195,9 @@
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nordicana-d-data-series"
+        ]
       },
       "oceans": {
         "status": "partial_verified",
@@ -5261,6 +5272,7 @@
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
           "nipr-arctic-antarctic-data-system",
+          "nordicana-d-data-series",
           "polar-data-catalogue-metadata-api",
           "seaice-portal",
           "usap-data-center-api"
@@ -14879,6 +14891,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ddbj-search-services",
+      "provider": "BioData Science Initiative / National Institute of Genetics, Japan",
+      "service_name": "DDBJ Search metadata web API discovery",
+      "geographic_coverage": "International life-science archive discovery; source/study/taxoncoverage varies",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "DDBJSearch BioProject/BioSample/SRA/JGA/GEA/MetaboBank metadata discovery; no source/participant records acquired",
+      "documentation_url": "https://www.ddbj.nig.ac.jp/services/ddbj-search.html | https://github.com/ddbj/ddbj-search-api | https://www.ddbj.nig.ac.jp/services/wabi.html",
+      "api_base_url": "https://ddbj.nig.ac.jp/search (documented frontend/service; exactqueryAPI paths notfreshlytested)",
+      "format_protocol": "Native docs stateSearchimplementedwebAPI, JSON/JSON-LD/XMLsourceformats described; no actual queryresult sampled",
+      "authentication": "CurrentsearchAPIauthentication unknown; controlledJGA rawdata/detailedmetadata requires separateaccessapproval pernativeguide",
+      "free_access_restrictions": "Nativepolicygeneraldatareusepermission withIndividualTerms/third-partyIP/ABSrights exceptions; controlledaccess/JGAseparate. No account/datafile/request executed.",
+      "license": "WebsiteCCBY4default; generaldatafree-use/redistribute/modifypermission subjecttoindividualterms/third-partyrights, exactsearchmetadata/sourcegrantsunresolved",
+      "license_url": "https://www.ddbj.nig.ac.jp/policies-e.html",
+      "api_verification_state": "Nativepolicy/root/Search/WABIdocs200HTML. SearchexplicitlywebAPI; guidewarnsJuly2026changesnotyetdocumented. WABItitleexplicitlysuspended, not activeAPIproof. No actualAPIresponse/jobs/sequence metadata queries.",
+      "latest_checked_utc": "2026-10-18T05:26:28.252147+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "deadtrees-earth-api",
       "provider": "deadtrees.earth / Deadwood-ai",
       "service_name": "deadtrees.earth forest aerial-imagery API",
@@ -23393,6 +23423,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "socib-data-services",
+      "provider": "Balearic Islands Coastal Observing and Forecasting System / SOCIB",
+      "service_name": "SOCIB metocean repository REST discovery",
+      "geographic_coverage": "Coastal/marine observation repository; exact spatial/temporalcollectionextents unresolved",
+      "topical_coverage": "oceans | water | climate/weather/environment | research",
+      "dataset_families": "Repositorydataentry/instrument/platform/processing-level metadata; JSON/netCDFaccess described, no records/files acquired",
+      "documentation_url": "https://api.socib.es/latest/ | https://ws.socib.es/home/",
+      "api_base_url": "https://api.socib.es/ (documented servicehost; currentquerycontractunverified)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.socib.es/en/what-we-do/metocean-data/data-management",
+      "api_verification_state": "RegistrylatestAPIdocs404, not nonexistence. Officialindexedserviceguide/2024presentation documentREST repositoryAPI; no currentAPIJSONsample undernativepolicyhold.",
+      "latest_checked_utc": "2026-10-18T05:26:28.252147+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sodanet-social-data-network",
       "provider": "So.Da.Net / Greek social science infrastructure",
       "service_name": "Social Data Network portal and catalogue discovery",
@@ -29088,7 +29136,7 @@
       "service_name": "ICPSR Metadata/Object Export API",
       "geographic_coverage": "Socialscience researchcollections; geographiccoverage variesperstudy",
       "topical_coverage": "demographics; labor; economics/finance; education; health; law and civic data; research",
-      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate | Measures of Effective Teaching family: restricted VDE source access | NACJD criminal justice and HMCA health/medical-care archive source families",
+      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate | Measures of Effective Teaching family: restricted VDE source access | NACJD criminal justice and HMCA health/medical-care archive source families | DSDR demographic-research source family",
       "documentation_url": "https://icpsr.github.io/metadata/icpsr_metadata_api/ | https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata",
       "api_base_url": "",
       "format_protocol": "Documentedmetadataexport API,DCAT-US/MARCXML/DublinCore; localDCATspatialExt/temporalExt extensions",
@@ -29097,7 +29145,7 @@
       "license": "CC BY-NC4.0 metadata; studydatarestrictedredistribution andspecificterms",
       "license_url": "https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata | https://www.icpsr.umich.edu/sites/icpsr/about/policies/terms-of-use",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-18T05:15:07.079908+00:00",
+      "latest_checked_utc": "2026-10-18T05:26:28.252147+00:00",
       "classification": "restricted"
     },
     {
