@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:04:31.643887+00:00",
+  "published_at": "2026-10-18T14:06:34.362164+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:04:24.750086+00:00",
+  "research_updated_at": "2026-10-18T14:05:18.687663+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed: CARD restricted with ontology exception; GSA rights/API unknown; GWOSC CC BY4 root/schema verified; EcoBank key-required/mixed; NeuroVault public CC0/docs; archeoViz shell unresolved. MDZ569000 incomplete.",
+  "latest_milestone": "ISRCTN scoped CC0/BY4 and draft XML guide; DISGENET current restrictive terms; UniCatt OAI Identify verified/docs held/rights unknown",
   "counts": {
-    "verified": 420,
-    "candidates": 1064,
-    "excluded": 318,
+    "verified": 421,
+    "candidates": 1065,
+    "excluded": 319,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -9649,6 +9649,24 @@
       "license_url": "https://irsa.ipac.caltech.edu/data_use_terms.html",
       "api_verification_state": "Native root/APIoverview/catalogueguide/TAPguide/terms200HTML; TAPcapabilities200validXML with5capability declarations, no source query/jobs.",
       "latest_checked_utc": "2026-10-18T13:22:17.140695+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "isrctn-registry-xml-api",
+      "provider": "ISRCTN / BioMed Central, Springer Nature",
+      "service_name": "ISRCTN clinical trial registry XML API",
+      "geographic_coverage": "International clinical trial registry; exact current countries and trial coverage not queried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Public clinical trial registration metadata and narrative summaries; no participant-level data clearance",
+      "documentation_url": "https://www.isrctn.com/page/faqs | https://www.isrctn.com/editorial/retrieveFile/81786542-9920-48a0-8fce-09f8428ab843/37855",
+      "api_base_url": "https://www.isrctn.com/api/",
+      "format_protocol": "XML API, two documented trial/query templates; draft guide describes multiple formats",
+      "authentication": "Public API explicitly documented without API key; runtime untested",
+      "free_access_restrictions": "Public retrieval documented separately from trial registration fees; no quota verified",
+      "license": "Scoped CC0 metadata and CC BY4 contribution content; exceptions require review",
+      "license_url": "https://www.isrctn.com/page/terms | https://www.isrctn.com/page/faqs",
+      "api_verification_state": "Native FAQ/terms200 HTML and linked official draft API PDF200, successfully read as documentation. No trial API XML sample or source records fetched.",
+      "latest_checked_utc": "2026-10-18T14:05:13.864956+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -30084,6 +30102,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "unicatt-digital-commons-data",
+      "provider": "Università Cattolica del Sacro Cuore / Digital Commons Data",
+      "service_name": "Digital Commons Data UniCatt OAI-PMH",
+      "geographic_coverage": "Italian university research submissions; dataset geographic coverage varies and unqueried",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data, software and supporting files; open/restricted/embargoed/metadata-only types",
+      "documentation_url": "https://unicatt.digitalcommonsdata.com/faq | https://unicatt.digitalcommonsdata.com/about | https://unicatt.digitalcommonsdata.com/api/docs",
+      "api_base_url": "https://unicatt.digitalcommonsdata.com/oai",
+      "format_protocol": "OAI-PMH2.0 XML verified; public metadata harvesting documented, management API separate",
+      "authentication": "Anonymous Identify succeeded; management/account/private functions not tested",
+      "free_access_restrictions": "Public metadata harvesting documented; underlying files may be restricted or embargoed",
+      "license": "Per-dataset selected licenses; uniform metadata-wide grant unknown",
+      "license_url": "https://unicatt.digitalcommonsdata.com/about | https://unicatt.digitalcommonsdata.com/faq",
+      "api_verification_state": "Native FAQ/about200 HTML; anonymous Identify200 valid OAI-PMH2.0 XML with institution identity and published matching base. API docs guard-deferred target unsent; no alternate backend/docs/format afterhold.",
+      "latest_checked_utc": "2026-10-18T14:05:13.864956+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "unidata-hosted-thredds",
       "provider": "NSF Unidata / UCAR",
       "service_name": "Unidata-hosted THREDDS Data Server",
@@ -34295,6 +34331,24 @@
       "license_url": "https://dirros.openscience.si/info/index.php/eng/policies",
       "api_verification_state": "Native root/policy HTTP200; anonymous OAI Identify HTTP200 parsed XML",
       "latest_checked_utc": "2026-10-18T01:22:38.400966+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "disgenet-gene-disease-api",
+      "provider": "DISGENET / MedBioinformatics Solutions",
+      "service_name": "DISGENET gene-disease association API",
+      "geographic_coverage": "Integrated international biomedical gene/disease knowledge; exact current source coverage unqueried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Gene-disease and variant-disease association knowledge; current release/source permissions separate",
+      "documentation_url": "https://support.disgenet.com/support/solutions/articles/202000087487-do-i-need-a-commercial-license-can-i-use-disgenet-data-in-my-product- | https://www.disgenet.com/Plans",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Exact current API authentication/key and plan entitlement unresolved; no credentials accessed",
+      "free_access_restrictions": "Academic application/subscription conditions; commercial license required as documented. No subscription acquired.",
+      "license": "Current custom academic/commercial license; redistribution restricted",
+      "license_url": "https://support.disgenet.com/support/solutions/articles/202000087487-do-i-need-a-commercial-license-can-i-use-disgenet-data-in-my-product-",
+      "api_verification_state": "Native old-root redirects/current Plans200 client shells, not API responses. Independent current owner license article200 substantive text. Current REST API availability indexed on owner Plans/Tools only; base/schema and runtime unverified.",
+      "latest_checked_utc": "2026-10-18T14:05:13.864956+00:00",
       "classification": "restricted"
     },
     {
