@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T18:00:46.566178+00:00",
+  "published_at": "2026-10-18T18:02:49.586432+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:59:09.000802+00:00",
+  "research_updated_at": "2026-10-18T18:02:39.092072+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: eLabour contracts, BIÖG rights/GESIS restrictions, RDSC controlled microdata, DJI noncommercial/deletion terms, FDZ-BO React shell/indexed owner, BAuA robots hold/indexed agreements. MDZ unchanged.",
+  "latest_milestone": "Wissenschaftsstatistik native paid/noncommercial terms and remote conflict; DeZIM mixed tiers/OAI held; KOSSDA indexed restricted member terms/native hold.",
   "counts": {
     "verified": 442,
-    "candidates": 1219,
-    "excluded": 363,
+    "candidates": 1221,
+    "excluded": 367,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -18978,6 +18978,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dezim-research-data-centre",
+      "provider": "German Centre for Integration and Migration Research DeZIM",
+      "service_name": "DeZIM research-data portal and claimed OAI metadata service",
+      "geographic_coverage": "Germany/international integration, migration and social research; individual study geography varies",
+      "topical_coverage": "demographics | civic data | research",
+      "dataset_families": "Integration, migration, discrimination and social research study metadata; no respondent data",
+      "documentation_url": "https://fdz.dezim-institut.de/en",
+      "api_base_url": "https://datasearch.fdz.dezim-institut.de/oai/request",
+      "format_protocol": "OAI-PMH claimed by registry; native runtime untested due guard",
+      "authentication": "Native portal login/registration/request form; indexed PUF exception and controlled-tier workflows, none used",
+      "free_access_restrictions": "Public-use tier described as no-request/no-use-restriction; formal source/metadata grant, actual tier holdings and fees unresolved",
+      "license": "Mixed public-use and controlled scientific tiers; portal website copyright reservation, metadata grant unresolved",
+      "license_url": "https://fdz.dezim-institut.de/de/imprint",
+      "api_verification_state": "Native request portal and imprint HTTP200 substantive HTML. Claimed OAI Identify guard-deferred, target unsent; no API/XML success or alternate backend.",
+      "latest_checked_utc": "2026-10-18T18:02:34.319590+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dhs-indicator-data-api",
       "provider": "The Demographic and Health Surveys Program / ICF",
       "service_name": "DHS aggregated indicator REST API",
@@ -30714,6 +30732,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "safe-research-data-centre",
+      "provider": "Leibniz Institute for Financial Research SAFE",
+      "service_name": "SAFE Research Data Center mixed-access services",
+      "geographic_coverage": "European and international financial/economic research data; source-specific scope",
+      "topical_coverage": "economics/finance | research",
+      "dataset_families": "Financial research data, source catalogs and controlled data room; no observations/source records",
+      "documentation_url": "https://safe-frankfurt.de/de/data-center.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Category1 open access; category2 agreement; category3 authorized HoF affiliates; no account/agreement obtained",
+      "free_access_restrictions": "2022 terms state no provision charge then; current/source/vendor charges and exception interactions unresolved",
+      "license": "Mixed access/source-specific license exceptions; no uniform verified open grant",
+      "license_url": "https://datacenter.safe-frankfurt.de/documents/Terms_of_Use_Datacenter_01-07-2022.pdf",
+      "api_verification_state": "Native overview and legal PDF HTTP200; four-page official PDF web-reader reviewed, not API payload. Exact public API/schema unverified.",
+      "latest_checked_utc": "2026-10-18T18:01:39.537106+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "saint-marys-borealis-repository",
       "provider": "Saint Mary’s University Patrick Power Library",
       "service_name": "Saint Mary’s University Patrick Power Library institutional Dataverse/Borealis collection",
@@ -38654,6 +38690,42 @@
       "classification": "restricted"
     },
     {
+      "identifier": "fdz-rv-pension-research",
+      "provider": "German Pension Insurance Research Data Centre",
+      "service_name": "FDZ-RV pension and rehabilitation research data",
+      "geographic_coverage": "Germany pension insurance, rehabilitation and insured-person research",
+      "topical_coverage": "demographics | labor | health | research",
+      "dataset_families": "Rehabilitation, insured-person, pension start/payment/discontinuation dataset descriptions",
+      "documentation_url": "https://fdz-rv.de/en/data-service/overview",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native catalog marks contract-required Scientific Use Files; signed project commitments documented; no application/account",
+      "free_access_restrictions": "Scientific project/purpose/user limitations; fees unknown",
+      "license": "Approved scientific research project only, no onward provision and deletion required",
+      "license_url": "https://fdz-rv.de/en/data-use/rights-of-use-and-obligations",
+      "api_verification_state": "Native service list and rights page HTTP200 HTML; no exact public API/schema/runtime verified.",
+      "latest_checked_utc": "2026-10-18T18:01:39.537106+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "fdz-wissenschaftsstatistik",
+      "provider": "Stifterverband FDZ Wissenschaftsstatistik",
+      "service_name": "Wissenschaftsstatistik research data centre",
+      "geographic_coverage": "Germany company R&D, university and research funding data",
+      "topical_coverage": "education | economics/finance | research",
+      "dataset_families": "FuE R&D survey | Higher Education Explorer | Gründungsradar | EVALDAT; source descriptions only",
+      "documentation_url": "https://www.fdz-wissenschaftsstatistik.de/english",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Approved application/user agreement and controlled guest/remote facilities; none obtained",
+      "free_access_restrictions": "Native English page documents paid microdata, remote access and output checking; no fees incurred. Campus-use teaching tier distinct.",
+      "license": "Noncommercial project-specific research/teaching use agreement with fees",
+      "license_url": "https://www.fdz-wissenschaftsstatistik.de/datenzugang",
+      "api_verification_state": "Native English overview and German access page HTTP200 HTML; no public API/schema/runtime established.",
+      "latest_checked_utc": "2026-10-18T18:02:34.319590+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "fishbase-programmatic-data",
       "provider": "FishBase Consortium / rOpenSci programmatic access",
       "service_name": "FishBase data via documented S3-compatible service",
@@ -39428,6 +39500,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "ids-dgd-spoken-german",
+      "provider": "Leibniz Institute for the German Language / AGD",
+      "service_name": "DGD Database for Spoken German",
+      "geographic_coverage": "German spoken-language varieties in Germany and diaspora corpora including Australia/Russia/Namibia/Israel/Americas",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "FOLK, regional German varieties, diaspora and historical speech corpora; no actual transcripts/audio/video",
+      "documentation_url": "https://dgd.ids-mannheim.de/DGD2Web/jsp/Welcome.jsp",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Registry registration claim; native exact current authentication contract not tested",
+      "free_access_restrictions": "Native conditions distinguish free internet offering from paid individually reviewed service orders; no orders/payments",
+      "license": "Research/teaching/study only; no redistribution, commercial reuse or model training",
+      "license_url": "https://agd.ids-mannheim.de/konditionen.shtml",
+      "api_verification_state": "Native DGD overview and AGD legal conditions HTTP200 substantive HTML. Existing CLARIN dgdsru robots hold retained, no FCS retry/API success.",
+      "latest_checked_utc": "2026-10-18T18:01:39.537106+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "imf",
       "provider": "International Monetary Fund",
       "service_name": "International Monetary Fund API",
@@ -39911,6 +40001,24 @@
       "license_url": "https://kosis.kr/openapi/introduce/introduce_02List.do",
       "api_verification_state": "documented_key_required_untested_restricted_custom_terms",
       "latest_checked_utc": "2026-10-16T20:33:53.878831+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "kossda-social-science-archive",
+      "provider": "Seoul National University Korea Social Science Data Archive",
+      "service_name": "KOSSDA social science data archive",
+      "geographic_coverage": "South Korea social science research archive; individual study geography varies",
+      "topical_coverage": "demographics | education | labor | research",
+      "dataset_families": "Quantitative/qualitative social science study descriptions; no raw records",
+      "documentation_url": "https://kossda.snu.ac.kr/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Indexed official member agreement/email registration; none requested or obtained",
+      "free_access_restrictions": "Official indexed new-users guide describes free member access, subject to noncommercial/reuse limits and additional per-source terms",
+      "license": "Member agreement prohibits commercial use; consent needed for third-party redistribution",
+      "license_url": "https://kossda.snu.ac.kr/register",
+      "api_verification_state": "Original root guard-deferred, target unsent; indexed official agreement/new-user guidance reviewed. No current native API/schema/runtime success.",
+      "latest_checked_utc": "2026-10-18T18:02:34.319590+00:00",
       "classification": "restricted"
     },
     {
