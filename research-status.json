@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:34:38.127064+00:00",
+  "published_at": "2026-10-18T21:36:41.314005+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:33:41.702838+00:00",
+  "research_updated_at": "2026-10-18T21:35:50.664107+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AMCR NC and OAIidentity; MOSP license/API gap; CNR4DMED namedBY4 and WMSmetadata verified with challenge separation.",
+  "latest_milestone": "WGMS BY4 documentedArcGIS/heldsample; FinBIF namedchecklistBY4/current mandatorytoken; CEDA mixedrights/multipleinterfaces/OAIhold.",
   "counts": {
-    "verified": 474,
-    "candidates": 1373,
+    "verified": 476,
+    "candidates": 1374,
     "excluded": 401,
     "sample_successes": 464
   },
@@ -9866,6 +9866,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "finbif-biodiversity-data-api",
+      "provider": "Finnish Biodiversity Information Facility / Luomus University of Helsinki",
+      "service_name": "FinBIF REST biodiversity API",
+      "geographic_coverage": "Finnish biodiversity/taxonomy with per-source coverage, sensitive observations coarsened/restricted",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "National checklists/taxonomy, occurrence/specimen/collection metadata; observations and media per-source rights",
+      "documentation_url": "https://info.laji.fi/en/frontpage/api/api-laji-fi/",
+      "api_base_url": "https://api.laji.fi",
+      "format_protocol": "REST API/JSON documented, OpenAPI machine-readable link published; actual schema/source runtime untested",
+      "authentication": "Current native guide requires AccessToken via email/POST account process; additional PersonToken/PermissionToken for restricted/private data. OGC keys separate. No token/account used or requested.",
+      "free_access_restrictions": "Named checklist BY4 verified; general data rights vary by data-owner agreement and secret/sensitive source access restricted. No paid acquisition or eligibility request.",
+      "license": "CC BY4.0 named Finnish checklist annual versions; other source licenses vary",
+      "license_url": "https://ipt.laji.fi/resource?r=cfs&v=1.35+%7C+https%3A%2F%2Finfo.laji.fi%2Fen%2Ffrontpage%2Fmission%2Fdata-policy%2F",
+      "api_verification_state": "Native root/legacy API-info URL HTTP200 shell/placeholder. Current native API guide and data-policy/IPT rights pages HTTP200, public interface existence/auth documented. Key-required actual API untested, no API/OGC/staging request or account POST.",
+      "latest_checked_utc": "2026-10-18T21:35:40.297352+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "fingal-open-data",
       "provider": "Fingal County Council",
       "service_name": "Fingal Open Data native catalogue and advertised ArcGIS layers",
@@ -15068,6 +15086,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "wgms-glacier-data-services",
+      "provider": "World Glacier Monitoring Service / University of Zurich",
+      "service_name": "WGMS glacier data and metadata services",
+      "geographic_coverage": "Global glacier-monitoring network, availability varies by glacier/country/measurement",
+      "topical_coverage": "climate | water | environment | research",
+      "dataset_families": "Fluctuations of Glaciers metadata and glacier change records; actual measurements not acquired",
+      "documentation_url": "https://wgms.ch/data-exploration/",
+      "api_base_url": "https://services1.arcgis.com/S1CsUOA0hPmVW39L/arcgis/rest/services/wgms_fog_2025_02b_(csv)/FeatureServer/0",
+      "format_protocol": "Native explicitly published ArcGIS feature metadata service; actual JSON/schema untested",
+      "authentication": "Layer-metadata request robots-deferred unsent; public native link has no key, auth actual unknown. Internal network database/direct SQL access not requested.",
+      "free_access_restrictions": "Native policy no-cost CC BY4 data with WGMS/original-source citation. Internal direct database limited university network; interactive DbGate not automatically public API.",
+      "license": "CC BY4.0 WGMS data with correct citation and original-source acknowledgement",
+      "license_url": "https://wgms.ch/data_policy/ | https://wgms.ch/data-exploration/",
+      "api_verification_state": "Native root/policy/exploration HTTP200. Current exploration page explicitly publishes ArcGIS service for map metadata. Minimal f=pjson metadata request guard-deferred unsent, not successful JSON or missing-service proof. No alternate path/count/query.",
+      "latest_checked_utc": "2026-10-18T21:35:40.297352+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "wikidata",
       "provider": "Wikimedia / Wikidata",
       "service_name": "Wikimedia / Wikidata API",
@@ -18091,6 +18127,24 @@
       "license_url": "https://cds.unistra.fr/legals/",
       "api_verification_state": "NativeCDSroot/legal/XMatchroot/TOC/APIcalls/limits200HTML. Exactdocumentedtable-nameAPIguard-deferred; no sourcequery or successfulmetadataresponse.",
       "latest_checked_utc": "2026-10-18T05:32:21.097764+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ceda-archive-metadata-services",
+      "provider": "Centre for Environmental Data Analysis / NERC EDS",
+      "service_name": "CEDA Archive catalogue and data access services",
+      "geographic_coverage": "Global atmospheric/climate/Earth observation holdings; source temporal/spatial coverage varies",
+      "topical_coverage": "climate | environment | oceans | research",
+      "dataset_families": "Climate models, satellite/aircraft/weather observations and associated catalogue descriptions; source rights individually assigned",
+      "documentation_url": "https://archive.ceda.ac.uk/tools/ | https://help.ceda.ac.uk/article/98-accessing-data",
+      "api_base_url": "https://csw.ceda.ac.uk/geonetwork/srv/eng/oaipmh | https://stac.ceda.ac.uk (documented distinct metadata interface, untested)",
+      "format_protocol": "CSW/OAI-PMH/STAC/OPeNDAP documented; NetCDF is a format, FTP not counted as query API",
+      "authentication": "Published sources public/registered/restricted; actual OAI Identify robots-deferred unsent, anonymous service auth unknown. No account/application or source token.",
+      "free_access_restrictions": "Native access doc assigns eachdataset ownlicense and public/registered/restricted/offline classes. Restricted use scoped to approved purpose/duration; no applications/downloads.",
+      "license": "Per-dataset usage licenses; uniform catalogue metadata/database grant unverified",
+      "license_url": "https://help.ceda.ac.uk/article/98-accessing-data",
+      "api_verification_state": "Native archive/access/tools HTTP200. Tools explicitly publish CSW/OAI and STAC plus OPeNDAP/API. OAI Identify derived from registry/native published base robots-deferred unsent, no successful XML. No alternate protocol/backend query; other metadata services documented untested.",
+      "latest_checked_utc": "2026-10-18T21:35:40.297352+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
