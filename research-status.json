@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T16:38:35.274488+00:00",
+  "published_at": "2026-10-18T16:40:38.477138+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:38:31.385125+00:00",
+  "research_updated_at": "2026-10-18T16:40:34.429372+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PsychArchives explicit metadataCC0/open interfaces verified, currentroute untested; OpenForest and EnviDat rights/runtime gaps; no software-license transfer.",
+  "latest_milestone": "DIAS default access/reuse restricted; EBAS original deduplicated with project-policy caveats; CAZy grant/provider API unresolved.",
   "counts": {
     "verified": 438,
-    "candidates": 1168,
-    "excluded": 341,
+    "candidates": 1169,
+    "excluded": 342,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -8404,8 +8404,8 @@
       "free_access_restrictions": "Public quality-controlled collection documented; attribution/citation required. Restricted NRT excluded. No source files or observation arrays acquired.",
       "license": "Creative Commons Attribution4.0 International",
       "license_url": "https://ebas.nilu.no/data-access/otheraccess/thredds/ | https://creativecommons.org/licenses/by/4.0/",
-      "api_verification_state": "native_THREDDS_catalogue_XML_success_14141file_entries_documented_OPeNDAP_published_DDS_example404_no_data_values_tested",
-      "latest_checked_utc": "2026-10-17T16:42:42.064274+00:00",
+      "api_verification_state": "native_THREDDS_catalogue_XML_success_14141file_entries_documented_OPeNDAP_published_DDS_example404_no_data_values_tested; broader portal about HTML200 reviewed, no new API or source response.",
+      "latest_checked_utc": "2026-10-18T16:40:29.881287+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16367,6 +16367,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cazy-enzyme-database",
+      "provider": "AFMB / CNRS / Aix-Marseille University / INRAE",
+      "service_name": "Carbohydrate-Active enZYmes CAZy database",
+      "geographic_coverage": "International biological research reference database; hosted in France; source coverage varies",
+      "topical_coverage": "research | biodiversity",
+      "dataset_families": "Carbohydrate-active enzyme-family reference classifications and descriptive resource; source records not enumerated",
+      "documentation_url": "http://www.cazy.org/ | http://www.cazy.org/spip.php",
+      "api_base_url": "",
+      "format_protocol": "Native HTML documentation; no verified provider public API/schema",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Copyright notice; explicit database open-reuse grant unknown",
+      "license_url": "http://www.cazy.org/",
+      "api_verification_state": "Native root/about200HTML, not API responses. No provider query API/schema verified; third-party local scraper API not accepted as native service.",
+      "latest_checked_utc": "2026-10-18T16:40:29.881287+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cdc-ables-surveillance",
       "provider": "CDC NIOSH",
       "service_name": "Adult Blood Lead Epidemiology and Surveillance public data",
@@ -24012,8 +24030,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across865successfulpages/865000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:32:09.631770+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across876successfulpages/876000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T16:38:36.321138+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -38326,6 +38344,24 @@
       "license_url": "https://www.godac.jamstec.go.jp/darwin/ja/note.html",
       "api_verification_state": "OriginalnativeEnglishroot/policyguard-deferred; primaryindexed officialusage reviewed, APIruntimeunverified",
       "latest_checked_utc": "2026-10-18T00:26:40.180612+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "japan-dias-platform",
+      "provider": "Japan Agency for Marine-Earth Science and Technology / DIAS",
+      "service_name": "Data Integration and Analysis System DIAS",
+      "geographic_coverage": "Japan and international earth/environmental research projects; source coverage varies",
+      "topical_coverage": "climate/weather/environment | water | research | agriculture",
+      "dataset_families": "Earth observation, model and environmental-research datasets and dedicated access applications; current exact family inventory unenumerated",
+      "documentation_url": "https://diasjp.net/en/terms/ | https://diasjp.net/en/use/howto_download/",
+      "api_base_url": "",
+      "format_protocol": "Native access/download application documentation; exact current public query API/schema unverified",
+      "authentication": "Native guide requires DIAS account before data download; some datasets additionally need permission application. No account or acceptance performed.",
+      "free_access_restrictions": "Terms describe free period until operator-determined date and separately contracted paid services; no purchase/current universal free tier assumed",
+      "license": "Default research/education only; commercial use and redistribution require permission; separate licenses may override",
+      "license_url": "https://diasjp.net/en/terms/",
+      "api_verification_state": "Native terms/download guide200HTML. Historical API-platform documentation discovered, no current exact public query route or API sample verified.",
+      "latest_checked_utc": "2026-10-18T16:40:29.881287+00:00",
       "classification": "restricted"
     },
     {
