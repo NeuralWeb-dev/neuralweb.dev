@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-18T04:34:42.688869+00:00",
+  "published_at": "2026-10-18T04:36:45.374746+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:33:47.098943+00:00",
+  "research_updated_at": "2026-10-18T04:36:35.204513+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
+  "latest_milestone": "RODERIC/VMF nativeholds and source/API gaps retained; ZenodoOAIIdentify and currentquotas verified, scopedmetadata grant retained.",
   "counts": {
-    "verified": 353,
-    "candidates": 810,
-    "excluded": 232,
-    "sample_successes": 466
+    "verified": 354,
+    "candidates": 813,
+    "excluded": 233,
+    "sample_successes": 465
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -9510,6 +9510,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "olos-research-data",
+      "provider": "OLOS Association / Swiss research institutions",
+      "service_name": "OLOS research-data metadata OAI-PMH",
+      "geographic_coverage": "Switzerland institutional research, all disciplines and varying source regions",
+      "topical_coverage": "research | education",
+      "dataset_families": "Preserved research object descriptions and metadata; content files have individual access/licence conditions",
+      "documentation_url": "https://olos.swiss/documentation",
+      "api_base_url": "https://olos.swiss/oai",
+      "format_protocol": "OAI-PMH2.0 XML; native metadata formats datacite/oai_dc/rico/schema.org",
+      "authentication": "Anonymous Identify/ListMetadataFormats/ListIdentifiers succeeded; accounts/deposit functionality separate",
+      "free_access_restrictions": "MetadataCC0 and harvesting expressly permitted; depositedfiles open/restricted/closed/embargoed with per-file licences. Depositstoragebilling not metadata accessfee.",
+      "license": "CC0 for metadata; deposited research files individually licensed",
+      "license_url": "https://olos.swiss/legal/terms",
+      "api_verification_state": "Native ownerterms200; Identify/formats/ListIdentifiers200validOAI-PMHXML without protocolerrors. Four metadataformats and returnedheaderfrontier validated.",
+      "latest_checked_utc": "2026-10-18T04:36:04.494869+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "oman-data",
       "provider": "Oman National Centre for Statistics and Information (NCSI)",
       "service_name": "Oman Data Portal Knoema/SDMX APIs",
@@ -11605,14 +11623,14 @@
       "topical_coverage": "research",
       "dataset_families": "Research datasets; software; publications; record metadata",
       "documentation_url": "https://developers.zenodo.org/",
-      "api_base_url": "https://zenodo.org/api/",
+      "api_base_url": "https://zenodo.org/api/ | https://zenodo.org/oai2d",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "Public published-record read API sampled without token; deposition/upload authentication separate",
       "license": "CC0 for metadata except email addresses; research files individually licensed",
       "license_url": "https://about.zenodo.org/policies/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:32:30.380222+00:00",
+      "api_verification_state": "Current ownerAPI/policydocsHTTP200; newanonymousOAIIdentifyHTTP200validOAI-PMHXML Identify/noerror. Earlier smallRESTrecordJSON retainedwithoutreplay.",
+      "latest_checked_utc": "2026-10-18T04:36:30.924750+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16874,6 +16892,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ilrs-laser-ranging-portal",
+      "provider": "International Laser Ranging Service / IAG",
+      "service_name": "ILRS laser-ranging data and product portal",
+      "geographic_coverage": "Global satellite/lunar laser-ranging observations and geodetic products",
+      "topical_coverage": "geospatial | astronomy | research",
+      "dataset_families": "SLR/LLR normal-point/full-rate measurements; predictions, station positions/velocities, derived geodetic products",
+      "documentation_url": "https://ilrs.cddis.eosdis.nasa.gov/data_and_products/data_centers/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root and data-centres docs200HTML; file distribution described, exactqueryAPI/sample unresolved",
+      "latest_checked_utc": "2026-10-18T04:36:04.494869+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "imls-data-collection",
       "provider": "US Institute of Museum and Library Services",
       "service_name": "IMLS data collection and published open-data catalogue",
@@ -21914,6 +21950,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "roderic-uv-repository",
+      "provider": "Universitat de València",
+      "service_name": "RODERIC institutional repository",
+      "geographic_coverage": "Spain/Valencia institutional scholarly production, varying research regions",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research/teaching/cultural materials; current exact API holdings unverified",
+      "documentation_url": "https://roderic.uv.es/home",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Originalnative rootnetworkunreachable; indexedhistoric ownerdepositlicence reviewed, no currentAPIcontract/sample established",
+      "latest_checked_utc": "2026-10-18T04:36:30.924750+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rolling-deck-to-repository",
       "provider": "Rolling Deck to Repository / Lamont-Doherty Earth Observatory",
       "service_name": "R2R cruise and underway data services",
@@ -24470,6 +24524,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "vmf-vienna-mapping-functions",
+      "provider": "TU Wien / Vienna Mapping Functions",
+      "service_name": "VMF geodetic atmosphere data server",
+      "geographic_coverage": "Global geodetic atmosphere/radio/optical mapping-function products; exact grids/stations vary",
+      "topical_coverage": "geospatial | climate/weather | astronomy | research",
+      "dataset_families": "Vienna Mapping Functions and related geodetic atmospheric-delay/time-series products",
+      "documentation_url": "https://vmf.geo.tuwien.ac.at/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Originalnative rootguard-deferred targetunsent; ownerhosted scholarlypaper indexeddataavailability only. No exact publicqueryAPI/machine sample established",
+      "latest_checked_utc": "2026-10-18T04:36:30.924750+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "vu-yoda-publication-metadata",
       "provider": "Vrije Universiteit Amsterdam / VU Yoda",
       "service_name": "VU Yoda published-package OAI metadata feed",
@@ -26593,6 +26665,24 @@
       "license_url": "https://www.data.gov.bh/pages/terms-and-conditions/ | https://www.iga.gov.bh/Media/Publications/National%20Digital%20Policies/Bahrain%20Government%20Open%20Data%20License.pdf",
       "api_verification_state": "documented_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:31:04.445916+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bamf-fdz-research-data",
+      "provider": "Bundesamt für Migration und Flüchtlinge",
+      "service_name": "BAMF Research Data Centre",
+      "geographic_coverage": "Germany migration/integration research data",
+      "topical_coverage": "demographics | labor | education | research",
+      "dataset_families": "Migration/integration register and survey research data; public docs only reviewed, no participant rows/codebooks",
+      "documentation_url": "https://www.bamf.de/DE/Themen/Forschung/Forschungsdatenzentrum/forschungsdatenzentrum-node.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Application/eligibleinstitution and signedcontract for researchdata, controlled access. No access sought.",
+      "free_access_restrictions": "Free scientific access distinct from openness; useeligibility varies byproduct. No paiddata/account/application/contact/signature.",
+      "license": "Purpose-limited scientific data access subject to application, eligibility and signed use agreement",
+      "license_url": "https://www.bamf.de/DE/Themen/Forschung/Forschungsdatenzentrum/Datenzugang/datenzugang-node.html",
+      "api_verification_state": "Native public programme/access/guidelineHTMLdocs200; no public openqueryAPI established, protecteddata not queried",
+      "latest_checked_utc": "2026-10-18T04:36:04.494869+00:00",
       "classification": "restricted"
     },
     {
