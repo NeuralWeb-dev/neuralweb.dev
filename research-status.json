@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:51:21.549774+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T15:53:24.491448+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:50:09.142559+00:00",
+  "research_updated_at": "2026-10-18T15:52:27.005410+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to804pages/804000refs;2409503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Twelveoriginals reviewed: BioGRID nativeMIT/free-keyREST/WADL6; SMU/ORDO/APIDrestricted; scopedinstitutional and scientific candidates; MDZ804000 incomplete.",
   "counts": {
     "verified": 433,
-    "candidates": 1133,
+    "candidates": 1136,
     "excluded": 336,
     "sample_successes": 464
   },
@@ -2707,6 +2707,7 @@
           "lithuania-statistics",
           "luh-research-data-ckan",
           "meteogate-climate-aggregator-edr",
+          "nanocommons-knowledgebase",
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
           "os-os-places-api",
@@ -2898,6 +2899,7 @@
           "kit-whole-body-motion",
           "latvia-statistics",
           "lithuania-statistics",
+          "nanocommons-knowledgebase",
           "navarra-open-data",
           "nfdi4health-study-hub",
           "proteomexchange-proteomecentral",
@@ -3039,6 +3041,7 @@
           "lithuania-statistics",
           "lse-research-online",
           "luh-research-data-ckan",
+          "manchester-institutional-figshare",
           "minho-datarepositorium",
           "newcastle-data-ncl",
           "ortolang-fcs",
@@ -3090,6 +3093,7 @@
           "maribor-dkum-oai",
           "meertens-collections-portal",
           "neps-survey-research-access",
+          "open-university-ordo",
           "qualibi-qualitative-education",
           "swiss-al-fcs",
           "zpid-rdc-controlled-research"
@@ -3795,8 +3799,10 @@
           "lse-research-online",
           "luebeck-historic-mural-database",
           "luh-research-data-ckan",
+          "manchester-institutional-figshare",
           "meteogate-climate-aggregator-edr",
           "minho-datarepositorium",
+          "nanocommons-knowledgebase",
           "nasc-plant-stock-webservices",
           "newcastle-data-ncl",
           "nfdi4health-study-hub",
@@ -3828,6 +3834,7 @@
           "scilifelab-institutional-repository",
           "seadatanet-cdi-discovery-network",
           "sheffield-orda",
+          "southampton-ecrystals",
           "suprabank-intermolecular-interactions",
           "surf-data-repository",
           "swissubase-oai",
@@ -3899,6 +3906,7 @@
           "metoffice-weather-datahub",
           "nako-controlled-transferhub",
           "neps-survey-research-access",
+          "open-university-ordo",
           "qualibi-qualitative-education",
           "rki-research-data-centre",
           "sandrart-rest-api",
@@ -4269,6 +4277,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "cput-esango",
           "datafirst-african-research-data",
           "dhs-indicator-data-api",
           "hsrc-research-output-repository"
@@ -4394,6 +4403,7 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "cput-esango",
           "datafirst-african-research-data",
           "dhs-indicator-data-api",
           "hsrc-research-output-repository",
@@ -5098,7 +5108,8 @@
           "usu-sumatera-utara-repository"
         ],
         "restricted_provider_ids": [
-          "kasetsart-knowledge-repository"
+          "kasetsart-knowledge-repository",
+          "smu-research-data-repository"
         ]
       },
       "housing": {
@@ -5210,6 +5221,7 @@
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository",
+          "smu-research-data-repository",
           "southeast-asian-climate-assessment-dataset"
         ]
       }
@@ -5312,6 +5324,7 @@
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
           "data-wa-catalogue-api",
+          "eatlas-research-data-services",
           "esa-ecology",
           "esgf-dkrz-discovery",
           "esgf-ipsl-discovery",
@@ -5405,6 +5418,8 @@
           "anu-data-commons-repository",
           "auckland-institutional-figshare",
           "data-wa-catalogue-api",
+          "latrobe-opal",
+          "lincoln-institutional-figshare",
           "melbourne-institutional-figshare",
           "monash-bridges",
           "nsw-open-data-catalog",
@@ -5476,6 +5491,7 @@
           "brisbane-open-data",
           "cook-geospatial",
           "data-wa-catalogue-api",
+          "eatlas-research-data-services",
           "fiji-tltb",
           "georep-localisation",
           "mbie-geodata",
@@ -5554,6 +5570,7 @@
           "anu-data-commons-repository",
           "aodn-marine-data-services",
           "csiro-data-access-portal",
+          "eatlas-research-data-services",
           "esa-ecology",
           "ipni-linked-data-access",
           "landcare-research-datastore",
@@ -5581,6 +5598,7 @@
           "aodn-marine-data-services",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
+          "eatlas-research-data-services",
           "ningaloo-atlas",
           "pacioos-erddap",
           "pisco",
@@ -5652,6 +5670,7 @@
           "auscope-earthbank",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
+          "eatlas-research-data-services",
           "esa-ecology",
           "esgf-dkrz-discovery",
           "esgf-ipsl-discovery",
@@ -5660,6 +5679,8 @@
           "human-mortality-database",
           "ipni-linked-data-access",
           "landcare-research-datastore",
+          "latrobe-opal",
+          "lincoln-institutional-figshare",
           "melbourne-institutional-figshare",
           "monash-bridges",
           "nci-australia-data-catalogue",
@@ -22875,6 +22896,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "latrobe-opal",
+      "provider": "La Trobe University",
+      "service_name": "Open @ La Trobe (OPAL)",
+      "geographic_coverage": "Australia institutionalresearch; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and scholarly/nontraditional outputs; source/rights vary",
+      "documentation_url": "https://www.latrobe.edu.au/library/research/opal",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution234/portal234 registryfiltersuntested)",
+      "format_protocol": "Registry FigshareREST/OAI; current portal runtime/schemaunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed source/selected licenses; blanket metadata grant unknown",
+      "license_url": "https://www.latrobe.edu.au/library/research/opal",
+      "api_verification_state": "Original portal and independent owner guideguard-deferredunsent; indexed official owner rightsreviewonly, no currentAPIresponse.",
+      "latest_checked_utc": "2026-10-18T15:51:23.923423+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "latvia-statistics",
       "provider": "Central Statistical Bureau of Latvia",
       "service_name": "Official statistics PxWebApi v2",
@@ -23340,6 +23379,24 @@
       "license_url": "https://maizegdb.org/contribute_data",
       "api_verification_state": "Original root/API/contribution-policy URLs returned403 challengeHTML; no machineAPIresponse or current nativegrantverified",
       "latest_checked_utc": "2026-10-18T04:02:33.655601+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "manchester-institutional-figshare",
+      "provider": "University of Manchester",
+      "service_name": "University of Manchester Figshare",
+      "geographic_coverage": "United Kingdom institutionalresearch; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and scholarly/nontraditional outputs; source/rights vary",
+      "documentation_url": "https://www.openresearch.manchester.ac.uk/research-systems/",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution918/portal918 registryfiltersuntested)",
+      "format_protocol": "Registry FigshareREST/OAI; current portal runtime/schemaunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed source/selected licenses; blanket metadata grant unknown",
+      "license_url": "https://www.openresearch.manchester.ac.uk/research-systems/",
+      "api_verification_state": "Original portalguard-deferredunsent; independent owner systems guideHTTP200HTML identifies repository, no portal-specific APIresponse.",
+      "latest_checked_utc": "2026-10-18T15:51:23.923423+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24384,6 +24441,24 @@
       "license_url": "https://nakb.org/about.html",
       "api_verification_state": "Nativehome/about200HTML; upstreamRCSBAPIlisted but exactNAKBqueryAPI notverified",
       "latest_checked_utc": "2026-10-18T08:23:21.309308+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nanocommons-knowledgebase",
+      "provider": "NanoCommons / Biomax Informatics",
+      "service_name": "NanoCommons KnowledgeBase",
+      "geographic_coverage": "European collaborative nanomaterial/nanosafety research; exact dataset geography unreviewed",
+      "topical_coverage": "research | health | environment",
+      "dataset_families": "Nanomaterial characterisation, hazard/exposure/fate, protocols and semantic data integration; no source values queried",
+      "documentation_url": "https://infrastructure.nanocommons.eu/services/17/nanocommons-knowledgebase/",
+      "api_base_url": "",
+      "format_protocol": "Owner indexed API/webservice available; BioXM system, exact wire contract/schema unknown",
+      "authentication": "Owner indexed service says loginrequired; no account/key/session used",
+      "free_access_restrictions": "Owner indexed Transnational Access free via application; exact public API tier/eligibility unresolved",
+      "license": "Mixed source/selected licenses; effective metadata/data grant unresolved",
+      "license_url": "https://nanocommons.github.io/dmp/DMP.html",
+      "api_verification_state": "Original projectroot and independent servicecatalogueguard-deferredunsent. Indexed official service confirmsAPIexistence/login, no native APIbase/schema/response verified.",
+      "latest_checked_utc": "2026-10-18T15:51:23.923423+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
