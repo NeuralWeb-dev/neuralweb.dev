@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:37:37.816573+00:00",
+  "published_at": "2026-10-18T06:39:40.574867+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:37:26.071005+00:00",
+  "research_updated_at": "2026-10-18T06:39:03.006564+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed: PEI JSON94IDs, DASH restricted, four institutional candidates; AGS eight named OGL2.2 works/catalog41IDs, FDZ held, DTA OAI Identify verified with licence conflict.",
+  "latest_milestone": "IDS native OAI Identify verified; Saarland API and CCKP root held. Native owner policies distinguish free access, source licences and documentation MPL.",
   "counts": {
     "verified": 367,
-    "candidates": 882,
+    "candidates": 885,
     "excluded": 261,
     "sample_successes": 465
   },
@@ -17849,6 +17849,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ids-mannheim-research-repository",
+      "provider": "Leibniz Institute for the German Language",
+      "service_name": "IDS Repository metadata and OAI service",
+      "geographic_coverage": "German-language linguistic collections; individual corpus coverage varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Linguistic research resources and Dublin Core/CMDI descriptions; written and spoken corpora with individual rights",
+      "documentation_url": "https://repos.ids-mannheim.de/reposdescription.html | https://repos.ids-mannheim.de/tou.html",
+      "api_base_url": "https://repos.ids-mannheim.de/oaiprovider/",
+      "format_protocol": "Native OAI-PMH2 XML Identify; Fedora REST documented, not queried",
+      "authentication": "Anonymous Identify succeeded without account/key",
+      "free_access_restrictions": "Protocol request free; resource access may require separate licence or agreement; quotas unknown",
+      "license": "unknown verified data grant",
+      "license_url": "https://repos.ids-mannheim.de/tou.html | https://repository.ids-mannheim.de/terms-of-service",
+      "api_verification_state": "Native root/terms/description200; exact HTTPS OAI Identify200 parsed OAI2 namespace XML without OAI errors, protocol2.0. Current owner terms200 separately reviewed.",
+      "latest_checked_utc": "2026-10-18T06:38:57.891802+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ie-repository-oai",
       "provider": "IE University",
       "service_name": "IE Repository OAI-PMH metadata service",
@@ -23555,6 +23573,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "saarland-clarind-language-repository",
+      "provider": "Saarland University CLARIN Centre",
+      "service_name": "CLARIND-UdS language resources repository",
+      "geographic_coverage": "Multilingual linguistic resources at Saarland University, Germany; coverage varies by resource",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Language corpora, CMDI/Dublin Core metadata, selected SRU/CQL searchable resources; resource licences vary",
+      "documentation_url": "https://fedora.clarin-d.uni-saarland.de/struktur.en.html | https://fedora.clarin-d.uni-saarland.de/users.en.html",
+      "api_base_url": "https://fedora.clarin-d.uni-saarland.de/oaiprovider/",
+      "format_protocol": "Owner documents OAI-PMH with oai_dc/CMDI and SRU/CQL; runtime OAI request held",
+      "authentication": "unknown",
+      "free_access_restrictions": "Native terms say metadata access is always free; source access and licences vary. Free viewing is not a reuse grant.",
+      "license": "unknown verified data grant",
+      "license_url": "https://fedora.clarin-d.uni-saarland.de/termsofuse.en.html",
+      "api_verification_state": "Native home/terms/users/structure200; exact OAI Identify request guard-deferred unsent, no XML result",
+      "latest_checked_utc": "2026-10-18T06:38:57.891802+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sabio-rk-kinetics",
       "provider": "Heidelberg Institute for Theoretical Studies",
       "service_name": "SABIO-RK biochemical reaction kinetics database",
@@ -27854,6 +27890,24 @@
       "license_url": "https://dataservices.gfz.de/10.5880/wsm.2025.001/world-stress-map-database-release-2025 | https://www.world-stress-map.org/download/",
       "api_verification_state": "native_anonymous_OAI_Identify_and_full_WSM_set_XML_success_source2025_grant_verified",
       "latest_checked_utc": "2026-10-17T20:21:44.531829+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "worldbank-climate-knowledge-portal",
+      "provider": "World Bank Climate Change Knowledge Portal team",
+      "service_name": "CCKP climate data portal and documented collections",
+      "geographic_coverage": "Global gridded climate collections and population products; collection-specific historical/projected periods",
+      "topical_coverage": "climate/weather/environment | water | energy | agriculture | demographics | research",
+      "dataset_families": "Owner documentation describes CMIP6 0.25-degree1950–2100, ERA5 0.25-degree1950–2022, CRU0.5-degree1901–2022, population0.25-degree1995–2100; documentation snapshot not fresh source inventory",
+      "documentation_url": "https://worldbank.github.io/climateknowledgeportal/README.html",
+      "api_base_url": "",
+      "format_protocol": "Native owner documentation describes public S3/NetCDF collections; object storage and file formats not counted as query API proof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://worldbank.github.io/climateknowledgeportal/README.html | https://climateknowledgeportal.worldbank.org/index.php/metadata",
+      "api_verification_state": "Original CCKP root guard-deferred unsent. Independent owner GitHub documentation200; no actual CCKP data API/S3 response or dataset inventory tested.",
+      "latest_checked_utc": "2026-10-18T06:38:57.891802+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
