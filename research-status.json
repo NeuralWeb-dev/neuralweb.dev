@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:25:40.285379+00:00",
+  "published_at": "2026-10-18T23:27:43.162399+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:21:34.597574+00:00",
+  "research_updated_at": "2026-10-18T23:26:21.034096+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: ITINERIS anonymous site JSON/319 documented operations; CDMS VOSI/1384 classic tag references; NatureCounts/Motus restrictions and repository gaps retained.",
+  "latest_milestone": "NetworkRepository BY-SA policy/APIgap; TRAILS controlled DTA/fee; KCWorks documented REST/mixed itemrights/instancehold.",
   "counts": {
     "verified": 494,
-    "candidates": 1425,
-    "excluded": 409,
+    "candidates": 1427,
+    "excluded": 410,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -26773,6 +26773,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "knowledge-commons-works",
+      "provider": "Knowledge Commons / MESH Research",
+      "service_name": "Knowledge Commons Works repository REST API",
+      "geographic_coverage": "Global scholarly self-deposit repository; hosted at Michigan State University, USA",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Scholarly work records and collections; item licenses/access vary",
+      "documentation_url": "https://mesh-research.github.io/knowledge-commons-works/reference/api.html | https://support.hcommons.org/copyright-permissions-and-licences/",
+      "api_base_url": "https://works.hcommons.org/api/",
+      "format_protocol": "Documented HTTP REST JSON / InvenioRDM; deployment runtime untested",
+      "authentication": "Owner docs describe public read operations and authenticated permission-scoped write/import operations; instance untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://support.hcommons.org/copyright-permissions-and-licences/",
+      "api_verification_state": "Original instance request deferred unsent by inaccessible robots policy; hold maintained. Independent owner support rights HTTP200; official MESH developer documentation describes concrete KCWorks REST endpoints. Documented API separated from untested runtime; no alternate instance/backend query.",
+      "latest_checked_utc": "2026-10-18T23:26:15.308516+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "koc-university-digital-collections",
       "provider": "Koç University Suna Kıraç Library",
       "service_name": "Koç University Digital Collections",
@@ -29902,6 +29920,24 @@
       "license_url": "https://data.neracoos.org/erddap/info/I01_ocean_001m/index.json",
       "api_verification_state": "documented_ERDDAP_public_catalogue_and_info_JSON_sample_success_perdataset_grants_unconfirmed",
       "latest_checked_utc": "2026-10-17T01:07:29.919812+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "network-repository-graph-data",
+      "provider": "Network Repository",
+      "service_name": "Network Repository graph collections",
+      "geographic_coverage": "International graph benchmark collections; individual geographical scope varies",
+      "topical_coverage": "research | transportation | economics | biodiversity | health | civic",
+      "dataset_families": "Graph/network collections including biological, road, economic, social, temporal and generated graphs; source edge/node data not fetched",
+      "documentation_url": "https://networkrepository.com/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public documentation accessible anonymously; optional profile login shown, API authentication unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Creative Commons Attribution-ShareAlike; version not specified in native fetched policy",
+      "license_url": "https://networkrepository.com/policy.php | https://networkrepository.com/page_terms_disclaimer.php",
+      "api_verification_state": "Native root/data-policy/disclaimer HTTP200 HTML. Downloads and interactive browser graph analytics documented, but no published HTTP query API/base/schema verified. HTML pages not counted as successful APIs.",
+      "latest_checked_utc": "2026-10-18T23:26:15.308516+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -48120,6 +48156,24 @@
       "license_url": "https://www.nationalarchives.gov.uk/terms-and-conditions/discovery-for-developers-about-the-application-programming-interface-api/",
       "api_verification_state": "NativeDiscoveryroot/copyright/APIterms200HTML. API documented but not sampled because owneraccessregistration and no-store terms; no sandbox/query/APIcontent acquired.",
       "latest_checked_utc": "2026-10-18T03:21:14.917577+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "trails-longitudinal-cohort",
+      "provider": "TRAILS consortium / University Medical Center Groningen",
+      "service_name": "TRAILS longitudinal research data access",
+      "geographic_coverage": "Netherlands longitudinal adolescent and young-adult cohort; research documentation only",
+      "topical_coverage": "health | research | education | labor",
+      "dataset_families": "Longitudinal psychological, social and physical development; participant/source data not requested",
+      "documentation_url": "https://www.trails.nl/en/researchers/working-with-trails",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Managed application/approval and data transfer, no public anonymous data API verified",
+      "free_access_restrictions": "EUR2500 requested contribution with stated waivers; prior approval and signed agreement; no paid acquisition authorized/performed",
+      "license": "Controlled data-transfer agreement; non-commercial external research use",
+      "license_url": "https://www.trails.nl/en/researchers/working-with-trails",
+      "api_verification_state": "Native root and access conditions HTTP200 HTML; exact network API unknown. Controlled agreement workflow is not open API proof.",
+      "latest_checked_utc": "2026-10-18T23:26:15.308516+00:00",
       "classification": "restricted"
     },
     {
