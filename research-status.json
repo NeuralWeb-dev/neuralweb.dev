@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:11:25.106408+00:00",
+  "published_at": "2026-10-18T02:13:27.617673+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:10:36.374692+00:00",
+  "research_updated_at": "2026-10-18T02:13:19.439020+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed; nine distinct records added. Sandrart RDF ODbL versus REST NC scoped separately; Canadensys146IDs complete after paging correction; MeteoGate22capabilities complete, source grants unresolved.",
+  "latest_milestone": "LMU CC0metadata verified but current API unresolved/candidate; BCO-DMO default BY4with synthesis exceptions accepted; OPEN-ADAS restricted.2705ERDDAP dataset IDs indexed.",
   "counts": {
-    "verified": 334,
-    "candidates": 740,
-    "excluded": 203,
+    "verified": 335,
+    "candidates": 741,
+    "excluded": 204,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -5502,6 +5502,24 @@
       "license_url": "https://github.com/wearefuturegov/outpost-api-service/wiki | https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "actual_JSON_bounded_service_and_complete_native_catalog_sample_success",
       "latest_checked_utc": "2026-10-17T03:37:59.118308+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "bcodmo-erddap-data-api",
+      "provider": "Biological and Chemical Oceanography Data Management Office",
+      "service_name": "BCO-DMO ERDDAP API and dataset discovery",
+      "geographic_coverage": "Marine ecosystem observations/experiments/syntheses from global ocean research projects; per-source coverage varies",
+      "topical_coverage": "oceans | climate | water | biodiversity | environment | research",
+      "dataset_families": "In-situ/remote marine measurements, experiments, model outputs and synthesis products; released ERDDAP dataset descriptors",
+      "documentation_url": "https://erddap.bco-dmo.org/erddap/rest.html",
+      "api_base_url": "https://erddap.bco-dmo.org/erddap/",
+      "format_protocol": "ERDDAP REST metadata/search, OPeNDAP tabledap/griddap, JSON/CSV/NetCDF and other formats; graphs/files separate",
+      "authentication": "Anonymous metadata-table GET succeeded; no credentials, source restricted subsets not tested",
+      "free_access_restrictions": "Default CC BY4with attribution/link/change indication; synthesized sources can retain prior more restrictive licences",
+      "license": "CC BY4.0 for datasets and associated information unless specified otherwise",
+      "license_url": "https://www.bco-dmo.org/how-to/access-and-reuse/attribution",
+      "api_verification_state": "Native ERDDAP/RESTguide HTTP200; anonymous allDatasets datasetID-only GET HTTP200 valid JSON2706rows. Native attribution body is embedded escaped publication text in HTML despite visible Loading shell; exact grant/exceptions locally inspected.",
+      "latest_checked_utc": "2026-10-18T02:13:15.145965+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18413,6 +18431,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "open-data-lmu",
+      "provider": "Ludwig Maximilian University Munich Library",
+      "service_name": "Open Data LMU bibliographic metadata OAI-PMH",
+      "geographic_coverage": "LMU-affiliated multidisciplinary research projects; dataset geography varies globally",
+      "topical_coverage": "research | education",
+      "dataset_families": "Bibliographic discovery metadata for research datasets; source files retain chosen/source-specific licences",
+      "documentation_url": "https://data.ub.uni-muenchen.de/help/index.html",
+      "api_base_url": "https://data.ub.uni-muenchen.de/cgi/oai2",
+      "format_protocol": "OAI-PMH/XML described in indexed LMU library2020primary service presentation; current documentation/runtime unresolved",
+      "authentication": "Public OAI harvesting described historically; native current Identify request guard-deferred unsent, no credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 1.0 for all bibliographic metadata",
+      "license_url": "https://data.ub.uni-muenchen.de/help/index.html",
+      "api_verification_state": "Native root/help HTTP200; current Identify guard-deferred unsent. Official2020PDF rendered/indexed text describes OAI but direct native PDFnow404. Historical documentation only, current API existence/runtime unresolved.",
+      "latest_checked_utc": "2026-10-18T02:13:15.145965+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "open-research-exeter",
       "provider": "University of Exeter",
       "service_name": "Open Research Exeter research-output metadata repository",
@@ -27178,6 +27214,24 @@
       "license_url": "https://opendevelopmentcambodia.net/terms-of-use/",
       "api_verification_state": "actual_public_JSON_sample_success_CKAN_metadata_and_native_names_current_restricted_offer_reviewed",
       "latest_checked_utc": "2026-10-17T11:23:42.029459+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "open-adas-atomic-data",
+      "provider": "University of Strathclyde / ADAS Project",
+      "service_name": "OPEN-ADAS atomic and plasma data service",
+      "geographic_coverage": "Atomic/ionic physical data, non-geographic; applications include fusion and astrophysics",
+      "topical_coverage": "astronomy | energy | research",
+      "dataset_families": "Fundamental/derived atomic rate and cross-section classes ADF01/04/07/08/09/38/39/48 and ADF11/12/13/15/21/22",
+      "documentation_url": "https://open.adas.ac.uk/terms-and-conditions",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public search interface; no account, download, permission request or agreement used",
+      "free_access_restrictions": "Nonmembers can browse/download under restrictive personal-use terms, not unrestricted open access/reuse",
+      "license": "Personal-use-only; commercial use, redistribution, website/database/code incorporation require written permission",
+      "license_url": "https://open.adas.ac.uk/terms-and-conditions",
+      "api_verification_state": "Native homepage and terms HTTP200 HTML; exact documented read-only API unresolved. No atomic data queries/files or code downloads.",
+      "latest_checked_utc": "2026-10-18T02:13:15.145965+00:00",
       "classification": "restricted"
     },
     {
