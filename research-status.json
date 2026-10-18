@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:10:45.564539+00:00",
+  "published_at": "2026-10-18T00:12:48.179460+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:10:01.917358+00:00",
+  "research_updated_at": "2026-10-18T00:11:49.679002+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Fairbanks deduplicated to NWS; central RADAR OAI runtime and scoped CC0 verified; RADAR-BB distinct interface unresolved.",
+  "latest_milestone": "RADAR4KIT distinct candidate added; existing ALA/BGS records updated with current provider-specific rights and access caveats.",
   "counts": {
     "verified": 321,
-    "candidates": 660,
+    "candidates": 661,
     "excluded": 167,
     "sample_successes": 469
   },
@@ -4897,7 +4897,7 @@
       "license": "CC BY 4.0 for verified source resource; occurrence payload also declared CC0",
       "license_url": "https://collections.ala.org.au/ws/dataResource/dr15863",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:07:43.650785+00:00",
+      "latest_checked_utc": "2026-10-18T00:11:45.309725+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5275,7 +5275,7 @@
       "license": "Open Government Licence3.0 for this OpenGeoscience API data",
       "license_url": "https://www.bgs.ac.uk/technologies/web-services/api/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T03:47:13.813574+00:00",
+      "latest_checked_utc": "2026-10-18T00:11:45.309725+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18112,6 +18112,24 @@
       "license_url": "https://fdm-bb.de/fdm-dienste/radar-bb/datengebende/",
       "api_verification_state": "Native root HTTP200 minimal application shell, not API. Native policy targets guard-deferred; indexed operator metadata grant retained. No own machine API sample.",
       "latest_checked_utc": "2026-10-18T00:09:57.304012+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "radar4kit-repository",
+      "provider": "Karlsruhe Institute of Technology / KIT Library",
+      "service_name": "RADAR4KIT research data metadata repository",
+      "geographic_coverage": "KIT institutional multidisciplinary research; source geography varies",
+      "topical_coverage": "research",
+      "dataset_families": "Published research dataset/package metadata; KITopen-linked research data descriptions",
+      "documentation_url": "https://www.bibliothek.kit.edu/radar4kit.php",
+      "api_base_url": "",
+      "format_protocol": "OAI-PMH with RADAR/DublinCore metadata documented; REST service documented, own endpoint unknown",
+      "authentication": "Public OAI metadata for published packages; deposits/workspaces require KIT or separately authorized account",
+      "free_access_restrictions": "Metadata public even if files embargoed; private archived and publicly archived packages have different visibility/harvest conditions. Files use selected licences including all-rights-reserved/proprietary.",
+      "license": "CC0 1.0 for published descriptive metadata",
+      "license_url": "https://www.bibliothek.kit.edu/radar4kit.php",
+      "api_verification_state": "Native operator policy documents metadataCC0 and OAI/REST; rootHTTP200 blank shell. Own endpoint/runtime unverified, no guessed API request.",
+      "latest_checked_utc": "2026-10-18T00:11:45.309725+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
