@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:10:40.217689+00:00",
+  "published_at": "2026-10-18T14:12:42.992651+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:10:24.349158+00:00",
+  "research_updated_at": "2026-10-18T14:11:33.207828+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: ISRCTN scoped CC0/BY4/XML docs; DISGENET restricted; UniCatt OAI identity/docsheld; CSDB RDF/rightsunknown; SwissLipids SIB BY4/6JSON descriptors; RDG per-dataset policy/runtimeheld; MDZ584000incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to597pages/597000refs;2616503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 422,
-    "candidates": 1067,
+    "verified": 423,
+    "candidates": 1069,
     "excluded": 319,
     "sample_successes": 464
   },
@@ -9778,6 +9778,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "iuphar-guide-pharmacology-api",
+      "provider": "IUPHAR / British Pharmacological Society / University of Edinburgh",
+      "service_name": "Guide to Pharmacology REST API",
+      "geographic_coverage": "International pharmacological knowledge; exact source/organism coverage unqueried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Pharmacological targets, ligands, interactions, diseases, references and database cross-links",
+      "documentation_url": "https://www.guidetopharmacology.org/webServices.jsp | https://www.guidetopharmacology.org/gtopdbSustainability.jsp",
+      "api_base_url": "https://www.guidetopharmacology.org/services/",
+      "format_protocol": "REST JSON documented",
+      "authentication": "API key required; registered users must contact owner for key, recommended GTP-API-Key header. No key obtained/used.",
+      "free_access_restrictions": "Registration/key required. Commercial organizations pay annual access fees; noncommercial entitlement/any approval conditions not fully verified. No paid access acquired.",
+      "license": "ODbL database; CC BY-SA 4.0 contents",
+      "license_url": "https://www.guidetopharmacology.org/webServices.jsp | https://www.guidetopharmacology.org/gtopdbSustainability.jsp | https://opendatacommons.org/licenses/odbl/ | https://creativecommons.org/licenses/by-sa/4.0/",
+      "api_verification_state": "Native API documentation/sustainability200 substantive HTML, 70 distinct published path-template mentions indexed. Current key requirement documented; no API JSON or scientific sample requested.",
+      "latest_checked_utc": "2026-10-18T14:10:56.546795+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "japan",
       "provider": "Japanese government e-Stat",
       "service_name": "Japanese government e-Stat open data portal",
@@ -17718,6 +17736,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "discuss-data-repository",
+      "provider": "Research Centre for East European Studies, University of Bremen / Göttingen State and University Library",
+      "service_name": "Discuss Data repository",
+      "geographic_coverage": "East European, South Caucasus and Central Asian research context; exact dataset geographic corpus not queried",
+      "topical_coverage": "research | law/civic data | demographics",
+      "dataset_families": "Social-science research collections, documentation and discussions; files can be public/requested/closed",
+      "documentation_url": "https://discuss-data.net/documentation/ | https://discuss-data.net/documentation/rules/data-access-policy/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public documentation accessible; data access depends on collection/account/owner approval; exact API auth unknown",
+      "free_access_restrictions": "Mixed public/requested/closed data access; no source fees or universal free tier inferred",
+      "license": "Mixed per-collection ODC-BY, ODbL, no-sharing or custom agreements; metadata-wide grant unknown",
+      "license_url": "https://discuss-data.net/documentation/rules/licenses/ | https://discuss-data.net/documentation/rules/terms-and-conditions/",
+      "api_verification_state": "Native documentation/licenses/terms/access-policy200HTML; no exact public API or JSON/XML sample/schema verified.",
+      "latest_checked_utc": "2026-10-18T14:10:56.546795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "disprot-protein-disorder-api",
       "provider": "DisProt / BioComputing UP, University of Padua",
       "service_name": "DisProt protein disorder REST API",
@@ -22519,8 +22555,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across584successfulpages/584000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:07:25.366540+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across597successfulpages/597000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:11:28.553756+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23529,6 +23565,24 @@
       "license_url": "https://pds.nasa.gov/data/pds4/system_bundle/document_pds4_standards/1.25.0.0/PDS4_DataProvidersHandbook_1.25.0.pdf",
       "api_verification_state": "Native MCPportal200app shell, official APIoverview/search/endpoints200HTML, handbook200PDF with officialreadertext, properties200validJSON4105schemaitems; no source products or observations requested",
       "latest_checked_utc": "2026-10-18T09:04:11.690879+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-physical-science-informatics",
+      "provider": "NASA",
+      "service_name": "Physical Science Informatics repository",
+      "geographic_coverage": "Space/ground physical-science investigations; exact missions and dataset scope unqueried",
+      "topical_coverage": "research | astronomy",
+      "dataset_families": "Physical science experimental research and investigation documentation",
+      "documentation_url": "https://science.nasa.gov/science-research/psi-database-is-live-with-new-features-to-improve-user-experience/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verified PSI metadata/source-data grant",
+      "license_url": "",
+      "api_verification_state": "Native PSI root200 client-rendered title only; independent NASA institutional announcement200 substantive HTML. No exact public API/docs/schema or machine response verified.",
+      "latest_checked_utc": "2026-10-18T14:10:56.546795+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
