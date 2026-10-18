@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:12:01.765079+00:00",
+  "published_at": "2026-10-18T21:14:05.104265+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:11:00.664805+00:00",
+  "research_updated_at": "2026-10-18T21:12:56.053852+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UiTM NC restricted; RADAR4Memory and WueData CC0 metadata verified, shared OAI identity versus invalid WueData response distinguished.",
+  "latest_milestone": "UiTM NC restricted; Memory/WueData/Chem/KonDATA scoped CC0 metadata; Datathek unresolved; shared OAI XML and local HTML responses distinguished.",
   "counts": {
-    "verified": 465,
-    "candidates": 1362,
+    "verified": 467,
+    "candidates": 1363,
     "excluded": 396,
     "sample_successes": 464
   },
@@ -2927,6 +2927,7 @@
           "poland-bdl",
           "poland-gus-sdg",
           "poland-gus-transtat",
+          "radar4chem-research-data",
           "redbridge-datashare",
           "registry-transparenz-karlsruhe-de",
           "slovenia-statistics",
@@ -3269,6 +3270,7 @@
           "juelich-data-repository",
           "ki-repository-public-metadata",
           "kings-kords",
+          "kondata-research-data-repository",
           "lincolnshire-open-data-portal",
           "lindat-repository",
           "moldova-data",
@@ -3297,6 +3299,7 @@
           "ukraine-data",
           "wales-statistics",
           "warsaw-research-data-metadata",
+          "wuedata-research-repository",
           "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
@@ -3373,6 +3376,7 @@
           "middlesex-institutional-figshare",
           "minho-datarepositorium",
           "newcastle-data-ncl",
+          "oeaw-datathek-research-repository",
           "ortolang-fcs",
           "osnabrueck-osnadata",
           "phaidra-university-vienna",
@@ -3913,6 +3917,7 @@
           "palermo-open-data",
           "piemonte-opendata-catalog",
           "poland-bdl",
+          "radar4memory-research-data",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
           "riubu-burgos-repository",
@@ -3987,6 +3992,7 @@
           "nfdi4ing-ingest-metadata-api",
           "nhm-data-portal-api",
           "nijmegen-regional-archive-open-data",
+          "oeaw-datathek-research-repository",
           "openforest-dataverse",
           "ortolang-fcs",
           "ostdata-research-repository",
@@ -4098,6 +4104,7 @@
           "juelich-data-repository",
           "ki-repository-public-metadata",
           "kings-kords",
+          "kondata-research-data-repository",
           "lindat-repository",
           "lithuania-dataportal",
           "materials-cloud-archive",
@@ -4112,6 +4119,8 @@
           "poland-bdl",
           "psycharchives-repository",
           "radar-public-metadata",
+          "radar4chem-research-data",
+          "radar4memory-research-data",
           "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
@@ -4128,7 +4137,8 @@
           "uk-police",
           "ukho-marine-data-portal",
           "warsaw-research-data-metadata",
-          "wegenernet-file-api"
+          "wegenernet-file-api",
+          "wuedata-research-repository"
         ],
         "candidate_provider_ids": [
           "acdh-fcs",
@@ -4265,6 +4275,7 @@
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
           "odissei-metadata-portal",
+          "oeaw-datathek-research-repository",
           "open-energy-platform",
           "openforest-dataverse",
           "ortolang-fcs",
@@ -5608,7 +5619,8 @@
           "thailand-gistda"
         ],
         "restricted_provider_ids": [
-          "kasetsart-knowledge-repository"
+          "kasetsart-knowledge-repository",
+          "uitm-research-data-repository"
         ]
       },
       "climate/weather/environment": {
@@ -5625,7 +5637,8 @@
           "wis2-thailand"
         ],
         "restricted_provider_ids": [
-          "southeast-asian-climate-assessment-dataset"
+          "southeast-asian-climate-assessment-dataset",
+          "uitm-research-data-repository"
         ]
       },
       "water": {
@@ -5657,7 +5670,9 @@
         "candidate_provider_ids": [
           "usm-open-data-dspace-api"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "uitm-research-data-repository"
+        ]
       },
       "education": {
         "status": "partial_verified",
@@ -5674,7 +5689,8 @@
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository",
           "nie-research-data-repository",
-          "smu-research-data-repository"
+          "smu-research-data-repository",
+          "uitm-research-data-repository"
         ]
       },
       "housing": {
@@ -5769,7 +5785,8 @@
           "usu-sumatera-utara-repository"
         ],
         "restricted_provider_ids": [
-          "kasetsart-knowledge-repository"
+          "kasetsart-knowledge-repository",
+          "uitm-research-data-repository"
         ]
       },
       "research": {
@@ -5788,7 +5805,8 @@
           "kasetsart-knowledge-repository",
           "nie-research-data-repository",
           "smu-research-data-repository",
-          "southeast-asian-climate-assessment-dataset"
+          "southeast-asian-climate-assessment-dataset",
+          "uitm-research-data-repository"
         ]
       }
     },
@@ -11173,6 +11191,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "kondata-research-data-repository",
+      "provider": "University of Konstanz / KIM",
+      "service_name": "KonDATA research metadata services",
+      "geographic_coverage": "Germany institutional multidisciplinary research, source coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset metadata; source packages have individual licensing/embargo",
+      "documentation_url": "https://kondata.uni-konstanz.de/ | https://www.kim.uni-konstanz.de/en/services/data-servers-and-cloud-computing/kondata/terms-of-use/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Unknown instance read API; indexed terms say restricted source packages may require registration/Shibboleth, no account used",
+      "free_access_restrictions": "Indexed native terms state search/download free; some source packages controlled and per-provider license/embargo applies.",
+      "license": "CC0 1.0 descriptive metadata; source data separate chosen licenses",
+      "license_url": "https://www.kim.uni-konstanz.de/en/services/data-servers-and-cloud-computing/kondata/terms-of-use/",
+      "api_verification_state": "Native root HTTP200 describes standard dissemination interfaces and local KIM storage with RADAR technology. Legal host robots hold preserved. Registry shared cloud endpoint does not establish current local API identity; no instance API request or runtime success claimed.",
+      "latest_checked_utc": "2026-10-18T21:12:18.416048+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ku-leuven-rdr",
       "provider": "KU Leuven LIBIS / KU Leuven Libraries",
       "service_name": "KU Leuven RDR research data repository APIs",
@@ -13117,6 +13153,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "radar4chem-research-data",
+      "provider": "FIZ Karlsruhe / NFDI4Chem",
+      "service_name": "RADAR4Chem metadata services",
+      "geographic_coverage": "Chemistry research; eligible publishing institutions Germany/EU/Switzerland/UK, dataset scope varies",
+      "topical_coverage": "research | chemistry | environment",
+      "dataset_families": "Chemistry research dataset descriptions; actual chemical/assay/structure/source files not queried",
+      "documentation_url": "https://radar.products.fiz-karlsruhe.de/en/radarabout/radar4chem | https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-oai-provider | https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-api",
+      "api_base_url": "https://www.radar-service.eu/oai/OAIHandler | https://www.radar-service.eu/radar/api/",
+      "format_protocol": "OAI-PMH XML; REST JSON documented, not source-tested",
+      "authentication": "Shared anonymous OAI identity succeeded; REST most operations OAuth/local user client activation, credentials not used",
+      "free_access_restrictions": "Current native Chem page states free publishing for eligible publicly funded institutions in Germany/EU/Switzerland/UK, current10GB project offer. Source grants and embargo separate.",
+      "license": "CC0 metadata; source datasets individually licensed",
+      "license_url": "https://radar.products.fiz-karlsruhe.de/sites/default/files/radar/docs/terms/License_and_User_Instructions_for_Data_Providers_RADAR4Chem.pdf",
+      "api_verification_state": "Native portal, community page, legal PDF and OAI documentation HTTP200. Shared cloud OAI Identify valid XML in same round; not proof Chem-specific record contents/REST runtime. No additional shared request or chemical/source query.",
+      "latest_checked_utc": "2026-10-18T21:12:18.416048+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "radar4memory-research-data",
       "provider": "FIZ Karlsruhe / NFDI4Memory",
       "service_name": "RADAR4Memory metadata services",
@@ -15020,8 +15074,8 @@
       "free_access_restrictions": "Native terms state research/search and downloads free for users; source package rights and embargo separate. Provider storage may cost, not purchased.",
       "license": "CC0 metadata; individual licenses for source packages",
       "license_url": "https://www.rz.uni-wuerzburg.de/dienste/forschung-digital/wuedata/nutzungsbedingungen/",
-      "api_verification_state": "Native home/terms HTTP200; OAI Identify HTTP200 but XML parse failed, no valid identity/API success claimed. Native FAQ documents OAI and REST; actual data/search interface untested.",
-      "latest_checked_utc": "2026-10-18T21:10:55.854422+00:00",
+      "api_verification_state": "Native homepage/terms/FAQ HTTP200. Exact OAI Identify query HTTP200 returned an HTML OAI provider startpage, not protocol XML or identity success; parser failure preserved. FAQ explicitly documents OAI-PMH and free published-dataset REST access; additional functionality requires credentials. No source request or alternate route.",
+      "latest_checked_utc": "2026-10-18T21:12:18.416048+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -29784,6 +29838,24 @@
       "license_url": "https://libres.uncg.edu/ir/uncg/OdumDataDepositForm.pdf",
       "api_verification_state": "Original UNC collection and independent Odum archive guide guard-deferred by robots/inaccessible-robots policy; targets unsent. No OAI/REST/SWORD or alternate host/backend request; indexed context not runtime proof.; priorholds reused, no newUNCroot/APIrequest",
       "latest_checked_utc": "2026-10-18T11:05:07.532751+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "oeaw-datathek-research-repository",
+      "provider": "Austrian Academy of Sciences",
+      "service_name": "Datathek research repository",
+      "geographic_coverage": "Austria institutional multidisciplinary research, source geography unknown",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Multidisciplinary research data repository; native inventory and source rights unresolved",
+      "documentation_url": "https://datathek.oeaw.ac.at | https://datathek.oeaw.ac.at/en/nutzungsbedingungen/d-4",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://datathek.oeaw.ac.at/en/nutzungsbedingungen/d-4",
+      "api_verification_state": "Native homepage/terms HTTP200 HTML, substantive blocks hidden behind external-content/cookie placeholder. Not API success. Shared cloud OAI identity exists but cannot attribute Datathek own deployment/set or rights from that.",
+      "latest_checked_utc": "2026-10-18T21:12:18.416048+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
