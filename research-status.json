@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:32:25.899023+00:00",
+  "published_at": "2026-10-18T16:34:29.296090+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:32:14.504769+00:00",
+  "research_updated_at": "2026-10-18T16:34:19.036118+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to865pages/865000refs;2348503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Rosario default dataBY4/exceptions, osnaData institutional rights scope, Topoi200JSONerror reviewed; three candidates/runtime gaps.",
   "counts": {
     "verified": 437,
-    "candidates": 1163,
+    "candidates": 1166,
     "excluded": 341,
     "sample_successes": 464
   },
@@ -27369,6 +27369,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "osnabrueck-osnadata",
+      "provider": "Osnabrueck University Library",
+      "service_name": "osnaData research-data repository",
+      "geographic_coverage": "Germany institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and descriptions, including metadata-only external references",
+      "documentation_url": "https://www.ub-cms.uni-osnabrueck.de/forschen_publizieren/forschungsdaten_der_uos_osnadata/leitlinien_osnadata.html | https://www.ub-cms.uni-osnabrueck.de/forschen_publizieren/forschungsdaten_der_uos_osnadata/osnadata_faq.html",
+      "api_base_url": "https://osnadata.ub.uni-osnabrueck.de/oai",
+      "format_protocol": "Registry Dataverse OAI-PMH/REST; current wire contract untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected source licenses; blanket metadata grant unknown",
+      "license_url": "https://www.ub-cms.uni-osnabrueck.de/forschen_publizieren/forschungsdaten_der_uos_osnadata/leitlinien_osnadata.html",
+      "api_verification_state": "Original OAI and independent FAQ guard-deferred unsent. Separate live indexed official guidelines/FAQ review saved; no direct API response.",
+      "latest_checked_utc": "2026-10-18T16:34:14.419218+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ostdata-research-repository",
       "provider": "OstData / osmikon research-data infrastructure",
       "service_name": "OstData research-data repository",
@@ -29439,6 +29457,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rosario-academic-data",
+      "provider": "Universidad Nacional de Rosario",
+      "service_name": "Repositorio de Datos Academicos RDA-UNR",
+      "geographic_coverage": "Argentina institutional research; source geographic coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research data associated with UNR projects or institutional journal publications",
+      "documentation_url": "https://dataverse-info.unr.edu.ar/politicas/ | https://dataverse-info.unr.edu.ar/guia-de-uso/encontrar-y-usar-datos/",
+      "api_base_url": "https://dataverse.unr.edu.ar/oai",
+      "format_protocol": "Registry OAI/REST; native owner user guide describes anonymous public discovery and API file-download URLs; current wire untested",
+      "authentication": "Native guide documents anonymous discovery of published content; unpublished material needs permission. API authentication/current quotas unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Default CC BY4 data; permitted exceptions and record restrictions; uniform metadata grant unknown",
+      "license_url": "https://dataverse-info.unr.edu.ar/politicas/ | https://creativecommons.org/licenses/by/4.0/deed.es",
+      "api_verification_state": "Original OAI Identify guard-deferred unsent. Independent official policies/user guide200 HTML, current API runtime untested.",
+      "latest_checked_utc": "2026-10-18T16:34:14.419218+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rosario-city",
       "provider": "Municipalidad de Rosario",
       "service_name": "Rosario municipal DKAN datastore API candidate",
@@ -31434,6 +31470,24 @@
       "license_url": "https://opensci.aori.u-tokyo.ac.jp/cruise-en.html",
       "api_verification_state": "Native terms and publicHTMLcruiselist verified; no documented machine-query endpoint/runtime",
       "latest_checked_utc": "2026-10-18T00:20:19.725735+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "topoi-climate-models",
+      "provider": "Edition Topoi / Excellence Cluster Topoi",
+      "service_name": "Climate Models ANCM collection",
+      "geographic_coverage": "Registry describes global/regional past6000-year climate simulations; current source coverage unverified",
+      "topical_coverage": "climate/weather/environment | research | culture",
+      "dataset_families": "Registry ECHAM/COSMO-CLM paleoclimate model-output collection; actual files/parameters not inspected",
+      "documentation_url": "http://repository.edition-topoi.org/collection/ANCM",
+      "api_base_url": "",
+      "format_protocol": "HTTP200 JSON error object; registry NetCDF is a file format, browser fragment is not proven API",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown actual collection metadata/data grant; registry BY-SA3.0DE unverified",
+      "license_url": "http://repository.edition-topoi.org/collection/ANCM",
+      "api_verification_state": "HTTP200 body parses JSON error accessing couchdb, not successful collection/API data. No retries/alternate metadata/search/backend after application error.",
+      "latest_checked_utc": "2026-10-18T16:34:14.419218+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
