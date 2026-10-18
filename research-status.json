@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:08:34.300731+00:00",
+  "published_at": "2026-10-18T19:10:37.375349+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:08:13.064165+00:00",
+  "research_updated_at": "2026-10-18T19:10:19.277235+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six institutional services reviewed; native identity/rights and held interfaces separated; nine RODBUK members queued individually.",
+  "latest_milestone": "TEC native root/held help; InDoRES outage and separate catalogue; NIE default NC terms scoped restricted.",
   "counts": {
     "verified": 445,
-    "candidates": 1286,
-    "excluded": 371,
+    "candidates": 1288,
+    "excluded": 372,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -23253,6 +23253,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "indores-data-repository",
+      "provider": "CNRS / InDoRES",
+      "service_name": "CNRS / InDoRES research data repository",
+      "geographic_coverage": "France research network; source geography varies",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Institutional research dataset descriptions; source holdings not enumerated",
+      "documentation_url": "https://www.indores.fr/index.php/extraire-publier-un-jeu-de-donnees",
+      "api_base_url": "https://data.indores.fr/oai",
+      "format_protocol": "Registry OAI-PMH; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown; source-specific terms",
+      "license_url": "https://www.indores.fr/index.php/extraire-publier-un-jeu-de-donnees",
+      "api_verification_state": "Native owner guidance requires checking individual license/access; open-license recommendation is not a uniform grant. Root guard-deferred; indexed official root reports application/APIs temporarily unavailable. No OAI or alternate GeoNetwork request after hold. Cat.InDoRES metadata catalogue is distinct and queued separately.",
+      "latest_checked_utc": "2026-10-18T19:10:14.351464+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ingv-oedatarep",
       "provider": "INGV Osservatorio Etneo",
       "service_name": "OEDataRep Open Data Repository",
@@ -33261,6 +33279,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tec-monterrey-datahub",
+      "provider": "Tecnológico de Monterrey",
+      "service_name": "Tecnológico de Monterrey research data repository",
+      "geographic_coverage": "Mexico institutional research; individual source geography varies",
+      "topical_coverage": "education | research | health | engineering",
+      "dataset_families": "Institutional research dataset descriptions; source holdings not enumerated",
+      "documentation_url": "https://datahub.tec.mx/help.xhtml",
+      "api_base_url": "https://datahub.tec.mx/oai",
+      "format_protocol": "Registry OAI-PMH; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown; source-specific terms",
+      "license_url": "https://datahub.tec.mx/help.xhtml",
+      "api_verification_state": "Native root HTTP200 substantive repository. Help request failed; exact OAI deferred unsent after same-host failure. Root open-data description and generic CC registry claim not uniform metadata/source grant. Source-specific terms and exact metadata rights unknown.",
+      "latest_checked_utc": "2026-10-18T19:10:14.351464+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tec-tecdatos-repository",
       "provider": "Tecnológico de Costa Rica / SIBITEC",
       "service_name": "TECdatos Research Data Repository",
@@ -42260,6 +42296,24 @@
       "license_url": "https://repository.niddk.nih.gov/faq",
       "api_verification_state": "Native FAQ200HTML reviewed; not an API response. Exact public query API unknown.",
       "latest_checked_utc": "2026-10-18T06:40:31.443200+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nie-research-data-repository",
+      "provider": "National Institute of Education Singapore",
+      "service_name": "National Institute of Education Singapore research data repository",
+      "geographic_coverage": "Singapore institutional education research; source geography varies",
+      "topical_coverage": "education | research",
+      "dataset_families": "Institutional research dataset descriptions; source holdings not enumerated",
+      "documentation_url": "https://libris.nie.edu.sg/sites/default/files/pdf/NIE_Data_Repository_General_Terms_of_Use.pdf",
+      "api_base_url": "https://researchdata.nie.edu.sg/oai",
+      "format_protocol": "Registry OAI-PMH; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-NC 4.0 default; custom source terms and public metadata rights unresolved",
+      "license_url": "https://libris.nie.edu.sg/sites/default/files/pdf/NIE_Data_Repository_General_Terms_of_Use.pdf",
+      "api_verification_state": "Native terms PDF HTTP200; official indexed page6 review identifies default CC BY-NC4 for uploaded materials and permits custom licenses. Restricted classification covers default-licensed source families, not a claim every custom source closed. Metadata preservation/cataloguing/DataCite permissions are operator permissions, no blanket public metadata grant verified. Terms internally dated October25,2018; current applicability beyond published document unresolved. Root guard-deferred, no OAI alternate.",
+      "latest_checked_utc": "2026-10-18T19:10:14.351464+00:00",
       "classification": "restricted"
     },
     {
