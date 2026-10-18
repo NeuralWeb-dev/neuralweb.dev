@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:10:37.375349+00:00",
+  "published_at": "2026-10-18T19:12:41.370983+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:10:19.277235+00:00",
+  "research_updated_at": "2026-10-18T19:12:07.794263+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TEC native root/held help; InDoRES outage and separate catalogue; NIE default NC terms scoped restricted.",
+  "latest_milestone": "ARP native CC BY-NC default corrects registry NC-ND; NYCU custom terms and GEUS mixed source rights separated.",
   "counts": {
     "verified": 445,
-    "candidates": 1288,
-    "excluded": 372,
+    "candidates": 1290,
+    "excluded": 373,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -21705,6 +21705,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "geus-dataverse-repository",
+      "provider": "Geological Survey of Denmark and Greenland",
+      "service_name": "Geological Survey of Denmark and Greenland research data repository",
+      "geographic_coverage": "Denmark and Greenland geoscience; source geography varies",
+      "topical_coverage": "geospatial | water | energy | climate/weather/environment | research",
+      "dataset_families": "Research dataset descriptions; individual source families not fully enumerated",
+      "documentation_url": "https://dataverse.geus.dk/",
+      "api_base_url": "https://dataverse.geus.dk/oai",
+      "format_protocol": "Registry OAI-PMH; REST/SWORD claims where listed; exact runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; source-specific licenses",
+      "license_url": "https://dataverse.geus.dk/",
+      "api_verification_state": "Native root HTTP200 substantive institutional research repository. Exact OAI Identify guard-deferred unsent; no alternate query. Indexed primary source descriptions show CC BY4/CC0 as well as custom internal-use/customer restrictions. Uniform metadata/database grant unresolved; public access and registry public-domain claim not universal license.",
+      "latest_checked_utc": "2026-10-18T19:12:01.368389+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gfbio-terminology-service",
       "provider": "German Federation for Biological Data",
       "service_name": "GFBio Terminology Service API",
@@ -28128,6 +28146,24 @@
       "license_url": "https://www.nyc.gov/opendata/get-started/FAQs",
       "api_verification_state": "actual_public_JSON_sample_success_current_inventory_metadata_FAQ_terms_scope_unresolved",
       "latest_checked_utc": "2026-10-17T10:46:29.236550+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nycu-dataverse-repository",
+      "provider": "National Yang Ming Chiao Tung University",
+      "service_name": "National Yang Ming Chiao Tung University research data repository",
+      "geographic_coverage": "Taiwan institutional research; source geography varies",
+      "topical_coverage": "research | education | health | engineering",
+      "dataset_families": "Research dataset descriptions; individual source families not fully enumerated",
+      "documentation_url": "https://rdm.lib.nycu.edu.tw/en/freepage?fid=44",
+      "api_base_url": "https://dataverse.lib.nycu.edu.tw/oai",
+      "format_protocol": "Registry OAI-PMH; REST/SWORD claims where listed; exact runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; source-specific licenses",
+      "license_url": "https://rdm.lib.nycu.edu.tw/en/freepage?fid=44",
+      "api_verification_state": "Original repository guard-deferred, no OAI alternate. Native owner guide HTTP200 minimal shell with website rights notice; indexed same guide permits CC0 or other source terms and file embargoes. Individual indexed CC0 examples not blanket metadata/source grant. No website notice transfer to all datasets.",
+      "latest_checked_utc": "2026-10-18T19:12:01.368389+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -40766,6 +40802,24 @@
       "license_url": "https://openarchive.tk.mta.hu/policies.html",
       "api_verification_state": "native_OAI2_documented_Identify_robots_disallowed_target_unsent_NC_metadata_policy_verified",
       "latest_checked_utc": "2026-10-17T22:01:12.811476+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "hunren-arp-data-repository",
+      "provider": "HUN-REN ARP",
+      "service_name": "HUN-REN ARP research data repository",
+      "geographic_coverage": "Hungary research network; source geography varies",
+      "topical_coverage": "research | culture | science",
+      "dataset_families": "Research dataset descriptions; individual source families not fully enumerated",
+      "documentation_url": "https://researchdata.hu/altalanos-felhasznalasi-feltetelek",
+      "api_base_url": "https://repo.researchdata.hu/oai",
+      "format_protocol": "Registry OAI-PMH; REST/SWORD claims where listed; exact runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-NC 4.0 default; different source terms allowed; metadata grant unresolved",
+      "license_url": "https://researchdata.hu/altalanos-felhasznalasi-feltetelek",
+      "api_verification_state": "Native institutional root and service terms HTTP200. Terms default CC BY-NC4 for deposited research data/packages, allow different CC/custom/restricted agreements. No uniform public metadata grant verified. Registry NC-ND is not the native current default; some indexed CC0 sources do not clear entire service. Operator content reserves rights beyond minimal intended-use permission. Original repository held, no OAI alternate.",
+      "latest_checked_utc": "2026-10-18T19:12:01.368389+00:00",
       "classification": "restricted"
     },
     {
