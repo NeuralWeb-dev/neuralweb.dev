@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:26:25.081783+00:00",
+  "published_at": "2026-10-18T21:28:28.925353+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:24:00.805353+00:00",
+  "research_updated_at": "2026-10-18T21:27:55.232580+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IISH collectionCC0/OAI distinctfromDataverse; GTAAnativeODbL; HES8WFSdescriptors/scopedOGL; CGS/Alaska/catalog unresolved; NASSdedup.",
+  "latest_milestone": "Cefas scoped OGLv3/schema/licence JSON verified; IncluSet JSshell and APIS repository/access/API gaps retained.",
   "counts": {
-    "verified": 472,
-    "candidates": 1369,
+    "verified": 473,
+    "candidates": 1371,
     "excluded": 398,
     "sample_successes": 464
   },
@@ -8064,6 +8064,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cefas-data-portal-api",
+      "provider": "Cefas / UK Defra",
+      "service_name": "Cefas Data Portal API",
+      "geographic_coverage": "UK marine/fisheries and international Cefas research; per-dataset geography varies",
+      "topical_coverage": "oceans | water | environment | biodiversity | agriculture | research",
+      "dataset_families": "Marine/fisheries/aquaculture datasets, monitoring, environmental assessments and metadata holdings",
+      "documentation_url": "https://www.cefas.co.uk/data-and-publications/cefas-data-hub-apis/ | https://data-api.cefas.co.uk/index.html | https://data-api.cefas.co.uk/swagger/v2/swagger.json",
+      "api_base_url": "https://data-api.cefas.co.uk/api/",
+      "format_protocol": "REST JSON/XML, Swagger2.0 schema verified; WMS documented",
+      "authentication": "Anonymous licence-vocabulary GET succeeded and dummy GET returned documented204. Other published/private/mutation/admin operations may require permissions; not tested",
+      "free_access_restrictions": "Public published metadata/data APIs documented; binary files downloadable rather than live query, no source files requested. Per-record exceptions and private/unpublished material separate.",
+      "license": "OGLv3 hub data/information unless metadata explicitly says otherwise; exemptions retained",
+      "license_url": "https://www.cefas.co.uk/data-and-publications/cefas-data-hub-terms-and-conditions/",
+      "api_verification_state": "Native guide/terms/schema HTTP200; valid Swagger2 schema72paths. /api/empty documented204 NoContent returned204; /api/licences anonymous HTTP200 valid JSON2licence descriptors. Portal HTML cookie shell and docsUI are not source/API response success. No marine observations or files.",
+      "latest_checked_utc": "2026-10-18T21:27:49.693336+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "cellosaurus-rest-api",
       "provider": "SIB Swiss Institute of Bioinformatics / CALIPHO",
       "service_name": "Cellosaurus cell-line knowledge REST API",
@@ -16091,6 +16109,24 @@
       "license_url": "https://apgc.awi.de/imprint",
       "api_verification_state": "CKAN_portal_framework_documentation_linked_native_sample_robots_withheld_runtime_unverified",
       "latest_checked_utc": "2026-10-17T19:02:09.169833+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "apis-portugal-social-science-archive",
+      "provider": "ICS University of Lisbon / PASSDA",
+      "service_name": "APIS Portuguese Social Information Archive",
+      "geographic_coverage": "Portugal social-science research; per-study international coverage varies",
+      "topical_coverage": "research | demographics | labor | economics | education",
+      "dataset_families": "Social attitudes/values/sociopolitical research study descriptions; source surveys separately controlled",
+      "documentation_url": "https://www.apis.ics.ulisboa.pt/ | http://www.apis.ics.ulisboa.pt/en/access-conditions/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://www.apis.ics.ulisboa.pt/en/access-conditions/",
+      "api_verification_state": "Original RCAAP repository URL robots-deferred unsent; indexed native institution describes APIS/PASSDA and study discovery via RCAAP/Nesstar, newer POLEN references are discovery only. Exact deployed API/source runtime unresolved.",
+      "latest_checked_utc": "2026-10-18T21:27:49.693336+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24605,6 +24641,24 @@
       "license_url": "https://wiki.ims.uni-stuttgart.de/extern/CLARIN-D",
       "api_verification_state": "native_IMS_workflow_OAI_publication_verified_original_VLO_policy_hold_current_IMS_API_and_grants_unresolved",
       "latest_checked_utc": "2026-10-17T21:48:59.670748+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "incluset-accessibility-dataset-discovery",
+      "provider": "IncluSet research project",
+      "service_name": "IncluSet accessibility dataset discovery",
+      "geographic_coverage": "Accessibility/wellness/aging research discovery, dataset populations and geographic scopes vary",
+      "topical_coverage": "research | health | education",
+      "dataset_families": "Discovery metadata linking external accessibility datasets, not central acquisition of subject data",
+      "documentation_url": "https://incluset.com/about",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root/about HTTP200 JavaScript-required shell, no readable policy/API contract. Indexed native about explains linking discovery metadata, not data-hosting or public network API proof.",
+      "latest_checked_utc": "2026-10-18T21:27:49.693336+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
