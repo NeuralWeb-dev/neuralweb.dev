@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:54:35.976514+00:00",
+  "published_at": "2026-10-18T05:56:39.195543+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:52:33.851754+00:00",
+  "research_updated_at": "2026-10-18T05:56:16.058263+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed; RIUMA/Apollo OAI protocol verified, ADA dedup and Leiden/ČSDA scoped restrictions preserved; grants/holds unresolved",
+  "latest_milestone": "RKI native scoped BY4 grant distinguished from missing linked retrieval; GTD restricted EULA verified, SASD held candidate.",
   "counts": {
     "verified": 361,
-    "candidates": 854,
-    "excluded": 253,
+    "candidates": 858,
+    "excluded": 255,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -18267,6 +18267,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "knmi-climate-explorer",
+      "provider": "Royal Netherlands Meteorological Institute (KNMI)",
+      "service_name": "KNMI Climate Explorer",
+      "geographic_coverage": "Global climate observations, reanalysis and climate-model/scenario sources",
+      "topical_coverage": "climate/weather/environment | water | research",
+      "dataset_families": "Station temperature/precipitation, pressure/wind, reanalysis, CMIP models and future scenarios; browser statistical analysis",
+      "documentation_url": "https://climexp.knmi.nl/about.cgi",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native about HTML includes human-verification gate; tool/API operations held. Login/registration needed for certain advanced/upload/large-data features, not attempted.",
+      "free_access_restrictions": "Owner describes free browser tool; gate and account-dependent features, source-specific reuse rights unresolved",
+      "license": "KNMI website default CC0 with exceptions; multi-source Climate Explorer data grants unconfirmed",
+      "license_url": "https://www.knmi.nl/copyright",
+      "api_verification_state": "Native about200HTML contains explicit human-verification gate, not API success; no active machine interface verified",
+      "latest_checked_utc": "2026-10-18T05:54:35.556130+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "korea",
       "provider": "Korean government data.go.kr",
       "service_name": "Korean government data.go.kr open data portal",
@@ -18282,6 +18300,24 @@
       "license_url": "https://www.data.go.kr/en/ugs/selectPortalPolicyView.do",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T06:59:08.495663+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "korea-sequence-read-archive",
+      "provider": "Korea BioData Station / KOBIC",
+      "service_name": "Korea Sequence Read Archive (KRA)",
+      "geographic_coverage": "Korea-led high-throughput sequencing archive, source organisms/geographies vary",
+      "topical_coverage": "research | biology | health",
+      "dataset_families": "High-throughput sequencing archive, INSDC-compatible submission format described by indexed owner about page",
+      "documentation_url": "https://kbds.re.kr/KRA/about | https://kbds.re.kr/service/openApi/intro",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original KRA root guard-deferred, target unsent; separate general K-BDS API page indexed, KRA-specific deployed API unverified",
+      "latest_checked_utc": "2026-10-18T05:54:35.556130+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22821,6 +22857,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rki-antimicrobial-surveillance",
+      "provider": "Robert Koch-Institut",
+      "service_name": "AMR surveillance: ARS, AVS and AntibioResDE Datentool",
+      "geographic_coverage": "Germany inpatient/outpatient antimicrobial surveillance; constituent products vary",
+      "topical_coverage": "health | research",
+      "dataset_families": "Antibiotic-resistance surveillance ARS, hospital antimicrobial consumption AVS, integrated ARVIA reporting and AntibioResDE specialist-information resistance dataset",
+      "documentation_url": "https://amr.rki.de/Content/Fachinformation/Methoden.aspx",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Public aggregate browser tools described; participant hospital feedback/reporting password-protected. Explicit Datentool dataset grant open, current machine retrieval unresolved.",
+      "license": "CC BY4.0 explicitly for AntibioResDE Datentool dataset; broader portal/source grants not verified",
+      "license_url": "https://amr.rki.de/Content/Fachinformation/Haftungsausschluss.aspx",
+      "api_verification_state": "Native owner documentation/policies200HTML; exact owner-linked GitHub LICENSE and contents API404, no successful data API response",
+      "latest_checked_utc": "2026-10-18T05:56:11.272028+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "roceeh-road-prehistory-database",
       "provider": "ROCEEH / Heidelberg Academy / University of Tübingen / Senckenberg",
       "service_name": "ROCEEH Out of Africa Database",
@@ -23556,6 +23610,24 @@
       "license_url": "https://ogsl.ca/en/conditions-of-use/",
       "api_verification_state": "Nativecatalogue/conditions/About200HTML. OwnerAboutCKAN/API claims reviewed. Plannedpackage_search/package_list guard-deferred, targetsnotrequested; noAPIresponse/fullcatalogue enumeration.",
       "latest_checked_utc": "2026-10-18T03:25:12.802235+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "slovak-archive-social-data",
+      "provider": "Slovak Archive of Social Data / Slovak Academy of Sciences",
+      "service_name": "SASD social-science archive",
+      "geographic_coverage": "Slovak social-science research, source-specific geography unverified",
+      "topical_coverage": "demographics | research | law/civic data",
+      "dataset_families": "Social research datasets; owner indexed documentation describes SPSS distribution and DDI metadata",
+      "documentation_url": "https://sasd.sav.sk/sk/archivy.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original registry licence target guard-deferred, unsent; official indexed access documentation only, exact deployed API unverified",
+      "latest_checked_utc": "2026-10-18T05:56:11.272028+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29051,6 +29123,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "global-terrorism-database",
+      "provider": "University of Maryland / START",
+      "service_name": "Global Terrorism Database (GTD)",
+      "geographic_coverage": "Global terrorism incident database; exact current temporal/source coverage not enumerated",
+      "topical_coverage": "law/civic data | research | security",
+      "dataset_families": "Incident database and associated codebook/auxiliary materials; policy only inspected",
+      "documentation_url": "https://www.start.umd.edu/gtd-terms",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Restricted EULA; commercial agreement separate, no paid acquisition or download form attempted",
+      "license": "Revocable non-exclusive non-transferable noncommercial research/analysis EULA",
+      "license_url": "https://www.start.umd.edu/gtd-terms",
+      "api_verification_state": "Native terms200HTML, not API response; no active query API established",
+      "latest_checked_utc": "2026-10-18T05:56:11.272028+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "gtap-current-database",
       "provider": "Purdue University Center for Global Trade Analysis",
       "service_name": "GTAP current global trade database portal (restricted; public API not established)",
@@ -31172,6 +31262,24 @@
       "license_url": "https://www.sidc.be/SILSO/eisninfo",
       "api_verification_state": "native_SILSO_CCBYNC4_data_terms_verified_public_queryAPI_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:48:18.597388+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "southeast-asian-climate-assessment-dataset",
+      "provider": "BMKG / SACA&D project partners",
+      "service_name": "Southeast Asian Climate Assessment & Dataset and SA-OBS",
+      "geographic_coverage": "Southeast Asia station climate observations and derived SA-OBS products",
+      "topical_coverage": "climate/weather/environment | water | research",
+      "dataset_families": "Daily near-surface station climate observations, blended/non-blended series, extreme indices and SA-OBS gridded temperature/precipitation",
+      "documentation_url": "https://sacad.bmkg.go.id/documents/SACAD_DataPolicy.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Policy: station users not registered, SA-OBS grids registration mandatory; no registration attempted",
+      "free_access_restrictions": "Station observations free of charge but noncommercial research/education only; non-downloadable inputs and registered SA-OBS distinct",
+      "license": "Non-commercial research and education only for station data; source availability/provenance restrictions",
+      "license_url": "https://sacad.bmkg.go.id/documents/SACAD_DataPolicy.pdf",
+      "api_verification_state": "Native policy200PDF, read via web PDF parser; no active query API established; ASCII/NetCDF download claims not API proof",
+      "latest_checked_utc": "2026-10-18T05:54:35.556130+00:00",
       "classification": "restricted"
     },
     {
