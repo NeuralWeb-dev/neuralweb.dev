@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:31:13.153118+00:00",
+  "published_at": "2026-10-18T03:33:15.778543+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:26:48.073265+00:00",
+  "research_updated_at": "2026-10-18T03:32:26.583740+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Fifteenoriginaltasks processed; foursharedBugwoodportals deduplicated. Elevennewrows, NPRIlayer0OGL/nativeJSONcount7715verified. CLARINLV131headers/2pages andNPRI6layerdescriptors complete returnedfrontiers, broaderAPI/rights/coverage gaps preserved.",
+  "latest_milestone": "AMRDC native CC BY 4.0 and public API docs verified with runtime held; IQB restricted CUF; Charles map availability/API/rights gaps explicit.",
   "counts": {
-    "verified": 345,
-    "candidates": 778,
-    "excluded": 216,
+    "verified": 347,
+    "candidates": 780,
+    "excluded": 218,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -5324,6 +5324,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "amrdc-data-repository",
+      "provider": "Antarctic Meteorological Research and Data Center",
+      "service_name": "AMRDC Data Repository CKAN API",
+      "geographic_coverage": "Antarctica and Antarctic meteorological research",
+      "topical_coverage": "climate/weather/environment | oceans | research",
+      "dataset_families": "Antarctic automatic weather station observations, satellite composite imagery, campaign meteorology, archival raw observations and software",
+      "documentation_url": "https://amrdcdata.ssec.wisc.edu/pages/api-tutorial",
+      "api_base_url": "https://amrdcdata.ssec.wisc.edu/api/3/action/",
+      "format_protocol": "CKAN Action API / REST JSON documented in native tutorial",
+      "authentication": "Native tutorial documents anonymous public metadata GET; no account/key used or sought",
+      "free_access_restrictions": "Repository owner explicitly open-access data CC BY 4.0; operational guard deferred original API requests, no alternate route",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_url": "https://amrdcdata.ssec.wisc.edu/about",
+      "api_verification_state": "Native About and public API tutorial HTTP 200; original package_search/package_list guard-deferred unsent, runtime untested",
+      "latest_checked_utc": "2026-10-18T03:32:22.253519+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "amsterdam-maps-data",
       "provider": "Gemeente Amsterdam",
       "service_name": "Maps Amsterdam geographic dataset API",
@@ -6545,6 +6563,24 @@
       "license_url": "https://uk-air.defra.gov.uk/data/ | https://uk-air.defra.gov.uk/about-these-pages#licence",
       "api_verification_state": "Native licence/API guide HTTP200 explicitly documents SOS/REST. Bounded capabilities request passed robots but read timed out, not successful API response; no same-turn retry or alternate REST route.",
       "latest_checked_utc": "2026-10-18T01:53:27.887167+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "demel-medieval-spanish-api",
+      "provider": "University of Rostock / University of Paderborn",
+      "service_name": "DEMel REST API",
+      "geographic_coverage": "Medieval Spanish language; 10th to early 15th century",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Lemmas, attestations, bibliography, project vocabulary and archival metadata; owner reports about 700000 attestations/32000 lemmas, not enumerated",
+      "documentation_url": "https://demel.uni-rostock.de/site/intro_data?lang=en",
+      "api_base_url": "https://demel.uni-rostock.de/api/",
+      "format_protocol": "REST, documented OpenAPI; multiple object formats including XML/TEI and RDF/TTL",
+      "authentication": "Automated REST access documented; exact credential requirements untested",
+      "free_access_restrictions": "Public owner documentation; robots prohibits /api for all bots; no API fetch or alternate backend",
+      "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "license_url": "https://demel.uni-rostock.de/site/intro_citation?lang=en",
+      "api_verification_state": "Owner API and data licence documentation HTTP 200; runtime untested, robots-held; OpenAPI request unsent",
+      "latest_checked_utc": "2026-10-18T03:31:50.601115+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12994,6 +13030,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "charles-university-map-collection",
+      "provider": "Charles University Faculty of Science",
+      "service_name": "Map Collection digital catalogue",
+      "geographic_coverage": "Historical cartographic collection; exact geographic extent unverified",
+      "topical_coverage": "geospatial | culture | research",
+      "dataset_families": "Historical maps and atlases; catalogue/discovery and digital-library references",
+      "documentation_url": "https://natur.cuni.cz/en/geography/departments-and-work-places/map-collection",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Owner notice 5 October 2026 reports digital map preview/full-view outage and Europeana preview-only access; exact source access/rights unresolved",
+      "license": "unknown verified data grant",
+      "license_url": "https://kramerius.cuni.cz/uk/about",
+      "api_verification_state": "Owner root and dated availability notice HTTP 200; rights page HTML JS shell; no native machine API verified",
+      "latest_checked_utc": "2026-10-18T03:32:22.253519+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "chatham-kent-open-data",
       "provider": "Municipality of Chatham-Kent",
       "service_name": "Chatham-Kent public OGC open-data catalog",
@@ -17617,6 +17671,24 @@
       "license_url": "https://mediatum.ub.tum.de/doc/1711141/1711141.pdf",
       "api_verification_state": "Native root guard-deferred; independent native owner pageHTTP200 documents publication/export service",
       "latest_checked_utc": "2026-10-18T00:58:27.283072+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "medical-data-models-portal-api",
+      "provider": "University of Münster / MDM Portal",
+      "service_name": "Medical Data Models REST API",
+      "geographic_coverage": "International medical metadata/form models; dataset-specific coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Medical forms and CDISC ODM models; study identifiers, metadata and model ratings",
+      "documentation_url": "https://medical-data-models.org/swagger-ui.html",
+      "api_base_url": "https://medical-data-models.org/api/v1/",
+      "format_protocol": "REST; native OpenAPI JSON; ODM export",
+      "authentication": "OpenAPI: odmFree no authentication; odm and model/ids require apiKey; metadata requires accessToken; rating no credential parameter listed",
+      "free_access_restrictions": "Help requires free registration for create/adapt/analyse/reuse; more than 50 model downloads/week requires contacting provider; no contact made",
+      "license": "Per-model CC BY 4.0, BY-SA 4.0, BY-NC 4.0 or BY-NC-SA 4.0; mixed rights",
+      "license_url": "https://medical-data-models.org/help",
+      "api_verification_state": "Native OpenAPI HTTP 200 valid JSON, five GET operations; no model data API request",
+      "latest_checked_utc": "2026-10-18T03:31:50.601115+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27504,6 +27576,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "iqb-controlled-research-data",
+      "provider": "Forschungsdatenzentrum am IQB",
+      "service_name": "IQB controlled educational research data",
+      "geographic_coverage": "Educational research surveys; exact source coverage unverified",
+      "topical_coverage": "education | research",
+      "dataset_families": "Educational assessment and survey research; campus-use teaching/research files",
+      "documentation_url": "https://fdz.iqb.hu-berlin.de/en/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "CUF registration, university email and affiliation review; accepted conditions and approved purpose",
+      "free_access_restrictions": "Free CUF for university teaching and non-commercial scientific research only; protected storage, no public storage, limited approved teaching redistribution",
+      "license": "Campus-use restricted non-commercial research/teaching conditions",
+      "license_url": "https://fdz.iqb.hu-berlin.de/de/daten-nutzen/cuf/nutzungsordnung-cuf/",
+      "api_verification_state": "Official documentation reviewed; runtime unresolved",
+      "latest_checked_utc": "2026-10-18T03:32:22.253519+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "isgi-geomagnetic-indices-webservice",
       "provider": "International Service of Geomagnetic Indices / EOST Strasbourg",
       "service_name": "ISGI geomagnetic indices web service",
@@ -28383,6 +28473,24 @@
       "license_url": "https://ppepdr.net/subscribe",
       "api_verification_state": "native_subscription_fee_and_DGPC_approval_docs_verified_public_API_unresolved",
       "latest_checked_utc": "2026-10-17T22:43:54.466234+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "pdbp-controlled-research-data",
+      "provider": "NIH NINDS",
+      "service_name": "PDBP Data Management Resource",
+      "geographic_coverage": "Parkinson disease research cohorts; exact geographic coverage unverified",
+      "topical_coverage": "health | research",
+      "dataset_families": "Parkinson disease biomarkers and controlled research data",
+      "documentation_url": "https://pdbp.ninds.nih.gov/policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Approved user and research project/Data Access Request required; documented institutional agreement workflow",
+      "free_access_restrictions": "Research-project approval, approved-user redistribution restrictions, security and embargo conditions; no access requested",
+      "license": "Controlled approved-research use; no open data grant verified",
+      "license_url": "https://pdbp.ninds.nih.gov/policy",
+      "api_verification_state": "Official documentation reviewed; runtime unresolved",
+      "latest_checked_utc": "2026-10-18T03:31:50.601115+00:00",
       "classification": "restricted"
     },
     {
