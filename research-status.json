@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:57:51.826352+00:00",
+  "published_at": "2026-10-18T14:59:55.617200+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:57:50.594334+00:00",
+  "research_updated_at": "2026-10-18T14:59:40.307009+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LeoPARD independent owner/OAI hold; Wyoming indexed policy/OAI hold; KEGG native academic-only API restricted; MDZ692000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to704pages/704000refs;2509503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 429,
-    "candidates": 1095,
-    "excluded": 327,
+    "candidates": 1096,
+    "excluded": 328,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -13755,7 +13755,7 @@
       "service_name": "CERN / Zenodo API",
       "geographic_coverage": "Global",
       "topical_coverage": "research",
-      "dataset_families": "Research datasets; software; publications; record metadata",
+      "dataset_families": "Research datasets; software; publications; record metadata; additional discovery references: ESCAPE OSSR astro/particle-physics software/services and LARHUD/Maenduar Brazilian digital humanities; current inventories unenumerated.",
       "documentation_url": "https://developers.zenodo.org/",
       "api_base_url": "https://zenodo.org/api/ | https://zenodo.org/oai2d",
       "format_protocol": "REST/JSON",
@@ -13764,7 +13764,7 @@
       "license": "CC0 for metadata except email addresses; research files individually licensed",
       "license_url": "https://about.zenodo.org/policies/",
       "api_verification_state": "Current ownerAPI/policydocsHTTP200; newanonymousOAIIdentifyHTTP200validOAI-PMHXML Identify/noerror. Earlier smallRESTrecordJSON retainedwithoutreplay.",
-      "latest_checked_utc": "2026-10-18T04:36:30.924750+00:00",
+      "latest_checked_utc": "2026-10-18T14:59:26.326291+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23089,8 +23089,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across692successfulpages/692000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:53:50.615711+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across704successfulpages/704000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:59:35.778659+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30888,6 +30888,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "unisimon-research-data",
+      "provider": "Universidad Simón Bolívar / Biblioteca Unisimon",
+      "service_name": "UNISIMON Research Data Dataverse",
+      "geographic_coverage": "Colombia-hosted university research; exact dataset geography varies",
+      "topical_coverage": "research | health | education | economics/finance | labor",
+      "dataset_families": "Research datasets in medicine/life sciences, social sciences, computing, business and engineering",
+      "documentation_url": "https://dataverse.unisimon.edu.co/ | https://guides.dataverse.org/en/latest/api/native-api.html",
+      "api_base_url": "https://dataverse.unisimon.edu.co/api",
+      "format_protocol": "Dataverse REST documented generically; current deployment payload/schema unverified",
+      "authentication": "No credentials used; anonymous root works, API version guard-deferred before transmission",
+      "free_access_restrictions": "Native public listing; per-item restrictions/embargo not enumerated",
+      "license": "Native dataset license facets CC BY4.0 and CC0; metadata-wide grant unknown",
+      "license_url": "https://dataverse.unisimon.edu.co/",
+      "api_verification_state": "Native root200HTML, not API response. Published framework version GET guard-deferred unsent; no alternate search/OAI/backend after hold.",
+      "latest_checked_utc": "2026-10-18T14:58:09.141762+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "unite-species-hypotheses",
       "provider": "UNITE community / University of Tartu biological informatics",
       "service_name": "UNITE Species Hypotheses web services via PlutoF",
@@ -36178,7 +36196,7 @@
       "license": "CC BY-NC4.0 metadata; studydatarestrictedredistribution andspecificterms",
       "license_url": "https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata | https://www.icpsr.umich.edu/sites/icpsr/about/policies/terms-of-use",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-18T08:09:18.915866+00:00",
+      "latest_checked_utc": "2026-10-18T14:59:26.326291+00:00",
       "classification": "restricted"
     },
     {
@@ -36340,7 +36358,7 @@
       "license": "Mixed collection-specific restrictions; general non-commercial access, selected alternatives unreviewed",
       "license_url": "https://fcon_1000.projects.nitrc.org/ | https://fcon_1000.projects.nitrc.org/indiPRIME.html",
       "api_verification_state": "restricted_portal_primary_documentation_reviewed_original_policy_held_API_unresolved",
-      "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "latest_checked_utc": "2026-10-18T14:58:09.141762+00:00",
       "classification": "restricted"
     },
     {
@@ -37871,6 +37889,24 @@
       "license_url": "https://www.opensanctions.org/docs/commercial/exemption/",
       "api_verification_state": "documented_key_required_untested_restricted_noncommercial",
       "latest_checked_utc": "2026-10-16T20:08:57.407763+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "opole-knowledge-base",
+      "provider": "University of Opole Library",
+      "service_name": "University of Opole Knowledge Base",
+      "geographic_coverage": "Polish institutional research; source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research datasets, publication/doctoral-output metadata",
+      "documentation_url": "https://bg.uni.opole.pl/otwarte-dane-badawcze/",
+      "api_base_url": "https://repo.uni.opole.pl/oai (registry claim)",
+      "format_protocol": "OAI-PMH registry claim; native XML contract unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "Deposit rules permit embargo/internal/limited access exceptions; native readAPI runtime/auth unresolved.",
+      "license": "CC BY-NC deposited data, version unspecified; access exceptions",
+      "license_url": "https://bg.uni.opole.pl/wp-content/uploads/sites/131/Zasady-deponowania-otwartych-danych-badawczych-w-Bazie-Wiedzy-Uniwersytetu-Opolskiego.pdf",
+      "api_verification_state": "Native OAI Identify guard-deferred unsent; independent native library and linked deposit-policy PDF200, PDF reviewed with official web reader. No successful API response/schema.",
+      "latest_checked_utc": "2026-10-18T14:58:09.141762+00:00",
       "classification": "restricted"
     },
     {
