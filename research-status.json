@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:40:31.933854+00:00",
+  "published_at": "2026-10-18T08:42:34.758720+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:38:01.183607+00:00",
+  "research_updated_at": "2026-10-18T08:42:22.475921+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals: RODARE metadataCC0/OAI1560headers16pages complete; Dbfetch58schemas verified/source rights queued; AtlasBY4 withlegacyAPI500; Moscow/TIB restrictions andhostedclinical/Apollo dedups preserved.",
+  "latest_milestone": "Canadianhistoricalproductgrant/APIunresolved; ChemSpiderheld; MPCnativeclassificationJSONverified/14APIrefsindexed, mixedrights preserved.",
   "counts": {
     "verified": 383,
-    "candidates": 949,
+    "candidates": 952,
     "excluded": 278,
     "sample_successes": 465
   },
@@ -14178,6 +14178,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "canada-historical-climate-portal",
+      "provider": "Environment and Climate Change Canada",
+      "service_name": "Historical Climate Data Canada portal",
+      "geographic_coverage": "Canadian historicalweather/climate locations; actualstation/timecoverage unenumerated",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Temperature/precipitation/degreedays/humidity/wind/monthlysummaries/extremes/climatenormals; no observationsrequested",
+      "documentation_url": "https://climate.weather.gc.ca/FAQ_e.html",
+      "api_base_url": "",
+      "format_protocol": "HTMLportal/FAQ and downloadservices; exactcurrentqueryAPI notverified. ExistingMSCGeoMet service distinct.",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Legacy limited-use productlicence withredistributionconditions; currentportal/APIgrant unresolved",
+      "license_url": "https://climate.weather.gc.ca/prods_servs/attachment1_e.html",
+      "api_verification_state": "Nativehome/currentFAQ/registrylicence200HTML; exactanonymoushistoricalqueryAPI notestablished",
+      "latest_checked_utc": "2026-10-18T08:42:17.462499+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "canada-naps-data-portal",
       "provider": "Environment and Climate Change Canada / NAPS partners",
       "service_name": "National Air Pollution Surveillance data portal/query tool",
@@ -14571,6 +14589,24 @@
       "license_url": "https://www.catalogueoflife.org/data/metadata | https://www.catalogueoflife.org/tools/api",
       "api_verification_state": "documented_api_policy_deferred_no_successful_sample",
       "latest_checked_utc": "2026-10-17T19:30:03.054703+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "chemspider-compound-api",
+      "provider": "Royal Society of Chemistry",
+      "service_name": "ChemSpider compound data API discovery",
+      "geographic_coverage": "Chemicalcompoundreference discovery; exactcurrentdatabasecoverage unverified",
+      "topical_coverage": "research",
+      "dataset_families": "Chemicalstructures/compoundreferenceinformation asofficialRSCindexeddescription; no compoundsqueried",
+      "documentation_url": "https://developer.rsc.org/ | https://www.rsc.org/help-and-legal/terms-of-use",
+      "api_base_url": "https://developer.rsc.org/ (registryAPIportalclaim; currentexactserviceuntested)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.rsc.org/help-and-legal/terms-of-use",
+      "api_verification_state": "Rootguard-deferredunsent; independentownerlegalpage403. No alternateAPI/developerbackend/source request afterholds.",
+      "latest_checked_utc": "2026-10-18T08:42:17.462499+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20583,6 +20619,24 @@
       "license_url": "https://conservancy.umn.edu/pages/drum/policies/",
       "api_verification_state": "native_operator_repository_identity_verified_originalhandle403_API_and_exactrights_unresolved",
       "latest_checked_utc": "2026-10-17T23:56:25.011093+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "minor-planet-center-apis",
+      "provider": "IAU Minor Planet Center / Smithsonian Astrophysical Observatory",
+      "service_name": "MPC public REST API family",
+      "geographic_coverage": "Solar-systemminorplanets/comets/irregularsatellites; no terrestrialcoverageclaim",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "PublishedRESTfamilies fordesignations/observations/orbits/observatorycodes/MPECs andclassificationmetadata; magnitudebandmetadataonlytested",
+      "documentation_url": "https://docs.minorplanetcenter.net/mpc-ops-docs/apis/",
+      "api_base_url": "https://data.minorplanetcenter.net/api/",
+      "format_protocol": "NativeGETwithJSONbody metadataresponse200validJSON; otherRESTfamiliesuntested",
+      "authentication": "No credentials forsuccessfullydocumentedmagnitude-bandmetadataGET; otheroperations/subscriptions nottested",
+      "free_access_restrictions": "PublicAPI/oneclassificationGETfreewithoutaccount. Nativepolicy differentiatesfreedatasets fromsubscriptiondatasets andcopyrightedcirculars; no paidaccess acquired.",
+      "license": "Custom mixedpolicy: freelyavailabledatasetredistributionwithsourcecredit, restrictedcirculars/subscriptions; exactAPIgrantunknown",
+      "license_url": "https://www.minorplanetcenter.net/iau/WWWPolicy.html",
+      "api_verification_state": "Nativehome/policy/APIindex/mag-bandguide200. Exactdocumentedmag-bandGETwithJSONbody200validJSON1classificationrecord, notactualastrometricobservations.",
+      "latest_checked_utc": "2026-10-18T08:42:17.462499+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
