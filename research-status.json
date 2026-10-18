@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T06:29:26.860610+00:00",
+  "published_at": "2026-10-18T06:31:29.321775+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:28:06.255494+00:00",
+  "research_updated_at": "2026-10-18T06:30:02.780078+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals/fournewcandidates: GIN/UVic/ABMI/CUDCdocsandholds, Kingston/Edmontondedup; unsignedPDFnativepreserved butfullreadpending",
+  "latest_milestone": "DASH restricted access documented; PEI portal/licence challenge and bounded sample preserved; Dalhousie collection guidance reviewed under shared API hold.",
   "counts": {
     "verified": 366,
-    "candidates": 875,
-    "excluded": 260,
+    "candidates": 877,
+    "excluded": 261,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -15076,6 +15076,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dalhousie-borealis-data-repository",
+      "provider": "Dalhousie University Libraries",
+      "service_name": "Dalhousie institutional Borealis collection",
+      "geographic_coverage": "Dalhousie-associated multidisciplinary research; individual dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets, documentation, metadata and DOI assignment; not a source-file inventory",
+      "documentation_url": "https://libraries.dal.ca/research-support/research-data-management.html | https://dal.ca.libguides.com/copyright/research",
+      "api_base_url": "https://borealisdata.ca/dataverse/dal; inherited API runtime held",
+      "format_protocol": "Institutional Borealis collection; registry OAI/REST/SWORD interfaces not tested for this collection",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://dal.ca.libguides.com/copyright/research",
+      "api_verification_state": "Native library RDM and copyright guidance HTTP200; prior shared Borealis API hold preserved, no collection/OAI/REST/SWORD requests",
+      "latest_checked_utc": "2026-10-18T06:29:56.765293+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dassi-social-science-repository",
       "provider": "DASSI Data Archive for Social Sciences in Italy",
       "service_name": "DASSI Dataverse research-data catalogue",
@@ -22309,6 +22327,24 @@
       "license_url": "https://portulanclarin.net/agreement/",
       "api_verification_state": "registry_claimed_OAI_endpoint_returns_maintenance_HTML_not_API_response",
       "latest_checked_utc": "2026-10-17T03:04:42.888056+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "prince-edward-island-open-data",
+      "provider": "Government of Prince Edward Island",
+      "service_name": "Prince Edward Island Open Data portal",
+      "geographic_coverage": "Prince Edward Island, Canada; individual dataset coverage varies",
+      "topical_coverage": "geospatial | demographics | transportation | climate/weather/environment | public spending/contracts",
+      "dataset_families": "Provincial public data and map discovery; individual source families and grants not enumerated",
+      "documentation_url": "https://data.princeedwardisland.ca/",
+      "api_base_url": "https://data.princeedwardisland.ca/data.json",
+      "format_protocol": "ArcGIS Hub application shell; DCAT-like JSON catalog request attempted, inspect runtime state",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "OGL Prince Edward Island 1.0 in indexed official text; native licence response is browser verification",
+      "license_url": "https://www.princeedwardisland.ca/en/information/finance/open-government-licence-prince-edward-island",
+      "api_verification_state": "Native root200 ArcGIS HTML shell; native licence200 browser-verification page, not semantic reading. Catalog request status=200; JSON valid=True; error=None",
+      "latest_checked_utc": "2026-10-18T06:29:56.765293+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29727,6 +29763,24 @@
       "license_url": "https://opendata.hawaii.gov/pages/terms-of-use",
       "api_verification_state": "publisher_CKAN_API_documented_conventional_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T14:29:36.839718+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "hdrn-dash-data-access",
+      "provider": "Health Data Research Network Canada",
+      "service_name": "Data Services / Data Access Support Hub (DASH)",
+      "geographic_coverage": "Canada; participating regional and pan-Canadian health data centres",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Multi-regional health and health-related administrative data access coordination; not a centralized data holding",
+      "documentation_url": "https://www.hdrn.ca/en/dash/dash-faq/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Account and intake process described for data requests; no account created",
+      "free_access_restrictions": "Submitting requests has no DASH fee; member organizations charge according to cost recovery. No paid acquisition undertaken.",
+      "license": "Controlled access under member data-centre agreements and applicable laws; no open data grant",
+      "license_url": "https://www.hdrn.ca/en/dash/dash-faq/",
+      "api_verification_state": "Native FAQ HTTP200; coordinated access service verified, no public read-only data API established",
+      "latest_checked_utc": "2026-10-18T06:29:56.765293+00:00",
       "classification": "restricted"
     },
     {
