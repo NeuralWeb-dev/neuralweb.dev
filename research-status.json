@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:19:43.156934+00:00",
+  "published_at": "2026-10-18T05:21:46.005597+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:16:08.361735+00:00",
+  "research_updated_at": "2026-10-18T05:20:53.590755+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originaltasks; GeotISWMSandKyotoHAPIverifiedunderrestrictedterms, Kyoto1054catalogdescriptors, VegBankpartial53operationdocs; ICPSRfamiliesdedup",
+  "latest_milestone": "FlyBaseownBY4/licensedannotationAPI documentedbutruntimeheld; FANTOM5/6BY4grantverifiedAPIunresolved; IDDOcontrolledaccessreviewedwithoutpatientdata.",
   "counts": {
-    "verified": 357,
-    "candidates": 840,
-    "excluded": 243,
+    "verified": 360,
+    "candidates": 841,
+    "excluded": 245,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -7785,6 +7785,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "flybase-api",
+      "provider": "FlyBase Consortium",
+      "service_name": "FlyBase REST API and annotation discovery",
+      "geographic_coverage": "Drosophila model-organism knowledge; exacttaxonomic/releasecoverage varies",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "FlyBase-produced annotations; documented APIidentifier/update/summary/domain/dataset/sequence/Chado families, no sourcerecords acquired",
+      "documentation_url": "https://wiki.flybase.org/wiki/FlyBase:About#FlyBase_Copyright | https://wiki.flybase.org/mediawiki/images/1/15/Large-scale_queries_of_FlyBase.pdf",
+      "api_base_url": "https://api.flybase.org/api/v1.0/",
+      "format_protocol": "REST API documentedbyofficialindexedtraining; currentresponseformats/runtimeunverified",
+      "authentication": "unknown current APIauthentication, no credentials/accounts used",
+      "free_access_restrictions": "OwnFlyBaseannotations/dataBY4; distinct third-party/copyrightedbibliographiccontent retained. APIrootheld, no currentreadsuccess.",
+      "license": "CC BY4.0 for annotations/data produced byFlyBase anddistributedfromflybase.org",
+      "license_url": "https://wiki.flybase.org/wiki/FlyBase:About#FlyBase_Copyright",
+      "api_verification_state": "NativeFlyBasepolicy200HTML; officialindexedtrainingdocumentsAPI. OriginalAPIrootguard-deferredunsent; no successfulAPI sample or alternates.",
+      "latest_checked_utc": "2026-10-18T05:20:48.717870+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "france",
       "provider": "French government data.gouv.fr",
       "service_name": "French government data.gouv.fr open data portal",
@@ -9819,6 +9837,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "opencausal-graph-exports",
+      "provider": "Open Causal",
+      "service_name": "Open Causal public graph export API",
+      "geographic_coverage": "International causal-graph scholarly models; graph context varies, not representative empirical datasets",
+      "topical_coverage": "research | education | health | law/civic data",
+      "dataset_families": "Causalgraph models/metadata, CausalJSON, CSVedges, DAGitty exports; one nonclinicalhistorygraph sampled",
+      "documentation_url": "https://opencausal.org/api/ | https://opencausal.org/terms/",
+      "api_base_url": "https://opencausal.org/graph/{id}/json/",
+      "format_protocol": "Native CausalJSON0.2 object withgraph/nodes/edges verified; CSV/DAGitty documented nottested",
+      "authentication": "PublicpublishedgraphGETexports explicitly noauth/CSRF; submission/sharePOST requireslogin, notused",
+      "free_access_restrictions": "Metadata freelyreusableunlessspecified; individualgraphlicences apply. SampleBYSA4; upload/submissionauth separate. No registration acquired.",
+      "license": "CC BY-SA4.0 verified samplegraph; metadata freelyreusableunlessspecified, othergraphs individuallicences",
+      "license_url": "https://opencausal.org/graph/hqxqj0gm/ | https://opencausal.org/terms/",
+      "api_verification_state": "NativeAPI/terms/catalogue/itempage200HTML; exactpublicGETexport200validCausalJSON0.2 with11nodes14edges, BYSA4rights. No clinical/study/participant records.",
+      "latest_checked_utc": "2026-10-18T05:19:59.974669+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "opencitations",
       "provider": "OpenCitations",
       "service_name": "OpenCitations API",
@@ -10968,6 +11004,24 @@
       "license_url": "https://stat.fi/en/about-us/get-to-know-statistics-finland/legislation/terms-of-use",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:37:23.745938+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "string-protein-association-api",
+      "provider": "STRING Consortium",
+      "service_name": "STRING functional protein association REST API",
+      "geographic_coverage": "Multispecies functional protein knowledge; exact release/organism coverage varies",
+      "topical_coverage": "biodiversity | health | research",
+      "dataset_families": "Functional protein-association networks, enrichment/annotation and identifier mapping documented; only version metadata tested",
+      "documentation_url": "https://string-db.org/help/api/ | https://string-db.org/cgi/access.pl?footer_active_subpage=apis",
+      "api_base_url": "https://string-db.org/api/",
+      "format_protocol": "REST JSON version metadata verified; TSV/XML/network interfaces documented, not tested",
+      "authentication": "No credentials for version metadata; separate values/ranks enrichment jobs require APIkey, not acquired",
+      "free_access_restrictions": "CCBY4STRINGoutputs; originalproviderterms for third-party content, brand/logo notblanketlicensed. LimitedoccasionalAPI use, no HTMLdata scraping/bulkAPI jobs.",
+      "license": "CC BY4.0 for STRING data/outputs, with third-party and brand exceptions",
+      "license_url": "https://string-db.org/cgi/access.pl?footer_active_subpage=apis",
+      "api_verification_state": "Nativeowneraccess/help docs200HTML; exactdocumentedversionendpoint200validJSON version12.5 withstableaddress. No molecular/network/source queries.",
+      "latest_checked_utc": "2026-10-18T05:19:59.974669+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15884,6 +15938,24 @@
       "license_url": "https://www.ebi.ac.uk/about/terms-of-use",
       "api_verification_state": "native_anonymous_JSON1103study_catalogue_verified_grants_unresolved",
       "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "fantom-research-data",
+      "provider": "RIKEN / FANTOM Consortium",
+      "service_name": "FANTOM functional genome research portal",
+      "geographic_coverage": "Mammalian functional-genome research; source/project-specifictaxonomic/populationscope",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "FANTOM5/6 promoter/enhancer/noncodingRNAfunctionalannotations; earlierprojectfamilies source-specific",
+      "documentation_url": "https://fantom.gsc.riken.jp/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4.0 explicitly for FANTOM5/6data byRIKEN; interfaceverification pending",
+      "license_url": "https://fantom.gsc.riken.jp/ | https://www.riken.jp/en/terms/",
+      "api_verification_state": "Nativeprojectroot/RIKENterms200HTML; exactmachinequeryAPIunresolved, no API/source sample.",
+      "latest_checked_utc": "2026-10-18T05:20:48.717870+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29029,6 +29101,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "iddo-controlled-data",
+      "provider": "Infectious Diseases Data Observatory / University of Oxford",
+      "service_name": "IDDO curated infectious-disease data access",
+      "geographic_coverage": "International infectious-disease research; study/platform-specificsourcecoverage",
+      "topical_coverage": "health | research",
+      "dataset_families": "Curated infectious-disease researchdata governedbycontributor/committeeaccess, no studies/records/files acquired",
+      "documentation_url": "https://www.iddo.org/data-sharing/contributing-data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Approveddataaccessworkflowdescribed; currentpublicAPIauthentication unknown, no account/accessrequest",
+      "free_access_restrictions": "Application/scientific-ethicalreview andsignedagreement forcuratedresearchdata; feesunknown, no accessexecuted",
+      "license": "Controlled researchdata access bycontributor/committeeapproval andsignedDUA; exactcurrentmetadata licenceunknown",
+      "license_url": "https://www.iddo.org/data-sharing/contributing-data | https://www.iddo.org/sites/default/files/publication/2024-05/The%20IDDO%20Data%20Journey%20without%20glossary.pdf",
+      "api_verification_state": "Original nativecontributing-data guard-deferredtargetunsent. Officialindexedaccess-policy review only, no API/source request.",
+      "latest_checked_utc": "2026-10-18T05:20:48.717870+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "imf",
       "provider": "International Monetary Fund",
       "service_name": "International Monetary Fund API",
@@ -29566,6 +29656,24 @@
       "license_url": "https://lris.scinfo.org.nz/license/landcare-data-use-licence-v1/",
       "api_verification_state": "Native portalHTTP200 JavaScript shell and licenceHTTP200; owner API guide guard-deferred/indexed only, no runtime data response",
       "latest_checked_utc": "2026-10-18T00:55:40.924458+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "macaulay-library-media-archive",
+      "provider": "Cornell Lab of Ornithology",
+      "service_name": "Macaulay Library biodiversity media archive",
+      "geographic_coverage": "Worldwide biodiversity media collections; contributor/source coverage varies",
+      "topical_coverage": "biodiversity | culture | research",
+      "dataset_families": "Wildlife sound/photo/video archive; none acquired",
+      "documentation_url": "https://www.macaulaylibrary.org/ | https://ebird.freshdesk.com/en/support/solutions/articles/48001064551-using-and-requesting-media",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Restricted media permissions/licence agreements; no uniform open metadata/mediaAPIgrant verified",
+      "license_url": "https://www.birds.cornell.edu/home/terms-of-use/ | https://ebird.freshdesk.com/en/support/solutions/articles/48001064551-using-and-requesting-media",
+      "api_verification_state": "Nativearchive root200HTML; originalCornellterms guard-deferredunsent. Indexedofficialpolicyreview only; no API/media sample.",
+      "latest_checked_utc": "2026-10-18T05:19:59.974669+00:00",
       "classification": "restricted"
     },
     {
