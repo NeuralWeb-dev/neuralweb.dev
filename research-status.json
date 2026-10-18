@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T10:39:22.889426+00:00",
+  "published_at": "2026-10-18T10:41:26.908356+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:38:27.940081+00:00",
+  "research_updated_at": "2026-10-18T10:41:00.772614+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TSIS/PlaBI site restrictions; ReKUL RESTrootJSON/17communityrefs with policyredirects; MDZ240000refs/240pages incomplete.",
+  "latest_milestone": "ROHub held/clientauth; Movebank archive/liveAPI mixedrights separated; ThuenenCSW6ops/Swaggerhold; MDZ256000refs/256pages incomplete.",
   "counts": {
     "verified": 390,
-    "candidates": 1004,
+    "candidates": 1008,
     "excluded": 293,
     "sample_successes": 465
   },
@@ -21109,8 +21109,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across240successfulpages/240000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:35:43.707503+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across256successfulpages/256000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:40:14.056476+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21579,6 +21579,42 @@
       "license_url": "https://phoenixbioinformatics.atlassian.net/wiki/spaces/MD/pages/42226561/FAQ",
       "api_verification_state": "Native morphobankroot guard-deferred/unsent; independent ownerFAQ200read confirms publicAPI HTTPGET forpublishedresources. No native API/data/alternatehost/backend after hold.",
       "latest_checked_utc": "2026-10-18T09:10:08.856964+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "movebank-data-repository",
+      "provider": "Movebank / University of Konstanz KIM",
+      "service_name": "Movebank Data Repository archival portal",
+      "geographic_coverage": "International animal movement research archives; individual study geographic coverage varies",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Curated animal-tracking data packages and published analysis workflows; no locations/individual animals/source files acquired",
+      "documentation_url": "https://www.movebank.mpg.de/cms/movebank-content/data-repository | https://datarepository.movebank.org/help/faq",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public homepage/FAQ reachable as app shells; actual archive read API/source authentication unverified, no account/agreement",
+      "free_access_restrictions": "Owner describes publicly archived packages; per-source licence and source access requirements vary, no blanket free/unrestricted API established",
+      "license": "Per-study CC0, CC BY or CC BY-NC choices documented by owner; exact archive metadata/database grant unresolved",
+      "license_url": "https://www.movebank.org/cms/movebank-content/data-policy | https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use",
+      "api_verification_state": "Original archivehome/FAQ200HTML application shells, no nativeFAQterms text or machine response. Independent owner repositoryguide/policy/generalterms200HTML. No assumed DSpace/OAI/REST deployment.",
+      "latest_checked_utc": "2026-10-18T10:40:06.115171+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "movebank-study-read-api",
+      "provider": "Movebank collaborative animal-movement research platform",
+      "service_name": "Movebank live study read interfaces",
+      "geographic_coverage": "International animal-movement research; public/private and study-specific geographic coverage varies",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Live study/reference/event metadata and movement data documented; no studies/events/animals/coordinates queried",
+      "documentation_url": "https://www.movebank.org/cms/movebank-content/access-data | https://github.com/movebank/movebank-api-doc/blob/master/movebank-api.md",
+      "api_base_url": "https://www.movebank.org/movebank/service/direct-read",
+      "format_protocol": "Owner documented HTTP/CSV and JSON/JavaScript read interfaces; no deployed data sample",
+      "authentication": "Owner API docs describe account/token and study licence acceptance as applicable; public data visibility not anonymous-access proof. No credentials/token or acceptance action.",
+      "free_access_restrictions": "Owner selects study visibility/permission/licence; restricted study owner permission distinct from publicCC-licensed datasets. No source access attempted.",
+      "license": "Per-study mixed CC0/BY/BY-NC/custom terms; metadata/database grant unresolved",
+      "license_url": "https://www.movebank.org/cms/movebank-content/data-policy | https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use",
+      "api_verification_state": "Native owner access/policy/generalterms and linked GitHub API documentation200HTML; exact read base documented, runtime untested to avoid source/event/location/account or licence acceptance.",
+      "latest_checked_utc": "2026-10-18T10:40:06.115171+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25794,6 +25830,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rohub-research-object-api",
+      "provider": "ROHub / Poznan Supercomputing and Networking Center / RELIANCE",
+      "service_name": "ROHub research object REST service",
+      "geographic_coverage": "Research-object infrastructure for international research; exact public resource coverage unverified",
+      "topical_coverage": "research",
+      "dataset_families": "Research objects, associated resources/folders and metadata; public/private access varies, no object/source content acquired",
+      "documentation_url": "https://reliance-eosc.github.io/ROHUB-API_documentation/html/ | https://reliance-eosc.github.io/ROHUB-API_documentation/html/README.html",
+      "api_base_url": "https://api.rohub.org/api/",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native client guide requires service account/password for library and distinguishes public client configuration from anonymous access. No login/registration/token/env file or client use.",
+      "free_access_restrictions": "Account-based client documented; public read operation eligibility, free quota and exact runtime unverified",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.rohub.org/about",
+      "api_verification_state": "Original root guard-deferred unsent. Independent owner client docs/quickstart200HTML document APIbase and auth; no Swagger/alternate production/sandbox/backend, deployed API sample or object query.",
+      "latest_checked_utc": "2026-10-18T10:40:06.115171+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rolling-deck-to-repository",
       "provider": "Rolling Deck to Repository / Lamont-Doherty Earth Observatory",
       "service_name": "R2R cruise and underway data services",
@@ -27555,6 +27609,24 @@
       "license_url": "",
       "api_verification_state": "Native root/agreement200HTML; OAI Identify200parsedXML, repository descriptor only",
       "latest_checked_utc": "2026-10-18T06:08:52.169311+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "thuenen-atlas-geospatial-api",
+      "provider": "Johann Heinrich von Thuenen Institute",
+      "service_name": "Thuenen Atlas REST and OGC catalogue services",
+      "geographic_coverage": "German rural/land-use/agriculture/forest data and marine/other research domains; individual layer coverage varies",
+      "topical_coverage": "agriculture | environment | oceans | biodiversity | geospatial | research",
+      "dataset_families": "Landatlas, Waldatlas, Meeresatlas, Agraratlas, remote-sensing atlas; GeoNode resources/maps/documents and layer metadata",
+      "documentation_url": "https://atlas.thuenen.de/developer/ | https://atlas.thuenen.de/legal_notice/",
+      "api_base_url": "https://atlas.thuenen.de/api/v2/ | https://atlas.thuenen.de/catalogue/csw | https://atlas.thuenen.de/geoserver/",
+      "format_protocol": "Native CSW2.0.2 XML; RESTJSON and WMS1.3/WFS2/WCS2.0.1/OpenSearch documented, not source-tested",
+      "authentication": "Anonymous CSWcapabilities succeeded; per-layer/public/private eligibility varies, no account or source query",
+      "free_access_restrictions": "Public interface docs and CSWidentification; per-resource access and grants unresolved. Legal notice restricts image reuse absent copyright-holder consent.",
+      "license": "Unknown precise metadata/database/source grant; per-resource licences unresolved and images separately restricted",
+      "license_url": "https://atlas.thuenen.de/legal_notice/",
+      "api_verification_state": "Native root/developer/legal200HTML; independently queued CSWcapabilities200validCSW2.0.2XML with6operation declarations. SwaggerURL guard-deferred unsent; not a successful schema or API response. No alternate REST/schema/backend afterhold.",
+      "latest_checked_utc": "2026-10-18T10:40:06.115171+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
