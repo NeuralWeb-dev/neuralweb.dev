@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T18:52:07.854982+00:00",
+  "published_at": "2026-10-18T18:54:11.336108+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:50:54.297062+00:00",
+  "research_updated_at": "2026-10-18T18:53:59.361370+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Lakehead/Brock institutional access/licensing choices; Carleton native strategy confirms membership without public grant; host holds.",
+  "latest_milestone": "UQAC indexed institutional identity source explicitly linked to existing review; no new provider/task.",
   "counts": {
     "verified": 445,
-    "candidates": 1267,
-    "excluded": 369,
+    "candidates": 1272,
+    "excluded": 370,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -22084,6 +22084,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "guelph-general-borealis-repository",
+      "provider": "University of Guelph Library",
+      "service_name": "University of Guelph general research data repositories",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Cross-disciplinary research dataset descriptions; exact source families not enumerated",
+      "documentation_url": "https://guides.lib.uoguelph.ca/c.php?g=742768&p=5419111",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://guides.lib.uoguelph.ca/c.php?g=742768&p=5419111",
+      "api_verification_state": "Independent native licensing guide HTTP200 substantive HTML; shared Borealis root/API/search holds retained, no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:52:05.803029+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gwas-catalog",
       "provider": "NHGRI-EBI GWAS Catalog",
       "service_name": "NHGRI-EBI GWAS Catalog public data API",
@@ -26062,6 +26080,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mru-borealis-data-repository",
+      "provider": "Mount Royal University",
+      "service_name": "Mount Royal University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.mtroyal.ca/data",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific API/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.mtroyal.ca/data | https://library.mtroyal.ca/ld.php?content_id=36998713",
+      "api_verification_state": "Independent native institutional HTML HTTP200 substantive response; not API payload. UQAM owner-hosted guide PDF also200/web-reader reviewed. Inherited Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:53:14.673477+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "msvu-borealis-data-repository",
       "provider": "Mount Saint Vincent University",
       "service_name": "Mount Saint Vincent University curated Borealis research repository",
@@ -28111,6 +28147,24 @@
       "license_url": "https://data.humdata.org/faqs/terms",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:36:59.165287+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "odesi-survey-discovery",
+      "provider": "Ontario Council of University Libraries / Scholars Portal",
+      "service_name": "Odesi social-science survey discovery and metadata portal",
+      "geographic_coverage": "Canadian social-science/survey holdings with source-specific international coverage",
+      "topical_coverage": "demographics | economics/finance | labor | education | health | research",
+      "dataset_families": "Social survey/poll metadata and variable discovery; no actual respondent/microdata records",
+      "documentation_url": "https://ocul.on.ca/odesi-relaunch-october-2023 | https://ocul.on.ca/scholars-portal | https://zenodo.org/records/10655425",
+      "api_base_url": "",
+      "format_protocol": "Bilingual discovery frontend/DDI metadata and Borealis-backed repository documented; exact active API contract unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://zenodo.org/records/10655425",
+      "api_verification_state": "Original Odesi root HTTP200 minimal JavaScript shell, not API success. Native independent OCUL owner documentation HTTP200; official publication record/indexed guide reviewed. No guessed endpoint/assets/variables/source samples or inherited-held Borealis backend API.",
+      "latest_checked_utc": "2026-10-18T18:52:05.803029+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34573,6 +34627,42 @@
       "license_url": "",
       "api_verification_state": "NativehomepageHTTP200 verificationchallenge, notAPI. OriginalOAIunsentguard-deferred.",
       "latest_checked_utc": "2026-10-18T00:24:43.339016+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uqac-borealis-data-repository",
+      "provider": "Université du Québec à Chicoutimi",
+      "service_name": "Université du Québec à Chicoutimi curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://bibliotheque.uqac.ca/syntheses-des-connaissances/gestion-des-donnees-de-recherche",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific API/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://bibliotheque.uqac.ca/syntheses-des-connaissances/gestion-des-donnees-de-recherche",
+      "api_verification_state": "Independent native institutional HTML HTTP200 substantive response; not API payload. UQAM owner-hosted guide PDF also200/web-reader reviewed. Inherited Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:53:54.681459+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uqam-borealis-data-repository",
+      "provider": "Université du Québec à Montréal",
+      "service_name": "Université du Québec à Montréal curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://gdr.uqam.ca/strategie/axes-dintervention/",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific API/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://actifs-bibliotheques.uqam.ca/fichiers/doc/pdf/directive-depot-dataverse.pdf",
+      "api_verification_state": "Independent native institutional HTML HTTP200 substantive response; not API payload. UQAM owner-hosted guide PDF also200/web-reader reviewed. Inherited Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:53:14.673477+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -42441,6 +42531,24 @@
       "license_url": "https://www.polardata.ca/policy/usage",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T17:35:35.619513+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "policywise-sage-repository",
+      "provider": "PolicyWise for Children & Families",
+      "service_name": "Secondary Analysis to Generate Evidence (SAGE) repository/catalogue",
+      "geographic_coverage": "Alberta/Canadian health and social research; source coverage varies",
+      "topical_coverage": "health | education | demographics | research",
+      "dataset_families": "Research/community/administrative study descriptions; no actual child/family/clinical records",
+      "documentation_url": "https://policywise.com/about/",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "Controlled source access historically by agreement/secure environment; current metadata interface authentication untested",
+      "free_access_restrictions": "Historical source access permits cost recovery, potentially waived; current fee/free eligibility unknown; no paid acquisition",
+      "license": "Documented historical controlled-access/project-specific noncommercial source terms; metadata grant unknown",
+      "license_url": "https://policywise.com/wp-content/uploads/2020/08/2018-04APR-24-Data-Access-Agreement.pdf",
+      "api_verification_state": "Independent original owner request guard-deferred target unsent; legal URL deferred unsent after same-host failure. Indexed official dated access terms reviewed. Hosted Borealis metadata API not requested under inherited hold.",
+      "latest_checked_utc": "2026-10-18T18:52:05.803029+00:00",
       "classification": "restricted"
     },
     {
