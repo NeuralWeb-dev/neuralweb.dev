@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:35:35.036446+00:00",
+  "published_at": "2026-10-18T06:37:37.816573+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:32:53.730446+00:00",
+  "research_updated_at": "2026-10-18T06:37:26.071005+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed: PEI native JSON catalog94IDs with mixed licence claims; DASH restricted; four institutional collections remain candidates under Borealis hold.",
+  "latest_milestone": "Nine original tasks reviewed: PEI JSON94IDs, DASH restricted, four institutional candidates; AGS eight named OGL2.2 works/catalog41IDs, FDZ held, DTA OAI Identify verified with licence conflict.",
   "counts": {
-    "verified": 366,
-    "candidates": 880,
+    "verified": 367,
+    "candidates": 882,
     "excluded": 261,
     "sample_successes": 465
   },
@@ -1196,6 +1196,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-geological-survey",
           "alberta-open-government",
           "arctic-data",
           "boston-maps-open-data",
@@ -1276,6 +1277,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-geological-survey",
           "arctic-data",
           "canada-npri-arcgis",
           "cib",
@@ -1317,6 +1319,7 @@
       "energy": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-geological-survey",
           "alberta-open-government",
           "canada-npri-arcgis",
           "eia",
@@ -1481,6 +1484,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-geological-survey",
           "arctic-data",
           "baltimore-open-data",
           "boston-maps-open-data",
@@ -1732,6 +1736,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "alberta-geological-survey",
           "arctic-data",
           "ca-opc",
           "canada-npri-arcgis",
@@ -5617,6 +5622,24 @@
       "license_url": "https://collections.ala.org.au/ws/dataResource/dr15863",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-18T00:11:45.309725+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "alberta-geological-survey",
+      "provider": "Alberta Energy Regulator / Alberta Geological Survey",
+      "service_name": "AGS open-data portal and geological services",
+      "geographic_coverage": "Alberta, Canada; geological and related scientific coverage varies by product",
+      "topical_coverage": "geospatial | water | energy | climate/weather/environment | research",
+      "dataset_families": "AGS geological maps, groundwater, minerals, geothermal and scientific reports/data; partner contents separately governed",
+      "documentation_url": "https://ags.aer.ca/ | https://ags.aer.ca/copyright-legal-disclaimers | https://geology-ags-aer.opendata.arcgis.com/",
+      "api_base_url": "https://geology-ags-aer.opendata.arcgis.com/data.json",
+      "format_protocol": "Native anonymous DCAT-like JSON catalog; advertised feature distributions not queried",
+      "authentication": "Anonymous full catalog GET succeeded; no account or credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Open Government Licence – Alberta 2.2; eight explicitly labelled catalog works, with exclusions",
+      "license_url": "https://ags.aer.ca/copyright-legal-disclaimers | https://open.alberta.ca/licence",
+      "api_verification_state": "Native root/copyright/linked portal and licence200; exact catalog request status=200, JSON valid=True, truncated=False, error=None",
+      "latest_checked_utc": "2026-10-18T06:36:08.809532+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15360,6 +15383,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "deutsches-textarchiv-api",
+      "provider": "Berlin-Brandenburg Academy of Sciences and Humanities / Deutsches Textarchiv",
+      "service_name": "DTA APIs and OAI-PMH repository",
+      "geographic_coverage": "German-language historical texts; source work and corpus coverage varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Historical digitized German texts, corpus metadata, news/recent feeds and OAI metadata; images separately governed",
+      "documentation_url": "https://www.deutschestextarchiv.de/api",
+      "api_base_url": "https://www.deutschestextarchiv.de/oai-dta/",
+      "format_protocol": "Native OAI-PMH2 XML Identify; documented Atom feeds, BEACON and OpenSearch references not queried",
+      "authentication": "Anonymous exact owner-linked Identify GET succeeded; no credentials/account used",
+      "free_access_restrictions": "Owner describes free search. Text/image/licence ambiguity and source exceptions remain; quotas unknown.",
+      "license": "Native terms name CC BY-SA4.0 and public-domain plain text but retain noncommercial wording; unresolved conflict and separate image conditions",
+      "license_url": "https://www.deutschestextarchiv.de/doku/nutzungsbedingungen",
+      "api_verification_state": "Native API/terms/root200. Exact currently owner-linked OAI Identify200 parsed namespace-correct OAI2 XML, no OAI errors, protocol2.0; repositoryName D*-Repository. No ListRecords/ListIdentifiers/source corpus queried.",
+      "latest_checked_utc": "2026-10-18T06:36:08.809532+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dhs-indicator-data-api",
       "provider": "The Demographic and Health Surveys Program / ICF",
       "service_name": "DHS aggregated indicator REST API",
@@ -16401,6 +16442,24 @@
       "license_url": "https://fantom.gsc.riken.jp/ | https://www.riken.jp/en/terms/",
       "api_verification_state": "Nativeprojectroot/RIKENterms200HTML; exactmachinequeryAPIunresolved, no API/source sample.",
       "latest_checked_utc": "2026-10-18T05:20:48.717870+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "fdz-bildung-research-data",
+      "provider": "DIPF Leibniz Institute for Research and Information in Education",
+      "service_name": "Forschungsdatenzentrum Bildung research data and instruments",
+      "geographic_coverage": "German educational research collections; individual study coverage varies",
+      "topical_coverage": "education | research",
+      "dataset_families": "Educational research data, teaching videos and research instruments; source categories have different access conditions",
+      "documentation_url": "https://www.fdz-bildung.de",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified blanket metadata/source grant; teaching-video access restricted",
+      "license_url": "https://www.fdz-bildung.de/nutzung-unterrichtsvideos",
+      "api_verification_state": "Original root request guard-deferred unsent; no native root or public API response. Indexed owner access-policy summary only.",
+      "latest_checked_utc": "2026-10-18T06:36:08.809532+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
