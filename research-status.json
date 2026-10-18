@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:01:10.160701+00:00",
+  "published_at": "2026-10-18T17:03:13.092996+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:00:06.475760+00:00",
+  "research_updated_at": "2026-10-18T17:01:45.473382+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: CO-OPS dedup; ASF3missionJSON/selectedCC0bucket; CLOSER NCmetadata/MLconditions; ZFINBY4/APIgap; Maine/MX-RDRgrantgaps; MDZ898000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to910pages/910000refs;2303503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 440,
-    "candidates": 1177,
-    "excluded": 343,
+    "verified": 441,
+    "candidates": 1178,
+    "excluded": 344,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -10398,6 +10398,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "juelich-data-repository",
+      "provider": "Forschungszentrum Juelich Central Library",
+      "service_name": "Juelich DATA Dataverse institutional repository",
+      "geographic_coverage": "Germany institutional research; source geographic coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data/software and metadata, including published and restricted hot-data descriptions",
+      "documentation_url": "https://apps.fz-juelich.de/fdm/guide/juelich/terms-of-use.html | https://apps.fz-juelich.de/fdm/guide/juelich/mode-of-access.html | https://apps.fz-juelich.de/fdm/guide/api/native-api.html",
+      "api_base_url": "https://data.fz-juelich.de/api/",
+      "format_protocol": "Institutional DataverseREST/APIguide documents versionJSON; originalversion requestguard-deferred, not runtimeJSON",
+      "authentication": "Native terms permit general publicaccess to publishedmetadata; account/HelmholtzAAI for user services/deposit/restrictedcontent. No account used",
+      "free_access_restrictions": "Publishedmetadata accessible; source-specific terms/privacy and interface retrieval limits apply. No bulk/massmetadata/associateddata duplication or commercial webpageextraction performed",
+      "license": "Native default CC0 metadata; individual open-access overrides and source terms preserved",
+      "license_url": "https://apps.fz-juelich.de/fdm/guide/juelich/terms-of-use.html | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "Native portal/ownerguide/terms/access/APIreference200HTML. Small documented api/info/version request guard-deferred unsent, no successful APIJSON; no alternate endpoint after hold.",
+      "latest_checked_utc": "2026-10-18T17:01:32.638328+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "kamloops-open-data",
       "provider": "City of Kamloops,British Columbia",
       "service_name": "Kamloops open-data portal and scoped Brownfield ArcGIS service",
@@ -20480,6 +20498,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "fudan-social-science-data",
+      "provider": "Fudan University",
+      "service_name": "Fudan University Social Science Data Platform",
+      "geographic_coverage": "China institutional socialscience infrastructure; source geographic coverage unverified",
+      "topical_coverage": "research | demographics | economics/finance",
+      "dataset_families": "Institutional socialscience data-platform descriptions; current source families unverified from titleonlyresponse",
+      "documentation_url": "https://rdr.fudan.edu.cn/datahome/open/dataResource",
+      "api_base_url": "",
+      "format_protocol": "Native HTTP200 titleonlyapplication HTMLshell; no verified publicAPI/schema",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown current data/metadata grant; registryCC0/CC unverified",
+      "license_url": "https://rdr.fudan.edu.cn/datahome/open/dataResource",
+      "api_verification_state": "NativeHTTP200HTML titleonlyapplication shell, not APIJSON or source catalog. Current publicAPI/auth/reuse terms unresolved.",
+      "latest_checked_utc": "2026-10-18T17:01:32.638328+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gaia-blu-cruise-inventory",
       "provider": "D4Science / GaiaBluLab",
       "service_name": "Gaia Blu Cruise Inventory portal / claimed GCAT interface",
@@ -24183,8 +24219,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across898successfulpages/898000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:53:06.138259+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across910successfulpages/910000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:01:40.760608+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -39001,6 +39037,24 @@
       "license_url": "https://lris.scinfo.org.nz/license/landcare-data-use-licence-v1/",
       "api_verification_state": "Native portalHTTP200 JavaScript shell and licenceHTTP200; owner API guide guard-deferred/indexed only, no runtime data response",
       "latest_checked_utc": "2026-10-18T00:55:40.924458+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "lxcat-plasma-data",
+      "provider": "LXCat contributor community",
+      "service_name": "LXCat low-temperature-plasma reference databases",
+      "geographic_coverage": "International scientific contributor resource; NLmirror only documentationchecked; source geography varies",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Reference collision/cross-section and plasma-modeling database descriptions; actual measurements not requested",
+      "documentation_url": "https://nl.lxcat.net/instructions/how_reference.php",
+      "api_base_url": "",
+      "format_protocol": "Native website terms/reference documentation; exact public queryAPI/schema unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Contributor-owned; no third-party redistribution or commercial use; all rights reserved",
+      "license_url": "https://nl.lxcat.net/instructions/how_reference.php",
+      "api_verification_state": "Native termsHTTP200HTML. No native publicAPIcontract/runtime verified; no reference-data or calculation request.",
+      "latest_checked_utc": "2026-10-18T17:01:32.638328+00:00",
       "classification": "restricted"
     },
     {
