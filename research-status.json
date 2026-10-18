@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:24:08.079191+00:00",
+  "published_at": "2026-10-18T08:26:11.058554+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:23:25.982494+00:00",
+  "research_updated_at": "2026-10-18T08:25:59.570198+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NAKBannotation/APIgrant unresolved; CRC247policytimeoutpreserved; EIAoriginaldedupcurrentnativegrant/keyrequirementretained.",
+  "latest_milestone": "AFDCstationAPI/keyrequirement nativeverified/runtimeuntested; WDCMAPIgrantunknown; NAtChem6subjectrefs indexed/noautomaticGeoMetmerge.",
   "counts": {
     "verified": 381,
-    "candidates": 944,
+    "candidates": 947,
     "excluded": 275,
     "sample_successes": 465
   },
@@ -12722,6 +12722,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "afdc-transportation-data-apis",
+      "provider": "US DOE Alternative Fuels Data Center / National Laboratory of the Rockies",
+      "service_name": "AFDC transportation data API family",
+      "geographic_coverage": "US alternativefuels/transportationpolicy and US/Canadian fuelingstationcoverage; operation-specific coverage varies",
+      "topical_coverage": "transportation | energy | law/civic data | research",
+      "dataset_families": "Alternativefuelstations/EVcharging, transportationlaws/incentives and vehicles; exact APIpaths retained byfamily",
+      "documentation_url": "https://developer.nlr.gov/docs/transportation/alt-fuel-stations-v1/ | https://developer.nlr.gov/docs/transportation/transportation-incentives-laws-v1/",
+      "api_base_url": "https://developer.nlr.gov/api/alt-fuel-stations/v1 | transportation-incentives-laws API family documented, exact current base unresolved",
+      "format_protocol": "RESTGETJSON/CSV/GeoJSON documented forstationfamily; routePOST/modelservices nottested",
+      "authentication": "Native stationlast-updatedguide explicitlyrequiresapi_key; developerkeys notacquired/used. Otheroperationrequirements source-specific.",
+      "free_access_restrictions": "APIservices publiclydocumented; currentAFDCdownloadworkflow requestscontactinformation/termsacceptance, notsubmitted. Exactformaldatareusegrant unresolved.",
+      "license": "unknown verified data grant",
+      "license_url": "https://afdc.energy.gov/disclaimer",
+      "api_verification_state": "Nativeroot/disclaimer/NLRtransportationdirectory/station/lastupdateddocs200; exactstationAPI/keyrequirement documented, runtimeuntested. Incentivesdoc200mostlyheading, exactcurrentendpointnotresolved.",
+      "latest_checked_utc": "2026-10-18T08:25:54.919038+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "agroportal-ontology-api",
       "provider": "AgroPortal / OntoPortal community",
       "service_name": "AgroPortal agricultural ontology REST/SPARQL services",
@@ -21056,6 +21074,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "natchem-atmospheric-chemistry-discovery",
+      "provider": "Environment and Climate Change Canada",
+      "service_name": "National Atmospheric Chemistry data archive discovery",
+      "geographic_coverage": "Canadian atmosphericchemistrymonitoring and collaboratingnetworks/studies; actual station/timecoverage unenumerated",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Atmosphericgases/particles/combinedmeasurements/precipitationchemistry/networkstudies/specialstudies; sixsubjectdocumentationrefs indexed",
+      "documentation_url": "https://www.canada.ca/en/environment-climate-change/services/air-pollution/monitoring-networks-data/national-atmospheric-chemistry-database/data.html",
+      "api_base_url": "",
+      "format_protocol": "Ownerdata-discovery pages/donnees.ec.gc.ca links, notverifiedqueryAPI; GeoMetdistinctexistingservice notautomaticallysamecontent",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.canada.ca/en/transparency/terms.html",
+      "api_verification_state": "Nativeowner/dataguide/Canadaterms200HTML; no exactNAtChemreadAPI/runtime sample",
+      "latest_checked_utc": "2026-10-18T08:25:54.919038+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "natureserve-explorer-api",
       "provider": "NatureServe",
       "service_name": "NatureServe Explorer public REST services",
@@ -27821,6 +27857,24 @@
       "license_url": "https://cidas.isee.nagoya-u.ac.jp/WDCCR/readme.html",
       "api_verification_state": "Native home/readme200 HTML; directory/file availability not query API proof",
       "latest_checked_utc": "2026-10-18T07:59:08.366213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wdcm-microorganism-discovery",
+      "provider": "World Data Centre for Microorganisms",
+      "service_name": "WDCM microorganism resource discovery",
+      "geographic_coverage": "International microorganismresource discovery asregistryclaim; actual currentcollection/geographiccoverage unverified",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Microorganism/culturecollection discovery; exactnativefamilyinventory notread fromapp shell",
+      "documentation_url": "https://www.wdcm.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.wdcm.org/",
+      "api_verification_state": "Nativeroot200HTML title only; exactAPI/runtime notverified",
+      "latest_checked_utc": "2026-10-18T08:25:54.919038+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
