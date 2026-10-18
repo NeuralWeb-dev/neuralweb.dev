@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T04:30:37.270914+00:00",
+  "published_at": "2026-10-18T04:32:39.929788+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:30:26.384338+00:00",
+  "research_updated_at": "2026-10-18T04:31:49.578435+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
+  "latest_milestone": "Nine original tasks reviewed;five new portal rows, four existing services updated. ENA policy/quota documented, source scopes unresolved. InterPro151pages/30200IDs partial; no worker.",
   "counts": {
     "verified": 353,
-    "candidates": 806,
+    "candidates": 808,
     "excluded": 232,
     "sample_successes": 466
   },
@@ -209,6 +209,8 @@
           "unsd",
           "usgs-sciencebase-catalogue",
           "wdcrre-resources-environment",
+          "whoi-argo-program",
+          "whoi-seafloor-samples-lab",
           "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
@@ -271,6 +273,7 @@
           "scripps-ogdc-data-portal",
           "usgs-sciencebase-catalogue",
           "wdcrre-resources-environment",
+          "whoi-argo-program",
           "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
@@ -514,6 +517,7 @@
           "ubc-circle-open-collections",
           "usgs-sciencebase-catalogue",
           "wdcrre-resources-environment",
+          "whoi-seafloor-samples-lab",
           "world-stress-map-oai",
           "worldpop-wopr"
         ],
@@ -670,6 +674,8 @@
           "sioexplorer-legacy-cruise-archive",
           "usgs-sciencebase-catalogue",
           "wdcrre-resources-environment",
+          "whoi-argo-program",
+          "whoi-seafloor-samples-lab",
           "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
@@ -974,6 +980,8 @@
           "usno-astronomical-applications-api",
           "wdcrre-resources-environment",
           "wellcome-collection",
+          "whoi-argo-program",
+          "whoi-seafloor-samples-lab",
           "whoi-upper-ocean-processes",
           "world-stress-map-oai"
         ],
@@ -4552,7 +4560,8 @@
           "lris-landcare-data-services",
           "national-vegetation-survey-nz",
           "spc-pccos-thredds",
-          "state-of-the-salmon-resources"
+          "state-of-the-salmon-resources",
+          "us-globec-data-portal"
         ]
       },
       "water": {
@@ -4763,7 +4772,8 @@
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
           "national-vegetation-survey-nz",
-          "state-of-the-salmon-resources"
+          "state-of-the-salmon-resources",
+          "us-globec-data-portal"
         ]
       },
       "oceans": {
@@ -4784,7 +4794,8 @@
         "restricted_provider_ids": [
           "dfo-pacific-ios-archive",
           "spc-pccos-thredds",
-          "state-of-the-salmon-resources"
+          "state-of-the-salmon-resources",
+          "us-globec-data-portal"
         ]
       },
       "astronomy": {
@@ -4865,6 +4876,7 @@
           "rda-australia",
           "spc-pccos-thredds",
           "state-of-the-salmon-resources",
+          "us-globec-data-portal",
           "wa-slip-data-update-api"
         ]
       }
@@ -8378,7 +8390,7 @@
       "license": "CC0 1.0 Universal Public Domain Dedication",
       "license_url": "https://interpro-documentation.readthedocs.io/en/latest/license.html",
       "api_verification_state": "Official specific licence/API guides HTTP200 and anonymous native entry sample HTTP200 validJSON with one result and cursor",
-      "latest_checked_utc": "2026-10-18T04:26:01.873674+00:00",
+      "latest_checked_utc": "2026-10-18T04:31:01.786444+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -24638,6 +24650,42 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "whoi-argo-program",
+      "provider": "Woods Hole Oceanographic Institution",
+      "service_name": "WHOI Argo Program portal",
+      "geographic_coverage": "Global WHOI Argo float deployments/status and cohort views",
+      "topical_coverage": "oceans | water | climate/weather | research",
+      "dataset_families": "Core/deep/BGC/ALAMO floats; telemetry/QC/deployment/cohort data access references",
+      "documentation_url": "https://argo.whoi.edu/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "NativeWHOIrootHTTP200HTML, no exact WHOIprogram queryAPI/sample established. Registry RESTURL is distinctColoradoArgovis, not WHOIowned API.",
+      "latest_checked_utc": "2026-10-18T04:30:44.275479+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "whoi-data-library-archives",
+      "provider": "Woods Hole Oceanographic Institution",
+      "service_name": "WHOI Data Library and Archives",
+      "geographic_coverage": "WHOI oceanographic archives, individual expedition coverage varies",
+      "topical_coverage": "oceans | research | culture",
+      "dataset_families": "Institutional oceanographic data/library/archive holdings, current coverage unverified",
+      "documentation_url": "https://www.dla.whoi.edu/dla/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.dla.whoi.edu/dla/policies",
+      "api_verification_state": "Original ownerroot and policy requestsHTTP503, not successfulAPI or reuse-policy responses",
+      "latest_checked_utc": "2026-10-18T04:30:44.275479+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "whoi-seafloor-samples-lab",
       "provider": "Woods Hole Oceanographic Institution",
       "service_name": "Seafloor Samples Laboratory collections/data portal",
@@ -28929,7 +28977,7 @@
       "service_name": "NDSF vehicle data access and archive portal",
       "geographic_coverage": "Global deep-submergence expeditions using Alvin, Jason and Sentry; cruise/vehicle coverage varies",
       "topical_coverage": "oceans | environment | biodiversity | geospatial | research",
-      "dataset_families": "Vehicle dive metadata, imagery/video, instrument/navigation products and archive access; subset served by distinct MGDS APIs",
+      "dataset_families": "Vehicle dive metadata, imagery/video, instrument/navigation products and archive access; subset served by distinct MGDS APIs | Jason VirtualVan registry collection family",
       "documentation_url": "https://ndsf.whoi.edu/data/ndsf-data-policy/",
       "api_base_url": "",
       "format_protocol": "Public portal/archive requests and delegated MGDS discovery; exact independent NDSF query API unverified",
@@ -28938,7 +28986,7 @@
       "license": "CC BY-NC-SA4for NDSF/WHOI imagery; other source grants/access conditions vary",
       "license_url": "https://ndsf.whoi.edu/data/ndsf-data-policy/",
       "api_verification_state": "Native homepage and data policy HTTP200HTML; public subset delegated to existing MGDS, exact standalone NDSF API not verified or sampled.",
-      "latest_checked_utc": "2026-10-18T02:22:49.206749+00:00",
+      "latest_checked_utc": "2026-10-18T04:30:44.275479+00:00",
       "classification": "restricted"
     },
     {
