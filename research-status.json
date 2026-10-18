@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:40:47.537713+00:00",
+  "published_at": "2026-10-18T21:42:50.613886+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:36:41.617310+00:00",
+  "research_updated_at": "2026-10-18T21:42:42.345206+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AMCR NC/OAIidentity; MOSPgap; CNR4DMED namedBY4/WMS12layers/14productrefs; WGMS BY4 heldArcGIS; FinBIF namedBY4/tokenrequired; CEDA mixedrights.",
+  "latest_milestone": "ZBWAPI/grant hosthold; NaNDAnamedNCsubset and APIgap; Rutgersnative5servicefamilies documented, rights/runtimepending.",
   "counts": {
-    "verified": 476,
-    "candidates": 1374,
+    "verified": 477,
+    "candidates": 1379,
     "excluded": 401,
     "sample_successes": 464
   },
@@ -9295,6 +9295,24 @@
       "license_url": "https://www.eia.gov/about/copyrights_reuse.php",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-18T08:23:21.309308+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "eidc-environmental-catalogue-api",
+      "provider": "UK Centre for Ecology and Hydrology / NERC EDS",
+      "service_name": "Environmental Information Data Centre catalogue API",
+      "geographic_coverage": "PrimarilyUK terrestrial/freshwater environmental science; global/other source scopes vary",
+      "topical_coverage": "environment | water | climate | biodiversity | agriculture | research",
+      "dataset_families": "Terrestrial/freshwater dataset descriptions, collections, model/software/map service metadata; sources individually licensed",
+      "documentation_url": "https://eidc.ac.uk/ | https://catalogue.ceh.ac.uk/eidc/documents",
+      "api_base_url": "https://catalogue.ceh.ac.uk/eidc/documents | https://catalogue.ceh.ac.uk/sparql (registry reference untested)",
+      "format_protocol": "HTTP JSON metadata/faceted search verified; SPARQL/WAF registry claims not runtime-tested",
+      "authentication": "Anonymous native documents URL HTTP200JSON; homepage announcesPAT replacingbasic auth for programmatic download/catalogue requests5Oct2026, not interpreted as all anonymous endpoints disabled. Credentialed operations untested; no tokens used or created.",
+      "free_access_restrictions": "Per-source licenses OGL and restrictiveclickthrough, some access needs authenticated/acceptedlicence. No account/acceptance/download or fee acquired.",
+      "license": "OGLv3 verified for named Countryside Survey1978 vegetation plot dataset; other source grants vary",
+      "license_url": "https://catalogue.ceh.ac.uk/eidc/documents | https://eidc.ac.uk/licences/ogl | https://eidc.ac.uk/licences/standard-click-through",
+      "api_verification_state": "Native root/license pagesHTTP200. Exact published documents URL HTTP200 valid JSON withfacets,numFound,page,results,rows,nextPage;20metadataresults, no environmental observations/files. No SPARQL/data/WAF or alternatebackend request.",
+      "latest_checked_utc": "2026-10-18T21:41:04.844509+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -28236,6 +28254,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nanda-neighborhood-data-archive",
+      "provider": "University of Michigan ISR / ICPSR",
+      "service_name": "National Neighborhood Data Archive (NaNDA)",
+      "geographic_coverage": "UnitedStates neighborhood/county/tract/ZCTA measures, dataset temporalcoverage varies",
+      "topical_coverage": "demographics | housing | health | education | labor | transportation | environment | research",
+      "dataset_families": "Neighborhood physical/economic/social/environmental aggregate measures; restricted source-rights subsets separate",
+      "documentation_url": "https://archive.icpsr.umich.edu/nanda/home | https://nanda.isr.umich.edu/2026/01/29/nets-2022/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed/unconfirmed per-source grants; named2026NETSTraining/Vocation source explicitlyNC",
+      "license_url": "https://nanda.isr.umich.edu/2026/01/29/nets-2022/",
+      "api_verification_state": "NativeICPSR archive landingHTTP200describes sourcefamilies; exactpublic networkAPI/metadataexportschema unverified. Native owner release requestrobots-deferredunsent, indexedofficial NCpolicy retained. No UIbackend/query or files.",
+      "latest_checked_utc": "2026-10-18T21:42:37.597687+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nanocommons-knowledgebase",
       "provider": "NanoCommons / Biomax Informatics",
       "service_name": "NanoCommons KnowledgeBase",
@@ -33618,6 +33654,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rutgers-ruresearch-data-api",
+      "provider": "Rutgers University Libraries",
+      "service_name": "RUresearch / RUcore web-service APIs",
+      "geographic_coverage": "Rutgers/NewJersey and international research/cultural holdings; collectionscope varies",
+      "topical_coverage": "research | education | culture | environment",
+      "dataset_families": "Researchdata context, scholarly/digital collections, collection-specificmetadata; sources individuallycontrolled",
+      "documentation_url": "https://rucore.libraries.rutgers.edu/api/",
+      "api_base_url": "https://rucore.libraries.rutgers.edu/api/ (native guide, exactreadoperationbases unresolved) | https://rucore.libraries.rutgers.edu/api/oai-pmh (registry reference, untested)",
+      "format_protocol": "Native docs RESTXML/JSON, IIIF/OAI/PURL/relationships/search services",
+      "authentication": "Unknown currentread endpoint requirements, native guideincludesmanagement services; no credentials/account used",
+      "free_access_restrictions": "Native portal describes configurableaccess/embargo/statementsofuse, no universal anonymous/sourcepermission accepted",
+      "license": "Unknown metadata/database-wide formalgrant; sources/accessconditions vary",
+      "license_url": "",
+      "api_verification_state": "Native researchroot/APIguide HTTP200, guideexplicitREST/XMLJSON and fivepublishedservice-family doclinks. Webcrawlerrobots/sourceerror signals retained, no furtherhost/sourcequeries or originalOAIprobe. Docs success distinguished from actualAPI/XMLresponse.",
+      "latest_checked_utc": "2026-10-18T21:42:37.597687+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "saa-archivists-dataverse",
       "provider": "Society of American Archivists",
       "service_name": "Society of American Archivists data discovery service",
@@ -34623,6 +34677,24 @@
       "license_url": "https://confluence.si.edu/spaces/FFI/pages/72879451/Metadata%2Brequirements",
       "api_verification_state": "Originalportal guard-deferredunsent. Nativeguide403; indexedownerdefaultCCBY/CC0/Apachechoices notrepository-widegrant. SmithsonianOpenAccesscollectionsCC0 notautomaticallytransferredtoallFigshareresearchdata.",
       "latest_checked_utc": "2026-10-18T15:34:32.936709+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "smithsonian-tropical-data-portal",
+      "provider": "Smithsonian Tropical Research Institute / Smithsonian DataONE",
+      "service_name": "Smithsonian Tropical Data Portal",
+      "geographic_coverage": "Tropical research including Panama/BarroColorado and international tropical science; dataset scopes vary",
+      "topical_coverage": "biodiversity | climate | environment | research",
+      "dataset_families": "Tropical biological/environmental research dataset discovery and related research products",
+      "documentation_url": "https://smithsonian.dataone.org/portals/tropical",
+      "api_base_url": "https://smithsonian.dataone.org/metacat/d1/mn/v2/ (shared repository, current portal mapping not runtime-tested)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Source-specific CC grants, no uniform Tropical portal/database grant verified",
+      "license_url": "",
+      "api_verification_state": "Native Tropical portal HTTP200 loading client shell. Shared host/repository already documented with prior capability/query samples in smithsonian-research; current portal-specific filter and runtime untested, no replay/source query.",
+      "latest_checked_utc": "2026-10-18T21:41:04.844509+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -36656,7 +36728,7 @@
       "license": "unknown verified data grant",
       "license_url": "https://ukdataservice.ac.uk/terms-and-conditions/",
       "api_verification_state": "Native archive root/terms HTTP200; catalogue HTTP200 minimal JavaScript shell, not API success. Exact original OAI Identify HTTP200 valid OAI-PMH XML, no errors. GraphQL indexed overview not active endpoint proof.",
-      "latest_checked_utc": "2026-10-18T18:57:57.558548+00:00",
+      "latest_checked_utc": "2026-10-18T21:41:04.844509+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -36711,6 +36783,24 @@
       "license_url": "https://www.trade-tariff.service.gov.uk/terms",
       "api_verification_state": "documented_managed_credentials_required_untested_legacy_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T18:39:14.248800+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ukds-census-statistics-ckan",
+      "provider": "UK Data Service / Census aggregate data service",
+      "service_name": "UK Data Service Census statistics CKAN portal",
+      "geographic_coverage": "UK Census aggregate statistics, datasets/nations/year coverage varies",
+      "topical_coverage": "demographics | economics | labor | housing | education",
+      "dataset_families": "Census aggregate table metadata and resource links; source statistical tables not requested",
+      "documentation_url": "https://statistics.ukdataservice.ac.uk/sl/dataset/england-and-wales-census-2021-rm063-industry-by-economic-activity-status",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "OGL declared for namedRM063 source; general portal/source license scope unconfirmed",
+      "license_url": "https://statistics.ukdataservice.ac.uk/sl/dataset/england-and-wales-census-2021-rm063-industry-by-economic-activity-status",
+      "api_verification_state": "Originalstatistics portal root robots-deferredunsent. Indexed native page describes JSONCKANactionAPI/RDF but rootnotruntimeproof. No framework-path guess/status/package/sample or alternate-language URLfetch used to bypasshold.",
+      "latest_checked_utc": "2026-10-18T21:41:04.844509+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -40113,6 +40203,24 @@
       "license_url": "https://www.zamstats.gov.zm/faqs/ | https://nada.zamstats.gov.zm/index.php/catalog/34",
       "api_verification_state": "standard_protocol_catalog_metadata_sample_success_selected_terms_timeout",
       "latest_checked_utc": "2026-10-17T01:42:00.607914+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "zbw-journal-data-archive",
+      "provider": "ZBW Leibniz Information Centre for Economics",
+      "service_name": "ZBW Journal Data Archive API candidate",
+      "geographic_coverage": "International economics replication research; package geography varies",
+      "topical_coverage": "economics | labor | research",
+      "dataset_families": "Economics journal article replication packages, associated data/code and metadata",
+      "documentation_url": "https://journaldata.zbw.eu/info/api-guide",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original root robots-deferredunsent; samehostAPIguide deferredunsent afterhostfailure. Native indexed institutional guide identifies archive, not current deployedAPI/version/runtime. No CKANstandardpath/status/backend or alternatehost request.",
+      "latest_checked_utc": "2026-10-18T21:42:37.597687+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
