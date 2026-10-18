@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T22:05:27.189337+00:00",
+  "published_at": "2026-10-18T22:07:30.445902+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:04:55.867411+00:00",
+  "research_updated_at": "2026-10-18T22:06:55.886380+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Texas defaultCC0/custom/APIterms; IGSregistryNCconflict/nativehold; RosarionamedNC/APIhold; LingnanoperatorCCBYdefault clarified.",
+  "latest_milestone": "UNB nativeowner/heldrepository; RIN nativecollectiondirectory/2023policyPDF/OAIhold; CIMMYT deduplicated withmixedsourcefacet review.",
   "counts": {
     "verified": 483,
-    "candidates": 1392,
+    "candidates": 1394,
     "excluded": 403,
     "sample_successes": 464
   },
@@ -18894,7 +18894,7 @@
       "license": "unknown",
       "license_url": "https://data.cimmyt.org/",
       "api_verification_state": "untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T17:39:08.529423+00:00",
+      "latest_checked_utc": "2026-10-18T22:06:51.213080+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25087,6 +25087,24 @@
       "license_url": "https://data.go.id/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T09:44:31.991609+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "indonesia-rin-research-repository",
+      "provider": "BRIN / Indonesian National Scientific Repository",
+      "service_name": "RIN national research data repository",
+      "geographic_coverage": "Indonesian national/institutional research network; source coverage varies",
+      "topical_coverage": "research | education | agriculture | environment | health | geospatial",
+      "dataset_families": "Multidisciplinary national research dataset/collection descriptions and associated repository metadata",
+      "documentation_url": "https://rin.brin.go.id/ | https://www.brin.go.id/news/115356/repositori-ilmiah-nasional-sebagai-sarana-untuk-manajemen-data-riset",
+      "api_base_url": "https://data.brin.go.id/oai (registered and hostlinked, held); current REST read operations unverified",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://rin.brin.go.id/upload/kebijakan_pengelolaan_rin_2023.pdf",
+      "api_verification_state": "Native landing and BRIN ownerarticleHTTP200HTML, landing publishes dataverse collections on data.brin.go.id. Exact registeredOAIIdentify robots-deferred unsent. Native2023policy HTTP200PDF, not API response. No alternativeAPI/search/source sample.",
+      "latest_checked_utc": "2026-10-18T22:06:51.213080+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -37291,6 +37309,24 @@
       "license_url": "https://biblioteca.unab.cl/ciencia-abierta/",
       "api_verification_state": "Original OAI guard-deferred unsent; owner page403; separately saved indexed-primary review, no successful API sample.",
       "latest_checked_utc": "2026-10-18T16:32:03.079957+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unb-library-dataverse",
+      "provider": "University of New Brunswick Libraries",
+      "service_name": "UNB Dataverse research data repository",
+      "geographic_coverage": "UNB and affiliated Canadian research organizations; international source geography varies",
+      "topical_coverage": "research | education | environment | geospatial",
+      "dataset_families": "Institutional research dataset descriptions, replication/documentation metadata and source deposits",
+      "documentation_url": "https://lib.unb.ca/rdm",
+      "api_base_url": "https://dataverse.lib.unb.ca/oai (registryreference, unsent under root hold)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Originalroot robots-deferred unsent; exactregistryOAIIdentify deferred afterfailure. Independent native ownerRDMpage HTTP200 confirms current UNBDataverse identity. No actualAPIresponse.",
+      "latest_checked_utc": "2026-10-18T22:06:51.213080+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
