@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T15:47:15.512777+00:00",
+  "published_at": "2026-10-18T15:49:18.699739+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:46:03.207443+00:00",
+  "research_updated_at": "2026-10-18T15:47:34.445369+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "INRAE institutional collection identity verified on national platform; eAtlas mixed rights/APIholds; Lincoln policy choices and exceptions, portalhold.",
+  "latest_milestone": "SMU native service NC and ORDO indexed metadata nonprofit restrictions; eSango selected licenses, portal and owner guards.",
   "counts": {
     "verified": 432,
-    "candidates": 1131,
-    "excluded": 333,
+    "candidates": 1132,
+    "excluded": 335,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -17490,6 +17490,24 @@
       "license_url": "https://www.courtlistener.com/terms/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:28:46.492545+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cput-esango",
+      "provider": "Cape Peninsula University of Technology",
+      "service_name": "eSango research data repository",
+      "geographic_coverage": "South Africa institutional research; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets, software and metadata-only/external-source descriptions; no source inventory",
+      "documentation_url": "https://library.cput.ac.za/files/library_documents/Research_Support/eSango_terms_of_use.pdf",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution313/portal313 untested)",
+      "format_protocol": "Registry Figshare REST/OAI; native portal-specific schema and operation response unverified",
+      "authentication": "No credentials used; public API auth unresolved, deposits/private access separate",
+      "free_access_restrictions": "Mixed depositor-selected licenses; metadata-wide grant unresolved",
+      "license": "Mixed depositor-selected licenses; metadata-wide grant unresolved",
+      "license_url": "https://library.cput.ac.za/files/library_documents/Research_Support/eSango_terms_of_use.pdf",
+      "api_verification_state": "Original portal and independent owner termsPDFguard-deferredunsent. WebPDFreader502; indexed owner termsreviewonly, no native policy text or APIresponse.",
+      "latest_checked_utc": "2026-10-18T15:47:29.840979+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -38681,6 +38699,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "open-university-ordo",
+      "provider": "The Open University",
+      "service_name": "Open Research Data Online (ORDO)",
+      "geographic_coverage": "United Kingdom institutional research; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets, software and metadata-only/external-source descriptions; no source inventory",
+      "documentation_url": "https://university.open.ac.uk/library-research-support/research-data-management/using-open-research-data-online-ordo",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution160/portal160 untested)",
+      "format_protocol": "Registry Figshare REST/OAI; native portal-specific schema and operation response unverified",
+      "authentication": "No credentials used; public API auth unresolved, deposits/private access separate",
+      "free_access_restrictions": "Metadata reuse limited to not-for-profit purposes with OAI identifier/original record link",
+      "license": "Metadata reuse limited to not-for-profit purposes with OAI identifier/original record link",
+      "license_url": "https://university.open.ac.uk/library-research-support/research-data-management/using-open-research-data-online-ordo",
+      "api_verification_state": "Original portal and original owner policyPDFguard-deferredunsent; indexed current official policy reviewed, no native API response.",
+      "latest_checked_utc": "2026-10-18T15:47:29.840979+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "openaq",
       "provider": "OpenAQ",
       "service_name": "OpenAQ API",
@@ -39326,6 +39362,24 @@
       "license_url": "https://www.sidc.be/SILSO/eisninfo",
       "api_verification_state": "native_SILSO_CCBYNC4_data_terms_verified_public_queryAPI_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:48:18.597388+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "smu-research-data-repository",
+      "provider": "Singapore Management University",
+      "service_name": "SMU Research Data Repository",
+      "geographic_coverage": "Singapore institutional research; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets, software and metadata-only/external-source descriptions; no source inventory",
+      "documentation_url": "https://researchguides.smu.edu.sg/rdr/terms",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution845/portal845 untested)",
+      "format_protocol": "Registry Figshare REST/OAI; native portal-specific schema and operation response unverified",
+      "authentication": "No credentials used; public API auth unresolved, deposits/private access separate",
+      "free_access_restrictions": "Personal non-commercial educational service use; per-item licenses separate",
+      "license": "Personal non-commercial educational service use; per-item licenses separate",
+      "license_url": "https://researchguides.smu.edu.sg/rdr/terms",
+      "api_verification_state": "Native owner termsHTTP200substantiveHTML; original portalguard-deferredunsent, no portalAPI response.",
+      "latest_checked_utc": "2026-10-18T15:47:29.840979+00:00",
       "classification": "restricted"
     },
     {
