@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T04:55:10.443002+00:00",
+  "published_at": "2026-10-18T04:57:13.069776+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:52:58.089065+00:00",
+  "research_updated_at": "2026-10-18T04:56:04.314644+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originaltasks reviewed; sevennewrows, UCLA/ICPSRdeduplicated. StanfordnativeIIIFmanifestverified; mixedgrants. InterPro43000IDs/215successes, failed216timeoutheld/no worker.",
+  "latest_milestone": "DZA native contract/non-profit restrictions verified; ASDC and GESIS original documentation holds retained; certification licence misattribution rejected.",
   "counts": {
     "verified": 354,
-    "candidates": 826,
-    "excluded": 236,
+    "candidates": 828,
+    "excluded": 237,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -16091,6 +16091,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gesis-international-survey-programs",
+      "provider": "GESIS Leibniz Institute for the Social Sciences",
+      "service_name": "RDC International Survey Programs discovery",
+      "geographic_coverage": "International survey programs claimed by registry; exact source extents unresolved",
+      "topical_coverage": "demographics | research",
+      "dataset_families": "International social survey programs; source-specific access not verified",
+      "documentation_url": "https://www.gesis.org/en/institute/about-us/research-data-centers/rdc-international-survey-programs",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.gesis.org/en/institute/imprint",
+      "api_verification_state": "Original owner program and imprint documentation guard-deferred, target requests unsent. No API test.",
+      "latest_checked_utc": "2026-10-18T04:55:59.994096+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "getty-museum",
       "provider": "J. Paul Getty Trust",
       "service_name": "Getty Museum Collection data API",
@@ -18932,6 +18950,24 @@
       "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:24:48.056308+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-asdc-services",
+      "provider": "NASA Langley Atmospheric Science Data Center",
+      "service_name": "ASDC Earth-science service discovery",
+      "geographic_coverage": "Global Earth-science holdings claimed by registry; exact collection extent unresolved",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Atmospheric science data; registry SDPS service claim not currently verified",
+      "documentation_url": "https://www.earthdata.nasa.gov/engage/open-data-services-and-software/api/science-data-processing-software-sdps-apis",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://asdc.larc.nasa.gov/copyright-information",
+      "api_verification_state": "Original root, copyright and SDPS documentation requests guard-deferred; target URLs unsent. No successful distinct API response.",
+      "latest_checked_utc": "2026-10-18T04:55:59.994096+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27898,6 +27934,24 @@
       "license_url": "https://d-place.org/download | http://creativecommons.org/licenses/by-nc/4.0/",
       "api_verification_state": "native_anonymous_root_project_metadata_JSON_success_current_NC4_verified",
       "latest_checked_utc": "2026-10-17T19:54:49.738290+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "dza-research-data-centre",
+      "provider": "German Centre of Gerontology",
+      "service_name": "FDZ-DZA survey research-data access",
+      "geographic_coverage": "Germany; exact survey wave/population varies",
+      "topical_coverage": "demographics | health | housing | labor | research",
+      "dataset_families": "German Ageing Survey DEAS; Old Age in Germany D80+; PREFER 2009",
+      "documentation_url": "https://www.dza.de/en/research/fdz/access-to-data",
+      "api_base_url": "",
+      "format_protocol": "Public HTML policy; SPSS/Stata Scientific Use Files documented, not queried",
+      "authentication": "Approved eligible researchers/students; signed distribution contract; protected username/password download area",
+      "free_access_restrictions": "Free of charge, scientific non-profit context, eligibility review and signed contract; additional regional data protected workstation/request conditions",
+      "license": "Restricted scientific non-profit contractual access; no open licence verified",
+      "license_url": "https://www.dza.de/en/research/fdz/access-to-data",
+      "api_verification_state": "Native public access policy200HTML. No public API documented on reviewed page; no authenticated/source-data request.",
+      "latest_checked_utc": "2026-10-18T04:55:59.994096+00:00",
       "classification": "restricted"
     },
     {
