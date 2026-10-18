@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:21:30.005402+00:00",
+  "published_at": "2026-10-18T13:23:32.766619+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:20:36.127603+00:00",
+  "research_updated_at": "2026-10-18T13:23:28.399742+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LIBCC0metadata/NCtermsconflict;CancerModelsBioStudiesmigrationdedup;GFCBY4/EEschemaverified,conditionalfreeauth",
+  "latest_milestone": "CellosaurusBY4/release56JSON/OpenAPIverified;ExPASy180discoveryrefs;FDZpurpose/automationrestricted",
   "counts": {
-    "verified": 414,
-    "candidates": 1053,
-    "excluded": 310,
+    "verified": 415,
+    "candidates": 1054,
+    "excluded": 311,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -6979,6 +6979,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cellosaurus-rest-api",
+      "provider": "SIB Swiss Institute of Bioinformatics / CALIPHO",
+      "service_name": "Cellosaurus cell-line knowledge REST API",
+      "geographic_coverage": "International cell-line knowledge research, vertebrate/invertebrate species; release56.0, not inferredfrominstitutioncountry",
+      "topical_coverage": "research | health",
+      "dataset_families": "Curatedcell-line knowledge database, identifiers/provenance/annotations; only releaseversion/count metadata queried, nocell-line records",
+      "documentation_url": "https://api.cellosaurus.org/ | https://api.cellosaurus.org/api-methods",
+      "api_base_url": "https://api.cellosaurus.org/",
+      "format_protocol": "RESTJSON/XML/TSV; OpenAPI3.1.0 nativecontract; RDF/SPARQL listed but nottested",
+      "authentication": "Anonymousrelease-info GET200validJSON; no credentials or accounts used",
+      "free_access_restrictions": "DataCCBY4permitscommercialreuse; sourceattribution/changes/licence required, no additionalrestriction. SIBgenericterms preserveindividualresourcerights.",
+      "license": "CC BY4.0",
+      "license_url": "https://www.cellosaurus.org/faq | https://api.cellosaurus.org/openapi.json",
+      "api_verification_state": "NativeFAQ/root/APIquickstart/methods/OpenAPI200; anonymousrelease-info200validJSON release56.0 updated2026-06-25, 168970celllines/29972publications reported, noactualrecordsqueried.",
+      "latest_checked_utc": "2026-10-18T13:23:23.571289+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "census",
       "provider": "US Census Bureau",
       "service_name": "US Census Bureau API",
@@ -9513,7 +9531,7 @@
       "license": "Owner public-data terms: no usage restrictions, with explicit proprietary/copyright exceptions",
       "license_url": "https://irsa.ipac.caltech.edu/data_use_terms.html",
       "api_verification_state": "Native root/APIoverview/catalogueguide/TAPguide/terms200HTML; TAPcapabilities200validXML with5capability declarations, no source query/jobs.",
-      "latest_checked_utc": "2026-10-18T13:12:07.942592+00:00",
+      "latest_checked_utc": "2026-10-18T13:22:17.140695+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18606,6 +18624,24 @@
       "license_url": "https://www.ebi.ac.uk/about/terms-of-use",
       "api_verification_state": "native_anonymous_JSON1103study_catalogue_verified_grants_unresolved",
       "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "expasy-resource-discovery-portal",
+      "provider": "SIB Swiss Institute of Bioinformatics",
+      "service_name": "ExPASy resource discovery portal",
+      "geographic_coverage": "International life-science and biomedical resources, exactsourcecoveragevaries",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Bioinformaticsdatabase/software resource directory; noall-resourcecontent/metadata licence or shareddataAPIestablished",
+      "documentation_url": "https://www.expasy.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Resource-specificterms; no blanket opendata grant",
+      "license_url": "https://www.expasy.org/terms-of-use",
+      "api_verification_state": "Nativeportal/terms200HTML. NoverifiedpublicsharedportalAPI/schema; individualAPIsmustbeverifiedseparately. ExistingCellosaurusnotcollapsedintoportal.",
+      "latest_checked_utc": "2026-10-18T13:23:23.571289+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34304,6 +34340,24 @@
       "license_url": "https://www.fao.org/contact-us/terms/db-terms-of-use/en/",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T17:36:21.499639+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "fdz-health-statistics-portal",
+      "provider": "BfArM / Forschungsdatenzentrum Gesundheit, Germany",
+      "service_name": "FDZ Gesundheit Statistikportal: purpose-restricted statistics",
+      "geographic_coverage": "Germany statutoryhealthinsurance diagnosticclaims statistics, portaldescribes2016onward",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Anonymized/suppressedaggregate diagnosisstatistics visualizedby portal; controlledunderlyingFDZmicrodata separate",
+      "documentation_url": "https://statistikportal-gesundheit.de/nutzungsbedingungen.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Publicdocumentationreadwithoutcredentials; nointeractivecategories/statisticaldata requested or termsaccepted",
+      "free_access_restrictions": "Publicanonymizedstatistics freeonly specifiedpurposes/users perterms; automatedbulk/sustainedretrievalprohibited; exactpublicAPIunverified",
+      "license": "Purpose-restricted portal terms, not generalopen-data licence",
+      "license_url": "https://statistikportal-gesundheit.de/nutzungsbedingungen.html",
+      "api_verification_state": "Nativeportal/terms200HTML, noverifieddocumentedpublicAPI/schema/sample. No diagnosisquery/data request performed.",
+      "latest_checked_utc": "2026-10-18T13:23:23.571289+00:00",
       "classification": "restricted"
     },
     {
