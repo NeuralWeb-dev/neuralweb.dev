@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:15:56.210347+00:00",
+  "published_at": "2026-10-18T08:17:59.552737+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:14:48.214944+00:00",
+  "research_updated_at": "2026-10-18T08:17:02.824830+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BioTIME/Merritt source-specific grants/APIs unresolved; INTnativeOAI2Identifyverified with operative licensingPDFunread.",
+  "latest_milestone": "EUMETSAT191collectionJSONreferencesverified/rights unresolved; ARMkeyrequiredRESTdocumented; FachportalAPI/grantunknown; OSISAFindependentleadqueued.",
   "counts": {
     "verified": 381,
-    "candidates": 936,
+    "candidates": 939,
     "excluded": 275,
     "sample_successes": 465
   },
@@ -13213,6 +13213,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "arm-live-data-service",
+      "provider": "US DOE Atmospheric Radiation Measurement User Facility",
+      "service_name": "ARM Live Data REST service",
+      "geographic_coverage": "Worldwide fixed/mobile atmospheric observatories and fieldcampaigns; exactstation/timecoverage notenumerated",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Atmospheric routineinstrument datastreams, campaigns and scienceproducts; partner/external sources have exceptions",
+      "documentation_url": "https://armlive.svcs.arm.gov/",
+      "api_base_url": "https://adc.arm.gov/armlive/",
+      "format_protocol": "RESTURL query/saveData with datastream/time, optionalwt=jsonfile-list described; NetCDF isdataformat, notAPI",
+      "authentication": "Nativeguide requires ARMuserID/access token; freeuseraccount documented. No account/key/token acquired/used.",
+      "free_access_restrictions": "Free ARMaccount required fordata; routineprocesseddata freelypublishable withacknowledgement. Preliminary/campaign/external-source restrictions differ.",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.arm.gov/guidance/datause/generalguidelines | https://www.arm.gov/guidance/datause/datasharing",
+      "api_verification_state": "NativeARMdata/guidance/liveRESTguide200; documentedkeyrequireduntested, no dataserviceGET or saveData/order",
+      "latest_checked_utc": "2026-10-18T08:16:58.440317+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "armenia-statbank",
       "provider": "Statistical Committee of the Republic of Armenia / Armstat",
       "service_name": "Official statistics ArmStatBank PxWeb API",
@@ -16939,6 +16957,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eumetsat-data-store-api",
+      "provider": "EUMETSAT",
+      "service_name": "Data Store REST browse/search collection services",
+      "geographic_coverage": "Global/regional satellite earth observations and climate products; coverage varies bycollection",
+      "topical_coverage": "climate/weather/environment | oceans | geospatial | research",
+      "dataset_families": "Satellite collection catalogue and productdiscovery across EUMETSAT/Copernicus/SAF families; no satellite product data retrieved",
+      "documentation_url": "https://api.eumetsat.int/data/browse/",
+      "api_base_url": "https://api.eumetsat.int/data/browse/1.0.0/",
+      "format_protocol": "RESTJSONbrowse catalogverified; relatedOpenSearch/productaccess documented, untested",
+      "authentication": "No credentials for successfulcollectionJSONGET. Registration/licensing/productdownload access varies and nottested.",
+      "free_access_restrictions": "Publicbrowse metadataanonymous; notall satelliteproducts uniformlyfree/open. Owner terms explicitlydistinguish satellitedata from LearningZoneCC. No licences/accounts/orders accepted.",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.eumetsat.int/legal-framework/data-policy | https://www.eumetsat.int/about-us/terms-use | https://www.eumetsat.int/eumetsat-data-licensing",
+      "api_verification_state": "NativeAPIbrowse200HTML publishes exactJSONendpoint; anonymouscollectionsGET200validJSON191unique collectionlinks. Usercatalogue/licensingpage200appshell notsourcegrant.",
+      "latest_checked_utc": "2026-10-18T08:16:58.440317+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "eur-data-repository",
       "provider": "Erasmus University Rotterdam",
       "service_name": "EUR Data Repository institutional collection",
@@ -17026,6 +17062,24 @@
       "license_url": "https://www.ebi.ac.uk/about/terms-of-use",
       "api_verification_state": "native_anonymous_JSON1103study_catalogue_verified_grants_unresolved",
       "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "fachportal-paedagogik-discovery",
+      "provider": "DIPF Leibniz Institute for Research and Information in Education",
+      "service_name": "Fachportal Paedagogik research discovery portal",
+      "geographic_coverage": "German/international education research literature/data/information discovery; exact indexed source coverage unenumerated",
+      "topical_coverage": "education | research | culture",
+      "dataset_families": "Education research literature/FISBildung, research-data discovery and institutional information; linkedpeDOCS/fulltexts separate rights",
+      "documentation_url": "https://www.fachportal-paedagogik.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.fachportal-paedagogik.de/impressum.html",
+      "api_verification_state": "Native home/imprint200HTML; exact read-only API not established by reviewed ownerdocumentation",
+      "latest_checked_utc": "2026-10-18T08:16:58.440317+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
