@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T19:41:29.105327+00:00",
+  "published_at": "2026-10-18T19:43:32.566146+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:37:36.001627+00:00",
+  "research_updated_at": "2026-10-18T19:41:51.634313+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed: BioCyc dedup, FoDaSi native OAI identity, Health Data Nexus/WHOAS scoped restrictions; ATNF/Gdansk API/grant gaps.",
+  "latest_milestone": "AmeriFlux native CCBY4 site-product grant verified/documented API untested; KBase mixed terms and Becker citation hold documented.",
   "counts": {
-    "verified": 445,
-    "candidates": 1319,
+    "verified": 446,
+    "candidates": 1321,
     "excluded": 379,
     "sample_successes": 464
   },
@@ -6885,6 +6885,24 @@
       "license_url": "https://alphafold.ebi.ac.uk/",
       "api_verification_state": "Nativehome/about/API/FAQ200HTML; homeactualBY4licenceparagraph read, FAQ/APIcontentclient-renderedshellnotAPIresponse. Exactlinkedmainbundle/lazySwaggercomponent200readastextonly; schemaURLkey-bearing, unrequested. No APIJSON/schema/predictionruntime sample.",
       "latest_checked_utc": "2026-10-18T13:50:53.590983+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ameriflux-data-services",
+      "provider": "AmeriFlux / Lawrence Berkeley National Laboratory",
+      "service_name": "AmeriFlux / Lawrence Berkeley National Laboratory data discovery service",
+      "geographic_coverage": "Americas flux-network sites; individual source coverage varies",
+      "topical_coverage": "climate/weather/environment | energy | water | research",
+      "dataset_families": "BASE/BADM and FLUXNET site products explicitly tagged CC BY4; Legacy sources separate",
+      "documentation_url": "https://ameriflux.lbl.gov/resources/resource-list/tools-and-software-for-flux-scientists/data-api-interface/ | https://ameriflux.lbl.gov/data/data-policy/ | https://chuhousen.github.io/amerifluxr/ | https://arm-doe.github.io/ACT/_modules/act/discovery/ameriflux.html",
+      "api_base_url": "https://amfcdn.lbl.gov/api/v2/",
+      "format_protocol": "Documented JSON web services / client interfaces; native runtime untested",
+      "authentication": "Documented account username/email and policy agreement for source downloads; anonymous site metadata not queried",
+      "free_access_restrictions": "CCBYsource reuse unrestricted by purpose; account/usage logging required for download, no service fees documented in inspected guides; exact quotas unknown",
+      "license": "CC BY 4.0 for explicitly designated site products only; Legacy excluded",
+      "license_url": "https://ameriflux.lbl.gov/data/data-policy/",
+      "api_verification_state": "Native owner/API-directory/data-policyHTTP200. Open-license verification limited to site data products explicitly designated AmeriFlux CC BY4.0; December2025policy permits any-purpose reuse with attribution/DOI/product citations. Legacy site data excluded from this acceptance: required PIcontact/coauthor opportunity and prepublication notice; mixed Legacy/CCBY use follows Legacy policy. Native owner links maintained client docs; native developer/DOE ARM docs confirm JSON API and account/intended-use/policy-agreement download flow. No runtime sample because download submits identity/agreement and emails investigators, anonymous site lists include coordinates; neither requested. Metadata-wide grant outside selected CCBYproducts unresolved.",
+      "latest_checked_utc": "2026-10-18T19:41:46.841221+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16124,6 +16142,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "becker-digitalcommons-data",
+      "provider": "Washington University School of Medicine / Becker Medical Library",
+      "service_name": "Washington University School of Medicine / Becker Medical Library data discovery service",
+      "geographic_coverage": "US institutional medicine/research descriptions; source geography varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Institutional research descriptions and citation metadata",
+      "documentation_url": "https://digitalcommonsdata.wustl.edu/faq",
+      "api_base_url": "https://digitalcommonsdata.wustl.edu/api/citations/",
+      "format_protocol": "Citation XML/BibTeX/RIS advertised; runtime held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific service/access conditions",
+      "license": "unknown uniform public grant; source-specific rights",
+      "license_url": "https://digitalcommonsdata.wustl.edu/faq",
+      "api_verification_state": "Native repository root and FAQHTTP200. Changeable CC BY4default plus software/hardware/otherterms, metadata-only/restricted files; not uniform metadata/source grant. Citation metadata API link derived directly from homepage; exact small citation request guard-deferred unsent, no alternate format/path query. Distinct Elsevier DigitalCommonsData@Becker service from WashU general research-data OAIrepository; no backend merge or source files.",
+      "latest_checked_utc": "2026-10-18T19:41:46.841221+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "berlin-animal-sound-archive",
       "provider": "Museum für Naturkunde Berlin",
       "service_name": "Tierstimmenarchiv Animal Sound Archive public discovery",
@@ -24545,6 +24581,24 @@
       "license_url": "https://www.kba.de/DE/Statistik/Forschungsdatenzentrum/Informationen_zur_Datennutzung/info_datennutzung_node.html",
       "api_verification_state": "Native overview and access documentation HTTP200 substantive HTML; no exact public API/schema or API payload verified.",
       "latest_checked_utc": "2026-10-18T17:53:42.038164+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "kbase-systems-biology-services",
+      "provider": "DOE KBase",
+      "service_name": "DOE KBase data discovery service",
+      "geographic_coverage": "International systems biology reference data; source geography varies",
+      "topical_coverage": "research | biodiversity",
+      "dataset_families": "Public reference/source/Narrative descriptions",
+      "documentation_url": "https://docs.kbase.us/data/public | https://www.kbase.us/about/terms-and-conditions-v2/",
+      "api_base_url": "",
+      "format_protocol": "Published APIs mentioned; exact protocol/read contract unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific service/access conditions",
+      "license": "unknown uniform public grant; source-specific rights",
+      "license_url": "https://docs.kbase.us/data/public | https://www.kbase.us/about/terms-and-conditions-v2/",
+      "api_verification_state": "Native root/policy held; independent native public-data documentationHTTP200. Live indexed official June2025terms distinguish mixed reference-source rights, user-private/shared data and DOI FAIR Narratives, with contradictory retained CC0/BYdefault wording. MIT software not data grant; no blanket public metadata/source grant. Published APIs mentioned, exact safe read-only discovery contract/auth/runtime unresolved; no Narrative/data/sample/sequence/API jobs or accounts.",
+      "latest_checked_utc": "2026-10-18T19:41:46.841221+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
