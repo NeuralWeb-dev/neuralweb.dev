@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T11:32:44.219338+00:00",
+  "published_at": "2026-10-18T11:34:48.283364+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:31:31.314124+00:00",
+  "research_updated_at": "2026-10-18T11:34:47.510495+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DIGITUM metadataBY4/APIhold; PSL reanalysis deduplicated without retry; NOMADS current GRIB filter documented/74route refs with OpenDAP removal, no source binary requests.",
+  "latest_milestone": "Six originaltasks: StMatthias mixedrights; PSL429hold/reanalysis dedup; CDR NDVI unrestricteddata/DDS verified; DIGITUMmetadataBY4/APIheld; NOMADS GRIBmigration documented; MDZ381000refs incomplete.",
   "counts": {
     "verified": 396,
     "candidates": 1024,
@@ -111,6 +111,7 @@
         "verified_provider_ids": [
           "dlr-eoc-geoservice",
           "fulir-data-metadata",
+          "noaa-cdr-thredds",
           "worldbank"
         ],
         "candidate_provider_ids": [
@@ -167,6 +168,8 @@
           "nasa-spdf-sscweb",
           "ncar-gdex-metadata",
           "ncar-ucar-dash-search",
+          "noaa-cdr-thredds",
+          "noaa-ncep-nomads",
           "pangaea",
           "toar-surface-observation-api",
           "usgs-earthquake",
@@ -233,6 +236,7 @@
           "noaa-ncei-access",
           "noaa-ncei-search",
           "noaa-paleo-search-api",
+          "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
           "nsidc",
           "ornl-daac-biogeochemical-archive",
@@ -303,7 +307,8 @@
           "igb-fred-metadata-interface",
           "nasa-cmr",
           "ncar-gdex-metadata",
-          "ncar-ucar-dash-search"
+          "ncar-ucar-dash-search",
+          "noaa-ncep-nomads"
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
@@ -320,6 +325,7 @@
           "lpdaac-land-processes-data",
           "nced-data-repository",
           "noaa-paleo-search-api",
+          "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
           "ornl-daac-biogeochemical-archive",
           "rolling-deck-to-repository",
@@ -749,6 +755,8 @@
           "hcdc-datasearch-metadata-api",
           "marine-regions-modern-boundaries-ogc",
           "met-norway-weather-api",
+          "noaa-cdr-thredds",
+          "noaa-ncep-nomads",
           "obis",
           "pangaea"
         ],
@@ -767,6 +775,7 @@
           "noaa-erddap",
           "noaa-ncei",
           "noaa-paleo-search-api",
+          "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
           "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
@@ -850,6 +859,7 @@
           "getty-vocabularies",
           "kitopen-bibliographic-oai",
           "metmuseum",
+          "noaa-cdr-thredds",
           "opencontext",
           "platemark-public-dossier-api",
           "unesco",
@@ -977,6 +987,8 @@
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
+          "noaa-cdr-thredds",
+          "noaa-ncep-nomads",
           "openaire",
           "openaire-broker",
           "openaire-dspace-eprints",
@@ -1108,6 +1120,7 @@
           "noaa-gml-barrow-observatory",
           "noaa-ncei-search",
           "noaa-paleo-search-api",
+          "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
           "olac-language-archives-network",
           "open-data-lmu",
@@ -2872,6 +2885,7 @@
           "cotedazur-recherche-data-gouv-collection",
           "czech-national-corpus-fcs",
           "daks-kassel-research-repository",
+          "digitum-murcia-public-metadata",
           "edina-research-service-portal",
           "estonia-datadoi",
           "estonia-language-metashare",
@@ -3378,6 +3392,7 @@
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "diba-open-data-api",
+          "digitum-murcia-public-metadata",
           "direno-lower-austria-repository",
           "edina-research-service-portal",
           "estonia-language-metashare",
@@ -3538,6 +3553,7 @@
           "czech-national-corpus-fcs",
           "daks-kassel-research-repository",
           "datapb-ufpb-dataverse",
+          "digitum-murcia-public-metadata",
           "direno-lower-austria-repository",
           "drks-german-clinical-trials-register",
           "earthprints-geoscience-repository-api",
@@ -5405,7 +5421,8 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "greenland-statistics"
+          "greenland-statistics",
+          "noaa-cdr-thredds"
         ],
         "candidate_provider_ids": [
           "laval-borealis-data-repository"
@@ -5418,6 +5435,8 @@
           "amrdc-data-repository",
           "arctic-data",
           "nasa-cmr",
+          "noaa-cdr-thredds",
+          "noaa-ncep-nomads",
           "ocean-networks-canada",
           "pangaea",
           "utm-csic-geonetwork"
@@ -5456,6 +5475,7 @@
         "verified_provider_ids": [
           "arctic-data",
           "nasa-cmr",
+          "noaa-ncep-nomads",
           "ocean-networks-canada",
           "utm-csic-geonetwork"
         ],
@@ -5593,6 +5613,8 @@
         "verified_provider_ids": [
           "amrdc-data-repository",
           "arctic-data",
+          "noaa-cdr-thredds",
+          "noaa-ncep-nomads",
           "ocean-networks-canada",
           "pangaea",
           "utm-csic-geonetwork"
@@ -5627,7 +5649,8 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "greenland-statistics"
+          "greenland-statistics",
+          "noaa-cdr-thredds"
         ],
         "candidate_provider_ids": [
           "laval-borealis-data-repository"
@@ -5640,6 +5663,8 @@
           "amrdc-data-repository",
           "arctic-data",
           "nasa-cmr",
+          "noaa-cdr-thredds",
+          "noaa-ncep-nomads",
           "pangaea",
           "utm-csic-geonetwork"
         ],
