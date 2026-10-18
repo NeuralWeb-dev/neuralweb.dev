@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-17T23:58:28.784975+00:00",
+  "published_at": "2026-10-18T00:00:31.579481+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-17T23:58:01.554941+00:00",
+  "research_updated_at": "2026-10-17T23:59:42.277839+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Coverage wording narrowed to measured source families; potential applications not direct sector coverage.",
+  "latest_milestone": "18 original tasks reviewed;17 new records,1 deduplicated NWS update. Three scoped-open grants/services verified; no new successful machine API sample. NCDC partial65-page/1300-ID frontier stopped on page66 timeout.",
   "counts": {
     "verified": 317,
     "candidates": 656,
@@ -129,6 +129,7 @@
           "pangaea",
           "toar-surface-observation-api",
           "usgs-earthquake",
+          "usgs-landsatlook-stac",
           "wdcc-climate-metadata"
         ],
         "candidate_provider_ids": [
@@ -142,6 +143,7 @@
           "deadtrees-earth-api",
           "earthchem-library-repository",
           "esa-ecology",
+          "esa-heritage-mission-data-discovery",
           "flood-observatory-colorado",
           "georem-reference-materials",
           "gpcc-precipitation-product-portal",
@@ -155,9 +157,11 @@
           "isimip-impact-repository",
           "litterbase-marine-litter-portal",
           "muenster-datastore-rest",
+          "mumbai-geomagnetism-data-centre",
           "nasa-api",
           "nasa-power",
           "nced-data-repository",
+          "noaa-class-environmental-archive",
           "noaa-erddap",
           "noaa-gml-barrow-observatory",
           "noaa-ncei",
@@ -379,6 +383,7 @@
           "opencontext",
           "osm",
           "usgs-earthquake",
+          "usgs-landsatlook-stac",
           "wdcc-climate-metadata",
           "wikidata",
           "worldbank-catalog",
@@ -395,6 +400,7 @@
           "dhs-spatial-data-repository",
           "earthchem-library-repository",
           "earthscope-sponsored-miniseed-object-repository",
+          "esa-heritage-mission-data-discovery",
           "flood-observatory-colorado",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
@@ -403,7 +409,9 @@
           "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
           "mit-timdex",
+          "mumbai-geomagnetism-data-centre",
           "nced-data-repository",
+          "noaa-class-environmental-archive",
           "nsidc",
           "planetary-computer",
           "saudi-mofa",
@@ -526,9 +534,11 @@
           "argo-gdac-data-interfaces",
           "csiro-data-access-portal",
           "dataterra-eosc-resource-catalogue",
+          "esa-heritage-mission-data-discovery",
           "hycom",
           "icdc-climate-thredds",
           "litterbase-marine-litter-portal",
+          "noaa-class-environmental-archive",
           "noaa-erddap",
           "noaa-ncei",
           "scripps-ogdc-data-portal",
@@ -561,11 +571,13 @@
           "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
           "jpl-ssd",
+          "mumbai-geomagnetism-data-centre",
           "nasa-api",
           "nasa-exoplanet"
         ],
         "restricted_provider_ids": [
-          "esa-gaia"
+          "esa-gaia",
+          "silso-sunspot-data"
         ]
       },
       "culture": {
@@ -687,6 +699,7 @@
           "toar-surface-observation-api",
           "unesco",
           "uniprot",
+          "usgs-landsatlook-stac",
           "wdcc-climate-metadata",
           "wikidata",
           "worldbank-catalog",
@@ -714,6 +727,7 @@
           "earthscope-sponsored-miniseed-object-repository",
           "ena",
           "esa-ecology",
+          "esa-heritage-mission-data-discovery",
           "europepmc",
           "flood-observatory-colorado",
           "georem-reference-materials",
@@ -744,9 +758,11 @@
           "loc",
           "mit-timdex",
           "muenster-datastore-rest",
+          "mumbai-geomagnetism-data-centre",
           "nced-data-repository",
           "nih-clinicaltrials",
           "nims-mdr",
+          "noaa-class-environmental-archive",
           "noaa-gml-barrow-observatory",
           "olac-language-archives-network",
           "osi-licenses",
@@ -794,6 +810,7 @@
           "orcid",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
+          "silso-sunspot-data",
           "terrasarx-sar-imagery-access",
           "terrasarx-tor-rso-archive",
           "un-comtrade",
@@ -1557,6 +1574,7 @@
           "goias-state-ckan-api",
           "mexico-national-open-data",
           "registry-dados-df-gov-br",
+          "udea-research-data-repository",
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
@@ -1710,6 +1728,7 @@
           "edac-gstore",
           "esa-ecology",
           "registry-portaldados-ppgau-uff-br",
+          "udea-research-data-repository",
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
@@ -2159,6 +2178,7 @@
           "clarin-pl",
           "dariah-de-repository-oai",
           "dnb",
+          "ecienciadatos-madrono-metadata",
           "estonia-statistics",
           "faroe-statistics",
           "frankfurt-digital-collections-metadata",
@@ -2186,6 +2206,7 @@
           "torino-aperto-catalog-api",
           "ukraine-data",
           "wales-statistics",
+          "warsaw-research-data-metadata",
           "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
@@ -2199,6 +2220,7 @@
           "bielefeld-pub-data",
           "cessda-catalogue",
           "claremont-colleges-digital-library",
+          "clariah-iatext-repository",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2581,6 +2603,7 @@
           "croatia-statistics",
           "dariah-de-repository-oai",
           "dnb",
+          "ecienciadatos-madrono-metadata",
           "estonia-statistics",
           "europeana",
           "eurostat",
@@ -2626,6 +2649,7 @@
           "bologna-open-data",
           "bonares-soil-agricultural-repository",
           "claremont-colleges-digital-library",
+          "clariah-iatext-repository",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2696,6 +2720,7 @@
           "darus",
           "dnb",
           "ecbd-chemical-biology-api",
+          "ecienciadatos-madrono-metadata",
           "emep-mscw-model-thredds",
           "esgf-ceda-discovery",
           "esgf-nci-discovery",
@@ -2724,7 +2749,8 @@
           "slovenia-statistics",
           "staedel-museum-oai",
           "textgrid-public-repository",
-          "uk-police"
+          "uk-police",
+          "warsaw-research-data-metadata"
         ],
         "candidate_provider_ids": [
           "acdh-fcs",
@@ -2738,6 +2764,7 @@
           "bonares-soil-agricultural-repository",
           "cessda-catalogue",
           "claremont-colleges-digital-library",
+          "clariah-iatext-repository",
           "clarin-dk-fcs",
           "clarin-fcs",
           "clarin-pl-fcs",
@@ -2877,7 +2904,8 @@
           "saudi-statistics"
         ],
         "restricted_provider_ids": [
-          "gccstat"
+          "gccstat",
+          "us-jgofs-legacy-data-system"
         ]
       },
       "water": {
@@ -2979,10 +3007,12 @@
         ]
       },
       "oceans": {
-        "status": "unsearched",
+        "status": "restricted_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "us-jgofs-legacy-data-system"
+        ]
       },
       "astronomy": {
         "status": "unsearched",
@@ -3014,7 +3044,8 @@
           "ubb-digital-commons-data"
         ],
         "restricted_provider_ids": [
-          "infra-art-restricted-spectra"
+          "infra-art-restricted-spectra",
+          "us-jgofs-legacy-data-system"
         ]
       }
     },
@@ -3288,14 +3319,17 @@
           "nepal",
           "pakistan",
           "pakistan-odp",
+          "rbi-dbie-statistical-portal",
           "sri-lanka"
         ],
         "restricted_provider_ids": []
       },
       "labor": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "rbi-dbie-statistical-portal"
+        ],
         "restricted_provider_ids": []
       },
       "agriculture": {
@@ -3314,9 +3348,11 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "esa-ecology",
+          "incois-ocean-erddap-services",
           "india-biodiversity-portal",
           "india-environment-portal",
           "mtropics-sedoo-metadata",
+          "mumbai-geomagnetism-data-centre",
           "nepal",
           "wis2-india",
           "wis2-nepal"
@@ -3328,6 +3364,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
+          "incois-ocean-erddap-services",
           "india-environment-portal",
           "mtropics-sedoo-metadata",
           "nepal"
@@ -3393,6 +3430,7 @@
           "digital-south-asia-library",
           "india-biodiversity-portal",
           "issdc-space-science-archive",
+          "mumbai-geomagnetism-data-centre",
           "wis2-india",
           "wis2-nepal"
         ],
@@ -3431,16 +3469,19 @@
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "incois-ocean-erddap-services"
+        ],
         "restricted_provider_ids": []
       },
       "astronomy": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "issdc-space-science-archive"
+          "issdc-space-science-archive",
+          "mumbai-geomagnetism-data-centre"
         ],
         "restricted_provider_ids": []
       },
@@ -3465,11 +3506,14 @@
           "clinical-trials-registry-india",
           "digital-south-asia-library",
           "esa-ecology",
+          "incois-ocean-erddap-services",
           "india-biodiversity-portal",
           "india-environment-portal",
           "issdc-space-science-archive",
           "mtropics-sedoo-metadata",
+          "mumbai-geomagnetism-data-centre",
           "pakistan-odp",
+          "rbi-dbie-statistical-portal",
           "udiseplus-education-data-api"
         ],
         "restricted_provider_ids": [
@@ -3541,6 +3585,7 @@
         "candidate_provider_ids": [
           "busan-public-apis",
           "china-national-earth-observation-center",
+          "china-ncdc-cryosphere-desert-portal",
           "hk-weather",
           "japan-egov-data-catalog",
           "taiwan-cwa",
@@ -3556,6 +3601,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "china-ncdc-cryosphere-desert-portal",
           "taiwan-cwa"
         ],
         "restricted_provider_ids": []
@@ -3630,6 +3676,7 @@
         "candidate_provider_ids": [
           "busan-public-apis",
           "china-national-earth-observation-center",
+          "china-ncdc-cryosphere-desert-portal",
           "gbif-japan",
           "taiwan-cwa",
           "thailand-gistda",
@@ -3713,6 +3760,7 @@
         "candidate_provider_ids": [
           "china-national-earth-observation-center",
           "china-nbs",
+          "china-ncdc-cryosphere-desert-portal",
           "cinii-books",
           "nims-mdr",
           "smoka-science-archive",
@@ -4375,11 +4423,14 @@
         ],
         "candidate_provider_ids": [
           "aadc-weather",
+          "aoos-ocean-erddap-services",
           "apgc-permafrost-ckan",
           "bas-locations-public-api",
+          "china-ncdc-cryosphere-desert-portal",
           "copenhagen-geomagnetic-index-archive",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
+          "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
           "nsidc"
         ],
@@ -4399,7 +4450,9 @@
           "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
+          "aoos-ocean-erddap-services",
           "apgc-permafrost-ckan",
+          "china-ncdc-cryosphere-desert-portal",
           "lter-italy-dataset-asset-registry"
         ],
         "restricted_provider_ids": [
@@ -4423,7 +4476,9 @@
         "verified_provider_ids": [
           "greenland-statistics"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "noaa-antarctic-uv-network"
+        ],
         "restricted_provider_ids": [
           "polar-data-catalogue-metadata-api"
         ]
@@ -4464,6 +4519,7 @@
           "aadc-metadata",
           "apgc-permafrost-ckan",
           "bas-locations-public-api",
+          "china-ncdc-cryosphere-desert-portal",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "nsidc"
@@ -4517,6 +4573,7 @@
           "utm-csic-geonetwork"
         ],
         "candidate_provider_ids": [
+          "aoos-ocean-erddap-services",
           "bas-locations-public-api",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal"
@@ -4554,11 +4611,14 @@
         ],
         "candidate_provider_ids": [
           "aadc-metadata",
+          "aoos-ocean-erddap-services",
           "apgc-permafrost-ckan",
           "bas-locations-public-api",
+          "china-ncdc-cryosphere-desert-portal",
           "copenhagen-geomagnetic-index-archive",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
+          "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory"
         ],
         "restricted_provider_ids": [
