@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:44:38.323947+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T08:46:41.071693+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:42:22.475921+00:00",
+  "research_updated_at": "2026-10-18T08:45:56.796518+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Canadianhistoricalproductgrant/APIunresolved; ChemSpiderheld; MPCnativeclassificationJSONverified/14APIrefsindexed, mixedrights preserved.",
+  "latest_milestone": "Six originals: MPC metadata JSON/14 API refs, Canadian historical grant unresolved, ChemSpider/Colombia held, Census dedup, proprietary CSD Python API restricted.",
   "counts": {
     "verified": 383,
-    "candidates": 952,
-    "excluded": 278,
+    "candidates": 953,
+    "excluded": 279,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -2154,6 +2154,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "colombia-mincultura-research-dataverse",
           "mexico-national-open-data",
           "mindagri-ne",
           "uca-argentina-institutional-repository",
@@ -2170,6 +2171,7 @@
           "bold-v5-public-data-api",
           "cdha-study-resource-directory",
           "ciencia-aberta",
+          "colombia-mincultura-research-dataverse",
           "dhs-indicator-data-api",
           "edac-gstore",
           "esa-ecology",
@@ -6612,7 +6614,7 @@
       "license": "CC0 1.0 for explicitly licensed statistical dataset subset",
       "license_url": "https://api.census.gov/data/2023/acs/acs5.json",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:57:11.397197+00:00",
+      "latest_checked_utc": "2026-10-18T08:44:59.929578+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15237,6 +15239,24 @@
       "license_url": "https://www.dombibliothek-koeln.de/service/service/ordnungen-und-rechte/index.html",
       "api_verification_state": "Initial native root200browserverification; already-scheduled OAIIdentify200validXML before manual challenge inspection. No subsequent format/set/header/data queries. Independentownerlegal/publicationterms200.",
       "latest_checked_utc": "2026-10-18T02:30:50.723798+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "colombia-mincultura-research-dataverse",
+      "provider": "Ministerio de las Culturas, las Artes y los Saberes, Colombia",
+      "service_name": "Repositorio de Datos de investigación artística",
+      "geographic_coverage": "Colombian institutional repository; exact dataset geography unknown",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Artistic/cultural research repository discovery; current collections not enumerated",
+      "documentation_url": "https://investigacionartes.mincultura.gov.co/",
+      "api_base_url": "https://investigacionartes.mincultura.gov.co/api/search (registry claim only; not requested)",
+      "format_protocol": "Registry Dataverse REST claim; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root guard-deferred/unsent; no alternate API/backend/source request after hold",
+      "latest_checked_utc": "2026-10-18T08:44:59.929578+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30449,6 +30469,24 @@
       "license_url": "http://www.meteo.cat/wpweb/avis-legal/",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_named_metadata_and_one_variable_reference_restricted_named_terms",
       "latest_checked_utc": "2026-10-17T09:08:32.772304+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ccdc-csd-python-api",
+      "provider": "Cambridge Crystallographic Data Centre",
+      "service_name": "CSD Portfolio / Python API",
+      "geographic_coverage": "International chemical crystal structure research; exact corpus coverage unenumerated",
+      "topical_coverage": "research",
+      "dataset_families": "CSD crystallographic database and Python toolkit; structure search, geometry, crystal packing and molecular analysis documentation",
+      "documentation_url": "https://downloads.ccdc.cam.ac.uk/documentation/API/",
+      "api_base_url": "",
+      "format_protocol": "Python API 3.8.0 documentation; no public REST response tested",
+      "authentication": "Valid CSD licence required for portfolio components; no licence/account acquired",
+      "free_access_restrictions": "Proprietary, organisation/location and time-limited licence. Separately supplied components may have separate conditions; free public viewing not blanket open reuse.",
+      "license": "Proprietary CSD Portfolio conditions; redistribution and derived distribution restricted",
+      "license_url": "https://downloads.ccdc.cam.ac.uk/documentation/API/conditions_of_use.html",
+      "api_verification_state": "Native Python API index and conditions HTTP200 HTML; documentation verification only, no runtime database retrieval",
+      "latest_checked_utc": "2026-10-18T08:44:59.929578+00:00",
       "classification": "restricted"
     },
     {
