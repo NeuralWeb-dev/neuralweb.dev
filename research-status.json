@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T10:12:43.211191+00:00",
+  "published_at": "2026-10-18T10:14:46.725217+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:11:18.104835+00:00",
+  "research_updated_at": "2026-10-18T10:13:52.991951+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ESS-DIVE publicBY4/CC0/schema10ops and CADC publicCCBY4/TAP21tables accepted; ESOdedup/prior native evidence retained; MDZ162000refs/162pages.",
+  "latest_milestone": "MDZ collectionfrontier advanced to177pages/177000refs;3036503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 390,
-    "candidates": 991,
+    "candidates": 995,
     "excluded": 291,
     "sample_successes": 465
   },
@@ -20996,8 +20996,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across162successfulpages/162000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:08:21.014043+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across177successfulpages/177000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:13:48.453006+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21880,6 +21880,24 @@
       "license_url": "https://forum.earthdata.nasa.gov/viewtopic.php?t=82",
       "api_verification_state": "untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T19:15:20.130731+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-sdac-solar-data-discovery",
+      "provider": "NASA Goddard Space Flight Center / Solar Data Analysis Center",
+      "service_name": "SDAC solar-physics data discovery portal",
+      "geographic_coverage": "Solar/heliophysics mission observations and archives; not terrestrial global coverage, source extents vary",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "11DataFinder families: PADRE,PUNCH,IRIS,Hinode,RHESSI,Yohkoh,CME lists,CGROsolar flares,NOAAproton events,NSO-SAC andSMM. Source services independent and unqueried.",
+      "documentation_url": "https://umbra.nascom.nasa.gov/newsite/data.html | https://umbra.nascom.nasa.gov/index.html/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public documentation accessible; exact source-service authentication/quotas unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown archive-wide/source-specific grant; NASA media policy not a blanket data licence",
+      "license_url": "",
+      "api_verification_state": "Original registry URL with repeatedindex.html returned200real ownerHTML, not an assumed404; exact published DataFinder200HTML with11source-family sections. Discovery documentation not actual query API/schema/source response.",
+      "latest_checked_utc": "2026-10-18T10:13:41.755746+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23104,6 +23122,24 @@
       "license_url": "https://data.humdata.org/faqs/terms",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:36:59.165287+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "odum-unc-dataverse",
+      "provider": "Odum Institute / University of North Carolina at Chapel Hill",
+      "service_name": "Odum Institute Archive UNC Dataverse collection",
+      "geographic_coverage": "UNC institutional archive; exact source geography/current coverage unverified",
+      "topical_coverage": "research",
+      "dataset_families": "Research-data archive collection; exact current public/embargoed/restricted dataset families not natively verified",
+      "documentation_url": "https://odum.unc.edu/archive/",
+      "api_base_url": "https://dataverse.unc.edu/oai (registry-discovered; native request not attempted after collection hold)",
+      "format_protocol": "Registry OAI-PMH and Dataverse framework claims only; no native instance schema/response",
+      "authentication": "unknown exact current source/API access; no credentials/account",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown current collection-wide data/metadata grant; defaultCC0 institutional-form context only",
+      "license_url": "https://libres.uncg.edu/ir/uncg/OdumDataDepositForm.pdf",
+      "api_verification_state": "Original UNC collection and independent Odum archive guide guard-deferred by robots/inaccessible-robots policy; targets unsent. No OAI/REST/SWORD or alternate host/backend request; indexed context not runtime proof.",
+      "latest_checked_utc": "2026-10-18T10:13:41.755746+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28759,6 +28795,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "virtual-solar-observatory-soap",
+      "provider": "Virtual Solar Observatory / NASA SDAC and participating providers",
+      "service_name": "VSO SOAP discovery and retrieval interface",
+      "geographic_coverage": "Multi-provider solar observations; coverage per mission/provider, not terrestrial global scope",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Solar observation discovery/retrieval SOAP interface; no mission/source query",
+      "documentation_url": "https://vso.nascom.nasa.gov/API/",
+      "api_base_url": "",
+      "format_protocol": "Native WSDL1.1XML portVSOiPort operationsQuery/GetData verified; owner describes RPCEncoded1.2 and newerRPCLiteral route. No SOAP operation invoked.",
+      "authentication": "Anonymous WSDL/docGET succeeded; provider source access/authentication and current deployment untested",
+      "free_access_restrictions": "Public schema/docs verified, provider source constraints unknown. No source/free-all-provider licence guarantee.",
+      "license": "unknown multi-provider source/database/schema grant",
+      "license_url": "",
+      "api_verification_state": "Native API guide200HTML and linked strictWSDL200validWSDLdefinitions XML with1portType/2operations. NoSOAPQuery/GetData, source runtime, download/authentication or currentalternativeRPCendpoint request.",
+      "latest_checked_utc": "2026-10-18T10:13:41.755746+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "vmf-vienna-mapping-functions",
       "provider": "TU Wien / Vienna Mapping Functions",
       "service_name": "VMF geodetic atmosphere data server",
@@ -28990,6 +29044,24 @@
       "license_url": "https://developers.wellcomecollection.org/docs/catalogue",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T02:03:52.460259+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "west-african-vegetation-network",
+      "provider": "West African Vegetation network / Senckenberg and partners",
+      "service_name": "West African Vegetation Database",
+      "geographic_coverage": "West African vegetation research network; individual country/plot/source extent unenumerated",
+      "topical_coverage": "biodiversity | agriculture | environment | research",
+      "dataset_families": "Vegetation research database identified in native Senckenberg institutional botany directory; no actual plots/occurrences/source records accessed",
+      "documentation_url": "https://www.senckenberg.de/en/collection/databases/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown current instance/source access; no login or registration",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown current native source/database grant; registryNCclaim not independently confirmed",
+      "license_url": "",
+      "api_verification_state": "Original provider root guard-deferred, not nonexistent. Independent Senckenberg institutional directory200HTML identifies network and current link; that linked archive/metadata/backend was not requested after original hold. No API/schema/source response.",
+      "latest_checked_utc": "2026-10-18T10:13:41.755746+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
