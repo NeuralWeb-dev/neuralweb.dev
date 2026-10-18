@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:17:23.615458+00:00",
+  "published_at": "2026-10-18T13:19:26.728897+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:17:17.578851+00:00",
+  "research_updated_at": "2026-10-18T13:18:08.896301+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originaltasks processed;HEASARC/TROLLingdedup;BfGREST/noncommercialterms;VIPERheld;EOLrights/APIunknown;MASTscopedopen/APIheld;IRSA6docsreviewed;MDZ512000refs incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to527pages/527000refs;2686503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 413,
-    "candidates": 1050,
-    "excluded": 309,
+    "candidates": 1052,
+    "excluded": 310,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -15729,6 +15729,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "china-bmcr-cell-resource-portal",
+      "provider": "National Infrastructure of Cell Line Resources / BMCR, China",
+      "service_name": "National experimental cell resource sharing portal",
+      "geographic_coverage": "China institutional cell resource infrastructure with international research relevance; exact data coverage unverified",
+      "topical_coverage": "research | health",
+      "dataset_families": "Cell resource information and management/sharing services; no individual biological source entries queried",
+      "documentation_url": "http://www.cellresource.cn/content.aspx?id=601",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified metadata/data reuse licence",
+      "license_url": "http://www.cellresource.cn/content.aspx?id=601",
+      "api_verification_state": "Native root/registry-citedterms200HTML. No documented current publicAPI/schema or machine sample established.",
+      "latest_checked_utc": "2026-10-18T13:17:29.988074+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "china-forest-grassland-data",
       "provider": "National Forestry and Grassland Science Data Center China",
       "service_name": "ForestData forestry/grassland data portal and API candidate",
@@ -21957,6 +21975,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "marburg-open-umr-apis",
+      "provider": "Philipps-Universität Marburg / UB and HRZ",
+      "service_name": "open_UMR OAI-PMH and DSpace REST",
+      "geographic_coverage": "Marburg institutional research/publications; study subjects vary worldwide",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Articles/reports/books/research data/theses/OER/software and code metadata; source licences individual",
+      "documentation_url": "https://open.uni-marburg.de/info/guide | https://www.uni-marburg.de/de/ub/forschen/forschungsdatenmanagement/open_umr",
+      "api_base_url": "https://open.uni-marburg.de/server/oai/request | https://open.uni-marburg.de/server/api",
+      "format_protocol": "OAI-PMH2.0 Identify XML and DSpace10.0 HALJSONroot verified",
+      "authentication": "Anonymous Identify and HALroot GET200; no credentials/login/collection/source queries",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-document/source licences; exact metadata-wide grant unknown",
+      "license_url": "https://open.uni-marburg.de/info/imprint | https://open.uni-marburg.de/info/guide",
+      "api_verification_state": "NativeOAIIdentify200validXML and anonymousRESTroot200validHAL DSpace10.0. Root/imprint/owner/FAQ/guide200HTML, not treated asAPI responses.",
+      "latest_checked_utc": "2026-10-18T13:17:29.988074+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mardi-knowledge-graph-api",
       "provider": "MaRDI / Mathematical Research Data Initiative",
       "service_name": "MaRDI Knowledge Graph API and portal",
@@ -22096,8 +22132,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across512successfulpages/512000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T13:11:38.601108+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across527successfulpages/527000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T13:18:04.409269+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34178,6 +34214,24 @@
       "license_url": "https://media.eviada.org/eviadasb/log.html",
       "api_verification_state": "Nativepublichomepage/EULAHTTP200HTML; no publicqueryAPIverified",
       "latest_checked_utc": "2026-10-18T01:10:09.532850+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "eyegene-controlled-research-resource",
+      "provider": "National Eye Institute / NIH",
+      "service_name": "eyeGENE approved research data resource",
+      "geographic_coverage": "Inherited eye disease research cohorts; individual participant/population coverage not queried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Clinical/demographic/genetic datasets and DNA research resource; controlled access, no participant records queried",
+      "documentation_url": "https://eyegene.nih.gov/how-to",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Research access requires approved proposal/account; no account created or authenticated request",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Controlled research access; no verified open data/API grant",
+      "license_url": "https://eyegene.nih.gov/how-to | https://eyegene.nih.gov/about/policies/copyright",
+      "api_verification_state": "Native root/copyright/access-policy200HTML; no public machineAPI or participant data sample verified",
+      "latest_checked_utc": "2026-10-18T13:17:29.988074+00:00",
       "classification": "restricted"
     },
     {
