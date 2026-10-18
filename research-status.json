@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:33:15.299300+00:00",
+  "published_at": "2026-10-18T19:35:18.295734+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:31:54.555599+00:00",
+  "research_updated_at": "2026-10-18T19:35:00.933164+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original scopes reviewed; CDSP controlled source access and Buckeye proprietary corpus scoped restricted; institutional identities/API/grants separated.",
+  "latest_milestone": "BioCyc dedup; FoDaSi native RADAR OAI identity/current terms redirect; Health Data Nexus native contributor-review license scoped restricted.",
   "counts": {
     "verified": 445,
-    "candidates": 1316,
-    "excluded": 377,
+    "candidates": 1317,
+    "excluded": 378,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -21462,6 +21462,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "fodasi-siegen-research-repository",
+      "provider": "University of Siegen",
+      "service_name": "University of Siegen data discovery service",
+      "geographic_coverage": "Germany institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research metadata descriptions",
+      "documentation_url": "https://www.uni-siegen.de/en/en/ess/fodasi | https://e-science-service.uni-siegen.de/nutzungsbedingungen-fodasi/",
+      "api_base_url": "https://forschungsdaten.uni-siegen.de/oai/OAIHandler | https://forschungsdaten.uni-siegen.de/radar/api/datasets",
+      "format_protocol": "OAI-PMH XML native identity; REST registry claim untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform current grant",
+      "license_url": "https://www.uni-siegen.de/en/en/ess/fodasi | https://e-science-service.uni-siegen.de/nutzungsbedingungen-fodasi/",
+      "api_verification_state": "Native current ownerHTTP200identifies RADAR institutional repository; original owner URL redirects general team page. Linked terms URLHTTP200redirects general research-data guidance, not substantive current contract. Native exact OAIIdentifyHTTP200valid XML without errors; metadata identity only. Indexed older record footer research/teaching-only and individual NC-ND sources not assumed current uniform repository metadata/source grant. DSpace-to-RADAR migration aliases retained, no oldhost/source query.",
+      "latest_checked_utc": "2026-10-18T19:34:55.515773+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "forestgeo-data-network",
       "provider": "Smithsonian Forest Global Earth Observatory",
       "service_name": "ForestGEO research data discovery and request network",
@@ -38992,7 +39010,7 @@
       "license": "SRI BioCyc Limited Use License: Limited Databases maynotberedistributed",
       "license_url": "https://bioinformatics.ai.sri.com/ptools/licensing/all-reg.shtml",
       "api_verification_state": "untested_policy_restricted",
-      "latest_checked_utc": "2026-10-17T19:20:32.572661+00:00",
+      "latest_checked_utc": "2026-10-18T19:34:55.515773+00:00",
       "classification": "restricted"
     },
     {
@@ -41207,6 +41225,24 @@
       "license_url": "https://www.hdrn.ca/en/dash/dash-faq/",
       "api_verification_state": "Native FAQ HTTP200; coordinated access service verified, no public read-only data API established",
       "latest_checked_utc": "2026-10-18T06:29:56.765293+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "health-data-nexus-access-portal",
+      "provider": "T-CAIREM / University of Toronto",
+      "service_name": "T-CAIREM / University of Toronto data discovery service",
+      "geographic_coverage": "Canada health research; source geography varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Credentialed health dataset descriptions and access policies; no clinical records",
+      "documentation_url": "https://healthdatanexus.ai/content/sleeplab/view-license/1.0/",
+      "api_base_url": "",
+      "format_protocol": "HTML policy; public discovery API unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Contributor Review Health Data License1.0; scientific-research-only controlled source access",
+      "license_url": "https://healthdatanexus.ai/content/sleeplab/view-license/1.0/",
+      "api_verification_state": "Native rootHTTP200documents credentialing/training/DUA and contributor/project approval zones. Native specific Contributor Review Health Data License1.0HTTP200: qualified requestors, scientific research only, no access sharing, maintain training and contribute publication-associated code. Restricted classification scoped to covered credentialed source families, not all metadata or independently open sources. Formal public metadata grant and public discovery API unverified. No clinical/audio/source records, registration/DUA/training/forms or alternate load/dev instances.",
+      "latest_checked_utc": "2026-10-18T19:34:55.515773+00:00",
       "classification": "restricted"
     },
     {
