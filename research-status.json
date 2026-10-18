@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:27:04.816195+00:00",
+  "published_at": "2026-10-18T19:29:08.563507+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:26:23.269215+00:00",
+  "research_updated_at": "2026-10-18T19:28:54.919274+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original services reviewed; Eaufrance OpenAPI and SODHA/UChile OAI identities verified; SODHA scoped scientific-only sources restricted; current blanket grants unresolved.",
+  "latest_milestone": "Cariniana legacy API/rights gap; SAA native genericCC/UNCscope; CDSP controlled source access versus public metadata separated.",
   "counts": {
     "verified": 445,
-    "candidates": 1309,
-    "excluded": 375,
+    "candidates": 1311,
+    "excluded": 376,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -17039,6 +17039,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cariniana-dataverse-network",
+      "provider": "Ibict / Rede Cariniana",
+      "service_name": "Ibict / Rede Cariniana data discovery service",
+      "geographic_coverage": "Brazil research/preservation network; source geography varies",
+      "topical_coverage": "research | culture",
+      "dataset_families": "Research preservation descriptions; current holdings unenumerated",
+      "documentation_url": "https://eventoscariniana.ibict.br/index.php/sinpred/article/download/118/68",
+      "api_base_url": "",
+      "format_protocol": "Registry OAI-PMH/REST/SWORD claims; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; see source-specific scope",
+      "license_url": "https://eventoscariniana.ibict.br/index.php/sinpred/article/download/118/68",
+      "api_verification_state": "Original root held; independent native2023tutorialHTTP200describes Cariniana Driade Dataverse3.6.2 and legacy research repository. Current API existence, effective source/public metadata grant unresolved. Registry points to SWORDframework/Harvard API terms, neither establishes this deployment API/read license. No SWORD writes/Harvard terms transfer or alternate host/query.",
+      "latest_checked_utc": "2026-10-18T19:28:50.401374+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "carleton-borealis-data-repository",
       "provider": "Carleton University",
       "service_name": "Carleton University curated Borealis research repository",
@@ -31907,6 +31925,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "saa-archivists-dataverse",
+      "provider": "Society of American Archivists",
+      "service_name": "Society of American Archivists data discovery service",
+      "geographic_coverage": "US archival profession research; source geography varies",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Archival research descriptions",
+      "documentation_url": "https://www2.archivists.org/governance-manual/saa-dataverse-collection-development-policy",
+      "api_base_url": "https://dataverse.unc.edu/oai",
+      "format_protocol": "Registry OAI-PMH/REST/SWORD claims; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; see source-specific scope",
+      "license_url": "https://www2.archivists.org/governance-manual/saa-dataverse-collection-development-policy",
+      "api_verification_state": "Native SAA collection policyHTTP200approved March2021names UNC Odum hosting and requires distribution under a Creative Commons license. GenericCCrequirement and registryCC0 not proof every effective source/license or uniform public metadata grant. Institutional curated collection retained distinctly from UNCroot. Existing UNCcollection/root/APIholds retained; no hosted/OAI/RESTalternate request.",
+      "latest_checked_utc": "2026-10-18T19:28:50.401374+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "saarland-clarind-language-repository",
       "provider": "Saarland University CLARIN Centre",
       "service_name": "CLARIND-UdS language resources repository",
@@ -39304,6 +39340,24 @@
       "license_url": "https://cdpp.irap.omp.eu/index.php/licence-sipad",
       "api_verification_state": "native_published_archived_product_restrictions_verified_current_REGARDS_API_and_licensing_transition_unresolved",
       "latest_checked_utc": "2026-10-17T21:39:32.420303+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "cdsp-sciencespo-data-bank",
+      "provider": "Sciences Po / Centre de données socio-politiques",
+      "service_name": "Sciences Po / Centre de données socio-politiques data discovery service",
+      "geographic_coverage": "France sociopolitical surveys; source geography varies",
+      "topical_coverage": "demographics | research | law/civic",
+      "dataset_families": "Social/political survey descriptions",
+      "documentation_url": "https://www.sciencespo.fr/cdsp/fr/services/diffusez-vos-donnees/",
+      "api_base_url": "https://data.sciencespo.fr/oai",
+      "format_protocol": "Registry OAI-PMH/REST/SWORD claims; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-SA4 plus controlled research-community access; metadata rights unresolved",
+      "license_url": "https://www.sciencespo.fr/cdsp/fr/services/diffusez-vos-donnees/",
+      "api_verification_state": "Native collection rootHTTP200. Official institutional guidance separates public descriptive metadata from authenticated/manual-authorized source access for research community with repository conditions and CC BY-SA4. Restricted classification scoped to controlled research-community source families, not public metadata or other SciencesPo collections. Metadata-wide copyright grant unresolved. Original shared OAI guard-deferred unsent; no alternate/query/participant records.",
+      "latest_checked_utc": "2026-10-18T19:28:50.401374+00:00",
       "classification": "restricted"
     },
     {
