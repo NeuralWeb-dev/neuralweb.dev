@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:42:47.894954+00:00",
+  "published_at": "2026-10-18T01:44:51.039992+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:41:51.154434+00:00",
+  "research_updated_at": "2026-10-18T01:44:44.306382+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DaSCH core metadata public-domain/OAI verified; BioModels current deployment held; NIPR ADS OAI verified with published source redistribution restriction.",
+  "latest_milestone": "DaSCH public metadata header frontier checkpointed: 9000raw headers, 8996unique IDs, 4duplicates across90pages; cursor pending.",
   "counts": {
     "verified": 332,
-    "candidates": 728,
-    "excluded": 195,
+    "candidates": 730,
+    "excluded": 196,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -6200,7 +6200,7 @@
       "license": "Explicit public-domain core discovery metadata policy; project/domain assets retain source rights",
       "license_url": "https://docs.dasch.swiss/DSP-META/data/v2-datamodel/",
       "api_verification_state": "Native OAI Identify/ListMetadataFormats/ListIdentifiers HTTP200 valid XML; current metadata licence document HTTP200. DSP-API docs separately guard-held, no alternative DSP query.",
-      "latest_checked_utc": "2026-10-18T01:41:46.844795+00:00",
+      "latest_checked_utc": "2026-10-18T01:44:40.173531+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20336,6 +20336,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "sar-research-catalogue",
+      "provider": "Society for Artistic Research",
+      "service_name": "Research Catalogue artistic-research OAI-PMH service",
+      "geographic_coverage": "International artistic research expositions and institutional/journal portals",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Artistic research exposition metadata and separate media works",
+      "documentation_url": "https://www.researchcatalogue.net/oai?verb=Identify",
+      "api_base_url": "https://www.researchcatalogue.net/oai",
+      "format_protocol": "OAI-PMH documented by official indexed metadata-export guide; native runtime held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.researchcatalogue.net/copyright",
+      "api_verification_state": "Native homepage HTTP200. Native copyright, OAI Identify and metadata guide targets guard-deferred unsent. Official indexed export guide describes OAI; no successful query response.",
+      "latest_checked_utc": "2026-10-18T01:44:13.101694+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sardinia-geospatial-wfs",
       "provider": "Regione Autonoma della Sardegna / Sardegna Geoportale",
       "service_name": "SITR GeoServer WFS and advertised layer catalogue",
@@ -22604,6 +22622,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "whoi-upper-ocean-processes",
+      "provider": "Woods Hole Oceanographic Institution",
+      "service_name": "Upper Ocean Processes project data discovery",
+      "geographic_coverage": "Global selected ocean reference moorings and project regions; not global gridded coverage",
+      "topical_coverage": "oceans | water | climate/weather/environment | research",
+      "dataset_families": "Air-sea meteorology, fluxes, upper/deep-ocean temperature, salinity/current observations and near-real-time/delayed-mode datasets",
+      "documentation_url": "https://uop.whoi.edu/",
+      "api_base_url": "",
+      "format_protocol": "Native website documents NetCDF/file and OceanSITES GDAC access; exact public query API unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://uop.whoi.edu/",
+      "api_verification_state": "Native homepage and all-projects directory HTTP200 HTML. Registry FTP/OceanSITES link not a query API. No machine query response tested.",
+      "latest_checked_utc": "2026-10-18T01:44:13.101694+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wind-data-hub-api",
       "provider": "Wind Data Hub / US DOE WETO; managed by Pacific Northwest National Laboratory",
       "service_name": "Wind Data Hub public portal/API configuration",
@@ -24205,6 +24241,24 @@
       "license_url": "https://www.ahri.org/research/",
       "api_verification_state": "Nativepublichomepage andoperatorresearchpolicyHTTP200; no machineAPI/sourcefiletest",
       "latest_checked_utc": "2026-10-18T00:28:16.469670+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "aist-sdbs-spectral-database",
+      "provider": "National Institute of Advanced Industrial Science and Technology Japan",
+      "service_name": "Spectral Database for Organic Compounds",
+      "geographic_coverage": "International organic-compound spectral reference data; compound-specific coverage",
+      "topical_coverage": "research",
+      "dataset_families": "NMR, mass, infrared, Raman and ESR spectroscopy reference database",
+      "documentation_url": "https://sdbs.db.aist.go.jp/Htmls/disclaimer_eng.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Help describes disclaimer acceptance before interactive search; not accepted/submitted in this research",
+      "free_access_restrictions": "Native disclaimer says free access but expressly prohibits automated data collection by robots and large downloads",
+      "license": "Copyright AIST; automated data collection and bulk downloads prohibited; no open reuse grant verified",
+      "license_url": "https://sdbs.db.aist.go.jp/Htmls/disclaimer_eng.html",
+      "api_verification_state": "Native homepage, its framed English disclaimer and help HTTP200. No public API documented/verified; no compound search or data request after automation prohibition.",
+      "latest_checked_utc": "2026-10-18T01:44:13.101694+00:00",
       "classification": "restricted"
     },
     {
