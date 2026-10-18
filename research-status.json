@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:22:36.260337+00:00",
+  "published_at": "2026-10-18T15:24:39.145665+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:22:31.095599+00:00",
+  "research_updated_at": "2026-10-18T15:24:38.582693+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "StEdwards/BathSPAdata distinctportalguards/nativeowneridentity andrightsunknown; generalFigshareoriginal dedup",
+  "latest_milestone": "MDZ collectionfrontier advanced to758pages/758000refs;2455503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 432,
-    "candidates": 1112,
+    "candidates": 1115,
     "excluded": 328,
     "sample_successes": 464
   },
@@ -23335,8 +23335,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across744successfulpages/744000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T15:19:21.162462+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across758successfulpages/758000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T15:24:33.764274+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24813,6 +24813,24 @@
       "license_url": "",
       "api_verification_state": "HTTP500_native_catalog_JSON_error_not_data_success_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T10:36:52.585327+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "newcastle-data-ncl",
+      "provider": "Newcastle University",
+      "service_name": "data.ncl institutional Figshare repository",
+      "geographic_coverage": "UK institutional research; actual dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets, output metadata and metadata-only externaldata discovery",
+      "documentation_url": "https://www.ncl.ac.uk/library/academics-and-researchers/lrs/rdm/sharing/",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution561/portal561 registryfilter unverified)",
+      "format_protocol": "Owner Figshare service identity, registryREST/OAI filters; currentportal-specificwirecontractunverified",
+      "authentication": "No credentialsused; institutionalpublicreadAPIauthunresolved",
+      "free_access_restrictions": "Owner guidance selectedlicenses/metadata-onlyrecords andsensitivity/access restrictions",
+      "license": "Unknown metadata-wide grant; per-item selected reuse licenses",
+      "license_url": "https://www.ncl.ac.uk/library/academics-and-researchers/lrs/rdm/sharing/",
+      "api_verification_state": "Originalportalroot guard-deferredunsent; independentnativeuniversityguidance200HTML. No currentportalAPI/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T15:24:25.640636+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27513,6 +27531,24 @@
       "license_url": "https://www.publisso.de/en/publishing/repositories/repository-for-life-sciences/policy-guidelines",
       "api_verification_state": "Native current owner guidelines200HTML identify public repository, structured metadata, DOI and linked-data integration. Exact public query API/runtime not established; public source objects not requested.",
       "latest_checked_utc": "2026-10-18T09:58:15.155704+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pucp-open-data-portal",
+      "provider": "Pontificia Universidad Católica del Perú / Sistema de Bibliotecas",
+      "service_name": "PUCP Open Data Portal",
+      "geographic_coverage": "Peruvian institutional research; actualdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalresearchdatasets/associatedmetadata linkedtorepositorypublications; actualinventoryunreviewed",
+      "documentation_url": "https://repositorio.pucp.edu.pe/contents/dda.html",
+      "api_base_url": "https://datos.pucp.edu.pe/oai (registryclaim)",
+      "format_protocol": "RegistryOAIclaim; REST/SWORDregistryURLs aregenericDataversedocs, not deployedinstance endpoints",
+      "authentication": "OriginalanonymousOAIuntested; ownerdepositionrequirespriorlibraryreview/credentials, not publicreadrestrictionproof",
+      "free_access_restrictions": "OwnerpreferCCBY4unlessjustifiedrestrictedaccess; actualperdatasettermsunreviewed",
+      "license": "Recommended/preferred CCBY4.0 datasets; metadata-widegrantunknown",
+      "license_url": "https://repositorio.pucp.edu.pe/contents/dda.html",
+      "api_verification_state": "OriginalOAIIdentifyguard-deferredunsent; independentnativelibrarydepositguide200HTML reviewed. No successfulAPI/schema/sourcepayload.",
+      "latest_checked_utc": "2026-10-18T15:24:25.640636+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30447,6 +30483,24 @@
       "license_url": "https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-licence/",
       "api_verification_state": "documented_sample_success_CKAN_catalogue_metadata_only",
       "latest_checked_utc": "2026-10-17T13:56:17.206795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "toronto-tspace-scholaris",
+      "provider": "University of Toronto Libraries / Scholaris",
+      "service_name": "TSpace scholarly repository REST API",
+      "geographic_coverage": "Canadian institutional scholarship; exactsourcegeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional scholarlymetadata, theses/publications/policyreports andother digitalresearchoutputs; sourcefiles individuallylicensed",
+      "documentation_url": "https://utoronto.scholaris.ca/ | https://guides.library.utoronto.ca/tspace/policies",
+      "api_base_url": "https://utoronto.scholaris.ca/server/api",
+      "format_protocol": "NativeDSpaceREST JSON/HALserviceidentity verified; OAI thirdpartyforum discovery not ownerverified/tested",
+      "authentication": "AnonymousRESTroot200; actualrecord/sourceaccess nottested, UTORid/registrationdepositionseparate",
+      "free_access_restrictions": "Freeinstitutionalrepository, temporaryembargo andselectedpermissions; no allsourcefileentitlement",
+      "license": "Unknown blanketmetadata grant; per-item CC/copyright and nonexclusive universitylicense",
+      "license_url": "https://guides.library.utoronto.ca/tspace/policies",
+      "api_verification_state": "Native root200HTML publishes exactserver/apiURL; anonymousGET200validJSON/HALserviceidentity andownerpolicy200HTML. No actualmetadata/person/record/sourcefiles orchildrelationqueries.",
+      "latest_checked_utc": "2026-10-18T15:24:25.640636+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
