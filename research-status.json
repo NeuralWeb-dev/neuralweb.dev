@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T16:11:53.309144+00:00",
+  "published_at": "2026-10-18T16:13:56.031591+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:11:21.548911+00:00",
+  "research_updated_at": "2026-10-18T16:13:54.788798+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IndependentnativeReDATAownernotice200documents intermittenttrafficmitigation/automateddownloadrestrictions; not totalclosure.",
+  "latest_milestone": "Six originals: RENAG mixed data rights/query API unknown; protocols.io contentCCBY/automation restrictions; Macquarie current policy; CUHK held; UNAB native restrictions; ReDATA policy hierarchy; MDZ840000 incomplete.",
   "counts": {
     "verified": 436,
     "candidates": 1147,
@@ -2181,7 +2181,9 @@
           "upn-institutional-repository",
           "usach-research-data-repository"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "unab-institutional-repository"
+        ]
       },
       "housing": {
         "status": "partial_candidates_only",
@@ -2329,7 +2331,9 @@
           "university-aruba-open-repository",
           "upn-institutional-repository"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "unab-institutional-repository"
+        ]
       },
       "research": {
         "status": "partial_candidates_only",
@@ -2359,6 +2363,7 @@
           "usach-research-data-repository"
         ],
         "restricted_provider_ids": [
+          "unab-institutional-repository",
           "usp-datamap-environmental-platform"
         ]
       }
@@ -5446,6 +5451,7 @@
           "data-wa-catalogue-api",
           "latrobe-opal",
           "lincoln-institutional-figshare",
+          "macquarie-institutional-figshare",
           "melbourne-institutional-figshare",
           "monash-bridges",
           "nsw-open-data-catalog",
@@ -5707,6 +5713,7 @@
           "landcare-research-datastore",
           "latrobe-opal",
           "lincoln-institutional-figshare",
+          "macquarie-institutional-figshare",
           "melbourne-institutional-figshare",
           "monash-bridges",
           "nci-australia-data-catalogue",
