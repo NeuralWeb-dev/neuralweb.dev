@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T20:49:15.945341+00:00",
+  "published_at": "2026-10-18T20:51:18.979142+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:48:37.136817+00:00",
+  "research_updated_at": "2026-10-18T20:49:21.477544+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ReadingOAIadvertised/grantgap; GDCstatusJSON/currentpolicyverified; Wilsonunofficialclientregistrycorrection.",
+  "latest_milestone": "Six original reviews: TopDown API gap, AlgaeBase personalNC/noextraction, UMN controlled clinical access, Reading OAI advertised/held, GDC safe statusJSON, Wilson unofficial-client correction.",
   "counts": {
     "verified": 459,
     "candidates": 1355,
@@ -775,6 +775,7 @@
           "usgs-sciencebase-catalogue"
         ],
         "restricted_provider_ids": [
+          "algaebase-taxonomic-database",
           "bugwood-image-network-api",
           "deims",
           "ebird",
@@ -846,6 +847,7 @@
           "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
+          "algaebase-taxonomic-database",
           "aviso-authenticated-data-services",
           "copernicus-marine",
           "fishbase-programmatic-data",
@@ -1261,6 +1263,7 @@
         "restricted_provider_ids": [
           "acled",
           "agdc-geomagnetic-portal",
+          "algaebase-taxonomic-database",
           "alspac-cohort-access-portal",
           "asu-research-dataverse",
           "aviso-authenticated-data-services",
@@ -3365,6 +3368,7 @@
           "puglia-open-data-catalog",
           "qub-pure-research-data-repository",
           "radboud-public-metadata-repository",
+          "reading-research-data-archive",
           "registry-opendata-aragon-es",
           "rodbuk-research-data-repository",
           "roderic-uv-repository",
@@ -4261,6 +4265,7 @@
           "qub-pure-research-data-repository",
           "radar-bb-repository",
           "radboud-public-metadata-repository",
+          "reading-research-data-archive",
           "rigsarkivet-born-digital-portal",
           "rijksmuseum",
           "rivmdata-geonetwork",
