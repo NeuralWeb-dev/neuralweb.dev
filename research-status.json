@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T16:07:45.820357+00:00",
+  "published_at": "2026-10-18T16:09:49.644703+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:07:03.915536+00:00",
+  "research_updated_at": "2026-10-18T16:08:18.635135+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals: KORDSnativemetadataCC0/APIheld; JeanPaulBYSA4/5interfacesuntested; AriasOAI200/NCmetadata; BORNcontrolledfees; Stockholm/CIOOScandidates; MDZ827000incomplete.",
+  "latest_milestone": "RENAGmixednativecoreBY4/ORPHEONNC/queryAPIunknown; protocols.ioCCBYcontent/serviceautomationrestricted; Macquariecurrentmixedpolicy/portalhold.",
   "counts": {
     "verified": 436,
-    "candidates": 1143,
-    "excluded": 338,
+    "candidates": 1145,
+    "excluded": 339,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -23498,6 +23498,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "macquarie-institutional-figshare",
+      "provider": "Macquarie University",
+      "service_name": "Macquarie University research data repository",
+      "geographic_coverage": "Australia institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutionalresearchdata and metadata-onlyexternalrecords; mediatedaccesssource separate",
+      "documentation_url": "https://policies.mq.edu.au/document/view.php?id=301",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution959/portal959untested)",
+      "format_protocol": "RegistryFigshareREST/OAI; portalwirecontract/schema unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Currentgeneraldataopen-license default; mediated/no-redistribution and stricterexceptions; metadata-widegrantunknown",
+      "license_url": "https://policies.mq.edu.au/document/view.php?id=301",
+      "api_verification_state": "Originalportalguard-deferredunsent; independentnativehistoricalandcurrentownerpolicy200HTML. CurrentgrantchoicesnotportalAPIresponse.",
+      "latest_checked_utc": "2026-10-18T16:08:13.923322+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "madison-open-data",
       "provider": "City of Madison,Wisconsin",
       "service_name": "Madison current OGC catalog",
@@ -28769,6 +28787,24 @@
       "license_url": "",
       "api_verification_state": "current_original_root_network_timeout_exact_API_and_rights_unresolved",
       "latest_checked_utc": "2026-10-17T15:31:32.686457+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "renag-gnss-data-centre",
+      "provider": "RENAG / Géoazur / Epos-France",
+      "service_name": "RENAG-DC GNSS data distribution",
+      "geographic_coverage": "French permanent GNSS network; specific stationgeography unqueried",
+      "topical_coverage": "geospatial | environment | research",
+      "dataset_families": "RENAG and Centipède GNSS RINEX observations; GEODATA/ORPHEON separate restrictedfamily",
+      "documentation_url": "http://renag.resif.fr/en/donnees/politique-de-distribution/",
+      "api_base_url": "",
+      "format_protocol": "Nativepolicydocuments anonymousHTTPS compressedRINEXfiles; not queryAPIproof; registryFTPnotAPI",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "RENAG/Centipède CC-BY4; ORPHEON olderthan1yearCC-BYNC4/newercontrolled",
+      "license_url": "http://renag.resif.fr/en/donnees/politique-de-distribution/",
+      "api_verification_state": "Native distributionpolicy200substantiveHTML; subsequent dataoverviewfailed/deferred, preservedhold. No nativepublicAPI/schemaresponse; filedistributionnotAPI.",
+      "latest_checked_utc": "2026-10-18T16:08:13.923322+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -39319,6 +39355,24 @@
       "license_url": "https://prometheus-bildarchiv.de/en/api_copyright",
       "api_verification_state": "Native public homepage and API copyright page HTTP200; registry API guide guard-deferred unsent, no alternate route",
       "latest_checked_utc": "2026-10-18T01:29:02.342527+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "protocolsio-public-api",
+      "provider": "protocols.io / Springer Nature",
+      "service_name": "protocols.io public-content REST API",
+      "geographic_coverage": "International contributed researchmethods; exact sourcecoverageunreviewed",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Publicexperimental workflows/methods/protocols; private paidworkspaces separate",
+      "documentation_url": "https://www.protocols.io/developers | https://apidoc.protocols.io/",
+      "api_base_url": "https://www.protocols.io/api/v3/",
+      "format_protocol": "Native developerguide REST/OAuth2/clienttoken; separateAPIdocguard-deferred",
+      "authentication": "Clientaccess token readsallpublicdata; per-userOAuth token separate; no account/key/token used",
+      "free_access_restrictions": "Indexedhelp says freepublicAPI/publiccontent, privateworkspacespaid; nativeTerms automationrestrictions require resolution for APIuse",
+      "license": "User-generated contentCCBY(versionunspecified); serviceautomationrestrictions",
+      "license_url": "https://www.protocols.io/terms",
+      "api_verification_state": "Native developers200substantiveHTMLconfirmsAPI/token; nativeTerms200actualtext. APIdocguard-deferred; help200titleonlynotoperativelicensetext. No APIoperationtested.",
+      "latest_checked_utc": "2026-10-18T16:08:13.923322+00:00",
       "classification": "restricted"
     },
     {
