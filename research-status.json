@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T20:43:07.109336+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T20:45:10.148175+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:41:31.943930+00:00",
+  "research_updated_at": "2026-10-18T20:44:21.415336+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Dundee/QUB publishedPure contracts verified, current grants/access unresolved; IDIAfive release references; QUBORRmigration discovered.",
+  "latest_milestone": "Six original reviews: Dundee/QUB Pure schemas, IDIA five release references, Italian marine/API gap, deprecated eNanoMapper docs, ILL OAI500/policy gap; nine PaNOSC OAI links queued.",
   "counts": {
     "verified": 459,
-    "candidates": 1348,
+    "candidates": 1351,
     "excluded": 392,
     "sample_successes": 464
   },
@@ -3363,6 +3363,7 @@
           "portulan-fcs",
           "portulan-repository",
           "puglia-open-data-catalog",
+          "qub-pure-research-data-repository",
           "radboud-public-metadata-repository",
           "registry-opendata-aragon-es",
           "rodbuk-research-data-repository",
@@ -4257,6 +4258,7 @@
           "portulan-repository",
           "proteomexchange-proteomecentral",
           "publicneuro-repository",
+          "qub-pure-research-data-repository",
           "radar-bb-repository",
           "radboud-public-metadata-repository",
           "rigsarkivet-born-digital-portal",
@@ -4859,9 +4861,11 @@
         "restricted_provider_ids": []
       },
       "astronomy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "idia-public-data-archive"
+        ],
         "restricted_provider_ids": []
       },
       "culture": {
@@ -4900,6 +4904,7 @@
           "frankfurt-colonial-image-archive",
           "giga-research-data-directory",
           "hsrc-research-output-repository",
+          "idia-public-data-archive",
           "johannesburg-research-data",
           "laws-africa-knowledge",
           "nwu-dayta-ya-rona",
@@ -21245,6 +21250,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "enanomapper-nanosafety-database",
+      "provider": "eNanoMapper project / IDEAconsult and partners",
+      "service_name": "eNanoMapper nanosafety database APIs",
+      "geographic_coverage": "International nanomaterials/nanosafety project datasets; exact public source coverage unverified",
+      "topical_coverage": "health | climate/weather/environment | research",
+      "dataset_families": "Nanomaterial substance/study and experimental metadata service descriptions; no chemical structures, assays or source records requested",
+      "documentation_url": "https://enanomapper.github.io/API/ | https://api.ideaconsult.net/ | https://www.enanomapper.net/library/enanomapper-prototype",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown current effective source/database/metadata grant; registryCC0/ECHA claims not accepted globally",
+      "license_url": "https://data.enanomapper.net/",
+      "api_verification_state": "Original database root robots-deferred unsent. Native project API docHTTP200 explicitlydeprecated, pointingtoIDEAconsult currentdocs; that docsrootHTTP200browser/shelltext, not APIJSON. No alternative database host, substance/study/structure/assay query or source runtime.",
+      "latest_checked_utc": "2026-10-18T20:43:28.265050+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "enap-borealis-data-repository",
       "provider": "École nationale d'administration publique",
       "service_name": "École nationale d'administration publique research data repository",
@@ -24035,6 +24058,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ill-experimental-data-portal",
+      "provider": "Institut Laue-Langevin / PaNOSC",
+      "service_name": "ILL experimental data portal and metadata services",
+      "geographic_coverage": "ILL Grenoble neutron-science experiments; international proposal teams and per-experiment coverage",
+      "topical_coverage": "research | energy | culture",
+      "dataset_families": "Neutron experiment/proposal/data catalogue metadata; experimental sourcefiles and team data excluded",
+      "documentation_url": "https://www.ill.eu/users/user-guide/after-your-experiment/data-management#c8867 | https://www.panosc.eu/services/data-catalogue/",
+      "api_base_url": "https://data.ill.fr/openaire/oai | https://data.ill.fr/fairdata/api (PaNOSC published endpoint, currentRESTruntimeuntested)",
+      "format_protocol": "OAI-PMH published; PaNOSC RESTmetadataAPI documented separately",
+      "authentication": "Native sourceportal uses proposal/team/publicdata access authorizations; source download identifies downloader toPI. No account/login/source download. OAI sample separately recorded.",
+      "free_access_restrictions": "Native page describes3year defaultembargo with historical extension to5, authorizedteam/public-source distinctions; exact current legalconditions/scope unresolved. No paid/proposal/account request.",
+      "license": "Unknown uniform metadata/data reuse grant; access/embargo/citation policy verified",
+      "license_url": "https://www.ill.eu/documents/1931/ILL_data_management_policy_March_2018.pdf",
+      "api_verification_state": "Native overview/legalPDF and PaNOSC directoryHTTP200. ExactoriginaldocumentedOAIIdentify request outcome is appended below; no sourceexperimentalqueries. RESThost/path documented in official2022PaNOSCimplementationreport, currentRESTuntested. Sample HTTPstatus=500; error=HTTP Error 500: Proxy Error. Not successfulAPI/protocolidentity; hold retained, no alternate request.",
+      "latest_checked_utc": "2026-10-18T20:43:28.265050+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "illinois-open-data-portal",
       "provider": "State of Illinois",
       "service_name": "Illinois Open Data portal / advertised Socrata APIs",
@@ -24752,6 +24793,24 @@
       "license_url": "https://www.issdc.gov.in/terms_conditions.html",
       "api_verification_state": "native_institutional_archive_scope_and_terms_verified_independent_machine_API_and_per_mission_grants_unresolved",
       "latest_checked_utc": "2026-10-17T23:02:27.611507+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "it-ioos-marine-data-platform",
+      "provider": "ITINERIS / CNR-ISMAR and partner infrastructures",
+      "service_name": "Italian Integrated Ocean Observing System marine data platform",
+      "geographic_coverage": "Italian marine research infrastructures/Mediterranean Sea; individual observation campaigns vary",
+      "topical_coverage": "oceans | water | climate/weather/environment | biodiversity | research",
+      "dataset_families": "Marine observatory/instrument and campaign dataset/repository descriptions; no observations or coordinates acquired",
+      "documentation_url": "https://www.ismar.cnr.it/itineris/ | https://repo.it-ioos.eu/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Indexed repository CC BY4 policy statement; per-source/API/database scope unresolved",
+      "license_url": "https://repo.it-ioos.eu/",
+      "api_verification_state": "Original rootHTTP200 minimal ITINERISHTMLshell, not API success. Native repository target robots-deferred unsent; no alternatehost/path/backend request. Exact documented readAPI/schema/runtime not established.",
+      "latest_checked_utc": "2026-10-18T20:43:28.265050+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
