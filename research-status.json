@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:46:05.558052+00:00",
+  "published_at": "2026-10-18T13:48:08.704019+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:44:24.718307+00:00",
+  "research_updated_at": "2026-10-18T13:46:47.480113+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to554pages/554000refs;2659503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "LONIIDAcontrolled/atlaslicenceseparate;dbESTGenBankfamilydedup;ISSDAsafeguardedEUL/OAIunverified",
   "counts": {
     "verified": 417,
     "candidates": 1060,
-    "excluded": 314,
+    "excluded": 316,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -10809,7 +10809,7 @@
       "service_name": "NCBI E-utilities — PubMed metadata subset",
       "geographic_coverage": "Global",
       "topical_coverage": "health; research",
-      "dataset_families": "PubMed/MEDLINE citation and NLM-authored indexing metadata; other Entrez databases require separate rights review | Protein Clusters documented Entrez family, exact source grants/runtime pending | Nucleotide/nuccore and GEOgds/geoprofiles: documented Entrez families, grants/runtimeunresolved | Gene: additional Entrez family, exact reuse grant/runtime unresolved | GenBank nucleotide family: source-rights/runtime review unresolved",
+      "dataset_families": "PubMed/MEDLINE citation and NLM-authored indexing metadata; other Entrez databases require separate rights review | Protein Clusters documented Entrez family, exact source grants/runtime pending | Nucleotide/nuccore and GEOgds/geoprofiles: documented Entrez families, grants/runtimeunresolved | Gene: additional Entrez family, exact reuse grant/runtime unresolved | GenBank nucleotide family: source-rights/runtime review unresolved | dbEST GenBank single-pass cDNA source family: exact current API key/grant/runtime unresolved",
       "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
       "api_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
       "format_protocol": "REST/JSON",
@@ -10818,7 +10818,7 @@
       "license": "NLM data distribution terms; NLM-authored content public domain; copyrighted abstracts excluded",
       "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-18T08:02:50.240293+00:00",
+      "latest_checked_utc": "2026-10-18T13:46:42.743461+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -35468,6 +35468,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "issda-safeguarded-social-data",
+      "provider": "University College Dublin Library / Irish Social Science Data Archive",
+      "service_name": "ISSDA safeguarded quantitative social-science archive",
+      "geographic_coverage": "Irelandquantitativesocial-scienceresearch andcomparativecontexts; per-studycoveragevaries",
+      "topical_coverage": "demographics | economics | labor | education | health | research",
+      "dataset_families": "Safeguardedquantitativesocial-sciencedata andcataloguemetadata; individualstudy/microdata notqueried",
+      "documentation_url": "https://libguides.ucd.ie/FAIR/accessible | https://www.ucd.ie/issda/policiesandforms/",
+      "api_base_url": "https://issda.ucd.ie/oai (registryclaim, currentnativeendpointunverified)",
+      "format_protocol": "RegistryOAI-PMH/Dataverseclaim, noverifiedcurrentnativecontract/runtime",
+      "authentication": "SafeguardeddatarequiresEUL; registryOAIpublicaccessclaim nottested. No account/application/licenceagreement signed.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Research/teaching safeguarded access under legally binding End User Licence; metadata-widegrantunknown",
+      "license_url": "https://libguides.ucd.ie/FAIR/accessible",
+      "api_verification_state": "ISSDAoriginalrootguard-deferredtargetunsent, policyfollowupunsent. IndependentnativeUCDLibraryguide200HTMLdocumentsaccessconditions; noissda.ucd.ie/OAI/backendalternateafterhold, noAPIresponse.",
+      "latest_checked_utc": "2026-10-18T13:46:42.743461+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "iucn-red-list-api-v4",
       "provider": "International Union for Conservation of Nature",
       "service_name": "IUCN Red List API v4",
@@ -35789,6 +35807,24 @@
       "license_url": "https://www.lissdata.nl/how-it-works-archive",
       "api_verification_state": "Native root/ethics/generalterms/archive-access200HTML; exact public read API not established",
       "latest_checked_utc": "2026-10-18T08:58:17.020199+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "loni-ida-controlled-access",
+      "provider": "USC Laboratory of Neuro Imaging / Image and Data Archive",
+      "service_name": "LONI IDA controlled neuroscience data archive",
+      "geographic_coverage": "Internationalmulti-siteneurosciencestudies, per-studycohort/coveragevaries",
+      "topical_coverage": "health | research",
+      "dataset_families": "Neuroimaging/clinical/geneticresearcharchive, study-specificaccessconditions; no participant/imagingdataqueried",
+      "documentation_url": "https://resource.loni.usc.edu/ | https://ida.loni.usc.edu/login.jsp",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "IDAaccountrequired; loginpagecookie/Turnstilemarkup notcompleted or bypassed. No account/login/cookieacceptance/DUAapplication.",
+      "free_access_restrictions": "Authorizedresearch/studyaccess; no uniformprice/freeAPIclaim, registryfeeRequirednotuniversalnativefeeproof",
+      "license": "Authorizedaccount/study-specificcontrolledaccess; no verifiedgeneralopenAPI/data grant",
+      "license_url": "https://resource.loni.usc.edu/ | https://loni.usc.edu/loni/licenseagreement",
+      "api_verification_state": "NativeIDAlogin/ownerresourceinfo/atlaseslicence200HTML, no verifiedpublicreadAPI/schema/dataresponse. Loginmarkup notAPIsample.",
+      "latest_checked_utc": "2026-10-18T13:46:42.743461+00:00",
       "classification": "restricted"
     },
     {
