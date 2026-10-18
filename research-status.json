@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T12:54:50.993724+00:00",
+  "published_at": "2026-10-18T12:56:53.925057+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:54:31.959741+00:00",
+  "research_updated_at": "2026-10-18T12:56:22.291202+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GeoSphere currentnative quota page verified:5/sec240/hour;1MJSONCSV/10MNetCDFvalues; no quota/load test.",
+  "latest_milestone": "MITstaffCC0/HAL8.2;USMHAL7.4/rightsunknown;RadboudpublicmetadataCC0/APIunknown;FAIRDOMmetadataBY4;WegenerreleasedBY4;GeoSpherepurposeconditions/quotas;MDZ498000refs incomplete.",
   "counts": {
     "verified": 411,
     "candidates": 1046,
@@ -2606,6 +2606,7 @@
           "transportapi-fi",
           "ukraine-data",
           "wales-statistics",
+          "wegenernet-file-api",
           "zaragoza-open-data-api",
           "zurich-city-open-catalog"
         ],
@@ -2677,6 +2678,7 @@
           "fli-tsis-animal-disease-portal",
           "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
+          "geosphere-austria-datahub-api",
           "geotis-wms",
           "lower-austria-ogd",
           "metoffice-weather-datahub",
@@ -2701,7 +2703,8 @@
           "hcdc-datasearch-metadata-api",
           "iceland-statistics",
           "oulu-open-data-api",
-          "ukho-marine-data-portal"
+          "ukho-marine-data-portal",
+          "wegenernet-file-api"
         ],
         "candidate_provider_ids": [
           "bgs-ngdc-ags-access-api",
@@ -2766,6 +2769,7 @@
         ],
         "restricted_provider_ids": [
           "cdgp-geothermal-portal",
+          "geosphere-austria-datahub-api",
           "geotis-wms",
           "german-statistical-rdc",
           "metoffice-weather-datahub",
@@ -2825,6 +2829,7 @@
           "proteomexchange-proteomecentral",
           "publicneuro-repository",
           "puglia-open-data-catalog",
+          "radboud-public-metadata-repository",
           "registry-opendata-aragon-es",
           "rivmdata-geonetwork",
           "rki-antimicrobial-surveillance",
@@ -2957,6 +2962,7 @@
           "portulan-fcs",
           "portulan-repository",
           "puglia-open-data-catalog",
+          "radboud-public-metadata-repository",
           "registry-opendata-aragon-es",
           "roderic-uv-repository",
           "saarland-clarind-language-repository",
@@ -3197,6 +3203,7 @@
           "bonn-open-data",
           "cdgp-geothermal-portal",
           "geoguyane-csw-catalogue",
+          "geosphere-austria-datahub-api",
           "geotis-wms",
           "leiden-edepot-archives",
           "neuchatel-sitn-geoservices",
@@ -3597,7 +3604,8 @@
           "tudatalib-public-metadata-oai",
           "uk-police",
           "ukho-marine-data-portal",
-          "warsaw-research-data-metadata"
+          "warsaw-research-data-metadata",
+          "wegenernet-file-api"
         ],
         "candidate_provider_ids": [
           "acdh-fcs",
@@ -3689,6 +3697,7 @@
           "proteomexchange-proteomecentral",
           "publicneuro-repository",
           "radar-bb-repository",
+          "radboud-public-metadata-repository",
           "rigsarkivet-born-digital-portal",
           "rijksmuseum",
           "rivmdata-geonetwork",
@@ -3745,6 +3754,7 @@
           "european-social-survey-api",
           "ezrc-resource-portal",
           "flora-frankfurt-portal",
+          "geosphere-austria-datahub-api",
           "geotis-wms",
           "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
@@ -4872,6 +4882,7 @@
         ],
         "candidate_provider_ids": [
           "thailand-gistda",
+          "usm-open-data-dspace-api",
           "wis2-malaysia",
           "wis2-philippines",
           "wis2-thailand"
@@ -4906,7 +4917,9 @@
           "malaysia",
           "singapore"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "usm-open-data-dspace-api"
+        ],
         "restricted_provider_ids": []
       },
       "education": {
@@ -4918,6 +4931,7 @@
         ],
         "candidate_provider_ids": [
           "telkom-university-dataverse",
+          "usm-open-data-dspace-api",
           "usu-sumatera-utara-repository"
         ],
         "restricted_provider_ids": [
@@ -5028,6 +5042,7 @@
         "candidate_provider_ids": [
           "mardi-papayanetbase",
           "telkom-university-dataverse",
+          "usm-open-data-dspace-api",
           "usu-sumatera-utara-repository"
         ],
         "restricted_provider_ids": [
