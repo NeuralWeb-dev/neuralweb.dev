@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:26:45.886530+00:00",
+  "published_at": "2026-10-18T07:28:48.541572+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:23:35.978967+00:00",
+  "research_updated_at": "2026-10-18T07:28:47.179791+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Open-archeOcsean native BY4 catalogue/GitHub metadata verified; ELIXIR hosting controls and DESY OAI date/policy scope reviewed.",
+  "latest_milestone": "Nine originals and NCRMP lead reviewed; Open-archeOcsean native BY4/GitHub metadata verified, DESY OAI date defect and scoped policy, source-specific restrictions/holds preserved.",
   "counts": {
     "verified": 376,
-    "candidates": 909,
+    "candidates": 910,
     "excluded": 268,
     "sample_successes": 465
   },
@@ -2476,6 +2476,7 @@
           "tethys-geosphere-oai",
           "tuscany-open-data-catalog",
           "ufz-spatial-geonetwork",
+          "uk-polar-data-centre",
           "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
           "wis2-poland",
@@ -2535,6 +2536,7 @@
           "seadatanet-cdi-discovery-network",
           "tuscany-open-data-catalog",
           "ufz-spatial-geonetwork",
+          "uk-polar-data-centre",
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
@@ -2957,6 +2959,7 @@
           "tethys-geosphere-oai",
           "tuscany-open-data-catalog",
           "ufz-spatial-geonetwork",
+          "uk-polar-data-centre",
           "ukho-tidal",
           "valais-cantonal-geoservices",
           "vaud-apigeo",
@@ -3118,6 +3121,7 @@
           "nodc-portugal-geonetwork",
           "seadatanet-cdi-discovery-network",
           "shom-data",
+          "uk-polar-data-centre",
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
@@ -3418,6 +3422,7 @@
           "tuebingen-fcs",
           "tul-open-research-data",
           "ufz-spatial-geonetwork",
+          "uk-polar-data-centre",
           "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
           "upf-digital-repository",
@@ -4358,6 +4363,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "japan",
+          "open-archeocsean-catalogue",
           "taiwan"
         ],
         "candidate_provider_ids": [
@@ -4438,7 +4444,8 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "japan-dashboard"
+          "japan-dashboard",
+          "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
           "china-nbs",
@@ -4456,6 +4463,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "open-archeocsean-catalogue",
           "taibif-portal-v3"
         ],
         "candidate_provider_ids": [
@@ -4613,8 +4621,10 @@
         "restricted_provider_ids": []
       },
       "geospatial": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "open-archeocsean-catalogue"
+        ],
         "candidate_provider_ids": [
           "thailand-gistda",
           "wis2-malaysia",
@@ -4670,7 +4680,8 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
           "philippines",
@@ -4683,7 +4694,8 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
-          "malaysia"
+          "malaysia",
+          "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": [
@@ -4931,6 +4943,7 @@
           "linz",
           "linz-basemaps-api",
           "noumea-data",
+          "open-archeocsean-catalogue",
           "transport-nsw-trip-planner-api",
           "worldpop-geo",
           "worldpop-rest",
@@ -5065,8 +5078,10 @@
         "restricted_provider_ids": []
       },
       "culture": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "open-archeocsean-catalogue"
+        ],
         "candidate_provider_ids": [
           "brisbane-open-data",
           "csiro-data-access-portal",
@@ -5092,7 +5107,8 @@
           "esgf-ceda-discovery",
           "esgf-nci-discovery",
           "geochron-geochronology-api",
-          "geri"
+          "geri",
+          "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
           "aadc-metadata",
@@ -5200,7 +5216,8 @@
           "noaa-gml-barrow-observatory",
           "nsidc",
           "pgc-dem-stac",
-          "polish-polar-data-catalogue"
+          "polish-polar-data-catalogue",
+          "uk-polar-data-centre"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -5224,7 +5241,8 @@
           "aoos-ocean-erddap-services",
           "apgc-permafrost-ckan",
           "china-ncdc-cryosphere-desert-portal",
-          "lter-italy-dataset-asset-registry"
+          "lter-italy-dataset-asset-registry",
+          "uk-polar-data-centre"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -5300,7 +5318,8 @@
           "marine-data-germany-portal",
           "nsidc",
           "pgc-dem-stac",
-          "polish-polar-data-catalogue"
+          "polish-polar-data-catalogue",
+          "uk-polar-data-centre"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -5361,7 +5380,8 @@
           "bas-locations-public-api",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
-          "polish-polar-data-catalogue"
+          "polish-polar-data-catalogue",
+          "uk-polar-data-centre"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -5414,7 +5434,8 @@
           "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
           "pgc-dem-stac",
-          "polish-polar-data-catalogue"
+          "polish-polar-data-catalogue",
+          "uk-polar-data-centre"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -21138,6 +21159,24 @@
       "license_url": "https://www.ncei.noaa.gov/archive",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T19:14:21.595387+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "noaa-ncrmp-search-api",
+      "provider": "NOAA National Coral Reef Monitoring Program",
+      "service_name": "NCRMP Data Visualization Tool Search API",
+      "geographic_coverage": "US shallow coral reefs: US states/territories and marine protected areas; per-resource geography varies",
+      "topical_coverage": "oceans | biodiversity | climate/weather/environment | geospatial | research",
+      "dataset_families": "Coral/benthic/fish/climate-ocean chemistry and socioeconomic summary catalogue; exact accessible inventory not enumerated",
+      "documentation_url": "https://ncrmp.coralreef.noaa.gov/api/search/definition/",
+      "api_base_url": "https://ncrmp.coralreef.noaa.gov/api/search/v1",
+      "format_protocol": "Native published OpenAPI3 definition embedded in Swagger initializer; OGC API Records-style JSON endpoints",
+      "authentication": "Anonymous conformance request succeeds, documented optional ArcGIS token for protected underlying items",
+      "free_access_restrictions": "Official launch describes free public tool, not blanket unlimited source API/asset rights; protected underlying items may need token, not requested",
+      "license": "unknown explicit blanket catalogue/source grant",
+      "license_url": "",
+      "api_verification_state": "Native Swagger page200 and linked initializer200 decoded OpenAPI3.0 with17paths/17GEToperations. Anonymous conformanceGET200 valid JSON with 9declared standards references, not independent standard compliance validation.",
+      "latest_checked_utc": "2026-10-18T07:27:30.102705+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
