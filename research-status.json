@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T16:01:36.048156+00:00",
+  "published_at": "2026-10-18T16:03:39.804690+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:01:35.324264+00:00",
+  "research_updated_at": "2026-10-18T16:02:10.177744+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals:UCIcurrentdonationCCBY4/nativeJSONlist689refs; five scopedcandidates; SUNmetadata custompermission; EcuadorIPTidentity; MDZ817000incomplete.",
+  "latest_milestone": "KORDSnativeexplicitmetadataCC0/APIheld; Stockholm selectedlicenses/portalhold; AriasOAI200/metadataNCrestricted.",
   "counts": {
-    "verified": 434,
-    "candidates": 1141,
-    "excluded": 336,
+    "verified": 435,
+    "candidates": 1142,
+    "excluded": 337,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -10250,6 +10250,24 @@
       "license_url": "https://researchdata.se/en/licences-and-marks-website",
       "api_verification_state": "Native institutional guide/national metadata policy/API docs200. Shared OAI Identify200 parsed OAI2 XML noerrors, protocol2.0; no KI-specific list/set/source request.",
       "latest_checked_utc": "2026-10-18T06:54:18.856826+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "kings-kords",
+      "provider": "King’s College London",
+      "service_name": "King’s College London institutional research data repository",
+      "geographic_coverage": "United Kingdom institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets/software and associated descriptive metadata; sourceconditions vary",
+      "documentation_url": "https://www.kcl.ac.uk/researchsupport/assets/datadepositagreement.pdf",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution984/portal984 untested)",
+      "format_protocol": "RegistryFigshareREST/OAI; nativeportal wirecontract/schemaunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Creative Commons CC0 for repository descriptive metadata",
+      "license_url": "https://www.kcl.ac.uk/researchsupport/assets/datadepositagreement.pdf",
+      "api_verification_state": "Originalportalguard-deferredunsent; independentnativeownerguide/document200. No currentportal APIresponse.",
+      "latest_checked_utc": "2026-10-18T16:02:05.374780+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -30307,6 +30325,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "stockholm-institutional-figshare",
+      "provider": "Stockholm University",
+      "service_name": "Stockholm University institutional research data repository",
+      "geographic_coverage": "Sweden institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets/software and associated descriptive metadata; sourceconditions vary",
+      "documentation_url": "https://medarbetare.su.se/en/research/your-research/research-data",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution18/portal18 untested)",
+      "format_protocol": "RegistryFigshareREST/OAI; nativeportal wirecontract/schemaunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown blanket metadata grant; selected open data licenses",
+      "license_url": "https://medarbetare.su.se/en/research/your-research/research-data",
+      "api_verification_state": "Originalportalguard-deferredunsent; independentnativeownerguide/document200. No currentportal APIresponse.",
+      "latest_checked_utc": "2026-10-18T16:02:05.374780+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "strathcona-open-data-search",
       "provider": "Strathcona County, Alberta",
       "service_name": "Strathcona County Open Data search/catalogue API",
@@ -37182,6 +37218,24 @@
       "license_url": "https://www.hubocean.earth/odp-terms",
       "api_verification_state": "Owner docs/terms200HTML; anonymousSTACroot200validJSON Catalog/stac_version1.0.0. Features/tabular key-required samples untested.",
       "latest_checked_utc": "2026-10-18T04:24:36.178858+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "huelva-arias-montano",
+      "provider": "University of Huelva",
+      "service_name": "Arias Montano repository OAI-PMH",
+      "geographic_coverage": "Spain institutional scholarly/research outputs; datasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Scholarly outputs, theses, teaching materials, researchdata and data management plans",
+      "documentation_url": "https://guiasbuh.uhu.es/AriasMontano/Politicas",
+      "api_base_url": "https://ariasmontano.uhu.es/rest/oai/request",
+      "format_protocol": "OAI-PMH2.0XML/DublinCore",
+      "authentication": "Anonymous IdentifyGETsuccessful; no credentialsused",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Metadata commercialreuse requires permission; nonprofit attribution required",
+      "license_url": "https://guiasbuh.uhu.es/AriasMontano/Politicas",
+      "api_verification_state": "Native anonymousIdentifyHTTP200validOAI2XML withoutOAIerror; nativeownerpolicy200HTMLsubstantive. No record/file harvesting.",
+      "latest_checked_utc": "2026-10-18T16:02:05.374780+00:00",
       "classification": "restricted"
     },
     {
