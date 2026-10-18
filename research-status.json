@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T06:47:51.989368+00:00",
+  "published_at": "2026-10-18T06:49:54.502506+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:46:43.889032+00:00",
+  "research_updated_at": "2026-10-18T06:49:48.903225+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TUL native repository/free service documented, API held; CMO redirect and CIESIN403 preserved with scoped indexed primary documentation.",
+  "latest_milestone": "GitHub native terms and anonymous quota JSON verified without blanket grant; African Plants photo NC terms restricted; umwelt docs hold/software licence uncertainty retained.",
   "counts": {
-    "verified": 368,
-    "candidates": 890,
-    "excluded": 264,
+    "verified": 369,
+    "candidates": 894,
+    "excluded": 265,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -8626,6 +8626,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "impc-mouse-phenotyping-api",
+      "provider": "International Mouse Phenotyping Consortium",
+      "service_name": "IMPC Solr data access API",
+      "geographic_coverage": "International mouse phenotyping consortium; experimental model-organism data, not human population coverage",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Mouse genotype-phenotype assertions, statistical results and experimental/phenotyping resources; tested core count only",
+      "documentation_url": "https://www.mousephenotype.org/help/programmatic-data-access/ | https://www.mousephenotype.org/help/programmatic-data-access/access-patterns/",
+      "api_base_url": "https://www.ebi.ac.uk/mi/impc/solr/",
+      "format_protocol": "Native Solr HTTP query API, valid JSON count; JSON/CSV documented",
+      "authentication": "Anonymous count GET succeeded; no account/key",
+      "free_access_restrictions": "Native operator explicitly allows data/images/charts download and reuse under BY4; no payment for test. Quotas unknown.",
+      "license": "Creative Commons Attribution4.0 International, IMPC dataset",
+      "license_url": "https://www.mousephenotype.org/help/faqs/is-impc-data-freely-available/",
+      "api_verification_state": "Native operator licence/access docs200; exact zero-row Solr GET200 valid JSON numFound67350 and0docs. Actual anonymous API sample success, not source-record enumeration.",
+      "latest_checked_utc": "2026-10-18T06:48:56.808747+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "imperial-helix-citation-metadata",
       "provider": "Imperial College London",
       "service_name": "Helix public records API: citation metadata scope",
@@ -15198,6 +15216,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "daks-kassel-research-repository",
+      "provider": "University of Kassel",
+      "service_name": "DaKS research-data repository",
+      "geographic_coverage": "University of Kassel-associated multidisciplinary research, Germany; dataset scope varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and metadata with long-term storage/publication options; no source inventory queried",
+      "documentation_url": "https://daks.uni-kassel.de/info/faq | https://daks.uni-kassel.de/info/end-user-agreement",
+      "api_base_url": "",
+      "format_protocol": "Native repository/owner policy HTML; OAI candidate path404, actual API unknown",
+      "authentication": "unknown",
+      "free_access_restrictions": "Native FAQ says institutional deposit service free and describes Shibboleth/guest access; public/source access differs by deposit",
+      "license": "unknown verified data grant",
+      "license_url": "https://daks.uni-kassel.de/info/end-user-agreement",
+      "api_verification_state": "Native root/FAQ/agreement200; one candidate OAI Identify path404, not proof all APIs absent",
+      "latest_checked_utc": "2026-10-18T06:48:56.808747+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dalhousie-borealis-data-repository",
       "provider": "Dalhousie University Libraries",
       "service_name": "Dalhousie institutional Borealis collection",
@@ -17103,6 +17139,24 @@
       "license_url": "https://data.giss.nasa.gov/gistemp/",
       "api_verification_state": "Native current root and data-download guide HTTP200; no native scientific query API verified or source-file response fetched",
       "latest_checked_utc": "2026-10-18T03:45:16.192005+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "github-public-rest-api",
+      "provider": "GitHub",
+      "service_name": "GitHub public REST API and repository discovery",
+      "geographic_coverage": "Worldwide platform; repository-specific data coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Public repository/platform metadata and hosted datasets/software; each source has independent rights",
+      "documentation_url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+      "api_base_url": "https://api.github.com/",
+      "format_protocol": "REST JSON; only service quota metadata sampled",
+      "authentication": "Anonymous quota GET succeeded; no credential/key/account used",
+      "free_access_restrictions": "Public-data unauthenticated access documented. This request required no payment; authenticated/private services and data licences differ.",
+      "license": "No blanket open data grant; public content and repository-specific licences govern reuse",
+      "license_url": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "api_verification_state": "Native REST rate-limit docs/terms200; anonymous rate_limit GET200 valid JSON with resources/rate keys. Actual service metadata API sample, no source records.",
+      "latest_checked_utc": "2026-10-18T06:49:44.283509+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19245,6 +19299,24 @@
       "license_url": "https://www.dati.lombardia.it/stories/s/ide6-ffgv",
       "api_verification_state": "actual_public_JSON_sample_success_named_metadata_and_suppressed_aggregate_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T08:32:01.193415+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lpdaac-land-processes-data",
+      "provider": "NASA / Land Processes Distributed Active Archive Center",
+      "service_name": "LP DAAC data-access portal and documented interfaces",
+      "geographic_coverage": "Satellite land-process observations, global/collection-specific coverage",
+      "topical_coverage": "geospatial | climate/weather/environment | water | agriculture | energy | research",
+      "dataset_families": "Land remote-sensing products and discovery/subsetting tools; per-collection inventory/rights unresolved",
+      "documentation_url": "https://www.earthdata.nasa.gov/centers/lp-daac/data-access-tools | https://github.com/nasa/LPDAAC-Data-Resources/blob/main/guides/lp_product_guide.md",
+      "api_base_url": "",
+      "format_protocol": "Native owner GitHub access guide; CMR/AppEEARS documented, no new API response",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original Earthdata access page guard-deferred unsent. Independent official NASA GitHub product guide200; no current LP DAAC API query or source file tested.",
+      "latest_checked_utc": "2026-10-18T06:48:56.808747+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25836,6 +25908,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "umwelt-info-metadata-api",
+      "provider": "German Environment Agency / umwelt.info",
+      "service_name": "umwelt.info environmental metadata export",
+      "geographic_coverage": "German environmental-information discovery; source coverage varies",
+      "topical_coverage": "climate/weather/environment | water | energy | geospatial | research",
+      "dataset_families": "Aggregated environmental data/information metadata with source-specific access/licence conditions; no inventory queried",
+      "documentation_url": "https://umwelt.info/en/article/about-the-metadataexport",
+      "api_base_url": "https://md.umwelt.info/; registry Swagger/CKAN interfaces unverified at runtime",
+      "format_protocol": "Registry REST/CKAN claims, indexed owner export documentation; no API response tested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified metadata/source grant; registry AGPL not accepted as data licence",
+      "license_url": "https://umwelt.info/en/article/about-the-metadataexport",
+      "api_verification_state": "Original metadata-export documentation guard-deferred unsent; official indexed functionality summary only. No Swagger/CKAN/count/source request performed.",
+      "latest_checked_utc": "2026-10-18T06:49:44.283509+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "undata-official-sdmx-api",
       "provider": "United Nations Statistics Division / UNdata",
       "service_name": "Official UNdata SDMX web services",
@@ -28265,6 +28355,24 @@
       "license_url": "https://www.addgene.org/terms-of-use/",
       "api_verification_state": "native_noncommercial_default_terms_and_official_indexed_approval_API_docs_verified_native_guide403_sample_untested",
       "latest_checked_utc": "2026-10-17T22:46:16.508270+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "african-plants-photo-guide",
+      "provider": "Senckenberg / African Plants Photo Guide contributors",
+      "service_name": "African Plants Photo Guide",
+      "geographic_coverage": "African plant photographs; species/geographic inventory unreviewed",
+      "topical_coverage": "biodiversity | culture | research",
+      "dataset_families": "Botanical photo guide and associated descriptions; photo source family restricted",
+      "documentation_url": "https://africanplants.senckenberg.de/item/5",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Native photo terms allow noncommercial use only without written permission; no permission request or data acquisition",
+      "license": "Noncommercial photo use with attribution; commercial use requires prior written agreement",
+      "license_url": "https://africanplants.senckenberg.de/item/5",
+      "api_verification_state": "Native terms200HTML; no current query API or machine response established",
+      "latest_checked_utc": "2026-10-18T06:49:44.283509+00:00",
       "classification": "restricted"
     },
     {
