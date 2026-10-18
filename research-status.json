@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:21:15.782888+00:00",
+  "published_at": "2026-10-18T06:23:18.784490+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:20:17.891378+00:00",
+  "research_updated_at": "2026-10-18T06:23:04.428412+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GINnativeOGCdocs/runtimeheld, KingstonHubdedup scopedgrantunchanged, UVicinstitutionalpolicy withBorealisAPIhold.",
+  "latest_milestone": "ABMI/CUDCnativepolicy candidates, CUDCAPIheld; Edmonton dedup/unsignedPDFpreserved fullreadpending.",
   "counts": {
     "verified": 366,
-    "candidates": 873,
+    "candidates": 875,
     "excluded": 260,
     "sample_successes": 465
   },
@@ -12390,6 +12390,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "alberta-biodiversity-monitoring-institute",
+      "provider": "Alberta Biodiversity Monitoring Institute",
+      "service_name": "ABMI Data and Analytics Portal",
+      "geographic_coverage": "Alberta, Canada; source-specific coverage varies",
+      "topical_coverage": "biodiversity | climate/weather/environment | geospatial | research",
+      "dataset_families": "Species/habitat raw data, status/trends, protocols/reports, mapping/biodiversity products, imagery; confidential locations/third-party material distinct",
+      "documentation_url": "https://abmi.ca/abmi-home/terms-and-conditions",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Some public products, exempt/confidential/third-party categories and possible fees/policies; exact per-product terms unresolved",
+      "license": "Native website view/access licence and information-access policy, uniform data reuse grant unconfirmed",
+      "license_url": "https://abmi.ca/abmi-home/terms-and-conditions",
+      "api_verification_state": "Native terms200HTML describe portal/web services generically; exact active public query API not established; registryFTP not API proof",
+      "latest_checked_utc": "2026-10-18T06:22:59.783113+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "alesp-open-data-interfaces",
       "provider": "Assembleia Legislativa do Estado de São Paulo",
       "service_name": "ALESP advertised REST interfaces and open-data portal",
@@ -13665,6 +13683,24 @@
       "license_url": "https://gin.geosciences.ca/service/api_ngwds:gin2/en/gin/gin.html",
       "api_verification_state": "Native root/about/OGCdocs200HTML; exact ownerlinked WMSGetCapabilities guard-deferred unsent, no APIXML response",
       "latest_checked_utc": "2026-10-18T06:20:13.160422+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "canadian-urban-data-catalogue",
+      "provider": "Urban Data Centre / University of Toronto School of Cities",
+      "service_name": "Canadian Urban Data Catalogue (CUDC)",
+      "geographic_coverage": "Canadian urban data discovery and wider urban research resources; source scope varies",
+      "topical_coverage": "housing | transportation | geospatial | economics/finance | demographics | research",
+      "dataset_families": "Catalogued urban dataset metadata and source licence/access descriptions; underlying datasets independently governed",
+      "documentation_url": "https://data.urbandatacentre.ca/about",
+      "api_base_url": "https://data.urbandatacentre.ca/api/3/action/",
+      "format_protocol": "CKANAPI linked bynativeportal; runtime notverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native about page says catalogued metadata provided under an open licence, exact instrument/version unconfirmed",
+      "license_url": "https://data.urbandatacentre.ca/about",
+      "api_verification_state": "Nativeabout200HTML; exact zero-rowCKANrequest guard-deferred unsent, no count/JSON response",
+      "latest_checked_utc": "2026-10-18T06:22:59.783113+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15950,7 +15986,7 @@
       "license": "Named census Statistics Canada Open Licence; city OGL1.0 heading only, operative additional terms unresolved",
       "license_url": "https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_metadata_and_one_aggregate_city_terms_unresolved",
-      "latest_checked_utc": "2026-10-17T08:58:29.672966+00:00",
+      "latest_checked_utc": "2026-10-18T06:22:59.783113+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
