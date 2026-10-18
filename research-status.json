@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:47:35.623295+00:00",
+  "published_at": "2026-10-18T03:49:38.333803+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:46:43.104176+00:00",
+  "research_updated_at": "2026-10-18T03:49:33.577703+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed; eight new services/portals, ArmLifeBank scoped-open policy/API docs with timed-out runtime. CUGIR100metadata descriptors/895reported partial under page2 hold; source/API gaps retained.",
+  "latest_milestone": "InterPro scopedCC0 grant and nativeJSONsample verified; GOLD authenticated research-purpose API documented; NSDL mixedrights/currentAPI gaps retained.",
   "counts": {
-    "verified": 349,
-    "candidates": 785,
-    "excluded": 221,
+    "verified": 350,
+    "candidates": 786,
+    "excluded": 222,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -8239,6 +8239,24 @@
       "license_url": "https://imex-consortium.github.io/about/ | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "actual_native_numeric_count_sample_success_current_official_CCBY4_data_grant_verified",
       "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "interpro-api",
+      "provider": "EMBL-EBI InterPro Team",
+      "service_name": "InterPro REST API",
+      "geographic_coverage": "Global protein/domain/family classification across organism taxa; source-specific biological coverage",
+      "topical_coverage": "biodiversity | health | research",
+      "dataset_families": "InterPro protein families/domains/sites and named Pfam/PRINTS/SFLD data; mappings to proteins, structures, taxonomy/proteomes/sets available with separate source rights",
+      "documentation_url": "https://interpro-documentation.readthedocs.io/en/latest/api.html",
+      "api_base_url": "https://www.ebi.ac.uk/interpro/api/",
+      "format_protocol": "REST JSON; endpoint blocks and query filters documented",
+      "authentication": "No key/account for successful bounded public entry metadata GET",
+      "free_access_restrictions": "InterPro/Pfam/PRINTS/SFLD downloadable data explicitly CC0; other signature/scanning collections may have different terms. No paid acquisition",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "license_url": "https://interpro-documentation.readthedocs.io/en/latest/license.html",
+      "api_verification_state": "Official specific licence/API guides HTTP200 and anonymous native entry sample HTTP200 validJSON with one result and cursor",
+      "latest_checked_utc": "2026-10-18T03:49:29.275319+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -19080,6 +19098,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nsdl-oercommons-hub",
+      "provider": "NSDL / OER Commons / ISKME",
+      "service_name": "National Science Digital Library hub",
+      "geographic_coverage": "Science/technology/engineering/mathematics educational resources; exact present collection extent unverified",
+      "topical_coverage": "education | culture | research",
+      "dataset_families": "Educational learning resources and resource metadata in NSDL hub; exact active query API unresolved",
+      "documentation_url": "https://oercommons.org/hubs/NSDL",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-resource mixed public-domain/BY/BYSA/NC/ND/custom conditions; no blanket API/metadata grant",
+      "license_url": "https://help.oercommons.org/support/solutions/articles/42000046845-usage-rights",
+      "api_verification_state": "Current hub/terms guard-deferred unsent; official current usage-rights help HTTP200. No exact current API contract/runtime verified",
+      "latest_checked_utc": "2026-10-18T03:49:29.275319+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nsidc",
       "provider": "National Snow and Ice Data Center",
       "service_name": "National Snow and Ice Data Center API",
@@ -27827,6 +27863,24 @@
       "license_url": "https://www.godac.jamstec.go.jp/darwin/ja/note.html",
       "api_verification_state": "OriginalnativeEnglishroot/policyguard-deferred; primaryindexed officialusage reviewed, APIruntimeunverified",
       "latest_checked_utc": "2026-10-18T00:26:40.180612+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "jgi-gold-api",
+      "provider": "DOE Joint Genome Institute / GOLD",
+      "service_name": "Genomes OnLine Database API",
+      "geographic_coverage": "Worldwide genome/metagenome sequencing projects; source coverage varies",
+      "topical_coverage": "biodiversity | health | research",
+      "dataset_families": "Studies, biosamples, organisms, sequencing/analysis projects and ecosystem classifications",
+      "documentation_url": "https://gold-ws.jgi.doe.gov",
+      "api_base_url": "https://gold-ws.jgi.doe.gov/api/v1/",
+      "format_protocol": "Documented REST JSON, Swagger reference; public documentation only",
+      "authentication": "ORCID or LBL account and MFA required, separate from JGI website SSO; offline token/access bearer token workflow documented, no credentials used",
+      "free_access_restrictions": "Native GOLD metadata grant freely available for research purposes; broader unrestricted use not established. Account/MFA/token needed for API, no subscription/account requested",
+      "license": "Custom research-purpose metadata-use grant; broader reuse unresolved",
+      "license_url": "https://gold.jgi.doe.gov/usagepolicy",
+      "api_verification_state": "Native owner API link and API-service access documentation HTTP200; account/token required, no API runtime sample",
+      "latest_checked_utc": "2026-10-18T03:49:29.275319+00:00",
       "classification": "restricted"
     },
     {
