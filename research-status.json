@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:33:53.823808+00:00",
+  "published_at": "2026-10-18T02:35:56.563050+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:30:55.023892+00:00",
+  "research_updated_at": "2026-10-18T02:35:23.002669+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LübeckAPI/grantunresolved; RDCatZPIDscientific-use restrictions verified; ColognescheduledIdentifyvalid/rootchallengehold recorded, metadata grant unresolved.",
+  "latest_milestone": "FAIRsharingBYSA4catalogmetadata and EPOS-FranceBY4publicFDSNmetadata verified; IUCNcurrenttokenAPI/NCterms restricted.120networkepochs indexed, no waveforms.",
   "counts": {
-    "verified": 337,
+    "verified": 339,
     "candidates": 746,
-    "excluded": 210,
+    "excluded": 211,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -6902,6 +6902,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "epos-france-seismology-api",
+      "provider": "EPOS-France Seismological Data Center / French research network partners",
+      "service_name": "EPOS-France FDSN/EIDA seismological webservices",
+      "geographic_coverage": "French-operated and partner permanent/mobile seismic networks; exact individual network geography varies",
+      "topical_coverage": "environment | geospatial | research",
+      "dataset_families": "Seismic waveform time series and network/station/instrument metadata; publicnetworkmetadata indexed, restrictedwaveforms excluded",
+      "documentation_url": "https://seisdata.epos-france.fr/fdsnws/station/1/",
+      "api_base_url": "https://seisdata.epos-france.fr/fdsnws/ | https://seisdata.epos-france.fr/eidaws/wfcatalog/1/",
+      "format_protocol": "FDSNstation/dataselect/availability and EIDAwfcatalog; stationXML/FDSNtextmetadata, waveformformats separate",
+      "authentication": "Anonymous publicnetworkmetadata GETsucceeded. Restricted temporary-network data require PIagreement/login/password; no approvedaccess used",
+      "free_access_restrictions": "BY4data/metadata withattribution; some temporary-network waveforms embargoed average3years, networkmetadata alwayspublic",
+      "license": "Creative Commons Attribution4.0 for EPOS-France datasets; accessholds separate",
+      "license_url": "https://seismology.epos-france.fr/data-policy/",
+      "api_verification_state": "Native currentservice docs/policy200; documented stationnetworkquery200validFDSNtext120epochs/98codes, schemaheader5fields. Earlierfilteredquery20098epochs/83codes, not summed. No waveforms/coordinate/sourcefiles.",
+      "latest_checked_utc": "2026-10-18T02:35:18.760844+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "esgf-ceda-discovery",
       "provider": "ESGF CEDA",
       "service_name": "CEDA ESGF climate-data discovery portal/API",
@@ -7115,6 +7133,24 @@
       "license_url": "https://ec.europa.eu/eurostat/web/main/help/copyright-notice",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:38:13.781373+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "fairsharing-registry-api",
+      "provider": "FAIRsharing / University of Oxford Data Readiness Group",
+      "service_name": "FAIRsharing registry JSON and record APIs",
+      "geographic_coverage": "Global cross-disciplinary standards, research databases/repositories and data policies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Metadata standards/terminology/models/reportingguidelines, database/repository registry and funder/journal/society data policies; metadata not underlying registered-source data",
+      "documentation_url": "https://fairsharing.org/API_doc",
+      "api_base_url": "https://api.fairsharing.org | https://fairsharing.org/",
+      "format_protocol": "Native JSONDataCatalog/schema.org; RESTJSONrecord APIs and published GraphQLschema; authenticated/write operations separate",
+      "authentication": "Anonymous rootDataCatalogJSON succeeded; owner APIannouncement requires account for recordAPI. Current exact authmechanism/accessconditions not fullyverified; no accounts/tokens/login used",
+      "free_access_restrictions": "Native registrymetadata under BY-SA4; recordAPIaccount access documented, exact current tiers/quotas unknown. No paid data acquired.",
+      "license": "Creative Commons Attribution-ShareAlike4.0 for FAIRsharing registrymetadata",
+      "license_url": "https://fairsharing.org/",
+      "api_verification_state": "Native rootHTTP200application/json validDataCatalog3families. API_doc200JSshell; current native GraphQLschema docs200, ownerAPIguidance200. RootJSON is actual machine catalogmetadata, not anHTMLmarketingresponse. Account-based fullrecordAPIuntested.",
+      "latest_checked_utc": "2026-10-18T02:35:18.760844+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -26703,6 +26739,24 @@
       "license_url": "https://isgi.unistra.fr/policy.php",
       "api_verification_state": "Native root/policy/APIguide HTTP200HTMLdocuments exact API/user/window/output parameters. Usernamerequired, sampleuntested; publicdownload availability not anonymous API proof.",
       "latest_checked_utc": "2026-10-18T02:17:58.901687+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "iucn-red-list-api-v4",
+      "provider": "International Union for Conservation of Nature",
+      "service_name": "IUCN Red List API v4",
+      "geographic_coverage": "Global species/conservation assessment coverage, varying by taxonomic group/assessment",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Taxon/assessment/status discovery and conservation attributes; category association exception distinct from full assessments/spatial data",
+      "documentation_url": "https://api.iucnredlist.org/",
+      "api_base_url": "https://api.iucnredlist.org/api/v4",
+      "format_protocol": "REST APIv4JSON; native OpenAPI3.0.1published50GEToperations",
+      "authentication": "Issued token in Authorization header; no token/login/account or data request used",
+      "free_access_restrictions": "Noncommercial conservation/education/research purposes, no assessment redistribution withoutpermission. CommercialAPIuseforbidden; commercialIBAToption not acquired",
+      "license": "IUCNRedListTerms3.1June2024: no commercial use/redistribution withoutpermission; limited category association exception",
+      "license_url": "https://www.iucnredlist.org/terms/terms-of-use",
+      "api_verification_state": "Native terms/currentAPIv4help/Swagger/OpenAPI200; token-required dataAPIuntested. Registryv3endpoint superseded in current nativehelp; no v3data query.",
+      "latest_checked_utc": "2026-10-18T02:35:18.760844+00:00",
       "classification": "restricted"
     },
     {
