@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:25:26.303822+00:00",
+  "published_at": "2026-10-18T18:27:29.383320+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:24:10.575762+00:00",
+  "research_updated_at": "2026-10-18T18:27:06.263101+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Four Harvard-hosted originals deduplicated; Forest Service native CC-BY/agreement with exact API gap; Peking University guard/indexed per-dataset terms, separate candidate.",
+  "latest_milestone": "SciELO native holds/indexed mixed-source terms, Mexico dedup; Unisa held Figshare and independent owner/policy review.",
   "counts": {
     "verified": 445,
-    "candidates": 1230,
+    "candidates": 1232,
     "excluded": 368,
     "sample_successes": 464
   },
@@ -31300,6 +31300,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "scielo-data-repository",
+      "provider": "SciELO Network",
+      "service_name": "SciELO Data research repository",
+      "geographic_coverage": "Brazil/Mexico and international SciELO-network research; source-specific coverage",
+      "topical_coverage": "research | health | education | climate/weather/environment",
+      "dataset_families": "Multidisciplinary journal/preprint supporting research deposition descriptions; no source data",
+      "documentation_url": "https://www.scielo.org/en/about-scielo/scielo-data-en/terms-data/",
+      "api_base_url": "https://data.scielo.org/oai",
+      "format_protocol": "Registry OAI-PMH/Dataverse REST claims; exact current native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Dataset-selected license/custom terms; no uniform source/metadata grant verified",
+      "license_url": "https://www.scielo.org/en/about-scielo/scielo-data-en/terms-data/",
+      "api_verification_state": "Original data root and independently configured owner terms guard-deferred target unsent. Indexed official terms only; no OAI/REST/API payload success.",
+      "latest_checked_utc": "2026-10-18T18:27:01.039756+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "science-repository-dk",
       "provider": "ScienceRepository / Danish Technical University (registry attribution, native identity unresolved)",
       "service_name": "ScienceRepository research repository",
@@ -33853,6 +33871,24 @@
       "license_url": "https://rdm.unimi.it/wp-content/uploads/2024/04/data%40unimi_license_management.pdf",
       "api_verification_state": "Repository root guard-deferred; OAI skipped unsent after hold. Independent institutional overview and license PDF200. Native linked terms URL404; no alternate owner legal path after failure.",
       "latest_checked_utc": "2026-10-18T17:17:39.113358+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unisa-figshare-research-data",
+      "provider": "University of South Africa Library",
+      "service_name": "Unisa Research Data Repository on Figshare",
+      "geographic_coverage": "South African institutional and international research deposits; source coverage varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Unisa researcher/postgraduate dataset descriptions; no actual source data",
+      "documentation_url": "https://www.unisa.ac.za/sites/corporate/default/Library/Library-services/Research-support/Research-Data-Management",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.unisa.ac.za/static/intranet/Content/Departments/Library/Documents/Research%20Data%20Management%20Policy%20approved%2005%20August%202021.pdf",
+      "api_verification_state": "Original Figshare portal guard-deferred unsent; independent institutional RDM overview response preserved in batch outcomes, not API success. Indexed owner policy reviewed. No alternate Figshare API/backend/institution filter.",
+      "latest_checked_utc": "2026-10-18T18:27:01.039756+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
