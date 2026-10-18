@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T09:11:16.490335+00:00",
+  "published_at": "2026-10-18T09:13:19.070055+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:10:13.376111+00:00",
+  "research_updated_at": "2026-10-18T09:12:44.458913+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MassBank nativeOpenAPI10operations/versionJSONverified andmixedrecordlicences; BODRgrant/interfaceheld; MorphoBankownerFAQpublishedGETAPI/mixedmedia terms documented.",
+  "latest_milestone": "MDZ returned collection pagination17pages/17000unique refs,0duplicates;3196503reportedremaining/exactnextcursor persisted, rights unresolved.",
   "counts": {
-    "verified": 384,
-    "candidates": 968,
+    "verified": 385,
+    "candidates": 970,
     "excluded": 287,
     "sample_successes": 465
   },
@@ -9108,6 +9108,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "jaspar-rest-api",
+      "provider": "JASPAR collaborative research labs / ELIXIR Norway",
+      "service_name": "JASPAR RESTful API",
+      "geographic_coverage": "Multispecies transcription-factor binding reference profiles; not terrestrial geography",
+      "topical_coverage": "research | agriculture | biodiversity | health",
+      "dataset_families": "Curated nonredundant TF binding profiles/PFMs and deep-learning models, multiple species/six taxonomicgroups; release metadata only tested",
+      "documentation_url": "https://jaspar.elixir.no/api/",
+      "api_base_url": "https://jaspar.elixir.no/api/v1/",
+      "format_protocol": "RESTJSON release metadata verified; docsJSON/JSONP/JASPAR/MEME/TRANSFAC/PFM/YAML/BED formats; matrix formats not acquired",
+      "authentication": "Anonymous release metadata GET/page2 succeeded; otheroperations untested",
+      "free_access_restrictions": "Public database API/docs; native owner JASPAR licence CC BY4. No credentials, filedownload, compute/enrichment/inference jobs or paid access.",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_url": "https://jaspar.elixir.no/ | http://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native currentroot/APIguide200HTML with explicitBY4, releaseGET200validJSON/publishednextpage200validJSON,11references/terminalcursor",
+      "latest_checked_utc": "2026-10-18T09:12:11.354662+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "jersey-government-open-data",
       "provider": "Government of Jersey",
       "service_name": "Government of Jersey CKAN catalog / documented DataStore API",
@@ -16598,6 +16616,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dwd-open-data-file-portal",
+      "provider": "Deutscher Wetterdienst",
+      "service_name": "DWD Open Data distribution portal",
+      "geographic_coverage": "German/international weather/climate products; exact file-area/product coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Root lists weather and climate_environment distribution areas; CDC data-file scope separately licensed; no files/observations acquired",
+      "documentation_url": "https://opendata.dwd.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 explicitly verified for CDC-OpenData area; other areas and queryAPI grants unresolved",
+      "license_url": "https://opendata.dwd.de/climate_environment/CDC/Terms_of_use.pdf",
+      "api_verification_state": "Native distribution root200HTML directory, not query API. Earlier CDC licence retained, no re-fetch/alternate WFS/host request.",
+      "latest_checked_utc": "2026-10-18T09:12:11.354662+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ea-bathing-water",
       "provider": "Environment Agency / Defra Data Services Platform",
       "service_name": "Bathing Water API (original documentation access unresolved)",
@@ -20414,6 +20450,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mansfeld-crop-database",
+      "provider": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK)",
+      "service_name": "Mansfeld world crop database",
+      "geographic_coverage": "Global crop/agricultural-horticultural reference discovery per provider identity; exact current coverage unverified",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Agricultural/horticultural crop reference database; source taxonomy/records not queried",
+      "documentation_url": "https://mansfeld.ipk-gatersleben.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ipk-gatersleben.de/en/imprint",
+      "api_verification_state": "Native root held before transmission; exact public queryAPI unverified; no alternate crop/source host/backend request",
+      "latest_checked_utc": "2026-10-18T09:12:11.354662+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mapc-datacommon",
       "provider": "Metropolitan Area Planning Council DataCommon",
       "service_name": "DataCommon documented export/query interface",
@@ -20553,8 +20607,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Native root/interfaceguide200HTML; documented IIIFtopcollection200validJSON-LD1000refs, not image/download success",
-      "latest_checked_utc": "2026-10-18T08:58:17.020199+00:00",
+      "api_verification_state": "Native IIIFtopcollection and16returned continuationpages HTTP200validJSON-LD;17pages/17000unique references. Not source image/OCR or metadata licence verification.",
+      "latest_checked_utc": "2026-10-18T09:12:40.034832+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
