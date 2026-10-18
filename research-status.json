@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T03:23:01.736817+00:00",
+  "published_at": "2026-10-18T03:25:04.401436+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:22:57.186174+00:00",
+  "research_updated_at": "2026-10-18T03:24:23.336485+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AMU/Swinburne guardholds and institution-specificrights gaps preserved; RRUFFnativecurrentdocs/sixdistributionreferences verified, API/grantpending.",
+  "latest_milestone": "WeedImagesmergedexistingBugwoodnetwork; GSAinstitutionalmetadata/sourcegrants and NEATDBregistration/403/API gaps explicitlyretained.",
   "counts": {
     "verified": 345,
-    "candidates": 775,
+    "candidates": 777,
     "excluded": 216,
     "sample_successes": 468
   },
@@ -15733,6 +15733,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gsa-figshare-data-repository",
+      "provider": "Geological Society of America",
+      "service_name": "GSA Data Repository / Figshare portal candidate",
+      "geographic_coverage": "Earth/geoscience supplementaryresearch with worldwide source-dependentcoverage",
+      "topical_coverage": "geospatial | research | environment",
+      "dataset_families": "GSApublication-related supplementaldata/researchobjects; exact currentrepository families/sourcegrantsunverified",
+      "documentation_url": "https://gsapubs.figshare.com/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Exact portalmetadata/source permissions and publicAPIaccess unknown; publicationopenaccess/copyright exceptions are perwork",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.geosociety.org/publications/policies/copyright-information | https://info.figshare.com/user-guide/figshare-policies/",
+      "api_verification_state": "NativeFigshareportalroot guard-deferred; independentpublishercopyrightpage200HTML. No exactinstitutionAPI/sample or metadata/sourcegrant verified; no vendorbackendqueryafterhold.",
+      "latest_checked_utc": "2026-10-18T03:24:19.054177+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gwas-catalog",
       "provider": "NHGRI-EBI GWAS Catalog",
       "service_name": "NHGRI-EBI GWAS Catalog public data API",
@@ -19060,6 +19078,24 @@
       "license_url": "https://data.humdata.org/faqs/terms",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:36:59.165287+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "oecd-nea-thermochemical-database",
+      "provider": "OECD Nuclear Energy Agency / TDB Project",
+      "service_name": "Thermochemical Database / electronic TDB candidate",
+      "geographic_coverage": "Internationalthermodynamic reference data; scientific rather thanadministrative geography",
+      "topical_coverage": "energy | environment | research",
+      "dataset_families": "Selectedchemicalthermodynamic values and bibliographicreference database, documentedformatteddistributions; exactcurrentAPI/grant unresolved",
+      "documentation_url": "https://www.oecd-nea.org/jcms/pl_22166/thermochemical-database-tdb-project",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Officialindexedowner e-database announcement says NEAregistration/accessgrant required; notregistered/requested",
+      "free_access_restrictions": "Exact source licence, free/paidtier and externalAPIaccess unknown; registrationinfo notsourceopenlicence",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.oecd.org/termsandconditions/",
+      "api_verification_state": "Nativeoriginalproject and genericOECDterms requests403, preserved asaccessfailure, notabsence. Officialindexedownerannouncement describesregisterede-databasesearch/download; no publicAPIresponse/docs verified.",
+      "latest_checked_utc": "2026-10-18T03:24:19.054177+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25889,10 +25925,10 @@
     {
       "identifier": "bugwood-image-network-api",
       "provider": "University of Georgia Bugwood Center / contributing photographers",
-      "service_name": "Bugwood Image Network API (IPM Images, Invasive.org and Insect Images portals)",
+      "service_name": "Bugwood Image Network API (IPM Images, Invasive.org, Insect Images and Weed Images portals)",
       "geographic_coverage": "Global contributed forest-health, agricultural pest and invasive-species imagery; source coverage varies",
       "topical_coverage": "agriculture | biodiversity | environment | education | research",
-      "dataset_families": "Shared Bugwood image archive accessed through IPM Images, Invasive.org, Forestry Images, Insect Images and Weed Images; occurrence/resources databases separate | Insect Images shared Bugwood pool portal",
+      "dataset_families": "Shared Bugwood image archive accessed through IPM Images, Invasive.org, Forestry Images, Insect Images and Weed Images; occurrence/resources databases separate | Insect Images shared Bugwood pool portal | Weed Images sharedimagepool portal",
       "documentation_url": "https://www.bugwood.org/tools/",
       "api_base_url": "https://api.bugwood.org/; exact current image-query endpoint unverified",
       "format_protocol": "API gateway documents image/occurrence/resource integrations; exact current query protocol/authentication unverified after developer-doc guard",
@@ -25900,8 +25936,8 @@
       "free_access_restrictions": "Educational/personal reuse under individual image terms; commercial use may require photographer permission/fee. No paid acquisition or permission workflow undertaken.",
       "license": "Per-image CC BY3US or CC BY-NC3US shown natively; majority/covered NC use and additional photographer request terms, not uniform open grant",
       "license_url": "https://www.ipmimages.org/about/image-usage",
-      "api_verification_state": "Native thematic roots/imagepolicy/APIgateway/owner tools HTTP200; current developers.bugwoodcloud.org docs guard-deferred unsent. APIexistence documented, exact permitted imagequery/runtime and auth unresolved; no backend/legacyhost workaround. CurrentInsectImages root/usage200HTMLNextJS; policytext embedded in savedHTML, inspectedwithoutJSexecution. No currentdeveloperAPI/request underpriorhold.",
-      "latest_checked_utc": "2026-10-18T03:21:14.917577+00:00",
+      "api_verification_state": "Native thematic roots/imagepolicy/APIgateway/owner tools HTTP200; current developers.bugwoodcloud.org docs guard-deferred unsent. APIexistence documented, exact permitted imagequery/runtime and auth unresolved; no backend/legacyhost workaround. CurrentInsectImages root/usage200HTMLNextJS; policytext embedded in savedHTML, inspectedwithoutJSexecution. No currentdeveloperAPI/request underpriorhold. NativeWeedroot/about/usage200HTML; embeddedpolicy locallyreadwithoutJSexecution. No developer/legacyapi.bugwood.org query under priorhold.",
+      "latest_checked_utc": "2026-10-18T03:24:19.054177+00:00",
       "classification": "restricted"
     },
     {
