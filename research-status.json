@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:10:13.007497+00:00",
+  "published_at": "2026-10-18T15:12:16.824718+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:09:49.229807+00:00",
+  "research_updated_at": "2026-10-18T15:11:04.081782+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: ELIguard/TCA; InnsbruckOAI/rightsunknown; FreiDataCC0metadata/OAI; CReSISAPIrightsunknown; DesignSafepolicy/legacyAPI; UABCC0metadata/OAI; MDZ717000 incomplete.",
+  "latest_milestone": "Graz andexistingZFDM nativeOAIIdentifyverified/currentlicensingunresolved; ScienceRepository redirect/documentationguards",
   "counts": {
     "verified": 431,
-    "candidates": 1100,
+    "candidates": 1102,
     "excluded": 328,
     "sample_successes": 464
   },
@@ -20547,14 +20547,14 @@
       "topical_coverage": "culture | education | research",
       "dataset_families": "Research repository including HZSK language-corpus community; corpus objects/source records not accessed",
       "documentation_url": "https://www.fdr.uni-hamburg.de/terms",
-      "api_base_url": "https://www.fdr.uni-hamburg.de/oai2d (registry claim, exact runtime untested)",
-      "format_protocol": "HTML documentation",
-      "authentication": "unknown",
+      "api_base_url": "https://www.fdr.uni-hamburg.de/oai2d",
+      "format_protocol": "OAI-PMH2XML verified; REST separatelyuntested",
+      "authentication": "Anonymous OAIIdentify successful; source access varies",
       "free_access_restrictions": "unknown source-specific access conditions",
       "license": "unknown verified data grant",
       "license_url": "https://www.fdr.uni-hamburg.de/terms | https://www.fdr.uni-hamburg.de/record/11057/files/Terms%20of%20Service.md?download=1",
-      "api_verification_state": "Native institutional repository root and terms-document landing200HTML. Policy text held; no HZSK community/source records, OAI ListRecords or alternate policy/backend request.",
-      "latest_checked_utc": "2026-10-18T09:01:26.590347+00:00",
+      "api_verification_state": "New originalregistryOAIIdentify200validXML; priornativepolicytextguard retained, no policy/root/source/backendretries.",
+      "latest_checked_utc": "2026-10-18T15:10:58.824032+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28802,6 +28802,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "science-repository-dk",
+      "provider": "ScienceRepository / Danish Technical University (registry attribution, native identity unresolved)",
+      "service_name": "ScienceRepository research repository",
+      "geographic_coverage": "Denmark-hosted multidisciplinaryresearch perregistry; nativecoverageunconfirmed",
+      "topical_coverage": "research | education",
+      "dataset_families": "Registryresearchdatasets/images/software/sourcecode; nativecurrentinventoryunverified",
+      "documentation_url": "https://sciencedata.dk/sites/sciencerepository/terms_of_use | https://sciencedata.dk/sites/sciencerepository/api",
+      "api_base_url": "https://sciencerepository.dk/oai2d (registryclaim)",
+      "format_protocol": "RegistryOAI-PMH/REST claims only, nativedeployedcontractunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verified data/metadata grant",
+      "license_url": "https://sciencedata.dk/sites/sciencerepository/terms_of_use",
+      "api_verification_state": "OriginalOAI redirectdestinationguard-deferred andindependentdocumentation-hosttermsguarddeferred; no successfulnativeAPI/termsresponse.",
+      "latest_checked_utc": "2026-10-18T15:10:58.824032+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "scripps-ogdc-data-portal",
       "provider": "Scripps Institution of Oceanography / UC San Diego",
       "service_name": "Ocean and Geosciences Data Center cruise/archive discovery portal",
@@ -30365,6 +30383,24 @@
       "license_url": "https://www.trr228db.uni-koeln.de/site/faq.php | https://www.trr228db.uni-koeln.de/datapolicy/TRR_228_DATA_policy.pdf",
       "api_verification_state": "native_official_HTML_portal_and_permission_documentation_verified_query_API_gap",
       "latest_checked_utc": "2026-10-17T20:01:33.958206+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tu-graz-repository",
+      "provider": "Graz University of Technology / RDM Team",
+      "service_name": "TU Graz Repository OAI-PMH and research outputs",
+      "geographic_coverage": "Austrian institutional research; exact sourcegeography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research results, publications, educational resources and software metadata; files separately licensed",
+      "documentation_url": "https://repository.tugraz.at/records/c894s-bqz55",
+      "api_base_url": "https://repository.tugraz.at/oai2d",
+      "format_protocol": "OAI-PMH2XML verified; registryREST separatelyuntested",
+      "authentication": "Anonymous OAIIdentify successful; deposition requires institutionalaccount, not assumed readrestriction",
+      "free_access_restrictions": "Metadata/source access and file terms require currentpolicy review; repositorypublicdocumentdescribesopen/restrictedentries",
+      "license": "Unknown verified metadata-wide/source-wide grant; current legal PDFs pending readable extraction",
+      "license_url": "https://repository.tugraz.at/records/c894s-bqz55",
+      "api_verification_state": "Native anonymousOAIIdentify200validXML, nativelegalrecord200HTML andtwoPDFfiles200. LegalPDFcontent not reviewed/readable; no actualrecords/sourcevalues/files.",
+      "latest_checked_utc": "2026-10-18T15:10:58.824032+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
