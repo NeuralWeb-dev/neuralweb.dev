@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T23:05:04.574702+00:00",
+  "published_at": "2026-10-18T23:07:08.391806+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:04:17.092893+00:00",
+  "research_updated_at": "2026-10-18T23:06:38.091507+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NAVDAT static/freeaccess notgrant; CHIANTIlibrary/package versuswebAPI; MCHFthirdparty/generalpolicy/API gaps.",
+  "latest_milestone": "XMMnativeAIO/TAP/licencegap; VALDregisteredextraction/APIgrantgap; BacDivev2/noaccounts274fields/licencetension.",
   "counts": {
     "verified": 493,
-    "candidates": 1416,
+    "candidates": 1419,
     "excluded": 406,
     "sample_successes": 463
   },
@@ -21536,6 +21536,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dsmz-bacdive-api",
+      "provider": "Leibniz Institute DSMZ",
+      "service_name": "BacDive REST API v2",
+      "geographic_coverage": "International prokaryotic culture-collection research; source-specific geography unqueried",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Published schema/service descriptions for strain research information; no biological records/source values queried",
+      "documentation_url": "https://api.bacdive.dsmz.de/ | https://api.bacdive.dsmz.de/strain_fields_information",
+      "api_base_url": "https://api.bacdive.dsmz.de/v2/",
+      "format_protocol": "REST JSON documented; HTML schema/reference documentation only fetched",
+      "authentication": "Native API guide: registration removed February2026, freely accessible without account; no key acquired and no source operation tested",
+      "free_access_restrictions": "No registration required sinceFebruary2026; native aboutpage asks commercial users tocontactDSMZ alongsideCCBY4; interaction unresolved, no contact/permission request",
+      "license": "Native CC BY4.0 declaration plus commercial-contact wording; effective conditions unresolved",
+      "license_url": "https://bacdive.dsmz.de/about",
+      "api_verification_state": "Native root/about/APIreference/fielddocumentation HTTP200 properdocs; no sourceJSON/VOTable response. APIv2documented, oldv1 remains but frozenApril2025 and notupdated withDecember2025/newdata. Complete documentation tables indexed, no biology/samplepayload request.",
+      "latest_checked_utc": "2026-10-18T23:06:33.384640+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dsmz-digital-collection-discovery",
       "provider": "Leibniz Institute DSMZ",
       "service_name": "DSMZ digital collection and diversity hub discovery",
@@ -22469,6 +22487,24 @@
       "license_url": "https://sci.esa.int/web/home/-/51481-disclaimer",
       "api_verification_state": "primary_legacy_interface_link_documented_current_native_api_unresolved",
       "latest_checked_utc": "2026-10-17T17:56:20.216605+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "esa-xmm-newton-science-archive",
+      "provider": "European Space Agency / XMM-Newton consortium",
+      "service_name": "XMM-Newton Science Archive (XSA/NXSA)",
+      "geographic_coverage": "Astronomical mission archive; sky coverage depends on observation/catalogue, not terrestrial country",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Archive discovery/service descriptions for XMM-Newton mission products and source catalogues; no sky objects/observations/images obtained",
+      "documentation_url": "https://www.cosmos.esa.int/web/xmm-newton/xsa#access",
+      "api_base_url": "",
+      "format_protocol": "Owner documents command-line/URL AIO and Astroquery/TAP/ADQL access, distinct from SAS localsoftware API",
+      "authentication": "Native public/proprietary access references vary by product; no login/key or proprietary source request",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.cosmos.esa.int/web/xmm-newton/xsa#access",
+      "api_verification_state": "Native archive frontend and current ESA XSA access page HTTP200. Native page documents AIO/TAP and XSA18.0 release8June2026; no VOTable/JSON/capabilities/schema request or source download. Client/SAS APIs not counted networkruntime proof.",
+      "latest_checked_utc": "2026-10-18T23:06:33.384640+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -38885,6 +38921,24 @@
       "license_url": "https://www.vs.ch/fr/web/egeo/geodonnees",
       "api_verification_state": "actual_public_JSON_sample_success_communes_schema_only",
       "latest_checked_utc": "2026-10-17T07:37:22.688542+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "vald-vienna-atomic-line",
+      "provider": "VALD collaboration / Uppsala University",
+      "service_name": "Vienna Atomic Line Database registered extraction services",
+      "geographic_coverage": "International astronomical atomic/molecular reference resource; Sweden/Austria/Russia collaboration",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Documentation for atomic/molecular line selection and extraction; no transition values/structures requested",
+      "documentation_url": "https://vald.astro.uu.se/about/ | https://www.astro.uu.se/valdwiki",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native owner says free access requires registration; homepage login/one-time email activation. No registration/contact/email/login or credentials",
+      "free_access_restrictions": "Free registered access documented; bulk remote extraction described inefficient, mirror arrangements bycontact not requested",
+      "license": "unknown verified data grant",
+      "license_url": "https://vald.astro.uu.se/about/ | https://www.astro.uu.se/valdwiki",
+      "api_verification_state": "Native homepage/about and original documentation wiki HTTP200. Web and email extraction requests documented; exact public networkAPI/schema not established, no extract/job/email endpoint invoked.",
+      "latest_checked_utc": "2026-10-18T23:06:33.384640+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
