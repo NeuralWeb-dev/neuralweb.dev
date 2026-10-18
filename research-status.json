@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T20:02:04.895071+00:00",
+  "published_at": "2026-10-18T20:04:07.926539+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:01:57.913504+00:00",
+  "research_updated_at": "2026-10-18T20:02:28.571542+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Geodata redistribution/purpose restrictions; Aleia validOAI/similar-service restriction; Nexdata marketplace restricted.",
+  "latest_milestone": "Fairdata published metadata CC0 and V3 schema verified; Indigeo held; NIST RMM dedup; Geodata/Aleia/Nexdata scoped reuse restrictions.",
   "counts": {
     "verified": 451,
     "candidates": 1329,
@@ -2299,6 +2299,7 @@
           "usach-research-data-repository"
         ],
         "restricted_provider_ids": [
+          "aleia-ibict-repository",
           "unab-institutional-repository"
         ]
       },
@@ -2459,6 +2460,7 @@
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": [
+          "aleia-ibict-repository",
           "unab-institutional-repository"
         ]
       },
@@ -2505,6 +2507,7 @@
           "usach-research-data-repository"
         ],
         "restricted_provider_ids": [
+          "aleia-ibict-repository",
           "unab-institutional-repository",
           "usp-datamap-environmental-platform"
         ]
@@ -2902,6 +2905,7 @@
           "gdi-de-geodatenkatalog",
           "geus-dataverse-repository",
           "gfbio-terminology-service",
+          "indigeo-spatial-portal",
           "indores-data-repository",
           "inptdat-plasma-data",
           "ioer-settlement-open-space-monitor",
@@ -2998,6 +3002,7 @@
           "eaufrance-ofb-metacatalogue",
           "eea-sdi-datahub-catalogue",
           "geus-dataverse-repository",
+          "indigeo-spatial-portal",
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
           "os-os-places-api",
@@ -3552,6 +3557,7 @@
           "eurolas-data-center-api",
           "gdi-de-geodatenkatalog",
           "geus-dataverse-repository",
+          "indigeo-spatial-portal",
           "ioer-settlement-open-space-monitor",
           "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
@@ -3758,6 +3764,7 @@
         "candidate_provider_ids": [
           "bluecloud-resource-catalogue",
           "earthprints-geoscience-repository-api",
+          "indigeo-spatial-portal",
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
           "seadatanet-cdi-discovery-network",
@@ -4146,6 +4153,7 @@
           "iit-dataverse-repository",
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
+          "indigeo-spatial-portal",
           "indores-data-repository",
           "innsbruck-research-data",
           "inptdat-plasma-data",
@@ -5195,6 +5203,7 @@
           "wis2-south-korea"
         ],
         "restricted_provider_ids": [
+          "china-earth-system-geodata",
           "japan-dias-platform",
           "southeast-asian-climate-assessment-dataset"
         ]
@@ -5212,6 +5221,7 @@
           "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": [
+          "china-earth-system-geodata",
           "japan-dias-platform",
           "southeast-asian-climate-assessment-dataset"
         ]
@@ -5319,7 +5329,9 @@
           "wis2-china",
           "wis2-south-korea"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "china-earth-system-geodata"
+        ]
       },
       "public spending/contracts": {
         "status": "partial_verified",
@@ -5446,6 +5458,7 @@
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
+          "china-earth-system-geodata",
           "china-phda-metadata-api",
           "cinii-research",
           "japan-dias-platform",
