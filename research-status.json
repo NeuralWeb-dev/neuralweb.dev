@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T10:35:16.553334+00:00",
+  "published_at": "2026-10-18T10:37:19.698177+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:34:33.534857+00:00",
+  "research_updated_at": "2026-10-18T10:36:24.041302+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FDAT dedup/metadataCC0; RAKIP UI/protected distinction; TCIA vocabularyJSON/NBIA32schemaops and current migration; MDZ224000refs/224pages incomplete.",
+  "latest_milestone": "TSIS/PlaBI site restrictions; ReKUL RESTrootJSON/17communityrefs with policyredirects; MDZ240000refs/240pages incomplete.",
   "counts": {
     "verified": 390,
-    "candidates": 1003,
-    "excluded": 291,
+    "candidates": 1004,
+    "excluded": 293,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -2486,6 +2486,7 @@
         ],
         "restricted_provider_ids": [
           "dirros-research-repository",
+          "fli-tsis-animal-disease-portal",
           "german-statistical-rdc"
         ]
       },
@@ -2602,6 +2603,7 @@
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "eurobis-european-marine-data",
+          "fli-tsis-animal-disease-portal",
           "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
           "geotis-wms",
@@ -2761,6 +2763,7 @@
           "diw-soep-research-access",
           "dza-research-data-centre",
           "eurocat-controlled-research-data",
+          "fli-tsis-animal-disease-portal",
           "german-statistical-rdc",
           "hunt-health-study",
           "lasa-amsterdam-controlled-data",
@@ -3396,6 +3399,7 @@
           "cranachnet-mediawiki",
           "dirros-research-repository",
           "elaborate-digital-edition-services",
+          "fli-tsis-animal-disease-portal",
           "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
@@ -20444,6 +20448,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kul-rekul-repository-api",
+      "provider": "John Paul II Catholic University of Lublin",
+      "service_name": "ReKUL institutional repository REST service",
+      "geographic_coverage": "Polish university institutional research across humanities/social sciences/medicine and other fields; individual source coverage varies",
+      "topical_coverage": "research | culture | education | law/civic | health | economics/finance",
+      "dataset_families": "Institutional publications, journals, theses, teaching materials and research outputs;17homepage communities, source works not fetched",
+      "documentation_url": "https://repozytorium.kul.pl | https://www.kul.pl/regulamin-repozytorium-instytucjonalnego-kul,art_77436.html",
+      "api_base_url": "https://repozytorium.kul.pl/server/api",
+      "format_protocol": "Native DSpace7.6.5 REST root JSON with HAL link relations; OAI capability not independently verified at an exact endpoint",
+      "authentication": "Anonymous REST service-root GET succeeded; permissions for linked public/private/source endpoints untested, no account/login",
+      "free_access_restrictions": "Public homepage/root metadata response without credentials; per-work access and metadata/source licence unresolved",
+      "license": "Unknown precise public metadata/database grant; source licences individual and unverified",
+      "license_url": "https://www.kul.pl/regulamin-repozytorium-instytucjonalnego-kul,art_77436.html",
+      "api_verification_state": "Native repository homepage200HTML publishes REST root in embedded state; exact rootGET200validJSON identifies DSpace7.6.5 and link relations, not source records. Three policy/FAQ links redirect to university homepage200, not verified requested terms.",
+      "latest_checked_utc": "2026-10-18T10:35:37.686377+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kyoto-kurenai-repository",
       "provider": "Kyoto University Library Network",
       "service_name": "KURENAI institutional repository",
@@ -21087,8 +21109,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across224successfulpages/224000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:31:45.272846+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across240successfulpages/240000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:35:43.707503+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32686,6 +32708,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "fli-tsis-animal-disease-portal",
+      "provider": "Friedrich-Loeffler-Institut",
+      "service_name": "TSIS animal disease information portal / CadenzaWeb",
+      "geographic_coverage": "Germany; notified animal disease occurrence derived from TSN reporting",
+      "topical_coverage": "health | agriculture | environment",
+      "dataset_families": "Animal disease occurrence summaries, disease-specific workbooks, maps/charts/tables; no case/location observations acquired",
+      "documentation_url": "https://tsis.fli.de/cadenza/ | https://www.fli.de/de/impressum/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native homepage says full TSIS use without login and login only for administration; no login/admin action",
+      "free_access_restrictions": "Public browser UI documented; native publisher copyright terms restrict copying/redistribution to qualified uses, no cleared public machine API",
+      "license": "Publisher site copyright restriction; exact TSIS data-specific exceptions unresolved",
+      "license_url": "https://www.fli.de/de/impressum/",
+      "api_verification_state": "Native original TSIS200HTML guide and linked publisher legal notice200HTML; no documented exact public read API/schema or successful machine sample",
+      "latest_checked_utc": "2026-10-18T10:35:37.686377+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "flora-frankfurt-portal",
       "provider": "Senckenberg Gesellschaft für Naturforschung",
       "service_name": "Flora von Frankfurt am Main",
@@ -34771,6 +34811,24 @@
       "license_url": "https://www.phi-base.org/disclaimer.htm",
       "api_verification_state": "official_provider_linked_REST_manual_verified_runtime_untested_restricted_terms",
       "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "plabipd-plant-biotechnology",
+      "provider": "Forschungszentrum Jülich / HHU Düsseldorf",
+      "service_name": "PlaBI / Plant Biotechnology Information Primary Database",
+      "geographic_coverage": "Plant and crop research; international publications/genome resources with per-project coverage unverified",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Plant genome catalogue, crop protein database and plant-project resources; separate annotation, expression-visualisation and read-trimming tools",
+      "documentation_url": "https://www.plabipd.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public homepage accessible; source/tools/API access requirements not tested; no registration",
+      "free_access_restrictions": "Native integrated imprint allows qualified educational/scientific/private use with citation, commercial use requires explicit permission unless otherwise stated",
+      "license": "Site reuse restricted to educational/scientific/private purposes with citation; commercial permission required unless an explicit exception applies",
+      "license_url": "https://www.plabipd.de/",
+      "api_verification_state": "Native homepage200HTML with integrated imprint/privacy and resource/tool links; no formal public read API or machine schema verified",
+      "latest_checked_utc": "2026-10-18T10:35:37.686377+00:00",
       "classification": "restricted"
     },
     {
