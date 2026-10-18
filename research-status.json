@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:43:54.327549+00:00",
+  "published_at": "2026-10-18T18:45:57.555679+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:43:13.693778+00:00",
+  "research_updated_at": "2026-10-18T18:45:35.721820+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SCEDC native WADL runtime verified/license gap; eight Borealis institutional sources reviewed with custom/restricted rights and source holds.",
+  "latest_milestone": "Waterloo CC-license choice/Windsor access controls/CUE consortium participation documented; exact metadata and API rights unresolved.",
   "counts": {
     "verified": 445,
-    "candidates": 1255,
+    "candidates": 1258,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -18664,6 +18664,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cue-borealis-data-repository",
+      "provider": "Concordia University of Edmonton",
+      "service_name": "Concordia University of Edmonton curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies; registry AAA not valid geography",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://concordia.ab.ca/research/research-at-concordia/rdm-strategy/ | https://coppul.ca/preservation/borealis/",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific API/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://concordia.ab.ca/research/research-at-concordia/rdm-strategy/",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. CUE consortium page also HTTP200. Inherited Borealis root/API/search hold retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:45:31.002031+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cugir-geospatial-repository",
       "provider": "Cornell University Library",
       "service_name": "Cornell University Geospatial Information Repository catalogue / WFS",
@@ -35224,6 +35242,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "waterloo-borealis-data-repository",
+      "provider": "University of Waterloo",
+      "service_name": "University of Waterloo curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies; registry AAA not valid geography",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://subjectguides.uwaterloo.ca/rdm/services",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific API/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://subjectguides.uwaterloo.ca/rdm/services",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. CUE consortium page also HTTP200. Inherited Borealis root/API/search hold retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:45:31.002031+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "waterloo-city-open-data",
       "provider": "City of Waterloo,Ontario",
       "service_name": "CityofWaterlooOGCpubliccatalog",
@@ -35527,6 +35563,24 @@
       "license_url": "https://www.pnnl.gov/wind-data-management",
       "api_verification_state": "native_anonymous_public_API_configuration_JSON_success_dataset_query_contract_and_grants_unconfirmed",
       "latest_checked_utc": "2026-10-17T20:41:22.613603+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "windsor-borealis-data-repository",
+      "provider": "University of Windsor",
+      "service_name": "University of Windsor curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies; registry AAA not valid geography",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://leddy.uwindsor.ca/node/5466",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific API/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://leddy.uwindsor.ca/node/5466",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. CUE consortium page also HTTP200. Inherited Borealis root/API/search hold retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:45:31.002031+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
