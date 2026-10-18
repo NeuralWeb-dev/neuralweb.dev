@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T15:49:18.699739+00:00",
+  "published_at": "2026-10-18T15:51:21.549774+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:47:34.445369+00:00",
+  "research_updated_at": "2026-10-18T15:50:09.142559+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SMU native service NC and ORDO indexed metadata nonprofit restrictions; eSango selected licenses, portal and owner guards.",
+  "latest_milestone": "MDZ collectionfrontier advanced to804pages/804000refs;2409503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 432,
-    "candidates": 1132,
-    "excluded": 335,
+    "verified": 433,
+    "candidates": 1133,
+    "excluded": 336,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -6850,6 +6850,24 @@
       "license_url": "https://bindingdb.org/rwd/bind/info.jsp | https://academic.oup.com/nar/article/53/D1/D1633/7906836",
       "api_verification_state": "Native guideguard-deferredtargetunsent, rootunsentafterhold. IndexedprimaryownerAPI/rightsreview only; no nativeJSON/XMLAPI/schema response.",
       "latest_checked_utc": "2026-10-18T14:28:16.319392+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "biogrid-rest-service",
+      "provider": "BioGRID / Mike Tyers Lab",
+      "service_name": "BioGRID interaction REST service",
+      "geographic_coverage": "International model organism and human interaction research; biological species coverage, not geographic observations",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Curated genetic/protein interactions, chemical associations and post-translational modifications; partner and ORCS services separate",
+      "documentation_url": "https://wiki.thebiogrid.org/doku.php/biogridrest | https://webservice.thebiogrid.org/application.wadl",
+      "api_base_url": "https://webservice.thebiogrid.org/",
+      "format_protocol": "HTTPS REST GET/POST described; native WADL200 validXML describes6GET operations; JSON/tabular/count formats documented",
+      "authentication": "Free unique application access key required in all queries; no authorized key available/used",
+      "free_access_restrictions": "Documentation says keys free; no registration or keyed request performed",
+      "license": "MIT License, explicitly including download files",
+      "license_url": "https://biogrid-downloads.nyc3.digitaloceanspaces.com/LICENSE.txt | https://downloads.thebiogrid.org/BioGRID",
+      "api_verification_state": "Native RESTdocs200 and WADL200validXML/6GET operations; data license200. Keyed API operations untested; WADL is service schema, not successful data/version response.",
+      "latest_checked_utc": "2026-10-18T15:49:48.113046+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23518,8 +23536,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across791successfulpages/791000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T15:42:06.093692+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across804successfulpages/804000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T15:50:04.017082+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29895,6 +29913,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "southampton-ecrystals",
+      "provider": "University of Southampton Chemical Crystallography Group / EPSRC UK National Crystallography Service",
+      "service_name": "eCrystals Southampton",
+      "geographic_coverage": "UK institutional crystallography research; specific sample origins unreviewed",
+      "topical_coverage": "research",
+      "dataset_families": "Single-crystal X-ray structure archival data and descriptive metadata; raw images excluded by owner description",
+      "documentation_url": "https://ecrystals.chem.soton.ac.uk/",
+      "api_base_url": "http://ecrystals.chem.soton.ac.uk/cgi/oai2",
+      "format_protocol": "Ownerindexed OAI2/EPrints; native identityXMLunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Ownerindexed ODCAttribution draft plus DbCL1.0; effective version/scope unresolved",
+      "license_url": "https://ecrystals.chem.soton.ac.uk/ | http://opendatacommons.org/licenses/by/draft | http://opendatacommons.org/licenses/dbcl/1.0/",
+      "api_verification_state": "OriginalOAIIdentifyguard-deferredunsent. Indexed officialrootdocumentsOAI/rights; no alternatehttps/native root/backend request afterhold.",
+      "latest_checked_utc": "2026-10-18T15:49:48.113046+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "southampton-eprints-oai",
       "provider": "University of Southampton Library",
       "service_name": "ePrints Soton institutional repository OAI-PMH",
@@ -34556,6 +34592,24 @@
       "license_url": "https://handbook.anc.plus.ac.at/terms/anc_data_use_agreement/ | https://handbook.anc.plus.ac.at/terms/transfer_and_license_agreement/",
       "api_verification_state": "restricted_data_portal_documented_metadata_CC0_verified_API_unestablished",
       "latest_checked_utc": "2026-10-17T18:28:37.337476+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "apid-interactomes",
+      "provider": "University of Salamanca / CIC-CSIC",
+      "service_name": "APID Interactomes",
+      "geographic_coverage": "Spanish research provider, international species/protein interaction coverage",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Quality-filtered protein-protein interactomes; no molecular rows queried",
+      "documentation_url": "http://apid.dep.usal.es/APID/init.action",
+      "api_base_url": "http://cicblade.dep.usal.es/psicquic-ws/webservices/current/search/ (registry claim, untested)",
+      "format_protocol": "Native HTMLUI and MITAB download links; PSICQUIC REST/SOAP registry claim not verified current runtime",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Creative Commons Attribution-NonCommercial 4.0 International",
+      "license_url": "http://apid.dep.usal.es/APID/init.action | http://creativecommons.org/licenses/by-nc/4.0/",
+      "api_verification_state": "Native root200substantiveHTML with actuallicense. No current APIresponse. Saved registryclaim plus current indexedinactive label not independent APItest/nonexistenceproof.",
+      "latest_checked_utc": "2026-10-18T15:49:48.113046+00:00",
       "classification": "restricted"
     },
     {
