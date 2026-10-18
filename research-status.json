@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:18:56.203338+00:00",
+  "published_at": "2026-10-18T00:20:58.899653+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:18:48.431163+00:00",
+  "research_updated_at": "2026-10-18T00:20:23.981345+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "HGNCdataCC0 andnativeRESTinfoJSON verified; IRMA/IMLS candidates retain specificsource/runtime residuals.",
+  "latest_milestone": "Tokyo explicitdatareusegrant butAPIunknown; STOREDB legal/authrestrictions retained; SureChEMBLCCBY4/OpenAPIverified butsingleGET500.",
   "counts": {
-    "verified": 322,
-    "candidates": 666,
-    "excluded": 170,
+    "verified": 323,
+    "candidates": 667,
+    "excluded": 171,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -9818,6 +9818,24 @@
       "license_url": "https://stat.fi/en/about-us/get-to-know-statistics-finland/legislation/terms-of-use",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:37:23.745938+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "surechembl-chemical-rest",
+      "provider": "EMBL-EBI / SureChEMBL",
+      "service_name": "SureChEMBL chemical and patent-annotation REST API",
+      "geographic_coverage": "Patent-extracted chemistry across supportedpatentauthorities; exactauthority/timecoverage not fullyenumerated",
+      "topical_coverage": "research | health | law/civic data",
+      "dataset_families": "Chemical identifiers/metadata andchemicallyannotatedpatentdocument relations",
+      "documentation_url": "https://www.surechembl.org/api/v3/api-docs | https://chembl.gitbook.io/surechembl/api",
+      "api_base_url": "https://www.surechembl.org/api",
+      "format_protocol": "REST/JSON; nativeOpenAPI3.0.1",
+      "authentication": "No securityrequirement inpublishedOpenAPI; singleanonymous lookup reachedHTTP500, success/authconditions notproven",
+      "free_access_restrictions": "OfficialFAQdataCCBY4; patent/legalrightsextendbeyond databaselicence. No paidacquisition, export/searchjob or bulkdownload.",
+      "license": "CC BY4.0 for SureChEMBL data percurrentofficialFAQ",
+      "license_url": "https://chembl.gitbook.io/surechembl/faq",
+      "api_verification_state": "NativeOpenAPIJSONHTTP200 parsed; single documented chemicalmetadataGETHTTP500, notsuccessfulsource sample. No alternativeidentifier/route retry.",
+      "latest_checked_utc": "2026-10-18T00:20:19.725735+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20083,6 +20101,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tokyo-aori-cruise-database",
+      "provider": "University of Tokyo / Atmosphere and Ocean Research Institute",
+      "service_name": "Research Vessel Observation Database",
+      "geographic_coverage": "Japanese research cruises across oceans; exact geographic/temporal coverage varies; early holdings prioritized",
+      "topical_coverage": "oceans | climate/weather/environment | water | research",
+      "dataset_families": "Researchcruise, CTD and observation metadata from Hakuho-Maru, Shinsei-Maru, Tansei-Maru andrelated vessels",
+      "documentation_url": "https://opensci.aori.u-tokyo.ac.jp/cruise-en.html",
+      "api_base_url": "",
+      "format_protocol": "PublicHTML discovery/queryforms; machine API unverified",
+      "authentication": "Public homepage/list succeeded; exact dataset/moratorium access varies",
+      "free_access_restrictions": "Data/metadata reuse unrestricted per explicitterms, publication citationrequired; documents ordinarycopyright unlessmarked; source moratoria andJAMSTEC FY2019+ separate",
+      "license": "Explicit provider unrestricted use, redistribution and reuse grant for data/metadata; no canonical licenceidentifier stated",
+      "license_url": "https://opensci.aori.u-tokyo.ac.jp/cruise-en.html",
+      "api_verification_state": "Native terms and publicHTMLcruiselist verified; no documented machine-query endpoint/runtime",
+      "latest_checked_utc": "2026-10-18T00:20:19.725735+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "toronto-open-data-catalog-api",
       "provider": "City of Toronto Open Data",
       "service_name": "Toronto public CKAN catalogue metadata API",
@@ -25302,6 +25338,24 @@
       "license_url": "http://www.stateofthesalmon.org/resources/sosdb.php",
       "api_verification_state": "native_NCSA2_database_grant_and_download_discovery_verified_query_API_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:35:23.692462+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "storedb-radiobiology-api",
+      "provider": "Bundesamt fuer Strahlenschutz / STOREDB consortium",
+      "service_name": "STOREDB radiobiology repository and authenticated REST API",
+      "geographic_coverage": "International radiobiology studies andbioresource metadata; exact study geography varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Low-dose radiation study/dataset/file metadata andbioresource directory; protected occupational/biobank studies separate",
+      "documentation_url": "https://www.storedb.org/store_v3/rest_api.jsp",
+      "api_base_url": "https://www.storedb.org/store_v3/rest-api/",
+      "format_protocol": "REST/JSON documented; authentication required",
+      "authentication": "Request access fromoperator; validORCID andpassword login POST yields authorizationtoken. No accessrequest/login made.",
+      "free_access_restrictions": "API access completelyfree per docs; registeredaccess andsourcepermissions separate. Legalnotice restricts software/data to research/education withoutcommercialpermission.",
+      "license": "Conflicting policy: software/data research-and-education-only withcommercialpermission; sitecontent BY-SA4; footer BY4",
+      "license_url": "https://www.storedb.org/store_v3/disclaimer.jsp",
+      "api_verification_state": "Native publicAPI docs verified; protectedGET/login untested. Nativehomepage studies distinguishrestricted/open access butnotlicenceclearance.",
+      "latest_checked_utc": "2026-10-18T00:20:19.725735+00:00",
       "classification": "restricted"
     },
     {
