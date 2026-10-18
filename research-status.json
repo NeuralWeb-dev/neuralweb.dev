@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T15:28:46.380999+00:00",
+  "published_at": "2026-10-18T15:30:49.264302+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:28:17.474597+00:00",
+  "research_updated_at": "2026-10-18T15:30:31.196117+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "KiltHub/Penn guards/nativeowner rightsunknown; ZivaHub nativepersonalNC access restricted",
+  "latest_milestone": "Six originals: KiltHub/Penn/UvA guards/nativeowner rightsunknown; ZivaHub nativepersonalNC; MarineDataExchange native redistributionrestricted; Ningaloo mixedrights/guide404; MDZ765000 incomplete.",
   "counts": {
     "verified": 432,
-    "candidates": 1117,
-    "excluded": 329,
+    "candidates": 1119,
+    "excluded": 330,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -2747,6 +2747,7 @@
           "geosphere-austria-datahub-api",
           "geotis-wms",
           "lower-austria-ogd",
+          "marine-data-exchange",
           "metoffice-weather-datahub",
           "ticino-palma-api",
           "tirol-ogd-geospatial-search",
@@ -2842,6 +2843,7 @@
           "geosphere-austria-datahub-api",
           "geotis-wms",
           "german-statistical-rdc",
+          "marine-data-exchange",
           "metoffice-weather-datahub",
           "registry-data-bs-ch"
         ]
@@ -3059,6 +3061,7 @@
           "tuscany-open-data-catalog",
           "upf-digital-repository",
           "ustp-phaidra-repository",
+          "uva-auas-institutional-figshare",
           "vads-visual-arts-service",
           "zagreb-pmf-metadata-repository",
           "zvdd-metadata-interfaces"
@@ -3291,6 +3294,7 @@
           "geosphere-austria-datahub-api",
           "geotis-wms",
           "leiden-edepot-archives",
+          "marine-data-exchange",
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
           "tirol-ogd-geospatial-search",
@@ -3454,7 +3458,8 @@
         ],
         "restricted_provider_ids": [
           "copernicus-marine",
-          "eurobis-european-marine-data"
+          "eurobis-european-marine-data",
+          "marine-data-exchange"
         ]
       },
       "astronomy": {
@@ -3825,6 +3830,7 @@
           "ukedc-discovery-portal",
           "upf-digital-repository",
           "ustp-phaidra-repository",
+          "uva-auas-institutional-figshare",
           "vads-visual-arts-service",
           "vu-yoda-publication-metadata",
           "wellcome-collection",
@@ -3876,6 +3882,7 @@
           "liss-panel-research-access",
           "maastricht-digital-collections-api",
           "maribor-dkum-oai",
+          "marine-data-exchange",
           "meertens-collections-portal",
           "metoffice-weather-datahub",
           "nako-controlled-transferhub",
@@ -4254,7 +4261,9 @@
           "dhs-indicator-data-api",
           "hsrc-research-output-repository"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "uct-zivahub"
+        ]
       },
       "housing": {
         "status": "partial_verified",
@@ -4360,6 +4369,7 @@
         ],
         "restricted_provider_ids": [
           "african-plants-photo-guide",
+          "uct-zivahub",
           "wascal"
         ]
       },
@@ -4387,6 +4397,7 @@
           "ahri-research-data-repository",
           "indepth-ishare-data-repository",
           "laws-africa",
+          "uct-zivahub",
           "wascal"
         ]
       }
@@ -5296,6 +5307,7 @@
           "landcare-research-datastore",
           "mbie-geodata",
           "nci-australia-data-catalogue",
+          "ningaloo-atlas",
           "nsw-open-data-catalog",
           "ozflux-data-portal",
           "pacific-data",
@@ -5455,6 +5467,7 @@
           "georep-localisation",
           "mbie-geodata",
           "nci-australia-data-catalogue",
+          "ningaloo-atlas",
           "opt-nc-data",
           "province-sud-geospatial",
           "qspatial-csw-catalog",
@@ -5531,6 +5544,7 @@
           "esa-ecology",
           "ipni-linked-data-access",
           "landcare-research-datastore",
+          "ningaloo-atlas",
           "pisco",
           "province-sud-geospatial",
           "qspatial-csw-catalog",
@@ -5554,6 +5568,7 @@
           "aodn-marine-data-services",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
+          "ningaloo-atlas",
           "pacioos-erddap",
           "pisco",
           "province-sud-geospatial",
@@ -5633,6 +5648,7 @@
           "landcare-research-datastore",
           "melbourne-institutional-figshare",
           "nci-australia-data-catalogue",
+          "ningaloo-atlas",
           "nz-iponz",
           "ozflux-data-portal",
           "pacioos-erddap",
@@ -23361,8 +23377,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across758successfulpages/758000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T15:24:33.764274+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across765successfulpages/765000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T15:29:48.011071+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25091,6 +25107,24 @@
       "license_url": "https://mdr.nims.go.jp/page/terms_of_use",
       "api_verification_state": "prior_anonymous_OAI_Identify_success_current_native_beta_REST_docs_verified_catalog_read_timeout_source_grants_per_item_unresolved",
       "latest_checked_utc": "2026-10-17T22:37:48.372275+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ningaloo-atlas",
+      "provider": "Ningaloo Atlas / AIMS and content providers",
+      "service_name": "Ningaloo Atlas marine knowledge portal",
+      "geographic_coverage": "Greater Ningaloo region, Western Australia; datasetcoverage varies",
+      "topical_coverage": "oceans | biodiversity | geospatial | environment | research",
+      "dataset_families": "Marine/regional biodiversity, maps, research content andprovider-linked datasets; exactinventoryunreviewed",
+      "documentation_url": "https://ningaloo-atlas.org.au/content/terms-use",
+      "api_base_url": "",
+      "format_protocol": "Native HTMLterms; indexedWMSdocumentation lead native404, not workingservice/schema proof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Provider-selected licenses andaccessrestrictions; no uniformmetadata/data grant",
+      "license_url": "https://ningaloo-atlas.org.au/content/terms-use",
+      "api_verification_state": "Native terms200HTML; originalpublishedWMSsubmissionguide404, no alternativepath/query/format/backend afterfailure. No APIresponse/schema.",
+      "latest_checked_utc": "2026-10-18T15:29:38.270362+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31790,6 +31824,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "uva-auas-institutional-figshare",
+      "provider": "University of Amsterdam / Amsterdam University of Applied Sciences",
+      "service_name": "UvA/AUAS institutional Figshare",
+      "geographic_coverage": "Netherlands institutional research; actual dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and associated metadata, controlled sharing/publication",
+      "documentation_url": "https://uba.uva.nl/en/support/research/registering-research/import-of-dataset-records.html",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution201/portal201 registryfilters untested)",
+      "format_protocol": "Owner confirms Figshare; registryREST/OAI filters unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown institutional metadata-wide grant; per-item licenses",
+      "license_url": "https://uba.uva.nl/en/support/research/registering-research/import-of-dataset-records.html",
+      "api_verification_state": "Originalportalroot guard-deferredunsent; native independentlibraryguide200HTML; no currentportalAPI/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T15:29:38.270362+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "uvic-borealis-data-repository",
       "provider": "University of Victoria Libraries",
       "service_name": "UVic Dataverse institutional collection in Borealis",
@@ -37495,6 +37547,24 @@
       "license_url": "https://dk.um.si/info/index.php/eng/policies",
       "api_verification_state": "actual_native_OAI_Identify_XML_success_default_metadata_reuse_NC_restricted",
       "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "marine-data-exchange",
+      "provider": "The Crown Estate",
+      "service_name": "Marine Data Exchange",
+      "geographic_coverage": "UK marine/offshore survey data; exact projectcoverage varies",
+      "topical_coverage": "oceans | energy | environment | geospatial | research",
+      "dataset_families": "Offshore industry/environmental survey data and supporting reports; inventory unenumerated",
+      "documentation_url": "https://www.marinedataexchange.co.uk/content/info/terms-of-use",
+      "api_base_url": "",
+      "format_protocol": "Native HTMLterms; mapviewer not proof publicAPI",
+      "authentication": "unknown",
+      "free_access_restrictions": "Publicportal/download terms imposeownuse/distributionconstraints; actualAPIauth/quotaunknown",
+      "license": "Non-transferable/no-sublicense own-use license; no thirdparty digital distribution or externally accessibleGIS",
+      "license_url": "https://www.marinedataexchange.co.uk/content/info/terms-of-use",
+      "api_verification_state": "Native productionterms200HTML reviewed; no publicAPI/schema/sourcepayload verified. Indexed beta terms notneededtosubstituteproduction.",
+      "latest_checked_utc": "2026-10-18T15:29:38.270362+00:00",
       "classification": "restricted"
     },
     {
