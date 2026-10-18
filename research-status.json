@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T11:10:08.966038+00:00",
+  "published_at": "2026-10-18T11:12:11.882990+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:08:19.455684+00:00",
+  "research_updated_at": "2026-10-18T11:11:55.314874+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "KB ANPmetadata/content rights and SRU/OAIholds; UNCdedup/reusedholds; DRI indexedlicensing/sourceholds; MDZ336000refs/336pages incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to351pages/351000refs;2862503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 392,
-    "candidates": 1019,
-    "excluded": 295,
+    "verified": 393,
+    "candidates": 1020,
+    "excluded": 296,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -9496,6 +9496,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "lida-public-metadata-oai",
+      "provider": "Lithuanian Data Archive for Social Sciences and Humanities / KTU DAtA",
+      "service_name": "LiDA Dataverse public metadata OAI-PMH API",
+      "geographic_coverage": "Lithuanian and comparative social-science/humanities archive; per-study geographic coverage varies",
+      "topical_coverage": "research | culture | education | demographics | economics/finance | social sciences",
+      "dataset_families": "Survey/interview/aggregate/encoded/textual research descriptions; accepted publicmetadata only, not source participant/corpus/data records",
+      "documentation_url": "https://data.ktu.edu/lida/ | https://lida.dataverse.lt",
+      "api_base_url": "https://lida.dataverse.lt/oai",
+      "format_protocol": "NativeOAI-PMH2XMLIdentify,6metadataformats,1set,publicListIdentifiersheaders",
+      "authentication": "Anonymous OAIIdentify/formats/sets/identifierheaders succeeded; underlyingdata registration/confidentiality/sourceconditions separate and untested",
+      "free_access_restrictions": "Native ownerpolicy expressly allows everyone to view/use archive descriptions regardless of underlying access restrictions; acceptedmetadataBYSA4 only. Sourceuse may require registration/confidentiality agreement.",
+      "license": "Creative Commons Attribution-ShareAlike4.0 for publicmetadata per native institutionalpolicy",
+      "license_url": "https://data.ktu.edu/lida/",
+      "api_verification_state": "Native portal/institutionalpolicy200HTML; Identify/ListMetadataFormats/ListSets200validOAI-PMHXML. Header-onlyListIdentifiers 7successfulpages/651uniqueheaders, noerrors/fallback; no fullsource/studyrecords.",
+      "latest_checked_utc": "2026-10-18T11:11:42.896555+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "lincolnshire-open-data-portal",
       "provider": "Lincolnshire County Council",
       "service_name": "Lincolnshire Open Data PortalJS metadata and MCP interfaces",
@@ -14571,6 +14589,24 @@
       "license_url": "https://collections.archives.caltech.edu/repositories/2/archival_objects/135925",
       "api_verification_state": "original_native_empty_HTTP202_web_route_robots_blocked_current_repository_identity_API_and_rights_unresolved",
       "latest_checked_utc": "2026-10-17T21:22:07.064817+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cambium-oxford-data-platform",
+      "provider": "University of Oxford / MRC CoRE Restorative Neural Dynamics / Brain Network Dynamics Unit",
+      "service_name": "Cambium neuroscience data/code directory and access platform",
+      "geographic_coverage": "Oxford neuroscience research; study/organism geography unverified",
+      "topical_coverage": "health | research",
+      "dataset_families": "Documented human/rodent brain activity recordings, analysis/model code, tissue micrographs, 3Dmodels/microcontrollercode and externallyheld/private dataset directory; no source acquired",
+      "documentation_url": "https://data.mrc.ox.ac.uk/about | https://data.mrc.ox.ac.uk/data-protection-and-terms-use",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner says all downloads require account/emailconfirmation, usually no accountapproval delay; some datasets need accessapproval. No registration/login/agreement.",
+      "free_access_restrictions": "Dataset-specific terms accepted at download; account/accesscontrols distinct from licence. No paid tier documented; numerical quotas unknown.",
+      "license": "Per-dataset varied terms; frequentlyCCBYSA4, not universalgrant",
+      "license_url": "https://data.mrc.ox.ac.uk/about | https://data.mrc.ox.ac.uk/data-protection-and-terms-use",
+      "api_verification_state": "Native root/about/TOU200HTML catalogue/documentation; no formal publicreadAPI/schema/sample verified, no backendguesses",
+      "latest_checked_utc": "2026-10-18T11:11:42.896555+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21301,8 +21337,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across336successfulpages/336000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T11:05:13.515673+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across351successfulpages/351000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T11:11:50.610259+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33833,6 +33869,24 @@
       "license_url": "https://intermagnet.org/data_conditions.html",
       "api_verification_state": "native_anonymous_GIN_capabilities_and_HAPI_catalogue_JSON_success_under_scoped_NCdefault",
       "latest_checked_utc": "2026-10-17T20:06:09.918811+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "iowa-state-datashare",
+      "provider": "Iowa State University Library / ISU DataShare",
+      "service_name": "Iowa State DataShare institutional Figshare portal",
+      "geographic_coverage": "Iowa State University research; study/project geography varies internationally",
+      "topical_coverage": "research | education | agriculture",
+      "dataset_families": "Curated institutional research datasets and code; no source records/files acquired",
+      "documentation_url": "https://www.lib.iastate.edu/research-and-teach/data-services/share-preserve-your-data | https://instr.iastate.libguides.com/datashare/TOU | https://instr.iastate.libguides.com/datashare/licenses",
+      "api_base_url": "https://api.figshare.com/v2/ (registry institution319 filter/OAIportal319; not source-tested)",
+      "format_protocol": "HTML documentation",
+      "authentication": "Institutional portalroot held; exact client source/API access unknown. No credentials/account.",
+      "free_access_restrictions": "Native institutional TOU limits repositoryservice use to personal noncommercial educational purposes but expressly subjects individual materials to their deposited licence; publicationdeposit free for ISUresearchers",
+      "license": "Repositoryservice personal/noncommercial education restriction; materials individualCCBY4/CC0 with possibleBYNC afterreview",
+      "license_url": "https://instr.iastate.libguides.com/datashare/TOU | https://instr.iastate.libguides.com/datashare/licenses",
+      "api_verification_state": "OriginalinstitutionalFigshareroot guard-deferred unsent. Independent native libraryguide/plan-share/instructions/licenceoptions/TOU200HTML. No sharedFigshareAPI/OAI/sample alternative afterportalhold.",
+      "latest_checked_utc": "2026-10-18T11:11:42.896555+00:00",
       "classification": "restricted"
     },
     {
