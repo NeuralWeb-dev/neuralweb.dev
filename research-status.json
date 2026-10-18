@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:31:45.181898+00:00",
+  "published_at": "2026-10-18T13:33:47.986307+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:31:34.746483+00:00",
+  "research_updated_at": "2026-10-18T13:33:24.549540+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to541pages/541000refs;2672503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Vivliapproved/DUArestricted;MicelioOAIbase400/rightsunknown;ApertaCC0/OAI8formats500headers incomplete",
   "counts": {
-    "verified": 415,
-    "candidates": 1056,
-    "excluded": 312,
+    "verified": 416,
+    "candidates": 1057,
+    "excluded": 313,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -6268,6 +6268,24 @@
       "license_url": "https://erddap.aoml.noaa.gov/gdp/erddap/info/drifter_6hour_qc/index.json | https://erddap.aoml.noaa.gov/gdp/erddap/info/OSMC_RealTime/index.json",
       "api_verification_state": "Anonymous native catalogue JSON HTTP 200 and nine source metadata/schema JSON HTTP 200; no observation-row query",
       "latest_checked_utc": "2026-10-18T03:34:03.764772+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "aperta-public-metadata-oai",
+      "provider": "TÜBİTAK ULAKBİM, Türkiye",
+      "service_name": "Aperta CC0 metadata OAI-PMH and documented REST",
+      "geographic_coverage": "Türkiyeinstitutional/nationalresearch andinternationalstudycontexts; exactsourcecoveragevaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Researchpublication/dataset/softwaremetadata; sourcefiles/licences separate",
+      "documentation_url": "https://aperta.ulakbim.gov.tr/discoverability/",
+      "api_base_url": "https://aperta.ulakbim.gov.tr/oai2d",
+      "format_protocol": "NativeOAI-PMH2.0Identify/ListMetadataFormats/ListIdentifiersXML; RESTdocumentedseparatelyuntested",
+      "authentication": "AnonymousOAIidentity/format/headerGETssucceeded; no keys/login/upload/sourcefile orprivilegedRESTrequest",
+      "free_access_restrictions": "NativeCC0metadata, publications/datasets/softwareownlicences/accessstatesseparate; no sourcewideopen grant",
+      "license": "CC0 for Aperta metadata",
+      "license_url": "https://aperta.ulakbim.gov.tr/discoverability/",
+      "api_verification_state": "Nativeportal/discoverability200HTML; Identify/ListMetadataFormats and5ListIdentifierspages200validXML. Protocolsuccessnotfileaccess/licenceclearance.",
+      "latest_checked_utc": "2026-10-18T13:33:19.185533+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -22455,6 +22473,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "micelio-uca-research-platform",
+      "provider": "Universidad Centroamericana José Simeón Cañas, El Salvador",
+      "service_name": "Micelio research repository OAI and REST interfaces",
+      "geographic_coverage": "ElSalvador/CentralAmericaninstitutionalresearch; globalsubjectmattervaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalresearchinformation/datasets/publications andrelatedmetadata; RIUCA/OJSservices not automaticallyidentical",
+      "documentation_url": "https://micelio.uca.edu.sv/normativas",
+      "api_base_url": "https://apicrai.uca.edu.sv/server/oai/ (nativepublishedbase; actual requestendpointunresolved)",
+      "format_protocol": "NativeOAI-PMH/RESTfulAPIs expresslydocumented; exactworkingrequestURI/schemaunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknownverifiedmetadata-widegrant; specificCreativeCommons/sourcepolicies requirefurtherreview",
+      "license_url": "https://micelio.uca.edu.sv/normativas",
+      "api_verification_state": "Micelioroot/normativas200HTML. ExactownerpublishedOAIbase400notvalidXML, notsuccessfulprotocolsample; no alternate/request/Identify/RESTbackendfallback. Twoownerlinkedpolicyviewers/PDFs200documentationonly, webPDFreaderunavailable.",
+      "latest_checked_utc": "2026-10-18T13:33:19.185533+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "microscope-microbial-platform",
       "provider": "CEA Genoscope / LABGeM",
       "service_name": "MicroScope microbial annotation and comparative-genomics platform",
@@ -37736,6 +37772,24 @@
       "license_url": "https://digitales.wien.gv.at/ogd-nutzungsbedingungen/",
       "api_verification_state": "actual_public_XML_sample_success_WFS_capabilities_restricted_current_terms_verified",
       "latest_checked_utc": "2026-10-17T11:07:22.596728+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "vivli-controlled-clinical-data",
+      "provider": "Vivli Center for Global Clinical Research Data",
+      "service_name": "Vivli managed clinical trial data sharing resource",
+      "geographic_coverage": "Internationalclinicaltrials/contributingresearchorganizations; publicstudylisting notcohort/dataaccess",
+      "topical_coverage": "health | research",
+      "dataset_families": "Clinicaltrialstudylisting andcontrolledresearchdatasharing; individualparticipantdata notopen/sourcequeried",
+      "documentation_url": "https://vivli.org/faq/is-data-shared-on-the-vivli-platform-public-or-private/ | https://vivli.org/resources/faqs/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Approvedproposal/account/DUArequired fordata; no account/key/authentication/agreementrequest",
+      "free_access_restrictions": "Controlleddataapproval/DUAconditions; currentapplicablefeesunknown, nopayment/account/DUAacceptance",
+      "license": "Managedapprovedresearchaccess underDataUseAgreement, notopen-data grant",
+      "license_url": "https://vivli.org/faq/is-data-shared-on-the-vivli-platform-public-or-private/ | https://vivli.org/resources/faqs/",
+      "api_verification_state": "Nativepublicroot/public-privateFAQ/generalFAQs200HTML; no documentedpublicdataAPI/schema/runtime/sampleverified.",
+      "latest_checked_utc": "2026-10-18T13:33:19.185533+00:00",
       "classification": "restricted"
     },
     {
