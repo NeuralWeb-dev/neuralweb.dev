@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T16:15:59.158024+00:00",
+  "published_at": "2026-10-18T16:18:02.354639+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:14:37.097972+00:00",
+  "research_updated_at": "2026-10-18T16:17:22.460738+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RosDoknativeCC0metadata/OAIheld; DutchwebsiteCC0/APIunknown; Pretoria portalhold/metadata grant unresolved.",
+  "latest_milestone": "MDZ collectionfrontier advanced to851pages/851000refs;2362503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 437,
-    "candidates": 1149,
-    "excluded": 340,
+    "candidates": 1151,
+    "excluded": 341,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -15639,6 +15639,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bolivar-utb-digital-repository",
+      "provider": "Universidad Tecnológica de Bolívar",
+      "service_name": "Repositorio Digital UTB",
+      "geographic_coverage": "Colombianinstitutionalresearch; sourcegeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalscholarly/researchmaterials; currentinventoryunreviewed",
+      "documentation_url": "https://www.utb.edu.co/biblioteca-utb/biblioteca-digital/",
+      "api_base_url": "https://repositorio.utb.edu.co/oai/request (registryclaim; notsuccessfulOAI)",
+      "format_protocol": "NominalOAIURLreturns200HTMLhumanverificationchallenge, notOAI/XML",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknownverifiedmetadata/datareusegrant",
+      "license_url": "",
+      "api_verification_state": "OriginalOAIIdentifyHTTP200text/htmlCap.js/BunkerWebproof-of-workhumanverificationchallenge, invalidXML. NotAPIresponse; nocaptchasolved/JSexecution. Independentownerdocumentation403.",
+      "latest_checked_utc": "2026-10-18T16:17:09.537841+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bologna-open-data",
       "provider": "Comune di Bologna",
       "service_name": "Bologna current municipal Explore API",
@@ -23842,8 +23860,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across840successfulpages/840000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:10:45.905517+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across851successfulpages/851000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T16:17:17.860036+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32775,6 +32793,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "virginia-tech-data-repository",
+      "provider": "Virginia Tech University Libraries",
+      "service_name": "Virginia Tech Data Repository",
+      "geographic_coverage": "USinstitutionalresearch; sourcegeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutionalresearchdatasets and supportingmetadata/documentation",
+      "documentation_url": "https://guides.lib.vt.edu/VirginiaTechDataRepository/TermsOfUse | https://guides.lib.vt.edu/VirginiaTechDataRepository/DepositAgreement",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution935/portal935untested)",
+      "format_protocol": "RegistryFigshareREST/OAI; clientwirecontractunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-datasetselectedlicenses; metadata-widegrantunknown",
+      "license_url": "https://guides.lib.vt.edu/VirginiaTechDataRepository/TermsOfUse | https://guides.lib.vt.edu/VirginiaTechDataRepository/DepositAgreement",
+      "api_verification_state": "Originalportalguard-deferredunsent; nativeindependentguide/terms/depositagreement200HTML. No portalAPIresponse/schema.",
+      "latest_checked_utc": "2026-10-18T16:17:09.537841+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "virgo-millennium-sql",
       "provider": "Virgo Consortium / Durham ICC / MPA Garching",
       "service_name": "Virgo Millennium simulation HTTP SQL database",
@@ -40280,6 +40316,24 @@
       "license_url": "https://www.nationalarchives.gov.uk/terms-and-conditions/discovery-for-developers-about-the-application-programming-interface-api/",
       "api_verification_state": "NativeDiscoveryroot/copyright/APIterms200HTML. API documented but not sampled because owneraccessregistration and no-store terms; no sandbox/query/APIcontent acquired.",
       "latest_checked_utc": "2026-10-18T03:21:14.917577+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ucl-research-data-repository",
+      "provider": "University College London",
+      "service_name": "UCL Research Data Repository",
+      "geographic_coverage": "UKinstitutionalresearch; sourcegeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutionalresearchdata/code/images/metadata; individuallicenses/accessvary",
+      "documentation_url": "https://www.ucl.ac.uk/library/open-science-research-support/research-data-management/ucl-research-data-repository/terms-conditions-and-notices",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution549/portal549untested)",
+      "format_protocol": "RegistryFigshareREST/OAI; publicrecordlicensesandembargo documented; currentAPIwirecontractuntested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Current-linkedEULA noncommercialservice/automatedaccessrestrictions; per-recordlicensesseparate",
+      "license_url": "https://www.ucl.ac.uk/library/open-science-research-support/research-data-management/ucl-research-data-repository/terms-conditions-and-notices | https://www.ucl.ac.uk/isd/sites/isd/files/figshare-eula-terms-conditions-ucl-26032019.pdf",
+      "api_verification_state": "Originalportalguard-deferredunsent; nativeindependentFAQ/termspage200 andlinkedEULAPDF200; official9pagePDFreader. NoAPIoperation/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T16:17:09.537841+00:00",
       "classification": "restricted"
     },
     {
