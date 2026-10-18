@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T02:56:24.772348+00:00",
+  "published_at": "2026-10-18T02:58:27.925207+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:56:18.434959+00:00",
+  "research_updated_at": "2026-10-18T02:57:00.715157+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TU Wien scoped CC0 metadata/API docs verified with runtime hold; BRENDA current BY4 and native SPARQL verified; NMDIS unresolved guard hold.",
+  "latest_milestone": "Brainmuseum/ALEXA access holds and misattributed policy distinguished; WDC-Ukraine directory indexed with data-page404 and unresolved exact APIs/grants.",
   "counts": {
     "verified": 342,
-    "candidates": 752,
+    "candidates": 755,
     "excluded": 213,
     "sample_successes": 468
   },
@@ -11578,6 +11578,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "alexa-alternative-expression-analysis",
+      "provider": "BC Genome Sciences Centre / ALEXA",
+      "service_name": "ALEXA Alternative Expression Analysis resources candidate",
+      "geographic_coverage": "Genomic/transcriptomic scientific resources; exact current organism/source coverage unverified",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Alternative expression analysis microarray/transcript resources, software and associated data discovery; not Amazon Alexa or OpenAlex",
+      "documentation_url": "http://www.alexaplatform.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root deferred by guard, target unsent. Registry FTP download location not a query API and not visited; no current read-only machine API verified.",
+      "latest_checked_utc": "2026-10-18T02:56:54.570050+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "almg-open-data-api",
       "provider": "Assembleia Legislativa de Minas Gerais",
       "service_name": "ALMG Dados Abertos API v2",
@@ -13375,6 +13393,24 @@
       "license_url": "https://developer.company-information.service.gov.uk/developer-guidelines/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:34:11.621980+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "comparative-mammalian-brain-collections",
+      "provider": "Comparative Mammalian Brain Collections / collaborating university museums",
+      "service_name": "Comparative Mammalian Brain Collections portal candidate",
+      "geographic_coverage": "Comparative mammalian anatomy, non-administrative scientific scope; institution hints not dataset geography",
+      "topical_coverage": "research | biodiversity | education",
+      "dataset_families": "Comparative mammalian brain collection descriptions and educational anatomical imagery; current contents not acquired",
+      "documentation_url": "https://brainmuseum.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native collection root guard-deferred, unsent. Registry policy target200 browser-challenge shell, not successfully read policy/API. No verified query API.",
+      "latest_checked_utc": "2026-10-18T02:56:54.570050+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23221,6 +23257,24 @@
       "license_url": "",
       "api_verification_state": "registry_claim_original_endpoint_policy_deferred_no_structured_sample",
       "latest_checked_utc": "2026-10-17T03:34:34.577787+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wdc-ukraine-geoinformatics",
+      "provider": "World Data Center for Geoinformatics and Sustainable Development / Igor Sikorsky Kyiv Polytechnic Institute",
+      "service_name": "WDC-Ukraine data and analytical services portal candidate",
+      "geographic_coverage": "Ukraine and comparative world sustainable-development indicators; exact source-specific geographic coverage varies",
+      "topical_coverage": "research | environment | economics/finance | demographics | water | geospatial | health",
+      "dataset_families": "National/sustainable-development atlases, regional/country indicators, surface-water dashboards, public-health dashboard/forecast and training/service descriptions",
+      "documentation_url": "http://wdc.org.ua/en/services",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Owner describes public access to selected analytical services; exact API access/authentication and reusable rights unknown",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native home and service directory200HTML; linked /en/data returns404. No exact public query API documented or sampled; dashboard/webpage is not API success.",
+      "latest_checked_utc": "2026-10-18T02:56:54.570050+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
