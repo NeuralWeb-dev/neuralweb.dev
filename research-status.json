@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:16:24.546464+00:00",
+  "published_at": "2026-10-18T15:18:29.042938+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:15:53.951760+00:00",
+  "research_updated_at": "2026-10-18T15:17:43.028928+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: Graz OAI/current legal PDFs unread; ZFDM dedup/OAI/historical grant; ScienceRepository guards; INSPIRE HEP scopedCC0/OAI; NIAID HTMLnotAPI; WashU OAI/policy202; MDZ730000 incomplete.",
+  "latest_milestone": "Bamberg/OEDataRep nativeOAI verified with scope-specific licensing uncertainty; Auckland institutional portal guard/native owner guidance",
   "counts": {
     "verified": 432,
-    "candidates": 1104,
+    "candidates": 1107,
     "excluded": 328,
     "sample_successes": 464
   },
@@ -14820,6 +14820,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "auckland-institutional-figshare",
+      "provider": "University of Auckland / Centre for eResearch",
+      "service_name": "University of Auckland Institutional Figshare portal",
+      "geographic_coverage": "New Zealand institutional research; exact source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional datasets, code, figures, reports, creative works and metadata-only mediated-access records",
+      "documentation_url": "https://www.auckland.ac.nz/en/research/research-resources/research-data/publishing-research-data/institutional-figshare.html",
+      "api_base_url": "https://api.figshare.com/v2/ (shared service; institution12/portal12 registry filters unverified)",
+      "format_protocol": "Owner documents Figshare API for large uploads; registry publicREST/OAI filtering not newly tested",
+      "authentication": "No credentials used; institutional deposition separate from public-read auth unresolved",
+      "free_access_restrictions": "Owner permits metadata-only mediated access/embargo and highlights sovereignty/consent/thirdparty conditions",
+      "license": "Selected per-item licenses; institution-wide metadata reuse grant unknown",
+      "license_url": "https://www.auckland.ac.nz/en/research/research-resources/research-data/publishing-research-data/institutional-figshare.html",
+      "api_verification_state": "Institutional root guard-deferred unsent; independent native university guidance200HTML confirms portal/API existence for upload workflows, not successful public-read/schema response.",
+      "latest_checked_utc": "2026-10-18T15:17:36.971130+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "auscope-earthbank",
       "provider": "AuScope Geochemistry Network / Lithodat",
       "service_name": "AuScope EarthBank geochemistry platform/API",
@@ -14925,6 +14943,24 @@
       "license_url": "https://www.caib.es/sites/opendatacaib/es/politica_y_terminos_de_uso/",
       "api_verification_state": "actual_air_quality_one_record_sample_success_additional_terms_unresolved",
       "latest_checked_utc": "2026-10-17T05:48:03.263334+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bamberg-research-data-repository",
+      "provider": "Otto-Friedrich-Universität Bamberg",
+      "service_name": "Bamberg FD-Repo research data repository",
+      "geographic_coverage": "German institutional research; exact dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary research datasets and associated descriptive metadata",
+      "documentation_url": "https://fd-repo.uni-bamberg.de/ | https://www.uni-bamberg.de/?id=155333",
+      "api_base_url": "https://fd-repo.uni-bamberg.de/oai2d",
+      "format_protocol": "OAI-PMH2 XML verified; registry REST separately untested",
+      "authentication": "Anonymous Identify successful; deposition rules not assumed public read restriction",
+      "free_access_restrictions": "Per-item terms/embargo/privacy/proprietary conditions; current complete inventory unenumerated",
+      "license": "Unknown verified metadata-wide/data-wide grant; selected licenses and access",
+      "license_url": "https://www.uni-bamberg.de/?id=155333",
+      "api_verification_state": "Native anonymous OAIIdentify200validXML, root/institution/researchpolicy200HTML. Generic IT Terms page not repository license proof.",
+      "latest_checked_utc": "2026-10-18T15:17:36.971130+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21477,6 +21513,24 @@
       "license_url": "https://data.go.id/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T09:44:31.991609+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ingv-oedatarep",
+      "provider": "INGV Osservatorio Etneo",
+      "service_name": "OEDataRep Open Data Repository",
+      "geographic_coverage": "Italian geophysical research; exact source coverage varies",
+      "topical_coverage": "research | geospatial | climate/weather/environment",
+      "dataset_families": "INGV-OE research data and time-series publication metadata; exact source inventory unenumerated",
+      "documentation_url": "https://datarep-manual.readthedocs.io | https://data.ingv.it/docs/index_en.html#document-doc/license",
+      "api_base_url": "https://oedatarep.ct.ingv.it/oai2d",
+      "format_protocol": "OAI-PMH2 XML verified; REST separately untested",
+      "authentication": "Anonymous Identify successful; deposition workflow separate",
+      "free_access_restrictions": "Public discovery; actual per-file licenses/access and operational quotas unknown",
+      "license": "Unknown repository-wide metadata grant; central INGV Data Registry metadata CC0 separately documented",
+      "license_url": "https://data.ingv.it/docs/index_en.html#document-doc/license",
+      "api_verification_state": "Native anonymous OAIIdentify200validXML; repositoryroot/manual/centralINGVlicensingguide200HTML. Metadata-wide grant for this distinct repository unresolved.",
+      "latest_checked_utc": "2026-10-18T15:17:36.971130+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
