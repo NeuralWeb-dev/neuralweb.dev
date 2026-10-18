@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T04:08:03.205096+00:00",
+  "published_at": "2026-10-18T04:10:05.849793+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:04:18.647002+00:00",
+  "research_updated_at": "2026-10-18T04:08:42.120955+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
   "counts": {
     "verified": 351,
-    "candidates": 792,
-    "excluded": 225,
+    "candidates": 793,
+    "excluded": 227,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -23436,6 +23436,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ufg-research-dataverse",
+      "provider": "Universidade Federal de Goiás",
+      "service_name": "UFG Research Data Repository / Dataverse",
+      "geographic_coverage": "Brazil/UFG research and source-specific international topics",
+      "topical_coverage": "research | education | climate/weather/environment | health | culture",
+      "dataset_families": "Institutional multidisciplinary research data, methods and metadata; homepage21datasets/23dataverses/44mixedresults",
+      "documentation_url": "https://dadosdepesquisa.ufg.br/dataverse/ufg",
+      "api_base_url": "https://dadosdepesquisa.ufg.br/api/search (originalregistryqueryfamily, currentruntimeheld)",
+      "format_protocol": "Native DataverseHTML; registryRESTsearchAPI claimed, no machineAPIresponse",
+      "authentication": "Publichomepageread succeeded; APIguardheld, sourcepermissionsunverified",
+      "free_access_restrictions": "Nativehomepage mixedBY/BYNC/BYNCND/BYSAfacets, notuniformwhole-source/metadata licence. No subscription or sourcefile request",
+      "license": "Mixed per-dataset CC BY4/BY-NC4/BY-NC-ND4/BY-SA4; exactmetadata/APIgrantunverified",
+      "license_url": "https://dadosdepesquisa.ufg.br/dataverse/ufg",
+      "api_verification_state": "Native portalHTTP200; originalboundedRESTsearch guard-deferred unsent, zeroAPIpages/IDs. No backend/format/OAIretry",
+      "latest_checked_utc": "2026-10-18T04:08:37.813994+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ufz-drp-archive-json-interface",
       "provider": "Helmholtz Centre for Environmental Research / UFZ",
       "service_name": "UFZ DRP / DMP Archive documented JSON sharing interface",
@@ -28280,6 +28298,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "metoffice-weather-datahub",
+      "provider": "UK Met Office",
+      "service_name": "Weather DataHub APIs",
+      "geographic_coverage": "UK/global atmospheric and site forecasts, UK land observations/warnings and map layers; product-specific coverage",
+      "topical_coverage": "climate/weather/environment | transportation | energy | research",
+      "dataset_families": "Atmospheric gridded forecasts, site-specific deterministic/probabilistic forecasts, warnings, land observations and map-image products",
+      "documentation_url": "https://datahub.metoffice.gov.uk/docs/getting-started",
+      "api_base_url": "https://data.hub.api.metoffice.gov.uk/sitespecific/v0 (native site-specific contract); other product API bases separate",
+      "format_protocol": "Product-specific documented APIs; native HTML embeds site-specific API base; no runtime JSON/GRIB/image sample",
+      "authentication": "Registered account, product plan and apikey header required; no subscription/key/account sought",
+      "free_access_restrictions": "Atmospheric free1GB/month and60GB/30daytrial documented; paid tiers distinct, no purchase. Customerapplication/source redistribution conditions remain restricted",
+      "license": "Custom Weather DataHub product/API contract; application-only redistribution and original-form distribution restrictions",
+      "license_url": "https://www.metoffice.gov.uk/api/assets/file/met-office-weatherdatahub-terms-and-conditionspdf?prefix=assets",
+      "api_verification_state": "Current owner DataPoint page confirmsdecommissioned, retirementFAQ1December2025. CurrentDataHub FAQ/start/pricing/product docs and contractPDF HTTP200; key-required runtimeuntested",
+      "latest_checked_utc": "2026-10-18T04:08:37.813994+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "mgds-seismic-catalog",
       "provider": "Marine Geoscience Data System / Lamont-Doherty Earth Observatory",
       "service_name": "MGDS marine geoscience catalog and metadata APIs",
@@ -29663,6 +29699,24 @@
       "license_url": "https://wascal-dataportal.org/sites/default/files/WASCAL-Data-Sharing_Policy_and_Guideline_V2.0_2021.pdf",
       "api_verification_state": "current_catalog_metadata_sample_success_mixed_restricted_policy",
       "latest_checked_utc": "2026-10-17T01:30:21.350273+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wdc-edinburgh-geomagnetic-api",
+      "provider": "British Geological Survey / WDC for Geomagnetism Edinburgh",
+      "service_name": "WDC Edinburgh REST API",
+      "geographic_coverage": "Worldwide magneticobservatories and geomagneticproducts; individual supplier/source scope differs",
+      "topical_coverage": "geospatial | climate/weather/environment | astronomy | research",
+      "dataset_families": "Observatory metadata, geomagneticmeasurements/means, availability, indices, historicalyearbooks and associatedproducts",
+      "documentation_url": "https://wdcapi.bgs.ac.uk/docs",
+      "api_base_url": "https://wdcapi.bgs.ac.uk/",
+      "format_protocol": "Native OpenAPIJSON and RESTJSON descriptor response; metadata/data endpoints documented",
+      "authentication": "Anonymous OpenAPI and one observatorydescriptor GET succeeded, no credentials",
+      "free_access_restrictions": "Native usage rules allow unrestricted scientificuse; commercialapplications directed to relevant contributinginstitute. Broadunrestrictedreuse not established",
+      "license": "Custom scientific-use grant; commercial-use supplier consultation, attribution requested",
+      "license_url": "https://wdc.bgs.ac.uk/usage",
+      "api_verification_state": "Native ownerData page links exactAPIhost; nativeOpenAPIHTTP200validJSON and ESKdescriptorHTTP200validJSON withobservatory_iaga_codeESK",
+      "latest_checked_utc": "2026-10-18T04:08:37.813994+00:00",
       "classification": "restricted"
     },
     {
