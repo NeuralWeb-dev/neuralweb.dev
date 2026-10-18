@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T09:42:00.139575+00:00",
+  "published_at": "2026-10-18T09:44:03.208619+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:40:58.647436+00:00",
+  "research_updated_at": "2026-10-18T09:43:29.838323+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PURR OAI Identify verified; native non-commercial terms restricted. MDZ 66 pages/66000 manifest references, incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to81pages/81000refs;3132503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 387,
-    "candidates": 979,
+    "candidates": 982,
     "excluded": 288,
     "sample_successes": 465
   },
@@ -13558,6 +13558,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "aussda-social-science-dataverse",
+      "provider": "AUSSDA / University of Vienna and institutional partners",
+      "service_name": "AUSSDA research metadata and archived-data APIs",
+      "geographic_coverage": "Austrian social-science archive; dataset-specific populations and geography unenumerated",
+      "topical_coverage": "demographics | education | research",
+      "dataset_families": "Social-science archive metadata, data and documentation; open, scientific-use and controlled materials distinguished",
+      "documentation_url": "https://aussda.at/en/terms-of-service/ | https://aussda.at/en/contracts-and-licenses/",
+      "api_base_url": "https://data.aussda.at/oai",
+      "format_protocol": "Instance Dataverse API acknowledged in native terms; OAI-PMH exact endpoint registry-discovered, runtime held",
+      "authentication": "Metadata grant public; certain services require registration and source controlled records require approval. No registration/token/account.",
+      "free_access_restrictions": "Native API terms prohibit unreasonable bandwidth, selling/leasing/sublicensing downloaded information and revenue from API software/access. Exact reconciliation with metadata CC0 remains unresolved; no price/free-all-source claim.",
+      "license": "Metadata explicitly CC0 1.0; source archived records CC BY4, scientific-use or other approved licences; API contractual restrictions unresolved",
+      "license_url": "https://aussda.at/en/terms-of-service/ | https://aussda.at/en/contracts-and-licenses/",
+      "api_verification_state": "Native contracts and terms HTTP200 HTML. Exact OAI Identify target deferred by robots/inaccessible-robots guard, not sent; no API response or alternative REST/OAI/backend query.",
+      "latest_checked_utc": "2026-10-18T09:43:17.548156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "austin-open-data",
       "provider": "City of Austin",
       "service_name": "Austin Socrata metadata and data API portal",
@@ -20650,6 +20668,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mardi-papayanetbase",
+      "provider": "Malaysian Agricultural Research and Development Institute",
+      "service_name": "PapayaNetBase research discovery portal",
+      "geographic_coverage": "Malaysian institutional provider per registry; dataset geography not verified",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Registry-listed papaya research portal; current native dataset coverage unverified",
+      "documentation_url": "http://cpedb.mardi.gov.my/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown; no credentials or source requests",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown source/database/metadata reuse grant",
+      "license_url": "",
+      "api_verification_state": "Original root returned HTTP200 headers then body read timed out; saved empty body with timeout. Not successful HTML documentation or API response and not evidence service nonexistent.",
+      "latest_checked_utc": "2026-10-18T09:43:17.548156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "marine-data-germany-portal",
       "provider": "Alfred Wegener Institute / German Marine Research Alliance",
       "service_name": "Marine Data Portal distributed marine research discovery",
@@ -20753,8 +20789,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across66successfulpages/66000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T09:38:23.318505+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across81successfulpages/81000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T09:43:25.081589+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28188,7 +28224,25 @@
       "license": "USGS-authored/produced data policy states U.S. Public Domain; exact item/partner/image rights vary, blanket metadata/database/source grant unconfirmed",
       "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits | https://www.sciencebase.gov/catalog/item/58f7fadae4b0b7ea5451fc5c?format=json",
       "api_verification_state": "native_anonymous_documented_item_JSON_success_sample_reuse_condition_and_universal_catalogue_grant_unresolved",
-      "latest_checked_utc": "2026-10-17T21:10:55.213296+00:00",
+      "latest_checked_utc": "2026-10-18T09:43:17.548156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usgs-seismic-design-services",
+      "provider": "U.S. Geological Survey Earthquake Hazards Program",
+      "service_name": "Seismic Design Data Web Services",
+      "geographic_coverage": "Seismic design reference services; exact supported standards/territories unverified",
+      "topical_coverage": "geospatial | housing | environment | research",
+      "dataset_families": "Seismic design reference parameter services; no parameter or coordinate computation requested",
+      "documentation_url": "https://www.usgs.gov/tools/seismic-design-data-web-services | https://earthquake.usgs.gov/ws/designmaps/",
+      "api_base_url": "https://earthquake.usgs.gov/ws/designmaps/",
+      "format_protocol": "Published web-service URL verified as HTTP200 HTML application shell; exact operation schema/protocol unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "USGS-authored data U.S. public domain policy; exact seismic reference-source and worldwide grant unresolved",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "api_verification_state": "Native directory/landing HTTP200 HTML publishes exact designmaps URL; that URL HTTP200 minimal Designmap Services HTML shell, no JSON/XML/schema/source response.",
+      "latest_checked_utc": "2026-10-18T09:43:17.548156+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
