@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:55:55.851556+00:00",
+  "published_at": "2026-10-18T19:57:58.697014+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:55:37.121686+00:00",
+  "research_updated_at": "2026-10-18T19:57:51.368047+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GHGA scoped nonpersonalCCBY/OpenAPI verified; BSE29formatJSON/data grantgap; BEGDB interfacebulk restriction.",
+  "latest_milestone": "GHGA nonpersonalmetadataCCBY/OpenAPI; BSEformatsJSON/grantgap; GUDeCC0/publicAPIgap; BEGDBbulkrestriction; RepisaludOAI/CC0-NCconflict; C19workrefs.",
   "counts": {
     "verified": 450,
-    "candidates": 1326,
-    "excluded": 382,
+    "candidates": 1328,
+    "excluded": 383,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -1093,6 +1093,7 @@
           "asf-sar-search-catalog",
           "auscope-earthbank",
           "aws-open-data-registry",
+          "basis-set-exchange",
           "biostudies",
           "biotime-biodiversity-timeseries",
           "bluecloud-resource-catalogue",
@@ -3160,6 +3161,7 @@
           "liss-panel-research-access",
           "nako-controlled-transferhub",
           "pkrxiv-pharmacokinetic-repository",
+          "repisalud-repository",
           "rki-research-data-centre",
           "share-eric-research-data",
           "ship-pomerania-cohort-access",
@@ -3278,6 +3280,7 @@
           "gesis-german-microdata-lab",
           "glasgow-enlighten-research-data",
           "globedata-research-repository",
+          "goethe-gude-repository",
           "gotriple",
           "granada-university-open-data",
           "gro-data-repository",
@@ -3370,6 +3373,7 @@
           "neps-survey-research-access",
           "open-university-ordo",
           "qualibi-qualitative-education",
+          "repisalud-repository",
           "swiss-al-fcs",
           "zpid-rdc-controlled-research"
         ]
@@ -4132,6 +4136,7 @@
           "gin-gnode-data-services",
           "glasgow-enlighten-research-data",
           "globedata-research-repository",
+          "goethe-gude-repository",
           "gotriple",
           "granada-university-open-data",
           "gro-data-repository",
@@ -4311,6 +4316,7 @@
           "open-university-ordo",
           "pkrxiv-pharmacokinetic-repository",
           "qualibi-qualitative-education",
+          "repisalud-repository",
           "risc-social-cohesion-data-centre",
           "rki-research-data-centre",
           "samd-atmospheric-measurements",
@@ -16900,6 +16906,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "c19-data-collective",
+      "provider": "Nineteenth-Century Data Collective / Princeton research repository support",
+      "service_name": "C19 Data Collective cultural data portal",
+      "geographic_coverage": "Nineteenth-century literary/cultural research, circa1800-1900; sources vary",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Peer-reviewed humanities dataset descriptions and data essays; four published directory references",
+      "documentation_url": "https://c19datacollective.com/criteria | https://c19datacollective.com/data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://c19datacollective.com/criteria",
+      "api_verification_state": "Native root/criteria/data-directoryHTTP200. No public machineAPI established in inspected owner docs; no WordPress/backend/Princeton-repository API guessed.",
+      "latest_checked_utc": "2026-10-18T19:57:00.748918+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "caida-asrank-api",
       "provider": "CAIDA / University of California San Diego",
       "service_name": "AS Rank GraphQL and REST API",
@@ -22495,6 +22519,24 @@
       "license_url": "https://goa.nceas.ucsb.edu/goa/d1/mn/v2/object/df35a.16.11",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:25.846570+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "goethe-gude-repository",
+      "provider": "Goethe University Frankfurt",
+      "service_name": "Goethe University Data Repository GUDe interfaces",
+      "geographic_coverage": "Germany institutional research; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research data descriptions and project/institution relationships; files per license",
+      "documentation_url": "https://docs.gude.uni-frankfurt.de/en/faqs/ | https://docs.gude.uni-frankfurt.de/en/contract_portal/",
+      "api_base_url": "https://api.gude.uni-frankfurt.de/ (HAL browser, not verified JSON API base)",
+      "format_protocol": "REST documented; HTML HAL browser returned, no machine API response verified",
+      "authentication": "FAQ REST use available to university members/affiliates; tokens/account procedure separate, no account used",
+      "free_access_restrictions": "Public metadataCC0; REST FAQ restricted to institutional members/affiliates with prior development notification; exact anonymous-read eligibility unresolved. FAQ old test-phase pricing is not current free-tier proof.",
+      "license": "CC0 metadata explicit; per-source file licenses; public API access unresolved",
+      "license_url": "https://docs.gude.uni-frankfurt.de/en/contract_portal/",
+      "api_verification_state": "Native root/contract/FAQHTTP200. Exact owner-linked APIrootHTTP200HTML HALbrowser, not JSON/API success. No underlying endpoint/path/token/harvest requested.",
+      "latest_checked_utc": "2026-10-18T19:57:00.748918+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -44151,6 +44193,24 @@
       "license_url": "https://data.bs.ch/terms/terms-and-conditions/ | https://data.bs.ch/explore/dataset/100189/information/",
       "api_verification_state": "historical_catalog_metadata_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:33:40.805266+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "repisalud-repository",
+      "provider": "Instituto de Salud Carlos III / CNIC / CNIO",
+      "service_name": "Repisalud OAI metadata service",
+      "geographic_coverage": "Spain biomedical institutional outputs; research geography varies",
+      "topical_coverage": "health | research | education",
+      "dataset_families": "Research, institutional, teaching, scientific events and editorial metadata; underlying files separate",
+      "documentation_url": "https://bncs.isciii.es/repisalud",
+      "api_base_url": "https://repisalud.isciii.es/rest/oai/openaire4",
+      "format_protocol": "OAI-PMH XML",
+      "authentication": "Anonymous original OAI Identify succeeded; other operations untested",
+      "free_access_restrictions": "Metadata freely accessible; native policy expressly limits metadata reuse to noncommercial purposes with OAI/original link acknowledgment despite CC0 statement. Files per license, fulltext robot collection restricted.",
+      "license": "Conflicting CC0/public-domain declaration and explicit noncommercial metadata-reuse condition",
+      "license_url": "https://bncs.isciii.es/documents/d/isciii-biblioteca-y-museo/repisalud_politicas-1-pdf?download=true",
+      "api_verification_state": "Native root/owner policy linkHTTP200. Original registered OAI IdentifyHTTP200validOAI/noerror. Native detailed policyPDFHTTP200read via officialPDFreader; footer alone not relied on.",
+      "latest_checked_utc": "2026-10-18T19:57:00.748918+00:00",
       "classification": "restricted"
     },
     {
