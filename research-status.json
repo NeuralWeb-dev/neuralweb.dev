@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T10:49:39.248380+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T10:51:43.059973+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:47:54.353305+00:00",
+  "research_updated_at": "2026-10-18T10:50:46.563705+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ISMN held/account downloader; Telkom OAIIdentify; Kielipankki FCSdedup/currentterms/Korp2635refs/CMDIdocs; MDZ272000refs/272pages incomplete.",
+  "latest_milestone": "ORNL/USU sourceholds and identity/interface gaps; MetaNetX scopedSIBBY4/constantASK/58schema declarations; MDZ288000refs/288pages incomplete.",
   "counts": {
-    "verified": 390,
-    "candidates": 1012,
+    "verified": 391,
+    "candidates": 1014,
     "excluded": 293,
     "sample_successes": 465
   },
@@ -126,6 +126,7 @@
           "nasa-power",
           "nasc-plant-stock-webservices",
           "ocha-hapi",
+          "ornl-daac-biogeochemical-archive",
           "plant-adaptation-hub",
           "publisso-life-sciences-repository",
           "wdcrre-resources-environment",
@@ -234,6 +235,7 @@
           "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "nsidc",
+          "ornl-daac-biogeochemical-archive",
           "planetary-computer",
           "pubchem-pug-services",
           "publisso-life-sciences-repository",
@@ -319,6 +321,7 @@
           "nced-data-repository",
           "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
+          "ornl-daac-biogeochemical-archive",
           "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
           "usgs-sciencebase-catalogue",
@@ -700,6 +703,7 @@
           "ncbi-genome-datasets",
           "ncbi-taxonomy-services",
           "ncbi-virus-datasets",
+          "ornl-daac-biogeochemical-archive",
           "planetary-computer",
           "plant-adaptation-hub",
           "proteomexchange-proteomecentral",
@@ -875,6 +879,7 @@
           "nasc-plant-stock-webservices",
           "ocha-hapi",
           "olac-language-archives-network",
+          "ornl-daac-biogeochemical-archive",
           "osi-licenses",
           "perspectivia",
           "plant-adaptation-hub",
@@ -1103,6 +1108,7 @@
           "nodc-ieo-geonetwork",
           "olac-language-archives-network",
           "open-data-lmu",
+          "ornl-daac-biogeochemical-archive",
           "osi-licenses",
           "perspectivia",
           "plant-adaptation-hub",
@@ -4769,7 +4775,8 @@
           "singapore"
         ],
         "candidate_provider_ids": [
-          "telkom-university-dataverse"
+          "telkom-university-dataverse",
+          "usu-sumatera-utara-repository"
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository"
@@ -4863,7 +4870,8 @@
         "candidate_provider_ids": [
           "mardi-papayanetbase",
           "philippines",
-          "thailand-gistda"
+          "thailand-gistda",
+          "usu-sumatera-utara-repository"
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository"
@@ -4877,7 +4885,8 @@
         ],
         "candidate_provider_ids": [
           "mardi-papayanetbase",
-          "telkom-university-dataverse"
+          "telkom-university-dataverse",
+          "usu-sumatera-utara-repository"
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository",
@@ -9739,6 +9748,24 @@
       "license_url": "https://api.met.no/doc/License | https://www.met.no/en/free-meteorological-data/Licensing-and-crediting",
       "api_verification_state": "native_B_Y4_NLOD2_API_docs_and_anonymous_Locationforecast_point_JSON_success",
       "latest_checked_utc": "2026-10-17T22:55:16.537109+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "metanetx-sparql-resource",
+      "provider": "MetaNetX / SIB Swiss Institute of Bioinformatics / Vital-IT",
+      "service_name": "MetaNetX integrated-resource SPARQL endpoint",
+      "geographic_coverage": "Integrated biochemical/metabolic knowledge across research organisms; not terrestrial geographic coverage",
+      "topical_coverage": "research | biology | biodiversity | health",
+      "dataset_families": "Integrated chemical/reaction/compartment cross-references and metabolic-network schema; only constant query and static RDF schema inspected",
+      "documentation_url": "https://rdf.metanetx.org/ | https://www.metanetx.org/mnxdoc/help.html | https://www.expasy.org/resources/metanetx-sparql-endpoint",
+      "api_base_url": "https://rdf.metanetx.org/sparql/",
+      "format_protocol": "SPARQL HTTPGET; native application/sparql-results+json boolean response; linked Turtle schema text",
+      "authentication": "Anonymous constantASK GET succeeded; source/model/private or write operations not tested",
+      "free_access_restrictions": "Public endpoint documented and no credentials for constant probe; numeric quota unverified, no rate testing or source acquisition",
+      "license": "Creative Commons Attribution 4.0 International for the SIB-listed MetaNetX SPARQL resource",
+      "license_url": "https://www.expasy.org/resources/metanetx-sparql-endpoint",
+      "api_verification_state": "Native main/help/RDF docs and SIBgrant200HTML. Published endpoint constant ASK{}200validSPARQLJSON booleantrue, no source triples/pattern queried. Linked RDFschema200Turtletext; lexical declarations indexed, not full RDF validation.",
+      "latest_checked_utc": "2026-10-18T10:49:58.635037+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21169,8 +21196,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across272successfulpages/272000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:45:09.347885+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across288successfulpages/288000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:50:13.030114+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23745,6 +23772,24 @@
       "license_url": "https://www.tylertech.com/terms | https://data.oregon.gov/developers",
       "api_verification_state": "documented_examples_HTTP404_current_runtime_unresolved",
       "latest_checked_utc": "2026-10-17T12:06:52.130034+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ornl-daac-biogeochemical-archive",
+      "provider": "NASA ORNL DAAC / Oak Ridge National Laboratory",
+      "service_name": "ORNL DAAC biogeochemical data access services",
+      "geographic_coverage": "Terrestrial biogeochemistry, ecology and environmental research; mission/project footprints vary globally",
+      "topical_coverage": "climate/weather/environment | biodiversity | agriculture | water | research",
+      "dataset_families": "Biogeochemical/ecological mission and field research archives; indexed TESViS subset-tool lead, other exact families unverified",
+      "documentation_url": "https://www.earthdata.nasa.gov/centers/ornl-daac/data-access-tools | https://modis.ornl.gov/data/modis_webservice.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner portal/docs access held; registry registration claim not current universal source-auth proof. No Earthdata account/token.",
+      "free_access_restrictions": "Unknown exact per-service/source access; registration/processing source conditions require review, no acquisition/job",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-use-policy",
+      "api_verification_state": "Original Earthdata tools page guard-deferred unsent. Indexed owner TESViS documentation supports interface lead only; no native ORNL deployed API/schema/runtime response.",
+      "latest_checked_utc": "2026-10-18T10:49:58.635037+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28875,6 +28920,24 @@
       "license_url": "https://aa.usno.navy.mil/about/PrivacyNotice",
       "api_verification_state": "Native API guide/help/own rights notice HTTP200; bounded moon-phase request HTTP200 valid JSON, one phasedata element",
       "latest_checked_utc": "2026-10-18T01:49:37.153273+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usu-sumatera-utara-repository",
+      "provider": "Universitas Sumatera Utara / USU Library",
+      "service_name": "USU Indonesian institutional repository",
+      "geographic_coverage": "Universitas Sumatera Utara institutional research, Indonesia; exact source geography unenumerated",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional scholarly works and student final-project/thesis repository per independent owner library guide; source records not fetched",
+      "documentation_url": "https://library.usu.ac.id/id | https://repositori.usu.ac.id/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Repository root held; current exact API/public/private access unknown, no account/login",
+      "free_access_restrictions": "Library describes repository reference access, not blanket open commercial reuse; exact source terms unresolved",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.usu.ac.id/id",
+      "api_verification_state": "Original repository guard-deferred unsent. Independent owner library context200HTML links exact repository; no formal readAPI/schema/runtime verified.",
+      "latest_checked_utc": "2026-10-18T10:49:58.635037+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
