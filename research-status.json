@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T11:26:35.565267+00:00",
+  "published_at": "2026-10-18T11:28:38.511424+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:24:27.155513+00:00",
+  "research_updated_at": "2026-10-18T11:26:56.584168+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Open Tree project metadata CC0/read-only JSON verified; OpenWorm API and USDA source rights unresolved; MDZ366000references incomplete.",
+  "latest_milestone": "St Matthias website BY4/images restricted; PSL native OPeNDAP documented but429 held; NOAA CDR NDVI catalogues/DDS verified with explicit unrestricted data policy.",
   "counts": {
-    "verified": 394,
-    "candidates": 1022,
-    "excluded": 296,
+    "verified": 395,
+    "candidates": 1023,
+    "excluded": 297,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -10347,6 +10347,24 @@
       "license_url": "https://data.nist.gov/od/id/mds2-2422 | https://www.nist.gov/open/license",
       "api_verification_state": "Native public client code documents exact read-only route/ids option; bounded query HTTP200 valid JSON with pageNum,pageSize,size,results. Native product catalogue JSON/license policy HTTP200.",
       "latest_checked_utc": "2026-10-18T01:36:25.955072+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "noaa-cdr-thredds",
+      "provider": "NOAA NCEI Climate Data Record Program",
+      "service_name": "NOAA CDR THREDDS / OPeNDAP: verified NDVI interface",
+      "geographic_coverage": "Global NDVI product documented from1981 to near-present; other CDRs vary across global/ocean/polar/regional coverage",
+      "topical_coverage": "climate/weather/environment | agriculture | oceans | research",
+      "dataset_families": "Program atmospheric, fundamental, oceanic and terrestrial CDR families; verified API/schema scope NDVI AVHRR/VIIRS aggregation only",
+      "documentation_url": "https://www.ncei.noaa.gov/products/climate-data-records | https://www.ncei.noaa.gov/products/climate-data-records/normalized-difference-vegetation-index | https://www.ncei.noaa.gov/thredds/catalog/satellite/avhrr-viirs-ndvi.html",
+      "api_base_url": "https://www.ncei.noaa.gov/thredds/dodsC/",
+      "format_protocol": "THREDDS XML catalogue / OPeNDAP DDS schema; catalogue also declares WMS/WCS/NetCDF subset interfaces, unexecuted",
+      "authentication": "Anonymous catalogues and DDS succeeded; optional registration for product notifications, not used",
+      "free_access_restrictions": "CDR data public and unrestricted in native program policy; source software separately owned. Native owner warns cloud migration may delay access.",
+      "license": "Explicit CDR program no-restrictions data-use policy; production software separate",
+      "license_url": "https://www.ncei.noaa.gov/pub/data/sds/cdr/CDRs/Normalized_Difference_Vegetation_Index/UseAgreement_01B-20b.pdf",
+      "api_verification_state": "Native program/variable/NDVI guides and THREDDS HTML200; two THREDDS catalogues200validXML and exact aggregation DDS200textschema, 11unique field declarations. No observations/coordinate values or source files fetched.",
+      "latest_checked_utc": "2026-10-18T11:26:51.084214+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23186,6 +23204,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "noaa-psl-opendap",
+      "provider": "NOAA Physical Sciences Laboratory",
+      "service_name": "PSL gridded climate THREDDS / OPeNDAP services",
+      "geographic_coverage": "Global gridded climate and weather products; regional/point/reanalysis coverage varies by dataset",
+      "topical_coverage": "climate/weather/environment | water | oceans | research",
+      "dataset_families": "Documented gridded weather/climate, reanalysis and atmospheric/oceanic time-series families; no observations acquired",
+      "documentation_url": "https://psl.noaa.gov/data/help/using_opendap.html | https://psl.noaa.gov/data/",
+      "api_base_url": "https://psl.noaa.gov/thredds/dodsC/",
+      "format_protocol": "Documented OPeNDAP/netCDF remote access, THREDDS catalogue XML; runtime requests429",
+      "authentication": "Native docs describe public/anonymous access; no credentials used; current machine access429",
+      "free_access_restrictions": "Owner freely provides products within resources; non-operational service, experimental products, availability not guaranteed",
+      "license": "Qualified native public-domain statement; marked and third-party source terms require review",
+      "license_url": "https://psl.noaa.gov/disclaimer/",
+      "api_verification_state": "Native data/root, disclaimer and OPeNDAP guide200HTML. Catalog XML429 and prequeued documented DDS429, not successful machine responses; held. No inference of API nonexistence.",
+      "latest_checked_utc": "2026-10-18T11:26:51.084214+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nodc-ieo-geonetwork",
       "provider": "IEO-CSIC Spanish National Oceanographic Data Centre",
       "service_name": "NODC IEO GeoNetwork metadata catalogue",
@@ -35839,6 +35875,24 @@
       "license_url": "http://www.stateofthesalmon.org/resources/sosdb.php",
       "api_verification_state": "native_NCSA2_database_grant_and_download_discovery_verified_query_API_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:35:23.692462+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "stmatthias-virtual-scriptorium",
+      "provider": "Trier University / Trier municipal library and project partners",
+      "service_name": "Virtuelles Skriptorium St. Matthias portal: restricted image component",
+      "geographic_coverage": "Medieval Trier abbey manuscripts held internationally; owner project describes about500codices across25locations, not an enumerated inventory",
+      "topical_coverage": "culture | research | law/civic data",
+      "dataset_families": "Medieval manuscript catalogue and digitisation portal; no manuscript corpus/images/OCR/source records acquired",
+      "documentation_url": "https://stmatthias.uni-trier.de/?l=n&s=projekt+%7C+https%3A%2F%2Fstmatthias.uni-trier.de%2F%3Fl%3Dn&s=impressum",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Website catalogue visible; manuscript image components restricted to personal use and further use needs permission; exact API/access terms unresolved",
+      "license": "Website information CC BY4 except marked exceptions; specified manuscript images personal-use/republication restrictions",
+      "license_url": "https://stmatthias.uni-trier.de/?l=n&s=impressum+%7C+https%3A%2F%2Fstmatthias.uni-trier.de%2Findex.php%3Fl%3Dn&s=nutzung_db+%7C+https%3A%2F%2Fstmatthias.uni-trier.de%2Findex.php%3Fl%3Dn&s=nutzung_sb",
+      "api_verification_state": "Native root/project/imprint/two specific use policies 200HTML; exact public machine API not documented or tested",
+      "latest_checked_utc": "2026-10-18T11:26:51.084214+00:00",
       "classification": "restricted"
     },
     {
