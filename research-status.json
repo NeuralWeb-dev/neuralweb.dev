@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:57:46.791894+00:00",
+  "published_at": "2026-10-18T00:59:49.271741+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:56:22.908573+00:00",
+  "research_updated_at": "2026-10-18T00:58:31.444347+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks reviewed: eleven records added, CMR updated. Alkmaar CC0/OAI10sets verified; metadata/output grants separated from source rights and unresolved APIs.",
+  "latest_milestone": "ORTOLANG REST nativeJSON verified, FCS policy updated; mediaTUM and GRANTS portal/API/rights gaps preserved.",
   "counts": {
     "verified": 326,
-    "candidates": 693,
+    "candidates": 696,
     "excluded": 180,
     "sample_successes": 469
   },
@@ -15641,6 +15641,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "jst-grants-data",
+      "provider": "Japan Science and Technology Agency",
+      "service_name": "GRANTS Data institutional research repository",
+      "geographic_coverage": "Japanese publicly funded research deposits; source-specific geographic/subject scope",
+      "topical_coverage": "research",
+      "dataset_families": "Publicly funded research data and metadata; source licences and embargoes vary",
+      "documentation_url": "https://support-grantsdata.jst.go.jp/en/files/GRANTS-Data_Terms_and_Condition_for_Using_v1.00.pdf",
+      "api_base_url": "",
+      "format_protocol": "Official terms confirm Figshare platform; registry OAI set untested",
+      "authentication": "Official terms distinguish public viewing from registered deposit/use; no account",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://support-grantsdata.jst.go.jp/en/files/GRANTS-Data_Terms_and_Condition_for_Using_v1.00.pdf",
+      "api_verification_state": "Original portal root guard-deferred; independent native JST terms PDFHTTP200, no portal-specific API response",
+      "latest_checked_utc": "2026-10-18T00:58:27.283072+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "juelich-b2share-public-metadata",
       "provider": "Forschungszentrum Jülich / Jülich Supercomputing Centre",
       "service_name": "Local Jülich B2SHARE public record metadata REST API",
@@ -16250,6 +16268,24 @@
       "license_url": "",
       "api_verification_state": "Native three OAI verbs HTTP200 valid OAI XML, no protocol errors",
       "latest_checked_utc": "2026-10-18T00:45:31.837271+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mediatum-repository",
+      "provider": "Technical University of Munich University Library",
+      "service_name": "mediaTUM publication and research repository",
+      "geographic_coverage": "TUM and associated research; exact dataset locations vary",
+      "topical_coverage": "research | culture",
+      "dataset_families": "Publications, research data, images and multimedia; individual rights/access vary",
+      "documentation_url": "https://www.ub.tum.de/en/publication-server-mediatum",
+      "api_base_url": "https://mediatum.ub.tum.de/oai/ | https://mediatum.ub.tum.de/services/export/node/",
+      "format_protocol": "Official owner documents OAI/XML and other exports; registry REST/OAI endpoint claims untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://mediatum.ub.tum.de/doc/1711141/1711141.pdf",
+      "api_verification_state": "Native root guard-deferred; independent native owner pageHTTP200 documents publication/export service",
+      "latest_checked_utc": "2026-10-18T00:58:27.283072+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17761,7 +17797,25 @@
       "license": "unknown for FCS metadata/search content; no blanket open grant verified",
       "license_url": "https://www.ortolang.fr/en/home/charter/",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:57:16.307672+00:00",
+      "latest_checked_utc": "2026-10-18T00:58:27.283072+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ortolang-rest-metadata",
+      "provider": "ORTOLANG / CNRS ATILF / Université de Lorraine",
+      "service_name": "ORTOLANG REST public metadata-search service",
+      "geographic_coverage": "French and other language resources from French research and partners; resource-specific coverage",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Corpus, lexicon, terminology and tool metadata; corpus contents/source files not fetched",
+      "documentation_url": "https://www.ortolang.fr/en/help/rest-api/search-api/",
+      "api_base_url": "https://repository.ortolang.fr/api/search/metadata",
+      "format_protocol": "REST JSON outer object with JSON-encoded hit documents; native search parameter guide",
+      "authentication": "Anonymous one-record public search succeeded; workspace/restricted data permissions separate",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ortolang.fr/en/help/licenses/",
+      "api_verification_state": "Native search guideHTTP200; bounded metadata GETHTTP200 validJSON, one nested JSON-string hit parsed",
+      "latest_checked_utc": "2026-10-18T00:58:27.283072+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
