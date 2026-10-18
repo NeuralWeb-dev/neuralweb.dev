@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T03:16:53.463357+00:00",
+  "published_at": "2026-10-18T03:18:56.327467+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:12:39.633764+00:00",
+  "research_updated_at": "2026-10-18T03:18:11.915464+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Fifteen original tasks processed across five batches; CARS scopedCC0/TAP and tenreturnedscience-tablefrontier complete. NEDcurrentAPI/NODCsiteJSON active butdatagrants pending; multiple scopedrights/access distinctions verified.",
+  "latest_milestone": "CLARIN-LV localOAI131headerfrontier complete withCC0/notificationambiguity; VisibleHuman currentterms/cataloguemetadata verified; Dipteraheld.",
   "counts": {
     "verified": 344,
-    "candidates": 769,
+    "candidates": 772,
     "excluded": 215,
     "sample_successes": 468
   },
@@ -13321,6 +13321,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "clarin-lv-repository",
+      "provider": "University of Latvia / CLARIN-LV",
+      "service_name": "CLARIN-LV local OAI-PMH metadata API",
+      "geographic_coverage": "Latvia-based language resources/tools, primarilyLatvian with other language-specific collections; sourcecoveragevaries",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Linguistic resources, dictionaries/lexica/corpora and NLP-tool descriptive metadata; sourcefiles separatelylicensed",
+      "documentation_url": "https://repository.clarin.lv/repository/xmlui/page/metadata",
+      "api_base_url": "https://repository.clarin.lv/repository/oai/request",
+      "format_protocol": "OAI-PMH2 XML, oai_dc/CMDI documented; localIdentify and headerlist success",
+      "authentication": "AnonymouslocalIdentify and ListIdentifiers succeeded; sourcefilelogin/licence requirements separate, no accounts",
+      "free_access_restrictions": "Metadata declaredCC0/freelyaccessible; owner also reservesrightto be informed aboutcommercialmetadatausage. Additionalconditionmeaning unresolved; no contact/approvalmade",
+      "license": "Owner declares metadata publicdomain under CC0; separate commercial-notification reservation unresolved",
+      "license_url": "https://repository.clarin.lv/repository/xmlui/page/metadata | https://repository.clarin.lv/repository/xmlui/page/about",
+      "api_verification_state": "Nativepolicy/docs200; locallyprobedstandardOAIIdentify200validXML and twoListIdentifierspages200validXML. Officialformatlink points foreignLINDAT, notlocalproof; notfollowed. Native localruntime verifiedindependently.",
+      "latest_checked_utc": "2026-10-18T03:18:07.450859+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "clarin-pl-fcs",
       "provider": "CLARIN-PL language technology centre",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -18523,6 +18541,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nlm-visible-human-project",
+      "provider": "National Library of Medicine",
+      "service_name": "Visible Human Project and NLM catalogue metadata API",
+      "geographic_coverage": "Anatomical reference resource, non-administrative scientific coverage; exact sourceobjectrights/access scope reviewed separately",
+      "topical_coverage": "health | research | education",
+      "dataset_families": "VisibleHuman anatomical/MRI/CT reference dataset discovery; testedcatalogue record links to data, no image/clinical/sourcefiles fetched",
+      "documentation_url": "https://www.nlm.nih.gov/research/visible/getting_data.html",
+      "api_base_url": "https://datadiscovery.nlm.nih.gov/api/views/",
+      "format_protocol": "Socrata catalogue JSON descriptor verified; hrefview with0columns, not a tabular SODA/sourceimage queryAPI",
+      "authentication": "Catalogue metadata sampleanonymous; currentowneraccesspage says noFTPregistration since2019. No sourcefiles or agreements used",
+      "free_access_restrictions": "CurrentNLMdownloadterms say no charges/royalties, sourceacknowledgement/nonendorsement/currentnessconditions. Exact metadata/source copyright scope and sourcequeryAPI unresolved",
+      "license": "Current NLM distribution terms with attribution/nonendorsement/version disclosure; not blanketverifiedCC0/all-sourcepublicdomain",
+      "license_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions.html | https://www.nlm.nih.gov/web_policies.html#copyright",
+      "api_verification_state": "Nativeownerroot/access/currentterms/webpolicies200HTML. Anonymous catalogueJSON200validrecordux2j-9i9a/viewTypehref/0columns, no recordlicencefield. This is catalogue-metadata success, not anatomicalobject/tabular source-dataAPIresponse.",
+      "latest_checked_utc": "2026-10-18T03:18:07.450859+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nlr-geospatial-data-services",
       "provider": "National Laboratory of the Rockies",
       "service_name": "Geospatial data service directory and Solar Resource Data API",
@@ -22174,6 +22210,24 @@
       "license_url": "https://www.syracuse.edu/copyright/ | https://datasets.syr.edu/",
       "api_verification_state": "native19_published_dataset_descriptors_indexed_API_and_per_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T23:32:04.375262+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "systema-dipterorum",
+      "provider": "Systema Dipterorum",
+      "service_name": "Systema Dipterorum taxonomic resource candidate",
+      "geographic_coverage": "Taxonomic resource discovery candidate; exact current geographic/source coverage unverified",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Diptera nomenclatural/taxonomic resource discovery; current source families unverified",
+      "documentation_url": "http://www.diptera.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://www.diptera.org/HowToCiteCopyrights",
+      "api_verification_state": "Native root and registry-rights URL guard-deferred, targets notrequested. No exact currentAPI or machine response verified.",
+      "latest_checked_utc": "2026-10-18T03:18:07.450859+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
