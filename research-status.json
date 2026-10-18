@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T01:48:56.064621+00:00",
+  "published_at": "2026-10-18T01:50:58.474609+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:46:09.496572+00:00",
+  "research_updated_at": "2026-10-18T01:49:41.338590+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks reviewed, twelve records added. ThermoML/DaSCH metadata scopes verified; DaSCH8996unique IDs from90pages with continuation saved; native rights/API errors and holds retained.",
+  "latest_milestone": "NAPS exact OGL/data-interface gap and held Naval portal documented; HYDAT native collection mapped to existing GeoMet; independent USNO JSON API verified, licence scope pending.",
   "counts": {
     "verified": 332,
-    "candidates": 730,
+    "candidates": 733,
     "excluded": 196,
     "sample_successes": 468
   },
@@ -6657,7 +6657,7 @@
       "service_name": "MSC GeoMet OGC APIs and web services",
       "geographic_coverage": "Canada; collection-dependent geographic extents",
       "topical_coverage": "climate/weather/environment; water; geospatial",
-      "dataset_families": "Climate daily observations; real-time/archive weather and water datasets; OGC Features/WMS/WCS and experimental STAC interfaces documented",
+      "dataset_families": "Climate daily observations; real-time/archive weather and water datasets; OGC Features/WMS/WCS and experimental STAC interfaces documented; HYDAT historical hydrometric daily mean water level/flow collection metadata independently verified",
       "documentation_url": "https://eccc-msc.github.io/open-data/msc-geomet/readme_en/",
       "api_base_url": "https://api.weather.gc.ca/",
       "format_protocol": "OGC API/GeoJSON metadata and features; WMS/WCS; experimental STAC documented",
@@ -6666,7 +6666,7 @@
       "license": "ECCC Data Services End-use Licence heading2.1.1 (August2026); body versioning clause says2.1",
       "license_url": "https://eccc-msc.github.io/open-data/licence/readme_en/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:58:53.122108+00:00",
+      "latest_checked_utc": "2026-10-18T01:49:37.153273+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12303,6 +12303,24 @@
       "license_url": "https://opendata.cambridgeshireinsight.org.uk/about",
       "api_verification_state": "actual_single_dataset_metadata_sample_success_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T05:48:04.878168+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "canada-naps-data-portal",
+      "provider": "Environment and Climate Change Canada / NAPS partners",
+      "service_name": "National Air Pollution Surveillance data portal/query tool",
+      "geographic_coverage": "Canada ambient air monitoring in populated areas; source station/period coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Air pollutant concentrations including gases, particulate matter and chemical components; pre-generated data files and custom query tool",
+      "documentation_url": "https://www.canada.ca/en/environment-climate-change/services/air-pollution/monitoring-networks-data/national-air-pollution-program.html",
+      "api_base_url": "",
+      "format_protocol": "Native dataset record lists CSV/application/ZIP resources; browser query application JS shell",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Open Government Licence–Canada explicitly declared for NAPS dataset record; API unresolved",
+      "license_url": "https://open.canada.ca/data/en/dataset/1b36a356-defd-4813-acea-47bc3abd859b",
+      "api_verification_state": "Native programme and exact dataset licence page HTTP200; query tool HTTP200 JS shell, no successful query API response.",
+      "latest_checked_utc": "2026-10-18T01:49:37.153273+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22170,6 +22188,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "us-naval-oceanography-portal",
+      "provider": "US Naval Meteorology and Oceanography Command",
+      "service_name": "Naval Oceanography Portal",
+      "geographic_coverage": "Public naval oceanographic/meteorological products; exact source coverage unverified",
+      "topical_coverage": "oceans | climate/weather/environment | geospatial | research",
+      "dataset_families": "Naval Oceanography Portal",
+      "documentation_url": "https://www.metoc.navy.mil/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.navy.mil/Privacy-Policy/",
+      "api_verification_state": "Native portal guard-deferred unsent; independent Navy.mil policy HTTP200, no current portal query API verified",
+      "latest_checked_utc": "2026-10-18T01:49:37.153273+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "usaspending",
       "provider": "US Treasury / USAspending",
       "service_name": "US Treasury / USAspending API",
@@ -22275,6 +22311,24 @@
       "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits | https://www.sciencebase.gov/catalog/item/58f7fadae4b0b7ea5451fc5c?format=json",
       "api_verification_state": "native_anonymous_documented_item_JSON_success_sample_reuse_condition_and_universal_catalogue_grant_unresolved",
       "latest_checked_utc": "2026-10-17T21:10:55.213296+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usno-astronomical-applications-api",
+      "provider": "US Naval Observatory Astronomical Applications Department",
+      "service_name": "Astronomical Applications API",
+      "geographic_coverage": "Astronomical calendars/global ephemeris and location-dependent services; date-range limits vary",
+      "topical_coverage": "astronomy | research | culture",
+      "dataset_families": "Moon phases, calendar observances, celestial navigation and solar/lunar event calculations; one moon-phase output tested",
+      "documentation_url": "https://aa.usno.navy.mil/data/api",
+      "api_base_url": "https://aa.usno.navy.mil/api/",
+      "format_protocol": "REST JSON and GeoJSON services documented; API guide4.0.1",
+      "authentication": "Anonymous documented moon-phase GET succeeded without credentials; optional client ID not used, no institutional ID/contact",
+      "free_access_restrictions": "Native API guide documents service-specific date/count bounds; moon-phase date endpoint permits1–99 phases; general numeric quotas unknown",
+      "license": "Custom native public-information copy/distribution permission with exceptions; explicit adaptation/open licence unresolved",
+      "license_url": "https://aa.usno.navy.mil/about/PrivacyNotice",
+      "api_verification_state": "Native API guide/help/own rights notice HTTP200; bounded moon-phase request HTTP200 valid JSON, one phasedata element",
+      "latest_checked_utc": "2026-10-18T01:49:37.153273+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
