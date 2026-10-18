@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:53:41.285391+00:00",
+  "published_at": "2026-10-18T00:55:44.032787+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:52:05.980980+00:00",
+  "research_updated_at": "2026-10-18T00:54:05.662511+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SLUB OAI verified with object-specific rights; QDR restricted policies retained; OceanColor deduplicated to documented existing CMR.",
+  "latest_milestone": "Alkmaar scopedCC0 and OAI verified with10sets; IDOC conditionalEtalab/TAP docs and DASSI interface/licence gaps retained.",
   "counts": {
-    "verified": 325,
-    "candidates": 691,
+    "verified": 326,
+    "candidates": 693,
     "excluded": 177,
     "sample_successes": 469
   },
@@ -5027,6 +5027,24 @@
       "license_url": "https://datos.alcobendas.org/pages/aviso-legal",
       "api_verification_state": "official_API_documented_scoped_default_CCBY3ES_grant_verified_original_sample_policy_deferred",
       "latest_checked_utc": "2026-10-17T04:27:12.240659+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "alkmaar-open-archive",
+      "provider": "Regionaal Archief Alkmaar",
+      "service_name": "Alkmaar open archival/genealogical OAI services",
+      "geographic_coverage": "Alkmaar and regional Netherlands historical records; source periods differ",
+      "topical_coverage": "culture | demographics | law/civic data | research",
+      "dataset_families": "Genealogical record metadata and associated source images; EAD archival finding aids; other image collections separately licensed",
+      "documentation_url": "https://www.regionaalarchiefalkmaar.nl/over-ons/open-data",
+      "api_base_url": "https://webservices.memorix.nl/a2a/c8ffc9e6-191b-11e7-be90-60f81db16928 | https://archives.memorix.nl/NL-AmrRAA/oai-pmh",
+      "format_protocol": "OAI-PMH XML, advertised oai_a2a/a2a metadata formats; separate EAD interface",
+      "authentication": "Anonymous genealogical Identify/ListMetadataFormats/ListSets succeeded; EAD request guard-deferred",
+      "free_access_restrictions": "Owner explicitly permits CC0 copying/modification/distribution/commercial reuse for scoped genealogical metadata/images and EADs. Other image sets and source exclusions differ.",
+      "license": "CC0 for published genealogical metadata/associated images and EADs; other collections separately licensed",
+      "license_url": "https://www.regionaalarchiefalkmaar.nl/over-ons/open-data",
+      "api_verification_state": "Native public owner/API/rights pageHTTP200. Genealogy OAI Identify, formats and10 setsHTTP200 parsed XML; automatic service redirect retained. SeparateEAD request unsent by guard.",
+      "latest_checked_utc": "2026-10-18T00:54:01.307832+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12970,6 +12988,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dassi-social-science-repository",
+      "provider": "DASSI Data Archive for Social Sciences in Italy",
+      "service_name": "DASSI Dataverse research-data catalogue",
+      "geographic_coverage": "Italian-context social-science studies; exact deposited populations vary",
+      "topical_coverage": "demographics | research | law/civic data",
+      "dataset_families": "Social-science study metadata, data and documentation under author-selected terms",
+      "documentation_url": "https://www.dassi-archive.it/find-data/",
+      "api_base_url": "https://data.dassi-archive.it/api/search",
+      "format_protocol": "Registry Dataverse REST search claim; native operator confirms platform, not instance runtime",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.dassi-archive.it/find-data/",
+      "api_verification_state": "Native catalogue root guard-deferred; independent native owner guidanceHTTP200, no data API response",
+      "latest_checked_utc": "2026-10-18T00:54:01.307832+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "data-wa-catalogue-api",
       "provider": "Government of Western Australia / Data WA / participating publishers",
       "service_name": "Data WA CKAN catalogue API",
@@ -14965,6 +15001,24 @@
       "license_url": "https://www.idigbio.org/sites/default/files/iDigBio_Intellectual_Property_Policy_20141001.pdf",
       "api_verification_state": "prior_legacy_collection_metadata_JSON_success_current_hosted_portal_HTML_verified_about_policy_held",
       "latest_checked_utc": "2026-10-17T22:04:48.281731+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "idoc-data-services",
+      "provider": "IDOC / OSUPS / Université Paris-Saclay / CNRS",
+      "service_name": "IDOC-DATA scientific data and VO services",
+      "geographic_coverage": "Solar, planetary and astrophysical observations; exact subservice coverage differs",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "MEDOC solar physics, PSUP planetary surfaces, interstellar matter, cosmology and stellar data",
+      "documentation_url": "https://idoc.osups.universite-paris-saclay.fr/resources/vo/tap/",
+      "api_base_url": "",
+      "format_protocol": "Documented IVOA TAP/ADQL; Cone Search and SIAP interface references",
+      "authentication": "unknown",
+      "free_access_restrictions": "Native policy says mainly open/free, with temporary embargo exceptions; exact current dataset eligibility unreviewed",
+      "license": "Etalab Open Licence general data default unless dataset-specific terms override; GPL3+ software default separate",
+      "license_url": "https://idoc.osups.universite-paris-saclay.fr/resources/policy/",
+      "api_verification_state": "Native project, policy and TAP guideHTTP200 HTML; three service identifiers documented, no machine TAP sample",
+      "latest_checked_utc": "2026-10-18T00:54:01.307832+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
