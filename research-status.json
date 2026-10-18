@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:22:19.652912+00:00",
+  "published_at": "2026-10-18T01:24:22.709784+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:21:33.114885+00:00",
+  "research_updated_at": "2026-10-18T01:22:43.360445+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FULIR metadata CC0 and native OAI verified; WU and NLR retained with explicit source-rights and access gaps.",
+  "latest_milestone": "ScholarWorks and SNSB DWB retained as candidates; DiRROS native nonprofit metadata policy and OAI verified, classified restricted.",
   "counts": {
     "verified": 329,
-    "candidates": 716,
-    "excluded": 184,
+    "candidates": 718,
+    "excluded": 185,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -20546,6 +20546,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "snsb-dwb-biocase-rdf",
+      "provider": "SNSB IT Center",
+      "service_name": "DWB BioCASe publication pipeline and RDF services",
+      "geographic_coverage": "SNSB-owned and hosted biodiversity collections; geographic coverage varies",
+      "topical_coverage": "biodiversity | research | geospatial",
+      "dataset_families": "Biodiversity collection/observation datasource metadata and ABCD/RDF publication interfaces; no occurrence records acquired",
+      "documentation_url": "https://www.snsb.info/dwb_biocase.html",
+      "api_base_url": "http://biocase.snsb.info/wrapper; per-datasource query routes require exact review",
+      "format_protocol": "Owner documents BioCASe/ABCD and RDF+xml content negotiation via stable identifiers",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.snsb.info/dwb_biocase.html",
+      "api_verification_state": "Native service description and datasource directory HTTP200; no parsed occurrence/query API sample",
+      "latest_checked_utc": "2026-10-18T01:22:38.400966+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "solothurn-gis-dataservice",
       "provider": "Kanton Solothurn,Amt fuer Geoinformation",
       "service_name": "GIS Dataservice REST interface",
@@ -21695,6 +21713,24 @@
       "license_url": "https://data.go.kr/data/15052669/openapi.do",
       "api_verification_state": "official_named_key_required_API_documented_sample_untested",
       "latest_checked_utc": "2026-10-17T14:06:24.171722+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "umass-amherst-scholarworks",
+      "provider": "University of Massachusetts Amherst Libraries",
+      "service_name": "ScholarWorks institutional repository",
+      "geographic_coverage": "UMass Amherst research outputs; dataset geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "ScholarWorks institutional repository",
+      "documentation_url": "https://guides.library.umass.edu/scholarworks",
+      "api_base_url": "https://scholarworks.umass.edu/server/oai/request",
+      "format_protocol": "Registry OAI-PMH; owner guide documents repository migration June 2024",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://guides.library.umass.edu/scholarworks/submission_process",
+      "api_verification_state": "Native portal guard-deferred unsent; independent operator guide indexed; no current API response verified",
+      "latest_checked_utc": "2026-10-18T01:22:38.400966+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24865,6 +24901,24 @@
       "license_url": "https://digitalnz.org/about/terms-of-use/developer-api-terms-of-use",
       "api_verification_state": "documented_API_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.438678+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "dirros-research-repository",
+      "provider": "Central Technical Library / Slovenian research organizations",
+      "service_name": "DiRROS OAI-PMH repository",
+      "geographic_coverage": "Slovenian research organizations with international subject coverage",
+      "topical_coverage": "research | health | agriculture | climate/weather/environment | culture",
+      "dataset_families": "DiRROS OAI-PMH repository",
+      "documentation_url": "https://dirros.openscience.si/info/index.php/eng/policies",
+      "api_base_url": "https://dirros.openscience.si/oai/oai2.php",
+      "format_protocol": "OAI-PMH XML",
+      "authentication": "Anonymous Identify returned XML; some metadata and full items controlled",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom nonprofit-only general metadata reuse; item-specific exceptions",
+      "license_url": "https://dirros.openscience.si/info/index.php/eng/policies",
+      "api_verification_state": "Native root/policy HTTP200; anonymous OAI Identify HTTP200 parsed XML",
+      "latest_checked_utc": "2026-10-18T01:22:38.400966+00:00",
       "classification": "restricted"
     },
     {
