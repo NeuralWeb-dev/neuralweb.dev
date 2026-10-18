@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:27:06.052576+00:00",
+  "published_at": "2026-10-18T14:29:08.952011+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:27:04.921793+00:00",
+  "research_updated_at": "2026-10-18T14:28:20.847344+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed: Caltech/CIRAD OAI identities; Birkbeck CC0 metadata/OAI held; swMATH/LDbase indexed documentation/native holds; MorphoSource embedded OpenAPI and mixed usage terms; MDZ626000 incomplete.",
+  "latest_milestone": "CDCWONDER XMLPOST/statisticalrestricted; BindingDB scopedopen/indexedversionconflict/runtimeheld; NAKOcurrentpolicy4controlled",
   "counts": {
-    "verified": 428,
+    "verified": 429,
     "candidates": 1079,
-    "excluded": 319,
+    "excluded": 321,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -6717,6 +6717,24 @@
       "license_url": "https://www.bgs.ac.uk/technologies/web-services/api/",
       "api_verification_state": "documented_sample_success; fresh nativeguide200, no source/sample replay",
       "latest_checked_utc": "2026-10-18T11:00:00.430672+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "bindingdb-rest-api",
+      "provider": "BindingDB project",
+      "service_name": "BindingDB REST web services",
+      "geographic_coverage": "International protein-small-molecule binding research; exact current corpus unqueried",
+      "topical_coverage": "research | health",
+      "dataset_families": "BindingDB-curated binding knowledge and imported ChEMBL data, licensing partitions separate",
+      "documentation_url": "https://www.bindingdb.org/rwd/bind/BindingDBRESTfulAPI.jsp | https://bindingdb.org/rwd/bind/info.jsp",
+      "api_base_url": "",
+      "format_protocol": "Indexed owner REST documentation XML/JSON; native machine contract/runtime untested",
+      "authentication": "Current APIauthuntested; historical registration/download wording not generalized to all REST operations",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Curated data CC BY (3.0 vs4.0 primary-source version conflict); ChEMBL imports CC BY-SA3.0",
+      "license_url": "https://bindingdb.org/rwd/bind/info.jsp | https://academic.oup.com/nar/article/53/D1/D1633/7906836",
+      "api_verification_state": "Native guideguard-deferredtargetunsent, rootunsentafterhold. IndexedprimaryownerAPI/rightsreview only; no nativeJSON/XMLAPI/schema response.",
+      "latest_checked_utc": "2026-10-18T14:28:16.319392+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -34030,6 +34048,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "cdc-wonder-query-api",
+      "provider": "US Centers for Disease Control and Prevention",
+      "service_name": "CDC WONDER XML query web service",
+      "geographic_coverage": "United States public-health aggregate statistics; individual database coverage varies",
+      "topical_coverage": "health | demographics | environment",
+      "dataset_families": "Public-health statistical databases including mortality/natality and other WONDER presentations; current database inventory unenumerated",
+      "documentation_url": "https://wonder.cdc.gov/wonder/help/wonder-api.html | https://wonder.cdc.gov/wonder/help/faq.html",
+      "api_base_url": "https://wonder.cdc.gov/controller/datarequest/[database ID]",
+      "format_protocol": "HTTP POST XML request_xml / XML results documented, not REST GET JSON",
+      "authentication": "Explicit data-use acceptance parameter mandatory; other source-specific requirements not runtime-tested",
+      "free_access_restrictions": "Public documentation/service; statistical-use restrictions and suppression rules apply, no generic OGL grant",
+      "license": "Public-domain website statement subject to statistical-use/confidentiality restrictions",
+      "license_url": "https://wonder.cdc.gov/datause.html | https://wonder.cdc.gov/wonder/help/faq.html",
+      "api_verification_state": "Native API/policy/FAQ200HTML, exact XMLPOST contract documented; no actual query/results response or policy acceptance.",
+      "latest_checked_utc": "2026-10-18T14:28:16.319392+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "cdgp-geothermal-portal",
       "provider": "University of Strasbourg / EOST / CDGP",
       "service_name": "Deep Geothermal Data Centre portal(public API unresolved)",
@@ -36763,6 +36799,24 @@
       "license_url": "https://mygeohub.org/about/terms",
       "api_verification_state": "Native root/terms/WQBaseproject200HTML; project describes intention to develop RESTAPI/simplewebapp, not current deployed machine endpoint or successful API sample",
       "latest_checked_utc": "2026-10-18T12:39:59.376228+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nako-controlled-transferhub",
+      "provider": "NAKO e.V. / German National Cohort",
+      "service_name": "NAKO TransferHub controlled research access",
+      "geographic_coverage": "Germany population cohort",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Cohort health research data/biosamples; no participant data or dictionary rows queried",
+      "documentation_url": "https://nako.de/en/transferhub/ | https://nako.de/use-access-policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "TransferHubregistration/accountactivation and approvedprojectagreement required; no signup/application",
+      "free_access_restrictions": "Controlled approval/access terms; no free public source-data API established",
+      "license": "Controlled purpose-limited agreement, not open data",
+      "license_url": "https://nako.de/wp-content/uploads/nako-use-access-policy.pdf",
+      "api_verification_state": "Native transferpage200HTML and linkedcurrentpolicy200PDF successfullyreadasdocumentation; no publicqueryAPI verified.",
+      "latest_checked_utc": "2026-10-18T14:28:16.319392+00:00",
       "classification": "restricted"
     },
     {
