@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:29:08.952011+00:00",
+  "published_at": "2026-10-18T14:31:11.965474+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:28:20.847344+00:00",
+  "research_updated_at": "2026-10-18T14:30:31.606839+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CDCWONDER XMLPOST/statisticalrestricted; BindingDB scopedopen/indexedversionconflict/runtimeheld; NAKOcurrentpolicy4controlled",
+  "latest_milestone": "ALLBUSarchive-dedup/indexedrestrictions; CMUColdnoncommercialresearchonly; FRDRnativeOAIidentity/default-licenseexceptions",
   "counts": {
     "verified": 429,
-    "candidates": 1079,
-    "excluded": 321,
+    "candidates": 1080,
+    "excluded": 322,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -19358,6 +19358,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "frdr-repository",
+      "provider": "Digital Research Alliance of Canada",
+      "service_name": "Federated Research Data Repository OAI-PMH",
+      "geographic_coverage": "Canadian research data repository; external discovery services/source repositories separate",
+      "topical_coverage": "research | education | environment",
+      "dataset_families": "Multidisciplinary deposited research outputs; harvested external records retain source-repository terms",
+      "documentation_url": "https://www.frdr-dfdr.ca/docs/en/advanced/ | https://www.frdr-dfdr.ca/policies/en/terms_of_use/ | https://www.frdr-dfdr.ca/policies/en/access_reuse/",
+      "api_base_url": "https://frdr-dfdr.ca/oai/request",
+      "format_protocol": "OAI-PMH2.0 XML serviceidentityverified; current advancedRESTguide concerns authenticateddeposition, not anonymoussearchproof",
+      "authentication": "Anonymous public OAIIdentify succeeded; Globus/depositionauth/tokenexamples not used",
+      "free_access_restrictions": "Serviceidentitypublicanonymous; sourcefiles/access/embargoes perrecord. No accounts or transfer/deposit services used.",
+      "license": "CC0 default/CC0 or BY encouraged with alternative/custom licenses; metadata-wide effective grant unknown",
+      "license_url": "https://www.frdr-dfdr.ca/policies/en/terms_of_use/ | https://www.frdr-dfdr.ca/policies/en/access_reuse/",
+      "api_verification_state": "Native root/terms/reuse/advancedguide200HTML. AnonymouspublishedOAIfrontdoorIdentify200validXMLafterguardapprovedredirect; identityFRDR-DFDR/protocol2.0. ReturnedbaseURLproductionbackenddifferent, not requested or assumedpublicroute.",
+      "latest_checked_utc": "2026-10-18T14:30:27.116582+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gaia-blu-cruise-inventory",
       "provider": "D4Science / GaiaBluLab",
       "service_name": "Gaia Blu Cruise Inventory portal / claimed GCAT interface",
@@ -19687,8 +19705,8 @@
       "service_name": "GESIS Data Archive data access",
       "geographic_coverage": "International social-science archive; source coverage varies",
       "topical_coverage": "demographics | research | economics/finance | labor | education",
-      "dataset_families": "Survey/research-data archive; current native source/access policy held; ResearchDataCenterElections/GLESelectionresearch family, no distinctAPIverified",
-      "documentation_url": "https://www.gesis.org/en/data-services/share-data | https://www.gesis.org/en/gles/data-and-documentation",
+      "dataset_families": "Survey/research-data archive; current native source/access policy held; ResearchDataCenterElections/GLESelectionresearch family, no distinctAPIverified; ALLBUS/German General Social Survey archive family",
+      "documentation_url": "https://www.gesis.org/en/data-services/share-data | https://www.gesis.org/en/gles/data-and-documentation | https://www.gesis.org/allbus/daten-und-dokumentation",
       "api_base_url": "https://dbkapps.gesis.org/dbkoai/ (registry claim, untested)",
       "format_protocol": "Legacy OAI-PMH registry claim; current archive API contract unresolved",
       "authentication": "unknown",
@@ -19696,7 +19714,7 @@
       "license": "unknown verified data grant",
       "license_url": "",
       "api_verification_state": "Original owner archive policy guard-deferred, unsent; no legacy DBK/source API tested",
-      "latest_checked_utc": "2026-10-18T13:44:08.529306+00:00",
+      "latest_checked_utc": "2026-10-18T14:30:27.116582+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22773,8 +22791,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across626successfulpages/626000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:22:37.460868+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across639successfulpages/639000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:29:28.923802+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34279,6 +34297,24 @@
       "license_url": "https://portal.citf.mcgill.ca/data-access-process | https://portal.citf.mcgill.ca/assets/files/data-access-policy-en.pdf",
       "api_verification_state": "native_public_operator_access_requirements_verified_no_public_API_or_open_source_grant",
       "latest_checked_utc": "2026-10-17T21:36:35.871065+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "cmu-common-cold-project",
+      "provider": "Carnegie Mellon University / Common Cold Project",
+      "service_name": "Common Cold Project data access",
+      "geographic_coverage": "Five cold/psychosocial-health research studies; exact participant geography unqueried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Common Cold Project study data and documentation; no clinical/participant variables or records retrieved",
+      "documentation_url": "https://www.cmu.edu/common-cold-project/data/data-sharing-agreement/index.html | https://www.cmu.edu/common-cold-project/data/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Acceptance of data-sharing terms required before use; no acceptance/login/application submitted",
+      "free_access_restrictions": "No-cost research access described with mandatory restrictions/registration of analyses; no paid acquisition",
+      "license": "Noncommercial research-only data-sharing agreement",
+      "license_url": "https://www.cmu.edu/common-cold-project/data/data-sharing-agreement/index.html",
+      "api_verification_state": "Native agreement/dataoverview200HTML; no exact public queryAPI/schema or successfulmachine response verified.",
+      "latest_checked_utc": "2026-10-18T14:30:27.116582+00:00",
       "classification": "restricted"
     },
     {
