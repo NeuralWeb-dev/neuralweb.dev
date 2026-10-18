@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T02:58:27.925207+00:00",
+  "published_at": "2026-10-18T03:00:31.526857+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:57:00.715157+00:00",
+  "research_updated_at": "2026-10-18T02:59:35.939400+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Brainmuseum/ALEXA access holds and misattributed policy distinguished; WDC-Ukraine directory indexed with data-page404 and unresolved exact APIs/grants.",
+  "latest_milestone": "Nine original institutional/biochemical discovery tasks reviewed; three scoped-open and six candidates added. TU Wien CC0metadata/APIheld; BRENDA/M-CSA currentBY4/nativeJSON verified.",
   "counts": {
-    "verified": 342,
-    "candidates": 755,
+    "verified": 343,
+    "candidates": 757,
     "excluded": 213,
     "sample_successes": 468
   },
@@ -291,6 +291,7 @@
       "health": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "brenda-enzyme-data-api",
           "chebi",
           "datacommons",
           "doaj",
@@ -355,6 +356,7 @@
           "openaire-scholexplorer",
           "openalex",
           "ror",
+          "tu-wien-research-data",
           "unesco",
           "unhcr-portal",
           "unicef",
@@ -532,6 +534,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bcodmo-erddap-data-api",
+          "brenda-enzyme-data-api",
           "ensembl-rest-genome-service",
           "fdat-tuebingen-metadata-api",
           "gbif",
@@ -732,6 +735,7 @@
           "bgs",
           "bnf-catalogue",
           "bonndata-published-metadata",
+          "brenda-enzyme-data-api",
           "cchdo",
           "chebi",
           "chemotion-public-repository-api",
@@ -789,6 +793,7 @@
           "re3data",
           "ror",
           "toar-surface-observation-api",
+          "tu-wien-research-data",
           "unesco",
           "uniprot",
           "usgs-landsatlook-stac",
@@ -2406,6 +2411,7 @@
           "switzerland",
           "textgrid-public-repository",
           "torino-aperto-catalog-api",
+          "tu-wien-research-data",
           "ukraine-data",
           "wales-statistics",
           "warsaw-research-data-metadata",
@@ -2980,6 +2986,7 @@
           "slovenia-statistics",
           "staedel-museum-oai",
           "textgrid-public-repository",
+          "tu-wien-research-data",
           "uk-police",
           "warsaw-research-data-metadata"
         ],
@@ -3859,6 +3866,7 @@
         "candidate_provider_ids": [
           "busan-public-apis",
           "china-national-earth-observation-center",
+          "china-national-marine-data-information",
           "china-ncdc-cryosphere-desert-portal",
           "hk-weather",
           "japan-egov-data-catalog",
@@ -4008,6 +4016,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "china-national-marine-data-information",
           "tokyo-aori-cruise-database"
         ],
         "restricted_provider_ids": []
@@ -4044,6 +4053,7 @@
         ],
         "candidate_provider_ids": [
           "china-national-earth-observation-center",
+          "china-national-marine-data-information",
           "china-nbs",
           "china-ncdc-cryosphere-desert-portal",
           "cinii-books",
@@ -8552,6 +8562,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "mechanism-catalytic-site-atlas-api",
+      "provider": "EMBL-EBI / Thornton Group",
+      "service_name": "M-CSA Mechanism and Catalytic Site Atlas public API",
+      "geographic_coverage": "Cross-organism enzyme mechanisms and catalytic sites; scientific non-administrative coverage",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Curated enzyme entries, catalytic residues/roles, mechanisms/reactions, cofactors and molecular reference identifiers; homologue export distinct",
+      "documentation_url": "https://www.ebi.ac.uk/thornton-srv/m-csa/download/",
+      "api_base_url": "https://www.ebi.ac.uk/thornton-srv/m-csa/api/",
+      "format_protocol": "Public REST JSON entries and residues views; documented EC/UniProt/M-CSA-ID filters",
+      "authentication": "Native owner docs call API public; one filtered entries query succeeded anonymously. Curator/prediction login separate, unused",
+      "free_access_restrictions": "Public documented API and CC BY4; numeric usage allowance unknown. Large homologue download is separate and not fetched",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_url": "https://www.ebi.ac.uk/thornton-srv/m-csa/download/",
+      "api_verification_state": "Native search/download API docs200; filtered entries.mcsa_ids=1 returned200 valid JSON, count1/results1 and mcsa_id1. No protocol error/HTML counted as sample.",
+      "latest_checked_utc": "2026-10-18T02:58:46.025559+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "met-norway-weather-api",
       "provider": "Norwegian Meteorological Institute (MET Norway)",
       "service_name": "MET Weather API / Locationforecast",
@@ -12154,6 +12182,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bcgsc-chipseq-transcription-factor-data",
+      "provider": "Canada Michael Smith Genome Sciences Centre",
+      "service_name": "ChIP-Seq Transcription Factor Data portal candidate",
+      "geographic_coverage": "Human cell-line and mouse liver transcription-factor experiments; scientific rather than administrative geography",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Three published experiment rows: stimulated/unstimulated STAT1 human cell-line and FoxA2 mouse; old update dates not evidence project current data release",
+      "documentation_url": "https://www.bcgsc.ca/data/chipseq/chip-seq-data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Covered open-access data freely reusable under linked policy with attribution/exceptions; no source data acquired",
+      "license": "Owner open-access data policy: CC BY2.5 unless otherwise specified; explicit commercial/derivative reuse",
+      "license_url": "https://www.bcgsc.ca/data-release-policy-open-access",
+      "api_verification_state": "Native project page and linked data policy200HTML. Three experiment description rows/browser/download links observed, no documented public machine query API or successful API response.",
+      "latest_checked_utc": "2026-10-18T02:58:46.025559+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bdgp-insitu-discovery",
       "provider": "Berkeley Drosophila Genome Project",
       "service_name": "BDGP in-situ gene-expression discovery resource",
@@ -12637,6 +12683,24 @@
       "license_url": "https://www.canadensys.net/about",
       "api_verification_state": "Native IPT client explicitly documents POST/api/resources through public catalogue JavaScript;15anonymous read-only pages HTTP200 valid JSON. Earlier /ipt/oai Identify HTTP200 was HTML, not valid OAI response; corrected without treating it as API success.",
       "latest_checked_utc": "2026-10-18T02:09:27.638720+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "candida-genome-database-api",
+      "provider": "Candida Genome Database",
+      "service_name": "Candida Genome Database REST candidate",
+      "geographic_coverage": "Candida fungal genomics, non-geographic scientific scope; exact current release coverage unverified",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Curated fungal genomic/gene/protein/phenotype resource discovery; current dataset/API schema unverified",
+      "documentation_url": "https://www.candidagenome.org/developer/api",
+      "api_base_url": "https://www.candidagenome.org/; exact query endpoint unverified",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Root and registry API-doc path200same JavaScript application shell; no human-readable guide or JSON API sample. Independent web reader reported403; no further host/backend/source requests.",
+      "latest_checked_utc": "2026-10-18T02:58:46.025559+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
