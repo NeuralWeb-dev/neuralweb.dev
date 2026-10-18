@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T11:30:41.391630+00:00",
+  "published_at": "2026-10-18T11:32:44.219338+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:30:33.137089+00:00",
+  "research_updated_at": "2026-10-18T11:31:31.314124+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to381pages/381000refs;2832503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "DIGITUM metadataBY4/APIhold; PSL reanalysis deduplicated without retry; NOMADS current GRIB filter documented/74route refs with OpenDAP removal, no source binary requests.",
   "counts": {
-    "verified": 395,
-    "candidates": 1023,
+    "verified": 396,
+    "candidates": 1024,
     "excluded": 297,
     "sample_successes": 465
   },
@@ -10368,6 +10368,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "noaa-ncep-nomads",
+      "provider": "NOAA NWS / NCEP Central Operations",
+      "service_name": "NCEP NOMADS GRIB Filter service: NCEP-origin scope",
+      "geographic_coverage": "Global and regional NCEP model products; model-specific regional/polar/ocean/US coverage varies",
+      "topical_coverage": "climate/weather/environment | water | oceans | research",
+      "dataset_families": "Published global/regional/climate/ocean/lake/river/space-weather model directory; GRIB filter route references only, no forecast/model data acquired",
+      "documentation_url": "https://nomads.ncep.noaa.gov/info.php?page=gribfilter+%7C+https%3A%2F%2Fnomads.ncep.noaa.gov%2Finfo.php%3Fpage%3Dopendap_grib_migration+%7C+https%3A%2F%2Fnomads.ncep.noaa.gov%2Finfo.php%3Fpage%3Dwhatsnew",
+      "api_base_url": "https://nomads.ncep.noaa.gov/cgi-bin/ (documented model-specific filter_*.pl scripts)",
+      "format_protocol": "Documented HTTPS GET query subsetting yielding GRIB2 binary; HTML route/help pages are not successful API responses",
+      "authentication": "Public documentation accessible without credentials; binary source request untested",
+      "free_access_restrictions": "NWS-origin information public domain unless marked; external model source rights separate. No account/payment used or required by reviewed service documentation.",
+      "license": "NWS public-domain policy except marked/third-party material; accepted NCEP-origin information scope only",
+      "license_url": "https://www.weather.gov/disclaimer/",
+      "api_verification_state": "Native NCEP root, NOMADS home/help/migration/GRIB help/release notes and NWS disclaimer200HTML. Current release notes report OpenDAP model-data removal; migration guide documents GRIB2 GET replacement. Documentation verified only; no source binary/API response tested.",
+      "latest_checked_utc": "2026-10-18T11:31:26.954626+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "noaa-weather",
       "provider": "NOAA National Weather Service",
       "service_name": "NOAA National Weather Service API",
@@ -16814,6 +16832,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "digitum-murcia-public-metadata",
+      "provider": "Universidad de Murcia Library",
+      "service_name": "DIGITUM institutional repository: verified metadata rights, OAI operation unresolved",
+      "geographic_coverage": "University of Murcia, Spain institutional research; study geography varies internationally",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research output/publication/thesis/dataset metadata; underlying documents and files separately licensed",
+      "documentation_url": "https://www.um.es/documents/d/biblioteca/politica-de-reutilizacion-y-acceso-de-los-metadatos-de-digitum | https://www.rebiun.org/directorio-repositorios/digitum-0",
+      "api_base_url": "https://digitum.um.es/server/oai/request (REBIUN directory claim, not owner endpoint-tested)",
+      "format_protocol": "Directory documents OAI-PMH; actual Identify/schema response untested",
+      "authentication": "Repository root robots-deferred unsent; OAI/current authentication untested. Institutional metadata policy permits free access.",
+      "free_access_restrictions": "Metadata policy permits free access and reuse including commercial use with OAI identifier/original-record link; underlying open/embargoed/restricted holdings separate",
+      "license": "Native institutional metadata CC BY4.0; underlying files not cleared",
+      "license_url": "https://www.um.es/documents/d/biblioteca/politica-de-reutilizacion-y-acceso-de-los-metadatos-de-digitum",
+      "api_verification_state": "Repository root guard-deferred unsent. Independent institutional policy PDF200, read offline from explicit one-page Contents streams51-58; external web reader502 preserved without retry. Independent REBIUN directory200 documents current OAI URL but is discovery, not active endpoint proof.",
+      "latest_checked_utc": "2026-10-18T11:31:26.954626+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dip-interacting-proteins",
       "provider": "UCLA Database of Interacting Proteins",
       "service_name": "DIP molecular-interaction resource",
@@ -23218,7 +23254,7 @@
       "license": "Qualified native public-domain statement; marked and third-party source terms require review",
       "license_url": "https://psl.noaa.gov/disclaimer/",
       "api_verification_state": "Native data/root, disclaimer and OPeNDAP guide200HTML. Catalog XML429 and prequeued documented DDS429, not successful machine responses; held. No inference of API nonexistence.",
-      "latest_checked_utc": "2026-10-18T11:26:51.084214+00:00",
+      "latest_checked_utc": "2026-10-18T11:31:26.954626+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
