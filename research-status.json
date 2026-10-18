@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T01:16:10.175185+00:00",
+  "published_at": "2026-10-18T01:18:12.787392+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:13:39.388017+00:00",
+  "research_updated_at": "2026-10-18T01:17:18.019921+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks reviewed: twelve records added, WorldBank updated. DLRGWPCCBY4/STAC69collections, CLARIAHHAL andMarlinXML verified; conflicts/holds/source restrictions preserved.",
+  "latest_milestone": "ACSS, York and Australian NCI reviewed; three candidates with explicit access and source-rights gaps.",
   "counts": {
     "verified": 328,
-    "candidates": 711,
+    "candidates": 714,
     "excluded": 184,
     "sample_successes": 468
   },
@@ -2984,6 +2984,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "acss-dataverse",
           "romanian-social-data-archive",
           "saudi-statistics",
           "tunisia-ins"
@@ -2998,6 +2999,7 @@
           "oman-data"
         ],
         "candidate_provider_ids": [
+          "acss-dataverse",
           "saudi-statistics",
           "tunisia-ins"
         ],
@@ -3180,6 +3182,7 @@
           "digitalearth-africa"
         ],
         "candidate_provider_ids": [
+          "acss-dataverse",
           "nasc-plant-stock-webservices",
           "romanian-social-data-archive",
           "ubb-digital-commons-data"
@@ -4227,6 +4230,7 @@
           "esgf-liu-discovery",
           "landcare-research-datastore",
           "mbie-geodata",
+          "nci-australia-data-catalogue",
           "nsw-open-data-catalog",
           "ozflux-data-portal",
           "pacific-data",
@@ -4374,6 +4378,7 @@
           "fiji-tltb",
           "georep-localisation",
           "mbie-geodata",
+          "nci-australia-data-catalogue",
           "opt-nc-data",
           "province-sud-geospatial",
           "qspatial-csw-catalog",
@@ -4483,7 +4488,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "csiro-data-access-portal"
+          "csiro-data-access-portal",
+          "nci-australia-data-catalogue"
         ],
         "restricted_provider_ids": []
       },
@@ -4531,6 +4537,7 @@
           "griffith-research-data-repository",
           "human-mortality-database",
           "landcare-research-datastore",
+          "nci-australia-data-catalogue",
           "nz-iponz",
           "ozflux-data-portal",
           "pacioos-erddap",
@@ -10963,6 +10970,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "acss-dataverse",
+      "provider": "Arab Council for the Social Sciences",
+      "service_name": "ACSS Dataverse",
+      "geographic_coverage": "Arab region social science research; exact dataset coverage unresolved",
+      "topical_coverage": "demographics | economics/finance | research",
+      "dataset_families": "ACSS Dataverse",
+      "documentation_url": "https://dataverse.theacss.org/",
+      "api_base_url": "https://dataverse.theacss.org/oai",
+      "format_protocol": "Registry OAI-PMH claim; native instance not verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://dataverse.theacss.org/user-guide/en/TermsofUse_EN.pdf",
+      "api_verification_state": "Native root guard-deferred; target unsent. No backend request after hold.",
+      "latest_checked_utc": "2026-10-18T01:16:56.386777+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ada-dataverse",
       "provider": "Australian Data Archive / Australian National University",
       "service_name": "ADA Dataverse repository — API and metadata rights unresolved",
@@ -17188,6 +17213,24 @@
       "license_url": "https://data.ngdc.noaa.gov/ngdcinfo/privacy.html",
       "api_verification_state": "actual_native_HAPI_catalogue_JSON_sample_success_31definitions_current_OpenAPI_verified_exact_reuse_scope_unconfirmed",
       "latest_checked_utc": "2026-10-17T16:34:38.662553+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nci-australia-data-catalogue",
+      "provider": "National Computational Infrastructure Australia",
+      "service_name": "NCI Data Catalogue",
+      "geographic_coverage": "Australian and international scientific collections; exact collection coverage varies",
+      "topical_coverage": "climate/weather/environment | geospatial | astronomy | research",
+      "dataset_families": "Climate and Earth science, biology, astronomy and satellite collection discovery; linked data services distinct",
+      "documentation_url": "https://nci.org.au/services/data-collections-and-services",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://nci.org.au/copyright",
+      "api_verification_state": "Native catalogue guard-deferred unsent; owner services/copyright HTTP200. Owner documents THREDDS programmatic services, not successful catalogue API response.",
+      "latest_checked_utc": "2026-10-18T01:16:56.386777+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23596,6 +23639,24 @@
       "license_url": "https://public.yoda.uu.nl/",
       "api_verification_state": "documented_OAI_design_historical_sample_HTML_not_API_success_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T15:59:28.999844+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "york-research-database-datasets",
+      "provider": "University of York",
+      "service_name": "Research Database dataset discovery portal",
+      "geographic_coverage": "University of York research; dataset geography varies",
+      "topical_coverage": "research",
+      "dataset_families": "Research Database dataset discovery portal",
+      "documentation_url": "https://pure.york.ac.uk/portal/en/datasets/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Owner documents public discovery and restricted/embargoed data; no account or participant/source acquisition.",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.york.ac.uk/library/research-creativity/rdm/research-data-york/terms/",
+      "api_verification_state": "Native discovery root HTTP403; independent owner repository and terms HTTP200. No public API verified.",
+      "latest_checked_utc": "2026-10-18T01:16:56.386777+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
