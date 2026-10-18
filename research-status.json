@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T04:24:27.194392+00:00",
+  "published_at": "2026-10-18T04:26:30.971382+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:22:42.218537+00:00",
+  "research_updated_at": "2026-10-18T04:26:06.275067+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
+  "latest_milestone": "InterPro safely checkpointed at 137 pages/27400 own entry identifiers, partial frontier.",
   "counts": {
     "verified": 353,
-    "candidates": 800,
-    "excluded": 229,
+    "candidates": 805,
+    "excluded": 230,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -8357,7 +8357,7 @@
       "license": "CC0 1.0 Universal Public Domain Dedication",
       "license_url": "https://interpro-documentation.readthedocs.io/en/latest/license.html",
       "api_verification_state": "Official specific licence/API guides HTTP200 and anonymous native entry sample HTTP200 validJSON with one result and cursor",
-      "latest_checked_utc": "2026-10-18T04:18:55.376413+00:00",
+      "latest_checked_utc": "2026-10-18T04:26:01.873674+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12860,6 +12860,24 @@
       "license_url": "https://dados.gov.br/termos-de-uso",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T06:57:05.324025+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "brgm-cupidon-repository",
+      "provider": "BRGM",
+      "service_name": "CUPIDON geoscientific catalogue/repository",
+      "geographic_coverage": "France geoscientific research and externally referenced sources; individual coverage varies",
+      "topical_coverage": "geospatial | environment | water | research",
+      "dataset_families": "BRGM geoscientific data catalogue/deposit descriptions; DataCite/ISO19115-3 metadata claimed by indexedownerdescription",
+      "documentation_url": "https://data.geoscience.fr/entrepot/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://data.geoscience.fr/entrepot/public/home",
+      "api_verification_state": "Native root/publichome200minimalAngularHTML shell, not machine API success; official indexed home identity/metadata standards reviewed. Exact publicAPI/grant unresolved.",
+      "latest_checked_utc": "2026-10-18T04:25:41.055601+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20675,6 +20693,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "plant-metabolic-network",
+      "provider": "Plant Metabolic Network",
+      "service_name": "PMN plant metabolic pathway databases",
+      "geographic_coverage": "International plant metabolism; species/pathway scope, not geographic statistics",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "PlantCyc, AraCyc and species pathway-genome databases; curated/computational genes, enzymes, compounds, reactions and pathways",
+      "documentation_url": "https://plantcyc.org/?page_id=323+%7C+https%3A%2F%2Fplantcyc.org%2F%3Fpage_id%3D260",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public docs accessible; complete download agreement/application reviewed by staff. No form submitted or agreement accepted.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://plantcyc.org/webform/license-agreement/ | https://plantcyc.org/?page_id=260",
+      "api_verification_state": "Native root/tools/download/licence pages200HTML; exact public queryAPI contract/sample unresolved. Browser/BLAST/download availability not API proof.",
+      "latest_checked_utc": "2026-10-18T04:25:41.055601+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "plasmodb-wdk-service",
       "provider": "VEuPathDB / PlasmoDB",
       "service_name": "PlasmoDB WDK REST service",
@@ -21104,6 +21140,24 @@
       "license_url": "https://www.data.qld.gov.au/dataset/resource-activities-environmental-protection-act-1994",
       "api_verification_state": "portal_root_verified_api_unrequested_policy_dataset_page202_empty_unresolved",
       "latest_checked_utc": "2026-10-16T19:57:13.945796+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "qut-research-data-finder",
+      "provider": "Queensland University of Technology",
+      "service_name": "QUT Research Data Finder",
+      "geographic_coverage": "Australian institutional research; datasets may concern other regions",
+      "topical_coverage": "research | education | geospatial",
+      "dataset_families": "Research data descriptions, software/equipment and spatial data; no people/project/source rows harvested",
+      "documentation_url": "https://researchdatafinder.qut.edu.au/about",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://researchdatafinder.qut.edu.au/about | https://www.qut.edu.au/additional/copyright",
+      "api_verification_state": "Native root/about HTTP200HTML; copyright pointer guard-deferred targetunsent. Harvesting by ARDC described, exact public API/deployment unverified.",
+      "latest_checked_utc": "2026-10-18T04:24:36.178858+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23573,6 +23627,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ucd-digital-library",
+      "provider": "University College Dublin Library",
+      "service_name": "UCD Digital Library cultural collections",
+      "geographic_coverage": "Irish cultural heritage and partner collections; exact source coverage varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Digitised and born-digital cultural heritage; current selected temporary access collections",
+      "documentation_url": "https://digital.ucd.ie/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://digital.ucd.ie/docs/AccessAndReusePolicy.pdf",
+      "api_verification_state": "Original root guard-deferred targetunsent. Official indexed ownerAbout describes temporary access/redevelopment; Data page describes CSV/JSON exports, no verified current queryAPI/sample.",
+      "latest_checked_utc": "2026-10-18T04:25:41.055601+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ucla-social-science-dataverse",
       "provider": "UCLA Library Data Science Center",
       "service_name": "UCLA Dataverse / Social Science Data Archive",
@@ -23912,6 +23984,24 @@
       "license_url": "https://www.un.org/en/about-us/terms-of-use",
       "api_verification_state": "documented_current_series_metadata_sample_success_rights_unresolved",
       "latest_checked_utc": "2026-10-16T19:47:35.071042+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "upf-digital-repository",
+      "provider": "Universitat Pompeu Fabra",
+      "service_name": "e-Repositori UPF",
+      "geographic_coverage": "Spain/Catalonia institutional research, individual source coverage varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional publications, journals, theses, working papers, teaching and research-data collections",
+      "documentation_url": "https://guiesbibtic.upf.edu/repositori",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://guiesbibtic.upf.edu/repositori",
+      "api_verification_state": "Native repository root and ownerguide200HTML; no correct repository public API contract/sample established. Registry OAI points distinctIULAcorpus service, separatelyqueued.",
+      "latest_checked_utc": "2026-10-18T04:24:36.178858+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27874,6 +27964,24 @@
       "license_url": "https://hrsdata.isr.umich.edu/node/39104 | https://hrsdata.isr.umich.edu/data-products/ai-llm-use-policy",
       "api_verification_state": "Originalhomepageguard-deferred; liveprimaryindexedcurrentpoliciesreviewed, no nativeAPI/source response",
       "latest_checked_utc": "2026-10-18T00:37:37.826676+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "hubocean-ocean-data-platform",
+      "provider": "HUB Ocean",
+      "service_name": "Ocean Data Platform STAC / Features / tabular APIs",
+      "geographic_coverage": "Global ocean datasets; exact source regions vary",
+      "topical_coverage": "oceans | environment | climate/weather | geospatial | research",
+      "dataset_families": "Public ocean catalogue collections/datasets; tabular observations; geospatial layers; source licences/access vary",
+      "documentation_url": "https://docs.hubocean.earth/",
+      "api_base_url": "https://api.hubocean.earth/api/stac | https://api.hubocean.earth/api/features",
+      "format_protocol": "STAC1.0JSON catalogue; OGCAPI Features; tabularSDK Arrow documented",
+      "authentication": "Anonymous nativeSTACroot succeeded; OGCFeatures andSDK require account/APIkey, documented Authorization: ApiKey. No keys/accounts used.",
+      "free_access_restrictions": "Unsigned users may inspect public catalogue/metadata; richer exploration/downloads require sign-in. Per-provider permitted purposes/commercial conditions vary; no paid acquisition.",
+      "license": "ODP conditional terms; per-provider terms may govern, no blanket open licence",
+      "license_url": "https://www.hubocean.earth/odp-terms",
+      "api_verification_state": "Owner docs/terms200HTML; anonymousSTACroot200validJSON Catalog/stac_version1.0.0. Features/tabular key-required samples untested.",
+      "latest_checked_utc": "2026-10-18T04:24:36.178858+00:00",
       "classification": "restricted"
     },
     {
