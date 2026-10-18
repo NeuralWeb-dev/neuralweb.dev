@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T10:59:54.167227+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T11:01:57.663308+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:57:36.423839+00:00",
+  "research_updated_at": "2026-10-18T11:01:00.251306+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CROSSDAcategoryA BY4/OAIIdentify; NLS47IIIFrefs/23metadata pages and registerhold; ADPrestrictedterms/OAIhold; MDZ304000refs/304pages incomplete.",
+  "latest_milestone": "DASS accessworkflow/PDFreader gap; NGDC/AGS5schemaops; ImmPort84schemaops/APIkey/customterms; MDZ320000refs/320pages incomplete.",
   "counts": {
     "verified": 392,
-    "candidates": 1015,
-    "excluded": 294,
+    "candidates": 1017,
+    "excluded": 295,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -2561,6 +2561,7 @@
           "berlin-animal-sound-archive",
           "bern-geodata-catalog-api",
           "bexis-biodiversity-exploratories",
+          "bgs-ngdc-ags-access-api",
           "bologna-open-data",
           "bonares-soil-agricultural-repository",
           "bordeaux-metropole-datahub",
@@ -2645,6 +2646,7 @@
           "ukho-marine-data-portal"
         ],
         "candidate_provider_ids": [
+          "bgs-ngdc-ags-access-api",
           "bonares-soil-agricultural-repository",
           "brgm-cupidon-repository",
           "claremont-colleges-digital-library",
@@ -2692,6 +2694,7 @@
           "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
+          "bgs-ngdc-ags-access-api",
           "eea-sdi-datahub-catalogue",
           "histat-historical-statistics",
           "lithuania-statistics",
@@ -3061,6 +3064,7 @@
           "austria-invekos-ogc",
           "bern-geodata-catalog-api",
           "bgs-geoscenic-archive",
+          "bgs-ngdc-ags-access-api",
           "bologna-open-data",
           "bordeaux-metropole-datahub",
           "brgm-cupidon-repository",
@@ -3502,6 +3506,7 @@
           "berlin-animal-sound-archive",
           "bexis-biodiversity-exploratories",
           "bgs-geoscenic-archive",
+          "bgs-ngdc-ags-access-api",
           "bielefeld-pub-data",
           "bonares-soil-agricultural-repository",
           "boris-bern-portal",
@@ -6390,8 +6395,8 @@
       "free_access_restrictions": "Official API page delivers selected OpenGeoscience data under OGL3.0 with BGS/UKRI/year attribution;other BGS commercial or Data Exploration services not blanket included.",
       "license": "Open Government Licence3.0 for this OpenGeoscience API data",
       "license_url": "https://www.bgs.ac.uk/technologies/web-services/api/",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-18T00:11:45.309725+00:00",
+      "api_verification_state": "documented_sample_success; fresh nativeguide200, no source/sample replay",
+      "latest_checked_utc": "2026-10-18T11:00:00.430672+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -14065,6 +14070,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bgs-ngdc-ags-access-api",
+      "provider": "British Geological Survey / UKRI / National Geoscience Data Centre",
+      "service_name": "NGDC archive discovery and AGS v7 borehole data access API",
+      "geographic_coverage": "UK landmass and continental shelf; exact borehole/export coverage source-dependent",
+      "topical_coverage": "geospatial | research | environment | water | energy",
+      "dataset_families": "Deposited geological research, reports/maps, borehole/core/physical holdings; AGS borehole export/log interfaces form a subset",
+      "documentation_url": "https://www.bgs.ac.uk/ngdc/access-data/ | https://agsapi.bgs.ac.uk/docs | https://agsapi.bgs.ac.uk/openapi.json",
+      "api_base_url": "https://agsapi.bgs.ac.uk/",
+      "format_protocol": "Native OpenAPI3.1.0JSON,5paths/5operations:2POSTvalidate/convert and3GETlog/export routes; source responses untested",
+      "authentication": "Public static schema anonymous; source/runtime authentication and eligibility unknown. No account/auth/source query.",
+      "free_access_restrictions": "NGDC guide says OGLwherepossible with per-dataset exceptions. Physicalservice may charge commercial users and require academicwaiver; no order/visit/payment. ExactAGSsource licence unresolved.",
+      "license": "Conditional per-dataset OGL/access; no universal NGDC/AGS data grant verified",
+      "license_url": "https://www.bgs.ac.uk/ngdc/access-data/",
+      "api_verification_state": "Native NGDCroot/access and AGSdocs200HTML; explicitlydeclared openapi.json200validOpenAPI3.1.0 with5paths/5operations. No boreholeexport/log/upload/conversion executed; docs/schema not source response.",
+      "latest_checked_utc": "2026-10-18T11:00:00.430672+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bielefeld-pub-data",
       "provider": "Bielefeld University Library",
       "service_name": "PUB Data Publications institutional research data repository",
@@ -19609,6 +19632,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "immport-shared-data-api",
+      "provider": "ImmPort / NIH NIAID DAIT / Peraton",
+      "service_name": "ImmPort Shared Data API and associated developer services",
+      "geographic_coverage": "Immunology/clinical research repository; individual study population/geography varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Published immunology study metadata, study-level files, assay and controlled-vocabulary interfaces; DRS/FHIR/gene/upload families linked separately, no source values acquired",
+      "documentation_url": "https://docs.immport.org/apidocumentation/ | https://www.immport.org/data/query/v3/api-docs",
+      "api_base_url": "https://www.immport.org/data/query",
+      "format_protocol": "Native OpenAPI3.0.1JSON84paths/84operations; REST shareddata documented. Source responses untested.",
+      "authentication": "Current native docs require scoped APIkeys for all APIaccess; general username/password tokenexchange no longer supported. Schema declares immport-security; no key/login/token operation.",
+      "free_access_restrictions": "Registered/key access and controlled-data approval distinct from staticdocs; no subscription/payment/account/key acquisition or controlled study access",
+      "license": "Custom useragreement2.4 broad legal use/redistribution subject commensurate agreement, privacy and other provisions; standardized open-status/specific controlled scopes unresolved",
+      "license_url": "https://docs.immport.org/home/agreement/",
+      "api_verification_state": "Mainsharedhome200HTMLshell, native docs/agreement/APIoverview200HTML. Ownerpublished staticOpenAPI200valid3.0.1JSON84paths/84operations. No actualsource runtime/clinical/assay/study/files requested; keyrequired sample remains untested.",
+      "latest_checked_utc": "2026-10-18T11:00:00.430672+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ims-stuttgart-language-repository",
       "provider": "Institute for Natural Language Processing / University of Stuttgart",
       "service_name": "IMS CLARIN-D language-resource repository",
@@ -21224,8 +21265,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across304successfulpages/304000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:54:49.990453+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across320successfulpages/320000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T11:00:06.509222+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32388,6 +32429,24 @@
       "license_url": "https://archiv.soc.cas.cz/en/pristup-k-datum-2/datovy-katalog/condition-of-use | https://archiv.soc.cas.cz/images/DMP_vzor_CSDA_Version_2.0.pdf",
       "api_verification_state": "Native owner data/conditions200HTML; original OAI Identify guard-deferred, no repository/API response",
       "latest_checked_utc": "2026-10-18T05:50:20.954964+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "dass-bih-social-science-archive",
+      "provider": "CREDI / Data Archive for Social Sciences in Bosnia and Herzegovina",
+      "service_name": "DASS-BiH archive and access catalogue",
+      "geographic_coverage": "Bosnia and Herzegovina and Western Balkan social-science studies; per-study scope varies",
+      "topical_coverage": "research | demographics | labor | economics/finance | social sciences",
+      "dataset_families": "Social-science study catalogue and preservation/dissemination services; no study/source files acquired",
+      "documentation_url": "https://dass.credi.ba/data-catalogue/ | https://dass.credi.ba/policies-and-procedures/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native catalogue requires terms acceptance and declaration for unrestricted category; restricted request/approval/agreement and sensitive data lab access separate. No account/declaration/contact.",
+      "free_access_restrictions": "Native catalogue is reference-accessible but data release involves forms and conditions; registry feeRequired not independently confirmed as universal fee, no paid acquisition",
+      "license": "unknown verified data grant",
+      "license_url": "https://dass.credi.ba/wp-content/uploads/2020/06/General-Terms-and-Contitions-of-Use-web.pdf",
+      "api_verification_state": "Native homepage/user-guide/policy-directory/catalogue200HTML; generaltermsPDF200native. WebPDFreader timeout, no API/schema/query response or assumed WordPress/Dataverse/OAI interface.",
+      "latest_checked_utc": "2026-10-18T11:00:00.430672+00:00",
       "classification": "restricted"
     },
     {
