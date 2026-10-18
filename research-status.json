@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T21:59:18.005534+00:00",
+  "published_at": "2026-10-18T22:01:21.248478+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:56:04.786917+00:00",
+  "research_updated_at": "2026-10-18T22:00:49.040963+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ETHCC0metadata/5OAIcontextrefs; UNIAOAI404; ScholarsMinegrantgap; IFREMERportalrestrictive; QsarDBCC0/validOAI; IEDBcuratedBY4/documentedAPIheld.",
+  "latest_milestone": "Nine repository/portal reviews: ETH and QsarDB CC0 metadata, IEDB curated BY4, GA named service BY4/ISOJSON, MOST CC0/schema; UNIA404, ScholarsMine gaps, IFREMER/BODC restricted defaults.",
   "counts": {
-    "verified": 481,
+    "verified": 483,
     "candidates": 1386,
-    "excluded": 402,
+    "excluded": 403,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -3036,6 +3036,7 @@
           "alspac-cohort-access-portal",
           "bfg-ggina-geoportal-services",
           "bllast-field-campaign",
+          "bodc-marine-data-service-portal",
           "bonn-open-data",
           "catalonia-open-data",
           "cdgp-geothermal-portal",
@@ -3108,6 +3109,7 @@
         ],
         "restricted_provider_ids": [
           "bfg-ggina-geoportal-services",
+          "bodc-marine-data-service-portal",
           "geoguyane-csw-catalogue",
           "tirol-ogd-geospatial-search"
         ]
@@ -3857,6 +3859,7 @@
         ],
         "restricted_provider_ids": [
           "bioimages-uk-field-guide",
+          "bodc-marine-data-service-portal",
           "edaphobase-soil-biodiversity-api",
           "eurobis-european-marine-data",
           "flora-frankfurt-portal",
@@ -3889,6 +3892,7 @@
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
+          "bodc-marine-data-service-portal",
           "copernicus-marine",
           "eurobis-european-marine-data",
           "marine-data-exchange"
@@ -4422,6 +4426,7 @@
           "bioimages-uk-field-guide",
           "bllast-field-campaign",
           "bnf-gallica",
+          "bodc-marine-data-service-portal",
           "bundesbank-rdsc-microdata",
           "bvh-humanistic-libraries",
           "cdgp-geothermal-portal",
@@ -5971,6 +5976,7 @@
           "datastream-water-odata-api",
           "esgf-ceda-discovery",
           "esgf-nci-discovery",
+          "geoscience-australia-ecat-services",
           "geri",
           "linz-basemaps-api",
           "ocean-networks-canada",
@@ -6026,6 +6032,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "datastream-water-odata-api",
+          "geoscience-australia-ecat-services",
           "geri",
           "ocean-networks-canada"
         ],
@@ -6048,8 +6055,10 @@
         ]
       },
       "energy": {
-        "status": "partial_candidates_only",
-        "verified_provider_ids": [],
+        "status": "partial_verified",
+        "verified_provider_ids": [
+          "geoscience-australia-ecat-services"
+        ],
         "candidate_provider_ids": [
           "data-wa-catalogue-api",
           "mbie-geodata",
@@ -6146,6 +6155,7 @@
           "ala",
           "australia",
           "geochron-geochronology-api",
+          "geoscience-australia-ecat-services",
           "linz",
           "linz-basemaps-api",
           "noumea-data",
@@ -6261,6 +6271,7 @@
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "geoscience-australia-ecat-services",
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
@@ -6331,6 +6342,7 @@
           "esgf-ceda-discovery",
           "esgf-nci-discovery",
           "geochron-geochronology-api",
+          "geoscience-australia-ecat-services",
           "geri",
           "open-archeocsean-catalogue"
         ],
@@ -10316,6 +10328,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "geoscience-australia-ecat-services",
+      "provider": "Geoscience Australia",
+      "service_name": "eCat metadata API and published geoscience services",
+      "geographic_coverage": "Australia, external territories and selected international geoscience products; dataset-specific extent",
+      "topical_coverage": "geospatial | environment | water | energy | oceans | research",
+      "dataset_families": "Geoscience catalogue/service metadata; topographic, geological, geophysical, marine and environmental service families",
+      "documentation_url": "https://www.ga.gov.au/data-pubs/datastandards/dataservice | https://ecat.ga.gov.au/geonetwork/srv/api/records/2b634155-b028-4697-e053-12a3070afc93",
+      "api_base_url": "https://ecat.ga.gov.au/geonetwork/srv/api/records/ | http://services.ga.gov.au/ (published register, held)",
+      "format_protocol": "Native GeoNetwork ISO19115-3 JSON record verified; institutional REST/OGC services documented",
+      "authentication": "Anonymous exact published metadata record HTTP200 JSON; other service authentication varies/unknown",
+      "free_access_restrictions": "Unmarked GA-owned website content CC BY4, third-party/marked exceptions; named service source explicitly CC BY4, not whole catalogue grant",
+      "license": "CC BY4 for named National Foreign Embassies and Consulates WFS and unmarked eligible GA website content",
+      "license_url": "https://www.ga.gov.au/copyright | https://ecat.ga.gov.au/geonetwork/srv/api/records/2b634155-b028-4697-e053-12a3070afc93",
+      "api_verification_state": "Native service/copyright pages HTTP200. Exact indexed official eCat record URL HTTP200 application/json with ISO19115 namespaces and named service constraints; valid machine metadata response. Linked services register robots-deferred unsent; no alternate register/backend probe. No WFS features requested.",
+      "latest_checked_utc": "2026-10-18T22:00:03.957290+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "geri",
       "provider": "GERI",
       "service_name": "GERI DataONE research repository API",
@@ -12077,6 +12107,24 @@
       "license_url": "https://data.gov.ma/fr/node/14 | https://data.gov.ma/fr/node/13 | https://opendatacommons.org/licenses/odbl/1-0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-17T10:23:07.565585+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "most-wiedzy-open-research-data-api",
+      "provider": "Gdansk University of Technology / MOST Wiedzy",
+      "service_name": "MOST Wiedzy Open Research Data catalogue and REST API",
+      "geographic_coverage": "Polish institutional multidisciplinary research; source coverage varies",
+      "topical_coverage": "research | education | environment | health | economics",
+      "dataset_families": "Open research data catalogue/resource metadata, publications and research infrastructure descriptions; profiles/private access separate",
+      "documentation_url": "https://mostwiedzy.pl/en/rest-api | https://api.mostwiedzy.pl/openapi/mostwiedzy.json",
+      "api_base_url": "https://api.mostwiedzy.pl/v1",
+      "format_protocol": "OpenAPI3.0.1 JSON schema HTTP200 verified; REST source calls untested",
+      "authentication": "Native API guide explicitly requires authorization token obtained from support; no request/contact/account/key. Schema lacks securitySchemes/globalsecurity, not proof anonymous runtime",
+      "free_access_restrictions": "Public schema accessible without key; API token availability/pricing/quota details unknown, no token acquired. Source licences/access and embargo/restricted sharing vary",
+      "license": "CC0 resource metadata unless stated otherwise; native default CC BY4 resources subject to assigned exceptions",
+      "license_url": "https://mostwiedzy.pl/en/regulamin",
+      "api_verification_state": "Native repository/APIguide/terms HTTP200; exact published OpenAPI JSON HTTP200, version3.0.1,137paths, productionserver/v1. Schema describes operations including mutations disguised asGET; documentation parsing does not execute them. No source endpoint called.",
+      "latest_checked_utc": "2026-10-18T22:00:03.957290+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -41331,6 +41379,24 @@
       "license_url": "https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica | https://www.bnf.fr/en/order-reproduction-commercial-use",
       "api_verification_state": "documented_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T21:53:50.981610+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bodc-marine-data-service-portal",
+      "provider": "British Oceanographic Data Centre / NERC",
+      "service_name": "BODC marine data and web-service discovery portal",
+      "geographic_coverage": "UK and international oceanographic holdings; source-specific scope",
+      "topical_coverage": "oceans | water | climate | biodiversity | research",
+      "dataset_families": "Marine data holdings/service discovery; vocabulary, grid translator and bathymetry service references",
+      "documentation_url": "https://www.bodc.ac.uk/resources/products/web_services/",
+      "api_base_url": "",
+      "format_protocol": "Native directory documents vocabulary REST/SOAP, Marsden translator and GEBCO WMS families; no capability sample this round",
+      "authentication": "unknown",
+      "free_access_restrictions": "General licence agreement/permission, possible fee and redistribution constraints; no agreement/account/purchase obtained",
+      "license": "Restrictive general BODC copyright/data-use terms; assigned source exceptions require separate review",
+      "license_url": "https://www.bodc.ac.uk/resources/help_and_hints/using_this_web_site/copyright/",
+      "api_verification_state": "Native web-service directory and copyright HTTP200 HTML. Three service references indexed, not three tested APIs or datasets. Registry QXF/NetCDF format is not an API. No SOAP/WMS/vocabulary/source query.",
+      "latest_checked_utc": "2026-10-18T22:00:03.957290+00:00",
       "classification": "restricted"
     },
     {
