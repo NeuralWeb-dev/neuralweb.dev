@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:09:11.740782+00:00",
+  "published_at": "2026-10-18T23:11:14.716734+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:06:38.091507+00:00",
+  "research_updated_at": "2026-10-18T23:09:25.458457+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "XMMnativeAIO/TAP/licencegap; VALDregisteredextraction/APIgrantgap; BacDivev2/noaccounts274fields/licencetension.",
+  "latest_milestone": "AtomicLineListv3BY4/postform and separatev2redistributionlimit; AtomDBlibrary/data gap; OUPure403/rights gap.",
   "counts": {
-    "verified": 493,
-    "candidates": 1419,
-    "excluded": 406,
+    "verified": 494,
+    "candidates": 1421,
+    "excluded": 407,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -7437,6 +7437,24 @@
       "license_url": "https://researchdata.aston.ac.uk/take_down_policy.html",
       "api_verification_state": "Native root/policy200 substantiveHTML, exactOAI2base published. Identifyguard-deferredtargetunsent, noXML/sample success claimed.",
       "latest_checked_utc": "2026-10-18T14:18:27.386726+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "atomic-line-list-v3-query",
+      "provider": "Royal Observatory of Belgium / University ofKentucky / AtomicLineList",
+      "service_name": "Atomic Line List v3.00b5 HTTP query interface",
+      "geographic_coverage": "Astronomical atomic reference resource; not bounded by terrestrial geography",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Version3.00b5 line/level reference data service; only form parameter and rights documentation inspected",
+      "documentation_url": "https://linelist.pa.uky.edu/newpage/index.html | https://linelist.pa.uky.edu/newpage/instruction.html",
+      "api_base_url": "https://linelist.pa.uky.edu/newpage/cgi-bin/qlines.cgi",
+      "format_protocol": "Documented HTTP POST selection query; plain ASCII, HTML or LaTeX output, not REST JSON",
+      "authentication": "Published public query form has no login/key requirement shown; actual source query not exercised",
+      "free_access_restrictions": "Native public interface and CC BY4 data declaration; no paid access acquired. Source operations not tested",
+      "license": "CC BY4.0 for version3web data; software GPL3 and masthead image excluded",
+      "license_url": "https://linelist.pa.uky.edu/newpage/copyright.html | https://linelist.pa.uky.edu/newpage/news.html",
+      "api_verification_state": "Native current query-form, instruction, copyright and release-news pagesHTTP200. Exact POSTactionand outputformats documented directly; no machine/source response claimed, no CGI POST or level/line/value request. Interfaceavailability documented, source runtime untested.",
+      "latest_checked_utc": "2026-10-18T23:09:20.760822+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16907,6 +16925,24 @@
       "license_url": "https://astromat.org/legal/terms-of-use",
       "api_verification_state": "Native terms/accessoverview200HTML and publicAPIroot200HTMLwelcomebannerlabelledlatest. Not actualmachineAPI/schemaJSONsuccess; exactreadoperation/auth/quotasunknown.",
       "latest_checked_utc": "2026-10-18T14:40:45.121085+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "astrophysical-atomdb",
+      "provider": "AtomDB astrophysical database collaboration",
+      "service_name": "AtomDB / APED spectral-reference and software interfaces",
+      "geographic_coverage": "Astrophysical plasma reference resources; no terrestrial country coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Atomicdata/APED and plasma software documentation; no spectra/transition/sourcevalues obtained",
+      "documentation_url": "http://www.atomdb.org/ | http://www.atomdb.org/faq.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://www.atomdb.org/ | http://www.atomdb.org/atomdb_300_docs.pdf",
+      "api_verification_state": "Original nativeHTTP root and publishedFAQ HTTP200 properdocs. PyAtomDB/library APIs, WebGUIDE and online modelling tools described; no exact read-only machinewebAPI/schema or source sample verified.",
+      "latest_checked_utc": "2026-10-18T23:09:20.760822+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31346,6 +31382,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "open-universiteit-research-portal",
+      "provider": "Open Universiteit Netherlands",
+      "service_name": "Open Universiteit Pure research datasets and OAI interface",
+      "geographic_coverage": "Netherlands OpenUniversiteit research; dataset-specific international scopes",
+      "topical_coverage": "education | research | culture | economics",
+      "dataset_families": "Researchdataset discovery metadata; no student/person/publication/fulltext/source records requested",
+      "documentation_url": "https://research.ou.nl/en/datasets/ | https://www.ou.nl/en/disclaimer",
+      "api_base_url": "https://research.ou.nl/ws/oai",
+      "format_protocol": "Registered OAI-PMH and Pureportal; instance machineXML unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ou.nl/en/disclaimer",
+      "api_verification_state": "OriginaldatasetportalHTTP403; registeredOAIIdentifydeferredunsentafterfailure, no retry/alternatePureREST/backend. IndependentownerdisclaimerHTTP200. No actualAPI XML or datasetmetadata response.",
+      "latest_checked_utc": "2026-10-18T23:09:20.760822+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "openafrica",
       "provider": "Code for Africa (CfA)",
       "service_name": "openAFRICA community data portal and CKAN API",
@@ -41803,6 +41857,24 @@
       "license_url": "http://accdc.com/en/fee-usage.html",
       "api_verification_state": "native_fees_user_specific_nontransferability_and12month_deletion_terms_verified_public_query_API_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:40:37.694872+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "atomic-line-list-v2-query",
+      "provider": "Royal Observatory of Belgium / University ofKentucky / AtomicLineList",
+      "service_name": "Atomic Line List v2.04 legacy HTTP query interface",
+      "geographic_coverage": "Astronomical atomic reference resource",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Legacy2.04 atomicline reference service; documentation only",
+      "documentation_url": "https://linelist.pa.uky.edu/atomic/",
+      "api_base_url": "https://linelist.pa.uky.edu/atomic/query.cgi",
+      "format_protocol": "Published legacyHTTPPOST query form; actual source response untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Legacyscientific-use grant; republication5000lines ormore requiresauthorpermission",
+      "license_url": "https://linelist.pa.uky.edu/atomic/disclaimer.html",
+      "api_verification_state": "Native legacyroot/disclaimerHTTP200. Published POSTactionquery.cgi distinctfrommodernqlines.cgi,42controls/20uniqueparamnames indexed. No sourcequery or machinepayload, permission/contact not requested.",
+      "latest_checked_utc": "2026-10-18T23:09:20.760822+00:00",
       "classification": "restricted"
     },
     {
