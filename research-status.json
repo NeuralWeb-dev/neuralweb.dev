@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T16:55:00.105600+00:00",
+  "published_at": "2026-10-18T16:57:03.700529+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:53:11.015698+00:00",
+  "research_updated_at": "2026-10-18T16:56:40.116309+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to898pages/898000refs;2315503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "ASF successful3missionJSON/selectedbucketCC0, CLOSER documented noncommercialmetadata/MLconditions, ZFINBY4 grant/nativeAPIgap.",
   "counts": {
     "verified": 440,
-    "candidates": 1175,
-    "excluded": 342,
+    "candidates": 1177,
+    "excluded": 343,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -15134,6 +15134,24 @@
       "license_url": "https://asep.lib.cas.cz/arl-cav/en/repository-rules/#p7",
       "api_verification_state": "Independent native operator API guide HTTP200 confirms read-only interface and account requirement. Repository root/rules guard-deferred unsent; runtime untested.",
       "latest_checked_utc": "2026-10-18T01:30:22.375899+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "asf-sar-search-catalog",
+      "provider": "University of Alaska Fairbanks Alaska Satellite Facility / ASF DAAC",
+      "service_name": "ASF SAR SearchAPI catalog and mission discovery",
+      "geographic_coverage": "Global satellite radar research catalog hosted in Alaska; mission/product coverage varies",
+      "topical_coverage": "geospatial | climate/weather/environment | oceans | water | research",
+      "dataset_families": "Satellite SAR catalog, mission/campaign references; event-data public bucket contains selected RTC/HydroSAR products",
+      "documentation_url": "https://docs.asf.alaska.edu/api/basics/ | https://docs.asf.alaska.edu/api/keywords/ | https://asf-event-data.s3-us-west-2.amazonaws.com/README.html",
+      "api_base_url": "https://api.daac.asf.alaska.edu/services/",
+      "format_protocol": "REST query JSON; native mission_list result array3strings; documented SearchAPI multiple formats",
+      "authentication": "Anonymous mission_list succeeded; native docs require freeEarthdata account/EULA for downloads and research agreement for JERS1/RADARSAT1. No credentials or acceptance used.",
+      "free_access_restrictions": "Public discovery endpoint tested; selected event-bucketCC0 confirmed, other mission/product/user agreements differ; no account/EULA/researchagreement/HyP3 processing or paidcredits",
+      "license": "Selected ASF event-data bucket CC0; uniform SearchAPI metadata/allproduct license unknown",
+      "license_url": "https://asf-event-data.s3-us-west-2.amazonaws.com/README.html | https://docs.asf.alaska.edu/api/basics/",
+      "api_verification_state": "Native API basics/keywords and eventREADME200. Anonymous documented mission_listHTTP200 validJSON result3missionnames, references indexed. No scene/observation/coordinate/image/source requests.",
+      "latest_checked_utc": "2026-10-18T16:56:35.171283+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -35369,6 +35387,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "zfin-model-organism-database",
+      "provider": "Zebrafish Information Network / University of Oregon",
+      "service_name": "ZFIN data and annotation resource",
+      "geographic_coverage": "International zebrafish research resource hosted in United States; biologicalsource scope varies",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Zebrafish genetic/genomic/developmental research descriptions and annotations; actual biological/source records not retrieved",
+      "documentation_url": "https://zfin.atlassian.net/wiki/spaces/general/pages/1942160112",
+      "api_base_url": "",
+      "format_protocol": "Native legal documentationHTML; exact public provider query API/schema unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native ZFIN data and annotations CC BY4; native publicAPI contract unknown",
+      "license_url": "https://zfin.atlassian.net/wiki/spaces/general/pages/1942160112 | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native policyHTTP200substantiveHTML. Data/annotationgrant verified, no exact current publicAPI/schema/nativeJSON endpoint verified or queried.",
+      "latest_checked_utc": "2026-10-18T16:56:35.171283+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "zug-entrystore-catalog",
       "provider": "Kanton Zug,Fachstelle fuer Daten und Statistik",
       "service_name": "Zug EntryStore metadata catalogue",
@@ -36556,6 +36592,24 @@
       "license_url": "https://portal.citf.mcgill.ca/data-access-process | https://portal.citf.mcgill.ca/assets/files/data-access-policy-en.pdf",
       "api_verification_state": "native_public_operator_access_requirements_verified_no_public_API_or_open_source_grant",
       "latest_checked_utc": "2026-10-17T21:36:35.871065+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "closer-discovery-metadata",
+      "provider": "CLOSER / UCL and contributing longitudinal studies",
+      "service_name": "CLOSER Discovery metadata portal",
+      "geographic_coverage": "United Kingdom longitudinal population-study metadata; exact participatingstudy coverage unqueried",
+      "topical_coverage": "research | health | demographics | education",
+      "dataset_families": "Study/questionnaire/variable metadata descriptions, not underlying participant/cohort data",
+      "documentation_url": "https://discovery-prod.closer.ac.uk/page/data-security/3 | https://discovery-prod.closer.ac.uk/page/fair/27",
+      "api_base_url": "https://discovery.closer.ac.uk/oai/request (registry OAI claim, not tested)",
+      "format_protocol": "Indexed owner FAIR documentation machine-queryAPI/DDI XML; exact current productionwire/schema untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Non-Commercial Government Licence2 metadata; production-policy equivalence unresolved under hold",
+      "license_url": "https://discovery-prod.closer.ac.uk/page/data-security/3 | https://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/",
+      "api_verification_state": "Native intended-host policy request guard-deferred unsent. Indexed official policy/FAIR/FAQ review saved with nullHTTPstatus; no alternateprod/www runtime workaround or OAI/query test.",
+      "latest_checked_utc": "2026-10-18T16:56:35.171283+00:00",
       "classification": "restricted"
     },
     {
