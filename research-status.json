@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:32:00.746266+00:00",
+  "published_at": "2026-10-18T17:34:03.814059+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:31:10.970958+00:00",
+  "research_updated_at": "2026-10-18T17:33:14.043391+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to967pages/967000refs;2246503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Six originals: Gaia native TAP/XML and representative NC source grant; Epidatheld/DEEMYtitle; BBAW indexeddefaultCCBYSA/holds; BIH controlledpolicy; NIRD anonymous5subjectJSON/defaultBY4 metadata gap; MDZ967000incomplete.",
   "counts": {
     "verified": 441,
-    "candidates": 1202,
-    "excluded": 349,
+    "candidates": 1204,
+    "excluded": 350,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -3007,6 +3007,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
+          "bih-charite-vre",
           "closer-discovery-metadata",
           "dhsnl-dnb-household-survey",
           "dirros-research-repository",
@@ -3601,6 +3602,7 @@
           "uk-solar-system-data-centre"
         ],
         "restricted_provider_ids": [
+          "gaia-aip-archive",
           "wdc-moscow-solar-terrestrial"
         ]
       },
@@ -3697,6 +3699,7 @@
           "digitum-murcia-public-metadata",
           "direno-lower-austria-repository",
           "edina-research-service-portal",
+          "epidat-jewish-epigraphy",
           "esdac-soil-data-centre",
           "estonia-language-metashare",
           "european-history-online",
@@ -3905,6 +3908,7 @@
           "eea-sdi-datahub-catalogue",
           "eiffel-research-data",
           "eli-eric-data-repository",
+          "epidat-jewish-epigraphy",
           "esdac-soil-data-centre",
           "esgf-dkrz-discovery",
           "esgf-ipsl-discovery",
@@ -4020,6 +4024,7 @@
           "bamf-fdz-research-data",
           "bfg-ggina-geoportal-services",
           "bibb-fdz-research-data",
+          "bih-charite-vre",
           "bioimages-uk-field-guide",
           "bllast-field-campaign",
           "bnf-gallica",
@@ -4047,6 +4052,7 @@
           "fdz-health-statistics-portal",
           "fiz-icsd-licensed-api",
           "flora-frankfurt-portal",
+          "gaia-aip-archive",
           "geosphere-austria-datahub-api",
           "geotis-wms",
           "german-statistical-rdc",
@@ -15571,6 +15577,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bbaw-clarin-repository",
+      "provider": "Berlin-Brandenburg Academy of Sciences and Humanities Zentrum Sprache",
+      "service_name": "BBAW CLARIN repository OAI service",
+      "geographic_coverage": "German historical/contemporary linguistic resources; source geography varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "German text corpora and lexical-resource metadata; actual corpus text not acquired",
+      "documentation_url": "https://clarin.bbaw.de/en/repo/",
+      "api_base_url": "https://clarin.bbaw.de:8088/oaiprovider (registry endpoint, untested under inherited hold)",
+      "format_protocol": "Official indexed repository documentation confirms OAI-PMH harvesting; eight prior FCS endpoints separately held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native documented default CC BY-SA with exceptions; exact version/Terms interaction unresolved",
+      "license_url": "https://clarin.bbaw.de/en/repo/",
+      "api_verification_state": "Indexed official repository/API/default-grant policy reviewed. Existing eight native FCS guard holds retained; no original root/OAI8088/shared harvest request or successful new API payload.",
+      "latest_checked_utc": "2026-10-18T17:32:44.350893+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bc-conservation-data-centre",
       "provider": "Province of British Columbia / Conservation Data Centre",
       "service_name": "B.C. Conservation Data Centre public data tools and catalogue references",
@@ -26443,6 +26467,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nird-research-data-archive",
+      "provider": "Sigma2 / NRIS",
+      "service_name": "NIRD Research Data Archive CKAN API",
+      "geographic_coverage": "Norwegian research across disciplines; dataset geography varies",
+      "topical_coverage": "research | environment | education",
+      "dataset_families": "Cross-disciplinary research dataset descriptions/DOIs and subject groups; original files not acquired",
+      "documentation_url": "https://documentation.sigma2.no/nird_archive/archive_api.html | https://documentation.sigma2.no/nird_archive/metadata.html",
+      "api_base_url": "https://data.archive.sigma2.no/api/3/action",
+      "format_protocol": "Native CKAN REST JSON, documented schema and authenticated submission APIs",
+      "authentication": "Anonymous subject-group GET succeeded. Depositing/updating requires account/token; no account/token used",
+      "free_access_restrictions": "Native termsV4(2025-01-29) free end-user service with future-revision caveat; dataset access may be public/embargoed/restricted/nonpublic",
+      "license": "Native dataset default CC BY4 with approved alternatives; uniform metadata grant unresolved",
+      "license_url": "https://www.sigma2.no/nird-research-data-archive-terms-use | https://documentation.sigma2.no/nird_archive/metadata.html",
+      "api_verification_state": "Native portal/schema/API/deposit docs and owner termsHTTP200. Anonymous documented group_list?type=subjectHTTP200 validJSON success true, five subject references saved, no dataset inventory.",
+      "latest_checked_utc": "2026-10-18T17:32:44.350893+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nist-resource-metadata-api",
       "provider": "National Institute of Standards and Technology",
       "service_name": "Resource Metadata Management API",
@@ -36540,6 +36582,24 @@
       "license_url": "https://bigg.bio/about#about_license",
       "api_verification_state": "documented_v3_API_restricted_sample_untested",
       "latest_checked_utc": "2026-10-17T18:02:37.884628+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bih-charite-vre",
+      "provider": "Berlin Institute of Health / Charité Universitätsmedizin Berlin",
+      "service_name": "BIH/Charité Virtual Research Environment",
+      "geographic_coverage": "Germany clinical/research institutions and approved external collaborations",
+      "topical_coverage": "health | research",
+      "dataset_families": "Controlled project medical/research data and imaging analysis environments; actual clinical records/images not acquired",
+      "documentation_url": "https://vre-docs.charite.de/bin/view/Main/Privacy%20and%20Data%20Governance/Access%20Policy/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Registered/approved project member and resource permissions required; no account or invitation used",
+      "free_access_restrictions": "Policy generally seeks no access charges; specialized functionality/compute/support may require contributions, no resources requested",
+      "license": "Purpose/project-limited controlled-access resources; no blanket open grant",
+      "license_url": "https://vre-docs.charite.de/bin/view/Main/Privacy%20and%20Data%20Governance/Access%20Policy/",
+      "api_verification_state": "Native institutional overview and native access policyHTTP200 substantive documentation. Exact anonymous public read API/schema not found in reviewed pages; no API/clinical runtime request.",
+      "latest_checked_utc": "2026-10-18T17:32:44.350893+00:00",
       "classification": "restricted"
     },
     {
