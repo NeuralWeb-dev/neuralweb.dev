@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T01:20:15.887756+00:00",
+  "published_at": "2026-10-18T01:22:19.652912+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:17:18.019921+00:00",
+  "research_updated_at": "2026-10-18T01:21:33.114885+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ACSS, York and Australian NCI reviewed; three candidates with explicit access and source-rights gaps.",
+  "latest_milestone": "FULIR metadata CC0 and native OAI verified; WU and NLR retained with explicit source-rights and access gaps.",
   "counts": {
-    "verified": 328,
-    "candidates": 714,
+    "verified": 329,
+    "candidates": 716,
     "excluded": 184,
     "sample_successes": 468
   },
@@ -7185,6 +7185,24 @@
       "license_url": "https://www.fsd.tuni.fi/en/news/news-releases/084/ | https://www.fsd.tuni.fi/fi/aineistot/taustatietoa/ddi-records/",
       "api_verification_state": "actual_SKGIF_JSON_and_DDI_XML_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:40:15.459868+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "fulir-data-metadata",
+      "provider": "Ruđer Bošković Institute / Dabar",
+      "service_name": "FULIR Data OAI-PMH metadata",
+      "geographic_coverage": "Croatian institutional research with dataset-specific global topics",
+      "topical_coverage": "research | health | agriculture | climate/weather/environment",
+      "dataset_families": "Research dataset, data-management plan and research software metadata; source objects separately licensed",
+      "documentation_url": "https://data.fulir.irb.hr/en/repository-policies",
+      "api_base_url": "https://data.fulir.irb.hr/oai/",
+      "format_protocol": "OAI-PMH XML",
+      "authentication": "Anonymous Identify succeeded; public metadata harvesting explicitly permitted",
+      "free_access_restrictions": "Metadata CC0 excludes email and OIB/JMBG/JMBAG personal identifiers; source access and embargoes differ",
+      "license": "CC0 metadata with explicit personal-identifier exceptions",
+      "license_url": "https://data.fulir.irb.hr/en/repository-policies",
+      "api_verification_state": "Native policy HTTP200; anonymous OAI Identify HTTP200 parsed XML without protocol error; format/header inventory recorded separately",
+      "latest_checked_utc": "2026-10-18T01:21:27.317553+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17432,6 +17450,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nlr-geospatial-data-services",
+      "provider": "National Laboratory of the Rockies",
+      "service_name": "Geospatial data service directory and Solar Resource Data API",
+      "geographic_coverage": "United States solar resource API; wider linked services include global areas",
+      "topical_coverage": "energy | geospatial | climate/weather/environment",
+      "dataset_families": "DNI/GHI/tilted solar resource climatologies; separate linked wind, geothermal, marine and hydrogen services",
+      "documentation_url": "https://developer.nlr.gov/docs/solar/solar-resource-v1/",
+      "api_base_url": "https://developer.nlr.gov/api/solar/solar_resource/v1",
+      "format_protocol": "REST JSON/XML documented",
+      "authentication": "Developer api_key mandatory in native solar resource reference; no key acquired or used",
+      "free_access_restrictions": "NLR disclaimer grants fee-free use/copy subject to notice, credit and indemnity; exact hosted/third-party source scope and adaptation rights unresolved",
+      "license": "Custom NLR data/software use-and-copy notice; exact open licence qualification unresolved",
+      "license_url": "https://www.nlr.gov/disclaimer",
+      "api_verification_state": "Native GIS directory, solar/wind API guides and detailed solar-resource reference HTTP200; sample untested key-required",
+      "latest_checked_utc": "2026-10-18T01:21:27.317553+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nlr-metropolitan-travel-survey-archive",
       "provider": "National Laboratory of the Rockies / Transportation Secure Data Center",
       "service_name": "Metropolitan Travel Survey Archive",
@@ -23621,6 +23657,24 @@
       "license_url": "https://data.worldpop.org/repo/wopr/BFA/population/v1.0/BFA_population_v1_0_README.pdf",
       "api_verification_state": "documented_wopr_api_sample_untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T22:26:49.728975+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wu-vienna-research",
+      "provider": "WU Vienna University of Economics and Business",
+      "service_name": "WU Research Pure API",
+      "geographic_coverage": "WU Vienna research outputs; international topics vary",
+      "topical_coverage": "economics/finance | research",
+      "dataset_families": "Research output, projects and dataset descriptions; homepage reports 13 dataset references, not enumerated",
+      "documentation_url": "https://research.wu.ac.at/ws/api/documentation/index.html",
+      "api_base_url": "https://research.wu.ac.at/ws/api/",
+      "format_protocol": "REST/OpenAPI3 documented; configured sharing context determines permissions",
+      "authentication": "API docs describe anonymous and authenticated contexts; exact instance read permissions not tested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "All rights reserved portal content; open access item exceptions retain individual licence",
+      "license_url": "https://research.wu.ac.at",
+      "api_verification_state": "Native portal and API documentation HTTP200; no successful data-query sample",
+      "latest_checked_utc": "2026-10-18T01:21:27.317553+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
