@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:36:07.269057+00:00",
+  "published_at": "2026-10-18T05:38:11.101028+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:33:13.107728+00:00",
+  "research_updated_at": "2026-10-18T05:36:12.907400+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WVSselectedintegratedfileandREDcustomrestrictionsverified; OldBaileyAPI/legalheld, separateOUKGleadqueuedwithoutquery.",
+  "latest_milestone": "UNIPROBEspecifiedDNAprobeacademicrestrictionverified; arthistoricumheiDATAdedup; GigaDBindexedCC0default/nativeSPA/APIidentitygapsretained.",
   "counts": {
     "verified": 360,
-    "candidates": 846,
-    "excluded": 249,
+    "candidates": 847,
+    "excluded": 250,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -16511,6 +16511,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gigadb-research-repository",
+      "provider": "GigaScience Press / GigaDB",
+      "service_name": "GigaDB data repository and metadata-interface discovery",
+      "geographic_coverage": "International researchrepository; discipline/source/studycoverage varies",
+      "topical_coverage": "research | biodiversity | health | geospatial",
+      "dataset_families": "Journal-associated researchdatasets/researchobjects; no files/study/participant records acquired",
+      "documentation_url": "https://gigadb.org/term | https://oai.datacite.org/oai/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Officialindexedpolicy: CC0 forGigaSciencejournal-associateddatasets unlessotherwise stated; exactcurrentinterface/exceptionsunresolved",
+      "license_url": "https://gigadb.org/term | https://gigabytejournal.com/faq",
+      "api_verification_state": "Nativeterms200HTMLSPA shellonly. Officialindexedpolicyreview; no GigaDBqueryAPIresponse orrepository-scopedDataCitequerytested.",
+      "latest_checked_utc": "2026-10-18T05:36:07.218376+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gistemp-data-access",
       "provider": "NASA Goddard Institute for Space Studies",
       "service_name": "GISTEMP v4 data-access portal",
@@ -16867,7 +16885,7 @@
       "license": "unknownuniversalheiDATAmetadata/databasegrant; individualdataset/softwarelicencesneedreview",
       "license_url": "https://www.arthistoricum.net/publizieren/forschungsdaten | https://www.ub.uni-heidelberg.de/helios/kataloge/lod.html",
       "api_verification_state": "primary_operator_OAI_documented_native_collection_and_version_HTTP503_temporary_unavailability_not_absence",
-      "latest_checked_utc": "2026-10-18T05:23:40.324158+00:00",
+      "latest_checked_utc": "2026-10-18T05:36:07.218376+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31270,6 +31288,24 @@
       "license_url": "https://unepgrid.ch/en/terms-use",
       "api_verification_state": "Native homepage/terms HTTP200 HTML; no exact public query API or successful API sample verified",
       "latest_checked_utc": "2026-10-18T01:54:59.277998+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "uniprobe-probe-design-access",
+      "provider": "Brigham and Womens Hospital / Bulyk Lab",
+      "service_name": "UNIPROBE portal and restricted universal probe-design access",
+      "geographic_coverage": "Multispecies PBM/molecularreference research; data/source-specificcoverage",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "PBM experimentalbinding data/statisticalanalyses; inspectedlicencefor41944designedDNAprobesequences only, no sourcefiles acquired",
+      "documentation_url": "https://thebrain.bwh.harvard.edu/uniprobe/about.php | http://thebrain.bwh.harvard.edu/uniprobe/academic-license.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "ExactAPIauthenticationunknown; inspectedsequenceaccessconditionedonlicenceacceptance, notaccepted",
+      "free_access_restrictions": "Specifiedprobe-designfamilyrequiresacademicnoncommercialinternaluses andnontransfer; no agreement/sourceaccess executed",
+      "license": "Restricted academicinternalnoncommercialprobesequencedesignlicence; otherPBMdatabase/PDDLscopeunverified",
+      "license_url": "http://thebrain.bwh.harvard.edu/uniprobe/academic-license.php",
+      "api_verification_state": "Nativeacademiclicence/root/about200HTML; browsertoolsandPHPwarningsnotpublicAPI/schema success. No queryAPI/sample established.",
+      "latest_checked_utc": "2026-10-18T05:36:07.218376+00:00",
       "classification": "restricted"
     },
     {
