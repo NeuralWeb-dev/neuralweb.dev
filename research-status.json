@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T04:57:13.069776+00:00",
+  "published_at": "2026-10-18T04:59:15.867226+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:56:04.314644+00:00",
+  "research_updated_at": "2026-10-18T04:57:27.074980+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DZA native contract/non-profit restrictions verified; ASDC and GESIS original documentation holds retained; certification licence misattribution rejected.",
+  "latest_milestone": "SHARE scientific-only and German statistical RDC contractual/charged restrictions verified; WormBase original holds retained.",
   "counts": {
     "verified": 354,
-    "candidates": 828,
-    "excluded": 237,
+    "candidates": 829,
+    "excluded": 239,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -26531,6 +26531,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "wormbase-core-services",
+      "provider": "WormBase",
+      "service_name": "WormBase core REST service discovery",
+      "geographic_coverage": "Nematode biology research; current taxonomic/service scope unresolved",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "WormBase core biology/genetics; registry API claim requires current verification",
+      "documentation_url": "https://wormbase.org/about/userguide/for_developers/api-rest#10--10",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.wormbase.org/about/policies#20--10",
+      "api_verification_state": "Original REST documentation and owner policy requests guard-deferred, target URLs unsent. No successful API sample.",
+      "latest_checked_utc": "2026-10-18T04:57:22.827180+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wu-vienna-research",
       "provider": "WU Vienna University of Economics and Business",
       "service_name": "WU Research Pure API",
@@ -28294,6 +28312,24 @@
       "license_url": "https://www.geoguyane.fr/accueil/mentions-legales",
       "api_verification_state": "documented_sample_success_native_CSW_capabilities_only_reuse_restricted",
       "latest_checked_utc": "2026-10-17T14:46:09.470919+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "german-statistical-rdc",
+      "provider": "Statistical Offices of the Federation and Federal States of Germany",
+      "service_name": "Research Data Centres official microdata access",
+      "geographic_coverage": "Germany official statistics; exact survey/year/population varies",
+      "topical_coverage": "demographics | economics/finance | agriculture | energy | health | research",
+      "dataset_families": "Official microdata; scientific-use, remote scientific-use, safe-centre and remote-execution access; campus/public files separately advertised",
+      "documentation_url": "https://www.forschungsdatenzentrum.de/en | https://www.forschungsdatenzentrum.de/en/terms-use",
+      "api_base_url": "",
+      "format_protocol": "Public HTML documentation; microdata/file/remote-analysis interfaces not queried",
+      "authentication": "Eligible independent scientific institutions/users, project request and contract; confidentiality obligations",
+      "free_access_restrictions": "Official microdata charged by statistic/year/access route; project purpose, user and duration restrictions. No paid access acquired.",
+      "license": "Restricted contractual scientific microdata; website download reuse non-commercial and redistribution approval conditions",
+      "license_url": "https://www.forschungsdatenzentrum.de/en/terms-use | https://www.forschungsdatenzentrum.de/en/imprint | https://www.forschungsdatenzentrum.de/en/user-charge",
+      "api_verification_state": "Native root/imprint/terms/charges200HTML. No public API contract/sample verified.",
+      "latest_checked_utc": "2026-10-18T04:57:22.827180+00:00",
       "classification": "restricted"
     },
     {
@@ -30220,6 +30256,24 @@
       "license_url": "https://dataportal.senckenberg.de/legal",
       "api_verification_state": "CKAN_portal_confirmed_native_candidate_API_sample_robots_withheld",
       "latest_checked_utc": "2026-10-17T19:32:23.436297+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "share-eric-research-data",
+      "provider": "SHARE-ERIC",
+      "service_name": "Survey of Health, Ageing and Retirement in Europe research-data access",
+      "geographic_coverage": "European ageing survey; exact wave/country populations vary",
+      "topical_coverage": "demographics | health | labor | economics/finance | research",
+      "dataset_families": "SHARE waves, easySHARE, job episodes and accompanying data families described by citation policy",
+      "documentation_url": "https://share-eric.eu/data/become-a-user",
+      "api_base_url": "",
+      "format_protocol": "Public HTML policies; no source interface queried",
+      "authentication": "Individual registration, user statement and scientific affiliation/project justification required",
+      "free_access_restrictions": "Free scientific access after registration; commercial and other non-scientific uses excluded",
+      "license": "Restricted scientific-only registered access; website non-commercial copying conditions",
+      "license_url": "https://share-eric.eu/data/become-a-user | https://share-eric.eu/data/copyright-notice-and-disclaimer | https://share-eric.eu/data/data-access/citation-requirements",
+      "api_verification_state": "Native copyright/citation/registration policy200HTML; exact public API unresolved, no API/sample source request.",
+      "latest_checked_utc": "2026-10-18T04:57:22.827180+00:00",
       "classification": "restricted"
     },
     {
