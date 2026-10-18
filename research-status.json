@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:03:38.280780+00:00",
+  "published_at": "2026-10-18T21:05:41.299408+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:03:24.245935+00:00",
+  "research_updated_at": "2026-10-18T21:05:27.065984+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UJI and KU Leuven RDR metadata CC0 verified, OAI attempts guard-deferred; LabKey/API scope, Immunome opaque HTML, USIL historical NC/challenge and Koç grants unresolved.",
+  "latest_milestone": "zbMATHownedmetadataBYSA4 andAPI documented; phylogeneticsstatic/codeAPIgap; OEISEULA/Termsconflict preserved.",
   "counts": {
-    "verified": 461,
-    "candidates": 1358,
+    "verified": 463,
+    "candidates": 1362,
     "excluded": 395,
     "sample_successes": 464
   },
@@ -12225,6 +12225,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "noaa-gml-datafinder-erddap",
+      "provider": "NOAA Global Monitoring Laboratory",
+      "service_name": "GML Data Finder and ERDDAP API",
+      "geographic_coverage": "Global atmospheric observing networks; source/product spatial and time coverage varies",
+      "topical_coverage": "climate/weather/environment | research | energy",
+      "dataset_families": "Greenhouse gases, halocompounds, aerosols, ozone, radiation, water vapor, meteorology and campaign product descriptors",
+      "documentation_url": "https://gml.noaa.gov/data/data.php | https://erddap.gml.noaa.gov/",
+      "api_base_url": "https://erddap.gml.noaa.gov/erddap/",
+      "format_protocol": "ERDDAPservice publishedbynativefinder; plaintextsystemversion verified, no measurementdataquery",
+      "authentication": "AnonymousERDDAProot/versionHTTP200; actualdatasets mayhaveaccessrestrictions, unqueried",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Public-domain NOAA government-origin information, except specificallyannotated/third-party content",
+      "license_url": "https://gml.noaa.gov/about/disclaimer.html",
+      "api_verification_state": "NativeDataFinder/disclaimerHTTP200. SavedfinderfooterexplicitlypublishesERDDAPAPIserver; nativeERDDAProotHTTP200 andminimalversionGETHTTP200plaintextERDDAP_version=2.30. Metadataonly, no observationquery. FTPnotcountedasAPI.",
+      "latest_checked_utc": "2026-10-18T21:03:48.175480+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "noaa-ncep-nomads",
       "provider": "NOAA NWS / NCEP Central Operations",
       "service_name": "NCEP NOMADS GRIB Filter service: NCEP-origin scope",
@@ -14979,6 +14997,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "zbmath-open-bibliographic-apis",
+      "provider": "FIZ Karlsruhe / zbMATH Open",
+      "service_name": "zbMATH Open REST and OAI-PMH APIs",
+      "geographic_coverage": "International mathematics research literature; coveredpublications vary",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Mathematics bibliographic/review/classification metadata; publisher-controlledtext/abstractexceptions separate",
+      "documentation_url": "https://zbmath.org/static/newsletter/zbNEWS-18.pdf | https://oai.zbmath.org/static/terms-and-conditions.html",
+      "api_base_url": "https://api.zbmath.org | https://oai.zbmath.org/ (exactOAIquerypath/runtime untested)",
+      "format_protocol": "REST API and OAI-PMH documented; actualsource/schema/runtime untested",
+      "authentication": "Unknown currentAPIaccount/keyrequirements; nativeOAIterms describeagreementandappropriateuse, no signup/account/key used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-SA4.0 zbMATH-owned metadata; per-entry/publisherexceptions retained",
+      "license_url": "https://oai.zbmath.org/static/terms-and-conditions.html | https://zbmath.org/static/newsletter/zbNEWS-18.pdf",
+      "api_verification_state": "Originalzbmathrootrobots-deferredunsent; sameconfiglegalrequestdeferredaftersamehostfailure. IndependentofficialOAIlegaldochostHTTP200 confirmsAPIservice/contentterms; indexednative newsletterdocumentsRESTbase. No APIresponse/sourcequery/probe ormainhostholdworkaround.",
+      "latest_checked_utc": "2026-10-18T21:05:22.202304+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "zbw-stw-terminology-api",
       "provider": "ZBW Leibniz Information Centre for Economics",
       "service_name": "STW terminology through Web Services for Economics",
@@ -15518,6 +15554,24 @@
       "license_url": "",
       "api_verification_state": "Native root deferred by guard, target unsent. Registry FTP download location not a query API and not visited; no current read-only machine API verified.",
       "latest_checked_utc": "2026-10-18T02:56:54.570050+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "algebraic-phylogenetics-database",
+      "provider": "Algebraic phylogenetics collaboration / Max Planck Institute MiS",
+      "service_name": "Algebraic phylogenetics database",
+      "geographic_coverage": "Mathematical small-tree/network modelclassification, internationallydeveloped; notgeographicobservations",
+      "topical_coverage": "research | education",
+      "dataset_families": "Algebraic invariants forsmallphylogenetic trees/networks; mathematicalmodel metadata andsoftware/file descriptions",
+      "documentation_url": "https://algebraicphylogenetics.org/about",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "MITsource-codeproject permission; exact database/content/APIgrant unresolved",
+      "license_url": "https://algebraicphylogenetics.org/about",
+      "api_verification_state": "Nativehomepage/aboutHTTP200, databasev0.3 dated30April2026. Aboutdescribes26trees/fivemodeltypes andJulia/OSCARserialization. Sourcecode/staticYAML/MRDI downloads andin-processpackageAPI are notdemonstratedpublicREST/queryservice.",
+      "latest_checked_utc": "2026-10-18T21:05:22.202304+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23153,6 +23207,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "grsf-stock-fisheries-catalogue",
+      "provider": "GRSF / D4Science / CNR and fisheries partners",
+      "service_name": "Global Record of Stocks and Fisheries catalogue services",
+      "geographic_coverage": "Global marine fisheries/stocks assembled from FIRMS, FishSource and RAM; individual record scope varies",
+      "topical_coverage": "oceans | biodiversity | agriculture | research",
+      "dataset_families": "Stock/fishery/assessment/traceability catalogue metadata; source catch/observations/geometry excluded",
+      "documentation_url": "https://api.d4science.org/gcat/api-docs/index.html | https://gcube.wiki.gcube-system.org/gcube/GCat_Service",
+      "api_base_url": "",
+      "format_protocol": "gCat RESTJSON documented, currentinstancecontract/sample untested",
+      "authentication": "Older officialframeworkguide requiresgCubeAuthorizationToken boundtouser/VREcontext. Currentcontractunverified, no account/token/login requested.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-SA4 individualGRSFrecord labels; uniformcurrentdatabase/partnergrant applicability unresolved",
+      "license_url": "https://www.fao.org/fi/static-media/MeetingDocuments/FIRMS/TWG6/5e.pdf",
+      "api_verification_state": "OriginalVRErootHTTP200session-expired/signin shell, not APIresponse. gCatdocs robots-deferredunsent. Indexedofficialframeworkguide describesREST/token/dynamicbasebutisdeprecated; no source/backend/APIquery.",
+      "latest_checked_utc": "2026-10-18T21:03:48.175480+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gsa-figshare-data-repository",
       "provider": "Geological Society of America",
       "service_name": "GSA Data Repository / Figshare portal candidate",
@@ -29687,6 +29759,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "oeis-integer-sequence-services",
+      "provider": "The OEIS Foundation Inc.",
+      "service_name": "OEIS JSON search interface",
+      "geographic_coverage": "Global mathematical integer-sequence reference; no geographicmeasurementcoverage",
+      "topical_coverage": "research | education",
+      "dataset_families": "Integer-sequence references andmathematicalmetadata; sourceentriesnotqueried",
+      "documentation_url": "https://oeis.org/wiki/JSON_Format",
+      "api_base_url": "https://oeis.org/search",
+      "format_protocol": "JSONsearchviafmt=json documented; actualresponse schema/runtimeuntested",
+      "authentication": "NativeJSONguideexamples do notsupplycredentials, butactualAPIaccess/auth nottested; noaccount/registration",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "EULA CC BY-SA4.0 versus current-linked Terms noncommercial clause: interaction unresolved",
+      "license_url": "https://oeis.org/wiki/The_OEIS_End-User_License_Agreement | https://oeis.org/OEISTermsOfUse.odt.txt | https://oeis.org/wiki/Legal_Documents",
+      "api_verification_state": "Nativehome/legalhub/JSONguide/EULA/current-linkedODTHTTP200. JSONguidedocumentsfmt=json andid:search. BoundedODTcontent.xml parsedinmemory, notexecuted. No JSONsourcequery, downloadall/index/sourceentry orAPIresponseclaimed.",
+      "latest_checked_utc": "2026-10-18T21:05:22.202304+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "okanagan-similkameen-open-data",
       "provider": "Regional District of Okanagan-Similkameen",
       "service_name": "RDOS Open Data Hub native catalog",
@@ -31376,6 +31466,24 @@
       "license_url": "https://portulanclarin.net/agreement/",
       "api_verification_state": "registry_claimed_OAI_endpoint_returns_maintenance_HTML_not_API_response",
       "latest_checked_utc": "2026-10-17T03:04:42.888056+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "post45-data-collective",
+      "provider": "Post45 Data Collective",
+      "service_name": "Post45 literary and cultural data catalogue",
+      "geographic_coverage": "Post1945literary/cultural research, US/British/international sources; per-datasetcoverage varies",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Dataset/data-essay descriptions for publishing/books/media/literarymetadata; underlyingperson/demographic/fulltextfiles excluded",
+      "documentation_url": "https://data.post45.org/ | https://data.post45.org/submissions.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-datasetlicensing; submissionopen-licenseguidelines notuniformcataloguegrant",
+      "license_url": "https://data.post45.org/submissions.html",
+      "api_verification_state": "Nativehome/submissionsHTTP200HTML; no publicqueryAPI/schema established. Savedhomepagecontainsdata-essay/newslinks, notAPIresponse. No rawCSV/sourcepersonal/authorattributes/fulltextqueries orGitHubclientexecution.",
+      "latest_checked_utc": "2026-10-18T21:03:48.175480+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
