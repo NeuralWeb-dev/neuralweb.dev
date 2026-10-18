@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:13:03.840493+00:00",
+  "published_at": "2026-10-18T06:15:06.448477+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:12:01.250222+00:00",
+  "research_updated_at": "2026-10-18T06:14:30.209104+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals/sevenservices reviewed; GESISKGnativeBY4/OAI and THMOAI verified; Flora/Qualiservice restrictions, GESISarchive/SADARholds retained",
+  "latest_milestone": "CrossAsia nativeCC0bibliographic metadata exceptabstracts/OAI documented withruntimeheld; heiDATA dedup/current guide, OstDataheld candidate.",
   "counts": {
-    "verified": 364,
-    "candidates": 869,
+    "verified": 365,
+    "candidates": 870,
     "excluded": 260,
     "sample_successes": 465
   },
@@ -6712,6 +6712,24 @@
       "license_url": "https://dzs.gov.hr/about-us/right-of-access-to-information/open-data/1823?big=1+%7C+https%3A%2F%2Fdzs.gov.hr%2FUserDocsImages%2Fdokumenti%2FDokumenti%2FOpen+Licence.pdf%3Fvel%3D244016",
       "api_verification_state": "sample_success_scoped_open_license_metadata",
       "latest_checked_utc": "2026-10-16T21:13:38.357100+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "crossasia-open-access-metadata",
+      "provider": "CrossAsia / Staatsbibliothek zu Berlin / GBV Reposis",
+      "service_name": "CrossAsia Open Access Repository OAI metadata",
+      "geographic_coverage": "Asian Studies scholarly outputs, source regions/languages vary",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Descriptive bibliographic metadata of Asian Studies publications and scholarly outputs; abstracts/fulltexts separately governed",
+      "documentation_url": "https://repository.crossasia.org/content/technical/basics.xml",
+      "api_base_url": "https://repository.crossasia.org/servlets/OAIDataProvider",
+      "format_protocol": "Native operator documents OAI-PMH2.0; registry REST object API not tested",
+      "authentication": "Original anonymous Identify guard-deferred unsent; native owner docs describe metadata harvesting, current runtime untested",
+      "free_access_restrictions": "CC0 descriptive bibliographic metadata excludes abstracts; fulltext permission/licence and deposit conditions vary",
+      "license": "CC0-1.0 for descriptive bibliographic metadata excluding abstracts",
+      "license_url": "https://repository.crossasia.org/content/rights/copyright.xml",
+      "api_verification_state": "Native copyright and technical docs200HTML confirm scoped grant/OAI; exact Identify guard-deferred unsent, API runtime untested",
+      "latest_checked_utc": "2026-10-18T06:14:25.579137+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17171,7 +17189,7 @@
       "license": "unknownuniversalheiDATAmetadata/databasegrant; individualdataset/softwarelicencesneedreview",
       "license_url": "https://www.arthistoricum.net/publizieren/forschungsdaten | https://www.ub.uni-heidelberg.de/helios/kataloge/lod.html",
       "api_verification_state": "primary_operator_OAI_documented_native_collection_and_version_HTTP503_temporary_unavailability_not_absence",
-      "latest_checked_utc": "2026-10-18T05:36:07.218376+00:00",
+      "latest_checked_utc": "2026-10-18T06:14:25.579137+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21492,6 +21510,24 @@
       "license_url": "https://osis.geomar.de/app/ | https://osis.geomar.de/api/apispec_1.json",
       "api_verification_state": "native_anonymous_single_public_platform_JSON_success_published_Swagger2_schema",
       "latest_checked_utc": "2026-10-17T19:14:19.013280+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ostdata-research-repository",
+      "provider": "OstData / osmikon research-data infrastructure",
+      "service_name": "OstData research-data repository",
+      "geographic_coverage": "Eastern/Central/Southeastern Europe research; actual source coverage unverified",
+      "topical_coverage": "research | culture | law/civic data",
+      "dataset_families": "Area-studies research data, current native inventory unverified",
+      "documentation_url": "https://www.ostdata.osmikon.de/radar/en/home",
+      "api_base_url": "https://www.ostdata.osmikon.de/oai/ (registry claim)",
+      "format_protocol": "OAI-PMH/REST registry claims only; RADAR deployment unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original root guard-deferred, target unsent; no native API response",
+      "latest_checked_utc": "2026-10-18T06:14:25.579137+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
