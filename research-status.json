@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:05:16.922149+00:00",
+  "published_at": "2026-10-18T02:07:19.607755+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:04:04.793138+00:00",
+  "research_updated_at": "2026-10-18T02:05:44.067213+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "dbVar deduplicated as unresolved Entrez family; CEEHRC protected sequence access and NEA CPS individual package restrictions verified.",
+  "latest_milestone": "Sandrart native RDF ODbL distinguished from REST BY-NC-SA3; HSRC/JEFF candidates retained with native holds and source-rights uncertainty.",
   "counts": {
-    "verified": 333,
-    "candidates": 736,
-    "excluded": 201,
+    "verified": 334,
+    "candidates": 738,
+    "excluded": 202,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -9895,6 +9895,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "sandrart-rdf-linked-data",
+      "provider": "Sandrart.net scholarly edition project",
+      "service_name": "Teutsche Academie RDF linked-data interface",
+      "geographic_coverage": "European early modern art/artists/places/bibliography represented in the historical Teutsche Academie edition",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Partial RDF object properties and relationships for artworks, places, bibliography and historical people; source images excluded",
+      "documentation_url": "https://ta.sandrart.net/de/info/services/lod-rdf/",
+      "api_base_url": "https://ta.sandrart.net/",
+      "format_protocol": "Dereferenceable linked-data HTTP URIs; documented303content negotiation, RDF/XML alternate links",
+      "authentication": "Public RDF described by native owner; no credentials used; runtime not tested due access hold",
+      "free_access_restrictions": "ODbL conditions for offered RDF data; protected images and REST content have separate rights",
+      "license": "Open Data Commons Open Database License (ODbL); native page omits version",
+      "license_url": "https://ta.sandrart.net/de/info/services/lod-rdf/",
+      "api_verification_state": "Native RDF interface/rights documentation HTTP200. No RDF sample request after REST path guard deferred; documented interface only, runtime unresolved.",
+      "latest_checked_utc": "2026-10-18T02:05:39.388883+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "saw-leipzig-repository",
       "provider": "Saxon Academy of Sciences and Humanities / Leipzig repository",
       "service_name": "Public repository metadata OAI-PMH and documented metadata interfaces",
@@ -15351,6 +15369,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "hsrc-research-output-repository",
+      "provider": "Human Sciences Research Council, South Africa",
+      "service_name": "HSRC Research Output Repository (institutional Figshare portal)",
+      "geographic_coverage": "South African and wider HSRC research output; exact deposited-source coverage unverified",
+      "topical_coverage": "research | demographics | education | health | economics | labor",
+      "dataset_families": "HSRC research publications/output repository, source-specific data/files not cleared",
+      "documentation_url": "https://hsrc-repository.figshare.com/",
+      "api_base_url": "",
+      "format_protocol": "Institutional Figshare portal; registry OAI-PMH portal_1093 and REST claims not instance-verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Institution website noncommercial informational/reference copying; repository metadata/source grant unresolved",
+      "license_url": "https://hsrc.ac.za/terms-of-use/",
+      "api_verification_state": "Institutional portal guard-deferred unsent; independent HSRC terms HTTP200 HTML. No OAI/global Figshare API query workaround.",
+      "latest_checked_utc": "2026-10-18T02:05:39.388883+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "huggingface-dataset-hub",
       "provider": "Hugging Face",
       "service_name": "Hub dataset repository metadata API",
@@ -17580,6 +17616,24 @@
       "license_url": "https://nci.org.au/copyright",
       "api_verification_state": "Native catalogue guard-deferred unsent; owner services/copyright HTTP200. Owner documents THREDDS programmatic services, not successful catalogue API response.",
       "latest_checked_utc": "2026-10-18T01:16:56.386777+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nea-jeff-open-data-discovery",
+      "provider": "OECD Nuclear Energy Agency / JEFF collaboration",
+      "service_name": "JEFF nuclear data release discovery / NEA open data platform",
+      "geographic_coverage": "International evaluated nuclear data collaboration; reaction/isotope library scope differs by release",
+      "topical_coverage": "energy | research",
+      "dataset_families": "Evaluated/processed reaction and decay library release metadata; public releases distinct from controlled CPS packages/GitLab content",
+      "documentation_url": "https://databank.io.oecd-nea.org/data/jeff/jeff_official/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Some content restricted on GitLab; no authentication/account/requests used. Public API access unresolved",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed public/restricted sources; exact release/metadata licence unresolved",
+      "license_url": "",
+      "api_verification_state": "Native overview HTTP200; open data platform HTTP403 held, no REST/OAI workaround. Release-guide URL redirected to sign-in HTML, not API success.",
+      "latest_checked_utc": "2026-10-18T02:05:39.388883+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27302,6 +27356,24 @@
       "license_url": "https://data.bs.ch/terms/terms-and-conditions/ | https://data.bs.ch/explore/dataset/100189/information/",
       "api_verification_state": "historical_catalog_metadata_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:33:40.805266+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "sandrart-rest-api",
+      "provider": "Sandrart.net scholarly edition project",
+      "service_name": "Teutsche Academie REST XML/JSON API",
+      "geographic_coverage": "Early modern European art-history edition entities/references",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Artwork/place/person/bibliography objects, textual occurrences and external reference lookups; images separate",
+      "documentation_url": "https://ta.sandrart.net/de/info/services/rest/",
+      "api_base_url": "https://ta.sandrart.net/services/rest/",
+      "format_protocol": "REST XML default or JSON with ?json=1; identifier/reference GET routes",
+      "authentication": "Public API documented; protected artwork images require account, not used",
+      "free_access_restrictions": "Noncommercial/sharealike/attribution; protected images separate and redistribution/archive storage restricted",
+      "license": "Creative Commons BY-NC-SA3.0 for REST-accessible contents",
+      "license_url": "https://ta.sandrart.net/de/info/services/rest/",
+      "api_verification_state": "Native API guide HTTP200; documented single artwork JSON request guard-deferred unsent, not successful JSON or API absence",
+      "latest_checked_utc": "2026-10-18T02:05:39.388883+00:00",
       "classification": "restricted"
     },
     {
