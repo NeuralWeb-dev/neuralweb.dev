@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:15:21.798771+00:00",
+  "published_at": "2026-10-18T23:17:25.044047+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:12:57.601575+00:00",
+  "research_updated_at": "2026-10-18T23:16:47.486164+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals/tenservices: AtomicLineListv3BY4 andv2restriction; BacDiveanonymousJSONidentifiercheck plus274fields; other astronomy/geochemistry/OU API-rights gaps retained.",
+  "latest_milestone": "ITINERIS nativeOpenAPI/siteJSON; NatureCounts no-redistribution and Motus collaboration-controlled access.",
   "counts": {
     "verified": 494,
-    "candidates": 1421,
-    "excluded": 407,
+    "candidates": 1422,
+    "excluded": 409,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -26134,6 +26134,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "itineris-hub-geonetwork",
+      "provider": "ITINERIS / Italian National Research Council and environmental research infrastructures",
+      "service_name": "ITINERIS HUB GeoNetwork metadata API",
+      "geographic_coverage": "Italian environmental research infrastructures with national and international dataset coverage",
+      "topical_coverage": "environment | climate | water | geospatial | research",
+      "dataset_families": "Environmental dataset/service/infrastructure descriptions; no environmental observations or coordinates queried",
+      "documentation_url": "https://geonetwork.itineris.cnr.it/geonetwork/doc/api/index.html | https://geonetwork.itineris.cnr.it/geonetwork/srv/api/doc",
+      "api_base_url": "https://geonetwork.itineris.cnr.it/geonetwork/srv/api",
+      "format_protocol": "OpenAPI3.0.1 REST JSON, GeoNetwork4.4.9; site-description JSON verified",
+      "authentication": "Anonymous site-description GET succeeded; authentication/authorization for other operations varies and was not exercised",
+      "free_access_restrictions": "Public documentation and site metadata response; source-specific access/free quota unknown",
+      "license": "unknown verified data grant",
+      "license_url": "https://hub.itineris.cnr.it | https://geonetwork.itineris.cnr.it/geonetwork/srv/api/doc",
+      "api_verification_state": "Native SwaggerUI and resolved schema HTTP200 valid OpenAPI3.0.1,230paths/319ops. Documented server and /site GET returned200 application/json site-description object, nine top-level keys. Only service identity/schema metadata verified, no dataset/source response.",
+      "latest_checked_utc": "2026-10-18T23:16:42.752541+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "iu-datacore-repository",
       "provider": "Indiana University Libraries",
       "service_name": "Indiana University Libraries data discovery service",
@@ -46008,6 +46026,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "motus-wildlife-tracking",
+      "provider": "Birds Canada / Motus collaboration",
+      "service_name": "Motus Wildlife Tracking data access interfaces",
+      "geographic_coverage": "International wildlife telemetry collaboration; native homepage reports34countries, not independently enumerated coverage",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Programme and data-access descriptions for wildlife movement research; no tags, stations, detections or animal tracks acquired",
+      "documentation_url": "https://motus.org/resources/policy/ | https://docs.motus.org/en/about-motus/collaboration-policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Summary views public; downloads/accounts and project-controlled complete-data permissions documented. No registration/login or credentials",
+      "free_access_restrictions": "Some participation/tag-registration activities have fees; no API-access price inferred from contribution fees and no paid service acquired. Data-use scope governed by collaboration policy",
+      "license": "Collaboration-controlled summary/complete-data access and reuse; no unrestricted public source grant verified",
+      "license_url": "https://motus.org/resources/policy/ | https://motus.org/wp-content/uploads/2024/03/Motus-Collaboration-Policy-Jun21-23.pdf",
+      "api_verification_state": "Native homepage/policy and official documentation HTTP200; indexed official policy describes MotusRPackage access to complete data. Exact current public API/base/schema and anonymous metadata operation unresolved; R access not automatically public networkAPI proof.",
+      "latest_checked_utc": "2026-10-18T23:16:42.752541+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "mvco-coastal-observatory",
       "provider": "Woods Hole Oceanographic Institution",
       "service_name": "Martha’s Vineyard Coastal Observatory",
@@ -46113,6 +46149,24 @@
       "license_url": "https://nvs.landcareresearch.co.nz/Home/Copyright | https://nvs.landcareresearch.co.nz/Home/Terms",
       "api_verification_state": "native_HTML_policy_and_tools_verified_restricted_source_rights_API_unresolved",
       "latest_checked_utc": "2026-10-17T21:59:27.952936+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "naturecounts-data-api",
+      "provider": "Birds Canada / NatureCounts contributors",
+      "service_name": "NatureCounts biodiversity data API and repository",
+      "geographic_coverage": "Canada and partner biodiversity monitoring programmes; collection-specific broader coverage",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Bird/population-monitoring collection descriptions, exchange-field metadata and observation services; no species/occurrence/location records acquired",
+      "documentation_url": "https://birdscanada.github.io/naturecounts/articles/data-access.html | https://naturecounts.ca/nc/default/nc_data_sharing.jsp",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner August2026 guide: downloads require free NatureCounts account, publiclevel5 versus restrictedlevels3/4 and permissioncontrolledlevel2. No account/key or sample credentials used",
+      "free_access_restrictions": "Native sharing policy generally prohibits redistribution without explicit dataset authorization; consultation/collaboration obligations and use restrictions vary per collection",
+      "license": "Default no redistribution without dataset authorization; modification and consultation restrictions",
+      "license_url": "https://naturecounts.ca/nc/default/nc_data_sharing.jsp | https://naturecounts.ca/nc/default/terms.jsp",
+      "api_verification_state": "Native root/sharing/terms and owner client-access guide HTTP200. Native owner guide explicitly describes API downloads/access levels; exact network endpoint/schema and credential-free metadata operation not verified. No account/download/count/species/source request.",
+      "latest_checked_utc": "2026-10-18T23:16:42.752541+00:00",
       "classification": "restricted"
     },
     {
