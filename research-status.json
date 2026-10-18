@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T20:53:22.160823+00:00",
+  "published_at": "2026-10-18T20:55:25.000617+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:53:02.745268+00:00",
+  "research_updated_at": "2026-10-18T20:54:41.819729+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LabKeycontext/APIgrantgap; ImmunomeopaqueHTML/currentAPIunknown; USILchallenge/historicalNCpolicy.",
+  "latest_milestone": "UJIexplicitmetadataCC0/nativeRESTreferences; Koçheld/grantunknown; KULeuvenRDRCC0metadata/APIguide verified, runtimeheld.",
   "counts": {
-    "verified": 459,
-    "candidates": 1357,
+    "verified": 461,
+    "candidates": 1358,
     "excluded": 395,
     "sample_successes": 464
   },
@@ -11155,6 +11155,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ku-leuven-rdr",
+      "provider": "KU Leuven LIBIS / KU Leuven Libraries",
+      "service_name": "KU Leuven RDR research data repository APIs",
+      "geographic_coverage": "KU Leuven Belgium institutionalresearch; projectcoverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional multidisciplinarydataset metadata; individualdata/software/restrictedfiles separatelylicensed",
+      "documentation_url": "https://www.kuleuven.be/rdm/en/rdr/api-documentation",
+      "api_base_url": "https://rdr.kuleuven.be/oai | https://rdr.kuleuven.be/ (nativeDataverseAPIdeployment documented; RESTmethodbase untested)",
+      "format_protocol": "OAI-PMHclaimed; nativeAPIlargelyDataversecompatible withmodifiedmetadatamodel, runtimeuntested",
+      "authentication": "OAI/rootrequestsunsentunderrobotsguard. NativeRESTguide describesAPI tokenvalid1year androle-limitedpermissions; OpenAPIdocs restrictedtoKULeuvenIPs. No key/account/IPworkaround.",
+      "free_access_restrictions": "NativeFAQlicensesmetadataCC0; sourcefiles mayopen/restricted/embargoed/closed/customterms/DTA. No accessexemption inferredfromCC0.",
+      "license": "CC0 all RDR metadata; data/source licenses separate",
+      "license_url": "https://www.kuleuven.be/rdm/en/faq/faq-rdr | https://www.kuleuven.be/rdm/en/rdr/licenses",
+      "api_verification_state": "NativeinstitutionAPIguide/licenses/FAQHTTP200 establishmetadataAPIandCC0. RepositoryrootandoriginalOAIIdentifyrobots-deferredunsent; notAPIresponse. No APIkey/account/token/login/sourcequery orIPrestrictedOpenAPIdocrequest.",
+      "latest_checked_utc": "2026-10-18T20:54:36.841471+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "langley-open-data-search",
       "provider": "Township of Langley, British Columbia",
       "service_name": "Township of Langley Open Data catalogue search API",
@@ -14302,6 +14320,24 @@
       "license_url": "https://archive.ics.uci.edu/contribute/donation | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "Native root/about/donationpolicy/clientdocs200; anonymous listHTTP200validJSON status200/OK/id-name list. No rawdata/file/observation request or client execution.",
       "latest_checked_utc": "2026-10-18T15:55:50.988102+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "uji-institutional-repository",
+      "provider": "Universitat Jaume I",
+      "service_name": "Repositori UJI metadata interfaces",
+      "geographic_coverage": "UJI Castelló Spain institutional outputs; multilingual/international research coverage varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional publication/research/heritage metadata; depositedcontentrights separate",
+      "documentation_url": "https://repositori.uji.es/",
+      "api_base_url": "https://repositori.uji.es/server/api | https://repositori.uji.es/server/oai/ (registryOAIbase, targetheld)",
+      "format_protocol": "NativehomepagepublishesDSpaceRESThypermediareferences; OAI-PMHclaimed, exactrequestheld",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 repository metadata only",
+      "license_url": "https://repositori.uji.es/ | https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "api_verification_state": "NativehomepageHTTP200 publishes321literalRESTbaseURLreferences and35_linksmarkers; thoseareAPIreferenceswithinHTML, notseparateRESTruntime/APIresponse. OriginalregistryOAIIdentifyrobots-deferredunsent. No alternateAPIrequest, sourcequery ornamespaceidentityassertion.",
+      "latest_checked_utc": "2026-10-18T20:54:36.841471+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -25410,6 +25446,24 @@
       "license_url": "https://www.knmi.nl/copyright",
       "api_verification_state": "Native about200HTML contains explicit human-verification gate, not API success; no active machine interface verified",
       "latest_checked_utc": "2026-10-18T05:54:35.556130+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "koc-university-digital-collections",
+      "provider": "Koç University Suna Kıraç Library",
+      "service_name": "Koç University Digital Collections",
+      "geographic_coverage": "Turkish university archives/heritage collections; exactcollectioncoverage unverified",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Digitalarchive/heritagecollection descriptors; no images/manuscripts/audio/transcripts acquired",
+      "documentation_url": "https://librarydigitalcollections.ku.edu.tr/en/",
+      "api_base_url": "https://cdm21054.contentdm.oclc.org/oai/oai.php (registryclaimed, requestheld)",
+      "format_protocol": "OAI-PMHclaimedbyregistry; instanceidentityunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verifiedcurrentmetadata/source grant",
+      "license_url": "https://librarydigitalcollections.ku.edu.tr/en/use/policies/",
+      "api_verification_state": "Originalrootrobots-deferredunsent; policydeferredunsentaftersamehostfailure. OriginalregistryCONTENTdmOAIIdentify also robots-deferredunsent. No namespace/sampleverified andnoalternateCONTENTdmbackend/request.",
+      "latest_checked_utc": "2026-10-18T20:54:36.841471+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
