@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:36:26.373125+00:00",
+  "published_at": "2026-10-18T08:38:29.168974+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:35:38.380584+00:00",
+  "research_updated_at": "2026-10-18T08:38:01.183607+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TIBpreservationrestricted/eligiblemetadata separate; Dbfetch58supportedDBschemas nativeJSONverified/grantsunresolved; WWMMheld/dedupApollo.",
+  "latest_milestone": "Nine originals: RODARE metadataCC0/OAI1560headers16pages complete; Dbfetch58schemas verified/source rights queued; AtlasBY4 withlegacyAPI500; Moscow/TIB restrictions andhostedclinical/Apollo dedups preserved.",
   "counts": {
-    "verified": 382,
-    "candidates": 948,
+    "verified": 383,
+    "candidates": 949,
     "excluded": 278,
     "sample_successes": 465
   },
@@ -2545,7 +2545,9 @@
           "metoffice-weather-datahub",
           "ticino-palma-api",
           "tirol-ogd-geospatial-search",
-          "vienna-ogd-wfs"
+          "vienna-ogd-wfs",
+          "wdc-moscow-solar-terrestrial",
+          "wdc-moscow-solid-earth-physics"
         ]
       },
       "water": {
@@ -3023,7 +3025,9 @@
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
           "tirol-ogd-geospatial-search",
-          "vienna-ogd-wfs"
+          "vienna-ogd-wfs",
+          "wdc-moscow-solar-terrestrial",
+          "wdc-moscow-solid-earth-physics"
         ]
       },
       "public spending/contracts": {
@@ -3184,7 +3188,9 @@
           "rosat-mpe-mission-archive",
           "uk-solar-system-data-centre"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "wdc-moscow-solar-terrestrial"
+        ]
       },
       "culture": {
         "status": "partial_verified",
@@ -3524,6 +3530,8 @@
           "ship-pomerania-cohort-access",
           "swiss-al-fcs",
           "tna-discovery",
+          "wdc-moscow-solar-terrestrial",
+          "wdc-moscow-solid-earth-physics",
           "zew-research-data-centre",
           "zpid-rdc-controlled-research"
         ]
@@ -3758,6 +3766,7 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "datafirst-african-research-data",
           "dhs-indicator-data-api",
           "ghana",
           "hsrc-research-output-repository",
@@ -3779,6 +3788,7 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "datafirst-african-research-data",
           "ghana",
           "kenya-knbs",
           "registry-data-vulekamali-gov-za",
@@ -3793,6 +3803,7 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "datafirst-african-research-data",
           "hsrc-research-output-repository",
           "south-africa-statssa"
         ],
@@ -3876,6 +3887,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "datafirst-african-research-data",
           "dhs-indicator-data-api",
           "hsrc-research-output-repository"
         ],
@@ -3995,6 +4007,7 @@
         ],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "datafirst-african-research-data",
           "dhs-indicator-data-api",
           "hsrc-research-output-repository",
           "laws-africa-knowledge",
@@ -11139,6 +11152,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "rodare-public-metadata",
+      "provider": "Helmholtz-Zentrum Dresden-Rossendorf",
+      "service_name": "RODARE public metadata OAI-PMH service",
+      "geographic_coverage": "HZDR/cooperating institutional research; internationalscientificsubjects, exactdatasetcoverage unenumerated",
+      "topical_coverage": "research | energy | environment",
+      "dataset_families": "Publicresearchrepository metadata andidentifierheaders; underlyingsoftware/datafiles useindividuallicences andopen/embargoed/restricted/closedaccess",
+      "documentation_url": "https://rodare.hzdr.de/policies",
+      "api_base_url": "https://rodare.hzdr.de/oai2d",
+      "format_protocol": "OAI-PMH2XMLIdentify/ListIdentifiers verified; registryRESTinterface notqueried",
+      "authentication": "No credentials forsuccessfulIdentifyand16publicidentifierheaderGETs; private/sourcefileaccess/deposit nottested",
+      "free_access_restrictions": "Nativepolicy explicitlyCC0metadataexceptemailaddresses; sourcefiles individuallylicensed/accesscontrolled. No upload/account/payment.",
+      "license": "Creative Commons CC0 metadata dedication, email addresses excluded",
+      "license_url": "https://rodare.hzdr.de/policies",
+      "api_verification_state": "Nativepolicy200withCC0grant; anonymousIdentify200validOAI2XML. SixteenListIdentifierspages200validXML,1560uniqueheaders/0duplicates/terminalcursor, reported1560. Sourcefilesnotqueried.",
+      "latest_checked_utc": "2026-10-18T08:36:40.211673+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ror",
       "provider": "Research Organization Registry",
       "service_name": "Research Organization Registry API",
@@ -15782,6 +15813,24 @@
       "license_url": "",
       "api_verification_state": "Native root200HTML explicitly describes historical collections of files without former interactive tools. No current API contract/sample verified.",
       "latest_checked_utc": "2026-10-18T05:02:50.104066+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "datafirst-african-research-data",
+      "provider": "DataFirst / University of Cape Town",
+      "service_name": "DataFirst research data and metadata discovery",
+      "geographic_coverage": "SouthAfrican/African socio-economic andsocialresearch; exactsourcecountries/coverage unenumerated",
+      "topical_coverage": "demographics | labor | economics/finance | education | research",
+      "dataset_families": "Survey/census/administrativemicrodata curation/discovery; licensed/open/secureenclave collections distinct, no sourcequeries",
+      "documentation_url": "https://www.datafirst.uct.ac.za/get-data/metadata | https://www.datafirst.uct.ac.za/deposit-data/digital-curation-processes-datafirst",
+      "api_base_url": "",
+      "format_protocol": "DDI/DublinCoremetadata standards described; exactpublicqueryAPI notverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Individual CC BY4, CC BY-SA4 or CC BY-NC4 options; exact metadata/database grant unresolved",
+      "license_url": "https://www.datafirst.uct.ac.za/deposit-data/digital-curation-processes-datafirst",
+      "api_verification_state": "Nativehome/curation/metadatadocs200HTML; no exactpublicREST/OAI/datacatalogue runtime request",
+      "latest_checked_utc": "2026-10-18T08:36:40.211673+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21523,7 +21572,7 @@
       "license": "Custom ClinicalTrials.gov data terms; international copyright and third-party rights retained; broad open-license grant unconfirmed",
       "license_url": "https://clinicaltrials.gov/about-site/terms-conditions",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T17:56:29.136759+00:00",
+      "latest_checked_utc": "2026-10-18T08:36:40.211673+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
