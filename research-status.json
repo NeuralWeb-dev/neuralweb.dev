@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T19:18:51.366117+00:00",
+  "published_at": "2026-10-18T19:20:54.935563+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:17:53.307559+00:00",
+  "research_updated_at": "2026-10-18T19:20:18.192719+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Brazil Deposita/Dados rights separated; Argentina/Chile native repository identity and held OAI documented.",
+  "latest_milestone": "Nine original services reviewed; PolyU OAI identity and NCEDC station WADL verified; PolyU NC default scoped restricted, other public grants unresolved.",
   "counts": {
     "verified": 445,
-    "candidates": 1298,
+    "candidates": 1301,
     "excluded": 374,
     "sample_successes": 464
   },
@@ -2163,7 +2163,8 @@
         "candidate_provider_ids": [
           "embrapa-redape",
           "mexico-national-open-data",
-          "mindagri-ne"
+          "mindagri-ne",
+          "unlp-research-data-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -2256,6 +2257,7 @@
           "cdha-study-resource-directory",
           "cesa-academic-data",
           "conicet-research-data-portal",
+          "deposita-dados-brazil",
           "dhs-indicator-data-api",
           "dominican-data",
           "goias-state-ckan-api",
@@ -2265,16 +2267,19 @@
           "pacifico-research-datasets",
           "papyrus-colombia-data-repository",
           "pucp-open-data-portal",
+          "redu-unicamp-data-repository",
           "registry-dados-df-gov-br",
           "rosario-academic-data",
           "scielo-data-repository",
           "tec-monterrey-datahub",
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
+          "udec-research-data-repository",
           "ufg-research-dataverse",
           "unab-chile-research-data",
           "unisimon-research-data",
           "university-aruba-open-repository",
+          "unlp-research-data-repository",
           "upn-institutional-repository",
           "usach-research-data-repository"
         ],
@@ -2389,7 +2394,8 @@
           "rosario-city",
           "senado-br",
           "tce-pe-open-data-api",
-          "tce-sp-municipal-transparency-api"
+          "tce-sp-municipal-transparency-api",
+          "unlp-research-data-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -2412,9 +2418,11 @@
         "restricted_provider_ids": []
       },
       "astronomy": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "unlp-research-data-repository"
+        ],
         "restricted_provider_ids": []
       },
       "culture": {
@@ -2427,9 +2435,11 @@
           "mexico-national-open-data",
           "mindagri-ne",
           "pucp-open-data-portal",
+          "redu-unicamp-data-repository",
           "uca-argentina-institutional-repository",
           "ufg-research-dataverse",
           "university-aruba-open-repository",
+          "unlp-research-data-repository",
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": [
@@ -2448,6 +2458,7 @@
           "colombia-mincultura-research-dataverse",
           "conicet-research-data-portal",
           "datapb-ufpb-dataverse",
+          "deposita-dados-brazil",
           "dhs-indicator-data-api",
           "ecuador-mae-ipt",
           "edac-gstore",
@@ -2459,16 +2470,19 @@
           "pacifico-research-datasets",
           "papyrus-colombia-data-repository",
           "pucp-open-data-portal",
+          "redu-unicamp-data-repository",
           "registry-portaldados-ppgau-uff-br",
           "rosario-academic-data",
           "scielo-data-repository",
           "tec-monterrey-datahub",
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
+          "udec-research-data-repository",
           "ufg-research-dataverse",
           "unab-chile-research-data",
           "unisimon-research-data",
           "university-aruba-open-repository",
+          "unlp-research-data-repository",
           "upn-institutional-repository",
           "usach-research-data-repository"
         ],
@@ -3237,6 +3251,7 @@
           "gotriple",
           "granada-university-open-data",
           "gro-data-repository",
+          "hilreda-hildesheim-repository",
           "histat-historical-statistics",
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
@@ -3278,6 +3293,7 @@
           "teesside-research-data",
           "terrassa-open-data",
           "tu-graz-repository",
+          "tudodata-dortmund-repository",
           "tuebingen-fcs",
           "tul-open-research-data",
           "tuscany-open-data-catalog",
@@ -3485,6 +3501,7 @@
           "cambridgeshire-insight",
           "claremont-colleges-digital-library",
           "crc806-legacy-research-database",
+          "dans-archaeology-station",
           "diba-open-data-api",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
@@ -3818,6 +3835,7 @@
           "cocoon-fcs",
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
+          "dans-archaeology-station",
           "dans-life-sciences-station",
           "dans-ssh-station",
           "diba-open-data-api",
@@ -3832,6 +3850,7 @@
           "galicia-abertos-catalog",
           "glasgow-enlighten-research-data",
           "gotriple",
+          "hilreda-hildesheim-repository",
           "histat-historical-statistics",
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
@@ -4026,6 +4045,7 @@
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "daks-kassel-research-repository",
+          "dans-archaeology-station",
           "dans-life-sciences-station",
           "dans-physical-technical-station",
           "dans-ssh-station",
@@ -4067,6 +4087,7 @@
           "gotriple",
           "granada-university-open-data",
           "gro-data-repository",
+          "hilreda-hildesheim-repository",
           "histat-historical-statistics",
           "human-mortality-database",
           "ilc4clarin-fcs",
@@ -4145,6 +4166,7 @@
           "tethys-geosphere-oai",
           "tilburg-regional-archive",
           "tu-graz-repository",
+          "tudodata-dortmund-repository",
           "tuebingen-fcs",
           "tul-open-research-data",
           "ufz-spatial-geonetwork",
@@ -5185,6 +5207,7 @@
           "chiba-curator-repository",
           "cinii-research",
           "kossda-social-science-archive",
+          "polyu-research-data-repository",
           "sciencedb-api-oai",
           "social-science-japan-data-archive"
         ]
@@ -5368,6 +5391,7 @@
           "japan-dias-platform",
           "kossda-social-science-archive",
           "nii-idr-restricted-dataset-service",
+          "polyu-research-data-repository",
           "sciencedb-api-oai",
           "social-science-japan-data-archive",
           "southeast-asian-climate-assessment-dataset",
@@ -22593,6 +22617,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "hilreda-hildesheim-repository",
+      "provider": "University of Hildesheim",
+      "service_name": "University of Hildesheim data discovery service",
+      "geographic_coverage": "Germany institutional research; source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://www.uni-hildesheim.de/bibliothek/forschen-publizieren/forschungsdatenmanagement/hilreda/",
+      "api_base_url": "https://data.goettingen-research-online.de/oai",
+      "format_protocol": "Registry OAI-PMH; institutional scope/runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.uni-hildesheim.de/bibliothek/forschen-publizieren/forschungsdatenmanagement/hilreda/",
+      "api_verification_state": "Native owner page HTTP200 links exact HilReDa collection on GRO.data, distinct institutional curated scope. Open access and sensitive restricted options, AcademicCloud deposit login documented; no uniform metadata/source grant. Existing GRO root/API hold retained; shared OAI not institutional-set proof, no hosted collection/alternate query. Generic CC/CC0/community/ND claims not accepted as blanket license.",
+      "latest_checked_utc": "2026-10-18T19:19:42.161637+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "histat-historical-statistics",
       "provider": "Leibniz Institute for Financial Research SAFE",
       "service_name": "HISTAT historical statistics database",
@@ -27183,6 +27225,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ncedc-web-services",
+      "provider": "Northern California Earthquake Data Center / UC Berkeley and USGS",
+      "service_name": "Northern California Earthquake Data Center / UC Berkeley and USGS data discovery service",
+      "geographic_coverage": "Northern California and contributing seismic/GNSS networks; source coverage varies",
+      "topical_coverage": "geospatial | environment | research",
+      "dataset_families": "Seismic/GNSS network descriptions and service schema",
+      "documentation_url": "https://ncedc.org/web-services-home.html | https://service.ncedc.org/",
+      "api_base_url": "https://service.ncedc.org/fdsnws/ | https://service.ncedc.org/ncedcws/",
+      "format_protocol": "REST/FDSN, WADL XML; StationXML/QuakeML/MiniSEED/text/JSON documented",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://ncedc.org/acknowledge.html",
+      "api_verification_state": "Native root/service/station documentation and acknowledgment HTTP200. Linked station WADL HTTP200 valid WADL application XML; schema only, no stations/coordinates/events/waveforms. REST event/station/dataselect/availability and NCEDC-specific response/archive services documented. Acknowledgment/citation and registry USGS-public-domain claim not archive-wide source grant; contributed network rights need independent review.",
+      "latest_checked_utc": "2026-10-18T19:19:42.161637+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ncei-space-weather-dpmf",
       "provider": "NOAA/NESDIS National Centers for Environmental Information",
       "service_name": "Space Weather Portal DPMF/HAPI discovery API",
@@ -30744,6 +30804,24 @@
       "license_url": "https://recherche.data.gouv.fr/fr/page/conditions-generales-d-utilisation-de-la-plateforme-de-recherche-data-gouv",
       "api_verification_state": "Independent national FAQ/terms200 substantive HTML. Prior entrepot hostguard preserved from institutional collection; no new repository/OAI/API request. Current exact machine contract/runtime unverified.",
       "latest_checked_utc": "2026-10-18T14:07:18.575344+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "redu-unicamp-data-repository",
+      "provider": "University of Campinas / Unicamp",
+      "service_name": "University of Campinas / Unicamp data discovery service",
+      "geographic_coverage": "Brazil institutional research; source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://www.sbu.unicamp.br/repositorio-de-dados-de-pesquisa/ | https://www.sbu.unicamp.br/perguntas-frequentes/",
+      "api_base_url": "https://redu.unicamp.br/oai",
+      "format_protocol": "Registry OAI-PMH; institutional scope/runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.sbu.unicamp.br/repositorio-de-dados-de-pesquisa/ | https://www.sbu.unicamp.br/perguntas-frequentes/",
+      "api_verification_state": "Native repository root and independent institutional description/FAQ HTTP200. Metadata records may point to source files in other repositories; no uniform public metadata/source grant verified. Registry BY4/public-domain community norms not actual service-wide license. Exact original OAI guard-deferred unsent, no alternate query; publication journal licenses not transferred.",
+      "latest_checked_utc": "2026-10-18T19:19:42.161637+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
