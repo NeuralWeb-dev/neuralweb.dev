@@ -1,16 +1,16 @@
 {
-  "published_at": "2026-10-18T03:33:15.778543+00:00",
+  "published_at": "2026-10-18T03:35:18.566482+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:32:26.583740+00:00",
+  "research_updated_at": "2026-10-18T03:34:08.117854+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AMRDC native CC BY 4.0 and public API docs verified with runtime held; IQB restricted CUF; Charles map availability/API/rights gaps explicit.",
+  "latest_milestone": "AOML GDP native ERDDAP catalogue and nine source-grant descriptors verified; WHO deduplicated/restrictions refreshed; OSGeo software pointer corrected without false provider row.",
   "counts": {
-    "verified": 347,
+    "verified": 348,
     "candidates": 780,
     "excluded": 218,
-    "sample_successes": 468
+    "sample_successes": 467
   },
   "remaining_work": [
     "Resume next-re3data-provider-review-batch.json; selectedsourcesqueued,notresearched.",
@@ -5393,6 +5393,24 @@
       "license_url": "https://data.angers.fr/pages/mentions/",
       "api_verification_state": "official_current_API_console_and_default_ODbL_grant_verified_sample_policy_deferred_target_unsent",
       "latest_checked_utc": "2026-10-17T04:13:22.321608+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "aoml-gdp-erddap",
+      "provider": "NOAA Atlantic Oceanographic and Meteorological Laboratory",
+      "service_name": "Global Drifter Program ERDDAP",
+      "geographic_coverage": "Global oceans; six-hour interpolated drifter product described from 1979 to present; exact ranges differ by source",
+      "topical_coverage": "oceans | climate/weather/environment | water | research",
+      "dataset_families": "Hourly/six-hourly QC drifting buoy data; annual/monthly current means and current variance; looper/nonlooper trajectories; OSMC real-time flattened observations; subsurface acoustic floats",
+      "documentation_url": "https://www.aoml.noaa.gov/phod/gdp/interpolated/data/all.php",
+      "api_base_url": "https://erddap.aoml.noaa.gov/gdp/erddap/",
+      "format_protocol": "ERDDAP REST JSON metadata; documented tabledap scientific subsets in ASCII/NetCDF/other formats",
+      "authentication": "No credentials for native catalogue and nine source-schema GET requests; catalogue labels source descriptors public",
+      "free_access_restrictions": "Native eight dataset descriptors explicitly CC BY 4.0 and OSMC descriptor explicitly CC0 1.0; source attribution and exceptions preserved",
+      "license": "CC BY 4.0 for eight reviewed datasets; CC0 1.0 for OSMC_RealTime per exact native attribute",
+      "license_url": "https://erddap.aoml.noaa.gov/gdp/erddap/info/drifter_6hour_qc/index.json | https://erddap.aoml.noaa.gov/gdp/erddap/info/OSMC_RealTime/index.json",
+      "api_verification_state": "Anonymous native catalogue JSON HTTP 200 and nine source metadata/schema JSON HTTP 200; no observation-row query",
+      "latest_checked_utc": "2026-10-18T03:34:03.764772+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -29260,11 +29278,11 @@
       "api_base_url": "https://ghoapi.azureedge.net/api/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
-      "free_access_restrictions": "GHO OData public sample succeeded without key",
+      "free_access_restrictions": "Public API documented; WHO data terms limit purposes and nonminimal adaptations and prohibit commercial-promotion use. No blanket unrestricted open grant.",
       "license": "WHO dataset terms: public-health-purpose grant; retained rights and commercial-promotion restrictions",
       "license_url": "https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:29:28.955902+00:00",
+      "api_verification_state": "Current native API documentation HTTP 200; prior anonymous indicator sample success retained, not rerun",
+      "latest_checked_utc": "2026-10-18T03:34:03.764772+00:00",
       "classification": "restricted"
     },
     {
