@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T00:29:09.817941+00:00",
+  "published_at": "2026-10-18T00:31:12.411098+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:28:20.718374+00:00",
+  "research_updated_at": "2026-10-18T00:30:45.087869+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ExistingARCHEscopedmetadata updated; LIPIDMAPS indexedofficialCCBY4/APIverified withnativeholds; AHRIapproval-basedsourceaccess retained.",
+  "latest_milestone": "NCDC publicHTML catalogue enumeration: 105pages,2100unique metadata IDs; source rights/API unresolved.",
   "counts": {
     "verified": 325,
     "candidates": 670,
@@ -266,6 +266,7 @@
           "ensembl-rest-genome-service",
           "hgnc-gene-nomenclature-rest",
           "intact-imex-psicquic",
+          "lipidmaps-rest-sparql",
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
@@ -277,6 +278,7 @@
         ],
         "candidate_provider_ids": [
           "biostudies",
+          "cngbdb-resource-portal",
           "dhs-spatial-data-repository",
           "drks-german-clinical-trials-register",
           "ena",
@@ -490,6 +492,7 @@
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
           "itis-taxonomic-web-services",
+          "lipidmaps-rest-sparql",
           "obis",
           "uniprot"
         ],
@@ -497,6 +500,7 @@
           "biostudies",
           "checklistbank",
           "cifor-icraf",
+          "cngbdb-resource-portal",
           "csiro-data-access-portal",
           "dataone",
           "dataterra-eosc-resource-catalogue",
@@ -693,6 +697,7 @@
           "intact-imex-psicquic",
           "itis-taxonomic-web-services",
           "kitopen-bibliographic-oai",
+          "lipidmaps-rest-sparql",
           "marine-regions-modern-boundaries-ogc",
           "met-norway-weather-api",
           "metmuseum",
@@ -733,6 +738,7 @@
           "china-national-earth-observation-center",
           "cifor-icraf",
           "cinii-books",
+          "cngbdb-resource-portal",
           "csiro-data-access-portal",
           "datahub-legacy-catalog-api",
           "dataone",
@@ -1493,6 +1499,7 @@
         ],
         "candidate_provider_ids": [
           "brazil",
+          "cdha-study-resource-directory",
           "dhs-indicator-data-api",
           "eclac",
           "jamaica-data",
@@ -1527,6 +1534,7 @@
           "paraiba-state-open-data-portal"
         ],
         "candidate_provider_ids": [
+          "cdha-study-resource-directory",
           "goias-state-ckan-api"
         ],
         "restricted_provider_ids": []
@@ -1590,6 +1598,7 @@
           "recife-open-data"
         ],
         "candidate_provider_ids": [
+          "cdha-study-resource-directory",
           "ciencia-aberta",
           "dhs-indicator-data-api",
           "dominican-data",
@@ -1606,6 +1615,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "cdha-study-resource-directory",
           "dhs-indicator-data-api",
           "dominican-data",
           "goias-state-ckan-api",
@@ -1760,6 +1770,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "bold-v5-public-data-api",
+          "cdha-study-resource-directory",
           "ciencia-aberta",
           "dhs-indicator-data-api",
           "edac-gstore",
@@ -3126,6 +3137,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "ahri-research-data-repository",
           "indepth-ishare-data-repository"
         ]
       },
@@ -3223,6 +3235,7 @@
           "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
+          "ahri-research-data-repository",
           "indepth-ishare-data-repository"
         ]
       },
@@ -3350,6 +3363,7 @@
           "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
+          "ahri-research-data-repository",
           "indepth-ishare-data-repository",
           "laws-africa",
           "wascal"
@@ -3683,6 +3697,7 @@
           "japan-dashboard"
         ],
         "candidate_provider_ids": [
+          "cngbdb-resource-portal",
           "japan-egov-data-catalog",
           "ucla-social-science-dataverse"
         ],
@@ -3782,6 +3797,7 @@
           "taibif-portal-v3"
         ],
         "candidate_provider_ids": [
+          "cngbdb-resource-portal",
           "gbif-japan"
         ],
         "restricted_provider_ids": []
@@ -3829,6 +3845,7 @@
           "china-nbs",
           "china-ncdc-cryosphere-desert-portal",
           "cinii-books",
+          "cngbdb-resource-portal",
           "nims-mdr",
           "smoka-science-archive",
           "tokyo-aori-cruise-database",
