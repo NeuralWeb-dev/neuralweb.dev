@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:30:30.865592+00:00",
+  "published_at": "2026-10-18T01:32:33.468934+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:30:26.965394+00:00",
+  "research_updated_at": "2026-10-18T01:31:58.558542+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Berman restricted terms retained; CPES deduplicated to existing ICPSR provider; ASEP read-only account-required API documented, source grant unresolved.",
+  "latest_milestone": "Deutsches Gedächtnis, SHIP and ACS trauma/TQP controlled or paid source access documented; public metadata exceptions preserved.",
   "counts": {
     "verified": 330,
     "candidates": 723,
-    "excluded": 190,
+    "excluded": 193,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -23992,6 +23992,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "acs-national-trauma-tqp-data",
+      "provider": "American College of Surgeons Committee on Trauma",
+      "service_name": "National Trauma Data Bank / TQP Participant Use File access",
+      "geographic_coverage": "US trauma-centre submissions; source year/facility coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Trauma Quality Programs Participant Use Files; current successor to NTDB RDS/NSP and earlier TQIP PUF",
+      "documentation_url": "https://www.facs.org/quality-programs/trauma/quality/national-trauma-data-bank/datasets/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "COT project approval, application and applicable terms required for recipients; no application/account used",
+      "free_access_restrictions": "Standard PUF and optional facility-key products purchased per admission year. Zero-dollar repeated-use option only reuses previously approved data, delivers no new dataset.",
+      "license": "Paid project-specific research permission; linkage to other datasets prohibited",
+      "license_url": "https://www.facs.org/quality-programs/trauma/quality/national-trauma-data-bank/datasets/",
+      "api_verification_state": "Native NTDB/root and current PUF policy HTTP200 HTML; no open query API verified",
+      "latest_checked_utc": "2026-10-18T01:31:54.004284+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "addgene-research-data-api",
       "provider": "Addgene nonprofit scientific repository",
       "service_name": "Addgene Developers Portal data API",
@@ -24961,6 +24979,24 @@
       "license_url": "https://opendata-geospatialdenver.hub.arcgis.com/data.json",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only; underlying scope limitations in notes",
       "latest_checked_utc": "2026-10-17T08:46:28.966088+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "deutsches-gedaechtnis-archive",
+      "provider": "FernUniversität in Hagen / Oral-History.Digital",
+      "service_name": "Archiv Deutsches Gedächtnis controlled oral-history archive",
+      "geographic_coverage": "German-language life-history collections; individual interview origins vary",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Life-history interviews and supporting archive materials; public core discovery metadata separate from recordings/transcripts",
+      "documentation_url": "https://www.fernuni-hagen.de/geschichteundbiographie/deutschesgedaechtnis/index.shtml",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner permits preliminary search without registration; audio/video/transcripts require registration, archive access application and individual review",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Research/teaching-only interview access; public core metadata CC0-or-comparable contractual scope",
+      "license_url": "https://www.oral-history.digital/en/dokumente/OHD_Appendix_1_Terms_EN.pdf",
+      "api_verification_state": "Native archive root/conditions HTTP200 JS shells; independent owner access text HTTP200; platform PDF HTTP200 preserved and official web PDF text reviewed. No public query API verified.",
+      "latest_checked_utc": "2026-10-18T01:31:54.004284+00:00",
       "classification": "restricted"
     },
     {
@@ -26851,6 +26887,24 @@
       "license_url": "https://dataportal.senckenberg.de/legal",
       "api_verification_state": "CKAN_portal_confirmed_native_candidate_API_sample_robots_withheld",
       "latest_checked_utc": "2026-10-17T19:32:23.436297+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ship-pomerania-cohort-access",
+      "provider": "University Medicine Greifswald / Community Medicine",
+      "service_name": "Study of Health in Pomerania research data access",
+      "geographic_coverage": "Pomerania, Germany population health cohort; wave-specific coverage",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "SHIP and SHIP-Trend cohort data and biomaterials; no subject records acquired",
+      "documentation_url": "https://www2.unimedizin-greifswald.de/cm/fv/ship/daten-beantragen/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native operator says data use/transfer requires request through dictionary-linked web form and transfer office; no account/application used",
+      "free_access_restrictions": "Controlled data/biomaterial use request under study rules; exact fees unknown and no acquisition undertaken",
+      "license": "Study-governed research data use and transfer; no public open licence",
+      "license_url": "https://www2.unimedizin-greifswald.de/cm/fv/ship/daten-beantragen/",
+      "api_verification_state": "Native study root/access policy HTTP200 HTML. No public read-only API verified; dictionary/application backend not queried.",
+      "latest_checked_utc": "2026-10-18T01:31:54.004284+00:00",
       "classification": "restricted"
     },
     {
