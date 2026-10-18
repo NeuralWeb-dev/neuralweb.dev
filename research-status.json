@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:49:35.970582+00:00",
+  "published_at": "2026-10-18T00:51:38.699396+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:48:06.547096+00:00",
+  "research_updated_at": "2026-10-18T00:50:03.563708+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks reviewed: eleven records added, usda-nass updated; WHOI OAI39 IDs, MGDS XML and LifeWatch OpenAPI verified; AidData92 references indexed; source-rights gaps retained.",
+  "latest_milestone": "RADAR4ING metadataCC0 and HMD outputCCBY4 verified with API gaps; IAEA LiveChart documented, original403 hold retained.",
   "counts": {
     "verified": 325,
-    "candidates": 687,
+    "candidates": 690,
     "excluded": 176,
     "sample_successes": 469
   },
@@ -14770,6 +14770,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "human-mortality-database",
+      "provider": "Max Planck Institute for Demographic Research / UC Berkeley / INED",
+      "service_name": "Human Mortality Database",
+      "geographic_coverage": "Selected developed-country and area series across Europe, Americas, Asia and Oceania; exact series differ",
+      "topical_coverage": "demographics | health | research",
+      "dataset_families": "Period/cohort mortality, exposure estimates, life tables, short-term mortality fluctuations and cause-of-death series",
+      "documentation_url": "https://www.mortality.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public documentation accessible; official login notice says registration/agreement required before HMD downloads. No account used; public summary interfaces may differ",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4.0 for estimates constructed by HMD; input data under original provider terms",
+      "license_url": "https://www.mortality.org/Data/UserAgreement",
+      "api_verification_state": "Native homepage/user agreement/FAQHTTP200 HTML; no exact public query API verified",
+      "latest_checked_utc": "2026-10-18T00:49:59.375262+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "hungary-community-opendata",
       "provider": "K-Monitor community / opendata.hu; hosting Precognox",
       "service_name": "Hungarian community CKAN data catalog",
@@ -14803,6 +14821,24 @@
       "license_url": "https://www.hycom.org/ | https://www.hycom.org/dataserver/access-methods/thredds",
       "api_verification_state": "documented_primary_THREDDS_OPeNDAP_API_original_sample_policy_deferred_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T00:55:39.375541+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iaea-livechart-nuclear-data",
+      "provider": "IAEA Nuclear Data Section",
+      "service_name": "IAEA Nuclear Data / LiveChart API",
+      "geographic_coverage": "Global physical nuclear properties, not country population statistics",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Nuclide ground states, levels, gamma/decay radiation and fission-yield API families; other NDS libraries need separate scope review",
+      "documentation_url": "https://iaea-nds.github.io/lc_api_notebook/",
+      "api_base_url": "https://nds.iaea.org/relnsd/v1/data",
+      "format_protocol": "Documented HTTP query API returning CSV; no native machine response verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.iaea.org/about/terms-of-use",
+      "api_verification_state": "Original NDS rootHTTP403; official indexed NDS notebook documents v1 API. No backend/host/header workaround",
+      "latest_checked_utc": "2026-10-18T00:49:59.375262+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18709,6 +18745,24 @@
       "license_url": "https://fdm-bb.de/fdm-dienste/radar-bb/datengebende/",
       "api_verification_state": "Native root HTTP200 minimal application shell, not API. Native policy targets guard-deferred; indexed operator metadata grant retained. No own machine API sample.",
       "latest_checked_utc": "2026-10-18T00:09:57.304012+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "radar4ing-repository",
+      "provider": "Karlsruhe Institute of Technology / NFDI4ING",
+      "service_name": "RADAR4ING engineering research repository",
+      "geographic_coverage": "International engineering research community; exact deposits vary",
+      "topical_coverage": "research | energy | transportation",
+      "dataset_families": "Engineering research data packages and descriptive metadata",
+      "documentation_url": "https://www.scc.kit.edu/kooperationen/radar4ing/26.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Operator says public search/download free; unpublished deposits can require granted access; no accounts or submissions",
+      "license": "CC0 for submitted metadata; depositor-selected dataset licences",
+      "license_url": "https://www.scc.kit.edu/kooperationen/radar4ing/26.php",
+      "api_verification_state": "Original service root guard-deferred; independent native operator policy verified. Exact public API endpoint/runtime unresolved",
+      "latest_checked_utc": "2026-10-18T00:49:59.375262+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
