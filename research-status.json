@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:03:21.248098+00:00",
+  "published_at": "2026-10-18T05:05:23.973896+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:02:55.768451+00:00",
+  "research_updated_at": "2026-10-18T05:04:57.926497+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NEON currentBY4/RTE exceptions and authenticated package policy verified; groundwater product metadata tested; DataCenterHub historical archive and OMIM holds reviewed.",
+  "latest_milestone": "GovData originaltask deduplicated withholds; RKI non-commercial scientific/application restrictions verified; Taxonomy current indexedAPI docs reviewed without bypassing NCBI holds.",
   "counts": {
     "verified": 357,
-    "candidates": 832,
-    "excluded": 239,
+    "candidates": 833,
+    "excluded": 240,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -16185,7 +16185,7 @@
       "license": "unknown",
       "license_url": "https://www.govdata.de/web/guest/lizenzen",
       "api_verification_state": "historical_JSON_sample_success_current_root_only_current_docs_licence_policy_held",
-      "latest_checked_utc": "2026-10-17T09:28:10.264420+00:00",
+      "latest_checked_utc": "2026-10-18T05:04:53.500181+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19264,6 +19264,24 @@
       "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
       "api_verification_state": "native_MMDB_Web_API_docs_verified_Bookshelf_Eutilities_doc_HTTP200_recaptcha_sample_untested",
       "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ncbi-taxonomy-services",
+      "provider": "US National Library of Medicine / NCBI",
+      "service_name": "NCBI Taxonomy programmatic service discovery",
+      "geographic_coverage": "Worldwide taxonomic reference classification; coverage follows NCBI source deposits, not complete biodiversity",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "NCBI Taxonomy classification/lineage and taxonomic identifier discovery; no taxonomy records/sequence data acquired",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/datasets/docs/v2/data-processing/taxonomy-processing/taxonomy/ | https://ncbiinsights.ncbi.nlm.nih.gov/2026/03/11/ncbi-taxonomy-new-browser/amp/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "api_verification_state": "Current official indexed taxonomyoverview and March2026 announcement document Datasets and legacyEutilities/FTP workflows; no fresh native API/sample under existing NCBI holds.",
+      "latest_checked_utc": "2026-10-18T05:04:53.500181+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30300,6 +30318,24 @@
       "license_url": "https://data.bs.ch/terms/terms-and-conditions/ | https://data.bs.ch/explore/dataset/100189/information/",
       "api_verification_state": "historical_catalog_metadata_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:33:40.805266+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "rki-research-data-centre",
+      "provider": "Robert Koch Institute",
+      "service_name": "RKI Research Data Centre scientific-use access",
+      "geographic_coverage": "Germany health-monitoring research; individual study/year/population varies",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Health-monitoring research data and Scientific Use Files; source records not acquired",
+      "documentation_url": "https://www.rki.de/EN/News/Publications/Research-data/RDC/research-data-centre-node.html | https://www.rki.de/EN/News/Publications/Research-data/Scientific-Use-Files/Application/application-node.html",
+      "api_base_url": "",
+      "format_protocol": "Public HTML documentation only",
+      "authentication": "Application identifying customer and research purpose; signed original data-protection undertaking",
+      "free_access_restrictions": "Non-commercial scientific reuse; formal application and signed undertaking. Fee details unknown; no application/access executed.",
+      "license": "Restricted non-commercial scientific access with application and signed data-protection undertaking",
+      "license_url": "https://www.rki.de/EN/News/Publications/Research-data/RDC/research-data-centre-node.html | https://www.rki.de/EN/News/Publications/Research-data/Scientific-Use-Files/Application/application-node.html",
+      "api_verification_state": "Native RDC and application policies200HTML; no public API documented on reviewed pages, no clinical/source request.",
+      "latest_checked_utc": "2026-10-18T05:04:53.500181+00:00",
       "classification": "restricted"
     },
     {
