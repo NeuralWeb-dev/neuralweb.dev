@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T17:09:22.809543+00:00",
+  "published_at": "2026-10-18T17:11:26.533321+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:06:24.606794+00:00",
+  "research_updated_at": "2026-10-18T17:11:02.944109+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: Juelich native defaultmetadataCC0/runtimeheld; LXCat no redistribution/commercialuse; Fudan titleonlyshell; BOARD/Mendeley OAIIdentifyXMLsuccess/metadata grant gaps; HKUSTselectedlicenses/runtimeheld; MDZ910000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to923pages/923000refs;2290503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 441,
-    "candidates": 1181,
+    "candidates": 1184,
     "excluded": 344,
     "sample_successes": 464
   },
@@ -24266,8 +24266,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across910successfulpages/910000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:01:40.760608+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across923successfulpages/923000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:10:58.413317+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25708,6 +25708,24 @@
       "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
       "api_verification_state": "Documentation reviewed; native API runtime unresolved",
       "latest_checked_utc": "2026-10-18T04:10:04.159153+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ncbo-bioportal",
+      "provider": "Stanford BMIR / NCBO",
+      "service_name": "BioPortal biomedical ontology REST API",
+      "geographic_coverage": "Global biomedical terminology coverage; US institutional operator",
+      "topical_coverage": "health | research",
+      "dataset_families": "Biomedical ontology descriptions, terminology classes/mappings and search; private/licensed/summary-only ontologies differ",
+      "documentation_url": "https://data.bioontology.org/documentation | https://www.bioontology.org/wiki/BioPortal_Help",
+      "api_base_url": "https://data.bioontology.org/",
+      "format_protocol": "REST documented; historical public SPARQL explicitly shut down",
+      "authentication": "API key required for every REST call; account/key not acquired",
+      "free_access_restrictions": "Provider-specific ontology licenses; SNOMED evaluation limitations and licensed reuse conditions. Current pricing/quotas unknown.",
+      "license": "Mixed provider-specific licenses; no uniform open grant",
+      "license_url": "https://www.bioontology.org/terms/",
+      "api_verification_state": "Direct legal/API-doc requests guard-deferred unsent. Indexed official Help/Terms/SPARQL notice reviewed; no successful API payload or account/key.",
+      "latest_checked_utc": "2026-10-18T17:10:33.898122+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30103,6 +30121,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "san-raffaele-ordr",
+      "provider": "IRCCS San Raffaele Scientific Institute",
+      "service_name": "IRCCS San Raffaele Scientific Institute research-data OAI service",
+      "geographic_coverage": "Italy institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "IRCCS San Raffaele Scientific Institute research-data OAI service",
+      "documentation_url": "https://ordr.hsr.it/faq",
+      "api_base_url": "https://ordr.hsr.it/oai",
+      "format_protocol": "OAI-PMH2 XML",
+      "authentication": "Anonymous Identify succeeded",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected source licenses; uniform public metadata grant unknown",
+      "license_url": "https://ordr.hsr.it/faq",
+      "api_verification_state": "Native documentation HTTP200; anonymous Identify HTTP200 valid OAI-PMH2 XML, identity reference saved without contacts; no dataset harvest",
+      "latest_checked_utc": "2026-10-18T17:10:33.898122+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sanbi-birdie",
       "provider": "South African National Biodiversity Institute (SANBI) / BIRDIE partners",
       "service_name": "BIRDIE wetlands and waterbirds OpenAPI",
@@ -31594,6 +31630,24 @@
       "license_url": "https://www.tepapa.govt.nz/assets/76067/1693184837-collections_api_terms_of_use.pdf",
       "api_verification_state": "documented_key_required_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.439565+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "teesside-research-data",
+      "provider": "Teesside University",
+      "service_name": "Teesside University research-data OAI service",
+      "geographic_coverage": "United Kingdom institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Teesside University research-data OAI service",
+      "documentation_url": "https://researchdata.tees.ac.uk/about",
+      "api_base_url": "https://researchdata.tees.ac.uk/oai",
+      "format_protocol": "OAI-PMH2 XML",
+      "authentication": "Anonymous Identify succeeded",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected source licenses; uniform public metadata grant unknown",
+      "license_url": "https://researchdata.tees.ac.uk/about",
+      "api_verification_state": "Native documentation HTTP200; anonymous Identify HTTP200 valid OAI-PMH2 XML, identity reference saved without contacts; no dataset harvest",
+      "latest_checked_utc": "2026-10-18T17:10:33.898122+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
