@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:13:27.617673+00:00",
+  "published_at": "2026-10-18T02:15:30.106544+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:13:19.439020+00:00",
+  "research_updated_at": "2026-10-18T02:15:23.145752+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LMU CC0metadata verified but current API unresolved/candidate; BCO-DMO default BY4with synthesis exceptions accepted; OPEN-ADAS restricted.2705ERDDAP dataset IDs indexed.",
+  "latest_milestone": "ADScollectiondeduplicatedtoHarvard; InnateDBcuratedDesignScienceLicense/nativeformats-countverified; USAPrestrictedterms/APIonecollectionmetadata verified.",
   "counts": {
-    "verified": 335,
+    "verified": 336,
     "candidates": 741,
-    "excluded": 204,
+    "excluded": 205,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -7896,6 +7896,24 @@
       "license_url": "https://www.ine.es/aviso_legal/",
       "api_verification_state": "documented_operation_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T18:57:51.344768+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "innatedb-curated-psicquic",
+      "provider": "InnateDB / Brinkman, Hancock and Lynn research groups",
+      "service_name": "InnateDB curated interaction PSICQUIC API",
+      "geographic_coverage": "Curated molecular interactions, non-geographic biological scope; individual species/source scope varies",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "InnateDB manually curated interaction data; imported/all-interaction and IMEx/IntAct sources retain separate grants/interfaces",
+      "documentation_url": "https://www.innatedb.com/accessViaWS.jsp",
+      "api_base_url": "http://psicquic.curated.innatedb.com/webservices/current/search/",
+      "format_protocol": "PSICQUIC REST;14documented native format capabilities including PSI-MITAB/XML/RDF/BioPAX/count",
+      "authentication": "Anonymous formats GET succeeded; curated count GET succeeded; no login/token used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Design Science License for InnateDB curated interactions",
+      "license_url": "https://www.innatedb.com/license.jsp",
+      "api_verification_state": "Native root/licence/webservice pages HTTP200; native formats GET200text/plain14formats. Curated bounded query count HTTP200integer311, no interaction rows.",
+      "latest_checked_utc": "2026-10-18T02:15:18.295203+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -26079,7 +26097,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
-      "latest_checked_utc": "2026-10-17T21:55:22.169104+00:00",
+      "latest_checked_utc": "2026-10-18T02:15:18.295203+00:00",
       "classification": "restricted"
     },
     {
@@ -27862,6 +27880,24 @@
       "license_url": "https://usjgofs.whoi.edu/copyright.html | https://usjgofs.whoi.edu/research/arabian.html",
       "api_verification_state": "native_general_NC_and_specific_study_PD_scopes_verified_legacydatasystem_unsent_robots_deferred",
       "latest_checked_utc": "2026-10-17T23:46:00.085349+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "usap-data-center-api",
+      "provider": "US Antarctic Program Data Center / IEDA, Columbia LDEO",
+      "service_name": "USAP-DC REST API v2.0",
+      "geographic_coverage": "Antarctic scientific project/dataset metadata; exact coverage source-specific",
+      "topical_coverage": "climate | environment | oceans | water | geospatial | research",
+      "dataset_families": "Research project/dataset/collection/award discovery; source files/person interfaces documented but not requested",
+      "documentation_url": "https://www.usap-dc.org/api/v2.0/doc",
+      "api_base_url": "https://www.usap-dc.org/api/v2.0",
+      "format_protocol": "REST JSON; native Swagger2.0defines10GEToperations",
+      "authentication": "Anonymous single-collection metadata GET succeeded without credentials; proprietary sourceholds separate",
+      "free_access_restrictions": "Noncommercial/default source conditions and acknowledgement; alternate licences possible per contributor. Business-use licence may be available but not requested",
+      "license": "Default data/metadata CC BY-NC4or contributor-selected alternative; site BY-NC-SA3distinct",
+      "license_url": "https://www.usap-dc.org/terms_of_use",
+      "api_verification_state": "Native legal/terms/Swagger HTTP200; documented collection_uid-filteredGET HTTP200validJSONonecollection with5metadatafields. No person/study-source records or files.",
+      "latest_checked_utc": "2026-10-18T02:15:18.295203+00:00",
       "classification": "restricted"
     },
     {
