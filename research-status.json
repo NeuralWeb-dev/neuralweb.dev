@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:53:44.259920+00:00",
+  "published_at": "2026-10-18T03:55:47.059792+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:53:37.680725+00:00",
+  "research_updated_at": "2026-10-18T03:55:41.048041+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RepOD metadata/compilationCC0 and nativehostedAPIguides verified with runtimeheld; IPUMSmicrodata and BioDataCatalyst source/access restrictions documented.",
+  "latest_milestone": "DOEDataExplorer nativeJSONsample and ILCrepositoryHALcapabilities verified, exactgrantsunresolved; NPDBconditional/source credentialingrestrictions documented.",
   "counts": {
     "verified": 351,
-    "candidates": 786,
-    "excluded": 224,
+    "candidates": 788,
+    "excluded": 225,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -14472,6 +14472,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "doe-data-explorer-api",
+      "provider": "US DOE Office of Scientific and Technical Information",
+      "service_name": "DOE Data Explorer API v1",
+      "geographic_coverage": "DOE-funded research data and datasets; international publication/source locations vary",
+      "topical_coverage": "research | energy | climate/weather/environment | astronomy",
+      "dataset_families": "Research dataset metadata, DOI records and links to independently hosted research data; underlying files separate",
+      "documentation_url": "https://www.osti.gov/dataexplorer/api/v1/docs",
+      "api_base_url": "https://www.osti.gov/dataexplorer/api/v1/",
+      "format_protocol": "REST GET JSON/XML/BibTeX documented; native sampleJSON",
+      "authentication": "Anonymous bounded metadata GET succeeded without key/account",
+      "free_access_restrictions": "Public query API; acceptable-use policy prohibits excessive automated capture and discusses case-by-case exemptions, no bulk enumeration attempted",
+      "license": "Unknown blanket metadata/database/source grant; OSTI source-specific copyright notice applies",
+      "license_url": "https://www.osti.gov/disclaim",
+      "api_verification_state": "Native API docs/policies HTTP200 and anonymous boundedGET200 validJSON array1record; exact metadata/sourcegrantunresolved",
+      "latest_checked_utc": "2026-10-18T03:55:34.250528+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dol-public-data-api",
       "provider": "U.S. Department of Labor",
       "service_name": "DOL public Data Portal v4 API",
@@ -16521,6 +16539,24 @@
       "license_url": "https://igs.org/wp-content/uploads/2020/09/IGS-Data-and-Product-Disclaimer-and-Terms-of-Use-200805.pdf",
       "api_verification_state": "native_public_network_JSON9results_success_published_HTML_endpoint_verified_grant_scope_unresolved",
       "latest_checked_utc": "2026-10-17T21:41:56.210757+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ilc-cnr-clarinit-repository",
+      "provider": "ILC-CNR for CLARIN-IT",
+      "service_name": "ILC-CNR DSpace repository REST API",
+      "geographic_coverage": "Italian/multilingual language resources and linguisticresearch; perresource coverage varies",
+      "topical_coverage": "culture | education | research | law/civic data",
+      "dataset_families": "Language corpora, lexical/conceptual resources, linguistic tools and repositorymetadata; restricted resources/learnertexts distinct",
+      "documentation_url": "https://dspace-clarin-it.ilc.cnr.it/about",
+      "api_base_url": "https://dspace-clarin-it.ilc.cnr.it/server/api",
+      "format_protocol": "Native DSpace7.6.1 HALJSON servicecapabilities, data/resources unqueried",
+      "authentication": "Anonymous service-rootcapabilities succeeded; protectedsourceitems requireauthentication/electroniclicence, no account or sourcequery",
+      "free_access_restrictions": "MetadataCC0 declared but ownerreservescommercialusagenotification withusecasedescription. Fullitemsrobot-harvestingprohibited except transientfulltextindexing/citationanalysis. Source-specificopen/academic/NC/ND/restrictedlicences",
+      "license": "MetadataCC0 declaration with commercial-notificationreservation; resource-specificlicences",
+      "license_url": "https://dspace-clarin-it.ilc.cnr.it/about#metadata-policy",
+      "api_verification_state": "Native root/licencecatalogue/aboutHTTP200 and anonymousAPIroot200validHALJSON; metadata/sourcegrantcompatibilityunresolved",
+      "latest_checked_utc": "2026-10-18T03:55:34.250528+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28583,6 +28619,24 @@
       "license_url": "https://cnsoer.ca/website-terms-of-use",
       "api_verification_state": "native_original_administrative_login_gate_and_independent_regulator_NC_terms_verified_public_API_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T23:08:35.315167+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "npdb-credentialing-data-services",
+      "provider": "HRSA National Practitioner Data Bank",
+      "service_name": "NPDB Querying and Reporting XML Service / public-use data context",
+      "geographic_coverage": "United States healthcare practitioner/entity reporting; public-use restricted researchdata context",
+      "topical_coverage": "health | labor | research",
+      "dataset_families": "Practitioner adverseactions/malpracticepaymentreport systems; separate public-use statistical research file",
+      "documentation_url": "https://www.npdb.hrsa.gov/software/downloadsAndDocumentation.jsp",
+      "api_base_url": "",
+      "format_protocol": "Documented QRXS XML webservice/client and IQRSimports; publicusefile CSV/SPSS/ASCII isnotpublicAPIproof",
+      "authentication": "VendorID/signin needed for QRXSspecifications/operations; publicusefile access requests contactinformation and acceptedDUA, not performed",
+      "free_access_restrictions": "Publicusefile statistical-only terms: noidentification/linkage to individuals/entities, disposeuponHRSArequest, downstreamsameconditions. Eligible credentialingservice separate; exactfees notverified, no paiddata",
+      "license": "Conditional publicuseDUA and credentialed reporting/query access; no blanketopen grant",
+      "license_url": "https://www.npdb.hrsa.gov/resources/publicData.jsp",
+      "api_verification_state": "Native publicfilepolicy and softwaredocumentationHTTP200; credential/vendorrequired, no APIruntime/sourcefiles",
+      "latest_checked_utc": "2026-10-18T03:55:34.250528+00:00",
       "classification": "restricted"
     },
     {
