@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:20:02.274134+00:00",
+  "published_at": "2026-10-18T08:22:05.194590+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:18:02.887812+00:00",
+  "research_updated_at": "2026-10-18T08:21:06.479318+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nineoriginals:UCSC239assembly/EUMETSAT191collectionJSONreferences,IGSR11operations/INTOAIverified; sourcegrants/runtimeresiduals/RES3Trestrictions preserved,OSISAFleadqueued.",
+  "latest_milestone": "OpenEIsemanticSPARQL404/currentURDBdistinct; KURENAIitemrights verified/APIunknown; DSMZ4resourcefamilies queued without blanketgrant.",
   "counts": {
     "verified": 381,
-    "candidates": 939,
+    "candidates": 942,
     "excluded": 275,
     "sample_successes": 465
   },
@@ -16250,6 +16250,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dsmz-digital-collection-discovery",
+      "provider": "Leibniz Institute DSMZ",
+      "service_name": "DSMZ digital collection and diversity hub discovery",
+      "geographic_coverage": "International microbial/cellline research reference resources; exactsource coverage unenumerated",
+      "topical_coverage": "biodiversity | research | health",
+      "dataset_families": "Celllinedata, genome-basedtaxonomy, prokaryoticnames and phenotypicdata; fourindependent resourcefamily leads queued",
+      "documentation_url": "https://www.dsmz.de/collection/digital-collection",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.dsmz.de/imprint",
+      "api_verification_state": "Native root/imprint/digitalcollection200HTML; ownerlinkedhub200appshell notqueryAPIresponse. Exact individualAPI/runtime/licences unreviewed.",
+      "latest_checked_utc": "2026-10-18T08:21:01.867644+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dtu-data-repository",
       "provider": "Technical University of Denmark / DTU Library",
       "service_name": "DTU Data institutional research repository",
@@ -19598,6 +19616,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kyoto-kurenai-repository",
+      "provider": "Kyoto University Library Network",
+      "service_name": "KURENAI institutional repository",
+      "geographic_coverage": "Kyoto institutional research and education outputs; international subjectcoverage, not Japanese research census",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Bulletins/dissertations/articles/researchdatasets; actualsourcecatalogue unenumerated",
+      "documentation_url": "https://repository.kulib.kyoto-u.ac.jp/home?locale=en",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.kulib.kyoto-u.ac.jp/openaccess/1404120?lang=en",
+      "api_verification_state": "Native repositoryroot200appshell; independent librarypolicy200 read. ExactAPI/OAI not verified; nativeHTMLnotAPIsuccess.",
+      "latest_checked_utc": "2026-10-18T08:21:01.867644+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kyrgyz-ogd",
       "provider": "Kyrgyz Republic national Open Data portal",
       "service_name": "Open Data Kyrgyzstan CKAN catalogue API candidate",
@@ -22388,6 +22424,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "openei-semantic-query-services",
+      "provider": "OpenEI / National Laboratory of the Rockies",
+      "service_name": "OpenEI semantic wiki/SPARQL services",
+      "geographic_coverage": "International energy information with US utility emphasis; exact wiki/endpoint coverage unenumerated",
+      "topical_coverage": "energy | economics/finance | research",
+      "dataset_families": "Semantic wiki energy concepts/resources and documented SPARQL/Ask interfaces; URDB separately retained",
+      "documentation_url": "https://openei.org/services/doc/sparql/",
+      "api_base_url": "https://openei.org/sparql/",
+      "format_protocol": "SPARQL documented; sample404HTML, no protocolresponse",
+      "authentication": "SPARQL guide does not establish current authentication; no key used. URDBkeyrequired separate.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "DefaultCC0 unless otherwise noted; exact source/endpoint grant unresolved",
+      "license_url": "https://openei.org/services/doc/sparql/",
+      "api_verification_state": "Native current services/2017SPARQLguide200; data-freeASKGET404HTML. Not actualSPARQLruntime success or proof entireprovider nonexistent.",
+      "latest_checked_utc": "2026-10-18T08:21:01.867644+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "openei-urdb",
       "provider": "OpenEI / National Laboratory of the Rockies; Illinois State University and utility contributors",
       "service_name": "OpenEI Utility Rate Database REST API",
@@ -22402,7 +22456,7 @@
       "license": "CC0 website/wiki default except otherwise noted; applicability to all URDB API records unresolved",
       "license_url": "https://openei.org/wiki/Utility_Rate_Database | https://openei.org/wiki/OpenEI:General_disclaimer | https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "documented_key_required_sample_untested",
-      "latest_checked_utc": "2026-10-17T11:59:40.171149+00:00",
+      "latest_checked_utc": "2026-10-18T08:21:01.867644+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
