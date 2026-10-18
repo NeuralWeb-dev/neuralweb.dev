@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:46:10.920134+00:00",
+  "published_at": "2026-10-18T02:48:13.853623+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:46:10.138876+00:00",
+  "research_updated_at": "2026-10-18T02:48:09.401263+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FAIRsharingBYSA4catalogmetadata and EPOS-FranceBY4publicFDSNmetadata verified; IUCNcurrenttokenAPI/NCterms restricted.120networkepochs indexed, no waveforms.",
+  "latest_milestone": "Two previous Bugwoodgateway leads reviewed as distinct EDDMapS/IPMResourceDatabase APIcandidates; sourcegrants/currentqueryinterfaces unresolved.",
   "counts": {
-    "verified": 339,
-    "candidates": 746,
-    "excluded": 211,
+    "verified": 340,
+    "candidates": 749,
+    "excluded": 212,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -10502,6 +10502,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "tib-av-portal-metadata-oai",
+      "provider": "TIB Leibniz Information Centre for Science and Technology",
+      "service_name": "TIB AV-Portal eligible metadata OAI service",
+      "geographic_coverage": "International scientific audiovisual collections hosted by GermanTIB; individualmedia sourcecoverage varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Eligible authoritative/time-based automaticallygenerated audiovisual discovery metadata; providedthumbnails separatelycovered, films retain individualrights",
+      "documentation_url": "https://av.tib.eu/opendata",
+      "api_base_url": "https://www.tib.eu/mdg/oai",
+      "format_protocol": "OAI-PMHmetadata service; native owner advertises DC/MARCXML/RDFformats; alternative bulkJSONL/Turtlearchives not fetched",
+      "authentication": "Anonymous nativeIdentify and AVsetheader requests succeeded withoutcredentials; no libraryaccount/login/ordering used",
+      "free_access_restrictions": "Eligible exportedmetadata/providedthumbnails CC0, selectedeligibility/countsdiffer fromfullportal. Films/sourceworks have individuallicences and licensingrequirements.",
+      "license": "CC0 1.0 for eligible exportedmetadata and providedthumbnails",
+      "license_url": "https://av.tib.eu/opendata",
+      "api_verification_state": "Native currentopenmetadata/ownerOAIguide HTTP200; ownercurrent /mdg/oai Identify and AVsetListIdentifiers validXML. Headerfrontier state=complete_returned_header_frontier, 385pages/38478uniqueIDs, reported38478; sourcefilmfiles not queried.",
+      "latest_checked_utc": "2026-10-18T02:47:58.144759+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "toar-surface-observation-api",
       "provider": "Forschungszentrum Juelich / TOAR",
       "service_name": "TOAR Surface Observation Database API v2",
@@ -14320,6 +14338,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eddmaps-occurrence-api",
+      "provider": "University of Georgia Bugwood Center / EDDMapS partners",
+      "service_name": "EDDMapS occurrence discovery API candidate",
+      "geographic_coverage": "Invasive species and pest reports across participating regions, including NorthAmerica; exact source geography varies",
+      "topical_coverage": "biodiversity | agriculture | environment | geospatial | research",
+      "dataset_families": "Verified invasive/pest occurrence discovery, contributor/reviewer workflows and public maps; private/unreviewed reports separate",
+      "documentation_url": "https://eddmaps.org/ | https://api.bugwood.org/",
+      "api_base_url": "",
+      "format_protocol": "Public website/query UI; gateway documents databaseintegration, current exact read-only APIprotocol unverified",
+      "authentication": "Anonymous publicpages; reviewer/reporter ownaccount and roleassignment documented, not evidence every query needs registration. APIauth unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform occurrence/metadata reuse grant",
+      "license_url": "https://www.eddmaps.org/about/PrivacyPolicy.cfm",
+      "api_verification_state": "Native root/codeofconduct/privacy HTTP200HTML; earlier public BugwoodAPIgateway explicitly names EDDMapS. Current developer-doc hold retained; exact permitted APIquery/runtime/sourcegrant unresolved. No dataAPIcall.",
+      "latest_checked_utc": "2026-10-18T02:48:04.904364+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "edi",
       "provider": "Environmental Data Initiative (University of New Mexico / University of Wisconsin–Madison)",
       "service_name": "EDI PASTA+ data-package API and DataONE member interface",
@@ -14875,6 +14911,24 @@
       "license_url": "https://abertos.xunta.gal/condicions-de-uso",
       "api_verification_state": "actual_public_XML_sample_success_DCAT_metadata_only",
       "latest_checked_utc": "2026-10-17T07:54:02.659235+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gateway-global-aging-discovery",
+      "provider": "USC Center for Economic and Social Research / Gateway to Global Aging Data",
+      "service_name": "Gateway to Global Aging Data discovery portal",
+      "geographic_coverage": "International health/retirement and longitudinal aging study discovery; original study populations/geographies vary",
+      "topical_coverage": "demographics | health | economics | labor | research",
+      "dataset_families": "Study/questionnaire/harmonization discovery and original study access guidance; underlying participantdata distributed separately",
+      "documentation_url": "https://g2aging.org/help/faqs",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Gatewayregistration and original study access guidance documented; no account/studyapplication used. PublicAPIauth unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified metadata/harmonized-source grant; native privacy policy not data licence",
+      "license_url": "https://g2aging.org/privacy-policy",
+      "api_verification_state": "Native root/privacypolicy/FAQ HTTP200HTML. Exact independent publicqueryAPI not documented/tested. Publicpoliciesonly, no studies/questions/participants/sourcefiles.",
+      "latest_checked_utc": "2026-10-18T02:47:58.144759+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16171,6 +16225,24 @@
       "license_url": "https://doi.iow.de/doi/2025/iow-datapolicy-2025/iow-datapolicy-2025.pdf",
       "api_verification_state": "provider_metadata_services_documented_registry_OAI_claim_native_redirect_robots_withheld",
       "latest_checked_utc": "2026-10-17T19:44:43.432899+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ipm-resource-database-api",
+      "provider": "Regional IPM Centers / University of Georgia Bugwood Center",
+      "service_name": "IPM Resource Database metadata API candidate",
+      "geographic_coverage": "NorthAmerican IPMnetworks and contributed international agricultural/pest resources; source coverage varies",
+      "topical_coverage": "agriculture | biodiversity | environment | education | research",
+      "dataset_families": "Contributor outreach resource metadata: apps/factsheets/fieldguides/books/presentations, resourceversions and hosted/external materials",
+      "documentation_url": "https://resources.ipmcenters.org/ | https://api.bugwood.org/",
+      "api_base_url": "",
+      "format_protocol": "HTMLresourcecatalogue/version links; gateway documents metadataAPIintegration, exact current protocol unverified",
+      "authentication": "Anonymous homepage accessible, accountlogin/contribution separate; exact queryAPIauth unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform metadata or resource/file reuse grant",
+      "license_url": "https://resources.ipmcenters.org/",
+      "api_verification_state": "Nativehomepage/linkedUGApolicytargetHTTP200; earlier nativeBugwoodAPIgateway names ResourceDatabase. Current developerdocs held; queryAPI/runtimeunverified. No resource detail/files or dataAPIrequests.",
+      "latest_checked_utc": "2026-10-18T02:48:04.904364+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26181,6 +26253,24 @@
       "license_url": "https://dp.marsa.gccstat.org/terms-use",
       "api_verification_state": "documented_portal_JSON_catalog_metadata_sample_success_conditional_reuse_restricted",
       "latest_checked_utc": "2026-10-16T23:54:44.253850+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "general-social-survey-norc",
+      "provider": "NORC at the University of Chicago",
+      "service_name": "General Social Survey data access and discovery portal",
+      "geographic_coverage": "UnitedStates socialsurvey programme; public sourcecoverage differs by release, sensitive data separate",
+      "topical_coverage": "demographics | labor | education | health | economics | research",
+      "dataset_families": "Cross-sectional/panel survey discovery, release/documentation links and GSSDataExplorer; no respondentrecords acquired",
+      "documentation_url": "https://gss.norc.org/terms-and-conditions",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Publicwebpolicy accessible; exact publicqueryAPI/auth unverified, sensitive data conditions separate. No logins/requests used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "NORCwebsitecontent reproduction/storage/transmission requiresconsent except otherwise noted; exact publicsurveydata grant unresolved",
+      "license_url": "https://gss.norc.org/terms-and-conditions",
+      "api_verification_state": "Native homepage/GSSterms/NORCterms HTTP200HTML. No exact current public machinequeryAPI documented/sampled. Policiesonly, no respondentdata/codebooks/files.",
+      "latest_checked_utc": "2026-10-18T02:47:58.144759+00:00",
       "classification": "restricted"
     },
     {
