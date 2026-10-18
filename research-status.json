@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:25:43.081472+00:00",
+  "published_at": "2026-10-18T02:27:45.730555+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:24:30.589083+00:00",
+  "research_updated_at": "2026-10-18T02:27:13.535494+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GeoPRISMS deduplicated under MGDS; IPMImages/Invasive.org mapped sharedBugwoodImageAPIwith per-image restrictions/APIruntimeunresolved.",
+  "latest_milestone": "SGDnativeBY4/currentRESTdocs verified with sampleguardhold; DATADOImixedgrant/OAIheld; Siktcontrolledsourceagreements explicit.83SGDoperations and MGDSWFScapabilities indexed.",
   "counts": {
-    "verified": 336,
-    "candidates": 743,
-    "excluded": 208,
+    "verified": 337,
+    "candidates": 744,
+    "excluded": 209,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -9967,6 +9967,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "saccharomyces-genome-database-api",
+      "provider": "Saccharomyces Genome Database / Stanford University",
+      "service_name": "SGD REST API",
+      "geographic_coverage": "Saccharomyces cerevisiae yeast biology; non-geographic scientific coverage",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Curated yeast gene/locus, ontology, phenotype, disease-association and literature metadata; source publications/other providers not blanket cleared",
+      "documentation_url": "https://www.yeastgenome.org/api/doc",
+      "api_base_url": "https://www.yeastgenome.org/backend",
+      "format_protocol": "REST JSON; native API documentation lists83GET/POST operation definitions and base URL",
+      "authentication": "Native docs describe read-only programmatic access, credential requirements not specified; no credentials used. Sample guard-deferred before target request.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Creative Commons Attribution4.0 for SGD information/materials; software MIT separate",
+      "license_url": "https://sites.google.com/view/yeastgenome-help/about",
+      "api_verification_state": "Native current APIreference/About and owner-hosted2025paper HTTP200. Documented GET/locus/ACT1/tabs guard-deferred unsent; no runtime success or APIabsence inferred.",
+      "latest_checked_utc": "2026-10-18T02:27:09.309747+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "sandrart-rdf-linked-data",
       "provider": "Sandrart.net scholarly edition project",
       "service_name": "Teutsche Academie RDF linked-data interface",
@@ -14484,6 +14502,24 @@
       "license_url": "https://avaandmed.eesti.ee/terms",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:26:42.334121+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "estonia-datadoi",
+      "provider": "University of Tartu Library / DATADOI institutions",
+      "service_name": "DATADOI research repository",
+      "geographic_coverage": "Estonian institutional research collections; source data geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary research datasets from University of Tartu, Tallinn University, Estonian Business School and Estonian Research Council collections",
+      "documentation_url": "https://datadoi.ee",
+      "api_base_url": "https://datadoi.ee/oai",
+      "format_protocol": "Native Dataverse repository; OAI-PMH claim from registry/indexed owner policy, current XML unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed native source licence facets including BY4, BY-NC-ND4, BY-NC-SA4, BY-NC4 and custom terms; uniform metadata grant unknown",
+      "license_url": "https://datadoi.ee/page/policy",
+      "api_verification_state": "Native homepage HTTP200; original OAIIdentify and policy requests guard-deferred unsent. No alternative REST/OAI/Dataversebackend query or current API XML/JSON verified.",
+      "latest_checked_utc": "2026-10-18T02:27:09.309747+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26880,14 +26916,14 @@
       "topical_coverage": "oceans | geospatial | research",
       "dataset_families": "Marine seismic metadata and catalogues; Ridge2000/MARGINS collection views; documented global station/line/launch-event WFS and vocabulary/search/file-metadata services; GeoPRISMS collection view",
       "documentation_url": "https://www.marine-geo.org/tools/web_services.php",
-      "api_base_url": "https://marine-geo.org/services/",
+      "api_base_url": "https://marine-geo.org/services/ | http://marine-geo.org/services/mapserver/eventwfs | http://marine-geo.org/services/search/datasets | http://marine-geo.org/services/search/entries | http://marine-geo.org/services/VocabServer",
       "format_protocol": "REST XML; documented OGC WFS and file metadata/search interfaces",
       "authentication": "Anonymous documented seismic XML sample succeeded; other operations untested",
       "free_access_restrictions": "unknown source-specific access conditions",
       "license": "Native legal page BY-NC-SA3US default; current terms defer to individual dataset/external-provider licences",
       "license_url": "https://www.marine-geo.org/about/legal.php | https://www.marine-geo.org/about/terms_of_use.php",
       "api_verification_state": "Existing native seismic XML sample preserved. Current service docs/legal/terms/collections HTTP200. New documented WFS GetCapabilities HTTP200validWFSXML.",
-      "latest_checked_utc": "2026-10-18T02:24:26.423457+00:00",
+      "latest_checked_utc": "2026-10-18T02:27:09.309747+00:00",
       "classification": "restricted"
     },
     {
@@ -27698,6 +27734,24 @@
       "license_url": "https://www2.unimedizin-greifswald.de/cm/fv/ship/daten-beantragen/",
       "api_verification_state": "Native study root/access policy HTTP200 HTML. No public read-only API verified; dictionary/application backend not queried.",
       "latest_checked_utc": "2026-10-18T01:31:54.004284+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "sikt-research-data-archive",
+      "provider": "Sikt Norwegian Agency for Shared Services in Education and Research",
+      "service_name": "Sikt Research Data Archive / Surveybanken discovery",
+      "geographic_coverage": "Norwegian and international research on people and society; study/population coverage varies",
+      "topical_coverage": "demographics | health | education | labor | economics | research",
+      "dataset_families": "Social/survey research data and DDI/DublinCore discovery metadata; variables/data distinct from public policies",
+      "documentation_url": "https://www.sikt.no/en/tjenester/arkivere-data/fair-data-sikts-research-data-archive",
+      "api_base_url": "",
+      "format_protocol": "Owner FAIRpolicy explicitly documents API/OAI-PMH/DDI/DublinCore; exact deployment endpoints unverified",
+      "authentication": "Most research data restricted to approved research/student institutions and use agreements; metadata separately described available. No account/application/agreement or data request used",
+      "free_access_restrictions": "Source/study-specific approved-user and agreement conditions; exact free metadata APIconditions/rate limits unknown",
+      "license": "Mostly bespoke access-controlled source agreements; some open sources have individual licences, uniform metadata grant unknown",
+      "license_url": "https://www.sikt.no/en/tjenester/arkivere-data/fair-data-sikts-research-data-archive",
+      "api_verification_state": "Native originalfind/archive URLs HTTP404, not proof service absent. Current owner FAIRpolicy HTTP200explicitAPI/OAIavailability; exact anonymous metadata endpoint/runtime untested. Publicpolicyonly, no participants, studies, variables or source data.",
+      "latest_checked_utc": "2026-10-18T02:27:09.309747+00:00",
       "classification": "restricted"
     },
     {
