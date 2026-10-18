@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T21:36:41.314005+00:00",
+  "published_at": "2026-10-18T21:38:44.640035+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:35:50.664107+00:00",
+  "research_updated_at": "2026-10-18T21:36:41.617310+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WGMS BY4 documentedArcGIS/heldsample; FinBIF namedchecklistBY4/current mandatorytoken; CEDA mixedrights/multipleinterfaces/OAIhold.",
+  "latest_milestone": "AMCR NC/OAIidentity; MOSPgap; CNR4DMED namedBY4/WMS12layers/14productrefs; WGMS BY4 heldArcGIS; FinBIF namedBY4/tokenrequired; CEDA mixedrights.",
   "counts": {
     "verified": 476,
     "candidates": 1374,
@@ -184,7 +184,8 @@
           "usgs-earthquake",
           "usgs-eros-m2m-services",
           "usgs-landsatlook-stac",
-          "wdcc-climate-metadata"
+          "wdcc-climate-metadata",
+          "wgms-glacier-data-services"
         ],
         "candidate_provider_ids": [
           "amphibiaweb-species-portal",
@@ -195,6 +196,7 @@
           "aws-open-data-registry",
           "biotime-biodiversity-timeseries",
           "bluecloud-resource-catalogue",
+          "ceda-archive-metadata-services",
           "china-national-earth-observation-center",
           "ciesin-integrated-earth-data",
           "cifor-icraf",
@@ -327,7 +329,8 @@
           "nasa-cmr",
           "ncar-gdex-metadata",
           "ncar-ucar-dash-search",
-          "noaa-ncep-nomads"
+          "noaa-ncep-nomads",
+          "wgms-glacier-data-services"
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
@@ -825,6 +828,7 @@
           "asf-sar-search-catalog",
           "biotime-biodiversity-timeseries",
           "bluecloud-resource-catalogue",
+          "ceda-archive-metadata-services",
           "csiro-data-access-portal",
           "dataterra-eosc-resource-catalogue",
           "esa-heritage-mission-data-discovery",
@@ -1090,6 +1094,7 @@
           "usgs-eros-m2m-services",
           "usgs-landsatlook-stac",
           "wdcc-climate-metadata",
+          "wgms-glacier-data-services",
           "wikidata",
           "worldbank-catalog",
           "zenodo"
@@ -1110,6 +1115,7 @@
           "biotime-biodiversity-timeseries",
           "bluecloud-resource-catalogue",
           "caida-asrank-api",
+          "ceda-archive-metadata-services",
           "cell-image-library",
           "chandra-data-archive",
           "checklistbank",
@@ -5725,6 +5731,7 @@
           "singapore"
         ],
         "candidate_provider_ids": [
+          "malaysia-open-science-platform",
           "telkom-university-dataverse",
           "usm-open-data-dspace-api",
           "usu-sumatera-utara-repository"
@@ -5839,6 +5846,7 @@
           "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
+          "malaysia-open-science-platform",
           "mardi-papayanetbase",
           "telkom-university-dataverse",
           "usm-open-data-dspace-api",
