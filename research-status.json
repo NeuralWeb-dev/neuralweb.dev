@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T10:02:29.292196+00:00",
+  "published_at": "2026-10-18T10:04:31.978013+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:01:12.635791+00:00",
+  "research_updated_at": "2026-10-18T10:04:14.848229+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ZBMED dark archive/public FRL distinguished; GBIF dedup/current native terms held; GESDISC rootshell/policy404/20tutorial leads; MDZ130000refs/130pages.",
+  "latest_milestone": "SEDOO384UI descriptor JSON/project licence choices; ForestGEO403/indexed context; DataHub legacy dedup/current Core separate; MDZ146000refs/146pages.",
   "counts": {
     "verified": 388,
-    "candidates": 988,
+    "candidates": 991,
     "excluded": 291,
     "sample_successes": 465
   },
@@ -16213,6 +16213,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "datahub-core-data-packages",
+      "provider": "Datopian / DataHub Cloud",
+      "service_name": "DataHub Core Data package discovery and distribution",
+      "geographic_coverage": "International multisector core-data collections; exact current package/geographic extent unenumerated",
+      "topical_coverage": "economics/finance | demographics | geospatial | research",
+      "dataset_families": "Core GDP, country-code and other commonly used data packages described in official guide; no source packages/files acquired",
+      "documentation_url": "https://docs.datahub.io/core-data | https://docs.datahub.io/",
+      "api_base_url": "",
+      "format_protocol": "Frictionless-style versioned data packages, bulkCSV plus JSONschema documented; no current source/schema payload or query API tested",
+      "authentication": "Public documentation accessible; service login/public/private and account access differ; no registration/token",
+      "free_access_restrictions": "Exact public source/tier limits unknown; no account, paid plan or source acquisition. Generic hosting claims do not establish reuse licence.",
+      "license": "Per-package exact grants unverified; open-package description not blanket source or metadata licence",
+      "license_url": "https://docs.datahub.io/terms-of-service | https://docs.datahub.io/core-data",
+      "api_verification_state": "Native docs root/CoreData/current terms200HTML. CSV+JSONschema package access documented, not a successful machine query response. Existing api.old.datahub.io hold retained; no new file/API endpoint tried.",
+      "latest_checked_utc": "2026-10-18T10:03:17.967799+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "datahub-legacy-catalog-api",
       "provider": "Datopian / DataHub v1",
       "service_name": "DataHub legacy catalogue metadata CKAN API",
@@ -16227,7 +16245,7 @@
       "license": "unknown for whole archive metadata; per-work declarations vary",
       "license_url": "https://docs.datahub.io/terms-of-service",
       "api_verification_state": "documented_API_original_sample_policy_held_target_unsent",
-      "latest_checked_utc": "2026-10-17T13:45:59.535437+00:00",
+      "latest_checked_utc": "2026-10-18T10:03:17.967799+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17830,6 +17848,24 @@
       "license_url": "https://www.fly-trap.org/",
       "api_verification_state": "native_root200_current_content_identity_mismatch_research_API_and_grant_unresolved",
       "latest_checked_utc": "2026-10-17T21:45:39.625045+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "forestgeo-data-network",
+      "provider": "Smithsonian Forest Global Earth Observatory",
+      "service_name": "ForestGEO research data discovery and request network",
+      "geographic_coverage": "International forest research network; indexed owner documentation reports78sites,30in hosted portal; not natively enumerated or verified source extent",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Forest research monitoring datasets/network discovery; exact source/API families unverified",
+      "documentation_url": "https://forestgeo.si.edu/explore-data | https://forestgeo.si.edu/what-forestgeo/faqs",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Indexed owner documentation distinguishes partner login and researcher access requests; no account or request used",
+      "free_access_restrictions": "Current exact source access/licence exceptions unresolved; partner/request workflow is not proof all network data closed or all open",
+      "license": "unknown exact dataset/network/database reuse grant",
+      "license_url": "https://forestgeo.si.edu/explore-data",
+      "api_verification_state": "Native root403 and ExploreData403, preserved as failures. Independently scheduled before first failure inspected; no further native/API/other-host/portal requests. Indexed official context separately saved, not runtime success.",
+      "latest_checked_utc": "2026-10-18T10:03:17.967799+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20924,8 +20960,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across130successfulpages/130000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T09:58:22.217134+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across146successfulpages/146000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:03:23.669874+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26092,6 +26128,24 @@
       "license_url": "https://data.seattle.gov/stories/s/Data-Policy/6ukr-wvup/",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
       "latest_checked_utc": "2026-10-17T07:06:37.109727+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sedoo-environmental-services",
+      "provider": "SEDOO / Observatoire Midi-Pyrénées",
+      "service_name": "SEDOO environmental catalogue and UI metadata services",
+      "geographic_coverage": "French regional/national and international environmental programmes; source project-specific coverage varies",
+      "topical_coverage": "climate/weather/environment | water | biodiversity | oceans | geospatial | astronomy | research",
+      "dataset_families": "Environmental observation project discovery across atmosphere, biodiversity, solid Earth, continental surfaces, oceans and astrophysics; UI component descriptors only sampled",
+      "documentation_url": "https://www.sedoo.fr/services-dinteroperabilite/ | https://www.sedoo.fr/templates-fiches-metadonnees/",
+      "api_base_url": "https://api.sedoo.fr/aeris-cdn-rest/blockrepo/v1_0/list (published UI descriptor service; science-project interfaces distinct)",
+      "format_protocol": "Native JSON list384UI component descriptors; owner documents JSON templates, CSW/ISO19139/DublinCore, WMS/WMS-T and optional GeoJSON/KML. Scientific operations untested.",
+      "authentication": "Anonymous component-list GET succeeded; source-project APIs may have authentication/permissions. No protected or edit operations.",
+      "free_access_restrictions": "Public documentation/UI list verified; project rights/access vary. No provider-wide free/unrestricted source guarantee.",
+      "license": "Project-selected licences; no provider-wide data or UI-component grant verified",
+      "license_url": "https://www.sedoo.fr/licences/",
+      "api_verification_state": "Native home/licences/interoperability/template docs200HTML; exact owner-published UI list200validJSON384descriptors. No scientific dataset, OGC/source query, UI script or template edit/POST requested.",
+      "latest_checked_utc": "2026-10-18T10:03:17.967799+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
