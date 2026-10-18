@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:22:09.031757+00:00",
+  "published_at": "2026-10-18T16:24:12.000625+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:18:05.818918+00:00",
+  "research_updated_at": "2026-10-18T16:22:43.304852+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: RosDok metadataCC0/runtimeheld; DutchwebsiteCC0/APIunknown; Pretoria/VTsourcegrantgaps; UTB200humanverificationnotAPI; UCLcurrent-linkedEULArestricted; MDZ851000incomplete.",
+  "latest_milestone": "Loughborough/UFS/Rhodes owner documentation reviewed; three portal holds and blanket metadata grants unresolved.",
   "counts": {
     "verified": 437,
-    "candidates": 1151,
+    "candidates": 1154,
     "excluded": 341,
     "sample_successes": 464
   },
@@ -3065,6 +3065,7 @@
           "kpbc-digital-library",
           "latvia-statistics",
           "lithuania-statistics",
+          "loughborough-research-repository",
           "lse-research-online",
           "luh-research-data-ckan",
           "manchester-institutional-figshare",
@@ -3830,6 +3831,7 @@
           "kpbc-digital-library",
           "ksamsok",
           "lifewatch-metadata-catalogue",
+          "loughborough-research-repository",
           "lse-research-online",
           "luebeck-historic-mural-database",
           "luh-research-data-ckan",
@@ -4319,7 +4321,9 @@
           "dhs-indicator-data-api",
           "hsrc-research-output-repository",
           "pretoria-institutional-figshare",
-          "stellenbosch-sunscholardata"
+          "rhodes-research-data",
+          "stellenbosch-sunscholardata",
+          "ufs-institutional-figshare"
         ],
         "restricted_provider_ids": [
           "uct-zivahub"
@@ -4448,11 +4452,13 @@
           "hsrc-research-output-repository",
           "laws-africa-knowledge",
           "pretoria-institutional-figshare",
+          "rhodes-research-data",
           "roceeh-road-prehistory-database",
           "sanbi-birdie",
           "stellenbosch-sunscholardata",
           "trr228-african-futures-database",
           "ucla-social-science-dataverse",
+          "ufs-institutional-figshare",
           "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
@@ -23497,6 +23503,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "loughborough-research-repository",
+      "provider": "Loughborough University",
+      "service_name": "Loughborough Research Repository",
+      "geographic_coverage": "United Kingdom institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research outputs and research data descriptions; individual source scopes vary",
+      "documentation_url": "https://www.lboro.ac.uk/research/support/publishing/archiving-your-data/",
+      "api_base_url": "https://api.figshare.com/v2/ (shared API; registry institution2/portal2 untested)",
+      "format_protocol": "Registry Figshare REST/OAI-PMH; native instance wire contract untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown uniform metadata grant; source-specific licenses require review",
+      "license_url": "https://www.lboro.ac.uk/research/support/publishing/archiving-your-data/",
+      "api_verification_state": "Original portal request guard-deferred unsent; independent institutional guide HTTP200 HTML, no successful portal/API payload.",
+      "latest_checked_utc": "2026-10-18T16:22:18.180876+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lpdaac-land-processes-data",
       "provider": "NASA / Land Processes Distributed Active Archive Center",
       "service_name": "LP DAAC data-access portal and documented interfaces",
@@ -29023,6 +29047,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rhodes-research-data",
+      "provider": "Rhodes University",
+      "service_name": "Rhodes University Research Data",
+      "geographic_coverage": "South Africa institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research outputs and research data descriptions; individual source scopes vary",
+      "documentation_url": "https://ru.za.libguides.com/c.php?g=563853&p=8692247",
+      "api_base_url": "https://api.figshare.com/v2/ (shared API; registry institution839/portal839 untested)",
+      "format_protocol": "Registry Figshare REST/OAI-PMH; native instance wire contract untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown uniform metadata grant; source-specific licenses require review",
+      "license_url": "https://ru.za.libguides.com/c.php?g=563853&p=8692247",
+      "api_verification_state": "Original portal request guard-deferred unsent; independent institutional guide HTTP200 HTML, no successful portal/API payload.",
+      "latest_checked_utc": "2026-10-18T16:22:18.180876+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "richmond-va-open-data",
       "provider": "City of Richmond,Virginia",
       "service_name": "Richmond Socrata public data APIs",
@@ -31720,6 +31762,24 @@
       "license_url": "https://dadosdepesquisa.ufg.br/dataverse/ufg",
       "api_verification_state": "Native portalHTTP200; originalboundedRESTsearch guard-deferred unsent, zeroAPIpages/IDs. No backend/format/OAIretry",
       "latest_checked_utc": "2026-10-18T04:08:37.813994+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ufs-institutional-figshare",
+      "provider": "University of the Free State",
+      "service_name": "UFS Figshare",
+      "geographic_coverage": "South Africa institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research outputs and research data descriptions; individual source scopes vary",
+      "documentation_url": "https://ufs.libguides.com/c.php?g=983440&p=8841849",
+      "api_base_url": "https://api.figshare.com/v2/ (shared API; registry institution874/portal874 untested)",
+      "format_protocol": "Registry Figshare REST/OAI-PMH; native instance wire contract untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown uniform metadata grant; source-specific licenses require review",
+      "license_url": "https://ufs.libguides.com/c.php?g=983440&p=8841849",
+      "api_verification_state": "Original portal request guard-deferred unsent; independent institutional guide HTTP200 HTML, no successful portal/API payload.",
+      "latest_checked_utc": "2026-10-18T16:22:18.180876+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
