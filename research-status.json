@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T06:39:40.574867+00:00",
+  "published_at": "2026-10-18T06:41:43.286082+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:39:03.006564+00:00",
+  "research_updated_at": "2026-10-18T06:40:51.533795+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IDS native OAI Identify verified; Saarland API and CCKP root held. Native owner policies distinguish free access, source licences and documentation MPL.",
+  "latest_milestone": "NIDDK/LASA native controlled-access policies and DrugBank indexed licensed access classified restricted; CCKP indexed BY4/current API clarification retained without query.",
   "counts": {
     "verified": 367,
     "candidates": 885,
-    "excluded": 261,
+    "excluded": 264,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -27900,14 +27900,14 @@
       "topical_coverage": "climate/weather/environment | water | energy | agriculture | demographics | research",
       "dataset_families": "Owner documentation describes CMIP6 0.25-degree1950–2100, ERA5 0.25-degree1950–2022, CRU0.5-degree1901–2022, population0.25-degree1995–2100; documentation snapshot not fresh source inventory",
       "documentation_url": "https://worldbank.github.io/climateknowledgeportal/README.html",
-      "api_base_url": "",
+      "api_base_url": "https://cckpapi.worldbank.org/cckp/v1/; official indexed documentation only, runtime untested",
       "format_protocol": "Native owner documentation describes public S3/NetCDF collections; object storage and file formats not counted as query API proof",
       "authentication": "unknown",
       "free_access_restrictions": "unknown source-specific access conditions",
-      "license": "unknown verified data grant",
+      "license": "Indexed official metadata says CCKP data BY4; native operative policy/API held and unverified",
       "license_url": "https://worldbank.github.io/climateknowledgeportal/README.html | https://climateknowledgeportal.worldbank.org/index.php/metadata",
-      "api_verification_state": "Original CCKP root guard-deferred unsent. Independent owner GitHub documentation200; no actual CCKP data API/S3 response or dataset inventory tested.",
-      "latest_checked_utc": "2026-10-18T06:38:57.891802+00:00",
+      "api_verification_state": "Original CCKP root guard-deferred unsent. Independent owner GitHub documentation200; no actual CCKP data API/S3 response or dataset inventory tested. Indexed official download page additionally documents current cckp/v1 GET structure; no API request under root hold.",
+      "latest_checked_utc": "2026-10-18T06:40:31.443200+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29389,6 +29389,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "drugbank-licensed-data-api",
+      "provider": "DrugBank",
+      "service_name": "DrugBank licensed data and API",
+      "geographic_coverage": "Drug knowledge and region-specific availability subject to licensed scope",
+      "topical_coverage": "health | research",
+      "dataset_families": "Drug knowledge and licensed API products; academic downloads and commercial APIs distinct",
+      "documentation_url": "https://docs.drugbank.com/api-docs",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Licensed access documented; current credential mechanism not natively verified, no account/key acquired",
+      "free_access_restrictions": "Indexed academic verification/application and noncommercial limits; commercial offerings outside free open-data scope. No paid or academic application attempted.",
+      "license": "Verified-academic noncommercial and commercial contract offerings; no blanket open licence",
+      "license_url": "https://go.drugbank.com/pricing/ | https://trust.drugbank.com/drugbank-trust-center/drugbank-terms-of-service",
+      "api_verification_state": "Official API reference indexed, native pricing403 and API-docs403. Documented API not successfully tested; no credentialed queries.",
+      "latest_checked_utc": "2026-10-18T06:40:31.443200+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "dza-research-data-centre",
       "provider": "German Centre of Gerontology",
       "service_name": "FDZ-DZA survey research-data access",
@@ -30649,6 +30667,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "lasa-amsterdam-controlled-data",
+      "provider": "Amsterdam UMC / Longitudinal Aging Study Amsterdam",
+      "service_name": "LASA research-data access service",
+      "geographic_coverage": "Longitudinal Aging Study Amsterdam, Netherlands; study coverage source-specific",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Longitudinal ageing measurements since1992, research topics and biomaterial access; policy only reviewed",
+      "documentation_url": "https://lasa-vu.nl/en/request-data/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Approved research proposal and agreement for source data; no account/application submitted",
+      "free_access_restrictions": "No blanket free-access guarantee; exact source fees unknown. No acquisition or agreement attempted.",
+      "license": "Project-specific steering-group approval and signed data-sharing agreement",
+      "license_url": "https://lasa-vu.nl/en/request-data/",
+      "api_verification_state": "Native documentation/request-policy200HTML; no data API response or exact current query API verified",
+      "latest_checked_utc": "2026-10-18T06:40:31.443200+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "laws-africa",
       "provider": "Laws.Africa",
       "service_name": "Legislation Content API",
@@ -31222,6 +31258,24 @@
       "license_url": "https://biodatacatalyst.nhlbi.nih.gov/help/terms",
       "api_verification_state": "Native root and attempted terms routes HTTP200homepage content, not successful API/policy response; no exact unrestricted query API verified",
       "latest_checked_utc": "2026-10-18T03:53:32.885862+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "niddk-central-repository",
+      "provider": "NIH National Institute of Diabetes and Digestive and Kidney Diseases",
+      "service_name": "NIDDK Central Repository / Resources for Research",
+      "geographic_coverage": "NIDDK-supported multicentre studies; individual study geography varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Controlled clinical/epidemiological study data and biospecimen access; no source inventory queried",
+      "documentation_url": "https://repository.niddk.nih.gov/faq",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Eligible requestor application and agreements for source data; no account/key used",
+      "free_access_restrictions": "Native FAQ says resources generally no/modest cost and permits preparation/shipping cost recovery; no acquisition/payment attempted",
+      "license": "Controlled access under project approval, IRB documentation and Data and Resources Use Agreement",
+      "license_url": "https://repository.niddk.nih.gov/faq",
+      "api_verification_state": "Native FAQ200HTML reviewed; not an API response. Exact public query API unknown.",
+      "latest_checked_utc": "2026-10-18T06:40:31.443200+00:00",
       "classification": "restricted"
     },
     {
