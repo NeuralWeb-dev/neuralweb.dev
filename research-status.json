@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T04:59:15.867226+00:00",
+  "published_at": "2026-10-18T05:01:18.612458+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:57:27.074980+00:00",
+  "research_updated_at": "2026-10-18T05:00:19.313801+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SHARE scientific-only and German statistical RDC contractual/charged restrictions verified; WormBase original holds retained.",
+  "latest_milestone": "Nine original provider tasks reviewed; RGD and GDEX scoped-open metadata verified, PGC STAC runtime verified with source grant unresolved; survey sources restricted",
   "counts": {
-    "verified": 354,
-    "candidates": 829,
+    "verified": 356,
+    "candidates": 830,
     "excluded": 239,
     "sample_successes": 465
   },
@@ -156,6 +156,7 @@
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
+          "ncar-gdex-metadata",
           "ncar-ucar-dash-search",
           "pangaea",
           "toar-surface-observation-api",
@@ -202,6 +203,7 @@
           "muenster-datastore-rest",
           "mumbai-geomagnetism-data-centre",
           "nasa-api",
+          "nasa-asdc-services",
           "nasa-power",
           "nced-data-repository",
           "nlr-geospatial-data-services",
@@ -271,6 +273,7 @@
           "hcdc-datasearch-metadata-api",
           "igb-fred-metadata-interface",
           "nasa-cmr",
+          "ncar-gdex-metadata",
           "ncar-ucar-dash-search"
         ],
         "candidate_provider_ids": [
@@ -479,6 +482,7 @@
           "hcdc-datasearch-metadata-api",
           "marine-regions-modern-boundaries-ogc",
           "nasa-cmr",
+          "ncar-gdex-metadata",
           "ncar-ucar-dash-search",
           "opencontext",
           "osm",
@@ -870,6 +874,7 @@
           "nasa-cmr",
           "nasa-spdf-cdaweb",
           "nasa-spdf-sscweb",
+          "ncar-gdex-metadata",
           "ncar-ucar-dash-search",
           "neuromorpho",
           "nih-mesh",
@@ -972,6 +977,7 @@
           "mpi-the-language-archive",
           "muenster-datastore-rest",
           "mumbai-geomagnetism-data-centre",
+          "nasa-asdc-services",
           "nasc-plant-stock-webservices",
           "ncbi-genome-datasets",
           "ncbi-virus-datasets",
@@ -2140,9 +2146,12 @@
           "bamf-fdz-research-data",
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
+          "dza-research-data-centre",
           "eurocat-controlled-research-data",
+          "german-statistical-rdc",
           "hunt-health-study",
           "neps-survey-research-access",
+          "share-eric-research-data",
           "ship-pomerania-cohort-access",
           "zpid-rdc-controlled-research"
         ]
@@ -2200,7 +2209,9 @@
         "restricted_provider_ids": [
           "bonn-open-data",
           "datice-gagnis-iceland",
-          "dhsnl-dnb-household-survey"
+          "dhsnl-dnb-household-survey",
+          "german-statistical-rdc",
+          "share-eric-research-data"
         ]
       },
       "labor": {
@@ -2250,7 +2261,9 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "bamf-fdz-research-data",
-          "dhsnl-dnb-household-survey"
+          "dhsnl-dnb-household-survey",
+          "dza-research-data-centre",
+          "share-eric-research-data"
         ]
       },
       "agriculture": {
@@ -2287,7 +2300,8 @@
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": [
-          "dirros-research-repository"
+          "dirros-research-repository",
+          "german-statistical-rdc"
         ]
       },
       "climate/weather/environment": {
@@ -2476,6 +2490,7 @@
         ],
         "restricted_provider_ids": [
           "cdgp-geothermal-portal",
+          "german-statistical-rdc",
           "metoffice-weather-datahub",
           "registry-data-bs-ch"
         ]
@@ -2541,8 +2556,11 @@
           "anc-restricted-data-portal",
           "dhsnl-dnb-household-survey",
           "dirros-research-repository",
+          "dza-research-data-centre",
           "eurocat-controlled-research-data",
+          "german-statistical-rdc",
           "hunt-health-study",
+          "share-eric-research-data",
           "ship-pomerania-cohort-access",
           "zpid-rdc-controlled-research"
         ]
@@ -2708,6 +2726,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "dhsnl-dnb-household-survey",
+          "dza-research-data-centre",
           "geoguyane-csw-catalogue"
         ]
       },
@@ -3121,6 +3140,7 @@
           "cranachnet-mediawiki",
           "dirros-research-repository",
           "elaborate-digital-edition-services",
+          "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
           "lindat-fcs",
@@ -3291,11 +3311,13 @@
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
           "dirros-research-repository",
+          "dza-research-data-centre",
           "ecad-station-data-portal",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
           "eurocat-controlled-research-data",
+          "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
           "hunt-health-study",
           "indexs-exsiccatae-api",
@@ -3305,6 +3327,7 @@
           "metoffice-weather-datahub",
           "neps-survey-research-access",
           "sandrart-rest-api",
+          "share-eric-research-data",
           "ship-pomerania-cohort-access",
           "swiss-al-fcs",
           "tna-discovery",
@@ -5002,6 +5025,7 @@
           "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
           "nsidc",
+          "pgc-dem-stac",
           "polish-polar-data-catalogue"
         ],
         "restricted_provider_ids": [
@@ -5099,6 +5123,7 @@
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "nsidc",
+          "pgc-dem-stac",
           "polish-polar-data-catalogue"
         ],
         "restricted_provider_ids": [
@@ -5207,6 +5232,7 @@
           "marine-data-germany-portal",
           "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
+          "pgc-dem-stac",
           "polish-polar-data-catalogue"
         ],
         "restricted_provider_ids": [
@@ -9231,6 +9257,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ncar-gdex-metadata",
+      "provider": "NSF NCAR / University Corporation for Atmospheric Research",
+      "service_name": "Geoscience Data Exchange metadata services",
+      "geographic_coverage": "Global geoscience/Earth-system research discovery; source extent varies",
+      "topical_coverage": "climate/weather/environment | water | geospatial | research",
+      "dataset_families": "GDEX dataset discovery; documented API/client, OAI-PMH, CSW and registered subset processing",
+      "documentation_url": "https://gdex.ucar.edu/resources/web-services/ | https://gdex.ucar.edu/about-gdex/data-policies/",
+      "api_base_url": "https://gdex.ucar.edu/oai",
+      "format_protocol": "OAI-PMH2XML Identify verified; REST/CSW documented only",
+      "authentication": "Anonymous OAI Identify succeeded; registered users for documented batch subset processing",
+      "free_access_restrictions": "UCAR repository defaultBY4 unless otherwise stated; source-specific notices/access retained. No processing/download jobs or accounts.",
+      "license": "Default CC BY4 for copyrighted materials in UCAR repositories unless otherwise stated; lawful-use permission for noncopyright material",
+      "license_url": "https://www.ucar.edu/terms-of-use/data",
+      "api_verification_state": "Native web-services/policies200HTML; independently preplanned nativeOAIIdentify200validXML, repositoryName/baseURL/protocolVersion verified. REST API documentation guard-deferred; no REST fallback/subset/source queries.",
+      "latest_checked_utc": "2026-10-18T04:59:38.627110+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ncar-ucar-dash-search",
       "provider": "NSF NCAR / University Corporation for Atmospheric Research",
       "service_name": "DASH Search digital asset metadata portal",
@@ -10128,6 +10172,24 @@
       "license_url": "https://radar.products.fiz-karlsruhe.de/de/radarabout/forschungsdaten-teilen",
       "api_verification_state": "Native anonymous OAI Identify HTTP200 valid OAI-PMH2 XML with Identify and no error. REST untested due documented activation/authentication requirement.",
       "latest_checked_utc": "2026-10-18T00:09:57.304012+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "rat-genome-database-rest",
+      "provider": "Medical College of Wisconsin / Rat Genome Database",
+      "service_name": "RGD REST API",
+      "geographic_coverage": "Multispecies genomic reference metadata; species scope varies by operation",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Species/reference map descriptors; documented genes, annotations, ontologies, strains, QTLs and phenotype interfaces not source-sampled",
+      "documentation_url": "https://rest.rgd.mcw.edu/rgdws/swagger-ui/index.html | https://rest.rgd.mcw.edu/rgdws/rgd-api-docs",
+      "api_base_url": "https://rest.rgd.mcw.edu/rgdws",
+      "format_protocol": "OpenAPI3 documentation JSON; REST JSON array species/map descriptors",
+      "authentication": "No credentials for tested OpenAPI/config/public-species-map response; other operations not tested",
+      "free_access_restrictions": "Anonymous public metadata sample; endpoint/source-specific restrictions unresolved",
+      "license": "CC BY 4.0 stated by native API specification and owner footer",
+      "license_url": "https://rest.rgd.mcw.edu/rgdws/rgd-api-docs | https://rgd.mcw.edu/wg/grants/",
+      "api_verification_state": "Native Swagger UI, initializer/config/OpenAPI200; documented public species-map endpoint200validJSON array8 species. No source sequences/files/participant records.",
+      "latest_checked_utc": "2026-10-18T04:59:38.627110+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20876,6 +20938,24 @@
       "license_url": "https://earthchem.org/legal/terms-of-use/",
       "api_verification_state": "native_anonymous_v4metrics_JSON_success_current_API_docs_and_mixed_rights_verified_exact_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T22:22:09.228424+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pgc-dem-stac",
+      "provider": "University of Minnesota Polar Geospatial Center",
+      "service_name": "PGC DEM Dynamic STAC API",
+      "geographic_coverage": "ArcticDEM Arctic, REMA Antarctica and portions of EarthDEM; source restrictions and extents vary",
+      "topical_coverage": "geospatial | climate/weather/environment | research",
+      "dataset_families": "Public DEM discovery ArcticDEM, REMA, partial EarthDEM; commercial satellite imagery separately restricted",
+      "documentation_url": "https://www.pgc.umn.edu/guides/stereo-derived-elevation-models/stac-access-static-and-dynamic-api/ | https://www.pgc.umn.edu/data/arcticdem/",
+      "api_base_url": "https://stac.pgc.umn.edu/api/v1/",
+      "format_protocol": "STAC1.0JSON Catalog root; documented dynamic item search not executed",
+      "authentication": "Anonymous root returned200; licensed imagery requires eligible research/federal mission and account conditions",
+      "free_access_restrictions": "Public DEM metadata root verified; Alaska strips afterJune2022 not public per currentArcticDEMpage. Licensed imagery project/duration/copyright/approval conditions distinct.",
+      "license": "unknown verified source-data grant; public metadata and mandatory acknowledgement documented",
+      "license_url": "https://www.pgc.umn.edu/data/ | https://www.pgc.umn.edu/guides/user-services/acknowledgement-policy/",
+      "api_verification_state": "Native owner STAC guide/ArcticDEM/access/acknowledgement200HTML; exact dynamic STAC root200validJSONCatalog idpgc-data-stac,STAC1.0. No item/asset queries.",
+      "latest_checked_utc": "2026-10-18T04:59:38.627110+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
