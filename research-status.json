@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T09:48:08.839679+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T09:50:11.622869+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:46:14.871366+00:00",
+  "research_updated_at": "2026-10-18T09:49:31.201598+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AUSSDA metadataCC0/API terms and OAIhold; Papaya bodytimeout; USGS23tool refs/2pages, seismicdocs shell; MDZ81000refs/81pages.",
+  "latest_milestone": "Harvard native terms/dedup; Chandra released-observation grant and CSC2.2 TAPschema15tables/2209columns; China NSSDC17mission leads/VSSO restricted; MDZ98000refs/98pages.",
   "counts": {
     "verified": 387,
-    "candidates": 982,
-    "excluded": 288,
+    "candidates": 985,
+    "excluded": 289,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -786,6 +786,7 @@
         ],
         "candidate_provider_ids": [
           "amda-space-plasma-rest",
+          "chandra-data-archive",
           "csiro-data-access-portal",
           "dlr-wdc-rsat",
           "eurolas-data-center-api",
@@ -991,6 +992,7 @@
           "biotime-biodiversity-timeseries",
           "caida-asrank-api",
           "cell-image-library",
+          "chandra-data-archive",
           "checklistbank",
           "china-national-earth-observation-center",
           "ciesin-integrated-earth-data",
@@ -14737,6 +14739,42 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "chandra-csc-tap",
+      "provider": "Smithsonian Astrophysical Observatory / NASA Chandra X-ray Center",
+      "service_name": "Chandra Source Catalog CSC 2.2 Virtual Observatory services",
+      "geographic_coverage": "Astronomical sky coverage; native CSC2.2 overview reports approximately786square degrees, not full-sky observations",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "CSC2.2 master, stack and per-observation source/detection catalogue schema; associated file-based products not acquired",
+      "documentation_url": "https://cxc.cfa.harvard.edu/csc/download/index.html | https://cxc.cfa.harvard.edu/csc/download/vo.html | https://cda.cfa.harvard.edu/csc22tap/",
+      "api_base_url": "https://cda.cfa.harvard.edu/csc22tap/ | https://cda.cfa.harvard.edu/csc22scs/ | https://cda.cfa.harvard.edu/csc22siap/",
+      "format_protocol": "Native VOSI tables XML verified; TAP1.0/ADQL synchronous and asynchronous, VOTable/TSV, cone search and SIAP documented but source operations untested",
+      "authentication": "Anonymous documentation and schema GET succeeded without credentials; source queries/job/auth untested",
+      "free_access_restrictions": "Public schema access verified; source-operation access limits and exact data grant unconfirmed",
+      "license": "Explicit public-domain policy for released observations does not establish exact CSC database/metadata grant",
+      "license_url": "https://cxc.cfa.harvard.edu/cda/public.html | https://cxc.cfa.harvard.edu/csc/",
+      "api_verification_state": "Native current CSC2.2 overview/VO guide/TAP root200HTML and published /tables200valid VOSITables tableset XML,15tables/2209columns. Earlier download.html native200meta-refresh followed to published download/index.html, not endpoint failure. No source query/jobs/files.",
+      "latest_checked_utc": "2026-10-18T09:48:34.765064+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "chandra-data-archive",
+      "provider": "Smithsonian Astrophysical Observatory / NASA Chandra X-ray Center",
+      "service_name": "Chandra Data Archive discovery and retrieval services",
+      "geographic_coverage": "Chandra astronomical observations; sky coverage and public release vary, not a terrestrial global dataset",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Public calibration and released astronomical observations, proprietary observations separately controlled; contributed products, bibliography and coverage services",
+      "documentation_url": "https://cxc.cfa.harvard.edu/cda/ | https://cxc.cfa.harvard.edu/cda/dataservices.html",
+      "api_base_url": "",
+      "format_protocol": "Official archive documents query engines and VO-compliant interfaces; direct HTTPS data access not automatically API proof",
+      "authentication": "Publicly released data distinguished from proprietary data, which require authorisation; no authentication used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native public-domain statement for calibration and released observations; exact catalogue/contributed-source grants unresolved",
+      "license_url": "https://cxc.cfa.harvard.edu/cda/public.html | https://chandra.harvard.edu/photo/image_use.html",
+      "api_verification_state": "Native archive, service overview and public-data policy200HTML; no archive query/observation/source response. CSC current TAP schema verified in separate service row.",
+      "latest_checked_utc": "2026-10-18T09:48:34.765064+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "charity-commission",
       "provider": "Charity Commission for England and Wales",
       "service_name": "Charity Commission for England and Wales API",
@@ -14986,6 +15024,24 @@
       "license_url": "https://www.ncdc.ac.cn/portal/about/cc_by_4_0",
       "api_verification_state": "native_public_HTML_metadata_catalogue_and_conflicting_CC_policy_verified_machinequeryAPI_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:56:25.011093+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "china-nssdc-space-science-portal",
+      "provider": "National Space Science Data Center, China",
+      "service_name": "NSSDC China mission-data discovery portal",
+      "geographic_coverage": "Chinese space-science institution with international mission/space/ground-observation references; source coverage varies",
+      "topical_coverage": "astronomy | geospatial | environment | research",
+      "dataset_families": "17published mission references including SVOM, EP, ASO-S, Tianwen, lunar Chang'e missions, Meridian, SuperDARN, GECAM, HXMT, DAMPE, DoubleStar and BeiDou; independent mission services unreviewed",
+      "documentation_url": "https://www.nssdc.ac.cn/nssdc_en/html/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown portal/metadata and per-mission grants; VSSO request workflow separately restricted",
+      "license_url": "https://vsso.nssdc.ac.cn/nssdc_zh/html/vssoinfo.html",
+      "api_verification_state": "Native original English root200HTML with17mission references. No machine API schema or source response obtained; reference index and mission queue separate.",
+      "latest_checked_utc": "2026-10-18T09:48:34.765064+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20798,8 +20854,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across81successfulpages/81000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T09:43:25.081589+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across98successfulpages/98000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T09:48:40.870465+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31317,6 +31373,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "china-vsso-controlled-data-workflow",
+      "provider": "National Space Science Data Center, China",
+      "service_name": "Virtual Space Science Observatory data request workflow",
+      "geographic_coverage": "Chinese space-science data-centre workflow; exact available mission/source coverage unverified",
+      "topical_coverage": "astronomy | environment | research",
+      "dataset_families": "VSSO dataset-description and offline data-application interface; no dataset/source response or application used",
+      "documentation_url": "https://vsso.nssdc.ac.cn/nssdc_zh/html/vssoinfo.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native offline workflow asks identity/institution/contact/intended-use details, signaturePDF and approved data order; not submitted",
+      "free_access_restrictions": "Limited nonexclusive use; paid or unpaid transfer and external redistribution/product/service reuse prohibited under displayed application terms",
+      "license": "Restricted application terms; no transfer/redistribution including transformed data",
+      "license_url": "https://vsso.nssdc.ac.cn/nssdc_zh/html/vssoinfo.html",
+      "api_verification_state": "Native200HTML includes blank dynamic dataset template and offline-request terms, not a successful API/dataset response",
+      "latest_checked_utc": "2026-10-18T09:48:34.765064+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "cines-pac-preservation",
       "provider": "CINES, France",
       "service_name": "PAC preservation archive access service",
@@ -32447,7 +32521,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified; Stockholm hosted collection guard-deferred; independent university guide HTTP 200",
-      "latest_checked_utc": "2026-10-18T08:05:33.581269+00:00",
+      "latest_checked_utc": "2026-10-18T09:48:34.765064+00:00",
       "classification": "restricted"
     },
     {
