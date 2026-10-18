@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T16:09:49.644703+00:00",
+  "published_at": "2026-10-18T16:11:53.309144+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:08:18.635135+00:00",
+  "research_updated_at": "2026-10-18T16:11:21.548911+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RENAGmixednativecoreBY4/ORPHEONNC/queryAPIunknown; protocols.ioCCBYcontent/serviceautomationrestricted; Macquariecurrentmixedpolicy/portalhold.",
+  "latest_milestone": "IndependentnativeReDATAownernotice200documents intermittenttrafficmitigation/automateddownloadrestrictions; not totalclosure.",
   "counts": {
     "verified": 436,
-    "candidates": 1145,
-    "excluded": 339,
+    "candidates": 1147,
+    "excluded": 340,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -14876,6 +14876,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "arizona-redata",
+      "provider": "University of Arizona Libraries",
+      "service_name": "ReDATA research data repository",
+      "geographic_coverage": "US institutionalresearch andinternationalcollaborations; datasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Researchdata/software/images/videos and associatedmetadata; standalonepublicationsthese separate",
+      "documentation_url": "https://lib.arizona.edu/research/data/redata/faqs | https://lib.arizona.edu/research/data/redata/policies",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution797/portal797untested)",
+      "format_protocol": "RegistryFigshareREST/OAI; currentportalwirecontractunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected/source-specificlicenses; controllingrepositorypolicy/metadata grant unresolved",
+      "license_url": "https://lib.arizona.edu/research/data/redata/policies",
+      "api_verification_state": "Originalportalguard-deferredunsent; independentnativeFAQ/policypage200HTMLsubstantive. No actualportalAPI/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T16:11:16.517574+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "arm-live-data-service",
       "provider": "US DOE Atmospheric Radiation Measurement User Facility",
       "service_name": "ARM Live Data REST service",
@@ -17861,6 +17879,24 @@
       "license_url": "https://cul-it.github.io/cugir-help/about",
       "api_verification_state": "Anonymous native search sample and100record catalogue page HTTP200 validJSON; page2 guard-deferred unsent. Owner WFS/WMS docs verified, no feature request",
       "latest_checked_utc": "2026-10-18T03:45:16.192005+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cuhk-research-data-repository",
+      "provider": "Chinese University of Hong Kong",
+      "service_name": "CUHK Research Data Repository",
+      "geographic_coverage": "HongKong institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutionalresearchdatasets, code and supportingmetadata",
+      "documentation_url": "https://libguides.lib.cuhk.edu.hk/datarepository | https://libguides.lib.cuhk.edu.hk/datarepository/datadeposit",
+      "api_base_url": "https://researchdata.cuhk.edu.hk/oai (registryclaim, nativeheld)",
+      "format_protocol": "OwnernativeDataverseidentity/depositguide; originalOAIguard-deferred, no wireXMLverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown effective data/metadata-wide grant",
+      "license_url": "",
+      "api_verification_state": "OriginalOAIguard-deferredunsent; independentnativeoverview/depositguide200HTML, no APIdata/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T16:10:25.090462+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23763,8 +23799,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across827successfulpages/827000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:04:07.108542+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across840successfulpages/840000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T16:10:45.905517+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -40237,6 +40273,24 @@
       "license_url": "https://comtradeplus.un.org/LicenseAgreement",
       "api_verification_state": "documented_untested_terms_restricted",
       "latest_checked_utc": "2026-10-16T18:30:24.351037+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "unab-institutional-repository",
+      "provider": "Universidad Autónoma de Bucaramanga",
+      "service_name": "UNAB institutional repository",
+      "geographic_coverage": "Colombia institutionalscholarlyresearch; specificsourcegeographyunreviewed",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalresearch, academicpublications, theses, cultural/historicalcollections",
+      "documentation_url": "https://repository.unab.edu.co/info/end-user-agreement",
+      "api_base_url": "https://repository.unab.edu.co/server/api (publishedrootreference; untested)",
+      "format_protocol": "NativeDSpaceHTMLpublishedRESTbase; HAL/schemaresponseuntested, noauthroutesrequested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Personal non-commercial use; systematicretrieval requires writtenpermission",
+      "license_url": "https://repository.unab.edu.co/info/end-user-agreement",
+      "api_verification_state": "Native root200andend-useragreement200substantiveHTML; publishedRESTbaseonly. No API/auth/admin/record/source request aftertermsreview.",
+      "latest_checked_utc": "2026-10-18T16:10:25.090462+00:00",
       "classification": "restricted"
     },
     {
