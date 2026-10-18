@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:17:32.727502+00:00",
+  "published_at": "2026-10-18T02:19:35.300001+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:15:23.145752+00:00",
+  "research_updated_at": "2026-10-18T02:18:47.956893+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ADScollectiondeduplicatedtoHarvard; InnateDBcuratedDesignScienceLicense/nativeformats-countverified; USAPrestrictedterms/APIonecollectionmetadata verified.",
+  "latest_milestone": "TwoPSICQUICInnateDBdiscoveryaliasesreconciledwithexistingcuratedprovider; importedsource-rightsnotcleared.",
   "counts": {
     "verified": 336,
-    "candidates": 741,
-    "excluded": 205,
+    "candidates": 743,
+    "excluded": 206,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -7913,7 +7913,7 @@
       "license": "Design Science License for InnateDB curated interactions",
       "license_url": "https://www.innatedb.com/license.jsp",
       "api_verification_state": "Native root/licence/webservice pages HTTP200; native formats GET200text/plain14formats. Curated bounded query count HTTP200integer311, no interaction rows.",
-      "latest_checked_utc": "2026-10-18T02:15:18.295203+00:00",
+      "latest_checked_utc": "2026-10-18T02:18:43.756012+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -14597,6 +14597,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "fid-media-publish",
+      "provider": "FID Media / University of Marburg Library",
+      "service_name": "FID Media Publish repository OAI-PMH",
+      "geographic_coverage": "German and international communication/media-studies scholarship; exact source geography varies",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Open-access scholarly media/communication publications and research-data discovery metadata; former media/rep/",
+      "documentation_url": "https://publish.fid-media.de/home",
+      "api_base_url": "https://publish.fid-media.de/server/oai/request",
+      "format_protocol": "OAI-PMH2XML; native DSpace OAI also renders HTML when AcceptprefersHTML",
+      "authentication": "Anonymous Identify/ListMetadataFormats XML succeeded; no credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform bibliographic metadata grant; source publication licences vary",
+      "license_url": "https://publish.fid-media.de/info/imprint",
+      "api_verification_state": "Native root/imprint200; initial Identify200HTMLwas native OAI presentation, not machine XML. SameURLAcceptapplication/xml returned200validOAIIdentify; negotiated ListMetadataFormats200validXML. No challenge/hold bypass.",
+      "latest_checked_utc": "2026-10-18T02:17:58.901687+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "fiji-statistics",
       "provider": "Fiji Bureau of Statistics / FBOS",
       "service_name": "FBOS Data Explorer national SDMX dissemination API",
@@ -16034,6 +16052,24 @@
       "license_url": "https://doi.iow.de/doi/2025/iow-datapolicy-2025/iow-datapolicy-2025.pdf",
       "api_verification_state": "provider_metadata_services_documented_registry_OAI_claim_native_redirect_robots_withheld",
       "latest_checked_utc": "2026-10-17T19:44:43.432899+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ireland-epa-safer-data",
+      "provider": "Environmental Protection Agency Ireland",
+      "service_name": "SAFER-Data environmental research archive",
+      "geographic_coverage": "Irish environmental research/monitoring resources; individual projects may have broader coverage",
+      "topical_coverage": "environment | water | climate | agriculture | health | energy | research",
+      "dataset_families": "Environmental research resources and related datasets/reports, public resource catalogue links",
+      "documentation_url": "https://eparesearch.epa.ie/safer/helpPages/index.jsp",
+      "api_base_url": "",
+      "format_protocol": "HTML ISO19115-derived resource browsing/search; exact public query API unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified blanket SAFER data/metadata grant; registryBYSA4not confirmed",
+      "license_url": "http://www.epa.ie/footer/termsofuse/",
+      "api_verification_state": "Native public browse/help/technical/ownerterms HTTP200HTML.438resource links deduplicated434IDs; HTML browsing not successful API response. No exact machine query API documented or sampled.",
+      "latest_checked_utc": "2026-10-18T02:17:58.901687+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26530,6 +26566,24 @@
       "license_url": "https://www.nhgis.org/citation-and-use-nhgis-data",
       "api_verification_state": "Native programme, current terms, v1/v2 getting-started and referenceHTTP200. Key-required API untested",
       "latest_checked_utc": "2026-10-18T00:55:40.924458+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "isgi-geomagnetic-indices-webservice",
+      "provider": "International Service of Geomagnetic Indices / EOST Strasbourg",
+      "service_name": "ISGI geomagnetic indices web service",
+      "geographic_coverage": "Global geomagnetic observatory-derived indices/events; contributing institutes/index-series coverage varies",
+      "topical_coverage": "environment | geospatial | astronomy | research",
+      "dataset_families": "IAGAendorsed aa/am/Kp/Dst/PC/AE/SC/SFE/Qdays/CKdays and specified other indices; definitive/provisional/quicklook statuses distinct",
+      "documentation_url": "https://isgi.unistra.fr/ws_documentation.php",
+      "api_base_url": "https://isgi.unistra.fr/ws",
+      "format_protocol": "HTTPparameter API; IAGA2002ZIP, JSON and VOTable subject to index exceptions",
+      "authentication": "Mandatory username issued by ISGIchairman to requesting scientific structures/institutions; no account/request/contact or dummy/example username used",
+      "free_access_restrictions": "Data for research/education and no commercial gain; quicklook/preliminary publication expressly forbidden; definitive series available without login via site, APIuserdistinct",
+      "license": "Native custom noncommercial research/education policy; exact registryCCBYNC4not verified",
+      "license_url": "https://isgi.unistra.fr/policy.php",
+      "api_verification_state": "Native root/policy/APIguide HTTP200HTMLdocuments exact API/user/window/output parameters. Usernamerequired, sampleuntested; publicdownload availability not anonymous API proof.",
+      "latest_checked_utc": "2026-10-18T02:17:58.901687+00:00",
       "classification": "restricted"
     },
     {
