@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:32:53.888085+00:00",
+  "published_at": "2026-10-18T07:34:57.320206+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:31:05.760564+00:00",
+  "research_updated_at": "2026-10-18T07:34:08.470137+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RADOGOST mixed licence facets/terms hold, CryoSeek policy shell, ZBW dark archive and separate EconBiz API held reviewed.",
+  "latest_milestone": "NADC source-owned rights/TAP HTML, OECD iLibrary dedup and NLR42owner resource references reviewed/indexed.",
   "counts": {
     "verified": 376,
-    "candidates": 913,
+    "candidates": 915,
     "excluded": 269,
     "sample_successes": 465
   },
@@ -10014,7 +10014,7 @@
       "license": "OECD Terms and Conditions section3 Data: commercial/noncommercial reuse with attribution and downstream acknowledgment",
       "license_url": "https://www.oecd.org/en/about/terms-conditions.html",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:42:33.884350+00:00",
+      "latest_checked_utc": "2026-10-18T07:34:03.712651+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20388,6 +20388,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nadc-china-astronomical-data",
+      "provider": "National Astronomical Data Center / National Astronomical Observatories CAS",
+      "service_name": "NADC China-VO astronomical catalogue and TAP discovery",
+      "geographic_coverage": "Astronomical sky surveys from Chinese facilities and international mirrored archives; institutions not terrestrial coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "LAMOST, BASS, AST3/CSTAR, plate archive, solar data and international Gaia/Legacy Survey/Pan-STARRS/SkyMapper/2MASS/WISE families",
+      "documentation_url": "https://nadc.china-vo.org/data/?locale=en+%7C+http%3A%2F%2Ftap.china-vo.org%2F",
+      "api_base_url": "http://tap.china-vo.org/ (UI entry; actual TAP protocol path unverified)",
+      "format_protocol": "Owner links TAP interface; native TAP entry HTML loads dashboard/login bootstrap, not actual VOSI/TAP data response. Registry FTP is not query API proof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Source-author rights and project-specific grants; NADC ordinary text reposting limited",
+      "license_url": "https://nadc.china-vo.org/article/20200720163822?locale=en",
+      "api_verification_state": "Native data browser/policy/TAP entry200; TAP entry application/bootstrap HTML, no API response. No login, API guessing, queries or observation/source files.",
+      "latest_checked_utc": "2026-10-18T07:34:03.712651+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nadp-monitoring-data",
       "provider": "National Atmospheric Deposition Program / Wisconsin State Laboratory of Hygiene",
       "service_name": "NADP monitoring data portal",
@@ -21051,6 +21069,24 @@
       "license_url": "https://www.nlr.gov/disclaimer",
       "api_verification_state": "Native GIS directory, solar/wind API guides and detailed solar-resource reference HTTP200; sample untested key-required",
       "latest_checked_utc": "2026-10-18T01:21:27.317553+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nlr-grid-data-tools-discovery",
+      "provider": "National Laboratory of the Rockies / US Department of Energy",
+      "service_name": "Grid Modernization data/model/tool discovery portal",
+      "geographic_coverage": "US/international grid integration resources; reference-specific scope varies",
+      "topical_coverage": "energy | climate/weather/environment | research",
+      "dataset_families": "Grid/solar/wind integration data, scenarios, irradiance/weather resources, model/test networks and software tools",
+      "documentation_url": "https://www.nlr.gov/grid/all-data-tools",
+      "api_base_url": "",
+      "format_protocol": "Native HTML owner resource directory; linked services may expose APIs/files/tools, not automatically API providers",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform data grant; individual models/data/software terms separate",
+      "license_url": "https://www.nlr.gov/disclaimer",
+      "api_verification_state": "Native grid root/tools/alphabetical list200. Full returned directory parsed42unique resource links, no query/data API tested.",
+      "latest_checked_utc": "2026-10-18T07:34:03.712651+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
