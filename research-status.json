@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T13:13:17.870338+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T13:15:20.673458+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:12:12.344364+00:00",
+  "research_updated_at": "2026-10-18T13:14:17.342457+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six IRSA interface documentation references reviewed; secondary schema/protocol docs queued, source/runtime scope unresolved",
+  "latest_milestone": "Six originaltasks processed;HEASARC/TROLLingdedup;BfGREST/noncommercialterms;VIPERheld;EOLrights/APIunknown;MASTscopedopen/APIheld;IRSA6docsreviewed;MDZ512000refs incomplete.",
   "counts": {
-    "verified": 412,
-    "candidates": 1048,
+    "verified": 413,
+    "candidates": 1050,
     "excluded": 309,
     "sample_successes": 464
   },
@@ -2669,6 +2669,7 @@
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
           "alspac-cohort-access-portal",
+          "bfg-ggina-geoportal-services",
           "bonn-open-data",
           "catalonia-open-data",
           "cdgp-geothermal-portal",
@@ -2732,6 +2733,7 @@
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
+          "bfg-ggina-geoportal-services",
           "geoguyane-csw-catalogue",
           "tirol-ogd-geospatial-search"
         ]
@@ -3203,6 +3205,7 @@
         ],
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
+          "bfg-ggina-geoportal-services",
           "bonn-open-data",
           "cdgp-geothermal-portal",
           "geoguyane-csw-catalogue",
@@ -3735,6 +3738,7 @@
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
           "bamf-fdz-research-data",
+          "bfg-ggina-geoportal-services",
           "bibb-fdz-research-data",
           "bioimages-uk-field-guide",
           "bnf-gallica",
@@ -10140,6 +10144,24 @@
       "license_url": "https://massbank.eu/MassBank-api/records/MSBNK-AAFC-AC000001 | https://raw.githubusercontent.com/MassBank/MassBank-web/dev/Documentation/MassBankRecordFormat.md",
       "api_verification_state": "native_anonymous_JSON_spectral_record_and_numeric_count_success_liveOpenAPI_verified",
       "latest_checked_utc": "2026-10-17T18:56:32.676384+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "mast-public-data-api",
+      "provider": "Space Telescope Science Institute / MAST",
+      "service_name": "Mikulski Archive for Space Telescopes public data APIs",
+      "geographic_coverage": "Astronomical sky across space-telescope missions; footprints and mission coverage vary",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "HST, JWST, TESS, Kepler/K2 and other mission archives; community HLSPs; copyrighted DSS/GuideStar collections excluded from open scope",
+      "documentation_url": "https://archive.stsci.edu/vo/mast_services.html | https://mast.stsci.edu/api/v0/",
+      "api_base_url": "https://mast.stsci.edu/api/v0/",
+      "format_protocol": "Discovery Portal API explicitly documented; classic HTTPGET VOTable/XML/CSV/HTML and historical cone/image/spectral/SOAP interfaces documented, runtime untested",
+      "authentication": "Owner says exclusive-access data discoverable publicly but retrievable only by authorized authenticated users; no credentials/accounts used. Public API runtime held.",
+      "free_access_restrictions": "Public released noncopyrighteddata and explicitly BY4HLSP scope only; proprietary/exclusive and copyrightedrestricted products excluded",
+      "license": "Explicit public-domain majority and selected CC BY4 HLSPs; copyrighted DSS/GuideStar and exclusive-access products excluded",
+      "license_url": "https://archive.stsci.edu/publishing/data-use",
+      "api_verification_state": "Native archive root/data-use/web-services200HTML establish API and qualifiedrights. Exact mast.stsci.edu/api/v0/ guard-deferred targetunsent, not successful APIresponse. No alternate API/backend/host/schema call.",
+      "latest_checked_utc": "2026-10-18T13:13:15.711394+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23195,6 +23217,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ncar-eol-field-data-archive",
+      "provider": "NSF NCAR Earth Observing Laboratory / UCAR",
+      "service_name": "EOL Field Data Archive and metadata export documentation",
+      "geographic_coverage": "International atmospheric/oceanic field campaigns operated or archived by EOL; per-campaign location/coverage varies",
+      "topical_coverage": "climate | weather | environment | oceans | research",
+      "dataset_families": "Field campaign observations, instrument/platform data, operational products and research metadata; project-specific restrictions retained",
+      "documentation_url": "https://www.eol.ucar.edu/data-software/eol-field-data-archive-dms/metadata-catalog-export | https://www.eol.ucar.edu/dms/about",
+      "api_base_url": "",
+      "format_protocol": "HTMLowner archive and generic metadata-export documentation; registry FTP/NetCDF are not a verified query API",
+      "authentication": "unknown",
+      "free_access_restrictions": "Public released archive documented; preliminary/embargoed/project-use data separate. Policy says user information collected for issue notifications/use metrics; no account/acceptance performed.",
+      "license": "UCAR repository default CC BY4 for copyrighted materials unless otherwise stated; noncopyrighted material lawful-purpose permission; project exceptions",
+      "license_url": "https://www.ucar.edu/terms-of-use/data | https://www.eol.ucar.edu/data-software/data-services/eol-data-policy",
+      "api_verification_state": "Native EOL root/archive/data-services/policy/metadata-export docs and UCARdata terms200HTML. Export page describes generic THREDDS/ISO19115/GCMD/RSS/XML, no exact deployed API/schema established. No machine runtime sample.",
+      "latest_checked_utc": "2026-10-18T13:13:15.711394+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ncbi-genome-datasets",
       "provider": "NCBI / National Library of Medicine",
       "service_name": "NCBI Genome / Datasets v2 genome API family",
@@ -30302,6 +30342,24 @@
       "license_url": "https://www.nso.gov.vn/en/homepage/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.948378+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "viperdb-structural-virology-api",
+      "provider": "VIPERdb structural virology database",
+      "service_name": "VIPERdb published Web APIs",
+      "geographic_coverage": "International structural virology research; not inferred from institution country",
+      "topical_coverage": "research | health",
+      "dataset_families": "Virus capsid structural database; registry discovery only, source coverage not natively verified",
+      "documentation_url": "https://viperdb.org/Web_Apis.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native API documentation guard-deferred target unsent; copyright request deferred unsent after same-host hold. No API response or verified current licence.",
+      "latest_checked_utc": "2026-10-18T13:13:15.711394+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
