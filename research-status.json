@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:09:22.460111+00:00",
+  "published_at": "2026-10-18T02:11:25.106408+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:05:44.067213+00:00",
+  "research_updated_at": "2026-10-18T02:10:36.374692+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sandrart native RDF ODbL distinguished from REST BY-NC-SA3; HSRC/JEFF candidates retained with native holds and source-rights uncertainty.",
+  "latest_milestone": "Nine original tasks reviewed; nine distinct records added. Sandrart RDF ODbL versus REST NC scoped separately; Canadensys146IDs complete after paging correction; MeteoGate22capabilities complete, source grants unresolved.",
   "counts": {
     "verified": 334,
-    "candidates": 738,
-    "excluded": 202,
+    "candidates": 740,
+    "excluded": 203,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -184,6 +184,7 @@
           "nodc-ieo-geonetwork",
           "nsidc",
           "planetary-computer",
+          "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
           "seabass-sst-validation-api",
           "sesar-sample-metadata-api",
@@ -239,6 +240,7 @@
           "isimip-impact-repository",
           "nced-data-repository",
           "nodc-ieo-geonetwork",
+          "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
           "usgs-sciencebase-catalogue",
           "whoi-upper-ocean-processes"
@@ -452,6 +454,7 @@
           "nodc-ieo-geonetwork",
           "nsidc",
           "planetary-computer",
+          "rolling-deck-to-repository",
           "saudi-mofa",
           "scripps-ogdc-data-portal",
           "sesar-sample-metadata-api",
@@ -590,6 +593,7 @@
           "noaa-erddap",
           "noaa-ncei",
           "nodc-ieo-geonetwork",
+          "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
           "seabass-sst-validation-api",
           "shom-data",
@@ -849,6 +853,7 @@
           "perspectivia",
           "plant-adaptation-hub",
           "rijksmuseum",
+          "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
           "sddb-scientific-drilling-oai",
           "seabass-sst-validation-api",
@@ -2165,6 +2170,7 @@
           "latvia-statistics",
           "lifewatch-metadata-catalogue",
           "lithuania-statistics",
+          "meteogate-climate-aggregator-edr",
           "nodc-ieo-geonetwork",
           "os-os-places-api",
           "puglia-open-data-catalog",
@@ -2190,6 +2196,7 @@
           "cdgp-geothermal-portal",
           "copernicus-marine",
           "dirros-research-repository",
+          "ecad-station-data-portal",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "geoguyane-csw-catalogue",
@@ -2808,6 +2815,7 @@
           "poland-bdl",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
+          "sandrart-rdf-linked-data",
           "saw-leipzig-repository",
           "serbia-data",
           "slovenia-statistics",
@@ -2880,6 +2888,7 @@
           "lindat-fcs",
           "maribor-dkum-oai",
           "meertens-collections-portal",
+          "sandrart-rest-api",
           "swiss-al-fcs",
           "tna-discovery"
         ]
@@ -2933,6 +2942,7 @@
           "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
+          "sandrart-rdf-linked-data",
           "saw-leipzig-repository",
           "slovenia-statistics",
           "staedel-museum-oai",
@@ -2982,6 +2992,7 @@
           "kpbc-digital-library",
           "ksamsok",
           "lifewatch-metadata-catalogue",
+          "meteogate-climate-aggregator-edr",
           "nasc-plant-stock-webservices",
           "nfdi4health-study-hub",
           "nfdi4ing-ingest-metadata-api",
@@ -3022,6 +3033,7 @@
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
           "dirros-research-repository",
+          "ecad-station-data-portal",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
@@ -3033,6 +3045,7 @@
           "maribor-dkum-oai",
           "meertens-collections-portal",
           "neps-survey-research-access",
+          "sandrart-rest-api",
           "ship-pomerania-cohort-access",
           "swiss-al-fcs",
           "tna-discovery"
@@ -3100,6 +3113,7 @@
           "oman-data"
         ],
         "candidate_provider_ids": [
+          "meteogate-climate-aggregator-edr",
           "saudi-statistics"
         ],
         "restricted_provider_ids": [
@@ -3243,6 +3257,7 @@
         ],
         "candidate_provider_ids": [
           "acss-dataverse",
+          "meteogate-climate-aggregator-edr",
           "nasc-plant-stock-webservices",
           "romanian-social-data-archive",
           "ubb-digital-commons-data"
@@ -3266,6 +3281,7 @@
           "afdb-kenya-sdmx",
           "dhs-indicator-data-api",
           "ghana",
+          "hsrc-research-output-repository",
           "kenya-knbs",
           "south-africa-statssa",
           "ucla-social-science-dataverse",
@@ -3298,6 +3314,7 @@
         ],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
+          "hsrc-research-output-repository",
           "south-africa-statssa"
         ],
         "restricted_provider_ids": []
@@ -3367,6 +3384,7 @@
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
           "dhs-indicator-data-api",
+          "hsrc-research-output-repository",
           "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
@@ -3379,7 +3397,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
-          "dhs-indicator-data-api"
+          "dhs-indicator-data-api",
+          "hsrc-research-output-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -3495,6 +3514,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "dhs-indicator-data-api",
+          "hsrc-research-output-repository",
           "laws-africa-knowledge",
           "roceeh-road-prehistory-database",
           "sanbi-birdie",
@@ -12405,15 +12425,15 @@
       "geographic_coverage": "Canada",
       "topical_coverage": "biodiversity; geospatial",
       "dataset_families": "Canadian biodiversity occurrence and taxonomy datasets",
-      "documentation_url": "https://www.canadensys.net/explorer",
-      "api_base_url": "https://data.canadensys.net/",
-      "format_protocol": "REST/JSON or OAI-PMH/XML as documented",
-      "authentication": "unknown; public sample attempted without credentials",
+      "documentation_url": "https://data.canadensys.net/ipt/",
+      "api_base_url": "https://data.canadensys.net/ipt/api/resources",
+      "format_protocol": "Native IPT3.2.3 public read-only catalogue JSON POST; Darwin Core source resources separate. Tools conversion API is a utility, not biodiversity data query.",
+      "authentication": "Anonymous native catalogue POST succeeded, no credentials; source resources may vary",
       "free_access_restrictions": "unknown",
-      "license": "unknown",
+      "license": "Per-resource licences unresolved; native about says open-licensed datasets without uniform exact licence",
       "license_url": "https://www.canadensys.net/about",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T17:03:28.635800+00:00",
+      "api_verification_state": "Native IPT client explicitly documents POST/api/resources through public catalogue JavaScript;15anonymous read-only pages HTTP200 valid JSON. Earlier /ipt/oai Identify HTTP200 was HTML, not valid OAI response; corrected without treating it as API success.",
+      "latest_checked_utc": "2026-10-18T02:09:27.638720+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16953,6 +16973,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "meteogate-climate-aggregator-edr",
+      "provider": "EUMETNET MeteoGate / contributing meteorological providers",
+      "service_name": "MeteoGate Climate Aggregator OGC EDR API",
+      "geographic_coverage": "European contributing meteorological networks; country-named collections include Netherlands,Hungary,Poland,Norway,Latvia,Iceland,Romania; exact source coverage varies",
+      "topical_coverage": "climate | weather | environment | research",
+      "dataset_families": "Daily/hourly aggregated climate observations and validated in-situ series, ECADnonblended, forecast-derived/other capability collections; metadata descriptors only tested",
+      "documentation_url": "https://api.meteogate.eu/eu-eumetnet-climate-observations/v1/docs",
+      "api_base_url": "https://api.meteogate.eu/eu-eumetnet-climate-observations/v1/",
+      "format_protocol": "OGC EDR API; native OpenAPI declares JSON capability responses and position/area/cube/location/instance interfaces",
+      "authentication": "Anonymous collections metadata GET succeeded; no keys/tokens used, observation auth not tested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform metadata/database grant; contributing-source terms differ",
+      "license_url": "https://www.ecad.eu/documents/ECAD_datapolicy.pdf",
+      "api_verification_state": "Native linked Swagger/OpenAPI HTTP200; documented collections GET HTTP200 valid JSON22unique IDs, no next link; successful capabilities not source-data grant proof",
+      "latest_checked_utc": "2026-10-18T02:09:27.638720+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mexico-national-open-data",
       "provider": "Government of Mexico,Plataforma Nacional de Datos Abiertos",
       "service_name": "Current datos.gob.mx national catalog;CKANinterface unverified",
@@ -20316,6 +20354,24 @@
       "license_url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0289513",
       "api_verification_state": "Native portal and registry terms guard-deferred unsent. Native operator-authored2023 primary article HTTP200 describes API/RDF/SPARQL and data CC BY-SA4; exact current public query endpoint unverified.",
       "latest_checked_utc": "2026-10-18T01:36:25.955072+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "rolling-deck-to-repository",
+      "provider": "Rolling Deck to Repository / Lamont-Doherty Earth Observatory",
+      "service_name": "R2R cruise and underway data services",
+      "geographic_coverage": "US academic research fleet cruises across global oceans; released-source coverage varies",
+      "topical_coverage": "oceans | water | climate | environment | research | geospatial",
+      "dataset_families": "Routine underway instrument datasets, cruise inventory and standard products; not science-party/specialized facility instruments",
+      "documentation_url": "https://www.rvdata.us/about/technical-details/services",
+      "api_base_url": "https://service.rvdata.us/",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Released underway datasets covered by CC0 statement; unreleased data may be held2years except specified navigation/operations data released automatically",
+      "license": "CC0 statements for released R2R datasets; proprietary holds apply before release",
+      "license_url": "https://www.rvdata.us/community/chief-scientists",
+      "api_verification_state": "Native services page links OpenAPI iframe at service.rvdata.us; iframe request guard-deferred unsent. Exact permitted read-query route/runtime remains unresolved; no alternate DataONE/SPARQL workaround.",
+      "latest_checked_utc": "2026-10-18T02:09:27.638720+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25628,6 +25684,24 @@
       "license_url": "https://www.birds.cornell.edu/home/ebird-api-terms-of-use/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T19:03:24.478790+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ecad-station-data-portal",
+      "provider": "KNMI / European Climate Assessment & Dataset project",
+      "service_name": "ECA&D station observations and E-OBS source portal",
+      "geographic_coverage": "Europe and Mediterranean; native2026homepage states89participants/65countries/26325stations, not harvested station records",
+      "topical_coverage": "climate | weather | environment | research",
+      "dataset_families": "Daily station observations, extremes indices and gridded E-OBS products; new non-blended station API through MeteoGate",
+      "documentation_url": "https://www.ecad.eu/",
+      "api_base_url": "https://api.meteogate.eu/eu-eumetnet-climate-observations/v1/",
+      "format_protocol": "OGC Environmental Data Retrieval (EDR), JSON/NetCDF; native linked OpenAPI",
+      "authentication": "Anonymous capabilities metadata GET succeeded; source grids registration requested by linked policy. No registration or observation query used",
+      "free_access_restrictions": "Some source station series non-downloadable; policy-covered data NC research/education; metadata-specific grant separately unresolved",
+      "license": "Native data policy: noncommercial research and education only for covered station/E-OBS data",
+      "license_url": "https://www.ecad.eu/documents/ECAD_datapolicy.pdf",
+      "api_verification_state": "Native homepage/PDF/API docs/OpenAPI HTTP200; documented /collections HTTP200 valid JSON22descriptors, including ecad-nonblended. No station/observation records or files.",
+      "latest_checked_utc": "2026-10-18T02:09:27.638720+00:00",
       "classification": "restricted"
     },
     {
