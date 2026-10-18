@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T04:12:08.734656+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T04:14:12.095191+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:10:08.867818+00:00",
+  "research_updated_at": "2026-10-18T04:13:34.517421+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
+  "latest_milestone": "Nine original tasks reviewed;four new rows. InterPro93pages/18600IDs safely saved, partial frontier/no worker.",
   "counts": {
     "verified": 351,
-    "candidates": 793,
+    "candidates": 794,
     "excluded": 227,
     "sample_successes": 467
   },
@@ -43,6 +43,7 @@
           "undata-official-sdmx-api",
           "unhcr",
           "unsd",
+          "wdcrre-resources-environment",
           "wfp",
           "worldpop-wopr"
         ],
@@ -107,6 +108,7 @@
           "nasc-plant-stock-webservices",
           "ocha-hapi",
           "plant-adaptation-hub",
+          "wdcrre-resources-environment",
           "wfp"
         ],
         "restricted_provider_ids": [
@@ -203,6 +205,7 @@
           "unite-species-hypotheses",
           "unsd",
           "usgs-sciencebase-catalogue",
+          "wdcrre-resources-environment",
           "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
@@ -221,12 +224,14 @@
           "isgi-geomagnetic-indices-webservice",
           "iucn-red-list-api-v4",
           "karlsruher-wolkenatlas",
+          "metoffice-weather-datahub",
           "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
           "open-meteo",
           "openaq",
           "senckenberg-research-metadata-portal",
           "unep-grid-geneva",
+          "wdc-edinburgh-geomagnetic-api",
           "wdcgg-greenhouse-gases",
           "woudc-ogc-api",
           "wrdc-radiation-centre"
@@ -261,6 +266,7 @@
           "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
           "usgs-sciencebase-catalogue",
+          "wdcrre-resources-environment",
           "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
@@ -295,6 +301,7 @@
         "restricted_provider_ids": [
           "bsrn-wrmc-radiation-archive",
           "gtap-current-database",
+          "metoffice-weather-datahub",
           "un-comtrade",
           "wrdc-radiation-centre"
         ]
@@ -425,6 +432,7 @@
           "shom-data"
         ],
         "restricted_provider_ids": [
+          "metoffice-weather-datahub",
           "un-comtrade"
         ]
       },
@@ -498,6 +506,7 @@
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections",
           "usgs-sciencebase-catalogue",
+          "wdcrre-resources-environment",
           "world-stress-map-oai",
           "worldpop-wopr"
         ],
@@ -509,7 +518,8 @@
           "mgds-seismic-catalog",
           "ndsf-data-access-portal",
           "terrasarx-sar-imagery-access",
-          "unep-grid-geneva"
+          "unep-grid-geneva",
+          "wdc-edinburgh-geomagnetic-api"
         ]
       },
       "public spending/contracts": {
@@ -649,6 +659,7 @@
           "shom-data",
           "sioexplorer-legacy-cruise-archive",
           "usgs-sciencebase-catalogue",
+          "wdcrre-resources-environment",
           "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
@@ -690,7 +701,8 @@
         "restricted_provider_ids": [
           "esa-gaia",
           "isgi-geomagnetic-indices-webservice",
-          "silso-sunspot-data"
+          "silso-sunspot-data",
+          "wdc-edinburgh-geomagnetic-api"
         ]
       },
       "culture": {
@@ -743,6 +755,7 @@
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections",
           "usno-astronomical-applications-api",
+          "wdcrre-resources-environment",
           "wellcome-collection",
           "wfp"
         ],
@@ -941,6 +954,7 @@
           "unite-species-hypotheses",
           "usgs-sciencebase-catalogue",
           "usno-astronomical-applications-api",
+          "wdcrre-resources-environment",
           "wellcome-collection",
           "whoi-upper-ocean-processes",
           "world-stress-map-oai"
@@ -973,6 +987,7 @@
           "isgi-geomagnetic-indices-webservice",
           "iucn-red-list-api-v4",
           "jgi-gold-api",
+          "metoffice-weather-datahub",
           "mgds-seismic-catalog",
           "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
@@ -984,6 +999,7 @@
           "terrasarx-tor-rso-archive",
           "un-comtrade",
           "unep-grid-geneva",
+          "wdc-edinburgh-geomagnetic-api",
           "wdcgg-greenhouse-gases",
           "who-icd-api",
           "woudc-ogc-api",
@@ -1751,6 +1767,7 @@
           "esa-ecology",
           "fortaleza-ckan-api",
           "montevideo-beaches",
+          "ufg-research-dataverse",
           "wis2-argentina",
           "wis2-brazil",
           "wis2-brazil-cdi00042882",
@@ -1807,7 +1824,8 @@
           "mexico-national-open-data",
           "montevideo-beaches",
           "opendatasus",
-          "registry-dados-df-gov-br"
+          "registry-dados-df-gov-br",
+          "ufg-research-dataverse"
         ],
         "restricted_provider_ids": []
       },
@@ -1822,6 +1840,7 @@
           "mexico-national-open-data",
           "registry-dados-df-gov-br",
           "udea-research-data-repository",
+          "ufg-research-dataverse",
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
@@ -1961,6 +1980,7 @@
         "candidate_provider_ids": [
           "mexico-national-open-data",
           "mindagri-ne",
+          "ufg-research-dataverse",
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
@@ -1977,6 +1997,7 @@
           "esa-ecology",
           "registry-portaldados-ppgau-uff-br",
           "udea-research-data-repository",
+          "ufg-research-dataverse",
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": [
@@ -2308,6 +2329,7 @@
           "eida-orfeus-routing-federation",
           "geoguyane-csw-catalogue",
           "lower-austria-ogd",
+          "metoffice-weather-datahub",
           "ticino-palma-api",
           "tirol-ogd-geospatial-search",
           "vienna-ogd-wfs"
@@ -2381,6 +2403,7 @@
         ],
         "restricted_provider_ids": [
           "cdgp-geothermal-portal",
+          "metoffice-weather-datahub",
           "registry-data-bs-ch"
         ]
       },
@@ -2647,6 +2670,7 @@
         ],
         "restricted_provider_ids": [
           "geoguyane-csw-catalogue",
+          "metoffice-weather-datahub",
           "registry-data-bs-ch",
           "tirol-ogd-geospatial-search"
         ]
@@ -3178,6 +3202,7 @@
           "lindat-fcs",
           "maribor-dkum-oai",
           "meertens-collections-portal",
+          "metoffice-weather-datahub",
           "neps-survey-research-access",
           "sandrart-rest-api",
           "ship-pomerania-cohort-access",
@@ -3904,7 +3929,8 @@
         ],
         "candidate_provider_ids": [
           "china-nbs",
-          "ucla-social-science-dataverse"
+          "ucla-social-science-dataverse",
+          "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": [
           "korea-kosis"
@@ -3946,7 +3972,8 @@
         "candidate_provider_ids": [
           "china-nbs",
           "japan-egov-data-catalog",
-          "thailand-gistda"
+          "thailand-gistda",
+          "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": []
       },
@@ -3965,6 +3992,7 @@
           "taiwan-cwa",
           "thailand-gistda",
           "tokyo-aori-cruise-database",
+          "wdcrre-resources-environment",
           "wis2-china",
           "wis2-south-korea"
         ],
@@ -3978,7 +4006,8 @@
         "candidate_provider_ids": [
           "china-ncdc-cryosphere-desert-portal",
           "taiwan-cwa",
-          "tokyo-aori-cruise-database"
+          "tokyo-aori-cruise-database",
+          "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": []
       },
@@ -4061,6 +4090,7 @@
           "taiwan-cwa",
           "thailand-gistda",
           "ulsan-bis-open-api",
+          "wdcrre-resources-environment",
           "wis2-china",
           "wis2-south-korea"
         ],
@@ -4113,7 +4143,8 @@
         "candidate_provider_ids": [
           "china-national-marine-data-information",
           "taiwan-fish-database",
-          "tokyo-aori-cruise-database"
+          "tokyo-aori-cruise-database",
+          "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": []
       },
@@ -4134,7 +4165,8 @@
           "china-nbs",
           "cinii-books",
           "japan-egov-data-catalog",
-          "thailand-gistda"
+          "thailand-gistda",
+          "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
@@ -4160,7 +4192,8 @@
           "smoka-science-archive",
           "taiwan-fish-database",
           "tokyo-aori-cruise-database",
-          "ucla-social-science-dataverse"
+          "ucla-social-science-dataverse",
+          "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
@@ -8274,7 +8307,7 @@
       "license": "CC0 1.0 Universal Public Domain Dedication",
       "license_url": "https://interpro-documentation.readthedocs.io/en/latest/license.html",
       "api_verification_state": "Official specific licence/API guides HTTP200 and anonymous native entry sample HTTP200 validJSON with one result and cursor",
-      "latest_checked_utc": "2026-10-18T04:03:05.068150+00:00",
+      "latest_checked_utc": "2026-10-18T04:12:53.298382+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9237,7 +9270,7 @@
       "service_name": "NCBI E-utilities — PubMed metadata subset",
       "geographic_coverage": "Global",
       "topical_coverage": "health; research",
-      "dataset_families": "PubMed/MEDLINE citation and NLM-authored indexing metadata; other Entrez databases require separate rights review | Protein Clusters documented Entrez family, exact source grants/runtime pending | Nucleotide/nuccore and GEOgds/geoprofiles: documented Entrez families, grants/runtimeunresolved",
+      "dataset_families": "PubMed/MEDLINE citation and NLM-authored indexing metadata; other Entrez databases require separate rights review | Protein Clusters documented Entrez family, exact source grants/runtime pending | Nucleotide/nuccore and GEOgds/geoprofiles: documented Entrez families, grants/runtimeunresolved | Gene: additional Entrez family, exact reuse grant/runtime unresolved",
       "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
       "api_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
       "format_protocol": "REST/JSON",
@@ -9246,7 +9279,7 @@
       "license": "NLM data distribution terms; NLM-authored content public domain; copyrighted abstracts excluded",
       "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-18T04:10:04.159153+00:00",
+      "latest_checked_utc": "2026-10-18T04:12:41.706504+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16124,7 +16157,7 @@
       "license": "Whole-catalogue metadata grant unknown; individual downstream licence claims vary",
       "license_url": "https://www.healthdata.gov/data.json",
       "api_verification_state": "actual_public_JSON_sample_success_full_catalogue_metadata_rights_unconfirmed",
-      "latest_checked_utc": "2026-10-17T09:37:38.553941+00:00",
+      "latest_checked_utc": "2026-10-18T04:12:41.706504+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24243,6 +24276,24 @@
       "license_url": "",
       "api_verification_state": "Native home and service directory200HTML; linked /en/data returns404. No exact public query API documented or sampled; dashboard/webpage is not API success.",
       "latest_checked_utc": "2026-10-18T02:56:54.570050+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wdcrre-resources-environment",
+      "provider": "WDC-RRE / Chinese Academy of Sciences",
+      "service_name": "Renewable Resources and Environment data portal",
+      "geographic_coverage": "China and global resources/environment research; exact dataset coverage varies",
+      "topical_coverage": "environment | agriculture | climate/weather | water | geospatial | research | oceans | demographics",
+      "dataset_families": "Agricultural resources; land cover; vegetation; temperature; soils; population; socioeconomic; ocean and cryosphere categories shown on owner portal",
+      "documentation_url": "http://wdcrre.data.ac.cn/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public policy/root pages accessible without credentials; policy describes registration for higher-level data and access by user rating",
+      "free_access_restrictions": "Policy says research/education/public-domain-use materials free or at dissemination cost; higher-level/other access varies. No paid acquisition or registration.",
+      "license": "unknown verified data grant",
+      "license_url": "http://wdcrre.data.ac.cn/page/data_use | http://wdcrre.data.ac.cn/page/rights_security",
+      "api_verification_state": "Native root and two reuse policy pages HTTP200 HTML; no documented machine API contract or successful API sample established",
+      "latest_checked_utc": "2026-10-18T04:12:41.706504+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
