@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:44:44.542471+00:00",
+  "published_at": "2026-10-18T16:46:47.559660+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:44:24.213510+00:00",
+  "research_updated_at": "2026-10-18T16:46:05.464852+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PsychArchives metadataCC0/open interfaces verified with runtime gap; DIAS default restricted; EBAS deduplicated/projectcaveats; EnviDat/OpenForest/CAZy grants unresolved; MDZ876000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to887pages/887000refs;2326503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 438,
-    "candidates": 1169,
+    "verified": 439,
+    "candidates": 1171,
     "excluded": 342,
     "sample_successes": 464
   },
@@ -6376,6 +6376,24 @@
       "license_url": "https://dc.actris.nilu.no/data-policy | https://dc.actris.nilu.no/static/documents/ACTRIS_licence_approved_1st_General_Assembly.pdf",
       "api_verification_state": "Native portal/current docs/policy200HTML; owner-linked current Swagger UI/initializer/config200, OpenAPI200validJSON, anonymous versionGET200JSON with API version/Schema version/Vocabulary date. No search/source/facility rows tested.",
       "latest_checked_utc": "2026-10-18T11:53:32.279752+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "aeronet-v3-webservices",
+      "provider": "NASA GSFC / International AERONET Federation",
+      "service_name": "AERONET Version3 direct-sun web data service",
+      "geographic_coverage": "Global international ground-based aerosol-monitoring federation; per-site coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Aerosol optical depth, spectral deconvolution and total optical depth Version3 levels1.0/1.5/2.0; other product services not independently verified",
+      "documentation_url": "https://aeronet.gsfc.nasa.gov/print_web_data_help_v3.html | https://aeronet.gsfc.nasa.gov/new_web/data_usage.html",
+      "api_base_url": "https://aeronet.gsfc.nasa.gov/cgi-bin/print_web_data_v3",
+      "format_protocol": "Documented HTTP GET parameterized data service, HTML formatting optional via if_no_html=1; no runtime data response tested",
+      "authentication": "Public documentation gives examples without key; runtime authentication not independently tested",
+      "free_access_restrictions": "Policy calls contributed data public domain, retains PI priority/consultation/citation/authorship guidance; no account/key or observation request performed",
+      "license": "Public-domain contributed AERONET data with published scientific-use guidelines",
+      "license_url": "https://aeronet.gsfc.nasa.gov/new_web/data_usage.html",
+      "api_verification_state": "Native usage policy and Version3 API referenceHTTP200HTML. Documented operation/parameters indexed separately; no observational data response or native API runtime success claimed.",
+      "latest_checked_utc": "2026-10-18T16:45:48.792981+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -24052,8 +24070,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across876successfulpages/876000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:38:36.321138+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across887successfulpages/887000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T16:46:00.799455+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25692,6 +25710,24 @@
       "license_url": "https://ngdc.cncb.ac.cn/policies",
       "api_verification_state": "Native root/policy/FAQ HTTP200 HTML. No public query API contract or JSON/XML response verified. FTP submission/download is not query API proof.",
       "latest_checked_utc": "2026-10-18T13:59:05.523822+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ngdc-mammalian-transcriptomic",
+      "provider": "CNCB National Genomics Data Center",
+      "service_name": "Mammalian Transcriptomic Database MTD",
+      "geographic_coverage": "China-hosted international mammalian research reference; biological source scope varies",
+      "topical_coverage": "research | health",
+      "dataset_families": "Mammalian transcriptomic/expression research descriptions and browser/query tools; actual molecular records not requested",
+      "documentation_url": "https://ngdc.cncb.ac.cn/mtd/manual.php | https://ngdc.cncb.ac.cn/mission",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown current source-wide data/metadata grant; registry BY3CN unverified",
+      "license_url": "https://ngdc.cncb.ac.cn/mission",
+      "api_verification_state": "Native manual/missionHTTP200HTML, not API responses. Current public query API/schema unresolved.",
+      "latest_checked_utc": "2026-10-18T16:45:48.792981+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30336,6 +30372,24 @@
       "license_url": "https://diffusion.shom.fr/donnees/base-de-donnees-maritimes-et-littorales/reglementation-navigation.html | https://diffusion.shom.fr/Licences | https://diffusion.shom.fr/media/wysiwyg/licence/Document_RIP_2026-VF.pdf",
       "api_verification_state": "documented_WMS_XML_capabilities_sample_success_selected_OL2_product_free_API_eligibility_unresolved",
       "latest_checked_utc": "2026-10-17T00:38:39.436420+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "silkpathdb-repository",
+      "provider": "Southwest University / SilkPathDB project",
+      "service_name": "SilkPathDB silkworm-pathogen reference database",
+      "geographic_coverage": "China-hosted silkworm-pathogen research resource; source geography varies",
+      "topical_coverage": "research | biodiversity | agriculture",
+      "dataset_families": "Silkworm-pathogen biological reference descriptions; current records and coverage unreviewed",
+      "documentation_url": "https://silkpathdb.swu.edu.cn/ | https://kjc.swu.edu.cn/__local/4/4D/DC/2D55364C6C70F78F8E8487E1AB7_956ADD19_936B8.pdf?e=.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown current database grant; registry copyright not open permission",
+      "license_url": "https://silkpathdb.swu.edu.cn/",
+      "api_verification_state": "Native portal guard-deferred unsent; indexed institutional bulletin review separately saved with nullHTTPstatus. No native API existence/schema/runtime confirmed.",
+      "latest_checked_utc": "2026-10-18T16:45:48.792981+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
