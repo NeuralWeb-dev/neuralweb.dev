@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T19:29:08.563507+00:00",
+  "published_at": "2026-10-18T19:31:12.295598+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:28:54.919274+00:00",
+  "research_updated_at": "2026-10-18T19:30:00.358973+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Cariniana legacy API/rights gap; SAA native genericCC/UNCscope; CDSP controlled source access versus public metadata separated.",
+  "latest_milestone": "SciencesPo institutional/CDSPscope separated; DOREL and DATAMU curated institutional identity/default-grant gaps.",
   "counts": {
     "verified": 445,
-    "candidates": 1311,
+    "candidates": 1314,
     "excluded": 376,
     "sample_successes": 464
   },
@@ -19181,6 +19181,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "datamu-rdg-institutional-collection",
+      "provider": "Aix-Marseille Université",
+      "service_name": "Aix-Marseille Université research data discovery service",
+      "geographic_coverage": "France Aix-Marseille institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research descriptions; source holdings not enumerated",
+      "documentation_url": "https://gdsam.univ-amu.fr/entrepots-de-donnees/",
+      "api_base_url": "https://entrepot.recherche.data.gouv.fr/oai",
+      "format_protocol": "Shared registry OAI-PMH; exact collection API/set and current native runtime unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://gdsam.univ-amu.fr/entrepots-de-donnees/",
+      "api_verification_state": "Native institutional owner documentation request recorded separately; indexed native owner identifies DATAMU nationalRDG institutional deposit space. Registry Etalab and generic national-license page not blanket collection metadata/source grant. Prior national root/APIhold retained, no hostedcollection/sharedOAIquery. Institutional scope distinct from DOREL/otherRDGspaces.",
+      "latest_checked_utc": "2026-10-18T19:29:55.843487+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "datanator-molecular-data-api",
       "provider": "Karr Lab / Datanator team",
       "service_name": "Datanator molecular data REST API",
@@ -19880,6 +19898,24 @@
       "license_url": "https://www.donneesquebec.ca/exploiter/utiliser-les-donnees/ | https://www.donneesquebec.ca/fr/licence/",
       "api_verification_state": "official_indexed_API_documented_original_and_docs_policy_held_sample_untested",
       "latest_checked_utc": "2026-10-17T12:30:50.986728+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dorel-lorraine-rdg-collection",
+      "provider": "Université de Lorraine",
+      "service_name": "Université de Lorraine research data discovery service",
+      "geographic_coverage": "France Lorraine institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research descriptions; source holdings not enumerated",
+      "documentation_url": "https://scienceouverte.univ-lorraine.fr/deposer-publier-ses-donnees-dorel/",
+      "api_base_url": "https://entrepot.recherche.data.gouv.fr/oai",
+      "format_protocol": "Shared registry OAI-PMH; exact collection API/set and current native runtime unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://scienceouverte.univ-lorraine.fr/deposer-publier-ses-donnees-dorel/",
+      "api_verification_state": "Native institutional ownerHTTP200confirms DOREL current nationalRDGspace. Indexed2022depositorguide describes changeable Etalab default, not universal effective metadata/source grant or migrated dataset rights. Prior national repository root/APIhold retained, no hostedcollection/sharedOAIquery. Separate curated institutional scope, not independent API deployment proof.",
+      "latest_checked_utc": "2026-10-18T19:29:55.843487+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32372,6 +32408,24 @@
       "license_url": "https://sciencedata.dk/sites/sciencerepository/terms_of_use",
       "api_verification_state": "OriginalOAI redirectdestinationguard-deferred andindependentdocumentation-hosttermsguarddeferred; no successfulnativeAPI/termsresponse.",
       "latest_checked_utc": "2026-10-18T15:10:58.824032+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sciencespo-institutional-data-repository",
+      "provider": "Sciences Po",
+      "service_name": "Sciences Po research data discovery service",
+      "geographic_coverage": "France institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research descriptions; source holdings not enumerated",
+      "documentation_url": "https://www.sciencespo.fr/bibliotheque/fr/services/doctorants-et-chercheurs/gestion-des-donnees-de-la-recherche/",
+      "api_base_url": "https://data.sciencespo.fr/oai",
+      "format_protocol": "Shared registry OAI-PMH; exact collection API/set and current native runtime unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.sciencespo.fr/bibliotheque/fr/services/doctorants-et-chercheurs/gestion-des-donnees-de-la-recherche/",
+      "api_verification_state": "Indexed native library guidance identifies institutional repository and legal/licensing support; prior native CDSPcollectionrootHTTP200reused for host identity only, not institutional grant. Existing original sharedOAIhold and ownerHTTP500hold retained, no root/otherpath/API retry. Full institutional repository distinct from controlled CDSP curated bank; CDSPresearch-community restrictions not imposed on all SciencesPo sources. Uniform public metadata/source grant unresolved.",
+      "latest_checked_utc": "2026-10-18T19:29:55.843487+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
