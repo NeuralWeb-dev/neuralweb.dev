@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:23:40.437757+00:00",
+  "published_at": "2026-10-18T02:25:43.081472+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:22:53.406103+00:00",
+  "research_updated_at": "2026-10-18T02:24:30.589083+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Ridge2000/MARGINS deduplicated into existing MGDS; native defaultNC/source-specific terms distinguished; NDSF imagery/access restrictions verified.",
+  "latest_milestone": "GeoPRISMS deduplicated under MGDS; IPMImages/Invasive.org mapped sharedBugwoodImageAPIwith per-image restrictions/APIruntimeunresolved.",
   "counts": {
     "verified": 336,
     "candidates": 743,
-    "excluded": 207,
+    "excluded": 208,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -25073,6 +25073,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "bugwood-image-network-api",
+      "provider": "University of Georgia Bugwood Center / contributing photographers",
+      "service_name": "Bugwood Image Network API (IPM Images and Invasive.org portals)",
+      "geographic_coverage": "Global contributed forest-health, agricultural pest and invasive-species imagery; source coverage varies",
+      "topical_coverage": "agriculture | biodiversity | environment | education | research",
+      "dataset_families": "Shared Bugwood image archive accessed through IPM Images, Invasive.org, Forestry Images, Insect Images and Weed Images; occurrence/resources databases separate",
+      "documentation_url": "https://www.bugwood.org/tools/",
+      "api_base_url": "https://api.bugwood.org/; exact current image-query endpoint unverified",
+      "format_protocol": "API gateway documents image/occurrence/resource integrations; exact current query protocol/authentication unverified after developer-doc guard",
+      "authentication": "Unknown current imageAPIrequirements; no credentials, image-use request, registration or account used",
+      "free_access_restrictions": "Educational/personal reuse under individual image terms; commercial use may require photographer permission/fee. No paid acquisition or permission workflow undertaken.",
+      "license": "Per-image CC BY3US or CC BY-NC3US shown natively; majority/covered NC use and additional photographer request terms, not uniform open grant",
+      "license_url": "https://www.ipmimages.org/about/image-usage",
+      "api_verification_state": "Native thematic roots/imagepolicy/APIgateway/owner tools HTTP200; current developers.bugwoodcloud.org docs guard-deferred unsent. APIexistence documented, exact permitted imagequery/runtime and auth unresolved; no backend/legacyhost workaround.",
+      "latest_checked_utc": "2026-10-18T02:24:26.423457+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "burlington-navigate",
       "provider": "City of Burlington",
       "service_name": "Navigate Burlington OGC public catalog API",
@@ -26860,7 +26878,7 @@
       "service_name": "MGDS marine geoscience catalog and metadata APIs",
       "geographic_coverage": "Global scientific observations; individual dataset coverage varies",
       "topical_coverage": "oceans | geospatial | research",
-      "dataset_families": "Marine seismic metadata and catalogues; Ridge2000/MARGINS collection views; documented global station/line/launch-event WFS and vocabulary/search/file-metadata services",
+      "dataset_families": "Marine seismic metadata and catalogues; Ridge2000/MARGINS collection views; documented global station/line/launch-event WFS and vocabulary/search/file-metadata services; GeoPRISMS collection view",
       "documentation_url": "https://www.marine-geo.org/tools/web_services.php",
       "api_base_url": "https://marine-geo.org/services/",
       "format_protocol": "REST XML; documented OGC WFS and file metadata/search interfaces",
@@ -26869,7 +26887,7 @@
       "license": "Native legal page BY-NC-SA3US default; current terms defer to individual dataset/external-provider licences",
       "license_url": "https://www.marine-geo.org/about/legal.php | https://www.marine-geo.org/about/terms_of_use.php",
       "api_verification_state": "Existing native seismic XML sample preserved. Current service docs/legal/terms/collections HTTP200. New documented WFS GetCapabilities HTTP200validWFSXML.",
-      "latest_checked_utc": "2026-10-18T02:22:49.206749+00:00",
+      "latest_checked_utc": "2026-10-18T02:24:26.423457+00:00",
       "classification": "restricted"
     },
     {
