@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:37:00.454283+00:00",
+  "published_at": "2026-10-18T07:39:03.080139+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:34:08.470137+00:00",
+  "research_updated_at": "2026-10-18T07:38:09.237985+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NADC source-owned rights/TAP HTML, OECD iLibrary dedup and NLR42owner resource references reviewed/indexed.",
+  "latest_milestone": "Two independent ZBW leads reviewed: STW nativeBY4/tiny JSON verified, EconStor OAI succeeds but current metadata grant unresolved.",
   "counts": {
-    "verified": 376,
-    "candidates": 915,
+    "verified": 377,
+    "candidates": 916,
     "excluded": 269,
     "sample_successes": 465
   },
@@ -12304,6 +12304,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "zbw-stw-terminology-api",
+      "provider": "ZBW Leibniz Information Centre for Economics",
+      "service_name": "STW terminology through Web Services for Economics",
+      "geographic_coverage": "German/English economics vocabulary, international subject domain rather than terrestrial observations",
+      "topical_coverage": "economics/finance | research | education",
+      "dataset_families": "STW concepts, preferred/alternate labels, retrieval terminology and documented mappings/history; other vocabularies separately scoped",
+      "documentation_url": "https://zbw.eu/beta/stw-ws/about",
+      "api_base_url": "https://zbw.eu/beta/econ-ws/",
+      "format_protocol": "Native REST wrapper returns SPARQL Results JSON; RDF/SPARQL outputs documented, separate direct SPARQL runtime untested",
+      "authentication": "Anonymous one-result GET succeeds without key/account",
+      "free_access_restrictions": "Native owner says STW freely available BY4; other datasets/mappings/licences not automatically cleared",
+      "license": "CC BY4.0, STW vocabulary scope",
+      "license_url": "https://www.zbw.eu/en/about-us/information-organisation/stw-thesaurus-for-economics/access-information | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native owner service docs/access policy200; suggestGET200 valid SPARQL Results JSON, one binding for STW concept14900-1, termAccessoires/preferred labelAccessories. No scientific/person records.",
+      "latest_checked_utc": "2026-10-18T07:38:04.593767+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "zenodo",
       "provider": "CERN / Zenodo",
       "service_name": "CERN / Zenodo API",
@@ -16335,6 +16353,24 @@
       "license_url": "",
       "api_verification_state": "Native exact API-doc request guard-deferred unsent. Indexed official documentation1.00 exists; no search/API JSON response.",
       "latest_checked_utc": "2026-10-18T07:31:01.365583+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "econstor-publication-metadata-oai",
+      "provider": "ZBW Leibniz Information Centre for Economics",
+      "service_name": "EconStor publication metadata OAI-PMH service",
+      "geographic_coverage": "International economics/business research literature; German-hosted publication repository",
+      "topical_coverage": "economics/finance | research | culture",
+      "dataset_families": "Publication bibliographic metadata and independently licensed full texts; legacy linked-data snapshot separate",
+      "documentation_url": "https://www.econstor.eu/policy",
+      "api_base_url": "https://www.econstor.eu/oai/request",
+      "format_protocol": "Native OAI-PMH2 XML Identify; historical linked-data snapshot not fetched",
+      "authentication": "Anonymous Identify succeeds; registration/deposit licence for submissions not public metadata request",
+      "free_access_restrictions": "Owner promises free access subject to terms; personal/scholarly document-use defaults and individual open licences distinguish access/reuse",
+      "license": "Current metadata-wide grant unconfirmed; native2016linked-data snapshot explicitly CC0 only",
+      "license_url": "https://www.econstor.eu/Nutzungsbedingungen | https://www.econstor.eu/policy | https://zbw.eu/labs/en/node/26.html",
+      "api_verification_state": "Native root/terms/policy/legacy grant200. Owner-published dspace-oai Identify404; COAR/OpenAIRE-published current alias oai/request returned200 valid OAI2 XML/protocol2/no error elements. Secondary alias discovery verified by native endpoint, not directory proof alone.",
+      "latest_checked_utc": "2026-10-18T07:38:04.593767+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
