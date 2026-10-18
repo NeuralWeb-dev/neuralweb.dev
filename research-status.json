@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:31:12.411098+00:00",
+  "published_at": "2026-10-18T00:33:15.033026+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:30:45.087869+00:00",
+  "research_updated_at": "2026-10-18T00:32:37.361312+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NCDC publicHTML catalogue enumeration: 105pages,2100unique metadata IDs; source rights/API unresolved.",
+  "latest_milestone": "Canada/Australiadeduplicatedandscopedpolicy/runtimeupdated; ISPSmixedrights candidate verifiedwithnativecollectionterms, APIheld.",
   "counts": {
     "verified": 325,
-    "candidates": 670,
+    "candidates": 671,
     "excluded": 174,
     "sample_successes": 469
   },
@@ -5143,7 +5143,7 @@
       "license": "Dataset-specific; confirmed CC BY 4.0 subset",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T06:57:13.502909+00:00",
+      "latest_checked_utc": "2026-10-18T00:32:33.160207+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -5539,7 +5539,7 @@
       "license": "Open Government Licence Canada v2.0 for explicitly marked records",
       "license_url": "https://open.canada.ca/en/open-government-licence-canada",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T06:59:08.495096+00:00",
+      "latest_checked_utc": "2026-10-18T00:32:33.160207+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15118,6 +15118,24 @@
       "license_url": "https://www.isimip.org/gettingstarted/terms-of-use/licenses-publicly-available-isimip-data/ | https://www.isimip.org/gettingstarted/terms-of-use/terms-use-publicly-available-isimip-data-after-embargo-period/",
       "api_verification_state": "official_API_documentation_verified_native_sample_robots_withheld",
       "latest_checked_utc": "2026-10-17T19:17:42.253860+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "isps-yale-data-archive",
+      "provider": "Yale University / Institution for Social and Policy Studies",
+      "service_name": "ISPS Data Archive on Yale Dataverse",
+      "geographic_coverage": "ISPS-affiliated socialscience experiments, exactstudy geography varies",
+      "topical_coverage": "research | law/civic data",
+      "dataset_families": "Social/political science replication-study metadata, analysiscode andsupportingmaterials",
+      "documentation_url": "https://isps.yale.edu/research/research-data/about-isps-data-archive | https://researchdata.yale.edu/yale-dataverse-terms-of-use",
+      "api_base_url": "https://dataverse.yale.edu/api/ (shareddeployment, ISPSsubtree only; runtimeheld)",
+      "format_protocol": "DataverseREST/JSON documentedframeworkquery attempted; nativecollectionHTMLnotAPIsuccess",
+      "authentication": "PubliccollectionHTMLanonymous; originalboundedmetadataquerydeferred, sourcefilesmayrequirespecificterms/access",
+      "free_access_restrictions": "UnrestrictedCC0submissions versuscustomlicences/restrictedfiles; noaccount orsourcefileaccess",
+      "license": "Mixedper-datasetCC0/customterms; no blanketmetadata/public-sourcegrantverified",
+      "license_url": "https://researchdata.yale.edu/yale-dataverse-terms-of-use",
+      "api_verification_state": "Nativecollectionandoperator/termspagesHTTP200; originalsearchqueryguard-deferred, no successfulmachineJSON",
+      "latest_checked_utc": "2026-10-18T00:32:33.160207+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
