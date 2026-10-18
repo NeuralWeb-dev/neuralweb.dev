@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T11:53:18.020079+00:00",
+  "published_at": "2026-10-18T11:55:21.078386+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:52:33.728363+00:00",
+  "research_updated_at": "2026-10-18T11:53:36.912552+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: LAADS Classic retired/V2schema500; meteorite403; STOmicsDB purpose/retention conditions; SupraBankheld; PAINTstaticSTAC/CDLA2verified; KITAPIdeactivated; MDZ396000refs incomplete.",
+  "latest_milestone": "ACTRIS nativeBY4 L1/L2metadata/schema/versionverified; TUdatalib CC0/1416headers/complete_returned_header_snapshot; NewPsyindexedrestricted/rootheld.",
   "counts": {
-    "verified": 397,
+    "verified": 399,
     "candidates": 1028,
-    "excluded": 298,
+    "excluded": 299,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -5946,6 +5946,24 @@
       "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "api_verification_state": "actual_public_JSON_sample_success_named_assembly_metadata_and_record",
       "latest_checked_utc": "2026-10-17T08:24:01.724993+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "actris-dvas-metadata-api",
+      "provider": "ACTRIS Data Centre / NILU DVAS",
+      "service_name": "ACTRIS DVAS discovery metadata API: level1/level2 BY4 scope",
+      "geographic_coverage": "European atmospheric research infrastructure with international partner/source coverage; individual metadata coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Discovery metadata for aerosol/cloud/trace-gas topical units; accepted level1/level2 metadata policy scope, not all legacy/derived/source products",
+      "documentation_url": "https://dc.actris.nilu.no/docs | https://prod-actris-md.nilu.no/swagger-ui/index.html | https://prod-actris-md.nilu.no/v3/api-docs",
+      "api_base_url": "https://prod-actris-md.nilu.no/api/",
+      "format_protocol": "OpenAPI3.0.1/REST JSON; metadata search GET/POST documented, provider mutations separate and unexecuted",
+      "authentication": "Anonymous OpenAPI/config/version succeeded; bearerAuth scheme documented, provider/auth workflows untested. No tokens/accounts used.",
+      "free_access_restrictions": "Public discovery documentation/version/schema accessible without account/payment. Per-source/level policy and access conditions separate.",
+      "license": "CC BY4 for level1/level2 metadata per approved ACTRIS licensing document; vocabulary concepts CC0 separate",
+      "license_url": "https://dc.actris.nilu.no/data-policy | https://dc.actris.nilu.no/static/documents/ACTRIS_licence_approved_1st_General_Assembly.pdf",
+      "api_verification_state": "Native portal/current docs/policy200HTML; owner-linked current Swagger UI/initializer/config200, OpenAPI200validJSON, anonymous versionGET200JSON with API version/Schema version/Vocabulary date. No search/source/facility rows tested.",
+      "latest_checked_utc": "2026-10-18T11:53:32.279752+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -12336,6 +12354,24 @@
       "license_url": "https://www.tuwien.at/index.php?eID=dms&s=4&path=Directives+and+Regulations+of+the+Rectorate%2FResearch_Data_Deposit_Policy.pdf",
       "api_verification_state": "Native home/API/policy/terms pages and deposit-policy PDF200. Policy text inspected via official PDF web extraction. Planned anonymous REST sample deferred by robots guard, not successful API response.",
       "latest_checked_utc": "2026-10-18T02:56:07.725450+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "tudatalib-public-metadata-oai",
+      "provider": "TU Darmstadt / University and State Library / University Computing Centre",
+      "service_name": "TUdatalib public metadata OAI-PMH interface",
+      "geographic_coverage": "TU Darmstadt and partner universities in Germany; research subject geography varies internationally",
+      "topical_coverage": "research | education | engineering | culture",
+      "dataset_families": "Institutional research descriptions and public dataset headers; underlying datasets/software/images/other files use individual licences/access controls",
+      "documentation_url": "https://tudatalib.ulb.tu-darmstadt.de/docs/en/faq/ | https://tudatalib.ulb.tu-darmstadt.de/docs/en/code_schnittstelle/",
+      "api_base_url": "https://tudatalib.ulb.tu-darmstadt.de/server/oai/request",
+      "format_protocol": "OAI-PMH2XML with explicit Accept:application/xml; initial default negotiation yields human-readable OAIHTML",
+      "authentication": "Anonymous XMLIdentify/formats/headers succeeded. Submission/REST write privileges, TU-ID/ORCID and restricted files separate; no login.",
+      "free_access_restrictions": "Published-dataset metadata CC0 reuse per native agreement; underlying content/source licences/access separate. Archival deposit above basic allocation may cost providers, not a public metadata subscription.",
+      "license": "CC0 1.0 for metadata of published datasets per current native user agreement",
+      "license_url": "https://tudatalib.ulb.tu-darmstadt.de/docs/en/nutzungsvereinbarung/",
+      "api_verification_state": "Native portal/FAQ/RESTguide/agreement200HTML; initial OAIIdentify/formats200 humanHTML, not machine API success. Explicit standard XMLAccept on same healthy endpoint returned200validOAIXMLIdentify/13formats. Header-only enumeration15pages/1416unique identifiers; no XMLerrors/fallback.",
+      "latest_checked_utc": "2026-10-18T11:53:32.279752+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -35020,6 +35056,24 @@
       "license_url": "https://data.ny.gov/api/views/77gx-ii52/files/ef0c1840-ad54-4240-92fd-6397c49fde46?filename=OPEN-NY_20Terms_20of_20Use.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_legalasset_metadata_full_restricted_terms_read",
       "latest_checked_utc": "2026-10-17T11:05:18.891873+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "newpsy4u-research-platform",
+      "provider": "NewPsy4U project team",
+      "service_name": "NewPsy4U psychiatry research platform: restricted indexed terms",
+      "geographic_coverage": "Research platform with international sources; exact dataset geography unverified",
+      "topical_coverage": "health | research",
+      "dataset_families": "Public and controlled research data/tool families described in indexed official terms; no participant or clinical content acquired",
+      "documentation_url": "https://www.newpsy4u.eu/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Original root guard-deferred unsent; registry describes registration restrictions. No account, platform request or download.",
+      "free_access_restrictions": "Indexed official terms limit platform services/materials to personal noncommercial nonclinical use; public/free and proprietary controlled sources distinguished",
+      "license": "Indexed primary platform terms restrictive; current native page held/unread",
+      "license_url": "https://www.newpsy4u.eu/",
+      "api_verification_state": "Original root guard-deferred before target; indexed primary terms reviewed only. Exact public API/schema/active endpoint unknown, no www/WordPress/backend alternative.",
+      "latest_checked_utc": "2026-10-18T11:53:32.279752+00:00",
       "classification": "restricted"
     },
     {
