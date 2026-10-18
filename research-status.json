@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:57:06.209525+00:00",
+  "published_at": "2026-10-18T01:59:08.815353+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:55:03.519874+00:00",
+  "research_updated_at": "2026-10-18T01:58:25.883196+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GRID-Geneva nonprofit reproduction restrictions and held POLAR-PL API/licensing gaps retained; NCBI Protein deduplicated to Entrez with unresolved family rights.",
+  "latest_milestone": "ICPD noncommercial and dbGaP controlled-source restrictions verified; PIDAR public metadata JSON28IDs verified, exact metadata grant unresolved.",
   "counts": {
     "verified": 333,
-    "candidates": 735,
-    "excluded": 197,
+    "candidates": 736,
+    "excluded": 199,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -19128,6 +19128,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "pidar-preclinical-metadata-api",
+      "provider": "University of Turin / PIDAR",
+      "service_name": "Preclinical Image DAtaset Repository metadata API",
+      "geographic_coverage": "International preclinical imaging study metadata; institution/model-specific coverage",
+      "topical_coverage": "research | health",
+      "dataset_families": "Dataset-level species, organ/tissue, disease model, imaging modality and aggregate sample-size descriptors; source images external/separate",
+      "documentation_url": "https://pidar.hpc4ai.unito.it/swagger/index.html",
+      "api_base_url": "https://pidar.hpc4ai.unito.it/api/DatasetsApi",
+      "format_protocol": "REST JSON, native OpenAPI3 lists two public GET routes",
+      "authentication": "Anonymous documented metadata list GET succeeded without credentials; source XNAT access separate",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native About page CC BY4 statement for “this work”; exact metadata/database scope and source-image licences differ",
+      "license_url": "https://pidar.hpc4ai.unito.it/Home/About",
+      "api_verification_state": "Native Swagger/config/spec HTTP200; documented metadata GET HTTP200 valid JSON array28records, only dataset-level aggregate descriptors",
+      "latest_checked_utc": "2026-10-18T01:58:21.610594+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "pisco",
       "provider": "Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO)",
       "service_name": "PISCO DataONE member node and coastal data discovery",
@@ -26060,6 +26078,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "ibdc-indian-crop-phenome",
+      "provider": "Indian Biological Data Centre / Regional Centre for Biotechnology",
+      "service_name": "Indian Crop Phenome Database",
+      "geographic_coverage": "Crop phenomics generated across India; project-specific crop/trait coverage",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Crop phenotype experiment/trait data, MIAPPE/crop ontology annotations, PhenoProject accessions",
+      "documentation_url": "https://ibdc.dbt.gov.in/icpd/datapolicy.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native policy distinguishes open and managed/embargoed data; no account/submission/managed-access request used",
+      "free_access_restrictions": "Noncommercial use only unless owner/authority grants explicit permission; managed-access embargo up to2years",
+      "license": "CC BY-NC-SA for submitted data; native explicit noncommercial condition",
+      "license_url": "https://ibdc.dbt.gov.in/icpd/datapolicy.html",
+      "api_verification_state": "Native homepage/general data policy HTTP200. No exact public read-only query API documented or sampled.",
+      "latest_checked_utc": "2026-10-18T01:58:21.610594+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "icpsr-metadata-export-api",
       "provider": "Inter-university Consortium for Political and Social Research / University of Michigan",
       "service_name": "ICPSR Metadata/Object Export API",
@@ -26651,6 +26687,24 @@
       "license_url": "https://nvs.landcareresearch.co.nz/Home/Copyright | https://nvs.landcareresearch.co.nz/Home/Terms",
       "api_verification_state": "native_HTML_policy_and_tools_verified_restricted_source_rights_API_unresolved",
       "latest_checked_utc": "2026-10-17T21:59:27.952936+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ncbi-dbgap-controlled-data",
+      "provider": "NCBI / NIH Data Access Committees",
+      "service_name": "dbGaP controlled genomic and phenotype data portal",
+      "geographic_coverage": "NIH-supported and contributed human genomic/phenotypic studies; study-specific population scope",
+      "topical_coverage": "health | research",
+      "dataset_families": "Public study-discovery information distinct from controlled individual-level genomic/phenotype data",
+      "documentation_url": "https://dbgap.ncbi.nlm.nih.gov/FAQs/data-access-requests/",
+      "api_base_url": "",
+      "format_protocol": "Study portal/access workflow; official dbGaP FHIR API documentation describes public/controlled metadata interfaces, not tested",
+      "authentication": "Controlled data require NIH DAC approval, study consent/use limitations and authorized access; no account/token/approval or data request undertaken",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Controlled study-specific Data Use Certification and use limitations; no blanket public-domain grant",
+      "license_url": "https://www.grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/accessing-data/dbgap",
+      "api_verification_state": "Native public homepage/current FAQs and independent NIH access policy HTTP200 HTML; no FTP, FHIR or Entrez data request",
+      "latest_checked_utc": "2026-10-18T01:58:21.610594+00:00",
       "classification": "restricted"
     },
     {
