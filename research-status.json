@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:03:38.543162+00:00",
+  "published_at": "2026-10-18T08:05:41.507565+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:02:55.116232+00:00",
+  "research_updated_at": "2026-10-18T08:05:38.238973+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RefSeq sourcefamily retained separately, NCBIumbrella deduplicated; NatureServe native REST classification JSON verified, current nativegrant unresolved.",
+  "latest_milestone": "Murray hosted service andLINDAT repository originals deduplicated; native policy evidence preserved; ROSAT exactAPI/sourcegrant candidate.",
   "counts": {
     "verified": 380,
-    "candidates": 928,
+    "candidates": 929,
     "excluded": 273,
     "sample_successes": 465
   },
@@ -222,6 +222,7 @@
           "noaa-gml-barrow-observatory",
           "noaa-ncei",
           "noaa-ncei-access",
+          "noaa-ncei-search",
           "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "nsidc",
@@ -236,6 +237,7 @@
           "unsd",
           "usgs-sciencebase-catalogue",
           "vmf-vienna-mapping-functions",
+          "wdccr-cosmic-ray-archive",
           "wdcrre-resources-environment",
           "whoi-argo-program",
           "whoi-seafloor-samples-lab",
@@ -775,7 +777,8 @@
           "nasa-exoplanet",
           "nasa-open-data-catalog",
           "usno-astronomical-applications-api",
-          "vmf-vienna-mapping-functions"
+          "vmf-vienna-mapping-functions",
+          "wdccr-cosmic-ray-archive"
         ],
         "restricted_provider_ids": [
           "esa-gaia",
@@ -1038,6 +1041,7 @@
           "nims-mdr",
           "noaa-class-environmental-archive",
           "noaa-gml-barrow-observatory",
+          "noaa-ncei-search",
           "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "olac-language-archives-network",
@@ -1064,6 +1068,7 @@
           "usgs-sciencebase-catalogue",
           "usno-astronomical-applications-api",
           "vmf-vienna-mapping-functions",
+          "wdccr-cosmic-ray-archive",
           "wdcrre-resources-environment",
           "wellcome-collection",
           "whoi-argo-program",
@@ -2515,6 +2520,7 @@
           "ecad-station-data-portal",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
+          "eurobis-european-marine-data",
           "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
           "geotis-wms",
@@ -2706,6 +2712,7 @@
           "netherlands-catalog-metadata",
           "olos-research-data",
           "onb-webarchive",
+          "oxford-ora-metadata",
           "palermo-open-data",
           "piemonte-opendata-catalog",
           "poland-bdl",
@@ -3120,6 +3127,7 @@
         "restricted_provider_ids": [
           "bioimages-uk-field-guide",
           "edaphobase-soil-biodiversity-api",
+          "eurobis-european-marine-data",
           "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
           "indexs-exsiccatae-api"
@@ -3147,7 +3155,8 @@
           "ukho-tidal"
         ],
         "restricted_provider_ids": [
-          "copernicus-marine"
+          "copernicus-marine",
+          "eurobis-european-marine-data"
         ]
       },
       "astronomy": {
@@ -3197,6 +3206,7 @@
           "onb-webarchive",
           "opendata-dk",
           "oulu-open-data-api",
+          "oxford-ora-metadata",
           "palermo-open-data",
           "piemonte-opendata-catalog",
           "poland-bdl",
@@ -3340,6 +3350,7 @@
           "olos-research-data",
           "onb-webarchive",
           "oulu-open-data-api",
+          "oxford-ora-metadata",
           "piemonte-opendata-catalog",
           "poland-bdl",
           "radar-public-metadata",
@@ -3474,6 +3485,7 @@
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
+          "eurobis-european-marine-data",
           "eurocat-controlled-research-data",
           "flora-frankfurt-portal",
           "geotis-wms",
@@ -9193,7 +9205,7 @@
       "license": "CC0 — repository metadata only",
       "license_url": "https://lindat.mff.cuni.cz/repository/static/metadata",
       "api_verification_state": "actual_OAI_XML_GetRecord_and_native_catalog_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T03:07:04.823406+00:00",
+      "latest_checked_utc": "2026-10-18T08:05:33.581269+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -24391,6 +24403,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rosat-mpe-mission-archive",
+      "provider": "Max Planck Institute for extraterrestrial Physics",
+      "service_name": "ROSAT mission archive discovery",
+      "geographic_coverage": "All-sky and pointed astronomical observations; German-US-UK mission, not terrestrial geographic coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Soft-X-ray/EUV surveys, pointed PSPC/HRI observations, calibrated mission holdings and2RXS reference",
+      "documentation_url": "https://www.mpe.mpg.de/ROSAT",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.mpe.mpg.de/impressum",
+      "api_verification_state": "Native mission/imprint200HTML; exact current read-only queryAPI not verified",
+      "latest_checked_utc": "2026-10-18T08:05:33.581269+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rotterdam-open-data",
       "provider": "Municipality of Rotterdam",
       "service_name": "Rotterdam Open Data Explore API",
@@ -31094,7 +31124,7 @@
       "service_name": "Harvard Dataverse public API",
       "geographic_coverage": "Global",
       "topical_coverage": "research",
-      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections | AfricaRice hosted agricultural research collection, distinct per-dataset rights unreviewed under nativehosthold | Stockholm University Library hosted research collection; exact source grants unresolved",
+      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections | AfricaRice hosted agricultural research collection, distinct per-dataset rights unreviewed under nativehosthold | Stockholm University Library hosted research collection; exact source grants unresolved | Murray Archive quantitative/qualitative research collection; individual source/access terms unreviewed",
       "documentation_url": "https://guides.dataverse.org/en/latest/api/",
       "api_base_url": "https://dataverse.harvard.edu/api/",
       "format_protocol": "REST/JSON or XML as documented",
@@ -31103,7 +31133,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified; Stockholm hosted collection guard-deferred; independent university guide HTTP 200",
-      "latest_checked_utc": "2026-10-18T03:35:35.423311+00:00",
+      "latest_checked_utc": "2026-10-18T08:05:33.581269+00:00",
       "classification": "restricted"
     },
     {
