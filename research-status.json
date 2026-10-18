@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T15:26:42.294348+00:00",
+  "published_at": "2026-10-18T15:28:46.380999+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:25:24.408961+00:00",
+  "research_updated_at": "2026-10-18T15:28:17.474597+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: StEdwards/BathSPAdata/Newcastle portalholds andnativeowners; Figsharededup; PUCP originalOAIhold/nativepreferBY4; TSpace nativeRESTrootJSON/policy withlicenseunknown; MDZ758000 incomplete.",
+  "latest_milestone": "KiltHub/Penn guards/nativeowner rightsunknown; ZivaHub nativepersonalNC access restricted",
   "counts": {
     "verified": 432,
-    "candidates": 1115,
-    "excluded": 328,
+    "candidates": 1117,
+    "excluded": 329,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -22376,6 +22376,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kilthub-institutional-figshare",
+      "provider": "Carnegie Mellon University",
+      "service_name": "KiltHub institutional repository",
+      "geographic_coverage": "US institutional research; exactdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional scholarly/research outputs, datasets, creative works and associated metadata; exactinventoryunreviewed",
+      "documentation_url": "https://guides.library.cmu.edu/kilthub/legal",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution231/portal231 registryfilteruntested)",
+      "format_protocol": "Registry REST/OAI claims, no native currentAPI/schemaresponse",
+      "authentication": "No credentials used; currentpublicreadAPIauthunverified",
+      "free_access_restrictions": "Per-itemlicense/accessconditions; currentinventoryunreviewed",
+      "license": "Unknown metadata-wide grant; selected per-item reuse licenses",
+      "license_url": "https://guides.library.cmu.edu/kilthub/legal",
+      "api_verification_state": "Original portal/OAI guard-deferredunsent; native independentowner200HTML reviewed, no currentAPI response.",
+      "latest_checked_utc": "2026-10-18T15:28:11.621691+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kit-whole-body-motion",
       "provider": "Karlsruhe Institute of Technology / H2T",
       "service_name": "KIT Whole-Body Human Motion Database: API deactivated",
@@ -26783,6 +26801,24 @@
       "license_url": "https://opendata.paris.fr/terms/terms-and-conditions/ | https://www.opendatacommons.org/licenses/odbl/",
       "api_verification_state": "documented_historical_sample_success_current_sample_policy_deferred",
       "latest_checked_utc": "2026-10-17T12:06:20.255349+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "penn-scholarlycommons",
+      "provider": "University of Pennsylvania Libraries",
+      "service_name": "ScholarlyCommons repository OAI-PMH",
+      "geographic_coverage": "US institutional research; exactdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional scholarly/research outputs, datasets, creative works and associated metadata; exactinventoryunreviewed",
+      "documentation_url": "https://guides.library.upenn.edu/scholarlycommons/policy-copyright",
+      "api_base_url": "https://repository.upenn.edu/server/oai/request (registryclaim)",
+      "format_protocol": "Registry REST/OAI claims, no native currentAPI/schemaresponse",
+      "authentication": "No credentials used; currentpublicreadAPIauthunverified",
+      "free_access_restrictions": "Per-itemlicense/accessconditions; currentinventoryunreviewed",
+      "license": "Unknown metadata-wide grant; individual copyright/CC permissions",
+      "license_url": "https://guides.library.upenn.edu/scholarlycommons/policy-copyright",
+      "api_verification_state": "Original portal/OAI guard-deferredunsent; native independentowner200HTML reviewed, no currentAPI response.",
+      "latest_checked_utc": "2026-10-18T15:28:11.621691+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -39313,6 +39349,24 @@
       "license_url": "https://www.nationalarchives.gov.uk/terms-and-conditions/discovery-for-developers-about-the-application-programming-interface-api/",
       "api_verification_state": "NativeDiscoveryroot/copyright/APIterms200HTML. API documented but not sampled because owneraccessregistration and no-store terms; no sandbox/query/APIcontent acquired.",
       "latest_checked_utc": "2026-10-18T03:21:14.917577+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "uct-zivahub",
+      "provider": "University of Cape Town",
+      "service_name": "ZivaHub Open Data UCT",
+      "geographic_coverage": "South Africa institutional research; exactdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional scholarly/research outputs, datasets, creative works and associated metadata; exactinventoryunreviewed",
+      "documentation_url": "https://lib.uct.ac.za/digitalservices/documentation/zivahub-terms-access | https://libguides.lib.uct.ac.za/how-to-ZivaHub/licenses",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution283/portal283 registryfilteruntested)",
+      "format_protocol": "Registry REST/OAI claims, no native currentAPI/schemaresponse",
+      "authentication": "No credentials used; currentpublicreadAPIauthunverified",
+      "free_access_restrictions": "Native access terms personal non-commercial research; actual files also subject to selected licenses/restrictions",
+      "license": "Access terms personal non-commercial research; per-file licenses separately apply",
+      "license_url": "https://lib.uct.ac.za/digitalservices/documentation/zivahub-terms-access",
+      "api_verification_state": "Original portal/OAI guard-deferredunsent; native independentowner200HTML reviewed, no currentAPI response.",
+      "latest_checked_utc": "2026-10-18T15:28:11.621691+00:00",
       "classification": "restricted"
     },
     {
