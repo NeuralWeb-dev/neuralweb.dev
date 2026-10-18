@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T16:57:03.700529+00:00",
+  "published_at": "2026-10-18T16:59:06.635661+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:56:40.116309+00:00",
+  "research_updated_at": "2026-10-18T16:57:38.589606+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ASF successful3missionJSON/selectedbucketCC0, CLOSER documented noncommercialmetadata/MLconditions, ZFINBY4 grant/nativeAPIgap.",
+  "latest_milestone": "Six originals: CO-OPS dedup; ASF3missionJSON/selectedCC0bucket; CLOSER NCmetadata/MLconditions; ZFINBY4/APIgap; Maine/MX-RDRgrantgaps; MDZ898000 incomplete.",
   "counts": {
     "verified": 440,
     "candidates": 1177,
@@ -183,6 +183,7 @@
           "amphibiaweb-species-portal",
           "argo-gdac-data-interfaces",
           "arm-live-data-service",
+          "asf-sar-search-catalog",
           "auscope-earthbank",
           "biotime-biodiversity-timeseries",
           "china-national-earth-observation-center",
@@ -317,6 +318,7 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "asf-sar-search-catalog",
           "ciesin-integrated-earth-data",
           "cugir-geospatial-repository",
           "dataone",
@@ -572,6 +574,7 @@
         ],
         "candidate_provider_ids": [
           "aiddata-development-data",
+          "asf-sar-search-catalog",
           "auscope-earthbank",
           "china-national-earth-observation-center",
           "ciesin-integrated-earth-data",
@@ -782,6 +785,7 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "asf-sar-search-catalog",
           "biotime-biodiversity-timeseries",
           "csiro-data-access-portal",
           "dataterra-eosc-resource-catalogue",
@@ -1049,6 +1053,7 @@
           "arizona-campus-repository",
           "arm-live-data-service",
           "artic",
+          "asf-sar-search-catalog",
           "auscope-earthbank",
           "biostudies",
           "biotime-biodiversity-timeseries",
@@ -1552,7 +1557,8 @@
           "toronto-open-data-catalog-api",
           "ucla-social-science-dataverse",
           "usda-ers-geospatial-services",
-          "washington-state-open-data"
+          "washington-state-open-data",
+          "zfin-model-organism-database"
         ],
         "restricted_provider_ids": [
           "born-ontario-controlled-data",
@@ -1587,6 +1593,7 @@
           "ku-scholarworks-repository",
           "laval-borealis-data-repository",
           "macewan-borealis-data-repository",
+          "maine-dataverse-network",
           "northwestern-arch-repository",
           "ontario-data-catalog",
           "opendataphilly-jkan",
@@ -1862,7 +1869,8 @@
           "goa-ecology",
           "knb",
           "nps-irma-resource-services",
-          "smithsonian"
+          "smithsonian",
+          "zfin-model-organism-database"
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
@@ -1997,6 +2005,7 @@
           "laval-borealis-data-repository",
           "loc",
           "macewan-borealis-data-repository",
+          "maine-dataverse-network",
           "nadp-monitoring-data",
           "neracoos-erddap",
           "nlr-metropolitan-travel-survey-archive",
@@ -2010,7 +2019,8 @@
           "toronto-borealis-data-collection",
           "ubc-circle-open-collections",
           "ucla-social-science-dataverse",
-          "us-data-gov-catalog"
+          "us-data-gov-catalog",
+          "zfin-model-organism-database"
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
@@ -2476,6 +2486,7 @@
           "adp-slovenian-social-science",
           "alspac-cohort-access-portal",
           "bamf-fdz-research-data",
+          "closer-discovery-metadata",
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
           "diw-soep-research-access",
@@ -2975,6 +2986,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
+          "closer-discovery-metadata",
           "dhsnl-dnb-household-survey",
           "dirros-research-repository",
           "diw-soep-research-access",
@@ -3149,6 +3161,7 @@
           "bibb-fdz-research-data",
           "bioimages-uk-field-guide",
           "bonn-open-data",
+          "closer-discovery-metadata",
           "datice-gagnis-iceland",
           "diw-soep-research-access",
           "elaborate-digital-edition-services",
@@ -3889,6 +3902,7 @@
           "meteogate-climate-aggregator-edr",
           "middlesex-institutional-figshare",
           "minho-datarepositorium",
+          "mxrdr-crystallography-repository",
           "nanocommons-knowledgebase",
           "nasc-plant-stock-webservices",
           "newcastle-data-ncl",
@@ -3962,6 +3976,7 @@
           "bllast-field-campaign",
           "bnf-gallica",
           "cdgp-geothermal-portal",
+          "closer-discovery-metadata",
           "codex-sinaiticus-digital",
           "comparative-agendas-project",
           "copernicus-marine",
