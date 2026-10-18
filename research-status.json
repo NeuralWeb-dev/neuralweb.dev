@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T07:02:10.360676+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T07:04:13.046897+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:01:44.207760+00:00",
+  "research_updated_at": "2026-10-18T07:03:33.427476+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "USA-NPN native BY4 and33-entry plant-type JSON verified; USACH OAI and AgroPortal original holds retained with explicit per-source/key restrictions.",
+  "latest_milestone": "Nine originals: Researchdata/KI public DORIS metadataCC0 and USA-NPN BY4/dictionary verified; UniProt dedup/SPARQL hold, Proteins57schema operations, IDD restrictions and source holds retained.",
   "counts": {
     "verified": 372,
-    "candidates": 898,
-    "excluded": 265,
+    "candidates": 900,
+    "excluded": 266,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -1971,7 +1971,8 @@
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
-          "upn-institutional-repository"
+          "upn-institutional-repository",
+          "usach-research-data-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -2130,7 +2131,8 @@
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
-          "upn-institutional-repository"
+          "upn-institutional-repository",
+          "usach-research-data-repository"
         ],
         "restricted_provider_ids": [
           "usp-datamap-environmental-platform"
@@ -2593,6 +2595,7 @@
           "iceland-statistics",
           "italy-istat-sdmx",
           "jersey-government-open-data",
+          "ki-repository-public-metadata",
           "moldova-data",
           "netherlands-catalog-metadata",
           "oulu-open-data-api",
@@ -2667,6 +2670,7 @@
           "gutenberg-mainz-oai-metadata",
           "iceland-statistics",
           "italy-istat-sdmx",
+          "ki-repository-public-metadata",
           "lincolnshire-open-data-portal",
           "lindat-repository",
           "moldova-data",
@@ -2748,6 +2752,7 @@
           "tul-open-research-data",
           "tuscany-open-data-catalog",
           "upf-digital-repository",
+          "vads-visual-arts-service",
           "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
@@ -3236,6 +3241,7 @@
           "tuebingen-fcs",
           "uk-trade-tariff",
           "upf-digital-repository",
+          "vads-visual-arts-service",
           "wellcome-collection",
           "zvdd-metadata-interfaces"
         ],
@@ -3294,6 +3300,7 @@
           "iceland-statistics",
           "ices-dome",
           "intrechtdok-bibliographic-metadata",
+          "ki-repository-public-metadata",
           "lindat-repository",
           "lithuania-dataportal",
           "met-norway-weather-api",
@@ -3407,6 +3414,7 @@
           "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
           "upf-digital-repository",
+          "vads-visual-arts-service",
           "vu-yoda-publication-metadata",
           "wellcome-collection",
           "yoda-utrecht",
@@ -11734,15 +11742,15 @@
       "geographic_coverage": "Global",
       "topical_coverage": "research; health; biodiversity",
       "dataset_families": "Proteins; taxonomy; function annotations; UniParc protein archive and UniRef100/90/50 sequence-cluster families retained under same provider | UniSave historical UniProtKB entry/sequence annotation version metadata, current /unisave interface",
-      "documentation_url": "https://www.uniprot.org/help/api | https://www.ebi.ac.uk/uniprot/unisave/app/partials/help.html",
-      "api_base_url": "https://rest.uniprot.org/",
+      "documentation_url": "https://www.uniprot.org/help/api | https://www.ebi.ac.uk/uniprot/unisave/app/partials/help.html | https://sparql.uniprot.org/",
+      "api_base_url": "https://rest.uniprot.org/ | https://sparql.uniprot.org/sparql/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "Public protein search sample succeeded without key",
       "license": "CC BY 4.0",
       "license_url": "https://rest.uniprot.org/help/license?format=json",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T20:55:08.485710+00:00",
+      "api_verification_state": "documented_sample_success; additional native SPARQL UI200, source-free ASK request guard-deferred unsent, no new query success",
+      "latest_checked_utc": "2026-10-18T07:02:31.118712+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16101,6 +16109,24 @@
       "license_url": "https://www.ebi.ac.uk/about/terms-of-use | https://github.com/EBISPOT/ols4",
       "api_verification_state": "Native API-doc/help200SPA shells, not API responses. Native ontology-list 15 pages200validJSONHAL with page/total/schema inspected. No term/sourcefiles/MCP calls.",
       "latest_checked_utc": "2026-10-18T05:09:03.032141+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ebi-proteins-integrated-api",
+      "provider": "EMBL-EBI Proteins API team",
+      "service_name": "Proteins REST API integrated annotations",
+      "geographic_coverage": "International integrated protein/source annotations; scientific rather than population-geographic coverage",
+      "topical_coverage": "health | research",
+      "dataset_families": "UniProt annotations integrated with proteomics, taxonomy, genome coordinates and large-study variation resources; source-specific rights vary",
+      "documentation_url": "https://www.ebi.ac.uk/proteins/api/doc/",
+      "api_base_url": "https://www.ebi.ac.uk/proteins/api",
+      "format_protocol": "REST API documented; Swagger2 machine-readable service definition sampled, no data operation executed",
+      "authentication": "Anonymous documentation/module-map/schema GETs succeed; scientific data-operation authentication not tested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ebi.ac.uk/proteins/api/doc/",
+      "api_verification_state": "Native owner API reference/loader/module map/schema200. Swagger2 valid JSON57paths/57operations, full untruncated definition; actual machine-readable documentation success, no protein/variation/source query result.",
+      "latest_checked_utc": "2026-10-18T07:02:31.118712+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26076,6 +26102,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "unidata-ramadda-repository",
+      "provider": "NSF Unidata / UCAR",
+      "service_name": "Unidata RAMADDA repository",
+      "geographic_coverage": "Earth-system resource archive; exact current collection coverage unverified",
+      "topical_coverage": "climate/weather/environment | geospatial | research",
+      "dataset_families": "Registry-described RAMADDA Earth-science repository; no live source inventory verified",
+      "documentation_url": "https://ramadda.unidata.ucar.edu/repository",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original repository root guard-deferred unsent; exact current query API/runtime unverified",
+      "latest_checked_utc": "2026-10-18T07:02:31.118712+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "unite-species-hypotheses",
       "provider": "UNITE community / University of Tartu biological informatics",
       "service_name": "UNITE Species Hypotheses web services via PlutoF",
@@ -32807,6 +32851,24 @@
       "license_url": "https://unepgrid.ch/en/terms-use",
       "api_verification_state": "Native homepage/terms HTTP200 HTML; no exact public query API or successful API sample verified",
       "latest_checked_utc": "2026-10-18T01:54:59.277998+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "unidata-idd-mixed-access",
+      "provider": "NSF Unidata / UCAR participating institutions",
+      "service_name": "Unidata Internet Data Distribution restricted/mixed-terms feeds",
+      "geographic_coverage": "Earth observations/model-output distribution among participating nodes; stream geography varies",
+      "topical_coverage": "climate/weather/environment | geospatial | research",
+      "dataset_families": "Near-real-time LDM data streams; controlled proprietary/international streams distinguished from exchangeable subsets",
+      "documentation_url": "https://www.unidata.ucar.edu/data/internet-data-distribution-idd",
+      "api_base_url": "",
+      "format_protocol": "Owner describes LDM event-driven peer/node distribution; not verified anonymous HTTP query API",
+      "authentication": "unknown",
+      "free_access_restrictions": "Participating-node data flow by agreement; some streams proprietary/controlled. No new node, package, feed or agreement requested.",
+      "license": "Education/research service scope and source-specific agreements; no uniform open data licence",
+      "license_url": "https://www.unidata.ucar.edu/data/guidelines-data-use | https://www.unidata.ucar.edu/web-scraping-nsf-unidata-data-servers",
+      "api_verification_state": "Native overview/guidelines/scraping-policy200; no actual LDM exchange or public HTTP API response, exact source query API unknown",
+      "latest_checked_utc": "2026-10-18T07:02:31.118712+00:00",
       "classification": "restricted"
     },
     {
