@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T19:43:32.566146+00:00",
+  "published_at": "2026-10-18T19:45:36.876966+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:41:51.634313+00:00",
+  "research_updated_at": "2026-10-18T19:44:26.424952+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AmeriFlux native CCBY4 site-product grant verified/documented API untested; KBase mixed terms and Becker citation hold documented.",
+  "latest_milestone": "DataCORE native metadata CC0/API gap and five homepage references; VerbundFDB unresolved; EROS M2M Landsat grant verified/auth docs login.",
   "counts": {
-    "verified": 446,
-    "candidates": 1321,
+    "verified": 447,
+    "candidates": 1323,
     "excluded": 379,
     "sample_successes": 464
   },
@@ -14196,6 +14196,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "usgs-eros-m2m-services",
+      "provider": "USGS Earth Resources Observation and Science Center",
+      "service_name": "USGS Earth Resources Observation and Science Center data discovery service",
+      "geographic_coverage": "Global Landsat land observations; other EROS holdings have own coverage/rights",
+      "topical_coverage": "geospatial | climate/weather/environment | research",
+      "dataset_families": "Landsat collections/metadata via M2M; other EROS families unverified",
+      "documentation_url": "https://m2m.cr.usgs.gov/api/docs/json/ | https://www.usgs.gov/centers/eros/data-access",
+      "api_base_url": "https://m2m.cr.usgs.gov/ (documented service; exact current versioned request base unverified)",
+      "format_protocol": "JSON REST officially documented; key-required runtime untested",
+      "authentication": "Registered ERS account/application token and API permission documented; no key/account used",
+      "free_access_restrictions": "Landsat no-cost policy documented; account/API access setup required, quotas unknown",
+      "license": "USGS Landsat unrestricted use/redistribution; other EROS families excluded",
+      "license_url": "https://www.usgs.gov/faqs/are-there-any-restrictions-use-or-redistribution-landsat-data",
+      "api_verification_state": "Native USGS Landsat reuse FAQHTTP200explicitly permits use/redistribution without restrictions. Open verification scoped to USGS Landsat products only, not all EROS partners/collections. Official indexed M2Mowner confirms JSON REST archive discovery/download metadata API; native API-doc URLHTTP200redirected ERS login, not successful public API/docs schema. Registered ERS account/application-token permissions documented, no authorized key used or account created, runtime untested. Separate M2Mservice from existing LandsatLookSTAC; ESPA/cloud/HDDS/other EROSsource services not assumed same terms.",
+      "latest_checked_utc": "2026-10-18T19:44:19.996321+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "usgs-landsatlook-stac",
       "provider": "US Geological Survey / Landsat Missions / EROS",
       "service_name": "LandsatLook STAC catalogue API",
@@ -24239,6 +24257,24 @@
       "license_url": "https://www.dati.gov.it/note-legali",
       "api_verification_state": "unresolved;current_original_policy_held_unsent",
       "latest_checked_utc": "2026-10-17T08:31:06.832399+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iu-datacore-repository",
+      "provider": "Indiana University Libraries",
+      "service_name": "Indiana University Libraries data discovery service",
+      "geographic_coverage": "US institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research metadata/data-work descriptions",
+      "documentation_url": "https://datacore.iu.edu/agreement | https://datacore.iu.edu/help?locale=en",
+      "api_base_url": "",
+      "format_protocol": "HTML discovery/docs; exact public machine interface unresolved",
+      "authentication": "unknown public API authentication",
+      "free_access_restrictions": "unknown exact public API access/tier",
+      "license": "CC0 metadata; per-source data license; API unverified",
+      "license_url": "https://datacore.iu.edu/agreement | https://datacore.iu.edu/help?locale=en",
+      "api_verification_state": "Native root/terms/helpHTTP200. Terms explicitly distribute all metadata under CC0 regardless of chosen data-file license; metadata grant verified, source license per deposit. Exact public machine API not documented/verified in inspected owner pages, so candidate pending interface proof. No guessed OAI/Fedora/backend/query or sourcefiles. Five homepage published data-work references indexed, not full repository or verified unique datasets.",
+      "latest_checked_utc": "2026-10-18T19:44:19.996321+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -36191,6 +36227,24 @@
       "license_url": "http://vegbank.org/vegbank/general/terms.html | https://nceas.github.io/vegbank2/api/",
       "api_verification_state": "NativeoperatorAPIguide200HTML, v2.1.1 production/development URLs documented, locallytruncatedbeforefullguide. Originaltermsguard-deferred; no current API/sample/runtimeclaim.",
       "latest_checked_utc": "2026-10-18T05:13:27.789810+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "verbund-forschungsdaten-bildung-portal",
+      "provider": "VerbundFDB / DIPF and partners",
+      "service_name": "VerbundFDB / DIPF and partners data discovery service",
+      "geographic_coverage": "Germany education research federation; source geography varies",
+      "topical_coverage": "education | research",
+      "dataset_families": "Education study/instrument/provider descriptions",
+      "documentation_url": "https://www.forschungsdaten-bildung.de/datenservices/daten-nutzen/how-to-daten-nutzen/",
+      "api_base_url": "",
+      "format_protocol": "HTML discovery/docs; exact public machine interface unresolved",
+      "authentication": "unknown public API authentication",
+      "free_access_restrictions": "unknown exact public API access/tier",
+      "license": "unknown uniform metadata/source grant",
+      "license_url": "https://www.forschungsdaten-bildung.de/datenservices/daten-nutzen/how-to-daten-nutzen/",
+      "api_verification_state": "Native root/reuse guidanceHTTP200substantive educational research discovery/services portal. Per-provider/source access and rights not uniform public metadata/source grant; general copyright education is not a data license. Exact public API contract/base/runtime unresolved. Partner studies/services not collapsed into a universal API; no student/person/source records, survey or transcript query.",
+      "latest_checked_utc": "2026-10-18T19:44:19.996321+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
