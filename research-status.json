@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:08:43.125322+00:00",
+  "published_at": "2026-10-18T00:10:45.564539+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:07:24.456673+00:00",
+  "research_updated_at": "2026-10-18T00:10:01.917358+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks reviewed; three scoped metadata grants and three candidates added. NCDC resumed eight pages to1460IDs; page74 timeout. IEO OpenAPI JSON succeeded; catalogue GET400.",
+  "latest_milestone": "Fairbanks deduplicated to NWS; central RADAR OAI runtime and scoped CC0 verified; RADAR-BB distinct interface unresolved.",
   "counts": {
-    "verified": 320,
-    "candidates": 659,
+    "verified": 321,
+    "candidates": 660,
     "excluded": 167,
     "sample_successes": 469
   },
@@ -8461,7 +8461,7 @@
       "license": "Public domain except specifically noted material",
       "license_url": "https://www.weather.gov/disclaimer",
       "api_verification_state": "historical_anonymous_JSON_success_and_native_API_publicdomain_docs_reconfirmed_latest_alert_types_target_unsent_robots_deferred",
-      "latest_checked_utc": "2026-10-17T23:56:30.776295+00:00",
+      "latest_checked_utc": "2026-10-18T00:09:57.304012+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9074,6 +9074,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "actual_native_OGC_Records_JSON_sample_success_all_returned_catalogue_pages_indexed_scoped_CCBY4",
       "latest_checked_utc": "2026-10-17T15:48:10.334774+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "radar-public-metadata",
+      "provider": "FIZ Karlsruhe – Leibniz Institute for Information Infrastructure",
+      "service_name": "RADAR public metadata OAI-PMH and documented REST interfaces",
+      "geographic_coverage": "Germany-operated multidisciplinary repository; exact dataset geography varies",
+      "topical_coverage": "research",
+      "dataset_families": "Multidisciplinary research dataset descriptions; source files and access conditions vary",
+      "documentation_url": "https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-oai-provider | https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-api",
+      "api_base_url": "https://www.radar-service.eu/oai/OAIHandler | https://www.radar-service.eu/radar/api/",
+      "format_protocol": "OAI-PMH2/XML; REST documented separately with OAuth",
+      "authentication": "Public OAI metadata documented; REST requires provider-activated OAuth client and local user account. No account or activation requested.",
+      "free_access_restrictions": "Public metadata harvesting; depositing/archive contracts may cost money, not public metadata acquisition. Files may have embargoes or restricted access.",
+      "license": "CC0 1.0 for published metadata; source data licences vary",
+      "license_url": "https://radar.products.fiz-karlsruhe.de/de/radarabout/forschungsdaten-teilen",
+      "api_verification_state": "Native anonymous OAI Identify HTTP200 valid OAI-PMH2 XML with Identify and no error. REST untested due documented activation/authentication requirement.",
+      "latest_checked_utc": "2026-10-18T00:09:57.304012+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18076,6 +18094,24 @@
       "license_url": "https://www.data.qld.gov.au/dataset/resource-activities-environmental-protection-act-1994",
       "api_verification_state": "portal_root_verified_api_unrequested_policy_dataset_page202_empty_unresolved",
       "latest_checked_utc": "2026-10-16T19:57:13.945796+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "radar-bb-repository",
+      "provider": "FDM-BB / Brandenburg research universities",
+      "service_name": "RADAR-BB institutional research data repository",
+      "geographic_coverage": "Germany-operated multidisciplinary repository; exact dataset geography varies",
+      "topical_coverage": "research",
+      "dataset_families": "Multidisciplinary research dataset descriptions; source files and access conditions vary",
+      "documentation_url": "https://fdm-bb.de/fdm-dienste/radar-bb/faq/ | https://fdm-bb.de/fdm-dienste/radar-bb/datengebende/",
+      "api_base_url": "",
+      "format_protocol": "RADAR browser deployment; own OAI/REST unresolved",
+      "authentication": "Public metadata versus institution-specific deposit/archive access; own API conditions unverified",
+      "free_access_restrictions": "Public metadata harvesting; depositing/archive contracts may cost money, not public metadata acquisition. Files may have embargoes or restricted access.",
+      "license": "CC0 1.0 for published metadata; source data licences vary",
+      "license_url": "https://fdm-bb.de/fdm-dienste/radar-bb/datengebende/",
+      "api_verification_state": "Native root HTTP200 minimal application shell, not API. Native policy targets guard-deferred; indexed operator metadata grant retained. No own machine API sample.",
+      "latest_checked_utc": "2026-10-18T00:09:57.304012+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
