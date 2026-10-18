@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T13:44:02.635489+00:00",
+  "published_at": "2026-10-18T13:46:05.558052+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:42:22.506233+00:00",
+  "research_updated_at": "2026-10-18T13:44:24.718307+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nineoriginals:PrimateNC;DatanatorcuratedCC0/mixedrightsheld;KIGAMindexedkeyAPIheld;VivliDUA;Micelio400/PDFsunread;ApertaCC0/8formats500headersheld422;ESTHERunknown;GoogleCodeindexedJSON/mixedrights;PHDANC;MDZ541000incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to554pages/554000refs;2659503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 416,
-    "candidates": 1059,
+    "verified": 417,
+    "candidates": 1060,
     "excluded": 314,
     "sample_successes": 464
   },
@@ -6607,6 +6607,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "actual_public_JSON_sample_success_one_station_and_XML_WFS_capabilities",
       "latest_checked_utc": "2026-10-17T09:09:01.083600+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "bgee-public-sparql",
+      "provider": "SIB Swiss Institute of Bioinformatics / Bgee team",
+      "service_name": "Bgee CC0 SPARQL knowledge resource",
+      "geographic_coverage": "Internationalanimal/human/model-organismgene-expressionknowledge; exactrelease/sourcecoverageunqueried",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "BgeeSPARQLgene-expressionknowledge; originalRNA-seq/microarray/sourcefiles andsoftwaregrants separate",
+      "documentation_url": "https://www.expasy.org/resources/bgee-sparql-endpoint | https://www.bgee.org/support/tutorial-query-bgee-knowledge-graph-sparql",
+      "api_base_url": "https://www.bgee.org/sparql/",
+      "format_protocol": "OwnerSIBresourcepage explicitlySPARQLendpoint/retrieval, tutoriallinked; runtimeuntested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 for Bgee SPARQL resource",
+      "license_url": "https://www.expasy.org/resources/bgee-sparql-endpoint",
+      "api_verification_state": "Bgeerootguard-deferredtargetunsent; queuedBgeeguideunsentafterhold. IndependentnativeSIBownerresourcepage200HTMLwithCC0/exactSPARQLlink; noactualSPARQLresponse/schema/query.",
+      "latest_checked_utc": "2026-10-18T13:44:08.529306+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -19307,8 +19325,8 @@
       "service_name": "GESIS Data Archive data access",
       "geographic_coverage": "International social-science archive; source coverage varies",
       "topical_coverage": "demographics | research | economics/finance | labor | education",
-      "dataset_families": "Survey/research-data archive; current native source/access policy held",
-      "documentation_url": "https://www.gesis.org/en/data-services/share-data",
+      "dataset_families": "Survey/research-data archive; current native source/access policy held; ResearchDataCenterElections/GLESelectionresearch family, no distinctAPIverified",
+      "documentation_url": "https://www.gesis.org/en/data-services/share-data | https://www.gesis.org/en/gles/data-and-documentation",
       "api_base_url": "https://dbkapps.gesis.org/dbkoai/ (registry claim, untested)",
       "format_protocol": "Legacy OAI-PMH registry claim; current archive API contract unresolved",
       "authentication": "unknown",
@@ -19316,7 +19334,7 @@
       "license": "unknown verified data grant",
       "license_url": "",
       "api_verification_state": "Original owner archive policy guard-deferred, unsent; no legacy DBK/source API tested",
-      "latest_checked_utc": "2026-10-18T06:11:20.924419+00:00",
+      "latest_checked_utc": "2026-10-18T13:44:08.529306+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22321,8 +22339,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across541successfulpages/541000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T13:29:05.400072+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across554successfulpages/554000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T13:44:20.081389+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22701,6 +22719,24 @@
       "license_url": "https://date.gov.md/usloviya-i-polozheniya?culture=ro",
       "api_verification_state": "current_official_API_documented_first_sample_policy_held",
       "latest_checked_utc": "2026-10-17T10:22:40.631577+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "monarch-initiative-knowledge-api",
+      "provider": "Monarch Initiative consortium",
+      "service_name": "Monarch biomedical knowledge graph API",
+      "geographic_coverage": "Internationalintegratedbiomedical/genotype-phenotypeknowledge; institutionsnotdatasetcountrycoverage",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Integratedentity/association/disease/phenotype/organism knowledge; sources andontologyconditions individual",
+      "documentation_url": "https://monarch-app.monarchinitiative.org/FastAPI/ | https://monarch-initiative.github.io/monarchr/reference/monarch_engine.html",
+      "api_base_url": "https://api.monarchinitiative.org/v3/api (ownerconfiguredbase404, exactworkingoperationURIunverified)",
+      "format_protocol": "FastAPI/REST andclient documented; nativeAPIcontract/machine runtimeunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknownverifiedintegrateddata/APIcorpusgrant; per-sourceconditions andcontributionlicencerecommendations separate",
+      "license_url": "https://monarch-app.monarchinitiative.org/Licensing/ | https://monarch-app.monarchinitiative.org/Sources/ | https://monarchinitiative.org/kg/terms",
+      "api_verification_state": "Nativewebsite/terms200JSshells, notsubstantiveterms/APIresponses. NativecurrentKGdocs/licensing/source/productionconfig200HTML; exactconfiguredAPIbase404, noJSONsample/schema. NoalternateAPI/version/host/backendroute after404.",
+      "latest_checked_utc": "2026-10-18T13:44:08.529306+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
