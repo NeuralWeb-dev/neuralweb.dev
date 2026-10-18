@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:32:01.397583+00:00",
+  "published_at": "2026-10-18T05:34:04.144439+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:27:39.248915+00:00",
+  "research_updated_at": "2026-10-18T05:33:13.107728+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks; STRING/Open Causal API samples verified, FlyBase scoped grant/API documented but held; FID4SA/DSDR dedup; source-rights/access gaps retained",
+  "latest_milestone": "WVSselectedintegratedfileandREDcustomrestrictionsverified; OldBaileyAPI/legalheld, separateOUKGleadqueuedwithoutquery.",
   "counts": {
     "verified": 360,
-    "candidates": 844,
-    "excluded": 246,
+    "candidates": 846,
+    "excluded": 249,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -13541,6 +13541,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cds-astronomy-xmatch",
+      "provider": "Strasbourg Astronomical Data Centre / CDS",
+      "service_name": "CDS XMatch and astronomical catalogue service discovery",
+      "geographic_coverage": "Astronomical/all-sky catalogue services; per-catalogue coverage and sources vary",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "XMatch catalogue crossmatching and VizieR table discovery; SIMBAD/VizieR/Aladin distinct CDS services not all tested",
+      "documentation_url": "http://cdsxmatch.u-strasbg.fr/xmatch/doc/API-calls.html | https://cds.unistra.fr/legals/",
+      "api_base_url": "http://cdsxmatch.u-strasbg.fr/xmatch/api/v1/sync",
+      "format_protocol": "Documented HTTP GET/POST, VOTable/JSON/CSV/TSV; no fresh nativeAPIJSONresponse verified",
+      "authentication": "GeneralCDSaccess requiresnoregistrationpernativelegalpage; actualmetadataAPIrequestguard-deferred, nocredentials used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown effective catalogue/service metadata grant; dataset-specific OpenLicence/ODbL/CCBY or contributor licences",
+      "license_url": "https://cds.unistra.fr/legals/",
+      "api_verification_state": "NativeCDSroot/legal/XMatchroot/TOC/APIcalls/limits200HTML. Exactdocumentedtable-nameAPIguard-deferred; no sourcequery or successfulmetadataresponse.",
+      "latest_checked_utc": "2026-10-18T05:32:21.097764+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cell-image-library",
       "provider": "Cell Image Library",
       "service_name": "Cellular microscopy image repository",
@@ -20435,6 +20453,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "old-bailey-proceedings-api",
+      "provider": "Old Bailey Proceedings Online",
+      "service_name": "Old Bailey Proceedings API discovery",
+      "geographic_coverage": "London historicalcriminalcourtrecords; precise temporal/sourcecoverage unverifiedinthisbatch",
+      "topical_coverage": "law/civic data | culture | research",
+      "dataset_families": "Historical proceedings API registryclaim; no case/person/text records acquired",
+      "documentation_url": "https://www.oldbaileyonline.org/about/docapi",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.oldbaileyonline.org/about/legal-info",
+      "api_verification_state": "NativeoriginalAPI/legal requestsguard-deferredtargetsunsent. No successfulAPI/currentnativegrant orproceeding query.",
+      "latest_checked_utc": "2026-10-18T05:33:08.019097+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "omim-api-discovery",
       "provider": "Johns Hopkins University / OMIM",
       "service_name": "Online Mendelian Inheritance in Man API discovery",
@@ -24642,8 +24678,8 @@
       "free_access_restrictions": "unknown",
       "license": "unknown",
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-      "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-17T07:04:42.792005+00:00",
+      "api_verification_state": "historical_JSON_sample_success_current_zero_row_count_guard_deferred_terms404",
+      "latest_checked_utc": "2026-10-18T05:32:21.097764+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29833,6 +29869,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "micase-spoken-english-corpus",
+      "provider": "University of Michigan / English Language Institute",
+      "service_name": "Michigan Corpus of Academic Spoken English discovery",
+      "geographic_coverage": "University of Michigan academic spokenEnglish contexts; not global populationcoverage",
+      "topical_coverage": "education | culture | research",
+      "dataset_families": "Academic spokenEnglish corpus transcripts; no transcript/audio/speaker data acquired",
+      "documentation_url": "https://quod.lib.umich.edu/m/micase/ | https://lsa.umich.edu/content/dam/eli-assets/elidocuments/MICASE%20Fair%20Use%20Statement.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Restricted study/teaching/research use; commercialpermission andpossiblelicencefee; transcript-specificcitationconditions",
+      "license_url": "https://lsa.umich.edu/content/dam/eli-assets/elidocuments/MICASE%20Fair%20Use%20Statement.pdf",
+      "api_verification_state": "Originalnativeportal403; officialindexedpublicpolicydocumentation only, no API/transcript sample.",
+      "latest_checked_utc": "2026-10-18T05:32:21.097764+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "mississauga-open-data",
       "provider": "City of Mississauga",
       "service_name": "Open Data Hub native catalog and advertised distributions",
@@ -31165,6 +31219,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "uk-reading-experience-database",
+      "provider": "Open University, UK",
+      "service_name": "UK Reading Experience Database portal",
+      "geographic_coverage": "UKreading-historyresearch; exact source/time/populationcoverage varies",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Historical reading-experience database; no narrative/reader/source records acquired",
+      "documentation_url": "https://www.open.ac.uk/Arts/reading/UK/copyright_guide.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Restricted research/teaching/study/general-interestaccess; alteration/substantialredistribution/commercialpermissions required",
+      "license_url": "https://www.open.ac.uk/Arts/reading/UK/copyright_guide.php",
+      "api_verification_state": "Originalnativecopyrightguideguard-deferred; officialindexedpolicyinspected, no API/sample.",
+      "latest_checked_utc": "2026-10-18T05:33:08.019097+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "un-comtrade",
       "provider": "United Nations Statistics Division / UN Comtrade",
       "service_name": "UN Comtrade trade-data API",
@@ -31450,6 +31522,24 @@
       "license_url": "https://www.thewittliffcollections.txstate.edu/research/visit/policies/publication.html",
       "api_verification_state": "native_root_HTTP200_challenge_not_API_success_default_publication_policy_verified_no_backend_bypass",
       "latest_checked_utc": "2026-10-17T20:31:53.492138+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "world-values-survey-access",
+      "provider": "World Values Survey Association / EVS partners",
+      "service_name": "World Values Survey research-data access",
+      "geographic_coverage": "International values survey; country/wave/sourcecoverage varies",
+      "topical_coverage": "demographics | education | economics/finance | law/civic data | research",
+      "dataset_families": "InspectedIntegratedValuesSurveys1981-2014 terms; otherWVS/EVSwaves/releases not individuallycleared",
+      "documentation_url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=intconduse&CMSID=intconduse",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Inspected integratedfile restricted to non-profit use, no redistribution andcitation/publication-notification requirements",
+      "license_url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=intconduse&CMSID=intconduse",
+      "api_verification_state": "NativeoriginalconditionURL200HTML; no exactpublicAPIcontract/sample established, no survey/source records.",
+      "latest_checked_utc": "2026-10-18T05:33:08.019097+00:00",
       "classification": "restricted"
     },
     {
