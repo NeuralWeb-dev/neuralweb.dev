@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:11:00.469812+00:00",
+  "published_at": "2026-10-18T06:13:03.840493+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:08:57.570823+00:00",
+  "research_updated_at": "2026-10-18T06:12:01.250222+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "data.THM nativeOAI verified/grants pending; Flora written permission and Qualiservice controlled research agreement verified.",
+  "latest_milestone": "Sixoriginals/sevenservices reviewed; GESISKGnativeBY4/OAI and THMOAI verified; Flora/Qualiservice restrictions, GESISarchive/SADARholds retained",
   "counts": {
-    "verified": 363,
-    "candidates": 866,
+    "verified": 364,
+    "candidates": 869,
     "excluded": 260,
     "sample_successes": 465
   },
@@ -2441,6 +2441,7 @@
           "ecad-station-data-portal",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
+          "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
           "geotis-wms",
           "lower-austria-ogd",
@@ -3033,6 +3034,7 @@
         "restricted_provider_ids": [
           "bioimages-uk-field-guide",
           "edaphobase-soil-biodiversity-api",
+          "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
           "indexs-exsiccatae-api"
         ]
@@ -3375,6 +3377,7 @@
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
           "eurocat-controlled-research-data",
+          "flora-frankfurt-portal",
           "geotis-wms",
           "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
@@ -8167,6 +8170,24 @@
       "license_url": "https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1QP4W | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG10593 | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1G59F | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1KW2Z | https://geri.dataone.org/metacat/d1/mn/v2/object/doi%3A10.71485%2FG1VC75",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:57:47.211191+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "gesis-knowledge-graph",
+      "provider": "GESIS Knowledge Technologies for the Social Sciences",
+      "service_name": "GESIS Knowledge Graph (GESIS KG)",
+      "geographic_coverage": "International social-science research metadata represented from GESIS collections",
+      "topical_coverage": "research | demographics | economics/finance | education | labor",
+      "dataset_families": "Interlinked metadata for datasets, publications, instruments, variables, methods/software and tutorials, with manual/automatic link provenance",
+      "documentation_url": "https://data.gesis.org/gesiskg/site/",
+      "api_base_url": "https://data.gesis.org/gesiskg/oai/provider | https://data.gesis.org/gesiskg/sparql",
+      "format_protocol": "OAI-PMH2XML/DataCite/OpenAIRE metadata; documented SPARQL endpoint not queried",
+      "authentication": "Anonymous OAI Identify successful; other operations/source records untested",
+      "free_access_restrictions": "Public KG/API docs and scoped metadataBY4; underlying survey data/source files remain separately governed",
+      "license": "CC BY4.0 for GESIS Knowledge Graph",
+      "license_url": "https://data.gesis.org/gesiskg/site/ | https://data.gesis.org/gesiskg/oai/",
+      "api_verification_state": "Native KGsite/OAI docs200HTML; OAI Identify200parsedXML; returned non-public baseURL interoperability caveat retained, no internal request",
+      "latest_checked_utc": "2026-10-18T06:11:20.924419+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16650,6 +16671,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gesis-data-archive-access",
+      "provider": "GESIS Leibniz Institute for the Social Sciences",
+      "service_name": "GESIS Data Archive data access",
+      "geographic_coverage": "International social-science archive; source coverage varies",
+      "topical_coverage": "demographics | research | economics/finance | labor | education",
+      "dataset_families": "Survey/research-data archive; current native source/access policy held",
+      "documentation_url": "https://www.gesis.org/en/data-services/share-data",
+      "api_base_url": "https://dbkapps.gesis.org/dbkoai/ (registry claim, untested)",
+      "format_protocol": "Legacy OAI-PMH registry claim; current archive API contract unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original owner archive policy guard-deferred, unsent; no legacy DBK/source API tested",
+      "latest_checked_utc": "2026-10-18T06:11:20.924419+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gesis-international-survey-programs",
       "provider": "GESIS Leibniz Institute for the Social Sciences",
       "service_name": "RDC International Survey Programs discovery",
@@ -17043,6 +17082,24 @@
       "license_url": "https://data.gg.go.kr/portal/termsPolicyPage.do",
       "api_verification_state": "documented_registered_key_for_full_use_untested_anonymous_mode_not_exercised",
       "latest_checked_utc": "2026-10-17T09:24:11.797520+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "hab-research-repository",
+      "provider": "Herzog August Bibliothek Wolfenbüttel",
+      "service_name": "HAB Repositorium",
+      "geographic_coverage": "Library/FIDBBI-associated humanities research, source geographic scope varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Library publications/research data/digital editions/other media and FIDbook-library-information-science resources",
+      "documentation_url": "https://www.hab.de/repo-faq",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native FAQ and repository root200HTML; no exact deployed public metadata API verified",
+      "latest_checked_utc": "2026-10-18T06:11:20.924419+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23271,6 +23328,24 @@
       "license_url": "https://data.cityofsacramento.org/",
       "api_verification_state": "actual_public_JSON_sample_success_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T06:22:17.100268+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sadar-saxony-anhalt-repository",
+      "provider": "University and State Library Saxony-Anhalt / Martin Luther University Halle-Wittenberg",
+      "service_name": "SADAR research data archive/repository",
+      "geographic_coverage": "Saxony-Anhalt partner institutions, research-source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research datasets and digital objects supporting scientific publications; open/closed/embargoed source access",
+      "documentation_url": "https://sadar.uni-halle.de/Allgemeine_Bedingungen.jsp",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Repository terms allow varying accessibility and possible storage/service costs; no data fees inferred universal, no purchase/deposit/accessrequest",
+      "license": "MetadataCC0 described by indexed owner library; source licences individually assigned",
+      "license_url": "https://bibliothek.uni-halle.de/schulungen/forschungsdaten-2/sadar/ | https://sadar.uni-halle.de/Allgemeine_Bedingungen.jsp",
+      "api_verification_state": "Native root/terms200HTML; independent library policy readtimeout, no exact machine-query API verified",
+      "latest_checked_utc": "2026-10-18T06:11:20.924419+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
