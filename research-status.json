@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T21:42:50.613886+00:00",
+  "published_at": "2026-10-18T21:44:53.499819+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:42:42.345206+00:00",
+  "research_updated_at": "2026-10-18T21:43:33.064628+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ZBWAPI/grant hosthold; NaNDAnamedNCsubset and APIgap; Rutgersnative5servicefamilies documented, rights/runtimepending.",
+  "latest_milestone": "EIDC20JSON/namedOGL/PATupdate; Tropical sharedportal; UKDSarchive dedup/statisticsCKANhold; ZBWheld; NaNDAnamedNC; Rutgers5APIrefs.",
   "counts": {
     "verified": 477,
     "candidates": 1379,
@@ -112,6 +112,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "dlr-eoc-geoservice",
+          "eidc-environmental-catalogue-api",
           "fulir-data-metadata",
           "noaa-cdr-thredds",
           "worldbank"
@@ -158,6 +159,7 @@
           "dlr-eoc-geoservice",
           "earthportal-semantic-catalog",
           "earthscope-geodetic-web-services",
+          "eidc-environmental-catalogue-api",
           "emodnet",
           "esgf-cmip5-discovery",
           "fulir-data-metadata",
@@ -321,6 +323,7 @@
           "dlr-eoc-geoservice",
           "earthportal-semantic-catalog",
           "earthscope-geodetic-web-services",
+          "eidc-environmental-catalogue-api",
           "emodnet",
           "geri",
           "gtnp-current-data-platform-api",
@@ -726,6 +729,7 @@
         "verified_provider_ids": [
           "bcodmo-erddap-data-api",
           "brenda-enzyme-data-api",
+          "eidc-environmental-catalogue-api",
           "ensembl-rest-genome-service",
           "fdat-tuebingen-metadata-api",
           "gbif",
@@ -922,6 +926,7 @@
           "dariah-de-repository-oai",
           "dlr-eoc-geoservice",
           "dnb-sru-oai-metadata",
+          "eidc-environmental-catalogue-api",
           "fdat-tuebingen-metadata-api",
           "fulir-data-metadata",
           "getty-provenance",
@@ -1034,6 +1039,7 @@
           "earthportal-semantic-catalog",
           "earthscope-geodetic-web-services",
           "earthscope-seismic-web-services",
+          "eidc-environmental-catalogue-api",
           "ensembl-rest-genome-service",
           "esgf-cmip5-discovery",
           "fairsharing-registry-api",
@@ -2663,6 +2669,7 @@
           "tinngo-open-data-repository",
           "tuscany-open-data-catalog",
           "uk-data-service-archive-catalogue",
+          "ukds-census-statistics-ckan",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
@@ -2820,7 +2827,8 @@
           "stat-portugal",
           "tinngo-open-data-repository",
           "trentino-open-data",
-          "uk-data-service-archive-catalogue"
+          "uk-data-service-archive-catalogue",
+          "ukds-census-statistics-ckan"
         ],
         "restricted_provider_ids": [
           "adp-slovenian-social-science",
@@ -3007,6 +3015,7 @@
           "registry-daten-rlp-de",
           "registry-opendata-aragon-es",
           "rivmdata-geonetwork",
+          "rutgers-ruresearch-data-api",
           "santander-open-data",
           "sardinia-geospatial-wfs",
           "seadatanet-cdi-discovery-network",
@@ -3411,6 +3420,7 @@
           "registry-opendata-aragon-es",
           "rodbuk-research-data-repository",
           "roderic-uv-repository",
+          "rutgers-ruresearch-data-api",
           "saarland-clarind-language-repository",
           "san-raffaele-ordr",
           "saw-leipzig-fcs",
@@ -3431,6 +3441,7 @@
           "tul-open-research-data",
           "tuscany-open-data-catalog",
           "uk-data-service-archive-catalogue",
+          "ukds-census-statistics-ckan",
           "unimi-dataverse",
           "upf-digital-repository",
           "usn-research-data-archive",
@@ -3522,7 +3533,8 @@
           "sardinia-geospatial-wfs",
           "serbia-rzs",
           "tilburg-regional-archive",
-          "uk-data-service-archive-catalogue"
+          "uk-data-service-archive-catalogue",
+          "ukds-census-statistics-ckan"
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
@@ -4035,6 +4047,7 @@
           "rigsarkivet-born-digital-portal",
           "rijksmuseum",
           "roderic-uv-repository",
+          "rutgers-ruresearch-data-api",
           "saarland-clarind-language-repository",
           "sardinia-geospatial-wfs",
           "saw-leipzig-fcs",
@@ -4341,6 +4354,7 @@
           "rodbuk-research-data-repository",
           "roderic-uv-repository",
           "rosat-mpe-mission-archive",
+          "rutgers-ruresearch-data-api",
           "saarland-clarind-language-repository",
           "safe-research-data-centre",
           "san-raffaele-ordr",
