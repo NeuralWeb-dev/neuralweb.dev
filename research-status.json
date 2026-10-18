@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T12:50:45.426762+00:00",
+  "published_at": "2026-10-18T12:52:48.093488+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:46:01.951690+00:00",
+  "research_updated_at": "2026-10-18T12:50:59.918865+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MyGeoHubNC/WQBaseclaim corrected; ISWSterms404; QualiBi6tiers; Researchdata9formats/deduplicated; eBiltegiaBY4/OAI3formats/emptyquery; Torontoheld; MDZ482000refs incomplete.",
+  "latest_milestone": "MIT staffmetadataCC0/nativeHAL8.2; USM nativeHAL7.4/rightsunknown; RadboudcurrentmetadataCC0/exactAPIunresolved.",
   "counts": {
-    "verified": 408,
-    "candidates": 1044,
+    "verified": 409,
+    "candidates": 1046,
     "excluded": 306,
     "sample_successes": 464
   },
@@ -10212,6 +10212,24 @@
       "license_url": "https://www.mg-rast.org/legal.html",
       "api_verification_state": "native_public_data_CC0_and_REST_docs_verified_API_host_docs_robots_deferred_machine_sample_untested",
       "latest_checked_utc": "2026-10-17T22:49:02.679405+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "mit-open-scholarship-api",
+      "provider": "MIT Libraries",
+      "service_name": "MIT Open Scholarship / DSpace@MIT metadata REST API",
+      "geographic_coverage": "MIT USA institutional repository; research topics vary internationally",
+      "topical_coverage": "research | education | culture | engineering",
+      "dataset_families": "Institutional publications, theses, technical reports, working papers, teaching and archived course metadata; third-party/author content separate",
+      "documentation_url": "https://dspace.mit.edu/server/ | https://libraries.mit.edu/about/policies/open-metadata-policy/",
+      "api_base_url": "https://dspace.mit.edu/server/api",
+      "format_protocol": "REST HAL JSON; deployed DSpace8.2",
+      "authentication": "Anonymous HAL root succeeded; auth/private/resource operations untested, no login/token",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 for metadata produced by MIT Libraries staff; author/third-party metadata retain own rights",
+      "license_url": "https://libraries.mit.edu/about/policies/open-metadata-policy/",
+      "api_verification_state": "Native root/policy/HALbrowser200HTML; browserpublished entryPoint /server/api returned200validHALJSON, MITOpenScholarship/DSpace8.2. No resource/source queries.",
+      "latest_checked_utc": "2026-10-18T12:50:54.221868+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -26075,6 +26093,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "radboud-public-metadata-repository",
+      "provider": "Radboud University / Radboudumc",
+      "service_name": "Radboud Data Repository public metadata service",
+      "geographic_coverage": "Netherlands institutional research with international study subjects",
+      "topical_coverage": "research | education | health",
+      "dataset_families": "Public collection descriptions across publishedDSC and selected archivedDAC/RDC metadata; protected source data excluded",
+      "documentation_url": "https://rdr.tutorials.ru.nl/a/1949464-policies-guidelines | https://rdr.tutorials.ru.nl/a/1945331-access-levels-and-licences",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 public metadata confirmed; exact machineAPI unresolved",
+      "license_url": "https://data.ru.nl/files/Repository_policy_2025_v6.pdf",
+      "api_verification_state": "Native root/currentguides200HTML; old helpURLredirectedto newhelproot, not oldpolicytext. Currentlinked policyPDF200 read10pages viaofficialreader; no exact API/schema/publicmachine sample established.",
+      "latest_checked_utc": "2026-10-18T12:50:54.221868+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "radogost-humanities-repository",
       "provider": "DARIAH-PL / RADOGOST repository",
       "service_name": "RADOGOST humanities and archaeology data repository",
@@ -29870,6 +29906,24 @@
       "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
       "api_verification_state": "Native directory/landing HTTP200 HTML publishes exact designmaps URL; that URL HTTP200 minimal Designmap Services HTML shell, no JSON/XML/schema/source response.",
       "latest_checked_utc": "2026-10-18T09:43:17.548156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usm-open-data-dspace-api",
+      "provider": "Universiti Sains Malaysia Library",
+      "service_name": "OpenData@USM research-data repository API",
+      "geographic_coverage": "Malaysia; institutional USM research with varying study geography",
+      "topical_coverage": "research | education | health | environment | engineering",
+      "dataset_families": "Institutional multidisciplinary research-data metadata; data, images, audiovisual/text/spreadsheet content individually licensed",
+      "documentation_url": "https://lib.usm.my/academicians-researchers/open-science?view=article&id=126&catid=28",
+      "api_base_url": "https://opendata.usm.my/server/api",
+      "format_protocol": "REST HAL JSON; deployed DSpace7.4",
+      "authentication": "Anonymous HALroot succeeded; UIhas institutional/admin sign-in, sourcepermissions unknown, nologin",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://lib.usm.my/academicians-researchers/open-science?view=article&id=126&catid=28",
+      "api_verification_state": "Native portal/libraryguide200HTML; anonymous /server/api200validHALJSON withDSpace7.4, no error. UI error.top-level-communites is not proof emptyrepository.",
+      "latest_checked_utc": "2026-10-18T12:50:54.221868+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
