@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T09:19:27.903613+00:00",
+  "published_at": "2026-10-18T09:21:30.719750+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:18:09.609584+00:00",
+  "research_updated_at": "2026-10-18T09:21:21.300033+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OBISdedup/scopedrightsretained; CanadianGeoNames officialCGNOGLCanada and11themeJSONverified; AODNcurrentmixedpolicy/OGCdocsverified butCSWheld.",
+  "latest_milestone": "DataStreamnativepublishedopendatalicences/keyrequiredODataverified; SIMBADheld/indexedODbL; GeoCommonsmetadataBY3/staticprefixinventory/sourcegrantmixed documented.",
   "counts": {
-    "verified": 386,
-    "candidates": 971,
+    "verified": 387,
+    "candidates": 973,
     "excluded": 287,
     "sample_successes": 465
   },
@@ -7219,6 +7219,24 @@
       "license_url": "https://opendatacommons.org/licenses/pddl/1.0",
       "api_verification_state": "actual_public_JSON_sample_success_bounded_registry_metadata_feed",
       "latest_checked_utc": "2026-10-17T08:24:15.093662+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "datastream-water-odata-api",
+      "provider": "DataStream Initiative",
+      "service_name": "DataStream public water-quality OData API",
+      "geographic_coverage": "Canada, regionalhubs Pacific/Mackenzie/LakeWinnipeg/GreatLakes/Atlantic; sourceprogram coverage varies",
+      "topical_coverage": "water | climate/weather/environment | research",
+      "dataset_families": "Water/sediment quality monitoring, dataset metadata/citation/licence, monitoringlocations and observations; no source rows acquired",
+      "documentation_url": "https://datastream.org/en-ca/documentation/api | https://github.com/datastreamapp/api-docs",
+      "api_base_url": "https://api.datastream.org/v1/odata/v4/",
+      "format_protocol": "Read-only GET ODataJSONv4; native API docs200HTML, no credentialedruntime tested",
+      "authentication": "Free APIkey onrequest, x-api-key everyrequest, server-side clients only; no authorizedkeyavailableused",
+      "free_access_restrictions": "Free documented keyrequired API; browserfrontend requests unsupported; datasetCitation/Licence retained for reuse",
+      "license": "Published data under ODC-By1.0/PDDL1.0 or source-specific OpenGovernment licence",
+      "license_url": "https://datastream.org/en-ca/terms",
+      "api_verification_state": "Native platform/terms/APIpage/ownerGitHubdocs200read; exact ODatainterface/key/rate restrictions documented, sampleuntestedrequiredkey",
+      "latest_checked_utc": "2026-10-18T09:21:16.461754+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17844,6 +17862,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "geocommons-archive-metadata",
+      "provider": "GeoCommons / GeoIQ archive",
+      "service_name": "GeoCommons archive metadata index",
+      "geographic_coverage": "Worldwide communitygeospatialarchive; institutioncountryhints not datasetcoverage",
+      "topical_coverage": "geospatial | transportation | energy | environment | economics | research",
+      "dataset_families": "Communitydataset discoverymetadata; originalsource data/GeoJSONlicences vary, no geometry/sourcefiles acquired",
+      "documentation_url": "http://geocommons.com/ | https://github.com/geoiq/gc_data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY3 for gatheredmetadata perownerarchiveREADME; originaldatasets retain sourcelicence",
+      "license_url": "https://github.com/geoiq/gc_data",
+      "api_verification_state": "NativeHTTProot/searchHTML and ownerarchiveREADME200read; no verifiedactiveRESTresponse. StaticHTMLRDFareferences indexed fromboundedresponse, notAPI JSON or sourceGeoJSONsuccess.",
+      "latest_checked_utc": "2026-10-18T09:21:16.461754+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "georem-reference-materials",
       "provider": "International Association of Geoanalysts / GeoReM with DIGIS hosting",
       "service_name": "GeoReM geochemical reference-material database portal",
@@ -25941,6 +25977,24 @@
       "license_url": "https://www.arb-silva.de/silva-license-information/",
       "api_verification_state": "native_current_data_BY4_policy_and_manual_verified_machine_API_identity_and_runtime_unresolved",
       "latest_checked_utc": "2026-10-17T21:53:44.042108+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "simbad-astronomical-api",
+      "provider": "Centre de Données astronomiques de Strasbourg",
+      "service_name": "SIMBAD URL/TAP/related programmatic discovery",
+      "geographic_coverage": "Astronomical objects outsideSolarSystem; no terrestrialcoverageclaim",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Objectcross-identification/bibliography/basicmeasurements per indexedownerhomepage; no objectdata/positions queried",
+      "documentation_url": "https://simbad.u-strasbg.fr/Pages/guide/sim-url.htx | https://simbad.astro.unistra.fr/simbad/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Indexed official SIMBADhomepage says ODbL; nativecurrentgrant/API scope unresolved",
+      "license_url": "https://simbad.astro.unistra.fr/simbad/ | https://cds.unistra.fr/legals/",
+      "api_verification_state": "Nativeoriginalrootguard-deferred/unsent; indexedofficialURLguide/currenthomelicence documented, no successfulnativeAPIresponse/mirrorattempt",
+      "latest_checked_utc": "2026-10-18T09:21:16.461754+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
