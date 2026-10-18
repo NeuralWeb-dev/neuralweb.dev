@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T11:40:57.195020+00:00",
+  "published_at": "2026-10-18T11:43:00.780229+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:37:31.761228+00:00",
+  "research_updated_at": "2026-10-18T11:42:50.168052+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LAADS API V2 replaces retiredClassic/schema500, 60publishedoperations/33product refs; meteorite403/rights unknown; STOmicsDB purpose/retention terms separate from CNGBgateway.",
+  "latest_milestone": "MDZ collectionfrontier advanced to396pages/396000refs;2817503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 396,
-    "candidates": 1026,
+    "verified": 397,
+    "candidates": 1028,
     "excluded": 298,
     "sample_successes": 465
   },
@@ -10951,6 +10951,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "paint-csp-stac",
+      "provider": "ARTIST Association / KIT and DLR",
+      "service_name": "PAINT concentrating solar power static STAC metadata interface",
+      "geographic_coverage": "Juelich solar tower plant, Germany; designed to support future CSP contributors, not current worldwide plant coverage",
+      "topical_coverage": "energy | climate/weather/environment | research",
+      "dataset_families": "Documented heliostat calibration/deflectometry/kinematics and local weather families; accepted sampled calibration collection and published article data CDLA2 scope, not all website content",
+      "documentation_url": "https://paint.readthedocs.io/en/latest/stac-client.html | https://paint.readthedocs.io/en/latest/autoapi/paint/util/paint_mappings/index.html | https://paint.readthedocs.io/en/latest/autoapi/paint/data/stac_client/index.html",
+      "api_base_url": "https://paint-database.org/WRI1030197/WRI1030197-catalog-stac.json",
+      "format_protocol": "Static STAC1.0.0 Catalog/Collection JSON served by HTTPS GET; dynamic STAC API/search/conformance not established",
+      "authentication": "Anonymous top catalogue, one returned child catalogue and one calibration collection descriptor succeeded; no credentials used",
+      "free_access_restrictions": "Published article data and sampled collection CDLA2; generic website content commercial use needs approval unless otherwise expressly stated, separate from explicit dataset grant",
+      "license": "Sampled calibration collection and article-presented data CDLA-Permissive2.0; website content separate commercial restriction; code MIT",
+      "license_url": "https://paint-database.org/WRI1030197/AX24/Calibration/AX24-calibration-collection-stac.json | https://www.nature.com/articles/s41560-026-02070-1 | https://paint-database.org/legal-information",
+      "api_verification_state": "Native owner/legal/resources/code README/client docs/paper200HTML. Exact owner-documented catalogue, returned child catalogue and collection descriptor200validJSON/STAC1.0.0; no dynamic STAC API claimed. Collection licenseCDLA2 verified; source values unqueried.",
+      "latest_checked_utc": "2026-10-18T11:42:04.600496+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "palermo-open-data",
       "provider": "Comune di Palermo",
       "service_name": "Palermo DCAT-AP-IT catalog and scoped aggregate CSV",
@@ -20619,6 +20637,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kit-whole-body-motion",
+      "provider": "Karlsruhe Institute of Technology / H2T",
+      "service_name": "KIT Whole-Body Human Motion Database: API deactivated",
+      "geographic_coverage": "KIT Germany and contributed human-motion research; corpus/source origins vary",
+      "topical_coverage": "research | health | robotics",
+      "dataset_families": "Owner-described motion capture/MMM/C3D, object interactions and protected/anonymised video families; no participant/motion/source data acquired",
+      "documentation_url": "https://motion-database.humanoids.kit.edu/faq/",
+      "api_base_url": "",
+      "format_protocol": "Owner historical Ice/programmatic interface deactivated; current HTML docs only",
+      "authentication": "Owner says file downloads require free account; public browsing distinct from hidden/protected participant/video information. No account used.",
+      "free_access_restrictions": "Free registration required for downloads; group-based read/write controls and contributor rights; source-wide open reuse licence not verified",
+      "license": "unknown source-wide data grant; software GPL not data licence",
+      "license_url": "https://motion-database.humanoids.kit.edu/faq/",
+      "api_verification_state": "Native root/FAQ200HTML. FAQ explicitly says API deactivated for indefinite period because of webserver changes; historical papers/API claims superseded for current availability. No runtime API tested.",
+      "latest_checked_utc": "2026-10-18T11:42:04.600496+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "knb",
       "provider": "Knowledge Network for Biocomplexity / NCEAS",
       "service_name": "KNB Data Repository DataONE/Metacat discovery and metadata API",
@@ -21442,8 +21478,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across381successfulpages/381000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T11:30:28.637888+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across396successfulpages/396000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T11:42:45.816689+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22287,9 +22323,9 @@
       "authentication": "Source downloads require website login or download token per current guide; metadata/schema anonymous request attempted without credentials, returned500. Profiles namespace requires login.",
       "free_access_restrictions": "Owner says LAADS products available at no charge; no unrestricted source reuse grant inferred. Download tokens not requested or used.",
       "license": "unknown exact API metadata and source reuse grant; free access not open licence",
-      "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance (guard-deferred, no native grant read)",
+      "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
       "api_verification_state": "Native MODIS owner and current LAADS services/quickstart/specification HTML200. Exact documented measurements OpenAPI GET500, held; no successful JSON API response. Classic API explicitly retired31August2026 and replaced by API V2.",
-      "latest_checked_utc": "2026-10-18T11:37:27.362204+00:00",
+      "latest_checked_utc": "2026-10-18T11:42:40.153233+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27546,6 +27582,24 @@
       "license_url": "https://www.sunshinecoast.qld.gov.au/council/organisation-and-governance/open-data",
       "api_verification_state": "documented_sample_success_catalog_metadata_only",
       "latest_checked_utc": "2026-10-17T13:27:29.278835+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "suprabank-intermolecular-interactions",
+      "provider": "SupraBank / KIT and supramolecular chemistry community",
+      "service_name": "SupraBank intermolecular interaction repository",
+      "geographic_coverage": "Germany-operated international chemistry research repository; actual source geography not enumerated",
+      "topical_coverage": "research | chemistry",
+      "dataset_families": "Institutionally documented intermolecular interactions/binding/assembly and curated experimental metadata; no assay/molecular measurements or source structures acquired",
+      "documentation_url": "https://n4c-kb.chemie.uni-mainz.de/knowledge_base/docs/suprabank/",
+      "api_base_url": "",
+      "format_protocol": "Institutional description lists CSV/JSON/BibTeX/RIS/Endnote web export formats; exact live API unknown",
+      "authentication": "Native root robots-deferred unsent. NFDI4Chem institutional description says open viewing and registered download/contribution; current endpoint not tested.",
+      "free_access_restrictions": "Public viewing and registered source access described by institutional consortium; no account, contribution or source download performed",
+      "license": "unknown exact native source-wide grant; registry CC0/CC claims unverified",
+      "license_url": "https://suprabank.org/ | https://n4c-kb.chemie.uni-mainz.de/knowledge_base/docs/suprabank/",
+      "api_verification_state": "Original SupraBank root guard-deferred unsent; independent NFDI4Chem institutional description200HTML. No live formal API/schema/JSON response verified.",
+      "latest_checked_utc": "2026-10-18T11:42:40.153233+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
