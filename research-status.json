@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T07:53:25.041078+00:00",
+  "published_at": "2026-10-18T07:55:27.745011+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:52:20.328301+00:00",
+  "research_updated_at": "2026-10-18T07:54:00.471869+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Independent LCMAP sourceCC0/WMS1.3capabilities verified;20leaf layers indexed with CONUS/Hawaii rights separation.",
+  "latest_milestone": "Nine originals/LCMAP lead reviewed: native LCMAP scopedCC0/WMS1.3 verified, GAVO163references indexed, NCEI/GAVO dedup and source-specific holds/restrictions retained.",
   "counts": {
     "verified": 378,
     "candidates": 924,
@@ -222,6 +222,7 @@
           "noaa-gml-barrow-observatory",
           "noaa-ncei",
           "noaa-ncei-access",
+          "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "nsidc",
           "planetary-computer",
@@ -301,6 +302,7 @@
           "knmi-climate-explorer",
           "lpdaac-land-processes-data",
           "nced-data-repository",
+          "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
@@ -434,6 +436,7 @@
           "arizona-campus-repository",
           "cinii-books",
           "dhs-spatial-data-repository",
+          "encyclopedia-of-life-data-services",
           "github-public-rest-api",
           "internet-archive-metadata",
           "kth-data-repository-api",
@@ -548,6 +551,7 @@
           "nced-data-repository",
           "nlr-geospatial-data-services",
           "noaa-class-environmental-archive",
+          "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "nsidc",
           "planetary-computer",
@@ -653,6 +657,7 @@
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
           "ena",
+          "encyclopedia-of-life-data-services",
           "esa-ecology",
           "fossilworks-ecoregister",
           "idigbio",
@@ -718,6 +723,7 @@
           "noaa-class-environmental-archive",
           "noaa-erddap",
           "noaa-ncei",
+          "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
@@ -968,6 +974,7 @@
           "earthscope-sponsored-miniseed-object-repository",
           "econbiz-literature-api",
           "ena",
+          "encyclopedia-of-life-data-services",
           "esa-ecology",
           "esa-heritage-mission-data-discovery",
           "eurolas-data-center-api",
@@ -1031,6 +1038,7 @@
           "nims-mdr",
           "noaa-class-environmental-archive",
           "noaa-gml-barrow-observatory",
+          "noaa-paleo-search-api",
           "nodc-ieo-geonetwork",
           "olac-language-archives-network",
           "open-data-lmu",
@@ -1244,6 +1252,7 @@
           "ocean-networks-canada",
           "reddeer-open-data",
           "usda-cdl",
+          "usgs-lcmap-wms",
           "usgs-water",
           "utah-ugrc-api",
           "winnipeg-open-data-api",
@@ -1318,6 +1327,7 @@
           "nanaimo-open-data",
           "ncei-coops",
           "ocean-networks-canada",
+          "usgs-lcmap-wms",
           "usgs-water"
         ],
         "candidate_provider_ids": [
@@ -1538,6 +1548,7 @@
           "reddeer-open-data",
           "seafloor",
           "usda-cdl",
+          "usgs-lcmap-wms",
           "utah-ugrc-api",
           "vancouver-open-data-api",
           "windsor-open-data",
@@ -1673,7 +1684,8 @@
           "fwc",
           "itis-taxonomic-web-services",
           "sctld",
-          "seafloor"
+          "seafloor",
+          "usgs-lcmap-wms"
         ],
         "candidate_provider_ids": [
           "alberta-biodiversity-monitoring-institute",
@@ -1782,6 +1794,7 @@
           "nih-rxnav",
           "sctld",
           "seafloor",
+          "usgs-lcmap-wms",
           "winnipeg-open-data-api"
         ],
         "candidate_provider_ids": [
@@ -1980,6 +1993,7 @@
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
+          "university-aruba-open-repository",
           "upn-institutional-repository",
           "usach-research-data-repository"
         ],
@@ -2122,6 +2136,7 @@
           "mindagri-ne",
           "uca-argentina-institutional-repository",
           "ufg-research-dataverse",
+          "university-aruba-open-repository",
           "upn-institutional-repository"
         ],
         "restricted_provider_ids": []
@@ -2140,6 +2155,7 @@
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
+          "university-aruba-open-repository",
           "upn-institutional-repository",
           "usach-research-data-repository"
         ],
@@ -5218,6 +5234,7 @@
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "nict-wdc-ionosphere-spaceweather",
+          "nipr-auroral-data-archive",
           "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
           "nsidc",
@@ -5403,7 +5420,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "copenhagen-geomagnetic-index-archive",
-          "nict-wdc-ionosphere-spaceweather"
+          "nict-wdc-ionosphere-spaceweather",
+          "nipr-auroral-data-archive"
         ],
         "restricted_provider_ids": []
       },
@@ -5437,6 +5455,7 @@
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "nict-wdc-ionosphere-spaceweather",
+          "nipr-auroral-data-archive",
           "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
           "pgc-dem-stac",
