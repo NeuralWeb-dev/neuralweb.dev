@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:47:15.863772+00:00",
+  "published_at": "2026-10-18T07:49:19.262153+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:45:17.437141+00:00",
+  "research_updated_at": "2026-10-18T07:49:08.639324+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WDS meteorology/NCEI and GAVO aliases deduplicated; native GAVO contributor terms/163references indexed; Aruba root held.",
+  "latest_milestone": "Unive current institutional public-metadata terms, distinct Paleo Search204empty response and EOL held/partner-rights reviewed.",
   "counts": {
     "verified": 377,
-    "candidates": 919,
+    "candidates": 922,
     "excluded": 270,
     "sample_successes": 465
   },
@@ -16578,6 +16578,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "encyclopedia-of-life-data-services",
+      "provider": "Encyclopedia of Life and content partners",
+      "service_name": "EOL biodiversity data services",
+      "geographic_coverage": "Worldwide biodiversity/taxa content; current exact source coverage unverified",
+      "topical_coverage": "biodiversity | research | education",
+      "dataset_families": "Taxa, organism traits/attributes, ecological interactions, text and media with content-partner rights",
+      "documentation_url": "https://eol.org/docs/what-is-eol/data-services",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Source/content-partner licences vary; uniform API/source grant unconfirmed",
+      "license_url": "https://eol.org/docs/what-is-eol/terms-of-use | https://api.eol.org/docs/what-is-eol/data-services",
+      "api_verification_state": "Original root guard-deferred unsent; owner indexed data-services/terms referenced. No native API/data response, no alternate api.eol.org host/query after hold.",
+      "latest_checked_utc": "2026-10-18T07:49:03.838078+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "epa",
       "provider": "US Environmental Protection Agency / Envirofacts",
       "service_name": "US Environmental Protection Agency / Envirofacts API",
@@ -21327,6 +21345,24 @@
       "license_url": "",
       "api_verification_state": "Native Swagger page200 and linked initializer200 decoded OpenAPI3.0 with17paths/17GEToperations. Anonymous conformanceGET200 valid JSON with 9declared standards references, not independent standard compliance validation.",
       "latest_checked_utc": "2026-10-18T07:27:30.102705+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "noaa-paleo-search-api",
+      "provider": "NOAA NCEI / World Data Service for Paleoclimatology",
+      "service_name": "NCEI Paleo Search web service",
+      "geographic_coverage": "Worldwide paleoclimate archive; exact returned-source coverage not enumerated",
+      "topical_coverage": "climate/weather/environment | oceans | water | geospatial | research",
+      "dataset_families": "Paleoclimate study discovery for tree rings, ice cores, corals, sediments and reconstructed variables; source scientific records not fetched",
+      "documentation_url": "https://www.ncei.noaa.gov/access/paleo-search/api",
+      "api_base_url": "https://www.ncei.noaa.gov/access/paleo-search/study/search.json",
+      "format_protocol": "Official indexed docs describe GET JSON/XML; bounded native search204empty body, no JSON/data schema verified",
+      "authentication": "Bounded GET accepted without key/account as204; broad source access not inferred",
+      "free_access_restrictions": "Tiny read-only no-match request no payment; source-specific access/licences and quotas unresolved",
+      "license": "unknown current uniform metadata/source grant",
+      "license_url": "https://www.ncei.noaa.gov/services/world-data-system",
+      "api_verification_state": "Native root/API guide URLs200 application shells. Indexed official exact API docs reviewed. Exact bounded no-match GET204no content; not HTML success, JSON/schema sample or verified zero study count.",
+      "latest_checked_utc": "2026-10-18T07:49:03.838078+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26583,6 +26619,24 @@
       "license_url": "https://unite.ut.ee/ | https://unite.ut.ee/terms.php | https://unite.ut.ee/repository.php",
       "api_verification_state": "native_current_BY4_statement_webservice_link_and_PlutoF_JSON_root13verified_exact_UNITE_SH_route_unresolved",
       "latest_checked_utc": "2026-10-17T22:04:48.281731+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unive-institutional-datarepository",
+      "provider": "Ca Foscari University of Venice / University Library System",
+      "service_name": "Datarepository Unive institutional research-data repository",
+      "geographic_coverage": "Italian university research, international project scopes vary",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary research-data descriptions/deposits; actual current catalogue not enumerated",
+      "documentation_url": "https://www.unive.it/pag/49459/ | https://datarepository.unive.it/",
+      "api_base_url": "https://datarepository.unive.it/oai (registry claim, current service untested)",
+      "format_protocol": "HTML documentation",
+      "authentication": "Institutional terms require depositor sign-in and authorization for external partners; public downloads subject to individual licence. Anonymous API access unverified.",
+      "free_access_restrictions": "Institutional guide calls repository free; source restrictions/embargo/individual licences and current API access separate",
+      "license": "Recommended CC0metadata/BYdata, not verified uniform grant; individual source licences",
+      "license_url": "https://www.unive.it/pag/fileadmin/user_upload/SBA/documenti/SBA/Datarepository/Terms_of_use_Datarepository_Unive_2024_2.pdf | https://www.unive.it/pag/49459/",
+      "api_verification_state": "Repository root guard-deferred unsent; no OAI/REST/backend after hold. Independent owner institutional guide/PDF200 reviewed; registry OAI endpoint not runtime proof.",
+      "latest_checked_utc": "2026-10-18T07:49:03.838078+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
