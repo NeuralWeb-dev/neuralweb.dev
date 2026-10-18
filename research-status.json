@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T05:15:37.460378+00:00",
+  "published_at": "2026-10-18T05:17:40.416017+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:15:11.514018+00:00",
+  "research_updated_at": "2026-10-18T05:16:08.361735+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NACJD/HMCAdedupwithsourceexceptions; KyotoHAPIcapabilities/catalog1054IDs verifiedunderexplicitcommercialindexrestriction.",
+  "latest_milestone": "Nine originaltasks; GeotISWMSandKyotoHAPIverifiedunderrestrictedterms, Kyoto1054catalogdescriptors, VegBankpartial53operationdocs; ICPSRfamiliesdedup",
   "counts": {
     "verified": 357,
     "candidates": 840,
@@ -247,6 +247,7 @@
           "isgi-geomagnetic-indices-webservice",
           "iucn-red-list-api-v4",
           "karlsruher-wolkenatlas",
+          "kyoto-geomagnetic-hapi",
           "metoffice-weather-datahub",
           "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
@@ -550,6 +551,7 @@
           "earthstat-restricted-raster-families",
           "hubocean-ocean-data-platform",
           "isgi-geomagnetic-indices-webservice",
+          "kyoto-geomagnetic-hapi",
           "mgds-seismic-catalog",
           "ndsf-data-access-portal",
           "terrasarx-sar-imagery-access",
@@ -746,6 +748,7 @@
         "restricted_provider_ids": [
           "esa-gaia",
           "isgi-geomagnetic-indices-webservice",
+          "kyoto-geomagnetic-hapi",
           "silso-sunspot-data",
           "wdc-edinburgh-geomagnetic-api"
         ]
@@ -1050,6 +1053,7 @@
           "isgi-geomagnetic-indices-webservice",
           "iucn-red-list-api-v4",
           "jgi-gold-api",
+          "kyoto-geomagnetic-hapi",
           "metoffice-weather-datahub",
           "mgds-seismic-catalog",
           "ndsf-data-access-portal",
@@ -2417,6 +2421,7 @@
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "geoguyane-csw-catalogue",
+          "geotis-wms",
           "lower-austria-ogd",
           "metoffice-weather-datahub",
           "ticino-palma-api",
@@ -2493,6 +2498,7 @@
         ],
         "restricted_provider_ids": [
           "cdgp-geothermal-portal",
+          "geotis-wms",
           "german-statistical-rdc",
           "metoffice-weather-datahub",
           "registry-data-bs-ch"
@@ -2873,6 +2879,7 @@
           "bonn-open-data",
           "cdgp-geothermal-portal",
           "geoguyane-csw-catalogue",
+          "geotis-wms",
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
           "tirol-ogd-geospatial-search",
@@ -3324,6 +3331,7 @@
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
           "eurocat-controlled-research-data",
+          "geotis-wms",
           "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
           "hunt-health-study",
@@ -4120,6 +4128,7 @@
           "china-ncdc-cryosphere-desert-portal",
           "hk-weather",
           "japan-egov-data-catalog",
+          "nict-wdc-ionosphere-spaceweather",
           "taiwan-cwa",
           "thailand-gistda",
           "tokyo-aori-cruise-database",
@@ -4283,6 +4292,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "nict-wdc-ionosphere-spaceweather",
           "smoka-science-archive"
         ],
         "restricted_provider_ids": []
@@ -4318,6 +4328,7 @@
           "cinii-books",
           "cngbdb-resource-portal",
           "jst-grants-data",
+          "nict-wdc-ionosphere-spaceweather",
           "nims-mdr",
           "proteomexchange-proteomecentral",
           "smoka-science-archive",
@@ -5030,6 +5041,7 @@
           "laval-borealis-data-repository",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
+          "nict-wdc-ionosphere-spaceweather",
           "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
           "nsidc",
@@ -5205,7 +5217,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "copenhagen-geomagnetic-index-archive"
+          "copenhagen-geomagnetic-index-archive",
+          "nict-wdc-ionosphere-spaceweather"
         ],
         "restricted_provider_ids": []
       },
@@ -5238,6 +5251,7 @@
           "laval-borealis-data-repository",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
+          "nict-wdc-ionosphere-spaceweather",
           "noaa-antarctic-uv-network",
           "noaa-gml-barrow-observatory",
           "pgc-dem-stac",
