@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:54:27.390773+00:00",
-  "job_status": "worker not running",
-  "worker_running": false,
+  "published_at": "2026-10-18T23:56:30.286342+00:00",
+  "job_status": "running",
+  "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:53:30.755291+00:00",
+  "research_updated_at": "2026-10-18T23:56:10.186670+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: EMDB specific CC0 grant/anonymous EMICSS JSON and298 homepage refs; NEX version-specific rights; FGSC/IFRI/UJK/CambridgeCODEX interface/grant gaps.",
+  "latest_milestone": "IIDinterface/rights gaps; JSTORImageslicenseddefaults/challenge; UFSCarARR/NCNDsourcepolicy andmetadataAPIgap.",
   "counts": {
     "verified": 499,
-    "candidates": 1442,
-    "excluded": 417,
+    "candidates": 1443,
+    "excluded": 419,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -37543,6 +37543,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "toronto-integrated-interactions-iid",
+      "provider": "University of Toronto / Jurisica laboratory",
+      "service_name": "Integrated Interactions Database",
+      "geographic_coverage": "International reference biology for18species, Canada-hosted; not populationgeography",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Integrated detected/predicted/orthologous proteininteraction discovery;18species andcontext-specificnetworks, no protein/sourcequery acquired",
+      "documentation_url": "https://iid.ophid.utoronto.ca/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Publicroot/docs accessible anonymously; exactAPIcredentialsunknown, no login",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://iid.ophid.utoronto.ca/",
+      "api_verification_state": "Native root200HTMLbrowsersearch/filter/analysisdocumentation andbulkdownloadlinks. No exactpublicqueryAPI/base/schema verified. Browserinputlimit1000IDs not documented HTTPAPI or numericrequestquota.",
+      "latest_checked_utc": "2026-10-18T23:56:05.351675+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "toronto-open-data-catalog-api",
       "provider": "City of Toronto Open Data",
       "service_name": "Toronto public CKAN catalogue metadata API",
@@ -45897,6 +45915,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "jstor-images-licensed-service",
+      "provider": "ITHAKA / JSTOR",
+      "service_name": "JSTOR Images and Artstor collections",
+      "geographic_coverage": "Global scholarly/cultural image collections; specificitemrights/coveragevary",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Images/Artstor/sharedcollections discovery only; media/sourcecontents not acquired",
+      "documentation_url": "https://www.jstor.org/images | https://about.jstor.org/terms/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "MainimagesURL200clientchallenge, no bypass/login; underlyinglicensedaccess/platformcredentialsunknown",
+      "free_access_restrictions": "Licensed institutional/serviceaccess withopencontentexceptions; no key/account/subscription/purchase orcontentharvest",
+      "license": "Licensededucational/scholarlyuse defaults; separateopenitemlicences andrightsstatements",
+      "license_url": "https://about.jstor.org/terms/",
+      "api_verification_state": "Imagesroot200JavaScriptclientchallenge, notAPIsuccess; mainhostholdretained. Independentofficialterms200 verifiesrights/defaultrestrictions. No exactpublicimagesqueryAPI/IIIF/schema/runtime established, noalternateroute/backend.",
+      "latest_checked_utc": "2026-10-18T23:56:05.351675+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "junar-publishing-platform",
       "provider": "Junar",
       "service_name": "Junar proprietary publishing platform and historical API v2 documentation",
@@ -48720,6 +48756,24 @@
       "license_url": "https://lib.uct.ac.za/digitalservices/documentation/zivahub-terms-access",
       "api_verification_state": "Original portal/OAI guard-deferredunsent; native independentowner200HTML reviewed, no currentAPI response.",
       "latest_checked_utc": "2026-10-18T15:28:11.621691+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ufscar-institutional-repository",
+      "provider": "Universidade Federal de São Carlos",
+      "service_name": "Repositório Institucional da UFSCar",
+      "geographic_coverage": "Brazil university-affiliated scientific/cultural/educational research; sourcegeographyvaries",
+      "topical_coverage": "research | education | culture | health",
+      "dataset_families": "Institutionalresearch/workmetadata discovery; sourceworks/studentpapers notqueried",
+      "documentation_url": "https://repositorio.ufscar.br/about | https://repositorio.ufscar.br/info/end-user-agreement",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Publicpages visible, optional login/depositionseparate; exactAPIcredentialsunknown, no account",
+      "free_access_restrictions": "Publicaccesswithpossibleembargo anditem-specificrights; no uniformunrestrictedsourcegrant ormetadataAPIgrant",
+      "license": "Sourceworksallrightsreservedunlessmarked; recommendedCCBY-NC-ND; metadatareuseunconfirmed",
+      "license_url": "https://repositorio.ufscar.br/info/end-user-agreement",
+      "api_verification_state": "Nativehome/about/enduserterms200HTML; DSpacedeploymentidentityverified, exactpublishedREST/OAIbase/schema/runtime unverified. Frameworkopensource and indexedthesisonOAInotinstanceAPIproof. No guessed /server or OAIrequest.",
+      "latest_checked_utc": "2026-10-18T23:56:05.351675+00:00",
       "classification": "restricted"
     },
     {
