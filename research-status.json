@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T09:01:02.159457+00:00",
+  "published_at": "2026-10-18T09:03:05.493298+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:58:27.973149+00:00",
+  "research_updated_at": "2026-10-18T09:01:32.157853+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LISS restricted; BDR exact CC0 metadata/API documented but held; SND DORIS scoped CC0/APIunresolved; distinct MDZIIIFJSON1000refs saved with returned nextcursor.",
+  "latest_milestone": "Hamburg HZSK hosted-community identity corrected/policy text held; PubChem indexed PUG/mixed rights vs native shells distinguished; Nefeli root held.",
   "counts": {
     "verified": 384,
-    "candidates": 961,
+    "candidates": 964,
     "excluded": 285,
     "sample_successes": 465
   },
@@ -18305,6 +18305,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "hamburg-zfdm-repository",
+      "provider": "Universität Hamburg / ZFDM",
+      "service_name": "Hamburg research repository and HZSK corpus collection",
+      "geographic_coverage": "Hamburg institutional research/corpus repository; exact source language/geographic coverage unverified",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Research repository including HZSK language-corpus community; corpus objects/source records not accessed",
+      "documentation_url": "https://www.fdr.uni-hamburg.de/terms",
+      "api_base_url": "https://www.fdr.uni-hamburg.de/oai2d (registry claim, exact runtime untested)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.fdr.uni-hamburg.de/terms | https://www.fdr.uni-hamburg.de/record/11057/files/Terms%20of%20Service.md?download=1",
+      "api_verification_state": "Native institutional repository root and terms-document landing200HTML. Policy text held; no HZSK community/source records, OAI ListRecords or alternate policy/backend request.",
+      "latest_checked_utc": "2026-10-18T09:01:26.590347+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "harvard-loeb-digital-scores",
       "provider": "Harvard Library / Eda Kuhn Loeb Music Library",
       "service_name": "Digital Scores and Libretti collection portal candidate",
@@ -21599,6 +21617,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nefeli-helmholtz-repository",
+      "provider": "Helmholtz Munich",
+      "service_name": "Nefeli research data repository",
+      "geographic_coverage": "Helmholtz Munich institutional research; exact dataset geography unknown",
+      "topical_coverage": "research | health | environment",
+      "dataset_families": "Research repository discovery; exact current metadata/source collections unenumerated",
+      "documentation_url": "https://nefeli.helmholtz-munich.de",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root held before transmission; exact public query/OAI/API interface unverified; no alternate help/backend/source request",
+      "latest_checked_utc": "2026-10-18T09:01:26.590347+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nepal",
       "provider": "Nepal National Statistics Office (NSO)",
       "service_name": "NSO government statisticaldata portals;CKANAPIcandidate",
@@ -24044,6 +24080,24 @@
       "license_url": "https://www.province-sud.nc/pandoreweb/openapi | https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf | https://raw.githubusercontent.com/etalab/licence-ouverte/master/LO.md",
       "api_verification_state": "documented_Pandore_cookie_key_required_untested_QGIS_WMS_metadata_sample_success_data_license_scope_unconfirmed",
       "latest_checked_utc": "2026-10-17T00:32:36.674744+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pubchem-pug-services",
+      "provider": "NCBI / National Library of Medicine",
+      "service_name": "PubChem PUG REST and related programmatic services",
+      "geographic_coverage": "Global contributor chemical information; exact current source/dataset coverage unenumerated",
+      "topical_coverage": "research | health | environment",
+      "dataset_families": "Compound/substance/assay/gene/protein/pathway/taxonomy/cell metadata/data domains per indexed owner API guide; no source values requested",
+      "documentation_url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+      "api_base_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/ (indexed owner guide; not requested)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed contributor/source rights; no blanket open PubChem grant verified",
+      "license_url": "https://pubchem.ncbi.nlm.nih.gov/rest/source/ | https://pubchem.ncbi.nlm.nih.gov/pcfe/docs/markdown/data-submission-policy.md",
+      "api_verification_state": "Native root/PUGguide/source-rights directory200application shells, not successful API/schema/source responses. Owner policy Markdown guard-deferred; no compound query, alternate PUG/SOAP/SPARQL/backend operation.",
+      "latest_checked_utc": "2026-10-18T09:01:26.590347+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
