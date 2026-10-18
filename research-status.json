@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T23:03:01.600649+00:00",
+  "published_at": "2026-10-18T23:05:04.574702+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:00:41.984258+00:00",
+  "research_updated_at": "2026-10-18T23:04:17.092893+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals: StrainInfo statusJSON; ROCK/UVA restrictions; PBDB/HMTM/PhageDive/LSHTM/GWFNet/atomic rights-interface gaps retained.",
+  "latest_milestone": "NAVDAT static/freeaccess notgrant; CHIANTIlibrary/package versuswebAPI; MCHFthirdparty/generalpolicy/API gaps.",
   "counts": {
     "verified": 493,
-    "candidates": 1413,
+    "candidates": 1416,
     "excluded": 406,
     "sample_successes": 463
   },
@@ -18926,6 +18926,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "chianti-atomic-database",
+      "provider": "CHIANTI collaboration",
+      "service_name": "CHIANTI astrophysical atomic data and software interfaces",
+      "geographic_coverage": "Astrophysical plasma reference resources, not geographically bounded observations",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Atomic reference-data package and IDL/Python spectroscopic software documentation; no transition values/structures/source code acquired",
+      "documentation_url": "https://www.chiantidatabase.org/ | http://www.chiantidatabase.org/chianti_user_guide.html",
+      "api_base_url": "",
+      "format_protocol": "Native data/software package with IDL and Python library interfaces; public webAPI exactbase unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.chiantidatabase.org/ | http://www.chiantidatabase.org/qug.pdf",
+      "api_verification_state": "Native root/user-guide HTML200 proper docs; guide lists completeV11, quickV8 and procedure references. Root notes IDLroutines11.0.5 September2026. LibraryAPI/procedure documentation is not a verified public networkAPI; no source operation or code executed.",
+      "latest_checked_utc": "2026-10-18T23:04:11.395084+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "chile-bcentral",
       "provider": "Central Bank of Chile",
       "service_name": "Central Bank of Chile open data API",
@@ -29384,6 +29402,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "navdat-geochemistry-portal",
+      "provider": "NAVDAT research collaboration",
+      "service_name": "North American Volcanic and Intrusive Rock Database",
+      "geographic_coverage": "WesternUnitedStates, BritishColumbia and northernMexico; westernNorthAmerican igneous-rock research",
+      "topical_coverage": "geospatial | environment | research",
+      "dataset_families": "Discovery descriptions of rock age, chemistry and isotopic datasets; no samples/values/coordinates requested",
+      "documentation_url": "https://www.navdat.org/ | https://www.navdat.org/NavdatHome/FAQ.cfm#Why",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native FAQ says user/password supports saving queries/datasets/diagrams, free use; no login/account or saved query exercised",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.navdat.org/NavdatHome/FAQ.cfm#Why",
+      "api_verification_state": "Native homepage/FAQ HTTP200 proper current service descriptions. Search/download/map UI and data-file availability not exactAPI or successful JSON/XML. No current public machine API established.",
+      "latest_checked_utc": "2026-10-18T23:04:11.395084+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ncar-eol-field-data-archive",
       "provider": "NSF NCAR Earth Observing Laboratory / UCAR",
       "service_name": "EOL Field Data Archive and metadata export documentation",
@@ -30047,6 +30083,24 @@
       "license_url": "https://www.sigma2.no/nird-research-data-archive-terms-use | https://documentation.sigma2.no/nird_archive/metadata.html",
       "api_verification_state": "Native portal/schema/API/deposit docs and owner termsHTTP200. Anonymous documented group_list?type=subjectHTTP200 validJSON success true, five subject references saved, no dataset inventory.",
       "latest_checked_utc": "2026-10-18T17:32:44.350893+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nist-mchf-mcdhf-collection",
+      "provider": "National Institute of Standards and Technology / original Vanderbilt compilers",
+      "service_name": "MCHF/MCDHF atomic reference collection",
+      "geographic_coverage": "Atomic reference calculations, internationally authored; no geographic observational coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Documentation of computed transition-reference collections from multiple methods; no actual atom/ion values or structures retrieved",
+      "documentation_url": "https://nlte.nist.gov/MCHF/ | https://nlte.nist.gov/MCHF/background.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.nist.gov/disclaimer | https://nlte.nist.gov/MCHF/background.html | https://nlte.nist.gov/MCHF/disclaimer.html",
+      "api_verification_state": "Native home/background/disclaimer documentation reviewed; UI element/spectrum/reference selection and downloadable atomicstructure code not public API proof. No exact webservice/schema or source-data operation tested.",
+      "latest_checked_utc": "2026-10-18T23:04:11.395084+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
