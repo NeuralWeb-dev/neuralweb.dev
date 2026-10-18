@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:21:19.638638+00:00",
-  "job_status": "worker not running",
-  "worker_running": false,
+  "published_at": "2026-10-18T18:23:23.013407+00:00",
+  "job_status": "running",
+  "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:20:21.171429+00:00",
+  "research_updated_at": "2026-10-18T18:23:10.478328+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six Harvard-hosted originals deduplicated; CIAT403/indexed rights recommendations, NARA authored-work CC0 exceptions, J-PAL per-study guidance, Polinsky unresolved, COMPLETE/FTA historical owner context.",
+  "latest_milestone": "CfA/NDS shared-service dedup and scoped owner context; FS Research Data Archive native reuse agreement/API gap.",
   "counts": {
     "verified": 445,
-    "candidates": 1228,
+    "candidates": 1229,
     "excluded": 368,
     "sample_successes": 464
   },
@@ -34172,6 +34172,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "usfs-research-data-archive",
+      "provider": "USDA Forest Service Research and Development",
+      "service_name": "Forest Service Research Data Archive",
+      "geographic_coverage": "Primarily United States forest/wildfire/ecological research; individual external/source geography varies",
+      "topical_coverage": "climate/weather/environment | water | biodiversity | research",
+      "dataset_families": "FS R&D/Joint Fire Science Program and experimental forest/range/watershed research publication descriptions; no observations/files",
+      "documentation_url": "https://www.fs.usda.gov/rds/archive/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Root/legal docs anonymous; dataset-specific/query/map access not attempted",
+      "free_access_restrictions": "Native published-data agreement says no extra permission/fees; external data and API runtime terms separate",
+      "license": "Native archive-published datasets CC-BY license structure, version unstated; data-use agreement and external-source exceptions",
+      "license_url": "https://www.fs.usda.gov/rds/archive/DataUseInfo | https://www.fs.usda.gov/rds/archive/datauseinfo/open",
+      "api_verification_state": "Native archive root, conditions and linked legal agreement HTTP200 substantive HTML; no exact current archive public API/schema or API payload verified.",
+      "latest_checked_utc": "2026-10-18T18:23:05.624138+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "usgs-land-cover-institute-discovery",
       "provider": "US Geological Survey / EROS",
       "service_name": "Land Cover Institute historical programme and current discovery",
@@ -39372,7 +39390,7 @@
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
       "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified; Stockholm hosted collection guard-deferred; independent university guide HTTP 200",
-      "latest_checked_utc": "2026-10-18T18:19:41.669788+00:00",
+      "latest_checked_utc": "2026-10-18T18:23:05.624138+00:00",
       "classification": "restricted"
     },
     {
