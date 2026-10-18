@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T11:59:27.482453+00:00",
+  "published_at": "2026-10-18T12:01:30.582196+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:58:34.536145+00:00",
+  "research_updated_at": "2026-10-18T12:00:06.510625+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to411pages/411000refs;2802503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "ACTRIS L1/L2metadataBY4/currentschema/version; TUdatalib metadataCC0/1416headers complete; NewPsy indexedrestrictions/Junarhosting excluded; ACUheld/Kadikeyrequired; MDZ411000refs incomplete.",
   "counts": {
     "verified": 399,
     "candidates": 1030,
@@ -2535,6 +2535,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "actris-dvas-metadata-api",
           "alcobendas-open-data",
           "amsterdam-maps-data",
           "andalusia-open-data",
@@ -2729,6 +2730,7 @@
           "bgs-ngdc-ags-access-api",
           "eea-sdi-datahub-catalogue",
           "histat-historical-statistics",
+          "kadi4mat-kit-iam-api",
           "lithuania-statistics",
           "nordpool-entsoe",
           "puglia-open-data-catalog",
@@ -2865,6 +2867,7 @@
           "textgrid-public-repository",
           "torino-aperto-catalog-api",
           "tu-wien-research-data",
+          "tudatalib-public-metadata-oai",
           "ukraine-data",
           "wales-statistics",
           "warsaw-research-data-metadata",
@@ -3376,6 +3379,7 @@
           "staedel-museum-oai",
           "tampere-open-news-feeds",
           "textgrid-public-repository",
+          "tudatalib-public-metadata-oai",
           "ukraine-data",
           "wales-statistics",
           "zaragoza-open-data-api"
@@ -3470,6 +3474,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "actris-dvas-metadata-api",
           "alkmaar-open-archive",
           "arche-repository",
           "b2share",
@@ -3527,6 +3532,7 @@
           "staedel-museum-oai",
           "textgrid-public-repository",
           "tu-wien-research-data",
+          "tudatalib-public-metadata-oai",
           "uk-police",
           "ukho-marine-data-portal",
           "warsaw-research-data-metadata"
@@ -3590,6 +3596,7 @@
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
           "ioerdata-spatial-research-portal",
+          "kadi4mat-kit-iam-api",
           "kielipankki-fcs",
           "kielipankki-korp-api",
           "kit-whole-body-motion",
@@ -5122,6 +5129,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "acu-research-bank",
           "ada-dataverse",
           "anzctr-trial-registry",
           "data-wa-catalogue-api",
@@ -5138,6 +5146,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "acu-research-bank",
           "anu-data-commons-repository",
           "data-wa-catalogue-api",
           "nsw-open-data-catalog",
@@ -5338,6 +5347,7 @@
           "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
+          "acu-research-bank",
           "brisbane-open-data",
           "csiro-data-access-portal",
           "data-wa-catalogue-api",
@@ -5368,6 +5378,7 @@
         ],
         "candidate_provider_ids": [
           "aadc-metadata",
+          "acu-research-bank",
           "aims-metadata-catalog",
           "anu-data-commons-repository",
           "anzctr-trial-registry",
