@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:16:53.698430+00:00",
+  "published_at": "2026-10-18T00:18:56.203338+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:16:23.733572+00:00",
+  "research_updated_at": "2026-10-18T00:18:48.431163+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NCDC publicHTML catalogue enumeration: 89pages,1780unique metadata IDs; source rights/API unresolved.",
+  "latest_milestone": "HGNCdataCC0 andnativeRESTinfoJSON verified; IRMA/IMLS candidates retain specificsource/runtime residuals.",
   "counts": {
-    "verified": 321,
-    "candidates": 662,
-    "excluded": 169,
+    "verified": 322,
+    "candidates": 666,
+    "excluded": 170,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -7409,6 +7409,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "hgnc-gene-nomenclature-rest",
+      "provider": "HUGO Gene Nomenclature Committee",
+      "service_name": "HGNC human gene nomenclature REST API",
+      "geographic_coverage": "Human gene nomenclature, global research usage; not population/clinical geographic data",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Approved gene names/symbols, identifiers, aliases, locus groups and cross-reference metadata",
+      "documentation_url": "https://www.genenames.org/help/rest/",
+      "api_base_url": "https://rest.genenames.org/",
+      "format_protocol": "REST/JSON orXML negotiated viaAccept",
+      "authentication": "Anonymous info request succeeded; no key documented for publicREST",
+      "free_access_restrictions": "HGNC dataCC0, recommendedattribution; no paidacquisition. VGNCextension documented butnotseparatelysampled/licence-cleared here.",
+      "license": "CC0 Public Domain dedication for HGNC data",
+      "license_url": "https://www.genenames.org/about/license/",
+      "api_verification_state": "Native anonymous /info HTTP200 parsedJSON; keys lastModified,numDoc,responseHeader,searchableFields,storedFields. No gene/source-row fetch.",
+      "latest_checked_utc": "2026-10-18T00:18:44.025881+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "historisch-centrum-limburg-open-metadata",
       "provider": "Historisch Centrum Limburg",
       "service_name": "HCL open archival metadata via archieven.nl OAI-PMH",
@@ -11335,6 +11353,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bc-conservation-data-centre",
+      "provider": "Province of British Columbia / Conservation Data Centre",
+      "service_name": "B.C. Conservation Data Centre public data tools and catalogue references",
+      "geographic_coverage": "British Columbia, Canada",
+      "topical_coverage": "biodiversity | climate/weather/environment | research",
+      "dataset_families": "Species/ecosystem conservation status and public occurrence metadata; secured occurrences separate",
+      "documentation_url": "https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre/explore-cdc-data | https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre/request-cdc-data",
+      "api_base_url": "",
+      "format_protocol": "Public HTML discovery; CKAN metadata query attempted, no successful response",
+      "authentication": "Public tools/catalogue versus secure-data need-to-know assessment, agreement and training",
+      "free_access_restrictions": "Secured occurrences protect species/ecosystems or proprietary interests; no secure-data request or source observations",
+      "license": "unknown exact CDC dataset/metadata grant; general provincial licence not transferred automatically",
+      "license_url": "",
+      "api_verification_state": "Native public operator/explore/access policies HTTP200; catalogue metadata target deferred, not API success",
+      "latest_checked_utc": "2026-10-18T00:17:20.001149+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bdgp-insitu-discovery",
       "provider": "Berkeley Drosophila Genome Project",
       "service_name": "BDGP in-situ gene-expression discovery resource",
@@ -14647,6 +14683,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "imls-data-collection",
+      "provider": "US Institute of Museum and Library Services",
+      "service_name": "IMLS data collection and published open-data catalogue",
+      "geographic_coverage": "United States libraries, museums, states/counties and grants; exactfamily/yearcoverage varies",
+      "topical_coverage": "culture | education | public spending/contracts | research",
+      "dataset_families": "Public Libraries Survey, state library administrative data, grants and community indicators",
+      "documentation_url": "https://www.imls.gov/research-evaluation/data | https://www.imls.gov/news/new-imls-data-catalog-enables-creative-use-library-museum-administrative-datasets",
+      "api_base_url": "",
+      "format_protocol": "PublicHTML data tools and historical catalogue announcement; current API protocol unverified",
+      "authentication": "unknown current catalogue API conditions; public tools described",
+      "free_access_restrictions": "Publicdata tools documented, source terms separate; no paid acquisition/accounts/exportjobs",
+      "license": "Explicit public-domain status for IMLS employee government works; third-party exceptions",
+      "license_url": "https://www.imls.gov/about/privacy-terms",
+      "api_verification_state": "Native dataroot/currenttermsHTTP200; original publishedcatalogueguard-deferred, no machine response",
+      "latest_checked_utc": "2026-10-18T00:18:44.025881+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ims-stuttgart-language-repository",
       "provider": "Institute for Natural Language Processing / University of Stuttgart",
       "service_name": "IMS CLARIN-D language-resource repository",
@@ -14860,6 +14914,24 @@
       "license_url": "https://doi.iow.de/doi/2025/iow-datapolicy-2025/iow-datapolicy-2025.pdf",
       "api_verification_state": "provider_metadata_services_documented_registry_OAI_claim_native_redirect_robots_withheld",
       "latest_checked_utc": "2026-10-17T19:44:43.432899+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iri-ldeo-climate-library",
+      "provider": "Columbia University / IRI and LDEO",
+      "service_name": "IRI/LDEO Climate Data Library (sunset transition)",
+      "geographic_coverage": "Global climate and climate-impact data; exact source coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Climate observations, seasonal/subseasonal forecast and hindcast metadata; source families vary",
+      "documentation_url": "https://iri.columbia.edu/resources/data-library/sunset/",
+      "api_base_url": "https://iridl.ldeo.columbia.edu/SOURCES/ (legacy documented family; runtime held)",
+      "format_protocol": "OPeNDAP documented by operator; legacy URL query language; no current machine response",
+      "authentication": "unknown current legacy public access; native root deferred, no login attempted",
+      "free_access_restrictions": "Sunset/migration affects availability; source grants and access vary, no paid acquisition",
+      "license": "unknown exact source grants; registry Public Domain claim not accepted",
+      "license_url": "",
+      "api_verification_state": "Native operator sunset notice verified; original legacy root guard-deferred, no API sample",
+      "latest_checked_utc": "2026-10-18T00:17:20.001149+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16588,6 +16660,24 @@
       "license_url": "https://data.norge.no/nlod/en/2.0",
       "api_verification_state": "current_official_API_documentation_verified_resource_sample_policy_held_runtime_untested",
       "latest_checked_utc": "2026-10-17T08:11:16.638000+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nps-irma-resource-services",
+      "provider": "US National Park Service / Natural Resource Stewardship and Science",
+      "service_name": "IRMA integrated resource data portal and documented API families",
+      "geographic_coverage": "United States National Park Service units; source geography and historical coverage vary",
+      "topical_coverage": "biodiversity | climate/weather/environment | water | geospatial | culture | research",
+      "dataset_families": "Datastore reference metadata, unit/species/taxonomy services, resource studies and statistics; source families vary",
+      "documentation_url": "https://irmaservices.nps.gov/",
+      "api_base_url": "https://irmaservices.nps.gov/ (documented directory; individual endpoints unresolved)",
+      "format_protocol": "REST service families documented in primary indexed official directory; no native machine sample",
+      "authentication": "Official directory describes public developer access; exact per-service and secure-source conditions unresolved",
+      "free_access_restrictions": "Public data versus protected/sensitive/proprietary sources separate; no secure maps/files or authenticated data",
+      "license": "NPS explicit public-domain default for federal government works with third-party exceptions; exact IRMA record/source grant unresolved",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "api_verification_state": "Native portalHTML and rights policy loaded; original API directory guard-deferred, indexed official directory documents existence",
+      "latest_checked_utc": "2026-10-18T00:18:44.025881+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22764,6 +22854,24 @@
       "license_url": "http://accdc.com/en/fee-usage.html",
       "api_verification_state": "native_fees_user_specific_nontransferability_and12month_deletion_terms_verified_public_query_API_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:40:37.694872+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "australian-national-corpus-restricted",
+      "provider": "Australian National Corpus Inc / contributing collection owners; published terms preserved by LDaCA",
+      "service_name": "Australian National Corpus collection access (restricted reuse)",
+      "geographic_coverage": "Australian English text, speech and audiovisual collections; exact collection coverage varies",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Published/unpublished English text, transcripts, audio/video and annotations",
+      "documentation_url": "https://docs.ldaca.edu.au/licenses/ace/all/v1/",
+      "api_base_url": "",
+      "format_protocol": "Published HTML collection licence, not machine API response",
+      "authentication": "Terms distinguish public users and trusted accounts, session acceptance and sensitive material",
+      "free_access_restrictions": "Without-charge access is not unrestricted reuse; published use definition excludes commercial use, adaptation and redistribution; limited exceptions must be read per collection",
+      "license": "Restrictive AusNC collection terms; not an open source-data licence",
+      "license_url": "https://docs.ldaca.edu.au/licenses/ace/all/v1/",
+      "api_verification_state": "Native published termsHTTP200; original registryreference404 not proof corpus/API absent",
+      "latest_checked_utc": "2026-10-18T00:17:20.001149+00:00",
       "classification": "restricted"
     },
     {
