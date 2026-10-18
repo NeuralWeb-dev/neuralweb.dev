@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:56:40.530125+00:00",
+  "published_at": "2026-10-18T17:58:43.752688+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:55:00.211051+00:00",
+  "research_updated_at": "2026-10-18T17:58:39.365003+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: KBA mixed tiers; LIfBi and IAB controlled research; PIAAC PUF/SUF distinction; RISC contract access; EBDC source-specific rights. No new open-license acceptance; MDZ unchanged.",
+  "latest_milestone": "DJI native noncommercial/deletion terms; FDZ-BO React shell/indexed owner; BAuA robots hold/indexed research agreement.",
   "counts": {
     "verified": 442,
-    "candidates": 1218,
-    "excluded": 358,
+    "candidates": 1219,
+    "excluded": 363,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -19183,6 +19183,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "diw-fdzbo-organizational-data",
+      "provider": "DIW Berlin FDZ-BO",
+      "service_name": "FDZ-BO business and organizational research data portal",
+      "geographic_coverage": "Germany business/organizational research; individual deposited study coverage varies",
+      "topical_coverage": "labor | economics/finance | research",
+      "dataset_families": "Quantitative/qualitative organizational and establishment studies, Scientific Use File and secondary-analysis descriptions",
+      "documentation_url": "https://suche.fdz-bo.diw.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner describes researcher consultation and controlled access channels; exact public metadata authentication unknown",
+      "free_access_restrictions": "Individual source access conditions vary; current fees and blanket metadata grant unknown",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.diw-berlin.de/de/diw_01.c.670982.de/seiten/forschungsdatenzentrum_betriebs-_und_organisationsdaten__fdz-bo.html",
+      "api_verification_state": "Original search portal HTTP200 React/JavaScript shell, not API response. Indexed native owner service/access overview reviewed; no alternate backend/schema request.",
+      "latest_checked_utc": "2026-10-18T17:58:34.601060+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dlr-wdc-rsat",
       "provider": "German Aerospace Center / World Data Center for Remote Sensing of the Atmosphere",
       "service_name": "WDC-RSAT atmospheric remote-sensing map/data portal",
@@ -36843,6 +36861,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "baua-research-data-centre",
+      "provider": "Federal Institute for Occupational Safety and Health BAuA",
+      "service_name": "FDZ-BAuA scientific research data service",
+      "geographic_coverage": "Germany occupational safety/health and working-time research",
+      "topical_coverage": "labor | health | research",
+      "dataset_families": "Working Time Survey and Healthy Digital Work study descriptions; no actual source values",
+      "documentation_url": "https://www.baua.de/DE/Angebote/Forschungsdaten/Forschungsdaten_node.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Application, research affiliation/qualification and bilateral use agreement documented; none obtained",
+      "free_access_restrictions": "Indexed sample contract gives free nontransferable project-specific use; no universal current fee guarantee, commercial use excluded",
+      "license": "Scientific project-specific agreement; indexed sample contract excludes commercial purpose",
+      "license_url": "https://www.baua.de/DE/Forschung/Forschungsdaten/FAQ/FAQ_list",
+      "api_verification_state": "Original request deferred by robots/inaccessible robots policy, target unsent; indexed official FAQ/access evidence only. No alternate original-host route/API request.",
+      "latest_checked_utc": "2026-10-18T17:58:34.601060+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "benchsci-platform",
       "provider": "BenchSci",
       "service_name": "BenchSci research platform",
@@ -36966,6 +37002,24 @@
       "license_url": "https://bioinformatics.ai.sri.com/ptools/licensing/all-reg.shtml",
       "api_verification_state": "untested_policy_restricted",
       "latest_checked_utc": "2026-10-17T19:20:32.572661+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bioeg-research-studies",
+      "provider": "Federal Institute of Public Health BIÖG, formerly BZgA",
+      "service_name": "BIÖG research studies and research-data access",
+      "geographic_coverage": "German public-health research; study-specific populations and coverage",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Public-health study descriptions/reports and GESIS research-data references; no actual health/person data",
+      "documentation_url": "https://www.bioeg.de/forschung/studien/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "GESIS registration and dataset-specific research access documented; no account/application used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Website rights reserved; research datasets distributed via GESIS with potentially restricted per-study rights",
+      "license_url": "https://www.bioeg.de/home/legal-information/",
+      "api_verification_state": "Native studies overview, legal page and completed-studies guidance HTTP200 HTML; no exact BIÖG public API/schema or API success.",
+      "latest_checked_utc": "2026-10-18T17:57:23.672365+00:00",
       "classification": "restricted"
     },
     {
@@ -37164,6 +37218,24 @@
       "license_url": "https://www.ipmimages.org/about/image-usage",
       "api_verification_state": "Native thematic roots/imagepolicy/APIgateway/owner tools HTTP200; current developers.bugwoodcloud.org docs guard-deferred unsent. APIexistence documented, exact permitted imagequery/runtime and auth unresolved; no backend/legacyhost workaround. CurrentInsectImages root/usage200HTMLNextJS; policytext embedded in savedHTML, inspectedwithoutJSexecution. No currentdeveloperAPI/request underpriorhold. NativeWeedroot/about/usage200HTML; embeddedpolicy locallyreadwithoutJSexecution. No developer/legacyapi.bugwood.org query under priorhold. Nativeimages.bugwood.org root200HTMLidentity; Forestryroot/usage200NextJSwithsavedpolicytext. Registrywiki.bugwood.org/api.php notvalidatedasimagequeryAPI and notqueriedunderpriorholds.",
       "latest_checked_utc": "2026-10-18T03:25:12.802235+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bundesbank-rdsc-microdata",
+      "provider": "Deutsche Bundesbank Research Data and Service Centre",
+      "service_name": "Bundesbank RDSC/FDSZ research microdata service",
+      "geographic_coverage": "Bundesbank research microdata on banks, companies and securities; source-specific Germany/international scope",
+      "topical_coverage": "economics/finance | research",
+      "dataset_families": "Bank, firm and security-level research microdata descriptions; actual granular records not acquired",
+      "documentation_url": "https://www.bundesbank.de/de/bundesbank/forschung/fdsz",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Research-project controlled channels documented, no application/account used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Strictly controlled independent scientific research access; no open microdata grant",
+      "license_url": "https://www.bundesbank.de/de/bundesbank/forschung/fdsz",
+      "api_verification_state": "Native FDSZ overview HTTP200 substantive HTML; exact anonymous RDSC API/schema/runtime not established.",
+      "latest_checked_utc": "2026-10-18T17:57:23.672365+00:00",
       "classification": "restricted"
     },
     {
@@ -38103,6 +38175,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "dji-research-data-centre",
+      "provider": "German Youth Institute DJI",
+      "service_name": "DJI research data documentation and access portal",
+      "geographic_coverage": "Germany child/youth/family research with source-specific European study coverage",
+      "topical_coverage": "education | demographics | research",
+      "dataset_families": "AID:A, childcare, family/youth panels, transitions to work and participation study descriptions; no individual variables or files",
+      "documentation_url": "https://surveys.dji.de",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native terms document registration/contact recording and special agreements for pseudonymized data; no account used",
+      "free_access_restrictions": "Scientific secondary analysis/teaching; commercial reuse prohibited, limited redistribution and deletion requirements; self-cost media/handling charges possible",
+      "license": "Scientific use and education only; commercial reuse prohibited and post-analysis deletion required",
+      "license_url": "https://surveys.dji.de/index.php?m=mlp%2C0",
+      "api_verification_state": "Native documentation overview and published contractual terms HTTP200 substantive HTML. No exact public API/schema or successful API payload verified.",
+      "latest_checked_utc": "2026-10-18T17:58:34.601060+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "dplace-cultural-data",
       "provider": "D-PLACE / Max Planck Institute for Evolutionary Anthropology and collaborators",
       "service_name": "D-PLACE culture, language and environment database / JSON metadata interface",
@@ -38280,6 +38370,24 @@
       "license_url": "https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/",
       "api_verification_state": "native_operator_docs_auth_editing_REST_and_published_edition_links_verified_no_anonymous_query_sample_or_data_grant_native_owner_default_NCSA4_verified",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "elabour-qualitative-research",
+      "provider": "FDZ eLabour",
+      "service_name": "eLabour qualitative sociological research data platform",
+      "geographic_coverage": "German institutional qualitative labor/industrial sociology; individual study geography varies",
+      "topical_coverage": "labor | research | education",
+      "dataset_families": "Qualitative sociological research studies, project descriptions and instruments; no transcripts/source data",
+      "documentation_url": "http://elabour.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Use contract required; secured web platform documented, no account obtained",
+      "free_access_restrictions": "Purpose/person/study-specific contracts; current fees unknown",
+      "license": "Project-, person- and study-specific research/teaching use contracts",
+      "license_url": "https://elabour.de/finden-und-nutzen/mustervertraege/",
+      "api_verification_state": "Native root and published contract guidance HTTP200 substantive HTML; no exact public API/schema/runtime verified.",
+      "latest_checked_utc": "2026-10-18T17:57:23.672365+00:00",
       "classification": "restricted"
     },
     {
