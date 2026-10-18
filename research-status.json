@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:35:50.897925+00:00",
+  "published_at": "2026-10-18T13:37:53.890602+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:35:41.012386+00:00",
+  "research_updated_at": "2026-10-18T13:37:45.770769+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Vivliapproved/DUArestricted;MicelioOAIbase400/rightsunknown;ApertaCC0/OAI8formats500headers incomplete",
+  "latest_milestone": "Apertaexactreturnedcursorpage6HTTP422held;500priorheadersretained/90703unsearched",
   "counts": {
     "verified": 416,
-    "candidates": 1057,
-    "excluded": 313,
+    "candidates": 1059,
+    "excluded": 314,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -6284,8 +6284,8 @@
       "free_access_restrictions": "NativeCC0metadata, publications/datasets/softwareownlicences/accessstatesseparate; no sourcewideopen grant",
       "license": "CC0 for Aperta metadata",
       "license_url": "https://aperta.ulakbim.gov.tr/discoverability/",
-      "api_verification_state": "Nativeportal/discoverability200HTML; Identify/ListMetadataFormats and5ListIdentifierspages200validXML. Protocolsuccessnotfileaccess/licenceclearance.",
-      "latest_checked_utc": "2026-10-18T13:33:19.185533+00:00",
+      "api_verification_state": "Nativeportal/discoverability200HTML; Identify/ListMetadataFormats and5ListIdentifierspages200validXML. Protocolsuccessnotfileaccess/licenceclearance. Exactreturnedresumptioncursorcontinuationpage6HTTP422; prior5successfulpagesretained, notsource/APIabsenceproof.",
+      "latest_checked_utc": "2026-10-18T13:37:41.482166+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18459,6 +18459,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "esther-hydrolase-database",
+      "provider": "INRAE / ESTHER curators, France",
+      "service_name": "ESTHER alpha/beta-hydrolase knowledge database",
+      "geographic_coverage": "Internationalprotein/hydrolaseknowledge; organism/sourcecoveragevaries",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Hydrolaseenzyme/family/structure/interaction knowledge; biologicalsourceentries andsequencesnotqueried",
+      "documentation_url": "https://bioweb.supagro.inrae.fr/ESTHER/acknowledgement",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "No verifiedopen-data grant; nativecurators cannotprovideunrestrictedpermission",
+      "license_url": "https://bioweb.supagro.inrae.fr/ESTHER/acknowledgement",
+      "api_verification_state": "Nativeroot/acknowledgement200HTML, legacyACeDBbrowser/toolsreferences notproofcurrentpublicAPI/schema; no validmachineAPI sample.",
+      "latest_checked_utc": "2026-10-18T13:37:16.443574+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "estonia",
       "provider": "Estonian Open Data",
       "service_name": "Estonian Open Data open data portal",
@@ -19500,6 +19518,24 @@
       "license_url": "https://dadosabertos.go.gov.br/about",
       "api_verification_state": "documented_CKAN_small_catalogue_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "google-code-public-archive",
+      "provider": "Google Code Archive",
+      "service_name": "Google Code read-only project JSON archive",
+      "geographic_coverage": "Worldwidelegacyopen-sourceprojecthosting; projectinstitution/countrycoverageunverified",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Legacyprojectmetadata/wiki/issue/commit/downloadreferences andsourcearchives; contentlicencesindividual, sourceobjectsnotqueried",
+      "documentation_url": "https://code.google.com/archive/about | https://code.google.com/archive/schema",
+      "api_base_url": "https://storage.googleapis.com/google-code-archive/ (owner-documented staticprojectJSONinterface, unrequested)",
+      "format_protocol": "IndexedownerJSONobjectschema/GCSretrieval documented; staticstructuredarchiveinterface, notverifiedcurrentdynamiccatalogueAPI",
+      "authentication": "Indexedownerexamplepublicobjectpattern, notdeploymenttested. No credentials/account/cloudproject/bucketAPI used.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-projectcontentLicense andsource/contentlicences; no uniformopenmetadata/data grant",
+      "license_url": "https://code.google.com/archive/schema",
+      "api_verification_state": "Nativearchiveshell200HTMLafter120secondrobotsdelay, notAPIJSON. Ownerabout/schemaindexedprimaryreviewdocumentsstructuredobjectaccess, notnativebody/runtime. NoactualGCSobject/listing requested.",
+      "latest_checked_utc": "2026-10-18T13:37:16.443574+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33470,6 +33506,24 @@
       "license_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-17T05:51:35.595378+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "china-phda-metadata-api",
+      "provider": "National Population Health Science Data Center, China",
+      "service_name": "Population Health Data Archive dataset metadata search API",
+      "geographic_coverage": "China population/health scientificdata collections; coverage/accessdiffersbysource",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Populationhealthscientificdatasetmetadatafederation; sourceclinical/household/migrationdata separate andunqueried",
+      "documentation_url": "https://www.ncmi.cn/phda/service.html",
+      "api_base_url": "https://www.ncmi.cn/phda/api/dataSearch/",
+      "format_protocol": "Indexedofficialdatasetmetadataqueryservice documented; responseformat/nativecontractnotverified",
+      "authentication": "uniqueNumparameter documented, exactissuance/authenticationrequirementsunknown; no key/account/requester/sourcequery used",
+      "free_access_restrictions": "Noncommercial/unchangedrepublicationterms, individualdatasetconditions; downloads/accessmayrequireapplications, nottested",
+      "license": "Indexedofficialnoncommercialunchangedrepublication/attribution; modifications/commercialuse requirepermission",
+      "license_url": "https://www.ncmi.cn/phda/service.html | https://www.ncmi.cn/phda/support.html",
+      "api_verification_state": "Nativeportalrootguard-deferredtargetunsent; servicefollowupunsent. IndexedofficialAPI/termsreviewonly, noAPIJSON/schema/runtime/sample.",
+      "latest_checked_utc": "2026-10-18T13:37:16.443574+00:00",
       "classification": "restricted"
     },
     {
