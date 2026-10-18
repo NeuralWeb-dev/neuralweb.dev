@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:20:32.307761+00:00",
+  "published_at": "2026-10-18T20:22:35.501659+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:18:00.151482+00:00",
+  "research_updated_at": "2026-10-18T20:21:55.960341+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Concordia operationalCCBY4/keyedAPI verified; HydroNCscope; Saskatoonexplicitpermission/APIgap.",
+  "latest_milestone": "Concordia operational BY4/keyed API verified; Hydro NC/source exception; Saskatoon reuse permission/API gap; Saskatchewan directory57refs; SKCDC controlled and Whitby unresolved.",
   "counts": {
     "verified": 454,
-    "candidates": 1337,
-    "excluded": 390,
+    "candidates": 1339,
+    "excluded": 391,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -1342,6 +1342,7 @@
           "edmonton-open-data",
           "nlr-metropolitan-travel-survey-archive",
           "prince-edward-island-open-data",
+          "saskatchewan-geohub",
           "texas-state-open-data",
           "ucla-social-science-dataverse",
           "usda-ers-arms-api",
@@ -1418,6 +1419,7 @@
           "montana-state-library-gis-services",
           "ontario-data-catalog",
           "oregon-open-data",
+          "saskatchewan-geohub",
           "usda-ers-arms-api",
           "usda-ers-geospatial-services",
           "usda-nass",
@@ -1436,6 +1438,7 @@
           "arctic-data",
           "boston-maps-open-data",
           "canada-npri-arcgis",
+          "concordia-operational-open-data",
           "datastream-water-odata-api",
           "eccc-geomet",
           "epa-aqs",
@@ -1496,6 +1499,7 @@
           "prince-edward-island-open-data",
           "raleigh-open-data",
           "registry-gisdata-mn-gov",
+          "saskatchewan-geohub",
           "seattle-open-data",
           "sfwmd-repository",
           "surrey-open-data-map-service",
@@ -1506,6 +1510,7 @@
           "usfs-research-data-archive",
           "vernon-public-geospatial-api",
           "washington-state-open-data",
+          "whitby-geohub",
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
@@ -1515,9 +1520,11 @@
           "calhhs-open-data",
           "cdc-wonder-query-api",
           "hawaii-open-data-catalogue",
+          "hydro-quebec-open-data",
           "missouri-dnr-geology-portal",
           "north-okanagan-gis-open-data",
           "polar-data-catalogue-metadata-api",
+          "saskatchewan-conservation-data-centre",
           "whitehorse-restricted-data-portal"
         ]
       },
@@ -1554,6 +1561,7 @@
           "neracoos-erddap",
           "nps-irma-resource-services",
           "registry-gisdata-mn-gov",
+          "saskatchewan-geohub",
           "sfwmd-repository",
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
@@ -1573,6 +1581,7 @@
           "alberta-geological-survey",
           "alberta-open-government",
           "canada-npri-arcgis",
+          "concordia-operational-open-data",
           "eia",
           "greenland-statistics"
         ],
@@ -1581,10 +1590,12 @@
           "donnees-quebec-catalog",
           "nlr-geospatial-data-services",
           "openei-urdb",
-          "pnnl-datahub"
+          "pnnl-datahub",
+          "saskatchewan-geohub"
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace",
+          "hydro-quebec-open-data",
           "nova-scotia-offshore-data-centre"
         ]
       },
@@ -1643,6 +1654,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "alberta-open-government",
+          "concordia-operational-open-data",
           "greenland-statistics",
           "hartford-open-data",
           "vancouver-open-data-api"
@@ -1743,11 +1755,14 @@
           "prince-edward-island-open-data",
           "princegeorge-road-traffic-api",
           "registry-gisdata-mn-gov",
+          "saskatchewan-geohub",
+          "saskatoon-open-data-portal",
           "surrey-open-data-map-service",
           "thunderbay-transit-realtime",
           "toronto-open-data-catalog-api",
           "vernon-public-geospatial-api",
-          "washington-state-open-data"
+          "washington-state-open-data",
+          "whitby-geohub"
         ],
         "restricted_provider_ids": [
           "denver-open-data",
@@ -1829,6 +1844,8 @@
           "raleigh-open-data",
           "registry-gisdata-mn-gov",
           "sacramento-open-data",
+          "saskatchewan-geohub",
+          "saskatoon-open-data-portal",
           "strathcona-open-data-search",
           "surrey-open-data-map-service",
           "toronto-open-data-catalog-api",
@@ -1840,6 +1857,7 @@
           "washington-state-geospatial-portal",
           "waterloo-city-open-data",
           "welland-open-data-planning-api",
+          "whitby-geohub",
           "wis2-ucsd-scripps"
         ],
         "restricted_provider_ids": [
@@ -1849,6 +1867,7 @@
           "burlington-navigate",
           "denver-open-data",
           "hawaii-open-data-catalogue",
+          "hydro-quebec-open-data",
           "idaho-taxing-district-gis",
           "ipums-nhgis-api",
           "mississauga-open-data",
@@ -1871,6 +1890,7 @@
           "imls-data-collection",
           "irs",
           "prince-edward-island-open-data",
+          "saskatoon-open-data-portal",
           "usaspending"
         ],
         "restricted_provider_ids": []
@@ -1909,7 +1929,9 @@
           "openstates",
           "oregon-open-data",
           "rhode-island-portal-xml",
-          "us-data-gov-catalog"
+          "saskatoon-open-data-portal",
+          "us-data-gov-catalog",
+          "whitby-geohub"
         ],
         "restricted_provider_ids": []
       },
@@ -1944,7 +1966,8 @@
         ],
         "restricted_provider_ids": [
           "akn-data-access-portal",
-          "atlantic-canada-conservation-data-centre"
+          "atlantic-canada-conservation-data-centre",
+          "saskatchewan-conservation-data-centre"
         ]
       },
       "oceans": {
@@ -2009,6 +2032,7 @@
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "oregon-open-data",
+          "saskatchewan-geohub",
           "smithsonian",
           "ubc-circle-open-collections",
           "usda-ers-arms-api",
@@ -2119,6 +2143,7 @@
           "npdb-credentialing-data-services",
           "polar-data-catalogue-metadata-api",
           "primate-cell-type-database",
+          "saskatchewan-conservation-data-centre",
           "srtr-controlled-research-data"
         ]
       }
@@ -32826,6 +32851,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "saskatchewan-geohub",
+      "provider": "Government of Saskatchewan",
+      "service_name": "Saskatchewan GeoHub and ArcGIS service discovery",
+      "geographic_coverage": "Saskatchewan Canada provincial geospatial information",
+      "topical_coverage": "geospatial | agriculture | energy | water | climate/weather/environment | transportation | demographics",
+      "dataset_families": "Provincial environmental/agricultural/economic/geoscience/transportation/healthpopulation map and data descriptors",
+      "documentation_url": "https://www.saskatchewan.ca/government/notarized-documents-legislation-maps/access-geographic-information | https://gisappl.saskatchewan.ca/HABISask/HABISaskUsersGuide1_5.pdf",
+      "api_base_url": "https://gis.saskatchewan.ca/arcgis/rest/services (publishedprovincewide directory; exactGeoHubitem correspondences unresolved)",
+      "format_protocol": "ArcGISRESTJSONdirectorymetadata verified; no featurequery",
+      "authentication": "Anonymouspublicservice directoryJSONsucceeded, otheroperations/secureditemsuntested",
+      "free_access_restrictions": "StandardUnrestrictedUseLicense allowsroyaltyfreecommercialuse onlyforinformationofferedunderit; exemptions/sourceconditionsapply. ExactAPIquotasunknown.",
+      "license": "SaskatchewanStandardUnrestrictedUseDataLicence2.0; exactper-itemapplication unresolved",
+      "license_url": "https://gisappl.saskatchewan.ca/Html5Ext/Resources/GOS_Standard_Unrestricted_Use_Data_Licence_v2.0.pdf",
+      "api_verification_state": "NativehubrootHTTP200JSshell, owneroverview/licensePDFHTTP200. PublishedprovinceArcGISdirectoryanonymousHTTP200validJSONversion11.5/14folders/43services/noerror. No childfolder/service/features/geometry/source observations.",
+      "latest_checked_utc": "2026-10-18T20:21:00.356986+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "saskatoon-open-data-portal",
       "provider": "City of Saskatoon",
       "service_name": "Saskatoon municipal open-data catalogue",
@@ -37215,6 +37258,24 @@
       "license_url": "https://www.wfp.org/terms-and-conditions",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:28:50.894140+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "whitby-geohub",
+      "provider": "Town of Whitby Ontario",
+      "service_name": "Whitby GeoHub municipal data portal",
+      "geographic_coverage": "Whitby Ontario Canada municipal area",
+      "topical_coverage": "geospatial | transportation | climate/weather/environment | law/civic data",
+      "dataset_families": "Municipalmap/transportation/trails/environment service descriptions; sourcefeatures unqueried",
+      "documentation_url": "https://www.whitby.ca/community-and-people/environment-and-sustainability/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Publisher-linkedOpenDataLicensePDFretrieved; exactscope/textverification incomplete",
+      "license_url": "https://whitby.maps.arcgis.com/sharing/rest/content/items/223810efc31c40b3aff99dd74f809a97/data",
+      "api_verification_state": "NativehubrootHTTP200JSshell; independentTownoverviewHTTP200. LegalitemHTTP200PDFnotAPIJSON. ExactpublicreadAPI/runtime/schema notestablished.",
+      "latest_checked_utc": "2026-10-18T20:21:00.356986+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -42148,7 +42209,7 @@
       "license": "CC-BY-NC4.0 generalcatalog scope; separatelylicensed sources excluded",
       "license_url": "https://www.hydroquebec.com/documents-data/open-data/licence.html",
       "api_verification_state": "Native root/licenseHTTP200; currentnativeportalHTMLshellHTTP200notAPIsuccess. Nativepages/indexedportal expose API-labelledinterfaces, currentexactanonymouscontract/schema unresolved. RegistryDonneesQuebecAPI not automatically Hydro-specific.",
-      "latest_checked_utc": "2026-10-18T20:17:54.252738+00:00",
+      "latest_checked_utc": "2026-10-18T20:21:00.356986+00:00",
       "classification": "restricted"
     },
     {
@@ -44723,6 +44784,24 @@
       "license_url": "https://ta.sandrart.net/de/info/services/rest/",
       "api_verification_state": "Native API guide HTTP200; documented single artwork JSON request guard-deferred unsent, not successful JSON or API absence",
       "latest_checked_utc": "2026-10-18T02:05:39.388883+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "saskatchewan-conservation-data-centre",
+      "provider": "Saskatchewan Conservation Data Centre / Ministry of Environment",
+      "service_name": "SKCDC conservation data access services",
+      "geographic_coverage": "Saskatchewan Canada biodiversity resources",
+      "topical_coverage": "biodiversity | climate/weather/environment | research",
+      "dataset_families": "Species conservation/rank and occurrence descriptions; detailed occurrence and photographs separately restricted",
+      "documentation_url": "https://www.biodiversity.sk.ca/HABISask.htm | https://www.biodiversity.sk.ca/faq.htm",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Detailedaccessrequiresapprovedsignedagencyagreement andassignedcredentials; nopermission/accountused. GeneralreadAPIauthunknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Detailedspeciesdata sharingagreement/conservationpurpose restrictions; generaldata/source rights unresolved",
+      "license_url": "https://biodiversity.sk.ca/Docs/SKCDCWildlife-manual.PDF",
+      "api_verification_state": "Originalrootrobotsguarddeferredunsent; no same/alternatebiodiversitypathorSKCDCbackendsourcequery. Indexedowner explicitlydescribes read-onlyArcGISRESTgeneral/detailedservices; exactruntime untested.",
+      "latest_checked_utc": "2026-10-18T20:21:00.356986+00:00",
       "classification": "restricted"
     },
     {
