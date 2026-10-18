@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:39:24.885837+00:00",
+  "published_at": "2026-10-18T14:41:28.114652+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:39:23.735131+00:00",
+  "research_updated_at": "2026-10-18T14:41:27.088527+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: NSRR DAUA/nativeheld; GFBio Swagger2/directoryempty200/per-source grants; DPMP defaultODC-BY/APIunknown; BharatCCBY4/APIunknown; ISACguard/APIrightsunknown; Lehigh429/restrictedgeneralreuse; MDZ652000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to665pages/665000refs;2548503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 429,
-    "candidates": 1084,
+    "candidates": 1087,
     "excluded": 324,
     "sample_successes": 464
   },
@@ -14691,6 +14691,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "astromaterials-data-system",
+      "provider": "LDEO Columbia University / Astromat",
+      "service_name": "Astromat archive and synthesis API discovery",
+      "geographic_coverage": "Extraterrestrial/returned astromaterials research; datasetcoveragevaries",
+      "topical_coverage": "astronomy | research | geospatial",
+      "dataset_families": "Astromaterials laboratoryarchive, cross-publication synthesis and samplediscovery; oldAstroRepo migratedtoarchive",
+      "documentation_url": "https://www.astromat.org/about/access-data-overview | https://astromat.org/legal/terms-of-use | https://api.astromat.org/",
+      "api_base_url": "https://api.astromat.org/ (HTMLAPIwelcomebanner only, nooperationverified)",
+      "format_protocol": "RESTlabel inownerAPIbanner, noexactcontract/schema/responseverified",
+      "authentication": "OwnerORCIDcontributionrequirement notinferredforpublicretrieval; APIauthuntested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Varying per-dataset Creative Commons licenses; metadata-wide grant unknown",
+      "license_url": "https://astromat.org/legal/terms-of-use",
+      "api_verification_state": "Native terms/accessoverview200HTML and publicAPIroot200HTMLwelcomebannerlabelledlatest. Not actualmachineAPI/schemaJSONsuccess; exactreadoperation/auth/quotasunknown.",
+      "latest_checked_utc": "2026-10-18T14:40:45.121085+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "auscope-earthbank",
       "provider": "AuScope Geochemistry Network / Lithodat",
       "service_name": "AuScope EarthBank geochemistry platform/API",
@@ -15102,6 +15120,24 @@
       "license_url": "https://www.uni-bielefeld.de/ub/digital/forschungsdaten/beratung/datenpublikation/",
       "api_verification_state": "native_listing_robots_deferred_independent_institutional_guide_verified_API_unsent",
       "latest_checked_utc": "2026-10-17T22:41:38.692871+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "biodata-dmportal",
+      "provider": "BioData.pt / ELIXIR Portugal",
+      "service_name": "DMPortal research data repository",
+      "geographic_coverage": "Portugal-hosted researchrepository, openallresearchfields; exactsourcegeographyvaries",
+      "topical_coverage": "research | health | agriculture",
+      "dataset_families": "GeneralresearchwithCOVID19,humanhealth,plantsciencesfocus",
+      "documentation_url": "https://biodata.pt/services/dmportal",
+      "api_base_url": "https://dmportal.biodata.pt/oai (registryclaim, guarduntested)",
+      "format_protocol": "RegistryOAI/RESTclaims, nativeownerDataverseidentityonly; noquerycontractverified",
+      "authentication": "ActualAPIaccessuntested; noaccounts/keys",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown current uniform metadata/data grant",
+      "license_url": "https://biodata.pt/services/dmportal",
+      "api_verification_state": "OAIIdentifyguard-deferredtargetunsent. IndependentnativeBioDataownerpage200HTMLconfirmsserviceidentityandfocus; no API/XML/JSON/schemaresponseverified.",
+      "latest_checked_utc": "2026-10-18T14:40:45.121085+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22233,6 +22269,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "lapal-long-acting-therapeutics",
+      "provider": "Medicines Patent Pool / LAPaL",
+      "service_name": "LAPaL technology and patents discovery",
+      "geographic_coverage": "International long-acting therapeutics/patent landscape with LMIC access context",
+      "topical_coverage": "health | research | law/civic data",
+      "dataset_families": "Long-acting technologies, compounds, patent/licensing landscape and access-principle commitments",
+      "documentation_url": "https://lapal.ch/information | https://www.lapal.ch/access-principles",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Website docs public; exact exportaccount/APIauthnotapplicable/unknown",
+      "free_access_restrictions": "Publicdocs/content; sourceexceptions apply. No currentlydocumented API/free-tier.",
+      "license": "CC BY 4.0 site content unless otherwise noted",
+      "license_url": "https://lapal.ch/information | https://www.lapal.ch/access-principles",
+      "api_verification_state": "Native FAQ/accessprinciples200substantiveHTML. FAQ explicitlyonlyPDF/spreadsheetexportnow; programmaticAPI/bulkdownloadmaybefuture. No currentpublicAPIclaimed or machineJSONresponse.",
+      "latest_checked_utc": "2026-10-18T14:40:45.121085+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "las-vegas-open-data",
       "provider": "City of Las Vegas",
       "service_name": "Las Vegas public OGC Records catalog",
@@ -22876,8 +22930,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across652successfulpages/652000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:35:37.575976+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across665successfulpages/665000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:41:22.638907+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
