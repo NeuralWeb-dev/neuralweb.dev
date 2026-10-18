@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:40:44.671672+00:00",
+  "published_at": "2026-10-18T01:42:47.894954+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:39:13.975937+00:00",
+  "research_updated_at": "2026-10-18T01:41:51.154434+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "REPOSIT and corrected Lithuanian CLARIN OAI capabilities verified; metadata terms unresolved; DATICE/GAGNÍS covered data restrictions retained.",
+  "latest_milestone": "DaSCH core metadata public-domain/OAI verified; BioModels current deployment held; NIPR ADS OAI verified with published source redistribution restriction.",
   "counts": {
-    "verified": 331,
-    "candidates": 727,
-    "excluded": 194,
+    "verified": 332,
+    "candidates": 728,
+    "excluded": 195,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -6186,6 +6186,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "dasch-public-metadata-oai",
+      "provider": "DaSCH Swiss National Data and Service Center for the Humanities",
+      "service_name": "DaSCH public discovery metadata OAI-PMH",
+      "geographic_coverage": "Swiss humanities research projects with multilingual/international collections",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Project, collection and record discovery metadata; historical text/image/audio/video domain data and assets separately licensed",
+      "documentation_url": "https://docs.dasch.swiss/DSP-META/data/v2-datamodel/",
+      "api_base_url": "https://repository.dasch.swiss/dpe/oai",
+      "format_protocol": "OAI-PMH XML with oai_dc and oai_datacite; DSP-API data service distinct",
+      "authentication": "Anonymous metadata Identify/formats/header request succeeded; source resource/asset permissions differ",
+      "free_access_restrictions": "Core discovery metadata public domain under native metadata model policy. Embargo limits visibility; domain metadata part of project data can retain its own licence.",
+      "license": "Explicit public-domain core discovery metadata policy; project/domain assets retain source rights",
+      "license_url": "https://docs.dasch.swiss/DSP-META/data/v2-datamodel/",
+      "api_verification_state": "Native OAI Identify/ListMetadataFormats/ListIdentifiers HTTP200 valid XML; current metadata licence document HTTP200. DSP-API docs separately guard-held, no alternative DSP query.",
+      "latest_checked_utc": "2026-10-18T01:41:46.844795+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "datacite",
       "provider": "DataCite",
       "service_name": "DataCite API",
@@ -11927,6 +11945,24 @@
       "license_url": "https://www.uni-bielefeld.de/ub/digital/forschungsdaten/beratung/datenpublikation/",
       "api_verification_state": "native_listing_robots_deferred_independent_institutional_guide_verified_API_unsent",
       "latest_checked_utc": "2026-10-17T22:41:38.692871+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "biomodels-model-repository",
+      "provider": "BioModels / University of Florida Laboratory for Systems Medicine",
+      "service_name": "BioModels mathematical model repository/API",
+      "geographic_coverage": "International biological systems modelling literature; model-specific source scope",
+      "topical_coverage": "research | health",
+      "dataset_families": "Curated/computational biological models and annotations; model execution/source files not acquired",
+      "documentation_url": "https://www.biomodels.org/docs/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Historical operator CC0 model-data statement; current deployment grant unresolved under hold",
+      "license_url": "https://www.ebi.ac.uk/training/online/courses/biomodels-quick-tour/what-is-biomodels/",
+      "api_verification_state": "Native current root guard-deferred unsent. Independent University of Florida2025 transfer announcement and former-operator training policy HTTP200; no current API response verified.",
+      "latest_checked_utc": "2026-10-18T01:41:46.844795+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26545,6 +26581,24 @@
       "license_url": "https://www.nii.ac.jp/dsc/idr/en/service/documents/service-policy-org.html",
       "api_verification_state": "Native official/maintainer documentation reviewed; no successful machineAPI sample, details in notes",
       "latest_checked_utc": "2026-10-18T00:13:54.922793+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nipr-arctic-antarctic-data-system",
+      "provider": "National Institute of Polar Research / ADS",
+      "service_name": "Arctic and Antarctic Data archive System OAI-PMH",
+      "geographic_coverage": "Arctic, Antarctic and cryosphere research; dataset-specific stations/periods",
+      "topical_coverage": "climate/weather/environment | oceans | geospatial | research",
+      "dataset_families": "Polar observation/experiment dataset metadata and scientific data with individual conditions",
+      "documentation_url": "https://ads.nipr.ac.jp/portal/kiwa/OaiReference.action",
+      "api_base_url": "https://ads.nipr.ac.jp/portal/oai",
+      "format_protocol": "OAI-PMH XML; native guide lists ISO19139/DIF metadata options",
+      "authentication": "Anonymous OAI Identify succeeded; restricted datasets require registration and individual terms, not requested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Published ADS custom data-use policy prohibits redistribution and retains per-dataset conditions",
+      "license_url": "https://ads.nipr.ac.jp/pdf/ADSDataPolicy_en.pdf",
+      "api_verification_state": "Native OAI guide HTTP200. Its relative ../oai URL resolved against guide URL; Identify HTTP200 parsed XML. Current policy page JS shell; native published PDF policy preserved/reviewed.",
+      "latest_checked_utc": "2026-10-18T01:41:46.844795+00:00",
       "classification": "restricted"
     },
     {
