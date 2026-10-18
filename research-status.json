@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:48:26.334324+00:00",
+  "published_at": "2026-10-18T05:50:30.302408+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:48:11.960315+00:00",
+  "research_updated_at": "2026-10-18T05:50:25.544675+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Latvia/UK/Brazil original repository reviews: two held API/licensing candidates and native PUC-Rio NC-SA restriction verified.",
+  "latest_milestone": "ADA deduplicated with current native access guide; Leiden/ČSDA restricted source families documented, exceptions and API holds preserved.",
   "counts": {
     "verified": 361,
     "candidates": 851,
-    "excluded": 251,
+    "excluded": 253,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -12067,7 +12067,7 @@
       "license": "Public metadata and any unrestricted data subset licensing unconfirmed; archive data access mixed",
       "license_url": "https://ada.edu.au/accessing-data/",
       "api_verification_state": "official_repository_linked_API_unverified_original_anti_bot_challenge_held",
-      "latest_checked_utc": "2026-10-17T04:24:07.395820+00:00",
+      "latest_checked_utc": "2026-10-18T05:50:20.954964+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28345,6 +28345,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "czech-social-science-data-archive",
+      "provider": "Institute of Sociology, Czech Academy of Sciences",
+      "service_name": "Czech Social Science Data Archive / ČSDA",
+      "geographic_coverage": "Czech social science and international collections; source-specific coverage varies",
+      "topical_coverage": "demographics | research | labor | health | law/civic data",
+      "dataset_families": "Questionnaire surveys, public-opinion research,2015–2020household panel, research trends and separately controlled qualitative Medard archive",
+      "documentation_url": "https://archiv.soc.cas.cz/en/pristup-k-datum-2/nase-data",
+      "api_base_url": "https://archivdv.soc.cas.cz/oai",
+      "format_protocol": "OAI-PMH registry claim; runtime not verified",
+      "authentication": "Original OAI Identify guard-deferred unsent; ordinary source access registration/agreement, explicit open exceptions possible",
+      "free_access_restrictions": "Ordinary electronic datasets free unless stated otherwise, noncommercial/no redistribution and study-specific permission; other services may cost. No paid acquisition.",
+      "license": "Ordinary archive datasets noncommercial research/teaching and no redistribution; explicit CC BY exceptions possible",
+      "license_url": "https://archiv.soc.cas.cz/en/pristup-k-datum-2/datovy-katalog/condition-of-use | https://archiv.soc.cas.cz/images/DMP_vzor_CSDA_Version_2.0.pdf",
+      "api_verification_state": "Native owner data/conditions200HTML; original OAI Identify guard-deferred, no repository/API response",
+      "latest_checked_utc": "2026-10-18T05:50:20.954964+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "databrary-restricted-research-library",
       "provider": "New York University / Databrary",
       "service_name": "Databrary behavioral audio/video research library",
@@ -29764,6 +29782,24 @@
       "license_url": "https://laws.africa/platform/content/ | https://laws.africa/research-access/",
       "api_verification_state": "documented_bearer_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:28:16.872945+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "leiden-edepot-archives",
+      "provider": "Erfgoed Leiden en Omstreken / Gemeente Leiden",
+      "service_name": "Leiden e-depot digital archives",
+      "geographic_coverage": "Leiden and affiliated regional municipalities, Netherlands",
+      "topical_coverage": "culture | housing | geospatial | law/civic data",
+      "dataset_families": "Digital municipal archives, building permits/drawings, council video minutes, historic posters and municipal maps; collection-specific rights",
+      "documentation_url": "https://erfgoedleiden-e-depot.access.preservica.com/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Unrestricted browser archives require no username/password; marked materials own-use/closed/study-room conditions. API contract unknown.",
+      "license": "Restricted copyright/privacy-marked records; other collection grants unknown",
+      "license_url": "https://erfgoedleiden-e-depot.access.preservica.com/over-het-e-depot/",
+      "api_verification_state": "Native root/about200HTML, not API result; no e-depot machine-query API established",
+      "latest_checked_utc": "2026-10-18T05:50:20.954964+00:00",
       "classification": "restricted"
     },
     {
