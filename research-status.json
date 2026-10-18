@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T04:16:15.092776+00:00",
+  "published_at": "2026-10-18T04:18:18.198815+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:13:34.517421+00:00",
+  "research_updated_at": "2026-10-18T04:17:19.999617+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
   "counts": {
-    "verified": 351,
-    "candidates": 794,
-    "excluded": 227,
+    "verified": 352,
+    "candidates": 796,
+    "excluded": 229,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -6277,6 +6277,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "chembl-data-api",
+      "provider": "EMBL-EBI / ChEMBL",
+      "service_name": "ChEMBL Data Web Services",
+      "geographic_coverage": "Global scientific observations; individual dataset coverage varies",
+      "topical_coverage": "research | health",
+      "dataset_families": "Core bioactivity database: molecules, assays, activities, targets, documents and source classifications; API status tested only",
+      "documentation_url": "https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services",
+      "api_base_url": "https://www.ebi.ac.uk/chembl/api/data/",
+      "format_protocol": "REST XML(default), JSON, YAML; compound SVG/SDF documented, not retrieved",
+      "authentication": "Anonymous native status GET succeeded without key; no accounts/keys used",
+      "free_access_restrictions": "Public core database reused under BY-SA3.0; commercial-software-derived property calculations have separate supplier conditions and are excluded from accepted open scope",
+      "license": "CC BY-SA3.0 core ChEMBL database; excludes commercial-software-derived property calculations",
+      "license_url": "https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions | https://creativecommons.org/licenses/by-sa/3.0/",
+      "api_verification_state": "Current API docs/owner database licence HTTP200; anonymous status.json HTTP200 validJSON statusUP (ChEMBL37). No molecule/assay/clinical/source record request.",
+      "latest_checked_utc": "2026-10-18T04:17:15.613050+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "chemotion-public-repository-api",
       "provider": "Chemotion Repository / Karlsruhe Institute of Technology",
       "service_name": "Chemotion public REST metadata and OAI-PMH",
@@ -7419,13 +7437,13 @@
       "dataset_families": "European statistical indicators; national accounts; population",
       "documentation_url": "https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access",
       "api_base_url": "https://ec.europa.eu/eurostat/api/dissemination/",
-      "format_protocol": "REST/JSON",
+      "format_protocol": "REST Statistics JSON-stat2.0; SDMX2.1/3.0 data/metadata with XML/CSV/JSON-stat/TSV; catalogue TOC XML/TXT and DCAT-AP RDF documented",
       "authentication": "none for public read",
       "free_access_restrictions": "Public statistics JSON API sample succeeded without key",
       "license": "Eurostat free reuse of statistical data/metadata; editorial content CC BY 4.0",
       "license_url": "https://ec.europa.eu/eurostat/web/main/help/copyright-notice",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:38:13.781373+00:00",
+      "latest_checked_utc": "2026-10-18T04:16:50.396171+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13116,6 +13134,24 @@
       "license_url": "https://cdlib.org/about/policies-and-guidelines/",
       "api_verification_state": "Nativeowner/APIdocsHTTP200. ExactdocumentedexampleGETHTTP400text/plain error:no-such-identifier; notsuccessfulmetadata response",
       "latest_checked_utc": "2026-10-18T01:12:39.641522+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cell-image-library",
+      "provider": "Cell Image Library",
+      "service_name": "Cellular microscopy image repository",
+      "geographic_coverage": "Global scientific observations; individual dataset coverage varies",
+      "topical_coverage": "research | health",
+      "dataset_families": "Cell microscopy images and associated descriptions, exact API/source rights unverified",
+      "documentation_url": "https://www.cellimagelibrary.org/home",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.cellimagelibrary.org/pages/license",
+      "api_verification_state": "Original root and licence requests guard-deferred, target unsent; no successful native API response",
+      "latest_checked_utc": "2026-10-18T04:17:15.613050+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22659,6 +22695,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "subaru-soaps-archive",
+      "provider": "National Astronomical Observatory of Japan / Subaru",
+      "service_name": "Subaru Observatory Astronomical Projects SOAPs",
+      "geographic_coverage": "Subaru Deep Field and Subaru XMM-Newton Deep Survey sky fields, not country statistics",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Reduced SDF and SXDS astronomical images and catalogues; SDPS project described",
+      "documentation_url": "https://soaps.nao.ac.jp/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML index and documented image/catalogue downloads; not verified query API",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://subarutelescope.org/en/sitepolicy/",
+      "api_verification_state": "Native root/project documentation HTTP200HTML; original owner policy request guard-deferred unsent. No query API established.",
+      "latest_checked_utc": "2026-10-18T04:17:15.613050+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sunshine-coast-open-data-search",
       "provider": "Sunshine Coast Council",
       "service_name": "SCC Open Data Search API",
@@ -26729,6 +26783,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "codex-sinaiticus-digital",
+      "provider": "Codex Sinaiticus Project / partner holding institutions",
+      "service_name": "Codex Sinaiticus digital manuscript portal",
+      "geographic_coverage": "Greek biblical manuscript; partner collections in UK/Germany/Egypt/Russia, not global statistical coverage",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Electronic manuscript images, transcription and associated metadata",
+      "documentation_url": "https://codexsinaiticus.org/en/",
+      "api_base_url": "",
+      "format_protocol": "HTML interface; documented TEI-derived XML file download is not query API",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Noncommercial personal/educational electronic copy and metadata; transcription CC BY-NC-SA3.0",
+      "license_url": "https://codexsinaiticus.org/en/copyright.aspx | https://codexsinaiticus.org/en/project/transcription_download.aspx",
+      "api_verification_state": "Native owner root/copyright/transcription documentation HTTP200HTML; no public query API established",
+      "latest_checked_utc": "2026-10-18T04:16:50.396171+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "colorado-information-marketplace",
       "provider": "State of Colorado",
       "service_name": "Colorado Information Marketplace SODA APIs",
@@ -27914,6 +27986,24 @@
       "license_url": "https://fcon_1000.projects.nitrc.org/ | https://fcon_1000.projects.nitrc.org/indiPRIME.html",
       "api_verification_state": "restricted_portal_primary_documentation_reviewed_original_policy_held_API_unresolved",
       "latest_checked_utc": "2026-10-17T18:16:07.539769+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "infevers-variant-registry",
+      "provider": "Infevers / Montpellier",
+      "service_name": "Hereditary autoinflammatory disorder mutation registry",
+      "geographic_coverage": "International scientific mutation contributions; no individual-level geographical inventory",
+      "topical_coverage": "health | research",
+      "dataset_families": "Hereditary autoinflammatory disorder variant classifications and gene resources, documentation only reviewed",
+      "documentation_url": "https://infevers.umai-montpellier.fr/web/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Scientific/research use only under owner general conditions; submitter ownership retained",
+      "license_url": "https://infevers.umai-montpellier.fr/web/conditons.html | https://infevers.umai-montpellier.fr/web/instructions_for_use.php",
+      "api_verification_state": "Public root and conditions/instructions HTTP200HTML, no API contract/sample established",
+      "latest_checked_utc": "2026-10-18T04:16:50.396171+00:00",
       "classification": "restricted"
     },
     {
