@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T07:22:40.105703+00:00",
+  "published_at": "2026-10-18T07:24:42.918768+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:21:30.913676+00:00",
+  "research_updated_at": "2026-10-18T07:23:35.978967+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CoRIS redirect/historical REST, DGR held root, LAMBDA documented free cloud access/source-rights and S3 hold reviewed.",
+  "latest_milestone": "Open-archeOcsean native BY4 catalogue/GitHub metadata verified; ELIXIR hosting controls and DESY OAI date/policy scope reviewed.",
   "counts": {
-    "verified": 375,
-    "candidates": 908,
-    "excluded": 267,
+    "verified": 376,
+    "candidates": 909,
+    "excluded": 268,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -10069,6 +10069,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "open-archeocsean-catalogue",
+      "provider": "Open-archeOcsean / OCSEAN research project",
+      "service_name": "Open-archeOcsean catalogue via published GitHub data API",
+      "geographic_coverage": "Archaeology of Pacific and East/Southeast Asia",
+      "topical_coverage": "culture | research | geospatial",
+      "dataset_families": "Catalogue of openly described archaeological resources; one published data CSV descriptor returned, source records not fetched",
+      "documentation_url": "https://github.com/sebastien-plutniak/open-archeocsean",
+      "api_base_url": "https://api.github.com/repos/sebastien-plutniak/open-archeocsean/contents/",
+      "format_protocol": "GitHub REST contents JSON valid one-file directory listing; underlying CSV not fetched; Shiny interface separate",
+      "authentication": "Anonymous small GitHub API GET succeeds; no account/key",
+      "free_access_restrictions": "Owner says catalogue free of charge and explicitly metadata/data BY4; upstream archaeological resources retain independent grants",
+      "license": "CC BY4.0 for catalogue metadata/data; GPL3 software separate",
+      "license_url": "https://github.com/sebastien-plutniak/open-archeocsean | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native Shiny landing200 limited visible text; owner repository200 operative catalogue terms read; anonymous GitHub directory API200 valid one-file JSON. Actual catalogue CSV/source rows not retrieved.",
+      "latest_checked_utc": "2026-10-18T07:23:31.330651+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "open-university-knowledge-graphs",
       "provider": "The Open University / Knowledge Media Institute",
       "service_name": "Open University RDF/SPARQL metadata service",
@@ -15630,6 +15648,24 @@
       "license_url": "https://depositonce.tu-berlin.de/info/help",
       "api_verification_state": "native_CC0_metadata_grant_and_OAIexistence_documented_AIautomated_access_policy_hold_exactbase_runtime_unresolved",
       "latest_checked_utc": "2026-10-17T22:15:30.355567+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "desy-public-data-scicat",
+      "provider": "Deutsches Elektronen-Synchrotron DESY",
+      "service_name": "Public-data DESY SciCat catalogue OAI service",
+      "geographic_coverage": "DESY-hosted scientific research; exact catalogue source coverage unenumerated",
+      "topical_coverage": "research",
+      "dataset_families": "Public scientific datasets/catalogue metadata, indexed help describes XRR community; source files separate",
+      "documentation_url": "https://public-data.desy.de",
+      "api_base_url": "https://public-data.desy.de/oaipmh/oai",
+      "format_protocol": "OAI-PMH2 XML Identify returned; registry additionally lists OpenAIRE OAI and REST/v3, not queried",
+      "authentication": "Anonymous Identify200; indexed help says public catalogue browsing; source storage/login separate",
+      "free_access_restrictions": "Tiny Identify no payment/key; source files, login and quota conditions not tested",
+      "license": "Division-specific public high-level metadata CC0 policy verified; exact all-catalogue mapping unconfirmed",
+      "license_url": "https://bib-pubdb1.desy.de/record/641877/files/DESY%20Photon%20Science%20FD%20Policy%20english%20v1.1.pdf",
+      "api_verification_state": "Native root/help200 application shells, not full policy/API proof. Exact OAI Identify200 namespace-correct XML/protocol2/no error elements; earliestDatestamp2017-01-00 invalid day00, so not strict OAI schema/date valid. Native policy PDF200 and official reader reviewed.",
+      "latest_checked_utc": "2026-10-18T07:23:31.330651+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30176,6 +30212,24 @@
       "license_url": "https://www.huygens.knaw.nl/informatie/disclaimer-en-copyright/",
       "api_verification_state": "native_operator_docs_auth_editing_REST_and_published_edition_links_verified_no_anonymous_query_sample_or_data_grant_native_owner_default_NCSA4_verified",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "elixir-luxembourg-data-sustainability",
+      "provider": "ELIXIR Luxembourg / Luxembourg Centre for Systems Biomedicine",
+      "service_name": "Data Sustainability controlled hosting service",
+      "geographic_coverage": "Luxembourg/EU and international biomedical research hosting",
+      "topical_coverage": "health | research",
+      "dataset_families": "Hosted biomedical/translational research datasets, open or controlled access chosen by providers; no study records fetched",
+      "documentation_url": "https://elixir-luxembourg.org/services/data-sustainability/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner describes access requests, possible Data Access Committee review and signed Data Use Agreement before approved source access",
+      "free_access_restrictions": "Native service page says free/low-cost and hosting by default free10yearagreements; no blanket free data/API access inferred",
+      "license": "Source-specific controlled/open models and access agreements; website text NC/unmodified terms",
+      "license_url": "https://elixir-luxembourg.org/services/data-sustainability/ | https://elixir-luxembourg.org/privacy/terms_of_use/",
+      "api_verification_state": "Native service catalogue, specific hosting page and terms200 reviewed; exact public source-data API not documented/queried here",
+      "latest_checked_utc": "2026-10-18T07:23:31.330651+00:00",
       "classification": "restricted"
     },
     {
