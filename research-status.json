@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T20:08:13.907295+00:00",
+  "published_at": "2026-10-18T20:10:17.058276+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:07:39.122355+00:00",
+  "research_updated_at": "2026-10-18T20:08:14.980928+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CARLA CC0 and keyedOpenAPI verified; C-BIGcontrolledscope and WDBextra restrictions retained.",
+  "latest_milestone": "CARLA CC0 data and keyed OpenAPI verified; Probes held, SPARC/SusDat rights gaps; C-BIG controlled scope and WDB extra reuse restrictions.",
   "counts": {
     "verified": 452,
     "candidates": 1332,
@@ -1628,6 +1628,7 @@
           "hdrn-dash-data-access",
           "health-data-nexus-access-portal",
           "ipums-microdata-extract-api",
+          "neuro-cbig-repository",
           "npdb-credentialing-data-services",
           "polar-data-catalogue-metadata-api",
           "primate-cell-type-database",
@@ -2108,6 +2109,7 @@
           "ipums-microdata-extract-api",
           "ipums-nhgis-api",
           "nces-restricted-use-data",
+          "neuro-cbig-repository",
           "nova-scotia-offshore-data-centre",
           "npdb-credentialing-data-services",
           "polar-data-catalogue-metadata-api",
@@ -3380,6 +3382,7 @@
           "qualibi-qualitative-education",
           "repisalud-repository",
           "swiss-al-fcs",
+          "wolfenbuettel-digital-library",
           "zpid-rdc-controlled-research"
         ]
       },
@@ -3966,7 +3969,8 @@
           "meertens-collections-portal",
           "sandrart-rest-api",
           "swiss-al-fcs",
-          "tna-discovery"
+          "tna-discovery",
+          "wolfenbuettel-digital-library"
         ]
       },
       "research": {
@@ -4335,6 +4339,7 @@
           "tna-discovery",
           "wdc-moscow-solar-terrestrial",
           "wdc-moscow-solid-earth-physics",
+          "wolfenbuettel-digital-library",
           "zew-research-data-centre",
           "zpid-rdc-controlled-research"
         ]
