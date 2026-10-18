@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T19:51:48.817505+00:00",
+  "published_at": "2026-10-18T19:53:52.206727+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:51:47.368996+00:00",
+  "research_updated_at": "2026-10-18T19:52:29.095072+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CGSpace API identity/license gap; IDEM metadataNC-SA and BVH Epistemon NC-SA scoped restricted; source rights separate.",
+  "latest_milestone": "Six original services reviewed: RIUBU/B2FIND scoped open metadata; CGSpace/Alaska gaps; IDEMmetadata/BVHEpistemon noncommercial restrictions. Three validOAIidentities.",
   "counts": {
     "verified": 449,
     "candidates": 1325,
@@ -2770,6 +2770,7 @@
           "croatia-statistics",
           "dlr-eoc-geoservice",
           "estonia-statistics",
+          "eudat-b2find-metadata",
           "eurostat",
           "fulir-data-metadata",
           "georgia-statistics",
@@ -2835,6 +2836,7 @@
           "esgf-nci-discovery",
           "esrf-icatplus-public-data",
           "estonia-statistics",
+          "eudat-b2find-metadata",
           "faroe-statistics",
           "fingal-open-data",
           "fulir-data-metadata",
@@ -3207,6 +3209,7 @@
           "poland-bdl",
           "poland-gus-sdg",
           "psycharchives-repository",
+          "riubu-burgos-repository",
           "rostock-rosdok",
           "saw-leipzig-repository",
           "scotland-catalog",
@@ -3492,6 +3495,7 @@
           "ea-hydrology",
           "earthportal-semantic-catalog",
           "emodnet",
+          "eudat-b2find-metadata",
           "fingal-open-data",
           "hcdc-datasearch-metadata-api",
           "italy-nnb-ogc-features",
@@ -3798,6 +3802,7 @@
           "ebiltegia-public-metadata-oai",
           "ecienciadatos-madrono-metadata",
           "estonia-statistics",
+          "eudat-b2find-metadata",
           "eurac-clarin-repository",
           "europeana",
           "eurostat",
@@ -3828,6 +3833,7 @@
           "poland-bdl",
           "registry-data-sz-ch",
           "registry-data-tg-ch",
+          "riubu-burgos-repository",
           "rostock-rosdok",
           "sandrart-rdf-linked-data",
           "saw-leipzig-repository",
@@ -3931,6 +3937,7 @@
         "restricted_provider_ids": [
           "avida-audiovisual-research",
           "bnf-gallica",
+          "bvh-humanistic-libraries",
           "codex-sinaiticus-digital",
           "cranachnet-mediawiki",
           "dirros-research-repository",
@@ -3984,6 +3991,7 @@
           "esgf-ceda-discovery",
           "esgf-nci-discovery",
           "esrf-icatplus-public-data",
+          "eudat-b2find-metadata",
           "eurac-clarin-repository",
           "faroe-statistics",
           "finna",
@@ -4022,6 +4030,7 @@
           "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
+          "riubu-burgos-repository",
           "rostock-rosdok",
           "sandrart-rdf-linked-data",
           "saw-leipzig-repository",
@@ -4246,6 +4255,7 @@
           "bllast-field-campaign",
           "bnf-gallica",
           "bundesbank-rdsc-microdata",
+          "bvh-humanistic-libraries",
           "cdgp-geothermal-portal",
           "cdsp-sciencespo-data-bank",
           "closer-discovery-metadata",
@@ -6251,7 +6261,8 @@
           "o2a-registry-rest",
           "pgc-dem-stac",
           "polish-polar-data-catalogue",
-          "uk-polar-data-centre"
+          "uk-polar-data-centre",
+          "usgs-alaska-science-center"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -6278,7 +6289,8 @@
           "china-ncdc-cryosphere-desert-portal",
           "cresis-open-polar-radar",
           "lter-italy-dataset-asset-registry",
-          "uk-polar-data-centre"
+          "uk-polar-data-centre",
+          "usgs-alaska-science-center"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -6356,7 +6368,8 @@
           "nsidc",
           "pgc-dem-stac",
           "polish-polar-data-catalogue",
-          "uk-polar-data-centre"
+          "uk-polar-data-centre",
+          "usgs-alaska-science-center"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -6397,7 +6410,8 @@
         ],
         "candidate_provider_ids": [
           "lter-italy-dataset-asset-registry",
-          "marine-data-germany-portal"
+          "marine-data-germany-portal",
+          "usgs-alaska-science-center"
         ],
         "restricted_provider_ids": [
           "nordicana-d-data-series"
@@ -6483,7 +6497,8 @@
           "o2a-registry-rest",
           "pgc-dem-stac",
           "polish-polar-data-catalogue",
-          "uk-polar-data-centre"
+          "uk-polar-data-centre",
+          "usgs-alaska-science-center"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
