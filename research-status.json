@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T01:44:51.039992+00:00",
+  "published_at": "2026-10-18T01:46:53.551047+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:44:44.306382+00:00",
+  "research_updated_at": "2026-10-18T01:46:09.496572+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DaSCH public metadata header frontier checkpointed: 9000raw headers, 8996unique IDs, 4duplicates across90pages; cursor pending.",
+  "latest_milestone": "Twelve original tasks reviewed, twelve records added. ThermoML/DaSCH metadata scopes verified; DaSCH8996unique IDs from90pages with continuation saved; native rights/API errors and holds retained.",
   "counts": {
     "verified": 332,
     "candidates": 730,
@@ -190,7 +190,8 @@
           "undata-official-sdmx-api",
           "unite-species-hypotheses",
           "unsd",
-          "usgs-sciencebase-catalogue"
+          "usgs-sciencebase-catalogue",
+          "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
@@ -238,7 +239,8 @@
           "nced-data-repository",
           "nodc-ieo-geonetwork",
           "scripps-ogdc-data-portal",
-          "usgs-sciencebase-catalogue"
+          "usgs-sciencebase-catalogue",
+          "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -590,7 +592,8 @@
           "seabass-sst-validation-api",
           "shom-data",
           "sioexplorer-legacy-cruise-archive",
-          "usgs-sciencebase-catalogue"
+          "usgs-sciencebase-catalogue",
+          "whoi-upper-ocean-processes"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -855,6 +858,7 @@
           "unite-species-hypotheses",
           "usgs-sciencebase-catalogue",
           "wellcome-collection",
+          "whoi-upper-ocean-processes",
           "world-stress-map-oai"
         ],
         "restricted_provider_ids": [
@@ -1931,6 +1935,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
           "eurocat-controlled-research-data",
           "hunt-health-study",
@@ -1987,6 +1992,7 @@
         ],
         "restricted_provider_ids": [
           "bonn-open-data",
+          "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey"
         ]
       },
@@ -2411,6 +2417,7 @@
           "alspac-cohort-access-portal",
           "bioimages-uk-field-guide",
           "bonn-open-data",
+          "datice-gagnis-iceland",
           "elaborate-digital-edition-services",
           "heidicon-object-multimedia-repository",
           "lindat-fcs",
@@ -3002,6 +3009,7 @@
           "comparative-agendas-project",
           "copernicus-marine",
           "cranachnet-mediawiki",
+          "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
           "dirros-research-repository",
           "edaphobase-soil-biodiversity-api",
@@ -3393,6 +3401,7 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "roceeh-road-prehistory-database",
           "sanbi-birdie",
           "wis2-ghana",
           "wis2-kenya",
@@ -3433,6 +3442,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "cifor-icraf",
+          "roceeh-road-prehistory-database",
           "sanbi-birdie"
         ],
         "restricted_provider_ids": []
@@ -3458,6 +3468,7 @@
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
           "cifor-icraf",
+          "roceeh-road-prehistory-database",
           "trr228-african-futures-database"
         ],
         "restricted_provider_ids": [
@@ -3475,6 +3486,7 @@
           "cifor-icraf",
           "dhs-indicator-data-api",
           "laws-africa-knowledge",
+          "roceeh-road-prehistory-database",
           "sanbi-birdie",
           "trr228-african-futures-database",
           "ucla-social-science-dataverse"
@@ -4664,6 +4676,7 @@
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
+          "nipr-arctic-antarctic-data-system",
           "polar-data-catalogue-metadata-api",
           "seaice-portal"
         ]
@@ -4753,6 +4766,7 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
+          "nipr-arctic-antarctic-data-system",
           "polar-data-catalogue-metadata-api"
         ]
       },
@@ -4808,6 +4822,7 @@
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
+          "nipr-arctic-antarctic-data-system",
           "polar-data-catalogue-metadata-api",
           "seaice-portal"
         ]
@@ -4851,6 +4866,7 @@
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
+          "nipr-arctic-antarctic-data-system",
           "polar-data-catalogue-metadata-api",
           "seaice-portal"
         ]
