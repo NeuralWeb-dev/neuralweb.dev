@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:23:01.639171+00:00",
+  "published_at": "2026-10-18T00:25:04.457470+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:21:33.216468+00:00",
+  "research_updated_at": "2026-10-18T00:24:48.333654+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original providers reviewed; nine new records. HGNC CC0/nativeJSON andSureChEMBLCCBY4/OpenAPI verified; NCDC1780IDs partial,page90timeout.",
+  "latest_milestone": "ModernUSGSWaterOGCv1 publicdomain/nativeJSONverified; NDACANrestricted andUPWrchallenge/licenceunknown checkpointed.",
   "counts": {
-    "verified": 323,
-    "candidates": 667,
-    "excluded": 171,
+    "verified": 324,
+    "candidates": 668,
+    "excluded": 172,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -10293,6 +10293,24 @@
       "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:29:28.953880+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "usgs-water-modern-ogc",
+      "provider": "US Geological Survey",
+      "service_name": "USGS Water Data modern OGC API v1",
+      "geographic_coverage": "US water monitoring locations andassociated national reference metadata; exactcollection coverage varies",
+      "topical_coverage": "water | climate/weather/environment | geospatial | research",
+      "dataset_families": "Continuous/daily waterdata collection metadata, field/channel measurements, monitoring locations, time-seriesmetadata andreferencecodes",
+      "documentation_url": "https://api.waterdata.usgs.gov/docs/ogcapi/ | https://api.waterdata.usgs.gov/docs/agents/",
+      "api_base_url": "https://api.waterdata.usgs.gov/ogcapi/v1/",
+      "format_protocol": "OGCAPI/JSON collectionmetadata; itemqueryformats documentedbutnotqueried",
+      "authentication": "Anonymous root/collectionsJSON succeeded; APIkey increaseslimits, no signup/keyused",
+      "free_access_restrictions": "Freepubliccollectionmetadata; ownkey neededforhigherquotas; automateditems/samples/statistics crawling excluded bypublishedpolicy",
+      "license": "Explicit USGovernmentwork publicdomain declaration for thisservice data",
+      "license_url": "https://api.waterdata.usgs.gov/ogcapi/v1/?f=html",
+      "api_verification_state": "Nativeanonymous v1rootJSON andcollectionsJSONHTTP200 parsed;39collections. NativeHTMLrights verified. No items/observationrequest.",
+      "latest_checked_utc": "2026-10-18T00:24:43.339016+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20738,6 +20756,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "upwr-institutional-repository",
+      "provider": "Wroclaw University of Environmental and Life Sciences",
+      "service_name": "UPWr Knowledge Base institutional repository",
+      "geographic_coverage": "Polish institutional research, exactsource geography varies",
+      "topical_coverage": "research | agriculture",
+      "dataset_families": "Institutional publication/researchdataset descriptions andteaching materials; exactfamiliesunconfirmed",
+      "documentation_url": "https://bazawiedzy.upwr.edu.pl",
+      "api_base_url": "https://bazawiedzy.upwr.edu.pl/oai (registryclaim; nativeheld)",
+      "format_protocol": "RegistryOAI-PMH claim, native runtimeunverified",
+      "authentication": "Nativehomepage verificationchallenge; no login orchallenge solving; OAI requestguard-deferred",
+      "free_access_restrictions": "Exactpublicmetadata/fileaccess andembargo/restrictionterms unresolved",
+      "license": "unknown verified metadata/sourcegrant; registryCC0 not acceptedwithoutoperatorpolicy",
+      "license_url": "",
+      "api_verification_state": "NativehomepageHTTP200 verificationchallenge, notAPI. OriginalOAIunsentguard-deferred.",
+      "latest_checked_utc": "2026-10-18T00:24:43.339016+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "us-data-gov-catalog",
       "provider": "United States General Services Administration / Data.gov",
       "service_name": "Data.gov Catalog API v4 and legacy read-only CKAN migration reference",
@@ -24805,6 +24841,24 @@
       "license_url": "https://nvs.landcareresearch.co.nz/Home/Copyright | https://nvs.landcareresearch.co.nz/Home/Terms",
       "api_verification_state": "native_HTML_policy_and_tools_verified_restricted_source_rights_API_unresolved",
       "latest_checked_utc": "2026-10-17T21:59:27.952936+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ndacan-restricted-research-archive",
+      "provider": "National Data Archive on Child Abuse and Neglect / HHS ACF",
+      "service_name": "NDACAN research dataset agreement service",
+      "geographic_coverage": "US child welfare research; exact study geography/time scope varies",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Child welfare, maltreatment and neglect research study descriptions; protected participant data separate",
+      "documentation_url": "https://ndacan.acf.hhs.gov/about/about-products-and-services.cfm",
+      "api_base_url": "",
+      "format_protocol": "PublicHTML study/service documentation; approveddata delivery formats vary",
+      "authentication": "All research-data users must submit Terms of Use Agreement or licence before receivingdata",
+      "free_access_restrictions": "Agreement/eligibility and additional restricteddata protections; no accessrequest or participantdata retrieval",
+      "license": "Restricted study-specific agreement; no open source-data grant",
+      "license_url": "https://ndacan.acf.hhs.gov/about/about-products-and-services.cfm",
+      "api_verification_state": "Native publichomepage/servicepolicyHTTP200; no machinequeryAPI verified",
+      "latest_checked_utc": "2026-10-18T00:24:43.339016+00:00",
       "classification": "restricted"
     },
     {
