@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:30:17.556569+00:00",
+  "published_at": "2026-10-18T08:32:20.241041+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:27:09.167526+00:00",
+  "research_updated_at": "2026-10-18T08:30:47.564416+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals: AFDC key-required docs, EIA scoped grant retained, OpenEI SPARQL404, Kyoto/NAKB/WDCM/source grants unresolved; DSMZ4 leads and NAtChem6subjects indexed; CRC247 hold preserved.",
+  "latest_milestone": "MoscowSEP/STPnative noncommercialterms verified; AtlasnativeBY4grant verified with legacyorganismGET500 and2APIoperations documented.",
   "counts": {
-    "verified": 381,
+    "verified": 382,
     "candidates": 947,
-    "excluded": 275,
+    "excluded": 277,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -7896,6 +7896,24 @@
       "license_url": "https://ec.europa.eu/eurostat/web/main/help/copyright-notice",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-18T04:16:50.396171+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "expression-atlas-data-access",
+      "provider": "EMBL-EBI Expression Atlas",
+      "service_name": "Expression Atlas database and documented Gene Set Enrichment API",
+      "geographic_coverage": "Multi-species international expression research; exact studies/source geography notenumerated",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Atlascurated gene/protein baseline/differential expression databaseinformation; no sourceassays/clinical/individualdata requested",
+      "documentation_url": "https://www.ebi.ac.uk/gxa/resources/gsa_apispec.pdf | https://www.ebi.ac.uk/gxa/help/index.html",
+      "api_base_url": "http://www.ebi.ac.uk/fg/gsa/api/ (legacy2016owner-specification; currentruntimefailed)",
+      "format_protocol": "Owner2016RESTspec describes organismmetadata andgene-setenrichment TSV/JSON; organismGET500notvalidAPIresponse",
+      "authentication": "No credentials used for failedorganismmetadataGET; exactcurrentAPIauthunknown; no account/key acquired",
+      "free_access_restrictions": "NativeAtlascopyrightabledatabaseinformationCCBY4; underlyingrawsources/controlledEGA access separate, notqueried. No computed enrichment or source downloads.",
+      "license": "Creative Commons Attribution4.0 International",
+      "license_url": "https://www.ebi.ac.uk/gxa/licence.html",
+      "api_verification_state": "Nativehome/licence/help/API-spec200; sourceBY4verified. Exactownerpublished legacygetOrganismsGET500, notAPIJSONsuccess. CurrentactiveRESTruntime unresolved.",
+      "latest_checked_utc": "2026-10-18T08:30:42.773311+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -34270,6 +34288,42 @@
       "license_url": "https://wdc.bgs.ac.uk/usage",
       "api_verification_state": "Native ownerData page links exactAPIhost; nativeOpenAPIHTTP200validJSON and ESKdescriptorHTTP200validJSON withobservatory_iaga_codeESK",
       "latest_checked_utc": "2026-10-18T04:08:37.813994+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wdc-moscow-solar-terrestrial",
+      "provider": "Geophysical Center Russian Academy of Sciences",
+      "service_name": "World Data Center for Solar Terrestrial Physics Moscow",
+      "geographic_coverage": "Russian/CIS andinternational geomagnetic/solar-terrestrial archives; exact station/timecoverage unenumerated",
+      "topical_coverage": "astronomy | geospatial | environment | research",
+      "dataset_families": "Geomagneticvariations/ionosphericphenomena/solaractivity/interplanetarymedium/cosmicrays",
+      "documentation_url": "http://www.wdcb.ru/stp/index.en.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom noncommercial scientific/educational data and metadata terms",
+      "license_url": "http://www.wdcb.ru/stp/policy.html",
+      "api_verification_state": "Nativehome/policy200HTML; digitalfiles/browser/FTP notverifiedqueryAPI",
+      "latest_checked_utc": "2026-10-18T08:30:42.773311+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wdc-moscow-solid-earth-physics",
+      "provider": "Geophysical Center Russian Academy of Sciences",
+      "service_name": "World Data Center for Solid Earth Physics Moscow",
+      "geographic_coverage": "Russian/international solid-earth geophysics archives; exact sourcecoverage unenumerated",
+      "topical_coverage": "geospatial | environment | research",
+      "dataset_families": "Seismology/gravimetry/heatflow/mainmagneticfield/archeo-paleomagnetism and related geophysics",
+      "documentation_url": "http://www.wdcb.ru/sep/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom noncommercial scientific/educational reuse terms",
+      "license_url": "http://www.wdcb.ru/sep/data.html",
+      "api_verification_state": "Nativehome/data200HTML; electronicdatasets/softwareplans not exact verified queryAPI",
+      "latest_checked_utc": "2026-10-18T08:30:42.773311+00:00",
       "classification": "restricted"
     },
     {
