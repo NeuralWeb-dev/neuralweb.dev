@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:41:25.907452+00:00",
+  "published_at": "2026-10-18T00:43:28.460763+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:41:06.982002+00:00",
+  "research_updated_at": "2026-10-18T00:43:08.109910+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks reviewed; eight records added, four existing services updated. Native CMR and Helioviewer JSON verified; NCDC2100 IDs/page106 timeout.",
+  "latest_milestone": "ANES, Phytozome and NADP reviewed with explicit API/rights residuals; three candidate services added.",
   "counts": {
     "verified": 325,
-    "candidates": 677,
+    "candidates": 680,
     "excluded": 175,
     "sample_successes": 469
   },
@@ -11060,6 +11060,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "anes-data-center",
+      "provider": "American National Election Studies",
+      "service_name": "ANES Data Center",
+      "geographic_coverage": "United States electoral behavior; exact study populations vary",
+      "topical_coverage": "demographics | law/civic data | research",
+      "dataset_families": "Election time-series and pilot-study metadata; public versus restricted research releases",
+      "documentation_url": "https://electionstudies.org/data-center/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original root and data-centre requests guard-deferred; no verified public data API",
+      "latest_checked_utc": "2026-10-18T00:43:03.862324+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "anfr-data",
       "provider": "Agence nationale des frequences / ANFR",
       "service_name": "ANFR Open Data / Data4Citizen API",
@@ -16334,6 +16352,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nadp-monitoring-data",
+      "provider": "National Atmospheric Deposition Program / Wisconsin State Laboratory of Hygiene",
+      "service_name": "NADP monitoring data portal",
+      "geographic_coverage": "United States monitoring networks; site-specific coverage and historical span vary",
+      "topical_coverage": "climate/weather/environment | water | research",
+      "dataset_families": "Precipitation chemistry, mercury deposition/air concentrations, atmospheric ammonia and litterfall",
+      "documentation_url": "https://nadp.slh.wisc.edu/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Public domain for NADP website data/information unless otherwise indicated; source acknowledgement required by use conditions",
+      "license_url": "https://nadp.slh.wisc.edu/data-and-information-use-conditions/",
+      "api_verification_state": "Native project, policy and NTN map HTTP200 HTML; no documented stable public API or machine sample verified",
+      "latest_checked_utc": "2026-10-18T00:43:03.862324+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nasa-api",
       "provider": "NASA Open APIs",
       "service_name": "NASA Open APIs API",
@@ -18041,6 +18077,24 @@
       "license_url": "https://physionet.org/about/publish/ | https://physionet.org/content/mitdb/view-license/1.0.0/",
       "api_verification_state": "native_anonymous_JSON_published_catalogue_verified_effective_metadata_and_content_rights_unresolved",
       "latest_checked_utc": "2026-10-17T19:34:35.204212+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "phytozome-phytomine",
+      "provider": "DOE Joint Genome Institute / Phytozome",
+      "service_name": "Phytozome / PhytoMine plant genomics interfaces",
+      "geographic_coverage": "Plant genomes from JGI, collaborators and community; exact current species coverage unverified",
+      "topical_coverage": "biodiversity | agriculture | research",
+      "dataset_families": "Plant genomes, annotations and comparative-genomics warehouse",
+      "documentation_url": "https://phytozome-next.jgi.doe.gov/phytomine/api.do",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Legacy reserved/unreserved data-use policy; exact current source grant unresolved",
+      "license_url": "https://jgi.doe.gov/data-policy-support/legacy-data-policy",
+      "api_verification_state": "Native root HTTP200 JavaScript shell; original PhytoMine API documentation HTTP410, not a machine data response",
+      "latest_checked_utc": "2026-10-18T00:43:03.862324+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
