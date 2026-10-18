@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:29:57.387024+00:00",
+  "published_at": "2026-10-18T17:32:00.746266+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:29:55.970188+00:00",
+  "research_updated_at": "2026-10-18T17:31:10.970958+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: LIAS light scopedNC/ND; INPTDAT per-source licenses/API gap; PKRxiv NCND managed; GIN API docs/terms held; FDZ-DZHW and FDPG controlled access; MDZ959000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to967pages/967000refs;2246503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 441,
-    "candidates": 1200,
-    "excluded": 348,
+    "candidates": 1202,
+    "excluded": 349,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -18703,6 +18703,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "deemy-ectomycorrhizae",
+      "provider": "DEEMY project / mycological research collaborators",
+      "service_name": "DEEMY ectomycorrhiza characterization information system",
+      "geographic_coverage": "Ectomycorrhizal research; exact geographic coverage unknown",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "DEEMY ectomycorrhiza characterization information system",
+      "documentation_url": "http://www.deemy.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original rootHTTP200 title-only DEEMY landing, not substantive public API or license documentation; no successful API response.",
+      "latest_checked_utc": "2026-10-18T17:30:45.411520+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "depositonce-tu-berlin",
       "provider": "Technische Universität Berlin / Service Center for Research Data and Publications",
       "service_name": "DepositOnce repository metadata interfaces",
@@ -19942,6 +19960,24 @@
       "license_url": "https://edg.epa.gov/EPA_Data_License.htm",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T17:20:42.877432+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "epidat-jewish-epigraphy",
+      "provider": "Salomon Ludwig Steinheim Institute",
+      "service_name": "Epidat Jewish funerary epigraphy research platform",
+      "geographic_coverage": "Jewish epigraphy collections, principally Central Europe; exact current coverage unresolved",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Epidat Jewish funerary epigraphy research platform",
+      "documentation_url": "http://www.steinheim-institut.de/cgi-bin/epidat?lang=de",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original native root guard-deferred unsent. Legacy academic descriptions of EpiDoc/HTTP harvesting are discovery leads, not current native API runtime/grant verification.",
+      "latest_checked_utc": "2026-10-18T17:30:45.411520+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24476,8 +24512,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across959successfulpages/959000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:26:34.498205+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across967successfulpages/967000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:31:06.465703+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -38214,6 +38250,24 @@
       "license_url": "https://fred.stlouisfed.org/legal/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-18T08:53:11.186187+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "gaia-aip-archive",
+      "provider": "Leibniz Institute for Astrophysics Potsdam AIP",
+      "service_name": "Gaia@AIP TAP archive",
+      "geographic_coverage": "All-sky astronomical survey; Germany institutional operator",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Gaia DR1/DR2/EDR3/DR3/FPR catalog descriptions and contributed/crossmatch tables; actual stars/coordinates/spectra not acquired",
+      "documentation_url": "https://gaia.aip.de/cms/services/services/",
+      "api_base_url": "https://gaia.aip.de/tap/",
+      "format_protocol": "Native TAP/VOSI XML capabilities; ADQL2.1/PostgreSQL16; documented VOTable/CSV/FITS/Parquet outputs",
+      "authentication": "Anonymous capabilities succeeded; registered query-result storage scientific-use terms, no account used",
+      "free_access_restrictions": "Service account/storage scientific use; native DR3 source-table CC BY-NC3IGO; source/table-specific rights vary",
+      "license": "Native gaiadr3.gaia_source CC BY-NC3.0IGO; scientific service-use conditions",
+      "license_url": "https://gaia.aip.de/metadata/gaiadr3/gaia_source/ | https://gaia.aip.de/accounts/terms_of_use/",
+      "api_verification_state": "Anonymous tap/capabilitiesHTTP200 valid XML; 6 capability and 230 published schema/table documentation references indexed. Native service/credit/terms/table schemaHTTP200. No celestial data rows, jobs or source files.",
+      "latest_checked_utc": "2026-10-18T17:30:45.411520+00:00",
       "classification": "restricted"
     },
     {
