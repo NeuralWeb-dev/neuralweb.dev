@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:56:55.997072+00:00",
+  "published_at": "2026-10-18T08:58:58.843189+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:54:32.191973+00:00",
+  "research_updated_at": "2026-10-18T08:58:27.973149+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve originals: TreeBASE OAI2/twoformats success with firstheader timeout; TAIR publicBY4 exception and agency/CAIDA/BIBB/PAC restrictions; BEA/FRED dedup; Brazil/Germany/France/astronomy scopes reviewed.",
+  "latest_milestone": "LISS restricted; BDR exact CC0 metadata/API documented but held; SND DORIS scoped CC0/APIunresolved; distinct MDZIIIFJSON1000refs saved with returned nextcursor.",
   "counts": {
-    "verified": 383,
-    "candidates": 959,
-    "excluded": 284,
+    "verified": 384,
+    "candidates": 961,
+    "excluded": 285,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -6456,6 +6456,24 @@
       "license_url": "https://www.bristol.gov.uk/council/data-protection-and-foi/open-data",
       "api_verification_state": "actual_native_OGC_discovery_collections_OpenAPI_sample_success_scoped_council_OGL3",
       "latest_checked_utc": "2026-10-17T05:20:05.580704+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "bsb-bdr-oai-metadata",
+      "provider": "Bayerische Staatsbibliothek",
+      "service_name": "Bayerisches Digitales Repositorium OAI metadata",
+      "geographic_coverage": "Bavarian State Library digital holdings and collaborations; works may cover global places/periods",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "B3Kat/local-system bibliographic metadata describing digitized exemplars; not source images/OCR",
+      "documentation_url": "https://oai.bsb-muenchen.de/doc/bayerisches-digitales-repositorium",
+      "api_base_url": "https://bdr.oai.bsb-muenchen.de/OAIHandler",
+      "format_protocol": "Official OAI-PMH documentation; DublinCore/MarcXchange formats documented, runtime held",
+      "authentication": "Public freely accessible metadata interface documented; no credentials used",
+      "free_access_restrictions": "BDR metadata freely accessible; image/OCR/source rights separate",
+      "license": "CC0 1.0 Public Domain Dedication for all BDR metadata records",
+      "license_url": "https://oai.bsb-muenchen.de/doc/bayerisches-digitales-repositorium",
+      "api_verification_state": "Native exact OAI guide200HTML with licence and endpoint; Identify guard-deferred/unsent. Documented API, no successful protocol response.",
+      "latest_checked_utc": "2026-10-18T08:58:17.020199+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20447,6 +20465,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mdz-iiif-services",
+      "provider": "Bayerische Staatsbibliothek / Münchener DigitalisierungsZentrum",
+      "service_name": "MDZ IIIF Presentation and Image APIs",
+      "geographic_coverage": "Digitized Bavarian State Library/collaborating holdings, international cultural works; object-dependent geography",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Digitized manuscripts/prints/music/maps/photos/newspapers; IIIF bibliographic manifests, images and OCR with differing rights",
+      "documentation_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
+      "api_base_url": "https://api.digitale-sammlungen.de/iiif/",
+      "format_protocol": "IIIFPresentation2 JSON-LD collection1000manifestrefs verified; Image2/infoJSON/OCR documented, not queried",
+      "authentication": "Anonymous topcollection successful; docs public Presentation access",
+      "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
+      "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
+      "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
+      "api_verification_state": "Native root/interfaceguide200HTML; documented IIIFtopcollection200validJSON-LD1000refs, not image/download success",
+      "latest_checked_utc": "2026-10-18T08:58:17.020199+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mediatum-repository",
       "provider": "Technical University of Munich University Library",
       "service_name": "mediaTUM publication and research repository",
@@ -25790,6 +25826,24 @@
       "license_url": "https://smoka.nao.ac.jp/about/overview.jsp",
       "api_verification_state": "primary_indexed_search_access_doc_only_original_native_targets_robots_deferred_API_and_rights_unresolved",
       "latest_checked_utc": "2026-10-17T23:27:40.508217+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "snd-doris-metadata",
+      "provider": "Swedish National Data Service",
+      "service_name": "SND / DORIS research metadata discovery",
+      "geographic_coverage": "Swedish research-data discovery with international/source-specific coverage; not all research files cleared",
+      "topical_coverage": "research | demographics | health | environment | culture",
+      "dataset_families": "DORIS metadata and externally harvested research descriptions; research files separately licensed/access governed",
+      "documentation_url": "https://snd.se/en/services/metadata-harvesting | https://snd.se/sv/licenser-och-markningar-pa-webbplatsen",
+      "api_base_url": "https://snd.se/oai-pmh (registry endpoint, native request timed out; exact current outgoing publication API unresolved)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 explicitly verified for DORIS-origin metadata only; API identity unresolved",
+      "license_url": "https://snd.se/sv/licenser-och-markningar-pa-webbplatsen",
+      "api_verification_state": "Native home/licence/harvestingguide200HTML. Registry OAI Identify timeout/statusNone, no successful XML. Current guide describes incoming harvesting/integration, not proof exact outgoing OAI endpoint active.",
+      "latest_checked_utc": "2026-10-18T08:58:17.020199+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32722,6 +32776,24 @@
       "license_url": "https://liser.elsevierpure.com/",
       "api_verification_state": "NativePureportal200HTML; no institution-specific publicAPI/access contract or machine sample verified",
       "latest_checked_utc": "2026-10-18T04:43:03.245292+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "liss-panel-research-access",
+      "provider": "Centerdata / LISS Panel",
+      "service_name": "LISS Data Archive access",
+      "geographic_coverage": "Netherlands longitudinal social-science panel; exact study coverage unenumerated",
+      "topical_coverage": "demographics | economics | labor | health | education | research",
+      "dataset_families": "Longitudinal panel research; source studies/household/person variables and codebooks not accessed",
+      "documentation_url": "https://www.lissdata.nl/how-it-works-archive",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Signed use statement and personal password required for survey data; no account/statement acquired",
+      "free_access_restrictions": "Free scientific/policy/socially relevant noncommercial research; personal use/no redistribution. Paid third-party assignments require separate conditions/payment, not universal access fee.",
+      "license": "Noncommercial research-only, personal access and redistribution restrictions",
+      "license_url": "https://www.lissdata.nl/how-it-works-archive",
+      "api_verification_state": "Native root/ethics/generalterms/archive-access200HTML; exact public read API not established",
+      "latest_checked_utc": "2026-10-18T08:58:17.020199+00:00",
       "classification": "restricted"
     },
     {
