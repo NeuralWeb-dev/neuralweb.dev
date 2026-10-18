@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T22:56:52.537975+00:00",
+  "published_at": "2026-10-18T22:58:55.543037+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:55:47.926903+00:00",
+  "research_updated_at": "2026-10-18T22:57:56.236355+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "PBDB legacyAPIheld/currentgrantgap; ROCK noncommercialmetadata/HTMLIdentify; HMTM selectiveCCBY/sourceexceptions/APIgap.",
+  "latest_milestone": "StrainInfostatusJSONverified/grantgap; PhageDiveBY4/currentAPIgap; UVAAPIcommercialrestrictions/OAIheld.",
   "counts": {
     "verified": 493,
-    "candidates": 1408,
-    "excluded": 405,
+    "candidates": 1410,
+    "excluded": 406,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -21526,6 +21526,42 @@
       "license_url": "https://www.dsmz.de/imprint",
       "api_verification_state": "Native root/imprint/digitalcollection200HTML; ownerlinkedhub200appshell notqueryAPIresponse. Exact individualAPI/runtime/licences unreviewed.",
       "latest_checked_utc": "2026-10-18T08:21:01.867644+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dsmz-phagedive",
+      "provider": "Leibniz Institute DSMZ",
+      "service_name": "PhageDive prokaryotic virus data portal / API discovery",
+      "geographic_coverage": "International public culture-collection information for bacteriophages/archaeal viruses; documentation scope only",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Portal descriptions of prokaryotic virus diversity; no actual biological records or source payloads retrieved",
+      "documentation_url": "https://phagedive.dsmz.de/ | https://academic.oup.com/nar/article/53/D1/D819/7814691",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public overview; no API auth verified",
+      "free_access_restrictions": "Native public portal; exact API availability/free quota unknown; no paid service acquired",
+      "license": "CC BY4.0 native database declaration; API existence/current deployment unresolved",
+      "license_url": "https://phagedive.dsmz.de/imprint#license",
+      "api_verification_state": "Native homepage/imprint HTTP200 proper docs/explicit licence. Indexed original provider paper says API will be implemented in future; no current official API base/schema verified. Web forms/downloads not counted API; kept candidate despite explicit data grant.",
+      "latest_checked_utc": "2026-10-18T22:57:51.422377+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "dsmz-straininfo-api",
+      "provider": "Leibniz Institute DSMZ",
+      "service_name": "StrainInfo strain-identifier resolution REST API",
+      "geographic_coverage": "International microbial culture-collection identifier resolution; service description only",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Strain/deposit identifier relationships and links to collections, taxonomy and literature; no actual strain/taxon/molecular records requested",
+      "documentation_url": "https://straininfo.dsmz.de/service | https://straininfo.dsmz.de/doc",
+      "api_base_url": "https://api.straininfo.dsmz.de",
+      "format_protocol": "REST JSON; provider paper describes OpenAPI3.1.1 documentation, schema not retrieved",
+      "authentication": "Anonymous service status root succeeded without credentials; source operations not exercised",
+      "free_access_restrictions": "Indexed primary provider article describes freely available REST API; numerical quotas/source rights unknown",
+      "license": "unknown verified data grant",
+      "license_url": "https://straininfo.dsmz.de/service | https://academic.oup.com/database/article/doi/10.1093/database/baaf059/8263862",
+      "api_verification_state": "Native root/service HTTP200 client shells, not documentation payload. Registered APIroot HTTP200 valid JSON service status: private=false, maintenance.status=false, version2025.10. Successful anonymous status metadata only, no strain data/schema response.",
+      "latest_checked_utc": "2026-10-18T22:57:51.422377+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -47988,6 +48024,24 @@
       "license_url": "https://datamap.pcs.usp.br/project/data-policy",
       "api_verification_state": "Native homepage/policy HTTP200 HTML; no verified public read-only query API",
       "latest_checked_utc": "2026-10-18T01:28:01.145619+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "uva-libradata-apis",
+      "provider": "University of Virginia Library",
+      "service_name": "LibraData / UVA Dataverse metadata APIs",
+      "geographic_coverage": "University ofVirginia-affiliated research; actual study coverage varies; UVA Dataverse includes collections outside LibraData",
+      "topical_coverage": "research | education | environment | health",
+      "dataset_families": "Research dataset descriptions/metadata and repository interfaces; no deposited source data requested",
+      "documentation_url": "https://library.virginia.edu/libra/datasets/libra-data-api-terms-of-use",
+      "api_base_url": "https://dataverse.lib.virginia.edu/oai (registered); exact native REST read operations untested",
+      "format_protocol": "Owner documents Dataverse metadata/data APIs; registered OAI-PMH; no runtime XML/schema verified",
+      "authentication": "Public homepage; Identify robots-deferred unsent; API operation auth not exercised",
+      "free_access_restrictions": "API terms prohibit dataset resale and revenue derived from use/provision of API software; unreasonable bandwidth may be restricted, no numericquota. Source-specific CC0/custom terms differ",
+      "license": "API usage/resale/revenue restrictions; individual CC0/custom source grants remain distinct",
+      "license_url": "https://library.virginia.edu/libra/datasets/libra-data-api-terms-of-use | https://library.virginia.edu/libra/datasets/libra-data-community-norms",
+      "api_verification_state": "Native homepage HTTP200; registered Identify robots-deferred unsent. Independent owner APIterms/norms HTTP200 explicitAPIdeployment. No alternate REST/OAI/backend request, generic framework licence transfer or sample success.",
+      "latest_checked_utc": "2026-10-18T22:57:51.422377+00:00",
       "classification": "restricted"
     },
     {
