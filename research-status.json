@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:20:36.644682+00:00",
+  "published_at": "2026-10-18T07:22:40.105703+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:19:25.067918+00:00",
+  "research_updated_at": "2026-10-18T07:21:30.913676+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Roper thematic alias deduplicated; UK PDC native per-dataset OGL policy and RAVE storage-versus-data distinctions reviewed; API holds retained.",
+  "latest_milestone": "CoRIS redirect/historical REST, DGR held root, LAMBDA documented free cloud access/source-rights and S3 hold reviewed.",
   "counts": {
     "verified": 375,
-    "candidates": 905,
+    "candidates": 908,
     "excluded": 267,
     "sample_successes": 465
   },
@@ -15651,6 +15651,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "deutsche-genbank-reben",
+      "provider": "Julius Kuehn Institute and grape collection network",
+      "service_name": "Deutsche Genbank Reben genetic resources catalogue",
+      "geographic_coverage": "German grape collections with international variety origins; institutional geography not all record coverage",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Grape passport/accession/variety descriptors and genetic resources; only indexed owner overview reviewed",
+      "documentation_url": "https://www.deutsche-genbank-reben.julius-kuehn.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.deutsche-genbank-reben.julius-kuehn.de/index.php?r=info%2Fzugangsbed",
+      "api_verification_state": "Native root guard-deferred unsent; official indexed JKI overview/public form observed, no exact documented API/runtime.",
+      "latest_checked_utc": "2026-10-18T07:21:25.981664+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "deutsches-textarchiv-api",
       "provider": "Berlin-Brandenburg Academy of Sciences and Humanities / Deutsches Textarchiv",
       "service_name": "DTA APIs and OAI-PMH repository",
@@ -20385,6 +20403,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nasa-lambda-cmb-archive",
+      "provider": "NASA GSFC / HEASARC LAMBDA",
+      "service_name": "LAMBDA cosmic microwave background archive and cloud access",
+      "geographic_coverage": "Astronomical sky/CMB missions; no terrestrial national scope",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "COBE/WMAP cloud subset; wider archive includes multiple CMB missions/foreground maps/analysis tools, not all cloud hosted",
+      "documentation_url": "https://lambda.gsfc.nasa.gov/product/aws/",
+      "api_base_url": "",
+      "format_protocol": "Owner documents anonymous S3 access/URI mapping; native zero-key ListObjectsV2 request held, no XML/scientific response",
+      "authentication": "Owner-linked AWS registry documents --no-sign-request/no AWS account; runtime not verified",
+      "free_access_restrictions": "Native owner says no LAMBDA use cost, cloud free access/no egress charges. No account/compute/storage allocated.",
+      "license": "Owner says freely available for use; linked registry says no restrictions; formal source-specific scope unresolved",
+      "license_url": "https://lambda.gsfc.nasa.gov/product/aws/ | https://lambda.gsfc.nasa.gov/contact/index.html | https://registry.opendata.aws/nasa-lambda/",
+      "api_verification_state": "Native landing/overview/cloud guide and owner-linked AWS registry200. Notebook docs200 capped500KB and invalid truncated JSON, not executed or counted complete schema. Zero-key bounded S3 request guard-deferred unsent; no source objects/keys enumerated.",
+      "latest_checked_utc": "2026-10-18T07:21:25.981664+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nasa-open-data-catalog",
       "provider": "NASA OCIO Applications & Data Services",
       "service_name": "NASA Open Data Portal metadata catalog",
@@ -20976,6 +21012,24 @@
       "license_url": "https://www.noaa.gov/disclaimer",
       "api_verification_state": "native_CLASS_intro_FAQ_product_options_verified_FTPSdoc_and_terms_originalunsent_robots_deferred_publicAPI_grants_unresolved",
       "latest_checked_utc": "2026-10-17T23:56:30.776295+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "noaa-coris-coral-discovery",
+      "provider": "NOAA Coral Reef Conservation Program",
+      "service_name": "CoRIS coral reef information discovery portal",
+      "geographic_coverage": "US states/territories/remote island coral reefs; broader sources vary",
+      "topical_coverage": "biodiversity | oceans | climate/weather/environment | research",
+      "dataset_families": "Coral reef mapping, monitoring, conservation, publications and metadata; socioeconomic source access separate",
+      "documentation_url": "https://www.coris.noaa.gov/backmatter/One_pager_coris.pdf | https://coralreef.noaa.gov/",
+      "api_base_url": "",
+      "format_protocol": "Historical official indexed handout documents saved-search REST JSON/DCAT/CSV/GeoRSS/Atom/KML; current runtime unknown",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.noaa.gov/disclaimer",
+      "api_verification_state": "Native CRCP homepage200; historical coris.noaa.gov root200 redirects to CRCP homepage, not API. Disclaimer guard-deferred, no scientific/API response.",
+      "latest_checked_utc": "2026-10-18T07:21:25.981664+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
