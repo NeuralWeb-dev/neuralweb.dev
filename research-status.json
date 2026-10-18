@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T09:52:14.338487+00:00",
+  "published_at": "2026-10-18T09:54:17.184966+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:51:20.968211+00:00",
+  "research_updated_at": "2026-10-18T09:53:41.389176+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Harvard native terms/dedup; Chandra released-observation grant and CSC2.2 TAPschema15tables/2209columns; China NSSDC17mission leads/VSSO restricted; MDZ98000refs/98pages.",
+  "latest_milestone": "MDZ collectionfrontier advanced to115pages/115000refs;3098503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 387,
-    "candidates": 985,
-    "excluded": 289,
+    "verified": 388,
+    "candidates": 986,
+    "excluded": 290,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -10579,6 +10579,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "openneuro-graphql",
+      "provider": "Stanford Center for Reproducible Neuroscience / OpenNeuro",
+      "service_name": "OpenNeuro GraphQL API",
+      "geographic_coverage": "International research-sharing platform; individual dataset populations/geography vary and were not queried",
+      "topical_coverage": "health | research",
+      "dataset_families": "BIDS neuroimaging/electrophysiology research datasets and versioned public snapshots; no participants/scans/source files accessed",
+      "documentation_url": "https://docs.openneuro.org/api.html | https://docs.openneuro.org/user_guide.html",
+      "api_base_url": "https://openneuro.org/crn/graphql",
+      "format_protocol": "GraphQL queries/mutations documented, not REST as registry labels it; schema-type GET returned400JSONerrors and was not executed successfully",
+      "authentication": "Native user guide says public dataset browsing/downloads do not require account; storage/management requires account. Docs note playground uses existing login if present. No cookies/token/auth used.",
+      "free_access_restrictions": "Public browsing/download without account documented; unpublished/private/embargoed snapshots separate. No source download or paid service; quota/pricing beyond documented public access unknown.",
+      "license": "CC0 1.0 for newly published datasets and new versions; historical public CC BY/PDDL/CC0 variants retained",
+      "license_url": "https://docs.openneuro.org/faq | https://docs.openneuro.org/user_guide.html",
+      "api_verification_state": "Native API docs/FAQ/userguide200HTML. Minimal __typename GET returned400validJSONerrors explicitly blocked by CSRF guard; not successful API/schema response. No retry with changed headers, POST or alternative host/query after rejection. Documented API and scoped source licence verified; runtime unresolved.",
+      "latest_checked_utc": "2026-10-18T09:53:30.688780+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "openplz",
       "provider": "OpenPotato / STÜBER SYSTEMS GmbH",
       "service_name": "OpenPLZ street/postal/administrative-directory API",
@@ -17223,6 +17241,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eea-sdi-datahub-catalogue",
+      "provider": "European Environment Agency",
+      "service_name": "EEA Datahub and SDI catalogue API",
+      "geographic_coverage": "EEA network and institutional partners across38European countries per native Datahub; exact dataset geographical coverage varies",
+      "topical_coverage": "climate/weather/environment | water | biodiversity | energy | geospatial | research",
+      "dataset_families": "European environment, climate and sustainability discovery; tabular/spatial datasets, metadata and links to source-specific APIs; source records not harvested",
+      "documentation_url": "https://www.eea.europa.eu/en/datahub/about | https://sdi.eea.europa.eu/catalogue/doc/api/index.html | https://sdi.eea.europa.eu/catalogue/srv/api/doc",
+      "api_base_url": "https://sdi.eea.europa.eu/catalogue/srv/api",
+      "format_protocol": "OpenAPI3 JSON235paths/322operations verified; GeoNetwork4.4.9 deployed schema, no source catalogue/data query",
+      "authentication": "Anonymous documentation/schema GET succeeded; no blanket anonymous operation guarantee. Mutations/admin/download/query operations not executed.",
+      "free_access_restrictions": "Native data policy generally no-cost access subject source licences, legal/confidentiality and capacity restrictions. API quotas unknown; no blanket free-all-source claim.",
+      "license": "EEA-owned website material CC BY4; source data and catalogue/database scope subject individual grants/exceptions",
+      "license_url": "https://www.eea.europa.eu/en/legal-notice | https://www.eea.europa.eu/en/datahub/eea-data-policy",
+      "api_verification_state": "Native Analysis/Datahub/about/rights/policy200HTML; published SDI SwaggerUI200HTML explicitly links ../../srv/api/doc, which returned200validOpenAPI3JSON235paths/322operations. Source/query runtime not tested.",
+      "latest_checked_utc": "2026-10-18T09:53:30.688780+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ega-public-metadata",
       "provider": "European Genome-phenome Archive / EMBL-EBI and CRG",
       "service_name": "EGA public study/dataset discovery metadata REST API",
@@ -20854,8 +20890,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across98successfulpages/98000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T09:48:40.870465+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across115successfulpages/115000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T09:53:36.863611+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31676,6 +31712,24 @@
       "license_url": "https://archiv.soc.cas.cz/en/pristup-k-datum-2/datovy-katalog/condition-of-use | https://archiv.soc.cas.cz/images/DMP_vzor_CSDA_Version_2.0.pdf",
       "api_verification_state": "Native owner data/conditions200HTML; original OAI Identify guard-deferred, no repository/API response",
       "latest_checked_utc": "2026-10-18T05:50:20.954964+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "databasin-conservation-platform",
+      "provider": "Conservation Biology Institute",
+      "service_name": "Data Basin conservation data platform",
+      "geographic_coverage": "Conservation platform with user-contributed data; exact geographic/source extent unenumerated",
+      "topical_coverage": "biodiversity | environment | geospatial | research",
+      "dataset_families": "User-contributed conservation datasets, files and documents; no source data or metadata catalogue accessed",
+      "documentation_url": "https://databasin.org/pages/terms-service | https://consbio.org/terms-and-conditions/",
+      "api_base_url": "",
+      "format_protocol": "Native root200minimal DataBasin HTML shell; current terms200HTML, no API response",
+      "authentication": "Browsing/searching described; accounts/passwords for user services, source constraints vary. No registration or credentials.",
+      "free_access_restrictions": "Native DataBasin service/site information limited to non-commercial use; user content remains subject contributor-defined constraints and permissions",
+      "license": "Non-commercial service-use terms; user-contributed source rights distinct",
+      "license_url": "https://databasin.org/pages/terms-service",
+      "api_verification_state": "Native root200HTMLshell and exact DataBasin service terms200HTML. No official API documentation or machine query response established; absence not claimed.",
+      "latest_checked_utc": "2026-10-18T09:53:30.688780+00:00",
       "classification": "restricted"
     },
     {
