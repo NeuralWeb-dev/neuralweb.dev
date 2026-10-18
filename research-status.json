@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:25:51.411887+00:00",
+  "published_at": "2026-10-18T17:27:54.410700+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:25:32.957055+00:00",
+  "research_updated_at": "2026-10-18T17:26:39.292104+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: PAZy native REST documentation/operations, license unknown; SAMD noncommercial restricted; CEDIFOR OAI identity; Eiffel migration/holds; pedestrian/grid holds and source-license gaps; MDZ948000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to959pages/959000refs;2254503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 441,
-    "candidates": 1197,
-    "excluded": 345,
+    "candidates": 1199,
+    "excluded": 346,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -22486,6 +22486,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "inptdat-plasma-data",
+      "provider": "Leibniz Institute for Plasma Science and Technology INP Greifswald",
+      "service_name": "INPTDAT plasma technology data portal",
+      "geographic_coverage": "International low-temperature plasma research; Germany institutional operator",
+      "topical_coverage": "research | energy | environment | health",
+      "dataset_families": "Plasma research dataset descriptions, source specifications, patents and technology offers; Plasma-MDS metadata",
+      "documentation_url": "https://www.inptdat.de/about",
+      "api_base_url": "",
+      "format_protocol": "Native DKAN portal; registry REST link is software repository, not native API endpoint",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Source-specific selected licenses/restricted access; portal texts reserved",
+      "license_url": "https://www.inptdat.de/legal-notice | https://www.inptdat.de/about",
+      "api_verification_state": "Native root/About/legal HTTP200 substantive HTML. Exact current public read API/schema and runtime unverified; third-party guessed DKAN/CKAN paths not tested.",
+      "latest_checked_utc": "2026-10-18T17:26:17.335293+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "inrae-rdg-institutional-collection",
       "provider": "INRAE",
       "service_name": "Data INRAE institutional collection in Recherche Data Gouv",
@@ -23818,6 +23836,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "lias-lichen-information",
+      "provider": "LIAS collaboration / Botanische Staatssammlung München and partners",
+      "service_name": "LIAS Global Information System for Lichenized and Non-Lichenized Ascomycetes",
+      "geographic_coverage": "Global lichen/ascomycete information; component coverage varies",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "LIAS Global Information System for Lichenized and Non-Lichenized Ascomycetes",
+      "documentation_url": "http://www.lias.net/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "LIAS light CC BY-NC-ND3 component only; whole-service terms unknown",
+      "license_url": "https://liaslight.lias.net/Identification/Navikey/UnitedKingdom/index.html",
+      "api_verification_state": "Original root HTTP200 title-only landing content, no successful API response or exact native API documentation. Indexed official LIAS light component terms reviewed.",
+      "latest_checked_utc": "2026-10-18T17:26:17.335293+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lib-zfmk-biodiversity-datacenter",
       "provider": "Leibniz Institute for the Analysis of Biodiversity Change / former ZFMK",
       "service_name": "LIB Biodiversity Datacenter metadata and stable identifier interfaces",
@@ -24407,8 +24443,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across948successfulpages/948000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:21:11.891181+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across959successfulpages/959000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:26:34.498205+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -40503,6 +40539,24 @@
       "license_url": "https://www.phi-base.org/disclaimer.htm",
       "api_verification_state": "official_provider_linked_REST_manual_verified_runtime_untested_restricted_terms",
       "latest_checked_utc": "2026-10-17T16:11:56.496885+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "pkrxiv-pharmacokinetic-repository",
+      "provider": "University of Liverpool / PKRxiv",
+      "service_name": "PKRxiv managed pharmacokinetic data repository",
+      "geographic_coverage": "International pharmacokinetic research; UK institutional operator",
+      "topical_coverage": "health | research",
+      "dataset_families": "Managed individual-level pharmacokinetic study descriptions and data; actual clinical/person data not acquired",
+      "documentation_url": "https://pkrxiv.org/pkrxiv-policy/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Account/data-request workflow documented; no account or data request made",
+      "free_access_restrictions": "Managed access/granted requests; noncommercial and contributor-controlled models. No paid data acquired.",
+      "license": "CC BY-NC-ND4 platform policy plus differentiated dataset access agreements",
+      "license_url": "https://pkrxiv.org/pkrxiv-policy/",
+      "api_verification_state": "Native policyHTTP200 substantive terms. No exact native public API/schema documented in inspected policy/search results; no clinical query or API payload.",
+      "latest_checked_utc": "2026-10-18T17:26:17.335293+00:00",
       "classification": "restricted"
     },
     {
