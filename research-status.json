@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T09:03:05.493298+00:00",
+  "published_at": "2026-10-18T09:05:08.315781+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:01:32.157853+00:00",
+  "research_updated_at": "2026-10-18T09:04:16.505739+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Hamburg HZSK hosted-community identity corrected/policy text held; PubChem indexed PUG/mixed rights vs native shells distinguished; Nefeli root held.",
+  "latest_milestone": "GISAID/SOEP native access restrictions verified; NASA PDS documented Search API/properties4105JSONschemas, per-product licence caveat preserved.",
   "counts": {
     "verified": 384,
-    "candidates": 964,
-    "excluded": 285,
+    "candidates": 965,
+    "excluded": 287,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -21311,6 +21311,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nasa-pds-search-api",
+      "provider": "NASA Planetary Data System",
+      "service_name": "PDS federated Search API",
+      "geographic_coverage": "Solar system planetary missions/archives; no terrestrial geographic completeness claim",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "PDS product/bundle/collection discovery and hierarchy; planetary data metadata across nodes; properties schema only sampled",
+      "documentation_url": "https://nasa-pds.github.io/pds-api/overview.html | https://nasa-pds.github.io/pds-api/guides/search/endpoints.html",
+      "api_base_url": "https://pds.nasa.gov/api/search/1/",
+      "format_protocol": "REST JSON property-schema endpoint200validJSON4105declarations; product queries not sampled",
+      "authentication": "Anonymous properties GET succeeded; other access scopes not tested",
+      "free_access_restrictions": "Public schema metadata retrieval documented/tested without key. Guide warns search servers not fully populated; missing examples may404. No universal archive-rights clearance.",
+      "license": "Resource-specific archive licences; CC0 supported, blanket API/source grant unverified",
+      "license_url": "https://pds.nasa.gov/data/pds4/system_bundle/document_pds4_standards/1.25.0.0/PDS4_DataProvidersHandbook_1.25.0.pdf",
+      "api_verification_state": "Native MCPportal200app shell, official APIoverview/search/endpoints200HTML, handbook200PDF with officialreadertext, properties200validJSON4105schemaitems; no source products or observations requested",
+      "latest_checked_utc": "2026-10-18T09:04:11.690879+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nasa-power",
       "provider": "NASA POWER",
       "service_name": "Prediction Of Worldwide Energy Resources API",
@@ -31393,6 +31411,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "diw-soep-research-access",
+      "provider": "DIW Berlin / SOEP Research Data Center",
+      "service_name": "SOEP research data access",
+      "geographic_coverage": "Germany longitudinal socioeconomic panel, geographically differentiated access routes; source records not queried",
+      "topical_coverage": "demographics | economics | labor | health | education | housing | research",
+      "dataset_families": "Socioeconomic panel research and controlled personal/regional data; no variables/codebooks/source studies accessed",
+      "documentation_url": "https://www.diw.de/en/diw_01.c.601584.en/data_access",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Signed institutional data-distribution agreement/application approval required before data access; individuals without institution not eligible",
+      "free_access_restrictions": "Per-institution/project contracts, sensitive regional data onsite or approved remote routes; geographic/protection rules vary. No contract/account acquired.",
+      "license": "Contract-governed protected research data; no verified open grant",
+      "license_url": "https://www.diw.de/en/diw_01.c.601584.en/data_access",
+      "api_verification_state": "Native RDCroot/access200HTML; no public anonymous read API established; remote/execution services not tested",
+      "latest_checked_utc": "2026-10-18T09:04:11.690879+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "dplace-cultural-data",
       "provider": "D-PLACE / Max Planck Institute for Evolutionary Anthropology and collaborators",
       "service_name": "D-PLACE culture, language and environment database / JSON metadata interface",
@@ -31894,6 +31930,24 @@
       "license_url": "https://www.healthdata.org/about/ihme-free-charge-non-commercial-user-agreement",
       "api_verification_state": "actual_RSS_response_normalized_XML_parse_success_raw_XML_leading_whitespace_error",
       "latest_checked_utc": "2026-10-17T09:15:37.867205+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "gisaid-access-platform",
+      "provider": "GISAID Initiative",
+      "service_name": "GISAID database access platform",
+      "geographic_coverage": "Global pathogen sequence-sharing network; exact current database coverage not enumerated",
+      "topical_coverage": "health | research",
+      "dataset_families": "Pathogen genetic sequences and related metadata; EpiFlu agreement reviewed, no sequences/clinical source records accessed",
+      "documentation_url": "https://gisaid.org/terms-of-use/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Authorized-user identity/access agreement; no credentials/account/agreement acquired",
+      "free_access_restrictions": "Access/use only under Database Access Agreement; separate portals/network access restricted to authorized operators; exact current programmatic API unknown",
+      "license": "GISAID Database Access Agreement; authorized-use/redistribution restrictions",
+      "license_url": "https://gisaid.org/terms-of-use/",
+      "api_verification_state": "Native root/terms200HTML; exact public anonymous query API not established; no authenticated source request",
+      "latest_checked_utc": "2026-10-18T09:04:11.690879+00:00",
       "classification": "restricted"
     },
     {
