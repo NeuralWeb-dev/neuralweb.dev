@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T04:40:51.356535+00:00",
+  "published_at": "2026-10-18T04:42:54.292035+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:37:43.247717+00:00",
+  "research_updated_at": "2026-10-18T04:42:17.951157+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
   "counts": {
     "verified": 354,
-    "candidates": 813,
-    "excluded": 233,
+    "candidates": 818,
+    "excluded": 234,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -12858,6 +12858,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "boris-bern-portal",
+      "provider": "University of Bern / University Library",
+      "service_name": "BORIS Portal research metadata service",
+      "geographic_coverage": "Switzerland/Bern institutional research and varying studyregions",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research project/funding/output/data descriptions; sourcefiles and individualaccess separate",
+      "documentation_url": "https://boris-portal.unibe.ch",
+      "api_base_url": "https://boris-portal.unibe.ch/server/oai",
+      "format_protocol": "RegistryOAI-PMH deployment claim, currentnativeinterface unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 public metadata grant verified in official indexed servicepolicy; interface verification pending",
+      "license_url": "https://boris-portal.unibe.ch/assets/static/ServicePolicies_BORISPortal.pdf",
+      "api_verification_state": "Original root/OAIIdentify requestsguard-deferred targetunsent. Indexed ownerCC0metadata policy verified; exact current API/runtime unresolved.",
+      "latest_checked_utc": "2026-10-18T04:40:59.109910+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "botswana-microdata",
       "provider": "Statistics Botswana",
       "service_name": "Statistics Botswana NADA study-catalog metadata API",
@@ -13611,6 +13629,24 @@
       "license_url": "https://support.nii.ac.jp/en/cinii/copyright | https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cis-spain-survey-data-bank",
+      "provider": "Centro de Investigaciones Sociológicas",
+      "service_name": "CIS studies catalogue and data bank",
+      "geographic_coverage": "Spain public-opinion/social research; individual surveycontexts vary",
+      "topical_coverage": "demographics | economics/finance | labor | law/civic | research",
+      "dataset_families": "Studies/questions/series, public survey results and data documentation; no microdata/codebook requests",
+      "documentation_url": "https://www.cis.es/en/studies/catalogue?catalogo=estudio",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Owner public-sector reuse authorization for documents subject to generalconditions; API unresolved",
+      "license_url": "https://www.cis.es/en/legal-notice",
+      "api_verification_state": "Native catalogue/legal docs200HTML; no exact documented publicqueryAPI contract/sample established",
+      "latest_checked_utc": "2026-10-18T04:42:13.690944+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16422,6 +16458,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "henke-cxro-xray-database",
+      "provider": "Lawrence Berkeley National Laboratory / Center for X-Ray Optics",
+      "service_name": "Henke X-Ray Interactions With Matter database",
+      "geographic_coverage": "Element/material physical properties, not geographic statistics",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Atomic scattering factors, refraction, absorption/attenuation, transmission and reflectivity reference data",
+      "documentation_url": "https://henke.lbl.gov/optical_constants/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://www.lbl.gov/Disclaimers.html",
+      "api_verification_state": "Native scientificlanding page and linkedLBNLtermsHTTP200HTML; registrycommons policy guard-deferred. Exact public queryAPI/sample not established.",
+      "latest_checked_utc": "2026-10-18T04:40:59.109910+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "hidrografico-plus-catalogue",
       "provider": "Instituto Hidrográfico Portugal",
       "service_name": "Hidrográfico+ metadata catalogue and marine-data discovery",
@@ -18147,6 +18201,24 @@
       "license_url": "",
       "api_verification_state": "documented_export_query_API_client_verified_backend_untested_auth_terms_unresolved",
       "latest_checked_utc": "2026-10-17T10:11:45.504607+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mardi-knowledge-graph-api",
+      "provider": "MaRDI / Mathematical Research Data Initiative",
+      "service_name": "MaRDI Knowledge Graph API and portal",
+      "geographic_coverage": "International mathematical research resources, GermanNFDI infrastructure",
+      "topical_coverage": "research | education",
+      "dataset_families": "Mathematical models, algorithms, datasets, publications and linked resource descriptions",
+      "documentation_url": "https://portal.mardi4nfdi.de/wiki/MaRDI_Knowledge_Graph_API",
+      "api_base_url": "https://portal.mardi4nfdi.de/w/api.php",
+      "format_protocol": "Owner-documented Wikibase/MediaWikiAPI; SPARQL referenced by portal/disclaimer, runtimeuntested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://portal.mardi4nfdi.de/wiki/Project:General_disclaimer",
+      "api_verification_state": "Native APIreference/root/disclaimer200HTML; minimalread-onlysiteinfo targetguard-deferredunsent. No successfulAPIJSON or SPARQLresponse claimed.",
+      "latest_checked_utc": "2026-10-18T04:40:59.109910+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22755,6 +22827,24 @@
       "license_url": "https://www.snsb.info/dwb_biocase.html",
       "api_verification_state": "Native service description and datasource directory HTTP200; no parsed occurrence/query API sample",
       "latest_checked_utc": "2026-10-18T01:22:38.400966+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sodanet-social-data-network",
+      "provider": "So.Da.Net / Greek social science infrastructure",
+      "service_name": "Social Data Network portal and catalogue discovery",
+      "geographic_coverage": "Greece social-science data infrastructure and international research contexts",
+      "topical_coverage": "demographics | economics/finance | labor | research",
+      "dataset_families": "Social research metadata/data catalogues, secondarytables/maps and terminology services described in indexedregulation",
+      "documentation_url": "https://www.sodanet.gr/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://sodanet.gr/storage/files/Regulation_EN.pdf",
+      "api_verification_state": "Originalroot guard-deferred targetunsent; ownerregulationindexedexcerpt only, no exactcurrentAPI contract/sample established",
+      "latest_checked_utc": "2026-10-18T04:42:13.690944+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30011,6 +30101,24 @@
       "license_url": "https://talkbank.org/0share/rules.html | https://talkbank.org/0share/access.html",
       "api_verification_state": "existing_restricted_provider_CHILDES_component_and_native_three_access_levels_verified_source_API_unresolved",
       "latest_checked_utc": "2026-10-17T22:10:58.604059+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "tarki-social-data-archive",
+      "provider": "TÁRKI Foundation",
+      "service_name": "TÁRKI Hungarian social science data archive",
+      "geographic_coverage": "Hungary social-science surveys and historical datasets; internationalnetwork exchanges",
+      "topical_coverage": "demographics | economics/finance | labor | education | research",
+      "dataset_families": "Social survey/historical/census collections; public access documentation only reviewed",
+      "documentation_url": "https://adatbank.tarki.hu/en/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Documented request/declaration process, categorydependent; no applications/signatures/request/contact used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Conditional data-access process; no blanket open data/metadata grant established",
+      "license_url": "https://adatbank.tarki.hu/en/catalogue-search/ | https://adatbank.tarki.hu/en/about/",
+      "api_verification_state": "Native ownerroot/about/catalogue-access docs200HTML; exactpublicqueryAPI/sample unverified. Registryimprint404; privacyURL is recruitmentprivacy, notdatareuse.",
+      "latest_checked_utc": "2026-10-18T04:42:13.690944+00:00",
       "classification": "restricted"
     },
     {
