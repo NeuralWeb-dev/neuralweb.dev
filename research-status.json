@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:33:14.805446+00:00",
+  "published_at": "2026-10-18T14:35:19.047204+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:33:14.409221+00:00",
+  "research_updated_at": "2026-10-18T14:35:11.708538+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks: WONDER statistical-use restricted; BindingDB open partitions/version conflict/runtime held; NAKO currentpolicy4 controlled; ALLBUS GESIS-dedup; CMU Cold noncommercial; FRDR valid OAI identity/rights unresolved; MDZ639000 incomplete.",
+  "latest_milestone": "NSRRindexedJSON/DAUAcontrolled/nativeheld; GFBioSwagger2verified/directoryempty200/rightsper-source; DPMPdefaultODC-BY/APIunknown",
   "counts": {
     "verified": 429,
-    "candidates": 1080,
-    "excluded": 322,
+    "candidates": 1082,
+    "excluded": 323,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -17834,6 +17834,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "digital-porous-media-portal",
+      "provider": "University of Texas at Austin / TACC / Digital Porous Media project",
+      "service_name": "Digital Porous Media Portal",
+      "geographic_coverage": "International porous-media/digital-rock research contributions; exact current corpus unqueried",
+      "topical_coverage": "research | energy | environment | geospatial",
+      "dataset_families": "Porous media image datasets, analysis and simulation outputs; no images/results queried",
+      "documentation_url": "https://digital-porous-media.github.io/dpm_docs/ | https://digital-porous-media.github.io/dpm_docs/user_agreement/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Nativegettingstarted requiresTACCaccount/approval/MFA; no account or authenticatedinterface used",
+      "free_access_restrictions": "Agreement describes memberships/storagefees and donations; exact free publicmetadata/downloadtier unverified. No paidmembership/acquisition.",
+      "license": "ODC-BY default with curator-approved alternative licenses; current item/metadata grant unresolved",
+      "license_url": "https://digital-porous-media.github.io/dpm_docs/user_agreement/",
+      "api_verification_state": "Native owneragreement/documentation200HTML; documented portal/Globus/Jupyter workflows not publicqueryAPIcontract. No exactpublicREST/OAI/schema verified.",
+      "latest_checked_utc": "2026-10-18T14:35:05.719587+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "digital-repository-ireland-api",
       "provider": "Digital Repository of Ireland",
       "service_name": "DRI digital cultural/social research repository and API discovery",
@@ -19757,6 +19775,24 @@
       "license_url": "https://data.getty.edu/museum/collection/docs/",
       "api_verification_state": "documented_directory_claim_original_doc_HTTP404_no_successful_API_sample",
       "latest_checked_utc": "2026-10-17T02:06:40.611458+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gfbio-terminology-service",
+      "provider": "German Federation for Biological Data",
+      "service_name": "GFBio Terminology Service API",
+      "geographic_coverage": "International biological/environmental vocabularies; federation hosted in Germany",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Locally hosted and remote terminologies, term/relations/metadata services; individual source rights vary",
+      "documentation_url": "https://terminologies.gfbio.org/api/ | https://terminologies.gfbio.org/build/swagger/swagger.json | https://www.gfbio.org/terms-of-use/",
+      "api_base_url": "https://terminologies.gfbio.org/api/",
+      "format_protocol": "Swagger2.0JSON contract verified; JSON/XML/CSV/JSON-LD outputs documented",
+      "authentication": "Anonymous schema succeeded; directory returnedemptybody, operationauth remainsunverified. SubmissionAPIaccounts notgeneralized toread APIs.",
+      "free_access_restrictions": "Publicschema and terminology service docs; federation free discovery distinct from submission accounts and source-specific reuse",
+      "license": "Per-terminology effective rights; no uniform open API corpus grant",
+      "license_url": "https://www.gfbio.org/terms-of-use/",
+      "api_verification_state": "Native APIdocs/terms/UIconfig200, exactpublishedSwaggerJSON200valid2.0schema,22paths/22operations. DirectoryGET200emptyzero-bytebody despiteAcceptJSON; not successfulJSON or emptyrepositoryproof. Noalternateformat/query/backendafterfailure.",
+      "latest_checked_utc": "2026-10-18T14:35:05.719587+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -37291,6 +37327,24 @@
       "license_url": "https://www.npdb.hrsa.gov/resources/publicData.jsp",
       "api_verification_state": "Native publicfilepolicy and softwaredocumentationHTTP200; credential/vendorrequired, no APIruntime/sourcefiles",
       "latest_checked_utc": "2026-10-18T03:55:34.250528+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nsrr-sleepdata-access",
+      "provider": "National Sleep Research Resource / Brigham and Women’s Hospital",
+      "service_name": "NSRR sleep research data and versioned API",
+      "geographic_coverage": "Research cohorts and trials, primarily US-hosted resource; actual geographic/source corpus unqueried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Sleep physiological signals and clinical research cohorts; public documentation and controlled source-data access separate",
+      "documentation_url": "https://sleepdata.org/about/fair-data-principles | https://sleepdata.org/about/data-security",
+      "api_base_url": "",
+      "format_protocol": "VersionedJSONAPI documented in indexedownerFAIRguide; exactcurrentbase/schema unknown",
+      "authentication": "ApproveddatasetDAUA/request required for controlleddata; no tokens/registration/request used",
+      "free_access_restrictions": "Owner describes cost-free access upon reviewed request; actual API/public metadata terms unverified",
+      "license": "Dataset-specific approved Data Access and Use Agreements; no uniform open grant",
+      "license_url": "https://sleepdata.org/about/data-security",
+      "api_verification_state": "Native FAIRguideguard-deferredtargetunsent, aboutunsentafterhold. IndexedownerJSONAPIexistence/accesspolicy only; no native schema/APIresponse.",
+      "latest_checked_utc": "2026-10-18T14:35:05.719587+00:00",
       "classification": "restricted"
     },
     {
