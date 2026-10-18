@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:45:33.687065+00:00",
+  "published_at": "2026-10-18T14:47:36.684800+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:45:31.999117+00:00",
+  "research_updated_at": "2026-10-18T14:46:51.918154+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: LAPaL explicitnoAPI/CCBY4; DMPortal OAIguard/grantunknown; Astromat HTMLAPIbanner/varyingCC; BLLAST restricted; JOAD Harvarddedup/journalguard; DANS LifeSciences OAIguard/peritemrights; MDZ665000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to678pages/678000refs;2535503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 429,
-    "candidates": 1088,
-    "excluded": 325,
+    "candidates": 1090,
+    "excluded": 326,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -17510,6 +17510,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dans-physical-technical-station",
+      "provider": "DANS / KNAW / NWO",
+      "service_name": "DANS Data Station Physical and Technical Sciences",
+      "geographic_coverage": "Netherlands-hostedphysical/technicalscienceresearch; exactdatasetgeographyvaries",
+      "topical_coverage": "research | energy | environment",
+      "dataset_families": "Physicalandtechnicalresearchdatasets, open/restrictedfileoptions",
+      "documentation_url": "https://dans.knaw.nl/en/physical-and-technical-sciences/ | https://dans.knaw.nl/en/licences/",
+      "api_base_url": "https://phys-techsciences.datastations.nl/oai (registryclaim, targetunsentunderguard)",
+      "format_protocol": "RegistryOAI2claim; deployedXMLcontract/runtimeunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected per-dataset licenses inclopen/restrictedchoices; metadata-widegrantunknown",
+      "license_url": "https://dans.knaw.nl/en/licences/",
+      "api_verification_state": "NativeOAIIdentifyguard-deferredtargetunsent, independentnativeDANSstationowner200HTML. SharedDANSlicensingpagepreviouslyreviewed; no nativeXML/API/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T14:46:12.876979+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dassi-social-science-repository",
       "provider": "DASSI Data Archive for Social Sciences in Italy",
       "service_name": "DASSI Dataverse research-data catalogue",
@@ -20246,6 +20264,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gro-data-repository",
+      "provider": "Göttingen eResearch Alliance / Göttingen Campus",
+      "service_name": "GRO.data institutional repository",
+      "geographic_coverage": "GöttingenCampusresearch,Germany; exactdatasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Generalinstitutionalresearchdatasets, custommetadata/versioning and file-levelaccess",
+      "documentation_url": "https://www.eresearch.uni-goettingen.de/services-and-software/gro-data/ | https://www.eresearch.uni-goettingen.de/consulting-and-training/eresearch-labs/eresearch-labs-gro-data/",
+      "api_base_url": "https://data.goettingen-research-online.de/oai (registryclaim, priorhostholdretained)",
+      "format_protocol": "Native ownerdescribesAPIcoverage/Dataversesoftware; deployedOAI/RESTschema unverified",
+      "authentication": "Ownerdescribesinstitutionalaccounts fordeposition; publicreadAPIauthuntested",
+      "free_access_restrictions": "OwnerfreeforGöttingenCampusresearchers, customlarge/complexdataarrangements; not universalfreeAPIentitlement",
+      "license": "Unknown current metadata-wide grant; owner per-dataset license assignment",
+      "license_url": "https://www.eresearch.uni-goettingen.de/services-and-software/gro-data/",
+      "api_verification_state": "Independentnativeinstitutiondocs200HTMLAPIexistence/identity; earlierGROhostholdretained fromDIGIScollection, no newOAI/REST/schema/runtimequery.",
+      "latest_checked_utc": "2026-10-18T14:46:12.876979+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gsa-figshare-data-repository",
       "provider": "Geological Society of America",
       "service_name": "GSA Data Repository / Figshare portal candidate",
@@ -22959,8 +22995,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across665successfulpages/665000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:41:22.638907+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across678successfulpages/678000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:46:47.384539+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -36985,6 +37021,24 @@
       "license_url": "https://www.morphbank.net/About/Copyright/",
       "api_verification_state": "native_GET_API_documentation_and_default_NC_SA3_policy_verified_services_robots_inaccessible_sample_unsent",
       "latest_checked_utc": "2026-10-17T22:06:20.676100+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "mosdac-data-api",
+      "provider": "ISRO Space Applications Centre / MOSDAC",
+      "service_name": "MOSDAC satellite data search and download API",
+      "geographic_coverage": "Indianmeteorological/oceanographicsatellitesandrelatedproducts; actualproductgeographiccoveragevaries",
+      "topical_coverage": "climate/weather/environment | oceans | water | geospatial | research",
+      "dataset_families": "Satelliteproducts, groundobservations, browseimages and forecast/nowcast; exactinventory unenumerated",
+      "documentation_url": "https://www.mosdac.gov.in/downloadapi-manual | https://www.mosdac.gov.in/data-access-policy",
+      "api_base_url": "",
+      "format_protocol": "DocumenteddownloadAPI/searchworkflow andconfigparameters; nativeJSON/XMLschema/runtimeunverified",
+      "authentication": "ManualsayssearchanonymouswithdatasetId, downloadsrequireMOSDACcredentials; no credentials/accountused",
+      "free_access_restrictions": "Publicaccesspolicy anonymousmetadata/openproducts, registeredgeneralusers3daylatency/privilegedNRT; sourceguidelinefreebaseaccesswithpossiblecustomservicecharges",
+      "license": "Original-product redistribution/resale prohibited; value-added-product exception",
+      "license_url": "https://www.mosdac.gov.in/data-access-policy | https://www.mosdac.gov.in/copyright-policy | https://www.mosdac.gov.in/look/DOCS/mosdac-data-guidelines_english.pdf",
+      "api_verification_state": "Native APIguide/access/copyright200HTML andlinkedguidelines200PDFreadasdocumentation. No ZIPclient/configcredentials/API/source response; no successfulreadquery/schema.",
+      "latest_checked_utc": "2026-10-18T14:46:12.876979+00:00",
       "classification": "restricted"
     },
     {
