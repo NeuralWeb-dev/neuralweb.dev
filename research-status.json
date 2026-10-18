@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:58:44.059621+00:00",
+  "published_at": "2026-10-18T06:00:46.775173+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:56:44.634428+00:00",
+  "research_updated_at": "2026-10-18T05:59:05.296750+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals reviewed: SACA&D/GTD restrictions native verified; RKI scopedBY4 grant withlinkedAPI404; KRA/SASD/ClimateExplorerholds andunknowninterfaces preserved",
+  "latest_milestone": "Borealis licence defaults scoped; LAUDATIO native JSON count30verified with grants pending; ZEW restricted research access verified.",
   "counts": {
     "verified": 361,
-    "candidates": 858,
-    "excluded": 255,
+    "candidates": 860,
+    "excluded": 256,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -13193,6 +13193,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "borealis-canadian-dataverse",
+      "provider": "Borealis / Scholars Portal / Canadian academic libraries",
+      "service_name": "Borealis Canadian Dataverse repository",
+      "geographic_coverage": "Canadian institution-hosted multidisciplinary research; source geographic coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary institutional collections, research datasets, documentation and code, tabular/text/image formats",
+      "documentation_url": "https://learn.scholarsportal.info/all-guides/borealis/",
+      "api_base_url": "https://borealisdata.ca/; exact current read-only API runtime held",
+      "format_protocol": "Native/REST, OAI-PMH and SWORD registry/docs claims; active instance API unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://learn.scholarsportal.info/all-guides/borealis/datasets/",
+      "api_verification_state": "Native owner overview/dataset guide200HTML; existing borealisdata.ca search/API guard hold preserved, no API sample",
+      "latest_checked_utc": "2026-10-18T05:59:00.690295+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "boris-bern-portal",
       "provider": "University of Bern / University Library",
       "service_name": "BORIS Portal research metadata service",
@@ -18518,6 +18536,24 @@
       "license_url": "https://api.stat.gov.lv/api/v2/config",
       "api_verification_state": "structured_metadata_sample_success_data_license_unconfirmed",
       "latest_checked_utc": "2026-10-16T23:45:19.274106+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "laudatio-corpus-metadata-api",
+      "provider": "Humboldt-Universität zu Berlin / LAUDATIO partners",
+      "service_name": "LAUDATIO historical corpora metadata REST API",
+      "geographic_coverage": "Historical linguistic corpora; source languages/geographies vary",
+      "topical_coverage": "culture | research | linguistics",
+      "dataset_families": "Published corpus, document and annotation header metadata for historical corpora; TEI metadata and ANNIS search described",
+      "documentation_url": "https://www.laudatio-repository.org/docs/elasticapi/",
+      "api_base_url": "https://www.laudatio-repository.org/api/elasticapi/v1/",
+      "format_protocol": "REST JSON; corpora/document/annotation metadata routes",
+      "authentication": "Anonymous latest-corpora count GET successful; other operations untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native API docs/root/project200HTML; latest-corpora count200validJSON success/count30, no corpus/source records",
+      "latest_checked_utc": "2026-10-18T05:59:00.690295+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32002,6 +32038,24 @@
       "license_url": "https://www.xenbase.org/xenbase/static-xenbase/aboutMOD.jsp",
       "api_verification_state": "native_terms200_research_education_only_verified_root429_API_docs_indexed_not_native_no_data_sample",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "zew-research-data-centre",
+      "provider": "ZEW Leibniz Centre for European Economic Research",
+      "service_name": "ZEW Forschungsdatenzentrum",
+      "geographic_coverage": "Germany-focused enterprise/expert economic research; source-specific coverage varies",
+      "topical_coverage": "economics/finance | companies/nonprofits | labor | research",
+      "dataset_families": "Enterprise/expert surveys, Mannheim Innovation Panel, scientific-use/education-use files and controlled research access",
+      "documentation_url": "https://www.zew.de/zew-forschungsdatenzentrum",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Research application, written agreement and controlled onsite/remote access; no account/request made",
+      "free_access_restrictions": "Native page says pilot standard SUF/EUF/documentation/workstation free; special nonstandard services paid. Registry feeRequired not generalized to all use. No paid acquisition.",
+      "license": "Controlled noncommercial fundamental research, written application/contract and non-disclosure/non-redistribution",
+      "license_url": "https://www.zew.de/zew-forschungsdatenzentrum",
+      "api_verification_state": "Native owner page200HTML; no public open-data API documented in inspected page",
+      "latest_checked_utc": "2026-10-18T05:59:00.690295+00:00",
       "classification": "restricted"
     },
     {
