@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:21:46.005597+00:00",
+  "published_at": "2026-10-18T05:23:48.867821+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:20:53.590755+00:00",
+  "research_updated_at": "2026-10-18T05:23:45.474409+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FlyBaseownBY4/licensedannotationAPI documentedbutruntimeheld; FANTOM5/6BY4grantverifiedAPIunresolved; IDDOcontrolledaccessreviewedwithoutpatientdata.",
+  "latest_milestone": "NordicanaPDFredistributionrestrictionverified/rootheld; FID4SAcentralheiDATAdedupand503hold; MO|REterms timeout/licensing/APIunresolved.",
   "counts": {
     "verified": 360,
-    "candidates": 841,
-    "excluded": 245,
+    "candidates": 842,
+    "excluded": 246,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -16808,9 +16808,9 @@
       "identifier": "heidata-research-metadata-api",
       "provider": "Heidelberg University Library / Heidelberg University",
       "service_name": "heiDATA research repository API including arthistoricum collection",
-      "geographic_coverage": "Heidelberginstitutionalandarthistoricumresearch withinternationalstudy/artsubjects; collectionextentunverified",
+      "geographic_coverage": "Heidelberginstitutionalandarthistoricumresearch withinternationalstudy/artsubjects; collectionextentunverified | FID4SA South Asian script/research collection context perownerdescription, notuniformdatasetextent",
       "topical_coverage": "research | culture | education",
-      "dataset_families": "Researchdataset/softwaredescriptionsincludingarthistoricum art-historyresearchdata; individualimages/audio/video/tabularsourceworks notrequested",
+      "dataset_families": "Researchdataset/softwaredescriptionsincludingarthistoricum art-historyresearchdata; individualimages/audio/video/tabularsourceworks notrequested | FID4SA@heiDATA South Asian script Ground Truth research-data collection",
       "documentation_url": "https://www.ub.uni-heidelberg.de/helios/kataloge/datenschnittstellen.html | https://www.arthistoricum.net/publizieren/forschungsdaten",
       "api_base_url": "https://heidata.uni-heidelberg.de/oai (officiallydocumented) | https://heidata.uni-heidelberg.de/api/ (querycontractunverified)",
       "format_protocol": "OAI-PMHofficialoperatorlisted; Dataversecollection/versionprobe503, noJSON/XMLdataverified",
@@ -16819,7 +16819,7 @@
       "license": "unknownuniversalheiDATAmetadata/databasegrant; individualdataset/softwarelicencesneedreview",
       "license_url": "https://www.arthistoricum.net/publizieren/forschungsdaten | https://www.ub.uni-heidelberg.de/helios/kataloge/lod.html",
       "api_verification_state": "primary_operator_OAI_documented_native_collection_and_version_HTTP503_temporary_unavailability_not_absence",
-      "latest_checked_utc": "2026-10-17T20:48:04.505451+00:00",
+      "latest_checked_utc": "2026-10-18T05:23:40.324158+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19088,6 +19088,24 @@
       "license_url": "https://donnees.montreal.ca/pages/licence-d-utilisation",
       "api_verification_state": "publisher_CKAN_documented_conventional_API_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T14:14:54.516677+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "more-motor-research-data",
+      "provider": "MO|RE data motor research repository",
+      "service_name": "MO|RE data motor-performance research discovery",
+      "geographic_coverage": "Motor-performance research; exact source/population/geographic coverage unresolved",
+      "topical_coverage": "health | education | research",
+      "dataset_families": "Motor-performance research-data portal; no participant/study/source data acquired",
+      "documentation_url": "https://motor-research-data.de/ | https://motor-research-data.de/en/Nutzungsbedingungen_EN.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://motor-research-data.de/en/Nutzungsbedingungen_EN.pdf",
+      "api_verification_state": "Native root200HTMLloading shellnotAPIresponse; originaltermsPDFurlopentimeout. ExactAPI/currentterms unresolved; noalternates/testsourcequery.",
+      "latest_checked_utc": "2026-10-18T05:23:40.324158+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30160,6 +30178,24 @@
       "license_url": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-software-and-technical-series-publications",
       "api_verification_state": "native_SRD_directory_and_copyright_policy_verified_no_directorywide_API_scientific_sample",
       "latest_checked_utc": "2026-10-17T22:01:12.811476+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nordicana-d-data-series",
+      "provider": "Centre for Northern Studies / Université Laval and partners",
+      "service_name": "Nordicana D northern environmental data series",
+      "geographic_coverage": "Northern/circumpolar environmental research; exact volume/dataset coverage varies",
+      "topical_coverage": "climate/weather/environment | water | biodiversity | geospatial | research",
+      "dataset_families": "Versioned environmental data reports with DOI/metadata; no source datasets acquired",
+      "documentation_url": "https://nordicana.cen.ulaval.ca/document/en_datapolicy.pdf",
+      "api_base_url": "",
+      "format_protocol": "NativePDFpolicy; originalrootreadtimeout, noAPIresponse",
+      "authentication": "Unknown exactdata/APIaccess; no accounts/credentials used",
+      "free_access_restrictions": "Served2013policy describesopenaccess but requireswrittenCENpermissionforissue reproduction/storage/retransmission, notificationforredistributedderivatives/publications andsource-specificexceptions",
+      "license": "Restricted redistribution ofNordicanaDissues under served CENcustompolicy; individualdata/IPownerterms separate",
+      "license_url": "https://nordicana.cen.ulaval.ca/document/en_datapolicy.pdf",
+      "api_verification_state": "Originalrootreadtimeoutnotabsence. SeparatelypreplannednativepolicyPDF200, readwithwebPDFparser; exactqueryAPIunresolved, no sourcefiles/sample.",
+      "latest_checked_utc": "2026-10-18T05:23:40.324158+00:00",
       "classification": "restricted"
     },
     {
