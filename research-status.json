@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:43:30.226176+00:00",
+  "published_at": "2026-10-18T03:45:32.874886+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:43:19.369088+00:00",
+  "research_updated_at": "2026-10-18T03:45:20.477723+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ArmLifeBank taxonomy response clarified as timeout, distinct from robots-held or absent API.",
+  "latest_milestone": "CUGIR native catalogue JSON100descriptors verified, page2 held/rights unresolved; NCES restricted-source scope and GISTEMP file-vs-API gaps explicit.",
   "counts": {
     "verified": 349,
-    "candidates": 783,
-    "excluded": 220,
+    "candidates": 785,
+    "excluded": 221,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -14031,6 +14031,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cugir-geospatial-repository",
+      "provider": "Cornell University Library",
+      "service_name": "Cornell University Geospatial Information Repository catalogue / WFS",
+      "geographic_coverage": "New York State and worldwide geospatial datasets created/collected by Cornell researchers; historical maps also present",
+      "topical_coverage": "geospatial | agriculture | climate/weather/environment | water | transportation | housing | research",
+      "dataset_families": "Agricultural districts, soils, land cover, hydrography, boundaries, parcels, building footprints and historical maps; catalogue mixed resource classes",
+      "documentation_url": "https://cul-it.github.io/cugir-help/about",
+      "api_base_url": "https://cugir.library.cornell.edu/catalog.json | http://cugir.library.cornell.edu/geoserver/cugir/wfs (owner documented, untested)",
+      "format_protocol": "Native JSON:API-style search catalogue JSON; owner documents OGC WFS/WMS and FGDC HTML/XML metadata",
+      "authentication": "Anonymous catalogue sample and first100metadata descriptors succeeded; WFS only documented, no credentials",
+      "free_access_restrictions": "Owner says free/open access; exact source/metadata reuse grant not established. Catalogue page2 guard-deferred unsent, no alternate route",
+      "license": "Unknown exact catalogue metadata/database and source reuse grants",
+      "license_url": "https://cul-it.github.io/cugir-help/about",
+      "api_verification_state": "Anonymous native search sample and100record catalogue page HTTP200 validJSON; page2 guard-deferred unsent. Owner WFS/WMS docs verified, no feature request",
+      "latest_checked_utc": "2026-10-18T03:45:16.192005+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "czech-national-corpus-fcs",
       "provider": "Czech National Corpus",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -15630,6 +15648,24 @@
       "license_url": "https://data.stad.gent/terms/terms-and-conditions/",
       "api_verification_state": "documented_console_HTML_only_sample_policy_held_unresolved",
       "latest_checked_utc": "2026-10-17T09:07:02.850162+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gistemp-data-access",
+      "provider": "NASA Goddard Institute for Space Studies",
+      "service_name": "GISTEMP v4 data-access portal",
+      "geographic_coverage": "Global/hemispheric/zonal surface-temperature anomaly analyses; LOTI1880-present, AIRS2002-present owner-described",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "GISTEMPv4 land-ocean surface-temperature anomaly tables/grids and AIRS anomalies; uncertainty ensembles/GMSTA forecast links separate",
+      "documentation_url": "https://data.giss.nasa.gov/gistemp/",
+      "api_base_url": "",
+      "format_protocol": "Published CSV/TXT, NetCDF, Zarr3 and compressed subbox distributions; file availability not query-API proof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://data.giss.nasa.gov/gistemp/",
+      "api_verification_state": "Native current root and data-download guide HTTP200; no native scientific query API verified or source-file response fetched",
+      "latest_checked_utc": "2026-10-18T03:45:16.192005+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28142,6 +28178,24 @@
       "license_url": "https://www.grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/accessing-data/dbgap",
       "api_verification_state": "Native public homepage/current FAQs and independent NIH access policy HTTP200 HTML; no FTP, FHIR or Entrez data request",
       "latest_checked_utc": "2026-10-18T01:58:21.610594+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nces-restricted-use-data",
+      "provider": "US National Center for Education Statistics / IES",
+      "service_name": "NCES restricted-use statistical research data",
+      "geographic_coverage": "United States education research; international survey families have separate conditions",
+      "topical_coverage": "education | research",
+      "dataset_families": "Restricted-use education research microdata; public-use institutional/statistical data are separate discovery leads",
+      "documentation_url": "https://nces.ed.gov/statprog/instruct_gettingstarted.asp",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Official indexed policy describes organization/data licence application via Standard Application Process; no account or request",
+      "free_access_restrictions": "Restricted-use confidential microdata require reviewed data licence. Not a claim all NCES data closed; public-use/statistical and API branches need independent terms review",
+      "license": "Restricted-use statistical data licence; public-use source scope not globally decided",
+      "license_url": "https://nces.ed.gov/statprog/instruct_gettingstarted.asp",
+      "api_verification_state": "Original NCES root/licence pointer guard-deferred unsent; official indexed policy only. No actual API or data response verified",
+      "latest_checked_utc": "2026-10-18T03:45:16.192005+00:00",
       "classification": "restricted"
     },
     {
