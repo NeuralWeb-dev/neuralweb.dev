@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T23:19:30.287565+00:00",
+  "published_at": "2026-10-18T23:21:34.166421+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:16:47.486164+00:00",
+  "research_updated_at": "2026-10-18T23:20:27.702827+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ITINERIS nativeOpenAPI/siteJSON; NatureCounts no-redistribution and Motus collaboration-controlled access.",
+  "latest_milestone": "Leeds owner mixedlicensing/portalhold; MGIMOopaque200; CDMS VOSI4capabilities and1384classic tagrefs/source-rights gap.",
   "counts": {
     "verified": 494,
-    "candidates": 1422,
+    "candidates": 1425,
     "excluded": 409,
     "sample_successes": 463
   },
@@ -19780,6 +19780,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cologne-cdms-vamdc",
+      "provider": "University of Cologne Institute of Physics / CDMS",
+      "service_name": "Cologne Database for Molecular Spectroscopy VAMDC service",
+      "geographic_coverage": "International molecular spectroscopy reference resource; astronomical/laboratory use, not country-observation coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Classic catalog-entry discovery references and VAMDC service capabilities; no transition predictions, molecular structures or source values acquired",
+      "documentation_url": "https://cdms.astro.uni-koeln.de/cdms/portal/general | https://cdms.astro.uni-koeln.de/classic/about",
+      "api_base_url": "https://cdms.astro.uni-koeln.de/cdms/tap/",
+      "format_protocol": "VAMDC-TAP HTTP GET/POST, VSS2 query language, XSAMS data XML; VOSI capabilities XML verified",
+      "authentication": "Anonymous VOSI capabilities GET succeeded, other source operations untested",
+      "free_access_restrictions": "Public metadata/docs accessible; source/API use conditions and numerical rate limits unknown",
+      "license": "unknown verified data grant",
+      "license_url": "https://cdms.astro.uni-koeln.de/classic/about | https://cdms.astro.uni-koeln.de/cdms/portal/general",
+      "api_verification_state": "Native classic listing/APIgeneral/about HTTP200. Published VAMDC-TAP base plus standard capabilities operation returned200 text/xml valid VOSICapabilities1.0 root and4capabilities. No VSS2/XSAMS source-data query, sync/async job or prediction file request.",
+      "latest_checked_utc": "2026-10-18T23:20:21.378672+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "colombia-mincultura-research-dataverse",
       "provider": "Ministerio de las Culturas, las Artes y los Saberes, Colombia",
       "service_name": "Repositorio de Datos de investigación artística",
@@ -27232,6 +27250,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "leedsbeckett-theses-data-figshare",
+      "provider": "Leeds Beckett University Library",
+      "service_name": "Leeds Beckett Theses and Research Data Repository",
+      "geographic_coverage": "United Kingdom university-affiliated research; underlying dataset geography varies",
+      "topical_coverage": "research | education | health | culture",
+      "dataset_families": "Research dataset/thesis discovery descriptions; no full text, students, clinical or source data acquired",
+      "documentation_url": "https://libguides.leedsbeckett.ac.uk/research-support/symplectic-and-repositories/repository-policies",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public owner policy; instance metadata API credentials unknown, no registration/key/login",
+      "free_access_restrictions": "Owner policy says public repository files accessible without cost; embargo/file-specific access differs, API quota unknown",
+      "license": "unknown verified data grant",
+      "license_url": "https://libguides.leedsbeckett.ac.uk/research-support/symplectic-and-repositories/repository-policies",
+      "api_verification_state": "Original Figshare portal robots-deferred unsent. Independent owner policy HTTP200 verifies distinct institutional repository/rights; exact current institutional REST/OAI interface/base/schema/runtime unknown. No sharedplatformAPI/alternatebackend request after hold.",
+      "latest_checked_utc": "2026-10-18T23:20:21.378672+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "leipzig-wortschatz-api",
       "provider": "Leipzig Corpora Collection / Wortschatz; registry association with SAW repository",
       "service_name": "Wortschatz web-service API discovery lead",
@@ -28255,6 +28291,24 @@
       "license_url": "https://www.marine-geo.org/about/terms_of_use.php",
       "api_verification_state": "Native services/terms200; exact owner-linked relative WFS capabilities request200 parsed WFS1.0XML/3featuretypes. No actual scientific features/files.",
       "latest_checked_utc": "2026-10-18T08:08:13.718884+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mgimo-open-repository",
+      "provider": "MGIMO University",
+      "service_name": "MGIMO University open research repository",
+      "geographic_coverage": "Russia-affiliated international relations/social-science research; source-specific coverage unverified",
+      "topical_coverage": "research | education | law | economics | civic",
+      "dataset_families": "Repository service discovery candidate; native metadata/source content not readable in fetched response",
+      "documentation_url": "https://open.mgimo.ru/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown; no registration/login/cookies/challenge execution or keys",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://open.mgimo.ru/",
+      "api_verification_state": "Native root HTTP200 opaque script/image page, no title/readable repository text. Not counted API or useful repository metadata response. No exact published API/OAI base found, no guessed DSpace/backend/alternativehost or further source route.",
+      "latest_checked_utc": "2026-10-18T23:20:21.378672+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
