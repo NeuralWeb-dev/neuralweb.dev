@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:19:12.773333+00:00",
+  "published_at": "2026-10-18T06:21:15.782888+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:17:04.605812+00:00",
+  "research_updated_at": "2026-10-18T06:20:17.891378+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals/fournewservices: CrossAsiaCC0excludingabstracts/MADATACC0metadata nativeverified, OAIruntimeheld; heiDATA/Propylaeumdedup, CanWINdocs/OstDataholds retained",
+  "latest_milestone": "GINnativeOGCdocs/runtimeheld, KingstonHubdedup scopedgrantunchanged, UVicinstitutionalpolicy withBorealisAPIhold.",
   "counts": {
     "verified": 366,
-    "candidates": 871,
+    "candidates": 873,
     "excluded": 260,
     "sample_successes": 465
   },
@@ -8856,7 +8856,7 @@
       "license": "City of Kingston Open Data Licence1.0; Soccer Fields work only",
       "license_url": "https://www.cityofkingston.ca/media/wtpgpkb0/gis_license_opendata.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_catalogue_named_feature_schema_policy_held_scoped_local_OGL1",
-      "latest_checked_utc": "2026-10-17T09:57:31.756210+00:00",
+      "latest_checked_utc": "2026-10-18T06:20:13.160422+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13647,6 +13647,24 @@
       "license_url": "https://www.canadensys.net/about",
       "api_verification_state": "Native IPT client explicitly documents POST/api/resources through public catalogue JavaScript;15anonymous read-only pages HTTP200 valid JSON. Earlier /ipt/oai Identify HTTP200 was HTML, not valid OAI response; corrected without treating it as API success.",
       "latest_checked_utc": "2026-10-18T02:09:27.638720+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "canadian-groundwater-information-network",
+      "provider": "Natural Resources Canada / Groundwater Information Network partners",
+      "service_name": "Groundwater Information Network (GIN) OGC services",
+      "geographic_coverage": "Canadian provincial/territorial groundwater sources, cross-border USGS collaboration described",
+      "topical_coverage": "water | geospatial | climate/weather/environment | research",
+      "dataset_families": "Water well/monitoring-site data, aquifer/geology maps and groundwater publication discovery; native docs only",
+      "documentation_url": "https://gin.geosciences.ca/service/api_ngwds:gin2/en/gin/ogc.html",
+      "api_base_url": "https://gin.geosciences.ca/service/gin/wms/mediator/gin_en | https://gin.geosciences.ca/service/gin/wfs/gin | https://gin.geosciences.ca/GinService/sos/gw",
+      "format_protocol": "Native owner documents WMS1.1.1/WFS1.1.0/SOS2 GetCapabilities URLs; GWML and downloads are formats, not independent APIs",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://gin.geosciences.ca/service/api_ngwds:gin2/en/gin/gin.html",
+      "api_verification_state": "Native root/about/OGCdocs200HTML; exact ownerlinked WMSGetCapabilities guard-deferred unsent, no APIXML response",
+      "latest_checked_utc": "2026-10-18T06:20:13.160422+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25743,6 +25761,24 @@
       "license_url": "https://aa.usno.navy.mil/about/PrivacyNotice",
       "api_verification_state": "Native API guide/help/own rights notice HTTP200; bounded moon-phase request HTTP200 valid JSON, one phasedata element",
       "latest_checked_utc": "2026-10-18T01:49:37.153273+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uvic-borealis-data-repository",
+      "provider": "University of Victoria Libraries",
+      "service_name": "UVic Dataverse institutional collection in Borealis",
+      "geographic_coverage": "University of Victoria-associated multidisciplinary research, dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research-data collection and subcollections; tabular, text, geospatial, audiovisual/images accepted",
+      "documentation_url": "https://libguides.uvic.ca/researchdata/dataverse",
+      "api_base_url": "https://borealisdata.ca/dataverse/uvic; exact inherited API runtime held",
+      "format_protocol": "Registry OAI/REST/SWORDclaims; deployment described by institutionalowner, no APIresponse",
+      "authentication": "unknown",
+      "free_access_restrictions": "Owner says platform free for UVic-affiliated researchers; dataset reuse/permissions require individual terms, not tested",
+      "license": "unknown verified data grant",
+      "license_url": "https://libguides.uvic.ca/researchdata/dataverse/termsofuse",
+      "api_verification_state": "Native copyright, institutionalguide/deposit/collectionterms200HTML; existing Borealissearch/APIguardhold preserved, no collection/APItest",
+      "latest_checked_utc": "2026-10-18T06:20:13.160422+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
