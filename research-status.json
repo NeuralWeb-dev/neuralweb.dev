@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T11:20:24.584337+00:00",
+  "published_at": "2026-10-18T11:22:27.851988+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:15:18.205978+00:00",
+  "research_updated_at": "2026-10-18T11:21:39.762441+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Iowa serviceTOUvs source rights/portalhold; LiDA metadataBYSA4/651headers7pages complete; CambiumAPI/rights gaps; MDZ351000refs/351pages incomplete.",
+  "latest_milestone": "Open Tree project metadata CC0/read-only JSON verified; OpenWorm API and USDA source rights unresolved; MDZ366000references incomplete.",
   "counts": {
-    "verified": 393,
-    "candidates": 1020,
+    "verified": 394,
+    "candidates": 1022,
     "excluded": 296,
     "sample_successes": 465
   },
@@ -410,6 +410,7 @@
           "ncbi-virus-datasets",
           "nih-clinicaltrials",
           "ocha-hapi",
+          "openworm-data-representation",
           "proteomexchange-proteomecentral",
           "pubchem-pug-services",
           "publisso-life-sciences-repository",
@@ -677,6 +678,7 @@
           "itis-taxonomic-web-services",
           "lipidmaps-rest-sparql",
           "obis",
+          "opentree-public-api",
           "uniprot"
         ],
         "candidate_provider_ids": [
@@ -982,6 +984,7 @@
           "openalex",
           "opencitations",
           "opencontext",
+          "opentree-public-api",
           "pangaea",
           "pdb",
           "platemark-public-dossier-api",
@@ -1108,6 +1111,7 @@
           "nodc-ieo-geonetwork",
           "olac-language-archives-network",
           "open-data-lmu",
+          "openworm-data-representation",
           "ornl-daac-biogeochemical-archive",
           "osi-licenses",
           "perspectivia",
@@ -1300,7 +1304,8 @@
           "oregon-open-data",
           "usda-ers-arms-api",
           "usda-ers-geospatial-services",
-          "usda-nass"
+          "usda-nass",
+          "usda-soil-data-access"
         ],
         "restricted_provider_ids": [
           "colorado-information-marketplace",
@@ -1375,6 +1380,7 @@
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
           "us-data-gov-catalog",
+          "usda-soil-data-access",
           "vernon-public-geospatial-api",
           "washington-state-open-data",
           "wis2-ucsd-scripps"
@@ -1680,6 +1686,7 @@
           "ubc-circle-open-collections",
           "us-data-gov-catalog",
           "usda-ers-geospatial-services",
+          "usda-soil-data-access",
           "vernon-public-geospatial-api",
           "washington-state-geospatial-portal",
           "waterloo-city-open-data",
@@ -1848,7 +1855,8 @@
           "ubc-circle-open-collections",
           "usda-ers-arms-api",
           "usda-ers-geospatial-services",
-          "usda-nass"
+          "usda-nass",
+          "usda-soil-data-access"
         ],
         "restricted_provider_ids": [
           "calgary-prism-scholaris-repository",
@@ -10771,6 +10779,24 @@
       "license_url": "https://www.openplzapi.org/en/faq/ | https://raw.githubusercontent.com/openpotato/openplzapi.data/refs/heads/main/LICENSE",
       "api_verification_state": "actual_four_country_admin_array_sample_success_processed_ODbL_grant_verified",
       "latest_checked_utc": "2026-10-17T04:44:04.121017+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "opentree-public-api",
+      "provider": "Open Tree of Life project",
+      "service_name": "Open Tree of Life v3 public API: project metadata scope",
+      "geographic_coverage": "Global taxonomy and phylogenetic research; accepted project-authored service metadata only",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Documented synthetic tree, taxonomy, taxonomic name resolution and study APIs; accepted project-authored about/version metadata only",
+      "documentation_url": "https://github.com/OpenTreeOfLife/germinator/wiki/Open-Tree-of-Life-Web-APIs | https://github.com/OpenTreeOfLife/germinator/wiki/Taxonomy-API-v3",
+      "api_base_url": "https://api.opentreeoflife.org/v3/",
+      "format_protocol": "JSON over HTTPS; documented read-only POST about metadata",
+      "authentication": "Anonymous about request succeeded; other operations not tested",
+      "free_access_restrictions": "No paid access required for tested project metadata; upstream source terms remain applicable",
+      "license": "CC0 where not limited by pre-existing terms; accepted project-authored service metadata only",
+      "license_url": "https://tree.opentreeoflife.org/about/licenses",
+      "api_verification_state": "Native v3 overview/taxonomy docs and licence 200 HTML. Exact documented read-only POST taxonomy/about returned 200 application/json with author,name,source,version,weburl; project author and version3.7 verified. No taxa/tree/source query.",
+      "latest_checked_utc": "2026-10-18T11:21:00.344018+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21337,8 +21363,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across351successfulpages/351000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T11:11:50.610259+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across366successfulpages/366000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T11:21:06.597464+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23895,6 +23921,24 @@
       "license_url": "https://docs.openstates.org/data/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:28:45.582230+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "openworm-data-representation",
+      "provider": "OpenWorm Foundation / community",
+      "service_name": "OpenWorm data representation and OWMeta framework",
+      "geographic_coverage": "Global research community; C. elegans modelling, not geographic observations",
+      "topical_coverage": "research | health",
+      "dataset_families": "Documented integrated organism modelling and data representation projects; no neural, gene, assay or source records acquired",
+      "documentation_url": "http://docs.openworm.org/projects | https://github.com/openworm/OWMeta",
+      "api_base_url": "",
+      "format_protocol": "Local Python/RDF framework and documentation; remote public query API unknown",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root/project/data representation and OWMeta documentation 200 HTML. No formal remote public API verified or source query performed.",
+      "latest_checked_utc": "2026-10-18T11:21:00.344018+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29007,6 +29051,24 @@
       "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/ | https://www.usda.gov/about-usda/policies-and-links",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-18T00:44:11.788671+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usda-soil-data-access",
+      "provider": "USDA Natural Resources Conservation Service",
+      "service_name": "Web Soil Survey / Soil Data Access web services",
+      "geographic_coverage": "United States soil survey programme; exact per-survey extent not enumerated",
+      "topical_coverage": "agriculture | environment | geospatial",
+      "dataset_families": "Documented soil survey tabular data, interpretations and spatial service families; no soil values or coordinates acquired",
+      "documentation_url": "https://www.nrcs.usda.gov/resources/data-and-reports/web-soil-survey | https://sdmdataaccess.nrcs.usda.gov/WebServiceHelp.aspx",
+      "api_base_url": "https://sdmdataaccess.nrcs.usda.gov/",
+      "format_protocol": "SOAP WSDL/XML; documented REST SQL and WMS/WFS interfaces, unexecuted",
+      "authentication": "Anonymous WSDL succeeded; source query/access restrictions not tested",
+      "free_access_restrictions": "Public documentation and schema accessible without credentials; detailed service quotas unknown",
+      "license": "Qualified USDA website public-domain policy; exact source grant unresolved",
+      "license_url": "https://www.usda.gov/about-usda/policies-and-links",
+      "api_verification_state": "Owner guide, SDA home/help and policy 200 HTML; native SOAP ?WSDL returned 200 valid definitions XML with one abstract RunQuery operation/two service ports. WSDL/schema success, not source query success.",
+      "latest_checked_utc": "2026-10-18T11:21:00.344018+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
