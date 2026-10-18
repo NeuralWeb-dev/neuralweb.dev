@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T00:14:51.161369+00:00",
+  "published_at": "2026-10-18T00:16:53.698430+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:13:59.198693+00:00",
+  "research_updated_at": "2026-10-18T00:16:23.733572+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FishBase/NIIIDR restrictions verified; NASC currentREST documentation found but datalicence/bounded query unresolved.",
+  "latest_milestone": "NCDC publicHTML catalogue enumeration: 89pages,1780unique metadata IDs; source rights/API unresolved.",
   "counts": {
     "verified": 321,
     "candidates": 662,
@@ -96,6 +96,7 @@
           "india-environment-portal",
           "isimip-impact-repository",
           "nasa-power",
+          "nasc-plant-stock-webservices",
           "ocha-hapi",
           "plant-adaptation-hub",
           "wfp"
@@ -502,6 +503,7 @@
           "idigbio",
           "isimip-impact-repository",
           "litterbase-marine-litter-portal",
+          "nasc-plant-stock-webservices",
           "ncbi-virus-datasets",
           "planetary-computer",
           "plant-adaptation-hub",
@@ -514,6 +516,7 @@
           "deims",
           "ebird",
           "edaphobase-soil-biodiversity-api",
+          "fishbase-programmatic-data",
           "inaturalist",
           "indexs-exsiccatae-api",
           "ipd-immunopolymorphism-api",
@@ -558,6 +561,7 @@
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "copernicus-marine",
+          "fishbase-programmatic-data",
           "oceanrep-oai-metadata",
           "worms"
         ]
@@ -620,6 +624,7 @@
           "mit-timdex",
           "muenster-datastore-rest",
           "nasa-power",
+          "nasc-plant-stock-webservices",
           "ocha-hapi",
           "olac-language-archives-network",
           "osi-licenses",
@@ -768,6 +773,7 @@
           "mit-timdex",
           "muenster-datastore-rest",
           "mumbai-geomagnetism-data-centre",
+          "nasc-plant-stock-webservices",
           "ncbi-virus-datasets",
           "nced-data-repository",
           "nih-clinicaltrials",
@@ -811,6 +817,7 @@
           "ebird",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
+          "fishbase-programmatic-data",
           "ghdx-ihme-discovery",
           "harvard-dataverse",
           "heidicon-object-multimedia-repository",
@@ -1939,6 +1946,7 @@
           "bonares-soil-agricultural-repository",
           "galicia-abertos-catalog",
           "lithuania-statistics",
+          "nasc-plant-stock-webservices",
           "puglia-open-data-catalog",
           "sardinia-geospatial-wfs",
           "serbia-rzs",
@@ -2568,6 +2576,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "nasc-plant-stock-webservices",
           "seadatanet-cdi-discovery-network",
           "ufz-spatial-geonetwork"
         ],
@@ -2690,6 +2699,7 @@
           "kpbc-digital-library",
           "ksamsok",
           "lithuania-statistics",
+          "nasc-plant-stock-webservices",
           "nfdi4ing-ingest-metadata-api",
           "ortolang-fcs",
           "perspectivia",
@@ -2763,6 +2773,7 @@
           "oulu-open-data-api",
           "piemonte-opendata-catalog",
           "poland-bdl",
+          "radar-public-metadata",
           "registry-data-bl-ch",
           "registry-data-tg-ch",
           "registry-europeandataportal-eu",
@@ -2813,6 +2824,7 @@
           "kielipankki-fcs",
           "kpbc-digital-library",
           "ksamsok",
+          "nasc-plant-stock-webservices",
           "nfdi4health-study-hub",
           "nfdi4ing-ingest-metadata-api",
           "nodc-ieo-geonetwork",
@@ -2823,6 +2835,7 @@
           "portulan-fcs",
           "portulan-repository",
           "publicneuro-repository",
+          "radar-bb-repository",
           "rijksmuseum",
           "saw-leipzig-fcs",
           "seadatanet-cdi-discovery-network",
@@ -2909,6 +2922,7 @@
           "digitalearth-africa"
         ],
         "candidate_provider_ids": [
+          "nasc-plant-stock-webservices",
           "saudi-statistics",
           "tunisia"
         ],
@@ -3021,9 +3035,11 @@
         "restricted_provider_ids": []
       },
       "biodiversity": {
-        "status": "restricted_only",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "nasc-plant-stock-webservices"
+        ],
         "restricted_provider_ids": [
           "gccstat"
         ]
@@ -3048,6 +3064,7 @@
           "digitalearth-africa"
         ],
         "candidate_provider_ids": [
+          "nasc-plant-stock-webservices",
           "saudi-statistics",
           "tunisia"
         ],
@@ -3062,6 +3079,7 @@
           "digitalearth-africa"
         ],
         "candidate_provider_ids": [
+          "nasc-plant-stock-webservices",
           "romanian-social-data-archive",
           "ubb-digital-commons-data"
         ],
@@ -3673,7 +3691,9 @@
         "candidate_provider_ids": [
           "thailand-gistda"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nii-idr-restricted-dataset-service"
+        ]
       },
       "transportation": {
         "status": "partial_verified",
@@ -3732,7 +3752,9 @@
         "candidate_provider_ids": [
           "thailand-govspending"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "nii-idr-restricted-dataset-service"
+        ]
       },
       "biodiversity": {
         "status": "partial_verified",
@@ -3771,7 +3793,8 @@
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
-          "cinii-research"
+          "cinii-research",
+          "nii-idr-restricted-dataset-service"
         ]
       },
       "research": {
@@ -3790,7 +3813,8 @@
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
-          "cinii-research"
+          "cinii-research",
+          "nii-idr-restricted-dataset-service"
         ]
       }
     },
