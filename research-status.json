@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T01:03:54.341348+00:00",
+  "published_at": "2026-10-18T01:05:56.948678+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:03:43.677059+00:00",
+  "research_updated_at": "2026-10-18T01:04:28.032125+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AADCdeduplicatedtothreeexistingAPIs; MyRiceBasecandidate andWDCGGconditional-use restrictedrecordadded; no sourcefiles orcredentials.",
+  "latest_milestone": "Twelve original tasks reviewed: twelve records added, four existing APIs updated. DataverseUA CC0/OAI79headers and ORTOLANG RESTJSON verified; exactsource/interfaceholds retained.",
   "counts": {
     "verified": 327,
     "candidates": 702,
@@ -96,6 +96,7 @@
           "csiro-data-access-portal",
           "india-environment-portal",
           "isimip-impact-repository",
+          "isric-soil-data-hub",
           "nasa-power",
           "nasc-plant-stock-webservices",
           "ocha-hapi",
@@ -148,6 +149,7 @@
           "esa-ecology",
           "esa-heritage-mission-data-discovery",
           "flood-observatory-colorado",
+          "gawsis-station-metadata",
           "georem-reference-materials",
           "gpcc-precipitation-product-portal",
           "hdx",
@@ -159,6 +161,7 @@
           "ioerdata-spatial-research-portal",
           "iri-ldeo-climate-library",
           "isimip-impact-repository",
+          "isric-soil-data-hub",
           "jpl-tropical-cyclone-information-system",
           "litterbase-marine-litter-portal",
           "muenster-datastore-rest",
@@ -198,7 +201,8 @@
           "oceanrep-oai-metadata",
           "open-meteo",
           "openaq",
-          "senckenberg-research-metadata-portal"
+          "senckenberg-research-metadata-portal",
+          "wdcgg-greenhouse-gases"
         ]
       },
       "water": {
@@ -419,6 +423,7 @@
           "iers-central-bureau-webservices",
           "igs-public-network-api",
           "ioerdata-spatial-research-portal",
+          "isric-soil-data-hub",
           "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
           "mit-timdex",
@@ -636,6 +641,7 @@
           "india-environment-portal",
           "internet-archive-metadata",
           "isimip-impact-repository",
+          "isric-soil-data-hub",
           "loc",
           "mit-timdex",
           "muenster-datastore-rest",
@@ -764,6 +770,7 @@
           "esa-heritage-mission-data-discovery",
           "europepmc",
           "flood-observatory-colorado",
+          "gawsis-station-metadata",
           "georem-reference-materials",
           "georoc2-testing-api",
           "getty-museum",
@@ -788,6 +795,7 @@
           "iri-ldeo-climate-library",
           "isdc-public-data-archive",
           "isimip-impact-repository",
+          "isric-soil-data-hub",
           "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
           "jpl-ssd",
@@ -859,6 +867,7 @@
           "terrasarx-sar-imagery-access",
           "terrasarx-tor-rso-archive",
           "un-comtrade",
+          "wdcgg-greenhouse-gases",
           "who-icd-api",
           "xenbase-model-organism-services"
         ]
@@ -3888,6 +3897,7 @@
           "china-ncdc-cryosphere-desert-portal",
           "cinii-books",
           "cngbdb-resource-portal",
+          "jst-grants-data",
           "nims-mdr",
           "smoka-science-archive",
           "tokyo-aori-cruise-database",
