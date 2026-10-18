@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T22:15:45.083764+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T22:17:48.217705+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:14:12.639682+00:00",
+  "research_updated_at": "2026-10-18T22:16:56.051299+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ALBAportal/policyhold/revisionpending; UnisanteBeComESBY4/validJSONmetadata; INAHnativeNCNDdefault/OAIHTML.",
+  "latest_milestone": "Nine tasks: Unisante named BY4/JSON, ROSAP OAIformats; Share_it CC0 depositmetadata and SBDI named BY4/schema; Abacus/ALBA holds, INAH NCND, Constellation gap, GovInfo dedup.",
   "counts": {
     "verified": 486,
-    "candidates": 1396,
+    "candidates": 1398,
     "excluded": 404,
     "sample_successes": 464
   },
@@ -2968,6 +2968,7 @@
           "radar4chem-research-data",
           "redbridge-datashare",
           "registry-transparenz-karlsruhe-de",
+          "sbdi-bioatlas-apis",
           "slovenia-statistics",
           "transportapi-fi",
           "ukraine-data",
@@ -3848,7 +3849,8 @@
           "france",
           "ices-dome",
           "italy-nnb-ogc-features",
-          "italy-nnb-reporting-api"
+          "italy-nnb-reporting-api",
+          "sbdi-bioatlas-apis"
         ],
         "candidate_provider_ids": [
           "berlin-animal-sound-archive",
@@ -3890,6 +3892,7 @@
           "hcdc-datasearch-metadata-api",
           "ices-dome",
           "met-norway-weather-api",
+          "sbdi-bioatlas-apis",
           "transportapi-fi",
           "ukho-marine-data-portal"
         ],
@@ -4201,6 +4204,7 @@
           "rostock-rosdok",
           "sandrart-rdf-linked-data",
           "saw-leipzig-repository",
+          "sbdi-bioatlas-apis",
           "slovenia-statistics",
           "staedel-museum-oai",
           "textgrid-public-repository",
@@ -10560,7 +10564,7 @@
       "license": "US public domain for US government works; copyrighted incorporated material excluded",
       "license_url": "https://www.govinfo.gov/about/policies",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:37:23.732047+00:00",
+      "latest_checked_utc": "2026-10-18T22:16:03.091286+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -31122,6 +31126,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ornl-constellation-data-portal",
+      "provider": "Oak Ridge Leadership Computing Facility / Oak Ridge National Laboratory",
+      "service_name": "Constellation data repository and DOI catalogue",
+      "geographic_coverage": "ORNL/OLCF and international computational research; source geography varies",
+      "topical_coverage": "research | energy | environment | climate",
+      "dataset_families": "Computational research data/DOI catalogue descriptions; sources maylinked toGlobus or other storage",
+      "documentation_url": "https://doi.ccs.ornl.gov/ | https://doi.ccs.ornl.gov/constellation-terms-conditions",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://doi.ccs.ornl.gov/constellation-terms-conditions",
+      "api_verification_state": "Native root/termsHTTP200HTML, no exactpublicreadAPI/schema/capability verified. No guessedDrupal/REST/DOIbackend, Globus orsourceobject request.",
+      "latest_checked_utc": "2026-10-18T22:16:03.091286+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ornl-daac-biogeochemical-archive",
       "provider": "NASA ORNL DAAC / Oak Ridge National Laboratory",
       "service_name": "ORNL DAAC biogeochemical data access services",
@@ -38085,6 +38107,24 @@
       "license_url": "https://www.usda.gov/about-usda/policies-and-links",
       "api_verification_state": "Owner guide, SDA home/help and policy 200 HTML; native SOAP ?WSDL returned 200 valid definitions XML with one abstract RunQuery operation/two service ports. WSDL/schema success, not source query success.",
       "latest_checked_utc": "2026-10-18T11:21:00.344018+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usdot-rosap-transportation-repository",
+      "provider": "US Department of Transportation / National Transportation Library",
+      "service_name": "ROSA P Repository and Open Science Access Portal",
+      "geographic_coverage": "UnitedStates federal/state/local transportation and international transport research",
+      "topical_coverage": "transportation | economics | labor | environment | research",
+      "dataset_families": "Transport research/publication/data descriptions, report and multimedia metadata; sources individuallylicensed",
+      "documentation_url": "https://rosap.ntl.bts.gov/about | https://rosap.ntl.bts.gov/fedora/oai?verb=ListMetadataFormats",
+      "api_base_url": "https://rosap.ntl.bts.gov/fedora/oai",
+      "format_protocol": "OAI-PMH XML ListMetadataFormats verified, oai_dc onlyreturned",
+      "authentication": "AnonymousprotocolcapabilityrequestHTTP200validXML; otheroperationsuntested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://rosap.ntl.bts.gov/about | https://rosap.ntl.bts.gov/view/dot/80258/dot_80258_DS1.pdf",
+      "api_verification_state": "Native root/aboutHTTP200HTML. ExactregisteredListMetadataFormatsHTTP200validOAI-PMHXML/noerror withoneoai_dcmetadataformat. No ListRecords/GetRecord/wholecorpusharvest orsourcefiles.",
+      "latest_checked_utc": "2026-10-18T22:16:03.091286+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
