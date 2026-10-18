@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T10:31:10.559652+00:00",
+  "published_at": "2026-10-18T10:33:13.792396+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:30:15.284377+00:00",
+  "research_updated_at": "2026-10-18T10:32:36.635731+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "HEPData client/developer docs; Estonian metadata/source rights separated; INT indexed qualified access and native hold; MDZ209000refs/209pages, incomplete.",
+  "latest_milestone": "FDAT dedup/metadataCC0; RAKIP UI/protected distinction; TCIA vocabularyJSON/NBIA32schemaops and current migration; MDZ224000refs/224pages incomplete.",
   "counts": {
     "verified": 390,
-    "candidates": 1000,
+    "candidates": 1003,
     "excluded": 291,
     "sample_successes": 465
   },
@@ -8197,8 +8197,8 @@
       "free_access_restrictions": "PublishedmetadataCC0 andOAIharvestingdocumented; sourcefilesmaybeembargoed/restricted andindividuallicences apply",
       "license": "Creative Commons CC0 for publishedmetadata perofficialFDATFAQ",
       "license_url": "https://dh-center.uni-tuebingen.de/fdat-policy/faq.html",
-      "api_verification_state": "native_anonymous_OAI_XML_Identify_and_complete34sets_CC0metadata_primarypolicy_verified",
-      "latest_checked_utc": "2026-10-17T20:41:22.613603+00:00",
+      "api_verification_state": "native_anonymous_OAI_XML_Identify_and_complete34sets_CC0metadata_primarypolicy_verified; fresh native FAQ200; no new API query",
+      "latest_checked_utc": "2026-10-18T10:31:39.230281+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21087,8 +21087,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across209successfulpages/209000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:27:11.927136+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across224successfulpages/224000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:31:45.272846+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25016,6 +25016,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rakip-web-model-repository",
+      "provider": "German Federal Institute for Risk Assessment / RAKIP Initiative",
+      "service_name": "RAKIP-Web public model repository and protected modelling services",
+      "geographic_coverage": "International food-safety risk modelling network; individual model coverage unverified",
+      "topical_coverage": "agriculture | health | research",
+      "dataset_families": "Microbial food-safety risk models, modules and FSKX/FSK-ML model metadata; models/scripts not acquired or executed",
+      "documentation_url": "https://foodrisklabs.bfr.bund.de/rakip-web-public-page/ | https://foodrisklabs.bfr.bund.de/rakip-model-repository-web-services/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native public guide describes public search/view/download and registered protected execution/create/edit/join/upload; no credentials or protected use",
+      "free_access_restrictions": "Public browser functions documented; protected membership/registration separate. Exact public read API authentication, quotas and model rights unresolved",
+      "license": "unknown verified data grant",
+      "license_url": "https://foodrisklabs.bfr.bund.de/legal-notice/",
+      "api_verification_state": "Original KNIME landingpage200HTML shell only. Native institutional public guide, repository guide and legal notice200HTML. No verified public HTTP schema or model/source request.",
+      "latest_checked_utc": "2026-10-18T10:31:39.230281+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "raleigh-open-data",
       "provider": "City of Raleigh, North Carolina",
       "service_name": "Open Data Raleigh OGC API Records catalog",
@@ -27245,6 +27263,42 @@
       "license_url": "https://docs-api.tce.pb.gov.br/docs/openapi-captura-municipal",
       "api_verification_state": "official_indexed_current_API_documented_Bearer_required_sample_untested_direct_docs_JS_shell",
       "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tcia-collection-manager-api",
+      "provider": "The Cancer Imaging Archive / University of Arkansas for Medical Sciences",
+      "service_name": "TCIA Collection Manager REST API v2",
+      "geographic_coverage": "Internationally accessible cancer-research collection discovery; study population/geographic coverage per collection",
+      "topical_coverage": "health | research",
+      "dataset_families": "Collection and analysis-result descriptive metadata, citations, licence vocabulary and related catalogue fields; not patient/scan payloads",
+      "documentation_url": "https://www.cancerimagingarchive.net/collection-manager-rest-api/ | https://www.cancerimagingarchive.net/tcia-api-guides/",
+      "api_base_url": "https://cancerimagingarchive.net/api/v2/",
+      "format_protocol": "REST JSON; v2 field selection/search/page/per_page documented; v1 distinct legacy documentation",
+      "authentication": "One anonymous bounded licence-vocabulary GET succeeded; other operation/source access not tested",
+      "free_access_restrictions": "Public vocabulary response without key; source collection access/licences vary. No accounts/agreements or controlled source use.",
+      "license": "Per-dataset mixed licences; exact API metadata/database grant unresolved",
+      "license_url": "https://www.cancerimagingarchive.net/data-usage-policies-and-restrictions/ | https://www.cancerimagingarchive.net/nih-controlled-data-access-policy/",
+      "api_verification_state": "Native docs/policy200HTML; licence-vocabulary sample200 validJSON with pagination and oneID only. No source collection/patient/scan/image/clinical record request.",
+      "latest_checked_utc": "2026-10-18T10:31:39.230281+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tcia-nbia-v4-api",
+      "provider": "The Cancer Imaging Archive / National Biomedical Imaging Archive",
+      "service_name": "NBIA v4 legacy radiology archive API",
+      "geographic_coverage": "Cancer-research radiology archive; per-study coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Documented radiology metadata search, manifests and image-related interfaces; only static interface schema acquired",
+      "documentation_url": "https://www.cancerimagingarchive.net/tcia-api-guides/ | https://cbiit.github.io/NBIA-TCIA/ | https://cbiit.github.io/NBIA-TCIA/nbia-api.yaml",
+      "api_base_url": "https://nbia.cancerimagingarchive.net/nbia-api/services/v4/",
+      "format_protocol": "OpenAPI3.1.0 YAML;32paths/32operations, production and staging server declarations",
+      "authentication": "No runtime tested; schema has no global security/securitySchemes declaration, which is not proof all operations anonymous. Protected sources remain separate.",
+      "free_access_restrictions": "Owner describes NBIA legacy retirement toward IDC(public)/CRDC(restricted); v4released30October2025, older API helpdesk support endingOctober2026. Full decommission date not verified.",
+      "license": "Per-source mixed licences and restricted-source policies; no universal API/schema data grant verified",
+      "license_url": "https://www.cancerimagingarchive.net/data-usage-policies-and-restrictions/ | https://www.cancerimagingarchive.net/nih-controlled-data-access-policy/",
+      "api_verification_state": "Owner-published SwaggerUI wrapper200HTML and directly declared nbia-api.yaml200 valid OpenAPI3.1.0;32paths/32operations. Production/staging source runtimes unqueried.",
+      "latest_checked_utc": "2026-10-18T10:31:39.230281+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
