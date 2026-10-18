@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T07:59:33.011462+00:00",
+  "published_at": "2026-10-18T08:01:35.688815+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:59:12.870111+00:00",
+  "research_updated_at": "2026-10-18T08:01:02.723536+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BASS2000 native noncommercial terms verified; WDCCR source-grant/API unresolved; distinct NCEI Search JSON verified and10dataset references indexed.",
+  "latest_milestone": "Oxford scopedCC0/OAI protocol verified; NAKALA publicmetadataBY4 verified with held runtime; EurOBIS restrictive portal terms retained.",
   "counts": {
-    "verified": 378,
+    "verified": 380,
     "candidates": 926,
-    "excluded": 272,
+    "excluded": 273,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -9575,6 +9575,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "nakala-public-metadata",
+      "provider": "Huma-Num / CNRS",
+      "service_name": "NAKALA public research metadata services",
+      "geographic_coverage": "French humanities/social-science repository; international research subjects, exact collection coverage unenumerated",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Public deposit metadata and collection descriptions; underlying digital files have mandatory depositor-selected licences and possible embargoes",
+      "documentation_url": "https://documentation.huma-num.fr/nakala/",
+      "api_base_url": "https://api.nakala.fr/oai2 | https://api.nakala.fr/",
+      "format_protocol": "OAI-PMH and REST documented by native owner; actual API runtime held",
+      "authentication": "No credentials acquired/used; public OAI intended, runtime held. HumanID/API keys and access approval for deposits documented, not attempted.",
+      "free_access_restrictions": "Owner explicitly permits metadata reuse with attribution. Source-file access/reuse depends licence/embargo; public and private deposits distinct.",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_url": "https://documentation.huma-num.fr/nakala/",
+      "api_verification_state": "Native root/owner guide200 with explicit metadata grant and published OAI/REST links. OAI Identify guard-deferred unsent, not testedAPI success. No alternate REST/backend after hold.",
+      "latest_checked_utc": "2026-10-18T08:00:57.766859+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "nanaimo-open-data",
       "provider": "City of Nanaimo",
       "service_name": "GIS Open Data Portal native catalog and advertised GeoServices",
@@ -10418,6 +10436,24 @@
       "license_url": "https://www.ouka.fi/en/open-data/terms-and-conditions | https://www.ouka.fi/avoin-data/kayttoehdot | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_native_schema_and_aggregate_sample_success",
       "latest_checked_utc": "2026-10-17T12:06:27.959884+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "oxford-ora-metadata",
+      "provider": "University of Oxford / Bodleian Libraries",
+      "service_name": "Oxford University Research Archive OAI-PMH metadata",
+      "geographic_coverage": "Oxford institutional research outputs with international subject coverage; not whole UK research census",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Public research output catalogue: articles, theses, conference papers and datasets; accepted RIOXX Terms CC0 metadata excludes abstracts/summary descriptions",
+      "documentation_url": "https://ora.ox.ac.uk/api",
+      "api_base_url": "https://ora.ox.ac.uk/oai2",
+      "format_protocol": "OAI-PMH2.0 XML; Identify and ListMetadataFormats verified",
+      "authentication": "No credentials for two successful OAI protocol metadata requests; deposit/authenticated operations not tested",
+      "free_access_restrictions": "Public OAI metadata; provider requests contact before full/large website downloads and warns unexpected scraping may be blocked. No bulk performed/contact sent.",
+      "license": "Creative Commons CC0 1.0 Universal",
+      "license_url": "https://ora.ox.ac.uk/api",
+      "api_verification_state": "Native API guide200 explicitCC0; anonymous Identify200 validOAI2 XML and ListMetadataFormats200 with10formats including rioxx_terms_cc0. No actual publication/source records fetched.",
+      "latest_checked_utc": "2026-10-18T08:00:57.766859+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -30690,6 +30726,24 @@
       "license_url": "https://www.cosmos.esa.int/web/gaia-users/license",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T19:11:05.630009+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "eurobis-european-marine-data",
+      "provider": "Flanders Marine Institute / EurOBIS",
+      "service_name": "European Ocean Biodiversity Information System",
+      "geographic_coverage": "European marine waters and observations by European researchers outside Europe",
+      "topical_coverage": "biodiversity | oceans | environment | research",
+      "dataset_families": "Marine species distribution datasets; native root reports1541datasets/651withDOI, not independently enumerated",
+      "documentation_url": "https://www.eurobis.org/webservices | https://www.eurobis.org/data_access_services",
+      "api_base_url": "",
+      "format_protocol": "Published EMODnet OGC service documentation, occurrence toolbox links and RSS; actual protocol response not tested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Provider-specific dataset licences plus restrictive EurOBIS portal terms",
+      "license_url": "https://www.eurobis.org/citation",
+      "api_verification_state": "Native home/terms/services/webservices200 HTML; no occurrence/API response or transfer through OBIS/GBIF tested",
+      "latest_checked_utc": "2026-10-18T08:00:57.766859+00:00",
       "classification": "restricted"
     },
     {
