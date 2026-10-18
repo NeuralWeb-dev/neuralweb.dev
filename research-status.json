@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:15:06.448477+00:00",
+  "published_at": "2026-10-18T06:17:09.994768+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:14:30.209104+00:00",
+  "research_updated_at": "2026-10-18T06:17:04.605812+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CrossAsia nativeCC0bibliographic metadata exceptabstracts/OAI documented withruntimeheld; heiDATA dedup/current guide, OstDataheld candidate.",
+  "latest_milestone": "Sixoriginals/fournewservices: CrossAsiaCC0excludingabstracts/MADATACC0metadata nativeverified, OAIruntimeheld; heiDATA/Propylaeumdedup, CanWINdocs/OstDataholds retained",
   "counts": {
-    "verified": 365,
-    "candidates": 870,
+    "verified": 366,
+    "candidates": 871,
     "excluded": 260,
     "sample_successes": 465
   },
@@ -2990,6 +2990,7 @@
           "european-history-online",
           "la-rochelle-data4citizen",
           "lse-research-online",
+          "ostdata-research-repository",
           "paris",
           "poland-gus-smup",
           "poland-gus-strateg",
@@ -3167,6 +3168,7 @@
           "nasc-plant-stock-webservices",
           "nfdi4ing-ingest-metadata-api",
           "ortolang-fcs",
+          "ostdata-research-repository",
           "perspectivia",
           "phaidra-university-vienna",
           "portulan-fcs",
@@ -3328,6 +3330,7 @@
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
           "ortolang-fcs",
+          "ostdata-research-repository",
           "perspectivia",
           "phaidra-university-vienna",
           "polen-datahub-portugal",
@@ -9109,6 +9112,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "madata-mannheim-metadata",
+      "provider": "University of Mannheim Library",
+      "service_name": "MADATA research data repository metadata OAI",
+      "geographic_coverage": "Mannheim-associated research, source geography varies",
+      "topical_coverage": "research | education | economics/finance",
+      "dataset_families": "Metadata of institutional research datasets; source data individually licensed with access restrictions possible",
+      "documentation_url": "https://madata.bib.uni-mannheim.de/faq.html",
+      "api_base_url": "https://madata.bib.uni-mannheim.de/cgi/oai2",
+      "format_protocol": "OAI-PMH2 documented natively; separate Python client/Wikidata representation described, not tested",
+      "authentication": "Public metadataOAI documented; originalIdentify guard-deferred unsent, source account/permissions vary",
+      "free_access_restrictions": "Native FAQ explicitly metadata always openCC0; source dataset licences and selected-person access configurable",
+      "license": "CC0 for dataset metadata",
+      "license_url": "https://madata.bib.uni-mannheim.de/faq.html",
+      "api_verification_state": "Native root/FAQ200HTML document OAI/CC0; exactIdentify guard-deferred unsent, runtime untested",
+      "latest_checked_utc": "2026-10-18T06:15:58.019945+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "madrid-open-data",
       "provider": "Ayuntamiento de Madrid",
       "service_name": "Madrid municipal open-data catalog and public GET API",
@@ -13647,6 +13668,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "canwin-datahub",
+      "provider": "University of Manitoba / Canadian Watershed Information Network",
+      "service_name": "CanWIN DataHub CKAN metadata/data APIs",
+      "geographic_coverage": "Canadian watershed and related research, actual source coverage varies",
+      "topical_coverage": "water | climate/weather/environment | oceans | research",
+      "dataset_families": "Watershed/environmental datasets and metadata; owner docs distinguish CKAN catalog and tabular DataStore, separate ERDDAP/GeoPortal",
+      "documentation_url": "https://canwin-public-rtd.readthedocs.io/en/latest/ckan_api_intro/",
+      "api_base_url": "https://canwin-datahub.ad.umanitoba.ca/data/api/3/action/",
+      "format_protocol": "Owner documents CKAN Action API and DataStore RESTJSON",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Dataset-specific licences; indexed website default restrictive with explicit dataset-licence exceptions",
+      "license_url": "https://canwin-datahub.ad.umanitoba.ca/fr/node/90",
+      "api_verification_state": "OriginaloldAPIguide403; owner-linked public documentation200HTML provides exactCKAN/DataStore APIbase/examples; no runtime API test",
+      "latest_checked_utc": "2026-10-18T06:15:58.019945+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cape-town",
       "provider": "City of Cape Town Open Data",
       "service_name": "City of Cape Town Open Data open data portal",
@@ -17189,7 +17228,7 @@
       "license": "unknownuniversalheiDATAmetadata/databasegrant; individualdataset/softwarelicencesneedreview",
       "license_url": "https://www.arthistoricum.net/publizieren/forschungsdaten | https://www.ub.uni-heidelberg.de/helios/kataloge/lod.html",
       "api_verification_state": "primary_operator_OAI_documented_native_collection_and_version_HTTP503_temporary_unavailability_not_absence",
-      "latest_checked_utc": "2026-10-18T06:14:25.579137+00:00",
+      "latest_checked_utc": "2026-10-18T06:15:58.019945+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
