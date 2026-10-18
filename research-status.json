@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T05:50:30.302408+00:00",
+  "published_at": "2026-10-18T05:52:33.089498+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:50:25.544675+00:00",
+  "research_updated_at": "2026-10-18T05:51:53.457879+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ADA deduplicated with current native access guide; Leiden/ČSDA restricted source families documented, exceptions and API holds preserved.",
+  "latest_milestone": "RIUMA/Apollo native OAI protocol verified with source-free Identify; grants remain candidate, GERY robots held.",
   "counts": {
     "verified": 361,
-    "candidates": 851,
+    "candidates": 854,
     "excluded": 253,
     "sample_successes": 465
   },
@@ -12503,6 +12503,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "apollo-cambridge-repository",
+      "provider": "University of Cambridge / Cambridge University Library",
+      "service_name": "Apollo repository OAI-PMH",
+      "geographic_coverage": "Cambridge-connected research outputs; geographic study coverage varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Publications, conference proceedings, chapters, monographs, theses, research data, presentations and other Cambridge-connected outputs",
+      "documentation_url": "https://www.repository.cam.ac.uk/info/repository-terms-use",
+      "api_base_url": "https://api.repository.cam.ac.uk/server/oai/request",
+      "format_protocol": "OAI-PMH2.0 XML; separate REST claimed by registry not tested",
+      "authentication": "Anonymous OAI Identify GET successful; deposit/source access may differ",
+      "free_access_restrictions": "Public metadata normally visible, output access/licence and embargoes source-specific; no source access tested",
+      "license": "Per-output licences; publicly available outputs all rights reserved unless otherwise indicated; metadata grant unconfirmed",
+      "license_url": "https://www.repository.cam.ac.uk/info/repository-terms-use",
+      "api_verification_state": "Native current terms200HTML; OAI Identify200 parsed valid XML; old registry terms URL404 retained",
+      "latest_checked_utc": "2026-10-18T05:51:48.869923+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "aragon-core",
       "provider": "Gobierno de Aragón / Aragón Open Data",
       "service_name": "GA OD Core tabular data REST API",
@@ -16478,6 +16496,24 @@
       "license_url": "https://www.govdata.de/web/guest/lizenzen",
       "api_verification_state": "historical_JSON_sample_success_current_root_only_current_docs_licence_policy_held",
       "latest_checked_utc": "2026-10-18T05:04:53.500181+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gery-belgrade-geography-repository",
+      "provider": "University of Belgrade Faculty of Geography",
+      "service_name": "GERY repository",
+      "geographic_coverage": "Serbia institution-associated repository; actual source geographic scope unknown",
+      "topical_coverage": "research | geospatial",
+      "dataset_families": "Registry-discovered repository; current native content families not verified",
+      "documentation_url": "https://gery.gef.bg.ac.rs/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original repository root guard-deferred, target not requested; no exact deployed API verified",
+      "latest_checked_utc": "2026-10-18T05:51:48.869923+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22742,6 +22778,24 @@
       "license_url": "https://repository.rit.edu/faq.html | https://repository.rit.edu/about.html",
       "api_verification_state": "native_public_repository_and_mixed_item_rights_docs_verified_exploratory_OAI_robots_hold_target_unsent",
       "latest_checked_utc": "2026-10-17T22:22:09.228424+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "riuma-university-malaga-repository",
+      "provider": "Universidad de Málaga",
+      "service_name": "RIUMA institutional repository OAI-PMH",
+      "geographic_coverage": "University of Málaga research outputs; dataset geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Articles, scientific papers, teaching materials, digitized old archives and other research documents; source-specific licences",
+      "documentation_url": "https://riuma.uma.es",
+      "api_base_url": "https://riuma.uma.es/rest/oai/request",
+      "format_protocol": "OAI-PMH2.0 XML",
+      "authentication": "No credentials needed for successful repository Identify GET; other operations/source access untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://biblioguias.uma.es/ld.php?content_id=33592465",
+      "api_verification_state": "Root200HTML; registry OAI root400 invalid context; operator response links request?verb=Identify, corrected same-service context200 parsed OAI Identify",
+      "latest_checked_utc": "2026-10-18T05:51:48.869923+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
