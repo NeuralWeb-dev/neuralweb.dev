@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T06:02:49.625947+00:00",
+  "published_at": "2026-10-18T06:04:52.241888+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:01:41.244146+00:00",
+  "research_updated_at": "2026-10-18T06:04:34.700975+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals reviewed: LAUDATIO count30/SSJDA OAI verified; ZEW/SSJDA source restrictions; NASA catalog distinction, Borealis defaults and APIholds preserved",
+  "latest_milestone": "UKHO marine OGL scope and native ArcGIS protocol verified; KUKR site restricted; CLARIN metadataBY4 grant with runtime pending, existing APIs preserved.",
   "counts": {
-    "verified": 361,
-    "candidates": 862,
-    "excluded": 257,
+    "verified": 362,
+    "candidates": 863,
+    "excluded": 258,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -11395,6 +11395,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ukho-marine-data-portal",
+      "provider": "UK Hydrographic Office",
+      "service_name": "ADMIRALTY Marine Data Portal / ArcGIS API",
+      "geographic_coverage": "UK Exclusive Economic Zone; maritime limits also Crown Dependencies/Overseas Territories per owner guide",
+      "topical_coverage": "oceans | geospatial | water | transportation | research",
+      "dataset_families": "INSPIRE-relevant marine datasets, maritime limits/boundaries, ships routeing, bathymetric surveys; paid offshore infrastructure/VORF/wreck products separate",
+      "documentation_url": "https://www.gov.uk/guidance/inspire-portal-and-medin-bathymetry-data-archive-centre",
+      "api_base_url": "https://datahub.admiralty.co.uk/portal/sharing/rest",
+      "format_protocol": "ArcGIS REST JSON; portal discovery UI, individual service endpoints untested",
+      "authentication": "Anonymous API version GET successful; dataset/download conditions vary, paid products excluded from scope",
+      "free_access_restrictions": "Owner guide makes relevant INSPIRE datasets available under OGL; paid apps/data also present. No account, subscription or purchase.",
+      "license": "Open Government Licence for explicitly described relevant INSPIRE Marine Data Portal datasets",
+      "license_url": "https://www.gov.uk/guidance/inspire-portal-and-medin-bathymetry-data-archive-centre",
+      "api_verification_state": "Native owner guide/linked portal200HTML; portal ArcGIS REST200validJSON currentVersion10.3; protocol metadata only, no dataset-service/feature sample",
+      "latest_checked_utc": "2026-10-18T06:04:30.010560+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ukraine-data",
       "provider": "Ukraine national open data portal",
       "service_name": "Data.gov.ua CKAN Action API and dataset portal",
@@ -14256,6 +14274,24 @@
       "license_url": "https://collections.clarin.eu/swagger.json",
       "api_verification_state": "actual_public_discovery_metadata_JSON_sample_success",
       "latest_checked_utc": "2026-10-17T02:50:06.926212+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clarinel-language-resource-inventory",
+      "provider": "CLARIN:EL / Athena Research Centre",
+      "service_name": "CLARIN:EL Central Inventory metadata",
+      "geographic_coverage": "Greece/Greek-language resources with European/international participation",
+      "topical_coverage": "culture | linguistics | research | education",
+      "dataset_families": "Language-resource and processing-tool metadata, written/spoken/multimodal resources, lexica/conceptual resources; source data/service terms separate",
+      "documentation_url": "https://www.clarin.gr/en/CLARINELPreservationPolicy | https://www.clarin.gr/sites/default/files/CLARINELDataCollectionPolicy.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4.0 metadata; individual resources/services separate licences",
+      "license_url": "https://www.clarin.gr/en/CLARINELPreservationPolicy | https://www.clarin.gr/sites/default/files/CLARINELDataCollectionPolicy.pdf",
+      "api_verification_state": "Native inventory200JavaScript shell; native owner policies200HTML/PDF explicitly describe metadata harvesting/export, exact current API route/runtime unverified",
+      "latest_checked_utc": "2026-10-18T06:04:30.010560+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25109,7 +25145,7 @@
       "license": "Current API product reuse grant unconfirmed; free access/trial is not open licence",
       "license_url": "https://admiraltyapi.developer.azure-api.net/product#product=avcs-online-discovery-api",
       "api_verification_state": "documented_API_registered_access_data_sample_untested_operative_grant_unresolved",
-      "latest_checked_utc": "2026-10-17T03:44:57.945841+00:00",
+      "latest_checked_utc": "2026-10-18T06:04:30.010560+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25127,7 +25163,7 @@
       "license": "Current API product reuse grant unconfirmed; free access/trial is not open licence",
       "license_url": "https://www.admiralty.co.uk/access-data/apis | https://copyright.ukho.gov.uk/",
       "api_verification_state": "documented_API_registered_access_data_sample_untested_operative_grant_unresolved",
-      "latest_checked_utc": "2026-10-17T03:42:34.023908+00:00",
+      "latest_checked_utc": "2026-10-18T06:04:30.010560+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29954,6 +29990,24 @@
       "license_url": "https://www.wolkenatlas.de/wolken/impress.htm | https://www.wolkenatlas.de/wolken/best.htm",
       "api_verification_state": "official_HTML_portal_and_restricted_terms_verified_no_API_established",
       "latest_checked_utc": "2026-10-17T19:52:45.880792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "kasetsart-knowledge-repository",
+      "provider": "Kasetsart University Library",
+      "service_name": "Kasetsart University Knowledge Repository (KUKR)",
+      "geographic_coverage": "Thailand university research/knowledge outputs; individual source geography varies",
+      "topical_coverage": "agriculture | research | education | culture",
+      "dataset_families": "University scholarly/knowledge outputs, research datasets, publications, theses, patents, archives and agricultural subject discovery",
+      "documentation_url": "https://kukr.lib.ku.ac.th/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Site terms limit access channels/automation; source/institutional permissions vary, no login or usage-form submission attempted",
+      "license": "Site notice CC BY-NC-ND4.0; source-specific rights/exceptions unreviewed",
+      "license_url": "https://kukr.lib.ku.ac.th/KUKR/Html/index/2462",
+      "api_verification_state": "Native root/linked terms200HTML; no public machine-query API documented in inspected pages",
+      "latest_checked_utc": "2026-10-18T06:04:30.010560+00:00",
       "classification": "restricted"
     },
     {
