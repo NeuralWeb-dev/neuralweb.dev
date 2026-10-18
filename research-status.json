@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T21:16:08.175532+00:00",
+  "published_at": "2026-10-18T21:18:11.921723+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:12:56.053852+00:00",
+  "research_updated_at": "2026-10-18T21:17:32.887166+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UiTM NC restricted; Memory/WueData/Chem/KonDATA scoped CC0 metadata; Datathek unresolved; shared OAI XML and local HTML responses distinguished.",
+  "latest_milestone": "ITESO OAI identity verified/rights pending; Topoi mixed indexed terms/backend errors; WDC publicdomain NC restriction preserved.",
   "counts": {
-    "verified": 467,
-    "candidates": 1363,
-    "excluded": 396,
+    "verified": 469,
+    "candidates": 1365,
+    "excluded": 398,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -9733,6 +9733,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ffe-open-data-energy-api",
+      "provider": "Forschungsstelle für Energiewirtschaft e.V. (FfE)",
+      "service_name": "FfE Open Data API",
+      "geographic_coverage": "Energy system modeling for Germany/Europe; dataset-specific regional and temporal scopes",
+      "topical_coverage": "energy | environment | transportation | research",
+      "dataset_families": "Energy demand/generation models, load curves, renewable potentials, hydrogen/transport and geospatial descriptions",
+      "documentation_url": "https://opendata.ffe.de/how-to/ | https://opendata.ffe.de/wp-content/uploads/2024/05/2024-05-15-OpendataApiDefinition_integer.yaml",
+      "api_base_url": "https://api.opendata.ffe.de",
+      "format_protocol": "REST JSON; published OpenAPI3 YAML six GET operations",
+      "authentication": "Anonymous metadata description GET succeeded; no credentials supplied, full source/other access not tested",
+      "free_access_restrictions": "Native portal describes free licensed datasets; large requests may fail, narrow queries recommended. No subscription/purchase.",
+      "license": "CC BY4.0 verified for named datasets10 and103 only; remaining source grants unreviewed",
+      "license_url": "https://api.opendata.ffe.de/opendata_description?id_opendata=10+%7C+https%3A%2F%2Fopendata.ffe.de%2Fdataset%2Fload-curves-of-the-industry-sector-including-feedstock-europe-nuts-3%2F",
+      "api_verification_state": "Guide and published schema HTTP200. /health HTTP200 zero-byte body, not JSON/schema success; documented metadata-only /opendata_description?id_opendata=10 HTTP200 valid JSON with id/title/oep_metadata. No observation request or static-source fallback used.",
+      "latest_checked_utc": "2026-10-18T21:16:34.248120+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "fid-move-research-data-api",
       "provider": "TIB / FID move with SLUB Dresden",
       "service_name": "FID move mobility and transport research data repository CKAN API",
@@ -13168,6 +13186,24 @@
       "license_url": "https://radar.products.fiz-karlsruhe.de/sites/default/files/radar/docs/terms/License_and_User_Instructions_for_Data_Providers_RADAR4Chem.pdf",
       "api_verification_state": "Native portal, community page, legal PDF and OAI documentation HTTP200. Shared cloud OAI Identify valid XML in same round; not proof Chem-specific record contents/REST runtime. No additional shared request or chemical/source query.",
       "latest_checked_utc": "2026-10-18T21:12:18.416048+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "radar4culture-research-data",
+      "provider": "FIZ Karlsruhe / NFDI4Culture",
+      "service_name": "RADAR4Culture metadata services",
+      "geographic_coverage": "Cultural studies research; publishing eligibility and dataset geography vary",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Cultural heritage research dataset descriptions; files/images/text individually licensed",
+      "documentation_url": "https://radar.products.fiz-karlsruhe.de/de/radarabout/radar4culture | https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-oai-provider | https://radar.products.fiz-karlsruhe.de/en/radarfeatures/radar-api",
+      "api_base_url": "https://www.radar-service.eu/oai/OAIHandler | https://www.radar-service.eu/radar/api/",
+      "format_protocol": "OAI-PMH XML; REST JSON, RDF knowledge graph documented",
+      "authentication": "Shared anonymous OAI Identify succeeded in prior batch; most REST operations require OAuth/client setup, no credentials used",
+      "free_access_restrictions": "Community publication service free for eligible providers; source package licenses/embargo separate, no paid acquisition",
+      "license": "CC0 descriptive metadata; source packages chosen licenses",
+      "license_url": "https://radar.products.fiz-karlsruhe.de/sites/default/files/radar/docs/terms/License_and_User_Instructions_for_Data_Providers_RADAR4Culture.pdf",
+      "api_verification_state": "Native portal/community page/legalPDF HTTP200. Published shared cloud interfaces documented and previous shared OAI system identity reused, not Culture set inventory/REST source success.",
+      "latest_checked_utc": "2026-10-18T21:16:34.248120+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21327,6 +21363,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "edition-topoi-research-repository",
+      "provider": "Edition Topoi / Berliner Antike-Kolleg",
+      "service_name": "Edition Topoi research repository",
+      "geographic_coverage": "Ancient-world/historical research across Europe, Near East and other collections",
+      "topical_coverage": "culture | research | astronomy | law",
+      "dataset_families": "Ancient sundials, archaeology, cultural heritage, historical law and mathematical/historical collections; content rights vary",
+      "documentation_url": "http://repository.edition-topoi.org/ | https://repository.edition-topoi.org/collection/BSDP/overview",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed collection-specific grants; BY-SA3 DE and BY-NC-SA3 DE indexed examples, no uniform grant",
+      "license_url": "https://edition-topoi.org/publishing_with_us/open-access | https://repository.edition-topoi.org/collection/TRPS/metadata | https://repository.edition-topoi.org/collection/COPS/metadata",
+      "api_verification_state": "Root HTTP200 says repositories reconnected October2026. Indexed native Ancient Sundials overview mentions computer-accessible API, exact endpoint/protocol unknown. Two native collection policy routes HTTP200 JSON status error accessing couchdb, not successful API/data. Further repository requests held, no backend/alternate-path workaround.",
+      "latest_checked_utc": "2026-10-18T21:17:27.505750+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "edmond-research-data-api",
       "provider": "Max Planck Digital Library / Max Planck Information and Technology",
       "service_name": "Edmond Dataverse research data API",
@@ -25068,6 +25122,24 @@
       "license_url": "https://www.dati.gov.it/note-legali",
       "api_verification_state": "unresolved;current_original_policy_held_unsent",
       "latest_checked_utc": "2026-10-17T08:31:06.832399+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iteso-institutional-repository",
+      "provider": "ITESO Universidad Jesuita de Guadalajara",
+      "service_name": "Repositorio Institucional del ITESO OAI-PMH",
+      "geographic_coverage": "Mexico institutional research, covered works and geography vary",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research publication/dataset descriptions; full works separately licensed",
+      "documentation_url": "https://rei.iteso.mx/",
+      "api_base_url": "https://rei.iteso.mx/server/oai/request",
+      "format_protocol": "OAI-PMH2 XML verified; DSpace REST registry claim not instance-tested",
+      "authentication": "Anonymous OAI Identify succeeded; no credentials, fullsource/access not tested",
+      "free_access_restrictions": "Native homepage public research repository; source licenses/embargo and access controls separate",
+      "license": "unknown verified data grant",
+      "license_url": "https://rei.iteso.mx/server/support/2024_Inst_env_TOG_usuarios.pdf",
+      "api_verification_state": "Native root HTTP200 and exact registry OAI Identify HTTP200 valid OAI-PMH2 identity without protocol errors; no ListRecords/source/person queries or REST backend request.",
+      "latest_checked_utc": "2026-10-18T21:17:27.505750+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -44639,6 +44711,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "nist-dlmf-mathematical-functions",
+      "provider": "NIST",
+      "service_name": "Digital Library of Mathematical Functions",
+      "geographic_coverage": "International mathematical reference, no geographic observation coverage",
+      "topical_coverage": "research | education",
+      "dataset_families": "Mathematical functions/reference chapters, formulas, bibliography and software links",
+      "documentation_url": "https://dlmf.nist.gov/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Limited research/teaching copying; commercial and bulk redistribution prohibited",
+      "license_url": "https://dlmf.nist.gov/about/notices",
+      "api_verification_state": "Native home/notices HTTP200. Public network API not verified; web mathematics/reference and software index are not themselves API proof.",
+      "latest_checked_utc": "2026-10-18T21:16:34.248120+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "nist-standard-reference-data-directory",
       "provider": "National Institute of Standards and Technology",
       "service_name": "Standard Reference Data product discovery directory",
@@ -46526,6 +46616,24 @@
       "license_url": "https://wdc.bgs.ac.uk/usage",
       "api_verification_state": "Native ownerData page links exactAPIhost; nativeOpenAPIHTTP200validJSON and ESKdescriptorHTTP200validJSON withobservatory_iaga_codeESK",
       "latest_checked_utc": "2026-10-18T04:08:37.813994+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wdc-geophysics-beijing",
+      "provider": "WDC for Geophysics Beijing / IGGCAS",
+      "service_name": "WDC for Geophysics Beijing data portal",
+      "geographic_coverage": "Chinese geophysical stations and international research access; exact dataset coverage varies",
+      "topical_coverage": "environment | climate | research | astronomy",
+      "dataset_families": "Geomagnetic, ionosonde, radar, GNSS and scintillation data descriptions",
+      "documentation_url": "http://www.geophys.ac.cn/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Native policy says operational services no cost, use noncommercial with acknowledgement; registration varies/unverified per source",
+      "license": "Native public-domain-for-noncommercial-use statement; acknowledgement required",
+      "license_url": "http://www.geophys.ac.cn/data_policy.asp",
+      "api_verification_state": "Native homepage/policy HTTP200. Data/download/form access and related Madrigal/DIDBase links do not verify this portal network API; no observation/FTP/download/backend request.",
+      "latest_checked_utc": "2026-10-18T21:17:27.505750+00:00",
       "classification": "restricted"
     },
     {
