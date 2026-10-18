@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T19:04:27.250121+00:00",
+  "published_at": "2026-10-18T19:06:30.343664+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:01:15.924143+00:00",
+  "research_updated_at": "2026-10-18T19:05:02.274862+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UKDS native OAI identity verified/metadata grant gap; OTN policy notification and REST timeout; Greo native restrictions; six institutional sources and source branch gaps.",
+  "latest_milestone": "ENAP/TWU native institutional identity/rights gap; SISSA held original/library and indexed policy versus formal grant differentiated.",
   "counts": {
     "verified": 445,
-    "candidates": 1280,
+    "candidates": 1283,
     "excluded": 371,
     "sample_successes": 464
   },
@@ -20421,6 +20421,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "enap-borealis-data-repository",
+      "provider": "École nationale d'administration publique",
+      "service_name": "École nationale d'administration publique research data repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://bibliotheque.enap.ca/14/Guides_et_portails.enap",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "OAI-PMH/REST/SWORD registry claims; exact institutional interface/scope unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://bibliotheque.enap.ca/14/Guides_et_portails.enap",
+      "api_verification_state": "Independent native institutional HTMLHTTP200 substantive documentation. Shared Borealis root/API/search holds retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T19:04:57.541954+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "encode-project-rest-api",
       "provider": "ENCODE Consortium / ENCODE Data Coordination Center",
       "service_name": "ENCODE portal REST API",
@@ -32265,6 +32283,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "sissa-open-data-repository",
+      "provider": "SISSA / Scuola Internazionale Superiore di Studi Avanzati",
+      "service_name": "SISSA / Scuola Internazionale Superiore di Studi Avanzati research data repository",
+      "geographic_coverage": "Italian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.sissa.it/node/132",
+      "api_base_url": "https://opendata.sissa.it/oai",
+      "format_protocol": "OAI-PMH/REST/SWORD registry claims; exact institutional interface/scope unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.sissa.it/sites/default/files/media/pdf/Open%20Science%20Policy%20english.pdf",
+      "api_verification_state": "SISSA original repository and independent owner-library requests guard-deferred; no OAI/REST alternate request. Indexed native policy reviewed, web-reader502, not API absence.",
+      "latest_checked_utc": "2026-10-18T19:04:57.541954+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "sla-speech-tools-repository",
       "provider": "SLA Speech Tools academic research/teaching collaboration",
       "service_name": "Tools for Second Language Speech Research and Teaching",
@@ -33864,6 +33900,24 @@
       "license_url": "https://www.regione.toscana.it/note-legali",
       "api_verification_state": "documented_CKAN_catalogue_conventional_API_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T13:55:16.625828+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "twu-borealis-data-repository",
+      "provider": "Trinity Western University",
+      "service_name": "Trinity Western University research data repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://www.twu.ca/academics/library | https://libguides.twu.ca/rdm",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "OAI-PMH/REST/SWORD registry claims; exact institutional interface/scope unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.twu.ca/academics/library | https://libguides.twu.ca/rdm",
+      "api_verification_state": "Independent native institutional HTMLHTTP200 substantive documentation. Shared Borealis root/API/search holds retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T19:04:57.541954+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
