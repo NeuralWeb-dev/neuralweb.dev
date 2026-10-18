@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:12:19.936944+00:00",
+  "published_at": "2026-10-18T20:14:23.117418+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:11:37.247760+00:00",
+  "research_updated_at": "2026-10-18T20:13:50.499792+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BILnativeBYSA4/API documented; ODCpublishedCCBY4 grants verified but exactpublicreadAPI gaps remain.",
+  "latest_milestone": "BIL native BY-SA4/API verified; ODC published BY4 grants/API gaps; GIGA held/BQC19 404; Élections Québec documented feeds and revocable-use restrictions.",
   "counts": {
     "verified": 453,
-    "candidates": 1334,
-    "excluded": 388,
+    "candidates": 1336,
+    "excluded": 389,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -81,6 +81,7 @@
           "aiddata-development-data",
           "aws-open-data-registry",
           "econbiz-literature-api",
+          "giga-research-data-directory",
           "lse-research-online",
           "openei-urdb",
           "unsd"
@@ -700,6 +701,7 @@
           "geoboundaries"
         ],
         "candidate_provider_ids": [
+          "giga-research-data-directory",
           "lse-research-online",
           "osi-licenses",
           "saudi-mofa",
@@ -1137,6 +1139,7 @@
           "georoc2-testing-api",
           "gesdisc-earth-science-services",
           "getty-museum",
+          "giga-research-data-directory",
           "gistemp-data-access",
           "github-public-rest-api",
           "globedata-research-repository",
@@ -1610,6 +1613,7 @@
           "montreal-open-data-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
+          "quebec-covid19-biobank",
           "texas-state-open-data",
           "toronto-open-data-catalog-api",
           "ucla-social-science-dataverse",
@@ -2084,6 +2088,7 @@
           "nps-irma-resource-services",
           "ontario-tech-borealis-repository",
           "pnnl-datahub",
+          "quebec-covid19-biobank",
           "saint-marys-borealis-repository",
           "sfwmd-repository",
           "smithsonian",
@@ -4605,6 +4610,7 @@
           "afdb-kenya-sdmx",
           "datafirst-african-research-data",
           "ghana",
+          "giga-research-data-directory",
           "kenya-knbs",
           "registry-data-vulekamali-gov-za",
           "south-africa-statssa"
@@ -4779,6 +4785,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "giga-research-data-directory",
           "laws-africa-knowledge"
         ],
         "restricted_provider_ids": [
@@ -4844,6 +4851,7 @@
           "datafirst-african-research-data",
           "dhs-indicator-data-api",
           "frankfurt-colonial-image-archive",
+          "giga-research-data-directory",
           "hsrc-research-output-repository",
           "johannesburg-research-data",
           "laws-africa-knowledge",
@@ -22450,6 +22458,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "giga-research-data-directory",
+      "provider": "German Institute for Global and Area Studies",
+      "service_name": "GIGA research data discovery directory",
+      "geographic_coverage": "International relations/development research, Africa/Asia/LatinAmerica/MiddleEast and comparativeglobalcoverage",
+      "topical_coverage": "research | law/civic data | economics/finance",
+      "dataset_families": "Quantitative/qualitative research data publication descriptions and external repository links",
+      "documentation_url": "https://www.giga-hamburg.de/publications/research-data | https://www.giga-hamburg.de/the-giga/giga-library/open-access",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original root failed/guarddeferred. Indexedprimary institutionaloverview reviewed separately; no exactpublicAPI verified. No alternatewww/path/backend/Pure/Dataversequery.",
+      "latest_checked_utc": "2026-10-18T20:13:10.485367+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gigadb-research-repository",
       "provider": "GigaScience Press / GigaDB",
       "service_name": "GigaDB data repository and metadata-interface discovery",
@@ -31249,6 +31275,24 @@
       "license_url": "https://environment.qld.gov.au/resources/maps-data",
       "api_verification_state": "official_2021_API_claim_current_runtime_unverified_original_policy_held",
       "latest_checked_utc": "2026-10-17T12:33:07.727600+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "quebec-covid19-biobank",
+      "provider": "Biobanque québécoise de la COVID-19 / Québec collaborators",
+      "service_name": "BQC19 biobank resource discovery",
+      "geographic_coverage": "Québec Canada COVID19 research resource; sourcecoverage percohort",
+      "topical_coverage": "health | research",
+      "dataset_families": "Biobankdata/sample resource descriptions; publicaggregate versuscontrolledparticipant sources separate",
+      "documentation_url": "https://www.scientifique-en-chef.gouv.qc.ca/en/access-to-data-and-samples-from-the-biobanque-quebecoise-de-la-covid-19/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original nativeURLHTTP404; officialQuébecChiefScientistresourceannouncementHTTP200. No exactpublicmachineAPI/activecanonicalportalmigrationverified.",
+      "latest_checked_utc": "2026-10-18T20:13:10.485367+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -41025,6 +41069,24 @@
       "license_url": "https://elabour.de/finden-und-nutzen/mustervertraege/",
       "api_verification_state": "Native root and published contract guidance HTTP200 substantive HTML; no exact public API/schema/runtime verified.",
       "latest_checked_utc": "2026-10-18T17:57:23.672365+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "elections-quebec-open-data",
+      "provider": "Directeur général des élections / Élections Québec",
+      "service_name": "Élections Québec open-data portal and documented JSON feeds",
+      "geographic_coverage": "Québec provincial/municipal elections",
+      "topical_coverage": "law/civic data | demographics | research",
+      "dataset_families": "Election event/municipality reference descriptions and provincial/municipal result feeds; results/persondata notrequested",
+      "documentation_url": "https://www.electionsquebec.qc.ca/donnees-ouvertes/ | https://www.dgeq.org/en/index.html",
+      "api_base_url": "https://donnees.electionsquebec.qc.ca/production/municipal/scrutin/ (documented JSON feeds; no queryAPI runtimeverified)",
+      "format_protocol": "Documented UTF8 JSON feed paths/reference lists; not assertedqueryREST API",
+      "authentication": "Publicdocs/portal noaccount; sampleguarddeferredunsent, actualfeedauthuntested",
+      "free_access_restrictions": "Customlegacyopen-data license freeforalllawfulpurposesincludingapplications but revocablewithoutcause; sourceacknowledgment/sublicensecancellation conditions. Currentwebdefaultnonprofitreuseonly; feed-specific applicability unresolved.",
+      "license": "Custom broad but revocable open-data license; currentwebsite nonprofit-only default, specificfeed interaction unresolved",
+      "license_url": "https://www.dgeq.org/en/licence.html | https://www.electionsquebec.qc.ca/notre-institution/conditions-dutilisation/",
+      "api_verification_state": "Nativeoldportal/license and currentdocumentation/generaltermsHTTP200. Municipality-referenceJSON requestguarddeferredbyrobots/inaccessiblerobots, targetunsent; noJSONAPIsuccess, noalternatefeed/path retry.",
+      "latest_checked_utc": "2026-10-18T20:13:10.485367+00:00",
       "classification": "restricted"
     },
     {
