@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:20:32.670932+00:00",
+  "published_at": "2026-10-18T15:22:36.260337+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:20:12.579936+00:00",
+  "research_updated_at": "2026-10-18T15:22:31.095599+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: Bamberg/OEDataRep nativeOAI with scopedlicense uncertainty; Auckland/Brunel/Salford/Melbourne institutional Figshare rights/holds separate; MDZ744000 incomplete.",
+  "latest_milestone": "StEdwards/BathSPAdata distinctportalguards/nativeowneridentity andrightsunknown; generalFigshareoriginal dedup",
   "counts": {
     "verified": 432,
-    "candidates": 1110,
+    "candidates": 1112,
     "excluded": 328,
     "sample_successes": 464
   },
@@ -8880,7 +8880,7 @@
       "license": "CC0 1.0 Universal for metadata published by Figshare.com; client repositories may override",
       "license_url": "https://info.figshare.com/user-guide/figshare-policies/ | https://creativecommons.org/publicdomain/zero/1.0/",
       "api_verification_state": "historical_native_sample_success_current_public_API_docs_and_scoped_CC0_metadata_grant_verified_current_terms_endpoint_policy_held",
-      "latest_checked_utc": "2026-10-17T17:38:43.804312+00:00",
+      "latest_checked_utc": "2026-10-18T15:22:26.577637+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15075,6 +15075,24 @@
       "license_url": "https://docs.api.bas.ac.uk/ | https://www.bas.ac.uk/about-this-site/copyright-statement/",
       "api_verification_state": "native_public_Locations_API_documentation_verified_registered_service_list_unsent_robots_guard_source_grant_unknown",
       "latest_checked_utc": "2026-10-17T23:35:23.692462+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bathspa-data-repository",
+      "provider": "Bath Spa University",
+      "service_name": "Bath Spa University institutional research repository",
+      "geographic_coverage": "UK institutional research; actual dataset geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research data, scholarly/creative outputs and associated metadata; exactinventoryunverified",
+      "documentation_url": "https://www.bathspa.ac.uk/about-us/governance/policies/research-data-policy/",
+      "api_base_url": "https://api.figshare.com/v2/ (shared service; institution107/portal107 registryfilterunverified)",
+      "format_protocol": "Registry sharedFigshareREST/OAI claims; native publicreadpayload/schema unverified",
+      "authentication": "No credentialsused; current institutionalreadAPIauthunresolved",
+      "free_access_restrictions": "Per-itemlicenses/embargo/restrictedaccess; currentactualinventoryunverified",
+      "license": "Unknown verified metadata-wide/data-wide grant; per-item permissions",
+      "license_url": "https://www.bathspa.ac.uk/about-us/governance/policies/research-data-policy/",
+      "api_verification_state": "Original institutionalroot guard-deferredunsent; independent nativeowner200HTML reviewed, no currentportalAPIresponse/schema.",
+      "latest_checked_utc": "2026-10-18T15:22:26.577637+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29673,6 +29691,24 @@
       "license_url": "https://datafinder.stats.govt.nz/layer/106666-regional-council-2022-generalised/",
       "api_verification_state": "documented_key_required_layer_license_verified_api_access_unresolved",
       "latest_checked_utc": "2026-10-16T20:05:00.713336+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "stedwards-institutional-figshare",
+      "provider": "St. Edward's University / Munday Library",
+      "service_name": "St. Edward's University / Munday Library institutional research repository",
+      "geographic_coverage": "US institutional research; actual dataset geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research data, scholarly/creative outputs and associated metadata; exactinventoryunverified",
+      "documentation_url": "https://plibweb02.stedwards.edu/faculty-services.html",
+      "api_base_url": "https://api.figshare.com/v2/ (shared service; institution30/portal30 registryfilterunverified)",
+      "format_protocol": "Registry sharedFigshareREST/OAI claims; native publicreadpayload/schema unverified",
+      "authentication": "No credentialsused; current institutionalreadAPIauthunresolved",
+      "free_access_restrictions": "Per-itemlicenses/embargo/restrictedaccess; currentactualinventoryunverified",
+      "license": "Unknown verified metadata-wide/data-wide grant; per-item permissions",
+      "license_url": "https://plibweb02.stedwards.edu/faculty-services.html",
+      "api_verification_state": "Original institutionalroot guard-deferredunsent; independent nativeowner200HTML reviewed, no currentportalAPIresponse/schema.",
+      "latest_checked_utc": "2026-10-18T15:22:26.577637+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
