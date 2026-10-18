@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T08:17:59.552737+00:00",
+  "published_at": "2026-10-18T08:20:02.274134+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:17:02.824830+00:00",
+  "research_updated_at": "2026-10-18T08:18:02.887812+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EUMETSAT191collectionJSONreferencesverified/rights unresolved; ARMkeyrequiredRESTdocumented; FachportalAPI/grantunknown; OSISAFindependentleadqueued.",
+  "latest_milestone": "Nineoriginals:UCSC239assembly/EUMETSAT191collectionJSONreferences,IGSR11operations/INTOAIverified; sourcegrants/runtimeresiduals/RES3Trestrictions preserved,OSISAFleadqueued.",
   "counts": {
     "verified": 381,
     "candidates": 939,
@@ -173,7 +173,9 @@
         "candidate_provider_ids": [
           "amphibiaweb-species-portal",
           "argo-gdac-data-interfaces",
+          "arm-live-data-service",
           "auscope-earthbank",
+          "biotime-biodiversity-timeseries",
           "china-national-earth-observation-center",
           "ciesin-integrated-earth-data",
           "cifor-icraf",
@@ -187,6 +189,7 @@
           "earthchem-library-repository",
           "esa-ecology",
           "esa-heritage-mission-data-discovery",
+          "eumetsat-data-store-api",
           "flood-observatory-colorado",
           "fossilworks-ecoregister",
           "gawsis-station-metadata",
@@ -268,6 +271,7 @@
           "oceanrep-oai-metadata",
           "open-meteo",
           "openaq",
+          "res3t-sorption-thermodynamics",
           "senckenberg-research-metadata-portal",
           "unep-grid-geneva",
           "wdc-edinburgh-geomagnetic-api",
@@ -318,7 +322,8 @@
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
           "earthstat-restricted-raster-families",
-          "fao"
+          "fao",
+          "res3t-sorption-thermodynamics"
         ]
       },
       "energy": {
@@ -537,6 +542,7 @@
           "earthchem-library-repository",
           "earthscope-sponsored-miniseed-object-repository",
           "esa-heritage-mission-data-discovery",
+          "eumetsat-data-store-api",
           "eurolas-data-center-api",
           "flood-observatory-colorado",
           "gsa-figshare-data-repository",
@@ -653,6 +659,7 @@
         "candidate_provider_ids": [
           "amphibiaweb-species-portal",
           "biostudies",
+          "biotime-biodiversity-timeseries",
           "checklistbank",
           "cifor-icraf",
           "cngbdb-resource-portal",
@@ -718,9 +725,11 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "biotime-biodiversity-timeseries",
           "csiro-data-access-portal",
           "dataterra-eosc-resource-catalogue",
           "esa-heritage-mission-data-discovery",
+          "eumetsat-data-store-api",
           "hycom",
           "icdc-climate-thredds",
           "litterbase-marine-litter-portal",
@@ -956,9 +965,11 @@
           "amphibiaweb-species-portal",
           "argo-gdac-data-interfaces",
           "arizona-campus-repository",
+          "arm-live-data-service",
           "artic",
           "auscope-earthbank",
           "biostudies",
+          "biotime-biodiversity-timeseries",
           "cell-image-library",
           "checklistbank",
           "china-national-earth-observation-center",
@@ -983,6 +994,7 @@
           "encyclopedia-of-life-data-services",
           "esa-ecology",
           "esa-heritage-mission-data-discovery",
+          "eumetsat-data-store-api",
           "eurolas-data-center-api",
           "europepmc",
           "flood-observatory-colorado",
@@ -1121,6 +1133,7 @@
           "oceanrep-oai-metadata",
           "orcid",
           "phi-base-api",
+          "res3t-sorption-thermodynamics",
           "senckenberg-research-metadata-portal",
           "silso-sunspot-data",
           "terrasarx-sar-imagery-access",
