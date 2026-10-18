@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:38:41.921909+00:00",
+  "published_at": "2026-10-18T01:40:44.671672+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:36:30.697522+00:00",
+  "research_updated_at": "2026-10-18T01:39:13.975937+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ThermoML native metadata JSON/product licence verified; ROAD source licence/API current hold and DisProt500/404/runtime gaps retained.",
+  "latest_milestone": "REPOSIT and corrected Lithuanian CLARIN OAI capabilities verified; metadata terms unresolved; DATICE/GAGNÍS covered data restrictions retained.",
   "counts": {
     "verified": 331,
-    "candidates": 725,
-    "excluded": 193,
+    "candidates": 727,
+    "excluded": 194,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -12776,6 +12776,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "clarin-lt-language-repository",
+      "provider": "CLARIN-LT / Vytautas Magnus University consortium",
+      "service_name": "CLARIN-LT OAI-PMH language-resource metadata",
+      "geographic_coverage": "Lithuanian and multilingual language resources; dataset-specific scope",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Language corpus, lexical/tool and linguistic resource metadata; source assets licensed PUB/ACA/RES",
+      "documentation_url": "https://clarin-repo.lt/info/legal",
+      "api_base_url": "https://clarin-repo.lt/server/oai/request",
+      "format_protocol": "OAI-PMH XML, native capability formats indexed",
+      "authentication": "Anonymous Identify/ListMetadataFormats succeeded; protected resources need login/licence acceptance, not used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 metadata statement with adjacent commercial-use notification reservation; clarification pending",
+      "license_url": "https://clarin-repo.lt/info/legal#metadata-policy",
+      "api_verification_state": "Native legal/lifecycle HTTP200; single conventional discovery probe at actual Lithuanian host returned valid OAI Identify with matching baseURL; ListMetadataFormats valid XML.",
+      "latest_checked_utc": "2026-10-18T01:39:09.606916+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "clarin-pl-fcs",
       "provider": "CLARIN-PL language technology centre",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -19958,6 +19976,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "reposit-haw-hamburg",
+      "provider": "Hamburg University of Applied Sciences",
+      "service_name": "REPOSIT OAI-PMH institutional research metadata",
+      "geographic_coverage": "HAW Hamburg research outputs with source-specific international topics",
+      "topical_coverage": "research | education",
+      "dataset_families": "Publication/dataset/project and research output metadata; native homepage reports48 datasets, not enumerated",
+      "documentation_url": "https://www.haw-hamburg.de/en/study/libraries/publishing/reposit/",
+      "api_base_url": "https://reposit.haw-hamburg.de/oai/request",
+      "format_protocol": "OAI-PMH XML; DSpace/XOAI",
+      "authentication": "Anonymous Identify and metadata-format capabilities succeeded; source rights/access differ",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.haw-hamburg.de/en/study/libraries/publishing/reposit/",
+      "api_verification_state": "Native homepage/help/owner policy HTTP200. DINI-listed OAI endpoint Identify/ListMetadataFormats HTTP200 parsed XML without OAI errors.",
+      "latest_checked_utc": "2026-10-18T01:39:09.606916+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "reseed-rub-repository",
       "provider": "Ruhr University Bochum / Research Data Services",
       "service_name": "ReSeeD research-data repository",
@@ -25015,6 +25051,24 @@
       "license_url": "https://databrary.org/about/policies/terms | https://databrary.org/about/agreement/agreement",
       "api_verification_state": "primary_official_restricted_access_terms_API_mention_verified_native_JS_shell_runtime_untested",
       "latest_checked_utc": "2026-10-17T23:33:13.890169+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "datice-gagnis-iceland",
+      "provider": "University of Iceland / GAGNÍS",
+      "service_name": "DATICE / GAGNÍS research data repository",
+      "geographic_coverage": "Iceland social-science/research data; exact current repository source extent unresolved",
+      "topical_coverage": "demographics | economics/finance | research | education",
+      "dataset_families": "Research data repository including Icelandic social-science datasets; source-specific access and metadata",
+      "documentation_url": "https://gagnis.is/is/um-gagnis/notendaskilmalar-gagnis",
+      "api_base_url": "https://gagnis.hi.is/oai",
+      "format_protocol": "Registry OAI-PMH; REST/SWORD claims point to generic Dataverse guides, not verified instance APIs",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom GAGNÍS nonprofit research/teaching licence and source-specific conditions; metadata grant unresolved",
+      "license_url": "https://gagnis.is/is/um-gagnis/notendaskilmalar-gagnis",
+      "api_verification_state": "Native root guard-deferred unsent. Independent owner terms HTTP200; no native query API response.",
+      "latest_checked_utc": "2026-10-18T01:39:09.606916+00:00",
       "classification": "restricted"
     },
     {
