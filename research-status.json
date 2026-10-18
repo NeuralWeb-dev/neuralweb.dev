@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:20:15.668254+00:00",
+  "published_at": "2026-10-18T21:22:18.766141+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:18:07.074022+00:00",
+  "research_updated_at": "2026-10-18T21:22:12.859148+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "FfE metadata JSON/named BY4 and complete returned66description snapshot; CultureCC0; ITESO OAI; DLMF and BeijingWDC restricted; Topoi backend errors/mixed rights.",
+  "latest_milestone": "IISH collection CC0/OAI verified separately from Dataverse; GTAA native ODbL and interfaces documented; CGS/media catalog unresolved.",
   "counts": {
-    "verified": 469,
-    "candidates": 1365,
+    "verified": 471,
+    "candidates": 1368,
     "excluded": 398,
     "sample_successes": 464
   },
@@ -10607,6 +10607,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "iish-collection-metadata-services",
+      "provider": "International Institute of Social History",
+      "service_name": "IISH collection OAI-PMH SRU and linked metadata",
+      "geographic_coverage": "International social/economic historical collections, Netherlands institution",
+      "topical_coverage": "culture | research | labor | economics",
+      "dataset_families": "Archives, books/serials, audiovisual item descriptions and research dataset descriptions",
+      "documentation_url": "https://iisg.amsterdam/en/collections/using/machine-access",
+      "api_base_url": "http://api.socialhistoryservices.org/solr/all/oai | http://api.socialhistoryservices.org/solr/all/srw",
+      "format_protocol": "OAI-PMH2 XML verified; SRU/SRW and RDF/SPARQL documented",
+      "authentication": "Anonymous OAI Identify succeeded, no credentials; SRU/RDF/source runtime untested",
+      "free_access_restrictions": "Metadata CC0 public reuse; source content copyrights, privacy/publicity and nonendorsement exceptions separate",
+      "license": "CC0 1.0 collection metadata; website texts BY-NC4 and objects separate",
+      "license_url": "https://iisg.amsterdam/en/license | https://iisg.amsterdam/en/collections/using/machine-access",
+      "api_verification_state": "Native docs/license HTTP200; published shared collection OAI Identify HTTP200 valid OAI-PMH2 XML without protocol errors. System identity only, no source/person records or full catalog.",
+      "latest_checked_utc": "2026-10-18T21:22:08.200025+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ilo",
       "provider": "International Labour Organization",
       "service_name": "International Labour Organization API",
@@ -14006,6 +14024,24 @@
       "license_url": "https://smithsonian.dataone.org/metacat/d1/mn/v2/object/doi%3A10.60635%2FC30C7C",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:30.096889+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "soundvision-gtaa-thesaurus-services",
+      "provider": "Netherlands Institute for Sound and Vision",
+      "service_name": "GTAA thesaurus API services",
+      "geographic_coverage": "Dutch audiovisual terminology/authority vocabulary, concepts may refer internationally",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "GTAA audiovisual concepts, labels and relationships; source media not included",
+      "documentation_url": "https://data.beeldengeluid.nl/apis/gtaa",
+      "api_base_url": "",
+      "format_protocol": "OAI-PMH, search, autocomplete, SPARQL, GraphQL documented; RDF/XML, JSON-LD, Turtle concept representations",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Open Database License for GTAA; version not explicitly established",
+      "license_url": "https://www.beeldengeluid.nl/onderzoek/onderzoek/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven",
+      "api_verification_state": "Native institutional GTAA terms HTTP200. Indexed native API page documents2022 replacement of end-of-life OpenSKOS and current service-layer protocols. Dedicated docs host robots held; no runtime/source/concept query or alternate host used.",
+      "latest_checked_utc": "2026-10-18T21:22:08.200025+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18058,6 +18094,24 @@
       "license_url": "",
       "api_verification_state": "Original owner URL guard-deferred targetunsent; indexed official current research-data description reviewed, no nativeAPI success",
       "latest_checked_utc": "2026-10-18T12:23:51.901975+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cgs-geoscientific-discovery-publishing",
+      "provider": "China Geological Survey",
+      "service_name": "Geoscientific Data and Discovery Publishing Center",
+      "geographic_coverage": "China geoscience repository, exact source coverage unverified",
+      "topical_coverage": "geospatial | research | environment",
+      "dataset_families": "Geoscientific research dataset publishing and discovery",
+      "documentation_url": "http://geodb.cgs.gov.cn/en",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://geodb.ngac.org.cn/en/page/sharing_policy/sharing_policy (registry reference, not current verified grant)",
+      "api_verification_state": "Original provider root robots-deferred unsent; no exact API or current native grant verified. No alternate host/policy path used to bypass hold.",
+      "latest_checked_utc": "2026-10-18T21:22:08.200025+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24304,6 +24358,24 @@
       "license_url": "https://www.internationalgenome.org/IGSR_disclaimer/",
       "api_verification_state": "Nativehome/help/docs200; exactSwagger-linked /api/openapi.json200validJSON11operation descriptors. No sample/population/file/data request executed.",
       "latest_checked_utc": "2026-10-18T08:12:49.743141+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iish-dataverse-research-data",
+      "provider": "International Institute of Social History",
+      "service_name": "IISH Dataverse data collection",
+      "geographic_coverage": "International social/economic history; source scope varies",
+      "topical_coverage": "research | economics | labor | culture | demographics",
+      "dataset_families": "Historical research datasets and source documentation; full sources individually licensed",
+      "documentation_url": "https://datasets.iisg.amsterdam/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Individual indexed CC0 dataset/file examples, no universal Dataverse-source grant accepted",
+      "license_url": "https://datasets.iisg.amsterdam/file.xhtml?datasetVersionId=1712&fileId=9",
+      "api_verification_state": "Original Dataverse root redirect destination robots-deferred; not API success. Indexed native file pages publish API download/export links; no source download or guessed framework version/search endpoint. Registry OAI belongs separate IISH collection service.",
+      "latest_checked_utc": "2026-10-18T21:22:08.200025+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34420,6 +34492,24 @@
       "license_url": "https://so.ch/rechtliches/",
       "api_verification_state": "documented_API_detailed_reference_policy_held_data_sample_untested",
       "latest_checked_utc": "2026-10-17T07:31:30.635647+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "soundvision-media-data-platform",
+      "provider": "Netherlands Institute for Sound and Vision",
+      "service_name": "Sound and Vision media catalog data platform",
+      "geographic_coverage": "Netherlands audiovisual collection, source scope/time varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Audiovisual collection item metadata; catalog, thesaurus and Open Images services distinct",
+      "documentation_url": "https://data.beeldengeluid.nl/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown collection-wide effective API metadata grant; mixed indexed tags are not proof",
+      "license_url": "https://data.beeldengeluid.nl/",
+      "api_verification_state": "Native institutional homepage HTTP200. Dedicated data platform robots-deferred unsent; indexed native page documents NISV Media Catalog APIs and Open Images harvesting. Exact current catalog base/auth/quotas/schema unverified; no content API query.",
+      "latest_checked_utc": "2026-10-18T21:22:08.200025+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
