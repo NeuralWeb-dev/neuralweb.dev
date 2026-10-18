@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:25:04.457470+00:00",
+  "published_at": "2026-10-18T00:27:07.033276+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:24:48.333654+00:00",
+  "research_updated_at": "2026-10-18T00:26:44.533873+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ModernUSGSWaterOGCv1 publicdomain/nativeJSONverified; NDACANrestricted andUPWrchallenge/licenceunknown checkpointed.",
+  "latest_milestone": "DARWINsource-specific industrial/no-sale terms retained; CDHA studyreferences indexed; CNGBshell/rights/API unresolved.",
   "counts": {
     "verified": 324,
-    "candidates": 668,
-    "excluded": 172,
+    "candidates": 670,
+    "excluded": 173,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -11882,6 +11882,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cdha-study-resource-directory",
+      "provider": "University of Wisconsin–Madison / Center for Demography of Health and Aging",
+      "service_name": "CDHA public study/data resource directory",
+      "geographic_coverage": "US/Wisconsin/PuertoRico andLatinAmerica/Caribbean study references; family-specificcoverage",
+      "topical_coverage": "demographics | health | labor | education | research",
+      "dataset_families": "Longitudinal aging/education/family surveys, mortality andregionalhealthstudy references",
+      "documentation_url": "https://cdha.wisc.edu/data/",
+      "api_base_url": "",
+      "format_protocol": "PublicHTMLstudy directory; studyAPIsseparate/unverified",
+      "authentication": "Publicdirectoryaccessible; affiliatedsecureenclave notentered; projectpublic/restrictedaccessvaries",
+      "free_access_restrictions": "No blanketprojectaccess asserted; securedata enclave andbiomaterial/datarequests separate",
+      "license": "unknown directorymetadata/sourcegrant; campuscopyrightfooter notopendata proof",
+      "license_url": "",
+      "api_verification_state": "Nativehomepage/data-directoryHTTP200, no queryAPI established",
+      "latest_checked_utc": "2026-10-18T00:26:40.180612+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "census-geocoder",
       "provider": "US Census Bureau",
       "service_name": "Census Geocoding Services",
@@ -12365,6 +12383,24 @@
       "license_url": "https://wui.cmsaf.eu/safira/action/viewImpressum",
       "api_verification_state": "official_product_open_grant_verified_query_API_unestablished_HTML_not_API_success",
       "latest_checked_utc": "2026-10-17T19:44:43.432899+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cngbdb-resource-portal",
+      "provider": "China National GeneBank DataBase / CNGBdb",
+      "service_name": "CNGBdb resource and database portal",
+      "geographic_coverage": "China-operated globallycontributedbiologicalresources; exactfamily geography varies",
+      "topical_coverage": "biodiversity | health | research",
+      "dataset_families": "Scientificdatabases andliterature/gene/protein/variation/archive families described inprimaryindexed resource docs",
+      "documentation_url": "https://db.cngb.org/ | https://db.cngb.org/data_resources/",
+      "api_base_url": "",
+      "format_protocol": "NativeJSapplication shell; machinequeryAPIunverified",
+      "authentication": "Exactpublic/controlled accessvaries bysubservice; nologin, tokens, applications orcontrolleddata",
+      "free_access_restrictions": "STOmicsDB public/controlledpolicy and10KP projectagreement arefamily-specific, notuniversalgatewayterms",
+      "license": "unknown exactportalmetadata/sourcegrant; family/source licencesvary",
+      "license_url": "",
+      "api_verification_state": "Native root/resourcepageHTTP200 JSshell, notmachine response; exactcurrentAPIunverified",
+      "latest_checked_utc": "2026-10-18T00:26:40.180612+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24535,6 +24571,24 @@
       "license_url": "https://www.iza-structure.org/databases/DatabaseCredits.php",
       "api_verification_state": "restricted_portal_documented_public_API_unestablished",
       "latest_checked_utc": "2026-10-17T18:30:45.286387+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "jamstec-darwin-cruise-system",
+      "provider": "JAMSTEC / Global Oceanographic Data Center",
+      "service_name": "DARWIN cruise data and sample research system",
+      "geographic_coverage": "JAMSTEC cruises andexpeditions across oceans; exactyear/vessel/sourcecoverage varies",
+      "topical_coverage": "oceans | climate/weather/environment | water | research",
+      "dataset_families": "Cruise, vessel/submersible observation metadata anddata/sample descriptors",
+      "documentation_url": "https://www.godac.jamstec.go.jp/darwin/en/note.html",
+      "api_base_url": "",
+      "format_protocol": "Documentedwebportal; machinequeryprotocolunverified",
+      "authentication": "Publiconlinedata versusrequest/moratorium access; no requests/accounts used",
+      "free_access_restrictions": "Primaryindexed policy requires industrialuseapplication andforbidssale/falsification; cruise/year policies andreporting/citation differ",
+      "license": "Source-specific JAMSTEC/JURCAOS policies withsale/industrialuseconditions; not a verified openlicence",
+      "license_url": "https://www.godac.jamstec.go.jp/darwin/ja/note.html",
+      "api_verification_state": "OriginalnativeEnglishroot/policyguard-deferred; primaryindexed officialusage reviewed, APIruntimeunverified",
+      "latest_checked_utc": "2026-10-18T00:26:40.180612+00:00",
       "classification": "restricted"
     },
     {
