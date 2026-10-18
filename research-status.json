@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T07:14:27.005706+00:00",
+  "published_at": "2026-10-18T07:16:30.344817+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:11:49.464803+00:00",
+  "research_updated_at": "2026-10-18T07:16:19.230274+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Two independent primary leads reviewed: Plate Mark CC0 metadata/full dossier and FAIR Forward CC0/index JSON verified with narrow scope/source/contact exclusions.",
+  "latest_milestone": "Stats NZ deduplicated; SDSS public release grant/Valis docs verified with API host hold; Roper current subscriber terms restricted.",
   "counts": {
-    "verified": 374,
+    "verified": 375,
     "candidates": 903,
-    "excluded": 266,
+    "excluded": 267,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -11139,6 +11139,24 @@
       "license_url": "https://sctld.dataone.org/metacat/d1/mn/v2/object/doi%3A10.48522%2FD3059S",
       "api_verification_state": "documented_capability_xml_and_public_query_json_and_metadata_xml_sample_success",
       "latest_checked_utc": "2026-10-16T22:58:51.363933+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "sdss-valis-public-api",
+      "provider": "Sloan Digital Sky Survey collaboration",
+      "service_name": "SDSS public data releases / Valis API",
+      "geographic_coverage": "Astronomical sky surveys observed from Apache Point and Las Campanas; not terrestrial national statistics",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "DR20 Black Hole Mapper/Milky Way Mapper optical and infrared spectroscopy, Astra parameters; release access overview also describes LVM and historical surveys",
+      "documentation_url": "https://www.sdss.org/dr20/data_access/zora_and_valis/ | https://api.sdss.org/valis/docs",
+      "api_base_url": "https://api.sdss.org/valis",
+      "format_protocol": "Documented public FastAPI/JSON interface; query, target, info, maskbits and file groups. Native API response not obtained",
+      "authentication": "Owner describes public programmatic access and example without credentials; runtime not tested",
+      "free_access_restrictions": "Public released data explicitly public domain; unreleased/collaboration data not covered",
+      "license": "Owner declares public released SDSS data public domain; separate website images CC BY4",
+      "license_url": "https://www.sdss.org/collaboration/ | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native collaboration policy/DR20 access/Valis guide200. API documentation request held, no native JSON/data/schema response. Documented API distinct from successfully tested API.",
+      "latest_checked_utc": "2026-10-18T07:16:14.608498+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -24874,7 +24892,7 @@
       "license": "CC BY 4.0 explicitly for content available through the Stats NZ API Portal",
       "license_url": "https://portal.apis.stats.govt.nz/terms",
       "api_verification_state": "documented_key_required_untested_free_access_unconfirmed",
-      "latest_checked_utc": "2026-10-16T20:05:00.713336+00:00",
+      "latest_checked_utc": "2026-10-18T07:16:14.608498+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32419,6 +32437,24 @@
       "license_url": "https://www.rki.de/EN/News/Publications/Research-data/RDC/research-data-centre-node.html | https://www.rki.de/EN/News/Publications/Research-data/Scientific-Use-Files/Application/application-node.html",
       "api_verification_state": "Native RDC and application policies200HTML; no public API documented on reviewed pages, no clinical/source request.",
       "latest_checked_utc": "2026-10-18T05:04:53.500181+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "roper-public-opinion-archive",
+      "provider": "Roper Center for Public Opinion Research / Cornell University",
+      "service_name": "Roper subscriber archive and public access documentation",
+      "geographic_coverage": "Public-opinion survey archive; precise geographic/source coverage not enumerated",
+      "topical_coverage": "demographics | law/civic data | research",
+      "dataset_families": "Licensed survey/poll content and data; source records and participant data not fetched",
+      "documentation_url": "https://ropercenter.cornell.edu/general-terms-use",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native terms define Authorized Users under Subscriber Agreement; no login or agreement attempted",
+      "free_access_restrictions": "Subscriber and authorized-user terms; no paid acquisition or broad free API established",
+      "license": "Copyright/subscriber terms, limited Fair Use and narrowly defined derivative works; no open source-data grant",
+      "license_url": "https://ropercenter.cornell.edu/general-terms-use",
+      "api_verification_state": "Native current terms200 reviewed; exact documented public API and sample unresolved, no survey/source request",
+      "latest_checked_utc": "2026-10-18T07:16:14.608498+00:00",
       "classification": "restricted"
     },
     {
