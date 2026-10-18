@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T12:52:48.093488+00:00",
+  "published_at": "2026-10-18T12:54:50.993724+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:50:59.918865+00:00",
+  "research_updated_at": "2026-10-18T12:54:31.959741+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MIT staffmetadataCC0/nativeHAL8.2; USM nativeHAL7.4/rightsunknown; RadboudcurrentmetadataCC0/exactAPIunresolved.",
+  "latest_milestone": "GeoSphere currentnative quota page verified:5/sec240/hour;1MJSONCSV/10MNetCDFvalues; no quota/load test.",
   "counts": {
-    "verified": 409,
+    "verified": 411,
     "candidates": 1046,
-    "excluded": 306,
+    "excluded": 307,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -8433,6 +8433,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "fairdomhub-metadata-json-api",
+      "provider": "University of Manchester / HITS / FAIRDOM",
+      "service_name": "FAIRDOMHub CC BY4 metadata JSON API",
+      "geographic_coverage": "International scientific projects, predominantly systems biology and interdisciplinary research",
+      "topical_coverage": "research | health",
+      "dataset_families": "Research programmes/projects, investigation/study/assay metadata, models/SOPs/datafile descriptions; underlying assets retain individual rights/access",
+      "documentation_url": "https://fairdomhub.org/api | https://fairdomhub.org/home/terms",
+      "api_base_url": "https://fairdomhub.org/",
+      "format_protocol": "JSON:API REST; currentresolvedYAML OpenAPI3.1.0",
+      "authentication": "Anonymous docs/schema succeeded; source routes may use tokens/sharingpolicies, not tested; no account/credential",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 metadata, underlying assets/project licences separate",
+      "license_url": "https://fairdomhub.org/home/terms",
+      "api_verification_state": "Native root/terms/docs200HTML; exactlinkedresolvedYAML200 and safely parsedOpenAPI3.1.0 across52paths. No clinical/study/assay/people/source records queried.",
+      "latest_checked_utc": "2026-10-18T12:52:55.829381+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "fairsharing-registry-api",
       "provider": "FAIRsharing / University of Oxford Data Readiness Group",
       "service_name": "FAIRsharing registry JSON and record APIs",
@@ -13056,6 +13074,24 @@
       "license_url": "https://www.wdc-climate.de/ui/info?site=fairsummary",
       "api_verification_state": "native_anonymous_REST_search_JSON_and_OAI_Identify_XML_success",
       "latest_checked_utc": "2026-10-17T20:06:09.918811+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "wegenernet-file-api",
+      "provider": "Wegener Center for Climate and Global Change / University of Graz",
+      "service_name": "WegenerNet File API, WEGN3D v1.0 licensed scope",
+      "geographic_coverage": "Feldbach and southeastern Austria climate-observation laboratory; other portalregions/sourceversions separate",
+      "topical_coverage": "climate/weather/environment | water | research",
+      "dataset_families": "WEGN3D v1.0 L1b/L2 water-vapour/cloud/precipitation and atmospheric products; raw/request-only and unrelated products excluded",
+      "documentation_url": "https://wegenernet.org/data-api/file/v1/api/",
+      "api_base_url": "https://wegenernet.org/data-api/file/v1/",
+      "format_protocol": "RESTJSON/OpenAPI3.1.0; datafiles/bulk/subset operations documented, not executed",
+      "authentication": "Anonymous docs/schema succeeded; contractno securityscheme, actual files/access untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 for WEGN3D v1.0 L1b/L2 data products per native release notes",
+      "license_url": "https://wegenernet.org/downloads/Kvas_et_al_2024_WEGN3D_v1_release_notes-WEGN-TR-1-2024.pdf",
+      "api_verification_state": "Native portal/APIUI200HTML; exactadvertised double-slashschema200validOpenAPI3.1.0 with8GETpaths. Native releasePDF200 read24pages viaofficialreader, dataaccessclause confirmed. No file/source/catalogue response tested.",
+      "latest_checked_utc": "2026-10-18T12:52:55.829381+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21966,8 +22002,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across482successfulpages/482000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T12:42:18.676586+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across498successfulpages/498000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T12:53:01.972823+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34174,6 +34210,24 @@
       "license_url": "https://www.geoguyane.fr/accueil/mentions-legales",
       "api_verification_state": "documented_sample_success_native_CSW_capabilities_only_reuse_restricted",
       "latest_checked_utc": "2026-10-17T14:46:09.470919+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "geosphere-austria-datahub-api",
+      "provider": "GeoSphere Austria",
+      "service_name": "GeoSphere Austria Dataset API/Data Hub: published-use conditions",
+      "geographic_coverage": "Austria-centred station/grid/time-series observations and forecasts; individualresource coverage varies",
+      "topical_coverage": "climate/weather/environment | energy | geospatial | research",
+      "dataset_families": "Weather/climate and geoscientific dataset services, current/historical/forecast metadata and data",
+      "documentation_url": "https://dataset.api.hub.geosphere.at/v1/docs/ | https://dataset.api.hub.geosphere.at/v1/openapi-docs",
+      "api_base_url": "https://dataset.api.hub.geosphere.at/v1/",
+      "format_protocol": "RESTJSON/CSV/NetCDF; actualnativeOpenAPI3.1.0 contract16paths",
+      "authentication": "Anonymous docs/schema succeeded; ownerguidesay noAPIkey currently, no source/resource request/authentication attempted",
+      "free_access_restrictions": "APIguideBY4 unauthenticateddata, but nativeportalrequires broaderGTC/data-useconditions and lists excluded purposes; scopeconflict/interplay retained",
+      "license": "NativeAPIguide CC BY4 for unauthenticateddata plus portal additionalpurpose/use conditions",
+      "license_url": "https://dataset.api.hub.geosphere.at/v1/docs/user-guide/license.html | https://data.hub.geosphere.at/en/legal?lang=en",
+      "api_verification_state": "Nativeportal/docs/licence/portallegal/OpenAPIguide/UI200; linkedOpenAPI200validJSON3.1.0/16paths. Only docs/schema, no observedvalues/sourcecatalogue/coordinates or files.",
+      "latest_checked_utc": "2026-10-18T12:54:27.266973+00:00",
       "classification": "restricted"
     },
     {
