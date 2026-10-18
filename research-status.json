@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:47:13.071148+00:00",
+  "published_at": "2026-10-18T20:49:15.945341+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:44:21.415336+00:00",
+  "research_updated_at": "2026-10-18T20:48:37.136817+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original reviews: Dundee/QUB Pure schemas, IDIA five release references, Italian marine/API gap, deprecated eNanoMapper docs, ILL OAI500/policy gap; nine PaNOSC OAI links queued.",
+  "latest_milestone": "ReadingOAIadvertised/grantgap; GDCstatusJSON/currentpolicyverified; Wilsonunofficialclientregistrycorrection.",
   "counts": {
     "verified": 459,
-    "candidates": 1351,
-    "excluded": 392,
+    "candidates": 1355,
+    "excluded": 394,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -28216,6 +28216,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nci-genomic-data-commons",
+      "provider": "US National Cancer Institute",
+      "service_name": "Genomic Data Commons API",
+      "geographic_coverage": "International cancer research programs through NCI GDC; project coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Cancer research dataset/project/case/file metadata interface descriptions; sourcepatient/genomic/files excluded",
+      "documentation_url": "https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/",
+      "api_base_url": "https://api.gdc.cancer.gov/",
+      "format_protocol": "RESTJSON, source-free status endpointverified",
+      "authentication": "StatusGETanonymous success. Nativepolicy distinguishes openaccess noauth fromcontrolledsources requiringdbGaPauthorization/eRAauthentication. No key/account/controlledquery.",
+      "free_access_restrictions": "PublicaccessversusdbGaPcontrolled determinedbysource/consent. Accessdoesnotitselfgrantreuse. No paidaccess orfee inferencefromregistry.",
+      "license": "NIHGDS/NCI sourceaccesspolicies; uniform formalmetadata/datareusegrant unconfirmed",
+      "license_url": "https://gdc.cancer.gov/about-gdc/gdc-policies",
+      "api_verification_state": "Nativeportal/APIguide/policiesHTTP200. DocumentedstatusGETHTTP200validJSONstatusOK withcommit/datarelease/tag/versionkeys; serviceidentityonly. No projects/cases/files/annotations/data/manifest/slicing/submission/source request.",
+      "latest_checked_utc": "2026-10-18T20:48:31.314692+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nea-jeff-open-data-discovery",
       "provider": "OECD Nuclear Energy Agency / JEFF collaboration",
       "service_name": "JEFF nuclear data release discovery / NEA open data platform",
@@ -31870,6 +31888,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "reading-research-data-archive",
+      "provider": "University of Reading",
+      "service_name": "Reading Research Data Archive OAI-PMH",
+      "geographic_coverage": "University of Reading research datasets; UK/international disciplinary coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary deposited research dataset metadata; source licenses/access vary",
+      "documentation_url": "https://researchdata.reading.ac.uk/",
+      "api_base_url": "https://researchdata.reading.ac.uk/cgi/oai2",
+      "format_protocol": "OAI-PMH2 explicitlyadvertisedbynative landingpage; runtime untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown uniform metadata/database grant; per-source licensing",
+      "license_url": "https://researchdata.reading.ac.uk/policies.html",
+      "api_verification_state": "OriginalrootHTTP200nativeHTML explicitlypublishes OAI2base. Independentwebresearchreportedrobotsblock; no furthernativepolicy/OAIrequest made, no alternatehost/path/format. DocumentedOAI notsuccessfulruntime.",
+      "latest_checked_utc": "2026-10-18T20:48:31.314692+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "recherche-data-gouv-repository",
       "provider": "Recherche Data Gouv / INRAE / French research ministry",
       "service_name": "Recherche Data Gouv national research repository",
@@ -35092,6 +35128,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "topdown-proteomics-repository",
+      "provider": "Consortium for Top Down Proteomics",
+      "service_name": "Top Down Proteomics Repository / Proteoform Atlas",
+      "geographic_coverage": "International proteomics studies; organism/study coverage varies",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Proteoform study/organism/cell-type directory descriptions; no proteoform or molecular source records queried",
+      "documentation_url": "http://repository.topdownproteomics.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://repository.topdownproteomics.org/",
+      "api_verification_state": "Original registryrootHTTP200 native ProteoformAtlas landing page. Browser links/proteoform tables notAPIproof. No exact current publicreadAPI/schema established or runtime sourcequery.",
+      "latest_checked_utc": "2026-10-18T20:47:37.410728+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "topoi-climate-models",
       "provider": "Edition Topoi / Excellence Cluster Topoi",
       "service_name": "Climate Models ANCM collection",
@@ -37684,6 +37738,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "wilson-center-digital-archive",
+      "provider": "Wilson Center",
+      "service_name": "Wilson Center Digital Archive",
+      "geographic_coverage": "International historical documents; exact collection coverage unverified",
+      "topical_coverage": "culture | law/civic data | research",
+      "dataset_families": "Historical source/translation/collection metadata descriptions; notranscripts/images/docs acquired",
+      "documentation_url": "https://digitalarchive.wilsoncenter.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://digitalarchive.wilsoncenter.org/about-us",
+      "api_verification_state": "Originalrootrobots-deferredunsent; no alternatesourcebackend request. RegistryAPIclaimpoints toanunofficialPythonclient PublicAPI/modelmethods, notofficialHTTPcontract. NativecurrentAPI/auth/runtime/schema unverified.",
+      "latest_checked_utc": "2026-10-18T20:48:31.314692+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wind-data-hub-api",
       "provider": "Wind Data Hub / US DOE WETO; managed by Pacific Northwest National Laboratory",
       "service_name": "Wind Data Hub public portal/API configuration",
@@ -39537,6 +39609,24 @@
       "license_url": "https://aleia.ibict.br/assets/pdf/BS18_2024_Aleia.pdf",
       "api_verification_state": "Native root/policyPDFHTTP200; original OAIIdentifyHTTP200validatedXML/noerror. No REST/SWORD/deposit/source request.",
       "latest_checked_utc": "2026-10-18T20:01:53.408265+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "algaebase-taxonomic-database",
+      "provider": "AlgaeBase / University of Galway and contributors",
+      "service_name": "AlgaeBase taxonomic database and API access",
+      "geographic_coverage": "Worldwide algal taxonomy; exact current data coverage untested",
+      "topical_coverage": "biodiversity | oceans | research",
+      "dataset_families": "Algal name/taxonomic and associated database descriptions; image/journal rights separate",
+      "documentation_url": "https://www.algaebase.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native Terms of Use: permitted personal noncommercial use; automated extraction prohibited",
+      "license_url": "https://admin.algaebase.org/terms/",
+      "api_verification_state": "Original rootrobots-deferredunsent. Sameconfigcopyrightrequest deferredunsent afterhostfailure. No furtherrequest/API/name/species/scraping attempted; indexednativelegalreview only. APIavailability/contracts/quotas untested.",
+      "latest_checked_utc": "2026-10-18T20:47:37.410728+00:00",
       "classification": "restricted"
     },
     {
@@ -45783,6 +45873,24 @@
       "license_url": "https://www.open.ac.uk/Arts/reading/UK/copyright_guide.php",
       "api_verification_state": "Originalnativecopyrightguideguard-deferred; officialindexedpolicyinspected, no API/sample.",
       "latest_checked_utc": "2026-10-18T05:33:08.019097+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "umn-clinical-data-repository",
+      "provider": "University of Minnesota CTSI / AHC Information Exchange",
+      "service_name": "UMN Clinical Data Repository access services",
+      "geographic_coverage": "Minnesota/Fairview/University of Minnesota clinical networks; service descriptions only",
+      "topical_coverage": "health | research",
+      "dataset_families": "Clinical EHR and related controlled data descriptions; no patients/cohorts/genomics/biospecimens queried",
+      "documentation_url": "https://ctsi.umn.edu/services/data-informatics/find-access-data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Controlled clinical data access; no public open-data grant verified",
+      "license_url": "https://ctsi.umn.edu/sites/ctsi.umn.edu/files/2021-03/i2b2-user-guide.pdf",
+      "api_verification_state": "OriginalURLHTTP200redirected/currentnativeFindAccessData overview. Privateclinicalquerytools described, no exactanonymousAPI/schema verified. No clinical/source/count/cohort query, login, dataaccessform oragreement.",
+      "latest_checked_utc": "2026-10-18T20:47:37.410728+00:00",
       "classification": "restricted"
     },
     {
