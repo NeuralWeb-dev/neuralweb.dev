@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:06:39.464065+00:00",
+  "published_at": "2026-10-18T03:08:41.950148+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:04:51.548413+00:00",
+  "research_updated_at": "2026-10-18T03:08:40.820435+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CARS nativeCC0/activeTAP and returnedten-tablefrontier verified; NED currentVOTablefieldsAPI active but tablegrant unresolved; REFOLDweblicence/API scope unresolved.",
+  "latest_milestone": "EUROLAS registeredJSONAPI documented; Loebwebsite/source/bibliographicmetadata rights separated; TLA accesslevelvslicence and rootguardhold preserved.",
   "counts": {
     "verified": 344,
-    "candidates": 762,
-    "excluded": 213,
+    "candidates": 767,
+    "excluded": 214,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -14882,6 +14882,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eurolas-data-center-api",
+      "provider": "DGFI Technical University of Munich / EUROLAS Data Center",
+      "service_name": "EUROLAS EDC registered JSON API",
+      "geographic_coverage": "Global scientific satellite/lunar laser-ranging networks, European centre; exact product-source coverage varies",
+      "topical_coverage": "astronomy | geospatial | research",
+      "dataset_families": "SLR/LLR normal-point/full-rate/ranging observations, orbit/prediction products, satellite/station descriptive metadata; no observations/sourcefiles acquired",
+      "documentation_url": "https://edc.dgfi.tum.de/en/api/",
+      "api_base_url": "https://edc.dgfi.tum.de/api/v1/",
+      "format_protocol": "Owner docs describe POST/GET with action parameter and JSON; native current examples inspected, not executed",
+      "authentication": "Owner docs require registered username and password for API actions; no account/credentials used or acquired",
+      "free_access_restrictions": "Owner describes direct scripted data holdings access; exact free registration/tier and reusable data grant unresolved. Public web/FTP availability not source licence",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.tum.de/en/about-tum/contact-directions/legal-notice | https://edc.dgfi.tum.de/en/terms/",
+      "api_verification_state": "Native root/APIguide/Pythonexamples/consortiumterms/universitylegal200HTML. Registered API documented but no data/metadata API sample because credentials required.",
+      "latest_checked_utc": "2026-10-18T03:08:34.725317+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "european-history-online",
       "provider": "Leibniz Institute of European History / Trier Center for Digital Humanities",
       "service_name": "EGO European History Online",
@@ -15635,6 +15653,24 @@
       "license_url": "https://data.gg.go.kr/portal/termsPolicyPage.do",
       "api_verification_state": "documented_registered_key_for_full_use_untested_anonymous_mode_not_exercised",
       "latest_checked_utc": "2026-10-17T09:24:11.797520+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "harvard-loeb-digital-scores",
+      "provider": "Harvard Library / Eda Kuhn Loeb Music Library",
+      "service_name": "Digital Scores and Libretti collection portal candidate",
+      "geographic_coverage": "Harvard-held historical music scores/libretti with source-specific cultural/geographic scope",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Digital music scores/libretti collection discovery and related bibliographic metadata; sourceimages/documents not fetched",
+      "documentation_url": "https://library.harvard.edu/collections/digital-scores-and-libretti?_collection=scores",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Public collectionpages accessible; exact scoreobject access/source reuse and API restrictions unverified",
+      "license": "Qualifying staff-written webtext CC BY4; specified separate bibliographic metadata collection CC0; score-source rights vary",
+      "license_url": "https://library.harvard.edu/harvard-library-cc-copyright-policy | https://library.harvard.edu/services-tools/harvard-library-datasets",
+      "api_verification_state": "Native collection/currentcopyright/metadata policy200HTML. Collection redirects to discovery resources, no exact collection query/IIIF API or sample verified. Current LibraryCloud status notverified; genericdirectorymention notruntime proof.",
+      "latest_checked_utc": "2026-10-18T03:08:34.725317+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17240,6 +17276,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "lse-research-online",
+      "provider": "London School of Economics and Political Science",
+      "service_name": "LSE Research Online OAI-PMH repository",
+      "geographic_coverage": "UK institution-affiliated research with global social-science subject coverage",
+      "topical_coverage": "research | education | economics/finance | law/civic data | demographics",
+      "dataset_families": "Bibliographic research outputs, theses and eligible datasets/software/methods metadata; fulltext/sourceworks separately licensed",
+      "documentation_url": "https://researchonline.lse.ac.uk/",
+      "api_base_url": "https://researchonline.lse.ac.uk/cgi/oai2",
+      "format_protocol": "Owner homepage explicitly supports OAI2.0; native protocol response untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "Public pages readable; source access/licences vary, exact OAI usage conditions/quota unverified",
+      "license": "unknown verified data grant",
+      "license_url": "https://researchonline.lse.ac.uk/policies.html",
+      "api_verification_state": "Native homepage/policy200HTML; original OAIIdentify guard-deferred, targetunsent. No protocolXMLresponse/alternate eprints hostname harvested.",
+      "latest_checked_utc": "2026-10-18T03:06:41.677468+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lter-italy-dataset-asset-registry",
       "provider": "LTER-Italy / CNR-ISMAR and CNR-IREA",
       "service_name": "LTER-Italy network Digital Asset Registry",
@@ -17759,6 +17813,24 @@
       "license_url": "https://donnees.montreal.ca/pages/licence-d-utilisation",
       "api_verification_state": "publisher_CKAN_documented_conventional_API_sample_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T14:14:54.516677+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mpi-the-language-archive",
+      "provider": "Max Planck Institute for Psycholinguistics / The Language Archive",
+      "service_name": "The Language Archive OAI-PMH and corpus portal candidate",
+      "geographic_coverage": "Worldwide language documentation; independentowner describes endangered/acquisition/sign-language and spokenDutch corpora, dataset-specific coverage varies",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Language documentation and multimedia corpus descriptions, acquisition/fieldlinguistics/signlanguage resources; metadata/source media distinct",
+      "documentation_url": "https://archive.mpi.nl/tla/",
+      "api_base_url": "https://archive.mpi.nl/oai2; registryclaimed, no current protocolrequest under rootguardhold",
+      "format_protocol": "OAI-PMH registryclaimed, currentruntimeunverified; native independentowner describesarchive not API response",
+      "authentication": "Officialindexedowner userguide distinguishes open,registered,academic,restricted sourcefile access; access level does not itself grant reuse",
+      "free_access_restrictions": "Sourceaccess/rights vary by file; loggedin/verifiedacademic/permission routes exist, none used. Exact publicmetadata API/accessgrant unknown",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native archive root guard-deferred unsent; no OAI/oldpath/corpus queries. Independent instituteownerpage200HTML supports archiveidentity/families. Userguide policy reviewed officialindexedtext only, not native heldhostfetch.",
+      "latest_checked_utc": "2026-10-18T03:08:34.725317+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18551,6 +18623,24 @@
       "license_url": "",
       "api_verification_state": "Native OpenAPI JSON HTTP200 parsed; bounded documented GET /records returned HTTP400, not successful RDF dataset/catalogue response. No alternate format/backend retry.",
       "latest_checked_utc": "2026-10-18T00:06:31.080689+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nodc-portugal-geonetwork",
+      "provider": "NODC-PT / Portuguese National Oceanographic Data Centre",
+      "service_name": "NODC-PT GeoNetwork catalogue API",
+      "geographic_coverage": "Portugal-based oceanographic catalogue; exact dataset-specific spatial coverage unverified",
+      "topical_coverage": "oceans | environment | water | geospatial | research",
+      "dataset_families": "Marine geospatial/oceanographic metadata discovery; exact licensed source datasets not retrieved",
+      "documentation_url": "https://data.nodc-portugal.pt/geonetwork/doc/api/index.html",
+      "api_base_url": "https://data.nodc-portugal.pt/geonetwork/srv/api/",
+      "format_protocol": "Native OpenAPI3 and REST JSON; instance/public site descriptor200validJSON",
+      "authentication": "Public documentation/spec/site description readable anonymously; catalogue search/source/private/admin access untested",
+      "free_access_restrictions": "Public site description verified; exact metadata/database/source rights and free access limits unknown",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root/APISwaggerUI200; UI-linked instance OpenAPI200validJSON. Public GET/site200validJSON with site-name field; this is API descriptor success, not dataset-search/source-data response.",
+      "latest_checked_utc": "2026-10-18T03:06:41.677468+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28183,6 +28273,24 @@
       "license_url": "https://data.bs.ch/terms/terms-and-conditions/ | https://data.bs.ch/explore/dataset/100189/information/",
       "api_verification_state": "historical_catalog_metadata_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:33:40.805266+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "rwi-research-data-center-ruhr",
+      "provider": "RWI Leibniz Institute for Economic Research / FDZ Ruhr",
+      "service_name": "Research Data Center Ruhr scientific-use data access",
+      "geographic_coverage": "German regional datasets and international project-specific research; institution location not full dataset coverage",
+      "topical_coverage": "economics/finance | housing | labor | demographics | environment | research",
+      "dataset_families": "Regional/georeferenced economic, real-estate, household/individual research data; public-use files separately described, not downloaded",
+      "documentation_url": "https://www.rwi-essen.de/en/research-advice/further/research-data-center-ruhr-fdz/data-request",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Scientific use requires project application and review/data-use agreement; no account/approval/data requests used",
+      "free_access_restrictions": "Scientific use project-related/non-commercial with application and agreement; public-use file rights/API separately unresolved",
+      "license": "Scientific-use data restricted to project-related non-commercial research and reviewed agreement",
+      "license_url": "https://www.rwi-essen.de/en/research-advice/further/research-data-center-ruhr-fdz/data-request",
+      "api_verification_state": "Native public root/access-policy200HTML. No public machine query API or participant/household/source data request tested.",
+      "latest_checked_utc": "2026-10-18T03:06:41.677468+00:00",
       "classification": "restricted"
     },
     {
