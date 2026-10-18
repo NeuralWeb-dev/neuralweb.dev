@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T03:35:18.566482+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T03:37:21.050433+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:34:08.117854+00:00",
+  "research_updated_at": "2026-10-18T03:36:49.333844+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AOML GDP native ERDDAP catalogue and nine source-grant descriptors verified; WHO deduplicated/restrictions refreshed; OSGeo software pointer corrected without false provider row.",
+  "latest_milestone": "Twelve original discovery tasks processed; eight new rows, three scoped-open additions. AOML native ten-entry/nine-source catalogue and all nine source grants verified; DEMel/AMRDC API docs+grants verified runtime held. Provider identity/rights gaps explicit.",
   "counts": {
     "verified": 348,
-    "candidates": 780,
+    "candidates": 781,
     "excluded": 218,
     "sample_successes": 467
   },
@@ -119,6 +119,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "aoml-gdp-erddap",
           "bcodmo-erddap-data-api",
           "bgs",
           "cchdo",
@@ -230,6 +231,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "aoml-gdp-erddap",
           "bcodmo-erddap-data-api",
           "dlr-eoc-geoservice",
           "earthscope-geodetic-web-services",
@@ -603,6 +605,7 @@
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "aoml-gdp-erddap",
           "bcodmo-erddap-data-api",
           "bgs",
           "cchdo",
@@ -745,6 +748,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "aoml-gdp-erddap",
           "arxiv",
           "b2share",
           "bcodmo-erddap-data-api",
@@ -2242,6 +2246,7 @@
           "puglia-open-data-catalog",
           "registry-daten-rlp-de",
           "registry-opendata-aragon-es",
+          "rivmdata-geonetwork",
           "santander-open-data",
           "sardinia-geospatial-wfs",
           "seadatanet-cdi-discovery-network",
@@ -2393,6 +2398,7 @@
           "publicneuro-repository",
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
+          "rivmdata-geonetwork",
           "swissubase-oai",
           "terrassa-open-data",
           "tuscany-open-data-catalog"
@@ -2679,6 +2685,7 @@
           "registry-daten-rlp-de",
           "registry-daten-sg-ch",
           "registry-opendata-aragon-es",
+          "rivmdata-geonetwork",
           "santander-open-data",
           "sardinia-geospatial-wfs",
           "schaffhausen-geoservices",
@@ -3096,6 +3103,7 @@
           "publicneuro-repository",
           "radar-bb-repository",
           "rijksmuseum",
+          "rivmdata-geonetwork",
           "saw-leipzig-fcs",
           "seadatanet-cdi-discovery-network",
           "surf-data-repository",
@@ -4793,6 +4801,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amrdc-data-repository",
           "arctic-data",
           "nasa-cmr",
           "ocean-networks-canada",
@@ -4952,6 +4961,7 @@
       "oceans": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amrdc-data-repository",
           "arctic-data",
           "ocean-networks-canada",
           "pangaea",
@@ -4992,6 +5002,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "amrdc-data-repository",
           "arctic-data",
           "nasa-cmr",
           "pangaea",
@@ -8919,8 +8930,8 @@
       "free_access_restrictions": "CC0 default for SPDF services unless otherwise noted; private/restricted third-party data excluded. Sample deferred by fetched robots policy.",
       "license": "CC0/public-domain dedication unless otherwise noted",
       "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html",
-      "api_verification_state": "documented_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T18:12:47.921373+00:00",
+      "api_verification_state": "Current native SPDF data policy HTTP200; current CDAWeb REST documentation HTTP200; prior documented runtime robots-held, not retried",
+      "latest_checked_utc": "2026-10-18T03:35:35.423311+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -8937,8 +8948,8 @@
       "free_access_restrictions": "CC0 default for SPDF services unless otherwise noted; private/restricted third-party data excluded. Sample deferred by fetched robots policy.",
       "license": "CC0/public-domain dedication unless otherwise noted",
       "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html",
-      "api_verification_state": "documented_untested_policy_restricted",
-      "latest_checked_utc": "2026-10-16T18:12:49.124851+00:00",
+      "api_verification_state": "Current native SPDF data policy HTTP200; prior documented runtime robots-held, not retried",
+      "latest_checked_utc": "2026-10-18T03:35:35.423311+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21310,6 +21321,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rivmdata-geonetwork",
+      "provider": "RIVM Netherlands National Institute for Public Health and the Environment",
+      "service_name": "RIVMdata spatial metadata catalogue",
+      "geographic_coverage": "Netherlands public-health/environmental metadata; source-specific coverage varies",
+      "topical_coverage": "health | climate/weather/environment | geospatial | research",
+      "dataset_families": "Public-health, environmental and spatial dataset/service metadata; source grants and access vary",
+      "documentation_url": "https://data.rivm.nl/meta/srv/eng/catalog.search",
+      "api_base_url": "",
+      "format_protocol": "Native GeoNetwork catalogue HTML; source OGC/REST/metadata endpoints not independently verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.rivm.nl/en/copyright",
+      "api_verification_state": "Native catalogue HTML HTTP 200, official copyright HTTP 200, owner-linked API reference HTTP 403; no successful data API",
+      "latest_checked_utc": "2026-10-18T03:35:35.423311+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "roceeh-road-prehistory-database",
       "provider": "ROCEEH / Heidelberg Academy / University of Tübingen / Senckenberg",
       "service_name": "ROCEEH Out of Africa Database",
@@ -27149,7 +27178,7 @@
       "service_name": "Harvard Dataverse public API",
       "geographic_coverage": "Global",
       "topical_coverage": "research",
-      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections | AfricaRice hosted agricultural research collection, distinct per-dataset rights unreviewed under nativehosthold",
+      "dataset_families": "Multidisciplinary research datasets; files; metadata; collections | AfricaRice hosted agricultural research collection, distinct per-dataset rights unreviewed under nativehosthold | Stockholm University Library hosted research collection; exact source grants unresolved",
       "documentation_url": "https://guides.dataverse.org/en/latest/api/",
       "api_base_url": "https://dataverse.harvard.edu/api/",
       "format_protocol": "REST/JSON or XML as documented",
@@ -27157,8 +27186,8 @@
       "free_access_restrictions": "Guests may access public content subject to per-dataset terms; fullservice account; APIs subject bandwidth and no-sale/lease/sublicensing restrictions; private/restricted data separate",
       "license": "API terms restrict sale, lease and sublicensing; datasets have individual CC0/custom/DUA options",
       "license_url": "https://support.dataverse.harvard.edu/harvard-dataverse-api-terms-use | https://support.dataverse.harvard.edu/harvard-dataverse-general-terms-use",
-      "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified",
-      "latest_checked_utc": "2026-10-18T02:15:18.295203+00:00",
+      "api_verification_state": "historical_native_sample_success_current_collection_policy_held_restrictive_API_terms_verified; Stockholm hosted collection guard-deferred; independent university guide HTTP 200",
+      "latest_checked_utc": "2026-10-18T03:35:35.423311+00:00",
       "classification": "restricted"
     },
     {
