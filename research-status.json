@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T22:13:42.218163+00:00",
+  "published_at": "2026-10-18T22:15:45.083764+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:12:15.744172+00:00",
+  "research_updated_at": "2026-10-18T22:14:12.639682+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AbacusHTMLblock/mixedrights; Share_itdepositmetadataCC0/OAIdocs/runtimehold; SBDInamedBY4/NC/15pathYAMLschema and samplehold.",
+  "latest_milestone": "ALBAportal/policyhold/revisionpending; UnisanteBeComESBY4/validJSONmetadata; INAHnativeNCNDdefault/OAIHTML.",
   "counts": {
-    "verified": 485,
-    "candidates": 1395,
-    "excluded": 403,
+    "verified": 486,
+    "candidates": 1396,
+    "excluded": 404,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -14974,6 +14974,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "unisante-research-data-repository",
+      "provider": "Unisante / University of Lausanne",
+      "service_name": "Unisante Data Repository metadata exports",
+      "geographic_coverage": "Swiss publichealth research and selected international studies; source-specific coverage",
+      "topical_coverage": "health | education | demographics | research",
+      "dataset_families": "Researchstudy descriptions, collectionmetadata and DDI/JSON exports; source microdata individuallycontrolled",
+      "documentation_url": "https://data.unisante.ch/about | https://data.unisante.ch/catalog/72/study-description",
+      "api_base_url": "https://data.unisante.ch/metadata/export/{id}/json (nativepublishedmetadataexport)",
+      "format_protocol": "NativeNADA study-description JSON metadata exportverified; DDI linkdocumenteduntested",
+      "authentication": "AnonymouspublishedJSONmetadataHTTP200verified. Source downloads can requiretermacceptance/account/investigatorapproval; noneperformed",
+      "free_access_restrictions": "NamedBeComESsourceCCBY4, otherlicensed/controlledsources requireapproval andagreement. Downloadtermsnotaccepted; no sourceacquisition",
+      "license": "CC BY4 for namedBeComES study data/documentation; other source grants/access vary",
+      "license_url": "https://data.unisante.ch/catalog/72/study-description",
+      "api_verification_state": "Native root/about/nameddescriptorHTTP200HTML. ExactpublishedmetadataexportHTTP200validJSON withdoc_desc,study_desc,schematype,tags and namedstudyID/title. No individualmicrodata/observations or sourcefiles.",
+      "latest_checked_utc": "2026-10-18T22:14:07.987124+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "uruguay",
       "provider": "Uruguay National Open Data Catalog",
       "service_name": "Uruguay National Open Data Catalog open data portal",
@@ -16053,6 +16071,24 @@
       "license_url": "",
       "api_verification_state": "Original root robots-deferred unsent. Indexed native FAQ describes station/variable/date form and CSV export, not a documented public query API. No alternate host/backend/path/source download requested.",
       "latest_checked_utc": "2026-10-18T21:23:14.381099+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "alba-synchrotron-data-portal",
+      "provider": "ALBA Synchrotron / CELLS",
+      "service_name": "ALBA Data Portal",
+      "geographic_coverage": "Spanish synchrotron and international facility users; experiment-specific scope",
+      "topical_coverage": "research | energy | environment | health",
+      "dataset_families": "Synchrotron experiment metadata and raw/processed research products; source measurements/images not acquired",
+      "documentation_url": "https://www.cells.es/en/users/access/call-information | https://indico.cells.es/event/1725/contributions/3603/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.cells.es/ca/recursos/pdfs/users/data_policy_cells.pdf/@@download/file",
+      "api_verification_state": "Native data portalHTTP200minimalclient shell, notAPI. OwnercallpageHTTP200links legalpolicy; publishedpolicyrequest robots-deferred unsent. ExactcurrentAPI/base/schema/auth notverified. No guesses fromSciCat orframework.",
+      "latest_checked_utc": "2026-10-18T22:14:07.987124+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -44243,6 +44279,24 @@
       "license_url": "https://www.imk-asf.kit.edu/english/1500.php",
       "api_verification_state": "restricted_registration_terms_and_product_portal_verified_public_API_unestablished",
       "latest_checked_utc": "2026-10-17T18:56:32.676384+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "inah-mediateca-cultural-repository",
+      "provider": "Instituto Nacional de Antropologia e Historia / Mexico",
+      "service_name": "Mediateca INAH institutional repository",
+      "geographic_coverage": "Mexican cultural/historical heritage and selected international scholarship",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Culturalcollection descriptions, publications, archives and heritage itemmetadata; sourceworks/media separatelycontrolled",
+      "documentation_url": "https://mediateca.inah.gob.mx/islandora_74/oai | https://mediateca.inah.gob.mx/uso",
+      "api_base_url": "http://mediateca.inah.gob.mx/islandora_74/oai2 (registryreference, HTMLresponse notOAI)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "DefaultCCBYNCND4 for repositoryfiles unlessstatedotherwise; metadata-wideCC0unverified",
+      "license_url": "https://mediateca.inah.gob.mx/uso",
+      "api_verification_state": "Native root/registeredOAIdoc/usepageHTTP200HTML. ExactregisteredHTTP OAIIdentifyURLalsoHTTP200repositoryHTML, notXML/protocolsuccess. NoalternateIslandora/backend/serverURL requested.",
+      "latest_checked_utc": "2026-10-18T22:14:07.987124+00:00",
       "classification": "restricted"
     },
     {
