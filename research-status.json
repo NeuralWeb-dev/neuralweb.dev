@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:53:01.112522+00:00",
+  "published_at": "2026-10-18T01:55:03.678293+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:49:41.338590+00:00",
+  "research_updated_at": "2026-10-18T01:53:32.176989+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NAPS exact OGL/data-interface gap and held Naval portal documented; HYDAT native collection mapped to existing GeoMet; independent USNO JSON API verified, licence scope pending.",
+  "latest_milestone": "UK-AIR open licence/documented SOS retained with timed-out capabilities; BioSimulations native JSON1394 public project IDs verified; European Data Portal deduplicated/current CC0 checked.",
   "counts": {
-    "verified": 332,
-    "candidates": 733,
-    "excluded": 196,
+    "verified": 333,
+    "candidates": 735,
+    "excluded": 197,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -6310,6 +6310,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "defra-ukair-sos",
+      "provider": "Defra and UK Devolved Administrations",
+      "service_name": "UK-AIR Sensor Observation Service",
+      "geographic_coverage": "United Kingdom air-quality monitoring networks; pollutant/site-specific extent",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Air pollution measurements/monitoring metadata; automatic and nonautomatic network families, source exceptions vary",
+      "documentation_url": "https://uk-air.defra.gov.uk/data/about_sos",
+      "api_base_url": "https://uk-air.defra.gov.uk/sos-ukair/service",
+      "format_protocol": "OGC SOS1/2, XML KVP/SOAP/POX/JSON bindings and REST documented",
+      "authentication": "Native guide describes public developer interface; capabilities request no credentials but timed out",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Open Government Licence, except otherwise noted; native data-body v2 link/current footer v3 version discrepancy retained",
+      "license_url": "https://uk-air.defra.gov.uk/data/ | https://uk-air.defra.gov.uk/about-these-pages#licence",
+      "api_verification_state": "Native licence/API guide HTTP200 explicitly documents SOS/REST. Bounded capabilities request passed robots but read timed out, not successful API response; no same-turn retry or alternate REST route.",
+      "latest_checked_utc": "2026-10-18T01:53:27.887167+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "denmark-statbank",
       "provider": "Statistics Denmark",
       "service_name": "Statistics Denmark API",
@@ -8790,7 +8808,7 @@
       "license": "NLM data distribution terms; NLM-authored content public domain; copyrighted abstracts excluded",
       "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:07:43.699580+00:00",
+      "latest_checked_utc": "2026-10-18T01:54:59.277998+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -9690,7 +9708,7 @@
       "license": "CC0 1.0 for portal metadata; EU editorial content CC BY 4.0; source resources individually licensed",
       "license_url": "https://data.europa.eu/en/legal-notice",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-17T08:59:47.126971+00:00",
+      "latest_checked_utc": "2026-10-18T01:53:27.887167+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11979,6 +11997,24 @@
       "license_url": "https://www.ebi.ac.uk/training/online/courses/biomodels-quick-tour/what-is-biomodels/",
       "api_verification_state": "Native current root guard-deferred unsent. Independent University of Florida2025 transfer announcement and former-operator training policy HTTP200; no current API response verified.",
       "latest_checked_utc": "2026-10-18T01:41:46.844795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "biosimulations-published-project-api",
+      "provider": "BioSimulations / Center for Reproducible Biomedical Modeling",
+      "service_name": "BioSimulations public published-project metadata API",
+      "geographic_coverage": "International biological modelling projects; model-specific subject coverage",
+      "topical_coverage": "research | health",
+      "dataset_families": "Published simulation project identifiers and associated models/results, with separate per-resource licences",
+      "documentation_url": "https://api.biosimulations.org/",
+      "api_base_url": "https://api.biosimulations.org/",
+      "format_protocol": "REST JSON; native embedded OpenAPI3.0",
+      "authentication": "Anonymous GET/projects succeeded without credentials; other operations not invoked",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://docs.biosimulations.org/about/license/",
+      "api_verification_state": "Native API Swagger and linked Swagger init/OpenAPI HTTP200; documented GET/projects HTTP200 valid JSON array of1394 public project records",
+      "latest_checked_utc": "2026-10-18T01:53:27.887167+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19287,6 +19323,24 @@
       "license_url": "https://datahub.polen.fccn.pt/",
       "api_verification_state": "native_root_robots_deferred_target_unsent_registry_API_and_exact_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "polish-polar-data-catalogue",
+      "provider": "Warsaw University of Technology / CENAGIS / POLAR-PL",
+      "service_name": "Polish Polar DataBase metadata catalogue",
+      "geographic_coverage": "Polish polar research including Svalbard; resource-specific spatial/temporal scope",
+      "topical_coverage": "climate/weather/environment | oceans | geospatial | research",
+      "dataset_families": "Mixed metadata records for polar datasets, projects, publications, software, environments, workgroups and people; not all CKAN records are scientific datasets",
+      "documentation_url": "https://polar.cenagis.edu.pl/help",
+      "api_base_url": "https://polar.cenagis.edu.pl/api/3/",
+      "format_protocol": "Native manual confirms CKAN catalogue; registry claims CKAN API3, actual query held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://polar.cenagis.edu.pl/about",
+      "api_verification_state": "Native homepage/about/help HTTP200. Bounded package_search target guard-deferred unsent; no JSON API response or alternate viewer/backend query.",
+      "latest_checked_utc": "2026-10-18T01:54:59.277998+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27461,6 +27515,24 @@
       "license_url": "https://comtradeplus.un.org/LicenseAgreement",
       "api_verification_state": "documented_untested_terms_restricted",
       "latest_checked_utc": "2026-10-16T18:30:24.351037+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "unep-grid-geneva",
+      "provider": "UNEP / GRID-Geneva",
+      "service_name": "GRID-Geneva environmental information and platform directory",
+      "geographic_coverage": "Global environmental programmes with regional/source-specific coverage",
+      "topical_coverage": "climate/weather/environment | geospatial | research",
+      "dataset_families": "Environmental information, thematic geospatial products and links to separate platforms; exact API source families unresolved",
+      "documentation_url": "https://unepgrid.ch/en/terms-use",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom educational/nonprofit reproduction permission with acknowledgement",
+      "license_url": "https://unepgrid.ch/en/terms-use",
+      "api_verification_state": "Native homepage/terms HTTP200 HTML; no exact public query API or successful API sample verified",
+      "latest_checked_utc": "2026-10-18T01:54:59.277998+00:00",
       "classification": "restricted"
     },
     {
