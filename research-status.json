@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T04:49:02.149655+00:00",
+  "published_at": "2026-10-18T04:51:04.818321+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:44:28.757621+00:00",
+  "research_updated_at": "2026-10-18T04:50:27.024774+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
   "counts": {
     "verified": 354,
-    "candidates": 820,
-    "excluded": 235,
+    "candidates": 826,
+    "excluded": 236,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -12096,6 +12096,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "amphibiaweb-species-portal",
+      "provider": "AmphibiaWeb / UC Berkeley and partners",
+      "service_name": "AmphibiaWeb amphibian information portal",
+      "geographic_coverage": "Global amphibian information candidate; exact currentcoverage unverified",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Amphibian species/biology/conservation resources claimed by registry, not enumerated",
+      "documentation_url": "https://amphibiaweb.org/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://calphotos.berkeley.edu/use.html",
+      "api_verification_state": "Originalroot andphoto-usepolicy guard-deferred targetunsent; boundedofficialindexsearch returned no relevantprimaryresult. No APIcontract/sample established.",
+      "latest_checked_utc": "2026-10-18T04:50:22.726034+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "amu-research-portal",
       "provider": "Adam Mickiewicz University in Poznan",
       "service_name": "AMU Research Portal research-data discovery candidate",
@@ -12651,6 +12669,24 @@
       "license_url": "https://www.bcgsc.ca/data-release-policy-open-access",
       "api_verification_state": "Native project page and linked data policy200HTML. Three experiment description rows/browser/download links observed, no documented public machine query API or successful API response.",
       "latest_checked_utc": "2026-10-18T02:58:46.025559+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bcgsc-open-release-data",
+      "provider": "Canada’s Michael Smith Genome Sciences Centre / BC Cancer",
+      "service_name": "Genome Sciences Centre public open-access releases",
+      "geographic_coverage": "Canada/international genomics; exact source/projectcoverage varies",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Genome research publicreleases and resources; institutional/clinicalservice data separate and unqueried",
+      "documentation_url": "https://www.bcgsc.ca/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY2.5 default for data released under explicitopen-accesspolicy; exactAPI unresolved",
+      "license_url": "https://www.bcgsc.ca/data-release-policy-open-access",
+      "api_verification_state": "Nativeownerroot/releasepolicy200HTML; exact public queryAPI contract/sample notestablished. PublicFAQdelivery/externaldeposit descriptions not APIproof.",
+      "latest_checked_utc": "2026-10-18T04:49:46.065051+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15192,6 +15228,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "edina-research-service-portal",
+      "provider": "University of Edinburgh / EDINA",
+      "service_name": "EDINA research/geospatial services and legacyUnlock discovery",
+      "geographic_coverage": "UK education/research infrastructure; individual mapping/census products vary",
+      "topical_coverage": "geospatial | education | demographics | agriculture | research",
+      "dataset_families": "Geospatial/Digimap, learning/computational infrastructure; legacyUnlock gazetteer interface reference",
+      "documentation_url": "https://edina.ac.uk/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://edina.ac.uk/",
+      "api_verification_state": "Nativecurrentroot200HTML; originalregistryUnlockdocumentation guard-deferred. IndexedhistoricalGeoparser docs identifylegacyservice, not currentactiveAPI proof.",
+      "latest_checked_utc": "2026-10-18T04:49:46.065051+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "edinburgh-datashare",
       "provider": "University of Edinburgh Research Data Service",
       "service_name": "Edinburgh DataShare metadata/research-data repository",
@@ -15963,6 +16017,24 @@
       "license_url": "https://geo-summit.org/data",
       "api_verification_state": "native_station_and_external_archive_discovery_docs_verified_independent_API_and_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T23:16:13.046415+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "german-cancer-registry-data-centre",
+      "provider": "Robert Koch Institute / German Centre for Cancer Registry Data",
+      "service_name": "ZfKD German cancer statistics and research-data portal",
+      "geographic_coverage": "Germany cancer registry statistics; exact state/year/source coverage varies",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Public aggregate incidence/mortality/prevalence/survival information; research-use access described historically, no patient data acquired",
+      "documentation_url": "https://www.krebsdaten.de/Krebs/EN/Home/homepage_node.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.krebsdaten.de/Krebs/EN/Service/Imprint/imprint_node.html",
+      "api_verification_state": "Nativepublicroot/imprint200HTML, historicalScientificUseFilepolicyURL404. InteractivequeryUI described, exact publicAPI contract/sample unresolved.",
+      "latest_checked_utc": "2026-10-18T04:49:07.025715+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23022,6 +23094,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "stanford-sdr-purl-iiif",
+      "provider": "Stanford University Libraries",
+      "service_name": "Stanford Digital Repository / PURL IIIF discovery",
+      "geographic_coverage": "Stanford institutional and worldwide digital collections; individual objects vary",
+      "topical_coverage": "research | culture | education | geospatial",
+      "dataset_families": "SDR scholarly data/objects and digital library collection metadata; documented IIIF manifests/images",
+      "documentation_url": "https://api.library.stanford.edu/docs/iiif/api/ | https://sdr.library.stanford.edu/documentation/copyrights-licenses-and-access-restrictions",
+      "api_base_url": "https://purl.stanford.edu/{id}/iiif/manifest",
+      "format_protocol": "IIIF Presentation2JSON-LD metadata verified; Image2 andPresentation3alpha documented, not tested",
+      "authentication": "Anonymous nativeowner-exampleManifest succeeded; sourcefiles may beStanfordonly/hidden/embargoed",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://sdr.library.stanford.edu/documentation/copyrights-licenses-and-access-restrictions",
+      "api_verification_state": "Owner deploymentIIIFdocs200; examplePagedBookManifest200validJSON-LD sc:Manifest. SearchworksSDRHTML/publicpolicy200. No ImageAPI/sourceasset calls.",
+      "latest_checked_utc": "2026-10-18T04:49:07.025715+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "stat-portugal",
       "provider": "Statistics Portugal",
       "service_name": "Statistics Portugal API",
@@ -23936,7 +24026,7 @@
       "license": "unknown exact SSDA item/metadata grant; deployment-branded policy describes CC0 default with custom/restricted exceptions",
       "license_url": "https://ucla-dataverse-doc.netlify.app/policy/terms/",
       "api_verification_state": "native_collection_HTML_verified_API_sample_robots_disallowed_target_unsent",
-      "latest_checked_utc": "2026-10-17T21:59:27.952936+00:00",
+      "latest_checked_utc": "2026-10-18T04:49:07.025715+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24153,6 +24243,24 @@
       "license_url": "https://www.admiralty.co.uk/access-data/apis | https://copyright.ukho.gov.uk/",
       "api_verification_state": "documented_API_registered_access_data_sample_untested_operative_grant_unresolved",
       "latest_checked_utc": "2026-10-17T03:42:34.023908+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ukraine-geospatial-research-portal",
+      "provider": "Space Research Institute NAS Ukraine and SSA Ukraine",
+      "service_name": "Ukrainian geospatial/space-information research portal",
+      "geographic_coverage": "Ukraine land/agriculture and international Earth-observation research projects",
+      "topical_coverage": "geospatial | agriculture | environment | research",
+      "dataset_families": "Institutional satellite/crop mapping and geospatial research announcements; actual data/service catalogue notverified",
+      "documentation_url": "https://inform.ikd.kiev.ua/en/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Nativeoriginalroot200institutionaldepartmentHTML, no exactdata-centre queryAPI/documentation/sample established",
+      "latest_checked_utc": "2026-10-18T04:50:22.726034+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28429,7 +28537,7 @@
       "service_name": "ICPSR Metadata/Object Export API",
       "geographic_coverage": "Socialscience researchcollections; geographiccoverage variesperstudy",
       "topical_coverage": "demographics; labor; economics/finance; education; health; law and civic data; research",
-      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate",
+      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate | Measures of Effective Teaching family: restricted VDE source access",
       "documentation_url": "https://icpsr.github.io/metadata/icpsr_metadata_api/ | https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata",
       "api_base_url": "",
       "format_protocol": "Documentedmetadataexport API,DCAT-US/MARCXML/DublinCore; localDCATspatialExt/temporalExt extensions",
@@ -28438,7 +28546,7 @@
       "license": "CC BY-NC4.0 metadata; studydatarestrictedredistribution andspecificterms",
       "license_url": "https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata | https://www.icpsr.umich.edu/sites/icpsr/about/policies/terms-of-use",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-18T01:30:22.375899+00:00",
+      "latest_checked_utc": "2026-10-18T04:50:22.726034+00:00",
       "classification": "restricted"
     },
     {
@@ -29735,6 +29843,24 @@
       "license_url": "https://ppepdr.net/subscribe",
       "api_verification_state": "native_subscription_fee_and_DGPC_approval_docs_verified_public_API_unresolved",
       "latest_checked_utc": "2026-10-17T22:43:54.466234+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "paradisec-language-archive",
+      "provider": "PARADISEC / Australian partner universities",
+      "service_name": "Pacific and Regional Archive for Digital Sources in Endangered Cultures",
+      "geographic_coverage": "Pacific/Australia/regional endangered-language and cultural recordings; collectioncoverage varies",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Language/cultural documentation catalogue metadata; audiovisualrecordings and supportingmaterials, not acquired",
+      "documentation_url": "https://www.paradisec.org.au/deposit/access-conditions/ | https://catalog.paradisec.org.au/apidoc",
+      "api_base_url": "https://catalog.paradisec.org.au/oai/item (registryclaim, runtimeheld)",
+      "format_protocol": "HTML documentation",
+      "authentication": "Catalogue content/itemaccess may require onlineagreement/registration, not used; nativeAPI authunresolved",
+      "free_access_restrictions": "Noncommercial metadata/data default andadditionalitempermissions; no agreements/accounts/access/charges acquired",
+      "license": "CC BY-NC-SA4 metadata/data default; additional content/itemaccess conditions",
+      "license_url": "https://www.paradisec.org.au/deposit/access-conditions/",
+      "api_verification_state": "Nativeownerroot/management/accesspolicy200HTML; originalcatalogueAPIdocHTTP403, no successful API/OAIresponse. No alternateOAI/query after403.",
+      "latest_checked_utc": "2026-10-18T04:49:46.065051+00:00",
       "classification": "restricted"
     },
     {
