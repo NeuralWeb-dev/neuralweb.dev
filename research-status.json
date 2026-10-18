@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:53:59.805101+00:00",
+  "published_at": "2026-10-18T06:56:02.359926+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:51:34.293186+00:00",
+  "research_updated_at": "2026-10-18T06:54:32.818325+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals reviewed: IMPC BY4/count-only JSON and GitHub quota JSON verified; institutional/environmental rights gaps and native holds preserved.",
+  "latest_milestone": "KI DORIS/Researchdata.se metadataCC0 native verified; shared OAIIdentify succeeds. LORE/VADS policy holds retained, two independent indexed leads queued.",
   "counts": {
-    "verified": 369,
-    "candidates": 894,
+    "verified": 371,
+    "candidates": 896,
     "excluded": 265,
     "sample_successes": 465
   },
@@ -8956,6 +8956,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ki-repository-public-metadata",
+      "provider": "Karolinska Institutet University Library",
+      "service_name": "KI Data Repository public DORIS metadata",
+      "geographic_coverage": "KI-principal research descriptions, Sweden; individual research geography varies",
+      "topical_coverage": "health | research | education",
+      "dataset_families": "Published KI DORIS dataset descriptions shared via Researchdata.se only; underlying clinical/sensitive datasets excluded",
+      "documentation_url": "https://kib.ki.se/en/publish-analyse/publish-and-share-research-data/ki-data-repository | https://docs.researchdata.se/api/",
+      "api_base_url": "",
+      "format_protocol": "National shared OAI-PMH2 XML; KI-specific set not queried",
+      "authentication": "Anonymous shared protocol Identify succeeds. Source data may require KI access review; no login/request.",
+      "free_access_restrictions": "Public description reuse CC0; sensitive source datasets not directly downloadable and release reviewed by KI. No paid acquisition.",
+      "license": "CC0, published DORIS metadata only",
+      "license_url": "https://researchdata.se/en/licences-and-marks-website",
+      "api_verification_state": "Native institutional guide/national metadata policy/API docs200. Shared OAI Identify200 parsed OAI2 XML noerrors, protocol2.0; no KI-specific list/set/source request.",
+      "latest_checked_utc": "2026-10-18T06:54:18.856826+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "kingston-open-data",
       "provider": "The Corporation of the City of Kingston, Ontario",
       "service_name": "Open Data Kingston catalog and scoped Soccer Fields ArcGIS distribution",
@@ -10861,6 +10879,24 @@
       "license_url": "https://info.repod.icm.edu.pl/?lang=en&page_id=77",
       "api_verification_state": "Native root,user/API guides and independent ownerCC0legal guide HTTP200; original OAIIdentify and native terms pointer guard-deferred unsent, no successful queryAPI response",
       "latest_checked_utc": "2026-10-18T03:53:32.885862+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "researchdata-se-metadata-api",
+      "provider": "Swedish National Data Service / Researchdata.se",
+      "service_name": "Researchdata.se public metadata OAI API",
+      "geographic_coverage": "Swedish national research-data catalogue with institutional/external sources; record geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "DORIS descriptions, SITES metadata and DataCite-derived metadata; source datasets separate",
+      "documentation_url": "https://docs.researchdata.se/api/",
+      "api_base_url": "https://api.researchdata.se/oai-pmh",
+      "format_protocol": "OAI-PMH2 XML; oai_dc/DataCite/DCAT/DDI2.6/DDI3.3/CMDI documented; RSS distinct",
+      "authentication": "Anonymous protocol Identify succeeded; no account/key",
+      "free_access_restrictions": "CC0 public metadata, individual data/source documentation terms differ; service limits unknown",
+      "license": "CC0 public catalogue metadata",
+      "license_url": "https://researchdata.se/en/licences-and-marks-website",
+      "api_verification_state": "Native policy/API docs200; exact Identify200 namespace-correct OAI2 XML with no OAI errors, protocol2.0/granularityYYYY-MM-DD. REST explicitly still under development in current owner docs, not claimed active.",
+      "latest_checked_utc": "2026-10-18T06:54:18.856826+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -19236,6 +19272,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "list-lore-research-repository",
+      "provider": "Luxembourg Institute of Science and Technology",
+      "service_name": "LIST Open Repository (LORE)",
+      "geographic_coverage": "LIST-associated research, Luxembourg; per-dataset scope varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets; repository landing only, no source inventory",
+      "documentation_url": "https://lore.list.lu",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://lore.list.lu/terms",
+      "api_verification_state": "Native root200HTML Dataverse; owner terms guard-deferred unsent, exact active query API not verified",
+      "latest_checked_utc": "2026-10-18T06:54:18.856826+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lithuania-statistics",
       "provider": "State Data Agency / Statistics Lithuania",
       "service_name": "OSP statistical indicators SDMX REST service",
@@ -26271,6 +26325,24 @@
       "license_url": "https://stat.uz/en/reporting-forms/14-official-statistics/5641-gender-statistics",
       "api_verification_state": "actual_exact_published_JSON_gender_category_sample_success_rights_scope_unconfirmed",
       "latest_checked_utc": "2026-10-17T15:37:25.058228+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "vads-visual-arts-service",
+      "provider": "University for the Creative Arts / VADS collection owners",
+      "service_name": "Visual Arts Data Service",
+      "geographic_coverage": "UK art/design collection discovery; exact current coverage unverified",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Visual arts images and catalogue descriptions from multiple collection owners",
+      "documentation_url": "https://vads.ac.uk/digital/custom/copyright/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://vads.ac.uk/digital/custom/copyright/ | https://vads.ac.uk/digital/custom/terms/",
+      "api_verification_state": "Original copyright request guard-deferred unsent; indexed owner policy only, no actual API response or exact machine interface verified",
+      "latest_checked_utc": "2026-10-18T06:54:18.856826+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
