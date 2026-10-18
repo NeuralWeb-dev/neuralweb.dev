@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T20:04:07.926539+00:00",
+  "published_at": "2026-10-18T20:06:10.927272+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:02:28.571542+00:00",
+  "research_updated_at": "2026-10-18T20:05:36.630705+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Fairdata published metadata CC0 and V3 schema verified; Indigeo held; NIST RMM dedup; Geodata/Aleia/Nexdata scoped reuse restrictions.",
+  "latest_milestone": "Probesheld; SPARC APIs/costs/terms reviewed; SusDat RESTdocumented/sourcegrantgap.",
   "counts": {
     "verified": 451,
-    "candidates": 1329,
+    "candidates": 1332,
     "excluded": 386,
     "sample_successes": 464
   },
@@ -17729,6 +17729,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "chemical-probes-portal",
+      "provider": "Chemical Probes Portal consortium",
+      "service_name": "Chemical Probes Portal",
+      "geographic_coverage": "International biomedical research; molecular rather than geographic resources",
+      "topical_coverage": "health | research",
+      "dataset_families": "Expert-reviewed chemical probe descriptions and research-use recommendations",
+      "documentation_url": "https://new.chemicalprobes.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original native root failed/guard-deferred; no successful API/interface docs verified. No alternate prod/main host or backend request.",
+      "latest_checked_utc": "2026-10-18T20:05:29.972940+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "chemspider-compound-api",
       "provider": "Royal Society of Chemistry",
       "service_name": "ChemSpider compound data API discovery",
@@ -28655,6 +28673,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "norman-susdat-api",
+      "provider": "NORMAN Association / Environmental Institute and contributors",
+      "service_name": "NORMAN SusDat REST and source-list discovery",
+      "geographic_coverage": "International emerging-contaminant research and suspect lists",
+      "topical_coverage": "climate/weather/environment | water | research",
+      "dataset_families": "Merged chemical suspect-list descriptions and source-list provenance; other NDS APIs separate",
+      "documentation_url": "https://www.norman-network.com/nds/api/",
+      "api_base_url": "https://www.norman-network.com/nds/api/susdat/",
+      "format_protocol": "REST JSON/XML documented",
+      "authentication": "API examples public in docs; runtime/auth/rate untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform merged-SusDat metadata/data grant; source lists independently licensed",
+      "license_url": "https://www.normandata.eu/?q=privacy-policy+%7C+https%3A%2F%2Fwww.norman-network.com%2Fnds%2Fsusdat%2F",
+      "api_verification_state": "Native root/API-directory/privacyHTTP200substantive. DocumentedSusDatnsid/casrnJSON/XML routes, no actualchemical/occurrence/source request.",
+      "latest_checked_utc": "2026-10-18T20:05:29.972940+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "north-dakota-gis-hub",
       "provider": "North Dakota GIS Hub",
       "service_name": "State GIS Hub native catalog and advertised feature services",
@@ -33530,6 +33566,24 @@
       "license_url": "https://datos.gob.es/es/aviso-legal",
       "api_verification_state": "documented_sample_success_catalog_metadata_only",
       "latest_checked_utc": "2026-10-17T13:29:32.274497+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "sparc-neuroscience-portal",
+      "provider": "NIH SPARC / SPARC DRC collaborators",
+      "service_name": "SPARC Portal discovery and specialized API family",
+      "geographic_coverage": "International autonomic/peripheral neuroscience research; source coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Experimental dataset/model descriptions, anatomy/scaffolds, knowledgegraph/terminology interfaces; sourcefiles separate",
+      "documentation_url": "https://docs.sparc.science/docs/sparc-apis-and-open-access-code | https://docs.sparc.science/docs/accessing-public-datasets",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Current download guide says publicdatasets/models zero transfercost with AWSopendatapartnership, account optional; oldv1requesterpays guide not current. Download cost statement is not source grant. Exact API quotas unknown; excessive use may suspend access.",
+      "license": "Per-content licenses; default user-generated-content grant limited to Portal functionality",
+      "license_url": "https://docs.sparc.science/docs/terms-of-service",
+      "api_verification_state": "Native root/download guide/terms/API-directoryHTTP200. API family documented; no verified read-only runtime/sample/exact anonymous metadata contract in this batch.",
+      "latest_checked_utc": "2026-10-18T20:05:29.972940+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
