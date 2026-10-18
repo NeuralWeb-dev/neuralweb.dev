@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:46:25.152538+00:00",
+  "published_at": "2026-10-18T17:48:28.265765+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:44:03.740269+00:00",
+  "research_updated_at": "2026-10-18T17:47:21.102543+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: NeotomanativeCCBY4/OpenAPI77/refJSON11; FORS/LDCmanagedaccess; BlueCloudperitem/OIDCpolicy; TilburgMarkdownAPIcorrection; Guelphinstitutionalpolicy/Borealishold; MDZ978000incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to978pages/978000refs;2235503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 442,
-    "candidates": 1211,
-    "excluded": 353,
+    "candidates": 1212,
+    "excluded": 355,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -21152,6 +21152,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gesis-german-microdata-lab",
+      "provider": "GESIS German Microdata Lab",
+      "service_name": "GML official-microdata information and research infrastructure",
+      "geographic_coverage": "German/European official microdata information; source-specific geography varies",
+      "topical_coverage": "demographics | labor | education | research",
+      "dataset_families": "Official-microdata study/documentation services and MISSY metadata; actual survey/person/household data not acquired",
+      "documentation_url": "https://www.gesis.org/gml/about-gml",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.gesis.org/gml/about-gml",
+      "api_verification_state": "Original www.gesis.org host held by earlier robots403; no original root/legal request or backend. Indexed official GML owner description only; no actual API success.",
+      "latest_checked_utc": "2026-10-18T17:46:41.965390+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gesis-international-survey-programs",
       "provider": "GESIS Leibniz Institute for the Social Sciences",
       "service_name": "RDC International Survey Programs discovery",
@@ -24640,7 +24658,7 @@
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
       "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across978successfulpages/978000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:41:45.228658+00:00",
+      "latest_checked_utc": "2026-10-18T17:47:16.334575+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -36580,6 +36598,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "avida-audiovisual-research",
+      "provider": "TU Berlin / Universität Bayreuth FDZ aviDa",
+      "service_name": "aviDa qualitative audiovisual data infrastructure",
+      "geographic_coverage": "Germany institutional qualitative research; source coverage varies",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Qualitative audiovisual corpus descriptions/context documentation; actual videos/audio/person data not acquired",
+      "documentation_url": "https://www.tu.berlin/as/fdz-avida",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner documents reuse agreement/user account; none requested or used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Managed research/teaching reuse agreement and user-account access; no blanket source grant",
+      "license_url": "https://www.tu.berlin/as/fdz-avida",
+      "api_verification_state": "Independent native owner overview/reuse workflowHTTP200 substantiveHTML. Inherited DepositOnce endpoint/AI automated-access hold retained; no collection/OAI/backend request.",
+      "latest_checked_utc": "2026-10-18T17:46:41.965390+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "aviso-authenticated-data-services",
       "provider": "CNES / AVISO+",
       "service_name": "AVISO+ authenticated THREDDS and altimetry data access services",
@@ -38611,6 +38647,24 @@
       "license_url": "https://www.geotis.de/homepage/terms",
       "api_verification_state": "Native root/terms/WMSguide200HTML. Two exact ownerlinkedmetadataURLs200validWMT_MS_Capabilities1.1.1 XML;3and8namedLayernodes includinggroups/copyrightlayers. NoGetMap/GetFeatureInfo/source data.",
       "latest_checked_utc": "2026-10-18T05:12:00.538604+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "gepard-health-claims",
+      "provider": "Leibniz Institute for Prevention Research and Epidemiology BIPS",
+      "service_name": "GePaRD project-specific health insurance research database",
+      "geographic_coverage": "Germany all geographic regions; source cohorts are participating statutory insurance populations",
+      "topical_coverage": "health | research",
+      "dataset_families": "Claims-based project datasets for drug/vaccine safety, diagnoses/prescriptions and health-service research; actual claims/person values not acquired",
+      "documentation_url": "https://www.bips-institut.de/forschung/forschungsinfrastrukturen/gepard.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Institutional employee and project approvals documented; no account/application/access used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "BIPS employee-only approved research-project access; no open-data grant",
+      "license_url": "https://www.bips-institut.de/forschung/forschungsinfrastrukturen/gepard.html",
+      "api_verification_state": "Native owner overview/access conditionsHTTP200 substantiveHTML; no exact public API/schema verified or health-data request.",
+      "latest_checked_utc": "2026-10-18T17:46:41.965390+00:00",
       "classification": "restricted"
     },
     {
