@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-18T07:51:22.148391+00:00",
+  "published_at": "2026-10-18T07:53:25.041078+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:51:09.110059+00:00",
+  "research_updated_at": "2026-10-18T07:52:20.328301+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Native Aurora frame/policies, SAMHSA purpose-limited terms and historical LCI/source-dependent USGS licensing reviewed.",
+  "latest_milestone": "Independent LCMAP sourceCC0/WMS1.3capabilities verified;20leaf layers indexed with CONUS/Hawaii rights separation.",
   "counts": {
-    "verified": 377,
+    "verified": 378,
     "candidates": 924,
     "excluded": 271,
     "sample_successes": 465
@@ -11965,6 +11965,24 @@
       "license_url": "https://www.usgs.gov/faqs/are-there-any-restrictions-use-or-redistribution-landsat-data | https://www.usgs.gov/legal",
       "api_verification_state": "native_official_STAC_API_docs_and_Landsat_PD_unrestricted_reuse_verified_original_root_unsent_robots_deferred",
       "latest_checked_utc": "2026-10-17T23:57:18.313191+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "usgs-lcmap-wms",
+      "provider": "US Geological Survey / EROS / LCMAP",
+      "service_name": "LCMAP science-products Web Map Service",
+      "geographic_coverage": "Accepted science-product scope: conterminous United States. Same service advertises Hawaii layers, grant not independently reviewed.",
+      "topical_coverage": "geospatial | climate/weather/environment | biodiversity | water | research",
+      "dataset_families": "Ten CONUS land cover/change/confidence/spectral science-product families; ten separate advertised Hawaii layers outside accepted grant scope",
+      "documentation_url": "https://www.usgs.gov/special-topics/lcmap/lcmap-web-map-service",
+      "api_base_url": "https://dmsdata.cr.usgs.gov/geoserver/lcmap/wms",
+      "format_protocol": "Native OGC WMS1.3.0 capabilities XML; GetMap/GetFeatureInfo advertised, not queried",
+      "authentication": "Anonymous capabilities GET200 without key/account",
+      "free_access_restrictions": "Tiny anonymous metadata call succeeds without payment; USGS science-product release explicitCC0. Raster/source transfer quotas unknown, no orders/downloads.",
+      "license": "CC0-1.0, native owner-marked LCMAP science-product release / accepted CONUSscope",
+      "license_url": "https://www.usgs.gov/data/land-change-monitoring-assessment-and-projection-science-products | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "Native owner WMS guide/source-release grant200; exact published endpoint200 parsed WMS1.3.0 capabilities.21namednodes=1group+20leaf layers,10CONUS+10Hawaii. Three advertised operations, actual scientific raster/GetFeatureInfo responses untested.",
+      "latest_checked_utc": "2026-10-18T07:52:15.718233+00:00",
       "classification": "open_license_verified"
     },
     {
