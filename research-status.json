@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T12:32:18.571488+00:00",
+  "published_at": "2026-10-18T12:34:21.831524+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:29:30.749418+00:00",
+  "research_updated_at": "2026-10-18T12:34:14.531106+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "JLUpub metadataCC0/OAI13formats;LondonOntarioopenlicence/ArcGISversion;Maastrichtrestricted;CEWS/LUHheld;O2Aschema/licenceunknown;MDZ454000refs incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to469pages/469000refs;2744503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 404,
-    "candidates": 1039,
-    "excluded": 303,
+    "verified": 407,
+    "candidates": 1042,
+    "excluded": 304,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -8205,6 +8205,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "esrf-icatplus-public-data",
+      "provider": "European Synchrotron Radiation Facility",
+      "service_name": "ESRF public research data portal / ICAT+ API and OAI-PMH",
+      "geographic_coverage": "ESRF Grenoble, France; international scientific collaborations and experimental subjects",
+      "topical_coverage": "research | engineering | health | environment",
+      "dataset_families": "Synchrotron experiment data and metadata from public beamtime; embargoed/commercial and proprietary data excluded from accepted scope",
+      "documentation_url": "https://icatplus.esrf.fr/api-docs/ | https://www.esrf.fr/datapolicy",
+      "api_base_url": "https://icatplus.esrf.fr/ | https://icatplus.esrf.fr/oaipmh/request",
+      "format_protocol": "OpenAPI3.0.0/REST; OAI-PMH2 XML identification tested",
+      "authentication": "Anonymous Swagger documentation and OAIIdentify succeeded; many session-bearing routes untested. No login/account/shared credentials/token used.",
+      "free_access_restrictions": "Public research normally three-year renewable embargo, possible earlier release; proprietary/commercial data embargo indefinitely unless owner opens. Released qualifying data publicly available.",
+      "license": "CC BY4 for released data from publicly funded research under ESRF Data Policy2024",
+      "license_url": "https://www.esrf.fr/datapolicy",
+      "api_verification_state": "Native policy/portal/API UI/config200; embedded OpenAPI parsed statically,112paths. Current schema OAIproxy /oaipmh/request Identify200validXML/noerror, confirms canonicalbaseURL.",
+      "latest_checked_utc": "2026-10-18T12:33:00.930663+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "essdive-dataset-api",
       "provider": "ESS-DIVE / Lawrence Berkeley National Laboratory / U.S. Department of Energy",
       "service_name": "ESS-DIVE Dataset REST API",
@@ -9426,6 +9444,42 @@
       "license_url": "https://www.istat.it/dati/open-data/",
       "api_verification_state": "official_SDMX_API_and_open_data_grant_verified_first_structure_sample_policy_held",
       "latest_checked_utc": "2026-10-17T10:30:45.839205+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "italy-nnb-ogc-features",
+      "provider": "ISPRA / Italian National Biodiversity Network",
+      "service_name": "NNB OGC Feature API",
+      "geographic_coverage": "Italy biodiversity network and national territory",
+      "topical_coverage": "biodiversity | environment | geospatial | research",
+      "dataset_families": "Published network biodiversity data, habitat/Natura2000 reporting and observation collections; no source observations retrieved",
+      "documentation_url": "https://www.nnb.isprambiente.it/it/usa-i-dati | https://api.nnb.isprambiente.it/openapi",
+      "api_base_url": "https://api.nnb.isprambiente.it",
+      "format_protocol": "OGC API Features/REST JSON; native OpenAPI3.0.2",
+      "authentication": "Anonymous landing/schema succeeded; source/query authentication not exercised",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 for NNB published data; schema info also BY4",
+      "license_url": "https://www.nnb.isprambiente.it/it/usa-i-dati | https://api.nnb.isprambiente.it/openapi",
+      "api_verification_state": "Native owner useguide/legal/root200HTML; OGC landing200validJSON, schema200validOpenAPI3.0.2 across228paths. No items/coordinates/observations tested.",
+      "latest_checked_utc": "2026-10-18T12:33:00.930663+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "italy-nnb-reporting-api",
+      "provider": "ISPRA / Italian National Biodiversity Network",
+      "service_name": "NNB reporting/taxonomy API",
+      "geographic_coverage": "Italy biodiversity network",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Taxonomic lookup and observation/reporting interfaces; export-task endpoint distinct and unexecuted",
+      "documentation_url": "https://www.nnb.isprambiente.it/it/usa-i-dati | https://reporting.nnb.isprambiente.it/api/v2/docs",
+      "api_base_url": "https://reporting.nnb.isprambiente.it/api/v2/",
+      "format_protocol": "REST JSON / native OpenAPI3.0.2; guide advertises3.0.3, actual fetched contract3.0.2",
+      "authentication": "Anonymous Swagger UI and schema succeeded; source routes authentication untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 for NNB published data per specific owner grant",
+      "license_url": "https://www.nnb.isprambiente.it/it/usa-i-dati",
+      "api_verification_state": "Native guide/docs200HTML and linked schema200validOpenAPIJSON sixpaths. Schema success only; taxonomy/observations/export not invoked.",
+      "latest_checked_utc": "2026-10-18T12:33:00.930663+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13766,6 +13820,24 @@
       "license_url": "https://data.a2gov.org/city-of-ann-arbor/zoning-districts",
       "api_verification_state": "official_CKAN_link_API_policy_deferred_target_unsent",
       "latest_checked_utc": "2026-10-17T04:08:14.389070+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "antibody-registry-rrid-metadata",
+      "provider": "Antibody Registry / SciCrunch / UC San Diego FDI Lab",
+      "service_name": "Antibody Registry RRID metadata and related resolver/index access",
+      "geographic_coverage": "International research-resource identifier registry; source/vendor coverage varies",
+      "topical_coverage": "research | health",
+      "dataset_families": "Antibody RRID identifiers and selected vendor/catalog/citation metadata; extended vendor biological metadata separate",
+      "documentation_url": "https://www.antibodyregistry.org/faq",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Indexed ownerFAQ directs SciCrunchAPI viaaccount/API area and bulkCC0metadata download via login; per-record resolver formats described. Native body200JSshell, no credentials/access attempted.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Indexed primary FAQ selected RRID metadataCC0; extra vendor metadata commercial-use restricted, native currentness unresolved",
+      "license_url": "https://www.antibodyregistry.org/faq",
+      "api_verification_state": "Native root/FAQ200JSshell only; live indexed primaryFAQ reviewed, no directAPI claimed by owner. No SciCrunch/resolver/source query.",
+      "latest_checked_utc": "2026-10-18T12:34:03.563094+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -18557,6 +18629,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gaia-blu-cruise-inventory",
+      "provider": "D4Science / GaiaBluLab",
+      "service_name": "Gaia Blu Cruise Inventory portal / claimed GCAT interface",
+      "geographic_coverage": "Research-vessel Gaia Blu cruise catalogue; exact geographic extent unresolved",
+      "topical_coverage": "oceans | research | transportation",
+      "dataset_families": "Cruise inventory metadata; actual cruise dataset catalogue not retrieved",
+      "documentation_url": "https://api.d4science.org/gcat/docs/index.html",
+      "api_base_url": "https://api.d4science.org/gcat (registry claim, current service unverified)",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native inventory200session-expired/signin wrapper; actual GCAT public/token access unverified. No login/key/account used.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown current catalogue/data licence",
+      "license_url": "https://services.d4science.org/terms-of-use",
+      "api_verification_state": "Inventoryroot200HTML contains session-expired/signin wrapper only, not inventory/API data. GCATdocs and gatewayterms guard-deferred targetsunsent.",
+      "latest_checked_utc": "2026-10-18T12:34:03.563094+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "galicia-abertos-catalog",
       "provider": "Xunta de Galicia,portal Abertos",
       "service_name": "Abertos DCAT/RDF catalogue interface",
@@ -21792,8 +21882,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across454successfulpages/454000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T12:25:41.426524+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across469successfulpages/469000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T12:34:09.709472+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23216,6 +23306,24 @@
       "license_url": "https://www.leibniz-fli.de/legal-information/imprint",
       "api_verification_state": "Native root and independentownerimprint200HTML; no publicqueryAPI/source/schema verified",
       "latest_checked_utc": "2026-10-18T09:32:16.093998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nhm-data-portal-api",
+      "provider": "Natural History Museum, London",
+      "service_name": "Natural History Museum Data Portal API",
+      "geographic_coverage": "Global natural-history collection and research subjects; UK museum operator",
+      "topical_coverage": "biodiversity | culture | research | geospatial",
+      "dataset_families": "Museum research/collection dataset metadata and independently licensed specimen/multimedia sources",
+      "documentation_url": "https://data.nhm.ac.uk/about/download",
+      "api_base_url": "https://data.nhm.ac.uk/api/3",
+      "format_protocol": "HTML documentation",
+      "authentication": "Indexed owner guide says most functions need no key; native target requests withheld, no login",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Indexed primary terms metadataCC0; dataset/media rights separate, native body held",
+      "license_url": "https://data.nhm.ac.uk/sr/terms-conditions",
+      "api_verification_state": "Original root/APIguide guard-deferred targetunsent. Live indexed primary API/terms reviewed with provenance saved; no nativeAPI/sample success.",
+      "latest_checked_utc": "2026-10-18T12:33:00.930663+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33712,6 +33820,24 @@
       "license_url": "https://eu-rd-platform.jrc.ec.europa.eu/system/files/public/eurocat/Terms%20and%20conditions_vs06.02.2023.pdf",
       "api_verification_state": "restricted_portal_documented_public_api_unresolved",
       "latest_checked_utc": "2026-10-17T18:01:13.588169+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "european-social-survey-api",
+      "provider": "European Social Survey ERIC / Sikt",
+      "service_name": "European Social Survey data-file API",
+      "geographic_coverage": "European cross-national social survey programmes and related survey families",
+      "topical_coverage": "demographics | labor | education | research",
+      "dataset_families": "ESS survey data files, repeated rounds and related panel/context programmes; no individual survey responses accessed",
+      "documentation_url": "https://api.ess.sikt.no/docs",
+      "api_base_url": "https://api.ess.sikt.no",
+      "format_protocol": "OpenAPI3.0.0; beta REST GET datafile endpoint",
+      "authentication": "Anonymous docs/schema succeeded; datafile authentication/access not tested, no credentials used",
+      "free_access_restrictions": "Data licence noncommercial share-alike; documentation BY-SA4 separate. Beta API onlydatafiledownload.",
+      "license": "CC BY-NC-SA4 data; CC BY-SA4 documentation",
+      "license_url": "https://www.europeansocialsurvey.org/contact/disclaimer",
+      "api_verification_state": "Native root/conditions/API docs200HTML; linkedOpenAPI200validJSON, exactlyoneGET dataFilepath. No respondent/file/runtime/source request.",
+      "latest_checked_utc": "2026-10-18T12:34:03.563094+00:00",
       "classification": "restricted"
     },
     {
