@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:32:20.241041+00:00",
+  "published_at": "2026-10-18T08:34:23.662526+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:30:47.564416+00:00",
+  "research_updated_at": "2026-10-18T08:33:12.942036+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MoscowSEP/STPnative noncommercialterms verified; AtlasnativeBY4grant verified with legacyorganismGET500 and2APIoperations documented.",
+  "latest_milestone": "TIBpreservationrestricted/eligiblemetadata separate; Dbfetch58supportedDBschemas nativeJSONverified/grantsunresolved; WWMMheld/dedupApollo.",
   "counts": {
     "verified": 382,
-    "candidates": 947,
-    "excluded": 277,
+    "candidates": 948,
+    "excluded": 278,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -11747,7 +11747,7 @@
       "license": "CC0 1.0 for eligible exportedmetadata and providedthumbnails",
       "license_url": "https://av.tib.eu/opendata",
       "api_verification_state": "Native currentopenmetadata/ownerOAIguide HTTP200; ownercurrent /mdg/oai Identify and AVsetListIdentifiers validXML. Headerfrontier state=complete_returned_header_frontier, 385pages/38478uniqueIDs, reported38478; sourcefilmfiles not queried.",
-      "latest_checked_utc": "2026-10-18T02:47:58.144759+00:00",
+      "latest_checked_utc": "2026-10-18T08:33:08.406350+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13171,7 +13171,7 @@
       "license": "Per-output licences; publicly available outputs all rights reserved unless otherwise indicated; metadata grant unconfirmed",
       "license_url": "https://www.repository.cam.ac.uk/info/repository-terms-use",
       "api_verification_state": "Native current terms200HTML; OAI Identify200 parsed valid XML; old registry terms URL404 retained",
-      "latest_checked_utc": "2026-10-18T05:51:48.869923+00:00",
+      "latest_checked_utc": "2026-10-18T08:33:08.406350+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16520,6 +16520,24 @@
       "license_url": "",
       "api_verification_state": "Native root/API documentation200; capabilities200 valid CSW2.0.2 XML with7operation declarations. Hits request200 GetRecordsResponse:253matched, returned attribute10, actual record elements0. Not10actual summaries.",
       "latest_checked_utc": "2026-10-18T07:10:18.755312+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ebi-dbfetch-data-retrieval",
+      "provider": "EMBL-EBI Job Dispatcher / Dbfetch",
+      "service_name": "Dbfetch multi-database retrieval and metadata service",
+      "geographic_coverage": "International biologicalreference databasemetadata; actualsourceorganisms/records notqueried",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Supportedbiologicaldatabase/formats metadata and documentedsequencerecordretrieval; distinctunderlyingresources retainrights",
+      "documentation_url": "https://www.ebi.ac.uk/Tools/dbfetch/",
+      "api_base_url": "https://www.ebi.ac.uk/Tools/dbfetch/",
+      "format_protocol": "AnonymousmetadataJSONverified; REST/SOAPdataretrieval documented, no biologicalrecords",
+      "authentication": "No credentials forsuccessfulmetadataGET; per-service/source accessrestrictions separate",
+      "free_access_restrictions": "Publicsupported-database metadataread; EMBL-EBIterms impose noadditionalrestrictions beyonddataowner unlessspecified, source/resource-specificterms prevail. No uniformgrant.",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ebi.ac.uk/about/terms-of-use/",
+      "api_verification_state": "OldregistryconfluenceURL redirects200currentJobDispatcher guide; nativeDbfetch200; exactpublished dbfetch.databasesGET200validJSON. No sequence/clinical/source recordrequest.",
+      "latest_checked_utc": "2026-10-18T08:33:08.406350+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33982,6 +34000,24 @@
       "license_url": "https://www.thereda.de/en/data-access/license",
       "api_verification_state": "official_portal_and_restrictive_licence_verified_public_query_API_unestablished",
       "latest_checked_utc": "2026-10-17T19:26:34.890393+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "tib-digital-preservation-archive",
+      "provider": "TIB Leibniz Information Centre for Science and Technology",
+      "service_name": "TIB digital long-term preservation archive",
+      "geographic_coverage": "German/international scholarlycollections preservedbyTIB/partnerinstitutions; exactsourceinventory unenumerated",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Preservationobjects forresearchreports/dissertations/openaccesspublications/nontextualmedia/retrodigitization/carrierimages",
+      "documentation_url": "https://www.tib.eu/en/publishing-archiving/digital-preservation",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Restricted preservation-system access; external access/licences vary byobject",
+      "license_url": "https://www.tib.eu/en/tib/policies/preservation-policy",
+      "api_verification_state": "Nativeowner/preservationpolicy200HTML; no unrestrictedarchiveobject APIverified. ExistingTIBAVmetadataOAI separateandnotreplayed.",
+      "latest_checked_utc": "2026-10-18T08:33:08.406350+00:00",
       "classification": "restricted"
     },
     {
