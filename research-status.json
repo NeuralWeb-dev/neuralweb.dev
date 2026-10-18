@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:50:03.668869+00:00",
+  "published_at": "2026-10-18T18:52:07.854982+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:47:55.728111+00:00",
+  "research_updated_at": "2026-10-18T18:50:54.297062+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine Canadian institutional repositories reviewed: source license choice/access conditions, CUE/Laurentian identity gaps, TMU policy misattribution, inherited API holds.",
+  "latest_milestone": "Lakehead/Brock institutional access/licensing choices; Carleton native strategy confirms membership without public grant; host holds.",
   "counts": {
     "verified": 445,
-    "candidates": 1264,
+    "candidates": 1267,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -16468,6 +16468,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "brock-borealis-data-repository",
+      "provider": "Brock University",
+      "service_name": "Brock University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies; registry AAA not valid geography",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://researchguides.library.brocku.ca/rdm/deposit",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://researchguides.library.brocku.ca/rdm/deposit",
+      "api_verification_state": "Native independent institutional HTML documentation HTTP200 substantive response. Not API payload; inherited Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:50:46.838878+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "brown-digital-repository-api",
       "provider": "Brown University Library",
       "service_name": "Brown Digital Repository public collection/item APIs",
@@ -16915,6 +16933,24 @@
       "license_url": "",
       "api_verification_state": "Native root/help HTTP200 HTML. Owner exact RDF interface and parameters documented, RDF/runtime untested.",
       "latest_checked_utc": "2026-10-18T14:07:18.575344+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "carleton-borealis-data-repository",
+      "provider": "Carleton University",
+      "service_name": "Carleton University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies; registry AAA not valid geography",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://research.carleton.ca/wp-content/uploads/RDM-IS-FINAL-Approved-August-2023.pdf",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://research.carleton.ca/wp-content/uploads/RDM-IS-FINAL-Approved-August-2023.pdf",
+      "api_verification_state": "Native institutional PDF HTTP200; official web-reader relevant strategy sections reviewed. Not API payload; inherited Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:50:46.838878+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24349,6 +24385,24 @@
       "license_url": "https://opendata.agglo-larochelle.fr/la-demarche?article=licences-et-conditions-d-utilisation",
       "api_verification_state": "official_API_reference_documented_account_subscription_required_untested",
       "latest_checked_utc": "2026-10-17T12:48:29.566224+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lakehead-borealis-data-repository",
+      "provider": "Lakehead University",
+      "service_name": "Lakehead University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies; registry AAA not valid geography",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://www.lakeheadu.ca/research-and-innovation/research-services/resources/research-data-management",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.lakeheadu.ca/research-and-innovation/research-services/resources/research-data-management",
+      "api_verification_state": "Native independent institutional HTML documentation HTTP200 substantive response. Not API payload; inherited Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:50:46.838878+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
