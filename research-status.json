@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:00:26.058774+00:00",
+  "published_at": "2026-10-18T14:02:28.910992+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:59:38.665055+00:00",
+  "research_updated_at": "2026-10-18T14:02:12.619734+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to569pages/569000refs;2644503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Six originals reviewed: CARD restricted with ontology exception; GSA rights/API unknown; GWOSC CC BY4 root/schema verified; EcoBank key-required/mixed; NeuroVault public CC0/docs; archeoViz shell unresolved. MDZ569000 incomplete.",
   "counts": {
-    "verified": 419,
-    "candidates": 1062,
+    "verified": 420,
+    "candidates": 1064,
     "excluded": 318,
     "sample_successes": 464
   },
@@ -4621,6 +4621,7 @@
           "hk-weather",
           "japan-egov-data-catalog",
           "kigam-geobigdata-open-api",
+          "korea-ecobank-api",
           "nict-wdc-ionosphere-spaceweather",
           "taiwan-cwa",
           "thailand-gistda",
@@ -4640,6 +4641,7 @@
         ],
         "candidate_provider_ids": [
           "china-ncdc-cryosphere-desert-portal",
+          "korea-ecobank-api",
           "taiwan-cwa",
           "tokyo-aori-cruise-database",
           "wdcrre-resources-environment"
@@ -4670,6 +4672,7 @@
           "cngbdb-resource-portal",
           "japan-egov-data-catalog",
           "korea-sequence-read-archive",
+          "ngdc-genome-sequence-archive",
           "proteomexchange-proteomecentral",
           "ucla-social-science-dataverse"
         ],
@@ -4735,6 +4738,7 @@
           "china-ncdc-cryosphere-desert-portal",
           "gbif-japan",
           "kigam-geobigdata-open-api",
+          "korea-ecobank-api",
           "taiwan-cwa",
           "thailand-gistda",
           "ulsan-bis-open-api",
@@ -4780,6 +4784,8 @@
         "candidate_provider_ids": [
           "cngbdb-resource-portal",
           "gbif-japan",
+          "korea-ecobank-api",
+          "ngdc-genome-sequence-archive",
           "proteomexchange-proteomecentral",
           "taiwan-fish-database"
         ],
@@ -4845,6 +4851,7 @@
           "kigam-geobigdata-open-api",
           "korea-sequence-read-archive",
           "kyoto-kurenai-repository",
+          "ngdc-genome-sequence-archive",
           "nict-wdc-ionosphere-spaceweather",
           "nims-mdr",
           "proteomexchange-proteomecentral",
@@ -10779,6 +10786,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "neurovault-public-api",
+      "provider": "NeuroVault project",
+      "service_name": "NeuroVault public REST API",
+      "geographic_coverage": "International neuroimaging research submissions; exact current collection coverage not queried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Public unthresholded statistical brain maps, atlases, collections and NIDM results; private collections explicitly excluded",
+      "documentation_url": "https://neurovault.org/api-docs | https://neurovault.org/FAQ",
+      "api_base_url": "https://neurovault.org/api/",
+      "format_protocol": "REST JSON documented",
+      "authentication": "Public GET examples documented without token; actual authentication behavior untested. Private collection access excluded.",
+      "free_access_restrictions": "Public data/API documented; private collections excluded, numeric quotas/access tiers unknown",
+      "license": "CC0 for public data, excluding private collections",
+      "license_url": "https://neurovault.org/FAQ",
+      "api_verification_state": "Native FAQ and API documentation HTTP200 HTML, documented REST JSON interfaces. No API JSON sample/schema retrieved; clinical/scientific source queries intentionally untested.",
+      "latest_checked_utc": "2026-10-18T14:01:21.106741+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "new-caledonia-ogd",
       "provider": "Government of New Caledonia / data.gouv.nc",
       "service_name": "Open Data NC publication portal and documented web API (selected OL2 procurement statistics)",
@@ -14306,6 +14331,24 @@
       "license_url": "https://archaeo-vault.cz/cs/manual | https://digitalia.phil.muni.cz/en/about-us/terms-of-service",
       "api_verification_state": "Native homepageHTTP200; OAI documentation and manualHTTP200 CAPTCHA, no successful OAI sample",
       "latest_checked_utc": "2026-10-18T00:45:31.837271+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "archeoviz-portal",
+      "provider": "archeoViz project / Huma-Num hosted portal",
+      "service_name": "archeoViz discovery portal",
+      "geographic_coverage": "Archaeological research portal; exact geographic/source coverage unverified",
+      "topical_coverage": "culture | research | geospatial",
+      "dataset_families": "Archaeological dataset/visualization discovery; current families and source rights unresolved",
+      "documentation_url": "https://analytics.huma-num.fr/archeoviz/home/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verified portal metadata/source-data grant",
+      "license_url": "",
+      "api_verification_state": "Native portal HTTP200 minimal client-rendered HTML title only; not successful machine API or substantive rights documentation.",
+      "latest_checked_utc": "2026-10-18T14:01:21.106741+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21578,6 +21621,24 @@
       "license_url": "https://www.data.go.kr/en/ugs/selectPortalPolicyView.do",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T06:59:08.495663+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "korea-ecobank-api",
+      "provider": "National Institute of Ecology, Republic of Korea",
+      "service_name": "EcoBank ecological Open API",
+      "geographic_coverage": "Korean natural environment surveys, ecological/natural maps, Baekdudaegan and wetlands; international linked inputs separate",
+      "topical_coverage": "biodiversity | environment | geospatial | water",
+      "dataset_families": "National ecology surveys and ecological precision surveys; species/taxa observation layers and wetland layers",
+      "documentation_url": "https://www.nie-ecobank.kr/data/api/intrcn.do",
+      "api_base_url": "https://www.nie-ecobank.kr/ecoapi/",
+      "format_protocol": "WMS/WFS and attribute JSON/XML; XML default for attributes",
+      "authentication": "serviceKey required; login and API application documented; no key acquired/accessed",
+      "free_access_restrictions": "Public documentation; login/application required for key. Numeric call quota/free-tier eligibility unknown.",
+      "license": "Mixed per-work KOGL/CC markings; no blanket API-corpus open grant verified",
+      "license_url": "https://www.nie-ecobank.kr/cmmn/intro/copyrightPolicy.do",
+      "api_verification_state": "Native API and copyright documentation HTTP200 HTML; 126 unique published operation path references extracted. Key-required runtime untested.",
+      "latest_checked_utc": "2026-10-18T14:01:21.106741+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
