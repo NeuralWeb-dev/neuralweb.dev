@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T03:41:27.665984+00:00",
+  "published_at": "2026-10-18T03:43:30.226176+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:39:08.597218+00:00",
+  "research_updated_at": "2026-10-18T03:43:19.369088+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NDA/OFA restricted source policies verified; Protein Clusters mapped existing Entrez family with source-rights/runtime uncertainty retained.",
+  "latest_milestone": "ArmLifeBank taxonomy response clarified as timeout, distinct from robots-held or absent API.",
   "counts": {
-    "verified": 348,
-    "candidates": 781,
+    "verified": 349,
+    "candidates": 783,
     "excluded": 220,
     "sample_successes": 467
   },
@@ -5476,6 +5476,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T16:48:24.737481+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "armlifebank-seek-api",
+      "provider": "Institute of Molecular Biology NAS RA, Armenia",
+      "service_name": "ArmLifeBank SEEK JSON API",
+      "geographic_coverage": "Armenian life-science/biomedical research portal with source-specific international scope",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Life-science project/publication/data/protocol and sample descriptions; accepted only explicit metadata/default-open contribution scope, not sensitive or restricted sources",
+      "documentation_url": "https://armlifebank.am/api",
+      "api_base_url": "https://armlifebank.am/ (owner-hosted SEEK resource routes; /api is documentation)",
+      "format_protocol": "JSON:API and native-hosted OpenAPI3.1 YAML; generic specification server points fairdomhub.org and was not followed",
+      "authentication": "Native specification says list/read can be anonymous for publicly viewable objects; OAuth2/API token/basic-auth options for protected/write operations, no credentials sought",
+      "free_access_restrictions": "Native April2 2026 terms CC0 metadata/sample/project descriptions by default unless contributor indicates otherwise; original contributions/protocols/publications default BY4, more restrictive contributor/ethical/source conditions possible",
+      "license": "CC0 1.0 metadata/sample/project descriptions default; CC BY4 original contributions default, both subject to explicit exceptions",
+      "license_url": "https://armlifebank.am/home/terms",
+      "api_verification_state": "Native current terms, API docs and hosted OpenAPI YAML HTTP200; local anonymous taxonomy metadata GET allowed by robots but timed out, no successful JSON/data response",
+      "latest_checked_utc": "2026-10-18T03:43:14.520853+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17325,6 +17343,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "laval-borealis-data-repository",
+      "provider": "Université Laval / Borealis",
+      "service_name": "Université Laval institutional research-data portal",
+      "geographic_coverage": "Université Laval institutional research; Canada, Arctic and international source topics vary",
+      "topical_coverage": "research | climate/weather/environment | agriculture | health | education",
+      "dataset_families": "Multidisciplinary research datasets and institutional/researcher collections; native UI reports179 datasets/84dataverses, not API-verified inventory",
+      "documentation_url": "https://borealisdata.ca/dataverse/laval",
+      "api_base_url": "https://borealisdata.ca/api/dataverses/laval (registry claim only, held untested)",
+      "format_protocol": "Dataverse native HTML portal; registry claims native REST and OAI-PMH; SWORD deposit not a read-data API",
+      "authentication": "Public native homepage accessible; restricted source files and deposit permissions separate; no account",
+      "free_access_restrictions": "Native institutional policy encourages open access but permits private/restricted/embargoed sources and alternative licences",
+      "license": "Mixed per-dataset licences; institutional CC BY default since autumn2023 with alternatives allowed",
+      "license_url": "https://www.services-recherche.ulaval.ca/system/files/public/documents/GDR/DepotBorealisDataverseULRegles_responsab_20251118_VF.pdf",
+      "api_verification_state": "Native institutional portal and owner rules PDF HTTP200; quick-guide target404 despite indexed availability; local API runtime untested under existing host API hold",
+      "latest_checked_utc": "2026-10-18T03:42:20.009216+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "laws-africa-knowledge",
       "provider": "Laws.Africa",
       "service_name": "Legal Knowledge Base retrieval API",
@@ -23676,6 +23712,24 @@
       "license_url": "https://www.vd.ch/territoire-et-construction/cadastre-et-geoinformation/geoservices/conditions-dutilisation",
       "api_verification_state": "actual_public_JSON_sample_success_service_schema_only",
       "latest_checked_utc": "2026-10-17T07:37:23.635104+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "vectorbase-wdk-api",
+      "provider": "VectorBase / VEuPathDB",
+      "service_name": "VectorBase component WDK service",
+      "geographic_coverage": "Arthropod-vector/invertebrate research; exact source geographic coverage unverified",
+      "topical_coverage": "biodiversity | health | research",
+      "dataset_families": "Vector organism genomes, genes and population biology; source grant/release conditions unverified",
+      "documentation_url": "https://vectorbase.org/vectorbase/app/static-content/content/VectorBase/webServices.html",
+      "api_base_url": "https://vectorbase.org/vectorbase/service",
+      "format_protocol": "Native app config advertises WDK endpoint; documentation/terms routes returned JS Loading shells, not API JSON",
+      "authentication": "Native app configuration explicitly requireLogin:true; no login or user request performed",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://vectorbase.org/vectorbase/app/static-content/about.html",
+      "api_verification_state": "Native app/API-doc/terms routes HTTP200 JS shells. Exact local service base in app config; no successful machine API or source response",
+      "latest_checked_utc": "2026-10-18T03:42:20.009216+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
