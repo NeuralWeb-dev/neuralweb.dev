@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T01:32:33.468934+00:00",
+  "published_at": "2026-10-18T01:34:36.121650+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:31:58.558542+00:00",
+  "research_updated_at": "2026-10-18T01:33:02.992079+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Deutsches Gedächtnis, SHIP and ACS trauma/TQP controlled or paid source access documented; public metadata exceptions preserved.",
+  "latest_milestone": "Twelve originals reviewed, eleven records added and ICPSR updated. Launchpad scoped generated-metadata grant/JSON verified; controlled source/API and licensing gaps retained.",
   "counts": {
     "verified": 330,
     "candidates": 723,
@@ -924,6 +924,7 @@
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
+          "berman-jewish-databank",
           "calhhs-open-data",
           "colorado-information-marketplace",
           "ipums-nhgis-api"
@@ -981,6 +982,7 @@
           "california-open-data",
           "county-grande-prairie-open-data",
           "donnees-quebec-catalog",
+          "macewan-borealis-data-repository",
           "montana-state-library-gis-services",
           "ontario-data-catalog",
           "oregon-open-data",
@@ -1031,6 +1033,7 @@
           "epa",
           "esa-ecology",
           "knb",
+          "macewan-borealis-data-repository",
           "minneapolis-open-data",
           "montana-state-library-gis-services",
           "montreal-open-data-catalog",
@@ -1174,6 +1177,7 @@
           "donnees-quebec-catalog",
           "imls-data-collection",
           "ku-scholarworks-repository",
+          "macewan-borealis-data-repository",
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "toronto-open-data-catalog-api",
@@ -1481,6 +1485,7 @@
           "imls-data-collection",
           "ku-scholarworks-repository",
           "loc",
+          "macewan-borealis-data-repository",
           "montana-state-library-gis-services",
           "montreal-open-data-catalog",
           "nps-irma-resource-services",
@@ -1538,6 +1543,7 @@
           "knb",
           "ku-scholarworks-repository",
           "loc",
+          "macewan-borealis-data-repository",
           "nadp-monitoring-data",
           "neracoos-erddap",
           "nlr-metropolitan-travel-survey-archive",
@@ -1551,6 +1557,7 @@
         "restricted_provider_ids": [
           "akn-data-access-portal",
           "atlantic-canada-conservation-data-centre",
+          "berman-jewish-databank",
           "calgary-prism-scholaris-repository",
           "citf-controlled-databank",
           "ipums-nhgis-api",
@@ -1635,7 +1642,9 @@
           "wis2-ecuador",
           "wis2-uruguay"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "usp-datamap-environmental-platform"
+        ]
       },
       "water": {
         "status": "partial_candidates_only",
@@ -1645,7 +1654,9 @@
           "montevideo-beaches",
           "opendatasus"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "usp-datamap-environmental-platform"
+        ]
       },
       "energy": {
         "status": "partial_candidates_only",
@@ -1657,7 +1668,9 @@
           "openei-urdb",
           "registry-portaldados-ppgau-uff-br"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "usp-datamap-environmental-platform"
+        ]
       },
       "health": {
         "status": "partial_verified",
@@ -1847,7 +1860,9 @@
           "udea-research-data-repository",
           "upn-institutional-repository"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "usp-datamap-environmental-platform"
+        ]
       }
     },
     "Europe": {
@@ -1919,7 +1934,8 @@
           "dhsnl-dnb-household-survey",
           "eurocat-controlled-research-data",
           "hunt-health-study",
-          "neps-survey-research-access"
+          "neps-survey-research-access",
+          "ship-pomerania-cohort-access"
         ]
       },
       "economics/finance": {
@@ -2297,7 +2313,8 @@
           "dhsnl-dnb-household-survey",
           "dirros-research-repository",
           "eurocat-controlled-research-data",
-          "hunt-health-study"
+          "hunt-health-study",
+          "ship-pomerania-cohort-access"
         ]
       },
       "education": {
@@ -2998,6 +3015,7 @@
           "maribor-dkum-oai",
           "meertens-collections-portal",
           "neps-survey-research-access",
+          "ship-pomerania-cohort-access",
           "swiss-al-fcs",
           "tna-discovery"
         ]
