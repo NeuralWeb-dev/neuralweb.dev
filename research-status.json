@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:04:52.676675+00:00",
+  "published_at": "2026-10-18T18:06:55.998017+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:03:08.041001+00:00",
+  "research_updated_at": "2026-10-18T18:06:22.936475+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: DGD source restrictions, FDZ-RV project/deletion terms, SAFE mixed categories, Wissenschaftsstatistik paid/noncommercial and remote conflict, DeZIM mixed tiers/OAI held, KOSSDA indexed member restrictions/native held.",
+  "latest_milestone": "CAMDB native API/grant gap; CLARINO Bergen native CC0/notification tension and OAI held; Materials Cloud metadata BY-SA and valid OAI Identify.",
   "counts": {
-    "verified": 442,
-    "candidates": 1221,
+    "verified": 443,
+    "candidates": 1223,
     "excluded": 367,
     "sample_successes": 464
   },
@@ -11044,6 +11044,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "materials-cloud-archive",
+      "provider": "Materials Cloud consortium",
+      "service_name": "Materials Cloud Archive OAI metadata service",
+      "geographic_coverage": "Global computational materials-science research metadata; institutional origin Switzerland",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Computational materials research deposition metadata and provenance/software/database descriptions; no source structures/values",
+      "documentation_url": "https://archive.materialscloud.org/information",
+      "api_base_url": "https://archive.materialscloud.org/oai2d",
+      "format_protocol": "OAI-PMH2 XML; native policy also documents JSON-LD/schema.org and Dublin Core HTML metadata",
+      "authentication": "Anonymous native OAI Identify succeeded; source/deposit/account workflows not tested",
+      "free_access_restrictions": "Metadata described accessible over standard protocols; CC BY-SA conditions and email exclusion apply. Source-specific access/rights separate.",
+      "license": "CC BY-SA 4.0 for archive metadata except email addresses; data objects per deposit license",
+      "license_url": "https://archive.materialscloud.org/information",
+      "api_verification_state": "Native root and rights documentation HTTP200 substantive HTML; published OAI base Identify HTTP200 valid OAI-PMH2 XML, Identify present/no protocol error.",
+      "latest_checked_utc": "2026-10-18T18:06:18.242102+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "mechanism-catalytic-site-atlas-api",
       "provider": "EMBL-EBI / Thornton Group",
       "service_name": "M-CSA Mechanism and Catalytic Site Atlas public API",
@@ -16536,6 +16554,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "camdb-atomic-molecular",
+      "provider": "Institute of Applied Physics and Computational Mathematics IAPCM",
+      "service_name": "Chinese Atomic and Molecular Database CAMDB",
+      "geographic_coverage": "Atomic/molecular physics reference data, not geographic observations; Chinese institution",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Atomic energy levels/spectra, collision/ionization/recombination and molecular process categories; source values not requested",
+      "documentation_url": "http://www.camdb.ac.cn/e/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://www.camdb.ac.cn/e/",
+      "api_verification_state": "Native original overview HTTP200 substantive HTML; no exact current public API/schema or machine payload verified.",
+      "latest_checked_utc": "2026-10-18T18:06:18.242102+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "canada-historical-climate-portal",
       "provider": "Environment and Climate Change Canada",
       "service_name": "Historical Climate Data Canada portal",
@@ -17667,6 +17703,24 @@
       "license_url": "https://www.clarin.gr/en/CLARINELPreservationPolicy | https://www.clarin.gr/sites/default/files/CLARINELDataCollectionPolicy.pdf",
       "api_verification_state": "Native inventory200JavaScript shell; native owner policies200HTML/PDF explicitly describe metadata harvesting/export, exact current API route/runtime unverified",
       "latest_checked_utc": "2026-10-18T06:04:30.010560+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "clarino-bergen-repository",
+      "provider": "University of Bergen CLARINO Bergen Centre",
+      "service_name": "CLARINO Bergen repository metadata and language resources",
+      "geographic_coverage": "Norway and international language-resource research; source coverage varies",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Language corpus/tool/resource descriptions and repository metadata; no corpus content",
+      "documentation_url": "https://repo.clarino.uib.no/xmlui/page/about",
+      "api_base_url": "https://clarino.uib.no/oai",
+      "format_protocol": "OAI-PMH documented by native policy; exact runtime guard-held",
+      "authentication": "Metadata publicly accessible per policy; protected resources authenticated/license e-signature, none used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 metadata declaration with commercial-notification reservation; source-specific licenses",
+      "license_url": "https://repo.clarino.uib.no/xmlui/page/about",
+      "api_verification_state": "Native repository root and policy HTTP200 HTML. Registry original OAI Identify guard-deferred target unsent; no API/XML success or alternate endpoint.",
+      "latest_checked_utc": "2026-10-18T18:06:18.242102+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
