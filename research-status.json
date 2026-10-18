@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T18:58:17.572422+00:00",
+  "published_at": "2026-10-18T19:00:20.706914+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:58:02.330582+00:00",
+  "research_updated_at": "2026-10-18T18:59:51.755780+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RRU/Laurier owner context/source rights gaps; UK Data Archive service mapped to native tested UKDS OAI identity and mixed metadata/source terms.",
+  "latest_milestone": "OTN public-source CC BY4/additional notification obligations and REST timeout; Greo native contractual restrictions; Lethbridge owner repository context.",
   "counts": {
     "verified": 445,
-    "candidates": 1275,
-    "excluded": 370,
+    "candidates": 1277,
+    "excluded": 371,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -24658,6 +24658,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "lethbridge-borealis-data-repository",
+      "provider": "University of Lethbridge",
+      "service_name": "University of Lethbridge curated Borealis repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.ulethbridge.ca/services/academic",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.ulethbridge.ca/services/academic",
+      "api_verification_state": "Independent native institutional guide HTTP200 substantive HTML; shared Borealis root/API/search holds retained, no hosted collection/OAI/REST/SWORD test.",
+      "latest_checked_utc": "2026-10-18T18:59:47.175863+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lexington-data-hub",
       "provider": "Lexington-Fayette Urban County Government",
       "service_name": "Lexington Data Hub OGC catalog",
@@ -28147,6 +28165,24 @@
       "license_url": "https://www.oakville.ca/town-hall/plans-strategies/open-data/open-data-licence/",
       "api_verification_state": "official_current_portal_and_full_OGL_documented_original_policy_held_API_work_binding_unresolved",
       "latest_checked_utc": "2026-10-17T10:54:20.044183+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ocean-tracking-network-services",
+      "provider": "Ocean Tracking Network / Dalhousie University",
+      "service_name": "Ocean Tracking Network data portal and public endpoints",
+      "geographic_coverage": "Global marine/freshwater telemetry network; source-project coverage varies",
+      "topical_coverage": "oceans | biodiversity | environment | research",
+      "dataset_families": "Telemetry receiver/station, animal-tagging, detection and public occurrence/sampling-event descriptions; no observations/coordinates",
+      "documentation_url": "https://members.oceantrack.org/data/policies | https://members.oceantrack.org/erddap/rest.html",
+      "api_base_url": "https://members.oceantrack.org/erddap/",
+      "format_protocol": "Native policy identifies ERDDAP/GeoServer/OBIS public endpoints; indexed native ERDDAP REST/JSON documentation, runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 named for specified public sources; additional policy obligations unresolved; catalogue metadata grant unknown",
+      "license_url": "https://members.oceantrack.org/data/policies/otn-data-policy-2024-signature.pdf/@@download/file | https://members.oceantrack.org/data/policies",
+      "api_verification_state": "Native policy HTMLHTTP200. Exact native ERDDAP REST reference timed out, not API absence. Indexed native REST reference and official legal-reader policy reviewed separately. No version/allDatasets/schema/observation request after timeout.",
+      "latest_checked_utc": "2026-10-18T18:59:47.175863+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -40191,6 +40227,24 @@
       "license_url": "https://www.start.umd.edu/gtd-terms",
       "api_verification_state": "Native terms200HTML, not API response; no active query API established",
       "latest_checked_utc": "2026-10-18T05:56:11.272028+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "greo-borealis-repository",
+      "provider": "Greo Evidence Insights",
+      "service_name": "Greo gambling research data repository",
+      "geographic_coverage": "Gambling research with Canadian/international source coverage",
+      "topical_coverage": "health | demographics | economics/finance | research",
+      "dataset_families": "Gambling research study descriptions; no participant/microdata files",
+      "documentation_url": "https://www.greo.ca/en/greo-resource/data-repository.aspx",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "Most source access requires application/agreement and registered account; some open sources direct; no account/access request",
+      "free_access_restrictions": "Covered uses nonprofit research/study/education; commercial/redistribution subject to restrictions/permission. No paid access or permission negotiation.",
+      "license": "Service/source contractual nonprofit-use and redistribution restrictions; some separately open datasets",
+      "license_url": "https://www.greo.ca/en/greo-resource/resources/Documents/Policy_DataRepository_TermsOfUseAgreement_20220726.pdf",
+      "api_verification_state": "Independent native owner HTMLHTTP200 and legal PDFHTTP200; five-page terms reviewed. Hosted Borealis OAI/REST/API not tested under inherited root/API/search holds.",
+      "latest_checked_utc": "2026-10-18T18:59:47.175863+00:00",
       "classification": "restricted"
     },
     {
