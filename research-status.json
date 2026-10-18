@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:35:42.191582+00:00",
+  "published_at": "2026-10-18T18:37:45.319468+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:35:37.952707+00:00",
+  "research_updated_at": "2026-10-18T18:37:27.850103+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Institutional Borealis context, source-license choice and metadata/API gaps documented; host holds preserved.",
+  "latest_milestone": "TÉLUQ/INRS/Concordia native institutional collection context verified; source/API grants unresolved and stale policy results distinguished.",
   "counts": {
     "verified": 445,
-    "candidates": 1243,
+    "candidates": 1246,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -18082,6 +18082,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "concordia-borealis-data-repository",
+      "provider": "Concordia University",
+      "service_name": "Concordia University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://www.concordia.ca/library/research/data/deposit-share/general-purpose-repositories.html",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.concordia.ca/library/research/data/deposit-share/general-purpose-repositories.html",
+      "api_verification_state": "Native institutional guide HTTP200 substantive HTML; not API payload. Shared Borealis root/API/search holds preserved; no collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:37:23.320729+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "congress",
       "provider": "Library of Congress Congress.gov",
       "service_name": "Library of Congress Congress.gov API",
@@ -23101,6 +23119,24 @@
       "license_url": "https://science-ouverte.inrae.fr/fr/le-numerique-pour-la-science-et-les-donnees-scientifiques/partager-publier-des-donnees-et-des-codes/presentation-de-data-inrae | https://recherche.data.gouv.fr/fr/page/conditions-generales-d-utilisation-de-la-plateforme-de-recherche-data-gouv",
       "api_verification_state": "Independent owner guideHTTP200 confirms collection location; earlier national repository guard hold retained, no new native API/schema response.",
       "latest_checked_utc": "2026-10-18T15:45:57.846459+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "inrs-borealis-data-repository",
+      "provider": "Institut national de la recherche scientifique",
+      "service_name": "Institut national de la recherche scientifique curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://inrs.libguides.com/gdr/depot",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://inrs.libguides.com/gdr/depot",
+      "api_verification_state": "Native institutional guide HTTP200 substantive HTML; not API payload. Shared Borealis root/API/search holds preserved; no collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:37:23.320729+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32785,6 +32821,24 @@
       "license_url": "https://dataverse.telkomuniversity.ac.id/",
       "api_verification_state": "Native portal200HTML and OAIIdentify200validOAI-PMH2 XML containing Identify, no error element. Registry double slash/lowercase verb normalized before first API request; no failed-route retry.",
       "latest_checked_utc": "2026-10-18T10:45:02.773678+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "teluq-borealis-data-repository",
+      "provider": "Université TÉLUQ",
+      "service_name": "Université TÉLUQ curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://bibliotheque.teluq.ca/gdr/depot",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://bibliotheque.teluq.ca/gdr/depot",
+      "api_verification_state": "Native institutional guide HTTP200 substantive HTML; not API payload. Shared Borealis root/API/search holds preserved; no collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:37:23.320729+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
