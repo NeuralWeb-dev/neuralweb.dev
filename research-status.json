@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T05:01:18.612458+00:00",
+  "published_at": "2026-10-18T05:03:21.248098+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:00:19.313801+00:00",
+  "research_updated_at": "2026-10-18T05:02:55.768451+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original provider tasks reviewed; RGD and GDEX scoped-open metadata verified, PGC STAC runtime verified with source grant unresolved; survey sources restricted",
+  "latest_milestone": "NEON currentBY4/RTE exceptions and authenticated package policy verified; groundwater product metadata tested; DataCenterHub historical archive and OMIM holds reviewed.",
   "counts": {
-    "verified": 356,
-    "candidates": 830,
+    "verified": 357,
+    "candidates": 832,
     "excluded": 239,
     "sample_successes": 465
   },
@@ -9347,6 +9347,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "neon-data-api",
+      "provider": "NSF National Ecological Observatory Network / Battelle",
+      "service_name": "NEON data product REST API",
+      "geographic_coverage": "US ecological observatory data products; exact site/time coverage varies",
+      "topical_coverage": "biodiversity | climate/weather/environment | water | research",
+      "dataset_families": "Ecological product metadata, groundwater chemistry and wind product descriptors sampled; observational/sensor/airborne families documented",
+      "documentation_url": "https://data.neonscience.org/data-api/ | https://data.neonscience.org/data-api/endpoints/products/",
+      "api_base_url": "https://data.neonscience.org/api/v0/",
+      "format_protocol": "REST JSON product metadata verified; GraphQL documented registry claim, not tested",
+      "authentication": "Anonymous single-product metadata succeeded; account or valid API token required for data-package downloads per current owner policy",
+      "free_access_restrictions": "Data free with BY4 attribution except RTE data; account/token for data packages, token reduces intensive-query rate limiting. No account/token/download attempted.",
+      "license": "CC BY4.0 for NEON-collected data products except rare/threatened/endangered species; other laws/rights retained",
+      "license_url": "https://www.neonscience.org/usage-policies",
+      "api_verification_state": "Owner policy/API docs200HTML. Fullproducts200JSON-content but truncated atlocalcap, notvalidfullJSON/inventory. Documented DP1.20092.001200validJSONgroundwater product metadata. No data-package/source samples.",
+      "latest_checked_utc": "2026-10-18T05:02:50.104066+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "netherlands-catalog-metadata",
       "provider": "Government of the Netherlands / data.overheid.nl",
       "service_name": "National data catalog CKAN metadata API",
@@ -14620,6 +14638,24 @@
       "license_url": "https://data.wa.gov.au/copyright",
       "api_verification_state": "native_CKAN_catalogue_metadata_samples_success_mixed_rights_and_count_discrepancy",
       "latest_checked_utc": "2026-10-17T14:21:47.549234+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "datacenterhub-historical-archive",
+      "provider": "University of Canterbury / legacy Purdue DataCenterHub",
+      "service_name": "DataCenterHub historical earthquake engineering file archive",
+      "geographic_coverage": "Earthquake-engineering research collections; specific geographic coverage unresolved",
+      "topical_coverage": "research | housing | geospatial",
+      "dataset_families": "Legacy NEES DataSTORE and NEES/post-NEES file collections",
+      "documentation_url": "https://datacenterhub.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root200HTML explicitly describes historical collections of files without former interactive tools. No current API contract/sample verified.",
+      "latest_checked_utc": "2026-10-18T05:02:50.104066+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20128,6 +20164,24 @@
       "license_url": "https://www.language-archives.org/imprint/",
       "api_verification_state": "native_collection_metadata_CC0_and_OAI_protocol_verified_current_aggregator_API_runtime_unresolved",
       "latest_checked_utc": "2026-10-17T23:06:28.251297+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "omim-api-discovery",
+      "provider": "Johns Hopkins University / OMIM",
+      "service_name": "Online Mendelian Inheritance in Man API discovery",
+      "geographic_coverage": "Human genetics reference knowledge; not population-representative coverage",
+      "topical_coverage": "health | research",
+      "dataset_families": "OMIM gene/disorder reference knowledge; no records acquired",
+      "documentation_url": "https://omim.org/help/api",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://omim.org/help/copyright",
+      "api_verification_state": "Native API/copyright requests guard-deferred unsent. API remains registry-documented claim, runtime and current authentication untested.",
+      "latest_checked_utc": "2026-10-18T05:02:50.104066+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
