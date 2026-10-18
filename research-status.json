@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:26:25.490877+00:00",
-  "job_status": "worker not running",
-  "worker_running": false,
+  "published_at": "2026-10-18T01:28:28.234451+00:00",
+  "job_status": "running",
+  "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:25:48.649300+00:00",
+  "research_updated_at": "2026-10-18T01:28:05.383277+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed; FULIR metadata CC0/OAI270 headers verified, OSDR641 accession routes and WOUDC14 collection descriptors indexed; source rights and access gaps retained.",
+  "latest_milestone": "Launchpad generated metadata attribution grant and anonymous JSON verified; DataMap restricted, MacEwan API held/source rights scoped unresolved.",
   "counts": {
-    "verified": 329,
-    "candidates": 720,
-    "excluded": 186,
+    "verified": 330,
+    "candidates": 721,
+    "excluded": 187,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -8037,6 +8037,24 @@
       "license_url": "https://www.tol.ca/en/connect/open-data-licence.aspx",
       "api_verification_state": "documented_sample_success_catalog_configuration_only",
       "latest_checked_utc": "2026-10-17T13:47:01.093443+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "launchpad-generated-metadata-api",
+      "provider": "Canonical / Launchpad",
+      "service_name": "Launchpad web service generated bug metadata and statistics scope",
+      "geographic_coverage": "International free software development; project-specific coverage",
+      "topical_coverage": "research | education",
+      "dataset_families": "Canonical-generated bug metadata/statistics; Soyuz generated metadata/log scope subject to exceptions, project code/translations/comments separately licensed",
+      "documentation_url": "https://documentation.ubuntu.com/launchpad/user/explanation/launchpad-api/launchpad-web-service/",
+      "api_base_url": "https://api.launchpad.net/1.0/",
+      "format_protocol": "Versioned REST JSON resource links; OAuth for authenticated actions",
+      "authentication": "Native guide allows anonymous read of public objects; root GET succeeded without credentials, no writes/private queries",
+      "free_access_restrictions": "Generated bug metadata/statistics may be used for any purpose with accreditation and Launchpad URL. Other contents require their own licence; dynamic operational throttling possible.",
+      "license": "Custom attribution permission for Canonical-generated bug metadata and statistics",
+      "license_url": "https://documentation.ubuntu.com/launchpad/user/reference/launchpad-and-community/legal/launchpad-policies/",
+      "api_verification_state": "Native policies/current HTTP service guide HTTP200; anonymous API root HTTP200 valid JSON, resource routing links including bugs. No bug-comment or code harvest.",
+      "latest_checked_utc": "2026-10-18T01:28:01.145619+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16499,6 +16517,24 @@
       "license_url": "https://dataregistry.lteritalia.it/about/",
       "api_verification_state": "native_operator_OGC_SensorThings_integration_documented_API_path_policy_held_source_grants_unconfirmed",
       "latest_checked_utc": "2026-10-17T21:02:54.913997+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "macewan-borealis-data-repository",
+      "provider": "MacEwan University Library / Borealis",
+      "service_name": "MacEwan University Data Repository",
+      "geographic_coverage": "MacEwan University research; Canada and source-specific international topics",
+      "topical_coverage": "research | agriculture | climate/weather/environment | education",
+      "dataset_families": "Institutional research dataset discovery; native portal reports15 datasets with14 CC0 and1 CC BY4 licence facets, not individual source clearance",
+      "documentation_url": "https://borealisdata.ca/guides/en/latest/api/search.html",
+      "api_base_url": "https://borealisdata.ca/api/search",
+      "format_protocol": "Native Dataverse REST search documentation; registry OAI-PMH subtree claim not tested after hold",
+      "authentication": "Public homepage accessible; search API request unsent under robots guard; source permissions differ",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://borealisdata.ca/dataverse/macewan",
+      "api_verification_state": "Native homepage/REST search guide HTTP200. Actual search target guard-deferred unsent; no successful API response or OAI workaround.",
+      "latest_checked_utc": "2026-10-18T01:28:01.145619+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26995,6 +27031,24 @@
       "license_url": "https://usjgofs.whoi.edu/copyright.html | https://usjgofs.whoi.edu/research/arabian.html",
       "api_verification_state": "native_general_NC_and_specific_study_PD_scopes_verified_legacydatasystem_unsent_robots_deferred",
       "latest_checked_utc": "2026-10-17T23:46:00.085349+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "usp-datamap-environmental-platform",
+      "provider": "University of São Paulo / DataMap Project",
+      "service_name": "DataMap environmental research platform",
+      "geographic_coverage": "Brazil and international environmental research campaigns; exact dataset extent unresolved",
+      "topical_coverage": "climate/weather/environment | water | energy | research",
+      "dataset_families": "Atmosphere, aerosols, clouds, radiation, surface/subsurface and renewable energy research datasets",
+      "documentation_url": "https://datamap.pcs.usp.br/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Homepage offers ORCID sign-in; exact public API access unresolved, no sign-in used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom research/academic intended use, attribution and author notification",
+      "license_url": "https://datamap.pcs.usp.br/project/data-policy",
+      "api_verification_state": "Native homepage/policy HTTP200 HTML; no verified public read-only query API",
+      "latest_checked_utc": "2026-10-18T01:28:01.145619+00:00",
       "classification": "restricted"
     },
     {
