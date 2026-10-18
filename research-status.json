@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:33:39.023019+00:00",
+  "published_at": "2026-10-18T18:35:42.191582+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:32:57.404168+00:00",
+  "research_updated_at": "2026-10-18T18:35:37.952707+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MSVU/Polytechnique/VIU institutional guides and mixed license/access reviewed; Borealis holds retained.",
+  "latest_milestone": "Institutional Borealis context, source-license choice and metadata/API gaps documented; host holds preserved.",
   "counts": {
     "verified": 445,
-    "candidates": 1237,
+    "candidates": 1243,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -22096,6 +22096,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "hec-borealis-data-repository",
+      "provider": "HEC Montréal",
+      "service_name": "HEC Montréal curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education | economics/finance",
+      "dataset_families": "Institutional research dataset descriptions; exact families source-specific and not enumerated",
+      "documentation_url": "https://libguides.hec.ca/Microdonnees_DonneesRecherches/DonneesRecherches",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://libguides.hec.ca/Microdonnees_DonneesRecherches/DonneesRecherches",
+      "api_verification_state": "Native owner documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:35:33.239653+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "heidata-research-metadata-api",
       "provider": "Heidelberg University Library / Heidelberg University",
       "service_name": "heiDATA research repository API including arthistoricum collection",
@@ -25084,6 +25102,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mcgill-borealis-data-repository",
+      "provider": "McGill University",
+      "service_name": "McGill University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact families source-specific and not enumerated",
+      "documentation_url": "https://www.mcgill.ca/libraries/research-services/data-services/sharing/dataverse",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.mcgill.ca/libraries/research-services/data-services/sharing/dataverse",
+      "api_verification_state": "Native owner documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:35:33.239653+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mdz-iiif-services",
       "provider": "Bayerische Staatsbibliothek / Münchener DigitalisierungsZentrum",
       "service_name": "MDZ IIIF Presentation and Image APIs",
@@ -25153,6 +25189,24 @@
       "license_url": "https://library.unimelb.edu.au/Digital-Scholarship/melbourne-figshare/melbourne-figshare-digital-repository-deposit-terms-and-conditions",
       "api_verification_state": "Original institutionalroot andindependentgenerallibrarytermsguard-deferred; indexed officialdepositagreement reviewed. No nativeAPI/schema/grantresponse. Originalportalrootguard-deferredbeforetransmission; no successfulportal-specificAPIresponse.",
       "latest_checked_utc": "2026-10-18T15:19:12.276089+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "memorial-borealis-data-repository",
+      "provider": "Memorial University of Newfoundland",
+      "service_name": "Memorial University of Newfoundland curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact families source-specific and not enumerated",
+      "documentation_url": "https://guides.library.mun.ca/datamanagement/sharing",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://guides.library.mun.ca/datamanagement/sharing",
+      "api_verification_state": "Native owner documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:35:26.771699+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33850,6 +33904,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "unbc-borealis-data-repository",
+      "provider": "University of Northern British Columbia",
+      "service_name": "University of Northern British Columbia curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact families source-specific and not enumerated",
+      "documentation_url": "https://libguides.unbc.ca/Borealis/DataLicense",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://libguides.unbc.ca/Borealis/DataLicense",
+      "api_verification_state": "Native owner documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:35:26.771699+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "undata-official-sdmx-api",
       "provider": "United Nations Statistics Division / UNdata",
       "service_name": "Official UNdata SDMX web services",
@@ -34153,6 +34225,24 @@
       "license_url": "https://biblio.uqar.ca/gdr/partager-diffuser-reutiliser",
       "api_verification_state": "Native institutional repository homepage/GDR/sharing guidance200HTML identify exact UQARcollection; inherited Borealis API/root/search hold retained, no native collection/source/query request",
       "latest_checked_utc": "2026-10-18T09:29:11.858232+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uqtr-borealis-data-repository",
+      "provider": "Université du Québec à Trois-Rivières",
+      "service_name": "Université du Québec à Trois-Rivières curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact families source-specific and not enumerated",
+      "documentation_url": "https://blogue.uqtr.ca/2023/04/06/strategie-sur-la-gestion-des-donnees-recherche-de-luqtr/",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://blogue.uqtr.ca/2023/04/06/strategie-sur-la-gestion-des-donnees-recherche-de-luqtr/",
+      "api_verification_state": "Native owner documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:35:33.239653+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34513,6 +34603,24 @@
       "license_url": "https://libguides.uvic.ca/researchdata/dataverse/termsofuse",
       "api_verification_state": "Native copyright, institutionalguide/deposit/collectionterms200HTML; existing Borealissearch/APIguardhold preserved, no collection/APItest",
       "latest_checked_utc": "2026-10-18T06:20:13.160422+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uwinnipeg-borealis-data-repository",
+      "provider": "University of Winnipeg",
+      "service_name": "University of Winnipeg curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact families source-specific and not enumerated",
+      "documentation_url": "https://library.uwinnipeg.ca/docs/uwinnipeg_borealis_collection_policy.pdf",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.uwinnipeg.ca/docs/uwinnipeg_borealis_collection_policy.pdf",
+      "api_verification_state": "Direct local legal document guard-deferred unsent; official web-reader policy reviewed, not native API response. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:35:26.771699+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
