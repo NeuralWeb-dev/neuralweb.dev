@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T09:17:24.373811+00:00",
+  "published_at": "2026-10-18T09:19:27.903613+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:13:52.378106+00:00",
+  "research_updated_at": "2026-10-18T09:18:09.609584+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: JASPARBY4/11releaseJSON2pages complete; MassBankOpenAPI10operations/versionJSON/mixedrights; BODR/MorphoBank/Mansfeldheld; DWD scopedfilegrant/APIunknown; MDZ17000refs17pagesnextcursor.",
+  "latest_milestone": "OBISdedup/scopedrightsretained; CanadianGeoNames officialCGNOGLCanada and11themeJSONverified; AODNcurrentmixedpolicy/OGCdocsverified butCSWheld.",
   "counts": {
-    "verified": 385,
-    "candidates": 970,
+    "verified": 386,
+    "candidates": 971,
     "excluded": 287,
     "sample_successes": 465
   },
@@ -6538,6 +6538,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "canada-geonames-api",
+      "provider": "Natural Resources Canada / Geographical Names Board of Canada",
+      "service_name": "Canadian GeoNames Search API",
+      "geographic_coverage": "Canadian landmass/waterbodies; official national CGNDB named features; dataset metadata1897-present, weekly extraction not live API freshness guarantee",
+      "topical_coverage": "geospatial | culture | environment | research",
+      "dataset_families": "Current/former official geographical names and theme/feature classification metadata; no actual named-location or coordinate query",
+      "documentation_url": "https://natural-resources.canada.ca/maps-tools-publications/maps/geographical-names-canada/geoname-service-api",
+      "api_base_url": "https://geogratis.gc.ca/services/geoname/en/ (French interface documented separately)",
+      "format_protocol": "RESTJSON theme-code endpoint200validJSON11definitions; JSON/HTML/CSV/KML/GML/GeoJSON documented representations, not all tested",
+      "authentication": "Anonymous theme-code GET succeeded; guide publishes public query interface, no key used",
+      "free_access_restrictions": "Canadian Geographical Names dataset explicitly OGLCanada in native official catalogue; NRCan website terms differ and do not clear all portal material",
+      "license": "Open Government Licence – Canada for Canadian Geographical Names dataset",
+      "license_url": "https://open.canada.ca/data/dataset/e27c6eba-3c5d-4051-9db2-082dc6411c2c | https://open.canada.ca/en/open-government-licence-canada",
+      "api_verification_state": "Native GeoGratisroot/APIguide/CGNdatasetlicencepage200HTML; published exacttheme-code API200validJSON11definitions, not actual name/coordinate observation response",
+      "latest_checked_utc": "2026-10-18T09:18:04.761685+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "canada-npri-arcgis",
       "provider": "Environment and Climate Change Canada / National Pollutant Release Inventory",
       "service_name": "NPRI public ArcGIS map/data query service",
@@ -10188,7 +10206,7 @@
       "license": "Dataset-specific: open subset CC0/CC BY/CC BY-SA; NC/ND subsets excluded",
       "license_url": "https://www.obis.org/data/datapolicy/",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T16:32:30.359839+00:00",
+      "latest_checked_utc": "2026-10-18T09:18:04.761685+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13233,6 +13251,24 @@
       "license_url": "https://www.anzctr.org.au/Support/Terms.aspx",
       "api_verification_state": "production_root_terms_robots_policy_hold_native_university_link_verified_API_and_current_grants_unresolved",
       "latest_checked_utc": "2026-10-17T21:27:26.858321+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "aodn-marine-data-services",
+      "provider": "Australian Ocean Data Network / IMOS / University of Tasmania",
+      "service_name": "AODN portal, catalogue and marine data services",
+      "geographic_coverage": "Australian marine region/coastal climate/ocean research; federated source-specific spatial/temporal scope varies",
+      "topical_coverage": "oceans | climate/weather/environment | water | biodiversity | research",
+      "dataset_families": "Marine data/IMOS metadata and externalcustodian collections; gridded/non-gridded observations via source services, no observed data acquired",
+      "documentation_url": "https://imos.org.au/wp-content/uploads/2025/02/OGC-APIs-FINAL-v3.pdf | https://help.aodn.org.au/downloading-data-from-servers/interact-with-data-opendap/",
+      "api_base_url": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/csw (published/held); WFS/WCS/WMS/OPeNDAP described, no blanket endpoint runtime proof",
+      "format_protocol": "Owner documents CSWmetadata/WFS/WCS/WMS/OPeNDAP andnetCDF formats; no successful protocol response",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed source/custodian terms; CC BY recommended, restrictions expressly permitted",
+      "license_url": "https://content.aodn.org.au/Documents/IMOS/Conventions/AODN_Data_Policy.pdf",
+      "api_verification_state": "Native portal200HTML,policy200PDF and independent operatorOGCguide200PDF read. HelpOPeNDAPdoc guardheld; independentlypublishedCSWGetCapabilities guardheld/unsent. No successXML/data or alternateTHREDDS/WFS query afterhold.",
+      "latest_checked_utc": "2026-10-18T09:18:04.761685+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
