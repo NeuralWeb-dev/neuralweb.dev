@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:48:50.522278+00:00",
+  "published_at": "2026-10-18T16:50:53.517595+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:46:05.464852+00:00",
+  "research_updated_at": "2026-10-18T16:49:45.125557+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to887pages/887000refs;2326503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Six originals: AERONET public-domain/API docs and AHEAD databaseBY4/OGC docs verified runtimeuntested; IDB222identifierJSON/25portalqueue mixedrights; MTD/SilkPath/RMIT gaps; MDZ887000 incomplete.",
   "counts": {
-    "verified": 439,
-    "candidates": 1171,
+    "verified": 440,
+    "candidates": 1173,
     "excluded": 342,
     "sample_successes": 464
   },
@@ -146,6 +146,7 @@
       "climate/weather/environment": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "aeronet-v3-webservices",
           "aoml-gdp-erddap",
           "bcodmo-erddap-data-api",
           "bgs",
@@ -954,6 +955,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "aeronet-v3-webservices",
           "aoml-gdp-erddap",
           "arxiv",
           "b2share",
@@ -2040,6 +2042,7 @@
           "cdha-study-resource-directory",
           "dhs-indicator-data-api",
           "eclac",
+          "idb-open-data-catalog",
           "jamaica-data",
           "opendatasus"
         ],
@@ -2059,6 +2062,7 @@
           "cesa-academic-data",
           "chile-bcentral",
           "eclac",
+          "idb-open-data-catalog",
           "jamaica-data",
           "openei-urdb",
           "pacifico-research-datasets",
@@ -2077,6 +2081,7 @@
         "candidate_provider_ids": [
           "cdha-study-resource-directory",
           "goias-state-ckan-api",
+          "idb-open-data-catalog",
           "unisimon-research-data"
         ],
         "restricted_provider_ids": []
@@ -2121,6 +2126,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "idb-open-data-catalog",
           "mindagri-ne",
           "montevideo-beaches",
           "opendatasus"
@@ -2134,6 +2140,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "dominican-data",
+          "idb-open-data-catalog",
           "jamaica-data",
           "mexico-national-open-data",
           "openei-urdb",
@@ -2157,6 +2164,7 @@
           "fiocruz-arca-dados",
           "fortaleza-ckan-api",
           "goias-state-ckan-api",
+          "idb-open-data-catalog",
           "mexico-national-open-data",
           "montevideo-beaches",
           "opendatasus",
@@ -2177,6 +2185,7 @@
           "dhs-indicator-data-api",
           "dominican-data",
           "goias-state-ckan-api",
+          "idb-open-data-catalog",
           "mexico-national-open-data",
           "pacifico-research-datasets",
           "pucp-open-data-portal",
@@ -2201,6 +2210,7 @@
         "candidate_provider_ids": [
           "dhs-indicator-data-api",
           "fortaleza-ckan-api",
+          "idb-open-data-catalog",
           "registry-portaldados-ppgau-uff-br"
         ],
         "restricted_provider_ids": []
@@ -2213,6 +2223,7 @@
         ],
         "candidate_provider_ids": [
           "fortaleza-ckan-api",
+          "idb-open-data-catalog",
           "montevideo-transport",
           "registry-dados-df-gov-br",
           "registry-portaldados-ppgau-uff-br",
@@ -2261,6 +2272,7 @@
           "dominican-data",
           "fortaleza-ckan-api",
           "goias-state-ckan-api",
+          "idb-open-data-catalog",
           "jamaica-data",
           "mindagri-ne",
           "registry-dados-df-gov-br",
@@ -2364,6 +2376,7 @@
           "embrapa-redape",
           "esa-ecology",
           "fiocruz-arca-dados",
+          "idb-open-data-catalog",
           "pacifico-research-datasets",
           "pucp-open-data-portal",
           "registry-portaldados-ppgau-uff-br",
@@ -2658,6 +2671,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "actris-dvas-metadata-api",
+          "ahead-historical-earthquakes",
           "alcobendas-open-data",
           "amsterdam-maps-data",
           "andalusia-open-data",
@@ -3254,6 +3268,7 @@
       "geospatial": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "ahead-historical-earthquakes",
           "amsterdam-maps-data",
           "andalusia-open-data",
           "angers-open-data",
@@ -3545,6 +3560,7 @@
       "culture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "ahead-historical-earthquakes",
           "alcobendas-open-data",
           "alkmaar-open-archive",
           "amsterdam-maps-data",
@@ -3707,6 +3723,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "actris-dvas-metadata-api",
+          "ahead-historical-earthquakes",
           "alkmaar-open-archive",
           "arche-repository",
           "aston-data-explorer",
@@ -4813,6 +4830,7 @@
         "candidate_provider_ids": [
           "china-nbs",
           "japan-egov-data-catalog",
+          "silkpathdb-repository",
           "thailand-gistda",
           "wdcrre-resources-environment"
         ],
@@ -4887,6 +4905,7 @@
           "japan-egov-data-catalog",
           "korea-sequence-read-archive",
           "ngdc-genome-sequence-archive",
+          "ngdc-mammalian-transcriptomic",
           "proteomexchange-proteomecentral",
           "ucla-social-science-dataverse"
         ],
@@ -5001,6 +5020,7 @@
           "korea-ecobank-api",
           "ngdc-genome-sequence-archive",
           "proteomexchange-proteomecentral",
+          "silkpathdb-repository",
           "taiwan-fish-database"
         ],
         "restricted_provider_ids": [
@@ -5038,6 +5058,7 @@
           "cinii-books",
           "japan-egov-data-catalog",
           "kyoto-kurenai-repository",
+          "silkpathdb-repository",
           "thailand-gistda",
           "wdcrre-resources-environment"
         ],
@@ -5067,9 +5088,11 @@
           "korea-sequence-read-archive",
           "kyoto-kurenai-repository",
           "ngdc-genome-sequence-archive",
+          "ngdc-mammalian-transcriptomic",
           "nict-wdc-ionosphere-spaceweather",
           "nims-mdr",
           "proteomexchange-proteomecentral",
+          "silkpathdb-repository",
           "smoka-science-archive",
           "taiwan-fish-database",
           "tokyo-aori-cruise-database",
@@ -5522,6 +5545,7 @@
           "pacific-data",
           "pacific-stat",
           "qut-research-data-finder",
+          "rmit-institutional-repository",
           "swinburne-figshare",
           "trove-cultural-discovery-api",
           "victoria-datavic"
@@ -5734,6 +5758,7 @@
           "pacific-stat",
           "qspatial-csw-catalog",
           "rcc-acis-web-services",
+          "rmit-institutional-repository",
           "spc-pccos-tds",
           "te-papa",
           "trove-cultural-discovery-api"
@@ -5789,6 +5814,7 @@
           "pacioos-erddap",
           "pisco",
           "qut-research-data-finder",
+          "rmit-institutional-repository",
           "sarig-geoscience-data-services",
           "spc-pccos-tds",
           "swinburne-figshare",
@@ -6394,6 +6420,24 @@
       "license_url": "https://aeronet.gsfc.nasa.gov/new_web/data_usage.html",
       "api_verification_state": "Native usage policy and Version3 API referenceHTTP200HTML. Documented operation/parameters indexed separately; no observational data response or native API runtime success claimed.",
       "latest_checked_utc": "2026-10-18T16:45:48.792981+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "ahead-historical-earthquakes",
+      "provider": "AHEAD / Istituto Nazionale di Geofisica e Vulcanologia and contributing institutions",
+      "service_name": "AHEAD historical-earthquake archive and European OGC services",
+      "geographic_coverage": "Europe historical earthquakes1000-1899; source-study coverage varies",
+      "topical_coverage": "geospatial | climate/weather/environment | research | culture",
+      "dataset_families": "Historical-earthquake database, source/bibliographic descriptions, EPICA1.1 historical-event catalog and OGC interfaces",
+      "documentation_url": "https://www.emidius.eu/AHEAD/description.php | https://www.emidius.eu/AHEAD/services/events_ogc.php",
+      "api_base_url": "https://www.emidius.eu/services/europe/wfs/ | https://www.emidius.eu/services/europe/wms/",
+      "format_protocol": "Native documented OGC WFS/WMS, FDSN event and related source-data interfaces described; WFS XML runtime held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 AHEAD database; original historical sources separate rights",
+      "license_url": "https://www.emidius.eu/AHEAD/description.php | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native description/OGC guide200HTML; published WFS capabilities request guard-deferred unsent, not XML success. No alternateWMS/backend after hold.",
+      "latest_checked_utc": "2026-10-18T16:48:51.238331+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21789,6 +21833,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "idb-open-data-catalog",
+      "provider": "Inter-American Development Bank",
+      "service_name": "IDB Open Data Catalog CKAN API",
+      "geographic_coverage": "Latin America and Caribbean; research source geographic coverage varies",
+      "topical_coverage": "demographics | economics/finance | labor | education | health | housing | transportation | water | energy | public spending/contracts | research",
+      "dataset_families": "Economic/social-development datasets, research datasets, indicators and portal-directory reference descriptions; source contents unreviewed",
+      "documentation_url": "https://data.iadb.org/ | https://data.iadb.org/dataset/idb-data-portals | https://www.iadb.org/en/terms-conditions-and-notices/terms-and-conditions",
+      "api_base_url": "https://data.iadb.org/api/3/action/",
+      "format_protocol": "CKAN JSON action API; package_list success true with222 string identifiers",
+      "authentication": "Successful native package_list anonymous; no account/key used",
+      "free_access_restrictions": "Public catalog identifiers retrieved for research; per-record licenses and associated-site terms vary. General owner terms limit otherwise-unspecified material to noncommercial copying/citation",
+      "license": "Mixed per-record rights; portal-directory reference dataset CC BY4; uniform full catalog grant unknown",
+      "license_url": "https://data.iadb.org/dataset/idb-data-portals | https://www.iadb.org/en/terms-conditions-and-notices/terms-and-conditions",
+      "api_verification_state": "Native root/terms/directoryHTTP200HTML; anonymous package_listHTTP200 validCKANJSON success true,222names. No package_show/source arrays/files requested.",
+      "latest_checked_utc": "2026-10-18T16:48:51.238331+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "idigbio",
       "provider": "Integrated Digitized Biocollections (iDigBio)",
       "service_name": "iDigBio Search API v2",
@@ -29490,6 +29552,24 @@
       "license_url": "https://amr.rki.de/Content/Fachinformation/Haftungsausschluss.aspx",
       "api_verification_state": "Native owner documentation/policies200HTML; exact owner-linked GitHub LICENSE and contents API404, no successful data API response",
       "latest_checked_utc": "2026-10-18T05:56:11.272028+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "rmit-institutional-repository",
+      "provider": "RMIT University",
+      "service_name": "RMIT Research Repository Figshare portal",
+      "geographic_coverage": "Australia institutional research; source geographic coverage varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research outputs, publications, data and creative practice descriptions",
+      "documentation_url": "https://www.rmit.edu.au/library/research/research-repository | https://www.rmit.edu.au/library/research/research-repository/research-outputs",
+      "api_base_url": "https://api.figshare.com/v2/oai (sharedregistry endpoint only; institutional set/currentwire unverified)",
+      "format_protocol": "Registry shared FigshareOAI; native owner currentrepository identification, instancewire untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected record licenses including all rights reserved; uniform metadata grant unknown",
+      "license_url": "https://www.rmit.edu.au/library/research/research-repository/research-outputs",
+      "api_verification_state": "Originalportalguard-deferred unsent; independent owner repository/contribution guides200HTML. No instanceOAI/REST response or institutionalfilter tested.",
+      "latest_checked_utc": "2026-10-18T16:48:51.238331+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
