@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T22:03:24.204681+00:00",
+  "published_at": "2026-10-18T22:05:27.189337+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:00:49.040963+00:00",
+  "research_updated_at": "2026-10-18T22:04:55.867411+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine repository/portal reviews: ETH and QsarDB CC0 metadata, IEDB curated BY4, GA named service BY4/ISOJSON, MOST CC0/schema; UNIA404, ScholarsMine gaps, IFREMER/BODC restricted defaults.",
+  "latest_milestone": "Texas defaultCC0/custom/APIterms; IGSregistryNCconflict/nativehold; RosarionamedNC/APIhold; LingnanoperatorCCBYdefault clarified.",
   "counts": {
     "verified": 483,
-    "candidates": 1386,
+    "candidates": 1392,
     "excluded": 403,
     "sample_successes": 464
   },
@@ -24712,6 +24712,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "igs-pas-geological-data-portal",
+      "provider": "Institute of Geological Sciences, Polish Academy of Sciences",
+      "service_name": "IGS PAS Data Portal",
+      "geographic_coverage": "Polish geological research institution, geological/geochemical source scopes vary",
+      "topical_coverage": "geospatial | environment | energy | research",
+      "dataset_families": "Geological/geochemical/biogeosystem research metadata and source deposit descriptions",
+      "documentation_url": "https://dataportal.ing.pan.pl/en/regulations",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://dataportal.ing.pan.pl/en/regulations",
+      "api_verification_state": "Original portal root robots-deferred unsent; samehost regulations deferred. Independent indexed owner institution page links portal, but current exactAPI/base/schema and native grant unverified. No alternate directory-suggested OAI/search endpoint.",
+      "latest_checked_utc": "2026-10-18T22:04:51.187954+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "igs-public-network-api",
       "provider": "International GNSS Service",
       "service_name": "IGS public network metadata API and data distribution discovery",
@@ -26833,6 +26851,24 @@
       "license_url": "https://www.lincoln.ac.nz/assets/PoliciesAndProcedures/Open-Access-Policy-1.pdf",
       "api_verification_state": "Original portal guard-deferred unsent. Independent native owner policyPDF200 and official web document reader reviewed; not a successful portal API response.",
       "latest_checked_utc": "2026-10-18T15:45:57.846459+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lingnan-data-repository",
+      "provider": "Lingnan University Library",
+      "service_name": "Lingnan Data Repository",
+      "geographic_coverage": "HongKong Lingnan institutional research; international source geography varies",
+      "topical_coverage": "research | education | economics | demographics",
+      "dataset_families": "Institutional research dataset/replication metadata, sources independently licensed/access-controlled",
+      "documentation_url": "https://libguides.ln.edu.hk/c.php?g=951769&p=6985634+%7C+https%3A%2F%2Flibguides.ln.edu.hk%2Fc.php%3Fg%3D951769&p=7020082",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://libguides.ln.edu.hk/c.php?g=951769&p=7020082",
+      "api_verification_state": "Repository root robots-deferred unsent. Native library using-datasets guide HTTP200; license guide reviewed separately. General Dataverse framework documentation not actual deployed API proof; no sample source/API runtime.",
+      "latest_checked_utc": "2026-10-18T22:04:51.187954+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33748,6 +33784,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rosario-research-data-repository",
+      "provider": "Universidad del Rosario",
+      "service_name": "Research Data Repository of Universidad del Rosario",
+      "geographic_coverage": "Colombian institutional research, international source scopes vary",
+      "topical_coverage": "research | economics | labor | education | health",
+      "dataset_families": "Research dataset/replication/documentation metadata; source surveys and controlled assets not acquired",
+      "documentation_url": "https://urosario.edu.co/crai/inicio/profesor-investigador | https://research-data.urosario.edu.co/",
+      "api_base_url": "https://research-data.urosario.edu.co/oai (registryreference, unsent under root hold)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Originalroot robots-deferred unsent; OAIIdentify deferred after hostfailure. Institutional indexed research support page confirms repository purpose, not deployedAPI/runtime. GenericREST/SWORDdocs not deploymentproof.",
+      "latest_checked_utc": "2026-10-18T22:04:51.187954+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rosat-mpe-mission-archive",
       "provider": "Max Planck Institute for extraterrestrial Physics",
       "service_name": "ROSAT mission archive discovery",
@@ -35926,6 +35980,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "texas-data-repository",
+      "provider": "Texas Digital Library / participating Texas institutions",
+      "service_name": "Texas Data Repository",
+      "geographic_coverage": "Texas multi-institutional research, source geography varies internationally",
+      "topical_coverage": "research | education | environment | health | economics",
+      "dataset_families": "Multidisciplinary datasets, replication metadata/code/documentation; institutional collections retain distinct identity",
+      "documentation_url": "https://texasdigitallibrary.atlassian.net/wiki/spaces/TDRUD/overview | https://texasdigitallibrary.atlassian.net/wiki/spaces/TDRUD/pages/289079299/Terms%2Bof%2BUse | https://texasdigitallibrary.atlassian.net/wiki/spaces/TDRUD/pages/292094101/Community%2BNorms",
+      "api_base_url": "https://dataverse.tdl.org/oai (registered base, unsent under root hold); REST read base unverified",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native terms discuss API authentication keys; exact anonymous read availability untested, no key/account obtained",
+      "free_access_restrictions": "Public downloads documented; custom access conditions possible. API applications must present general/API terms, obtain user agreement and disclose non-affiliation; no application deployed or agreements executed",
+      "license": "unknown verified data grant",
+      "license_url": "https://texasdigitallibrary.atlassian.net/wiki/spaces/TDRUD/pages/289079299/Terms%2Bof%2BUse",
+      "api_verification_state": "Root robots-deferred unsent and registered OAIIdentify deferred after host failure. Native owner overview/terms/community API terms HTTP200; current API existence documented, actual read runtime/base untested.",
+      "latest_checked_utc": "2026-10-18T22:04:51.187954+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "texas-state-open-data",
       "provider": "Texas Department of Information Resources / State of Texas",
       "service_name": "Texas Open Data Portal",
@@ -37348,6 +37420,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "unifesp-domus-dados",
+      "provider": "Universidade Federal de Sao Paulo",
+      "service_name": "Domus Dados research repository",
+      "geographic_coverage": "Brazilian UNIFESP institutional research; source geography varies",
+      "topical_coverage": "research | education | health | culture",
+      "dataset_families": "Institutional research dataset descriptions and replication metadata; mixed public/embargo/restricted source objects",
+      "documentation_url": "https://domusdados.unifesp.br/",
+      "api_base_url": "https://domusdados.unifesp.br/oai (registry reference, unsent under root hold)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Root robots-deferred unsent; exact registry OAIIdentify deferred unsent after same-host failure. No REST/SWORD/status/backend query or successful API response.",
+      "latest_checked_utc": "2026-10-18T22:03:21.431711+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "unimi-dataverse",
       "provider": "Università degli Studi di Milano",
       "service_name": "Data@UNIMI Dataverse repository",
@@ -37651,6 +37741,24 @@
       "license_url": "https://blogue.uqtr.ca/2023/04/06/strategie-sur-la-gestion-des-donnees-recherche-de-luqtr/",
       "api_verification_state": "Native owner documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
       "latest_checked_utc": "2026-10-18T18:35:33.239653+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uruguay-redata-research-repository",
+      "provider": "ANII / Uruguay",
+      "service_name": "Redata open research data repository",
+      "geographic_coverage": "Uruguayan research institutions; international source geography varies",
+      "topical_coverage": "research | education | agriculture | environment | economics",
+      "dataset_families": "Multidisciplinary research dataset and replication metadata, deposited source objects individually licensed",
+      "documentation_url": "https://redata.anii.org.uy | https://redata.anii.org.uy/REDATA/resources/GuiaDeUsuario%20REDATA.pdf",
+      "api_base_url": "https://redata.anii.org.uy/oai (registry reference, held); exact REST read base unverified",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://redata.anii.org.uy/REDATA/resources/ACUERDO%20DE%20CESION%20NO%20EXCLUSIVA%20DE%20DERECHOS%20REDATA.pdf",
+      "api_verification_state": "RootHTTP200 HTML with JavaScript-required notice; exact registry OAIIdentify robots-deferred unsent. Registry general Dataverse REST/SWORD documentation does not verify current deployment. No successful API response.",
+      "latest_checked_utc": "2026-10-18T22:03:21.431711+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
