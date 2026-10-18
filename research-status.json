@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T13:11:14.740291+00:00",
+  "published_at": "2026-10-18T13:13:17.870338+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:11:14.159598+00:00",
+  "research_updated_at": "2026-10-18T13:12:12.344364+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "HEASARC/TROLLing deduplicated with holds; BfG native REST directory verified and noncommercial portal terms recorded; supplemental references unresolved",
+  "latest_milestone": "Six IRSA interface documentation references reviewed; secondary schema/protocol docs queued, source/runtime scope unresolved",
   "counts": {
     "verified": 412,
     "candidates": 1048,
@@ -9485,13 +9485,13 @@
       "dataset_families": "Public catalogue/image/spectral archives, dust extinction, lightcurves and moving-object services; primaryTAPcapabilities tested, source records unqueried",
       "documentation_url": "https://irsa.ipac.caltech.edu/voapi.html | https://irsa.ipac.caltech.edu/docs/program_interface/TAP.html",
       "api_base_url": "https://irsa.ipac.caltech.edu/TAP/",
-      "format_protocol": "IVOA TAP/ADQL/VOTable; other SCS/SIA/IBE and mission interfaces documented separately, untested",
+      "format_protocol": "TAP/ADQL/VOTable capabilities runtime verified previously; SIA2/SIA1/SSA, IBE, ZTF lightcurve tables, DUSTXML and MOST interfaces documented only",
       "authentication": "Anonymous TAPcapabilities succeeded. Proprietary/exclusive data require login/authorization, excluded; no credentials used.",
       "free_access_restrictions": "unknown source-specific access conditions",
       "license": "Owner public-data terms: no usage restrictions, with explicit proprietary/copyright exceptions",
       "license_url": "https://irsa.ipac.caltech.edu/data_use_terms.html",
       "api_verification_state": "Native root/APIoverview/catalogueguide/TAPguide/terms200HTML; TAPcapabilities200validXML with5capability declarations, no source query/jobs.",
-      "latest_checked_utc": "2026-10-18T13:03:09.774716+00:00",
+      "latest_checked_utc": "2026-10-18T13:12:07.942592+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -22074,8 +22074,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across498successfulpages/498000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T12:53:01.972823+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across512successfulpages/512000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T13:11:38.601108+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
