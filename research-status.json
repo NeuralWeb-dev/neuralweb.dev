@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:45:30.975548+00:00",
+  "published_at": "2026-10-18T00:47:33.391921+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:44:16.048805+00:00",
+  "research_updated_at": "2026-10-18T00:46:11.415913+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Census of Agriculture deduplicated to Quick Stats; MGDS XML sample verified with noncommercial rights; ARChive mixed licences and API hold retained.",
+  "latest_milestone": "Nine original tasks reviewed: eight records added, usda-nass updated; WHOI OAI39 IDs and MGDS XML verified with distinct rights gaps/restrictions.",
   "counts": {
     "verified": 325,
-    "candidates": 681,
+    "candidates": 684,
     "excluded": 176,
     "sample_successes": 469
   },
@@ -440,6 +440,7 @@
           "agdc-geomagnetic-portal",
           "aviso-authenticated-data-services",
           "earthstat-restricted-raster-families",
+          "mgds-seismic-catalog",
           "terrasarx-sar-imagery-access"
         ]
       },
@@ -570,6 +571,7 @@
           "aviso-authenticated-data-services",
           "copernicus-marine",
           "fishbase-programmatic-data",
+          "mgds-seismic-catalog",
           "oceanrep-oai-metadata",
           "worms"
         ]
@@ -842,6 +844,7 @@
           "infra-art-restricted-spectra",
           "intermagnet-geomagnetic-api",
           "ipd-immunopolymorphism-api",
+          "mgds-seismic-catalog",
           "oceanrep-oai-metadata",
           "orcid",
           "phi-base-api",
@@ -870,6 +873,7 @@
         ],
         "candidate_provider_ids": [
           "ahrq-hcupnet-aggregate-statistics",
+          "anes-data-center",
           "california-open-data",
           "edmonton-open-data",
           "nlr-metropolitan-travel-survey-archive",
@@ -986,6 +990,7 @@
           "minneapolis-open-data",
           "montana-state-library-gis-services",
           "montreal-open-data-catalog",
+          "nadp-monitoring-data",
           "neracoos-erddap",
           "north-dakota-gis-hub",
           "nps-irma-resource-services",
@@ -1040,6 +1045,7 @@
           "epa",
           "knb",
           "montana-state-library-gis-services",
+          "nadp-monitoring-data",
           "nashville-open-data",
           "neracoos-erddap",
           "nps-irma-resource-services",
@@ -1334,6 +1340,7 @@
           "registry-data-boston-gov"
         ],
         "candidate_provider_ids": [
+          "anes-data-center",
           "congress",
           "courtlistener",
           "dol-public-data-api",
@@ -1462,6 +1469,7 @@
         ],
         "candidate_provider_ids": [
           "ahrq-hcupnet-aggregate-statistics",
+          "anes-data-center",
           "artic",
           "barrow-area-information-database",
           "bc-conservation-data-centre",
@@ -1478,6 +1486,7 @@
           "knb",
           "ku-scholarworks-repository",
           "loc",
+          "nadp-monitoring-data",
           "neracoos-erddap",
           "nlr-metropolitan-travel-survey-archive",
           "nps-irma-resource-services",
@@ -11222,6 +11231,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "archaeovault",
+      "provider": "Masaryk University / Digitalia MUNI ARTS",
+      "service_name": "ArchaeoVault analytical archaeology repository",
+      "geographic_coverage": "Czech archaeology and Czech research environment; individual deposits vary",
+      "topical_coverage": "culture | geospatial | research",
+      "dataset_families": "Analytical archaeology, laboratory results, anthropological, 3D/geospatial data and databases",
+      "documentation_url": "https://archaeo-vault.cz/en/oai",
+      "api_base_url": "https://archaeo-vault.cz/oai/request",
+      "format_protocol": "Registry OAI-PMH claim; native API documentation is CAPTCHA rather than protocol proof",
+      "authentication": "Public homepage accessible; API documentation challenged, authentication requirements otherwise unknown",
+      "free_access_restrictions": "Operator terms describe public free service with source-specific and sensitive-data restrictions",
+      "license": "unknown verified data grant",
+      "license_url": "https://archaeo-vault.cz/cs/manual | https://digitalia.phil.muni.cz/en/about-us/terms-of-service",
+      "api_verification_state": "Native homepageHTTP200; OAI documentation and manualHTTP200 CAPTCHA, no successful OAI sample",
+      "latest_checked_utc": "2026-10-18T00:45:31.837271+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "argo-gdac-data-interfaces",
       "provider": "International Argo Program / Argo Data Management Team",
       "service_name": "Argo GDAC published data interfaces",
@@ -11939,6 +11966,24 @@
       "license_url": "https://odp-cctegis.opendata.arcgis.com/",
       "api_verification_state": "documented_sample_structured_error_service_not_started",
       "latest_checked_utc": "2026-10-17T13:04:20.730346+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cas-instdb-repository",
+      "provider": "Chinese Academy of Sciences Scientific Data Center / CNIC",
+      "service_name": "Scientific Data Center CAS InstDB repository",
+      "geographic_coverage": "Chinese institutional scientific repository; exact dataset geography unverified",
+      "topical_coverage": "research",
+      "dataset_families": "Institutional scientific data; current family inventory unresolved",
+      "documentation_url": "https://instdb.casdc.cn/home",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native homepageHTTP200 JavaScript shell, not API data response",
+      "latest_checked_utc": "2026-10-18T00:45:31.837271+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16007,6 +16052,24 @@
       "license_url": "https://www.nzpam.govt.nz/maps-geoscience/geodata-catalogue/ | https://www.nzpam.govt.nz/about/copyright",
       "api_verification_state": "documented_key_required_untested_rights_unconfirmed",
       "latest_checked_utc": "2026-10-16T20:12:38.159985+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mblwhoi-dataverse",
+      "provider": "MBLWHOI Library",
+      "service_name": "MBLWHOI Library Dataverse OAI service",
+      "geographic_coverage": "Marine and environmental research across locations; source-specific coverage",
+      "topical_coverage": "oceans | biodiversity | climate/weather/environment | research",
+      "dataset_families": "Oceanographic, marine biological and environmental studies; native and externally harvested datasets",
+      "documentation_url": "https://dataverse.whoi.edu",
+      "api_base_url": "https://dataverse.whoi.edu/oai",
+      "format_protocol": "OAI-PMH XML; five metadata formats advertised",
+      "authentication": "Anonymous Identify, ListMetadataFormats and ListIdentifiers succeeded",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native three OAI verbs HTTP200 valid OAI XML, no protocol errors",
+      "latest_checked_utc": "2026-10-18T00:45:31.837271+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
