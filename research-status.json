@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:46:41.071693+00:00",
-  "job_status": "worker not running",
-  "worker_running": false,
+  "published_at": "2026-10-18T08:48:43.855441+00:00",
+  "job_status": "running",
+  "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:45:56.796518+00:00",
+  "research_updated_at": "2026-10-18T08:48:08.336794+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: MPC metadata JSON/14 API refs, Canadian historical grant unresolved, ChemSpider/Colombia held, Census dedup, proprietary CSD Python API restricted.",
+  "latest_milestone": "VectorSurv agency token restriction and CAIDA mixed AUA verified; BEA dedup, distinct ASRank documented but native guide held.",
   "counts": {
     "verified": 383,
-    "candidates": 953,
-    "excluded": 279,
+    "candidates": 954,
+    "excluded": 281,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -6218,7 +6218,7 @@
       "license": "US public domain unless otherwise stated",
       "license_url": "https://www.bea.gov/index.php/help/faq/145",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:38:13.778221+00:00",
+      "latest_checked_utc": "2026-10-18T08:48:03.625586+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -14123,6 +14123,24 @@
       "license_url": "https://www.data.go.kr/data/15092750/openapi.do | https://www.data.go.kr/data/15056954/openapi.do | https://www.data.go.kr/ugs/selectPortalPolicyView.do",
       "api_verification_state": "official_two_key_required_data_APIs_documented_data_samples_untested_public_catalog_metadata_only_200",
       "latest_checked_utc": "2026-10-17T05:33:21.517005+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "caida-asrank-api",
+      "provider": "CAIDA / University of California San Diego",
+      "service_name": "AS Rank GraphQL and REST API",
+      "geographic_coverage": "Global Internet autonomous systems; actual current source coverage unenumerated",
+      "topical_coverage": "research | transportation/communications",
+      "dataset_families": "Autonomous-system rank and network relationships; source-specific integrated data and provenance require review",
+      "documentation_url": "https://www.caida.org/blog/as-rank-v2-graphql/ | https://api.asrank.caida.org/v2/restful/docs",
+      "api_base_url": "https://api.asrank.caida.org/v2/graphql (native published); REST documentation https://api.asrank.caida.org/v2/restful/docs held",
+      "format_protocol": "Official published GraphQL v2; REST docs requested but held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.caida.org/about/legal/aua/public_aua/",
+      "api_verification_state": "Owner GraphQL announcement200HTML; native REST guide guard-deferred/unsent; no query/backend attempt after hold",
+      "latest_checked_utc": "2026-10-18T08:48:03.625586+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30400,6 +30418,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "caida-research-data-catalog",
+      "provider": "CAIDA / University of California San Diego",
+      "service_name": "CAIDA resource catalog and access-governed datasets",
+      "geographic_coverage": "Global Internet network measurement research; dataset-specific geography varies",
+      "topical_coverage": "research | transportation/communications",
+      "dataset_families": "Internet topology, BGP relationships, network telescope/trace and measurement datasets; individual data/access agreements differ",
+      "documentation_url": "https://catalog.caida.org/ | https://www.caida.org/about/legal/aua/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Some public and some by-request/restricted datasets; access applications/roles and source conditions vary; no agreement/account acquired",
+      "license": "Mixed CAIDA AUA and Public-AUA; master datasets restricted",
+      "license_url": "https://www.caida.org/about/legal/aua/ | https://www.caida.org/about/legal/aua/public_aua/",
+      "api_verification_state": "Native catalog200HTMLshell and both current agreements200read; no catalog API/source runtime sample",
+      "latest_checked_utc": "2026-10-18T08:48:03.625586+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "calgary-prism-scholaris-repository",
       "provider": "University of Calgary Libraries & Cultural Resources",
       "service_name": "PRISM Scholaris institutional repository OAI-PMH",
@@ -34393,6 +34429,24 @@
       "license_url": "https://datamap.pcs.usp.br/project/data-policy",
       "api_verification_state": "Native homepage/policy HTTP200 HTML; no verified public read-only query API",
       "latest_checked_utc": "2026-10-18T01:28:01.145619+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "vectorsurv-agency-api",
+      "provider": "VectorSurv / University of California Davis",
+      "service_name": "VectorSurv agency REST API",
+      "geographic_coverage": "US state/territory vector-control agencies; homepage reports36states/territories, not complete source geography",
+      "topical_coverage": "health | biodiversity | environment | research",
+      "dataset_families": "Agency-managed mosquito/vector surveillance, collections, pools, testing, resistance and sites; public Maps/OpenData distinct scope",
+      "documentation_url": "https://docs.api.vectorsurv.org/ | https://docs.api.vectorsurv.org/authentication/",
+      "api_base_url": "https://api.vectorsurv.org/",
+      "format_protocol": "REST JSON with token; documentation only",
+      "authentication": "Valid agency/user bearer token required for every documented API request; user tokens expire after one hour; agency tokens separate",
+      "free_access_restrictions": "Protected system for authorized individuals and agency-managed data; no public anonymous source-data grant verified. Public Maps/OpenData not declared closed.",
+      "license": "Protected agency system; no verified open data grant",
+      "license_url": "https://vectorsurv.org/policy/termsofuse",
+      "api_verification_state": "Native root/API guide/auth/change policy/terms200HTML; authenticated runtime untested",
+      "latest_checked_utc": "2026-10-18T08:48:03.625586+00:00",
       "classification": "restricted"
     },
     {
