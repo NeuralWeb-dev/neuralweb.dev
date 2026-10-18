@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:00:01.825355+00:00",
+  "published_at": "2026-10-18T20:02:04.895071+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:57:51.368047+00:00",
+  "research_updated_at": "2026-10-18T20:01:57.913504+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GHGA nonpersonalmetadataCCBY/OpenAPI; BSEformatsJSON/grantgap; GUDeCC0/publicAPIgap; BEGDBbulkrestriction; RepisaludOAI/CC0-NCconflict; C19workrefs.",
+  "latest_milestone": "Geodata redistribution/purpose restrictions; Aleia validOAI/similar-service restriction; Nexdata marketplace restricted.",
   "counts": {
-    "verified": 450,
-    "candidates": 1328,
-    "excluded": 383,
+    "verified": 451,
+    "candidates": 1329,
+    "excluded": 386,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -9431,6 +9431,24 @@
       "license_url": "https://fair-forward.github.io/datasets/api/",
       "api_verification_state": "Native docs200; anonymous index200 valid untruncated JSON api_version1.0/versionc5b555cd35188c2e, metadataCC0 repeated. Three declared views indexed, no project/content/contact/source records fetched.",
       "latest_checked_utc": "2026-10-18T07:11:35.909429+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "fairdata-metax",
+      "provider": "CSC / Finnish Ministry of Education and Culture",
+      "service_name": "Fairdata Metax V3 metadata API",
+      "geographic_coverage": "Finnish research metadata, all disciplines; source geography varies",
+      "topical_coverage": "research | education | climate/weather/environment",
+      "dataset_families": "Published Etsin dataset descriptions and metadata reference vocabularies; source files separate",
+      "documentation_url": "https://www.fairdata.fi/en/metax/ | https://metax.fairdata.fi/v3/docs/",
+      "api_base_url": "https://metax.fairdata.fi/v3/",
+      "format_protocol": "REST JSON; Swagger2.0 schema",
+      "authentication": "Anonymous schema succeeded; public metadata/read-only reference access documented, protected write/auth/file operations not used",
+      "free_access_restrictions": "Published metadata openly availableCC0 under current terms. Accounts/storage/IDA quotas and restricted sourcefiles separate; exact API rate/tier limits unknown.",
+      "license": "CC0 published Etsin metadata; data files independently licensed",
+      "license_url": "https://www.fairdata.fi/en/fairdata-tou/",
+      "api_verification_state": "Native root/Metax/currentterms/V3docsHTTP200. Anonymous Swagger?format=openapiHTTP200validSwagger2.0JSON,114paths. No dataset/file/person/auth/RPC/write request.",
+      "latest_checked_utc": "2026-10-18T20:00:35.973440+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23872,6 +23890,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "indigeo-spatial-portal",
+      "provider": "CNRS LETG / IUEM and partners",
+      "service_name": "Indigeo spatial data portal",
+      "geographic_coverage": "Western France environmental/coastal research; partner coverage varies",
+      "topical_coverage": "geospatial | oceans | water | climate/weather/environment | research",
+      "dataset_families": "Environmental geospatial metadata, coastal change and research observation descriptions",
+      "documentation_url": "https://portail.indigeo.fr/geonetwork/doc/api/index.html | https://letg.cnrs.fr/accompagnement/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original portal request timedout/failed; same-host API documentation deferred unsent. Independent LETGowner request also guard/failure held; indexed owner documentation reviewed separately. No activeAPIproven.",
+      "latest_checked_utc": "2026-10-18T20:00:35.973440+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "indonesia",
       "provider": "Satu Data Indonesia",
       "service_name": "Satu Data Indonesia open data portal",
@@ -28224,7 +28260,7 @@
       "license": "NIST non-SRD employee-data reuse grant documented; exact metadata/third-party-source scope unconfirmed; SRD may be copyrighted",
       "license_url": "https://www.nist.gov/open/license",
       "api_verification_state": "native_API_reference_JSON_array_success12entries11unique_full_OpenAPI_verified_metadata_grant_scope_unconfirmed",
-      "latest_checked_utc": "2026-10-17T16:42:42.064274+00:00",
+      "latest_checked_utc": "2026-10-18T20:00:35.973440+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -38868,6 +38904,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "aleia-ibict-repository",
+      "provider": "Instituto Brasileiro de Informação em Ciência e Tecnologia",
+      "service_name": "Aleia research metadata OAI service",
+      "geographic_coverage": "Brazil IBICT research; source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Information-science, government, technology, sustainability, teaching and societal research descriptions",
+      "documentation_url": "https://aleia.ibict.br/ | https://aleia.ibict.br/assets/pdf/BS18_2024_Aleia.pdf",
+      "api_base_url": "https://aleia.ibict.br/oai",
+      "format_protocol": "OAI-PMH XML; REST/SWORD registryclaims untested",
+      "authentication": "Anonymous original OAI Identify succeeded; private/deposit/file operations untested",
+      "free_access_restrictions": "Public metadata browsing documented; per-datasetCCBY/NC/NCSA or specifiedterms; similar database/service requires prior administration authorization",
+      "license": "Mixed per-source CC licenses; platform similar-database/service reuse restricted",
+      "license_url": "https://aleia.ibict.br/assets/pdf/BS18_2024_Aleia.pdf",
+      "api_verification_state": "Native root/policyPDFHTTP200; original OAIIdentifyHTTP200validatedXML/noerror. No REST/SWORD/deposit/source request.",
+      "latest_checked_utc": "2026-10-18T20:01:53.408265+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "alspac-cohort-access-portal",
       "provider": "University of Bristol",
       "service_name": "ALSPAC cohort data access portal (restricted; public data API not established)",
@@ -39927,6 +39981,24 @@
       "license_url": "https://www.chicago.gov/city/en/narr/foia/data_disclaimer.html",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-17T05:51:35.595378+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "china-earth-system-geodata",
+      "provider": "National Earth System Science Data Center",
+      "service_name": "Geodata.cn earth-system data portal",
+      "geographic_coverage": "China earth-system research with international-source links; coverage per collection",
+      "topical_coverage": "geospatial | climate/weather/environment | water | research",
+      "dataset_families": "Earth-system and geoscientific resource descriptions; actual observations unqueried",
+      "documentation_url": "https://www.geodata.cn/ | https://www.geodata.cn/help/useRole.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "General policy requires approved-purpose use and attribution/results submission; exact registration/API/free-tier quotas unknown",
+      "license": "General limited nonexclusive use; redistribution prohibited; purpose-bound access",
+      "license_url": "https://www.geodata.cn/help/useRole.html",
+      "api_verification_state": "Native root/termsHTTP200. Public queryAPI/base/auth contract unverified; HTML portal and download links not APIproof.",
+      "latest_checked_utc": "2026-10-18T20:01:53.408265+00:00",
       "classification": "restricted"
     },
     {
@@ -43311,6 +43383,24 @@
       "license_url": "https://www.newpsy4u.eu/",
       "api_verification_state": "Original root guard-deferred before target; indexed primary terms reviewed only. Exact public API/schema/active endpoint unknown, no www/WordPress/backend alternative.",
       "latest_checked_utc": "2026-10-18T11:53:32.279752+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nexdata-commercial-data",
+      "provider": "Nexdata Technology Inc",
+      "service_name": "Nexdata data licensing marketplace",
+      "geographic_coverage": "International commercial AI training-data marketplace; geographic license terms per product",
+      "topical_coverage": "research | transportation | health | culture",
+      "dataset_families": "Speech, images, OCR, language, point-cloud and multimodal product descriptions; files excluded",
+      "documentation_url": "https://www.nexdata.ai/ | https://www.nexdata.ai/legal/terms-of-service",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Commercial quotes/orders/licensing separate; public marketing access not open data grant; exact API tiers/quotas unknown",
+      "license": "Website personal noncommercial limited/revocable/nontransferable license; commercial products separately contracted",
+      "license_url": "https://www.nexdata.ai/legal/terms-of-service",
+      "api_verification_state": "Native root/termsHTTP200substantive. No public readAPI/license-free programmatic collection established; no APIinferred from marketplace/download availability.",
+      "latest_checked_utc": "2026-10-18T20:01:53.408265+00:00",
       "classification": "restricted"
     },
     {
