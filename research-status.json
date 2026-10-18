@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T17:38:11.336533+00:00",
+  "published_at": "2026-10-18T17:40:14.498313+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:38:08.590849+00:00",
+  "research_updated_at": "2026-10-18T17:38:37.281373+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UNSWorks native OAI identity/license version gaps; OMNI SPDF defaultCC0/native API gap; DataverseNL legalPDF/readerblocked/inheritedhold.",
+  "latest_milestone": "Six originals/five newservices: CSIROdedup; Yabelanaholds; Tigraysystematic-retrieval/NC restrictions; UNSWorksOAIidentity; OMNICC0source/APIgap; DataverseNLlegalPDF/readerblocked; MDZ969000incomplete.",
   "counts": {
     "verified": 441,
     "candidates": 1208,
@@ -3121,6 +3121,7 @@
           "cranfield-cord-ceres",
           "czech-national-corpus-fcs",
           "daks-kassel-research-repository",
+          "dataversenl-central-repository",
           "digitum-murcia-public-metadata",
           "dmu-institutional-figshare",
           "edina-research-service-portal",
@@ -3896,6 +3897,7 @@
           "dans-life-sciences-station",
           "dans-physical-technical-station",
           "datapb-ufpb-dataverse",
+          "dataversenl-central-repository",
           "digitum-murcia-public-metadata",
           "direno-lower-austria-repository",
           "discuss-data-repository",
@@ -4453,7 +4455,8 @@
           "pretoria-institutional-figshare",
           "rhodes-research-data",
           "stellenbosch-sunscholardata",
-          "ufs-institutional-figshare"
+          "ufs-institutional-figshare",
+          "ukzn-yabelana-data"
         ],
         "restricted_provider_ids": [
           "uct-zivahub"
@@ -4591,6 +4594,7 @@
           "trr228-african-futures-database",
           "ucla-social-science-dataverse",
           "ufs-institutional-figshare",
+          "ukzn-yabelana-data",
           "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
@@ -5628,6 +5632,7 @@
           "rmit-institutional-repository",
           "swinburne-figshare",
           "trove-cultural-discovery-api",
+          "unsworks-repository",
           "victoria-datavic"
         ],
         "restricted_provider_ids": [
@@ -5841,7 +5846,8 @@
           "rmit-institutional-repository",
           "spc-pccos-tds",
           "te-papa",
-          "trove-cultural-discovery-api"
+          "trove-cultural-discovery-api",
+          "unsworks-repository"
         ],
         "restricted_provider_ids": [
           "australian-national-corpus-restricted",
@@ -5899,7 +5905,8 @@
           "spc-pccos-tds",
           "swinburne-figshare",
           "te-papa",
-          "trove-cultural-discovery-api"
+          "trove-cultural-discovery-api",
+          "unsworks-repository"
         ],
         "restricted_provider_ids": [
           "australian-national-corpus-restricted",
