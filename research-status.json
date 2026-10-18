@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T03:00:31.526857+00:00",
+  "published_at": "2026-10-18T03:02:34.325172+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:59:35.939400+00:00",
+  "research_updated_at": "2026-10-18T03:01:59.428646+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original institutional/biochemical discovery tasks reviewed; three scoped-open and six candidates added. TU Wien CC0metadata/APIheld; BRENDA/M-CSA currentBY4/nativeJSON verified.",
+  "latest_milestone": "NCBI Genome indexed official API/source-rights review with prior holds; TaiwanFish identity challenge preserved; miRBase publicdomain grant verified but exactAPI pending.",
   "counts": {
     "verified": 343,
-    "candidates": 757,
+    "candidates": 760,
     "excluded": 213,
     "sample_successes": 468
   },
@@ -17600,6 +17600,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mirbase-microrna-resource",
+      "provider": "University of Manchester / miRBase",
+      "service_name": "miRBase microRNA database access candidate",
+      "geographic_coverage": "Cross-organism microRNA annotations; biological rather than administrative geographic coverage",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "microRNA nomenclature, hairpin/mature sequence annotations, genome-coordinate distributions and historical releases; references only, no sourcefiles",
+      "documentation_url": "https://www.mirbase.org/help/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Owner current licence says provided at no cost; exact query API availability/auth/quotas unknown",
+      "license": "Public domain; explicit permission to modify, redistribute or use for any purpose",
+      "license_url": "https://mirbase.org/download/CURRENT/LICENSE/",
+      "api_verification_state": "Native home/help/download guide/LICENSE200HTML/plaintext. Browser search and FTP/file links are documented, but no public machine query API documented or sampled.",
+      "latest_checked_utc": "2026-10-18T03:01:55.096372+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mit-timdex",
       "provider": "MIT Libraries",
       "service_name": "TIMDEX discovery GraphQL API",
@@ -17993,6 +18011,24 @@
       "license_url": "https://gobiernoabierto.navarra.es/aviso-legal",
       "api_verification_state": "official_current_API_documented_original_origin_and_legal_policy_held",
       "latest_checked_utc": "2026-10-17T10:36:21.392581+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ncbi-genome-datasets",
+      "provider": "NCBI / National Library of Medicine",
+      "service_name": "NCBI Genome / Datasets v2 genome API family",
+      "geographic_coverage": "Global cross-organism submitted genome assemblies; exact source/dataset scope varies",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Genome assembly metadata/reports and genomic data packages; not PubMed literature, Virus-only family, MMDB or controlled dbGaP",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/datasets/docs/v2/api/",
+      "api_base_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/; documented shared API, no genome-path runtime test",
+      "format_protocol": "Official indexed owner docs advertise Datasets v2 REST API/OpenAPI3; FTP is a separate distribution and not API proof",
+      "authentication": "Official indexed owner API key guide describes optional enhanced key access; no keys/accounts used, exact unauthenticated genome runtime untested",
+      "free_access_restrictions": "Public documentation; exact source rights and operational access unresolved. Controlled/participant data outside this review",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "api_verification_state": "Live official indexed API/key/policy documentation reviewed only. Prior NCBI Bookshelf/Eutilities challenges/contact holds preserved; no NCBI/API/FTP/mirror/CLI/genomic data requests this batch.",
+      "latest_checked_utc": "2026-10-18T03:01:55.096372+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21935,6 +21971,24 @@
       "license_url": "https://data.gov.tw/dataset/6069",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:37.662144+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "taiwan-fish-database",
+      "provider": "Academia Sinica / Taiwan Fish Database",
+      "service_name": "Fish Database of Taiwan portal candidate",
+      "geographic_coverage": "Taiwan fish biodiversity; exact current species/dataset coverage unresolved",
+      "topical_coverage": "biodiversity | oceans | research",
+      "dataset_families": "Fish taxonomy/species and associated descriptive resources; no images/occurrences/source records acquired",
+      "documentation_url": "https://fishdb.sinica.edu.tw/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root200 identity-verification/CAPTCHA login page, not successful data/API response. No further host/path/backend, legacy-site data or verification/account requests.",
+      "latest_checked_utc": "2026-10-18T03:01:55.096372+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
