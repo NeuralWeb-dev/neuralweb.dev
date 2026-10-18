@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:18:29.042938+00:00",
+  "published_at": "2026-10-18T15:20:32.670932+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:17:43.028928+00:00",
+  "research_updated_at": "2026-10-18T15:20:12.579936+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Bamberg/OEDataRep nativeOAI verified with scope-specific licensing uncertainty; Auckland institutional portal guard/native owner guidance",
+  "latest_milestone": "Six originals: Bamberg/OEDataRep nativeOAI with scopedlicense uncertainty; Auckland/Brunel/Salford/Melbourne institutional Figshare rights/holds separate; MDZ744000 incomplete.",
   "counts": {
     "verified": 432,
-    "candidates": 1107,
+    "candidates": 1110,
     "excluded": 328,
     "sample_successes": 464
   },
@@ -5371,7 +5371,9 @@
         "candidate_provider_ids": [
           "acu-research-bank",
           "anu-data-commons-repository",
+          "auckland-institutional-figshare",
           "data-wa-catalogue-api",
+          "melbourne-institutional-figshare",
           "nsw-open-data-catalog",
           "pacific-data",
           "pacific-stat",
@@ -5572,10 +5574,12 @@
         ],
         "candidate_provider_ids": [
           "acu-research-bank",
+          "auckland-institutional-figshare",
           "brisbane-open-data",
           "csiro-data-access-portal",
           "data-wa-catalogue-api",
           "landcare-research-datastore",
+          "melbourne-institutional-figshare",
           "pacific-stat",
           "qspatial-csw-catalog",
           "rcc-acis-web-services",
@@ -5607,6 +5611,7 @@
           "anu-data-commons-repository",
           "anzctr-trial-registry",
           "aodn-marine-data-services",
+          "auckland-institutional-figshare",
           "auscope-earthbank",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
@@ -5618,6 +5623,7 @@
           "human-mortality-database",
           "ipni-linked-data-access",
           "landcare-research-datastore",
+          "melbourne-institutional-figshare",
           "nci-australia-data-catalogue",
           "nz-iponz",
           "ozflux-data-portal",
@@ -14834,7 +14840,7 @@
       "license": "Selected per-item licenses; institution-wide metadata reuse grant unknown",
       "license_url": "https://www.auckland.ac.nz/en/research/research-resources/research-data/publishing-research-data/institutional-figshare.html",
       "api_verification_state": "Institutional root guard-deferred unsent; independent native university guidance200HTML confirms portal/API existence for upload workflows, not successful public-read/schema response.",
-      "latest_checked_utc": "2026-10-18T15:17:36.971130+00:00",
+      "latest_checked_utc": "2026-10-18T15:19:12.276089+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15609,6 +15615,24 @@
       "license_url": "",
       "api_verification_state": "untested_policy_restricted",
       "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "brunel-institutional-figshare",
+      "provider": "Brunel University of London",
+      "service_name": "Brunel Figshare",
+      "geographic_coverage": "UKinstitutionalresearch; actualdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research datasets, code, figures, creative/digital outputs and associated metadata; exactinventoryunverified",
+      "documentation_url": "https://www.brunel.ac.uk/life/library/ORR/The-Research-Data-Management-Service",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution11/portal11 registryfilter unverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaim; no currentportal-specificpayload/schema",
+      "authentication": "No credentialsused; institutionalpublicreadAPIauthunresolved, depositionseparate",
+      "free_access_restrictions": "Selectedlicenses/access andpossibleembargo/mediatedrecords; completeinventoryunreviewed",
+      "license": "Unknown metadata-wide grant; per-item reuse license",
+      "license_url": "https://www.brunel.ac.uk/life/library/ORR/The-Research-Data-Management-Service",
+      "api_verification_state": "Nativeowner200 confirmsinstitutionalrepository/DOI/selectedreuselicenses/lightcuration; notblanketmetadatagrant. Originalportalrootguard-deferredbeforetransmission; no successfulportal-specificAPIresponse.",
+      "latest_checked_utc": "2026-10-18T15:19:12.276089+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23293,8 +23317,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across730successfulpages/730000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T15:13:10.650261+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across744successfulpages/744000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T15:19:21.162462+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23331,6 +23355,24 @@
       "license_url": "https://medical-data-models.org/help",
       "api_verification_state": "Native OpenAPI HTTP 200 valid JSON, five GET operations; no model data API request",
       "latest_checked_utc": "2026-10-18T03:31:50.601115+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "melbourne-institutional-figshare",
+      "provider": "University of Melbourne",
+      "service_name": "Melbourne Figshare institutional data repository",
+      "geographic_coverage": "Australianinstitutionalresearch; actualdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research datasets, code, figures, creative/digital outputs and associated metadata; exactinventoryunverified",
+      "documentation_url": "https://library.unimelb.edu.au/Digital-Scholarship/melbourne-figshare/melbourne-figshare-digital-repository-deposit-terms-and-conditions",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution8/portal8 registryfilter unverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaim; no currentportal-specificpayload/schema",
+      "authentication": "No credentialsused; institutionalpublicreadAPIauthunresolved, depositionseparate",
+      "free_access_restrictions": "Selectedlicenses/access andpossibleembargo/mediatedrecords; completeinventoryunreviewed",
+      "license": "Selected reuse licenses/access; metadata-wide grant unknown",
+      "license_url": "https://library.unimelb.edu.au/Digital-Scholarship/melbourne-figshare/melbourne-figshare-digital-repository-deposit-terms-and-conditions",
+      "api_verification_state": "Original institutionalroot andindependentgenerallibrarytermsguard-deferred; indexed officialdepositagreement reviewed. No nativeAPI/schema/grantresponse. Originalportalrootguard-deferredbeforetransmission; no successfulportal-specificAPIresponse.",
+      "latest_checked_utc": "2026-10-18T15:19:12.276089+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28659,6 +28701,24 @@
       "license_url": "https://libguides.smu.ca/rdm/libraryhelp",
       "api_verification_state": "Native institutional library documentation HTTP200; inherited Borealis API hold preserved, no repository/OAI/REST/SWORD request",
       "latest_checked_utc": "2026-10-18T06:31:34.057620+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "salford-institutional-figshare",
+      "provider": "University of Salford",
+      "service_name": "Salford Figshare Research Data Repository",
+      "geographic_coverage": "UKinstitutionalresearch; actualdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional research datasets, code, figures, creative/digital outputs and associated metadata; exactinventoryunverified",
+      "documentation_url": "https://www.salford.ac.uk/library/open-research/research-data-management/data-deposit-agreement",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution75/portal75 registryfilter unverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaim; no currentportal-specificpayload/schema",
+      "authentication": "No credentialsused; institutionalpublicreadAPIauthunresolved, depositionseparate",
+      "free_access_restrictions": "Selectedlicenses/access andpossibleembargo/mediatedrecords; completeinventoryunreviewed",
+      "license": "Mixed per-work licenses including NC/ND; metadata-wide grant unknown",
+      "license_url": "https://www.salford.ac.uk/library/open-research/research-data-management/data-deposit-agreement",
+      "api_verification_state": "Native depositagreement200HTML reviewed: selectedlicenseappliestoWork(includingmetadata), unlessotherwiseagreed; notuniversalopenlicense. Originalportalrootguard-deferredbeforetransmission; no successfulportal-specificAPIresponse.",
+      "latest_checked_utc": "2026-10-18T15:19:12.276089+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
