@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T11:43:00.780229+00:00",
+  "published_at": "2026-10-18T11:45:04.312180+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:42:50.168052+00:00",
+  "research_updated_at": "2026-10-18T11:44:22.983517+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to396pages/396000refs;2817503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Six originals: LAADS Classic retired/V2schema500; meteorite403; STOmicsDB purpose/retention conditions; SupraBankheld; PAINTstaticSTAC/CDLA2verified; KITAPIdeactivated; MDZ396000refs incomplete.",
   "counts": {
     "verified": 397,
     "candidates": 1028,
@@ -170,6 +170,7 @@
           "ncar-ucar-dash-search",
           "noaa-cdr-thredds",
           "noaa-ncep-nomads",
+          "paint-csp-stac",
           "pangaea",
           "toar-surface-observation-api",
           "usgs-earthquake",
@@ -225,6 +226,7 @@
           "mumbai-geomagnetism-data-centre",
           "nasa-api",
           "nasa-asdc-services",
+          "nasa-laads-api-v2",
           "nasa-open-data-catalog",
           "nasa-power",
           "nced-data-repository",
@@ -350,6 +352,7 @@
           "eia",
           "esgf-cmip5-discovery",
           "met-norway-weather-api",
+          "paint-csp-stac",
           "worldbank-catalog"
         ],
         "candidate_provider_ids": [
@@ -433,6 +436,7 @@
           "jgi-gold-api",
           "openaq",
           "phi-base-api",
+          "stomicsdb-spatial-omics",
           "who",
           "who-icd-api",
           "xenbase-model-organism-services"
@@ -588,6 +592,7 @@
           "mgds-marine-geoscience-services",
           "mit-timdex",
           "mumbai-geomagnetism-data-centre",
+          "nasa-laads-api-v2",
           "nced-data-repository",
           "nlr-geospatial-data-services",
           "noaa-class-environmental-archive",
@@ -737,6 +742,7 @@
           "ndsf-data-access-portal",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
+          "stomicsdb-spatial-omics",
           "worms",
           "xenbase-model-organism-services"
         ]
@@ -997,6 +1003,7 @@
           "opencitations",
           "opencontext",
           "opentree-public-api",
+          "paint-csp-stac",
           "pangaea",
           "pdb",
           "platemark-public-dossier-api",
@@ -1106,6 +1113,7 @@
           "muenster-datastore-rest",
           "mumbai-geomagnetism-data-centre",
           "nasa-asdc-services",
+          "nasa-laads-api-v2",
           "nasa-open-data-catalog",
           "nasa-pds-search-api",
           "nasa-sdac-solar-data-discovery",
@@ -1207,6 +1215,7 @@
           "res3t-sorption-thermodynamics",
           "senckenberg-research-metadata-portal",
           "silso-sunspot-data",
+          "stomicsdb-spatial-omics",
           "terrasarx-sar-imagery-access",
           "terrasarx-tor-rso-archive",
           "un-comtrade",
@@ -2561,6 +2570,7 @@
           "netherlands-catalog-metadata",
           "noi-opendatahub-metadata",
           "opendata-dk",
+          "paint-csp-stac",
           "palermo-open-data",
           "piemonte-opendata-catalog",
           "poland-bdl",
@@ -2707,6 +2717,7 @@
           "met-norway-weather-api",
           "netherlands-catalog-metadata",
           "oulu-open-data-api",
+          "paint-csp-stac",
           "piemonte-opendata-catalog",
           "poland-bdl",
           "slovenia-statistics",
@@ -2777,6 +2788,7 @@
           "drks-german-clinical-trials-register",
           "german-cancer-registry-data-centre",
           "human-mortality-database",
+          "kit-whole-body-motion",
           "latvia-statistics",
           "lithuania-statistics",
           "navarra-open-data",
@@ -3502,6 +3514,7 @@
           "onb-webarchive",
           "oulu-open-data-api",
           "oxford-ora-metadata",
+          "paint-csp-stac",
           "piemonte-opendata-catalog",
           "poland-bdl",
           "radar-public-metadata",
@@ -3579,6 +3592,7 @@
           "ioerdata-spatial-research-portal",
           "kielipankki-fcs",
           "kielipankki-korp-api",
+          "kit-whole-body-motion",
           "kpbc-digital-library",
           "ksamsok",
           "lifewatch-metadata-catalogue",
@@ -3609,6 +3623,7 @@
           "saarland-clarind-language-repository",
           "saw-leipzig-fcs",
           "seadatanet-cdi-discovery-network",
+          "suprabank-intermolecular-interactions",
           "surf-data-repository",
           "swissubase-oai",
           "tethys-geosphere-oai",
@@ -4529,7 +4544,9 @@
           "proteomexchange-proteomecentral",
           "ucla-social-science-dataverse"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "stomicsdb-spatial-omics"
+        ]
       },
       "education": {
         "status": "partial_verified",
@@ -4634,7 +4651,9 @@
           "proteomexchange-proteomecentral",
           "taiwan-fish-database"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "stomicsdb-spatial-omics"
+        ]
       },
       "oceans": {
         "status": "partial_candidates_only",
@@ -4706,7 +4725,8 @@
           "cinii-research",
           "nii-idr-restricted-dataset-service",
           "social-science-japan-data-archive",
-          "southeast-asian-climate-assessment-dataset"
+          "southeast-asian-climate-assessment-dataset",
+          "stomicsdb-spatial-omics"
         ]
       }
     },
