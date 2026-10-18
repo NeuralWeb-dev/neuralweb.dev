@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T13:19:26.728897+00:00",
+  "published_at": "2026-10-18T13:21:30.005402+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:18:08.896301+00:00",
+  "research_updated_at": "2026-10-18T13:20:36.127603+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to527pages/527000refs;2686503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "LIBCC0metadata/NCtermsconflict;CancerModelsBioStudiesmigrationdedup;GFCBY4/EEschemaverified,conditionalfreeauth",
   "counts": {
-    "verified": 413,
-    "candidates": 1052,
+    "verified": 414,
+    "candidates": 1053,
     "excluded": 310,
     "sample_successes": 464
   },
@@ -9031,6 +9031,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "glad-global-forest-change-api",
+      "provider": "University of Maryland GLAD / Google Earth Engine hosting",
+      "service_name": "Global Forest Change portal and Earth Engine v1 access",
+      "geographic_coverage": "Global Landsat forest cover/change; v1.13 covers2000–2025, per-band definitions and limits retained",
+      "topical_coverage": "environment | climate | geospatial | biodiversity | research",
+      "dataset_families": "HansenGlobalForestChangev1.13 treecover2000/forestloss/gain/lossyear/data-quality bands; not allEarthEngine datasets cleared",
+      "documentation_url": "https://developers.google.com/earth-engine/reference/rest | https://developers.google.com/earth-engine/guides/access | https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13",
+      "api_base_url": "https://earthengine.googleapis.com/v1/",
+      "format_protocol": "EarthEngineRESTv1 JSON/Discoverydocument; no raster/asset/source request",
+      "authentication": "APIcalls requireOAuth2 and registeredCloudproject withenabledAPI andappropriatepermissions. AnonymousDiscoveryJSONsucceeded; authenticatedasset/sampleuntested, no keys/accounts/projects created.",
+      "free_access_restrictions": "DataBY4 permitscommercialreuse; EarthEngine APIservicefreeforqualifiedresearch/education/nonprofit(noncommercialregistration/verification/tierconditions), commercialsubscriptionpaid. No paidaccess/acquisition oreligibilityclaimforuser. Registeredprojectrequired; nativeaccessguide says noncommercialproject no billingconfigurationrequired.",
+      "license": "CC BY4.0 for specific HansenGlobalForestChangev1.13 dataset",
+      "license_url": "https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13",
+      "api_verification_state": "NativeGFCapp200HTMLshell, datasetterms/APIreference/accessguide200HTML; exactpublishedv1DiscoveryGET200validJSON109schemas, OAuth2declared. API operation/inputschema verified only, no authenticatedGFCdata call.",
+      "latest_checked_utc": "2026-10-18T13:20:30.268074+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "gleif",
       "provider": "Global Legal Entity Identifier Foundation (GLEIF)",
       "service_name": "GLEIF LEI Reference Data API",
@@ -14726,7 +14744,7 @@
       "service_name": "EMBL-EBI BioStudies public metadata APIs",
       "geographic_coverage": "Global; biological studies and publication-linked supplementary datasets",
       "topical_coverage": "research; health; biodiversity",
-      "dataset_families": "Publication-associated biological study metadata and supplementary-data references; ArrayExpress,EuropePMC and other native collections indexed separately",
+      "dataset_families": "Publication-associated biological study metadata and supplementary-data references; ArrayExpress,EuropePMC and other native collections indexed separately; CancerModelsOrg collection now native redirected destination",
       "documentation_url": "https://www.ebi.ac.uk/biostudies/help/help.html",
       "api_base_url": "https://www.ebi.ac.uk/biostudies/api/v1/",
       "format_protocol": "REST/JSON;PageTab study structures;publiccollectionsearch metadata",
@@ -14734,8 +14752,8 @@
       "free_access_restrictions": "Public study metadata accessible withoutlogin; terms/data-owner-rights apply; no generalunrestrictedcorpusgrant established",
       "license": "Per-study License field; otherwise EMBL-EBI terms retain original owner rights",
       "license_url": "https://www.ebi.ac.uk/biostudies/help/help.html | https://www.ebi.ac.uk/about/terms-of-use/",
-      "api_verification_state": "actual_public_search_and_collection_JSON_metadata_sample_success",
-      "latest_checked_utc": "2026-10-17T02:19:05.609114+00:00",
+      "api_verification_state": "actual_public_search_and_collection_JSON_metadata_sample_success; additionalCancerModels.Orgrootredirect200BioStudiesHTMLcollection, not newAPIoperationresponse",
+      "latest_checked_utc": "2026-10-18T13:20:30.268074+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21648,6 +21666,24 @@
       "license_url": "https://data.lexingtonky.gov/api/search/v1",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
       "latest_checked_utc": "2026-10-17T07:10:54.816170+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lib-zfmk-biodiversity-datacenter",
+      "provider": "Leibniz Institute for the Analysis of Biodiversity Change / former ZFMK",
+      "service_name": "LIB Biodiversity Datacenter metadata and stable identifier interfaces",
+      "geographic_coverage": "LIB/ZFMK and partner natural history collections; international biodiversity research, exact coverage per collection",
+      "topical_coverage": "biodiversity | research | environment",
+      "dataset_families": "Natural history collection metadata, research metadata and versioned biodiversity dataset publication; specimen/media/source licences separate",
+      "documentation_url": "https://datacenter.leibniz-lib.de/wiki/dataflow%3Ageneral_dataflow",
+      "api_base_url": "https://id.zfmk.de/collection_zfmk/ | https://id.zfmk.de/collection_GFBIO/ (owner documented, unrequested)",
+      "format_protocol": "Owner documents machine-readable APIs/CETAF stableidentifiers and BioCASe/ABCD2.1 publication; exact format/runtimeunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "PublishedmetadataCC0 explicit but generalnoncommercialserviceclause unresolved; embargoes and source rights separate. Deposit5GBfree not retrievalquota.",
+      "license": "Explicit publishedmetadataCC0 1.0; generic noncommercial service clause creates unresolved scope tension; source-specific rights",
+      "license_url": "https://datacenter.leibniz-lib.de/wiki/terms_of_use | https://datacenter.leibniz-lib.de/wiki/datapolicy | https://datacenter.leibniz-lib.de/wiki/dataflow%3Ageneral_dataflow",
+      "api_verification_state": "OriginalZFMKdepartmentURL404, notproofdatacenter/APIabsent. IndependentreplacementinstitutionalLIBpolicy/dataflow/terms200HTML explicitlydocumentAPIs. Noalternateid.zfmk/backend/source request afteroriginalfailure; machine runtimeuntested.",
+      "latest_checked_utc": "2026-10-18T13:20:30.268074+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
