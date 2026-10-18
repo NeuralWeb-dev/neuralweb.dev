@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:04:02.447555+00:00",
+  "published_at": "2026-10-18T15:06:05.381756+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:02:38.682363+00:00",
+  "research_updated_at": "2026-10-18T15:04:17.908899+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: Opole nativeNC; UNISIMON portal facets/APIguard; classicFCP/PCODR/OSSR/Maenduar dedup with scopedrights; MDZ704000 incomplete.",
+  "latest_milestone": "ELI originalguard/nativeTCArightsunknown; Innsbruck nativeOAI/rightsunknown; FreiData nativeCC0metadata/OAI verified",
   "counts": {
-    "verified": 429,
-    "candidates": 1096,
+    "verified": 430,
+    "candidates": 1098,
     "excluded": 328,
     "sample_successes": 464
   },
@@ -8982,6 +8982,24 @@
       "license_url": "https://www.ub.uni-frankfurt.de/benutzung/digitalisierungsservice.html",
       "api_verification_state": "native_CC0_metadata_grant_and_primary_indexed_OAI_example_documented_runtime_held_browser_challenge",
       "latest_checked_utc": "2026-10-17T23:25:42.227565+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "freidata-repository",
+      "provider": "University of Freiburg / Computer Centre",
+      "service_name": "FreiData research repository metadata API",
+      "geographic_coverage": "German institutional research; exactdatasetgeography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Descriptive metadata for multidisciplinary archived research data packages; files separately licensed/accesscontrolled",
+      "documentation_url": "https://freidata.uni-freiburg.de/data-submission-agreement | https://freidata.uni-freiburg.de/data-access-agreement",
+      "api_base_url": "https://freidata.uni-freiburg.de/oai2d",
+      "format_protocol": "OAI-PMH2XML verified; REST registryclaim separateuntested",
+      "authentication": "Anonymous OAIIdentify200; reservedfiles requirepermission/registration orShibboleth",
+      "free_access_restrictions": "Native accessagreement no charge forresearch/download; files vary byproviderpermission/embargo",
+      "license": "CC0 1.0 descriptive metadata; sourcefiles per-provider licenses/access",
+      "license_url": "https://freidata.uni-freiburg.de/data-submission-agreement | https://freidata.uni-freiburg.de/data-access-agreement",
+      "api_verification_state": "Native anonymous OAIIdentify200validXML; native submission/accessagreements200HTML reviewed. Metadata opengrant verified, no source/datarecordquery.",
+      "latest_checked_utc": "2026-10-18T15:04:13.007755+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18851,6 +18869,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eli-eric-data-repository",
+      "provider": "Extreme Light Infrastructure ERIC",
+      "service_name": "ELI ERIC Open Data Repository",
+      "geographic_coverage": "European laser-facility research; exact experiment/data geography varies",
+      "topical_coverage": "research | astronomy | energy",
+      "dataset_families": "Laser/optics/materials and related experimental research datasets; exact inventory unenumerated",
+      "documentation_url": "https://up.eli-laser.eu/downloads/Access_Terms_and_Conditions.pdf",
+      "api_base_url": "https://data.eli-laser.eu/oai2d (registry claim)",
+      "format_protocol": "Registry OAI-PMH/REST; native deployed contracts unverified",
+      "authentication": "Original anonymous OAI untested; facility admission/proposals require accounts, not readAPIauth proof",
+      "free_access_restrictions": "TCA experiment-specificplans/default3yearembargo, not universal repository API access conditions",
+      "license": "Unknown blanket metadata/data grant; individual experiment plans and rights",
+      "license_url": "https://up.eli-laser.eu/downloads/Access_Terms_and_Conditions.pdf",
+      "api_verification_state": "OAI Identify guard-deferred before transmission; independent native current TCA200PDF reviewed. No API response/schema/sourcequery.",
+      "latest_checked_utc": "2026-10-18T15:04:13.007755+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "embrapa-redape",
       "provider": "Embrapa",
       "service_name": "Redape agricultural research data repository",
@@ -21350,6 +21386,24 @@
       "license_url": "https://data.go.id/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T09:44:31.991609+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "innsbruck-research-data",
+      "provider": "University of Innsbruck",
+      "service_name": "University of Innsbruck Research Data Repository",
+      "geographic_coverage": "Austrian institutional research; exactdatasetgeography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary research datasets, master data, visualizations and related outputs",
+      "documentation_url": "https://www.uibk.ac.at/de/zid/it-services-des-zid/repositorium-forschungsdaten/",
+      "api_base_url": "https://researchdata.uibk.ac.at/oai2d",
+      "format_protocol": "OAI-PMH2XML verified; registryREST separateuntested",
+      "authentication": "Anonymous OAIIdentify successful; staff/PhD/collaborator restrictions refer to deposition, not assumed publicreadrestriction",
+      "free_access_restrictions": "Native institution no usercost, eligibledepositors/reuseconditions; per-item access not enumerated",
+      "license": "Unknown verified metadata-wide grant; per-item/repository terms unresolved",
+      "license_url": "https://www.uibk.ac.at/de/zid/it-services-des-zid/repositorium-forschungsdaten/ | https://doi.org/10.48323/b9mmb-3q431",
+      "api_verification_state": "Native anonymous OAIIdentify200validXML, institutional/root200HTML. No API scientific/person-record retrieval; RESTuntested.",
+      "latest_checked_utc": "2026-10-18T15:04:13.007755+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
