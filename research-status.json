@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-18T20:28:45.432396+00:00",
+  "published_at": "2026-10-18T20:30:48.380597+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:28:23.198008+00:00",
+  "research_updated_at": "2026-10-18T20:30:30.616998+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ICES public JCDP BY4/API documented, Riverkeeper and Halton rights/API unresolved.",
+  "latest_milestone": "Markham scoped City grant, SITES CC0 metadata and FranceSeisme catalogue BY4 documented; runtime gaps preserved.",
   "counts": {
-    "verified": 455,
+    "verified": 458,
     "candidates": 1341,
     "excluded": 391,
     "sample_successes": 464
@@ -7379,6 +7379,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "bcsf-renass-franceseisme",
+      "provider": "BCSF-RéNaSS / EOST / Epos-France",
+      "service_name": "FranceSeisme seismic catalogue services",
+      "geographic_coverage": "French seismic catalogue and network interest; exact event/geographic extent per catalog",
+      "topical_coverage": "climate/weather/environment | geospatial | research",
+      "dataset_families": "Seismicity catalogue service descriptions; no event/observation rows acquired",
+      "documentation_url": "https://www.epos-france.fr/blog/2021/03/01/nouvelle-version-du-site-web-du-reseau-national-de-surveillance-sismique/ | https://api.franceseisme.fr/en/search",
+      "api_base_url": "https://api.franceseisme.fr (documented FDSN-event host; exact method path not tested)",
+      "format_protocol": "FDSN-Event / QuakeML/XML/text and GeoJSON documented; runtime untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4.0 seismicity catalogue",
+      "license_url": "https://api.franceseisme.fr/fr/search/results?event_type_building+collapse=false&event_type_chemical+explosion=false&event_type_earthquake=false&event_type_explosion=false&event_type_induced=false&event_type_induced=true&event_type_landslide=false&event_type_mine+collapse=false&event_type_mining+explosion=false&event_type_nuclear+explosion=false&event_type_other+event=false&event_type_outside+of+network+interest=false&event_type_quarry+blast=false&event_type_rockslide=false&event_type_sonic+boom=false&event_type_thunder=false&order_by=descending_time",
+      "api_verification_state": "Original search root HTTP200 HTML form, not API response. Indexed official Epos-France publication identifies api.franceseisme.fr FDSN-event webservice; exact bounded schema/method runtime untested. Official Epos-France documentation fetchHTTP500, no alternate retry. No search-results/source event request sent.",
+      "latest_checked_utc": "2026-10-18T20:30:25.858548+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "bea",
       "provider": "Bureau of Economic Analysis",
       "service_name": "Bureau of Economic Analysis API",
@@ -11429,6 +11447,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "markham-open-data",
+      "provider": "City of Markham",
+      "service_name": "Markham Open Data catalogue and Search API",
+      "geographic_coverage": "Markham Ontario Canada municipal data",
+      "topical_coverage": "geospatial | transportation | law/civic data",
+      "dataset_families": "Municipal geographic and other released open-data catalog descriptions",
+      "documentation_url": "https://data-markham.opendata.arcgis.com/api/search/definition/ | https://www.markham.ca/about-city-markham/open-data-markham",
+      "api_base_url": "https://data-markham.opendata.arcgis.com/api/search/v1",
+      "format_protocol": "OGC API Records search documented; actual sample state below",
+      "authentication": "Anonymous conformance JSON succeeded, other secured/item APIs untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Open Data Licence City of Markham Version1.0",
+      "license_url": "https://www.markham.ca/about-city-markham/open-data-markham",
+      "api_verification_state": "Native root, terms and API-definition returned HTTP200 HTML shells, not successful JSON. Indexed native instance-specific Search API documents OGC Records methods; anonymous conformance HTTP200 valid JSON with conformsTo list of9 URIs and self link, no error.",
+      "latest_checked_utc": "2026-10-18T20:30:25.858548+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "massbank-europe-rest",
       "provider": "MassBank / European MassBank consortium",
       "service_name": "MassBank3 REST spectral-record API (open-record scope)",
@@ -13694,6 +13730,24 @@
       "license_url": "https://data.gov.sg/open-data-licence",
       "api_verification_state": "sample_success_current_collection_JSON;prior_weather_JSON_preserved",
       "latest_checked_utc": "2026-10-17T13:15:49.897094+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "sites-ecosystem-data-portal",
+      "provider": "Swedish Infrastructure for Ecosystem Science",
+      "service_name": "SITES Data Portal SPARQL metadata service",
+      "geographic_coverage": "Swedish participating ecosystem field research stations; individual dataset coverage varies",
+      "topical_coverage": "water | climate/weather/environment | biodiversity | agriculture | research",
+      "dataset_families": "Aquatic/atmospheric/terrestrial/biological dataset metadata; observations/files not requested",
+      "documentation_url": "https://www.fieldsites.se/data/data-usage | https://meta.fieldsites.se/sparqlclient/?type=CSV+%7C+https%3A%2F%2Fmeta.fieldsites.se%2Fsparqlclient%2Fsparqlclient.js",
+      "api_base_url": "https://meta.fieldsites.se/sparql",
+      "format_protocol": "SPARQL client documented, native static reference configures /sparql; ASK protocol sample HTTP501",
+      "authentication": "Native usage page says no account necessary to explore/download; optional account for cart/license persistence. No login/account used; ASK anonymous but failed.",
+      "free_access_restrictions": "Native documentation says data exploration/download free; detailed data use acknowledgment/citation and click acceptance described. Metadata CC0 separate.",
+      "license": "CC0 metadata; CC BY4.0 SITES data with documented citation/acknowledgment",
+      "license_url": "https://www.fieldsites.se/data/acknowledgment | https://data.fieldsites.se/licence",
+      "api_verification_state": "Native usage/license/client/static reference HTTP200; static configuration documents /sparql, read without executing JS. Minimal source-free ASK {} anonymous GET returned HTTP501, not success. No alternate method/format/route retry.",
+      "latest_checked_utc": "2026-10-18T20:30:25.858548+00:00",
       "classification": "open_license_verified"
     },
     {
