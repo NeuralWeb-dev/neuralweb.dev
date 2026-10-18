@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T06:49:54.502506+00:00",
+  "published_at": "2026-10-18T06:51:57.120583+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:49:48.903225+00:00",
+  "research_updated_at": "2026-10-18T06:51:34.293186+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "GitHub native terms and anonymous quota JSON verified without blanket grant; African Plants photo NC terms restricted; umwelt docs hold/software licence uncertainty retained.",
+  "latest_milestone": "Nine originals reviewed: IMPC BY4/count-only JSON and GitHub quota JSON verified; institutional/environmental rights gaps and native holds preserved.",
   "counts": {
     "verified": 369,
     "candidates": 894,
@@ -49,6 +49,7 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "ciesin-integrated-earth-data",
           "dhs-spatial-data-repository",
           "hdx",
           "lse-research-online",
@@ -117,6 +118,7 @@
           "india-environment-portal",
           "isimip-impact-repository",
           "isric-soil-data-hub",
+          "lpdaac-land-processes-data",
           "maizegdb-api",
           "nasa-power",
           "nasc-plant-stock-webservices",
@@ -171,6 +173,7 @@
           "argo-gdac-data-interfaces",
           "auscope-earthbank",
           "china-national-earth-observation-center",
+          "ciesin-integrated-earth-data",
           "cifor-icraf",
           "copernicus-stac",
           "csiro-data-access-portal",
@@ -203,6 +206,7 @@
           "jpl-tropical-cyclone-information-system",
           "knmi-climate-explorer",
           "litterbase-marine-litter-portal",
+          "lpdaac-land-processes-data",
           "muenster-datastore-rest",
           "mumbai-geomagnetism-data-centre",
           "nasa-api",
@@ -284,6 +288,7 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "ciesin-integrated-earth-data",
           "cugir-geospatial-repository",
           "dataone",
           "flood-observatory-colorado",
@@ -292,6 +297,7 @@
           "india-environment-portal",
           "isimip-impact-repository",
           "knmi-climate-explorer",
+          "lpdaac-land-processes-data",
           "nced-data-repository",
           "nodc-ieo-geonetwork",
           "rolling-deck-to-repository",
@@ -321,6 +327,7 @@
           "iaea-livechart-nuclear-data",
           "india-environment-portal",
           "isimip-impact-repository",
+          "lpdaac-land-processes-data",
           "nasa-power",
           "nims-mdr",
           "nlr-geospatial-data-services",
@@ -424,6 +431,7 @@
           "arizona-campus-repository",
           "cinii-books",
           "dhs-spatial-data-repository",
+          "github-public-rest-api",
           "internet-archive-metadata",
           "kth-data-repository-api",
           "lse-research-online",
@@ -510,6 +518,7 @@
           "aiddata-development-data",
           "auscope-earthbank",
           "china-national-earth-observation-center",
+          "ciesin-integrated-earth-data",
           "copernicus-stac",
           "cugir-geospatial-repository",
           "dataone",
@@ -530,6 +539,7 @@
           "isric-soil-data-hub",
           "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
+          "lpdaac-land-processes-data",
           "mit-timdex",
           "mumbai-geomagnetism-data-centre",
           "nced-data-repository",
@@ -799,6 +809,7 @@
           "isimip-impact-repository",
           "isric-soil-data-hub",
           "loc",
+          "lpdaac-land-processes-data",
           "maizegdb-api",
           "mit-timdex",
           "mpi-the-language-archive",
@@ -932,6 +943,7 @@
           "cell-image-library",
           "checklistbank",
           "china-national-earth-observation-center",
+          "ciesin-integrated-earth-data",
           "cifor-icraf",
           "cinii-books",
           "cngbdb-resource-portal",
@@ -959,6 +971,7 @@
           "georoc2-testing-api",
           "getty-museum",
           "gistemp-data-access",
+          "github-public-rest-api",
           "gpcc-precipitation-product-portal",
           "gsa-figshare-data-repository",
           "gwas-catalog",
@@ -992,6 +1005,7 @@
           "kth-data-repository-api",
           "litterbase-marine-litter-portal",
           "loc",
+          "lpdaac-land-processes-data",
           "lse-research-online",
           "maizegdb-api",
           "mit-timdex",
@@ -2701,6 +2715,7 @@
           "cocoon-fcs",
           "cotedazur-recherche-data-gouv-collection",
           "czech-national-corpus-fcs",
+          "daks-kassel-research-repository",
           "edina-research-service-portal",
           "estonia-datadoi",
           "galicia-abertos-catalog",
@@ -2730,6 +2745,7 @@
           "swissubase-oai",
           "terrassa-open-data",
           "tuebingen-fcs",
+          "tul-open-research-data",
           "tuscany-open-data-catalog",
           "upf-digital-repository",
           "zvdd-metadata-interfaces"
@@ -3331,6 +3347,7 @@
           "cotedazur-recherche-data-gouv-collection",
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
+          "daks-kassel-research-repository",
           "direno-lower-austria-repository",
           "drks-german-clinical-trials-register",
           "earthprints-geoscience-repository-api",
@@ -3385,6 +3402,7 @@
           "swissubase-oai",
           "tethys-geosphere-oai",
           "tuebingen-fcs",
+          "tul-open-research-data",
           "ufz-spatial-geonetwork",
           "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
@@ -3627,6 +3645,7 @@
           "digitalearth-africa"
         ],
         "candidate_provider_ids": [
+          "corpus-musicae-ottomanicae-catalogue",
           "nasc-plant-stock-webservices",
           "saudi-statistics",
           "tunisia"
@@ -3643,6 +3662,7 @@
         ],
         "candidate_provider_ids": [
           "acss-dataverse",
+          "corpus-musicae-ottomanicae-catalogue",
           "meteogate-climate-aggregator-edr",
           "nasc-plant-stock-webservices",
           "romanian-social-data-archive",
@@ -3860,7 +3880,9 @@
           "roceeh-road-prehistory-database",
           "sanbi-birdie"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "african-plants-photo-guide"
+        ]
       },
       "oceans": {
         "status": "unsearched",
@@ -3887,6 +3909,7 @@
           "trr228-african-futures-database"
         ],
         "restricted_provider_ids": [
+          "african-plants-photo-guide",
           "wascal"
         ]
       },
@@ -3908,6 +3931,7 @@
           "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
+          "african-plants-photo-guide",
           "ahri-research-data-repository",
           "indepth-ishare-data-repository",
           "laws-africa",
