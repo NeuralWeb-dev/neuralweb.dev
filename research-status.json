@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:41:51.426306+00:00",
+  "published_at": "2026-10-18T18:43:54.327549+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:41:22.366270+00:00",
+  "research_updated_at": "2026-10-18T18:43:13.693778+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Calgary custom/source terms and support fees; Manitoba indexed custom license/direct404; Alberta owner confirms service without blanket grant; shared host holds.",
+  "latest_milestone": "SCEDC native WADL runtime verified/license gap; eight Borealis institutional sources reviewed with custom/restricted rights and source holds.",
   "counts": {
     "verified": 445,
-    "candidates": 1252,
+    "candidates": 1255,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -505,7 +505,9 @@
           "open-data-lmu",
           "stanford-sdr-purl-iiif",
           "trove-cultural-discovery-api",
-          "ubc-circle-open-collections"
+          "ubc-borealis-data-repository",
+          "ubc-circle-open-collections",
+          "udem-borealis-data-repository"
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
@@ -1221,7 +1223,9 @@
           "treebase-phylogenetic-apis",
           "tritrypdb",
           "trove-cultural-discovery-api",
+          "ubc-borealis-data-repository",
           "ubc-circle-open-collections",
+          "udem-borealis-data-repository",
           "undata-official-sdmx-api",
           "unite-species-hypotheses",
           "usgs-sciencebase-catalogue",
@@ -1643,6 +1647,7 @@
           "toronto-borealis-data-collection",
           "toronto-open-data-catalog-api",
           "ubc-circle-open-collections",
+          "udem-borealis-data-repository",
           "udes-borealis-data-repository",
           "us-data-gov-catalog",
           "washington-state-open-data"
@@ -2066,6 +2071,7 @@
           "toronto-borealis-data-collection",
           "ubc-circle-open-collections",
           "ucla-social-science-dataverse",
+          "udem-borealis-data-repository",
           "udes-borealis-data-repository",
           "us-data-gov-catalog",
           "usfs-research-data-archive",
@@ -30250,6 +30256,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "regina-borealis-data-repository",
+      "provider": "University of Regina",
+      "service_name": "University of Regina curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.uregina.ca/research/dataverse",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "Anonymous institutional guide accessible; source-level authentication untested; no accounts created",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.uregina.ca/research/dataverse | https://library.uregina.ca/ld.php?content_id=38070826",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD or alternate backend test.",
+      "latest_checked_utc": "2026-10-18T18:42:34.346848+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "registry-africaopendata-org",
       "provider": "Africa Open Data",
       "service_name": "Africa Open Data portal API",
@@ -35380,6 +35404,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "western-borealis-data-repository",
+      "provider": "Western University",
+      "service_name": "Western University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://rdm.uwo.ca/management/borealis.html",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "Anonymous institutional guide accessible; source-level authentication untested; no accounts created",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://rdm.uwo.ca/management/borealis.html",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD or alternate backend test.",
+      "latest_checked_utc": "2026-10-18T18:42:34.346848+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wfp",
       "provider": "World Food Programme HungerMap",
       "service_name": "World Food Programme HungerMap API",
@@ -36961,6 +37003,24 @@
       "license_url": "https://public.yoda.uu.nl/",
       "api_verification_state": "documented_OAI_design_historical_sample_HTML_not_API_success_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T15:59:28.999844+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "york-borealis-data-repository",
+      "provider": "York University",
+      "service_name": "York University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://www.library.yorku.ca/web/research-learn/research/rdm/york-university-dataverse-deposit-guidelines/",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "Anonymous institutional guide accessible; source-level authentication untested; no accounts created",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.library.yorku.ca/web/research-learn/research/rdm/york-university-dataverse-deposit-guidelines/",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD or alternate backend test.",
+      "latest_checked_utc": "2026-10-18T18:42:34.346848+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
