@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:49:45.716758+00:00",
+  "published_at": "2026-10-18T19:51:48.817505+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:46:39.569115+00:00",
+  "research_updated_at": "2026-10-18T19:51:47.368996+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six services added; scoped AmeriFlux CC-BY and USGS Landsat rights verified, APIs documented untested; DataCORE metadata CC0/API gap.",
+  "latest_milestone": "CGSpace API identity/license gap; IDEM metadataNC-SA and BVH Epistemon NC-SA scoped restricted; source rights separate.",
   "counts": {
-    "verified": 447,
-    "candidates": 1323,
-    "excluded": 379,
+    "verified": 449,
+    "candidates": 1325,
+    "excluded": 381,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -9305,6 +9305,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "eudat-b2find-metadata",
+      "provider": "EUDAT",
+      "service_name": "B2FIND metadata discovery API",
+      "geographic_coverage": "International interdisciplinary research discovery, European service network; dataset geography varies",
+      "topical_coverage": "research | agriculture | climate/weather/environment | geospatial | culture",
+      "dataset_families": "Harmonized research metadata from community repositories; underlying data collections excluded from grant",
+      "documentation_url": "https://eudat.eu/services/userdoc/b2find-usage | https://docs.eudat.eu/b2find/forusers/",
+      "api_base_url": "https://b2find.eudat.eu/api/3/action/",
+      "format_protocol": "CKAN REST JSON documented; runtime untested",
+      "authentication": "Public discovery documented; sample guard-deferred unsent, no credentials used",
+      "free_access_restrictions": "Native provider guide makes metadata free and reusable; current access policy describes free public B2FIND discovery. Source repository rights/eligibility separate. Exact API quotas unknown.",
+      "license": "CC-BY4.0 or subsequent for published visible B2FIND metadata",
+      "license_url": "https://docs.eudat.eu/b2find/forproviders/ | https://www.eudat.eu/eudat-cdi-aup",
+      "api_verification_state": "Native root/provider/user/API documentationHTTP200; original status_show sample guard-deferred unsent by robots policy/inaccessible robots.txt, not a successful API response.",
+      "latest_checked_utc": "2026-10-18T19:50:45.853569+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "eurac-clarin-repository",
       "provider": "Eurac Research Institute for Applied Linguistics",
       "service_name": "Eurac CLARIN Centre repository metadata",
@@ -13136,6 +13154,24 @@
       "license_url": "https://researchdata.se/en/licences-and-marks-website",
       "api_verification_state": "Native policy/API docs200; exact Identify200 namespace-correct OAI2 XML with no OAI errors, protocol2.0/granularityYYYY-MM-DD. REST explicitly still under development in current owner docs, not claimed active. Fresh ListMetadataFormats200namespace-correctOAI XML/noerrors/nineformats; expanded format inventory beyond earlier six advertised by guide.",
       "latest_checked_utc": "2026-10-18T12:42:12.834837+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "riubu-burgos-repository",
+      "provider": "Universidad de Burgos",
+      "service_name": "RIUBU OAI metadata service",
+      "geographic_coverage": "Spain institutional repository; publication subject geography varies",
+      "topical_coverage": "education | culture | research",
+      "dataset_families": "Institutional publications, theses, teaching materials and research-data descriptions; open acceptance limited to policy-covered publication metadata",
+      "documentation_url": "https://riubu.ubu.es/ | https://www.ubu.es/sites/default/files/portal_page/files/politica_ciencia_abierta_de_la_ubu_modificada_19_de_julio_de_2024.pdf",
+      "api_base_url": "https://riubu.ubu.es/oai/request%20",
+      "format_protocol": "OAI-PMH XML",
+      "authentication": "No credentials required for successful original Identify request; other operations untested",
+      "free_access_restrictions": "Public metadata identity request tested anonymously; file/source access varies",
+      "license": "CC0 or equivalent, explicitly specified by institutional policy for covered publication metadata",
+      "license_url": "https://www.ubu.es/sites/default/files/portal_page/files/politica_ciencia_abierta_de_la_ubu_modificada_19_de_julio_de_2024.pdf",
+      "api_verification_state": "Original registry Identify URL including encoded space returned HTTP200 valid OAI-PMH XML with no protocol error. RootHTTP200; native policyPDFHTTP200 independently read via official PDF reader.",
+      "latest_checked_utc": "2026-10-18T19:50:45.853569+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17440,6 +17476,24 @@
       "license_url": "",
       "api_verification_state": "Original owner URL guard-deferred targetunsent; indexed official current research-data description reviewed, no nativeAPI success",
       "latest_checked_utc": "2026-10-18T12:23:51.901975+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cgspace-research-repository",
+      "provider": "CGIAR / International Livestock Research Institute and partners",
+      "service_name": "CGSpace OAI and REST metadata services",
+      "geographic_coverage": "International agricultural research; multiple CGIAR centres and partners",
+      "topical_coverage": "agriculture | research | climate/weather/environment | economics/finance",
+      "dataset_families": "Research outputs, publications, datasets, policies, reports, presentations and audiovisual descriptions",
+      "documentation_url": "https://cgspace.cgiar.org/info/about",
+      "api_base_url": "https://cgspace.cgiar.org/server/oai/request | https://cgspace.cgiar.org/server/api",
+      "format_protocol": "OAI-PMH XML; REST documented, untested",
+      "authentication": "Anonymous original OAI Identify tested; other operations untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://cgspace.cgiar.org/info/about",
+      "api_verification_state": "Native root/AboutHTTP200; original registered OAI IdentifyHTTP200, protocol validity checked in reference index. REST documented by owner but untested.",
+      "latest_checked_utc": "2026-10-18T19:51:42.862398+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -35929,6 +35983,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "usgs-alaska-science-center",
+      "provider": "USGS Alaska Science Center",
+      "service_name": "Alaska Science Center research data portal",
+      "geographic_coverage": "Alaska and circumpolar research; some transboundary coverage",
+      "topical_coverage": "climate/weather/environment | water | biodiversity | geospatial | research",
+      "dataset_families": "Energy/minerals, ecosystems and water research data-release descriptions",
+      "documentation_url": "https://www.usgs.gov/centers/alaska-science-center/data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "api_verification_state": "Original native root timed out; rights request deferred unsent after same-host failure. Indexed official centre data page identifies data-release families and Science Data Catalog relationship, not a distinct API contract.",
+      "latest_checked_utc": "2026-10-18T19:50:45.853569+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "usgs-land-cover-institute-discovery",
       "provider": "US Geological Survey / EROS",
       "service_name": "Land Cover Institute historical programme and current discovery",
@@ -39441,6 +39513,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "bvh-humanistic-libraries",
+      "provider": "Université de Tours / CESR / CNRS",
+      "service_name": "Bibliothèques Virtuelles Humanistes OAI service",
+      "geographic_coverage": "European Renaissance heritage, sixteenth-century holdings in partner institutions",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Fac-similés image catalogue and Epistemon XML-TEI text descriptions",
+      "documentation_url": "https://www.bvh.univ-tours.fr/oai.asp",
+      "api_base_url": "https://www.bvh.univ-tours.fr/oai2/oai2.php",
+      "format_protocol": "OAI-PMH XML documented; original identity response checked separately",
+      "authentication": "Anonymous original Identify request; other operations untested",
+      "free_access_restrictions": "Public metadata exchange documented; Epistemon noncommercial reuse, facsimiles case-specific agreements/restrictions",
+      "license": "Epistemon CC-BY-NC-SA, version unspecified; facsimiles conditional; metadata grant unresolved",
+      "license_url": "https://www.bvh.univ-tours.fr/oai.asp",
+      "api_verification_state": "Native root/OAI guideHTTP200. Published exact IdentifyHTTP200; XML validity checked in reference index. No ListRecords/text/image acquisition.",
+      "latest_checked_utc": "2026-10-18T19:51:42.862398+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "caida-research-data-catalog",
       "provider": "CAIDA / University of California San Diego",
       "service_name": "CAIDA resource catalog and access-governed datasets",
@@ -41724,6 +41814,24 @@
       "license_url": "https://guides.library.illinois.edu/ideals/metadata_policy",
       "api_verification_state": "Originalportalguard-deferred unsent. Independentnative libraryrights/metadatapolicy/OAIguides200HTML identify exactOAIURI. No nativeOAIresponse or APIruntime sample.",
       "latest_checked_utc": "2026-10-18T13:02:10.911714+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "idem-early-music-database",
+      "provider": "Alamire Foundation / KU Leuven LIBIS",
+      "service_name": "Integrated Database for Early Music",
+      "geographic_coverage": "Low Countries medieval/Renaissance music; partner holdings internationally",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Early music source descriptions and digitised manuscript/print references; images separate",
+      "documentation_url": "https://www.idemdatabase.org/ | https://www.idemdatabase.org/page/terms-conditions",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Metadata pages public; terms require account registration for viewing images. Exact API auth unknown.",
+      "free_access_restrictions": "Images consultable free with registered account per terms; metadata reuse noncommercial/sharealike. No account created or image acquired.",
+      "license": "CC-BY-NC-SA4.0 metadata; image rights/access separately qualified",
+      "license_url": "https://www.idemdatabase.org/page/terms-conditions",
+      "api_verification_state": "Native root/termsHTTP200 substantive. Exact public metadata machine API not established; no generic Omeka/IIIF/REST route guessed.",
+      "latest_checked_utc": "2026-10-18T19:51:42.862398+00:00",
       "classification": "restricted"
     },
     {
