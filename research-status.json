@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:37:21.050433+00:00",
-  "job_status": "worker not running",
-  "worker_running": false,
+  "published_at": "2026-10-18T03:39:24.072758+00:00",
+  "job_status": "running",
+  "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:36:49.333844+00:00",
+  "research_updated_at": "2026-10-18T03:39:08.597218+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original discovery tasks processed; eight new rows, three scoped-open additions. AOML native ten-entry/nine-source catalogue and all nine source grants verified; DEMel/AMRDC API docs+grants verified runtime held. Provider identity/rights gaps explicit.",
+  "latest_milestone": "NDA/OFA restricted source policies verified; Protein Clusters mapped existing Entrez family with source-rights/runtime uncertainty retained.",
   "counts": {
     "verified": 348,
     "candidates": 781,
-    "excluded": 218,
+    "excluded": 220,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -9156,7 +9156,7 @@
       "service_name": "NCBI E-utilities — PubMed metadata subset",
       "geographic_coverage": "Global",
       "topical_coverage": "health; research",
-      "dataset_families": "PubMed/MEDLINE citation and NLM-authored indexing metadata; other Entrez databases require separate rights review",
+      "dataset_families": "PubMed/MEDLINE citation and NLM-authored indexing metadata; other Entrez databases require separate rights review | Protein Clusters documented Entrez family, exact source grants/runtime pending",
       "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
       "api_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
       "format_protocol": "REST/JSON",
@@ -9165,7 +9165,7 @@
       "license": "NLM data distribution terms; NLM-authored content public domain; copyrighted abstracts excluded",
       "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-18T02:03:59.860899+00:00",
+      "latest_checked_utc": "2026-10-18T03:38:58.430353+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -28235,6 +28235,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "nimh-data-archive",
+      "provider": "NIH National Institute of Mental Health",
+      "service_name": "NIMH Data Archive services",
+      "geographic_coverage": "Mental health research cohorts; source-specific coverage not verified",
+      "topical_coverage": "health | research",
+      "dataset_families": "Mental health research data and associated data-dictionary services; source access groups differ",
+      "documentation_url": "https://nda.nih.gov/",
+      "api_base_url": "https://nda.nih.gov/api/datadictionary/v2/ (registry documentation pointer; actual contract unverified)",
+      "format_protocol": "Swagger UI HTML shell returned; exact machine-readable specification not retrieved",
+      "authentication": "Data access requires NDA account and permission-group DAR; broad/controlled groups institutional sponsorship; named Open Access groups still account and accepted certification terms",
+      "free_access_restrictions": "Current SOP distinguishes broad, controlled and Open Access permission groups. Open Access still individual DAR/terms with one-year access and deletion on expiry; no unrestricted source grant established",
+      "license": "Controlled data-use certification and source/group-specific access conditions; public website prose public domain separately",
+      "license_url": "https://nda.nih.gov/nda/standard-operating-procedures | https://nda.nih.gov/disclaimer.html",
+      "api_verification_state": "Native root, Swagger UI shell, SOP and disclaimer HTTP200; referenced initializer404, no API JSON/source response verified",
+      "latest_checked_utc": "2026-10-18T03:38:58.430353+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "nipr-arctic-antarctic-data-system",
       "provider": "National Institute of Polar Research / ADS",
       "service_name": "Arctic and Antarctic Data archive System OAI-PMH",
@@ -28412,6 +28430,24 @@
       "license_url": "https://opendevelopmentcambodia.net/terms-of-use/",
       "api_verification_state": "actual_public_JSON_sample_success_CKAN_metadata_and_native_names_current_restricted_offer_reviewed",
       "latest_checked_utc": "2026-10-17T11:23:42.029459+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ofa-records",
+      "provider": "Orthopedic Foundation for Animals",
+      "service_name": "OFA / CHIC health records search",
+      "geographic_coverage": "Companion-animal health testing; international submission policies, exact source coverage unverified",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Canine/feline orthopedic and genetic-disease health tests; CHIC health certification and related DNA repository context",
+      "documentation_url": "https://ofa.org/about/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Owner copyright notice prohibits public reproduction of website/database search results without express OFA permission. Disclosure status does not establish blanket open-reuse rights",
+      "license": "Copyright OFA; public reproduction requires express permission",
+      "license_url": "https://ofa.org/about/ofa-policies/",
+      "api_verification_state": "Native public About and policies HTTP200 HTML; no exact public data API verified",
+      "latest_checked_utc": "2026-10-18T03:38:58.430353+00:00",
       "classification": "restricted"
     },
     {
