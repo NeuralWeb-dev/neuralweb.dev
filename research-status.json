@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T03:45:32.874886+00:00",
+  "published_at": "2026-10-18T03:47:35.623295+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:45:20.477723+00:00",
+  "research_updated_at": "2026-10-18T03:46:43.104176+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CUGIR native catalogue JSON100descriptors verified, page2 held/rights unresolved; NCES restricted-source scope and GISTEMP file-vs-API gaps explicit.",
+  "latest_milestone": "Nine original tasks reviewed; eight new services/portals, ArmLifeBank scoped-open policy/API docs with timed-out runtime. CUGIR100metadata descriptors/895reported partial under page2 hold; source/API gaps retained.",
   "counts": {
     "verified": 349,
     "candidates": 785,
@@ -98,6 +98,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "csiro-data-access-portal",
+          "cugir-geospatial-repository",
           "india-environment-portal",
           "isimip-impact-repository",
           "isric-soil-data-hub",
@@ -152,6 +153,7 @@
           "cifor-icraf",
           "copernicus-stac",
           "csiro-data-access-portal",
+          "cugir-geospatial-repository",
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
@@ -162,6 +164,7 @@
           "flood-observatory-colorado",
           "gawsis-station-metadata",
           "georem-reference-materials",
+          "gistemp-data-access",
           "gpcc-precipitation-product-portal",
           "gsa-figshare-data-repository",
           "hdx",
@@ -245,6 +248,7 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "cugir-geospatial-repository",
           "dataone",
           "flood-observatory-colorado",
           "gpcc-precipitation-product-portal",
@@ -400,6 +404,7 @@
           "osm"
         ],
         "candidate_provider_ids": [
+          "cugir-geospatial-repository",
           "ioerdata-spatial-research-portal"
         ],
         "restricted_provider_ids": [
@@ -412,6 +417,7 @@
           "osm"
         ],
         "candidate_provider_ids": [
+          "cugir-geospatial-repository",
           "openchargemap",
           "shom-data"
         ],
@@ -453,6 +459,7 @@
           "auscope-earthbank",
           "china-national-earth-observation-center",
           "copernicus-stac",
+          "cugir-geospatial-repository",
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
@@ -706,6 +713,7 @@
           "cifor-icraf",
           "cinii-books",
           "csiro-data-access-portal",
+          "cugir-geospatial-repository",
           "getty-museum",
           "india-environment-portal",
           "internet-archive-metadata",
@@ -836,6 +844,7 @@
           "cinii-books",
           "cngbdb-resource-portal",
           "csiro-data-access-portal",
+          "cugir-geospatial-repository",
           "datahub-legacy-catalog-api",
           "dataone",
           "dataterra-eosc-resource-catalogue",
@@ -856,6 +865,7 @@
           "georem-reference-materials",
           "georoc2-testing-api",
           "getty-museum",
+          "gistemp-data-access",
           "gpcc-precipitation-product-portal",
           "gsa-figshare-data-repository",
           "gwas-catalog",
@@ -1056,6 +1066,7 @@
           "california-open-data",
           "county-grande-prairie-open-data",
           "donnees-quebec-catalog",
+          "laval-borealis-data-repository",
           "macewan-borealis-data-repository",
           "montana-state-library-gis-services",
           "ontario-data-catalog",
@@ -1109,6 +1120,7 @@
           "epa",
           "esa-ecology",
           "knb",
+          "laval-borealis-data-repository",
           "macewan-borealis-data-repository",
           "minneapolis-open-data",
           "montana-state-library-gis-services",
@@ -1225,6 +1237,7 @@
           "connect211-search",
           "donnees-quebec-catalog",
           "healthdata-gov-catalog",
+          "laval-borealis-data-repository",
           "montreal-open-data-catalog",
           "ontario-data-catalog",
           "opendataphilly-jkan",
@@ -1256,6 +1269,7 @@
           "donnees-quebec-catalog",
           "imls-data-collection",
           "ku-scholarworks-repository",
+          "laval-borealis-data-repository",
           "macewan-borealis-data-repository",
           "ontario-data-catalog",
           "opendataphilly-jkan",
@@ -1267,7 +1281,8 @@
         "restricted_provider_ids": [
           "calgary-prism-scholaris-repository",
           "colorado-information-marketplace",
-          "hawaii-open-data-catalogue"
+          "hawaii-open-data-catalogue",
+          "nces-restricted-use-data"
         ]
       },
       "housing": {
@@ -1564,6 +1579,7 @@
           "getty-museum",
           "imls-data-collection",
           "ku-scholarworks-repository",
+          "laval-borealis-data-repository",
           "loc",
           "macewan-borealis-data-repository",
           "montana-state-library-gis-services",
@@ -1624,6 +1640,7 @@
           "imls-data-collection",
           "knb",
           "ku-scholarworks-repository",
+          "laval-borealis-data-repository",
           "loc",
           "macewan-borealis-data-repository",
           "nadp-monitoring-data",
@@ -1643,6 +1660,7 @@
           "calgary-prism-scholaris-repository",
           "citf-controlled-databank",
           "ipums-nhgis-api",
+          "nces-restricted-use-data",
           "nova-scotia-offshore-data-centre",
           "polar-data-catalogue-metadata-api",
           "srtr-controlled-research-data"
@@ -4795,7 +4813,9 @@
         "verified_provider_ids": [
           "greenland-statistics"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "laval-borealis-data-repository"
+        ],
         "restricted_provider_ids": []
       },
       "climate/weather/environment": {
@@ -4815,6 +4835,7 @@
           "bas-locations-public-api",
           "china-ncdc-cryosphere-desert-portal",
           "copenhagen-geomagnetic-index-archive",
+          "laval-borealis-data-repository",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "noaa-antarctic-uv-network",
@@ -4868,6 +4889,7 @@
           "greenland-statistics"
         ],
         "candidate_provider_ids": [
+          "laval-borealis-data-repository",
           "noaa-antarctic-uv-network"
         ],
         "restricted_provider_ids": [
@@ -4879,7 +4901,9 @@
         "verified_provider_ids": [
           "greenland-statistics"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "laval-borealis-data-repository"
+        ],
         "restricted_provider_ids": []
       },
       "housing": {
@@ -4996,7 +5020,9 @@
         "verified_provider_ids": [
           "greenland-statistics"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "laval-borealis-data-repository"
+        ],
         "restricted_provider_ids": []
       },
       "research": {
@@ -5015,6 +5041,7 @@
           "bas-locations-public-api",
           "china-ncdc-cryosphere-desert-portal",
           "copenhagen-geomagnetic-index-archive",
+          "laval-borealis-data-repository",
           "lter-italy-dataset-asset-registry",
           "marine-data-germany-portal",
           "noaa-antarctic-uv-network",
