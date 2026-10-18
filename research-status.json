@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T21:53:07.506123+00:00",
+  "published_at": "2026-10-18T21:55:10.439747+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:50:34.451280+00:00",
+  "research_updated_at": "2026-10-18T21:53:11.340125+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WGI36XMLindicator descriptors/compositeBY4/proprietaryexceptions; CLARIN-IS OAI documentation; SAEON customlicense policy.",
+  "latest_milestone": "ETHmetadataCC0/native5OAIcontexts documented with inheritedhold; UNIAOAI404/mixedrights; ScholarsMinehistoricalOAI/currentgrantgap.",
   "counts": {
-    "verified": 478,
-    "candidates": 1384,
+    "verified": 479,
+    "candidates": 1386,
     "excluded": 401,
     "sample_successes": 464
   },
@@ -9644,6 +9644,24 @@
       "license_url": "https://raw.githubusercontent.com/eth-library/opendata-apis/main/research-collection-v2.yaml | https://developer.library.ethz.ch/terms",
       "api_verification_state": "documented_api_key_required_sample_untested",
       "latest_checked_utc": "2026-10-17T17:55:04.291522+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "eth-zurich-research-collection",
+      "provider": "ETH Library / ETH Zurich",
+      "service_name": "Research Collection repository metadata interfaces",
+      "geographic_coverage": "ETH institutional publications/research; international source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Bibliographic/research output metadata; publications, theses, research data and software references, linked sources individually controlled",
+      "documentation_url": "https://unlimited.ethz.ch/display/RC/Reuse+data | https://unlimited.ethz.ch/spaces/RC/pages/194119646/OAI-PMH+interface",
+      "api_base_url": "https://research-collection.ethz.ch/server/oai/request (native documentation reference, inherited repository hold) | https://eth-library.github.io/apiplatform-swagger/research-collection/v2/ (REST documentation reference)",
+      "format_protocol": "Native OAI-PMH documentation, ETH/xoai/qdc/oai_dc/DataCite contexts; REST member integration documented",
+      "authentication": "Public OAI documentation; actual repository runtime held. Native reuse guide says REST integration ETH members only; no key/account or RESTsample",
+      "free_access_restrictions": "Metadata CC0 scoped grant; abstracts individually licensed, absentlicense personal-use only; source objects mixed access/defaultnoncommercial",
+      "license": "CC0 Public Domain Dedication for metadata; abstracts and linked digitalobjects excluded",
+      "license_url": "https://www.research-collection.ethz.ch/info/terms-of-use",
+      "api_verification_state": "Native independent reuse/OAI docsHTTP200 publish five OAI contexts and currentRESTguide. Repository host earlierHTTP500 hold retained; no originalroot/terms retry or changedhost/serverAPI request. Indexed native currentterms reviewed independently, not claimed liveAPI success.",
+      "latest_checked_utc": "2026-10-18T21:53:06.534582+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -27793,6 +27811,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "missouri-st-scholars-mine",
+      "provider": "Missouri University of Science and Technology Libraries",
+      "service_name": "Scholars Mine institutional repository",
+      "geographic_coverage": "MissouriS&T institutional scholarship and localhistory; research geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Scholarly/creative works, researchdata, historical yearbooks/newspapers and repositorymetadata",
+      "documentation_url": "https://scholarsmine.mst.edu/ | https://scholarsmine.mst.edu/faq.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native rootHTTP200HTML confirms institutionalrepository; FAQHTTP200rendersnavigationonly, nocurrentanswertext. Historical certification describesOAI-PMH but exactdeployedbase/runtime unverified. No guessed DigitalCommons endpoint or follow/subscribe mutation.",
+      "latest_checked_utc": "2026-10-18T21:53:06.534582+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mit-timdex",
       "provider": "MIT Libraries",
       "service_name": "TIMDEX discovery GraphQL API",
@@ -37150,6 +37186,24 @@
       "license_url": "https://www.unhcr.org/terms-and-conditions",
       "api_verification_state": "documented_reference_metadata_sample_success_legacy_rights_review_pending",
       "latest_checked_utc": "2026-10-16T19:19:51.727229+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unia-open-repository",
+      "provider": "Universidad Internacional de Andalucia",
+      "service_name": "UNIA institutional open repository",
+      "geographic_coverage": "Andalusian/Spanish institutional education/research and cultural holdings; source geography varies",
+      "topical_coverage": "education | culture | research",
+      "dataset_families": "Institutional publications, teaching/openeducational resources, theses and heritage metadata",
+      "documentation_url": "https://dspace.unia.es/ | https://www.unia.es/vida-universitaria/biblioteca-y-publicaciones/publicaciones/guia-para-publicar",
+      "api_base_url": "https://dspace.unia.es/oai?verb=Identify+%28registryreference+tested404%2C+not+proven+currentbase%29",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.unia.es/vida-universitaria/biblioteca-y-publicaciones/publicaciones/guia-para-publicar | https://dspace.unia.es/handle/10334/5",
+      "api_verification_state": "RepositoryrootHTTP200HTML; exactregistryOAIIdentifyHTTP404HTML, not XML/protocolsuccess. No alternative/server/backend path afterfailure. Nativeinstitution publishingpolicyHTTP200.",
+      "latest_checked_utc": "2026-10-18T21:53:06.534582+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
