@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:13:53.532941+00:00",
+  "published_at": "2026-10-18T08:15:56.210347+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:12:54.298114+00:00",
+  "research_updated_at": "2026-10-18T08:14:48.214944+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UCSC239assemblyJSONreferences verified/rights scopedunresolved; RES3Tnative restrictions verified; IGSR11operations documented, sourcegrants/runtime unresolved.",
+  "latest_milestone": "BioTIME/Merritt source-specific grants/APIs unresolved; INTnativeOAI2Identifyverified with operative licensingPDFunread.",
   "counts": {
     "verified": 381,
-    "candidates": 933,
+    "candidates": 936,
     "excluded": 275,
     "sample_successes": 465
   },
@@ -13699,6 +13699,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "biotime-biodiversity-timeseries",
+      "provider": "BioTIME Consortium / University of St Andrews",
+      "service_name": "BioTIME biodiversity assemblage time-series database",
+      "geographic_coverage": "Global marine/terrestrial/freshwater biodiversity time series; exact source coverage varies",
+      "topical_coverage": "biodiversity | oceans | environment | research",
+      "dataset_families": "Assemblage/abundance temporal studies across taxa and biomes; source observation records not requested",
+      "documentation_url": "https://biotime.st-andrews.ac.uk/download.php | https://biotime.st-andrews.ac.uk/usageGuidelines.php",
+      "api_base_url": "",
+      "format_protocol": "Public search/download interface and BioTIMEr Rpackage documented; exact queryAPI not verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://biotime.st-andrews.ac.uk/usageGuidelines.php",
+      "api_verification_state": "Native root/usage/downloadguide200HTML; no exact read-onlyAPI/runtime verified",
+      "latest_checked_utc": "2026-10-18T08:14:43.688904+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bold-v5-public-data-api",
       "provider": "BOLD Systems / Centre for Biodiversity Genomics, University of Guelph",
       "service_name": "BOLD v5 public biodiversity discovery API",
@@ -18775,6 +18793,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "int-taalmaterialen-metadata",
+      "provider": "Instituut voor de Nederlandse Taal",
+      "service_name": "INT language-resource catalogue and metadata repository",
+      "geographic_coverage": "Dutch-language area; linguistic resources and relatedmultilingual material, exact collection coverage unenumerated",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Language corpora, wordlists, scientific dictionaries, speech resources and language-technology tools; metadata protocol only tested",
+      "documentation_url": "https://taalmaterialen.ivdnt.org/",
+      "api_base_url": "https://repository.ivdnt.org/oai/provider",
+      "format_protocol": "OAI-PMH2XMLIdentify verified; no ListRecords/science/corpus data requested",
+      "authentication": "No credentials for successful Identify; catalogue downloads require login as nativehome states. Printedloggedin template text not evidence authenticatedsession; no session/login attempted.",
+      "free_access_restrictions": "Public metadataIdentifytested; source resource licences and accountrequirements separate. Website disclaimer noncommercial/private and permission restrictions not universal underlying corpusgrant.",
+      "license": "unknown verified data grant",
+      "license_url": "https://taalmaterialen.ivdnt.org/disclaimer/ | https://taalmaterialen.ivdnt.org/wp-content/uploads/documentatie/LicensingPolicyINT.pdf",
+      "api_verification_state": "Nativehome/disclaimer/policyPDF200; anonymousIdentify200parsedOAI2XML withrepositoryName/protocol2/deletedRecordtransient, noOAIerror. PDFoperativecontentnotread.",
+      "latest_checked_utc": "2026-10-18T08:14:43.688904+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "internet-archive-metadata",
       "provider": "Internet Archive",
       "service_name": "Archive.org item and collection metadata Read API",
@@ -20086,6 +20122,24 @@
       "license_url": "https://medical-data-models.org/help",
       "api_verification_state": "Native OpenAPI HTTP 200 valid JSON, five GET operations; no model data API request",
       "latest_checked_utc": "2026-10-18T03:31:50.601115+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "merritt-preservation-repository",
+      "provider": "California Digital Library / UC Curation Center",
+      "service_name": "Merritt preservation repository",
+      "geographic_coverage": "University of California institutional digital collections; international scientific/cultural subjects, exact source coverage unenumerated",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Preservation objects/versions/curatorial collections; public and dark/restricted access coexist",
+      "documentation_url": "https://cdlib.org/services/uc3/merritt/ | https://cdlib.org/services/uc3/merritt/merritt-policies-and-procedures/",
+      "api_base_url": "",
+      "format_protocol": "Owner documents API/batch deposit and persistentobject URLs; exact unrestricted readAPI not verified",
+      "authentication": "Owner describes account-based curatorial collections and public or authenticatedaccess controls. No login/account/private collection queried.",
+      "free_access_restrictions": "UC preservation service has storage/account arrangements; no paid acquisition/account. Public object access may coexist with restrictedcollections; uniform source reuse unverified.",
+      "license": "unknown verified data grant",
+      "license_url": "https://cdlib.org/services/uc3/merritt/merritt-policies-and-procedures/",
+      "api_verification_state": "Native root/CDLowner/policy200HTML; APIexistence documented but no exact publicreadAPI/runtime sample",
+      "latest_checked_utc": "2026-10-18T08:14:43.688904+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
