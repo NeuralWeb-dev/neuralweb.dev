@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:37:20.420914+00:00",
+  "published_at": "2026-10-18T00:39:23.312031+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:35:24.682729+00:00",
+  "research_updated_at": "2026-10-18T00:37:41.950929+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EUR/Griffithcandidatesretainedwithnative/indexedrightsuncertainty;CERESactualCMRmetadataJSONdeduplicatedwithoutsourcegrantinflation.",
+  "latest_milestone": "HRSrestrictedpolicyretained; MISRnativeCMRmetadata andNASAconditionalCC0policyverified; WoRMScurrentno-full-harvest terms reconfirmed.",
   "counts": {
     "verified": 325,
     "candidates": 673,
-    "excluded": 174,
+    "excluded": 175,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -8290,10 +8290,10 @@
       "format_protocol": "REST search;UMM JSON collection metadata and other documented formats;linked data access separate",
       "authentication": "No key for tested public CMR metadata. Selected collection AccessConstraints require NASA Earthdata profile/login for science data;no account/credentials obtained.",
       "free_access_restrictions": "Selected collection explicitly freely/openly available with citation;science-data access requires Earthdata login. Metadata query is public. Third-party or restricted CMR holdings not included.",
-      "license": "Explicit dataset unrestricted-use grant with required citation in official UMM UseConstraints",
-      "license_url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?page_size=1&short_name=SPL3SMP_E&version=006",
+      "license": "Explicit dataset unrestricted-use grant with required citation in official UMM UseConstraints | Native NASA-led mission CC0 default subject to restrictive file notices; separate conditional CERES/MISR policy review",
+      "license_url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?page_size=1&short_name=SPL3SMP_E&version=006+%7C+https%3A%2F%2Fscience.data.nasa.gov%2Fabout%2Flicense",
       "api_verification_state": "documented_metadata_sample_success_data_login_required_untested",
-      "latest_checked_utc": "2026-10-18T00:35:20.636770+00:00",
+      "latest_checked_utc": "2026-10-18T00:37:37.826676+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -24411,6 +24411,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "hrs-registered-research-data",
+      "provider": "University of Michigan / Health and Retirement Study",
+      "service_name": "Health and Retirement Study registered research-data access",
+      "geographic_coverage": "UnitedStates adults over50 andrelated longitudinalfamily/health/cohortdata; source-specificcoverage",
+      "topical_coverage": "health | demographics | labor | housing | research",
+      "dataset_families": "Longitudinal aging, health, retirement, family, economic andbiomarkerstudy metadata; sourceparticipantdata excluded",
+      "documentation_url": "https://hrsdata.isr.umich.edu/node/39104 | https://hrsdata.isr.umich.edu/data-products/ai-llm-use-policy",
+      "api_base_url": "",
+      "format_protocol": "PublicpolicyHTMLindexed; datafiles/access viaregisteredservice, noqueryAPI verified",
+      "authentication": "Userregistrationandconditions forpublicreleasefiles; strongeragreements andenclaves forrestricted/sensitiveproducts",
+      "free_access_restrictions": "Sourceconfidentiality/limitedredistribution/recipientregistration andAI-useconditions; noaccount, agreementor sourceaccess",
+      "license": "Restricted registeredresearch-useconditions; notanopenlicence",
+      "license_url": "https://hrsdata.isr.umich.edu/node/39104 | https://hrsdata.isr.umich.edu/data-products/ai-llm-use-policy",
+      "api_verification_state": "Originalhomepageguard-deferred; liveprimaryindexedcurrentpoliciesreviewed, no nativeAPI/source response",
+      "latest_checked_utc": "2026-10-18T00:37:37.826676+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "human-protein-reference-database",
       "provider": "Institute of Bioinformatics / Johns Hopkins Pandey laboratory collaboration",
       "service_name": "Human Protein Reference Database (HPRD)",
@@ -25955,7 +25973,7 @@
       "license": "WoRMS page text CC BY4.0; default images CC BY-NC-SA4.0; entire-database redistribution requires prior written agreement",
       "license_url": "https://www.marinespecies.org/about.php#terms",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:26:01.002269+00:00",
+      "latest_checked_utc": "2026-10-18T00:37:37.826676+00:00",
       "classification": "restricted"
     },
     {
