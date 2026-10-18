@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:47:36.684800+00:00",
+  "published_at": "2026-10-18T14:49:39.454289+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:46:51.918154+00:00",
+  "research_updated_at": "2026-10-18T14:48:40.060038+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to678pages/678000refs;2535503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Six originals: GRO ownerAPI/priorhosthold; MOSDAC native productredistributionrestricted; DANSphysical/Arca/Redape/CESA OAIguards andnativeindependentidentity/rightsuncertainty; MDZ678000 incomplete.",
   "counts": {
     "verified": 429,
-    "candidates": 1090,
+    "candidates": 1093,
     "excluded": 326,
     "sample_successes": 464
   },
@@ -2038,6 +2038,7 @@
         ],
         "candidate_provider_ids": [
           "brazil",
+          "cesa-academic-data",
           "chile-bcentral",
           "eclac",
           "jamaica-data",
@@ -2063,6 +2064,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "embrapa-redape",
           "mexico-national-open-data",
           "mindagri-ne"
         ],
@@ -2074,6 +2076,7 @@
         "candidate_provider_ids": [
           "eclac",
           "edac-gstore",
+          "embrapa-redape",
           "esa-ecology",
           "fortaleza-ckan-api",
           "montevideo-beaches",
@@ -2129,6 +2132,7 @@
           "ciencia-aberta",
           "dhs-indicator-data-api",
           "dominican-data",
+          "fiocruz-arca-dados",
           "fortaleza-ckan-api",
           "goias-state-ckan-api",
           "mexico-national-open-data",
@@ -2144,6 +2148,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "cdha-study-resource-directory",
+          "cesa-academic-data",
           "dhs-indicator-data-api",
           "dominican-data",
           "goias-state-ckan-api",
@@ -2292,6 +2297,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "colombia-mincultura-research-dataverse",
+          "embrapa-redape",
           "mexico-national-open-data",
           "mindagri-ne",
           "uca-argentina-institutional-repository",
@@ -2307,12 +2313,15 @@
         "candidate_provider_ids": [
           "bold-v5-public-data-api",
           "cdha-study-resource-directory",
+          "cesa-academic-data",
           "ciencia-aberta",
           "colombia-mincultura-research-dataverse",
           "datapb-ufpb-dataverse",
           "dhs-indicator-data-api",
           "edac-gstore",
+          "embrapa-redape",
           "esa-ecology",
+          "fiocruz-arca-dados",
           "registry-portaldados-ppgau-uff-br",
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
@@ -2663,6 +2672,7 @@
           "bordeaux-metropole-datahub",
           "brgm-cupidon-repository",
           "crc806-legacy-research-database",
+          "dans-physical-technical-station",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
@@ -2801,6 +2811,7 @@
         ],
         "candidate_provider_ids": [
           "bgs-ngdc-ags-access-api",
+          "dans-physical-technical-station",
           "eea-sdi-datahub-catalogue",
           "histat-historical-statistics",
           "kadi4mat-kit-iam-api",
@@ -2998,6 +3009,7 @@
           "glasgow-enlighten-research-data",
           "gotriple",
           "granada-university-open-data",
+          "gro-data-repository",
           "histat-historical-statistics",
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
@@ -3705,6 +3717,7 @@
           "czech-national-corpus-fcs",
           "daks-kassel-research-repository",
           "dans-life-sciences-station",
+          "dans-physical-technical-station",
           "datapb-ufpb-dataverse",
           "digitum-murcia-public-metadata",
           "direno-lower-austria-repository",
@@ -3729,6 +3742,7 @@
           "glasgow-enlighten-research-data",
           "gotriple",
           "granada-university-open-data",
+          "gro-data-repository",
           "histat-historical-statistics",
           "human-mortality-database",
           "ilc4clarin-fcs",
@@ -4412,7 +4426,9 @@
           "wis2-india",
           "wis2-nepal"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "mosdac-data-api"
+        ]
       },
       "water": {
         "status": "partial_candidates_only",
@@ -4424,7 +4440,9 @@
           "mtropics-sedoo-metadata",
           "nepal"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "mosdac-data-api"
+        ]
       },
       "energy": {
         "status": "partial_candidates_only",
@@ -4491,6 +4509,7 @@
           "wis2-nepal"
         ],
         "restricted_provider_ids": [
+          "mosdac-data-api",
           "pakistan-petroleum-data-repository"
         ]
       },
@@ -4533,7 +4552,9 @@
         "candidate_provider_ids": [
           "incois-ocean-erddap-services"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "mosdac-data-api"
+        ]
       },
       "astronomy": {
         "status": "partial_candidates_only",
@@ -4584,6 +4605,7 @@
         "restricted_provider_ids": [
           "human-protein-reference-database",
           "ibdc-indian-crop-phenome",
+          "mosdac-data-api",
           "pakistan-petroleum-data-repository"
         ]
       }
@@ -15998,6 +16020,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cesa-academic-data",
+      "provider": "Colegio de Estudios Superiores de Administración / CESA",
+      "service_name": "CESA academic data repository",
+      "geographic_coverage": "Colombianinstitutionalresearch; exactdatasetgeographyvaries",
+      "topical_coverage": "economics/finance | education | research",
+      "dataset_families": "Business/entrepreneurship/innovation/digitaltransformation/consumer/financialmarketresearchmetadata; no surveyvaluesqueried",
+      "documentation_url": "https://www.cesa.edu.co/news/aporte-a-la-ciencia-abierta-con-un-servicio-de-gestion-y-almacenamiento-de-datos/",
+      "api_base_url": "https://opendata.cesa.edu.co/oai (registryclaim, targetunsent)",
+      "format_protocol": "RegistryOAI/RESTclaims; nativeownerDataverseidentityonly",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verified metadata/source-data grant",
+      "license_url": "https://www.cesa.edu.co/news/aporte-a-la-ciencia-abierta-con-un-servicio-de-gestion-y-almacenamiento-de-datos/",
+      "api_verification_state": "OAIIdentifyguard-deferredtargetunsent; independentnativeinstitutionannouncement200HTMLconfirmsrepository/businessfamilies. No actualAPI/XML/schemaresponseverified.",
+      "latest_checked_utc": "2026-10-18T14:47:54.180447+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cessda-catalogue",
       "provider": "CESSDA ERIC",
       "service_name": "CESSDA ERIC public metadata APIs",
@@ -18806,6 +18846,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "embrapa-redape",
+      "provider": "Embrapa",
+      "service_name": "Redape agricultural research data repository",
+      "geographic_coverage": "Brazilianagriculturalresearch/partners; datasetgeographyvaries",
+      "topical_coverage": "agriculture | research | environment",
+      "dataset_families": "AgriculturalresearchdatafromEmbrapaprojects/partners; actualinventoryunqueried",
+      "documentation_url": "https://www.gov.br/pt-br/servicos/acessar-o-repositorio-de-dados-de-pesquisa-da-embrapa-redape",
+      "api_base_url": "https://www.redape.dados.embrapa.br/oai (registryclaim, targetunsent)",
+      "format_protocol": "RegistryOAI/RESTclaims; independentgovserviceidentitynotXML/runtimeproof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown effective metadata-wide/per-dataset grant; registry NC license target unreviewed",
+      "license_url": "https://www.redape.dados.embrapa.br/licenses/embrapa-by-nc-4.0.xhtml",
+      "api_verification_state": "OAIIdentifyguard-deferredtargetunsent, queuedlicensetargetunsentafterhosthold. Independentnativegovernmentservicepage200HTML; noactualAPI/XML/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T14:47:54.180447+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ena",
       "provider": "EMBL-EBI European Nucleotide Archive",
       "service_name": "EMBL-EBI European Nucleotide Archive API",
@@ -19379,6 +19437,24 @@
       "license_url": "https://www.avoindata.fi/en/terms-of-use",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-17T09:06:04.589067+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "fiocruz-arca-dados",
+      "provider": "Fundação Oswaldo Cruz / Fiocruz",
+      "service_name": "Arca Dados research repository",
+      "geographic_coverage": "BrazilianFiocruzcommunity/collaborations; actualsourcegeographyvaries",
+      "topical_coverage": "health | research",
+      "dataset_families": "Institutionalhealth/interdisciplinaryresearchdata; exactcurrentcorpusunqueried",
+      "documentation_url": "https://guia.arcadados.fiocruz.br/ | https://guia.arcadados.fiocruz.br/pt/node/22",
+      "api_base_url": "https://arcadados.fiocruz.br/oai (registryclaim, guarduntested)",
+      "format_protocol": "RegistryOAI/RESTclaims, nativeoperatoridentity/terms only; genericSWORDsoftwaredocsnotdeployedreadAPIproof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-dataset license/access restrictions; metadata-wide grant unknown",
+      "license_url": "https://guia.arcadados.fiocruz.br/pt/node/22",
+      "api_verification_state": "OriginalOAIIdentifyguard-deferredtargetunsent; independentnativeguide/FAQ200substantiveHTML. No actualAPI/XMLschema/responseverified.",
+      "latest_checked_utc": "2026-10-18T14:47:54.180447+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
