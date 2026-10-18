@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T06:00:46.775173+00:00",
+  "published_at": "2026-10-18T06:02:49.625947+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:59:05.296750+00:00",
+  "research_updated_at": "2026-10-18T06:01:41.244146+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Borealis licence defaults scoped; LAUDATIO native JSON count30verified with grants pending; ZEW restricted research access verified.",
+  "latest_milestone": "Sixoriginals reviewed: LAUDATIO count30/SSJDA OAI verified; ZEW/SSJDA source restrictions; NASA catalog distinction, Borealis defaults and APIholds preserved",
   "counts": {
     "verified": 361,
-    "candidates": 860,
-    "excluded": 256,
+    "candidates": 862,
+    "excluded": 257,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -205,6 +205,7 @@
           "mumbai-geomagnetism-data-centre",
           "nasa-api",
           "nasa-asdc-services",
+          "nasa-open-data-catalog",
           "nasa-power",
           "nced-data-repository",
           "nlr-geospatial-data-services",
@@ -460,6 +461,7 @@
         ],
         "candidate_provider_ids": [
           "cugir-geospatial-repository",
+          "nasa-open-data-catalog",
           "openchargemap",
           "shom-data"
         ],
@@ -747,6 +749,7 @@
           "mumbai-geomagnetism-data-centre",
           "nasa-api",
           "nasa-exoplanet",
+          "nasa-open-data-catalog",
           "usno-astronomical-applications-api",
           "vmf-vienna-mapping-functions"
         ],
@@ -990,6 +993,7 @@
           "muenster-datastore-rest",
           "mumbai-geomagnetism-data-centre",
           "nasa-asdc-services",
+          "nasa-open-data-catalog",
           "nasc-plant-stock-webservices",
           "ncbi-genome-datasets",
           "ncbi-taxonomy-services",
@@ -2141,6 +2145,7 @@
           "cis-spain-survey-data-bank",
           "edina-research-service-portal",
           "german-cancer-registry-data-centre",
+          "histat-historical-statistics",
           "human-mortality-database",
           "insee",
           "latvia-statistics",
@@ -2211,6 +2216,7 @@
           "bundesbank",
           "cis-spain-survey-data-bank",
           "european-history-online",
+          "histat-historical-statistics",
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
@@ -2229,7 +2235,8 @@
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
           "german-statistical-rdc",
-          "share-eric-research-data"
+          "share-eric-research-data",
+          "zew-research-data-centre"
         ]
       },
       "labor": {
@@ -2268,6 +2275,7 @@
           "aragon-core",
           "aragon-sparql",
           "cis-spain-survey-data-bank",
+          "histat-historical-statistics",
           "latvia-statistics",
           "lithuania-statistics",
           "registry-opendata-aragon-es",
@@ -2281,7 +2289,8 @@
           "bamf-fdz-research-data",
           "dhsnl-dnb-household-survey",
           "dza-research-data-centre",
-          "share-eric-research-data"
+          "share-eric-research-data",
+          "zew-research-data-centre"
         ]
       },
       "agriculture": {
@@ -2309,6 +2318,7 @@
           "bonares-soil-agricultural-repository",
           "edina-research-service-portal",
           "galicia-abertos-catalog",
+          "histat-historical-statistics",
           "lithuania-statistics",
           "nasc-plant-stock-webservices",
           "puglia-open-data-catalog",
@@ -2500,6 +2510,7 @@
           "zaragoza-open-data-api"
         ],
         "candidate_provider_ids": [
+          "histat-historical-statistics",
           "lithuania-statistics",
           "nordpool-entsoe",
           "puglia-open-data-catalog",
@@ -2661,6 +2672,7 @@
           "glasgow-enlighten-research-data",
           "gotriple",
           "granada-university-open-data",
+          "histat-historical-statistics",
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
           "kielipankki-fcs",
@@ -2933,7 +2945,9 @@
           "poland-gus-regon",
           "serbia-apr"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "zew-research-data-centre"
+        ]
       },
       "law/civic": {
         "status": "partial_verified",
@@ -3134,6 +3148,7 @@
           "galicia-abertos-catalog",
           "glasgow-enlighten-research-data",
           "gotriple",
+          "histat-historical-statistics",
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
           "kielipankki-fcs",
@@ -3285,6 +3300,7 @@
           "glasgow-enlighten-research-data",
           "gotriple",
           "granada-university-open-data",
+          "histat-historical-statistics",
           "human-mortality-database",
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
@@ -3367,6 +3383,7 @@
           "ship-pomerania-cohort-access",
           "swiss-al-fcs",
           "tna-discovery",
+          "zew-research-data-centre",
           "zpid-rdc-controlled-research"
         ]
       }
@@ -4095,7 +4112,8 @@
           "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": [
-          "korea-kosis"
+          "korea-kosis",
+          "social-science-japan-data-archive"
         ]
       },
       "economics/finance": {
@@ -4110,7 +4128,8 @@
           "thailand-govspending"
         ],
         "restricted_provider_ids": [
-          "korea-kosis"
+          "korea-kosis",
+          "social-science-japan-data-archive"
         ]
       },
       "labor": {
@@ -4123,7 +4142,8 @@
           "china-nbs"
         ],
         "restricted_provider_ids": [
-          "korea-kosis"
+          "korea-kosis",
+          "social-science-japan-data-archive"
         ]
       },
       "agriculture": {
@@ -4215,7 +4235,8 @@
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
-          "cinii-research"
+          "cinii-research",
+          "social-science-japan-data-archive"
         ]
       },
       "housing": {
@@ -4370,6 +4391,7 @@
           "chiba-curator-repository",
           "cinii-research",
           "nii-idr-restricted-dataset-service",
+          "social-science-japan-data-archive",
           "southeast-asian-climate-assessment-dataset"
         ]
       }
@@ -17117,6 +17139,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "histat-historical-statistics",
+      "provider": "Leibniz Institute for Financial Research SAFE",
+      "service_name": "HISTAT historical statistics database",
+      "geographic_coverage": "Historical economic/social research, notably Germany; individual study territories vary",
+      "topical_coverage": "economics/finance | demographics | labor | agriculture | energy | education | research",
+      "dataset_families": "Historical time series and study/source descriptions; native homepage reports536studies/436077time-series, not independently enumerated",
+      "documentation_url": "https://histat.safe-frankfurt.de/index.php/en/index",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Metadata browser discovery without registration; data download requires free registration/login; no account made",
+      "free_access_restrictions": "Owner says registration/use/download free, depositor dissemination conditions apply; reuse grant unknown",
+      "license": "unknown verified data grant",
+      "license_url": "https://histat.safe-frankfurt.de/assets/Online-DB_histat_Registration_and_Use.pdf",
+      "api_verification_state": "Native root200HTML and registration/use guide200PDF; no machine-query API documented in inspected material",
+      "latest_checked_utc": "2026-10-18T06:01:06.294279+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "hk-weather",
       "provider": "Hong Kong Observatory",
       "service_name": "Hong Kong Observatory open data API",
@@ -19598,6 +19638,24 @@
       "license_url": "https://www.ipac.caltech.edu/page/image-use-policy | https://ned.ipac.caltech.edu/Documents/Overview/Acknowledgments",
       "api_verification_state": "Native root/currentAPI PDF/image/acknowledgement policies200. OfficialPDF webextraction lastchangeJuly2026: statelessVOTableAPI. Native MAXREC0 request200validVOTable22fields/zero rows; no HTML/APIerrorcounted.",
       "latest_checked_utc": "2026-10-18T03:04:47.024191+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-open-data-catalog",
+      "provider": "NASA OCIO Applications & Data Services",
+      "service_name": "NASA Open Data Portal metadata catalog",
+      "geographic_coverage": "Global, terrestrial and space mission/research discovery; record-specific coverage varies",
+      "topical_coverage": "astronomy | climate/weather/environment | research | transportation",
+      "dataset_families": "Catalog metadata about NASA science, space exploration, aeronautics and other datasets; underlying data generally hosted in other archives",
+      "documentation_url": "https://data.nasa.gov/about",
+      "api_base_url": "https://data.nasa.gov/api/3/action/",
+      "format_protocol": "CKAN metadata API candidate; runtime not verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root/about200HTML; zero-row CKAN request guard-deferred unsent, no count/APIJSON returned",
+      "latest_checked_utc": "2026-10-18T06:01:06.294279+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31318,6 +31376,24 @@
       "license_url": "https://www.sidc.be/SILSO/eisninfo",
       "api_verification_state": "native_SILSO_CCBYNC4_data_terms_verified_public_queryAPI_unconfirmed",
       "latest_checked_utc": "2026-10-17T23:48:18.597388+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "social-science-japan-data-archive",
+      "provider": "University of Tokyo / CSRDA",
+      "service_name": "Social Science Japan Data Archive (SSJDA)",
+      "geographic_coverage": "Japan social-science survey archive; individual sources may vary",
+      "topical_coverage": "demographics | economics/finance | labor | education | research",
+      "dataset_families": "Academic secondary-analysis survey datasets, source-specific education-use exceptions; OAI metadata discovery",
+      "documentation_url": "https://csrda.iss.u-tokyo.ac.jp/english/infrastructure/access/condition/",
+      "api_base_url": "https://ssjda.iss.u-tokyo.ac.jp/Direct/oai2/",
+      "format_protocol": "OAI-PMH2.0 XML; source CSV/SPSS/Stata formats not APIs",
+      "authentication": "Anonymous OAI Identify successful; actual datasets require approved application/pledge/qualified users",
+      "free_access_restrictions": "Dataset use free, academic secondary analysis only with depositor/archive approval; mailing costs possible. Source-specific conditions, teaching exceptions and duration vary.",
+      "license": "Controlled academic research use with no unauthorized redistribution and deletion at access expiry",
+      "license_url": "https://csrda.iss.u-tokyo.ac.jp/english/infrastructure/access/condition/",
+      "api_verification_state": "Native conditions200HTML; anonymous Identify200parsed OAI-PMH XML, repository descriptor only",
+      "latest_checked_utc": "2026-10-18T06:01:06.294279+00:00",
       "classification": "restricted"
     },
     {
