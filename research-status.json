@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T12:17:55.978961+00:00",
+  "published_at": "2026-10-18T12:19:59.493225+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:16:45.838771+00:00",
+  "research_updated_at": "2026-10-18T12:19:27.689582+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DataverseNO metadataCC0/OAIheld; 4TU schema documented/currentpolicyheld; Marine deduplicated/restrictions reverified.",
+  "latest_milestone": "DataverseNO metadataCC0/APIheld;4TU schema/currentpolicyheld;Marine restrictionreverified;ScienceDBnativeOAI/serviceNC;MycoCosm/USTPcandidate;MDZ439000refs incomplete.",
   "counts": {
     "verified": 402,
-    "candidates": 1034,
-    "excluded": 301,
+    "candidates": 1036,
+    "excluded": 302,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -494,7 +494,8 @@
           "heidicon-object-multimedia-repository",
           "karlsruher-wolkenatlas",
           "micase-spoken-english-corpus",
-          "orcid"
+          "orcid",
+          "sciencedb-api-oai"
         ]
       },
       "housing": {
@@ -1213,6 +1214,7 @@
           "orcid",
           "phi-base-api",
           "res3t-sorption-thermodynamics",
+          "sciencedb-api-oai",
           "senckenberg-research-metadata-portal",
           "silso-sunspot-data",
           "stomicsdb-spatial-omics",
@@ -2610,6 +2612,7 @@
           "esgf-dkrz-discovery",
           "esgf-ipsl-discovery",
           "esgf-liu-discovery",
+          "fourtu-researchdata-api",
           "galicia-abertos-catalog",
           "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
@@ -2908,6 +2911,7 @@
           "edina-research-service-portal",
           "estonia-datadoi",
           "estonia-language-metashare",
+          "fourtu-researchdata-api",
           "galicia-abertos-catalog",
           "glasgow-enlighten-research-data",
           "gotriple",
@@ -2939,6 +2943,7 @@
           "tul-open-research-data",
           "tuscany-open-data-catalog",
           "upf-digital-repository",
+          "ustp-phaidra-repository",
           "vads-visual-arts-service",
           "zagreb-pmf-metadata-repository",
           "zvdd-metadata-interfaces"
@@ -3459,6 +3464,7 @@
           "tuebingen-fcs",
           "uk-trade-tariff",
           "upf-digital-repository",
+          "ustp-phaidra-repository",
           "vads-visual-arts-service",
           "wellcome-collection",
           "zvdd-metadata-interfaces"
@@ -3600,6 +3606,7 @@
           "estonia-language-metashare",
           "eurolas-data-center-api",
           "european-history-online",
+          "fourtu-researchdata-api",
           "france-culture-open-data-portal",
           "german-cancer-registry-data-centre",
           "glasgow-enlighten-research-data",
@@ -3656,6 +3663,7 @@
           "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
           "upf-digital-repository",
+          "ustp-phaidra-repository",
           "vads-visual-arts-service",
           "vu-yoda-publication-metadata",
           "wellcome-collection",
@@ -4586,6 +4594,7 @@
         "restricted_provider_ids": [
           "chiba-curator-repository",
           "cinii-research",
+          "sciencedb-api-oai",
           "social-science-japan-data-archive"
         ]
       },
@@ -4748,6 +4757,7 @@
           "chiba-curator-repository",
           "cinii-research",
           "nii-idr-restricted-dataset-service",
+          "sciencedb-api-oai",
           "social-science-japan-data-archive",
           "southeast-asian-climate-assessment-dataset",
           "stomicsdb-spatial-omics"
@@ -21688,8 +21698,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across425successfulpages/425000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T12:11:05.561723+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across439successfulpages/439000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T12:18:24.590684+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22302,6 +22312,24 @@
       "license_url": "https://iigm.res.in/sites/default/files/Data%20Policy.pdf | https://wdc.iigm.res.in/data-usage-rules.html",
       "api_verification_state": "native_institute_WDC_identity_oldconditionalpolicy_and_currentpolicyplaceholder_verified_API_exactgrants_unresolved",
       "latest_checked_utc": "2026-10-17T23:56:25.011093+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mycocosm-fungal-genomics-portal",
+      "provider": "US DOE Joint Genome Institute / Lawrence Berkeley National Laboratory",
+      "service_name": "MycoCosm fungal genomics portal and linked JGI download API",
+      "geographic_coverage": "International fungal genomics research; study geography varies",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Fungal comparative-genomics catalogue, annotations and source products; no source molecular values acquired",
+      "documentation_url": "https://mycocosm.jgi.doe.gov/mycocosm/home | https://files-download.jgi.doe.gov/apidoc/",
+      "api_base_url": "https://files-download.jgi.doe.gov/",
+      "format_protocol": "Linked JGI download API Swagger wrapper documented; exact metadata query/schema/auth unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Project/date/release-specific JGI policy; no verified blanket grant",
+      "license_url": "https://jgi.doe.gov/data-policy-support/full-data-policy",
+      "api_verification_state": "Native MycoCosm root200HTML and JGI policy200PDF read via official web PDF reader; JGI API docs200SwaggerHTMLwrapper only, no machine API response or exact metadata query tested",
+      "latest_checked_utc": "2026-10-18T12:18:18.567713+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29559,6 +29587,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ustp-phaidra-repository",
+      "provider": "University of Applied Sciences St. Pölten (USTP)",
+      "service_name": "USTP Phaidra institutional repository",
+      "geographic_coverage": "Austria; USTP institutional outputs with varied subject geography",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional digital resources, theses, publications and educational outputs",
+      "documentation_url": "https://phaidra.ustp.at",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://phaidra.ustp.at/termsofuse",
+      "api_verification_state": "Native root/terms/help200HTML; registry OAIURI is University of Vienna service, not verified local USTP endpoint. No local API sample.",
+      "latest_checked_utc": "2026-10-18T12:18:18.567713+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "usu-sumatera-utara-repository",
       "provider": "Universitas Sumatera Utara / USU Library",
       "service_name": "USU Indonesian institutional repository",
@@ -36128,6 +36174,24 @@
       "license_url": "https://scholarsphere.psu.edu/terms/",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-17T17:24:53.586518+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "sciencedb-api-oai",
+      "provider": "Computer Network Information Center, Chinese Academy of Sciences",
+      "service_name": "ScienceDB API and OAI-PMH services",
+      "geographic_coverage": "Global multidisciplinary data platform operated in China",
+      "topical_coverage": "research | education",
+      "dataset_families": "Scientific dataset metadata and deposited research data across disciplines",
+      "documentation_url": "https://www.scidb.cn/about/terms",
+      "api_base_url": "https://www.scidb.cn/oai",
+      "format_protocol": "OAI-PMH XML runtime verified; owner documents separate REST Swagger API",
+      "authentication": "Anonymous OAIIdentify succeeded; REST authentication and quotas untested",
+      "free_access_restrictions": "Native terms distinguish per-licence dataset reuse from noncommercial-only other services",
+      "license": "Noncommercial services restriction; deposited datasets per corresponding licence",
+      "license_url": "https://www.scidb.cn/about/terms",
+      "api_verification_state": "Native owner root/terms200HTML; anonymous Identify200validOAIXML/noerror and canonicalbaseURL. No REST/source records queried.",
+      "latest_checked_utc": "2026-10-18T12:18:18.567713+00:00",
       "classification": "restricted"
     },
     {
