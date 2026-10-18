@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T12:22:02.348334+00:00",
+  "published_at": "2026-10-18T12:24:05.090150+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:21:44.423221+00:00",
+  "research_updated_at": "2026-10-18T12:23:56.574947+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DataverseNO metadataCC0/APIheld;4TU schema/currentpolicyheld;Marine restrictionreverified;ScienceDBnativeOAI/serviceNC;MycoCosm/USTPcandidate;MDZ439000refs incomplete.",
+  "latest_milestone": "CEWSsourceheld; LUHCKANdocumented/statusheld/rightsunknown; O2A currentOpenAPI110paths/data rightsunconfirmed.",
   "counts": {
     "verified": 402,
-    "candidates": 1036,
+    "candidates": 1039,
     "excluded": 302,
     "sample_successes": 464
   },
@@ -15223,6 +15223,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cews-gender-academia-directory",
+      "provider": "GESIS CEWS",
+      "service_name": "Research Data on Gender Relations in Academia directory",
+      "geographic_coverage": "Gender relations in academia; Germany and international studies, exact corpus coverage unresolved",
+      "topical_coverage": "education | labor | demographics | research",
+      "dataset_families": "Directory of research on gender relations and intersectional approaches in academia; source study data separate",
+      "documentation_url": "https://www.gesis.org/en/cews/portfolio/digital-services/research-data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original owner URL guard-deferred targetunsent; indexed official current research-data description reviewed, no nativeAPI success",
+      "latest_checked_utc": "2026-10-18T12:23:51.901975+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "chandra-csc-tap",
       "provider": "Smithsonian Astrophysical Observatory / NASA Chandra X-ray Center",
       "service_name": "Chandra Source Catalog CSC 2.2 Virtual Observatory services",
@@ -21469,6 +21487,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "luh-research-data-ckan",
+      "provider": "Leibniz University Hannover / LUIS",
+      "service_name": "LUH Research Data Repository CKAN API",
+      "geographic_coverage": "LUH institutional research in Germany; dataset subjects may be international",
+      "topical_coverage": "research | education | engineering | environment",
+      "dataset_families": "Institutional research dataset metadata, research software and PALM research collection",
+      "documentation_url": "https://data.uni-hannover.de/ | https://www.luis.uni-hannover.de/en/services/storage-systems/research-data/legal",
+      "api_base_url": "https://data.uni-hannover.de/api/3/action/",
+      "format_protocol": "CKAN API linked by deployed portal; status JSON not returned",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.luis.uni-hannover.de/en/services/storage-systems/research-data/legal",
+      "api_verification_state": "Native root/legal200HTML; exact status_show guard-deferred unsent, not JSON/sample success",
+      "latest_checked_utc": "2026-10-18T12:23:51.901975+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "macewan-borealis-data-repository",
       "provider": "MacEwan University Library / Borealis",
       "service_name": "MacEwan University Data Repository",
@@ -23950,6 +23986,24 @@
       "license_url": "https://www.companiesoffice.govt.nz/about-us/copyright/",
       "api_verification_state": "documented_free_registration_required_api_untested",
       "latest_checked_utc": "2026-10-16T20:04:03.919736+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "o2a-registry-rest",
+      "provider": "Alfred Wegener Institute / O2A",
+      "service_name": "O2A REGISTRY REST sensor/platform metadata API",
+      "geographic_coverage": "International marine/polar research infrastructures; per-platform coverage varies",
+      "topical_coverage": "oceans | climate/weather/environment | research",
+      "dataset_families": "Platform/device/sensor registry, missions/events and versioned metadata; not observation data",
+      "documentation_url": "https://docs.o2a-data.de/registry/api/ | https://registry.o2a-data.de/api/",
+      "api_base_url": "https://registry.o2a-data.de/rest/v2/",
+      "format_protocol": "OpenAPI3.0.1/REST JSON; RSQL filters documented",
+      "authentication": "Owner says reading generally open; writes need token. Anonymous linked schema succeeded; no token/auth/write/source requests.",
+      "free_access_restrictions": "Public reading documented; owner requests sandbox for API testing. Only production documentation/schema read, no production/source test.",
+      "license": "Unknown current registry metadata/data licence; software BSD-3-Clause separate",
+      "license_url": "https://docs.o2a-data.de/collaboration/development.html",
+      "api_verification_state": "Native root200JSshell; current docs/UI/config200 and linked OpenAPI200validJSON version2.0-RC8. No source/contacts/items/observations runtime tested.",
+      "latest_checked_utc": "2026-10-18T12:23:51.901975+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
