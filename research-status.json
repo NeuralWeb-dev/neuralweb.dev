@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:04:52.241888+00:00",
+  "published_at": "2026-10-18T06:06:54.868212+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:04:34.700975+00:00",
+  "research_updated_at": "2026-10-18T06:06:27.151868+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UKHO marine OGL scope and native ArcGIS protocol verified; KUKR site restricted; CLARIN metadataBY4 grant with runtime pending, existing APIs preserved.",
+  "latest_milestone": "DAIS scoped CC0 metadata/nativeOAI verified; NMD own-data policy exceptions scoped, ULiège original robots hold preserved.",
   "counts": {
-    "verified": 362,
-    "candidates": 863,
+    "verified": 363,
+    "candidates": 865,
     "excluded": 258,
     "sample_successes": 465
   },
@@ -6748,6 +6748,24 @@
       "license_url": "https://data.gov.cy/en/resource/2305/dataset | https://data.gov.cy/en/dataset/970/dcat-ap-2.0/json | https://creativecommons.org/licenses/by/4.0/legalcode.en",
       "api_verification_state": "documented_datastore_observation_json_and_DCAT_JSON_XML_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T23:26:39.616154+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "dais-serbian-academy-metadata",
+      "provider": "Serbian Academy of Sciences and Arts / SASA institutes / RCUB",
+      "service_name": "DAIS institutional repository OAI metadata",
+      "geographic_coverage": "Serbian Academy and institute research outputs, source geography varies",
+      "topical_coverage": "research | culture | linguistics | geospatial | education",
+      "dataset_families": "Metadata of publications, historical/born-digital heritage, research data and other academy outputs across humanities, sciences and engineering",
+      "documentation_url": "https://dais.sanu.ac.rs/Files/policy-dais-en.html",
+      "api_base_url": "https://dais.sanu.ac.rs/oai/request",
+      "format_protocol": "OAI-PMH2.0 XML / Dublin Core metadata",
+      "authentication": "Anonymous repository Identify GET successful; source content access/registration varies",
+      "free_access_restrictions": "Metadata freely accessible/reusable under CC0; deposited documents individually licensed with embargo/restricted options",
+      "license": "CC0 for repository metadata",
+      "license_url": "https://dais.sanu.ac.rs/Files/policy-dais-en.html",
+      "api_verification_state": "Native owner/operator policy/docs200; OAI root400invalid-context, linked exact /oai/request Identify200parsed validXML",
+      "latest_checked_utc": "2026-10-18T06:06:22.580007+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20433,6 +20451,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "norwegian-marine-data-centre",
+      "provider": "Institute of Marine Research / Norwegian Marine Data Centre",
+      "service_name": "NMD marine research data services",
+      "geographic_coverage": "Norwegian/international marine environmental and fisheries research; source coverage varies",
+      "topical_coverage": "oceans | biodiversity | water | climate/weather/environment | research",
+      "dataset_families": "Marine environmental and fisheries monitoring/experimental/model data and products; metadata/operational research time series; geospatial advisory API lead separate",
+      "documentation_url": "https://www.hi.no/en/hi/forskning/research-data-1",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "IMR2016own-data availability/attribution policy; NLOD/CC BY publication recommendations, source exceptions retained",
+      "license_url": "https://www.hi.no/resources/imr/Data-policy-IMR.pdf",
+      "api_verification_state": "Native owner root/research-data200HTML and linked policy200PDF; current exact data API runtime untested; indexed owner report describes WMS/WFS/OGC API Features lead",
+      "latest_checked_utc": "2026-10-18T06:06:22.580007+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nps-irma-resource-services",
       "provider": "US National Park Service / Natural Resource Stewardship and Science",
       "service_name": "IRMA integrated resource data portal and documented API families",
@@ -25182,6 +25218,24 @@
       "license_url": "",
       "api_verification_state": "Nativeoriginalroot200institutionaldepartmentHTML, no exactdata-centre queryAPI/documentation/sample established",
       "latest_checked_utc": "2026-10-18T04:50:22.726034+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uliege-dataverse-repository",
+      "provider": "University of Liège",
+      "service_name": "ULiège Dataverse",
+      "geographic_coverage": "Belgian university-associated multidisciplinary research; source geographies unverified",
+      "topical_coverage": "research | education",
+      "dataset_families": "University research datasets; current deployed dataset families not enumerated",
+      "documentation_url": "https://dataverse.uliege.be/",
+      "api_base_url": "https://dataverse.uliege.be/oai",
+      "format_protocol": "OAI-PMH/REST claimed by registry, native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Original repository root guard-deferred unsent; independent owner library guide404, exact API/runtime/licensing unresolved",
+      "latest_checked_utc": "2026-10-18T06:06:22.580007+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
