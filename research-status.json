@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:36:58.939616+00:00",
+  "published_at": "2026-10-18T15:39:01.955530+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:35:26.187821+00:00",
+  "research_updated_at": "2026-10-18T15:38:13.838911+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: ATCC NC/dataAPI membership; BenchSci contractual restricted; Monash/ORDA/USN/Smithsonian portalholds/scopedownerterms; USN partialmigration; MDZ778000 incomplete.",
+  "latest_milestone": "SciLifeLab/HKU native mixed/defaultNC licensing withportalholds; GeneCorner disclaimerHTMLshell/APIunknown",
   "counts": {
     "verified": 432,
-    "candidates": 1123,
+    "candidates": 1126,
     "excluded": 332,
     "sample_successes": 464
   },
@@ -15147,6 +15147,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bccm-genecorner-catalog",
+      "provider": "BCCM / Belgian Science Policy / GeneCorner",
+      "service_name": "GeneCorner reference collection catalogue",
+      "geographic_coverage": "Belgian referencecollection; nativeexactcoverageunverified",
+      "topical_coverage": "research | biodiversity",
+      "dataset_families": "Registryplasmid/referencecollectioncatalogue candidate, nativeinventoryunverified",
+      "documentation_url": "https://bccm.belspo.be/legal/disclaimer",
+      "api_base_url": "",
+      "format_protocol": "Native200HTMLLoading shell, not API/schema/policytext",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verified data/metadata reuse grant",
+      "license_url": "https://bccm.belspo.be/legal/disclaimer",
+      "api_verification_state": "Native disclaimerHTTP200renderedshellLoading only; no actualterms/API/schemaresponse. RegistryAPIdiscoveryunresolved.",
+      "latest_checked_utc": "2026-10-18T15:38:07.484489+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bcgsc-chipseq-transcription-factor-data",
       "provider": "Canada Michael Smith Genome Sciences Centre",
       "service_name": "ChIP-Seq Transcription Factor Data portal candidate",
@@ -20904,6 +20922,24 @@
       "license_url": "https://www.hko.gov.hk/en/appweb/applet.htm",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T16:36:56.098852+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "hku-datahub",
+      "provider": "University of Hong Kong",
+      "service_name": "University of Hong Kong institutional research data portal",
+      "geographic_coverage": "HongKong institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutionalresearchdatasets/outputs andmetadata-onlyrestricted-source descriptions; exactinventoryunreviewed",
+      "documentation_url": "https://libguides.lib.hku.hk/researchdata/datahub/deposit",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution886/portal886 registryfiltersunverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaims; nativeportalpayload/schemaunverified",
+      "authentication": "No credentialsused; currentpublicreadAPIauthunresolved",
+      "free_access_restrictions": "Selectedlicenses/access/embargo; metadata-onlyrestrictedaccess options",
+      "license": "Unknown metadata-wide grant; selected mixed per-item licenses",
+      "license_url": "https://libguides.lib.hku.hk/researchdata/datahub/deposit",
+      "api_verification_state": "Originalportalguard-deferredunsent; independentnativeownerlicensingguide200HTML; no currentportalAPIresponse/schema.",
+      "latest_checked_utc": "2026-10-18T15:38:07.484489+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29130,6 +29166,24 @@
       "license_url": "https://sciencedata.dk/sites/sciencerepository/terms_of_use",
       "api_verification_state": "OriginalOAI redirectdestinationguard-deferred andindependentdocumentation-hosttermsguarddeferred; no successfulnativeAPI/termsresponse.",
       "latest_checked_utc": "2026-10-18T15:10:58.824032+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "scilifelab-institutional-repository",
+      "provider": "SciLifeLab",
+      "service_name": "SciLifeLab institutional research data portal",
+      "geographic_coverage": "Sweden institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutionalresearchdatasets/outputs andmetadata-onlyrestricted-source descriptions; exactinventoryunreviewed",
+      "documentation_url": "https://www.scilifelab.se/data-ai/repository/submission/",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution803/portal803 registryfiltersunverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaims; nativeportalpayload/schemaunverified",
+      "authentication": "No credentialsused; currentpublicreadAPIauthunresolved",
+      "free_access_restrictions": "Selectedlicenses/access/embargo; metadata-onlyrestrictedaccess options",
+      "license": "Unknown metadata-wide grant; selected mixed per-item licenses",
+      "license_url": "https://www.scilifelab.se/data-ai/repository/submission/",
+      "api_verification_state": "Originalportalguard-deferredunsent; independentnativeownerlicensingguide200HTML; no currentportalAPIresponse/schema.",
+      "latest_checked_utc": "2026-10-18T15:38:07.484489+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
