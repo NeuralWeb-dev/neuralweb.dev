@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T05:52:33.089498+00:00",
+  "published_at": "2026-10-18T05:54:35.976514+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:51:53.457879+00:00",
+  "research_updated_at": "2026-10-18T05:52:33.851754+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RIUMA/Apollo native OAI protocol verified with source-free Identify; grants remain candidate, GERY robots held.",
+  "latest_milestone": "Six originals reviewed; RIUMA/Apollo OAI protocol verified, ADA dedup and Leiden/ČSDA scoped restrictions preserved; grants/holds unresolved",
   "counts": {
     "verified": 361,
     "candidates": 854,
@@ -2743,7 +2743,8 @@
           "alspac-cohort-access-portal",
           "dhsnl-dnb-household-survey",
           "dza-research-data-centre",
-          "geoguyane-csw-catalogue"
+          "geoguyane-csw-catalogue",
+          "leiden-edepot-archives"
         ]
       },
       "transportation": {
@@ -2886,6 +2887,7 @@
           "cdgp-geothermal-portal",
           "geoguyane-csw-catalogue",
           "geotis-wms",
+          "leiden-edepot-archives",
           "neuchatel-sitn-geoservices",
           "registry-data-bs-ch",
           "tirol-ogd-geospatial-search",
@@ -2974,6 +2976,7 @@
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": [
+          "leiden-edepot-archives",
           "registry-data-bs-ch",
           "tna-discovery"
         ]
@@ -3164,6 +3167,7 @@
           "german-statistical-rdc",
           "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
+          "leiden-edepot-archives",
           "lindat-fcs",
           "maribor-dkum-oai",
           "meertens-collections-portal",
