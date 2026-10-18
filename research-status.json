@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T00:20:58.899653+00:00",
+  "published_at": "2026-10-18T00:23:01.639171+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:20:23.981345+00:00",
+  "research_updated_at": "2026-10-18T00:21:33.216468+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Tokyo explicitdatareusegrant butAPIunknown; STOREDB legal/authrestrictions retained; SureChEMBLCCBY4/OpenAPIverified butsingleGET500.",
+  "latest_milestone": "Nine original providers reviewed; nine new records. HGNC CC0/nativeJSON andSureChEMBLCCBY4/OpenAPI verified; NCDC1780IDs partial,page90timeout.",
   "counts": {
     "verified": 323,
     "candidates": 667,
@@ -156,6 +156,7 @@
           "igs-public-network-api",
           "india-environment-portal",
           "ioerdata-spatial-research-portal",
+          "iri-ldeo-climate-library",
           "isimip-impact-repository",
           "litterbase-marine-litter-portal",
           "muenster-datastore-rest",
@@ -263,6 +264,7 @@
           "datacommons",
           "doaj",
           "ensembl-rest-genome-service",
+          "hgnc-gene-nomenclature-rest",
           "intact-imex-psicquic",
           "neuromorpho",
           "nih-mesh",
@@ -484,6 +486,7 @@
           "ensembl-rest-genome-service",
           "fdat-tuebingen-metadata-api",
           "gbif",
+          "hgnc-gene-nomenclature-rest",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
           "itis-taxonomic-web-services",
@@ -685,6 +688,7 @@
           "getty-vocabularies",
           "gtnp-current-data-platform-api",
           "hcdc-datasearch-metadata-api",
+          "hgnc-gene-nomenclature-rest",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
           "itis-taxonomic-web-services",
@@ -762,6 +766,7 @@
           "india-environment-portal",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
+          "iri-ldeo-climate-library",
           "isdc-public-data-archive",
           "isimip-impact-repository",
           "issdc-space-science-archive",
@@ -955,6 +960,7 @@
         "candidate_provider_ids": [
           "annarbor-open-data",
           "barrow-area-information-database",
+          "bc-conservation-data-centre",
           "california-open-data",
           "cerp-sfwmd",
           "donnees-quebec-catalog",
@@ -970,6 +976,7 @@
           "montreal-open-data-catalog",
           "neracoos-erddap",
           "north-dakota-gis-hub",
+          "nps-irma-resource-services",
           "okanagan-similkameen-open-data",
           "ontario-data-catalog",
           "opendataphilly-jkan",
@@ -1023,6 +1030,7 @@
           "montana-state-library-gis-services",
           "nashville-open-data",
           "neracoos-erddap",
+          "nps-irma-resource-services",
           "registry-gisdata-mn-gov",
           "sfwmd-repository",
           "texas-state-open-data",
@@ -1099,6 +1107,7 @@
         ],
         "candidate_provider_ids": [
           "donnees-quebec-catalog",
+          "imls-data-collection",
           "ku-scholarworks-repository",
           "ontario-data-catalog",
           "opendataphilly-jkan",
@@ -1238,6 +1247,7 @@
           "nevada-county-open-data",
           "nlr-metropolitan-travel-survey-archive",
           "north-dakota-gis-hub",
+          "nps-irma-resource-services",
           "oakville-open-data",
           "okanagan-similkameen-open-data",
           "opendataphilly-jkan",
@@ -1283,6 +1293,7 @@
           "treasury"
         ],
         "candidate_provider_ids": [
+          "imls-data-collection",
           "irs",
           "usaspending"
         ],
@@ -1336,12 +1347,14 @@
           "seafloor"
         ],
         "candidate_provider_ids": [
+          "bc-conservation-data-centre",
           "canadensys",
           "cerp-sfwmd",
           "edi",
           "esa-ecology",
           "goa-ecology",
           "knb",
+          "nps-irma-resource-services",
           "smithsonian"
         ],
         "restricted_provider_ids": [
@@ -1396,10 +1409,12 @@
           "county-grande-prairie-open-data",
           "donnees-quebec-catalog",
           "getty-museum",
+          "imls-data-collection",
           "ku-scholarworks-repository",
           "loc",
           "montana-state-library-gis-services",
           "montreal-open-data-catalog",
+          "nps-irma-resource-services",
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "oregon-open-data",
@@ -1437,6 +1452,7 @@
           "ahrq-hcupnet-aggregate-statistics",
           "artic",
           "barrow-area-information-database",
+          "bc-conservation-data-centre",
           "cerp-sfwmd",
           "donnees-quebec-catalog",
           "drp",
@@ -1446,11 +1462,13 @@
           "getty-museum",
           "goa-ecology",
           "healthdata-gov-catalog",
+          "imls-data-collection",
           "knb",
           "ku-scholarworks-repository",
           "loc",
           "neracoos-erddap",
           "nlr-metropolitan-travel-survey-archive",
+          "nps-irma-resource-services",
           "sfwmd-repository",
           "smithsonian",
           "ubc-circle-open-collections",
@@ -3630,6 +3648,7 @@
           "japan-egov-data-catalog",
           "taiwan-cwa",
           "thailand-gistda",
+          "tokyo-aori-cruise-database",
           "wis2-china",
           "wis2-south-korea"
         ],
@@ -3642,7 +3661,8 @@
         ],
         "candidate_provider_ids": [
           "china-ncdc-cryosphere-desert-portal",
-          "taiwan-cwa"
+          "taiwan-cwa",
+          "tokyo-aori-cruise-database"
         ],
         "restricted_provider_ids": []
       },
@@ -3767,9 +3787,11 @@
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "tokyo-aori-cruise-database"
+        ],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -3809,6 +3831,7 @@
           "cinii-books",
           "nims-mdr",
           "smoka-science-archive",
+          "tokyo-aori-cruise-database",
           "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": [
@@ -4379,6 +4402,7 @@
           "trove-cultural-discovery-api"
         ],
         "restricted_provider_ids": [
+          "australian-national-corpus-restricted",
           "digitalnz"
         ]
       },
@@ -4411,6 +4435,7 @@
           "trove-cultural-discovery-api"
         ],
         "restricted_provider_ids": [
+          "australian-national-corpus-restricted",
           "birdata-birdlife-australia",
           "comparative-agendas-project",
           "dfo-pacific-ios-archive",
