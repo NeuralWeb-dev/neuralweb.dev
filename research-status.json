@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T10:45:33.184431+00:00",
+  "published_at": "2026-10-18T10:47:36.042929+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:45:14.154845+00:00",
+  "research_updated_at": "2026-10-18T10:47:34.522419+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to272pages/272000refs;2941503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "ISMN held/account downloader; Telkom OAIIdentify; Kielipankki FCSdedup/currentterms/Korp2635refs/CMDIdocs; MDZ272000refs/272pages incomplete.",
   "counts": {
     "verified": 390,
     "candidates": 1012,
@@ -2859,6 +2859,7 @@
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
           "kielipankki-fcs",
+          "kielipankki-korp-api",
           "kpbc-digital-library",
           "latvia-statistics",
           "lithuania-statistics",
@@ -3363,6 +3364,7 @@
           "ilc4clarin-fcs",
           "ims-stuttgart-language-repository",
           "kielipankki-fcs",
+          "kielipankki-korp-api",
           "kpbc-digital-library",
           "ksamsok",
           "lithuania-statistics",
@@ -3532,6 +3534,7 @@
           "ims-stuttgart-language-repository",
           "ioerdata-spatial-research-portal",
           "kielipankki-fcs",
+          "kielipankki-korp-api",
           "kpbc-digital-library",
           "ksamsok",
           "lifewatch-metadata-catalogue",
@@ -4765,7 +4768,9 @@
           "siak-regency-open-data",
           "singapore"
         ],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "telkom-university-dataverse"
+        ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository"
         ]
@@ -4871,7 +4876,8 @@
           "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
-          "mardi-papayanetbase"
+          "mardi-papayanetbase",
+          "telkom-university-dataverse"
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository",
