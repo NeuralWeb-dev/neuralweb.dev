@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:48:13.853623+00:00",
+  "published_at": "2026-10-18T02:50:16.601648+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:48:09.401263+00:00",
+  "research_updated_at": "2026-10-18T02:48:43.448442+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Two previous Bugwoodgateway leads reviewed as distinct EDDMapS/IPMResourceDatabase APIcandidates; sourcegrants/currentqueryinterfaces unresolved.",
+  "latest_milestone": "Twelve original tasks and2previousgatewayleads reviewed; 14services added. FAIRsharingBYSA4/EPOSBY4/TIBeligibleCC0metadata verified. TIB38478headerIDs/385pages:complete_returned_header_frontier; other rights/API/globalcoverage unresolved.",
   "counts": {
     "verified": 340,
-    "candidates": 749,
-    "excluded": 212,
+    "candidates": 751,
+    "excluded": 213,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -210,6 +210,7 @@
           "fao",
           "intermagnet-geomagnetic-api",
           "isgi-geomagnetic-indices-webservice",
+          "iucn-red-list-api-v4",
           "karlsruher-wolkenatlas",
           "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
@@ -344,6 +345,7 @@
           "dariah-de-repository-oai",
           "dnb-sru-oai-metadata",
           "doaj",
+          "fairsharing-registry-api",
           "fdat-tuebingen-metadata-api",
           "kitopen-bibliographic-oai",
           "oecd",
@@ -573,6 +575,7 @@
           "inaturalist",
           "indexs-exsiccatae-api",
           "ipd-immunopolymorphism-api",
+          "iucn-red-list-api-v4",
           "ndsf-data-access-portal",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
@@ -746,6 +749,7 @@
           "earthscope-seismic-web-services",
           "ensembl-rest-genome-service",
           "esgf-cmip5-discovery",
+          "fairsharing-registry-api",
           "fdat-tuebingen-metadata-api",
           "figshare",
           "fulir-data-metadata",
@@ -916,6 +920,7 @@
           "intermagnet-geomagnetic-api",
           "ipd-immunopolymorphism-api",
           "isgi-geomagnetic-indices-webservice",
+          "iucn-red-list-api-v4",
           "mgds-seismic-catalog",
           "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
@@ -1975,7 +1980,8 @@
           "eurocat-controlled-research-data",
           "hunt-health-study",
           "neps-survey-research-access",
-          "ship-pomerania-cohort-access"
+          "ship-pomerania-cohort-access",
+          "zpid-rdc-controlled-research"
         ]
       },
       "economics/finance": {
@@ -2358,7 +2364,8 @@
           "dirros-research-repository",
           "eurocat-controlled-research-data",
           "hunt-health-study",
-          "ship-pomerania-cohort-access"
+          "ship-pomerania-cohort-access",
+          "zpid-rdc-controlled-research"
         ]
       },
       "education": {
@@ -2463,7 +2470,8 @@
           "maribor-dkum-oai",
           "meertens-collections-portal",
           "neps-survey-research-access",
-          "swiss-al-fcs"
+          "swiss-al-fcs",
+          "zpid-rdc-controlled-research"
         ]
       },
       "housing": {
@@ -2502,6 +2510,7 @@
           "cambridgeshire-insight",
           "ioerdata-spatial-research-portal",
           "lithuania-statistics",
+          "luebeck-historic-mural-database",
           "mulhouse-alsace-open-data",
           "nfdi4ing-ingest-metadata-api",
           "os-os-places-api",
@@ -2881,6 +2890,7 @@
           "kpbc-digital-library",
           "ksamsok",
           "lithuania-statistics",
+          "luebeck-historic-mural-database",
           "nasc-plant-stock-webservices",
           "nfdi4ing-ingest-metadata-api",
           "ortolang-fcs",
@@ -3016,6 +3026,7 @@
           "kpbc-digital-library",
           "ksamsok",
           "lifewatch-metadata-catalogue",
+          "luebeck-historic-mural-database",
           "meteogate-climate-aggregator-edr",
           "nasc-plant-stock-webservices",
           "nfdi4health-study-hub",
@@ -3072,7 +3083,8 @@
           "sandrart-rest-api",
           "ship-pomerania-cohort-access",
           "swiss-al-fcs",
-          "tna-discovery"
+          "tna-discovery",
+          "zpid-rdc-controlled-research"
         ]
       }
     },
@@ -19396,6 +19408,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "peptideatlas-data-service",
+      "provider": "Institute for Systems Biology / PeptideAtlas",
+      "service_name": "PeptideAtlas data access and documented mapping API",
+      "geographic_coverage": "Multi-organism proteomics experiments; human/mouse/yeast and other source-specific scope",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Proteomics experiment/build discovery, peptide/protein identifications and mappings; publicsource claims distinct from protected studydata",
+      "documentation_url": "https://peptideatlas.org/overview.php",
+      "api_base_url": "http://www.peptideatlas.org/api/promast/v1/map; mappingtooldocs only, generaldataqueryendpointunverified",
+      "format_protocol": "NativeProMaSTAPIhelp documents GETmapping and JSON/TSV; computationtool not proof publicexperimentaldataqueryAPI",
+      "authentication": "Anonymoushome/overview/FAQ/parameterlessmappingAPIhelp accessible; no useraccount or dataaccessused, generalqueryAPIauthunknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Nativeoverview describes administered experimentaldata as publicdomain; exact source/database scope unresolved",
+      "license_url": "https://peptideatlas.org/overview.php",
+      "api_verification_state": "Nativehome/overview/FAQ200HTML; ownerpublication identifies mappingendpoint, parameterlessGET200currentAPIdocumentation. No mappinginput/processing job or experimentaldataAPIresponse requested.",
+      "latest_checked_utc": "2026-10-18T02:48:10.582004+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "perspectivia",
       "provider": "Max Weber Foundation perspectivia.net",
       "service_name": "Max Weber Foundation perspectivia.net API",
@@ -20563,6 +20593,24 @@
       "license_url": "https://researchdata.ruhr-uni-bochum.de/en/reseed/",
       "api_verification_state": "Originalrootguard-deferred; independentownernativeredirectloop301; userguideremoteclosedconnection. NoAPIresponse",
       "latest_checked_utc": "2026-10-18T01:06:30.744636+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "rhea-biochemical-reaction-api",
+      "provider": "Rhea / SIB Swiss Institute of Bioinformatics",
+      "service_name": "Rhea biochemical reaction REST/SPARQL API candidate",
+      "geographic_coverage": "Biochemical reactions, non-geographic cross-organism scientific coverage",
+      "topical_coverage": "research | biodiversity",
+      "dataset_families": "Curated biochemical reactions, chemical participants and identifiers; relatedUniProt data separate",
+      "documentation_url": "https://www.rhea-db.org/help/rest-api",
+      "api_base_url": "https://www.rhea-db.org/ | https://sparql.rhea-db.org/sparql",
+      "format_protocol": "OfficialindexedRESTdocs describe reactionRXN/RD and queryTSV; SPARQL advertised, native runtime unverified",
+      "authentication": "Currentnativeaccessunverified; indexedAPIguideasks considerationofcontactemail inUserAgent, optionalnotinvented. No credentials/contact used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Officialindexedowner licence states CC BY4.0; current native policy guard-deferred",
+      "license_url": "https://www.rhea-db.org/help/license-disclaimer",
+      "api_verification_state": "Native root/licence/APIreference allguard-deferred unsent. OfficialindexedownerREST/licence text reviewed, notnative200APIresponse. No SPARQL/FTP/otherbackend workaround.",
+      "latest_checked_utc": "2026-10-18T02:48:10.582004+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27027,6 +27075,24 @@
       "license_url": "http://data.noe.gv.at/noe/Open-Government-Data/Nutzungsbedingungen.html",
       "api_verification_state": "actual_public_XML_sample_success_gzip_decoded_current_additional_use_restrictions",
       "latest_checked_utc": "2026-10-17T10:37:15.919367+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "lpi-digital-lunar-orbiter-atlas",
+      "provider": "Lunar and Planetary Institute / USRA",
+      "service_name": "Digital Lunar Orbiter Photographic Atlas of the Moon",
+      "geographic_coverage": "Moon/lunarphotographiccoverage, nonterrestrial astronomical scope",
+      "topical_coverage": "astronomy | geospatial | culture | research",
+      "dataset_families": "Digitized historic LunarOrbiter photographicatlas/navigation/catalogue pages; sourceimage files notacquired",
+      "documentation_url": "https://www.lpi.usra.edu/resources/lunar_orbiter/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "USRAdefaultwebsiteuse limited to personal/informational/educational/noncommercial and no modification; underlyingNASAworks/source exceptions separate",
+      "license_url": "https://www.usra.edu/terms-use",
+      "api_verification_state": "Nativeatlasroot/misattributedcraterREADME/ownerterms200HTML. No exact publicmachinequeryAPI documented or sampled; imagecatalogueHTMLnotAPIresponse.",
+      "latest_checked_utc": "2026-10-18T02:48:10.582004+00:00",
       "classification": "restricted"
     },
     {
