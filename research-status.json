@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:01:35.688815+00:00",
+  "published_at": "2026-10-18T08:03:38.543162+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:01:02.723536+00:00",
+  "research_updated_at": "2026-10-18T08:02:55.116232+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Oxford scopedCC0/OAI protocol verified; NAKALA publicmetadataBY4 verified with held runtime; EurOBIS restrictive portal terms retained.",
+  "latest_milestone": "RefSeq sourcefamily retained separately, NCBIumbrella deduplicated; NatureServe native REST classification JSON verified, current nativegrant unresolved.",
   "counts": {
     "verified": 380,
-    "candidates": 926,
+    "candidates": 928,
     "excluded": 273,
     "sample_successes": 465
   },
@@ -9913,7 +9913,7 @@
       "license": "NLM data distribution terms; NLM-authored content public domain; copyrighted abstracts excluded",
       "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-18T04:28:47.741205+00:00",
+      "latest_checked_utc": "2026-10-18T08:02:50.240293+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20773,6 +20773,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "natureserve-explorer-api",
+      "provider": "NatureServe",
+      "service_name": "NatureServe Explorer public REST services",
+      "geographic_coverage": "Species/ecosystem conservation reference information; US/Canadian status systems documented, exact full geographic coverage unverified",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Public taxon/ecosystem reference and conservation-status search; name-category vocabulary only sampled; precise locations and Pro products excluded",
+      "documentation_url": "https://explorer.natureserve.org/api-docs/",
+      "api_base_url": "https://explorer.natureserve.org/api/",
+      "format_protocol": "REST JSON; public GET lookups and documented search POST/exportjob operations distinct",
+      "authentication": "No credentials for successful public classification GET; Pro/private/authenticated endpoints not tested",
+      "free_access_restrictions": "Official indexed terms say ExplorerCCBY commercial reuse allowed; Pro public-scale/mappingBYNC and highprecision separately licensed. Native operative policy body not recovered.",
+      "license": "CC BY claimed for Explorer in official indexed current terms; exact operative scope/version unconfirmed from native app shell",
+      "license_url": "https://explorer.natureserve.org/AboutTheData/UseGuidelinesCitations",
+      "api_verification_state": "Native API reference1.1.89 dated2026-09-18 reviewed; nameCategoryGET200 validJSON, vocabulary only. Native terms200shell versus officialindexedpolicy distinguished.",
+      "latest_checked_utc": "2026-10-18T08:02:50.240293+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "navarra-open-data",
       "provider": "Government of Navarra",
       "service_name": "Open Data Navarra documented CKAN catalog and DataStore APIs",
@@ -20824,6 +20842,24 @@
       "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
       "api_verification_state": "native_MMDB_Web_API_docs_verified_Bookshelf_Eutilities_doc_HTTP200_recaptcha_sample_untested",
       "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ncbi-refseq-reference-sequences",
+      "provider": "NCBI / National Library of Medicine",
+      "service_name": "RefSeq reference-sequence access through Entrez",
+      "geographic_coverage": "International reference-sequence resources spanning organisms; exact current taxon coverage unenumerated",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Curated/model genomic, transcript and protein reference sequences; source-specific annotated contributions",
+      "documentation_url": "https://ncbi.nlm.nih.gov/books/NBK50679/ | https://www.ncbi.nlm.nih.gov/home/tools/",
+      "api_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/ (shared Entrez interface documented, no RefSeq runtime test)",
+      "format_protocol": "Documented Entrez/Eutilities; FTP releases distinct from API",
+      "authentication": "Eutilities documented public without key at limited rate; no credentials or RefSeq requests used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "api_verification_state": "Current official indexed RefSeq/API/policy documentation reviewed; prior NCBI native holds preserved. No fresh RefSeqAPI/sample request.",
+      "latest_checked_utc": "2026-10-18T08:02:50.240293+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
