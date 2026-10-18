@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T02:27:45.730555+00:00",
+  "published_at": "2026-10-18T02:29:48.464334+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:27:13.535494+00:00",
+  "research_updated_at": "2026-10-18T02:28:29.178311+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SGDnativeBY4/currentRESTdocs verified with sampleguardhold; DATADOImixedgrant/OAIheld; Siktcontrolledsourceagreements explicit.83SGDoperations and MGDSWFScapabilities indexed.",
+  "latest_milestone": "Nine discovery tasks reviewed, five services added. MGDS collection/shared Bugwood aliases reconciled; MGDS WFS3featuretypes/SGD83operations indexed. SGD BY4/current API docs verified, runtime held. Source-rights/global universe unfinished.",
   "counts": {
     "verified": 337,
     "candidates": 744,
@@ -106,6 +106,7 @@
           "wfp"
         ],
         "restricted_provider_ids": [
+          "bugwood-image-network-api",
           "earthstat-restricted-raster-families",
           "fao",
           "gtap-current-database",
@@ -200,6 +201,7 @@
           "alspac-cohort-access-portal",
           "aviso-authenticated-data-services",
           "bsrn-wrmc-radiation-archive",
+          "bugwood-image-network-api",
           "copernicus-marine",
           "deims",
           "earthstat-restricted-raster-families",
@@ -209,6 +211,7 @@
           "intermagnet-geomagnetic-api",
           "isgi-geomagnetic-indices-webservice",
           "karlsruher-wolkenatlas",
+          "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
           "open-meteo",
           "openaq",
@@ -370,6 +373,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "asu-research-dataverse",
+          "bugwood-image-network-api",
           "cinii-research",
           "heidicon-object-multimedia-repository",
           "karlsruher-wolkenatlas",
@@ -476,6 +480,7 @@
           "earthstat-restricted-raster-families",
           "isgi-geomagnetic-indices-webservice",
           "mgds-seismic-catalog",
+          "ndsf-data-access-portal",
           "terrasarx-sar-imagery-access",
           "unep-grid-geneva"
         ]
@@ -560,6 +565,7 @@
           "usgs-sciencebase-catalogue"
         ],
         "restricted_provider_ids": [
+          "bugwood-image-network-api",
           "deims",
           "ebird",
           "edaphobase-soil-biodiversity-api",
@@ -567,6 +573,7 @@
           "inaturalist",
           "indexs-exsiccatae-api",
           "ipd-immunopolymorphism-api",
+          "ndsf-data-access-portal",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
           "worms",
@@ -613,6 +620,7 @@
           "copernicus-marine",
           "fishbase-programmatic-data",
           "mgds-seismic-catalog",
+          "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
           "worms"
         ]
@@ -700,6 +708,7 @@
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
+          "bugwood-image-network-api",
           "cinii-research",
           "earthstat-restricted-raster-families",
           "fao",
@@ -889,6 +898,7 @@
           "aviso-authenticated-data-services",
           "bnf-gallica",
           "bsrn-wrmc-radiation-archive",
+          "bugwood-image-network-api",
           "charite-zebanc-biobank",
           "cinii-research",
           "citf-controlled-databank",
@@ -907,6 +917,7 @@
           "ipd-immunopolymorphism-api",
           "isgi-geomagnetic-indices-webservice",
           "mgds-seismic-catalog",
+          "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
           "orcid",
           "phi-base-api",
@@ -2414,6 +2425,7 @@
           "cocoon-fcs",
           "cotedazur-recherche-data-gouv-collection",
           "czech-national-corpus-fcs",
+          "estonia-datadoi",
           "galicia-abertos-catalog",
           "glasgow-enlighten-research-data",
           "gotriple",
@@ -2990,6 +3002,7 @@
           "esgf-dkrz-discovery",
           "esgf-ipsl-discovery",
           "esgf-liu-discovery",
+          "estonia-datadoi",
           "european-history-online",
           "france-culture-open-data-portal",
           "glasgow-enlighten-research-data",
