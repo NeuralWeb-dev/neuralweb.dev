@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T04:36:45.374746+00:00",
+  "published_at": "2026-10-18T04:38:48.667784+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:36:35.204513+00:00",
+  "research_updated_at": "2026-10-18T04:37:43.247717+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RODERIC/VMF nativeholds and source/API gaps retained; ZenodoOAIIdentify and currentquotas verified, scopedmetadata grant retained.",
+  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
   "counts": {
     "verified": 354,
     "candidates": 813,
@@ -208,6 +208,7 @@
           "unite-species-hypotheses",
           "unsd",
           "usgs-sciencebase-catalogue",
+          "vmf-vienna-mapping-functions",
           "wdcrre-resources-environment",
           "whoi-argo-program",
           "whoi-seafloor-samples-lab",
@@ -494,6 +495,7 @@
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
           "igs-public-network-api",
+          "ilrs-laser-ranging-portal",
           "ioerdata-spatial-research-portal",
           "isric-soil-data-hub",
           "issdc-space-science-archive",
@@ -516,6 +518,7 @@
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections",
           "usgs-sciencebase-catalogue",
+          "vmf-vienna-mapping-functions",
           "wdcrre-resources-environment",
           "whoi-seafloor-samples-lab",
           "world-stress-map-oai",
@@ -706,6 +709,7 @@
           "helioviewer-api",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
+          "ilrs-laser-ranging-portal",
           "internet-archive-metadata",
           "ises-network-portal",
           "issdc-space-science-archive",
@@ -714,7 +718,8 @@
           "mumbai-geomagnetism-data-centre",
           "nasa-api",
           "nasa-exoplanet",
-          "usno-astronomical-applications-api"
+          "usno-astronomical-applications-api",
+          "vmf-vienna-mapping-functions"
         ],
         "restricted_provider_ids": [
           "esa-gaia",
@@ -926,6 +931,7 @@
           "iers-central-bureau-webservices",
           "igets-geodynamics-data-archive",
           "igs-public-network-api",
+          "ilrs-laser-ranging-portal",
           "india-environment-portal",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
@@ -978,6 +984,7 @@
           "unite-species-hypotheses",
           "usgs-sciencebase-catalogue",
           "usno-astronomical-applications-api",
+          "vmf-vienna-mapping-functions",
           "wdcrre-resources-environment",
           "wellcome-collection",
           "whoi-argo-program",
@@ -2103,6 +2110,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "bamf-fdz-research-data",
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
           "eurocat-controlled-research-data",
@@ -2211,6 +2219,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "bamf-fdz-research-data",
           "dhsnl-dnb-household-survey"
         ]
       },
@@ -2531,6 +2540,7 @@
           "lindat-repository",
           "moldova-data",
           "netherlands-catalog-metadata",
+          "olos-research-data",
           "onb-webarchive",
           "palermo-open-data",
           "piemonte-opendata-catalog",
@@ -2591,6 +2601,7 @@
           "portulan-repository",
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
+          "roderic-uv-repository",
           "saw-leipzig-fcs",
           "serbia-rzs",
           "surf-data-repository",
@@ -2603,6 +2614,7 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
+          "bamf-fdz-research-data",
           "bioimages-uk-field-guide",
           "bonn-open-data",
           "datice-gagnis-iceland",
@@ -3051,6 +3063,7 @@
           "portulan-repository",
           "puglia-open-data-catalog",
           "rijksmuseum",
+          "roderic-uv-repository",
           "sardinia-geospatial-wfs",
           "saw-leipzig-fcs",
           "serbia-rzs",
@@ -3120,6 +3133,7 @@
           "lithuania-dataportal",
           "met-norway-weather-api",
           "noi-opendatahub-metadata",
+          "olos-research-data",
           "onb-webarchive",
           "oulu-open-data-api",
           "piemonte-opendata-catalog",
@@ -3202,6 +3216,7 @@
           "radar-bb-repository",
           "rijksmuseum",
           "rivmdata-geonetwork",
+          "roderic-uv-repository",
           "saw-leipzig-fcs",
           "seadatanet-cdi-discovery-network",
           "surf-data-repository",
@@ -3221,6 +3236,7 @@
           "agdc-geomagnetic-portal",
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
+          "bamf-fdz-research-data",
           "bioimages-uk-field-guide",
           "bnf-gallica",
           "cdgp-geothermal-portal",
@@ -8390,7 +8406,7 @@
       "license": "CC0 1.0 Universal Public Domain Dedication",
       "license_url": "https://interpro-documentation.readthedocs.io/en/latest/license.html",
       "api_verification_state": "Official specific licence/API guides HTTP200 and anonymous native entry sample HTTP200 validJSON with one result and cursor",
-      "latest_checked_utc": "2026-10-18T04:31:01.786444+00:00",
+      "latest_checked_utc": "2026-10-18T04:36:45.357062+00:00",
       "classification": "open_license_verified"
     },
     {
