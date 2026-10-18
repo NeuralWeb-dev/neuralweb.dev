@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T17:03:13.092996+00:00",
+  "published_at": "2026-10-18T17:05:16.175529+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:01:45.473382+00:00",
+  "research_updated_at": "2026-10-18T17:05:15.468376+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to910pages/910000refs;2303503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "BOARD/Mendeley nativeOAIIdentifyXMLverified and identityindexes; source/metadata-license scope unresolved. HKUSTownertermsselectedlicenses/APIheld.",
   "counts": {
     "verified": 441,
-    "candidates": 1178,
+    "candidates": 1181,
     "excluded": 344,
     "sample_successes": 464
   },
@@ -15692,6 +15692,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bicocca-board-research-data",
+      "provider": "University of Milano-Bicocca / Digital Commons Data",
+      "service_name": "BOARD Bicocca Open Archive Research Data OAI service",
+      "geographic_coverage": "Italy institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional data/software/hardware research-output descriptions, including restricted/metadata-only records",
+      "documentation_url": "https://board.unimib.it/faq",
+      "api_base_url": "https://board.unimib.it/oai",
+      "format_protocol": "Native valid OAI-PMH2.0 IdentifyXML; institutional FAQ RESTcontent-management/OAI documentation, no RESTscope/query tested",
+      "authentication": "Anonymous OAIIdentify succeeded; user contentmanagement requires accounts not used",
+      "free_access_restrictions": "Native FAQ describes publicmetadataharvest and selected filelicenses/access controls. Broadsite rights/TDM reservation has openCC carveout; exact uniformmetadata grant not clear.",
+      "license": "Default selected fileCCBY4/other data/software/hardwarelicenses; uniform metadata/databasegrant unresolved",
+      "license_url": "https://board.unimib.it/faq",
+      "api_verification_state": "Anonymous originalOAIIdentifyHTTP200validXML, repositoryName BOARD/baseURL/protocol2.0; identity only indexed, no datasetrecordharvest. NativeFAQ200. Independent institutionalownerpageguard-deferred, no alternateownerprobe.",
+      "latest_checked_utc": "2026-10-18T17:05:09.351833+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bielefeld-pub-data",
       "provider": "Bielefeld University Library",
       "service_name": "PUB Data Publications institutional research data repository",
@@ -21596,6 +21614,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "hkust-dataspace",
+      "provider": "Hong Kong University of Science and Technology Library",
+      "service_name": "DataSpace@HKUST research-data repository",
+      "geographic_coverage": "Hong Kong SAR China institutional research; source geographic coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasetdescriptions, persistentidentifiers and source-specific researchfiles not retrieved",
+      "documentation_url": "https://dataspace.hkust.edu.hk/ds/service/about",
+      "api_base_url": "https://dataspace.hkust.edu.hk/api/ (registryDataverseRESTclaim; wireheld)",
+      "format_protocol": "Nativeabout identifies Dataverse infrastructure; documentedstandard Info/version requestguard-deferred, no JSON/APIversion success",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Each dataset depositor chooses source license; blanket metadata grant unknown",
+      "license_url": "https://dataspace.hkust.edu.hk/ds/service/about",
+      "api_verification_state": "NativeAbout/TermsofUseHTTP200substantiveHTML. Smallapi/info/version requestguard-deferred unsent, no APIJSON; registrysearchAPI notqueried and no alternatebackend afterhold.",
+      "latest_checked_utc": "2026-10-18T17:05:09.351833+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "hong-kong",
       "provider": "Hong Kong Government DATA.GOV.HK",
       "service_name": "DATA.GOV.HK CKAN metadata, historical archive and filtering APIs",
@@ -24275,6 +24311,24 @@
       "license_url": "https://library.unimelb.edu.au/Digital-Scholarship/melbourne-figshare/melbourne-figshare-digital-repository-deposit-terms-and-conditions",
       "api_verification_state": "Original institutionalroot andindependentgenerallibrarytermsguard-deferred; indexed officialdepositagreement reviewed. No nativeAPI/schema/grantresponse. Originalportalrootguard-deferredbeforetransmission; no successfulportal-specificAPIresponse.",
       "latest_checked_utc": "2026-10-18T15:19:12.276089+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mendeley-data-oai",
+      "provider": "Elsevier / Mendeley Data",
+      "service_name": "Mendeley Data public OAI-PMH metadata service",
+      "geographic_coverage": "Global multidisciplinary research repository; source geographic coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Public research-dataset descriptions/DOIs and filemetadata; individual sourcefiles/licenses unreviewed",
+      "documentation_url": "https://data.mendeley.com/faq | https://data.mendeley.com/api/docs/",
+      "api_base_url": "https://data.mendeley.com/oai",
+      "format_protocol": "Native OAI-PMH2.0 IdentifyXML; FAQdocuments publicrecordharvest and separate contentmanagementAPI",
+      "authentication": "Anonymous OAIIdentify succeeded; contentmanagement/APIcredentials not acquired/used",
+      "free_access_restrictions": "FAQpermits OAIpublicmetadataharvest; per-source selectedlicenses apply, broadsitefooter TDM/AIreservation with CCexception. Exact effective publicmetadata grant/terms interaction unresolved.",
+      "license": "Authorchosen source licenses/defaultCCBY4; uniform publicmetadata grant unknown",
+      "license_url": "https://data.mendeley.com/faq | https://data.mendeley.com/terms | https://www.mendeley.com/terms/",
+      "api_verification_state": "AnonymousOAIIdentify200validXML repositoryNameMendeleyData/baseURL/protocol2.0, separate identityindex no datasetrecords. FAQ200substantiveHTML. Data/ownerterms200blankapplicationshells, no readablelegalbody, no furtheralternatelegal/backend attempts.",
+      "latest_checked_utc": "2026-10-18T17:05:09.351833+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
