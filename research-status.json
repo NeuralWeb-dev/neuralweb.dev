@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:43:28.460763+00:00",
+  "published_at": "2026-10-18T00:45:30.975548+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:43:08.109910+00:00",
+  "research_updated_at": "2026-10-18T00:44:16.048805+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ANES, Phytozome and NADP reviewed with explicit API/rights residuals; three candidate services added.",
+  "latest_milestone": "Census of Agriculture deduplicated to Quick Stats; MGDS XML sample verified with noncommercial rights; ARChive mixed licences and API hold retained.",
   "counts": {
     "verified": 325,
-    "candidates": 680,
-    "excluded": 175,
+    "candidates": 681,
+    "excluded": 176,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -12932,6 +12932,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dataplant-archive",
+      "provider": "DataPLANT / University of Freiburg",
+      "service_name": "ARChive research-data repository",
+      "geographic_coverage": "International plant-science research deposits; exact current collection extent unverified",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Annotated Research Contexts, plant-science research data packages and publication metadata",
+      "documentation_url": "https://archive.nfdi4plants.org/",
+      "api_base_url": "https://archive.nfdi4plants.org/api/records",
+      "format_protocol": "Native homepage publishes JSON-style record-list URL; no machine response verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://nfdi4plants.org/archive_terms-of-use/",
+      "api_verification_state": "Native homepage HTTP200 publishes /api/records?sort=newest&size=10; bounded one-record request guard-deferred, target unsent",
+      "latest_checked_utc": "2026-10-18T00:44:11.788671+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dataterra-eosc-resource-catalogue",
       "provider": "Data Terra EOSC Node / Earth Data Community",
       "service_name": "Data Terra EOSC Resource Catalogue",
@@ -21127,16 +21145,16 @@
       "service_name": "USDA National Agricultural Statistics Service API",
       "geographic_coverage": "United States",
       "topical_coverage": "agriculture",
-      "dataset_families": "Quick Stats crops; livestock; farms; agricultural census",
+      "dataset_families": "Quick Stats crops; livestock; farms; agricultural census | Census of Agriculture official state/county aggregates; source=CENSUS distinct from surveys",
       "documentation_url": "https://quickstats.nass.usda.gov/api",
       "api_base_url": "https://quickstats.nass.usda.gov/api/",
       "format_protocol": "REST/JSON",
       "authentication": "key required; free registration",
       "free_access_restrictions": "unknown",
       "license": "unknown",
-      "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/",
+      "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/ | https://www.usda.gov/about-usda/policies-and-links",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T20:43:19.205193+00:00",
+      "latest_checked_utc": "2026-10-18T00:44:11.788671+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25045,6 +25063,24 @@
       "license_url": "https://memento.geomar.de/terms-of-use.html | https://memento.geomar.de/data-access.html",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T17:38:43.804312+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "mgds-seismic-catalog",
+      "provider": "Marine Geoscience Data System / Lamont-Doherty Earth Observatory",
+      "service_name": "MGDS catalog, seismic metadata and web services",
+      "geographic_coverage": "Global scientific observations; individual dataset coverage varies",
+      "topical_coverage": "oceans | geospatial | research",
+      "dataset_families": "Marine seismic cruises, line/station events and associated geoscience metadata; separate MGDS data services",
+      "documentation_url": "https://marine-geo.org/tools/web_services.php",
+      "api_base_url": "https://marine-geo.org/services/",
+      "format_protocol": "REST XML; documented OGC WFS and file metadata/search interfaces",
+      "authentication": "Anonymous documented seismic XML sample succeeded; other operations untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-NC-SA 3.0 US for data and metadata presented on MGDS pages",
+      "license_url": "https://www.marine-geo.org/about/legal.php",
+      "api_verification_state": "Native service docs HTTP200; EW0207 XML metadata sample HTTP200 and parsed",
+      "latest_checked_utc": "2026-10-18T00:44:11.788671+00:00",
       "classification": "restricted"
     },
     {
