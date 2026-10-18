@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:24:12.000625+00:00",
+  "published_at": "2026-10-18T16:26:14.962436+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:22:43.304852+00:00",
+  "research_updated_at": "2026-10-18T16:26:12.375385+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Loughborough/UFS/Rhodes owner documentation reviewed; three portal holds and blanket metadata grants unresolved.",
+  "latest_milestone": "ODISSEI metadata aggregation/access scope, Federation deposit grant and current CORD/CERES identity reviewed; three candidates, original endpoints held.",
   "counts": {
     "verified": 437,
-    "candidates": 1154,
+    "candidates": 1157,
     "excluded": 341,
     "sample_successes": 464
   },
@@ -17761,6 +17761,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cranfield-cord-ceres",
+      "provider": "Cranfield University",
+      "service_name": "CORD research data in CERES repository",
+      "geographic_coverage": "United Kingdom institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Cranfield research data alongside publications, conference outputs and theses in current CERES repository",
+      "documentation_url": "https://library.cranfield.ac.uk/research/ceres-deposit | https://library.cranfield.ac.uk/research/ceres-terms-of-use",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Default all rights reserved unless indicated otherwise; record-specific licenses apply; metadata-wide grant unknown",
+      "license_url": "https://library.cranfield.ac.uk/research/ceres-terms-of-use",
+      "api_verification_state": "Old CORD root guard-deferred unsent. Current native deposit/terms HTML200 confirms CORD in CERES. Exact current public API base/schema and sample unresolved; no alternate backend attempted.",
+      "latest_checked_utc": "2026-10-18T16:26:07.765852+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "crc247-matinf-materials-rdms",
       "provider": "CRC/TRR247 / Ruhr University Bochum",
       "service_name": "CRC/TRR247 MatInf research data management system",
@@ -19990,6 +20008,24 @@
       "license_url": "https://www.fdz-bildung.de/nutzung-unterrichtsvideos",
       "api_verification_state": "Original root request guard-deferred unsent; no native root or public API response. Indexed owner access-policy summary only.",
       "latest_checked_utc": "2026-10-18T06:36:08.809532+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "federation-institutional-figshare",
+      "provider": "Federation University Australia",
+      "service_name": "Federation.figshare",
+      "geographic_coverage": "Australia institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and non-traditional research outputs across disciplines",
+      "documentation_url": "https://libguides.federation.edu.au/federationfigshare | https://libguides.federation.edu.au/c.php?g=816723&p=5829223",
+      "api_base_url": "https://api.figshare.com/v2/ (shared API; registry institution415/portal415 untested)",
+      "format_protocol": "Registry Figshare REST/OAI-PMH; native guide describes weekly harvesting, not wire test",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected appropriate item licenses; uniform metadata grant unknown",
+      "license_url": "https://libguides.federation.edu.au/c.php?g=816723&p=5829223",
+      "api_verification_state": "Original portal guard-deferred unsent; native independent guide and deposit terms200 HTML, no successful portal API response.",
+      "latest_checked_utc": "2026-10-18T16:26:07.765852+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23894,8 +23930,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across851successfulpages/851000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:17:17.860036+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across858successfulpages/858000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T16:25:30.444346+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26488,6 +26524,24 @@
       "license_url": "https://data.humdata.org/faqs/terms",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:36:59.165287+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "odissei-metadata-portal",
+      "provider": "ODISSEI / collaborating data providers",
+      "service_name": "ODISSEI Portal",
+      "geographic_coverage": "Netherlands social-science infrastructure; contributing source coverage varies",
+      "topical_coverage": "research | demographics | economics/finance",
+      "dataset_families": "Social-science dataset metadata aggregation; underlying data may be restricted and held by contributing repositories",
+      "documentation_url": "https://odissei-data.nl/facility/add-metadata-to-the-odissei-portal/ | https://odissei-data.nl/odissei-user-policy/",
+      "api_base_url": "https://portal.odissei.nl/oai",
+      "format_protocol": "Registry OAI-PMH/Dataverse; native ingestion documentation describes metadata-only Dataverse, not current wire test",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Uniform portal metadata grant unknown; contributing data licenses and access conditions vary",
+      "license_url": "https://odissei-data.nl/facility/add-metadata-to-the-odissei-portal/ | https://odissei-data.nl/odissei-user-policy/",
+      "api_verification_state": "Original OAI Identify guard-deferred unsent; independent owner metadata and user-policy HTML200, no current XML/API response.",
+      "latest_checked_utc": "2026-10-18T16:26:07.765852+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
