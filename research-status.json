@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T04:22:24.536465+00:00",
+  "published_at": "2026-10-18T04:24:27.194392+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:19:48.289362+00:00",
+  "research_updated_at": "2026-10-18T04:22:42.218537+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
   "counts": {
-    "verified": 352,
-    "candidates": 799,
+    "verified": 353,
+    "candidates": 800,
     "excluded": 229,
     "sample_successes": 467
   },
@@ -7998,6 +7998,24 @@
       "license_url": "https://www.gleif.org/en/meta/lei-data-terms-of-use",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T18:18:42.987887+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "gmrt-topography-api",
+      "provider": "Global Multi-Resolution Topography / Lamont-Doherty Earth Observatory",
+      "service_name": "GMRT synthesis web services",
+      "geographic_coverage": "Global ocean/land elevation synthesis; resolution and component coverage vary",
+      "topical_coverage": "oceans | geospatial | environment | research",
+      "dataset_families": "Multi-resolution bathymetry/topography synthesis; point/grid/profile and imagery interfaces",
+      "documentation_url": "https://www.gmrt.org/services/pointserverinfo.php | https://www.gmrt.org/services/gridserverinfo.php | https://www.gmrt.org/services/profileserverinfo.php",
+      "api_base_url": "http://www.gmrt.org/services/PointServer | http://www.gmrt.org/services/GridServer | http://www.gmrt.org/services/ProfileServer",
+      "format_protocol": "Owner-indexed REST JSON/GeoJSON/XML/text point/profile; NetCDF/GeoTIFF/ArcASCII grids; WMS imagery documented",
+      "authentication": "unknown current runtime; no credentials used or required by indexed examples",
+      "free_access_restrictions": "Owner-indexed synthesis/site/downloadable products CC BY4.0 with attribution; navigation use excluded by owner notice",
+      "license": "CC BY4.0 GMRT synthesis/site/downloadable products, documented indexed",
+      "license_url": "https://gmrt.org/about/terms_of_use.php",
+      "api_verification_state": "Original native root guard-deferred unsent; current official indexed owner terms and point/grid/profile API references reviewed. Runtime/sample untested under hold.",
+      "latest_checked_utc": "2026-10-18T04:22:37.604561+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23537,6 +23555,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "uca-argentina-institutional-repository",
+      "provider": "Pontificia Universidad Católica Argentina",
+      "service_name": "Repositorio Institucional UCA",
+      "geographic_coverage": "Argentina institutional scholarly production; individual research topics/regions vary",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional publications, theses, articles and research information; source works not harvested",
+      "documentation_url": "https://repositorio.uca.edu.ar/",
+      "api_base_url": "https://repositorio.uca.edu.ar/oai/snrd",
+      "format_protocol": "OAI-PMH XML; DSpaceCRIS UI",
+      "authentication": "Anonymous native OAIIdentify succeeded without key",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://repositorio.uca.edu.ar/static/policies.jsp",
+      "api_verification_state": "Native root/policy200HTML; OAIIdentify200validOAI-PMHXML with Identify/no error. No item/source record harvest.",
+      "latest_checked_utc": "2026-10-18T04:22:37.604561+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ucla-social-science-dataverse",
       "provider": "UCLA Library Data Science Center",
       "service_name": "UCLA Dataverse / Social Science Data Archive",
@@ -28530,7 +28566,7 @@
       "service_name": "MGDS marine geoscience catalog and metadata APIs",
       "geographic_coverage": "Global scientific observations; individual dataset coverage varies",
       "topical_coverage": "oceans | geospatial | research",
-      "dataset_families": "Marine seismic metadata and catalogues; Ridge2000/MARGINS collection views; documented global station/line/launch-event WFS and vocabulary/search/file-metadata services; GeoPRISMS collection view",
+      "dataset_families": "Marine seismic metadata and catalogues; Ridge2000/MARGINS collection views; documented global station/line/launch-event WFS and vocabulary/search/file-metadata services; GeoPRISMS collection view | Antarctic & Southern Ocean / USAP collection family",
       "documentation_url": "https://www.marine-geo.org/tools/web_services.php",
       "api_base_url": "https://marine-geo.org/services/ | http://marine-geo.org/services/mapserver/eventwfs | http://marine-geo.org/services/search/datasets | http://marine-geo.org/services/search/entries | http://marine-geo.org/services/VocabServer",
       "format_protocol": "REST XML; documented OGC WFS and file metadata/search interfaces",
@@ -28539,7 +28575,7 @@
       "license": "Native legal page BY-NC-SA3US default; current terms defer to individual dataset/external-provider licences",
       "license_url": "https://www.marine-geo.org/about/legal.php | https://www.marine-geo.org/about/terms_of_use.php",
       "api_verification_state": "Existing native seismic XML sample preserved. Current service docs/legal/terms/collections HTTP200. New documented WFS GetCapabilities HTTP200validWFSXML.",
-      "latest_checked_utc": "2026-10-18T02:27:09.309747+00:00",
+      "latest_checked_utc": "2026-10-18T04:22:37.604561+00:00",
       "classification": "restricted"
     },
     {
