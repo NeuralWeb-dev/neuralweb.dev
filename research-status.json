@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:53:52.206727+00:00",
+  "published_at": "2026-10-18T19:55:55.851556+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:52:29.095072+00:00",
+  "research_updated_at": "2026-10-18T19:55:37.121686+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original services reviewed: RIUBU/B2FIND scoped open metadata; CGSpace/Alaska gaps; IDEMmetadata/BVHEpistemon noncommercial restrictions. Three validOAIidentities.",
+  "latest_milestone": "GHGA scoped nonpersonalCCBY/OpenAPI verified; BSE29formatJSON/data grantgap; BEGDB interfacebulk restriction.",
   "counts": {
-    "verified": 449,
-    "candidates": 1325,
-    "excluded": 381,
+    "verified": 450,
+    "candidates": 1326,
+    "excluded": 382,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -10004,6 +10004,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ghga-nonpersonal-metadata",
+      "provider": "German Human Genome-Phenome Archive / DKFZ consortium",
+      "service_name": "GHGA non-personal discovery metadata and artifact interfaces",
+      "geographic_coverage": "German human omics archive; study geography varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Non-personal discovery metadata and metadata model; research/personal metadata excluded",
+      "documentation_url": "https://data.ghga.de/api/metldata/docs | https://docs.ghga.de/",
+      "api_base_url": "https://data.ghga.de/api/metldata/ (artifact loader/browser schema verified); https://data.ghga.de/api/mass/ (registry discovery claim, untested)",
+      "format_protocol": "OpenAPI3.1.0 JSON; documented artifact browser; metadata search separate/unresolved",
+      "authentication": "OpenAPI schema anonymous; individual artifact/study/source endpoints untested, no key/account used",
+      "free_access_restrictions": "Native policy makes non-personal metadata free-of-charge underCCBY4; source/personal access separately controller-governed; quotas unknown",
+      "license": "CC-BY4.0 non-personal metadata; incorporated ontologies retain own licenses",
+      "license_url": "https://www.ghga.de/Downloads/GHGA_Licensing.pdf",
+      "api_verification_state": "RootHTTP200 JavaScript shell, not data/API success. Native policyPDF200 read through official PDF reader. /api/metldata/docsHTTP200SwaggerUI directly links OpenAPI; exact schemaHTTP200validOpenAPI3.1.0 titleArtifactsLoaderandBrowserAPI version0.1.0,6paths. No artifact/source/study query.",
+      "latest_checked_utc": "2026-10-18T19:55:31.568404+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "gipuzkoa-irekia",
       "provider": "Gipuzkoako Foru Aldundia and participating public bodies",
       "service_name": "Gipuzkoa Irekia dataset and resource API",
@@ -16069,6 +16087,24 @@
       "license_url": "https://docs.api.bas.ac.uk/ | https://www.bas.ac.uk/about-this-site/copyright-statement/",
       "api_verification_state": "native_public_Locations_API_documentation_verified_registered_service_list_unsent_robots_guard_source_grant_unknown",
       "latest_checked_utc": "2026-10-17T23:35:23.692462+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "basis-set-exchange",
+      "provider": "MolSSI / Environmental Molecular Sciences Laboratory",
+      "service_name": "Basis Set Exchange public REST API",
+      "geographic_coverage": "Global computational chemistry reference use; non-geographic basis sets",
+      "topical_coverage": "research",
+      "dataset_families": "Quantum chemistry basis set metadata and format/reference descriptors; underlying basis coefficients unqueried",
+      "documentation_url": "https://molssi-bse.github.io/basis_set_exchange/web_api.html | https://molssi-bse.github.io/basis_set_exchange-apidoc/",
+      "api_base_url": "https://www.basissetexchange.org/api/",
+      "format_protocol": "Read-only REST JSON and documented chemistry formats",
+      "authentication": "Anonymous formats request succeeded without credentials; other endpoints untested",
+      "free_access_restrictions": "Public read-only API documented; heavy-use contact invitation is optional, exact quotas unknown",
+      "license": "BSD3Clause code/project license verified; exact uniform API data grant unresolved",
+      "license_url": "https://github.com/MolSSI-BSE/basis_set_exchange/blob/master/LICENSE | https://molssi-bse.github.io/basis_set_exchange/",
+      "api_verification_state": "Native root/developerdocs/licenseHTTP200. Anonymous /api/formatsHTTP200 valid JSON mapping29formatnames to labels. No basis coefficients or structures retrieved.",
+      "latest_checked_utc": "2026-10-18T19:55:31.568404+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -39129,6 +39165,24 @@
       "license_url": "https://www.baua.de/DE/Forschung/Forschungsdaten/FAQ/FAQ_list",
       "api_verification_state": "Original request deferred by robots/inaccessible robots policy, target unsent; indexed official FAQ/access evidence only. No alternate original-host route/API request.",
       "latest_checked_utc": "2026-10-18T17:58:34.601060+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "begdb-benchmark-database",
+      "provider": "Institute of Organic Chemistry and Biochemistry / BEGDB",
+      "service_name": "Benchmark Energy and Geometry Database",
+      "geographic_coverage": "Molecular benchmark collections; not geographic observations",
+      "topical_coverage": "research",
+      "dataset_families": "Quantum chemistry benchmark energy and geometry dataset descriptions",
+      "documentation_url": "http://www.begdb.org/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Free website access; major-part duplication for redistribution prohibited absent individually arranged exception. No exception requested.",
+      "license": "Author-released copyright-free data with citation; website bulk-redistribution restriction",
+      "license_url": "http://www.begdb.org/index.php?action=license",
+      "api_verification_state": "Native root/licenseHTTP200; exact public machine API unverified. HTML search/download availability is not API success.",
+      "latest_checked_utc": "2026-10-18T19:55:31.568404+00:00",
       "classification": "restricted"
     },
     {
