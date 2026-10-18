@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T00:51:38.699396+00:00",
+  "published_at": "2026-10-18T00:53:41.285391+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:50:03.563708+00:00",
+  "research_updated_at": "2026-10-18T00:52:05.980980+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RADAR4ING metadataCC0 and HMD outputCCBY4 verified with API gaps; IAEA LiveChart documented, original403 hold retained.",
+  "latest_milestone": "SLUB OAI verified with object-specific rights; QDR restricted policies retained; OceanColor deduplicated to documented existing CMR.",
   "counts": {
     "verified": 325,
-    "candidates": 690,
-    "excluded": 176,
+    "candidates": 691,
+    "excluded": 177,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -8311,7 +8311,7 @@
       "service_name": "NASA Common Metadata Repository (CMR) collection search API",
       "geographic_coverage": "Global/polar SMAP soil-moisture collection demonstrated;broader CMR collections have individual extents and rights",
       "topical_coverage": "climate/weather/environment;water;geospatial;research",
-      "dataset_families": "Demonstrated licensed collection:SPL3SMP_E version006,SMAP enhanced daily9km global/polar soil moisture. CMR also discovers other Earth-science collections;their data licences remain unreviewed.",
+      "dataset_families": "Demonstrated licensed collection:SPL3SMP_E version006,SMAP enhanced daily9km global/polar soil moisture. CMR also discovers other Earth-science collections;their data licences remain unreviewed. | OB.DAAC OceanColor marine remote-sensing discovery documented via CMR",
       "documentation_url": "https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html",
       "api_base_url": "https://cmr.earthdata.nasa.gov/search/",
       "format_protocol": "REST search;UMM JSON collection metadata and other documented formats;linked data access separate",
@@ -8320,7 +8320,7 @@
       "license": "Explicit dataset unrestricted-use grant with required citation in official UMM UseConstraints | Native NASA-led mission CC0 default subject to restrictive file notices; separate conditional CERES/MISR policy review",
       "license_url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?page_size=1&short_name=SPL3SMP_E&version=006+%7C+https%3A%2F%2Fscience.data.nasa.gov%2Fabout%2Flicense",
       "api_verification_state": "documented_metadata_sample_success_data_login_required_untested",
-      "latest_checked_utc": "2026-10-18T00:37:37.826676+00:00",
+      "latest_checked_utc": "2026-10-18T00:52:01.670729+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -19936,6 +19936,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "slub-digital-collections",
+      "provider": "Saxon State and University Library Dresden / SLUB",
+      "service_name": "SLUB Digital Collections OAI service",
+      "geographic_coverage": "German/Saxon and international cultural collections; object-specific scope",
+      "topical_coverage": "culture | research",
+      "dataset_families": "Digitized books, manuscripts, music, historical periodicals, maps and related collection metadata",
+      "documentation_url": "https://digital.slub-dresden.de/en/digital-collections/",
+      "api_base_url": "https://digital.slub-dresden.de/oai/",
+      "format_protocol": "OAI-PMH XML",
+      "authentication": "Anonymous Identify succeeded; other endpoint permissions unverified",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://nutzungshinweis.slub-dresden.de/en/",
+      "api_verification_state": "Native OAI Identify and ListMetadataFormats HTTP200 parsed protocol responses; no complete record inventory",
+      "latest_checked_utc": "2026-10-18T00:52:01.670729+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "smithsonian",
       "provider": "Smithsonian Institution",
       "service_name": "Smithsonian Institution API",
@@ -25785,6 +25803,24 @@
       "license_url": "https://plhdb-ext.eva.mpg.de/index.html",
       "api_verification_state": "native_workinggroup_only_access_verified_query_API_and_exact_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T22:55:16.537109+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "qdr-qualitative-research",
+      "provider": "Qualitative Data Repository / Syracuse University",
+      "service_name": "QDR qualitative and multimethod research repository",
+      "geographic_coverage": "International qualitative/social-science research; source-specific populations",
+      "topical_coverage": "research | demographics | law/civic data",
+      "dataset_families": "Qualitative and multimethod project descriptions, interviews, source texts and related materials; research files not accessed",
+      "documentation_url": "https://qdr.syr.edu/content/general-terms-and-conditions-use",
+      "api_base_url": "https://data.qdr.syr.edu/oai",
+      "format_protocol": "Officially documented OAI-PMH/JSON-LD metadata; native instance sample untested",
+      "authentication": "Public policy pages anonymous; research-data standard access requires registration/agreement, controlled sources additional approvals",
+      "free_access_restrictions": "Registration, depositor conditions, confidentiality/reuse agreements and deployment-specific AI conditions; no account or agreement submission",
+      "license": "All rights reserved unless otherwise indicated; registered research data under source agreements",
+      "license_url": "https://qdr.syr.edu/content/general-terms-and-conditions-use | https://qdr.syr.edu/policies/ai-secondary-analysis",
+      "api_verification_state": "Native public terms, AI and metadata policiesHTTP200; official indexed about page documents OAI; no data/OAI sample",
+      "latest_checked_utc": "2026-10-18T00:52:01.670729+00:00",
       "classification": "restricted"
     },
     {
