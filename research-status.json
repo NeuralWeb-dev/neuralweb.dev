@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T12:38:27.822562+00:00",
+  "published_at": "2026-10-18T12:40:30.616312+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:37:54.691528+00:00",
+  "research_updated_at": "2026-10-18T12:40:04.099797+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ESRF scopedBY4/nativeOAI; NNB twoBY4APIs/landing/schemas; NHMheld/indexedCC0; ESSNC/schema; GaiaBluheld/Antibodymixedcandidate; MDZ469000refs incomplete.",
+  "latest_milestone": "MyGeoHub nativeNCplatform/WQBase APIclaim corrected; ISWSterms404/APIunknown; QualiBi researchrestrictions/sixpolicytiers.",
   "counts": {
     "verified": 407,
-    "candidates": 1042,
-    "excluded": 304,
+    "candidates": 1043,
+    "excluded": 306,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -20163,6 +20163,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "illinois-state-water-survey",
+      "provider": "University of Illinois / Prairie Research Institute",
+      "service_name": "Illinois State Water Survey data and maps services",
+      "geographic_coverage": "Illinois USA, watersheds and regional research subjects",
+      "topical_coverage": "water | climate/weather/environment | agriculture | energy | research",
+      "dataset_families": "Surface water, wells/groundwater, water use, climate, flooding and related maps/services",
+      "documentation_url": "https://www.isws.illinois.edu/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.isws.illinois.edu/terms-of-use",
+      "api_verification_state": "Native institutionalroot200HTML describes data/maps families; originalterms404. No current exact API/schema or source query established.",
+      "latest_checked_utc": "2026-10-18T12:39:59.376228+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ilrs-laser-ranging-portal",
       "provider": "International Laser Ranging Service / IAG",
       "service_name": "ILRS laser-ranging data and product portal",
@@ -35411,6 +35429,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "mygeohub-research-platform",
+      "provider": "Purdue University / MyGeoHub community",
+      "service_name": "MyGeoHub research platform and WQBase project description",
+      "geographic_coverage": "International geospatial research/education; US Purdue-hosted platform",
+      "topical_coverage": "geospatial | water | environment | research | education",
+      "dataset_families": "Community geospatial tools, datasets, courses and research projects; WQBase water-quality API development project",
+      "documentation_url": "https://mygeohub.org/projects/wqbase",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Platform use limited to noncommercial educational and research activities; some services require registration",
+      "license": "Restricted platform use: noncommercial education and research",
+      "license_url": "https://mygeohub.org/about/terms",
+      "api_verification_state": "Native root/terms/WQBaseproject200HTML; project describes intention to develop RESTAPI/simplewebapp, not current deployed machine endpoint or successful API sample",
+      "latest_checked_utc": "2026-10-18T12:39:59.376228+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "namibia-microdata",
       "provider": "Namibia Statistics Agency (NSA)",
       "service_name": "Namibia Statistics Agency (NSA) NADA study-catalog metadata API",
@@ -36236,6 +36272,24 @@
       "license_url": "https://qdr.syr.edu/content/general-terms-and-conditions-use | https://qdr.syr.edu/policies/ai-secondary-analysis",
       "api_verification_state": "Native public terms, AI and metadata policiesHTTP200; official indexed about page documents OAI; no data/OAI sample",
       "latest_checked_utc": "2026-10-18T00:52:01.670729+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "qualibi-qualitative-education",
+      "provider": "QualiBi / Goethe University Frankfurt / DIPF research-data cooperation",
+      "service_name": "QualiBi qualitative education research-data platform",
+      "geographic_coverage": "Germany qualitative education research; study-specific coverage varies",
+      "topical_coverage": "education | research | demographics",
+      "dataset_families": "Qualitative education research, ApaeK special collection and supporting publications; future FDZ-Bildung integration described, not verified active inventory",
+      "documentation_url": "https://qualibi.net/daten-nutzen/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Some level1materials public; higher tiers require registration/login, user-group review/application or individual agreement. No access workflow used.",
+      "free_access_restrictions": "Research-purpose use and six documented access levels; source-specific restrictions may also limit teaching/reuse",
+      "license": "Research-purpose and individually controlled source access; no blanket open grant",
+      "license_url": "https://qualibi.net/daten-nutzen/",
+      "api_verification_state": "Native root/usepolicy200HTML; no exact public API or machine response verified. Wordpress/software presence not treated as API evidence.",
+      "latest_checked_utc": "2026-10-18T12:39:59.376228+00:00",
       "classification": "restricted"
     },
     {
