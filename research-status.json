@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:07:44.628758+00:00",
+  "published_at": "2026-10-18T08:09:47.512750+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:05:38.238973+00:00",
+  "research_updated_at": "2026-10-18T08:09:23.571046+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Murray hosted service andLINDAT repository originals deduplicated; native policy evidence preserved; ROSAT exactAPI/sourcegrant candidate.",
+  "latest_milestone": "RCMD/NAHDAP originals deduplicated to currentNC4/keyrequiredICPSRexport; distinct NACDAharmonizationportal retained as unresolvedcandidate.",
   "counts": {
-    "verified": 380,
-    "candidates": 929,
-    "excluded": 273,
+    "verified": 381,
+    "candidates": 931,
+    "excluded": 274,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -9494,6 +9494,24 @@
       "license_url": "https://www.inegi.org.mx/inegi/terminos.html",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T16:29:28.933082+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "mgi-mousemine-data-services",
+      "provider": "Mouse Genome Informatics / The Jackson Laboratory",
+      "service_name": "MGI data and MouseMine programmatic access",
+      "geographic_coverage": "Laboratory-mouse research with international gene/phenotype/homology references; no population geography claim",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "MGD/GXD/MMHCdb mouse genes, markers, phenotypes, geneexpression and disease-model annotations; MGI MP/EMAPA/MA ontologies",
+      "documentation_url": "https://www.informatics.jax.org/software.shtml | https://intermine.readthedocs.io/en/latest/web-services/",
+      "api_base_url": "https://www.mousemine.org/ (owner-linked MouseMine API host; exact current service base untested)",
+      "format_protocol": "Owner documents MouseMine/InterMine webservices; actual API payload/schema not tested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_url": "https://www.informatics.jax.org/mgihome/other/copyright.shtml",
+      "api_verification_state": "Native MGIroot/licence/software docs200; linked MouseMine root202/no useful response. No alternate API/service/backend attempt after inconclusive/challenge response.",
+      "latest_checked_utc": "2026-10-18T08:08:13.718884+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20101,6 +20119,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "mgds-marine-geoscience-services",
+      "provider": "Marine Geoscience Data System / Lamont-Doherty Earth Observatory",
+      "service_name": "MGDS catalogue, search and OGC services",
+      "geographic_coverage": "Worldwide marine/seafloor geophysical research; source-specific surveys and coverage vary",
+      "topical_coverage": "oceans | geospatial | environment | research",
+      "dataset_families": "Marine geophysical/seismic cruise metadata; station/launch/line event catalogue; file/discovery and controlled-vocabulary services documented",
+      "documentation_url": "https://www.marine-geo.org/tools/web_services.php",
+      "api_base_url": "https://www.marine-geo.org/services/",
+      "format_protocol": "WFS1.0XMLcapabilities verified; RESTsearch/ISO19115/seismicXML/vocabulary/file interfaces documented, untested",
+      "authentication": "No credentials for successful WFS capabilities GET; source proprietary/restricted holdings may differ",
+      "free_access_restrictions": "Public metadata available; individual licences and restricted/proprietary access depend source. Native terms say data should not be used for navigation.",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.marine-geo.org/about/terms_of_use.php",
+      "api_verification_state": "Native services/terms200; exact owner-linked relative WFS capabilities request200 parsed WFS1.0XML/3featuretypes. No actual scientific features/files.",
+      "latest_checked_utc": "2026-10-18T08:08:13.718884+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mgnify-microbiome-api",
       "provider": "MGnify / EMBL-EBI",
       "service_name": "MGnify microbiome studies and biome classification API v2",
@@ -20530,6 +20566,24 @@
       "license_url": "http://myricebase.mardi.gov.my/",
       "api_verification_state": "Native homepageHTTP200 HTML; no explicit documented public machine query API verified",
       "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nacda-harmonize-portal",
+      "provider": "ICPSR / National Archive of Computerized Data on Aging",
+      "service_name": "NACDA Colectica harmonization metadata portal",
+      "geographic_coverage": "Longitudinal aging research; exact collection/country coverage not enumerated",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Cross-wave/cross-series/multi-series aging study metadata comparison; no study/variable/source records harvested",
+      "documentation_url": "https://www.icpsr.umich.edu/sites/nacda/nacda-portal-user-guide",
+      "api_base_url": "https://harmonize.icpsr.umich.edu/oai/request (registry claim only; untested distinct portal)",
+      "format_protocol": "Owner guide documents Colectica/DDI-Lifecycle portal, exportDDI3.2 and other formats; OAI registryclaim untested",
+      "authentication": "Native portal guide requires free account/confirmation for portal use; exact OAIanonymousaccess unknown. No signup/login attempted.",
+      "free_access_restrictions": "Free account documented, but source/metadata terms not blanketopen. Separate ICPSR export API requires credentials andmetadataBYNC4; not automatically same distinctportal terms.",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.icpsr.umich.edu/sites/nacda/nacda-portal-user-guide",
+      "api_verification_state": "Native public portalguide200 reviewed; exactOAI/runtime untested. SharedICPSRmetadataexport API documented but distinct interface retained.",
+      "latest_checked_utc": "2026-10-18T08:09:18.915866+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30417,6 +30471,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "dereko-corpus-services",
+      "provider": "Leibniz Institute for the German Language",
+      "service_name": "German Reference Corpus DeReKo analysis access",
+      "geographic_coverage": "German-language written corpora; separate multilingual Wikipedia derivatives listed, exact release coverage unenumerated",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Written contemporary-language reference corpus via COSMASII/KorAP; separately available licensed corpora and Wikipedia derivatives",
+      "documentation_url": "https://www.ids-mannheim.de/digspra/pb-s1/projekte/korpora/",
+      "api_base_url": "",
+      "format_protocol": "Corpus research platforms documented; query API runtime not tested. Registry OAI belongs distinct IDS repository metadata service.",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Main DeReKo corpus restricted to noncommercial use; individual downloadable resources have separate terms",
+      "license_url": "https://www.ids-mannheim.de/digspra/pb-s1/projekte/korpora/verfuegbarkeit/",
+      "api_verification_state": "Native project/availability200HTML; no corpus API/source/query or account tested",
+      "latest_checked_utc": "2026-10-18T08:08:13.718884+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "deutsches-gedaechtnis-archive",
       "provider": "FernUniversität in Hagen / Oral-History.Digital",
       "service_name": "Archiv Deutsches Gedächtnis controlled oral-history archive",
@@ -31394,7 +31466,7 @@
       "service_name": "ICPSR Metadata/Object Export API",
       "geographic_coverage": "Socialscience researchcollections; geographiccoverage variesperstudy",
       "topical_coverage": "demographics; labor; economics/finance; education; health; law and civic data; research",
-      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate | Measures of Effective Teaching family: restricted VDE source access | NACJD criminal justice and HMCA health/medical-care archive source families | DSDR demographic-research source family",
+      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate | Measures of Effective Teaching family: restricted VDE source access | NACJD criminal justice and HMCA health/medical-care archive source families | DSDR demographic-research source family | RCMD minority/race/ethnicity and NAHDAP addiction/health thematic collections, exact source rights/access vary",
       "documentation_url": "https://icpsr.github.io/metadata/icpsr_metadata_api/ | https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata",
       "api_base_url": "",
       "format_protocol": "Documentedmetadataexport API,DCAT-US/MARCXML/DublinCore; localDCATspatialExt/temporalExt extensions",
@@ -31403,7 +31475,7 @@
       "license": "CC BY-NC4.0 metadata; studydatarestrictedredistribution andspecificterms",
       "license_url": "https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata | https://www.icpsr.umich.edu/sites/icpsr/about/policies/terms-of-use",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-18T05:26:28.252147+00:00",
+      "latest_checked_utc": "2026-10-18T08:09:18.915866+00:00",
       "classification": "restricted"
     },
     {
