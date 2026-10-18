@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T20:34:54.258979+00:00",
+  "published_at": "2026-10-18T20:36:57.384722+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:31:03.331035+00:00",
+  "research_updated_at": "2026-10-18T20:36:02.885373+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original reviews: ICES public JCDP, Markham, SITES metadata and FranceSeisme scoped grants; Markham conformanceJSON; SITES501 and portal/source gaps retained.",
+  "latest_milestone": "QED planned OAI/per-contentCC; TInnGO65metadata response/mixedrights; ESS token API documented/currentpolicygap.",
   "counts": {
-    "verified": 458,
-    "candidates": 1341,
+    "verified": 459,
+    "candidates": 1346,
     "excluded": 391,
     "sample_successes": 464
   },
@@ -13077,6 +13077,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "reactome-content-service",
+      "provider": "Reactome consortium",
+      "service_name": "Reactome Content Service API",
+      "geographic_coverage": "International curated biological pathway knowledge; organisms vary by collection",
+      "topical_coverage": "health | research | biodiversity",
+      "dataset_families": "Curated/inferred pathways and reaction knowledge; externally integrated interactions separately scoped",
+      "documentation_url": "https://reactome.org/dev/content-service",
+      "api_base_url": "https://reactome.org/ContentService/",
+      "format_protocol": "REST, OpenAPI documented; database version text/plain documented",
+      "authentication": "Version example documented without credentials; runtime target unsent",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 Reactome database data",
+      "license_url": "https://reactome.org/license",
+      "api_verification_state": "Root, native license and ContentService documentation HTTP200. Metadata-only version request robots-deferred unsent, no API success or alternate method/path attempted.",
+      "latest_checked_utc": "2026-10-18T20:35:15.011094+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "recife-open-data",
       "provider": "Prefeitura da Cidade do Recife / EMPREL and municipal publishers",
       "service_name": "Recife municipal open-data CKAN portal/API",
@@ -18443,6 +18461,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "clarin-si-repository",
+      "provider": "Jožef Stefan Institute / CLARIN.SI",
+      "service_name": "CLARIN.SI repository OAI-PMH service",
+      "geographic_coverage": "Slovenian national language repository with multilingual resources; primary Slovenian/Croatian/Serbian focus",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Language corpora, lexicons, language descriptions and NLP tool metadata; deposited source rights vary",
+      "documentation_url": "https://www.clarin.si/repository/xmlui/page/metadata | https://www.clarin.si/repository/xmlui/page/about",
+      "api_base_url": "https://www.clarin.si/repository/oai/request",
+      "format_protocol": "OAI-PMH2 XML verified; CMDI/oai_dc dissemination documented",
+      "authentication": "Original OAI Identify succeeded anonymously; source download/auth depends on license/category",
+      "free_access_restrictions": "Metadata freely accessible; commercial-use notification reservation unresolved. Sources may require registration/academic terms or be restricted.",
+      "license": "CC0 metadata declaration with commercial-notification reservation; source licenses mixed",
+      "license_url": "https://www.clarin.si/repository/xmlui/page/metadata | https://www.clarin.si/repository/xmlui/page/about | https://www.clarin.si/repository/xmlui/page/licenses",
+      "api_verification_state": "Original HTTPS Identify HTTP200 valid OAI-PMH2 namespace/Identify without protocol error. Native metadata/about/licenses/terms HTTP200. Returned baseURL HTTP noted without switching/requesting it.",
+      "latest_checked_utc": "2026-10-18T20:35:15.011094+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "clarin-skgif",
       "provider": "CLARIN / KNAW Humanities Cluster",
       "service_name": "CLARIN VLO public metadata APIs: production REST and SKG-IF staging",
@@ -21410,6 +21446,24 @@
       "license_url": "https://pcmdi.github.io/CMIP6/TermsOfUse/TermsOfUse6-2.html | https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_source_id_licenses.html",
       "api_verification_state": "original_published_node_redirect_robots_policy_hold_target_unsent",
       "latest_checked_utc": "2026-10-17T21:31:37.565901+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ess-scicat-data-catalogue",
+      "provider": "European Spallation Source ERIC / DMSC",
+      "service_name": "ESS SciCat scientific data catalogue API",
+      "geographic_coverage": "ESS European research facility; exact experiment/proposal and public source coverage unverified",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Experiment/proposal and scientific dataset metadata catalogue descriptions; experimental sourcefiles excluded",
+      "documentation_url": "https://www.scicatproject.org/scitacean/user-guide/downloading.html | https://ess.eu/data-management-scientific-computing",
+      "api_base_url": "https://scicat.ess.eu/api/v3 (explicit ESS example in SciCat project client guide)",
+      "format_protocol": "SciCat REST API v3 documented; root HTML loading shell only",
+      "authentication": "Official project ESSexample uses token from logged-in interface or credentials; no token/account/login/source request used. Public metadata auth/current schema unknown.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Current effective ESS data/metadata policy applicability unconfirmed",
+      "license_url": "https://ess.eu/article/2025/06/10/41st-ess-council-meeting-highlights-strategic-progress-and-celebrates-major",
+      "api_verification_state": "ESS SciCat rootHTTP200 loading/enableJS shell, not API response. SciCat project client guideHTTP200 explicitly demonstrates ESS /api/v3 with credentials/token. Runtime untested, no health guess, datasets/private queries, token/account, staging/federated routes or downloads.",
+      "latest_checked_utc": "2026-10-18T20:35:58.232139+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31421,6 +31475,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "qed-max-weber-digital-editions",
+      "provider": "Max Weber Stiftung / VZG",
+      "service_name": "QED digital sources and editions portal",
+      "geographic_coverage": "International humanities projects of Max Weber Foundation institutes and partners; per-edition coverage varies",
+      "topical_coverage": "culture | law/civic data | research",
+      "dataset_families": "Historical source/edition project and TEI metadata descriptions; no transcripts/images/sourcefiles requested",
+      "documentation_url": "https://qed.perspectivia.net/ueber",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-content Creative Commons grants, CC BY4 where possible; uniform metadata grant/API unknown",
+      "license_url": "https://qed.perspectivia.net/impressum | https://qed.perspectivia.net/ueber",
+      "api_verification_state": "Root/imprint/aboutHTTP200. Native about explicitly labels OAI-PMH interface in preparation; no current public endpoint/schema demonstrated. No generic MyCoRe route guessed.",
+      "latest_checked_utc": "2026-10-18T20:35:58.232139+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "qspatial-csw-catalog",
       "provider": "Queensland Government / Queensland Spatial Catalogue (QSpatial)",
       "service_name": "QSpatial CSW metadata catalog interface (historically documented)",
@@ -34805,6 +34877,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "thunder-bay-open-data-portal",
+      "provider": "City of Thunder Bay",
+      "service_name": "Thunder Bay municipal Open Data Portal",
+      "geographic_coverage": "Thunder Bay Ontario Canada municipality",
+      "topical_coverage": "geospatial | transportation | law/civic data",
+      "dataset_families": "Municipal released-data catalog; existing distinct Transit realtime API not merged",
+      "documentation_url": "https://www.thunderbay.ca/city-hall/thunder-bay-open-data/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Open Data Licence City of Thunder Bay; exact current portal API unresolved",
+      "license_url": "https://www.thunderbay.ca/city-hall/thunder-bay-open-data/",
+      "api_verification_state": "Original portal HTTP200 JavaScript shell, not API response. Old native licence URL404; no alternate native fetch after failure. Indexed native City overview/legal reviewed; registry generic ArcGIS docs not instance proof.",
+      "latest_checked_utc": "2026-10-18T20:35:15.011094+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "thunderbay-transit-realtime",
       "provider": "City of Thunder Bay Transit / NextLift",
       "service_name": "Thunder Bay GTFS realtime transit feeds",
@@ -34838,6 +34928,24 @@
       "license_url": "",
       "api_verification_state": "Native homepageHTTP200 substantive portal; exact current native public API/schema not found in inspected page/search results. Registry claimed API is unrelated Markdown Guide.",
       "latest_checked_utc": "2026-10-18T17:43:23.678098+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tinngo-open-data-repository",
+      "provider": "TInnGO consortium / SBOING",
+      "service_name": "TInnGO gender and transport Open Data Repository API",
+      "geographic_coverage": "Pan-European ten national hubs plus public contributing collections; countries vary per returned metadata",
+      "topical_coverage": "transportation | demographics | labor | research",
+      "dataset_families": "Gender/diversity and mobility survey/research collection descriptors; no individual/survey responses/incident records acquired",
+      "documentation_url": "https://tinngo.sboing.net/#repository",
+      "api_base_url": "https://tinngo.sboing.net/odr-api",
+      "format_protocol": "Anonymous REST JSON catalog list verified",
+      "authentication": "Published collection metadata API succeeded anonymously; contributors require registration, not used",
+      "free_access_restrictions": "Native root says published collections public and data access free subject to license terms. Separate incident-use registration/purpose/assurances conditions not universal publiccatalog terms.",
+      "license": "Mixed file-level publisher labels; no uniform metadata/database grant verified",
+      "license_url": "https://tinngo.sboing.net/odr-api | https://www.tinngo.eu/legal-notice/",
+      "api_verification_state": "Owner root and documented odr-apiHTTP200; APIbody valid untruncated JSON list65collection descriptions, not source observations. Published as documentation request but recognized as successful catalog API metadata response. No file/download or incident endpoint queried.",
+      "latest_checked_utc": "2026-10-18T20:35:58.232139+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
