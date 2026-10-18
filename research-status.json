@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:10:44.666208+00:00",
+  "published_at": "2026-10-18T03:12:47.595551+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:08:40.820435+00:00",
+  "research_updated_at": "2026-10-18T03:12:39.633764+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EUROLAS registeredJSONAPI documented; Loebwebsite/source/bibliographicmetadata rights separated; TLA accesslevelvslicence and rootguardhold preserved.",
+  "latest_milestone": "Fifteen original tasks processed across five batches; CARS scopedCC0/TAP and tenreturnedscience-tablefrontier complete. NEDcurrentAPI/NODCsiteJSON active butdatagrants pending; multiple scopedrights/access distinctions verified.",
   "counts": {
     "verified": 344,
-    "candidates": 767,
-    "excluded": 214,
+    "candidates": 769,
+    "excluded": 215,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -38,6 +38,7 @@
         "candidate_provider_ids": [
           "dhs-spatial-data-repository",
           "hdx",
+          "lse-research-online",
           "ocha-hapi",
           "undata-official-sdmx-api",
           "unhcr",
@@ -62,6 +63,7 @@
         ],
         "candidate_provider_ids": [
           "aiddata-development-data",
+          "lse-research-online",
           "openei-urdb",
           "unsd"
         ],
@@ -319,9 +321,11 @@
           "gwas-catalog",
           "hdx",
           "muenster-datastore-rest",
+          "ncbi-genome-datasets",
           "ncbi-virus-datasets",
           "nih-clinicaltrials",
           "ocha-hapi",
+          "proteomexchange-proteomecentral",
           "tritrypdb",
           "wfp"
         ],
@@ -368,7 +372,9 @@
           "dhs-spatial-data-repository",
           "internet-archive-metadata",
           "kth-data-repository-api",
+          "lse-research-online",
           "mit-timdex",
+          "mpi-the-language-archive",
           "olac-language-archives-network",
           "open-data-lmu",
           "trove-cultural-discovery-api",
@@ -450,6 +456,7 @@
           "earthchem-library-repository",
           "earthscope-sponsored-miniseed-object-repository",
           "esa-heritage-mission-data-discovery",
+          "eurolas-data-center-api",
           "flood-observatory-colorado",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
@@ -520,6 +527,7 @@
           "geoboundaries"
         ],
         "candidate_provider_ids": [
+          "lse-research-online",
           "osi-licenses",
           "saudi-mofa",
           "shom-data",
@@ -561,9 +569,11 @@
           "isimip-impact-repository",
           "litterbase-marine-litter-portal",
           "nasc-plant-stock-webservices",
+          "ncbi-genome-datasets",
           "ncbi-virus-datasets",
           "planetary-computer",
           "plant-adaptation-hub",
+          "proteomexchange-proteomecentral",
           "smithsonian",
           "tritrypdb",
           "unite-species-hypotheses",
@@ -643,6 +653,7 @@
           "amda-space-plasma-rest",
           "csiro-data-access-portal",
           "dlr-wdc-rsat",
+          "eurolas-data-center-api",
           "hek-event-registry",
           "helioviewer-api",
           "icgem-gravity-model-portal",
@@ -695,6 +706,7 @@
           "isric-soil-data-hub",
           "loc",
           "mit-timdex",
+          "mpi-the-language-archive",
           "muenster-datastore-rest",
           "nasa-power",
           "nasc-plant-stock-webservices",
@@ -829,6 +841,7 @@
           "ena",
           "esa-ecology",
           "esa-heritage-mission-data-discovery",
+          "eurolas-data-center-api",
           "europepmc",
           "flood-observatory-colorado",
           "gawsis-station-metadata",
@@ -864,10 +877,13 @@
           "kth-data-repository-api",
           "litterbase-marine-litter-portal",
           "loc",
+          "lse-research-online",
           "mit-timdex",
+          "mpi-the-language-archive",
           "muenster-datastore-rest",
           "mumbai-geomagnetism-data-centre",
           "nasc-plant-stock-webservices",
+          "ncbi-genome-datasets",
           "ncbi-virus-datasets",
           "nced-data-repository",
           "nih-clinicaltrials",
@@ -880,6 +896,7 @@
           "osi-licenses",
           "perspectivia",
           "plant-adaptation-hub",
+          "proteomexchange-proteomecentral",
           "rijksmuseum",
           "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
@@ -1210,7 +1227,8 @@
           "citf-controlled-databank",
           "colorado-information-marketplace",
           "hawaii-open-data-catalogue",
-          "polar-data-catalogue-metadata-api"
+          "polar-data-catalogue-metadata-api",
+          "srtr-controlled-research-data"
         ]
       },
       "education": {
@@ -1611,7 +1629,8 @@
           "citf-controlled-databank",
           "ipums-nhgis-api",
           "nova-scotia-offshore-data-centre",
-          "polar-data-catalogue-metadata-api"
+          "polar-data-catalogue-metadata-api",
+          "srtr-controlled-research-data"
         ]
       }
     },
@@ -1967,6 +1986,7 @@
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
+          "lse-research-online",
           "nfdi4health-study-hub",
           "puglia-open-data-catalog",
           "registry-opendata-fr-ch",
@@ -2028,6 +2048,7 @@
           "insee",
           "latvia-statistics",
           "lithuania-statistics",
+          "lse-research-online",
           "poland-gus-strateg",
           "puglia-open-data-catalog",
           "russia",
@@ -2205,6 +2226,7 @@
           "lithuania-statistics",
           "meteogate-climate-aggregator-edr",
           "nodc-ieo-geonetwork",
+          "nodc-portugal-geonetwork",
           "os-os-places-api",
           "puglia-open-data-catalog",
           "registry-daten-rlp-de",
@@ -2262,6 +2284,7 @@
           "ea-water-quality",
           "earthprints-geoscience-repository-api",
           "nodc-ieo-geonetwork",
+          "nodc-portugal-geonetwork",
           "os-os-places-api",
           "santander-open-data",
           "sardinia-geospatial-wfs",
@@ -2355,6 +2378,7 @@
           "lithuania-statistics",
           "navarra-open-data",
           "nfdi4health-study-hub",
+          "proteomexchange-proteomecentral",
           "publicneuro-repository",
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
@@ -2449,6 +2473,7 @@
           "kpbc-digital-library",
           "latvia-statistics",
           "lithuania-statistics",
+          "lse-research-online",
           "ortolang-fcs",
           "phaidra-university-vienna",
           "polen-datahub-portugal",
@@ -2626,6 +2651,7 @@
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "earthprints-geoscience-repository-api",
+          "eurolas-data-center-api",
           "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
@@ -2634,6 +2660,7 @@
           "navarra-open-data",
           "nfdi4ing-ingest-metadata-api",
           "nodc-ieo-geonetwork",
+          "nodc-portugal-geonetwork",
           "os-os-places-api",
           "poland-gus-teryt",
           "puglia-open-data-catalog",
@@ -2735,6 +2762,7 @@
           "claremont-colleges-digital-library",
           "european-history-online",
           "la-rochelle-data4citizen",
+          "lse-research-online",
           "paris",
           "poland-gus-smup",
           "poland-gus-strateg",
@@ -2770,6 +2798,7 @@
           "ea-water-quality",
           "lifewatch-metadata-catalogue",
           "nasc-plant-stock-webservices",
+          "proteomexchange-proteomecentral",
           "seadatanet-cdi-discovery-network",
           "ufz-spatial-geonetwork"
         ],
@@ -2794,6 +2823,7 @@
         "candidate_provider_ids": [
           "earthprints-geoscience-repository-api",
           "nodc-ieo-geonetwork",
+          "nodc-portugal-geonetwork",
           "seadatanet-cdi-discovery-network",
           "shom-data",
           "ukho-tidal"
@@ -2806,6 +2836,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "eurolas-data-center-api",
           "uk-solar-system-data-centre"
         ],
         "restricted_provider_ids": []
@@ -3020,6 +3051,7 @@
           "esgf-ipsl-discovery",
           "esgf-liu-discovery",
           "estonia-datadoi",
+          "eurolas-data-center-api",
           "european-history-online",
           "france-culture-open-data-portal",
           "glasgow-enlighten-research-data",
@@ -3033,18 +3065,21 @@
           "kpbc-digital-library",
           "ksamsok",
           "lifewatch-metadata-catalogue",
+          "lse-research-online",
           "luebeck-historic-mural-database",
           "meteogate-climate-aggregator-edr",
           "nasc-plant-stock-webservices",
           "nfdi4health-study-hub",
           "nfdi4ing-ingest-metadata-api",
           "nodc-ieo-geonetwork",
+          "nodc-portugal-geonetwork",
           "ortolang-fcs",
           "perspectivia",
           "phaidra-university-vienna",
           "polen-datahub-portugal",
           "portulan-fcs",
           "portulan-repository",
+          "proteomexchange-proteomecentral",
           "publicneuro-repository",
           "radar-bb-repository",
           "rijksmuseum",
@@ -3909,6 +3944,7 @@
         "candidate_provider_ids": [
           "cngbdb-resource-portal",
           "japan-egov-data-catalog",
+          "proteomexchange-proteomecentral",
           "ucla-social-science-dataverse"
         ],
         "restricted_provider_ids": []
@@ -4008,7 +4044,9 @@
         ],
         "candidate_provider_ids": [
           "cngbdb-resource-portal",
-          "gbif-japan"
+          "gbif-japan",
+          "proteomexchange-proteomecentral",
+          "taiwan-fish-database"
         ],
         "restricted_provider_ids": []
       },
@@ -4017,6 +4055,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "china-national-marine-data-information",
+          "taiwan-fish-database",
           "tokyo-aori-cruise-database"
         ],
         "restricted_provider_ids": []
@@ -4060,7 +4099,9 @@
           "cngbdb-resource-portal",
           "jst-grants-data",
           "nims-mdr",
+          "proteomexchange-proteomecentral",
           "smoka-science-archive",
+          "taiwan-fish-database",
           "tokyo-aori-cruise-database",
           "ucla-social-science-dataverse"
         ],
@@ -12143,6 +12184,24 @@
       "license_url": "https://barrowmapped.org/data/ciap-deliverables/",
       "api_verification_state": "original_root_robots_deferred_official_indexed_layer_restriction_API_and_other_grants_unresolved",
       "latest_checked_utc": "2026-10-17T22:49:02.679405+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "bas-clarin-repository",
+      "provider": "Bavarian Archive for Speech Signals / Ludwig Maximilians University Munich",
+      "service_name": "BAS CLARIN Repository metadata and speech-resource interfaces",
+      "geographic_coverage": "Speech/language corpora from source-specific populations; exact geography not acquired",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Speech corpus/session descriptive metadata, annotations and audio resources; processingWebServices separate from dataretrieval",
+      "documentation_url": "https://clarin.phonetik.uni-muenchen.de/BASRepository/Public/disclaimer.php",
+      "api_base_url": "",
+      "format_protocol": "Owner conditions mention OAI-DC/CMDI metadata. Registry labels BASSRU OAI but exactcurrentprotocol not verified. ProcessingRESTreturnsXML, not retrievalproof",
+      "authentication": "Native root says current user not authorized; academicAAI/CLARIN and specialresource licences described. No login/registration/accesscodes used",
+      "free_access_restrictions": "Native owner definesPUB/ACA/RES access; ACAresearchonly/RESuserlicence and speechredistribution restrictions. Metadataredistribution exception separate",
+      "license": "OAI-DC/CMDI metadata may be distributed without restrictions; speech-resource rights/access differ",
+      "license_url": "https://clarin.phonetik.uni-muenchen.de/BASRepository/Public/disclaimer.php",
+      "api_verification_state": "Native repository/rootconditions/processingserviceguide200HTML; rootunauthorized notice means stopcorpus/APIrequests. No OAI/SRU/search/sample/media retrieval. Processingservices documented but notexecuted and not counted data-querysuccess.",
+      "latest_checked_utc": "2026-10-18T03:11:36.556680+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20243,6 +20302,24 @@
       "license_url": "https://dataverse.geus.dk/dataset.xhtml?persistentId=doi%3A10.22008%2FFK2%2FIW73UU",
       "api_verification_state": "native_curated_release_BY4_verified_Dataverse_API_target_robots_held_THREDDS_meta_nofollow_deeper_traversal_held",
       "latest_checked_utc": "2026-10-17T23:06:28.251297+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "proteomexchange-proteomecentral",
+      "provider": "ProteomeXchange Consortium / ProteomeCentral",
+      "service_name": "ProteomeXchange dataset-discovery portal and consortium interfaces",
+      "geographic_coverage": "Global proteomics datasets across member repositories in Europe, NorthAmerica, China and Japan; exactsource organism/study geography varies",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "PublicPXD dataset discovery and memberrepository metadata references; sourceproteomics/spectra/files and protectedclinical repositories distinct",
+      "documentation_url": "https://www.proteomexchange.org/",
+      "api_base_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset; published discovery entry currently redirects to newfrontend, exact machine API unresolved",
+      "format_protocol": "Current native ProteomeCentralHTMLfrontend; consortiumXML messageformats documented, no successfuldata-query APIresponse",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Historical2019 partner-specific/prospectiveCC0 policy; owner2023update reports defaultCC0 transition, exactcurrent/legacy scope unresolved",
+      "license_url": "https://www.proteomexchange.org/docs/guidelines_px.pdf",
+      "api_verification_state": "Native consortiumhome/linkedguidelinesPDF/currentProteomeCentralentry200; legacyGetDatasetentry resolvescurrentfrontendHTML, not machineAPIresponse. No blindoutputMode query, spectrumUSI/PROXI, FTP orsourcefiles requested.",
+      "latest_checked_utc": "2026-10-18T03:11:36.556680+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28435,6 +28512,24 @@
       "license_url": "https://pccos.spc.int/ocean-catalogue/tuvalu-wave-hindcast | https://pccos.spc.int/ocean-catalogue/marshall-islands-wave-hindcast",
       "api_verification_state": "documented_THREDDS_native_XML_catalogue_sample_success_scoped_NC_restriction_other_grants_unresolved",
       "latest_checked_utc": "2026-10-17T01:19:13.340154+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "srtr-controlled-research-data",
+      "provider": "Scientific Registry of Transplant Recipients / HRSA / Hennepin Healthcare Research Institute",
+      "service_name": "SRTR Standard Analysis Files and controlled research-data access",
+      "geographic_coverage": "United States organ transplantation; registry/publicaggregate/report and controlledresearchdata scopes distinct",
+      "topical_coverage": "health | research",
+      "dataset_families": "Transplant recipient/donor/waitlist standardanalysisfiles and enhanced/linkage research requests; publicwebsite information separate",
+      "documentation_url": "https://srtr.hrsa.gov/requesting-data/data-requests/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Patient-levelSAFs require signedDUA/data-security/researchplans; linkageIRB/HRSAreview. No access/request/auth used",
+      "free_access_restrictions": "SAFs/updates/enhancements/linkages priced, requests reviewed; simple aggregateinformation requests may be free. No request or paid acquisition made",
+      "license": "Controlled/purchased patient-level data under DUA; public website material separately not copyrighted with citation requested",
+      "license_url": "https://srtr.hrsa.gov/requesting-data/data-requests/ | https://srtr.hrsa.gov/requesting-data/citations-and-permissions/",
+      "api_verification_state": "Native citation/accesspolicy pages200HTML only. No documented publicdataqueryAPI verified or tested. No patientdata, restrictedsource metadata or personalmedicalprofile query.",
+      "latest_checked_utc": "2026-10-18T03:11:36.556680+00:00",
       "classification": "restricted"
     },
     {
