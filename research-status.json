@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T09:37:53.578223+00:00",
+  "published_at": "2026-10-18T09:39:56.604494+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:37:48.250836+00:00",
+  "research_updated_at": "2026-10-18T09:39:01.956087+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original reviews: IPK software/data scope; JGI current policy/download schema2ops; UQAR custom licences/Borealis hold; ENCODE held; NFIN4leads; IDN CMR dedup/KMS held; MDZ50000refs/50pages.",
+  "latest_milestone": "PURR OAI Identify verified; native non-commercial terms restricted. MDZ 66 pages/66000 manifest references, incomplete.",
   "counts": {
     "verified": 387,
     "candidates": 979,
-    "excluded": 287,
+    "excluded": 288,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -20753,8 +20753,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across50successfulpages/50000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T09:32:42.313799+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across66successfulpages/66000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T09:38:23.318505+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34275,6 +34275,24 @@
       "license_url": "https://www.maxwell.vrac.puc-rio.br/projetosEspeciais/ResearchData/UsagePolicy.php?b=5",
       "api_verification_state": "Native root and usage policy200HTML, not API responses; no deployed machine-query API established",
       "latest_checked_utc": "2026-10-18T05:48:07.460762+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "purdue-purr-oai",
+      "provider": "Purdue University Libraries and research partners",
+      "service_name": "Purdue University Research Repository OAI-PMH",
+      "geographic_coverage": "Purdue institutional research and international collaborators; individual dataset geography unenumerated",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary published research datasets, images, videos, spreadsheets and source code; private project workspace is distinct",
+      "documentation_url": "https://purr.purdue.edu/ | https://purr.purdue.edu/policies",
+      "api_base_url": "https://purr.purdue.edu/oaipmh",
+      "format_protocol": "OAI-PMH 2.0 XML; native Identify envelope verified",
+      "authentication": "No credentials required for successful Identify GET; private collaboration projects require authenticated membership",
+      "free_access_restrictions": "Current site terms limit use to non-commercial educational and research activities. Published datasets publicly accessible without password; per-dataset permissions remain distinct.",
+      "license": "Site use restricted to non-commercial education and research; individual dataset licences vary/unreviewed",
+      "license_url": "https://purr.purdue.edu/policies",
+      "api_verification_state": "Native root and current policy HTTP200 HTML; anonymous OAI Identify HTTP200 valid OAI-PMH2 XML containing Identify, not an HTML shell. No record harvest.",
+      "latest_checked_utc": "2026-10-18T09:38:16.998745+00:00",
       "classification": "restricted"
     },
     {
