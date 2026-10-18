@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T17:15:33.837848+00:00",
+  "published_at": "2026-10-18T17:17:36.600502+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:15:05.292890+00:00",
+  "research_updated_at": "2026-10-18T17:16:16.349533+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed: two native OAI identities; BioPortal keyed REST/mixed rights/SPARQL shutdown documented; AAU/UJ holds; German collections software license not data grant. MDZ923000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to935pages/935000refs;2278503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 441,
-    "candidates": 1187,
+    "candidates": 1190,
     "excluded": 344,
     "sample_successes": 464
   },
@@ -20412,6 +20412,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "fiu-research-data-portal",
+      "provider": "Florida International University",
+      "service_name": "FIU Research Data Portal",
+      "geographic_coverage": "United States institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "FIU Research Data Portal",
+      "documentation_url": "https://rdm.fiu.edu/dataverse/terms-of-use.html",
+      "api_base_url": "https://dataverse.fiu.edu/oai",
+      "format_protocol": "Institutional Dataverse portal documentation; registry OAI/REST/SWORD claims, current wire held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native CC0 default for uploaded materials with custom/restricted-license exceptions",
+      "license_url": "https://rdm.fiu.edu/dataverse/terms-of-use.html",
+      "api_verification_state": "Native institutional terms HTTP200 substantive HTML; OAI identity request guard-deferred unsent, no successful API payload.",
+      "latest_checked_utc": "2026-10-18T17:15:53.819742+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "flood-observatory-colorado",
       "provider": "DFO Flood Observatory / University of Colorado",
       "service_name": "Flood Observatory satellite discharge and flood-record discovery portal",
@@ -22896,6 +22914,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "javeriana-research-data",
+      "provider": "Pontificia Universidad Javeriana",
+      "service_name": "Repositorio institucional de datos de Investigación",
+      "geographic_coverage": "Colombia institutional research; source geography unknown",
+      "topical_coverage": "research | education",
+      "dataset_families": "Repositorio institucional de datos de Investigación",
+      "documentation_url": "https://dataverse.javeriana.edu.co/",
+      "api_base_url": "https://dataverse.javeriana.edu.co/oai",
+      "format_protocol": "Registry OAI-PMH claim; current native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root guard-deferred unsent; OAI skipped after same-host hold. No successful XML/API payload.",
+      "latest_checked_utc": "2026-10-18T17:15:53.819742+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "jgi-genome-data-portal",
       "provider": "DOE Joint Genome Institute",
       "service_name": "JGI Genome/Data Portal download API",
@@ -24313,8 +24349,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across923successfulpages/923000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:10:58.413317+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across935successfulpages/935000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:16:11.766821+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31677,6 +31713,24 @@
       "license_url": "https://www.tepapa.govt.nz/assets/76067/1693184837-collections_api_terms_of_use.pdf",
       "api_verification_state": "documented_key_required_untested_original_docs_policy_deferred",
       "latest_checked_utc": "2026-10-17T02:06:13.439565+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "tec-tecdatos-repository",
+      "provider": "Tecnológico de Costa Rica / SIBITEC",
+      "service_name": "TECdatos Research Data Repository",
+      "geographic_coverage": "Costa Rica institutional research; source coverage varies",
+      "topical_coverage": "research | agriculture | environment | education",
+      "dataset_families": "TECdatos Research Data Repository",
+      "documentation_url": "https://dataverse.tec.ac.cr/",
+      "api_base_url": "https://dataverse.tec.ac.cr/oai",
+      "format_protocol": "Native Dataverse6.2 UI; registry OAI/REST/SWORD claims, no current API payload",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed selected CC0/CC BY and NC/ND licenses; blanket metadata grant unknown",
+      "license_url": "https://repositoriotec.tec.ac.cr/bitstream/handle/2238/16408/D120_BIB315394_Politica_Repositorio_Datos....pdf?isAllowed=y&sequence=1",
+      "api_verification_state": "Native root HTTP200 substantive portal; original OAI request held, not XML success. Independent official policy reviewed by web-reader; no source data downloaded.",
+      "latest_checked_utc": "2026-10-18T17:15:53.819742+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
