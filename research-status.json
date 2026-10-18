@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T17:36:07.904918+00:00",
+  "published_at": "2026-10-18T17:38:11.336533+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:35:54.324076+00:00",
+  "research_updated_at": "2026-10-18T17:38:08.590849+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CSIRO dedup/prior API success retained; Yabelana portal/guide holds; TRDMC native personalNC/no systematic retrieval restrictions.",
+  "latest_milestone": "UNSWorks native OAI identity/license version gaps; OMNI SPDF defaultCC0/native API gap; DataverseNL legalPDF/readerblocked/inheritedhold.",
   "counts": {
     "verified": 441,
-    "candidates": 1205,
+    "candidates": 1208,
     "excluded": 351,
     "sample_successes": 464
   },
@@ -18691,6 +18691,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dataversenl-central-repository",
+      "provider": "DANS / participating Dutch research institutions",
+      "service_name": "DataverseNL central repository service",
+      "geographic_coverage": "Netherlands multi-institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "DataverseNL central repository service",
+      "documentation_url": "https://support.dataverse.nl/support/solutions/articles/80000969616-how-do-i-set-terms-of-use-for-my-dataset-",
+      "api_base_url": "https://dataverse.nl/oai (registry endpoint, untested under inherited hold)",
+      "format_protocol": "Registry Dataverse OAI/REST/SWORD; exact runtime not tested under inherited host hold",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://dans.knaw.nl/wp-content/uploads/2022/05/DataverseNLGeneralTermsofuse.pdf | https://support.dataverse.nl/support/solutions/articles/80000969616-how-do-i-set-terms-of-use-for-my-dataset-",
+      "api_verification_state": "Native owner General Terms PDFHTTP200 application/pdf preserved; web-reader sameURL returned bot-block HTML, full legal-text review unresolved. Indexed official support documents license/customterms. Inherited DataverseNL API/root hold retained, no OAI/REST/SWORD runtime.",
+      "latest_checked_utc": "2026-10-18T17:38:03.793608+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ddbj-search-services",
       "provider": "BioData Science Initiative / National Institute of Genetics, Japan",
       "service_name": "DDBJ Search metadata web API discovery",
@@ -24536,8 +24554,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across967successfulpages/967000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:31:06.465703+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across969successfulpages/969000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:36:08.638319+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25636,6 +25654,24 @@
       "license_url": "https://nssdc.gsfc.nasa.gov/nssdc/preservation_policy.html",
       "api_verification_state": "Original NASAroot200via checked redirect to current nssdc.gsfc.nasa.gov real ownerHTML. Native obtaining guide/preservationpolicy200HTML. No formal NSSDCA API/schema/query response; MasterCatalog forms and archive links not requested.",
       "latest_checked_utc": "2026-10-18T10:21:07.409905+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-omniweb",
+      "provider": "NASA GSFC Space Physics Data Facility SPDF",
+      "service_name": "OMNIWeb solar-wind archive service",
+      "geographic_coverage": "Near-Earth/heliospheric space physics observations",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Hourly/high-resolution OMNI solar-wind/plasma/field and solar/geomagnetic indices; actual observations not acquired",
+      "documentation_url": "https://omniweb.gsfc.nasa.gov/ow.html | https://omniweb.gsfc.nasa.gov/html/citing.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "SPDF explicit default CC0 with source/third-party exceptions; exact native API unverified",
+      "license_url": "https://spdf.gsfc.nasa.gov/data_use_policy.html | https://omniweb.gsfc.nasa.gov/html/citing.html",
+      "api_verification_state": "Native OMNI overview/citationHTTP200 HTML. Existing SPDF defaultCC0 policy reused without replay. No native API metadata/schema response; no actual OMNI observation query.",
+      "latest_checked_utc": "2026-10-18T17:38:03.793608+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33322,6 +33358,24 @@
       "license_url": "https://www.un.org/en/about-us/terms-of-use",
       "api_verification_state": "documented_current_series_metadata_sample_success_rights_unresolved",
       "latest_checked_utc": "2026-10-16T19:47:35.071042+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unsworks-repository",
+      "provider": "UNSW Sydney Library",
+      "service_name": "UNSWorks OAI metadata repository",
+      "geographic_coverage": "Australia institutional research; source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Research output/thesis/data/NTRO metadata; source publications/creative works/data not acquired",
+      "documentation_url": "https://subjectguides.library.unsw.edu.au/copyright/unsworks",
+      "api_base_url": "https://unsworks.unsw.edu.au/oai/provider",
+      "format_protocol": "Native OAI-PMH2 Identify XML",
+      "authentication": "Anonymous Identify succeeded; source access conditions not tested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Current guidance default CC BY4 with selected alternatives; uniform metadata license unresolved",
+      "license_url": "https://subjectguides.library.unsw.edu.au/copyright/unsworks",
+      "api_verification_state": "Original anonymous OAI IdentifyHTTP200 valid XML, one safe identity record excluding admin contacts; native owner copyright guide200 substantiveHTML. No data record harvest.",
+      "latest_checked_utc": "2026-10-18T17:38:03.793608+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
