@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:29:48.464334+00:00",
+  "published_at": "2026-10-18T02:31:51.108495+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:28:29.178311+00:00",
+  "research_updated_at": "2026-10-18T02:30:55.023892+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine discovery tasks reviewed, five services added. MGDS collection/shared Bugwood aliases reconciled; MGDS WFS3featuretypes/SGD83operations indexed. SGD BY4/current API docs verified, runtime held. Source-rights/global universe unfinished.",
+  "latest_milestone": "LübeckAPI/grantunresolved; RDCatZPIDscientific-use restrictions verified; ColognescheduledIdentifyvalid/rootchallengehold recorded, metadata grant unresolved.",
   "counts": {
     "verified": 337,
-    "candidates": 744,
-    "excluded": 209,
+    "candidates": 746,
+    "excluded": 210,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -13222,6 +13222,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cologne-cathedral-library-oai",
+      "provider": "Archiepiscopal Diocesan and Cathedral Library Cologne",
+      "service_name": "Cologne cathedral library digital collections OAI",
+      "geographic_coverage": "Cologne ecclesiastical library collections, historic manuscripts/printed works; individual content origins vary",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Digital library bibliographic discovery distinct from scans/images/source works",
+      "documentation_url": "https://digital.dombibliothek-koeln.de/hs/oai?verb=Identify",
+      "api_base_url": "https://digital.dombibliothek-koeln.de/hs/oai",
+      "format_protocol": "OAI-PMH2XMLIdentifyverified; VisualLibraryfrontendbrowserchallenge",
+      "authentication": "Prescheduled anonymousIdentify200validXML; root requiresJS/cookieverification, no challenge resolution/session used and no further portal requests",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform metadata licence; owner site/illustration publication conditions separate",
+      "license_url": "https://www.dombibliothek-koeln.de/service/service/ordnungen-und-rechte/index.html",
+      "api_verification_state": "Initial native root200browserverification; already-scheduled OAIIdentify200validXML before manual challenge inspection. No subsequent format/set/header/data queries. Independentownerlegal/publicationterms200.",
+      "latest_checked_utc": "2026-10-18T02:30:50.723798+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "companies-house",
       "provider": "UK Companies House",
       "service_name": "UK Companies House API",
@@ -16945,6 +16963,24 @@
       "license_url": "https://dataregistry.lteritalia.it/about/",
       "api_verification_state": "native_operator_OGC_SensorThings_integration_documented_API_path_policy_held_source_grants_unconfirmed",
       "latest_checked_utc": "2026-10-17T21:02:54.913997+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "luebeck-historic-mural-database",
+      "provider": "Christian Albrechts University Kiel / Lübeck heritage research project",
+      "service_name": "Lübeck wall and ceiling paintings 1300–1800 database",
+      "geographic_coverage": "Historic Lübeck houses, Germany,1300–1800; exact digitized inventory unverified",
+      "topical_coverage": "culture | housing | research",
+      "dataset_families": "Research descriptions/documentation of historic wall and ceiling paintings; source images separate",
+      "documentation_url": "https://www.wandmalerei-luebeck2020.uni-kiel.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown reuse grant; native predecessor imprint states content/design protected",
+      "license_url": "https://www.wandmalerei-luebeck.uni-kiel.de/impressum.html",
+      "api_verification_state": "Current2020root guard-deferred unsent; independent predecessorimprintHTTP200HTML. No documented current queryAPI or machine response verified.",
+      "latest_checked_utc": "2026-10-18T02:30:50.723798+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28341,6 +28377,24 @@
       "license_url": "https://www.xenbase.org/xenbase/static-xenbase/aboutMOD.jsp",
       "api_verification_state": "native_terms200_research_education_only_verified_root429_API_docs_indexed_not_native_no_data_sample",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "zpid-rdc-controlled-research",
+      "provider": "RDC at ZPID / Leibniz Institute for Psychology",
+      "service_name": "RDC psychological research data access service",
+      "geographic_coverage": "Psychological research projects, study-specific populations/geography; German/European institutional service",
+      "topical_coverage": "health | demographics | education | research",
+      "dataset_families": "Psychological study data, codebooks and documentation; ScientificUse/RestrictedScientificUse source access",
+      "documentation_url": "https://rdc-psychology.org/en/reuse-data/access-data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "ORCID/Leibnizaccount and data-use conditions/contracts, providerapproval depending sharinglevel; no registration/order/request/contract used",
+      "free_access_restrictions": "Source data supplied free for approved scientific reuse/teaching, not unrestricted open access; other servicecosts not universally verified",
+      "license": "Scientific research/teaching only; approved institution users and sharing-level user contracts",
+      "license_url": "https://rdc-psychology.org/en/reuse-data/access-data",
+      "api_verification_state": "Native root/currentaccesspolicyHTTP200HTML. Exact unrestricted metadata/queryAPI not documented or sampled. Policies only; no psychological records/participants/codebooks/files.",
+      "latest_checked_utc": "2026-10-18T02:30:50.723798+00:00",
       "classification": "restricted"
     }
   ],
