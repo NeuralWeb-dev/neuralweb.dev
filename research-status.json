@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:42:06.289431+00:00",
-  "job_status": "worker not running",
-  "worker_running": false,
+  "published_at": "2026-10-18T23:44:10.163071+00:00",
+  "job_status": "running",
+  "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:40:40.903186+00:00",
+  "research_updated_at": "2026-10-18T23:43:58.730593+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: NOMADCC0/BY4/OPTIMADEinfoJSON/122operationrefs; NIST10childleads; DARECLIMED/PlantsTaiwanrestricted; CGRIS/CPCAPIgaps/11CPCrefs.",
+  "latest_milestone": "IPUMSInternational documentedv2extract/noopenreuse; PSIDAI/transferrestrictions; GolmRESTdocumented/500/noredistribution.",
   "counts": {
     "verified": 498,
     "candidates": 1435,
-    "excluded": 413,
+    "excluded": 416,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -44733,6 +44733,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "golm-metabolome-rest-soap",
+      "provider": "Max Planck Institute of Molecular Plant Physiology",
+      "service_name": "Golm Metabolome Database REST and SOAP services",
+      "geographic_coverage": "International metabolomicsreference resource, Germany-hosted; individual experiments/source geography varies",
+      "topical_coverage": "research | biodiversity | agriculture | health",
+      "dataset_families": "Reference metabolite spectra/retention indices and profiling resource; no spectra/structures/assays/source values queried",
+      "documentation_url": "http://gmd.mpimp-golm.mpg.de/REST/default.aspx | http://gmd.mpimp-golm.mpg.de/termsconditions.aspx",
+      "api_base_url": "http://gmd.mpimp-golm.mpg.de/REST/gmd.svc | http://gmd.mpimp-golm.mpg.de/webservices/Default.aspx (registrySOAPlead only)",
+      "format_protocol": "Native documented ADO.NET/ASTORIAREST/OData-style entityroutes; SOAP registryclaim not currentnativeverified",
+      "authentication": "Native docs describe public service; anonymousservicerootGET500, successfulauthentication/runtimeunknown",
+      "free_access_restrictions": "Academicnoncommercialdownloadspermitted withnotices. Nonacademic/commercialotheruses/downloads requirelicenceagreement. No redistributionwithoutwrittenconsent.",
+      "license": "Copyright retained; academic noncommercial downloads, redistribution only with written consent",
+      "license_url": "http://gmd.mpimp-golm.mpg.de/termsconditions.aspx",
+      "api_verification_state": "Native home/RESTdocs/terms200HTML, pagesreport serviceupdated14Apr2026. Exact documentedRESTservicerootGET500, notsuccessfulAPIresponse; holdretained, noalternatepath/SOAP/$metadata/backendretry. HTMLdocumentation notAPIruntimeproof.",
+      "latest_checked_utc": "2026-10-18T23:43:52.938209+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "greo-borealis-repository",
       "provider": "Greo Evidence Insights",
       "service_name": "Greo gambling research data repository",
@@ -45504,6 +45522,24 @@
       "license_url": "https://www.ebi.ac.uk/ipd/licence/ | https://www.ebi.ac.uk/ipd/imgt/hla/licence/",
       "api_verification_state": "primary_embedded_OpenAPI_verified_native_allele_sample_robots_held_target_unsent_ND_restrictions_verified",
       "latest_checked_utc": "2026-10-17T16:48:12.185871+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ipums-international-extracts",
+      "provider": "IPUMS / University of Minnesota",
+      "service_name": "IPUMS International microdata extract API",
+      "geographic_coverage": "Global harmonized census/survey collections, nativeUI104countries/656censusesandsurveys; not enumerated",
+      "topical_coverage": "demographics | economics | labor | health | education | housing | research",
+      "dataset_families": "International census/survey microdata and harmonization documentation; no person/household/source extracts acquired",
+      "documentation_url": "https://developer.ipums.org/docs/v2/apiprogram/apis/microdata/ | https://developer.ipums.org/docs/v2/get-started/ | https://developer.ipums.org/docs/v2/workflows/create_extracts/microdata/",
+      "api_base_url": "https://api.ipums.org/extracts (version2 query API, collection-specific permissions)",
+      "format_protocol": "Documented REST HTTPGET/POST JSON extractworkflow; datafilesCSV/fixedwidth/statisticalformats distinct",
+      "authentication": "EveryrequestAPIkey plus collection registration/account; Internationalapplication manuallyreviewed, renewableannually; no account/key acquired",
+      "free_access_restrictions": "Data/servicesfreeofcharge but scholarly/educational/publicpolicyresearchonly; commercialuse and redistribution prohibited",
+      "license": "Registered scholarly/noncommercial use with no redistribution",
+      "license_url": "https://international.ipums.org/international-action/faq",
+      "api_verification_state": "Native root/FAQ/v2APIaccess/functionality/workflowdocs200HTML. v2docs expresslyInternationalextracts supportedsubset, notmicrodatametadata API. APIkeyrequired hence runtimesampleuntested, nojobsubmitted/download.",
+      "latest_checked_utc": "2026-10-18T23:43:52.938209+00:00",
       "classification": "restricted"
     },
     {
@@ -48546,6 +48582,24 @@
       "license_url": "https://www.open.ac.uk/Arts/reading/UK/copyright_guide.php",
       "api_verification_state": "Originalnativecopyrightguideguard-deferred; officialindexedpolicyinspected, no API/sample.",
       "latest_checked_utc": "2026-10-18T05:33:08.019097+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "umich-psid-data-service",
+      "provider": "University of Michigan Survey Research Center",
+      "service_name": "Panel Study of Income Dynamics data access",
+      "geographic_coverage": "US longitudinal household/familyresearch; public/restricted source scopes differ",
+      "topical_coverage": "demographics | economics | labor | health | education | housing | research",
+      "dataset_families": "Longitudinal PSIDpublic/restricted data access documentation; no households/participants/source files acquired",
+      "documentation_url": "https://psidonline.isr.umich.edu/GettingStarted.aspx | https://simba.isr.umich.edu/U/CondUse.aspx",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Indexed officialconditions require separate userregistration/conditionsacceptance; restricteddata contracts separate; no registration",
+      "free_access_restrictions": "Indexed native gettingstarted:publicusedatafree afterregistration/conditions; specificrestrictedfeesnotverified, no blanketfeeclaim",
+      "license": "Scientific/aggregate-statistical use only; thirdparty transfer and AI/LLM use with data prohibited",
+      "license_url": "https://simba.isr.umich.edu/U/CondUse.aspx",
+      "api_verification_state": "Original nativehome and conditions hosts robots-deferredunsent. Live indexed officialgettingstarted/conditionsreviewonly; exact publicqueryAPI/base/schema/runtimeunverified. No alternativepath/backendrequest.",
+      "latest_checked_utc": "2026-10-18T23:43:52.938209+00:00",
       "classification": "restricted"
     },
     {
