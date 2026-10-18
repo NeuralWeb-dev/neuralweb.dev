@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T22:07:30.445902+00:00",
+  "published_at": "2026-10-18T22:09:34.264065+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:06:55.886380+00:00",
+  "research_updated_at": "2026-10-18T22:07:48.188427+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UNB nativeowner/heldrepository; RIN nativecollectiondirectory/2023policyPDF/OAIhold; CIMMYT deduplicated withmixedsourcefacet review.",
+  "latest_milestone": "Nine repository tasks: eight candidates, CIMMYT dedup; native licensing/default/custom exceptions, API holds and RIN2023policy/readergap preserved.",
   "counts": {
     "verified": 483,
     "candidates": 1394,
@@ -2237,6 +2237,7 @@
           "cdha-study-resource-directory",
           "goias-state-ckan-api",
           "idb-open-data-catalog",
+          "rosario-research-data-repository",
           "unisimon-research-data"
         ],
         "restricted_provider_ids": []
@@ -2248,7 +2249,8 @@
           "embrapa-redape",
           "mexico-national-open-data",
           "mindagri-ne",
-          "unlp-research-data-repository"
+          "unlp-research-data-repository",
+          "uruguay-redata-research-repository"
         ],
         "restricted_provider_ids": []
       },
@@ -2265,6 +2267,7 @@
           "montevideo-beaches",
           "scielo-data-repository",
           "ufg-research-dataverse",
+          "uruguay-redata-research-repository",
           "wis2-argentina",
           "wis2-brazil",
           "wis2-brazil-cdi00042882",
@@ -2326,9 +2329,11 @@
           "montevideo-beaches",
           "opendatasus",
           "registry-dados-df-gov-br",
+          "rosario-research-data-repository",
           "scielo-data-repository",
           "tec-monterrey-datahub",
           "ufg-research-dataverse",
+          "unifesp-domus-dados",
           "unisimon-research-data"
         ],
         "restricted_provider_ids": []
@@ -2355,6 +2360,7 @@
           "redu-unicamp-data-repository",
           "registry-dados-df-gov-br",
           "rosario-academic-data",
+          "rosario-research-data-repository",
           "scielo-data-repository",
           "tec-monterrey-datahub",
           "uca-argentina-institutional-repository",
@@ -2363,10 +2369,12 @@
           "udec-research-data-repository",
           "ufg-research-dataverse",
           "unab-chile-research-data",
+          "unifesp-domus-dados",
           "unisimon-research-data",
           "university-aruba-open-repository",
           "unlp-research-data-repository",
           "upn-institutional-repository",
+          "uruguay-redata-research-repository",
           "usach-research-data-repository"
         ],
         "restricted_provider_ids": [
@@ -2528,9 +2536,11 @@
           "redu-unicamp-data-repository",
           "uca-argentina-institutional-repository",
           "ufg-research-dataverse",
+          "unifesp-domus-dados",
           "university-aruba-open-repository",
           "unlp-research-data-repository",
-          "upn-institutional-repository"
+          "upn-institutional-repository",
+          "uruguay-redata-research-repository"
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
@@ -2567,6 +2577,7 @@
           "redu-unicamp-data-repository",
           "registry-portaldados-ppgau-uff-br",
           "rosario-academic-data",
+          "rosario-research-data-repository",
           "scielo-data-repository",
           "tec-monterrey-datahub",
           "uca-argentina-institutional-repository",
@@ -2575,10 +2586,12 @@
           "udec-research-data-repository",
           "ufg-research-dataverse",
           "unab-chile-research-data",
+          "unifesp-domus-dados",
           "unisimon-research-data",
           "university-aruba-open-repository",
           "unlp-research-data-repository",
           "upn-institutional-repository",
+          "uruguay-redata-research-repository",
           "usach-research-data-repository"
         ],
         "restricted_provider_ids": [
@@ -5696,6 +5709,7 @@
           "malaysia"
         ],
         "candidate_provider_ids": [
+          "indonesia-rin-research-repository",
           "mardi-papayanetbase",
           "philippines",
           "thailand-gistda"
@@ -5712,6 +5726,7 @@
           "singapore"
         ],
         "candidate_provider_ids": [
+          "indonesia-rin-research-repository",
           "thailand-gistda",
           "usm-open-data-dspace-api",
           "wis2-malaysia",
@@ -5750,6 +5765,7 @@
           "singapore"
         ],
         "candidate_provider_ids": [
+          "indonesia-rin-research-repository",
           "usm-open-data-dspace-api"
         ],
         "restricted_provider_ids": [
@@ -5764,6 +5780,7 @@
           "singapore"
         ],
         "candidate_provider_ids": [
+          "indonesia-rin-research-repository",
           "malaysia-open-science-platform",
           "telkom-university-dataverse",
           "usm-open-data-dspace-api",
@@ -5802,6 +5819,7 @@
           "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
+          "indonesia-rin-research-repository",
           "thailand-gistda",
           "wis2-malaysia",
           "wis2-philippines",
@@ -5862,6 +5880,7 @@
           "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
+          "indonesia-rin-research-repository",
           "mardi-papayanetbase",
           "philippines",
           "thailand-gistda",
@@ -5879,6 +5898,7 @@
           "open-archeocsean-catalogue"
         ],
         "candidate_provider_ids": [
+          "indonesia-rin-research-repository",
           "malaysia-open-science-platform",
           "mardi-papayanetbase",
           "telkom-university-dataverse",
