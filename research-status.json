@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:35:17.553366+00:00",
+  "published_at": "2026-10-18T00:37:20.420914+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:32:37.361312+00:00",
+  "research_updated_at": "2026-10-18T00:35:24.682729+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Canada/Australiadeduplicatedandscopedpolicy/runtimeupdated; ISPSmixedrights candidate verifiedwithnativecollectionterms, APIheld.",
+  "latest_milestone": "EUR/Griffithcandidatesretainedwithnative/indexedrightsuncertainty;CERESactualCMRmetadataJSONdeduplicatedwithoutsourcegrantinflation.",
   "counts": {
     "verified": 325,
-    "candidates": 671,
+    "candidates": 673,
     "excluded": 174,
     "sample_successes": 469
   },
@@ -8293,7 +8293,7 @@
       "license": "Explicit dataset unrestricted-use grant with required citation in official UMM UseConstraints",
       "license_url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?page_size=1&short_name=SPL3SMP_E&version=006",
       "api_verification_state": "documented_metadata_sample_success_data_login_required_untested",
-      "latest_checked_utc": "2026-10-17T21:44:27.621375+00:00",
+      "latest_checked_utc": "2026-10-18T00:35:20.636770+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -13735,6 +13735,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eur-data-repository",
+      "provider": "Erasmus University Rotterdam",
+      "service_name": "EUR Data Repository institutional collection",
+      "geographic_coverage": "EURinstitutionalresearch; exactsourcegeography varies",
+      "topical_coverage": "research",
+      "dataset_families": "Institutionalresearch data/code/metadata; exactdisciplinary andsourcefamiliesunverified",
+      "documentation_url": "https://www.eur.nl/en/library/research-support/eur-data-repository | https://www.eur.nl/en/library/research-support/eur-data-repository/choose-license",
+      "api_base_url": "",
+      "format_protocol": "DataverseNLinstitutionalcollectionlinked; frameworkAPI notdeploymentproof",
+      "authentication": "Publicoperatorpages; originalrepositoryaccessheld, protectedstaffMyEURnotentered",
+      "free_access_restrictions": "Deposit-specificlicences andaccessconditions; libraryreview notblanketopenlicence",
+      "license": "unknown exactmetadata/sourcegrant; chooserdescribesCC0defaultandCCalternatives",
+      "license_url": "https://www.eur.nl/en/library/research-support/eur-data-repository/choose-license",
+      "api_verification_state": "Nativeoperator/chooser/termsHTMLloaded; originalrepositoryrootguarddeferred; no machineAPI response",
+      "latest_checked_utc": "2026-10-18T00:35:20.636770+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "european-history-online",
       "provider": "Leibniz Institute of European History / Trier Center for Digital Humanities",
       "service_name": "EGO European History Online",
@@ -14362,6 +14380,24 @@
       "license_url": "https://data.gov.gr/pages/terms-of-use",
       "api_verification_state": "current_official_CKAN_API_documentation_verified_sample_policy_held_runtime_untested",
       "latest_checked_utc": "2026-10-17T08:24:31.379065+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "griffith-research-data-repository",
+      "provider": "Griffith University",
+      "service_name": "Griffith Research Online research data repository",
+      "geographic_coverage": "Australia-operatedinstitutionalresearch; exactsourcegeographyvaries",
+      "topical_coverage": "research",
+      "dataset_families": "Researchdataset/publication/thesis andnontraditionaloutputmetadata; exactdatasetfamiliesunreviewed",
+      "documentation_url": "https://www.griffith.edu.au/library/research-publishing/working-with-data/share-and-archive | https://www.griffith.edu.au/library/research-publishing/repository",
+      "api_base_url": "",
+      "format_protocol": "DSpacebrowser shell; officialcurrentREST/OAIendpointunverified",
+      "authentication": "Open/mediated/restrictedsharingoptions documented; exactanonymousAPIconditionsunknown",
+      "free_access_restrictions": "Per-datasetlicenceselection/permissions; openaccessandfunderrequirements notuniversalreusegrant",
+      "license": "unknown exactmetadata/sourcegrant",
+      "license_url": "",
+      "api_verification_state": "OriginalhandleHTTP200DSpaceJSshell; originallibrarypolicyguard-deferred; no nativeAPI response",
+      "latest_checked_utc": "2026-10-18T00:35:20.636770+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
