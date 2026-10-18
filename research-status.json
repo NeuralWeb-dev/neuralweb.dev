@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T03:55:47.059792+00:00",
+  "published_at": "2026-10-18T03:57:49.667077+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:55:41.048041+00:00",
+  "research_updated_at": "2026-10-18T03:57:27.351024+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DOEDataExplorer nativeJSONsample and ILCrepositoryHALcapabilities verified, exactgrantsunresolved; NPDBconditional/source credentialingrestrictions documented.",
+  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
   "counts": {
     "verified": 351,
     "candidates": 788,
@@ -309,6 +309,7 @@
           "fulir-data-metadata",
           "hgnc-gene-nomenclature-rest",
           "intact-imex-psicquic",
+          "interpro-api",
           "lipidmaps-rest-sparql",
           "neuromorpho",
           "nih-mesh",
@@ -343,6 +344,7 @@
           "citf-controlled-databank",
           "ghdx-ihme-discovery",
           "ipd-immunopolymorphism-api",
+          "jgi-gold-api",
           "openaq",
           "phi-base-api",
           "who",
@@ -562,6 +564,7 @@
           "hgnc-gene-nomenclature-rest",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
+          "interpro-api",
           "itis-taxonomic-web-services",
           "lipidmaps-rest-sparql",
           "obis",
@@ -602,6 +605,7 @@
           "indexs-exsiccatae-api",
           "ipd-immunopolymorphism-api",
           "iucn-red-list-api-v4",
+          "jgi-gold-api",
           "ndsf-data-access-portal",
           "phi-base-api",
           "senckenberg-research-metadata-portal",
@@ -796,6 +800,7 @@
           "hgnc-gene-nomenclature-rest",
           "igb-fred-metadata-interface",
           "intact-imex-psicquic",
+          "interpro-api",
           "itis-taxonomic-web-services",
           "kitopen-bibliographic-oai",
           "lipidmaps-rest-sparql",
@@ -963,6 +968,7 @@
           "ipd-immunopolymorphism-api",
           "isgi-geomagnetic-indices-webservice",
           "iucn-red-list-api-v4",
+          "jgi-gold-api",
           "mgds-seismic-catalog",
           "ndsf-data-access-portal",
           "oceanrep-oai-metadata",
@@ -1011,6 +1017,7 @@
           "berman-jewish-databank",
           "calhhs-open-data",
           "colorado-information-marketplace",
+          "ipums-microdata-extract-api",
           "ipums-nhgis-api"
         ]
       },
@@ -1051,7 +1058,9 @@
           "washington-state-open-data"
         ],
         "restricted_provider_ids": [
-          "hawaii-open-data-catalogue"
+          "hawaii-open-data-catalogue",
+          "ipums-microdata-extract-api",
+          "npdb-credentialing-data-services"
         ]
       },
       "agriculture": {
@@ -1253,6 +1262,8 @@
           "citf-controlled-databank",
           "colorado-information-marketplace",
           "hawaii-open-data-catalogue",
+          "ipums-microdata-extract-api",
+          "npdb-credentialing-data-services",
           "polar-data-catalogue-metadata-api",
           "srtr-controlled-research-data"
         ]
@@ -1282,6 +1293,7 @@
           "calgary-prism-scholaris-repository",
           "colorado-information-marketplace",
           "hawaii-open-data-catalogue",
+          "ipums-microdata-extract-api",
           "nces-restricted-use-data"
         ]
       },
@@ -1659,9 +1671,11 @@
           "berman-jewish-databank",
           "calgary-prism-scholaris-repository",
           "citf-controlled-databank",
+          "ipums-microdata-extract-api",
           "ipums-nhgis-api",
           "nces-restricted-use-data",
           "nova-scotia-offshore-data-centre",
+          "npdb-credentialing-data-services",
           "polar-data-catalogue-metadata-api",
           "srtr-controlled-research-data"
         ]
@@ -8256,7 +8270,7 @@
       "license": "CC0 1.0 Universal Public Domain Dedication",
       "license_url": "https://interpro-documentation.readthedocs.io/en/latest/license.html",
       "api_verification_state": "Official specific licence/API guides HTTP200 and anonymous native entry sample HTTP200 validJSON with one result and cursor",
-      "latest_checked_utc": "2026-10-18T03:49:29.275319+00:00",
+      "latest_checked_utc": "2026-10-18T03:56:00.640473+00:00",
       "classification": "open_license_verified"
     },
     {
