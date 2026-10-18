@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:09:11.578453+00:00",
+  "published_at": "2026-10-18T13:11:14.740291+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:04:40.655525+00:00",
+  "research_updated_at": "2026-10-18T13:11:14.159598+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IRSApublicterms/TAPverified;IDEALSmetadata-not-open;HydroShareheld/HISWSDLtimeout;MITstaffCC0/HAL8.2;USMHAL7.4/rightsunknown;RadboudpublicmetadataCC0/APIunknown;FAIRDOMmetadataBY4;WegenerreleasedBY4;GeoSpherepurposeconditions/quotas;MDZ498000refs incomplete.",
+  "latest_milestone": "HEASARC/TROLLing deduplicated with holds; BfG native REST directory verified and noncommercial portal terms recorded; supplemental references unresolved",
   "counts": {
     "verified": 412,
     "candidates": 1048,
-    "excluded": 308,
+    "excluded": 309,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -7574,8 +7574,8 @@
       "service_name": "DataverseNO CC0 public metadata OAI-PMH",
       "geographic_coverage": "Norwegian institutional research and international study subjects",
       "topical_coverage": "research | education",
-      "dataset_families": "National multidisciplinary research metadata and institutional collections; per-dataset source licences and access states separate",
-      "documentation_url": "https://dataverseno.github.io/DataverseNO-Info/about/why-use-dataverseno/",
+      "dataset_families": "National multidisciplinary research metadata and institutional collections; per-dataset source licences and access states separate; TROLLing language/linguistics data and statistical-code special collection",
+      "documentation_url": "https://dataverseno.github.io/DataverseNO-Info/about/why-use-dataverseno/ | https://site.uit.no/trolling/about/",
       "api_base_url": "https://dataverse.no/oai",
       "format_protocol": "OAI-PMH expressly documented; general Dataverse REST/SWORD not deployment-tested",
       "authentication": "Owner metadata harvesting public; Identify guard-deferred, no keys/login/account used",
@@ -7583,7 +7583,7 @@
       "license": "CC0 for all metadata per native owner documentation",
       "license_url": "https://dataverseno.github.io/DataverseNO-Info/about/why-use-dataverseno/",
       "api_verification_state": "Native repository root and owner documentation200HTML; exact Identify guard-deferred unsent under robots guard, not valid API XML/sample",
-      "latest_checked_utc": "2026-10-18T12:16:40.330321+00:00",
+      "latest_checked_utc": "2026-10-18T13:10:22.127785+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -22903,7 +22903,7 @@
       "license": "Mixed/unconfirmed;general free-use wording not a uniform open licence;XMM-Newton explicitly noncommercial",
       "license_url": "https://heasarc.gsfc.nasa.gov/docs/heasarc/data_policy.html",
       "api_verification_state": "documented_api_sample_policy_deferred",
-      "latest_checked_utc": "2026-10-16T19:02:16.435130+00:00",
+      "latest_checked_utc": "2026-10-18T13:10:22.127785+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32734,6 +32734,24 @@
       "license_url": "https://www.jewishdatabank.org/databank/about/terms-of-use.html",
       "api_verification_state": "Native homepage/terms/operating-policy URLs HTTP200 identical HTML shells with no substantive visible text; no query API verified",
       "latest_checked_utc": "2026-10-18T01:30:22.375899+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bfg-ggina-geoportal-services",
+      "provider": "German Federal Institute of Hydrology (BfG)",
+      "service_name": "GGInA geoportal and ArcGIS service directories",
+      "geographic_coverage": "German waterways and river basins, European water directives, international hydrological partner services; per-service coverage varies",
+      "topical_coverage": "water | environment | geospatial | research",
+      "dataset_families": "Hydrological/ecological geodata, river basins, water-framework and flood management services; returned folder/service references only",
+      "documentation_url": "https://geoportal.bafg.de/ggina-portal/ | https://geoportal.bafg.de/dokumente/ggina/Benutzerhandbuch.pdf",
+      "api_base_url": "https://geoportal.bafg.de/arcgis/rest/services | https://geoportal.bafg.de/arcgis3/rest/services/OpenData",
+      "format_protocol": "ArcGIS REST directory JSON verified; owner-hosted manual describes CSW2.0.2/ISO profiles, exact current CSW backend unverified",
+      "authentication": "Anonymous directory GET200 validJSON; no credentials used; authenticated portal functions and backend sources not tested",
+      "free_access_restrictions": "Portal material noncommercial reuse with attribution unless other terms apply; commercial use requires prior written consent. Individual services/partner data may have other grants.",
+      "license": "Portal default: noncommercial reproduction/use with attribution, subject to exceptions; service source rights unresolved",
+      "license_url": "https://geoportal.bafg.de/ggina-portal/html/Impressum_Haftungsausschluss.html",
+      "api_verification_state": "Native portal/terms/manual200; two ArcGIS11.4 directory GETs200 validJSON, no error envelope; HTML portal itself not counted API runtime.",
+      "latest_checked_utc": "2026-10-18T13:10:22.127785+00:00",
       "classification": "restricted"
     },
     {
