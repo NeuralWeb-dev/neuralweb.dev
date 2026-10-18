@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:22:59.646953+00:00",
+  "published_at": "2026-10-18T14:25:03.099737+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:22:41.983275+00:00",
+  "research_updated_at": "2026-10-18T14:24:49.279780+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to626pages/626000refs;2587503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "swMATH indexedintegration/nativeheld; LDbase indexedPublicAPI/optionallicenses/nativeheld; MorphoSource nativeembeddedOpenAPI18paths/mixedagreements/rawheld",
   "counts": {
     "verified": 428,
-    "candidates": 1076,
+    "candidates": 1079,
     "excluded": 319,
     "sample_successes": 464
   },
@@ -22198,6 +22198,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ldbase-repository",
+      "provider": "Florida State University / LDbase",
+      "service_name": "LDbase learning and developmental research repository",
+      "geographic_coverage": "Learning/developmental research, international study submissions; exact geography unqueried",
+      "topical_coverage": "education | health | research",
+      "dataset_families": "Learning/development research project metadata and data products, public/embargoed/restricted variants",
+      "documentation_url": "https://ldbase.org/about/terms-of-service | https://ldbase.org/data-sharing-resources/best-practices/license-types",
+      "api_base_url": "",
+      "format_protocol": "Indexed owner terms mention Public API access/search; actual API contract/schema/base unknown",
+      "authentication": "Exact APIauthunknown; no accounts/accessrequests",
+      "free_access_restrictions": "Public versus restricted/embargoed content differentiated in owner terms; actual API/free-tier eligibility unknown",
+      "license": "Custom use terms and optional per-content licenses; uniform open metadata grant unconfirmed",
+      "license_url": "https://ldbase.org/about/terms-of-service | https://ldbase.org/data-sharing-resources/best-practices/license-types",
+      "api_verification_state": "Native terms guarddeferredtargetunsent, native licenseguideunsentafterhosthold. Indexedownerterms/APIexistence only, noJSON/schemaresponse.",
+      "latest_checked_utc": "2026-10-18T14:24:43.730401+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "leipzig-wortschatz-api",
       "provider": "Leipzig Corpora Collection / Wortschatz; registry association with SAW repository",
       "service_name": "Wortschatz web-service API discovery lead",
@@ -23257,6 +23275,24 @@
       "license_url": "https://phoenixbioinformatics.atlassian.net/wiki/spaces/MD/pages/42226561/FAQ",
       "api_verification_state": "Native morphobankroot guard-deferred/unsent; independent ownerFAQ200read confirms publicAPI HTTPGET forpublishedresources. No native API/data/alternatehost/backend after hold.",
       "latest_checked_utc": "2026-10-18T09:10:08.856964+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "morphosource-rest-api",
+      "provider": "Duke University / MorphoSource",
+      "service_name": "MorphoSource REST API",
+      "geographic_coverage": "International museum/research physical-object media; exact institution/specimen geographic corpus unqueried",
+      "topical_coverage": "culture | biodiversity | research",
+      "dataset_families": "Media, physical objects, organizations, projects/teams and related metadata; no image/specimen records queried",
+      "documentation_url": "https://github.com/MorphoSource/morphosource-api | https://github.com/MorphoSource/morphosource-api/blob/master/MorphoSource-REST-API.yaml",
+      "api_base_url": "https://www.morphosource.org/api/",
+      "format_protocol": "REST OpenAPI3.1.0 contract parsed from ownerrepoHTMLembeddedYAML; not rawendpoint/APIresponse",
+      "authentication": "Per-operation current authentication/authorization untested; restricted/project management/download operations not requested",
+      "free_access_restrictions": "Usage agreements and contributor-configurable access/reuse conditions; source operations may require authorization. Numeric quotas unknown.",
+      "license": "Mixed per-record copyright/license and mandatory configurable usage agreements; metadata-wide grant unknown",
+      "license_url": "https://duke.atlassian.net/wiki/spaces/MD/pages/35422298/MorphoSource%2BDownload%2BUse%2BAgreement",
+      "api_verification_state": "Native ownerrepo andDukewiki200HTML. EmbeddedpublishedOpenAPI3.1.0 parsed with18paths/18operationrefs; linkedrawdownloadguarddeferredtargetunsent. No actualJSON/sourceAPIresponse.",
+      "latest_checked_utc": "2026-10-18T14:24:43.730401+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29197,6 +29233,24 @@
       "license_url": "https://info.swissubase.ch/resources/?sr=2529+%7C+https%3A%2F%2Finfo.swissubase.ch%2Fresources%2F%3Fsr%3D5536",
       "api_verification_state": "actual_OAI_Identify_XML_success_provider_specific_docs_verified_metadata_reuse_unconfirmed",
       "latest_checked_utc": "2026-10-17T16:08:03.016062+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "swmath-mathematical-software",
+      "provider": "FIZ Karlsruhe / Zuse Institute Berlin / zbMATH Open",
+      "service_name": "swMATH mathematical software discovery",
+      "geographic_coverage": "International mathematical software discovery and citation metadata; exact current corpus unqueried",
+      "topical_coverage": "research | education",
+      "dataset_families": "Mathematical software descriptions/citations integrated into zbMATH Open; underlying software/code licenses separate",
+      "documentation_url": "https://github.com/MaRDI4NFDI/python-zbMathRest2Oai | https://www.mathunion.org/imu-news/archive/2024/imu-news-125-may-2024",
+      "api_base_url": "https://api.zbmath.org (indexed primary connector reference; current software operation contract untested)",
+      "format_protocol": "Indexed primary project connector describes REST/metadata and OAI export; no current swMATH machine response",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verified current software-metadata grant",
+      "license_url": "https://zbmath.org/terms-conditions/",
+      "api_verification_state": "Native swmathroot/zbmathterms guarddeferredtargetunsent. Indexed project/institutionaldocs indicateintegration/APIpotential, exactsoftwareoperation/runtime/schemaunverified.",
+      "latest_checked_utc": "2026-10-18T14:24:43.730401+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
