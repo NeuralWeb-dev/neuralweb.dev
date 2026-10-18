@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:51:18.979142+00:00",
+  "published_at": "2026-10-18T20:53:22.160823+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:49:21.477544+00:00",
+  "research_updated_at": "2026-10-18T20:53:02.745268+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original reviews: TopDown API gap, AlgaeBase personalNC/noextraction, UMN controlled clinical access, Reading OAI advertised/held, GDC safe statusJSON, Wilson unofficial-client correction.",
+  "latest_milestone": "LabKeycontext/APIgrantgap; ImmunomeopaqueHTML/currentAPIunknown; USILchallenge/historicalNCpolicy.",
   "counts": {
     "verified": 459,
-    "candidates": 1355,
-    "excluded": 394,
+    "candidates": 1357,
+    "excluded": 395,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -17421,6 +17421,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "cancer-immunome-atlas",
+      "provider": "Institute of Bioinformatics / Innsbruck Medical University",
+      "service_name": "The Cancer Immunome Atlas",
+      "geographic_coverage": "Pan-cancer immunogenomic study resources, institutional Austria; exact cohortcoverage untested",
+      "topical_coverage": "health | research",
+      "dataset_families": "Immune gene-set/infiltrate/antigen/HLA/heterogeneity resource descriptions; no clinical/genomic observations acquired",
+      "documentation_url": "https://tcia.at/about",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown current source/database/metadata grant; registryCCBYclaim unverified",
+      "license_url": "https://tcia.at/about",
+      "api_verification_state": "Originalhome/aboutHTTP200 HTML with no readablebodytext/emptytitle underboundedparser; not API response or readablelegalproof. Indexednativeabout preservedhistoricaldescription, currentexactAPI/runtimeunknown.",
+      "latest_checked_utc": "2026-10-18T20:52:58.030102+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "candida-genome-database-api",
       "provider": "Candida Genome Database",
       "service_name": "Candida Genome Database REST candidate",
@@ -25608,6 +25626,24 @@
       "license_url": "https://opendata.agglo-larochelle.fr/la-demarche?article=licences-et-conditions-d-utilisation",
       "api_verification_state": "official_API_reference_documented_account_subscription_required_untested",
       "latest_checked_utc": "2026-10-17T12:48:29.566224+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "labkey-open-research-portal",
+      "provider": "LabKey / participating research groups",
+      "service_name": "LabKey Open Research Portal",
+      "geographic_coverage": "International collaborating biomedical studies; project-specific coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Shared research study descriptions, includingCOVID-19 animal/humanresearch; no actualclinical/moleculardata",
+      "documentation_url": "https://www.labkey.com/labkey-open-research-portal-for-covid-19-research-studies/ | https://www.labkey.org/Documentation/wiki-page.view?name=viewApis",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "VendorplatformAPIs runwithuser/contextsecurity; instanceanonymous/APIkeypermissions unverified. No login/key/account used.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown source/metadata/data reusegrant; registryPublicDomain unverified",
+      "license_url": "https://openresearch.labkey.com/project/home/begin.view",
+      "api_verification_state": "Originalportalrootrobots-deferredunsent. IndependentvendoroverviewHTTP200 confirmsprojectcollaboration. IndexedvendorAPIdocs explainuser-contextpermissions, notcurrentinstancepublicAPIcontract/sample.",
+      "latest_checked_utc": "2026-10-18T20:52:58.030102+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -46040,6 +46076,24 @@
       "license_url": "https://www.usap-dc.org/terms_of_use",
       "api_verification_state": "Native legal/terms/Swagger HTTP200; documented collection_uid-filteredGET HTTP200validJSONonecollection with5metadatafields. No person/study-source records or files.",
       "latest_checked_utc": "2026-10-18T02:15:18.295203+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "usil-institutional-repository",
+      "provider": "Universidad San Ignacio de Loyola",
+      "service_name": "Repositorio Institucional USIL",
+      "geographic_coverage": "Peruvian university research outputs; individual research scope varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional academic output metadata; sources notqueried",
+      "documentation_url": "https://repositorio.usil.edu.pe/home",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Published2016institutionalpolicy: metadataNC, contentsCCBYNCND4; currentrevisionunresolved",
+      "license_url": "https://repositorio.usil.edu.pe/assets/custom/files/DB-VIN-010-Directiva-Repositorio-Institucional-Usil-oct2016.pdf",
+      "api_verification_state": "OriginalrootHTTP200 bot/proof-of-workchallenge, not repositorycontent/API success. No challengeexecution/reload orserver/OAI/backend/alternatepathrequest. HistoricalpolicyOAIreference notcurrentendpointproof.",
+      "latest_checked_utc": "2026-10-18T20:52:58.030102+00:00",
       "classification": "restricted"
     },
     {
