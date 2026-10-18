@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:10:21.471294+00:00",
+  "published_at": "2026-10-18T07:12:24.343136+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:04:35.910197+00:00",
+  "research_updated_at": "2026-10-18T07:11:49.464803+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals: Researchdata/KI public DORIS metadataCC0 and USA-NPN BY4/dictionary verified; UniProt dedup/SPARQL hold, Proteins57schema operations, IDD restrictions and source holds retained.",
+  "latest_milestone": "Two independent primary leads reviewed: Plate Mark CC0 metadata/full dossier and FAIR Forward CC0/index JSON verified with narrow scope/source/contact exclusions.",
   "counts": {
-    "verified": 372,
-    "candidates": 900,
+    "verified": 374,
+    "candidates": 903,
     "excluded": 266,
     "sample_successes": 465
   },
@@ -7812,6 +7812,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "fair-forward-metadata-api",
+      "provider": "FAIR Forward Data Catalog (self-described GIZ project)",
+      "service_name": "FAIR Forward static catalogue metadata API",
+      "geographic_coverage": "AI/development project catalogue with international country/region references; individual project geography varies",
+      "topical_coverage": "research | education | agriculture | geospatial",
+      "dataset_families": "Catalogue metadata of AI/data projects; advertised views all projects89/dataset-bearing72/usecase-bearing38, overlapping project classifications not dataset inventory",
+      "documentation_url": "https://fair-forward.github.io/datasets/api/",
+      "api_base_url": "https://fair-forward.github.io/datasets/api/v1/",
+      "format_protocol": "Native static JSON index and advertised catalogue views; actual project records not fetched",
+      "authentication": "Anonymous index GET succeeds; native docs say no key/signup",
+      "free_access_restrictions": "Catalogue metadata CC0; linked assets independently licensed and unknown licences stay unknown. Contact fields not collected/republished.",
+      "license": "CC0-1.0, catalogue metadata excluding contact collection/republication and underlying assets",
+      "license_url": "https://fair-forward.github.io/datasets/api/",
+      "api_verification_state": "Native docs200; anonymous index200 valid untruncated JSON api_version1.0/versionc5b555cd35188c2e, metadataCC0 repeated. Three declared views indexed, no project/content/contact/source records fetched.",
+      "latest_checked_utc": "2026-10-18T07:11:35.909429+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "fairsharing-registry-api",
       "provider": "FAIRsharing / University of Oxford Data Readiness Group",
       "service_name": "FAIRsharing registry JSON and record APIs",
@@ -10437,6 +10455,24 @@
       "license_url": "https://www.dati.piemonte.it/js/chunk-806e9c88.74b1ea4c.js | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "documented_frontend_native_JSON_summary_and_metadata_search_sample_success",
       "latest_checked_utc": "2026-10-17T12:17:15.435650+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "platemark-public-dossier-api",
+      "provider": "The Plate Mark project",
+      "service_name": "The Plate Mark public cultural dossier API",
+      "geographic_coverage": "One Rembrandt1638 self-portrait work/dossier with international impression references; not a global art catalogue",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "One public object dossier with claims/evidence, impression census, research questions, provenance, bibliography, states/glossary/comparators",
+      "documentation_url": "https://theplatemark.com/api-docs",
+      "api_base_url": "https://theplatemark.com/api/v1",
+      "format_protocol": "Native read-only JSON dataset; JSON-LD/CSV/BibTeX/IIIF interfaces documented, not fetched",
+      "authentication": "Anonymous whole public dossier GET succeeds; owner says no key/signup",
+      "free_access_restrictions": "Native metadata explicitly CC0 and public API no key/payment; private evidence/media rights separate",
+      "license": "CC0-1.0, public metadata only",
+      "license_url": "https://theplatemark.com/api-docs | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "Native API docs200; whole public dataset GET200 valid untruncated JSON version0.9/released12August2026, @typeDataset. No external/private source or media retrieved.",
+      "latest_checked_utc": "2026-10-18T07:11:35.909429+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16091,6 +16127,24 @@
       "license_url": "https://docs.earthscope.org/sponsored-open-data/ | https://fdsn.org/networks/",
       "api_verification_state": "official_anonymous_object_interface_documented_native_untested_exact_network_grants_unconfirmed",
       "latest_checked_utc": "2026-10-17T20:36:31.604990+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "easydata-earth-repository",
+      "provider": "EaSy Data research-data repository (France)",
+      "service_name": "EaSy Data CSW catalogue service",
+      "geographic_coverage": "Earth sciences/environment research catalogue, France/international source scopes",
+      "topical_coverage": "climate/weather/environment | geospatial | water | research",
+      "dataset_families": "Earth-science/environment research descriptions and CSW service operations; source datasets not enumerated",
+      "documentation_url": "https://easydatarepository.github.io/API/",
+      "api_base_url": "https://www.easydata.earth/api/csw",
+      "format_protocol": "Native OGC CSW2.0.2 capabilities and GetRecordsResponse XML",
+      "authentication": "Anonymous capabilities/hits requests succeed without account/key",
+      "free_access_restrictions": "Small metadata requests no payment; full source access/fees/quotas unknown",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root/API documentation200; capabilities200 valid CSW2.0.2 XML with7operation declarations. Hits request200 GetRecordsResponse:253matched, returned attribute10, actual record elements0. Not10actual summaries.",
+      "latest_checked_utc": "2026-10-18T07:10:18.755312+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -25166,6 +25220,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tdar-archaeology-repository",
+      "provider": "Center for Digital Antiquity / Arizona State University",
+      "service_name": "tDAR archaeology repository and metadata APIs",
+      "geographic_coverage": "International archaeological research resources; exact current source coverage unenumerated",
+      "topical_coverage": "culture | research | geospatial",
+      "dataset_families": "Archaeology metadata, documents, datasets and cultural resources with confidentiality/file-specific conditions",
+      "documentation_url": "https://tdar-arch.atlassian.net/wiki/spaces/DEV/pages/721114/API+docs+updated",
+      "api_base_url": "http://oai.tdar.org/oai-pmh/oai",
+      "format_protocol": "Native OAI-PMH2 XML Identify; OpenSearch/REST/LOD documented, not queried",
+      "authentication": "Anonymous Identify succeeds, no key/account. Restricted resource/file access not attempted.",
+      "free_access_restrictions": "Metadata protocol GET no payment; upload/storage fees and source access restrictions separate, no purchase/deposit attempted",
+      "license": "Native metadata-unrestricted claim; default file BY3/BY4 policy difference and additional use condition unresolved",
+      "license_url": "https://www.tdar.org/about/policies/terms-of-use/ | https://www.tdar.org/about/policies/contributors-agreement/",
+      "api_verification_state": "Native root/policies/developer docs200. First documented core-host Identify404; second explicitly published oai.tdar.org alias returned200 valid namespace-correct OAI2 Identify without errors. Not a fallback after an access denial.",
+      "latest_checked_utc": "2026-10-18T07:10:18.755312+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "te-papa",
       "provider": "Museum of New Zealand Te Papa Tongarewa",
       "service_name": "Museum of New Zealand Te Papa Tongarewa public metadata API",
@@ -26099,6 +26171,24 @@
       "license_url": "https://www.unhcr.org/terms-and-conditions",
       "api_verification_state": "documented_reference_metadata_sample_success_legacy_rights_review_pending",
       "latest_checked_utc": "2026-10-16T19:19:51.727229+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unidata-hosted-thredds",
+      "provider": "NSF Unidata / UCAR",
+      "service_name": "Unidata-hosted THREDDS Data Server",
+      "geographic_coverage": "Earth-system data service; actual hosted collection scope unverified",
+      "topical_coverage": "climate/weather/environment | water | geospatial | research",
+      "dataset_families": "Owner-documented hosted real-time/archive TDS; no current catalogue retrieved",
+      "documentation_url": "https://docs.unidata.ucar.edu/tds/current/userguide/index.html",
+      "api_base_url": "https://thredds.ucar.edu/thredds/",
+      "format_protocol": "Owner TDS guide documents XML catalogues/OPeNDAP/NetCDF subsets; hosted catalogue request held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.unidata.ucar.edu/data/guidelines-data-use",
+      "api_verification_state": "Native software guide200. Exact owner-linked hosted XML catalogue guard-deferred unsent, no actual service catalogue/API response",
+      "latest_checked_utc": "2026-10-18T07:10:18.755312+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
