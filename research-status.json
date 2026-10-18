@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T15:32:52.426044+00:00",
+  "published_at": "2026-10-18T15:34:55.441457+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:32:46.991906+00:00",
+  "research_updated_at": "2026-10-18T15:34:47.601019+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: KiltHub/Penn/UvA guards/nativeowner rightsunknown; ZivaHub nativepersonalNC; MarineDataExchange native redistributionrestricted; Ningaloo mixedrights/guide404; MDZ765000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to778pages/778000refs;2435503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 432,
-    "candidates": 1119,
-    "excluded": 330,
+    "candidates": 1123,
+    "excluded": 332,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -23377,8 +23377,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across765successfulpages/765000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T15:29:48.011071+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across778successfulpages/778000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T15:34:42.012952+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23793,6 +23793,24 @@
       "license_url": "https://monarch-app.monarchinitiative.org/Licensing/ | https://monarch-app.monarchinitiative.org/Sources/ | https://monarchinitiative.org/kg/terms",
       "api_verification_state": "Nativewebsite/terms200JSshells, notsubstantiveterms/APIresponses. NativecurrentKGdocs/licensing/source/productionconfig200HTML; exactconfiguredAPIbase404, noJSONsample/schema. NoalternateAPI/version/host/backendroute after404.",
       "latest_checked_utc": "2026-10-18T13:44:08.529306+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "monash-bridges",
+      "provider": "Monash University",
+      "service_name": "Monash Bridges institutional Figshare repository",
+      "geographic_coverage": "Australianinstitutionalresearch; actualdatasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalresearchdata/nontraditionaloutputs/thesesmetadata; filesindividuallylicensed",
+      "documentation_url": "https://www.monash.edu/library/researchers/open-scholarship/meet-funder-requirements",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution21/portal21 registryfilterunverified)",
+      "format_protocol": "Registry sharedFigshare REST/OAI claims; currentportalpayload/schemaunverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown institution-wide metadata grant; selected licenses/access",
+      "license_url": "https://www.monash.edu/library/researchers/open-scholarship/meet-funder-requirements",
+      "api_verification_state": "Nativeportal/ownerpageguarddeferredunsent; indexedofficiallibraryidentity/licensingguidance reviewed, no successfulAPI/termsresponse.",
+      "latest_checked_utc": "2026-10-18T15:33:11.966471+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -29358,6 +29376,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "sheffield-orda",
+      "provider": "University of Sheffield",
+      "service_name": "ORDA research data repository",
+      "geographic_coverage": "UK institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalresearchdatasets/outputs andassociatedmetadata; exactinventoryunreviewed",
+      "documentation_url": "https://sheffield.ac.uk/library/research-data-management/orda",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution54/portal54 historicalregistryfilterunverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaims; currentportal-specificpayload/schemaunverified",
+      "authentication": "No credentialsused; currentpublicreadAPIauthunresolved",
+      "free_access_restrictions": "Selectedlicenses/access/embargo; sourceinventoryunreviewed",
+      "license": "Unknown blanketmetadata grant; selectedperitemlicenses/access",
+      "license_url": "https://sheffield.ac.uk/library/research-data-management/orda",
+      "api_verification_state": "Originalportal guard-deferredunsent. Native library200 identifiesFigshare-basedORDA/DOIs/metadata-onlyrecords andallowsrestrict/embargo. No blanketmetadata grant.",
+      "latest_checked_utc": "2026-10-18T15:34:32.936709+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "shom-data",
       "provider": "Shom / French hydrographic and oceanographic service",
       "service_name": "data.shom.fr INSPIRE geospatial services",
@@ -29517,6 +29553,24 @@
       "license_url": "https://www.si.edu/openaccess/faq",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T17:30:21.627680+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "smithsonian-institutional-figshare",
+      "provider": "Smithsonian Institution",
+      "service_name": "Smithsonian institutional Figshare Research Data",
+      "geographic_coverage": "US institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalresearchdatasets/outputs andassociatedmetadata; exactinventoryunreviewed",
+      "documentation_url": "https://confluence.si.edu/spaces/FFI/pages/72879451/Metadata%2Brequirements",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution657/portal657 historicalregistryfilterunverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaims; currentportal-specificpayload/schemaunverified",
+      "authentication": "No credentialsused; currentpublicreadAPIauthunresolved",
+      "free_access_restrictions": "Selectedlicenses/access/embargo; sourceinventoryunreviewed",
+      "license": "Unknown blanketmetadata grant; selectedperitemlicenses/access",
+      "license_url": "https://confluence.si.edu/spaces/FFI/pages/72879451/Metadata%2Brequirements",
+      "api_verification_state": "Originalportal guard-deferredunsent. Nativeguide403; indexedownerdefaultCCBY/CC0/Apachechoices notrepository-widegrant. SmithsonianOpenAccesscollectionsCC0 notautomaticallytransferredtoallFigshareresearchdata.",
+      "latest_checked_utc": "2026-10-18T15:34:32.936709+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31767,6 +31821,24 @@
       "license_url": "https://lib.usm.my/academicians-researchers/open-science?view=article&id=126&catid=28",
       "api_verification_state": "Native portal/libraryguide200HTML; anonymous /server/api200validHALJSON withDSpace7.4, no error. UI error.top-level-communites is not proof emptyrepository.",
       "latest_checked_utc": "2026-10-18T12:50:54.221868+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usn-research-data-archive",
+      "provider": "University of South-Eastern Norway",
+      "service_name": "USN Research Data Archive / current DataverseNO collection",
+      "geographic_coverage": "Norway institutionalresearch; datasetgeographyvaries",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutionalresearchdatasets/outputs andassociatedmetadata; exactinventoryunreviewed",
+      "documentation_url": "https://www.usn.no/english/about/it-services/storage-guides/storage-guide-employees",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; institution239/portal239 historicalregistryfilterunverified)",
+      "format_protocol": "RegistrysharedFigshareREST/OAIclaims; currentportal-specificpayload/schemaunverified",
+      "authentication": "No credentialsused; currentpublicreadAPIauthunresolved",
+      "free_access_restrictions": "Selectedlicenses/access/embargo; sourceinventoryunreviewed",
+      "license": "Unknown blanketmetadata grant; selectedperitemlicenses/access",
+      "license_url": "https://www.usn.no/english/about/it-services/storage-guides/storage-guide-employees",
+      "api_verification_state": "Originalportal guard-deferredunsent. Native storageguide200 stillnamesFigshare. Indexed currentDataverseNOcollectionsomeexplicitmigratedrecords/mixedrights, notprooffullmigration/closure; currentDataverseNOservice/grantsseparateunreviewed here.",
+      "latest_checked_utc": "2026-10-18T15:34:32.936709+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34400,6 +34472,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "atcc-genome-data-access",
+      "provider": "American Type Culture Collection",
+      "service_name": "ATCC Genome Portal data access and secure REST API",
+      "geographic_coverage": "International biological reference resources; exactdatasetcoveragevaries",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Authenticatedgenomic/omics reference data andassociatedmetadata; sourcevalues notqueried",
+      "documentation_url": "https://www.atcc.org/applications/reference-quality-data/discover-the-atcc-genome-portal",
+      "api_base_url": "",
+      "format_protocol": "SecureREST documented; wire/schema/payload untested",
+      "authentication": "Owner documents agreement forprogrammaticaccess, secureREST outsidefreebrowsingtier; no credentialsused",
+      "free_access_restrictions": "Free top-levelbrowsing differsfrommembershipAPI; commerciallicense separate",
+      "license": "Non-commercial research only; non-transferable/non-sublicensable revocable grant",
+      "license_url": "https://www.atcc.org/policies/product-use-policies/data-use-agreement",
+      "api_verification_state": "Native datauseagreement/APIaccessdocs/MTA200HTML; APIexistsdocumented, no actualAPI/schema/sourcepayload.",
+      "latest_checked_utc": "2026-10-18T15:33:11.966471+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "atlantic-canada-conservation-data-centre",
       "provider": "Atlantic Canada Conservation Data Centre",
       "service_name": "Atlantic Canada conservation database and data-request service",
@@ -34523,6 +34613,24 @@
       "license_url": "https://data.brla.gov/terms-of-service",
       "api_verification_state": "actual_bounded_JSON_sample_success_restricted",
       "latest_checked_utc": "2026-10-17T06:03:50.466639+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "benchsci-platform",
+      "provider": "BenchSci",
+      "service_name": "BenchSci research platform",
+      "geographic_coverage": "International biomedicalresearchplatform; nativeexactdatasetcoverageunverified",
+      "topical_coverage": "research | health",
+      "dataset_families": "Researchintelligence/experimentalplanningplatform; sourceinventorynotenumerated",
+      "documentation_url": "https://www.benchsci.com/legal/terms-of-service",
+      "api_base_url": "",
+      "format_protocol": "Native platform/termsHTML, no publicAPI/schema established",
+      "authentication": "Registration/order/web-enrollmentlimitedaccess; no credentialsused",
+      "free_access_restrictions": "Applicableplanfees andcontractualterms; free/limitedaccess notopen-sourcegrant",
+      "license": "Limited revocable/non-transferable contractual platform license; not open data",
+      "license_url": "https://www.benchsci.com/legal/terms-of-service",
+      "api_verification_state": "Native root/termsofservice200HTML. No verifiedpublicAPI/schema/response.",
+      "latest_checked_utc": "2026-10-18T15:33:11.966471+00:00",
       "classification": "restricted"
     },
     {
