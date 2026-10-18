@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T19:00:20.706914+00:00",
+  "published_at": "2026-10-18T19:02:24.399968+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:59:51.755780+00:00",
+  "research_updated_at": "2026-10-18T19:01:15.924143+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OTN public-source CC BY4/additional notification obligations and REST timeout; Greo native contractual restrictions; Lethbridge owner repository context.",
+  "latest_milestone": "UKDS native OAI identity verified/metadata grant gap; OTN policy notification and REST timeout; Greo native restrictions; six institutional sources and source branch gaps.",
   "counts": {
     "verified": 445,
-    "candidates": 1277,
+    "candidates": 1280,
     "excluded": 371,
     "sample_successes": 464
   },
@@ -250,6 +250,7 @@
           "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
           "nsidc",
+          "ocean-tracking-network-services",
           "ornl-daac-biogeochemical-archive",
           "planetary-computer",
           "pubchem-pug-services",
@@ -753,6 +754,7 @@
           "ncbi-taxonomy-services",
           "ncbi-virus-datasets",
           "nhm-data-portal-api",
+          "ocean-tracking-network-services",
           "ornl-daac-biogeochemical-archive",
           "planetary-computer",
           "plant-adaptation-hub",
@@ -823,6 +825,7 @@
           "noaa-paleo-search-api",
           "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
+          "ocean-tracking-network-services",
           "rolling-deck-to-repository",
           "scripps-ogdc-data-portal",
           "seabass-sst-validation-api",
@@ -1197,6 +1200,7 @@
           "noaa-paleo-search-api",
           "noaa-psl-opendap",
           "nodc-ieo-geonetwork",
+          "ocean-tracking-network-services",
           "olac-language-archives-network",
           "open-data-lmu",
           "openworm-data-representation",
@@ -2543,6 +2547,7 @@
           "swissubase-oai",
           "terrassa-open-data",
           "tuscany-open-data-catalog",
+          "uk-data-service-archive-catalogue",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
@@ -2630,6 +2635,7 @@
           "serbia-apr",
           "serbia-rzs",
           "stat-portugal",
+          "uk-data-service-archive-catalogue",
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": [
@@ -2693,7 +2699,8 @@
           "russia",
           "serbia-rzs",
           "stat-portugal",
-          "trentino-open-data"
+          "trentino-open-data",
+          "uk-data-service-archive-catalogue"
         ],
         "restricted_provider_ids": [
           "adp-slovenian-social-science",
@@ -3076,7 +3083,8 @@
           "rki-antimicrobial-surveillance",
           "swissubase-oai",
           "terrassa-open-data",
-          "tuscany-open-data-catalog"
+          "tuscany-open-data-catalog",
+          "uk-data-service-archive-catalogue"
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
@@ -3257,6 +3265,7 @@
           "tuebingen-fcs",
           "tul-open-research-data",
           "tuscany-open-data-catalog",
+          "uk-data-service-archive-catalogue",
           "unimi-dataverse",
           "upf-digital-repository",
           "usn-research-data-archive",
@@ -3344,7 +3353,8 @@
           "os-os-places-api",
           "sardinia-geospatial-wfs",
           "serbia-rzs",
-          "tilburg-regional-archive"
+          "tilburg-regional-archive",
+          "uk-data-service-archive-catalogue"
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
@@ -4113,6 +4123,7 @@
           "tuebingen-fcs",
           "tul-open-research-data",
           "ufz-spatial-geonetwork",
+          "uk-data-service-archive-catalogue",
           "uk-polar-data-centre",
           "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
@@ -20734,6 +20745,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ets-borealis-data-repository",
+      "provider": "École de technologie supérieure",
+      "service_name": "École de technologie supérieure curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact source families not enumerated",
+      "documentation_url": "https://etsmtl.libguides.com/rdm/repositories/borealis",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://etsmtl.libguides.com/rdm/repositories/borealis | https://etsmtl.libguides.com/gdr/depots",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search holds retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T19:00:25.955881+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "eumetsat-data-store-api",
       "provider": "EUMETSAT",
       "service_name": "Data Store REST browse/search collection services",
@@ -34774,6 +34803,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "uqo-borealis-data-repository",
+      "provider": "Université du Québec en Outaouais",
+      "service_name": "Université du Québec en Outaouais curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact source families not enumerated",
+      "documentation_url": "https://uqo.ca/biblio/gestion-donnees-la-recherche",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://uqo.ca/biblio/gestion-donnees-la-recherche",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search holds retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T19:00:25.955881+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "uqtr-borealis-data-repository",
       "provider": "Université du Québec à Trois-Rivières",
       "service_name": "Université du Québec à Trois-Rivières curated Borealis research repository",
@@ -34861,6 +34908,24 @@
       "license_url": "https://www.usaspending.gov/about",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T20:43:19.791507+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usb-borealis-data-repository",
+      "provider": "Université de Saint-Boniface",
+      "service_name": "Université de Saint-Boniface curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; exact source families not enumerated",
+      "documentation_url": "https://ustboniface.ca/file/recherche/strategie-gestion-des-donnees-de-recherche.pdf",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://ustboniface.ca/file/recherche/strategie-gestion-des-donnees-de-recherche.pdf",
+      "api_verification_state": "Original institutional PDFHTTP404; web-reader404; indexed historical primary strategy reviewed separately, not native API/runtime proof. Inherited Borealis root/API/search holds retained; no collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T19:00:25.955881+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
