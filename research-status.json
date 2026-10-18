@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T11:04:00.480231+00:00",
+  "published_at": "2026-10-18T11:06:03.163116+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:03:07.253716+00:00",
+  "research_updated_at": "2026-10-18T11:05:18.122614+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DASS accessworkflow/PDFreader gap; NGDC/AGS5schemaops; ImmPort84schemaops/APIkey/customterms; MDZ320000refs/320pages incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to336pages/336000refs;2877503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 392,
-    "candidates": 1017,
+    "candidates": 1019,
     "excluded": 295,
     "sample_successes": 465
   },
@@ -16698,6 +16698,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "digital-repository-ireland-api",
+      "provider": "Digital Repository of Ireland",
+      "service_name": "DRI digital cultural/social research repository and API discovery",
+      "geographic_coverage": "Irish digital cultural and social research collections; source geography varies",
+      "topical_coverage": "culture | research | education | history | social sciences",
+      "dataset_families": "Digital collections and descriptive metadata with associated images/documents/audio/other objects; no actualsource acquired",
+      "documentation_url": "https://dri.ie/general-faq/ | https://dri.ie/licensing-statement/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Exact publicAPI/authentication not verified; no key/account/contact",
+      "free_access_restrictions": "IndexedFAQ says source reuse depends on assigned licence; repository access/embargo/rights perobject, exactAPIquotas/access unknown",
+      "license": "Indexed metadataCCBYcontext; websiteBY4 distinct from repository/source licences, exactservice scope unresolved",
+      "license_url": "https://dri.ie/licensing-statement/ | https://dri.ie/app/uploads/2023/08/DRI-Community-Archive-Scheme-Application-Form-2024.pdf",
+      "api_verification_state": "Originalrepository and independentinstitutionalFAQ both guard-deferred unsent. OfficialindexedFAQ includes APIaccess question but exactanswer/currentendpoint/runtime notverified. No source/API/schema response.",
+      "latest_checked_utc": "2026-10-18T11:05:07.532751+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "digital-south-asia-library",
       "provider": "University of Chicago / Digital South Asia Library",
       "service_name": "DSAL and Digital Dictionaries of South Asia discovery resources",
@@ -20352,6 +20370,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kb-netherlands-data-services",
+      "provider": "KB National Library of the Netherlands",
+      "service_name": "KB dataservices, SRU search and OAI metadata interfaces",
+      "geographic_coverage": "Dutch national library collections and historical publications; exact per-collection extent varies",
+      "topical_coverage": "culture | education | research | history | language",
+      "dataset_families": "Digital library metadata and published collections; officialtutorial ANP radio-bulletin metadata CC0 separate from NC/ND image/fulltext content",
+      "documentation_url": "https://www.kb.nl/onderzoeken-vinden/voor-onderzoekers/dataservices-apis-en-downloads | https://github.com/KBNLresearch/intro-kb-apis/blob/master/tutorial.md",
+      "api_base_url": "http://services.kb.nl/mdo/oai | http://jsru.kb.nl/sru/sru",
+      "format_protocol": "Owner OAI-PMH and SRU1.2 documented; no native XML/runtime response",
+      "authentication": "Current owner guide says protected data may require contracts/secure environments; tutorial says keys may apply to restrictedmaterials. Exact openAPIauth untested; no keys/accounts.",
+      "free_access_restrictions": "Per-collection/file legal and technical conditions; protected data may require noncommercial scientific terms/contract or physical/securevirtual environment. No access/contact/payment.",
+      "license": "ANPmetadataCC0 in owner tutorial; ANPimages/fulltextBY-NC-ND; other collections/source/API metadata rights vary",
+      "license_url": "https://github.com/KBNLresearch/intro-kb-apis/blob/master/tutorial.md | https://www.kb.nl/onderzoeken-vinden/voor-onderzoekers/dataservices-apis-en-downloads",
+      "api_verification_state": "Native KBroot/currentDutchdataservices and institutionalGitHubtutorial200HTML. Both exact published HTTP SRUexplain/OAIIdentify guard-deferred unsent, no successfulXML/APIresponse. Independent initialrequests before resultinspection, no fallback.",
+      "latest_checked_utc": "2026-10-18T11:05:07.532751+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kenya",
       "provider": "Kenya Open Data",
       "service_name": "Kenya Open Data open data portal",
@@ -21265,8 +21301,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across320successfulpages/320000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T11:00:06.509222+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across336successfulpages/336000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T11:05:13.515673+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23468,7 +23504,7 @@
     {
       "identifier": "odum-unc-dataverse",
       "provider": "Odum Institute / University of North Carolina at Chapel Hill",
-      "service_name": "Odum Institute Archive UNC Dataverse collection",
+      "service_name": "UNC Dataverse / Odum Institute archive collection",
       "geographic_coverage": "UNC institutional archive; exact source geography/current coverage unverified",
       "topical_coverage": "research",
       "dataset_families": "Research-data archive collection; exact current public/embargoed/restricted dataset families not natively verified",
@@ -23479,8 +23515,8 @@
       "free_access_restrictions": "unknown source-specific access conditions",
       "license": "unknown current collection-wide data/metadata grant; defaultCC0 institutional-form context only",
       "license_url": "https://libres.uncg.edu/ir/uncg/OdumDataDepositForm.pdf",
-      "api_verification_state": "Original UNC collection and independent Odum archive guide guard-deferred by robots/inaccessible-robots policy; targets unsent. No OAI/REST/SWORD or alternate host/backend request; indexed context not runtime proof.",
-      "latest_checked_utc": "2026-10-18T10:13:41.755746+00:00",
+      "api_verification_state": "Original UNC collection and independent Odum archive guide guard-deferred by robots/inaccessible-robots policy; targets unsent. No OAI/REST/SWORD or alternate host/backend request; indexed context not runtime proof.; priorholds reused, no newUNCroot/APIrequest",
+      "latest_checked_utc": "2026-10-18T11:05:07.532751+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
