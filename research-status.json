@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T10:14:46.725217+00:00",
+  "published_at": "2026-10-18T10:16:49.792806+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:13:52.991951+00:00",
+  "research_updated_at": "2026-10-18T10:16:48.742434+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to177pages/177000refs;3036503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Odum/WAV holds/limited identity context; SDAC11family leads/VSO2WSDLoperations verified; MDZ177000refs/177pages; source grants/runtime unresolved.",
   "counts": {
     "verified": 390,
     "candidates": 995,
@@ -812,7 +812,9 @@
           "nasa-exoplanet",
           "nasa-open-data-catalog",
           "nasa-pds-search-api",
+          "nasa-sdac-solar-data-discovery",
           "usno-astronomical-applications-api",
+          "virtual-solar-observatory-soap",
           "vmf-vienna-mapping-functions",
           "wdccr-cosmic-ray-archive"
         ],
@@ -1082,6 +1084,7 @@
           "nasa-asdc-services",
           "nasa-open-data-catalog",
           "nasa-pds-search-api",
+          "nasa-sdac-solar-data-discovery",
           "nasc-plant-stock-webservices",
           "ncbi-genome-datasets",
           "ncbi-taxonomy-services",
@@ -1121,6 +1124,7 @@
           "unite-species-hypotheses",
           "usgs-sciencebase-catalogue",
           "usno-astronomical-applications-api",
+          "virtual-solar-observatory-soap",
           "vmf-vienna-mapping-functions",
           "wdccr-cosmic-ray-archive",
           "wdcrre-resources-environment",
@@ -3895,7 +3899,8 @@
         "candidate_provider_ids": [
           "afdb-kenya-sdmx",
           "cifor-icraf",
-          "trr228-african-futures-database"
+          "trr228-african-futures-database",
+          "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
           "wascal"
@@ -3910,6 +3915,7 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "sanbi-birdie",
+          "west-african-vegetation-network",
           "wis2-ghana",
           "wis2-kenya",
           "wis2-rwanda"
@@ -4040,7 +4046,8 @@
         "candidate_provider_ids": [
           "cifor-icraf",
           "roceeh-road-prehistory-database",
-          "sanbi-birdie"
+          "sanbi-birdie",
+          "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
           "african-plants-photo-guide"
@@ -4068,7 +4075,8 @@
           "afdb-kenya-sdmx",
           "cifor-icraf",
           "roceeh-road-prehistory-database",
-          "trr228-african-futures-database"
+          "trr228-african-futures-database",
+          "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
           "african-plants-photo-guide",
@@ -4091,7 +4099,8 @@
           "roceeh-road-prehistory-database",
           "sanbi-birdie",
           "trr228-african-futures-database",
-          "ucla-social-science-dataverse"
+          "ucla-social-science-dataverse",
+          "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
           "african-plants-photo-guide",
