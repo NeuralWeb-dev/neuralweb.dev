@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:35:18.295734+00:00",
+  "published_at": "2026-10-18T19:37:21.806839+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:35:00.933164+00:00",
+  "research_updated_at": "2026-10-18T19:36:58.630779+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BioCyc dedup; FoDaSi native RADAR OAI identity/current terms redirect; Health Data Nexus native contributor-review license scoped restricted.",
+  "latest_milestone": "ATNF software/data grant and publicAPI gap; Gdansk native repository policy; WHOAS challenge/default rights-reserved sources distinguished.",
   "counts": {
     "verified": 445,
-    "candidates": 1317,
-    "excluded": 378,
+    "candidates": 1319,
+    "excluded": 379,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -15684,6 +15684,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "atnf-pulsar-catalogue",
+      "provider": "CSIRO / Australia Telescope National Facility",
+      "service_name": "CSIRO / Australia Telescope National Facility data discovery service",
+      "geographic_coverage": "Astronomical pulsar catalogue; Australia operator, celestial coverage varies",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Pulsar catalogue documentation, source observations not acquired",
+      "documentation_url": "https://www.atnf.csiro.au/research/pulsar/psrcat/psrcat_help.html",
+      "api_base_url": "",
+      "format_protocol": "Web/CLI documented; public API unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform data/metadata grant; software or source licenses separate",
+      "license_url": "https://www.atnf.csiro.au/research/pulsar/psrcat/psrcat_help.html",
+      "api_verification_state": "Native root/helpHTTP200describe normal/expert web forms and downloadable Unix command-line tool/database. GPL3orLater explicitly covers PSRCAT software, not automatically all compiled source observations/database. Source citation request not standalone uniform data grant. No public documented machine API contract found in inspected official sources; no CGI/form submit, coordinates/observations, package/archive download or code execution.",
+      "latest_checked_utc": "2026-10-18T19:36:53.656121+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "auckland-institutional-figshare",
       "provider": "University of Auckland / Centre for eResearch",
       "service_name": "University of Auckland Institutional Figshare portal",
@@ -21711,6 +21729,24 @@
       "license_url": "https://gbif.jp/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T17:03:29.531669+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "gdansk-knowledge-base-repository",
+      "provider": "University of Gdańsk",
+      "service_name": "University of Gdańsk data discovery service",
+      "geographic_coverage": "Poland institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research/publication/dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://bg.ug.edu.pl/nauka/oddzial-zarzadzania-danymi-badawczymi-i-otwartej-nauki/repozytorium-danych-badawczych",
+      "api_base_url": "",
+      "format_protocol": "KnowledgeBase web portal; exact API unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform data/metadata grant; software or source licenses separate",
+      "license_url": "https://bg.ug.edu.pl/nauka/oddzial-zarzadzania-danymi-badawczymi-i-otwartej-nauki/repozytorium-danych-badawczych",
+      "api_verification_state": "Original repository request held; native library research-data policyHTTP200describes KnowledgeBase data deposit/metadata curation/DataCite/OpenAIRE, not formal universal public metadata/source license. Exact public API/interface contract unresolved; search hits about APIs in deposited publications are not repository API evidence. No OAI/backend guess, source/person/publicationfiles or license extrapolation.",
+      "latest_checked_utc": "2026-10-18T19:36:53.656121+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -44987,6 +45023,24 @@
       "license_url": "https://icd.who.int/docs/icd-api/license | https://icd.who.int/en/docs/ICD11-license.pdf",
       "api_verification_state": "official_current_REST_OAuth_docs_and_NoDerivs_licence_verified_key_required_sample_untested",
       "latest_checked_utc": "2026-10-17T22:37:48.372275+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "whoas-open-access-server",
+      "provider": "MBLWHOI Library",
+      "service_name": "MBLWHOI Library data discovery service",
+      "geographic_coverage": "Woods Hole scientific community, marine research; source geography varies",
+      "topical_coverage": "oceans | research | culture",
+      "dataset_families": "Institutional research/publication/dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://mblwhoilibrary.org/help-services/whoas-repository-services/",
+      "api_base_url": "",
+      "format_protocol": "OAI-PMH institutionally documented; exact endpoint/runtime unresolved",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "All rights reserved by default; explicit individual CC exceptions and metadata grant separate",
+      "license_url": "https://mblwhoilibrary.org/help-services/whoas-repository-services/",
+      "api_verification_state": "Repository originalHTTP200security verification challenge, not API/substantive repository success; no alternate/APIretry. Independent native library policyHTTP200states all items original copyright/all rights reserved unless otherwise indicated, supports CC choices. Restricted classification scoped to default rights-reserved source families; separately licensed sources/public metadata need individual review. Nonexclusive deposit distribution rights granted to library not public blanket metadata grant. Distinct DSpaceWHOAS from existing MBLWHOIDataverse. OAI harvest documented institutionally/indexed but exact active endpoint/runtime unverified.",
+      "latest_checked_utc": "2026-10-18T19:36:53.656121+00:00",
       "classification": "restricted"
     },
     {
