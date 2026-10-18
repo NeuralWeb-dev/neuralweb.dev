@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:47:33.391921+00:00",
+  "published_at": "2026-10-18T00:49:35.970582+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:46:11.415913+00:00",
+  "research_updated_at": "2026-10-18T00:48:06.547096+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks reviewed: eight records added, usda-nass updated; WHOI OAI39 IDs and MGDS XML verified with distinct rights gaps/restrictions.",
+  "latest_milestone": "Twelve original tasks reviewed: eleven records added, usda-nass updated; WHOI OAI39 IDs, MGDS XML and LifeWatch OpenAPI verified; AidData92 references indexed; source-rights gaps retained.",
   "counts": {
     "verified": 325,
-    "candidates": 684,
+    "candidates": 687,
     "excluded": 176,
     "sample_successes": 469
   },
@@ -61,6 +61,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "aiddata-development-data",
           "openei-urdb",
           "unsd"
         ],
@@ -402,6 +403,7 @@
           "worldpop-stac"
         ],
         "candidate_provider_ids": [
+          "aiddata-development-data",
           "china-national-earth-observation-center",
           "copernicus-stac",
           "dataone",
@@ -448,6 +450,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "aiddata-development-data",
           "hdx",
           "open-contracting"
         ],
@@ -734,6 +737,7 @@
           "zenodo"
         ],
         "candidate_provider_ids": [
+          "aiddata-development-data",
           "amda-space-plasma-rest",
           "argo-gdac-data-interfaces",
           "arizona-campus-repository",
@@ -916,6 +920,7 @@
           "statcan"
         ],
         "candidate_provider_ids": [
+          "cdc-ables-surveillance",
           "dol-public-data-api",
           "edmonton-open-data",
           "texas-state-open-data",
@@ -1093,6 +1098,7 @@
         "candidate_provider_ids": [
           "ahrq-hcupnet-aggregate-statistics",
           "california-open-data",
+          "cdc-ables-surveillance",
           "connect211-hsda",
           "connect211-search",
           "donnees-quebec-catalog",
@@ -1473,6 +1479,7 @@
           "artic",
           "barrow-area-information-database",
           "bc-conservation-data-centre",
+          "cdc-ables-surveillance",
           "cerp-sfwmd",
           "donnees-quebec-catalog",
           "drp",
@@ -2071,6 +2078,7 @@
           "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
           "latvia-statistics",
+          "lifewatch-metadata-catalogue",
           "lithuania-statistics",
           "nodc-ieo-geonetwork",
           "os-os-places-api",
@@ -2483,6 +2491,7 @@
           "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
           "la-rochelle-data4citizen",
+          "lifewatch-metadata-catalogue",
           "mulhouse-alsace-open-data",
           "navarra-open-data",
           "nfdi4ing-ingest-metadata-api",
@@ -2620,6 +2629,7 @@
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
+          "lifewatch-metadata-catalogue",
           "nasc-plant-stock-webservices",
           "seadatanet-cdi-discovery-network",
           "ufz-spatial-geonetwork"
@@ -2868,6 +2878,7 @@
           "kielipankki-fcs",
           "kpbc-digital-library",
           "ksamsok",
+          "lifewatch-metadata-catalogue",
           "nasc-plant-stock-webservices",
           "nfdi4health-study-hub",
           "nfdi4ing-ingest-metadata-api",
@@ -10943,6 +10954,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "aiddata-development-data",
+      "provider": "AidData / William and Mary",
+      "service_name": "AidData development-finance and research dataset catalogue",
+      "geographic_coverage": "Global development finance, aid and development research; provider and product coverage varies",
+      "topical_coverage": "economics/finance | public spending/contracts | geospatial | research",
+      "dataset_families": "Development finance and donor projects, Chinese lending/contracts, geospatial development and aggregate survey products",
+      "documentation_url": "https://www.aiddata.org/datasets",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.aiddata.org/pages/disclaimer",
+      "api_verification_state": "Native homepage/catalogue/disclaimerHTTP200; stable general public data API not verified",
+      "latest_checked_utc": "2026-10-18T00:47:48.734438+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "aims-data-platform",
       "provider": "Australian Institute of Marine Science",
       "service_name": "AIMS DOI-addressed REST data platform",
@@ -11984,6 +12013,24 @@
       "license_url": "",
       "api_verification_state": "Native homepageHTTP200 JavaScript shell, not API data response",
       "latest_checked_utc": "2026-10-18T00:45:31.837271+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cdc-ables-surveillance",
+      "provider": "CDC NIOSH",
+      "service_name": "Adult Blood Lead Epidemiology and Surveillance public data",
+      "geographic_coverage": "United States participating-state adult worker lead surveillance; reporting varies by state/year",
+      "topical_coverage": "health | labor | research",
+      "dataset_families": "Aggregate blood lead levels by year, state and industry; suppression and reporting limitations",
+      "documentation_url": "https://www.cdc.gov/niosh/lead/programs/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native programme and data pagesHTTP200 HTML; charts/spreadsheet links, no exact public query API verified",
+      "latest_checked_utc": "2026-10-18T00:47:48.734438+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -15854,6 +15901,24 @@
       "license_url": "https://data.lexingtonky.gov/api/search/v1",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
       "latest_checked_utc": "2026-10-17T07:10:54.816170+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lifewatch-metadata-catalogue",
+      "provider": "LifeWatch ERIC",
+      "service_name": "LifeWatch ERIC GeoNetwork metadata catalogue API",
+      "geographic_coverage": "European biodiversity infrastructure with international source metadata; exact collection coverage unresolved",
+      "topical_coverage": "biodiversity | climate/weather/environment | geospatial | research",
+      "dataset_families": "Biodiversity/ecosystem dataset, service and research metadata; schema standards",
+      "documentation_url": "https://metadatacatalogue.lifewatch.eu/doc/api/index.html",
+      "api_base_url": "https://metadatacatalogue.lifewatch.eu/srv/api",
+      "format_protocol": "OpenAPI JSON specification; REST JSON standards response bounded/truncated",
+      "authentication": "Anonymous Swagger/OpenAPI and standards requestHTTP200; user/admin operations distinct and untested",
+      "free_access_restrictions": "Public catalogue/documentation accessible; exact record reuse and operation permissions unresolved",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.lifewatch.eu/terms-and-conditions/ | https://www.lifewatch.eu/lw-acceptable-use-policy/",
+      "api_verification_state": "Native OpenAPI valid JSON,319 paths. Standards sampleHTTP200 application/json truncated at1.5MB, not valid complete JSON or successful parsed inventory",
+      "latest_checked_utc": "2026-10-18T00:47:48.734438+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
