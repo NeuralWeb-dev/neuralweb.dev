@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:50:47.169962+00:00",
+  "published_at": "2026-10-18T08:52:49.882117+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:50:45.078425+00:00",
+  "research_updated_at": "2026-10-18T08:52:11.342209+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "TAIR native owner restricted/public-BY4 exception verified; CDPH terms held; TreeBASE OAI2/twoformats succeeds, firstheader timeout preserved.",
+  "latest_milestone": "Brazil DataPB held, Germany BIBB-FDZ controlled noncommercial access, SkyView native CGI guide verified/mixed survey grants unresolved.",
   "counts": {
     "verified": 383,
-    "candidates": 956,
-    "excluded": 282,
+    "candidates": 958,
+    "excluded": 283,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -15962,6 +15962,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "datapb-ufpb-dataverse",
+      "provider": "DataPB / Universidade Federal da Paraíba",
+      "service_name": "DataPB research data repository",
+      "geographic_coverage": "Brazilian institutional repository; registry institution countries Brazil/France not dataset scope",
+      "topical_coverage": "research",
+      "dataset_families": "Research data repository discovery; current collections unenumerated",
+      "documentation_url": "https://dataverse.ideal.ufpb.br/",
+      "api_base_url": "https://dataverse.ideal.ufpb.br/api/search and /oai (registry claims only)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root held before transmission; no OAI/REST/backend/alternate request after hold. Registry lowercase identify not silently promoted to successful OAI.",
+      "latest_checked_utc": "2026-10-18T08:52:06.903741+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dataplant-archive",
       "provider": "DataPLANT / University of Freiburg",
       "service_name": "ARChive research-data repository",
@@ -21233,6 +21251,24 @@
       "license_url": "https://forum.earthdata.nasa.gov/viewtopic.php?t=82",
       "api_verification_state": "untested_policy_restricted",
       "latest_checked_utc": "2026-10-16T19:15:20.130731+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-skyview-interfaces",
+      "provider": "NASA Goddard / HEASARC SkyView",
+      "service_name": "SkyView virtual observatory and batch interfaces",
+      "geographic_coverage": "Celestial image surveys from radio to gamma rays; source-specific sky coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Multiwavelength astronomical image-survey discovery and image generation; partner source rights differ",
+      "documentation_url": "https://skyview.gsfc.nasa.gov/current/docs/batchpage.html | https://skyview.gsfc.nasa.gov/current/help/faq.html",
+      "api_base_url": "https://skyview.gsfc.nasa.gov/cgi-bin/images (owner-published CGI image-generation interface, not tested)",
+      "format_protocol": "Documented CGI GET keyword settings/batch scripts; local Java toolkit separate; FITS image output documented not acquired",
+      "authentication": "Public documentation; source query authentication/quotas unknown and untested",
+      "free_access_restrictions": "Public facility docs; exact partner source reuse/access conditions vary. No image jobs/files/remote userfile ingestion or software installation.",
+      "license": "Mixed survey rights: public domain or owner permission per FAQ; no uniform open grant",
+      "license_url": "https://skyview.gsfc.nasa.gov/current/help/faq.html | https://skyview.gsfc.nasa.gov/current/cgi/survey.pl",
+      "api_verification_state": "Native root/FAQ/published batch guide200HTML; guessed /current/docs/clients.html404 corrected via root-published batchpage, not access bypass. Native survey description request held/unsent, no alternate source/query backend.",
+      "latest_checked_utc": "2026-10-18T08:52:06.903741+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30235,6 +30271,24 @@
       "license_url": "https://www.jewishdatabank.org/databank/about/terms-of-use.html",
       "api_verification_state": "Native homepage/terms/operating-policy URLs HTTP200 identical HTML shells with no substantive visible text; no query API verified",
       "latest_checked_utc": "2026-10-18T01:30:22.375899+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bibb-fdz-research-data",
+      "provider": "Bundesinstitut für Berufsbildung",
+      "service_name": "BIBB-FDZ research data access",
+      "geographic_coverage": "Germany vocational education/labour research; individual survey scope varies",
+      "topical_coverage": "education | labor | economics | research",
+      "dataset_families": "Vocational education/training microdata, personal/enterprise research, aggregate indicators; source records not accessed",
+      "documentation_url": "https://www.bibb.de/de/53.php | https://www.bibb.de/de/1400.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Project-specific written application/justification and access conditions; guest route includes signed contract; no account/contract acquired",
+      "free_access_restrictions": "Scientific/noncommercial purposes; approved project/users and time-limited files; access modes SUF/PUF/Campus/remote processing/guest routes differ",
+      "license": "Project-controlled noncommercial research access; some marked website contributions CC BY-NC-ND4",
+      "license_url": "https://www.bibb.de/de/1400.php | https://www.bibb.de/de/impressum.php",
+      "api_verification_state": "Native FDZ root/access/imprint200HTML; no anonymous query API established; remote execution not treated as open read API",
+      "latest_checked_utc": "2026-10-18T08:52:06.903741+00:00",
       "classification": "restricted"
     },
     {
