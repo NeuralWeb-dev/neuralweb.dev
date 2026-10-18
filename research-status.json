@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T06:06:54.868212+00:00",
+  "published_at": "2026-10-18T06:08:57.673351+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:06:27.151868+00:00",
+  "research_updated_at": "2026-10-18T06:07:02.459905+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DAIS scoped CC0 metadata/nativeOAI verified; NMD own-data policy exceptions scoped, ULiège original robots hold preserved.",
+  "latest_milestone": "Sixoriginals reviewed: UKHO marineOGL/ArcGIS and DAISCC0/OAI scoped verified; KUKRrestricted, CLARINmetadataBY4 withAPIpending, NMDexceptions/ULiègehold retained",
   "counts": {
     "verified": 363,
-    "candidates": 865,
-    "excluded": 258,
+    "candidates": 866,
+    "excluded": 260,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -2463,7 +2463,8 @@
           "geri",
           "hcdc-datasearch-metadata-api",
           "iceland-statistics",
-          "oulu-open-data-api"
+          "oulu-open-data-api",
+          "ukho-marine-data-portal"
         ],
         "candidate_provider_ids": [
           "bonares-soil-agricultural-repository",
@@ -2662,6 +2663,7 @@
           "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "clarinel-language-resource-inventory",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
           "cotedazur-recherche-data-gouv-collection",
@@ -2785,6 +2787,7 @@
           "slovenia-statistics",
           "torino-aperto-catalog-api",
           "transportapi-fi",
+          "ukho-marine-data-portal",
           "ukraine-data",
           "wales-statistics",
           "zaragoza-open-data-api"
@@ -2842,6 +2845,7 @@
           "torino-aperto-catalog-api",
           "transportapi-fi",
           "uk-police",
+          "ukho-marine-data-portal",
           "worldpop-geo",
           "worldpop-rest",
           "worldpop-stac",
@@ -3042,7 +3046,8 @@
           "hcdc-datasearch-metadata-api",
           "ices-dome",
           "met-norway-weather-api",
-          "transportapi-fi"
+          "transportapi-fi",
+          "ukho-marine-data-portal"
         ],
         "candidate_provider_ids": [
           "earthprints-geoscience-repository-api",
@@ -3136,6 +3141,7 @@
           "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "clarinel-language-resource-inventory",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
           "crc806-legacy-research-database",
@@ -3254,6 +3260,7 @@
           "textgrid-public-repository",
           "tu-wien-research-data",
           "uk-police",
+          "ukho-marine-data-portal",
           "warsaw-research-data-metadata"
         ],
         "candidate_provider_ids": [
@@ -3279,6 +3286,7 @@
           "clarin-pl-fcs",
           "clarin-skgif",
           "clarin-vcr",
+          "clarinel-language-resource-inventory",
           "clinicalcodes-repository",
           "cnrtl-portail-lexical-suggestions",
           "cocoon-fcs",
@@ -4442,7 +4450,9 @@
           "philippines",
           "thailand-gistda"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "kasetsart-knowledge-repository"
+        ]
       },
       "climate/weather/environment": {
         "status": "partial_verified",
@@ -4497,7 +4507,9 @@
           "singapore"
         ],
         "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "kasetsart-knowledge-repository"
+        ]
       },
       "housing": {
         "status": "partial_verified",
@@ -4583,7 +4595,9 @@
           "philippines",
           "thailand-gistda"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "kasetsart-knowledge-repository"
+        ]
       },
       "research": {
         "status": "partial_verified",
@@ -4592,6 +4606,7 @@
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": [
+          "kasetsart-knowledge-repository",
           "southeast-asian-climate-assessment-dataset"
         ]
       }
@@ -24627,6 +24642,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "thm-research-data-repository",
+      "provider": "Technische Hochschule Mittelhessen",
+      "service_name": "data.THM institutional research data repository",
+      "geographic_coverage": "THM-associated research, actual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and descriptive metadata, methods/project documentation, DOI publication and long-term preservation",
+      "documentation_url": "https://data.thm.de/info/end-user-agreement",
+      "api_base_url": "https://data.thm.de/server/oai/request",
+      "format_protocol": "OAI-PMH2.0 XML; registry REST API untested",
+      "authentication": "Anonymous OAI Identify successful; deposit/source data access varies",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root/agreement200HTML; OAI Identify200parsedXML, repository descriptor only",
+      "latest_checked_utc": "2026-10-18T06:08:52.169311+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "thunderbay-transit-realtime",
       "provider": "City of Thunder Bay Transit / NextLift",
       "service_name": "Thunder Bay GTFS realtime transit feeds",
@@ -29183,6 +29216,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "flora-frankfurt-portal",
+      "provider": "Senckenberg Gesellschaft für Naturforschung",
+      "service_name": "Flora von Frankfurt am Main",
+      "geographic_coverage": "Frankfurt am Main, Germany",
+      "topical_coverage": "biodiversity | climate/weather/environment | research",
+      "dataset_families": "Plant species descriptions, photographs, documented historical/current distributions and ecology; public homepage descriptions only",
+      "documentation_url": "https://flora-frankfurt.senckenberg.de/item/116778",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Copyrighted site content/images/graphics, written rights-holder permission required",
+      "license_url": "https://flora-frankfurt.senckenberg.de/item/116778",
+      "api_verification_state": "Original registry policy URL returns current home HTML; current imprint200HTML, no public machine-query API documented in inspected pages",
+      "latest_checked_utc": "2026-10-18T06:08:52.169311+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "forestplots-research-network",
       "provider": "ForestPlots.net collaboration / University of Leeds and plot owners",
       "service_name": "ForestPlots.net tropical forest monitoring database",
@@ -31232,6 +31283,24 @@
       "license_url": "https://qdr.syr.edu/content/general-terms-and-conditions-use | https://qdr.syr.edu/policies/ai-secondary-analysis",
       "api_verification_state": "Native public terms, AI and metadata policiesHTTP200; official indexed about page documents OAI; no data/OAI sample",
       "latest_checked_utc": "2026-10-18T00:52:01.670729+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "qualiservice-qualitative-data-access",
+      "provider": "University of Bremen / Qualiservice",
+      "service_name": "Qualiservice qualitative research data access",
+      "geographic_coverage": "Qualitative social-science research, source geography varies",
+      "topical_coverage": "research | demographics | education | law/civic data",
+      "dataset_families": "Controlled qualitative social research materials, interviews/audio/video and contextual documentation; public metadata separate",
+      "documentation_url": "https://www.qualiservice.org/files/contao-theme/public/documents/downloads/Qualiservice_Vereinbarung_Datennutzung_EN-0821_v2.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Individual signed agreement/request and secure download; less anonymized materials special onsite access, not attempted",
+      "free_access_restrictions": "Inspected agreement says free controlled noncommercial scientific use; public metadata/open API rights unconfirmed",
+      "license": "Individual noncommercial scientific research/teaching agreement, no unauthorized third-party sharing",
+      "license_url": "https://www.qualiservice.org/files/contao-theme/public/documents/downloads/Qualiservice_Vereinbarung_Datennutzung_EN-0821_v2.pdf",
+      "api_verification_state": "Native agreement200PDF parsed through same official URL web reader; no exact public metadata/data API verified",
+      "latest_checked_utc": "2026-10-18T06:08:52.169311+00:00",
       "classification": "restricted"
     },
     {
