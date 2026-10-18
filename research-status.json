@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:45:11.672462+00:00",
+  "published_at": "2026-10-18T15:47:15.512777+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:45:04.809411+00:00",
+  "research_updated_at": "2026-10-18T15:46:03.207443+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed: five licensing-unconfirmed institutional services and controlled FITBIR; MDZ791000 references incomplete.",
+  "latest_milestone": "INRAE institutional collection identity verified on national platform; eAtlas mixed rights/APIholds; Lincoln policy choices and exceptions, portalhold.",
   "counts": {
     "verified": 432,
-    "candidates": 1128,
+    "candidates": 1131,
     "excluded": 333,
     "sample_successes": 464
   },
@@ -18807,6 +18807,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eatlas-research-data-services",
+      "provider": "Australian Institute of Marine Science / eAtlas",
+      "service_name": "eAtlas environmental catalogue and mapping services",
+      "geographic_coverage": "Tropical Australia, Great Barrier Reef/catchments, Torres Strait and North West Australia; individual datasets vary",
+      "topical_coverage": "environment | biodiversity | oceans | geospatial | research",
+      "dataset_families": "Environmental research datasets, metadata and map layers; mixed source licenses/restrictions",
+      "documentation_url": "https://eatlas.org.au/resources/faqs | https://eatlas.org.au/geonetwork/doc/api",
+      "api_base_url": "https://maps.eatlas.org.au/maps/ows (published WMS; native request guard-deferred) | https://eatlas.org.au/geonetwork/ (catalogue deployment)",
+      "format_protocol": "GeoNetwork catalogue HTML/JS shell; API documentation403; published WMS capabilities unsent",
+      "authentication": "No credentials used; exact public runtime/auth unverified",
+      "free_access_restrictions": "FAQ says no fee; also explicitly notes restricted datasets/contact-only access and selected reuse licenses",
+      "license": "Mixed per-dataset selected licenses; most default CC-BY, metadata-wide grant unknown",
+      "license_url": "https://eatlas.org.au/resources/faqs",
+      "api_verification_state": "FAQ200 substantiveHTML; service-document landing200onlyGeoNetworkJSshell, not actual service metadata/APIpayload. Linked /geonetwork/doc/api403. Separately published WMS capabilities guard-deferred unsent. No successful API sample.",
+      "latest_checked_utc": "2026-10-18T15:45:57.846459+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ebi-dbfetch-data-retrieval",
       "provider": "EMBL-EBI Job Dispatcher / Dbfetch",
       "service_name": "Dbfetch multi-database retrieval and metadata service",
@@ -21687,6 +21705,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "inrae-rdg-institutional-collection",
+      "provider": "INRAE",
+      "service_name": "Data INRAE institutional collection in Recherche Data Gouv",
+      "geographic_coverage": "French institutional research and international collaborations",
+      "topical_coverage": "agriculture | environment | research",
+      "dataset_families": "INRAE institutional research data/metadata collections; not independently enumerated",
+      "documentation_url": "https://science-ouverte.inrae.fr/fr/le-numerique-pour-la-science-et-les-donnees-scientifiques/partager-publier-des-donnees-et-des-codes/presentation-de-data-inrae",
+      "api_base_url": "https://entrepot.recherche.data.gouv.fr/oai (shared platform; prior host hold, untested)",
+      "format_protocol": "Institutional Dataverse collection on existing national platform; registry REST/SWORD URLs generic docs, not instance proof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-dataset selected license; effective blanket metadata grant unknown",
+      "license_url": "https://science-ouverte.inrae.fr/fr/le-numerique-pour-la-science-et-les-donnees-scientifiques/partager-publier-des-donnees-et-des-codes/presentation-de-data-inrae | https://recherche.data.gouv.fr/fr/page/conditions-generales-d-utilisation-de-la-plateforme-de-recherche-data-gouv",
+      "api_verification_state": "Independent owner guideHTTP200 confirms collection location; earlier national repository guard hold retained, no new native API/schema response.",
+      "latest_checked_utc": "2026-10-18T15:45:57.846459+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "insee",
       "provider": "INSEE",
       "service_name": "INSEE APIs — Melodi statistical catalog interface under review",
@@ -22998,6 +23034,24 @@
       "license_url": "https://www.lifewatch.eu/terms-and-conditions/ | https://www.lifewatch.eu/lw-acceptable-use-policy/",
       "api_verification_state": "Native OpenAPI valid JSON,319 paths. Standards sampleHTTP200 application/json truncated at1.5MB, not valid complete JSON or successful parsed inventory",
       "latest_checked_utc": "2026-10-18T00:47:48.734438+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lincoln-institutional-figshare",
+      "provider": "Lincoln University New Zealand",
+      "service_name": "Data@Lincoln institutional repository",
+      "geographic_coverage": "New Zealand institutional research; individual dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Data@Lincoln institutional repository",
+      "documentation_url": "https://www.lincoln.ac.nz/assets/PoliciesAndProcedures/Open-Access-Policy-1.pdf",
+      "api_base_url": "https://api.figshare.com/v2/ (shared API; institution510/portal510 registry claims untested)",
+      "format_protocol": "Registry Figshare REST/OAI claims; current portal schema unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Selected Creative Commons/public copyright licenses with exceptions; blanket metadata grant unknown",
+      "license_url": "https://www.lincoln.ac.nz/assets/PoliciesAndProcedures/Open-Access-Policy-1.pdf",
+      "api_verification_state": "Original portal guard-deferred unsent. Independent native owner policyPDF200 and official web document reader reviewed; not a successful portal API response.",
+      "latest_checked_utc": "2026-10-18T15:45:57.846459+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
