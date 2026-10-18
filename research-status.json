@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T07:49:19.262153+00:00",
+  "published_at": "2026-10-18T07:51:22.148391+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:49:08.639324+00:00",
+  "research_updated_at": "2026-10-18T07:51:09.110059+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Unive current institutional public-metadata terms, distinct Paleo Search204empty response and EOL held/partner-rights reviewed.",
+  "latest_milestone": "Native Aurora frame/policies, SAMHSA purpose-limited terms and historical LCI/source-dependent USGS licensing reviewed.",
   "counts": {
     "verified": 377,
-    "candidates": 922,
-    "excluded": 270,
+    "candidates": 924,
+    "excluded": 271,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -21078,6 +21078,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nipr-auroral-data-archive",
+      "provider": "NIPR / ROIS Polar Environment Data Science Center",
+      "service_name": "Auroral Data Archives / former WDC for Aurora",
+      "geographic_coverage": "Arctic and Antarctic optical/geomagnetic observations and historical polar archives",
+      "topical_coverage": "astronomy | climate/weather/environment | research",
+      "dataset_families": "All-sky films, historical magnetograms, auroral/geomagnetic observations and optical calibration; computational forms separate",
+      "documentation_url": "http://polaris.nipr.ac.jp/~aurora/WDC_top.html",
+      "api_base_url": "",
+      "format_protocol": "Native HTML frames/archive directory; documented exact read-only query API not verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Source-specific data conditions; ordinary NIPR website reuse requires permission",
+      "license_url": "https://www.nipr.ac.jp/english/terms.html | http://iugonet0.nipr.ac.jp/web/induction/data_policy.html",
+      "api_verification_state": "Native published root200Shift-JIS frames; exact published WDC_top frame200 archive overview, owner terms and registry-specific induction policy200. No machine-query API/data response.",
+      "latest_checked_utc": "2026-10-18T07:51:04.728446+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nist-resource-metadata-api",
       "provider": "National Institute of Standards and Technology",
       "service_name": "Resource Metadata Management API",
@@ -26871,6 +26889,24 @@
       "license_url": "https://www.nass.usda.gov/About_NASS/Policies_and_Links/ | https://www.usda.gov/about-usda/policies-and-links",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-18T00:44:11.788671+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usgs-land-cover-institute-discovery",
+      "provider": "US Geological Survey / EROS",
+      "service_name": "Land Cover Institute historical programme and current discovery",
+      "geographic_coverage": "US/international land cover research programme; exact current API coverage unverified",
+      "topical_coverage": "geospatial | climate/weather/environment | biodiversity | water | research",
+      "dataset_families": "Historical land-cover research programme, land-cover change/applications and source-specific modern successor products",
+      "documentation_url": "https://www.usgs.gov/publications/usgs-land-cover-institute",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "USGS general source-dependent licensing policy, not verified all-programme grant",
+      "license_url": "https://www.usgs.gov/data-management/data-licensing",
+      "api_verification_state": "Native registry keyword search20049mixed items with next page; not data API. Native2006programme fact-sheet page and current source-dependent licensing guide200. Exact LCI API unresolved.",
+      "latest_checked_utc": "2026-10-18T07:51:04.728446+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32921,6 +32957,24 @@
       "license_url": "https://www.rwi-essen.de/en/research-advice/further/research-data-center-ruhr-fdz/data-request",
       "api_verification_state": "Native public root/access-policy200HTML. No public machine query API or participant/household/source data request tested.",
       "latest_checked_utc": "2026-10-18T03:06:41.677468+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "samhsa-behavioral-health-data",
+      "provider": "US Substance Abuse and Mental Health Services Administration / CBHSQ",
+      "service_name": "SAMHSA public-use and restricted-use data archive",
+      "geographic_coverage": "US behavioral-health survey/statistical data; exact study/source scope not enumerated",
+      "topical_coverage": "health | demographics | research",
+      "dataset_families": "Public/restricted behavioral-health data collections and statistical reports; no source/study records fetched",
+      "documentation_url": "https://www.samhsa.gov/data/about-us/terms-and-conditions",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native terms describe approved restricted-use RDC researchers; public-use/private workflow distinct. No account/request attempted.",
+      "free_access_restrictions": "Native terms limit dataset use solely to research/statistical purposes and prohibit reidentification; restricted RDC access separately controlled",
+      "license": "Purpose-limited terms and controlled microdata; no universal unrestricted open grant",
+      "license_url": "https://www.samhsa.gov/data/about-us/terms-and-conditions",
+      "api_verification_state": "Native official terms200 read; exact public query API not established, no dataset/microdata/source request",
+      "latest_checked_utc": "2026-10-18T07:51:04.728446+00:00",
       "classification": "restricted"
     },
     {
