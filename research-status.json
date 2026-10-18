@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T18:27:29.383320+00:00",
+  "published_at": "2026-10-18T18:29:32.436355+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:27:06.263101+00:00",
+  "research_updated_at": "2026-10-18T18:28:28.037192+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SciELO native holds/indexed mixed-source terms, Mexico dedup; Unisa held Figshare and independent owner/policy review.",
+  "latest_milestone": "SciELO/Mexico shared service held/indexed source terms; Unisa Figshare hold/owner policy; Water Hub no-crawl/resale/commercial terms; Acadia/Sherbrooke institutional rights and Borealis holds.",
   "counts": {
     "verified": 445,
-    "candidates": 1232,
-    "excluded": 368,
+    "candidates": 1234,
+    "excluded": 369,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -1643,6 +1643,7 @@
           "toronto-borealis-data-collection",
           "toronto-open-data-catalog-api",
           "ubc-circle-open-collections",
+          "udes-borealis-data-repository",
           "us-data-gov-catalog",
           "washington-state-open-data"
         ],
@@ -2065,6 +2066,7 @@
           "toronto-borealis-data-collection",
           "ubc-circle-open-collections",
           "ucla-social-science-dataverse",
+          "udes-borealis-data-repository",
           "us-data-gov-catalog",
           "usfs-research-data-archive",
           "zfin-model-organism-database"
@@ -2164,6 +2166,7 @@
           "esa-ecology",
           "fortaleza-ckan-api",
           "montevideo-beaches",
+          "scielo-data-repository",
           "ufg-research-dataverse",
           "wis2-argentina",
           "wis2-brazil",
@@ -2226,6 +2229,7 @@
           "montevideo-beaches",
           "opendatasus",
           "registry-dados-df-gov-br",
+          "scielo-data-repository",
           "ufg-research-dataverse",
           "unisimon-research-data"
         ],
@@ -2249,6 +2253,7 @@
           "pucp-open-data-portal",
           "registry-dados-df-gov-br",
           "rosario-academic-data",
+          "scielo-data-repository",
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
@@ -2440,6 +2445,7 @@
           "pucp-open-data-portal",
           "registry-portaldados-ppgau-uff-br",
           "rosario-academic-data",
+          "scielo-data-repository",
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
@@ -4571,7 +4577,8 @@
           "rhodes-research-data",
           "stellenbosch-sunscholardata",
           "ufs-institutional-figshare",
-          "ukzn-yabelana-data"
+          "ukzn-yabelana-data",
+          "unisa-figshare-research-data"
         ],
         "restricted_provider_ids": [
           "uct-zivahub"
@@ -4678,6 +4685,7 @@
           "frankfurt-colonial-image-archive",
           "roceeh-road-prehistory-database",
           "trr228-african-futures-database",
+          "unisa-figshare-research-data",
           "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
@@ -4712,6 +4720,7 @@
           "ucla-social-science-dataverse",
           "ufs-institutional-figshare",
           "ukzn-yabelana-data",
+          "unisa-figshare-research-data",
           "west-african-vegetation-network"
         ],
         "restricted_provider_ids": [
@@ -5675,6 +5684,7 @@
         ],
         "restricted_provider_ids": [
           "birdata-birdlife-australia",
+          "columbia-basin-water-hub",
           "dfo-pacific-ios-archive",
           "lris-landcare-data-services",
           "national-vegetation-survey-nz",
@@ -5703,6 +5713,7 @@
           "wa-slip-public-geospatial-services"
         ],
         "restricted_provider_ids": [
+          "columbia-basin-water-hub",
           "dfo-pacific-ios-archive",
           "state-of-the-salmon-resources"
         ]
@@ -6038,6 +6049,7 @@
         "restricted_provider_ids": [
           "australian-national-corpus-restricted",
           "birdata-birdlife-australia",
+          "columbia-basin-water-hub",
           "comparative-agendas-project",
           "dfo-pacific-ios-archive",
           "digitalnz",
@@ -14611,6 +14623,24 @@
       "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
       "api_verification_state": "actual_current_station_observation_sample_success_data_grant_unconfirmed",
       "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "acadia-borealis-data-repository",
+      "provider": "Acadia University Vaughan Memorial Library",
+      "service_name": "Acadia University curated Borealis repository",
+      "geographic_coverage": "Canadian institutional research deposits; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; no actual records/files",
+      "documentation_url": "https://library.acadiau.ca/research.html",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://ojs.acadiau.ca/index.php/aplabulletin/issue/download/2295/34",
+      "api_verification_state": "Independent native library research-support response retained; indexed native institutional launch context reviewed. Shared Borealis original/API hold preserved; no collection/OAI/REST/SWORD test.",
+      "latest_checked_utc": "2026-10-18T18:27:50.437865+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33406,6 +33436,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "udes-borealis-data-repository",
+      "provider": "Université de Sherbrooke Library/Research Data Management",
+      "service_name": "Université de Sherbrooke curated Borealis repository",
+      "geographic_coverage": "Québec/Canada and international institutional research; source-specific coverage",
+      "topical_coverage": "research | education",
+      "dataset_families": "Final institutional research datasets/metadata descriptions; no actual source records",
+      "documentation_url": "https://www.usherbrooke.ca/gdr/depot-de-donnees/dataverse-de-universite-de-sherbrooke",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native guide free deposit services; protected/source access not tested",
+      "free_access_restrictions": "No fee for depositors per native owner, not blanket free-use/reuse grant for consumers",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.usherbrooke.ca/gdr/depot-de-donnees/dataverse-de-universite-de-sherbrooke",
+      "api_verification_state": "Independent native institutional guide HTTP200 substantive HTML; shared Borealis root/OAI/REST/SWORD hold preserved, no collection/API sample.",
+      "latest_checked_utc": "2026-10-18T18:27:50.437865+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "udiseplus-education-data-api",
       "provider": "Department of School Education and Literacy / NIC, Government of India",
       "service_name": "UDISE+ school data portal and documented developer APIs",
@@ -38067,6 +38115,24 @@
       "license_url": "https://data.colorado.gov/terms",
       "api_verification_state": "actual_public_structured_sample_success_discovery_or_dataset_metadata;historical_test_preserved_current_terms_reconfirmed_no_new_data_query",
       "latest_checked_utc": "2026-10-17T07:52:03.098372+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "columbia-basin-water-hub",
+      "provider": "Living Lakes Canada",
+      "service_name": "Columbia Basin Water Hub CKAN portal",
+      "geographic_coverage": "Columbia Basin and Canadian Pacific regional water research, source-specific coverage",
+      "topical_coverage": "water | climate/weather/environment | research",
+      "dataset_families": "Community/research water-monitoring dataset descriptions; no actual measurements/coordinates",
+      "documentation_url": "https://data.cbwaterhub.ca/",
+      "api_base_url": "",
+      "format_protocol": "Native CKAN-branded portal links CKAN2.11 API docs; exact native API contract/runtime untested",
+      "authentication": "Anonymous overview/legal documents accessible; no account or data/API request",
+      "free_access_restrictions": "Unchanged data resale prohibited; source licenses and some commercial-consent terms; no paid acquisition",
+      "license": "Mixed source licenses plus platform restrictions and commercial-consent amendment for covered data",
+      "license_url": "https://data.cbwaterhub.ca/ColumbiaBasinWaterHubTermsofUse.pdf | https://data.cbwaterhub.ca/Amendment%20to%20CC%20BY-SA%204.pdf",
+      "api_verification_state": "Native root HTTP200 substantive HTML, legal PDFs HTTP200; five-page policy and indexed amendment reviewed. No native API/source sample attempted under crawl/scrape restrictions.",
+      "latest_checked_utc": "2026-10-18T18:27:50.437865+00:00",
       "classification": "restricted"
     },
     {
