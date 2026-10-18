@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T03:04:36.922202+00:00",
+  "published_at": "2026-10-18T03:06:39.464065+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:01:59.428646+00:00",
+  "research_updated_at": "2026-10-18T03:04:51.548413+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NCBI Genome indexed official API/source-rights review with prior holds; TaiwanFish identity challenge preserved; miRBase publicdomain grant verified but exactAPI pending.",
+  "latest_milestone": "CARS nativeCC0/activeTAP and returnedten-tablefrontier verified; NED currentVOTablefieldsAPI active but tablegrant unresolved; REFOLDweblicence/API scope unresolved.",
   "counts": {
-    "verified": 343,
-    "candidates": 760,
+    "verified": 344,
+    "candidates": 762,
     "excluded": 213,
     "sample_successes": 468
   },
@@ -5841,6 +5841,24 @@
       "license_url": "https://open.canada.ca/en/open-government-licence-canada",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-18T00:32:33.160207+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "cars-close-agn-reference-survey",
+      "provider": "Leibniz Institute for Astrophysics Potsdam / CARS",
+      "service_name": "CARS DR1 public TAP and metadata service",
+      "geographic_coverage": "41survey astronomical targets: nearby luminousAGN and initially misclassified starburstgalaxies; no terrestrial geographic scope",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "DR1target/instrument/IFU observations, binned/unbinned spaxel measurements, spectroastrometry, AGN parameters, host morphology/properties and photometry",
+      "documentation_url": "https://cars.aip.de/cms/documentation/query_language/",
+      "api_base_url": "https://cars.aip.de/tap/",
+      "format_protocol": "IVOA TAP ADQL/PostgreSQL, VOTable; VOSI tables/capabilities XML successfully tested. Registry OAI path not tested",
+      "authentication": "Native owner says all data publicly available; anonymous metadata and minimal synchronous query200. Registration for saved SQL workspace separate, unused",
+      "free_access_restrictions": "DR1 dataset CC0; numeric TAP request quota unknown. Saved workspace requires optionalregistration, no accountused",
+      "license": "CC0 1.0 Universal for CARS DR1 dataset",
+      "license_url": "https://cars.aip.de/metadata/cars_dr1/",
+      "api_verification_state": "Native docs/release policy200; TAPcapabilities and fulltableset200validXML. Anonymous minimal synchronous SELECT returned200VOTable one target_id; OVERFLOWflag preserved as requestedlimitedsample, not error/fullresults.",
+      "latest_checked_utc": "2026-10-18T03:04:47.024191+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17906,6 +17924,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nasa-ipac-extragalactic-database",
+      "provider": "NASA/IPAC / California Institute of Technology",
+      "service_name": "NED current REST API and legacy TAP interfaces",
+      "geographic_coverage": "Extragalactic astronomical objects; skycoverage nonterrestrial, source-specific astronomical scope",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Astronomical object identifiers, classifications, redshift/position/photometric measurements and literature links; new currentAPI vs frozenlegacy interfaces",
+      "documentation_url": "https://ned.ipac.caltech.edu/Docs::API/",
+      "api_base_url": "https://ned.ipac.caltech.edu/NED::API/",
+      "format_protocol": "Current stateless REST returns IVOA VOTableXML; native fields-only response valid. LegacyTAP separate and notqueried",
+      "authentication": "Documented current fields-only request succeeded anonymously; otherAPI auth/tierdetailsunknown",
+      "free_access_restrictions": "Public docs and tested API access; exact reusable tabular/database grant unknown. Imagepolicy includes conditionalimageuse/exceptions and is not tablelicence",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ipac.caltech.edu/page/image-use-policy | https://ned.ipac.caltech.edu/Documents/Overview/Acknowledgments",
+      "api_verification_state": "Native root/currentAPI PDF/image/acknowledgement policies200. OfficialPDF webextraction lastchangeJuly2026: statelessVOTableAPI. Native MAXREC0 request200validVOTable22fields/zero rows; no HTML/APIerrorcounted.",
+      "latest_checked_utc": "2026-10-18T03:04:47.024191+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nasa-osdr-biological-data-api",
       "provider": "NASA Biological and Physical Sciences",
       "service_name": "Open Science Data Repository Biological Data API",
@@ -20351,6 +20387,24 @@
       "license_url": "",
       "api_verification_state": "native_anonymous_metadata_JSON_success_55station_county_sample",
       "latest_checked_utc": "2026-10-17T18:33:04.020205+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "refolddb-protein-refolding",
+      "provider": "National Institute of Genetics / REFOLDdb",
+      "service_name": "REFOLDdb protein-refolding methods database candidate",
+      "geographic_coverage": "Cross-organism protein-refolding experimental methods; scientific rather than administrative coverage",
+      "topical_coverage": "research | biodiversity",
+      "dataset_families": "Published refolding-method records inherited from REFOLD and post2009 literature; browser filters/statistics, TSV download",
+      "documentation_url": "https://pford.info/refolddb/help.cgi?lang=EN",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native website rel=license link CC BY-SA4; exact database/source scope unresolved",
+      "license_url": "https://pford.info/refolddb/about.cgi?lang=EN",
+      "api_verification_state": "Native search/about/help200HTML. Help documents browser search, statistics, computationalBLAST and TSV download, no public query API or successful machine response verified.",
+      "latest_checked_utc": "2026-10-18T03:04:47.024191+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
