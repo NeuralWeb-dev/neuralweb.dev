@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:16:26.171012+00:00",
+  "published_at": "2026-10-18T20:18:29.422340+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:13:50.499792+00:00",
+  "research_updated_at": "2026-10-18T20:18:00.151482+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "BIL native BY-SA4/API verified; ODC published BY4 grants/API gaps; GIGA held/BQC19 404; Élections Québec documented feeds and revocable-use restrictions.",
+  "latest_milestone": "Concordia operationalCCBY4/keyedAPI verified; HydroNCscope; Saskatoonexplicitpermission/APIgap.",
   "counts": {
-    "verified": 453,
-    "candidates": 1336,
-    "excluded": 389,
+    "verified": 454,
+    "candidates": 1337,
+    "excluded": 390,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -8251,6 +8251,24 @@
       "license_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701666/ | https://www.ebi.ac.uk/complexportal/about#license_privacy",
       "api_verification_state": "Native service200HTML lists9method references, training describesJSONretrieval. Native portal about/docs200shells. No biological method/JSON sample/schema; projectCC0 statement indexed-primary only, not native fullarticle response.",
       "latest_checked_utc": "2026-10-18T14:13:42.348619+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "concordia-operational-open-data",
+      "provider": "Concordia University",
+      "service_name": "Concordia operational Open Data API",
+      "geographic_coverage": "Concordia Montreal campuses, Québec Canada",
+      "topical_coverage": "education | energy | climate/weather/environment",
+      "dataset_families": "Coursecatalog/scheduling, facilitiesenvironment/consumption/waste and library service descriptors; research repository separate",
+      "documentation_url": "https://github.com/opendataConcordiaU/documentation/blob/master/README.md | https://github.com/opendataConcordiaU/documentation/blob/master/getting_started.md",
+      "api_base_url": "https://opendata.concordia.ca/API/v1/",
+      "format_protocol": "HTTPS REST API documented; source runtime untested",
+      "authentication": "Free registereddeveloperaccount, verifiedemail andapplicationuserID/key viaHTTPBasic overHTTPS documented; no key/accountcreated",
+      "free_access_restrictions": "Free developerkey; quota per application10,000calls/day documentedinitially. Higherquota requirescontact, notrequested.",
+      "license": "CC-BY4.0 operational data services",
+      "license_url": "https://www.concordia.ca/web/open-data.html | https://github.com/opendataConcordiaU/documentation/blob/master/README.md",
+      "api_verification_state": "Native root/terms andownergettingstarted/APIindex/hoursguideHTTP200. Exact APIbase/readpath andBasiccredentialmodel documented; keyrequired runtimeuntested, nocredentialsavailableorrequested.",
+      "latest_checked_utc": "2026-10-18T20:17:54.252738+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -32808,6 +32826,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "saskatoon-open-data-portal",
+      "provider": "City of Saskatoon",
+      "service_name": "Saskatoon municipal open-data catalogue",
+      "geographic_coverage": "Saskatoon Saskatchewan Canada municipal area",
+      "topical_coverage": "transportation | public spending/contracts | geospatial | law/civic data",
+      "dataset_families": "Municipaltransit/procurement descriptions and localpublicmap catalogue",
+      "documentation_url": "https://www.saskatoon.ca/services-residents/connect-your-city/open-data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Explicitnative free use/reuse/redistribution permission; formalinstrument/source exceptions unresolved",
+      "license_url": "https://www.saskatoon.ca/services-residents/connect-your-city/open-data",
+      "api_verification_state": "OriginalArcGISportalrootHTTP200JavaScriptshell, notAPIsuccess. NativecityoverviewHTTP200 confirmsnewcanonicalportal and26August2024oldplatformretirement; exactpublisherreadAPI/schema notverified.",
+      "latest_checked_utc": "2026-10-18T20:17:54.252738+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "saudi",
       "provider": "Saudi Arabia Open Data",
       "service_name": "Saudi Arabia Open Data open data portal",
@@ -42095,6 +42131,24 @@
       "license_url": "https://www.ntnu.edu/hunt/dataaccess",
       "api_verification_state": "native_research_approval_agreement_and_fee_requirements_verified_no_public_API_sample",
       "latest_checked_utc": "2026-10-17T22:09:20.457958+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "hydro-quebec-open-data",
+      "provider": "Hydro-Québec",
+      "service_name": "Hydro-Québec operational open-data portal",
+      "geographic_coverage": "Québec Canada electricity system",
+      "topical_coverage": "energy | climate/weather/environment | geospatial",
+      "dataset_families": "Electricity supply/demand, emissions, outages, peak-events and vegetation-management descriptions; source observations unqueried",
+      "documentation_url": "https://www.hydroquebec.com/documents-data/open-data/ | https://donnees.hydroquebec.com/pages/accueil/?flg=en",
+      "api_base_url": "https://donnees.hydroquebec.com/ (native portal; exact current API contract/base unresolved)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Nativeprinciples say no usagefees, butnoncommercialreuse applies. APIquotas/auth/paginationunknown.",
+      "license": "CC-BY-NC4.0 generalcatalog scope; separatelylicensed sources excluded",
+      "license_url": "https://www.hydroquebec.com/documents-data/open-data/licence.html",
+      "api_verification_state": "Native root/licenseHTTP200; currentnativeportalHTMLshellHTTP200notAPIsuccess. Nativepages/indexedportal expose API-labelledinterfaces, currentexactanonymouscontract/schema unresolved. RegistryDonneesQuebecAPI not automatically Hydro-specific.",
+      "latest_checked_utc": "2026-10-18T20:17:54.252738+00:00",
       "classification": "restricted"
     },
     {
