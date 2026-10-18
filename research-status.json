@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:45:57.555679+00:00",
+  "published_at": "2026-10-18T18:48:00.443308+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:45:35.721820+00:00",
+  "research_updated_at": "2026-10-18T18:47:17.176557+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Waterloo CC-license choice/Windsor access controls/CUE consortium participation documented; exact metadata and API rights unresolved.",
+  "latest_milestone": "Queen’s terms/source licensing context; McMaster changeable default and NC alternatives; Laurentian general resource versus exact collection identity distinguished.",
   "counts": {
     "verified": 445,
-    "candidates": 1258,
+    "candidates": 1264,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -24460,6 +24460,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "laurentian-borealis-data-repository",
+      "provider": "Laurentian University",
+      "service_name": "Laurentian University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://biblio.laurentian.ca/guides/borealis",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://biblio.laurentian.ca/guides/borealis",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API response. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:47:12.695228+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "laval-borealis-data-repository",
       "provider": "Université Laval / Borealis",
       "service_name": "Université Laval institutional research-data portal",
@@ -25231,6 +25249,24 @@
       "license_url": "https://www.mcgill.ca/libraries/research-services/data-services/sharing/dataverse",
       "api_verification_state": "Native owner documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD request.",
       "latest_checked_utc": "2026-10-18T18:35:33.239653+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mcmaster-borealis-data-repository",
+      "provider": "McMaster University",
+      "service_name": "McMaster University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://rdm.mcmaster.ca/index.php/publish",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://rdm.mcmaster.ca/index.php/publish",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API response. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:47:12.695228+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28888,6 +28924,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ottawa-borealis-data-repository",
+      "provider": "University of Ottawa",
+      "service_name": "University of Ottawa curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://www.uottawa.ca/library/research-data-management/where-publish-data/uottawa-dataverse/deposit-guidelines",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.uottawa.ca/library/research-data-management/where-publish-data/uottawa-dataverse/deposit-guidelines",
+      "api_verification_state": "Native independent institutional documentation HTTP200 substantive HTML; not API response. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD test.",
+      "latest_checked_utc": "2026-10-18T18:46:49.549560+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ozflux-data-portal",
       "provider": "OzFlux / TERN and participating Australia-New Zealand flux sites",
       "service_name": "OzFlux Data Portal collection discovery",
@@ -30019,6 +30073,24 @@
       "license_url": "https://environment.qld.gov.au/resources/maps-data",
       "api_verification_state": "official_2021_API_claim_current_runtime_unverified_original_policy_held",
       "latest_checked_utc": "2026-10-17T12:33:07.727600+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "queens-borealis-data-repository",
+      "provider": "Queen's University",
+      "service_name": "Queen's University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://guides.library.queensu.ca/rdm/resources/share-reuse",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://guides.library.queensu.ca/rdm/resources/share-reuse",
+      "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API response. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD request.",
+      "latest_checked_utc": "2026-10-18T18:47:12.695228+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33208,6 +33280,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tmu-borealis-data-repository",
+      "provider": "Toronto Metropolitan University",
+      "service_name": "Toronto Metropolitan University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.torontomu.ca/investing-in-open-our-approach/",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://learn.library.torontomu.ca/c.php?g=720371&p=5165198",
+      "api_verification_state": "Native independent institutional documentation HTTP200 substantive HTML; not API response. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD test.",
+      "latest_checked_utc": "2026-10-18T18:46:49.549560+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tokyo-aori-cruise-database",
       "provider": "University of Tokyo / Atmosphere and Ocean Research Institute",
       "service_name": "Research Vessel Observation Database",
@@ -33331,6 +33421,24 @@
       "license_url": "https://www.treebase.org/treebase-web/dataMan.html",
       "api_verification_state": "Native home/policy/API/wiki200HTML; Identify200validOAI2 and ListMetadataFormats200validXML2formats. ListIdentifiers firstpage timeout/statusNone, no headers acquired; held without retry.",
       "latest_checked_utc": "2026-10-18T08:50:40.515049+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "trent-borealis-data-repository",
+      "provider": "Trent University",
+      "service_name": "Trent University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://www.trentu.ca/library/maps-data-government-information-centre/research-data-management",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.trentu.ca/library/maps-data-government-information-centre/research-data-management",
+      "api_verification_state": "Native independent institutional documentation HTTP200 substantive HTML; not API response. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD test.",
+      "latest_checked_utc": "2026-10-18T18:46:49.549560+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
