@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:55:27.353626+00:00",
+  "published_at": "2026-10-18T15:57:30.195561+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:54:35.925218+00:00",
+  "research_updated_at": "2026-10-18T15:55:55.452475+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelveoriginals reviewed: BioGRID nativeMIT/free-keyREST/WADL6; SMU/ORDO/APIDrestricted; scopedinstitutional and scientific candidates; MDZ804000 incomplete.",
+  "latest_milestone": "UCI native donationCCBY4/JSONlist689refs; Cary and Middlesex portalholds/scopedownerguides, metadata grants unresolved.",
   "counts": {
-    "verified": 433,
-    "candidates": 1136,
+    "verified": 434,
+    "candidates": 1138,
     "excluded": 336,
     "sample_successes": 464
   },
@@ -13282,6 +13282,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "uci-machine-learning-repository",
+      "provider": "UC Irvine Center for Machine Learning",
+      "service_name": "UCI Machine Learning Repository metadata API",
+      "geographic_coverage": "International contributed machine learning research; dataset geography varies",
+      "topical_coverage": "research | health | environment | economics/finance | education",
+      "dataset_families": "Machine learning benchmark datasets for classification/regression/clustering; donated and externally linked data distinct",
+      "documentation_url": "https://github.com/uci-ml-repo/ucimlrepo | https://github.com/uci-ml-repo/ucimlrepo/blob/main/src/ucimlrepo/fetch.py",
+      "api_base_url": "https://archive.ics.uci.edu/api/",
+      "format_protocol": "HTTPS JSON metadata/list API; official client separately loads linked CSV files, no client executed",
+      "authentication": "Anonymous GET list successful; no credentials used",
+      "free_access_restrictions": "Public anonymous list; current donated data licensedCCBY4, external/legacy record conditions must be checked",
+      "license": "Creative Commons Attribution4.0 for approved donated datasets under current donation policy",
+      "license_url": "https://archive.ics.uci.edu/contribute/donation | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native root/about/donationpolicy/clientdocs200; anonymous listHTTP200validJSON status200/OK/id-name list. No rawdata/file/observation request or client execution.",
+      "latest_checked_utc": "2026-10-18T15:55:50.988102+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "uk-police",
       "provider": "data.police.uk / Single Online Home National Digital Team and police forces",
       "service_name": "data.police.uk open crime and policing API",
@@ -16125,6 +16143,24 @@
       "license_url": "",
       "api_verification_state": "Native root/help HTTP200 HTML. Owner exact RDF interface and parameters documented, RDF/runtime untested.",
       "latest_checked_utc": "2026-10-18T14:07:18.575344+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cary-institute-figshare",
+      "provider": "Cary Institute of Ecosystem Studies",
+      "service_name": "Cary Institute of Ecosystem Studies institutional research data repository",
+      "geographic_coverage": "United States institutionalresearch; dataset geography varies",
+      "topical_coverage": "research | environment",
+      "dataset_families": "Institutional research data and associated metadata; source inventory unreviewed",
+      "documentation_url": "https://www.caryinstitute.org/science/data",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution376/portal376 untested)",
+      "format_protocol": "Registry Figshare REST/OAI; current portal-specific schema/runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown blanket metadata grant; per-source/selected licenses",
+      "license_url": "https://www.caryinstitute.org/science/data",
+      "api_verification_state": "Original portalguard-deferredunsent; independent nativeownerabout/dataHTML200identity, not API/schema/licensegrant.",
+      "latest_checked_utc": "2026-10-18T15:55:50.988102+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23847,6 +23883,24 @@
       "license_url": "https://mage.genoscope.cns.fr/microscope/",
       "api_verification_state": "OriginalrootHTTP200Turnstileverification, notAPIdataresponse",
       "latest_checked_utc": "2026-10-18T01:06:30.744636+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "middlesex-institutional-figshare",
+      "provider": "Middlesex University",
+      "service_name": "Middlesex University institutional research data repository",
+      "geographic_coverage": "United Kingdom institutionalresearch; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and associated metadata; source inventory unreviewed",
+      "documentation_url": "https://libguides.mdx.ac.uk/research/research-data",
+      "api_base_url": "https://api.figshare.com/v2/ (sharedAPI; registry institution191/portal191 untested)",
+      "format_protocol": "Registry Figshare REST/OAI; current portal-specific schema/runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown blanket metadata grant; per-source/selected licenses",
+      "license_url": "https://libguides.mdx.ac.uk/research/research-data",
+      "api_verification_state": "Original portalguard-deferredunsent; native independentownerguide200substantiveHTML, no publicportalAPIresponse.",
+      "latest_checked_utc": "2026-10-18T15:55:50.988102+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
