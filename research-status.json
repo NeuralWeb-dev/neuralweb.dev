@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:13:34.668223+00:00",
+  "published_at": "2026-10-18T05:15:37.460378+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:13:32.105299+00:00",
+  "research_updated_at": "2026-10-18T05:15:11.514018+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "JapanNICT nativeacknowledgement not blanketgrant; ChemSynthesis403held; VegBankproductionRESTdocs verified but sourcegrant/runtimeunresolved.",
+  "latest_milestone": "NACJD/HMCAdedupwithsourceexceptions; KyotoHAPIcapabilities/catalog1054IDs verifiedunderexplicitcommercialindexrestriction.",
   "counts": {
     "verified": 357,
     "candidates": 840,
-    "excluded": 242,
+    "excluded": 243,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -28984,7 +28984,7 @@
       "service_name": "ICPSR Metadata/Object Export API",
       "geographic_coverage": "Socialscience researchcollections; geographiccoverage variesperstudy",
       "topical_coverage": "demographics; labor; economics/finance; education; health; law and civic data; research",
-      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate | Measures of Effective Teaching family: restricted VDE source access",
+      "dataset_families": "Studycollectionmetadata fieldsearch/export; DCAT-US,MARCXML,DublinCore; researchmicrodata separate | Measures of Effective Teaching family: restricted VDE source access | NACJD criminal justice and HMCA health/medical-care archive source families",
       "documentation_url": "https://icpsr.github.io/metadata/icpsr_metadata_api/ | https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata",
       "api_base_url": "",
       "format_protocol": "Documentedmetadataexport API,DCAT-US/MARCXML/DublinCore; localDCATspatialExt/temporalExt extensions",
@@ -28993,7 +28993,7 @@
       "license": "CC BY-NC4.0 metadata; studydatarestrictedredistribution andspecificterms",
       "license_url": "https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata | https://www.icpsr.umich.edu/sites/icpsr/about/policies/terms-of-use",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-18T04:50:22.726034+00:00",
+      "latest_checked_utc": "2026-10-18T05:15:07.079908+00:00",
       "classification": "restricted"
     },
     {
@@ -29390,6 +29390,24 @@
       "license_url": "https://kosis.kr/openapi/introduce/introduce_02List.do",
       "api_verification_state": "documented_key_required_untested_restricted_custom_terms",
       "latest_checked_utc": "2026-10-16T20:33:53.878831+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "kyoto-geomagnetic-hapi",
+      "provider": "World Data Center for Geomagnetism, Kyoto University",
+      "service_name": "WDC Kyoto HAPI geomagnetic metadata/time-series service",
+      "geographic_coverage": "Global observatory/geomagnetic indices with individual station/date/source coverage; source-specific rights",
+      "topical_coverage": "astronomy | geospatial | climate/weather/environment | research",
+      "dataset_families": "Dst, AE, ASY/SYM, Kp/ap, Q/D-days and observatory hourly/minute/7.5second/second data;1054catalog descriptors, no observations",
+      "documentation_url": "https://wdc.kugi.kyoto-u.ac.jp/hapi/ | https://wdc.kugi.kyoto-u.ac.jp/wdc/Sec3.html",
+      "api_base_url": "https://wdc.kugi.kyoto-u.ac.jp/hapi/",
+      "format_protocol": "HAPI3.3.1 JSONcapabilities/catalog verified; CSV/JSON/IAGA2002/WDC output documented fordata, nottested",
+      "authentication": "Anonymous capabilities/catalog succeeded; no credentials used",
+      "free_access_restrictions": "Scientific use and attribution; geomagnetic indices commercialuse prohibited. Quicklookpublication requirespriorcontact; observatorycommercialpermissions fromoriginalinstitutes, notobtained.",
+      "license": "Restricted scientific use; commercial geomagnetic-index applications prohibited, observatoryowner permissions separate",
+      "license_url": "https://wdc.kugi.kyoto-u.ac.jp/wdc/Sec3.html",
+      "api_verification_state": "Native root/policy/HAPIguide200HTML. Exactcapabilities/catalog200validJSONHAPI3.3.1,status1200OK,1054descriptorIDs. No /data,/info,availability,plots/time-series/files.",
+      "latest_checked_utc": "2026-10-18T05:15:07.079908+00:00",
       "classification": "restricted"
     },
     {
