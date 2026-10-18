@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:21:37.861432+00:00",
+  "published_at": "2026-10-18T02:23:40.437757+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:20:47.397494+00:00",
+  "research_updated_at": "2026-10-18T02:22:53.406103+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine re3data tasks reviewed plus2PSICQUICaliases reconciled;8newservices. BCO-DMOdefaultBY4scoped/2705IDs, InnateDBcuratedDSL/countverified; SAFER434refs/FIDXMLformats indexed. Source exceptions/API/coverage queues unfinished.",
+  "latest_milestone": "Ridge2000/MARGINS deduplicated into existing MGDS; native defaultNC/source-specific terms distinguished; NDSF imagery/access restrictions verified.",
   "counts": {
     "verified": 336,
     "candidates": 743,
-    "excluded": 206,
+    "excluded": 207,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -26857,19 +26857,19 @@
     {
       "identifier": "mgds-seismic-catalog",
       "provider": "Marine Geoscience Data System / Lamont-Doherty Earth Observatory",
-      "service_name": "MGDS catalog, seismic metadata and web services",
+      "service_name": "MGDS marine geoscience catalog and metadata APIs",
       "geographic_coverage": "Global scientific observations; individual dataset coverage varies",
       "topical_coverage": "oceans | geospatial | research",
-      "dataset_families": "Marine seismic cruises, line/station events and associated geoscience metadata; separate MGDS data services",
-      "documentation_url": "https://marine-geo.org/tools/web_services.php",
+      "dataset_families": "Marine seismic metadata and catalogues; Ridge2000/MARGINS collection views; documented global station/line/launch-event WFS and vocabulary/search/file-metadata services",
+      "documentation_url": "https://www.marine-geo.org/tools/web_services.php",
       "api_base_url": "https://marine-geo.org/services/",
       "format_protocol": "REST XML; documented OGC WFS and file metadata/search interfaces",
       "authentication": "Anonymous documented seismic XML sample succeeded; other operations untested",
       "free_access_restrictions": "unknown source-specific access conditions",
-      "license": "CC BY-NC-SA 3.0 US for data and metadata presented on MGDS pages",
-      "license_url": "https://www.marine-geo.org/about/legal.php",
-      "api_verification_state": "Native service docs HTTP200; EW0207 XML metadata sample HTTP200 and parsed",
-      "latest_checked_utc": "2026-10-18T00:44:11.788671+00:00",
+      "license": "Native legal page BY-NC-SA3US default; current terms defer to individual dataset/external-provider licences",
+      "license_url": "https://www.marine-geo.org/about/legal.php | https://www.marine-geo.org/about/terms_of_use.php",
+      "api_verification_state": "Existing native seismic XML sample preserved. Current service docs/legal/terms/collections HTTP200. New documented WFS GetCapabilities HTTP200validWFSXML.",
+      "latest_checked_utc": "2026-10-18T02:22:49.206749+00:00",
       "classification": "restricted"
     },
     {
@@ -27032,6 +27032,24 @@
       "license_url": "https://ndacc.larc.nasa.gov/about/protocols/data-users",
       "api_verification_state": "official_portal_and_current_policy_verified_public_query_API_unestablished",
       "latest_checked_utc": "2026-10-17T19:12:44.276122+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ndsf-data-access-portal",
+      "provider": "Woods Hole Oceanographic Institution / National Deep Submergence Facility",
+      "service_name": "NDSF vehicle data access and archive portal",
+      "geographic_coverage": "Global deep-submergence expeditions using Alvin, Jason and Sentry; cruise/vehicle coverage varies",
+      "topical_coverage": "oceans | environment | biodiversity | geospatial | research",
+      "dataset_families": "Vehicle dive metadata, imagery/video, instrument/navigation products and archive access; subset served by distinct MGDS APIs",
+      "documentation_url": "https://ndsf.whoi.edu/data/ndsf-data-policy/",
+      "api_base_url": "",
+      "format_protocol": "Public portal/archive requests and delegated MGDS discovery; exact independent NDSF query API unverified",
+      "authentication": "Embargo assignments in signed cruise data receipt; NSF maximum2years, other funders vary. No application/request/login used",
+      "free_access_restrictions": "Imagery NC/sharealike; commercial licence fees may apply. Embargoed data limited to Chief Scientist/designated users; classified material exception. Public access distinct from reuse rights.",
+      "license": "CC BY-NC-SA4for NDSF/WHOI imagery; other source grants/access conditions vary",
+      "license_url": "https://ndsf.whoi.edu/data/ndsf-data-policy/",
+      "api_verification_state": "Native homepage and data policy HTTP200HTML; public subset delegated to existing MGDS, exact standalone NDSF API not verified or sampled.",
+      "latest_checked_utc": "2026-10-18T02:22:49.206749+00:00",
       "classification": "restricted"
     },
     {
