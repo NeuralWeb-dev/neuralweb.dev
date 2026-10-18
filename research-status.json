@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:35:55.291610+00:00",
+  "published_at": "2026-10-18T23:37:58.392913+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:34:09.648680+00:00",
+  "research_updated_at": "2026-10-18T23:37:34.688967+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: DANDI metadataCC0 and QTL/MPD contributorwaiver/documentedREST; CDD/dbSNP/caNanoLab source/APIgaps; SciencePhoto restricted.",
+  "latest_milestone": "NOMADCC0/BY4/OPTIMADEinfoJSON and122documentedoperations; NISTtenchilddirectoryleads; DARECLIMEDrestrictedLAS.",
   "counts": {
-    "verified": 497,
-    "candidates": 1432,
-    "excluded": 411,
+    "verified": 498,
+    "candidates": 1433,
+    "excluded": 412,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -12924,6 +12924,24 @@
       "license_url": "https://docs.opendatahub.com/licensing",
       "api_verification_state": "prior_native_JSON_sample_success_full_metadata_inventory_scoped_CC0_current_docs_rechecked_no_reenumeration",
       "latest_checked_utc": "2026-10-17T15:34:22.834159+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "nomad-materials-rest-optimade",
+      "provider": "NOMAD / FAIRmat / Max Planck Society",
+      "service_name": "NOMAD production REST and OPTIMADE APIs",
+      "geographic_coverage": "International computational and experimental materials science archive",
+      "topical_coverage": "research | energy | environment",
+      "dataset_families": "Published materials-science entry/dataset discovery and metadata; private/restricted uploads distinct; no structures or scientific values queried",
+      "documentation_url": "https://nomad-lab.eu/prod/v1/api/v1/extensions/docs | https://nomad-lab.eu/backend/api/v1/openapi.json | https://nomad-lab.eu/prod/v1/optimade/v1/extensions/docs | https://nomad-lab.eu/backend/optimade/v1/extensions/openapi.json",
+      "api_base_url": "https://nomad-lab.eu/backend/api/v1 | https://nomad-lab.eu/backend/optimade/v1",
+      "format_protocol": "Native REST OpenAPI3.1 and OPTIMADE/OpenAPI3.1, HTTPJSON/JSON:API. REST94paths/107operations; OPTIMADE15GETpaths including versioned/unversioned aliases.",
+      "authentication": "Anonymous OPTIMADEv1/info200validJSON. Management/uploads require account and permissions; nativeRESTschema OAuthsecurity must not imply allGETs unauthenticated.",
+      "free_access_restrictions": "Native free service/publisheddata access; significanttools/uploads require registration, privatecontent restricted. No account/key/softwaredeployment/jobs.",
+      "license": "CC0 metadata unless otherwise specified; CC BY4 open-access content",
+      "license_url": "https://nomad-lab.eu/nomad-lab/terms.html",
+      "api_verification_state": "Native home/terms and bothSwaggerUIs200. Exact schemas resolved from embeddedpublishedURL: nativeREST /backend/api/v1/openapi.json and OPTIMADE /backend/optimade/v1/extensions/openapi.json, both200validuntruncatedOpenAPI3.1. DocumentedOPTIMADE/v1/info200applicationJSON withdata/meta and servicecapability attributes, noerrors. No structures/references/sourceentry query or mutating operation invoked.",
+      "latest_checked_utc": "2026-10-18T23:37:29.981408+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -30443,6 +30461,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nist-pml-physical-reference-directory",
+      "provider": "US National Institute of Standards and Technology / PML",
+      "service_name": "NIST Physical Reference Data discovery directory",
+      "geographic_coverage": "International scientific reference data, US NIST maintained",
+      "topical_coverage": "research | astronomy | energy | health",
+      "dataset_families": "Ten native subject-directory references: elemental/periodic/constants/atomic/molecular/xray/radiation/nuclear/condensedmatter families; not ten APIs",
+      "documentation_url": "https://www.nist.gov/pml/productsservices/physical-reference-data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.nist.gov/disclaimer",
+      "api_verification_state": "Native directory/disclaimer200HTML; no single networkAPI/base/schema for directory established. Ten named native category references indexed as discoveryleads, not verified childAPIs.",
+      "latest_checked_utc": "2026-10-18T23:37:29.981408+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nist-resource-metadata-api",
       "provider": "National Institute of Standards and Technology",
       "service_name": "Resource Metadata Management API",
@@ -43420,6 +43456,24 @@
       "license_url": "https://researchguides.case.edu/c.php?g=1339746&p=10784481",
       "api_verification_state": "native_operator_rights_policy_NC_preference_and_copyright_conditions_verified_original_JS_shell_query_API_unconfirmed",
       "latest_checked_utc": "2026-10-17T21:14:06.318185+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "cyprus-dareclimed-las",
+      "provider": "The Cyprus Institute",
+      "service_name": "DARECLIMED regional climate/water/energy LAS repository",
+      "geographic_coverage": "Eastern Mediterranean and Middle East regional climate/water/energy focus",
+      "topical_coverage": "climate | environment | water | energy | agriculture | economics | demographics",
+      "dataset_families": "Climate/water/energy core; fire emissions, land-use/agriculture, population/economy discovery categories; no environmentalsourcevalues acquired",
+      "documentation_url": "https://www.cyi.ac.cy/index.php/dareclimed-data-repository.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Provider-mediated access/contact required for LAS; no contact/account/access request performed",
+      "free_access_restrictions": "Restricted provider-controlled LAS access; actual price/eligibility unknown",
+      "license": "Managed restricted LAS access; no formal open data grant verified",
+      "license_url": "https://www.cyi.ac.cy/index.php/dareclimed-data-repository.html",
+      "api_verification_state": "Native page200documents LAS visualization/subsets/formats, but exact current deployed networkAPI/base/schema/runtime unknown. Generic NOAA LAS/NetCDF ingestion guide does not prove Cyprus deployment/openAPI.",
+      "latest_checked_utc": "2026-10-18T23:37:29.981408+00:00",
       "classification": "restricted"
     },
     {
