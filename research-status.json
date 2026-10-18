@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:11:50.097024+00:00",
+  "published_at": "2026-10-18T08:13:53.532941+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:10:12.718691+00:00",
+  "research_updated_at": "2026-10-18T08:12:54.298114+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals: MGIscopedBY4grant verified/MouseMine202unresolved; MGDSWFS3schemas; DeReKo restrictions; Murray/LINDAT/RCMD/NAHDAPdedups andNACDA/ROSATcandidates.",
+  "latest_milestone": "UCSC239assemblyJSONreferences verified/rights scopedunresolved; RES3Tnative restrictions verified; IGSR11operations documented, sourcegrants/runtime unresolved.",
   "counts": {
     "verified": 381,
-    "candidates": 931,
-    "excluded": 274,
+    "candidates": 933,
+    "excluded": 275,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -18541,6 +18541,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "igsr-public-api",
+      "provider": "International Genome Sample Resource / EMBL-EBI",
+      "service_name": "IGSR public API / 1000 Genomes resource",
+      "geographic_coverage": "International human variation reference collections; actual populations/individuals not queried or enumerated",
+      "topical_coverage": "research | health | demographics",
+      "dataset_families": "Owner-documented samples/populations/data collections/analysisgroups/files; public API specification only reviewed",
+      "documentation_url": "https://www.internationalgenome.org/docs",
+      "api_base_url": "https://www.internationalgenome.org/api/beta/",
+      "format_protocol": "OpenAPIJSONverified; documented GET/POSTsearch/export paths, no biological data operation executed",
+      "authentication": "Public API described; spec inspected only, peroperation access/runtime untested. No credentials acquired/used.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.internationalgenome.org/IGSR_disclaimer/",
+      "api_verification_state": "Nativehome/help/docs200; exactSwagger-linked /api/openapi.json200validJSON11operation descriptors. No sample/population/file/data request executed.",
+      "latest_checked_utc": "2026-10-18T08:12:49.743141+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ilc-cnr-clarinit-repository",
       "provider": "ILC-CNR for CLARIN-IT",
       "service_name": "ILC-CNR DSpace repository REST API",
@@ -26443,6 +26461,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ucsc-genome-browser-api",
+      "provider": "University of California Santa Cruz Genome Browser",
+      "service_name": "UCSC Genome Browser REST API",
+      "geographic_coverage": "Multi-organism reference genome assemblies; international research contributions, not population geography",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Genome assembly catalogue; documented track/schema/chromosome/sequence/search interfaces, only assembly references requested",
+      "documentation_url": "https://genome.ucsc.edu/goldenPath/help/api.html",
+      "api_base_url": "https://api.genome.ucsc.edu/",
+      "format_protocol": "RESTJSON; anonymous assembly catalogue GET verified",
+      "authentication": "No credentials for successful assembly metadata GET; other APIs/tracks untested",
+      "free_access_restrictions": "Native licensing permits website/API commercial/academic use, distinguishing downloadable software. Data contributor/source exceptions and liftOverchainNC restrictions retained.",
+      "license": "Custom free public/commercial data-use statement with source/track exceptions; exact catalogue/source grant scope unresolved",
+      "license_url": "https://genome.ucsc.edu/license/ | https://genome.ucsc.edu/conditions.html",
+      "api_verification_state": "Native docs/conditions/licensing200; assemblylistGET200validJSON239references. No scientific/clinical/sequence/track source queries.",
+      "latest_checked_utc": "2026-10-18T08:12:49.743141+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "udea-research-data-repository",
       "provider": "Universidad de Antioquia / Sistema de Bibliotecas",
       "service_name": "Repositorio de Datos de Investigación UdeA",
@@ -33192,6 +33228,24 @@
       "license_url": "https://data.bs.ch/terms/terms-and-conditions/ | https://data.bs.ch/explore/dataset/100189/information/",
       "api_verification_state": "historical_catalog_metadata_sample_success_current_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:33:40.805266+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "res3t-sorption-thermodynamics",
+      "provider": "Helmholtz-Zentrum Dresden-Rossendorf",
+      "service_name": "RES3T surface and sorption thermodynamics database",
+      "geographic_coverage": "Mineral/surface sorption thermodynamic reference research; exact worldwide source coverage unenumerated",
+      "topical_coverage": "research | environment | water",
+      "dataset_families": "Surface/sorption thermodynamic constants and mineral reference database",
+      "documentation_url": "https://www.hzdr.de/db/res3t.login",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom restrictive database licence; reproduction/distribution/derivatives prohibited",
+      "license_url": "https://www.hzdr.de/db/RES3T.disclaimer",
+      "api_verification_state": "Native landing/disclaimer200HTML; no documented exact read-only API/runtime verified",
+      "latest_checked_utc": "2026-10-18T08:12:49.743141+00:00",
       "classification": "restricted"
     },
     {
