@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T13:50:11.370181+00:00",
+  "published_at": "2026-10-18T13:52:14.728651+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T13:46:47.480113+00:00",
+  "research_updated_at": "2026-10-18T13:51:05.013805+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "LONIIDAcontrolled/atlaslicenceseparate;dbESTGenBankfamilydedup;ISSDAsafeguardedEUL/OAIunverified",
+  "latest_milestone": "ICSDlicensedAPIrestricted;IPNIBYdata/publicAPIunavailable/RDFuntested;AlphaFoldnativeBY4/APIUIkeyedschemauntested",
   "counts": {
-    "verified": 417,
-    "candidates": 1060,
-    "excluded": 316,
+    "verified": 418,
+    "candidates": 1061,
+    "excluded": 317,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -6193,6 +6193,24 @@
       "license_url": "https://www.regionaalarchiefalkmaar.nl/over-ons/open-data",
       "api_verification_state": "Native public owner/API/rights pageHTTP200. Genealogy OAI Identify, formats and10 setsHTTP200 parsed XML; automatic service redirect retained. SeparateEAD request unsent by guard.",
       "latest_checked_utc": "2026-10-18T00:54:01.307832+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "alphafold-protein-structure-api",
+      "provider": "Google DeepMind / EMBL-EBI",
+      "service_name": "AlphaFold Protein Structure Database API",
+      "geographic_coverage": "Internationalpredictedproteinstructures acrossorganisms; release/cohort/proteomecoveragevaries",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Precomputedproteinstructurepredictions andassociateddatabaseinformation; notAlphaFoldmodel/code/weights/serverterms",
+      "documentation_url": "https://alphafold.ebi.ac.uk/api-docs | https://alphafold.ebi.ac.uk/",
+      "api_base_url": "https://alphafold.ebi.ac.uk/api/",
+      "format_protocol": "REST/OpenAPI UI documented; nativecontract/responseformat untested beyondUIconfiguration",
+      "authentication": "UI schema URLincludeskeyparameter; no runtimekeyaccessed/printed/used, noauthenticatedAPI/sourcecall. AuthenticationforallAPIoperationsunknown, notinferredfromUIkey.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4.0 for AlphaFold DB data",
+      "license_url": "https://alphafold.ebi.ac.uk/",
+      "api_verification_state": "Nativehome/about/API/FAQ200HTML; homeactualBY4licenceparagraph read, FAQ/APIcontentclient-renderedshellnotAPIresponse. Exactlinkedmainbundle/lazySwaggercomponent200readastextonly; schemaURLkey-bearing, unrequested. No APIJSON/schema/predictionruntime sample.",
+      "latest_checked_utc": "2026-10-18T13:50:53.590983+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20868,6 +20886,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ipni-linked-data-access",
+      "provider": "Royal Botanic Gardens Kew / Harvard University Herbaria / Australian National Herbarium",
+      "service_name": "International Plant Names Index: RDF representations, public API unavailable",
+      "geographic_coverage": "Worldwidevascularplantnomenclature; institutionalUK/USA/Australia notonlydatasetcountries",
+      "topical_coverage": "biodiversity | research",
+      "dataset_families": "Plantname/author/publicationnomenclaturalmetadata, nottaxonomicoccurrences; RDFrepresentationsdocumentedbutunqueried",
+      "documentation_url": "https://www.ipni.org/about",
+      "api_base_url": "",
+      "format_protocol": "Documentedper-recordRDF/XML via/rdfsuffixorLSIDcontentnegotiation; no claimedcurrentpublicRESTqueryAPI",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY for IPNI data, version unspecified on native terms page",
+      "license_url": "https://www.ipni.org/terms-and-conditions",
+      "api_verification_state": "NativeIPNIroot/terms/about200HTML. Ownerexplicitcurrentlyno publiclyavailableAPI/betatrial, no projecteddateinferred. RDFresources/LSIDAcceptdocumentedbut no botanical/person/recordrequest. Kewlinkedsciencepolicytargetunsentunderrobotsguard.",
+      "latest_checked_utc": "2026-10-18T13:50:53.590983+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ireland-epa-safer-data",
       "provider": "Environmental Protection Agency Ireland",
       "service_name": "SAFER-Data environmental research archive",
@@ -34565,6 +34601,24 @@
       "license_url": "https://fishbaseapi.readme.io/reference/license | https://fishbase.se/search",
       "api_verification_state": "Native official/maintainer documentation reviewed; no successful machineAPI sample, details in notes",
       "latest_checked_utc": "2026-10-18T00:13:54.922793+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "fiz-icsd-licensed-api",
+      "provider": "FIZ Karlsruhe Leibniz Institute for Information Infrastructure",
+      "service_name": "Inorganic Crystal Structure Database licensed API service",
+      "geographic_coverage": "Internationalinorganiccrystallographyliterature/structures; institutionGermanynotdatasetcoverage",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Inorganiccrystalstructureknowledge database andlicensedsearch/download/analysisservice, no actualstructures queried",
+      "documentation_url": "https://icsd.products.fiz-karlsruhe.de/en/support/icsd-versions-and-licenses | https://icsd.products.fiz-karlsruhe.de/sites/default/files/ICSD/documents/terms/ICSD_API_AGB_E_2020.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Licensedcustomeraccessactivatedafterorder; currentexactAPIauthmechanismunknown. No login/password/order/free-trial/contractrequest.",
+      "free_access_restrictions": "Paidlicensedproduct/APIagreement; triallimitedtesting/evaluation andterms, notfreeopendata. No acquisition/payment/trialused.",
+      "license": "Paidlicensedcustomer/internal-use API/data terms; no open-data grant",
+      "license_url": "https://icsd.products.fiz-karlsruhe.de/sites/default/files/ICSD/documents/terms/ICSD_API_AGB_E_2020.pdf | https://icsd.products.fiz-karlsruhe.de/en/support/icsd-versions-and-licenses",
+      "api_verification_state": "Nativeproduct/licensing200HTMLand2020APItermsPDF200; successfulwebPDFreader3pages substantivepolicyreview. APIexistencedocumentedhistorically, noexactcurrentendpoint/schema/runtimeverified.",
+      "latest_checked_utc": "2026-10-18T13:50:53.590983+00:00",
       "classification": "restricted"
     },
     {
