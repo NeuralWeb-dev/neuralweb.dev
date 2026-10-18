@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:30:21.928777+00:00",
+  "published_at": "2026-10-18T16:32:25.899023+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:29:07.976029+00:00",
+  "research_updated_at": "2026-10-18T16:32:14.504769+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six institutional/aggregation originals reviewed; CORD/CERES migration and DaYta REST/FTP correction; API holds and source grant gaps retained; MDZ858000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to865pages/865000refs;2348503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 437,
-    "candidates": 1160,
+    "candidates": 1163,
     "excluded": 341,
     "sample_successes": 464
   },
@@ -19287,6 +19287,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ecrin-clinical-metadata",
+      "provider": "ECRIN European Clinical Research Infrastructure Network",
+      "service_name": "Clinical Research Metadata Repository crMDR",
+      "geographic_coverage": "Global clinical-research metadata aggregation documented by owner; exact current source coverage unenumerated",
+      "topical_coverage": "health | research",
+      "dataset_families": "Study/data-object discovery descriptions and access arrangements; underlying results may be public or restricted",
+      "documentation_url": "https://ecrin.org/clinical-research-metadata-repository",
+      "api_base_url": "https://crmdr.org/api/rest (registry claim only; current route unverified)",
+      "format_protocol": "Registry REST claim, current native API contract/schema unverified; disclaimer HTTP200 error shell",
+      "authentication": "Owner documents public scientific search without registration; API authentication unknown",
+      "free_access_restrictions": "Owner describes free public scientific search; source access can be restricted; API reuse/access policy unresolved",
+      "license": "Unknown actual effective metadata/database grant; registry public-domain claim unverified",
+      "license_url": "https://newmdr.ecrin.org/Disclaimer | https://ecrin.org/clinical-research-metadata-repository",
+      "api_verification_state": "Disclaimer HTTP200 HTML application error shell, not API or legal text. Independent owner root/service HTML200. Registry REST route not tested or confirmed as active.",
+      "latest_checked_utc": "2026-10-18T16:32:03.079957+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ecuador",
       "provider": "Ecuador National Open Data Portal",
       "service_name": "Datos Abiertos Ecuador catalog portal",
@@ -23962,8 +23980,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across858successfulpages/858000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:25:30.444346+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across865successfulpages/865000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T16:32:09.631770+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27438,6 +27456,24 @@
       "license_url": "https://pacificdata.org/terms-use",
       "api_verification_state": "documented_nonproduction_structure_metadata_sample_success",
       "latest_checked_utc": "2026-10-16T22:04:27.506850+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pacifico-research-datasets",
+      "provider": "Universidad del Pacifico Peru",
+      "service_name": "Datasets UP research-data repository",
+      "geographic_coverage": "Peru institutional research; source geography varies",
+      "topical_coverage": "research | education | economics/finance",
+      "dataset_families": "Research data supporting institutional projects; quantitative/qualitative/geospatial and other research objects described by owner",
+      "documentation_url": "https://up-pe.libguides.com/datasetsup",
+      "api_base_url": "https://datasets.up.edu.pe/oai",
+      "format_protocol": "Registry Dataverse OAI-PMH/REST; native guide confirms repository identity, current XML untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Uniform metadata grant unknown; registry CC0 points to generic community norms",
+      "license_url": "https://up-pe.libguides.com/datasetsup | https://up-pe.libguides.com/ld.php?content_id=67975108",
+      "api_verification_state": "Original OAI guard-deferred unsent; owner guide200 HTML; linked policy guard-deferred and deposit unsent. Independent web document reader also inaccessible, no successful API response.",
+      "latest_checked_utc": "2026-10-18T16:32:03.079957+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32172,6 +32208,24 @@
       "license_url": "https://umwelt.info/en/article/about-the-metadataexport",
       "api_verification_state": "Original metadata-export documentation guard-deferred unsent; official indexed functionality summary only. No Swagger/CKAN/count/source request performed.",
       "latest_checked_utc": "2026-10-18T06:49:44.283509+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unab-chile-research-data",
+      "provider": "Universidad Andres Bello Chile",
+      "service_name": "Repositorio de Datos de Investigacion UNAB Chile",
+      "geographic_coverage": "Chile institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and associated descriptions",
+      "documentation_url": "https://biblioteca.unab.cl/ciencia-abierta/",
+      "api_base_url": "https://repositoriodedatos.unab.cl/oai",
+      "format_protocol": "Registry Dataverse OAI-PMH/REST; current wire contract untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Uniform metadata grant unknown; registry BY4 unverified",
+      "license_url": "https://biblioteca.unab.cl/ciencia-abierta/",
+      "api_verification_state": "Original OAI guard-deferred unsent; owner page403; separately saved indexed-primary review, no successful API sample.",
+      "latest_checked_utc": "2026-10-18T16:32:03.079957+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
