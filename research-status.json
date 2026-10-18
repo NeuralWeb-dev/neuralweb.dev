@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T06:43:45.967357+00:00",
+  "published_at": "2026-10-18T06:45:49.151593+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:40:51.533795+00:00",
+  "research_updated_at": "2026-10-18T06:45:24.395486+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NIDDK/LASA native controlled-access policies and DrugBank indexed licensed access classified restricted; CCKP indexed BY4/current API clarification retained without query.",
+  "latest_milestone": "Nine original tasks reviewed: JHTDB ODC-By/WSDL48 operations and IDS OAI verified; native/indexed licensing and source holds retained.",
   "counts": {
-    "verified": 367,
-    "candidates": 885,
+    "verified": 368,
+    "candidates": 887,
     "excluded": 264,
     "sample_successes": 465
   },
@@ -58,6 +58,7 @@
           "unsd",
           "wdcrre-resources-environment",
           "wfp",
+          "worldbank-climate-knowledge-portal",
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
@@ -122,7 +123,8 @@
           "ocha-hapi",
           "plant-adaptation-hub",
           "wdcrre-resources-environment",
-          "wfp"
+          "wfp",
+          "worldbank-climate-knowledge-portal"
         ],
         "restricted_provider_ids": [
           "bugwood-image-network-api",
@@ -230,7 +232,8 @@
           "wdcrre-resources-environment",
           "whoi-argo-program",
           "whoi-seafloor-samples-lab",
-          "whoi-upper-ocean-processes"
+          "whoi-upper-ocean-processes",
+          "worldbank-climate-knowledge-portal"
         ],
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
@@ -296,7 +299,8 @@
           "usgs-sciencebase-catalogue",
           "wdcrre-resources-environment",
           "whoi-argo-program",
-          "whoi-upper-ocean-processes"
+          "whoi-upper-ocean-processes",
+          "worldbank-climate-knowledge-portal"
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
@@ -325,7 +329,8 @@
           "openei-urdb",
           "undata-official-sdmx-api",
           "usgs-sciencebase-catalogue",
-          "world-stress-map-oai"
+          "world-stress-map-oai",
+          "worldbank-climate-knowledge-portal"
         ],
         "restricted_provider_ids": [
           "bsrn-wrmc-radiation-archive",
@@ -814,7 +819,8 @@
           "usno-astronomical-applications-api",
           "wdcrre-resources-environment",
           "wellcome-collection",
-          "wfp"
+          "wfp",
+          "worldbank-climate-knowledge-portal"
         ],
         "restricted_provider_ids": [
           "bnf-gallica",
@@ -1033,7 +1039,8 @@
           "whoi-argo-program",
           "whoi-seafloor-samples-lab",
           "whoi-upper-ocean-processes",
-          "world-stress-map-oai"
+          "world-stress-map-oai",
+          "worldbank-climate-knowledge-portal"
         ],
         "restricted_provider_ids": [
           "acled",
@@ -2195,6 +2202,7 @@
           "eurocat-controlled-research-data",
           "german-statistical-rdc",
           "hunt-health-study",
+          "lasa-amsterdam-controlled-data",
           "neps-survey-research-access",
           "rki-research-data-centre",
           "share-eric-research-data",
@@ -2617,6 +2625,7 @@
           "eurocat-controlled-research-data",
           "german-statistical-rdc",
           "hunt-health-study",
+          "lasa-amsterdam-controlled-data",
           "rki-research-data-centre",
           "share-eric-research-data",
           "ship-pomerania-cohort-access",
@@ -2714,6 +2723,7 @@
           "puglia-open-data-catalog",
           "registry-opendata-aragon-es",
           "roderic-uv-repository",
+          "saarland-clarind-language-repository",
           "saw-leipzig-fcs",
           "serbia-rzs",
           "surf-data-repository",
@@ -3200,6 +3210,7 @@
           "rigsarkivet-born-digital-portal",
           "rijksmuseum",
           "roderic-uv-repository",
+          "saarland-clarind-language-repository",
           "sardinia-geospatial-wfs",
           "saw-leipzig-fcs",
           "serbia-rzs",
@@ -3367,6 +3378,7 @@
           "rivmdata-geonetwork",
           "rki-antimicrobial-surveillance",
           "roderic-uv-repository",
+          "saarland-clarind-language-repository",
           "saw-leipzig-fcs",
           "seadatanet-cdi-discovery-network",
           "surf-data-repository",
@@ -3409,6 +3421,7 @@
           "heidicon-object-multimedia-repository",
           "hunt-health-study",
           "indexs-exsiccatae-api",
+          "lasa-amsterdam-controlled-data",
           "lindat-fcs",
           "maribor-dkum-oai",
           "meertens-collections-portal",
@@ -8862,6 +8875,24 @@
       "license_url": "https://www.gov.je/ServiceManual/opendata/Pages/open-government-licence-jersey-ogl-j-v1-0.aspx",
       "api_verification_state": "official_indexed_CKAN_API_documented_full_OGL_J1_scoped_verified_first_sample_policy_held",
       "latest_checked_utc": "2026-10-17T11:46:38.767167+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "johns-hopkins-turbulence-database",
+      "provider": "Johns Hopkins University / JHTDB",
+      "service_name": "Johns Hopkins Turbulence Databases SOAP service",
+      "geographic_coverage": "Numerical turbulence simulations; domain geometry varies by dataset, not geographic population coverage",
+      "topical_coverage": "research | energy | climate/weather/environment",
+      "dataset_families": "Turbulence simulation database and pointwise scientific retrieval operations; individual simulation files not acquired",
+      "documentation_url": "https://turbulence.idies.jhu.edu/home | https://turbulence.idies.jhu.edu/citing",
+      "api_base_url": "https://turbulence.pha.jhu.edu/service/turbulence.asmx",
+      "format_protocol": "Native WSDL/SOAP XML, scientific data operations not invoked",
+      "authentication": "Anonymous WSDL GET succeeds. Indexed owner access page describes test-token small requests and separately requested authorization; no token value retained/used.",
+      "free_access_restrictions": "Owner indexed test access described below4096points; larger/current operational quotas and credentials not tested. No token request/contact/payment.",
+      "license": "Open Data Commons Attribution License1.0, JHTDB database-rights scope",
+      "license_url": "https://turbulence.idies.jhu.edu/citing | https://opendatacommons.org/licenses/by/1.0/",
+      "api_verification_state": "Native home/citing and ODC overview/full legal text200; exact SOAP WSDL200 parsed valid WSDL definitions,144declarations/48unique operation names. Schema success only, no simulation data response.",
+      "latest_checked_utc": "2026-10-18T06:43:42.824167+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18461,6 +18492,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "iubio-biology-archive",
+      "provider": "IUBio Archive / Indiana University historical Genome Informatics Lab",
+      "service_name": "IUBio biological data and software archive",
+      "geographic_coverage": "International molecular biology resources and historical BIOSCI/Bionet discussion archive",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Biology software/sequence mirrors and historical resource links; BIOSCI/Bionet terms are a separate source family",
+      "documentation_url": "http://iubioarchive.bio.net/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Bionet policy says no service fees; current source access and quotas not verified",
+      "license": "unknown verified data grant",
+      "license_url": "http://iubioarchive.bio.net/bionet/docs/biosci-termsofuse.html",
+      "api_verification_state": "Native root and linked registry terms200HTML; FTP/archive and web search links not a verified active query API",
+      "latest_checked_utc": "2026-10-18T06:43:42.824167+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ivs-vlbi-data-portal",
       "provider": "International VLBI Service for Geodesy and Astrometry / NASA coordinating center and international partners",
       "service_name": "IVS data/product discovery and mirror distribution portal",
@@ -22436,6 +22485,24 @@
       "license_url": "https://portulanclarin.net/agreement/",
       "api_verification_state": "registry_claimed_OAI_endpoint_returns_maintenance_HTML_not_API_response",
       "latest_checked_utc": "2026-10-17T03:04:42.888056+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pride-proteomics-archive-api",
+      "provider": "EMBL-EBI PRIDE team",
+      "service_name": "PRIDE Archive REST API",
+      "geographic_coverage": "International proteomics submissions; individual dataset geography and study scope vary",
+      "topical_coverage": "health | research",
+      "dataset_families": "Proteomics project/file/statistics metadata and deposited results; no project/sample/source files queried",
+      "documentation_url": "https://www.ebi.ac.uk/pride/ws/archive/v2/docs/api-guide.html",
+      "api_base_url": "https://www.ebi.ac.uk/pride/ws/archive/v3/",
+      "format_protocol": "REST documented; v2 Swagger URL redirects to v3 Swagger UI HTML",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Indexed owner CC0 for submissions from June2018; native policy application shell, historical scope unresolved",
+      "license_url": "https://www.ebi.ac.uk/pride/markdownpage/license | https://github.com/orgs/PRIDE-Archive/discussions/16",
+      "api_verification_state": "Native root/licence shells200; owner v2 guide200, v2 Swagger redirects to v3 UI200. Adjacent initializer is default Petstore template, not PRIDE OpenAPI proof. No API JSON/count/source response verified.",
+      "latest_checked_utc": "2026-10-18T06:43:42.824167+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
