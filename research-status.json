@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T14:59:55.617200+00:00",
+  "published_at": "2026-10-18T15:01:58.544228+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:59:40.307009+00:00",
+  "research_updated_at": "2026-10-18T15:00:20.140191+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MDZ collectionfrontier advanced to704pages/704000refs;2509503reportedremaining,rightsnotcleared.",
+  "latest_milestone": "Six originals: Opole nativeNC; UNISIMON portal facets/APIguard; classicFCP/PCODR/OSSR/Maenduar dedup with scopedrights; MDZ704000 incomplete.",
   "counts": {
     "verified": 429,
     "candidates": 1096,
@@ -2045,7 +2045,8 @@
           "openei-urdb",
           "registry-dados-pbh-gov-br",
           "tce-pe-open-data-api",
-          "tce-sp-municipal-transparency-api"
+          "tce-sp-municipal-transparency-api",
+          "unisimon-research-data"
         ],
         "restricted_provider_ids": []
       },
@@ -2056,7 +2057,8 @@
         ],
         "candidate_provider_ids": [
           "cdha-study-resource-directory",
-          "goias-state-ckan-api"
+          "goias-state-ckan-api",
+          "unisimon-research-data"
         ],
         "restricted_provider_ids": []
       },
@@ -2139,7 +2141,8 @@
           "montevideo-beaches",
           "opendatasus",
           "registry-dados-df-gov-br",
-          "ufg-research-dataverse"
+          "ufg-research-dataverse",
+          "unisimon-research-data"
         ],
         "restricted_provider_ids": []
       },
@@ -2157,6 +2160,7 @@
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
+          "unisimon-research-data",
           "university-aruba-open-repository",
           "upn-institutional-repository",
           "usach-research-data-repository"
@@ -2326,6 +2330,7 @@
           "uca-argentina-institutional-repository",
           "udea-research-data-repository",
           "ufg-research-dataverse",
+          "unisimon-research-data",
           "university-aruba-open-repository",
           "upn-institutional-repository",
           "usach-research-data-repository"
