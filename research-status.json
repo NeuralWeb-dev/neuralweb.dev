@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T01:12:04.684670+00:00",
+  "published_at": "2026-10-18T01:14:07.408198+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:10:13.812024+00:00",
+  "research_updated_at": "2026-10-18T01:13:39.388017+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "CLARIAHHALJSON andDLREOCSTAC69collections verified; GWPCCBY4scopedopen, EVIArestricted andWDCAPI/rightsresiduals retained.",
+  "latest_milestone": "Twelve original tasks reviewed: twelve records added, WorldBank updated. DLRGWPCCBY4/STAC69collections, CLARIAHHAL andMarlinXML verified; conflicts/holds/source restrictions preserved.",
   "counts": {
     "verified": 328,
-    "candidates": 708,
+    "candidates": 711,
     "excluded": 184,
     "sample_successes": 468
   },
@@ -89,6 +89,7 @@
       "agriculture": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "dlr-eoc-geoservice",
           "worldbank"
         ],
         "candidate_provider_ids": [
@@ -117,6 +118,7 @@
           "bgs",
           "cchdo",
           "datacommons",
+          "dlr-eoc-geoservice",
           "earthscope-geodetic-web-services",
           "emodnet",
           "esgf-cmip5-discovery",
@@ -138,6 +140,7 @@
         ],
         "candidate_provider_ids": [
           "argo-gdac-data-interfaces",
+          "auscope-earthbank",
           "china-national-earth-observation-center",
           "cifor-icraf",
           "copernicus-stac",
@@ -145,6 +148,7 @@
           "dataone",
           "dataterra-eosc-resource-catalogue",
           "deadtrees-earth-api",
+          "dlr-wdc-rsat",
           "earthchem-library-repository",
           "esa-ecology",
           "esa-heritage-mission-data-discovery",
@@ -202,12 +206,14 @@
           "open-meteo",
           "openaq",
           "senckenberg-research-metadata-portal",
-          "wdcgg-greenhouse-gases"
+          "wdcgg-greenhouse-gases",
+          "wrdc-radiation-centre"
         ]
       },
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "dlr-eoc-geoservice",
           "earthscope-geodetic-web-services",
           "emodnet",
           "geri",
@@ -261,7 +267,8 @@
         "restricted_provider_ids": [
           "bsrn-wrmc-radiation-archive",
           "gtap-current-database",
-          "un-comtrade"
+          "un-comtrade",
+          "wrdc-radiation-centre"
         ]
       },
       "health": {
@@ -383,6 +390,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "bgs",
+          "dlr-eoc-geoservice",
           "earthbyte-gplates-web-service",
           "earthscope-geodetic-web-services",
           "earthscope-seismic-web-services",
@@ -409,6 +417,7 @@
         ],
         "candidate_provider_ids": [
           "aiddata-development-data",
+          "auscope-earthbank",
           "china-national-earth-observation-center",
           "copernicus-stac",
           "dataone",
@@ -596,6 +605,7 @@
         "candidate_provider_ids": [
           "amda-space-plasma-rest",
           "csiro-data-access-portal",
+          "dlr-wdc-rsat",
           "hek-event-registry",
           "helioviewer-api",
           "icgem-gravity-model-portal",
@@ -620,6 +630,7 @@
           "cleveland-art",
           "columbia-academic-commons-api",
           "dariah-de-repository-oai",
+          "dlr-eoc-geoservice",
           "dnb-sru-oai-metadata",
           "fdat-tuebingen-metadata-api",
           "getty-provenance",
@@ -689,6 +700,7 @@
           "crossref",
           "dariah-de-repository-oai",
           "datacite",
+          "dlr-eoc-geoservice",
           "dnb-sru-oai-metadata",
           "doaj",
           "dryad",
@@ -749,6 +761,7 @@
           "argo-gdac-data-interfaces",
           "arizona-campus-repository",
           "artic",
+          "auscope-earthbank",
           "biostudies",
           "checklistbank",
           "china-national-earth-observation-center",
@@ -762,6 +775,7 @@
           "deadtrees-earth-api",
           "dhs-spatial-data-repository",
           "digis-repository-interfaces",
+          "dlr-wdc-rsat",
           "drks-german-clinical-trials-register",
           "earthchem-library-repository",
           "earthscope-sponsored-miniseed-object-repository",
@@ -869,6 +883,7 @@
           "un-comtrade",
           "wdcgg-greenhouse-gases",
           "who-icd-api",
+          "wrdc-radiation-centre",
           "xenbase-model-organism-services"
         ]
       }
@@ -1999,6 +2014,7 @@
         "verified_provider_ids": [
           "andalusia-open-data",
           "croatia-statistics",
+          "dlr-eoc-geoservice",
           "estonia-statistics",
           "eurostat",
           "georgia-statistics",
@@ -2037,6 +2053,7 @@
           "bristol-open-data",
           "cefas",
           "croatia-statistics",
+          "dlr-eoc-geoservice",
           "ea-asset-management",
           "ea-catchment-data",
           "ea-ecology-and-fish-data",
@@ -2136,6 +2153,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "dlr-eoc-geoservice",
           "ea-asset-management",
           "ea-catchment-data",
           "ea-ecology-and-fish-data",
@@ -2465,6 +2483,7 @@
           "austria-breitband-wmts",
           "bgs",
           "bristol-open-data",
+          "dlr-eoc-geoservice",
           "ea-asset-management",
           "ea-catchment-data",
           "ea-ecology-and-fish-data",
@@ -2706,6 +2725,7 @@
           "clarin-pl",
           "croatia-statistics",
           "dariah-de-repository-oai",
+          "dlr-eoc-geoservice",
           "dnb",
           "ecienciadatos-madrono-metadata",
           "estonia-statistics",
@@ -2825,6 +2845,7 @@
           "croatia-statistics",
           "dariah-de-repository-oai",
           "darus",
+          "dlr-eoc-geoservice",
           "dnb",
           "ecbd-chemical-biology-api",
           "ecienciadatos-madrono-metadata",
@@ -4195,8 +4216,10 @@
           "aims-data-platform",
           "aims-metadata-catalog",
           "anu-data-commons-repository",
+          "auscope-earthbank",
           "brisbane-open-data",
           "csiro-data-access-portal",
+          "csiro-marlin-metadata",
           "data-wa-catalogue-api",
           "esa-ecology",
           "esgf-dkrz-discovery",
@@ -4235,6 +4258,7 @@
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "csiro-marlin-metadata",
           "data-wa-catalogue-api",
           "ozflux-data-portal",
           "qspatial-csw-catalog",
@@ -4343,6 +4367,7 @@
         "candidate_provider_ids": [
           "aadc-gazetteer",
           "aadc-metadata",
+          "auscope-earthbank",
           "brisbane-open-data",
           "cook-geospatial",
           "data-wa-catalogue-api",
@@ -4442,6 +4467,7 @@
           "aims-data-platform",
           "aims-metadata-catalog",
           "csiro-data-access-portal",
+          "csiro-marlin-metadata",
           "pacioos-erddap",
           "pisco",
           "province-sud-geospatial",
@@ -4495,7 +4521,9 @@
           "aims-metadata-catalog",
           "anu-data-commons-repository",
           "anzctr-trial-registry",
+          "auscope-earthbank",
           "csiro-data-access-portal",
+          "csiro-marlin-metadata",
           "esa-ecology",
           "esgf-dkrz-discovery",
           "esgf-ipsl-discovery",
@@ -11457,6 +11485,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "auscope-earthbank",
+      "provider": "AuScope Geochemistry Network / Lithodat",
+      "service_name": "AuScope EarthBank geochemistry platform/API",
+      "geographic_coverage": "Australianandglobalgeochemistrysamples; publicsourceextentvaries",
+      "topical_coverage": "geospatial | research | climate/weather/environment",
+      "dataset_families": "Geochemicalsample metadata/analyses, geochronology/thermochronology anddata packages; privateuploads separate",
+      "documentation_url": "https://www.auscope.org.au/earthbank-help#API",
+      "api_base_url": "",
+      "format_protocol": "OwnerdocumentsAPIautomatedretrieval andmetadataupload; exactprotocol/authpublicroutepending",
+      "authentication": "September2025termspermitanonymouspublicdiscovery; downloads/fullfeaturesrequirecontributoraccount. API-specificauthenticationunknown, notregistered",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "NativepublicdataCCBY4statement withadjacentnoncommercial-user wording; exactscopeclarificationpending",
+      "license_url": "https://www.auscope.org.au/earthbank-tcs",
+      "api_verification_state": "NativeappHTTP200JSerror/shell; ownerAPIhelp/currenttermsHTTP200, noqueryAPIresponse",
+      "latest_checked_utc": "2026-10-18T01:12:39.641522+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "austin-open-data",
       "provider": "City of Austin",
       "service_name": "Austin Socrata metadata and data API portal",
@@ -12138,6 +12184,24 @@
       "license_url": "",
       "api_verification_state": "Nativehomepage/data-directoryHTTP200, no queryAPI established",
       "latest_checked_utc": "2026-10-18T00:26:40.180612+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cdl-ezid-metadata",
+      "provider": "California Digital Library / UC3",
+      "service_name": "EZID public persistent-identifier metadata API",
+      "geographic_coverage": "Internationalpersistentidentifierregistrations; identifiedobjectgeographyvaries",
+      "topical_coverage": "research | culture",
+      "dataset_families": "ARK/DOIidentifiermetadata; sourceobjectsseparatelylicensed andnotdownloaded",
+      "documentation_url": "https://ezid.cdlib.org/doc/apidoc.html",
+      "api_base_url": "https://ezid.cdlib.org/id/",
+      "format_protocol": "RESTtext/plainAPI; HTMLUIsharesURLs/contentnegotiationdocumented",
+      "authentication": "NativeguideallowsanonymouspublicidentifiermetadataGET; authrequiredforotheroperations, noneused",
+      "free_access_restrictions": "Publicmetadataread documentedwithoutauth; paidcreation/mintingservicesnotused. Metadatareusegrant notverified",
+      "license": "unknown verified data grant",
+      "license_url": "https://cdlib.org/about/policies-and-guidelines/",
+      "api_verification_state": "Nativeowner/APIdocsHTTP200. ExactdocumentedexampleGETHTTP400text/plain error:no-such-identifier; notsuccessfulmetadata response",
+      "latest_checked_utc": "2026-10-18T01:12:39.641522+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -13038,6 +13102,24 @@
       "license_url": "https://research.csiro.au/dap/licences/",
       "api_verification_state": "actual_public_structured_sample_success_collection_metadata",
       "latest_checked_utc": "2026-10-17T06:48:51.126144+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "csiro-marlin-metadata",
+      "provider": "CSIRO",
+      "service_name": "Marlin marine metadata catalogue REST service",
+      "geographic_coverage": "Australianandassociatedinternationalmarine researchvoyages; record-specificcoverage",
+      "topical_coverage": "oceans | water | climate/weather/environment | research",
+      "dataset_families": "Marinevoyage, oceanographic andrelateddatasetmetadata; sourceassetsdistributedseparately",
+      "documentation_url": "https://marlin.csiro.au/geonetwork/doc/api/index.html",
+      "api_base_url": "https://marlin.csiro.au/geonetwork/srv/api",
+      "format_protocol": "GeoNetworkREST/XML; nativeSwaggerUI",
+      "authentication": "AnonymoussinglemetadataXMLsucceeded; sourcepermissionsseparate",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://marlin.csiro.au/geonetwork/srv/api/records/d8109a22-2361-4076-8a21-de0b3a1854e3/formatters/xml",
+      "api_verification_state": "NativeguideHTTP200 andregistry-listedmetadatarecordHTTP200parsedXML",
+      "latest_checked_utc": "2026-10-18T01:12:39.641522+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
