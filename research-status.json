@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:40:14.498313+00:00",
+  "published_at": "2026-10-18T17:42:17.637337+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:38:37.281373+00:00",
+  "research_updated_at": "2026-10-18T17:41:50.163564+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals/five newservices: CSIROdedup; Yabelanaholds; Tigraysystematic-retrieval/NC restrictions; UNSWorksOAIidentity; OMNICC0source/APIgap; DataverseNLlegalPDF/readerblocked; MDZ969000incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to978pages/978000refs;2235503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 441,
-    "candidates": 1208,
-    "excluded": 351,
+    "candidates": 1209,
+    "excluded": 353,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -15944,6 +15944,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bluecloud-resource-catalogue",
+      "provider": "Blue-Cloud consortium / D4Science ISTI-CNR",
+      "service_name": "Blue-Cloud Resource Catalogue GCAT service",
+      "geographic_coverage": "Global marine/environmental resources; European federation",
+      "topical_coverage": "oceans | environment | research",
+      "dataset_families": "VRE datasets/products, methods/workflows and marine resource descriptions; no ocean/genomic/source data acquired",
+      "documentation_url": "https://blue-cloud.org/data-catalogue | https://www.d4science.org/policies/api-and-developer-usage",
+      "api_base_url": "https://api.d4science.org/gcat (registry route, held)",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native current operator policy: registered OIDC client/access token and authorized VRE context per request; none acquired",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://blue-cloud.org/data-catalogue | https://www.d4science.org/policies/api-and-developer-usage",
+      "api_verification_state": "Native catalogue and independent operator API policyHTTP200 substantiveHTML. Inherited api.d4science.org GCAT and services gateway holds retained; no API payload/credential/runtime query.",
+      "latest_checked_utc": "2026-10-18T17:41:24.940453+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bold-v5-public-data-api",
       "provider": "BOLD Systems / Centre for Biodiversity Genomics, University of Guelph",
       "service_name": "BOLD v5 public biodiversity discovery API",
@@ -24561,8 +24579,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across969successfulpages/969000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:36:08.638319+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across978successfulpages/978000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:41:45.228658+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -38374,6 +38392,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "fors-swiss-social-science-archive",
+      "provider": "FORS Swiss Centre of Expertise in the Social Sciences",
+      "service_name": "FORS data archive / SWISSUbase service",
+      "geographic_coverage": "Switzerland/European social-science research; source-specific coverage varies",
+      "topical_coverage": "demographics | research | education | labor",
+      "dataset_families": "Quantitative/qualitative social-science study descriptions; surveys/household/person microdata not acquired",
+      "documentation_url": "https://forscenter.ch/about-fors/policies/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native policy registered archive users/agreements; exact public metadata API authentication unknown",
+      "free_access_restrictions": "Archiving service described free; data access governed by conditions, exact current fee policies unknown",
+      "license": "Managed scientific/education access and depositor-specific conditions; metadata grant unknown",
+      "license_url": "https://forscenter.ch/about-fors/policies/",
+      "api_verification_state": "Native policyHTML and registry/current preservation PDFsHTTP200. Full currentPDFtext web-reader inaccessible. Public query API/schema not verified; indexed annual-report ingestion/Connectome integration is not public metadata read contract.",
+      "latest_checked_utc": "2026-10-18T17:41:24.940453+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "fred",
       "provider": "Federal Reserve Bank of St Louis / FRED",
       "service_name": "Federal Reserve Bank of St Louis / FRED API",
@@ -39613,6 +39649,24 @@
       "license_url": "https://lindat.mff.cuni.cz/en/terms-of-use",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T02:57:00.768840+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "linguistic-data-consortium",
+      "provider": "University of Pennsylvania Linguistic Data Consortium",
+      "service_name": "LDC linguistic corpus catalog/distribution service",
+      "geographic_coverage": "Global multilingual linguistic datasets; US institutional operator",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Speech/text/language corpus descriptions and licensed distribution; actual audio/text corpora not acquired",
+      "documentation_url": "https://www.ldc.upenn.edu/data-management/using/licensing",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Official indexed account docs describe organization affiliation/licensed access; public query API auth unknown",
+      "free_access_restrictions": "Membership/license-dependent terms and possible fees; no blanket free tier or paid-only claim, no purchase/subscription",
+      "license": "Corpus-specific organization/user license agreements; no blanket open grant",
+      "license_url": "https://www.ldc.upenn.edu/data-management/using/licensing | https://catalog.ldc.upenn.edu/user/spree_user/sign_up",
+      "api_verification_state": "Original native licensingpageHTTP403 preserved. Indexed official access documentation reviewed; no exact current public read API/schema verified. Corpus-included XML reader API is not hosted catalog API.",
+      "latest_checked_utc": "2026-10-18T17:41:24.940453+00:00",
       "classification": "restricted"
     },
     {
