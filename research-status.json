@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T07:57:30.403316+00:00",
+  "published_at": "2026-10-18T07:59:33.011462+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:54:00.471869+00:00",
+  "research_updated_at": "2026-10-18T07:59:12.870111+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals/LCMAP lead reviewed: native LCMAP scopedCC0/WMS1.3 verified, GAVO163references indexed, NCEI/GAVO dedup and source-specific holds/restrictions retained.",
+  "latest_milestone": "BASS2000 native noncommercial terms verified; WDCCR source-grant/API unresolved; distinct NCEI Search JSON verified and10dataset references indexed.",
   "counts": {
     "verified": 378,
-    "candidates": 924,
-    "excluded": 271,
+    "candidates": 926,
+    "excluded": 272,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -21385,6 +21385,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "noaa-ncei-search",
+      "provider": "NOAA National Centers for Environmental Information",
+      "service_name": "Common Access Search Service",
+      "geographic_coverage": "Global climate/environment dataset discovery; actual source coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Dataset catalogue discovery and data search; returned references include climate/weather holdings, not complete NCEI archives",
+      "documentation_url": "https://www.ncei.noaa.gov/support/access-search-service-api-user-documentation",
+      "api_base_url": "https://www.ncei.noaa.gov/access/services/search/v1/",
+      "format_protocol": "HTTPS GET JSON dataset/data search",
+      "authentication": "No credentials for two successful public dataset metadata GETs; other operations not tested",
+      "free_access_restrictions": "Public metadata read tested without payment/account; no source-rights or service-level guarantee inferred",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ncei.noaa.gov/support/access-search-service-api-user-documentation",
+      "api_verification_state": "Native guide200; two anonymous dataset GETs200 validJSON. No-match count0/results[] but totalCount100 preserved; unfiltered actualresults10, count100/totalCount100.",
+      "latest_checked_utc": "2026-10-18T07:59:08.366213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "noaa-ncrmp-search-api",
       "provider": "NOAA National Coral Reef Monitoring Program",
       "service_name": "NCRMP Data Visualization Tool Search API",
@@ -27379,6 +27397,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "wdccr-cosmic-ray-archive",
+      "provider": "Nagoya University / ISEE",
+      "service_name": "World Data Center for Cosmic Rays",
+      "geographic_coverage": "Worldwide cosmic-ray neutron monitoring; series described since1953; exact current station/year coverage unenumerated",
+      "topical_coverage": "astronomy | research | environment",
+      "dataset_families": "Pressure-corrected/scale-adjusted hourly neutron counts, yearly/monthly plots; long/short/card fixed-width formats",
+      "documentation_url": "https://cidas.isee.nagoya-u.ac.jp/WDCCR/",
+      "api_base_url": "",
+      "format_protocol": "Published HTTP file portals and fixed-width text/PDF; query API not verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://cidas.isee.nagoya-u.ac.jp/WDCCR/readme.html",
+      "api_verification_state": "Native home/readme200 HTML; directory/file availability not query API proof",
+      "latest_checked_utc": "2026-10-18T07:59:08.366213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "wdcrre-resources-environment",
       "provider": "WDC-RRE / Chinese Academy of Sciences",
       "service_name": "Renewable Resources and Environment data portal",
@@ -29466,6 +29502,24 @@
       "license_url": "https://www.bamf.de/DE/Themen/Forschung/Forschungsdatenzentrum/Datenzugang/datenzugang-node.html",
       "api_verification_state": "Native public programme/access/guidelineHTMLdocs200; no public openqueryAPI established, protecteddata not queried",
       "latest_checked_utc": "2026-10-18T04:36:04.494869+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "bass2000-solar-survey",
+      "provider": "Observatoire de Paris / LESIA",
+      "service_name": "BASS2000 Solar Survey Archive",
+      "geographic_coverage": "Solar observations from French and partner observatories; not terrestrial population coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Ground-based solar survey observations; heliophysics feature catalogue; separate THEMIS archive referenced",
+      "documentation_url": "https://bass2000.obspm.fr/home.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+      "license_url": "https://bass2000.obspm.fr/sitemap.php",
+      "api_verification_state": "Native home/About200 HTML; registry-listed software route guard-deferred unsent, not an API runtime success",
+      "latest_checked_utc": "2026-10-18T07:59:08.366213+00:00",
       "classification": "restricted"
     },
     {
