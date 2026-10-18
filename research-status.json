@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T22:11:37.246684+00:00",
+  "published_at": "2026-10-18T22:13:42.218163+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:07:48.188427+00:00",
+  "research_updated_at": "2026-10-18T22:12:15.744172+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine repository tasks: eight candidates, CIMMYT dedup; native licensing/default/custom exceptions, API holds and RIN2023policy/readergap preserved.",
+  "latest_milestone": "AbacusHTMLblock/mixedrights; Share_itdepositmetadataCC0/OAIdocs/runtimehold; SBDInamedBY4/NC/15pathYAMLschema and samplehold.",
   "counts": {
-    "verified": 483,
-    "candidates": 1394,
+    "verified": 485,
+    "candidates": 1395,
     "excluded": 403,
     "sample_successes": 464
   },
@@ -10636,6 +10636,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "halle-share-it-repository",
+      "provider": "University and State Library of Saxony-Anhalt / participating institutions",
+      "service_name": "Share_it publication and research-data repository",
+      "geographic_coverage": "Saxony-Anhalt/German institutional scholarship and research; source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Publication/thesis and research-data descriptions, source objects independently licensed",
+      "documentation_url": "https://www.bibliothek.uni-halle.de/beiratwb/secex/2025/Protokoll_Beirat_2025-05-08.pdf",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC0 1.0 metadata governed by published deposit agreement; source objects excluded",
+      "license_url": "https://bibliothek.uni-halle.de/wp-content/uploads/2025/02/DepositLicence-Thesis_20250201.pdf | https://opendata.uni-halle.de/Deposit-Lizenz-Share_it_Forschungsdaten.pdf",
+      "api_verification_state": "RepositoryrootHTTP200Anubis challenge HTML; no execution or alternative repositoryhost/path. Official indexed2025institutionalreport mentions OAIinterface updates, exactbase/runtime unresolved. IndependentlegalPDFreader attempt502, no retry; licence grant reviewed indexed, not live machine proof.",
+      "latest_checked_utc": "2026-10-18T22:12:10.514660+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "hartford-open-data",
       "provider": "City of Hartford, Connecticut",
       "service_name": "Open Data Hartford catalogue and ArcGIS geospatial APIs",
@@ -14092,6 +14110,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "sbdi-bioatlas-apis",
+      "provider": "Swedish Biodiversity Data Infrastructure",
+      "service_name": "SBDI Bioatlas API and collection metadata services",
+      "geographic_coverage": "Sweden and international collections contributed by Swedish institutions; dataset scope varies",
+      "topical_coverage": "biodiversity | environment | oceans | research",
+      "dataset_families": "Biodiversity source dataset/provider collection descriptions, species/occurrence interfaces and metadata services; no occurrence data acquired",
+      "documentation_url": "https://biodiversitydata.se/explore-analyze/use-your-own-tools/our-apis/ | https://api.biodiversitydata.se/api.html?urls.primaryName=Collectory+%7C+https%3A%2F%2Fapi.biodiversitydata.se%2Fspecs%2Fcollections",
+      "api_base_url": "https://api.biodiversitydata.se/ (native interface directory) | https://collections.biodiversitydata.se/ws (Collectory schema base)",
+      "format_protocol": "Native OpenAPI3.0.1 YAML verified; servedapplication/octet-stream,15paths. Licence-list runtime untested",
+      "authentication": "Public docs/schema/named collection descriptors accessible; documented GETlicence list has nosecurity requirement, actual requestrobots-deferred unsent. Some downloads/services may needregistration; noaccount/key",
+      "free_access_restrictions": "Per-source grants CC0/BY/NC and partner conditions; namedNCsource excludedfrom open acceptance. Terms require checking currentlicenses",
+      "license": "CC BY4 for named Ornithology Collection NRM dr1013; mixed broader holdings including BY-NC4",
+      "license_url": "https://collections.biodiversitydata.se/public/show/dr1013 | https://collections.biodiversitydata.se/public/show/dr1067 | https://docs.biodiversitydata.se/sbdi-data/sbdi-atlas-terms-of-use/",
+      "api_verification_state": "Native APIguide/directory/terms andtwo namedsource descriptor pagesHTTP200HTML. PublishedCollectoryspecURLHTTP200validOpenAPI3.0.1YAML,15paths; schema not source API response. DocumentedGET/ws/licence robots-deferred unsent, noqueryretry/alternateformat/endpoint.",
+      "latest_checked_utc": "2026-10-18T22:12:10.514660+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "scb",
       "provider": "Statistics Sweden",
       "service_name": "Statistical Database PxWeb APIs v2 and legacy v1",
@@ -15675,6 +15711,24 @@
       "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
       "api_verification_state": "actual_current_station_observation_sample_success_data_grant_unconfirmed",
       "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "abacus-data-network",
+      "provider": "University of British Columbia / BC research libraries",
+      "service_name": "Abacus Data Network",
+      "geographic_coverage": "Canadian/BritishColumbia and international social/geospatial data collections; source-specific scope",
+      "topical_coverage": "demographics | economics | labor | health | education | geospatial | research",
+      "dataset_families": "Open and institutionally licensed survey, statistical and GIS dataset metadata; protected source microdata not acquired",
+      "documentation_url": "https://guides.library.ubc.ca/gis/datasources | https://guides.library.ubc.ca/datastatistics/datasources",
+      "api_base_url": "https://abacus.library.ubc.ca/oai (registry reference, challenge response)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Originalroot and registryOAIIdentify both HTTP200 UBC access-block HTML, not XML/API responses. Semantic challenge discovered on response inspection; no further host/source query or challenge execution. Current deployed read API remains untested.",
+      "latest_checked_utc": "2026-10-18T22:12:10.514660+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
