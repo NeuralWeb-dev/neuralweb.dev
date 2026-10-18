@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T21:28:28.925353+00:00",
+  "published_at": "2026-10-18T21:30:31.925108+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T21:27:55.232580+00:00",
+  "research_updated_at": "2026-10-18T21:29:53.380263+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Cefas scoped OGLv3/schema/licence JSON verified; IncluSet JSshell and APIS repository/access/API gaps retained.",
+  "latest_milestone": "CefasOGLv3/79operations/2licenceJSON verified; FaceBase/SRDA restricted; IncluSet/DOOR unresolved; APIS native access/use/OAI documentation clarified.",
   "counts": {
     "verified": 473,
-    "candidates": 1371,
-    "excluded": 398,
+    "candidates": 1372,
+    "excluded": 400,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -2624,6 +2624,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "apis-portugal-social-science-archive",
           "aussda-social-science-dataverse",
           "bologna-open-data",
           "cambridgeshire-insight",
@@ -2796,6 +2797,7 @@
         ],
         "candidate_provider_ids": [
           "aland-statistics",
+          "apis-portugal-social-science-archive",
           "aragon-core",
           "aragon-sparql",
           "cews-gender-academia-directory",
@@ -2838,6 +2840,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "andalusia-open-data",
+          "cefas-data-portal-api",
           "croatia-statistics",
           "dlr-eoc-geoservice",
           "estonia-statistics",
@@ -2892,6 +2895,7 @@
           "birmingham-city-observatory",
           "bristol-open-data",
           "cefas",
+          "cefas-data-portal-api",
           "croatia-statistics",
           "defra-ukair-sos",
           "dlr-eoc-geoservice",
@@ -3044,6 +3048,7 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "cefas-data-portal-api",
           "dlr-eoc-geoservice",
           "ea-asset-management",
           "ea-catchment-data",
@@ -3315,6 +3320,7 @@
           "aland-statistics",
           "amu-research-portal",
           "andalusia-regional-rest",
+          "apis-portugal-social-science-archive",
           "aragon-core",
           "aragon-sparql",
           "aussda-social-science-dataverse",
@@ -3349,6 +3355,7 @@
           "dataversenl-central-repository",
           "digitum-murcia-public-metadata",
           "dmu-institutional-figshare",
+          "door-krems-repository",
           "dorel-lorraine-rdg-collection",
           "dunas-aveiro-data-repository",
           "edina-research-service-portal",
@@ -3795,6 +3802,7 @@
         "verified_provider_ids": [
           "amsterdam-maps-data",
           "cefas",
+          "cefas-data-portal-api",
           "ea-asset-management",
           "ea-catchment-data",
           "ea-ecology-and-fish-data",
@@ -3839,6 +3847,7 @@
         "verified_provider_ids": [
           "bgs",
           "cefas",
+          "cefas-data-portal-api",
           "emodnet",
           "hcdc-datasearch-metadata-api",
           "ices-dome",
@@ -3889,6 +3898,7 @@
           "andalusia-open-data",
           "arche-repository",
           "bnf-catalogue",
+          "cefas-data-portal-api",
           "clarin-dk",
           "clarin-pl",
           "croatia-statistics",
@@ -3982,6 +3992,7 @@
           "diba-open-data-api",
           "digitum-murcia-public-metadata",
           "direno-lower-austria-repository",
+          "door-krems-repository",
           "edina-research-service-portal",
           "edition-topoi-research-repository",
           "epidat-jewish-epigraphy",
@@ -4076,6 +4087,7 @@
           "bgs",
           "birkbeck-data-repository",
           "bnf-catalogue",
+          "cefas-data-portal-api",
           "cessda-elsst",
           "cessda-vocabularies",
           "chemotion-public-repository-api",
@@ -4164,6 +4176,7 @@
           "aland-statistics",
           "amu-research-portal",
           "anfr-data",
+          "apis-portugal-social-science-archive",
           "aussda-social-science-dataverse",
           "bas-fcs",
           "bathspa-data-repository",
@@ -4218,6 +4231,7 @@
           "discuss-data-repository",
           "diw-fdzbo-organizational-data",
           "dmu-institutional-figshare",
+          "door-krems-repository",
           "dorel-lorraine-rdg-collection",
           "drks-german-clinical-trials-register",
           "dunas-aveiro-data-repository",
@@ -5248,7 +5262,8 @@
           "china-phda-metadata-api",
           "korea-kosis",
           "kossda-social-science-archive",
-          "social-science-japan-data-archive"
+          "social-science-japan-data-archive",
+          "srda-taiwan-survey-archive"
         ]
       },
       "economics/finance": {
@@ -5280,7 +5295,8 @@
         "restricted_provider_ids": [
           "korea-kosis",
           "kossda-social-science-archive",
-          "social-science-japan-data-archive"
+          "social-science-japan-data-archive",
+          "srda-taiwan-survey-archive"
         ]
       },
       "agriculture": {
@@ -5376,6 +5392,7 @@
         ],
         "restricted_provider_ids": [
           "china-phda-metadata-api",
+          "srda-taiwan-survey-archive",
           "stomicsdb-spatial-omics"
         ]
       },
@@ -5399,7 +5416,8 @@
           "kossda-social-science-archive",
           "polyu-research-data-repository",
           "sciencedb-api-oai",
-          "social-science-japan-data-archive"
+          "social-science-japan-data-archive",
+          "srda-taiwan-survey-archive"
         ]
       },
       "housing": {
@@ -5411,7 +5429,8 @@
           "thailand-gistda"
         ],
         "restricted_provider_ids": [
-          "nii-idr-restricted-dataset-service"
+          "nii-idr-restricted-dataset-service",
+          "srda-taiwan-survey-archive"
         ]
       },
       "transportation": {
@@ -5590,6 +5609,7 @@
           "sciencedb-api-oai",
           "social-science-japan-data-archive",
           "southeast-asian-climate-assessment-dataset",
+          "srda-taiwan-survey-archive",
           "stomicsdb-spatial-omics"
         ]
       }
@@ -16118,15 +16138,15 @@
       "geographic_coverage": "Portugal social-science research; per-study international coverage varies",
       "topical_coverage": "research | demographics | labor | economics | education",
       "dataset_families": "Social attitudes/values/sociopolitical research study descriptions; source surveys separately controlled",
-      "documentation_url": "https://www.apis.ics.ulisboa.pt/ | http://www.apis.ics.ulisboa.pt/en/access-conditions/",
+      "documentation_url": "http://www.apis.ics.ulisboa.pt/en/access-conditions/ | http://www.apis.ics.ulisboa.pt/en/conditions-of-use/ | http://www.apis.ics.ulisboa.pt/en/technology-technical-infrastructure-and-security/",
       "api_base_url": "",
       "format_protocol": "HTML documentation",
       "authentication": "unknown",
       "free_access_restrictions": "unknown source-specific access conditions",
       "license": "unknown verified data grant",
-      "license_url": "http://www.apis.ics.ulisboa.pt/en/access-conditions/",
-      "api_verification_state": "Original RCAAP repository URL robots-deferred unsent; indexed native institution describes APIS/PASSDA and study discovery via RCAAP/Nesstar, newer POLEN references are discovery only. Exact deployed API/source runtime unresolved.",
-      "latest_checked_utc": "2026-10-18T21:27:49.693336+00:00",
+      "license_url": "http://www.apis.ics.ulisboa.pt/en/access-conditions/ | http://www.apis.ics.ulisboa.pt/en/conditions-of-use/",
+      "api_verification_state": "Original RCAAP URL robots-deferred unsent. Independent institution access/use/infrastructure docs HTTP200; historical infrastructure describes RCAAP DSpace DublinCore/OAI-PMH compliance, not a current exact instance endpoint. No alternate repository/backend or survey acquisition.",
+      "latest_checked_utc": "2026-10-18T21:28:58.110832+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -20861,6 +20881,24 @@
       "license_url": "https://www.donneesquebec.ca/exploiter/utiliser-les-donnees/ | https://www.donneesquebec.ca/fr/licence/",
       "api_verification_state": "official_indexed_API_documented_original_and_docs_policy_held_sample_untested",
       "latest_checked_utc": "2026-10-17T12:30:50.986728+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "door-krems-repository",
+      "provider": "University for Continuing Education Krems",
+      "service_name": "DOOR institutional repository",
+      "geographic_coverage": "Austria institutional and international scholarly outputs, item scopes vary",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional scholarly publications, OER collections and digital holdings",
+      "documentation_url": "https://door.donau-uni.ac.at/ | https://door.donau-uni.ac.at/termsofuse",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed item rights, uniform metadata/database grant unresolved",
+      "license_url": "https://door.donau-uni.ac.at/termsofuse",
+      "api_verification_state": "Native root/terms HTTP200. Indexed item pages advertise JSON-LD/XML and DublinCore/DataCite/LOM/EDM/OpenAIRE exports. API-like source download URLs and API/OAI terms inside hosted papers are not provider interface documentation. Exact current metadata-only API/runtime unresolved.",
+      "latest_checked_utc": "2026-10-18T21:28:58.110832+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -42412,6 +42450,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "facebase-craniofacial-research-api",
+      "provider": "FaceBase Consortium",
+      "service_name": "FaceBase research data programming interfaces",
+      "geographic_coverage": "International craniofacial research, human/model-organism studies; source coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Craniofacial developmental research metadata, genomic/imaging/phenotypic research, source files not requested",
+      "documentation_url": "https://docs.facebase.org/docs/Application-Programming-Interface/",
+      "api_base_url": "",
+      "format_protocol": "DERIVA Python/ERMrest client and backend APIs documented, actual network/schema/runtime untested",
+      "authentication": "Native docs: many read-only operations anonymous; prerelease/controlled or modifying operations require account/project or approved access token. No account/key/token used.",
+      "free_access_restrictions": "Open-access source terms prohibit redistribution; controlled identifiable-human data require separate approved certification/access, not requested",
+      "license": "Investigator copyright; no circulation of original datasets, publication notification required",
+      "license_url": "https://www.facebase.org/policies/tou/",
+      "api_verification_state": "Native root/terms and current API guide HTTP200. Native guide demonstrates client/ERMrest interactions and vocabulary reads, distinguishes auth and writes; registry client API reference is not an exact deployed service base. No biomedical/source/person or vocabulary query executed.",
+      "latest_checked_utc": "2026-10-18T21:28:58.110832+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "fao",
       "provider": "Food and Agriculture Organization",
       "service_name": "Food and Agriculture Organization API",
@@ -46099,6 +46155,24 @@
       "license_url": "https://pccos.spc.int/ocean-catalogue/tuvalu-wave-hindcast | https://pccos.spc.int/ocean-catalogue/marshall-islands-wave-hindcast",
       "api_verification_state": "documented_THREDDS_native_XML_catalogue_sample_success_scoped_NC_restriction_other_grants_unresolved",
       "latest_checked_utc": "2026-10-17T01:19:13.340154+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "srda-taiwan-survey-archive",
+      "provider": "Academia Sinica / RCHSS / Center for Survey Research",
+      "service_name": "Survey Research Data Archive (SRDA)",
+      "geographic_coverage": "Taiwan survey research plus cross-border comparative series; source coverage varies",
+      "topical_coverage": "demographics | labor | economics | health | education | housing | research",
+      "dataset_families": "Academic/government surveys, repeated cross-sections, panel studies and public-use/restricted survey products",
+      "documentation_url": "https://srda.sinica.edu.tw/aboutme/srda/ | https://srda.sinica.edu.tw/user/agreement",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native membership tiers: general academic/research, institution and web member with different source permissions; no login/registration/application",
+      "free_access_restrictions": "Web membership available broadly but only public-use files; more source categories need eligibility/application or donor approval. No fees or freeAPIquota inferred.",
+      "license": "Membership/source use conditions, no unauthorized redistribution; formal anonymous metadata grant unknown",
+      "license_url": "https://srda.sinica.edu.tw/user/agreement",
+      "api_verification_state": "Native root/institution overview/member agreement HTTP200. No exact provider public API documented/verified; UI analysis/catalog functions and Harvard Dataverse link do not prove this deployment API or open grant.",
+      "latest_checked_utc": "2026-10-18T21:28:58.110832+00:00",
       "classification": "restricted"
     },
     {
