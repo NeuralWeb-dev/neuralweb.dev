@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:36:32.042730+00:00",
+  "published_at": "2026-10-18T16:38:35.274488+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:34:59.612072+00:00",
+  "research_updated_at": "2026-10-18T16:38:31.385125+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed; Rosario sourceBY4/exceptions, ECRIN200error shell and Topoi200JSONerror distinguished from success; metadata grants/API holds retained; MDZ865000 incomplete.",
+  "latest_milestone": "PsychArchives explicit metadataCC0/open interfaces verified, currentroute untested; OpenForest and EnviDat rights/runtime gaps; no software-license transfer.",
   "counts": {
-    "verified": 437,
-    "candidates": 1166,
+    "verified": 438,
+    "candidates": 1168,
     "excluded": 341,
     "sample_successes": 464
   },
@@ -12222,6 +12222,24 @@
       "license_url": "https://docs.progenetix.org/ | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "Native documentation root200 substantive license/Beacon description. /services/ documentation422; not proof API absent. No alternate docs/Beacon/bycon/API/schema/version request afterhold.",
       "latest_checked_utc": "2026-10-18T14:16:51.719696+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "psycharchives-repository",
+      "provider": "Leibniz Institute for Psychology ZPID",
+      "service_name": "PsychArchives metadata/open dissemination interfaces",
+      "geographic_coverage": "International psychology and related disciplines; hosted in Germany",
+      "topical_coverage": "research | health | education",
+      "dataset_families": "Digital research-object descriptions for publications, data, preregistrations, tests, code and related materials",
+      "documentation_url": "https://www.psycharchives.org/en/about",
+      "api_base_url": "",
+      "format_protocol": "Native terms document open metadata interfaces; exact REST/OAI contract unresolved",
+      "authentication": "Metadata publicly documented; underlying access depends sharing level; current API authentication unknown",
+      "free_access_restrictions": "Owner describes free non-commercial public service; metadata explicitCC0; source-specific sharing terms and current traffic warning retained",
+      "license": "CC0 1.0 digital research-object metadata",
+      "license_url": "https://www.psycharchives.org/en/about | https://creativecommons.org/publicdomain/zero/1.0/",
+      "api_verification_state": "Root and about native HTTP200 substantive HTML; explicit metadata grant/open-interface documentation. No successful API sample; root warns of heavy bot/AI traffic and recurrent overload, further probing deferred.",
+      "latest_checked_utc": "2026-10-18T16:38:26.510047+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -26969,6 +26987,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "openforest-dataverse",
+      "provider": "Bialystok University of Technology / Mammal Research Institute Polish Academy of Sciences",
+      "service_name": "Open Forest Data Dataverse portal",
+      "geographic_coverage": "Poland forestry and biodiversity collections; source geographic extent varies",
+      "topical_coverage": "agriculture | biodiversity | research | climate/weather/environment",
+      "dataset_families": "Forest-science and mammal-research collections, research data and accompanying descriptions; owner mentions scientific specimen imagery but none acquired",
+      "documentation_url": "https://pb.edu.pl/en/2025/04/10/bialystok-university-of-technology-connects-mycology-with-data-analysis-fungitax-international-workshops/",
+      "api_base_url": "https://dataverse.openforestdata.pl/oai",
+      "format_protocol": "Registry Dataverse OAI/REST, current wire schema untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown uniform current metadata/data grant; registry CC0/CC unverified",
+      "license_url": "https://pb.edu.pl/en/2025/04/10/bialystok-university-of-technology-connects-mycology-with-data-analysis-fungitax-international-workshops/",
+      "api_verification_state": "Original OAI guard-deferred unsent; independent native owner project report200HTML, no native Dataverse API payload.",
+      "latest_checked_utc": "2026-10-18T16:38:26.510047+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "openstates",
       "provider": "Plural / Open States",
       "service_name": "Plural / Open States API",
@@ -34958,6 +34994,24 @@
       "license_url": "https://www.wormbase.org/about/policies#20--10",
       "api_verification_state": "Original REST documentation and owner policy requests guard-deferred, target URLs unsent. No successful API sample.",
       "latest_checked_utc": "2026-10-18T04:57:22.827180+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "wsl-envidat",
+      "provider": "Swiss Federal Research Institute WSL",
+      "service_name": "EnviDat environmental metadata portal and associated interfaces",
+      "geographic_coverage": "Switzerland institutional environmental research and international projects; per-source scope varies",
+      "topical_coverage": "climate/weather/environment | biodiversity | agriculture | water | research",
+      "dataset_families": "Forest, landscape, biodiversity, snow, permafrost and natural-hazard monitoring/research metadata; GC-Net observational interface documented separately",
+      "documentation_url": "https://www.wsl.ch/en/services-produkte/envidat-data-portal/ | https://github.com/EnviDat/envidat_frontend | https://www.envidat.ch/data-api/gcnet/",
+      "api_base_url": "https://www.envidat.ch/api/action/ (indexed official CKAN docs; untested) | https://www.envidat.ch/converters-api/ (published schema reference untested) | https://www.envidat.ch/data-api/gcnet/ (indexed native documentation only)",
+      "format_protocol": "CKAN metadata actions; converter OpenAPI docs; GC-Net JSON interface described by indexed official project documentation, schemas not fetched",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Source-specific licenses and WSL policies; blanket metadata grant unknown",
+      "license_url": "https://www.wsl.ch/en/services-produkte/envidat-data-portal/",
+      "api_verification_state": "RootHTTP200 JavaScript-required loading shell, not API response. Independent native WSL service page200 substantive HTML. Indexed official frontend/converter/GC-Net documentation saved separately; no backend/sample after shell.",
+      "latest_checked_utc": "2026-10-18T16:38:26.510047+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
