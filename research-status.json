@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T09:56:20.112576+00:00",
+  "published_at": "2026-10-18T09:58:23.305749+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:56:19.202484+00:00",
+  "research_updated_at": "2026-10-18T09:58:20.843595+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "EEA native OpenAPI235paths/322ops; DataBasin non-commercial restriction; OpenNeuro published CC0 class accepted/schema-type400CSRFheld; MDZ115000refs/115pages.",
+  "latest_milestone": "ZBMED dark archive restricted/public FRL separate; GBIF dedup/current agreement held with indexed policy; GESDISC rootshell/policy404 and20owner tutorial leads.",
   "counts": {
     "verified": 388,
-    "candidates": 986,
-    "excluded": 290,
+    "candidates": 988,
+    "excluded": 291,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -8438,8 +8438,8 @@
       "free_access_restrictions": "Public search without account; download jobs require user account",
       "license": "CC0 1.0 and CC BY 4.0 open subset; CC BY-NC excluded",
       "license_url": "https://docs.gbif.org/course-introduction-to-gbif/en/data-publisher-visibility-and-recognition.html",
-      "api_verification_state": "documented_sample_success; additional_native_SCAR_network_CC0_filtered_JSON_one_occurrence_verified_2026_10_17",
-      "latest_checked_utc": "2026-10-17T16:59:59.975561+00:00",
+      "api_verification_state": "documented_sample_success; additional_native_SCAR_network_CC0_filtered_JSON_one_occurrence_verified_2026_10_17; current data-user agreement guard-deferred unsent, indexed owner policy reviewed, no new API/sample",
+      "latest_checked_utc": "2026-10-18T09:58:15.155704+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -18165,6 +18165,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gesdisc-earth-science-services",
+      "provider": "NASA Goddard Earth Sciences Data and Information Services Center",
+      "service_name": "GES DISC Earth-science discovery/access services",
+      "geographic_coverage": "Global/regional Earth-science products including MERRA-2 and GPM families described in owner tutorials; exact source extents unenumerated",
+      "topical_coverage": "climate/weather/environment | water | energy | geospatial | research",
+      "dataset_families": "MERRA-2 reanalysis, GPM/IMERG precipitation, AIRS, OCO and other Earth-science data described in owner tutorials; discovery/cloud access, subsetting and Giovanni analysis workflows",
+      "documentation_url": "https://github.com/nasa/gesdisc-tutorials | https://disc.gsfc.nasa.gov/",
+      "api_base_url": "",
+      "format_protocol": "Owner-published OPeNDAP/Harmony/CMR/Giovanni Python tutorial documentation; HDF/NetCDF source formats are not independently APIs. No source/schema response.",
+      "authentication": "Owner guide index documents Earthdata Login prerequisite/token setup; no key/account/login/token/configuration files acquired or used. Exact public metadata/source-operation access varies.",
+      "free_access_restrictions": "Exact current service/quotas/source access terms unresolved; documented authenticated access not commercial subscription proof",
+      "license": "Exact current archive/source-specific grant unresolved; NASA mission defaults not blanket partner grant",
+      "license_url": "https://disc.gsfc.nasa.gov/information/documents?title=data-policy",
+      "api_verification_state": "Native root200minimalHTMLshell; exact registry data-policy page404. Native nasa/gesdisc-tutorials200HTML README documents access/service families.20tutorial refs indexed, no notebook execution, source API/schema/query success or current legacy-server uptime claim.",
+      "latest_checked_utc": "2026-10-18T09:58:15.155704+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gesis-data-archive-access",
       "provider": "GESIS Leibniz Institute for the Social Sciences",
       "service_name": "GESIS Data Archive data access",
@@ -24588,6 +24606,24 @@
       "license_url": "https://publicneuro.eu/policy.html?doc=data-access-reuse+%7C+https%3A%2F%2Fpublicneuro.eu%2Fdownload.html",
       "api_verification_state": "native_operator_mixed_access_and_governance_documented_policy_JS_shell_public_query_API_and_metadata_grant_unknown",
       "latest_checked_utc": "2026-10-17T21:05:37.382801+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "publisso-life-sciences-repository",
+      "provider": "ZB MED Information Centre for Life Sciences",
+      "service_name": "PUBLISSO Repository for Life Sciences",
+      "geographic_coverage": "Life-science publications worldwide via German institutional repository; individual source geography varies",
+      "topical_coverage": "health | agriculture | environment | research",
+      "dataset_families": "Text publications, audiovisual media, research data/software and accompanying materials; structured metadata and persistent identifiers",
+      "documentation_url": "https://www.publisso.de/en/publishing/repositories/repository-for-life-sciences/policy-guidelines",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-work selected licences; open licences encouraged, no universal source/metadata dedication verified",
+      "license_url": "https://www.publisso.de/en/publishing/repositories/repository-for-life-sciences/policy-guidelines",
+      "api_verification_state": "Native current owner guidelines200HTML identify public repository, structured metadata, DOI and linked-data integration. Exact public query API/runtime not established; public source objects not requested.",
+      "latest_checked_utc": "2026-10-18T09:58:15.155704+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -35678,6 +35714,24 @@
       "license_url": "https://www.xenbase.org/xenbase/static-xenbase/aboutMOD.jsp",
       "api_verification_state": "native_terms200_research_education_only_verified_root429_API_docs_indexed_not_native_no_data_sample",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "zbmed-dark-preservation-archive",
+      "provider": "ZB MED Information Centre for Life Sciences",
+      "service_name": "ZB MED digital long-term preservation dark archive",
+      "geographic_coverage": "German institutional preservation infrastructure for life-science publications/research data; source geography varies",
+      "topical_coverage": "health | agriculture | environment | research",
+      "dataset_families": "Long-term preservation of scientific literature/research data through Rosetta; public PUBLISSO publication platforms distinct",
+      "documentation_url": "https://www.publisso.de/en/digital-preservation | https://www.zbmed.de/en/about/policies/preservation-policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Internal preservation service; external access not possible according to owner. No access/login attempted.",
+      "free_access_restrictions": "Dark archive not externally accessible; open public publication channels separate",
+      "license": "Preservation/access rights not public source-data licence",
+      "license_url": "https://www.publisso.de/en/digital-preservation | https://www.zbmed.de/en/about/policies/preservation-policy",
+      "api_verification_state": "Native preservation root and institutional policy200HTML explicitly identify dark access scope; no external API sample applicable or requested",
+      "latest_checked_utc": "2026-10-18T09:58:15.155704+00:00",
       "classification": "restricted"
     },
     {
