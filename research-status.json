@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T11:57:24.668645+00:00",
+  "published_at": "2026-10-18T11:59:27.482453+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:53:36.912552+00:00",
+  "research_updated_at": "2026-10-18T11:58:34.536145+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ACTRIS nativeBY4 L1/L2metadata/schema/versionverified; TUdatalib CC0/1416headers/complete_returned_header_snapshot; NewPsyindexedrestricted/rootheld.",
+  "latest_milestone": "MDZ collectionfrontier advanced to411pages/411000refs;2802503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 399,
-    "candidates": 1028,
-    "excluded": 299,
+    "candidates": 1030,
+    "excluded": 300,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -13169,6 +13169,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "acu-research-bank",
+      "provider": "Australian Catholic University",
+      "service_name": "ACU Research Bank institutional repository and owner-linked search interface",
+      "geographic_coverage": "Australian Catholic University research; individual source study geography varies internationally",
+      "topical_coverage": "research | education | health | culture",
+      "dataset_families": "Research publications, research data and higher-degree outputs; native FAQ describes publisher-permitted open manuscripts/embargoes and dataset handling, no source records acquired",
+      "documentation_url": "https://acuresearchbank.acu.edu.au/pages/about/en | https://acuresearchbank.acu.edu.au/pages/faqs/en",
+      "api_base_url": "https://acuresearchbank.acu.edu.au/server/opensearch/search/service (owner-linked descriptor, target deferred)",
+      "format_protocol": "Native ownerHTML links OpenSearch/Atom service descriptor; valid machine response untested",
+      "authentication": "Public root/About/FAQ readable; exact machine access/authentication untested because descriptor guardhold. No login/account.",
+      "free_access_restrictions": "Open access only where permissible; publisher licence and embargo checks per native FAQ. No verified metadata subscription or universal reuse grant.",
+      "license": "unknown exact public metadata/source-wide grant; publisher and per-output licences vary",
+      "license_url": "https://acuresearchbank.acu.edu.au/pages/faqs/en | https://www.acu.edu.au/copyright",
+      "api_verification_state": "Native root/About/FAQ200HTML. Exact rel=search owner-linked OpenSearch descriptor guarddeferred before target request. Separate institutional copyright403. No successful API/schema response claimed.",
+      "latest_checked_utc": "2026-10-18T11:58:08.649222+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ada-dataverse",
       "provider": "Australian Data Archive / Australian National University",
       "service_name": "ADA Dataverse repository — API and metadata rights unresolved",
@@ -20549,6 +20567,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kadi4mat-kit-iam-api",
+      "provider": "Karlsruhe Institute of Technology / Kadi4Mat team",
+      "service_name": "Kadi4Mat KIT IAM deployment: token-required HTTP API",
+      "geographic_coverage": "KIT-hosted research environment, Germany; source-study coverage unspecified",
+      "topical_coverage": "research | energy | materials science | engineering",
+      "dataset_families": "Owner-described warm/unpublished research data, repository and electronic-lab-notebook workflows; per-instance/record content not enumerated",
+      "documentation_url": "https://kadi4mat.iam.kit.edu/help | https://kadi.readthedocs.io/en/stable/httpapi/intro.html",
+      "api_base_url": "https://kadi4mat.iam.kit.edu/api/v1",
+      "format_protocol": "Documented versioned HTTPREST/JSON; stablev1 framework API, actual deployment version untested",
+      "authentication": "Native deployed help explicitly requires login for API browser and OpenAPI links; API intro requires Bearer PAT/OAuth authorization and says unauthenticated endpoints401. No token/account obtained or used.",
+      "free_access_restrictions": "No source access/payment tier verified. Open-source software status does not establish unrestricted public source data; instance permissions apply.",
+      "license": "unknown exact deployed metadata/data grant; per-record/source rights not established",
+      "license_url": "https://kadi4mat.iam.kit.edu/legal-notice | https://kadi.iam.kit.edu/",
+      "api_verification_state": "Native softwaregateway/APIintro/deployedhelp/legal page200HTML; API existence and login/token requirements documented, both API source and OpenAPI schema intentionally untested due credentials requirement.",
+      "latest_checked_utc": "2026-10-18T11:58:08.649222+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kansas-city-open-data",
       "provider": "City of Kansas City,Missouri",
       "service_name": "Open Data KC Socrata APIs",
@@ -21534,8 +21570,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across396successfulpages/396000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T11:42:45.816689+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across411successfulpages/411000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T11:58:29.736971+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34354,6 +34390,24 @@
       "license_url": "https://gold.jgi.doe.gov/usagepolicy",
       "api_verification_state": "Native owner API link and API-service access documentation HTTP200; account/token required, no API runtime sample",
       "latest_checked_utc": "2026-10-18T03:49:29.275319+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "junar-publishing-platform",
+      "provider": "Junar",
+      "service_name": "Junar proprietary publishing platform and historical API v2 documentation",
+      "geographic_coverage": "Provider highlights Americas public-sector deployments; each tenant dataset geography separate",
+      "topical_coverage": "government | energy | transportation | research",
+      "dataset_families": "Publishing middleware for tables/visualisations/maps/dashboards/APIs; no single universal open dataset repository established",
+      "documentation_url": "https://junar.github.io/docs/en/_sections/01-index.html | https://junar.github.io/docs/en/_sections/03-datasets.html",
+      "api_base_url": "",
+      "format_protocol": "Owner2017APIv2 docs: REST/JSON, GET metadata plus POST/PUT/PATCH publishing operations, unexecuted",
+      "authentication": "Per-portal auth_key and request modules documented; existing Palo Alto tenant key-required record remains separate. No account/key/demo.",
+      "free_access_restrictions": "Native currently served terms updated1January2014 describe paid hosting subscriptions and free trials; this is platform hosting, not proof all tenant data access is paid or closed",
+      "license": "Proprietary publishing service terms; tenant data licences independent and unverified here",
+      "license_url": "https://junar.com/terms-of-service/",
+      "api_verification_state": "Native current provider landing/service terms and ownerGitHub2017v2intro/dataset docs200HTML. Historical authenticated API documented, no current tenant API response tested; code uploader not a read API.",
+      "latest_checked_utc": "2026-10-18T11:58:08.649222+00:00",
       "classification": "restricted"
     },
     {
