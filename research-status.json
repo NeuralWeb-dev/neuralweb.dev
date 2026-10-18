@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:18:33.798474+00:00",
+  "published_at": "2026-10-18T07:20:36.644682+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:18:05.729209+00:00",
+  "research_updated_at": "2026-10-18T07:19:25.067918+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six original tasks and two supplemental leads reviewed: Plate Mark/FAIR Forward native CC0 metadata verified; SDSS released-data grant/Valis documented but API held; tDAR/CSW protocols and source-rights residuals preserved.",
+  "latest_milestone": "Roper thematic alias deduplicated; UK PDC native per-dataset OGL policy and RAVE storage-versus-data distinctions reviewed; API holds retained.",
   "counts": {
     "verified": 375,
-    "candidates": 903,
+    "candidates": 905,
     "excluded": 267,
     "sample_successes": 465
   },
@@ -23139,6 +23139,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rave-stellar-survey-api",
+      "provider": "RAVE collaboration / Leibniz Institute for Astrophysics Potsdam",
+      "service_name": "RAVE stellar database and TAP/OAI interfaces",
+      "geographic_coverage": "Astronomical stellar radial-velocity survey; institutional countries not terrestrial data coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Stellar radial velocities, parameters, abundances and release tables DR1–DR6 as listed in native navigation; not source rows",
+      "documentation_url": "https://www.rave-survey.org/accounts/terms_of_use/",
+      "api_base_url": "https://www.rave-survey.org/tap/ | https://www.rave-survey.org/oai/",
+      "format_protocol": "Native terms refer TAP/storage; registry lists TAP, OAI-PMH and spectra interfaces, actual runtime untested",
+      "authentication": "Native terms cover registered-user result storage; anonymous query capabilities not verified",
+      "free_access_restrictions": "Registered result storage scientific-use only, removable for commercial/private/illegal use; data licensing distinct. No account/storage allocated.",
+      "license": "Indexed DR1 table CC0-1.0; blanket current all-release grant unconfirmed",
+      "license_url": "https://www.rave-survey.org/metadata/ravedr3/rave_dr1/ | https://www.rave-survey.org/accounts/terms_of_use/",
+      "api_verification_state": "Native terms200; query landing guard-deferred unsent due robots. No OAI/TAP/spectra/backend/source request after hold.",
+      "latest_checked_utc": "2026-10-18T07:19:20.415391+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rbi-dbie-statistical-portal",
       "provider": "Reserve Bank of India",
       "service_name": "Database on Indian Economy (DBIE)",
@@ -25980,6 +25998,24 @@
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "historical_JSON_sample_success_current_zero_row_count_guard_deferred_terms404",
       "latest_checked_utc": "2026-10-18T05:32:21.097764+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uk-polar-data-centre",
+      "provider": "British Antarctic Survey / NERC / UKRI",
+      "service_name": "UK Polar Data Centre metadata catalogue / CSW",
+      "geographic_coverage": "Arctic/Antarctic and cryosphere environmental research, UK polar research management",
+      "topical_coverage": "climate/weather/environment | oceans | water | geospatial | research",
+      "dataset_families": "Polar environmental research datasets and discovery metadata; linked services include atmospheric, geophysics, marine, meteorology and physical collections",
+      "documentation_url": "https://docs.api.bas.ac.uk/services/data/metadata/csw/v2/usage/ | https://www.bas.ac.uk/data/our-data/",
+      "api_base_url": "https://api.bas.ac.uk/data/metadata/csw/v2/",
+      "format_protocol": "Official indexed CSW2.0.2 / ISO profile1.0, HTTP GET/POST XML; actual current protocol response unavailable",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "OGL3 normal for NERC source data, per-dataset exceptions; uniform metadata grant unconfirmed",
+      "license_url": "https://www.bas.ac.uk/data/polar-data-centre/faqs/ | https://www.bas.ac.uk/data/polar-data-centre/data-policy/",
+      "api_verification_state": "Native owner root/FAQ/data-policy/services200. Official indexed exact CSW guide reviewed; existing docs and API-host holds retained, no API response.",
+      "latest_checked_utc": "2026-10-18T07:19:20.415391+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32461,7 +32497,7 @@
       "license": "Copyright/subscriber terms, limited Fair Use and narrowly defined derivative works; no open source-data grant",
       "license_url": "https://ropercenter.cornell.edu/general-terms-use",
       "api_verification_state": "Native current terms200 reviewed; exact documented public API and sample unresolved, no survey/source request",
-      "latest_checked_utc": "2026-10-18T07:16:14.608498+00:00",
+      "latest_checked_utc": "2026-10-18T07:19:20.415391+00:00",
       "classification": "restricted"
     },
     {
