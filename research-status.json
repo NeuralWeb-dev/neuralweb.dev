@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:24:22.709784+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T01:26:25.490877+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:22:43.360445+00:00",
+  "research_updated_at": "2026-10-18T01:25:48.649300+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ScholarWorks and SNSB DWB retained as candidates; DiRROS native nonprofit metadata policy and OAI verified, classified restricted.",
+  "latest_milestone": "Nine original tasks reviewed; FULIR metadata CC0/OAI270 headers verified, OSDR641 accession routes and WOUDC14 collection descriptors indexed; source rights and access gaps retained.",
   "counts": {
     "verified": 329,
-    "candidates": 718,
-    "excluded": 185,
+    "candidates": 720,
+    "excluded": 186,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -90,6 +90,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "dlr-eoc-geoservice",
+          "fulir-data-metadata",
           "worldbank"
         ],
         "candidate_provider_ids": [
@@ -122,6 +123,7 @@
           "earthscope-geodetic-web-services",
           "emodnet",
           "esgf-cmip5-discovery",
+          "fulir-data-metadata",
           "geri",
           "gtnp-current-data-platform-api",
           "hcdc-datasearch-metadata-api",
@@ -173,6 +175,7 @@
           "nasa-api",
           "nasa-power",
           "nced-data-repository",
+          "nlr-geospatial-data-services",
           "noaa-class-environmental-archive",
           "noaa-erddap",
           "noaa-gml-barrow-observatory",
@@ -207,6 +210,7 @@
           "openaq",
           "senckenberg-research-metadata-portal",
           "wdcgg-greenhouse-gases",
+          "woudc-ogc-api",
           "wrdc-radiation-centre"
         ]
       },
@@ -257,6 +261,7 @@
           "isimip-impact-repository",
           "nasa-power",
           "nims-mdr",
+          "nlr-geospatial-data-services",
           "noaa-gml-barrow-observatory",
           "openchargemap",
           "openei-urdb",
@@ -278,6 +283,7 @@
           "datacommons",
           "doaj",
           "ensembl-rest-genome-service",
+          "fulir-data-metadata",
           "hgnc-gene-nomenclature-rest",
           "intact-imex-psicquic",
           "lipidmaps-rest-sparql",
@@ -438,6 +444,7 @@
           "mit-timdex",
           "mumbai-geomagnetism-data-centre",
           "nced-data-repository",
+          "nlr-geospatial-data-services",
           "noaa-class-environmental-archive",
           "nodc-ieo-geonetwork",
           "nsidc",
@@ -633,6 +640,7 @@
           "dlr-eoc-geoservice",
           "dnb-sru-oai-metadata",
           "fdat-tuebingen-metadata-api",
+          "fulir-data-metadata",
           "getty-provenance",
           "getty-vocabularies",
           "kitopen-bibliographic-oai",
@@ -711,6 +719,7 @@
           "esgf-cmip5-discovery",
           "fdat-tuebingen-metadata-api",
           "figshare",
+          "fulir-data-metadata",
           "gavo",
           "geoboundaries",
           "geofon-earthquake-event-api",
@@ -883,6 +892,7 @@
           "un-comtrade",
           "wdcgg-greenhouse-gases",
           "who-icd-api",
+          "woudc-ogc-api",
           "wrdc-radiation-centre",
           "xenbase-model-organism-services"
         ]
@@ -1026,6 +1036,7 @@
           "montreal-open-data-catalog",
           "nadp-monitoring-data",
           "neracoos-erddap",
+          "nlr-geospatial-data-services",
           "north-dakota-gis-hub",
           "nps-irma-resource-services",
           "okanagan-similkameen-open-data",
@@ -1106,6 +1117,7 @@
         "candidate_provider_ids": [
           "california-open-data",
           "donnees-quebec-catalog",
+          "nlr-geospatial-data-services",
           "openei-urdb"
         ],
         "restricted_provider_ids": [
@@ -1299,6 +1311,7 @@
           "montreal-open-data-catalog",
           "nashville-open-data",
           "nevada-county-open-data",
+          "nlr-geospatial-data-services",
           "nlr-metropolitan-travel-survey-archive",
           "north-dakota-gis-hub",
           "nps-irma-resource-services",
@@ -2017,6 +2030,7 @@
           "dlr-eoc-geoservice",
           "estonia-statistics",
           "eurostat",
+          "fulir-data-metadata",
           "georgia-statistics",
           "iceland-statistics",
           "italy-istat-sdmx",
@@ -2040,7 +2054,9 @@
           "trentino-open-data",
           "uk-trade-tariff"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "dirros-research-repository"
+        ]
       },
       "climate/weather/environment": {
         "status": "partial_verified",
@@ -2066,6 +2082,7 @@
           "estonia-statistics",
           "faroe-statistics",
           "fingal-open-data",
+          "fulir-data-metadata",
           "georgia-statistics",
           "geri",
           "hcdc-datasearch-metadata-api",
@@ -2141,6 +2158,7 @@
           "catalonia-open-data",
           "cdgp-geothermal-portal",
           "copernicus-marine",
+          "dirros-research-repository",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "geoguyane-csw-catalogue",
@@ -2234,6 +2252,7 @@
           "fsa-alerts",
           "fsa-fhrs",
           "fsd-finland",
+          "fulir-data-metadata",
           "georgia-statistics",
           "gutenberg-mainz-oai-metadata",
           "iceland-statistics",
@@ -2276,6 +2295,7 @@
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
           "dhsnl-dnb-household-survey",
+          "dirros-research-repository",
           "eurocat-controlled-research-data",
           "hunt-health-study"
         ]
@@ -2736,6 +2756,7 @@
           "finna",
           "finto",
           "frankfurt-digital-collections-metadata",
+          "fulir-data-metadata",
           "georgia-statistics",
           "gutenberg-mainz-oai-metadata",
           "historisch-centrum-limburg-open-metadata",
@@ -2819,6 +2840,7 @@
         "restricted_provider_ids": [
           "bnf-gallica",
           "cranachnet-mediawiki",
+          "dirros-research-repository",
           "elaborate-digital-edition-services",
           "heidicon-object-multimedia-repository",
           "indexs-exsiccatae-api",
@@ -2857,6 +2879,7 @@
           "finto",
           "frankfurt-digital-collections-metadata",
           "fsd-finland",
+          "fulir-data-metadata",
           "geri",
           "gutenberg-mainz-oai-metadata",
           "hcdc-datasearch-metadata-api",
@@ -2963,6 +2986,7 @@
           "copernicus-marine",
           "cranachnet-mediawiki",
           "dhsnl-dnb-household-survey",
+          "dirros-research-repository",
           "edaphobase-soil-biodiversity-api",
           "eida-orfeus-routing-federation",
           "elaborate-digital-edition-services",
@@ -7201,8 +7225,8 @@
       "free_access_restrictions": "Metadata CC0 excludes email and OIB/JMBG/JMBAG personal identifiers; source access and embargoes differ",
       "license": "CC0 metadata with explicit personal-identifier exceptions",
       "license_url": "https://data.fulir.irb.hr/en/repository-policies",
-      "api_verification_state": "Native policy HTTP200; anonymous OAI Identify HTTP200 parsed XML without protocol error; format/header inventory recorded separately",
-      "latest_checked_utc": "2026-10-18T01:21:27.317553+00:00",
+      "api_verification_state": "Native metadata CC0 policy and anonymous OAI Identify/ListMetadataFormats/ListIdentifiers HTTP200 parsed XML; three-page header frontier completed",
+      "latest_checked_utc": "2026-10-18T01:24:53.994443+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -11219,6 +11243,24 @@
       "license_url": "https://www.almg.gov.br/portal-da-almg/termos-de-uso-e-politica-de-privacidade/",
       "api_verification_state": "primary_documented_current_v2_API_original_and_docs_policy_held_no_sample",
       "latest_checked_utc": "2026-10-17T15:10:36.951213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "amcsd-crystal-structure-database",
+      "provider": "RRUFF Project / University of Arizona",
+      "service_name": "American Mineralogist Crystal Structure Database",
+      "geographic_coverage": "International mineral crystal-structure literature; exact extent unresolved",
+      "topical_coverage": "research | geospatial",
+      "dataset_families": "Mineral/solid crystal structures, chemistry, diffraction and unit-cell parameters",
+      "documentation_url": "https://www.rruff.net/amcsd/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.rruff.net/about/amcsd-additional-information",
+      "api_verification_state": "Native search interface HTTP200; owner additional-information page HTTP500. No exact AMCSD query API sample verified.",
+      "latest_checked_utc": "2026-10-18T01:24:32.622178+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17051,6 +17093,24 @@
       "license_url": "https://heasarc.gsfc.nasa.gov/docs/heasarc/data_policy.html",
       "api_verification_state": "documented_api_sample_policy_deferred",
       "latest_checked_utc": "2026-10-16T19:02:16.435130+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-osdr-biological-data-api",
+      "provider": "NASA Biological and Physical Sciences",
+      "service_name": "Open Science Data Repository Biological Data API",
+      "geographic_coverage": "Spaceflight and ground-analog research; study-specific mission and organism coverage",
+      "topical_coverage": "research | health | astronomy",
+      "dataset_families": "GeneLab/ALSDA biological study accession metadata; nonhuman and controlled human-derived sources differ",
+      "documentation_url": "https://www.nasa.gov/osdr-api/",
+      "api_base_url": "https://visualization.osdr.nasa.gov/biodata/api/",
+      "format_protocol": "REST JSON, CSV query interfaces; native OpenAPI3.1 JSON version2.0.0",
+      "authentication": "Anonymous public accession list succeeded; restricted human-derived files require separate controlled access, not requested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://science.nasa.gov/reference/osdr-help-terms-and-conditions/",
+      "api_verification_state": "Native API guide/root OpenAPI HTTP200 parsed JSON; documented accession list HTTP200 valid JSON. No sample/assay or source queries.",
+      "latest_checked_utc": "2026-10-18T01:24:32.622178+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27115,6 +27175,24 @@
       "license_url": "https://www.marinespecies.org/about.php#terms",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-18T00:37:37.826676+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "woudc-ogc-api",
+      "provider": "Environment and Climate Change Canada / WMO GAW",
+      "service_name": "World Ozone and Ultraviolet Radiation Data Centre API",
+      "geographic_coverage": "Global contributor ozone and ultraviolet observation networks",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Total ozone, ozonesonde, lidar, Umkehr, UV broadband/multiband/spectral/index; discovery/station/contributor metadata",
+      "documentation_url": "https://woudc.org/en/data/data-access#web-services-section",
+      "api_base_url": "https://api.woudc.org/",
+      "format_protocol": "OGC API JSON/GeoJSON; pygeoapi and OpenAPI documented",
+      "authentication": "Anonymous collection descriptor request succeeded; process/submission endpoints not used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "WMO/GAW data-use terms: scientific, educational and policy uses; substantial-use co-authorship offer condition",
+      "license_url": "https://woudc.org/en/data/data-use-policy",
+      "api_verification_state": "Native API guide/policy HTTP200; anonymous collections HTTP200 valid JSON with 14 descriptors",
+      "latest_checked_utc": "2026-10-18T01:24:32.622178+00:00",
       "classification": "restricted"
     },
     {
