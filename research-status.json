@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T11:36:51.095590+00:00",
+  "published_at": "2026-10-18T11:38:53.791622+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T11:35:09.901180+00:00",
+  "research_updated_at": "2026-10-18T11:37:31.761228+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originaltasks: StMatthias mixedrights; PSL429hold/reanalysis dedup; CDR NDVI unrestricteddata/DDS verified; DIGITUMmetadataBY4/APIheld; NOMADS GRIBmigration documented; MDZ381000refs incomplete.",
+  "latest_milestone": "LAADS API V2 replaces retiredClassic/schema500, 60publishedoperations/33product refs; meteorite403/rights unknown; STOmicsDB purpose/retention terms separate from CNGBgateway.",
   "counts": {
     "verified": 396,
-    "candidates": 1024,
-    "excluded": 297,
+    "candidates": 1026,
+    "excluded": 298,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -15773,7 +15773,7 @@
       "license": "unknown exactportalmetadata/sourcegrant; family/source licencesvary",
       "license_url": "",
       "api_verification_state": "Native root/resourcepageHTTP200 JSshell, notmachine response; exactcurrentAPIunverified",
-      "latest_checked_utc": "2026-10-18T00:26:40.180612+00:00",
+      "latest_checked_utc": "2026-10-18T11:37:27.362204+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21537,6 +21537,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "meteoritical-bulletin-database",
+      "provider": "Meteoritical Society / Lunar and Planetary Institute, USRA",
+      "service_name": "Meteoritical Bulletin Database",
+      "geographic_coverage": "International meteorite nomenclature programme; actual collection/source geography not enumerated",
+      "topical_coverage": "astronomy | research | geospatial",
+      "dataset_families": "Documented meteorite naming/classification and type-specimen curation context; no meteorite rows/locations acquired",
+      "documentation_url": "https://meteoritical.org/society/governance/position-statements",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://meteoritical.org/society/governance/position-statements",
+      "api_verification_state": "Original database403 and held. Independent official society position statement200HTML; no exact public API documented or tested.",
+      "latest_checked_utc": "2026-10-18T11:37:27.362204+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mexico-national-open-data",
       "provider": "Government of Mexico,Plataforma Nacional de Datos Abiertos",
       "service_name": "Current datos.gob.mx national catalog;CKANinterface unverified",
@@ -22254,6 +22272,24 @@
       "license_url": "https://www.ipac.caltech.edu/page/image-use-policy | https://ned.ipac.caltech.edu/Documents/Overview/Acknowledgments",
       "api_verification_state": "Native root/currentAPI PDF/image/acknowledgement policies200. OfficialPDF webextraction lastchangeJuly2026: statelessVOTableAPI. Native MAXREC0 request200validVOTable22fields/zero rows; no HTML/APIerrorcounted.",
       "latest_checked_utc": "2026-10-18T03:04:47.024191+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nasa-laads-api-v2",
+      "provider": "NASA LAADS DAAC / MODAPS",
+      "service_name": "LAADS API V2: MODIS/VIIRS and atmospheric product discovery",
+      "geographic_coverage": "Global Earth-observation products; per-product swath/grid and time coverage varies",
+      "topical_coverage": "climate/weather/environment | geospatial | research",
+      "dataset_families": "MODIS/VIIRS Level1 and atmosphere product discovery, collections and measurement/mission metadata; MODIS owner also describes land/ocean/cryosphere families held across different services",
+      "documentation_url": "https://ladsweb.modaps.eosdis.nasa.gov/tools-and-services/ | https://ladsweb.modaps.eosdis.nasa.gov/tools-and-services/api-v2/quick-start-guide/ | https://ladsweb.modaps.eosdis.nasa.gov/tools-and-services/api-v2/specs/measurements",
+      "api_base_url": "https://ladsweb.modaps.eosdis.nasa.gov/api/v2/",
+      "format_protocol": "Current REST/JSON API V2 documented; archives endpoint HTML exception, schema request500",
+      "authentication": "Source downloads require website login or download token per current guide; metadata/schema anonymous request attempted without credentials, returned500. Profiles namespace requires login.",
+      "free_access_restrictions": "Owner says LAADS products available at no charge; no unrestricted source reuse grant inferred. Download tokens not requested or used.",
+      "license": "unknown exact API metadata and source reuse grant; free access not open licence",
+      "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance (guard-deferred, no native grant read)",
+      "api_verification_state": "Native MODIS owner and current LAADS services/quickstart/specification HTML200. Exact documented measurements OpenAPI GET500, held; no successful JSON API response. Classic API explicitly retired31August2026 and replaced by API V2.",
+      "latest_checked_utc": "2026-10-18T11:37:27.362204+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -35954,6 +35990,24 @@
       "license_url": "https://stmatthias.uni-trier.de/?l=n&s=impressum+%7C+https%3A%2F%2Fstmatthias.uni-trier.de%2Findex.php%3Fl%3Dn&s=nutzung_db+%7C+https%3A%2F%2Fstmatthias.uni-trier.de%2Findex.php%3Fl%3Dn&s=nutzung_sb",
       "api_verification_state": "Native root/project/imprint/two specific use policies 200HTML; exact public machine API not documented or tested",
       "latest_checked_utc": "2026-10-18T11:26:51.084214+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "stomicsdb-spatial-omics",
+      "provider": "China National GeneBank DataBase / STOmicsDB",
+      "service_name": "STOmicsDB spatial transcriptomics portal: purpose/retention/access conditions",
+      "geographic_coverage": "China-operated global biological research data-sharing platform; individual source geography not enumerated",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Spatial transcriptomics, single-cell, imaging and associated project metadata described by owner; no source omics/samples/genes/clinical data acquired",
+      "documentation_url": "https://db.cngb.org/stomics/help | https://db.cngb.org/stomics/policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Owner policy separates Public access from Controlled applications/approval; no login, controlled request, download or credentials used",
+      "free_access_restrictions": "Public projects and associated metadata/files described as globally accessible; controlled files require approval. Access visibility separate from purpose/retention and ownership conditions.",
+      "license": "Native data-sharing policy imposes purpose/retention/security terms; exact overriding terms unread in JS shell",
+      "license_url": "https://db.cngb.org/stomics/policy | https://db.cngb.org/about/terms_and_conditions | https://db.cngb.org/data_share/",
+      "api_verification_state": "Native root/help/sharing policy200 substantiveHTML; generic terms and legacy data_share200JSshell only. Exact documented bounded public query API/schema unknown; no hidden backend or source query.",
+      "latest_checked_utc": "2026-10-18T11:37:27.362204+00:00",
       "classification": "restricted"
     },
     {
