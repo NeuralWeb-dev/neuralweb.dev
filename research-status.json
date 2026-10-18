@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:35:19.047204+00:00",
+  "published_at": "2026-10-18T14:37:21.808978+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:35:11.708538+00:00",
+  "research_updated_at": "2026-10-18T14:36:55.425129+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NSRRindexedJSON/DAUAcontrolled/nativeheld; GFBioSwagger2verified/directoryempty200/rightsper-source; DPMPdefaultODC-BY/APIunknown",
+  "latest_milestone": "BharatnativeCCBY4/APIunknown; CNRISACarchiveguard/rightsAPIunknown; Lehigh429/indexedrestrictedgeneralreuse",
   "counts": {
     "verified": 429,
-    "candidates": 1082,
-    "excluded": 323,
+    "candidates": 1084,
+    "excluded": 324,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -15062,6 +15062,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bharat-genome-database",
+      "provider": "Sivasakthi Science Foundation / Bharat Genome Database",
+      "service_name": "Bharat Genome Database",
+      "geographic_coverage": "Indian subcontinent biodiversity/genomic research resources; exact source taxonomy/geography unqueried",
+      "topical_coverage": "biodiversity | research | agriculture",
+      "dataset_families": "Genome assemblies, comparative resources and genome visualization tools; no sequences/records queried",
+      "documentation_url": "https://www.bharatgenomedatabase.org/ | https://bharatgenomedatabase.org/licensing/licensing.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY 4.0 for owner-described database data",
+      "license_url": "https://bharatgenomedatabase.org/licensing/licensing.html | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native data-license/root200HTML substantivegrant/resourceidentity. No exactpublicAPI/schema/sampleverified; browser-genomictools not automaticallypublicRESTAPI.",
+      "latest_checked_utc": "2026-10-18T14:36:50.962228+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bielefeld-pub-data",
       "provider": "Bielefeld University Library",
       "service_name": "PUB Data Publications institutional research data repository",
@@ -16733,6 +16751,24 @@
       "license_url": "",
       "api_verification_state": "Native root/resourcepageHTTP200 JSshell, notmachine response; exactcurrentAPIunverified",
       "latest_checked_utc": "2026-10-18T11:37:27.362204+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cnr-isac-archive-data-center",
+      "provider": "CNR Institute of Atmospheric Sciences and Climate",
+      "service_name": "CNR-ISAC Archive Data Center",
+      "geographic_coverage": "Italian atmospheric/climate research facility; exact archive station/geographic corpus unqueried",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Atmospheric/climate observations and research archive; current dataset families not machine-enumerated",
+      "documentation_url": "https://www.isac.cnr.it/en/temi-di-ricerca/ | https://adc.isac.cnr.it/page/l79889rxajv5mbpt6t8gb354",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Registryregistrationclaim not currentoperationproof; no account/accessrequest",
+      "free_access_restrictions": "Current archive/free-tier/accessconditionsunverified; no paidaccess",
+      "license": "Unknown effective metadata/data grant",
+      "license_url": "https://adc.isac.cnr.it/page/l79889rxajv5mbpt6t8gb354",
+      "api_verification_state": "Native archivedomainrootguard-deferredtargetunsent; queuedpolicyunsentafterhold. Independentinstitutionresearchpage reviewed; no exactcurrentpublicAPI/schema/sampleverified.",
+      "latest_checked_utc": "2026-10-18T14:36:50.962228+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22833,8 +22869,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across639successfulpages/639000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:29:28.923802+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across652successfulpages/652000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:35:37.575976+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -36463,6 +36499,24 @@
       "license_url": "https://laws.africa/platform/content/ | https://laws.africa/research-access/",
       "api_verification_state": "documented_bearer_required_untested_restricted_terms",
       "latest_checked_utc": "2026-10-16T20:28:16.872945+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "lehigh-preserve-repository",
+      "provider": "Lehigh University Libraries",
+      "service_name": "Lehigh Preserve institutional repository",
+      "geographic_coverage": "Lehighinstitutionalresearch/archives, UnitedStates; exactcultural/geographiccorpusunqueried",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Scholarly outputs, archival/special collections and supporting research data; per-item rights/access",
+      "documentation_url": "https://library.lehigh.edu/about/policies-guidelines/lehigh-preserve-repository-policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Policyindexedfreepublicitems/metadata; exactAPIauthunverified, no accounts",
+      "free_access_restrictions": "Publicaccesswithoutchargeinindexedpolicy, reusepurpose/modificationrestrictionsandper-itemexceptions retained",
+      "license": "General research/personal-study unchanged-use restrictions; item-specific terms may differ",
+      "license_url": "https://library.lehigh.edu/about/policies-guidelines/lehigh-preserve-repository-policy",
+      "api_verification_state": "Nativeinstitutionalpolicyguard-deferredtargetunsent; repositoryroot429. Indexedofficialpolicyreviewonly; no publicqueryAPI/JSON/XML/schemaverified.",
+      "latest_checked_utc": "2026-10-18T14:36:50.962228+00:00",
       "classification": "restricted"
     },
     {
