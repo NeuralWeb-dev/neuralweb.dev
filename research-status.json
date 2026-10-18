@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:20:56.223317+00:00",
+  "published_at": "2026-10-18T14:22:59.646953+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:20:54.961592+00:00",
+  "research_updated_at": "2026-10-18T14:22:41.983275+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals:ProgenetixBY4/docs422;ProteomicsDBshell/APIrightsunknown;PNNLdefaultCC0exceptions/registration/APIunknown;ArchindexedmediatedOAI/heldmixedrights;Astoncustomopenmetadata/OAIguard;AmoebaDBshell;MDZ612000incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to626pages/626000refs;2587503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 427,
-    "candidates": 1074,
+    "verified": 428,
+    "candidates": 1076,
     "excluded": 319,
     "sample_successes": 464
   },
@@ -6731,6 +6731,24 @@
       "license_url": "https://biotools.readthedocs.io/en/latest/license.html",
       "api_verification_state": "Native license/API docs200HTML; anonymous stats200validJSON registry aggregates. No tool listing/source biological record/schema or per-tool license/API verification.",
       "latest_checked_utc": "2026-10-18T14:13:42.348619+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "birkbeck-data-repository",
+      "provider": "Birkbeck, University of London",
+      "service_name": "BiRD research data metadata OAI-PMH",
+      "geographic_coverage": "Birkbeck research outputs, United Kingdom institution; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research discovery metadata; files separately licensed",
+      "documentation_url": "https://researchdata.bbk.ac.uk/ | https://researchdata.bbk.ac.uk/policies.html",
+      "api_base_url": "https://researchdata.bbk.ac.uk/cgi/oai2",
+      "format_protocol": "Native ownerhomepage explicitlyOAI2base; actual XMLunverified",
+      "authentication": "Public metadata/license documentation accessible; operationauthuntested",
+      "free_access_restrictions": "MetadataCC0; underlyingfilelicenses/access perrecord, no accounts used",
+      "license": "CC0 for repository metadata",
+      "license_url": "https://researchdata.bbk.ac.uk/",
+      "api_verification_state": "Native root/policies200substantiveHTML. OAIIdentifyguard-deferredtargetunsent, notXMLfailure/missingserviceproof; no alternateAPI/backend/format request.",
+      "latest_checked_utc": "2026-10-18T14:22:00.731459+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15502,6 +15520,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "caltechdata-repository",
+      "provider": "Caltech Library",
+      "service_name": "CaltechDATA OAI-PMH and repository APIs",
+      "geographic_coverage": "Caltech research collaborations, United States institution; dataset geographic coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data and software releases; per-record access/licenses",
+      "documentation_url": "https://library.caltech.edu/search/caltechdata | https://data.caltech.edu/oai2d?verb=Identify",
+      "api_base_url": "https://data.caltech.edu/oai2d",
+      "format_protocol": "OAI-PMH2.0 XML verified; registry REST records endpoint not independently sampled",
+      "authentication": "Anonymous Identify succeeded; private/deposition API access not tested",
+      "free_access_restrictions": "Public service identity anonymous; per-record source terms/embargoes remain",
+      "license": "Unknown uniform metadata-wide grant; source licenses per record",
+      "license_url": "https://library.caltech.edu/search/caltechdata",
+      "api_verification_state": "Anonymous OAIIdentify200validXML repositoryNameCaltechDATA and matchingbase. Native official library terms200HTML. No metadata/source record retrieval or REST sample.",
+      "latest_checked_utc": "2026-10-18T14:22:00.731459+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cambium-oxford-data-platform",
       "provider": "University of Oxford / MRC CoRE Restorative Neural Dynamics / Brain Network Dynamics Unit",
       "service_name": "Cambium neuroscience data/code directory and access platform",
@@ -16309,6 +16345,24 @@
       "license_url": "https://support.nii.ac.jp/en/cinii/copyright | https://support.nii.ac.jp/sites/default/files/cinii/webapi-term.pdf",
       "api_verification_state": "documented_key_required_untested",
       "latest_checked_utc": "2026-10-16T22:01:51.538709+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "cirad-dataverse",
+      "provider": "CIRAD",
+      "service_name": "CIRAD Dataverse OAI-PMH",
+      "geographic_coverage": "CIRAD collaborative agricultural/development research, international; exact geographic corpus unqueried",
+      "topical_coverage": "agriculture | environment | research",
+      "dataset_families": "Agricultural, environmental and related interdisciplinary research data; actual licenses per dataset",
+      "documentation_url": "https://www.cirad.fr/collaborer-avec-nous/science-ouverte/infrastructures-ouvertes-du-cirad/dataverse | https://dataverse.cirad.fr/oai?verb=Identify",
+      "api_base_url": "https://dataverse.cirad.fr/oai",
+      "format_protocol": "OAI-PMH2.0 XML verified",
+      "authentication": "Anonymous Identify succeeded; source files/account/writefunctions untested",
+      "free_access_restrictions": "Anonymous service identity verified; actual per-record/source conditions unresolved",
+      "license": "Unknown uniform metadata-wide grant; registry mixed source licenses not blanket proof",
+      "license_url": "https://www.cirad.fr/collaborer-avec-nous/science-ouverte/infrastructures-ouvertes-du-cirad/dataverse",
+      "api_verification_state": "Anonymous Identify200validXMLmatchingrepositorybase/name/protocol2.0. Native institutional description200HTML; no per-record/source/publication/author data queried.",
+      "latest_checked_utc": "2026-10-18T14:22:00.731459+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22679,8 +22733,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across612successfulpages/612000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:17:28.227969+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across626successfulpages/626000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:22:37.460868+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
