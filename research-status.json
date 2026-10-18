@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T05:11:32.114111+00:00",
+  "published_at": "2026-10-18T05:13:34.668223+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T05:09:08.554286+00:00",
+  "research_updated_at": "2026-10-18T05:13:32.105299+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original tasks; NEON currentBY4/metadata verified, RKIrestricted, GovDatadedup; OLSdescriptorfrontier separately indexed without sourcegrant transfer",
+  "latest_milestone": "JapanNICT nativeacknowledgement not blanketgrant; ChemSynthesis403held; VegBankproductionRESTdocs verified but sourcegrant/runtimeunresolved.",
   "counts": {
     "verified": 357,
-    "candidates": 836,
-    "excluded": 240,
+    "candidates": 840,
+    "excluded": 242,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -13623,6 +13623,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "chemsynthesis-discovery",
+      "provider": "ChemSynthesis",
+      "service_name": "ChemSynthesis chemical research reference portal",
+      "geographic_coverage": "Chemical reference information, geographic coverage not applicable/unverified",
+      "topical_coverage": "research",
+      "dataset_families": "Chemical synthesis/reference portal registryclaim; current datafamilies unresolved",
+      "documentation_url": "https://www.chemsynthesis.com/about.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.chemsynthesis.com/about.html",
+      "api_verification_state": "Native originalabout403; no API contract/sample established, no assertion of nonexistent service.",
+      "latest_checked_utc": "2026-10-18T05:13:27.789810+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "chile-bcentral",
       "provider": "Central Bank of Chile",
       "service_name": "Central Bank of Chile open data API",
@@ -14682,6 +14700,24 @@
       "license_url": "https://data.wa.gov.au/copyright",
       "api_verification_state": "native_CKAN_catalogue_metadata_samples_success_mixed_rights_and_count_discrepancy",
       "latest_checked_utc": "2026-10-17T14:21:47.549234+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "database-genomic-variants",
+      "provider": "The Centre for Applied Genomics / Hospital for Sick Children",
+      "service_name": "Database of Genomic Variants discovery portal",
+      "geographic_coverage": "Human genomic variant reference studies; not population-representative coverage",
+      "topical_coverage": "health | research",
+      "dataset_families": "DGV structural variation reference discovery; no study/sample/variant/sequence records acquired",
+      "documentation_url": "https://dgv.tcag.ca/dgv/app/home",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://www.tcag.ca/projects/databaseDisclaimer.html | https://www.sickkids.ca/en/about/terms-of-use/",
+      "api_verification_state": "NativeDGVroot200HTML, linkedTCAGdisclaimer andSickKidswebterms200HTML. SearchUI/registryFTPnotpublicqueryAPIproof; no machineAPI/sample verified.",
+      "latest_checked_utc": "2026-10-18T05:12:00.538604+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -19560,6 +19596,24 @@
       "license_url": "",
       "api_verification_state": "current_official_catalog_link_verified_API_and_rights_unresolved_root_policy_held",
       "latest_checked_utc": "2026-10-17T10:36:02.031795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nict-wdc-ionosphere-spaceweather",
+      "provider": "Japan National Institute of Information and Communications Technology",
+      "service_name": "World Data Centre Ionosphere and Space Weather archive",
+      "geographic_coverage": "Japanese domestic and Antarctic ionosphere/spaceweather; international archive station holdings described separately",
+      "topical_coverage": "astronomy | climate/weather/environment | research",
+      "dataset_families": "Ionospheric sounding/ionograms, space-weather records and forecasts; no source records acquired",
+      "documentation_url": "https://wdc.nict.go.jp/wdc-top/index.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://wdc.nict.go.jp/wdc-top/policy.html | https://wdc.nict.go.jp/wdc-top/contact.html",
+      "api_verification_state": "Native root/contact/acknowledgement policies200HTML; data-download/archive menus not documented API contract or machine response.",
+      "latest_checked_utc": "2026-10-18T05:13:27.789810+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24945,6 +24999,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "vegbank-rest-services",
+      "provider": "NCEAS / ESA Vegetation Panel",
+      "service_name": "VegBank production REST API discovery",
+      "geographic_coverage": "Vegetation/plant-community data with USNVC affiliation; exact plot/taxonomic/geographic sourcecoverage varies",
+      "topical_coverage": "biodiversity | climate/weather/environment | research",
+      "dataset_families": "Plot observations, plant/community concepts, taxon observations, strata, references, methods and overview metadata documented",
+      "documentation_url": "https://nceas.github.io/vegbank2/api/",
+      "api_base_url": "https://api.vegbank.org",
+      "format_protocol": "Documented RESTJSON, CSVzip/Parquet options and HTTPread/write operations; no actualproductionAPIresponse tested",
+      "authentication": "Current productionread authentication unknown; documentedwrite responsesinclude403, nottested",
+      "free_access_restrictions": "Unknown effective source-data reuse/access conditions. No APIaccount/sourcecall performed.",
+      "license": "unknown verified dataset/database grant; docslabelApache2 for open-sourceAPI/project",
+      "license_url": "http://vegbank.org/vegbank/general/terms.html | https://nceas.github.io/vegbank2/api/",
+      "api_verification_state": "NativeoperatorAPIguide200HTML, v2.1.1 production/development URLs documented, locallytruncatedbeforefullguide. Originaltermsguard-deferred; no current API/sample/runtimeclaim.",
+      "latest_checked_utc": "2026-10-18T05:13:27.789810+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "vernon-public-geospatial-api",
       "provider": "City of Vernon",
       "service_name": "Vernon PublicOpenData ArcGIS services",
@@ -27143,6 +27215,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "astm-standards-services",
+      "provider": "ASTM International",
+      "service_name": "Standards/publication and participant API access",
+      "geographic_coverage": "International standards; precise subject/jurisdiction scope varies",
+      "topical_coverage": "research | energy | housing | transportation | health",
+      "dataset_families": "Technical standards/testmethods/publications; content not acquired",
+      "documentation_url": "https://publishing.astm.org/ | https://www.astm.org/copyright-and-permissions",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Current API authentication not verified; pilot-participant service described by indexed owner landing",
+      "free_access_restrictions": "Copyrighted products and separately obtained reproduction permissions; no free open content/API tier verified",
+      "license": "Restricted copyrighted products, limited individual-use licence/permissions",
+      "license_url": "https://store.astm.org/restricted_copyright-and-permissions | https://www.astm.org/astm-license-agreement-publication",
+      "api_verification_state": "Original native copyright request guard-deferred targetunsent. Officialindexed policy/service descriptions only, no API/product test.",
+      "latest_checked_utc": "2026-10-18T05:12:00.538604+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "asu-research-dataverse",
       "provider": "Arizona State University Library",
       "service_name": "ASU Research Data Repository Dataverse APIs",
@@ -28526,6 +28616,24 @@
       "license_url": "https://www.geoguyane.fr/accueil/mentions-legales",
       "api_verification_state": "documented_sample_success_native_CSW_capabilities_only_reuse_restricted",
       "latest_checked_utc": "2026-10-17T14:46:09.470919+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "geotis-wms",
+      "provider": "LIAG Institute for Applied Geophysics and partners",
+      "service_name": "GeotIS geothermal installations and atlas WMS",
+      "geographic_coverage": "Germany geothermal resources and installations; collection coverage varies",
+      "topical_coverage": "energy | geospatial | climate/weather/environment | research",
+      "dataset_families": "Geothermal installations, hydrothermal/petrothermal potential atlas and CO2storage conflict reference layers",
+      "documentation_url": "https://www.geotis.de/homepage/wms?loc=en",
+      "api_base_url": "https://www.geotis.de/vgs_wms.php | https://www.geotis.de/wms_atlas.php",
+      "format_protocol": "OGC WMS1.1.1 capabilitiesXML verified; maps/features not queried",
+      "authentication": "Anonymous native capabilities succeeded for both services; source/map reuse separately restricted",
+      "free_access_restrictions": "Attribution/citation mandatory; withoutpriorrights-holderconsent totalrepublished/derived extent limitedtoone-fifthofGermanypermap/dataset; source restrictions may add conditions",
+      "license": "Restricted custom GeotIS reuse terms with spatial redistribution/derivative limit",
+      "license_url": "https://www.geotis.de/homepage/terms",
+      "api_verification_state": "Native root/terms/WMSguide200HTML. Two exact ownerlinkedmetadataURLs200validWMT_MS_Capabilities1.1.1 XML;3and8namedLayernodes includinggroups/copyrightlayers. NoGetMap/GetFeatureInfo/source data.",
+      "latest_checked_utc": "2026-10-18T05:12:00.538604+00:00",
       "classification": "restricted"
     },
     {
