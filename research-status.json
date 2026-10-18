@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T08:26:11.058554+00:00",
+  "published_at": "2026-10-18T08:28:14.283432+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:25:59.570198+00:00",
+  "research_updated_at": "2026-10-18T08:27:09.167526+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AFDCstationAPI/keyrequirement nativeverified/runtimeuntested; WDCMAPIgrantunknown; NAtChem6subjectrefs indexed/noautomaticGeoMetmerge.",
+  "latest_milestone": "Nine originals: AFDC key-required docs, EIA scoped grant retained, OpenEI SPARQL404, Kyoto/NAKB/WDCM/source grants unresolved; DSMZ4 leads and NAtChem6subjects indexed; CRC247 hold preserved.",
   "counts": {
     "verified": 381,
     "candidates": 947,
@@ -4378,7 +4378,8 @@
         "candidate_provider_ids": [
           "china-nbs",
           "cinii-books",
-          "japan-egov-data-catalog"
+          "japan-egov-data-catalog",
+          "kyoto-kurenai-repository"
         ],
         "restricted_provider_ids": [
           "chiba-curator-repository",
@@ -4504,6 +4505,7 @@
           "china-nbs",
           "cinii-books",
           "japan-egov-data-catalog",
+          "kyoto-kurenai-repository",
           "thailand-gistda",
           "wdcrre-resources-environment"
         ],
@@ -4528,6 +4530,7 @@
           "cngbdb-resource-portal",
           "jst-grants-data",
           "korea-sequence-read-archive",
+          "kyoto-kurenai-repository",
           "nict-wdc-ionosphere-spaceweather",
           "nims-mdr",
           "proteomexchange-proteomecentral",
