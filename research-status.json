@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:28:28.234451+00:00",
+  "published_at": "2026-10-18T01:30:30.865592+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:28:05.383277+00:00",
+  "research_updated_at": "2026-10-18T01:30:26.965394+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Launchpad generated metadata attribution grant and anonymous JSON verified; DataMap restricted, MacEwan API held/source rights scoped unresolved.",
+  "latest_milestone": "Berman restricted terms retained; CPES deduplicated to existing ICPSR provider; ASEP read-only account-required API documented, source grant unresolved.",
   "counts": {
     "verified": 330,
-    "candidates": 721,
-    "excluded": 187,
+    "candidates": 723,
+    "excluded": 190,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -11570,6 +11570,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "asep-czech-academy-repository",
+      "provider": "Library of the Czech Academy of Sciences",
+      "service_name": "ASEP read-only research metadata REST API",
+      "geographic_coverage": "Czech Academy of Sciences research outputs; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research output and dataset metadata; exact record/source scope unresolved",
+      "documentation_url": "https://asep-portal.lib.cas.cz/uvod-do-asep/asep-api/",
+      "api_base_url": "https://asep.lib.cas.cz/apiarl/prod/v1/cav/",
+      "format_protocol": "REST; native guide documents Swagger test/production environments and MARC-formatted metadata example",
+      "authentication": "Operator-issued API account required; HTTP Basic authentication then Bearer token with4-hour lifetime. No account or token acquired/used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://asep.lib.cas.cz/arl-cav/en/repository-rules/#p7",
+      "api_verification_state": "Independent native operator API guide HTTP200 confirms read-only interface and account requirement. Repository root/rules guard-deferred unsent; runtime untested.",
+      "latest_checked_utc": "2026-10-18T01:30:22.375899+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "asheville-open-data",
       "provider": "City of Asheville",
       "service_name": "Asheville Hub OGC Records and geospatial API catalog",
@@ -16391,6 +16409,24 @@
       "license_url": "https://data.lexingtonky.gov/api/search/v1",
       "api_verification_state": "actual_public_JSON_sample_success_metadata_only",
       "latest_checked_utc": "2026-10-17T07:10:54.816170+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lifewatch-ecoportal",
+      "provider": "LifeWatch ERIC",
+      "service_name": "EcoPortal semantic resources API",
+      "geographic_coverage": "International ecology and biodiversity semantic resources",
+      "topical_coverage": "biodiversity | climate/weather/environment | research",
+      "dataset_families": "Ontologies, thesauri, vocabularies, glossaries, classes and mappings; homepage reports82 semantic resources, not enumerated",
+      "documentation_url": "https://ecoportal.lifewatch.eu/about",
+      "api_base_url": "https://data.ecoportal.lifewatch.eu/",
+      "format_protocol": "REST API claimed by registry and operator programmatic-access description; exact deployment/reference held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.lifewatch.eu/terms-and-conditions",
+      "api_verification_state": "Native homepage/about HTTP200 HTML. API documentation target guard-deferred unsent; no successful query response.",
+      "latest_checked_utc": "2026-10-18T01:29:02.342527+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24244,6 +24280,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "berman-jewish-databank",
+      "provider": "Berman Jewish DataBank / Jewish Federations of North America",
+      "service_name": "Berman Jewish DataBank research portal",
+      "geographic_coverage": "Jewish population and community studies, principally United States and source-specific international coverage",
+      "topical_coverage": "demographics | research",
+      "dataset_families": "Community/population survey and report discovery; no respondent data acquired",
+      "documentation_url": "https://www.jewishdatabank.org/databank",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Official indexed terms state noncommercial use and prohibit redistribution; current native effective text unresolved",
+      "license_url": "https://www.jewishdatabank.org/databank/about/terms-of-use.html",
+      "api_verification_state": "Native homepage/terms/operating-policy URLs HTTP200 identical HTML shells with no substantive visible text; no query API verified",
+      "latest_checked_utc": "2026-10-18T01:30:22.375899+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "bigg-current-model-api",
       "provider": "BiGG / Reconstruction Research Group, BRIGHT, Technical University of Denmark",
       "service_name": "BiGG metabolic model API v3",
@@ -25644,7 +25698,7 @@
       "license": "CC BY-NC4.0 metadata; studydatarestrictedredistribution andspecificterms",
       "license_url": "https://www.icpsr.umich.edu/sites/icpsr/about/repository-operations/accessing-metadata | https://www.icpsr.umich.edu/sites/icpsr/about/policies/terms-of-use",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-17T17:44:25.357144+00:00",
+      "latest_checked_utc": "2026-10-18T01:30:22.375899+00:00",
       "classification": "restricted"
     },
     {
@@ -26638,6 +26692,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "prometheus-image-archive",
+      "provider": "prometheus e.V. / University of Cologne",
+      "service_name": "Prometheus distributed art image archive/API",
+      "geographic_coverage": "International art, cultural and historical collections from multiple institutions",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Distributed institutional image and media databases; homepage reports135+ databases and4.176M records, not inventoried",
+      "documentation_url": "https://prometheus.uni-koeln.de/de/api",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Archive offers licensed/personal access; exact current API auth unresolved, no account or licence purchased",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Research/education image use with third-party rights and limited publication exceptions",
+      "license_url": "https://prometheus-bildarchiv.de/en/api_copyright",
+      "api_verification_state": "Native public homepage and API copyright page HTTP200; registry API guide guard-deferred unsent, no alternate route",
+      "latest_checked_utc": "2026-10-18T01:29:02.342527+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "qdr-qualitative-research",
       "provider": "Qualitative Data Repository / Syracuse University",
       "service_name": "QDR qualitative and multimethod research repository",
@@ -26653,6 +26725,24 @@
       "license_url": "https://qdr.syr.edu/content/general-terms-and-conditions-use | https://qdr.syr.edu/policies/ai-secondary-analysis",
       "api_verification_state": "Native public terms, AI and metadata policiesHTTP200; official indexed about page documents OAI; no data/OAI sample",
       "latest_checked_utc": "2026-10-18T00:52:01.670729+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "queens-research-data-centre",
+      "provider": "Queen’s University / Statistics Canada CRDCN",
+      "service_name": "Queen’s Research Data Centre controlled microdata access",
+      "geographic_coverage": "Canadian confidential statistical microdata; project-specific scope",
+      "topical_coverage": "demographics | economics/finance | labor | health | research",
+      "dataset_families": "Confidential Statistics Canada microdata accessed through approved research projects",
+      "documentation_url": "https://www.queensu.ca/qrdc/applying-access",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Project approval and controlled RDC access required; no application/account or microdata access used",
+      "free_access_restrictions": "Not public open data: native owner requires Statistics Canada approved research project; international researcher conditions apply",
+      "license": "Controlled confidential microdata project access, not open licence",
+      "license_url": "https://www.queensu.ca/qrdc/applying-access",
+      "api_verification_state": "Native homepage and access policy HTTP200 HTML; no open read-only API confirmed",
+      "latest_checked_utc": "2026-10-18T01:29:02.342527+00:00",
       "classification": "restricted"
     },
     {
