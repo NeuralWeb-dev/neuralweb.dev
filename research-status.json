@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T20:55:25.000617+00:00",
+  "published_at": "2026-10-18T20:57:28.165541+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:54:41.819729+00:00",
+  "research_updated_at": "2026-10-18T20:55:32.885905+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UJIexplicitmetadataCC0/nativeRESTreferences; Koçheld/grantunknown; KULeuvenRDRCC0metadata/APIguide verified, runtimeheld.",
+  "latest_milestone": "UJI and KU Leuven RDR metadata CC0 verified, OAI attempts guard-deferred; LabKey/API scope, Immunome opaque HTML, USIL historical NC/challenge and Koç grants unresolved.",
   "counts": {
     "verified": 461,
     "candidates": 1358,
@@ -2348,7 +2348,8 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
-          "unab-institutional-repository"
+          "unab-institutional-repository",
+          "usil-institutional-repository"
         ]
       },
       "housing": {
@@ -2509,7 +2510,8 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
-          "unab-institutional-repository"
+          "unab-institutional-repository",
+          "usil-institutional-repository"
         ]
       },
       "research": {
@@ -2557,6 +2559,7 @@
         "restricted_provider_ids": [
           "aleia-ibict-repository",
           "unab-institutional-repository",
+          "usil-institutional-repository",
           "usp-datamap-environmental-platform"
         ]
       }
@@ -3165,6 +3168,7 @@
           "balearic-open-data",
           "biodata-dmportal",
           "cambridgeshire-insight",
+          "cancer-immunome-atlas",
           "cessda-catalogue",
           "clinicalcodes-repository",
           "dans-life-sciences-station",
@@ -3279,6 +3283,7 @@
           "torino-aperto-catalog-api",
           "tu-wien-research-data",
           "tudatalib-public-metadata-oai",
+          "uji-institutional-repository",
           "ukraine-data",
           "wales-statistics",
           "warsaw-research-data-metadata",
@@ -3910,6 +3915,7 @@
           "tampere-open-news-feeds",
           "textgrid-public-repository",
           "tudatalib-public-metadata-oai",
+          "uji-institutional-repository",
           "ukraine-data",
           "wales-statistics",
           "zaragoza-open-data-api"
@@ -4108,6 +4114,7 @@
           "textgrid-public-repository",
           "tu-wien-research-data",
           "tudatalib-public-metadata-oai",
+          "uji-institutional-repository",
           "uk-police",
           "ukho-marine-data-portal",
           "warsaw-research-data-metadata",
@@ -4133,6 +4140,7 @@
           "bonares-soil-agricultural-repository",
           "boris-bern-portal",
           "brgm-cupidon-repository",
+          "cancer-immunome-atlas",
           "cazy-enzyme-database",
           "cedifor-clarin-repository",
           "cessda-catalogue",
