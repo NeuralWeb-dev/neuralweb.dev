@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T23:44:10.163071+00:00",
+  "published_at": "2026-10-18T23:46:13.853906+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:43:58.730593+00:00",
+  "research_updated_at": "2026-10-18T23:45:59.639213+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IPUMSInternational documentedv2extract/noopenreuse; PSIDAI/transferrestrictions; GolmRESTdocumented/500/noredistribution.",
+  "latest_milestone": "Six originals: IPUMS International, PSID, Golm and YODA restricted; Academic Torrents/PseudoBase API-rights gaps; separate PseudoBase++ lead queued.",
   "counts": {
     "verified": 498,
-    "candidates": 1435,
-    "excluded": 416,
+    "candidates": 1437,
+    "excluded": 417,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -64,7 +64,8 @@
         ],
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
-          "ghdx-ihme-discovery"
+          "ghdx-ihme-discovery",
+          "ipums-international-extracts"
         ]
       },
       "economics/finance": {
@@ -105,7 +106,8 @@
         ],
         "candidate_provider_ids": [],
         "restricted_provider_ids": [
-          "alspac-cohort-access-portal"
+          "alspac-cohort-access-portal",
+          "ipums-international-extracts"
         ]
       },
       "agriculture": {
@@ -443,6 +445,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "academic-torrents-metadata-api",
           "aws-open-data-registry",
           "biostudies",
           "cell-image-library",
@@ -475,6 +478,7 @@
           "ghdx-ihme-discovery",
           "gisaid-access-platform",
           "ipd-immunopolymorphism-api",
+          "ipums-international-extracts",
           "jgi-gold-api",
           "openaq",
           "phi-base-api",
@@ -512,6 +516,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "academic-torrents-metadata-api",
           "arizona-campus-repository",
           "cinii-books",
           "dhs-spatial-data-repository",
@@ -545,6 +550,7 @@
           "cinii-research",
           "heidicon-object-multimedia-repository",
           "ideals-metadata-oai",
+          "ipums-international-extracts",
           "karlsruher-wolkenatlas",
           "linguistic-data-consortium",
           "micase-spoken-english-corpus",
@@ -563,7 +569,8 @@
           "ioerdata-spatial-research-portal"
         ],
         "restricted_provider_ids": [
-          "alspac-cohort-access-portal"
+          "alspac-cohort-access-portal",
+          "ipums-international-extracts"
         ]
       },
       "transportation": {
@@ -961,6 +968,7 @@
           "worldbank"
         ],
         "candidate_provider_ids": [
+          "academic-torrents-metadata-api",
           "arizona-campus-repository",
           "artic",
           "cifor-icraf",
@@ -1132,6 +1140,7 @@
           "zenodo"
         ],
         "candidate_provider_ids": [
+          "academic-torrents-metadata-api",
           "aiddata-development-data",
           "amda-space-plasma-rest",
           "amphibiaweb-species-portal",
@@ -1342,6 +1351,7 @@
           "infra-art-restricted-spectra",
           "intermagnet-geomagnetic-api",
           "ipd-immunopolymorphism-api",
+          "ipums-international-extracts",
           "isgi-geomagnetic-indices-webservice",
           "iucn-red-list-api-v4",
           "jgi-gold-api",
@@ -2946,7 +2956,8 @@
         "restricted_provider_ids": [
           "dirros-research-repository",
           "fli-tsis-animal-disease-portal",
-          "german-statistical-rdc"
+          "german-statistical-rdc",
+          "golm-metabolome-rest-soap"
         ]
       },
       "climate/weather/environment": {
@@ -3281,6 +3292,7 @@
           "kit-whole-body-motion",
           "latvia-statistics",
           "leedsbeckett-theses-data-figshare",
+          "leiden-pseudobase-html-resource",
           "lithuania-statistics",
           "nanocommons-knowledgebase",
           "navarra-open-data",
@@ -3315,6 +3327,7 @@
           "fli-tsis-animal-disease-portal",
           "gepard-health-claims",
           "german-statistical-rdc",
+          "golm-metabolome-rest-soap",
           "hunt-health-study",
           "issda-safeguarded-social-data",
           "lasa-amsterdam-controlled-data",
@@ -3915,6 +3928,7 @@
           "eea-sdi-datahub-catalogue",
           "gfbio-terminology-service",
           "indores-data-repository",
+          "leiden-pseudobase-html-resource",
           "lifewatch-metadata-catalogue",
           "nasc-plant-stock-webservices",
           "nhm-data-portal-api",
@@ -3931,6 +3945,7 @@
           "eurobis-european-marine-data",
           "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
+          "golm-metabolome-rest-soap",
           "indexs-exsiccatae-api"
         ]
       },
@@ -4164,6 +4179,7 @@
           "elaborate-digital-edition-services",
           "fli-tsis-animal-disease-portal",
           "german-statistical-rdc",
+          "golm-metabolome-rest-soap",
           "heidicon-object-multimedia-repository",
           "huelva-arias-montano",
           "ids-dgd-spoken-german",
@@ -4401,6 +4417,7 @@
           "ksamsok",
           "language-archive-cologne",
           "leedsbeckett-theses-data-figshare",
+          "leiden-pseudobase-html-resource",
           "lifewatch-metadata-catalogue",
           "loughborough-research-repository",
           "lse-research-online",
@@ -4547,6 +4564,7 @@
           "geotis-wms",
           "gepard-health-claims",
           "german-statistical-rdc",
+          "golm-metabolome-rest-soap",
           "heidicon-object-multimedia-repository",
           "huelva-arias-montano",
           "hunt-health-study",
@@ -16057,6 +16075,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "academic-torrents-metadata-api",
+      "provider": "Academic Torrents / Institute for Reproducible Research",
+      "service_name": "Academic Torrents metadata REST API",
+      "geographic_coverage": "Global distributed researchrepository; uploadedsource scope varies",
+      "topical_coverage": "research | education | culture | health",
+      "dataset_families": "Dataset/publication/course metadata discovery and torrentdistribution; no files/torrents/source contents acquired",
+      "documentation_url": "https://academictorrents.com/docs/api.html",
+      "api_base_url": "https://academictorrents.com/apiv2/",
+      "format_protocol": "DocumentedRESTmetadata byinfohash, entry/collection management; BitTorrent/clientPythonAPI distinct fromqueryHTTPAPI",
+      "authentication": "Native docs credentialbearingtest/uploadexamples; no keyacquired/extracted/used, no auth test. Anonymousreadoperationcurrentaccess untested.",
+      "free_access_restrictions": "Distributedsharingnotblanketopenreuse; freeprice/quota for exactmetadataoperation unknown, no paidacquisition",
+      "license": "unknown verified data grant",
+      "license_url": "https://academictorrents.com/terms.php",
+      "api_verification_state": "Native API/downloadguides andterms200HTML; APIbase/getentry/management/test documented. No successfulmachineAPIresponse; credentialexamplevalues notusedorreproduced. No /test credentialprobe/entryquery/file or dbbulkrequest.",
+      "latest_checked_utc": "2026-10-18T23:45:20.566175+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "acadia-borealis-data-repository",
       "provider": "Acadia University Vaughan Memorial Library",
       "service_name": "Acadia University curated Borealis repository",
@@ -27430,6 +27466,24 @@
       "license_url": "https://libguides.leedsbeckett.ac.uk/research-support/symplectic-and-repositories/repository-policies",
       "api_verification_state": "Original Figshare portal robots-deferred unsent. Independent owner policy HTTP200 verifies distinct institutional repository/rights; exact current institutional REST/OAI interface/base/schema/runtime unknown. No sharedplatformAPI/alternatebackend request after hold.",
       "latest_checked_utc": "2026-10-18T23:20:21.378672+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "leiden-pseudobase-html-resource",
+      "provider": "PseudoBase / Eke van Batenburg / Leiden-affiliated research",
+      "service_name": "PseudoBase RNA pseudoknot documentation and static resource",
+      "geographic_coverage": "International RNAreference knowledge, Netherlands-affiliated resource",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "RNApseudoknotreference documentation; no namedpseudoknotrecords/sourcefiles queried",
+      "documentation_url": "https://www.ekevanbatenburg.nl/PKBASE/PKBABOUT.HTML",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.ekevanbatenburg.nl/PKBASE/PKBABOUT.HTML",
+      "api_verification_state": "Nativeabout200HTMLexplicitly saysresource usesstaticHTMLperpseudoknot ratherthanPHP/SQLdynamicdatabase; no publishedqueryAPI/base/schema found. PseudoBase++mentioned asseparateUTEPshell, not assumedAPI/samegrant.",
+      "latest_checked_utc": "2026-10-18T23:45:20.566175+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -49230,6 +49284,24 @@
       "license_url": "https://www.xenbase.org/xenbase/static-xenbase/aboutMOD.jsp",
       "api_verification_state": "native_terms200_research_education_only_verified_root429_API_docs_indexed_not_native_no_data_sample",
       "latest_checked_utc": "2026-10-17T21:50:53.536792+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "yale-yoda-controlled-clinical-access",
+      "provider": "Yale University YODA Project",
+      "service_name": "Yale Open Data Access clinical research access service",
+      "geographic_coverage": "International clinicaltrialpartners; source-specifictrialcoverage, Yale-coordinated",
+      "topical_coverage": "health | research",
+      "dataset_families": "Clinicaldataaccess policy and partner-specificDUA discovery only; no trials/participants/CSR/source payloadacquired",
+      "documentation_url": "https://yoda.yale.edu/about/policies-procedures/ | https://yoda.yale.edu/about/policies-procedures/data-use-agreement/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Scientificproposalreview and signedpartner-specificDUA; password-protectedsecureplatform/electronictransfer described, no account/application",
+      "free_access_restrictions": "No non-scientific/commercial/litigationpurposes; providerreviews/conditions. Independentfundingconsiderednotrequired; registryfeerequirednotaccepted as universalactualprice.",
+      "license": "Controlled scientific-use agreement; no unrestricted clinical-data grant",
+      "license_url": "https://yoda.yale.edu/about/policies-procedures/ | https://yoda.yale.edu/about/policies-procedures/data-use-agreement/",
+      "api_verification_state": "Nativepolicy/DUAoverview200HTML. No exactpublicsourcequeryAPI/schema/runtimeverified; securecontrolleddistribution notAPIproof. PartnerPDFs notdownloaded, no application/datarequest.",
+      "latest_checked_utc": "2026-10-18T23:45:20.566175+00:00",
       "classification": "restricted"
     },
     {
