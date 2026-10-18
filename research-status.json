@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T23:50:20.431729+00:00",
+  "published_at": "2026-10-18T23:52:23.620304+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:45:59.639213+00:00",
+  "research_updated_at": "2026-10-18T23:50:41.589870+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: IPUMS International, PSID, Golm and YODA restricted; Academic Torrents/PseudoBase API-rights gaps; separate PseudoBase++ lead queued.",
+  "latest_milestone": "EMDBnativeCC0 and anonymousEMICSSreleaseJSON/298homepageentryrefs; FGSCmaterial-vs-datalicense and IFRIhosthold retained.",
   "counts": {
-    "verified": 498,
-    "candidates": 1437,
+    "verified": 499,
+    "candidates": 1439,
     "excluded": 417,
     "sample_successes": 463
   },
@@ -9536,6 +9536,24 @@
       "license_url": "https://catalogue.ceh.ac.uk/eidc/documents | https://eidc.ac.uk/licences/ogl | https://eidc.ac.uk/licences/standard-click-through",
       "api_verification_state": "Native root/license pagesHTTP200. Exact published documents URL HTTP200 valid JSON withfacets,numFound,page,results,rows,nextPage;20metadataresults, no environmental observations/files. No SPARQL/data/WAF or alternatebackend request.",
       "latest_checked_utc": "2026-10-18T21:41:04.844509+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "embl-ebi-emdb-rest",
+      "provider": "EMBL-EBI / EMDB / wwPDB",
+      "service_name": "Electron Microscopy Data Bank and EMICSS REST APIs",
+      "geographic_coverage": "Worldwide 3D electron microscopy archive for biomacromolecules/complexes",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "EMDBarchive metadata/releasedprimaryderiveddata, EMICSSrelease-statistics interface; no maps/atomicstructures/scientificsourcevalues queried",
+      "documentation_url": "https://academic.oup.com/bioinformaticsadvances/article/5/1/vbaf203/8248485 | https://www.ebi.ac.uk/pdbe/api/doc/emdb.html",
+      "api_base_url": "https://www.ebi.ac.uk/emdb/api/ | https://www.ebi.ac.uk/pdbe/api/ (currentroutecoverage unresolved)",
+      "format_protocol": "DocumentedRESTJSON; EMICSSrelease aggregateJSON runtimeverified. PDBeAPIguidecurrentSPA, specnotobtained.",
+      "authentication": "Anonymous EMICSSreleaseGET200JSON; otherquery/depositionauthentication untested, no account/key",
+      "free_access_restrictions": "Releasedarchive CC0scope perresource-specificstatement; embargo/private and originalthirdpartyrights retained separately, numericalAPIquotaunknown",
+      "license": "CC0 for stated EMDB primary/derived archive data; externalannotation rights caveats remain",
+      "license_url": "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement | https://www.ebi.ac.uk/about/terms-of-use/",
+      "api_verification_state": "Nativehome/registeredEMDBapi/nativepolicyroute200HTMLportal, notAPIresponses. RegistryPDBeEMDBdoc200redirects tocurrentv2SPAdocs; publishedmainJSbounded1.5MBtruncated, noschemaURI established/noexecution. Primary2025EMICSSpaper documents3GETinterfaces. Exactpublicrelease-statsGET200applicationJSON valid/untruncated resources+release_dates; no errors/noentryquery.",
+      "latest_checked_utc": "2026-10-18T23:50:36.123205+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23509,6 +23527,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "fungal-genetics-stock-center",
+      "provider": "Fungal Genetics Stock Center / Kansas State University",
+      "service_name": "FGSC collection catalog and documentation",
+      "geographic_coverage": "International fungal research collection, US-hosted; individualstockorigin unverified",
+      "topical_coverage": "biodiversity | agriculture | research",
+      "dataset_families": "Fungalstock/plasmidcatalog discovery and policy; physicalmaterials not acquired",
+      "documentation_url": "https://www.fgsc.net/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Publicdocumentation anonymous; exactAPIunknown; no stockorder/login",
+      "free_access_restrictions": "Physicalstockfees and permitteddistributions described separately; no inferredAPIfee or paidacquisition",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.fgsc.net/disclaimer.htm | https://www.fgsc.net/depcover.html",
+      "api_verification_state": "Native home/disclaimer/depositpolicy200HTML. Catalog/searchbrowserinterface present but no exactpublicmachineAPI/base/schema verified. Nativepublicdomainmaterialstatus notAPIproof.",
+      "latest_checked_utc": "2026-10-18T23:50:36.123205+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gaia-blu-cruise-inventory",
       "provider": "D4Science / GaiaBluLab",
       "service_name": "Gaia Blu Cruise Inventory portal / claimed GCAT interface",
@@ -25360,6 +25396,24 @@
       "license_url": "https://www.iers.org/iers/en/service/imprint",
       "api_verification_state": "native_anonymous_EOP_JSON_single_value_success_REST_SOAP_time_docs_verified_licence_unconfirmed",
       "latest_checked_utc": "2026-10-17T20:27:19.178981+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ifri-forestry-institutions",
+      "provider": "International Forestry Resources and Institutions research network",
+      "service_name": "IFRI forest governance research data resource",
+      "geographic_coverage": "International forestresources/institutions researchnetwork; actualcurrentgeographiccoverage unverified",
+      "topical_coverage": "environment | biodiversity | agriculture | civic | research",
+      "dataset_families": "Forest-resource/governance/community research discovery candidate; no forest/community/sourcevalues acquired",
+      "documentation_url": "http://ifri.forgov.org/resources/data/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown currentdataaccess/accountterms; no contact/application",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "http://ifri.forgov.org/resources/data/",
+      "api_verification_state": "OriginalHTTPproviderroot robots-deferredunsent; registereddata-policypathunsentafterhostfailure. ExactmachineAPI/base/schema/currentaccess unknown, noalternativeHTTPS/path/backend or cataloguequery.",
+      "latest_checked_utc": "2026-10-18T23:50:36.123205+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
