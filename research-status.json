@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T22:54:49.526652+00:00",
+  "published_at": "2026-10-18T22:56:52.537975+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T22:52:37.604990+00:00",
+  "research_updated_at": "2026-10-18T22:55:47.926903+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals reviewed: Netherlands OAI/eligibleCC0; Illinois own metadata CC0; AIMS eligible metadata CC BY upgrade; OMIA/TERN/Zutphen/HAL/SCEC gaps and UNdata dedup.",
+  "latest_milestone": "PBDB legacyAPIheld/currentgrantgap; ROCK noncommercialmetadata/HTMLIdentify; HMTM selectiveCCBY/sourceexceptions/APIgap.",
   "counts": {
     "verified": 493,
-    "candidates": 1406,
-    "excluded": 404,
+    "candidates": 1408,
+    "excluded": 405,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -24553,6 +24553,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "hmtm-digital-collection",
+      "provider": "Hochschule fuer Musik und Theater Muenchen Library",
+      "service_name": "HMTM Digital Collection on BVB multimedia repository",
+      "geographic_coverage": "Munich/German music and theatre research/teaching heritage; collection-specific historical scope",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Sheet-music/text/image descriptions, digitized historical sound carriers and concert recordings; no source works/media obtained",
+      "documentation_url": "https://hmtm.de/digitale-sammlung/ | https://hmtm.de/en/terms-of-use-for-the-digital-collection/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public owner documentation; some protected works university-network/private access; exact API auth unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Eligible texts/scores/images CC BY (version unspecified); other media/restricted scopes differ",
+      "license_url": "https://hmtm.de/en/terms-of-use-for-the-digital-collection/",
+      "api_verification_state": "Original BVB collection root robots-deferred unsent. Independent owner overview/rights pages HTTP200. Repository/structured discoverability described, but no exact machine API/protocol base established. No alternate BVB collection/backend/source route.",
+      "latest_checked_utc": "2026-10-18T22:55:41.786069+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "hong-kong",
       "provider": "Hong Kong Government DATA.GOV.HK",
       "service_name": "DATA.GOV.HK CKAN metadata, historical archive and filtering APIs",
@@ -31930,6 +31948,24 @@
       "license_url": "https://opendata.com.pk/pages/making-data-open-legally | https://opendata.com.pk/dataset/district-profiles-all-districts-of-pakistan | https://opendata.com.pk/about",
       "api_verification_state": "documented_sample_success",
       "latest_checked_utc": "2026-10-16T21:41:39.087570+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "paleobiology-database-services",
+      "provider": "Paleobiology Database international research community",
+      "service_name": "PBDB fossil-record data service",
+      "geographic_coverage": "Worldwide fossil record and geological-time research; public/embargoed record scopes differ",
+      "topical_coverage": "biodiversity | geospatial | environment | research",
+      "dataset_families": "Fossil collections, taxa, literature, classifications and stratigraphic descriptions; no actual occurrence/species/coordinates queried",
+      "documentation_url": "https://paleobiodb.org/data1.1/ | https://paleobiodb.org/",
+      "api_base_url": "https://paleobiodb.org/data1.1/ (registered legacy); scholarly API paper documents data1.2, current native deployment untested",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public native overview; exact programmatic auth/quota unverified",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://paleobiodb.org/#/faq | https://escholarship.org/uc/item/6tm05630",
+      "api_verification_state": "Native homepage HTTP200 proper interface overview, links API resources. Original registered data1.1 documentation robots-deferred unsent; no alternate data1.2 request or source API query. Current runtime untested.",
+      "latest_checked_utc": "2026-10-18T22:55:41.786069+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -45396,6 +45432,24 @@
       "license_url": "https://lris.scinfo.org.nz/license/landcare-data-use-licence-v1/",
       "api_verification_state": "Native portalHTTP200 JavaScript shell and licenceHTTP200; owner API guide guard-deferred/indexed only, no runtime data response",
       "latest_checked_utc": "2026-10-18T00:55:40.924458+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "lublin-rock-repository",
+      "provider": "Lublin University of Technology",
+      "service_name": "ROCK repository OAI-PMH interface",
+      "geographic_coverage": "Lublin University of Technology research/history-of-technology collections; study-specific geography",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Publications, theses, research-data metadata, technical/history collections; source records not harvested",
+      "documentation_url": "https://rock.pollub.pl/info/regulations",
+      "api_base_url": "https://rock.pollub.pl/server/oai/request",
+      "format_protocol": "OAI-PMH documented/provider display; response returned HTML rather than parseable OAI XML",
+      "authentication": "Homepage/regulations/Identify display anonymous; actual machine XML auth unverified",
+      "free_access_restrictions": "Native regulations repository/metadata access free; metadata commercial reuse requires formal permission; source exceptions by chosen licence",
+      "license": "Default metadata non-commercial reuse with OAI identifier/link; commercial permission required",
+      "license_url": "https://rock.pollub.pl/info/regulations",
+      "api_verification_state": "Native root/regulations HTTP200. Registered Identify HTTP200 text/html DSpace OAI provider information, not parseable OAI XML. Protocol2.0/repository identity displayed, but not counted successful machine response; no alternative XML/format/backend tried.",
+      "latest_checked_utc": "2026-10-18T22:55:41.786069+00:00",
       "classification": "restricted"
     },
     {
