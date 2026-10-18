@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:39:48.363114+00:00",
+  "published_at": "2026-10-18T18:41:51.426306+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:37:43.436013+00:00",
+  "research_updated_at": "2026-10-18T18:41:22.366270+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine Canadian institutional repositories reviewed: per-source/custom licenses and access; HEC identity and all metadata/API scope gaps retained.",
+  "latest_milestone": "Calgary custom/source terms and support fees; Manitoba indexed custom license/direct404; Alberta owner confirms service without blanket grant; shared host holds.",
   "counts": {
     "verified": 445,
-    "candidates": 1246,
+    "candidates": 1252,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -14950,6 +14950,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "alberta-borealis-data-repository",
+      "provider": "University of Alberta",
+      "service_name": "University of Alberta Dataverse curated Borealis repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://guides.library.ualberta.ca/data/dataverse-borealis",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://guides.library.ualberta.ca/data/dataverse-borealis",
+      "api_verification_state": "Native independent institutional documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:41:17.736638+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "alesp-open-data-interfaces",
       "provider": "Assembleia Legislativa do Estado de São Paulo",
       "service_name": "ALESP advertised REST interfaces and open-data portal",
@@ -16567,6 +16585,24 @@
       "license_url": "https://www.caida.org/about/legal/aua/public_aua/",
       "api_verification_state": "Owner GraphQL announcement200HTML; native REST guide guard-deferred/unsent; no query/backend attempt after hold",
       "latest_checked_utc": "2026-10-18T08:48:03.625586+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "calgary-borealis-data-repository",
+      "provider": "University of Calgary",
+      "service_name": "PRISM Data curated Borealis repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.ucalgary.ca/frequently-asked-questions/question/164924",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "Native policy reserves quotas/fees for service beyond free size/item limits or extensive centralized support; source custom terms/access requests possible. No paid service or consumer-account acquisition.",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.ucalgary.ca/frequently-asked-questions/question/199051",
+      "api_verification_state": "Native independent institutional documentation HTTP200 substantive HTML; not API payload. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:41:17.736638+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24958,6 +24994,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "manitoba-borealis-data-repository",
+      "provider": "University of Manitoba",
+      "service_name": "University of Manitoba Dataverse curated Borealis repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://umanitoba.ca/libraries/research-lifecycle-um",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://umanitoba.ca/libraries/research-lifecycle-um",
+      "api_verification_state": "Initial institutional documentation URL HTTP404; indexed official research-lifecycle documentation reviewed, not native API runtime. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:41:17.736638+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mansfeld-crop-database",
       "provider": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK)",
       "service_name": "Mansfeld world crop database",
@@ -31438,6 +31492,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "scedc-fdsn-web-services",
+      "provider": "Caltech / Southern California Earthquake Data Center",
+      "service_name": "SCEDC FDSN and SCEDC web services",
+      "geographic_coverage": "Southern California seismic network/archive; partner-source coverage varies",
+      "topical_coverage": "geospatial | environment | research",
+      "dataset_families": "Station/instrument metadata, seismic event catalog, waveform and phase availability; waveforms/phase files not acquired",
+      "documentation_url": "https://service.scedc.caltech.edu/ | https://service.scedc.caltech.edu/fdsnws/station/1/",
+      "api_base_url": "https://service.scedc.caltech.edu/fdsnws/ | https://service.scedc.caltech.edu/scedcws/",
+      "format_protocol": "FDSN REST StationXML/text, QuakeML, miniSEED; availability JSON/GeoCSV/text; SCEDC webstp/SAC/RESP described",
+      "authentication": "Anonymous service directory/reference/WADL accessible without credentials; protected/source calls not tested",
+      "free_access_restrictions": "Official directory describes free AWS Open Dataset downloads separately; public interface accessibility not license clearance; no AWS account/compute/acquisition",
+      "license": "unknown verified data grant",
+      "license_url": "https://scedc.caltech.edu/about/citation.html",
+      "api_verification_state": "Native service directory/reference HTTP200; anonymous linked application.wadl HTTP200 valid WADL XML. Original main root guard-deferred unsent; no alternate root/legal request. No event/station coordinate/waveform observations requested.",
+      "latest_checked_utc": "2026-10-18T18:40:33.867785+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "schaffhausen-geoservices",
       "provider": "Kanton Schaffhausen,Amt fuer Geoinformation",
       "service_name": "REST geospatial query services",
@@ -33472,6 +33544,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ubc-borealis-data-repository",
+      "provider": "University of British Columbia Library",
+      "service_name": "UBC Dataverse curated Borealis collection",
+      "geographic_coverage": "Canadian institutional research; global source-specific coverage",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; no actual files",
+      "documentation_url": "https://researchdata.library.ubc.ca/learn/download-data-guides/ | https://ubc-library-rc.github.io/rdm/content/05-2_Advanced_Deposit.html",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://ubc-library-rc.github.io/rdm/content/05-2_Advanced_Deposit.html",
+      "api_verification_state": "Independent native institutional guide and owner training HTTP200 substantive HTML. Inherited Borealis root/API/search hold retained; no hosted collection/OAI/API request.",
+      "latest_checked_utc": "2026-10-18T18:40:33.867785+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ubc-circle-open-collections",
       "provider": "University of British Columbia Library",
       "service_name": "cIRcle institutional repository via Open Collections API",
@@ -33577,6 +33667,24 @@
       "license_url": "https://datosdeinvestigacion.udea.edu.co/",
       "api_verification_state": "native_university_operator_repository_identity_verified_original_home_and_OAI_HTTP200_botchallenge_no_XML_success",
       "latest_checked_utc": "2026-10-17T23:57:18.313191+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "udem-borealis-data-repository",
+      "provider": "Université de Montréal Libraries",
+      "service_name": "Université de Montréal curated Borealis repository",
+      "geographic_coverage": "Québec/Canada institutional research; source-specific global geography",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research descriptions, evidence-synthesis supporting materials; no actual files",
+      "documentation_url": "https://boite-outils.bib.umontreal.ca/c.php?g=734537&p=5301410",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://boite-outils.bib.umontreal.ca/c.php?g=734537&p=5301410",
+      "api_verification_state": "Independent native institutional guide HTTP200 substantive HTML. Inherited Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD test.",
+      "latest_checked_utc": "2026-10-18T18:40:33.867785+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
