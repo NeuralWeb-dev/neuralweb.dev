@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T02:03:14.092122+00:00",
+  "published_at": "2026-10-18T02:05:16.922149+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T02:01:46.177859+00:00",
+  "research_updated_at": "2026-10-18T02:04:04.793138+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks reviewed; ten distinct records added. UK-AIR scoped-open/documented API with sample timeout. DaSCH returned header frontier completed:511pages/51079raw/51075unique/4duplicates. BioSimulations1394 and PIDAR28public metadata IDs indexed; source rights unresolved.",
+  "latest_milestone": "dbVar deduplicated as unresolved Entrez family; CEEHRC protected sequence access and NEA CPS individual package restrictions verified.",
   "counts": {
     "verified": 333,
     "candidates": 736,
-    "excluded": 199,
+    "excluded": 201,
     "sample_successes": 468
   },
   "remaining_work": [
@@ -8829,7 +8829,7 @@
       "license": "NLM data distribution terms; NLM-authored content public domain; copyrighted abstracts excluded",
       "license_url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/README.txt",
       "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-18T01:54:59.277998+00:00",
+      "latest_checked_utc": "2026-10-18T02:03:59.860899+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -25001,6 +25001,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "ceehrc-epigenomics-access",
+      "provider": "Canadian Epigenetics, Environment and Health Research Consortium",
+      "service_name": "CEEHRC / CEMT epigenomic data access",
+      "geographic_coverage": "Canadian consortium reference human epigenome contributions to IHEC; individual study/population coverage varies",
+      "topical_coverage": "health | research",
+      "dataset_families": "Reference methylation, histone modifications, transcriptome and underlying genotype/sequence data; public track discovery distinct from protected raw data",
+      "documentation_url": "https://thisisepigenetics.ca/for-scientists/bioinformatics/data",
+      "api_base_url": "",
+      "format_protocol": "Public website, source repositories/tracks; native source-query API not verified",
+      "authentication": "Underlying data protected; request and agreement required. No account, contact, agreement or data request undertaken",
+      "free_access_restrictions": "Protected underlying sequences; embargo/acknowledgement conditions. Public track/metadata reuse separately unresolved",
+      "license": "Protected sequence access subject to Data Distribution Agreement and nine-month initial-analysis embargo; unrestricted public metadata/track licence unknown",
+      "license_url": "https://thisisepigenetics.ca/data/CEMT/dac/index.html",
+      "api_verification_state": "Native homepage, dataset overview and access policy HTTP200 HTML; no data hub, participant/source query or API response sampled",
+      "latest_checked_utc": "2026-10-18T02:03:59.860899+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "charite-zebanc-biobank",
       "provider": "Charité – Universitätsmedizin Berlin / Berlin Institute of Health",
       "service_name": "ZeBanC central biobank and research request service",
@@ -26762,6 +26780,24 @@
       "license_url": "https://ndacc.larc.nasa.gov/about/protocols/data-users",
       "api_verification_state": "official_portal_and_current_policy_verified_public_query_API_unestablished",
       "latest_checked_utc": "2026-10-17T19:12:44.276122+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nea-data-bank-computer-program-services",
+      "provider": "OECD Nuclear Energy Agency Data Bank",
+      "service_name": "Computer Program Services (CPS)",
+      "geographic_coverage": "NEA Data Bank participating countries and eligible establishments; nonmember service eligibility restricted",
+      "topical_coverage": "energy | research",
+      "dataset_families": "Nuclear software packages, processed nuclear data libraries, integral experiments, benchmarks and completed safety joint projects",
+      "documentation_url": "https://databank.io.oecd-nea.org/codes/cps/",
+      "api_base_url": "",
+      "format_protocol": "Public documentation and controlled distribution service; exact public metadata/query API unknown",
+      "authentication": "Nominated establishments/liaison officers and individual request approval for controlled packages; no registration or request used",
+      "free_access_restrictions": "Country/establishment/package eligibility; from2026-09-01 services to IAEA states neither OECD nor NEA members suspended. Fees/individual package terms not universally verified",
+      "license": "Individual single-user/location-specific package licences and restrictions; no blanket open data grant",
+      "license_url": "https://oecd-nea.org/jcms/pl_25468/computer-program-services-cps",
+      "api_verification_state": "Native CPS root/current service guide/eligibility policy HTTP200 HTML; general OECD terms HTTP403, not API absence. No package request, GitLab API or data response tested",
+      "latest_checked_utc": "2026-10-18T02:03:59.860899+00:00",
       "classification": "restricted"
     },
     {
