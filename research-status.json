@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:00:07.576311+00:00",
+  "published_at": "2026-10-18T07:02:10.360676+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T06:54:32.818325+00:00",
+  "research_updated_at": "2026-10-18T07:01:44.207760+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "KI DORIS/Researchdata.se metadataCC0 native verified; shared OAIIdentify succeeds. LORE/VADS policy holds retained, two independent indexed leads queued.",
+  "latest_milestone": "USA-NPN native BY4 and33-entry plant-type JSON verified; USACH OAI and AgroPortal original holds retained with explicit per-source/key restrictions.",
   "counts": {
-    "verified": 371,
-    "candidates": 896,
+    "verified": 372,
+    "candidates": 898,
     "excluded": 265,
     "sample_successes": 465
   },
@@ -11764,6 +11764,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "usa-national-phenology-network-api",
+      "provider": "USA National Phenology Network",
+      "service_name": "USA-NPN phenology web services",
+      "geographic_coverage": "USA phenology and plant/animal references; product/source-specific coverage",
+      "topical_coverage": "biodiversity | climate/weather/environment | agriculture | research",
+      "dataset_families": "Nature’s Notebook phenology data and geospatial products; tested33 plant-type reference entries only",
+      "documentation_url": "https://usanpn.org/data/code | https://github.com/usa-npn/rnpn | https://usa-npn.github.io/rnpn/reference/npn_species.html",
+      "api_base_url": "https://services.usanpn.org/npn_portal/",
+      "format_protocol": "Native REST JSON plant-type dictionary; observational and geospatial APIs documented, no source observations/raster requests",
+      "authentication": "Anonymous dictionary GET succeeds; owner client says no API key, some larger-data operations require request_source self-identification. No account/personal identity submitted.",
+      "free_access_restrictions": "Public data BY4; website ordinary content/photos and individual source terms distinct. No payment or large-data requests.",
+      "license": "Creative Commons Attribution4.0, USA-NPN database/data-policy scope",
+      "license_url": "https://www.usanpn.org/about/terms",
+      "api_verification_state": "Native terms/programmatic guide/owner client docs200; exact plant-type dictionary200 valid JSON33entries. GoogleDoc response capped500KB and not fully read; candidate guessed client-file404 corrected from native published source link, no API hold bypass.",
+      "latest_checked_utc": "2026-10-18T07:01:39.084450+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "usda-cdl",
       "provider": "USDA National Agricultural Statistics Service (NASS)",
       "service_name": "Cropland Data Layer / CroplandCROS ArcGIS image service",
@@ -12447,6 +12465,24 @@
       "license_url": "",
       "api_verification_state": "documented_OpenAPI_and_dataflow_XML_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T01:29:24.841762+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "agroportal-ontology-api",
+      "provider": "AgroPortal / OntoPortal community",
+      "service_name": "AgroPortal agricultural ontology REST/SPARQL services",
+      "geographic_coverage": "International agriculture, agronomy, food, plant science and biodiversity terminology; ontology scope varies",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Ontologies, vocabularies, concepts and ontology-level licence metadata; no ontology inventory/query",
+      "documentation_url": "https://data.agroportal.eu/documentation",
+      "api_base_url": "https://data.agroportal.eu/ | https://sparql.agroportal.eu/sparql; documented/indexed, runtime untested",
+      "format_protocol": "REST and SPARQL documented/indexed; no machine response tested",
+      "authentication": "Official indexed REST documentation requires API key Authorization; no key/account obtained or used",
+      "free_access_restrictions": "Exact free tier/limits/current access unknown, no subscription/acquisition",
+      "license": "unknown verified data grant",
+      "license_url": "https://data.agroportal.eu/documentation",
+      "api_verification_state": "Original root guard-deferred unsent. Indexed official API/licence documentation only; key-required REST not tested and no SPARQL/backend workaround.",
+      "latest_checked_utc": "2026-10-18T07:01:39.084450+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26163,6 +26199,24 @@
       "license_url": "https://www.navy.mil/Privacy-Policy/",
       "api_verification_state": "Native portal guard-deferred unsent; independent Navy.mil policy HTTP200, no current portal query API verified",
       "latest_checked_utc": "2026-10-18T01:49:37.153273+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "usach-research-data-repository",
+      "provider": "Universidad de Santiago de Chile",
+      "service_name": "USACH research-data repository",
+      "geographic_coverage": "USACH-associated research, Chile; dataset scope varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional datasets and faculty collections; no source inventory acquired",
+      "documentation_url": "https://datos.usach.cl/",
+      "api_base_url": "https://datos.usach.cl/oai; exact Identify held",
+      "format_protocol": "Native Dataverse5.13 landing; OAI/REST/SWORD registry interfaces not runtime verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Native root200HTML; exact registry OAI Identify guard-deferred unsent, no machine response",
+      "latest_checked_utc": "2026-10-18T07:01:39.084450+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
