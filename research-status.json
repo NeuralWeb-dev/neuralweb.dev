@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T09:31:45.274362+00:00",
+  "published_at": "2026-10-18T09:33:48.044088+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:29:16.295273+00:00",
+  "research_updated_at": "2026-10-18T09:32:46.919111+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IPKPGP softwareGPL/data grant split; JGI current release/publication policies and Swagger2download schema2ops; UQAR source licence choices/inheritedBorealishold; existingPhytoMine410 retained.",
+  "latest_milestone": "MDZ collectionfrontier advanced to50pages/50000refs;3163503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 387,
-    "candidates": 976,
+    "candidates": 979,
     "excluded": 287,
     "sample_successes": 465
   },
@@ -9844,7 +9844,7 @@
       "license": "Explicit dataset unrestricted-use grant with required citation in official UMM UseConstraints | Native NASA-led mission CC0 default subject to restrictive file notices; separate conditional CERES/MISR policy review",
       "license_url": "https://cmr.earthdata.nasa.gov/search/collections.umm_json?page_size=1&short_name=SPL3SMP_E&version=006+%7C+https%3A%2F%2Fscience.data.nasa.gov%2Fabout%2Flicense",
       "api_verification_state": "documented_metadata_sample_success_data_login_required_untested",
-      "latest_checked_utc": "2026-10-18T00:52:01.670729+00:00",
+      "latest_checked_utc": "2026-10-18T09:32:16.093998+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -17176,6 +17176,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "encode-project-rest-api",
+      "provider": "ENCODE Consortium / ENCODE Data Coordination Center",
+      "service_name": "ENCODE portal REST API",
+      "geographic_coverage": "International genome functional-elements research; indexed policy human/mouse scope, no terrestrialcoverageclaim",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Genome functional/regulatory element and experimental metadata discovery; no donor/experiment/source data queried",
+      "documentation_url": "https://www.encodeproject.org/help/rest-api/ | https://www.encodeproject.org/about/data-use-policy/",
+      "api_base_url": "https://www.encodeproject.org/ (indexed ownerREST interface, nativeheld)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Indexed owner unrestricted released-data policy; exact current native/API scope unresolved",
+      "license_url": "https://www.encodeproject.org/about/data-use-policy/ | https://www.encodeproject.org/help/rest-api/",
+      "api_verification_state": "Native rootguard-deferred/unsent. Indexed ownerAPI/policy reviewed, no currentnative/schema/source response or alternateSwagger/query/backend afterhold",
+      "latest_checked_utc": "2026-10-18T09:32:16.093998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "encyclopedia-of-life-data-services",
       "provider": "Encyclopedia of Life and content partners",
       "service_name": "EOL biodiversity data services",
@@ -20735,8 +20753,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across33successfulpages/33000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T09:23:41.536903+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across50successfulpages/50000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T09:32:42.313799+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -21460,6 +21478,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nasa-gcmd-keyword-management",
+      "provider": "NASA GCMD / Earthdata",
+      "service_name": "GCMD Keyword Management System API",
+      "geographic_coverage": "Earth-science controlled vocabulary for international discovery; not an observationcoverage claim",
+      "topical_coverage": "climate/weather/environment | geospatial | oceans | research",
+      "dataset_families": "Sciencekeywords and controlledhierarchies used byCMR/metadata; no keywordvalues or observationdata requested",
+      "documentation_url": "https://gcmd.earthdata.nasa.gov/kms/capabilities?format=html+%7C+https%3A%2F%2Fwiki.earthdata.nasa.gov%2Fspaces%2FCMR%2Fpages%2F107387205%2FScience%2BKeywords",
+      "api_base_url": "https://gcmd.earthdata.nasa.gov/kms/ (registry and indexedNASAguide, nativecapabilitiesheld)",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "",
+      "api_verification_state": "Exact originalKMS capabilitiesdocumentation guard-deferred/unsent; indexed NASAguide documents controlledvocabularysource. No alternateCSV/JSON/conceptscheme/CMRcachedkeyword query afterhold.",
+      "latest_checked_utc": "2026-10-18T09:32:16.093998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nasa-heasarc",
       "provider": "NASA GSFC / High Energy Astrophysics Science Archive Research Center",
       "service_name": "HEASARC Xamin and Virtual Observatory APIs",
@@ -21997,6 +22033,24 @@
       "license_url": "https://docs.ulb.tu-darmstadt.de/nfdi4ing-ingest/nutzungsvereinbarung/",
       "api_verification_state": "native_anonymous_OAI_Identify_fourformats_and33identifiers_complete_OpenAPI_JSON_verified_licence_unconfirmed",
       "latest_checked_utc": "2026-10-17T20:46:18.970620+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nfin-killifish-information",
+      "provider": "Leibniz Institute on Aging / Fritz Lipmann Institute",
+      "service_name": "Nothobranchius furzeri Information Network",
+      "geographic_coverage": "Killifish biological/genomic reference discovery; speciesdistribution information not terrestrialdataAPIcoverage proof",
+      "topical_coverage": "biodiversity | research | health",
+      "dataset_families": "Killifish biology, genome/transcriptome browser links and research resources; source sequences/records not queried",
+      "documentation_url": "https://www.nothobranchius.info// | https://www.leibniz-fli.de/legal-information/imprint",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.leibniz-fli.de/legal-information/imprint",
+      "api_verification_state": "Native root and independentownerimprint200HTML; no publicqueryAPI/source/schema verified",
+      "latest_checked_utc": "2026-10-18T09:32:16.093998+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
