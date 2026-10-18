@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T14:16:49.751124+00:00",
+  "published_at": "2026-10-18T14:18:52.818702+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:16:34.378115+00:00",
+  "research_updated_at": "2026-10-18T14:18:31.862082+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Sixoriginals:PSIAPI/rightsunknown;GtoPdbODbL/BYSA4/key/commercialfees;DiscussDatamixed;bio.toolsCCBY4/aggregateJSON;JHUmixed/OAIguard;ComplexPortalprojectCC0/directory/runtimeuntested;MDZ597000incomplete.",
+  "latest_milestone": "Arch indexedmediatedOAI/mixedrights/held; Aston nativecustomopenmetadata/OAIguard; AmoebaDBshell/rightsAPIunknown",
   "counts": {
-    "verified": 425,
-    "candidates": 1070,
+    "verified": 427,
+    "candidates": 1074,
     "excluded": 319,
     "sample_successes": 464
   },
@@ -6438,6 +6438,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "aston-data-explorer",
+      "provider": "Aston University",
+      "service_name": "Aston Data Explorer OAI-PMH metadata",
+      "geographic_coverage": "Aston University research outputs, United Kingdom institution; source dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research data discovery metadata; source dataset files per license",
+      "documentation_url": "https://researchdata.aston.ac.uk/ | https://researchdata.aston.ac.uk/take_down_policy.html",
+      "api_base_url": "https://researchdata.aston.ac.uk/cgi/oai2",
+      "format_protocol": "Owner native root explicitly OAI2.0 base; runtimeXML untested",
+      "authentication": "Public documentation/metadata policy, actual OAI authentication untested",
+      "free_access_restrictions": "Metadata accessible to anyone free of charge; source data access and reuse per dataset",
+      "license": "Custom open metadata reuse grant with repository attribution",
+      "license_url": "https://researchdata.aston.ac.uk/take_down_policy.html",
+      "api_verification_state": "Native root/policy200 substantiveHTML, exactOAI2base published. Identifyguard-deferredtargetunsent, noXML/sample success claimed.",
+      "latest_checked_utc": "2026-10-18T14:18:27.386726+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "australia",
       "provider": "Australian government data.gov.au",
       "service_name": "Australian government data.gov.au open data portal",
@@ -11838,6 +11856,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "progenetix-beacon-services",
+      "provider": "University of Zurich / SIB / Progenetix project",
+      "service_name": "Progenetix Beacon and services API",
+      "geographic_coverage": "International cancer genomic knowledge; current sample/source geographic coverage unqueried",
+      "topical_coverage": "health | research",
+      "dataset_families": "Cancer genome screening profiles and related annotations; individual clinical/genomic data unqueried",
+      "documentation_url": "https://docs.progenetix.org/ | https://docs.progenetix.org/services/",
+      "api_base_url": "",
+      "format_protocol": "GA4GH Beacon programmatic access documented; exact schema/runtime unverified",
+      "authentication": "Owner states no specific registration required since2012; actual current operation auth untested",
+      "free_access_restrictions": "Native docs no-specific-registration statement; commercial contact suggested, not represented as license permission requirement; numeric quotas unknown",
+      "license": "CC BY 4.0 for owner-described data",
+      "license_url": "https://docs.progenetix.org/ | https://creativecommons.org/licenses/by/4.0/",
+      "api_verification_state": "Native documentation root200 substantive license/Beacon description. /services/ documentation422; not proof API absent. No alternate docs/Beacon/bycon/API/schema/version request afterhold.",
+      "latest_checked_utc": "2026-10-18T14:16:51.719696+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "radar-public-metadata",
       "provider": "FIZ Karlsruhe – Leibniz Institute for Information Infrastructure",
       "service_name": "RADAR public metadata OAI-PMH and documented REST interfaces",
@@ -14141,6 +14177,24 @@
       "license_url": "https://amda.irap.omp.eu/help/info.html | https://cdpp.irap.omp.eu/index.php/licence-sipad",
       "api_verification_state": "native_13_operation_version_contract_and_JSON_health_success_no_data_source_sample_or_open_grant",
       "latest_checked_utc": "2026-10-17T21:39:32.420303+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "amoebadb-wdk-service",
+      "provider": "VEuPathDB / AmoebaDB project",
+      "service_name": "AmoebaDB component data services",
+      "geographic_coverage": "Amoeba/protist research knowledge, exact current organism/source corpus unqueried",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Integrated genomic and functional-genomic resources; source data not queried",
+      "documentation_url": "https://amoebadb.org/amoeba/app/static-content/about.html | https://veupathdb.org/service-api.html",
+      "api_base_url": "",
+      "format_protocol": "Registry VEuPathDB REST claims refer generic family documentation, not runtime component proof",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown effective AmoebaDB metadata/data source grant",
+      "license_url": "https://amoebadb.org/amoeba/app/static-content/about.html",
+      "api_verification_state": "Native about200HTML loading shell; no current Amoeba-specific machine API/schema/sample. Prior generic VEuPathDB service-doc hold preserved, not re-requested.",
+      "latest_checked_utc": "2026-10-18T14:18:27.386726+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22617,8 +22671,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across597successfulpages/597000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:11:28.553756+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across612successfulpages/612000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:17:28.227969+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24710,6 +24764,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "northwestern-arch-repository",
+      "provider": "Northwestern University Libraries",
+      "service_name": "Arch institutional repository",
+      "geographic_coverage": "Northwestern University research outputs, United States institution; dataset geographical scope varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Research data, scholarly/creative outputs and theses; mixed rights/access",
+      "documentation_url": "https://arch.library.northwestern.edu/about?locale=en+%7C+https%3A%2F%2Farch.library.northwestern.edu%2Fhelp%3Flocale%3Den",
+      "api_base_url": "https://oai.datacite.org/oai (owner-indexed DataCite harvest set NU.ARCH, not independent Arch service)",
+      "format_protocol": "OAI-PMH mediated by DOI provider documented in indexed owner help; current scoped runtime untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-work selected CC or all-rights-reserved; metadata-wide grant unverified",
+      "license_url": "https://arch.library.northwestern.edu/about?locale=en+%7C+https%3A%2F%2Farch.library.northwestern.edu%2Fhelp%3Flocale%3Den",
+      "api_verification_state": "Native about guard-deferred targetunsent; helpunsent aftersamehosthold. Indexed owner documentation only for mediatedOAI existence; no API/XMLresponse.",
+      "latest_checked_utc": "2026-10-18T14:18:27.386726+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "norway",
       "provider": "Norwegian Digitalisation Agency",
       "service_name": "Norwegian Digitalisation Agency open data portal",
@@ -26276,6 +26348,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "pnnl-datahub",
+      "provider": "Pacific Northwest National Laboratory",
+      "service_name": "PNNL DataHub scientific data repository",
+      "geographic_coverage": "PNNL scientific research outputs, United States institution; dataset geographic coverage varies",
+      "topical_coverage": "research | energy | environment",
+      "dataset_families": "Institutional scientific datasets and research outputs; exact current inventory unenumerated",
+      "documentation_url": "https://data.pnnl.gov/about | https://data.pnnl.gov/policy",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native end-user policy says registered users required for services including downloads; no account/login used",
+      "free_access_restrictions": "Registration requirement documented; free-tier/download/API entitlement unknown. Applicable dataset permissions may vary.",
+      "license": "Default CC0 for published materials with possible approved alternative licenses; metadata-wide grant unknown",
+      "license_url": "https://data.pnnl.gov/policy",
+      "api_verification_state": "Native about/policy200 substantive HTML; no exact public machine API/schema or sample verified. Same-institution HeteroFAM API is a separate newly discovered candidate, not DataHub API proof.",
+      "latest_checked_utc": "2026-10-18T14:16:51.719696+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "poland-gus-dbw",
       "provider": "Statistics Poland (GUS)",
       "service_name": "Knowledge Databases (DBW) API",
@@ -26597,6 +26687,24 @@
       "license_url": "https://www.proteomexchange.org/docs/guidelines_px.pdf",
       "api_verification_state": "Native consortiumhome/linkedguidelinesPDF/currentProteomeCentralentry200; legacyGetDatasetentry resolvescurrentfrontendHTML, not machineAPIresponse. No blindoutputMode query, spectrumUSI/PROXI, FTP orsourcefiles requested.",
       "latest_checked_utc": "2026-10-18T03:11:36.556680+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "proteomicsdb-api",
+      "provider": "ProteomicsDB project",
+      "service_name": "ProteomicsDB APIv2",
+      "geographic_coverage": "International multi-omics research resource; exact source/organism/geographic corpus unqueried",
+      "topical_coverage": "health | research | biodiversity",
+      "dataset_families": "Proteomic/transcriptomic knowledge, drug/protein interactions and related experiments; no scientific values queried",
+      "documentation_url": "https://www.proteomicsdb.org/apiv2 | https://www.proteomicsdb.org/disclaimer",
+      "api_base_url": "",
+      "format_protocol": "Indexed owner documentation APIv2/OData route discovery only; native schema/response unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown effective current data/API corpus grant",
+      "license_url": "https://www.proteomicsdb.org/disclaimer",
+      "api_verification_state": "Native APIv2/disclaimer200HTML client shells; webreader same. Indexed owner API page reports OData-style API route, not successful scientific API sample/schema.",
+      "latest_checked_utc": "2026-10-18T14:16:51.719696+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
