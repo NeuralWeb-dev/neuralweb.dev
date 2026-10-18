@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:19:40.019039+00:00",
+  "published_at": "2026-10-18T17:21:43.197171+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:18:16.703475+00:00",
+  "research_updated_at": "2026-10-18T17:21:16.354574+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals reviewed/five service records added: TECdatos mixed licenses; Javeriana held; FIU/UNIMI native default CC0 with custom exceptions/runtime gaps; Mount Allison selected licenses/Borealis hold; DRA dedup. MDZ935000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to948pages/948000refs;2265503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 441,
-    "candidates": 1192,
-    "excluded": 344,
+    "candidates": 1194,
+    "excluded": 345,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -19772,6 +19772,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "eiffel-research-data",
+      "provider": "Université Gustave Eiffel",
+      "service_name": "Data Univ Gustave Eiffel repository and institutional collection",
+      "geographic_coverage": "France institutional research; source geography varies",
+      "topical_coverage": "research | education | transportation",
+      "dataset_families": "Data Univ Gustave Eiffel repository and institutional collection",
+      "documentation_url": "https://www.univ-gustave-eiffel.fr/la-recherche/science-ouverte/donnees-et-logiciels-libres",
+      "api_base_url": "https://data.univ-gustave-eiffel.fr/oai (legacy registry endpoint, current collection unresolved)",
+      "format_protocol": "Registry legacy Dataverse OAI; current institutional Recherche Data Gouv collection documented only",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.univ-gustave-eiffel.fr/la-recherche/science-ouverte/donnees-et-logiciels-libres",
+      "api_verification_state": "Legacy repository and independent owner page guard-deferred; OAI skipped after same-host hold. Indexed official owner review only, no live API payload.",
+      "latest_checked_utc": "2026-10-18T17:20:59.935825+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "eli-eric-data-repository",
       "provider": "Extreme Light Infrastructure ERIC",
       "service_name": "ELI ERIC Open Data Repository",
@@ -24357,8 +24375,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across935successfulpages/935000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T17:16:11.766821+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across948successfulpages/948000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T17:21:11.891181+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28067,6 +28085,24 @@
       "license_url": "https://opendata.paris.fr/terms/terms-and-conditions/ | https://www.opendatacommons.org/licenses/odbl/",
       "api_verification_state": "documented_historical_sample_success_current_sample_policy_deferred",
       "latest_checked_utc": "2026-10-17T12:06:20.255349+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pazy-plastics-active-enzymes",
+      "provider": "University of Hamburg / University of Stuttgart PAZy collaboration",
+      "service_name": "PAZy public REST API",
+      "geographic_coverage": "International literature-curated enzyme research; Germany institutional operators",
+      "topical_coverage": "research | environment",
+      "dataset_families": "Curated plastic-active enzyme literature, substrate/taxonomy and protein metadata; sequence-bearing responses and assay snapshots not acquired",
+      "documentation_url": "https://pazy.eu/api-docs | https://pazy.eu/about",
+      "api_base_url": "https://api.pazy.eu/api",
+      "format_protocol": "Documented GET REST JSON and CSV/FASTA download interfaces",
+      "authentication": "Public API documented; exact credential/quota policy unknown, no credentials used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://pazy.eu/legal-notice",
+      "api_verification_state": "Native documentation HTTP200; 16 published GET operation references indexed, not dataset records. No actual API protein/sequence/organism/assay payload.",
+      "latest_checked_utc": "2026-10-18T17:20:59.935825+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -40741,6 +40777,24 @@
       "license_url": "https://www.rwi-essen.de/en/research-advice/further/research-data-center-ruhr-fdz/data-request",
       "api_verification_state": "Native public root/access-policy200HTML. No public machine query API or participant/household/source data request tested.",
       "latest_checked_utc": "2026-10-18T03:06:41.677468+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "samd-atmospheric-measurements",
+      "provider": "University of Hamburg ICDC / SAMD",
+      "service_name": "SAMD Standardized Atmospheric Measurement Data archive",
+      "geographic_coverage": "Central Europe atmospheric observation networks/campaigns; exact source coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Standardized cloud/precipitation atmospheric ground and remote-sensing measurements; source observations not acquired",
+      "documentation_url": "https://www.cen.uni-hamburg.de/en/icdc/research/samd.html",
+      "api_base_url": "https://icdc.cen.uni-hamburg.de/thredds/catalog/ftpthredds/samd/ (registry collection claim, not retested)",
+      "format_protocol": "ICDC THREDDS/OPeNDAP registry collection; NetCDF product-standard PDF is technical documentation, not API",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-NC-SA4 noncommercial research with source/campaign-specific additional terms",
+      "license_url": "https://www.cen.uni-hamburg.de/en/icdc/research/samd/about-samd/samd-data-policy.html",
+      "api_verification_state": "Native policy/overview HTTP200 substantive HTML. Existing general ICDC THREDDS XML success retained separately; no SAMD child catalog/data/array request.",
+      "latest_checked_utc": "2026-10-18T17:20:59.935825+00:00",
       "classification": "restricted"
     },
     {
