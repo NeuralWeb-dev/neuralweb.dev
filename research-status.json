@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T09:23:33.496555+00:00",
+  "published_at": "2026-10-18T09:25:37.034452+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T09:22:17.548576+00:00",
+  "research_updated_at": "2026-10-18T09:23:46.992564+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DataStreamnativepublishedopendatalicences/keyrequiredODataverified; SIMBADheld/indexedODbL; GeoCommonsmetadataBY3/staticprefixinventory/sourcegrantmixed documented.",
+  "latest_milestone": "Sixoriginals: CanadianGeoNamesCGNOGL/themeJSON11; DataStreamopendata/keyrequiredGETdocs; OBISdedup; AODNmixedpolicy/CSWheld; SIMBADheld;GeoCommons802prefixrefs;MDZ33000refs/33pages.",
   "counts": {
     "verified": 387,
     "candidates": 973,
@@ -194,6 +194,7 @@
           "flood-observatory-colorado",
           "fossilworks-ecoregister",
           "gawsis-station-metadata",
+          "geocommons-archive-metadata",
           "georem-reference-materials",
           "gistemp-data-access",
           "gpcc-precipitation-product-portal",
@@ -339,6 +340,7 @@
           "worldbank-catalog"
         ],
         "candidate_provider_ids": [
+          "geocommons-archive-metadata",
           "iaea-livechart-nuclear-data",
           "india-environment-portal",
           "isimip-impact-repository",
@@ -495,6 +497,7 @@
         "candidate_provider_ids": [
           "caida-asrank-api",
           "cugir-geospatial-repository",
+          "geocommons-archive-metadata",
           "nasa-open-data-catalog",
           "openchargemap",
           "shom-data"
@@ -553,6 +556,7 @@
           "eumetsat-data-store-api",
           "eurolas-data-center-api",
           "flood-observatory-colorado",
+          "geocommons-archive-metadata",
           "gsa-figshare-data-repository",
           "icgem-gravity-model-portal",
           "iers-central-bureau-webservices",
@@ -1016,6 +1020,7 @@
           "flood-observatory-colorado",
           "fossilworks-ecoregister",
           "gawsis-station-metadata",
+          "geocommons-archive-metadata",
           "georem-reference-materials",
           "georoc2-testing-api",
           "getty-museum",
@@ -1284,6 +1289,7 @@
           "arctic-data",
           "boston-maps-open-data",
           "canada-npri-arcgis",
+          "datastream-water-odata-api",
           "eccc-geomet",
           "epa-aqs",
           "geri",
@@ -1366,6 +1372,7 @@
           "arctic-data",
           "canada-npri-arcgis",
           "cib",
+          "datastream-water-odata-api",
           "eccc-geomet",
           "geri",
           "gtnp-current-data-platform-api",
@@ -1832,6 +1839,7 @@
           "canada-npri-arcgis",
           "cib",
           "cleveland-art",
+          "datastream-water-odata-api",
           "fwc",
           "geri",
           "getty-provenance",
@@ -4900,6 +4908,7 @@
         "status": "partial_verified",
         "verified_provider_ids": [
           "ala",
+          "datastream-water-odata-api",
           "esgf-ceda-discovery",
           "esgf-nci-discovery",
           "geri",
@@ -4912,6 +4921,7 @@
           "aims-data-platform",
           "aims-metadata-catalog",
           "anu-data-commons-repository",
+          "aodn-marine-data-services",
           "auscope-earthbank",
           "brisbane-open-data",
           "csiro-data-access-portal",
@@ -4952,10 +4962,12 @@
       "water": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "datastream-water-odata-api",
           "geri",
           "ocean-networks-canada"
         ],
         "candidate_provider_ids": [
+          "aodn-marine-data-services",
           "csiro-marlin-metadata",
           "data-wa-catalogue-api",
           "ozflux-data-portal",
@@ -5148,6 +5160,7 @@
         ],
         "candidate_provider_ids": [
           "anu-data-commons-repository",
+          "aodn-marine-data-services",
           "csiro-data-access-portal",
           "esa-ecology",
           "landcare-research-datastore",
@@ -5171,6 +5184,7 @@
         "candidate_provider_ids": [
           "aims-data-platform",
           "aims-metadata-catalog",
+          "aodn-marine-data-services",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
           "pacioos-erddap",
@@ -5221,6 +5235,7 @@
       "research": {
         "status": "partial_verified",
         "verified_provider_ids": [
+          "datastream-water-odata-api",
           "esgf-ceda-discovery",
           "esgf-nci-discovery",
           "geochron-geochronology-api",
@@ -5232,6 +5247,7 @@
           "aims-metadata-catalog",
           "anu-data-commons-repository",
           "anzctr-trial-registry",
+          "aodn-marine-data-services",
           "auscope-earthbank",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
@@ -20683,8 +20699,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Native IIIFtopcollection and16returned continuationpages HTTP200validJSON-LD;17pages/17000unique references. Not source image/OCR or metadata licence verification.",
-      "latest_checked_utc": "2026-10-18T09:12:40.034832+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across33successfulpages/33000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T09:23:41.536903+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
