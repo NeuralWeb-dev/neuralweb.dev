@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:31:35.408157+00:00",
+  "published_at": "2026-10-18T18:33:39.023019+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:28:28.037192+00:00",
+  "research_updated_at": "2026-10-18T18:32:57.404168+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SciELO/Mexico shared service held/indexed source terms; Unisa Figshare hold/owner policy; Water Hub no-crawl/resale/commercial terms; Acadia/Sherbrooke institutional rights and Borealis holds.",
+  "latest_milestone": "MSVU/Polytechnique/VIU institutional guides and mixed license/access reviewed; Borealis holds retained.",
   "counts": {
     "verified": 445,
-    "candidates": 1234,
+    "candidates": 1237,
     "excluded": 369,
     "sample_successes": 464
   },
@@ -25804,6 +25804,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "msvu-borealis-data-repository",
+      "provider": "Mount Saint Vincent University",
+      "service_name": "Mount Saint Vincent University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; no actual source records/files",
+      "documentation_url": "https://www.msvu.ca/research-at-the-mount/research-data-management-rdm/",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.msvu.ca/research-at-the-mount/research-data-management-rdm/",
+      "api_verification_state": "Independent institutional documentation HTTP200 substantive HTML. Inherited Borealis root/API/search hold retained; hosted collection/OAI/REST/SWORD not requested.",
+      "latest_checked_utc": "2026-10-18T18:32:34.165755+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "mtropics-sedoo-metadata",
       "provider": "M-TROPICS / SEDOO",
       "service_name": "Tropical catchment catalogue metadata service",
@@ -29419,6 +29437,24 @@
       "license_url": "https://polar.cenagis.edu.pl/about",
       "api_verification_state": "Native homepage/about/help HTTP200. Bounded package_search target guard-deferred unsent; no JSON API response or alternate viewer/backend query.",
       "latest_checked_utc": "2026-10-18T01:54:59.277998+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "polymtl-borealis-data-repository",
+      "provider": "Polytechnique Montréal",
+      "service_name": "Polytechnique Montréal curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; no actual source records/files",
+      "documentation_url": "https://guides.biblio.polymtl.ca/donneesrecherche/dataverse",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://guides.biblio.polymtl.ca/donneesrecherche/dataverse",
+      "api_verification_state": "Independent institutional documentation HTTP200 substantive HTML. Inherited Borealis root/API/search hold retained; hosted collection/OAI/REST/SWORD not requested.",
+      "latest_checked_utc": "2026-10-18T18:32:34.165755+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34765,6 +34801,24 @@
       "license_url": "",
       "api_verification_state": "Native API guide200HTML and linked strictWSDL200validWSDLdefinitions XML with1portType/2operations. NoSOAPQuery/GetData, source runtime, download/authentication or currentalternativeRPCendpoint request.",
       "latest_checked_utc": "2026-10-18T10:13:41.755746+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "viu-borealis-data-repository",
+      "provider": "Vancouver Island University",
+      "service_name": "Vancouver Island University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; no actual source records/files",
+      "documentation_url": "https://libguides.viu.ca/c.php?g=188929&p=1247338",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; exact institutional set/interface unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://libguides.viu.ca/c.php?g=188929&p=1247338",
+      "api_verification_state": "Independent institutional documentation HTTP200 substantive HTML. Inherited Borealis root/API/search hold retained; hosted collection/OAI/REST/SWORD not requested.",
+      "latest_checked_utc": "2026-10-18T18:32:34.165755+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
