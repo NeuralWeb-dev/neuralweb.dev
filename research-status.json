@@ -1,9 +1,9 @@
 {
-  "published_at": "2026-10-18T23:40:01.361625+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-18T23:42:06.289431+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:39:50.017106+00:00",
+  "research_updated_at": "2026-10-18T23:40:40.903186+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
   "latest_milestone": "Six originals: NOMADCC0/BY4/OPTIMADEinfoJSON/122operationrefs; NIST10childleads; DARECLIMED/PlantsTaiwanrestricted; CGRIS/CPCAPIgaps/11CPCrefs.",
   "counts": {
@@ -43515,7 +43515,7 @@
       "geographic_coverage": "Eastern Mediterranean and Middle East regional climate/water/energy focus",
       "topical_coverage": "climate | environment | water | energy | agriculture | economics | demographics",
       "dataset_families": "Climate/water/energy core; fire emissions, land-use/agriculture, population/economy discovery categories; no environmentalsourcevalues acquired",
-      "documentation_url": "https://www.cyi.ac.cy/index.php/dareclimed-data-repository.html",
+      "documentation_url": "https://www.cyi.ac.cy/index.php/dareclimed-data-repository.html | https://www.cyi.ac.cy/index.php/care-c/research-information/completed-projects/dareclimed-data-repositories-and-computational-infrastructure-for-environmental-and-climate-studies-in-the-eastern-mediterranean.html",
       "api_base_url": "",
       "format_protocol": "HTML documentation",
       "authentication": "Provider-mediated access/contact required for LAS; no contact/account/access request performed",
@@ -43523,7 +43523,7 @@
       "license": "Managed restricted LAS access; no formal open data grant verified",
       "license_url": "https://www.cyi.ac.cy/index.php/dareclimed-data-repository.html",
       "api_verification_state": "Native page200documents LAS visualization/subsets/formats, but exact current deployed networkAPI/base/schema/runtime unknown. Generic NOAA LAS/NetCDF ingestion guide does not prove Cyprus deployment/openAPI.",
-      "latest_checked_utc": "2026-10-18T23:37:29.981408+00:00",
+      "latest_checked_utc": "2026-10-18T23:40:27.796309+00:00",
       "classification": "restricted"
     },
     {
