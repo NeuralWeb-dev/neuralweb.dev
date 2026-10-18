@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T10:53:45.718172+00:00",
+  "published_at": "2026-10-18T10:55:48.643434+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:52:48.219008+00:00",
+  "research_updated_at": "2026-10-18T10:55:37.422471+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "ORNL/USU sourceholds and identity/interface gaps; MetaNetX scopedSIBBY4/constantASK/58schema declarations; MDZ288000refs/288pages incomplete.",
+  "latest_milestone": "CROSSDAcategoryA BY4/OAIIdentify; NLS47IIIFrefs/23metadata pages and registerhold; ADPrestrictedterms/OAIhold; MDZ304000refs/304pages incomplete.",
   "counts": {
-    "verified": 391,
-    "candidates": 1014,
-    "excluded": 293,
+    "verified": 392,
+    "candidates": 1015,
+    "excluded": 294,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -2260,6 +2260,7 @@
           "cessda-elsst",
           "cessda-vocabularies",
           "croatia-statistics",
+          "crossda-social-science-api",
           "denmark-statbank",
           "destatis",
           "estonia-statistics",
@@ -2321,6 +2322,7 @@
           "worldpop-wopr"
         ],
         "restricted_provider_ids": [
+          "adp-slovenian-social-science",
           "alspac-cohort-access-portal",
           "bamf-fdz-research-data",
           "datice-gagnis-iceland",
@@ -2345,6 +2347,7 @@
           "cbs",
           "cessda-elsst",
           "croatia-statistics",
+          "crossda-social-science-api",
           "denmark-statbank",
           "destatis",
           "ecb",
@@ -2391,6 +2394,7 @@
           "uk-trade-tariff"
         ],
         "restricted_provider_ids": [
+          "adp-slovenian-social-science",
           "bonn-open-data",
           "datice-gagnis-iceland",
           "dhsnl-dnb-household-survey",
@@ -2406,6 +2410,7 @@
           "cbs",
           "cessda-elsst",
           "croatia-statistics",
+          "crossda-social-science-api",
           "denmark-statbank",
           "destatis",
           "estonia-statistics",
@@ -2445,6 +2450,7 @@
           "trentino-open-data"
         ],
         "restricted_provider_ids": [
+          "adp-slovenian-social-science",
           "alspac-cohort-access-portal",
           "bamf-fdz-research-data",
           "bibb-fdz-research-data",
@@ -2790,6 +2796,7 @@
           "cessda-vocabularies",
           "clarin-dk",
           "clarin-pl",
+          "crossda-social-science-api",
           "dariah-de-repository-oai",
           "dnb",
           "ecienciadatos-madrono-metadata",
@@ -2892,6 +2899,7 @@
           "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
+          "adp-slovenian-social-science",
           "alspac-cohort-access-portal",
           "bamf-fdz-research-data",
           "bibb-fdz-research-data",
@@ -3434,6 +3442,7 @@
           "clarin-dk",
           "clarin-pl",
           "croatia-statistics",
+          "crossda-social-science-api",
           "dariah-de-repository-oai",
           "darus",
           "defra-ukair-sos",
@@ -3588,6 +3597,7 @@
           "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
+          "adp-slovenian-social-science",
           "agdc-geomagnetic-portal",
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
@@ -7102,6 +7112,24 @@
       "license_url": "https://repository.crossasia.org/content/rights/copyright.xml",
       "api_verification_state": "Native copyright and technical docs200HTML confirm scoped grant/OAI; exact Identify guard-deferred unsent, API runtime untested",
       "latest_checked_utc": "2026-10-18T06:14:25.579137+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "crossda-social-science-api",
+      "provider": "Croatian Social Science Data Archive / CROSSDA",
+      "service_name": "CROSSDA Dataverse open-access category and metadata interfaces",
+      "geographic_coverage": "Croatian social-science research infrastructure; individual study geography varies",
+      "topical_coverage": "research | demographics | economics/finance | labor | education | social sciences",
+      "dataset_families": "Social-science study datasets and descriptions; accepted open-access categoryA only, restricted studies separate",
+      "documentation_url": "https://data.crossda.hr | https://www.crossda.hr/pravila-pristupa/ | https://www.crossda.hr/uvjeti-koristenja/",
+      "api_base_url": "https://data.crossda.hr/oai",
+      "format_protocol": "Native OAI-PMH2XML Identify; REST/SWORD registry claims not separately deployed-tested",
+      "authentication": "Anonymous OAIIdentify succeeded; categoryA open data distinguished from restricted files needing identity/accessrequest, no account or request",
+      "free_access_restrictions": "Open categoryA licensedBY4; restricted categories permit defined scientific/teaching purposes and require registered access, not accepted as open",
+      "license": "Creative Commons Attribution4.0 for explicitly open-access categoryA; other study terms vary",
+      "license_url": "https://www.crossda.hr/pravila-pristupa/ | https://www.crossda.hr/uvjeti-koristenja/",
+      "api_verification_state": "Native portal/access/terms200HTML and anonymous OAIIdentify200validXML with Identify/noerror. No actual study/participant/source records harvested.",
+      "latest_checked_utc": "2026-10-18T10:54:44.016083+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21196,8 +21224,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across288successfulpages/288000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:50:13.030114+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across304successfulpages/304000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:54:49.990453+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -22800,6 +22828,24 @@
       "license_url": "https://www.nlr.gov/disclaimer",
       "api_verification_state": "native_archive_reference_table_and_general_data_terms_verified_query_API_exact_source_grants_unresolved",
       "latest_checked_utc": "2026-10-17T22:40:24.314190+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nls-digital-open-data-services",
+      "provider": "National Library of Scotland",
+      "service_name": "NLS IIIF catalogue and Data Foundry discovery services",
+      "geographic_coverage": "Scottish national library collections including international holdings; per-collection content/geography varies",
+      "topical_coverage": "culture | research | education | geospatial | history",
+      "dataset_families": "IIIF digital collection references; Data Foundry digitised, bibliographic/metadata, map/spatial and organisational collections; no images/OCR/source files",
+      "documentation_url": "https://data.nls.uk/data/ | https://data.nls.uk/about/standards/ | https://data.nls.uk/about/rights/",
+      "api_base_url": "https://view.nls.uk/collections/top.json",
+      "format_protocol": "NativeIIIFPresentation2collectionJSONLD; metadata bulkMARCXML/DublinCore documented, not queryAPI proof",
+      "authentication": "Anonymous top-levelIIIFcatalogue succeeded; source/restricted/paid content access varies, no account/payment",
+      "free_access_restrictions": "Public catalogue/metadata collection pages accessible; image/source rights per item. Copyright/NoC-NC/undetermined statements not allopen.",
+      "license": "Per-collection mixed rights; National Bibliography of Scotland metadataBY4verified, exact top-levelIIIFmetadata grant unresolved",
+      "license_url": "https://data.nls.uk/about/rights/ | https://www.nls.uk/tools-for-research/copyright/ | https://data.nls.uk/data/metadata-collections/national-bibliography-of-scotland/",
+      "api_verification_state": "Native library/DataFoundry/data/standards/rights/copyright/metadata-list/NBS/AIintro200HTML; IIIFtop200validJSONLD with47collectionrefs. Published S3open-data CSVregister guard-deferred unsent; no mirroredregister or sourcefiles.",
+      "latest_checked_utc": "2026-10-18T10:54:44.016083+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -31172,6 +31218,24 @@
       "license_url": "https://www.addgene.org/terms-of-use/",
       "api_verification_state": "native_noncommercial_default_terms_and_official_indexed_approval_API_docs_verified_native_guide403_sample_untested",
       "latest_checked_utc": "2026-10-17T22:46:16.508270+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "adp-slovenian-social-science",
+      "provider": "Slovenian Social Science Data Archives / University of Ljubljana",
+      "service_name": "ADP Dataverse and archive discovery services",
+      "geographic_coverage": "Slovenian social-science archive; individual studies may cover other places",
+      "topical_coverage": "research | demographics | economics/finance | labor | education | social sciences",
+      "dataset_families": "Social-science data descriptions and public-use/scientific-use/secure-use sources; no participant/source records acquired",
+      "documentation_url": "https://www.adp.fdv.uni-lj.si/en/access-types/ | https://www.adp.fdv.uni-lj.si/en/terms-of-use/",
+      "api_base_url": "https://dataverse.adp.fdv.uni-lj.si/oai",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native access guide distinguishes without-registration, registered and special-condition sources. OAIoriginal request held, no credentials/account",
+      "free_access_restrictions": "General terms bindrepository use, individual/nontransferable access, one-year maximum downloaded-file use and deletion; third-party transfer requires consent. Source-specific exceptions unresolved.",
+      "license": "General ADP use restrictions; precise metadataCC0/source exceptions unresolved",
+      "license_url": "https://www.adp.fdv.uni-lj.si/en/terms-of-use/",
+      "api_verification_state": "Native archive/access/terms200HTML; original DataverseOAIIdentify guard-deferred unsent, no XML/runtime response. Registryold/v0OAI/REST not alternativesqueried.",
+      "latest_checked_utc": "2026-10-18T10:54:44.016083+00:00",
       "classification": "restricted"
     },
     {
