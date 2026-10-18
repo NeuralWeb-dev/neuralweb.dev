@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T00:04:36.770739+00:00",
+  "published_at": "2026-10-18T00:06:39.651027+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T00:03:32.350463+00:00",
+  "research_updated_at": "2026-10-18T00:06:35.842808+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NCDC publicHTML catalogue enumeration: 73pages,1460unique metadata IDs; source rights/API unresolved.",
+  "latest_milestone": "Spanish ocean, Camelina and NCBI Virus original tasks reviewed; three candidates with explicit rights/runtime residuals.",
   "counts": {
-    "verified": 317,
-    "candidates": 656,
+    "verified": 320,
+    "candidates": 659,
     "excluded": 167,
     "sample_successes": 469
   },
@@ -6751,6 +6751,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "fdm-dhbw-metadata",
+      "provider": "Duale Hochschule Baden-Württemberg",
+      "service_name": "FDM@DHBW public research metadata REST API",
+      "geographic_coverage": "DHBW institutional research and teaching; exact source geographic coverage varies/unknown",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research/teaching dataset, measurement, simulation, survey, documentation and software metadata",
+      "documentation_url": "https://fdm.dhbw.de/help/search | https://inveniordm.docs.cern.ch/install/run/",
+      "api_base_url": "https://fdm.dhbw.de/api/records",
+      "format_protocol": "REST / JSON (documented; runtime not tested)",
+      "authentication": "No key documented for public metadata; native anonymous API sample deferred by access guard. Deposits/restricted files separate.",
+      "free_access_restrictions": "Metadata scope only; no paid acquisition. Individual source works, files, embargoes and restricted contents require separate review.",
+      "license": "CC0, deposited metadata",
+      "license_url": "https://fdm.dhbw.de/duev",
+      "api_verification_state": "Official API documented; representative anonymous machine request deferred before target fetch by robots/access guard; no successful JSON/XML response in this batch.",
+      "latest_checked_utc": "2026-10-18T00:04:42.469015+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "fid-move-research-data-api",
       "provider": "TIB / FID move with SLUB Dresden",
       "service_name": "FID move mobility and transport research data repository CKAN API",
@@ -7345,6 +7363,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "historisch-centrum-limburg-open-metadata",
+      "provider": "Historisch Centrum Limburg",
+      "service_name": "HCL open archival metadata via archieven.nl OAI-PMH",
+      "geographic_coverage": "Limburg, Netherlands; archival records may describe other places",
+      "topical_coverage": "culture | demographics | research",
+      "dataset_families": "Archival finding aids EAD/XML; genealogical descriptions A2A/XML; other XML metadata",
+      "documentation_url": "https://opendata.archieven.nl/nl/over-harvesten | https://historischcentrumlimburg.nl/diensten/open-data",
+      "api_base_url": "https://harvest.archieven.nl/OAI/OAIHandler",
+      "format_protocol": "OAI-PMH / XML; EAD, A2A, XML",
+      "authentication": "No key documented for public metadata; native anonymous API sample deferred by access guard. Deposits/restricted files separate.",
+      "free_access_restrictions": "Metadata scope only; no paid acquisition. Individual source works, files, embargoes and restricted contents require separate review.",
+      "license": "CC BY-SA 4.0 for HCL designated open data",
+      "license_url": "https://historischcentrumlimburg.nl/diensten/open-data",
+      "api_verification_state": "Official API documented; representative anonymous machine request deferred before target fetch by robots/access guard; no successful JSON/XML response in this batch.",
+      "latest_checked_utc": "2026-10-18T00:04:42.469015+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "iceland-statistics",
       "provider": "Statistics Iceland / Hagstofa Islands",
       "service_name": "Statistical Database PxWeb API",
@@ -7468,6 +7504,24 @@
       "license_url": "https://imex-consortium.github.io/about/ | https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "actual_native_numeric_count_sample_success_current_official_CCBY4_data_grant_verified",
       "latest_checked_utc": "2026-10-17T16:25:32.755142+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "intrechtdok-bibliographic-metadata",
+      "provider": "Staatsbibliothek zu Berlin / FID intRecht",
+      "service_name": "intRechtDok OAI-PMH bibliographic metadata",
+      "geographic_coverage": "International/interdisciplinary law research; German operator, not solely Germany source coverage",
+      "topical_coverage": "law/civic data | research",
+      "dataset_families": "Legal research publication descriptions; research-data and audiovisual contribution metadata",
+      "documentation_url": "https://intrechtdok.de/content/brand/intRechtDok_auf_einen_Blick.pdf",
+      "api_base_url": "https://intrechtdok.de/servlets/OAIDataProvider",
+      "format_protocol": "OAI-PMH 2.0 / XML",
+      "authentication": "No key documented for public metadata; native anonymous API sample deferred by access guard. Deposits/restricted files separate.",
+      "free_access_restrictions": "Metadata scope only; no paid acquisition. Individual source works, files, embargoes and restricted contents require separate review.",
+      "license": "CC0 1.0, descriptive bibliographic metadata excluding abstracts",
+      "license_url": "https://intrechtdok.de/content/brand/intRechtDok_auf_einen_Blick.pdf",
+      "api_verification_state": "Official API documented; representative anonymous machine request deferred before target fetch by robots/access guard; no successful JSON/XML response in this batch.",
+      "latest_checked_utc": "2026-10-18T00:04:42.469015+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -16041,6 +16095,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ncbi-virus-datasets",
+      "provider": "NCBI / National Library of Medicine",
+      "service_name": "NCBI Virus and documented Datasets v2 virus interfaces",
+      "geographic_coverage": "Global deposited viral sequence/assembly metadata; uneven submission and sampling coverage",
+      "topical_coverage": "health | biodiversity | research",
+      "dataset_families": "Virus nucleotide/protein and assembly metadata; curated GenBank/INSDC and RefSeq descriptions",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/labs/virus/vssi/docs/help/ | https://www.ncbi.nlm.nih.gov/datasets/docs/v2/api/",
+      "api_base_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/ (documented family; no runtime request)",
+      "format_protocol": "Documented Datasets REST and JSON Lines report schema; not live sample",
+      "authentication": "Public docs describe Datasets API/key support; exact anonymous endpoint not tested",
+      "free_access_restrictions": "Public documentation/catalogue scope; source permissions and restricted contents separate; no paid acquisition",
+      "license": "NCBI imposes no own molecular reuse restrictions but cannot transfer submitter rights; NOT CC0",
+      "license_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "api_verification_state": "Documentation reviewed; native API runtime unresolved",
+      "latest_checked_utc": "2026-10-18T00:06:31.080689+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nced-data-repository",
       "provider": "University of Minnesota / National Center for Earth-Surface Dynamics",
       "service_name": "NCED Data Repository directory",
@@ -16362,6 +16434,24 @@
       "license_url": "https://www.ncei.noaa.gov/archive",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
       "latest_checked_utc": "2026-10-16T19:14:21.595387+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nodc-ieo-geonetwork",
+      "provider": "IEO-CSIC Spanish National Oceanographic Data Centre",
+      "service_name": "NODC IEO GeoNetwork metadata catalogue",
+      "geographic_coverage": "Spain-operated marine research; ocean survey locations vary globally",
+      "topical_coverage": "oceans | climate/weather/environment | water | geospatial | research",
+      "dataset_families": "Cruise summary reports, physical/chemical/biological marine observation metadata",
+      "documentation_url": "https://nodc.ieo.es/geonetwork/doc/api | https://nodc.ieo.es/geonetwork/srv/api/doc",
+      "api_base_url": "https://nodc.ieo.es/geonetwork/srv/api",
+      "format_protocol": "REST / OpenAPI 3.0.1; RDF catalogue response documented; ISO19115/19139 metadata",
+      "authentication": "unknown exact deployed anonymous API conditions; no keys/accounts requested",
+      "free_access_restrictions": "Public documentation/catalogue scope; source permissions and restricted contents separate; no paid acquisition",
+      "license": "unknown exact current metadata/source grant; registry CC BY/CC0 claims not accepted as proof",
+      "license_url": "",
+      "api_verification_state": "Native OpenAPI JSON HTTP200 parsed; bounded documented GET /records returned HTTP400, not successful RDF dataset/catalogue response. No alternate format/backend retry.",
+      "latest_checked_utc": "2026-10-18T00:06:31.080689+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -17550,6 +17640,24 @@
       "license_url": "https://planetarycomputer.microsoft.com/terms",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T16:28:43.954903+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "plant-adaptation-hub",
+      "provider": "Plant Adaptation Hub / Camelina research consortium (exact current legal operator unresolved)",
+      "service_name": "Camelina Plant Adaptation Hub",
+      "geographic_coverage": "Camelina sativa research and genebank material with varying country origins; exact worldwide coverage unknown",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Multi-omics, genotype/phenotype, stress-response, germplasm and genome metadata",
+      "documentation_url": "https://www.camelina-hub.org/home",
+      "api_base_url": "",
+      "format_protocol": "Native browser application; public API protocol unverified",
+      "authentication": "unknown exact deployed anonymous API conditions; no keys/accounts requested",
+      "free_access_restrictions": "Public documentation/catalogue scope; source permissions and restricted contents separate; no paid acquisition",
+      "license": "unknown exact metadata/data grant; registry BY/CC0 unconfirmed",
+      "license_url": "",
+      "api_verification_state": "Documentation reviewed; native API runtime unresolved",
+      "latest_checked_utc": "2026-10-18T00:06:31.080689+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
