@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T12:40:30.616312+00:00",
+  "published_at": "2026-10-18T12:42:34.111713+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T12:40:04.099797+00:00",
+  "research_updated_at": "2026-10-18T12:42:23.003079+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "MyGeoHub nativeNCplatform/WQBase APIclaim corrected; ISWSterms404/APIunknown; QualiBi researchrestrictions/sixpolicytiers.",
+  "latest_milestone": "MDZ collectionfrontier advanced to482pages/482000refs;2731503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 407,
-    "candidates": 1043,
+    "verified": 408,
+    "candidates": 1044,
     "excluded": 306,
     "sample_successes": 464
   },
@@ -7921,6 +7921,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ebiltegia-public-metadata-oai",
+      "provider": "Mondragon Unibertsitatea Library",
+      "service_name": "eBiltegia CC BY4 metadata OAI-PMH",
+      "geographic_coverage": "Basque Country, Spain; institutional academic/research subjects internationally varied",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional publication, thesis, educational and research-dataset metadata; source documents retain individual rights",
+      "documentation_url": "https://ebiltegia.mondragon.edu/page/acerca-de?locale-attribute=en",
+      "api_base_url": "https://ebiltegia.mondragon.edu/oai/driver",
+      "format_protocol": "OAI-PMH XML; didl/mets/oai_dc; DublinCoreTerms described",
+      "authentication": "Anonymous Identify/formats/ListIdentifiers protocol responses succeeded; no credentials/account",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY4 metadata only, source/identifier attribution required",
+      "license_url": "https://ebiltegia.mondragon.edu/page/acerca-de?locale-attribute=en",
+      "api_verification_state": "Native root/about200HTML; exact discoveredregistryHTTP:8080Identify200validOAI XML/noerror names canonicalHTTPSbase. CanonicalHTTPSformats200XML/3formats. ExactDCListIdentifiers200validOAI noRecordsMatch, not HTTP/access failure.",
+      "latest_checked_utc": "2026-10-18T12:42:12.834837+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "ecb",
       "provider": "European Central Bank",
       "service_name": "European Central Bank API",
@@ -11822,8 +11840,8 @@
       "free_access_restrictions": "CC0 public metadata, individual data/source documentation terms differ; service limits unknown",
       "license": "CC0 public catalogue metadata",
       "license_url": "https://researchdata.se/en/licences-and-marks-website",
-      "api_verification_state": "Native policy/API docs200; exact Identify200 namespace-correct OAI2 XML with no OAI errors, protocol2.0/granularityYYYY-MM-DD. REST explicitly still under development in current owner docs, not claimed active.",
-      "latest_checked_utc": "2026-10-18T06:54:18.856826+00:00",
+      "api_verification_state": "Native policy/API docs200; exact Identify200 namespace-correct OAI2 XML with no OAI errors, protocol2.0/granularityYYYY-MM-DD. REST explicitly still under development in current owner docs, not claimed active. Fresh ListMetadataFormats200namespace-correctOAI XML/noerrors/nineformats; expanded format inventory beyond earlier six advertised by guide.",
+      "latest_checked_utc": "2026-10-18T12:42:12.834837+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21922,8 +21940,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across469successfulpages/469000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T12:34:09.709472+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across482successfulpages/482000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T12:42:18.676586+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28692,6 +28710,24 @@
       "license_url": "https://opensci.aori.u-tokyo.ac.jp/cruise-en.html",
       "api_verification_state": "Native terms and publicHTMLcruiselist verified; no documented machine-query endpoint/runtime",
       "latest_checked_utc": "2026-10-18T00:20:19.725735+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "toronto-borealis-data-collection",
+      "provider": "University of Toronto Libraries",
+      "service_name": "University of Toronto Dataverse institutional collection in Borealis",
+      "geographic_coverage": "University of Toronto, Canada; multidisciplinary studies with varied geographic subjects",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research-data collection and library deposits; source data rights remain individual",
+      "documentation_url": "https://library.utoronto.ca/use/tool/u-t-dataverse-borealis",
+      "api_base_url": "https://borealisdata.ca/dataverse/toronto (held collection, exact set-specific API unverified)",
+      "format_protocol": "HTML documentation",
+      "authentication": "Institutional collection described publicly by library; inheritedBorealishold, no nativecollection/API/access/auth tested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.utoronto.ca/use/tool/u-t-dataverse-borealis",
+      "api_verification_state": "Native independent libraryguide200HTML; originalBorealisroot/collection/OAI not requested under inheritedaccesshold. CentralOAI URI not Toronto-specific set/APIproof.",
+      "latest_checked_utc": "2026-10-18T12:42:12.834837+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
