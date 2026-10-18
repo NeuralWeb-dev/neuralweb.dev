@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T19:20:54.935563+00:00",
+  "published_at": "2026-10-18T19:22:58.292151+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:20:18.192719+00:00",
+  "research_updated_at": "2026-10-18T19:22:48.039373+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original services reviewed; PolyU OAI identity and NCEDC station WADL verified; PolyU NC default scoped restricted, other public grants unresolved.",
+  "latest_milestone": "IPB native default conflict; IIT official2025terms; Eaufrance native OpenAPI schema verified with grant scope gap.",
   "counts": {
     "verified": 445,
-    "candidates": 1301,
+    "candidates": 1304,
     "excluded": 374,
     "sample_successes": 464
   },
@@ -18855,6 +18855,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dados-ipb-research-repository",
+      "provider": "Polytechnic Institute of Bragança",
+      "service_name": "Polytechnic Institute of Bragança research/data discovery service",
+      "geographic_coverage": "Portugal institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://info.dados.ipb.pt/index.php?ln=en&r=site%2Ftermsuse+%7C+https%3A%2F%2Finfo.dados.ipb.pt%2Findex.php%3Fln%3Den&r=site%2Fnorms",
+      "api_base_url": "https://dados.ipb.pt/oai",
+      "format_protocol": "Registry OAI-PMH; native runtime held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://info.dados.ipb.pt/index.php?ln=en&r=site%2Ftermsuse+%7C+https%3A%2F%2Finfo.dados.ipb.pt%2Findex.php%3Fln%3Den&r=site%2Fnorms",
+      "api_verification_state": "Native independent terms and norms HTTP200; terms describe changeable default CC0, norms changeable default CC BY4. Conflict retained, not silently resolved. Operator cataloguing/DataCite permissions are not blanket public metadata/database grant. Original repository held, no OAI alternate; registry metadata CC0 not confirmed current universal grant.",
+      "latest_checked_utc": "2026-10-18T19:22:42.338661+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dadosjusbr-public-api",
       "provider": "DadosJusBR",
       "service_name": "Publicreference and justice-transparency APIv2",
@@ -20130,6 +20148,24 @@
       "license_url": "https://eatlas.org.au/resources/faqs",
       "api_verification_state": "FAQ200 substantiveHTML; service-document landing200onlyGeoNetworkJSshell, not actual service metadata/APIpayload. Linked /geonetwork/doc/api403. Separately published WMS capabilities guard-deferred unsent. No successful API sample.",
       "latest_checked_utc": "2026-10-18T15:45:57.846459+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "eaufrance-ofb-metacatalogue",
+      "provider": "Office français de la biodiversité / Eaufrance",
+      "service_name": "Office français de la biodiversité / Eaufrance research/data discovery service",
+      "geographic_coverage": "France water/environment metadata federation; individual source coverage varies",
+      "topical_coverage": "water | environment | geospatial",
+      "dataset_families": "Water/environment catalogue descriptions; linked source datasets",
+      "documentation_url": "https://data.ofb.fr/catalogue/doc/api | https://www.eaufrance.fr/mentions-legales",
+      "api_base_url": "https://data.ofb.fr/catalogue/srv/api",
+      "format_protocol": "OpenAPI3/REST GeoNetwork; JSON/XML documented",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://data.ofb.fr/catalogue/doc/api | https://www.eaufrance.fr/mentions-legales",
+      "api_verification_state": "Native catalogue/legal/Swagger wrapperHTTP200; wrapper-linked schemaHTTP200 valid OpenAPI3.0.1 GeoNetwork4.4.9, 230 documented path keys not datasets or active tested operations. Legal page open-license statement for data downloads on eaufrance.fr and specified OFB media not assumed blanket third-party catalogue metadata/source grant. Individual indexed Etalab source not all holdings. No observation/station-coordinate/files or CSRF/cookie/session query.",
+      "latest_checked_utc": "2026-10-18T19:22:42.338661+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23172,6 +23208,24 @@
       "license_url": "https://www.internationalgenome.org/IGSR_disclaimer/",
       "api_verification_state": "Nativehome/help/docs200; exactSwagger-linked /api/openapi.json200validJSON11operation descriptors. No sample/population/file/data request executed.",
       "latest_checked_utc": "2026-10-18T08:12:49.743141+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "iit-dataverse-repository",
+      "provider": "Istituto Italiano di Tecnologia",
+      "service_name": "Istituto Italiano di Tecnologia research/data discovery service",
+      "geographic_coverage": "Italy institutional research; source geography varies",
+      "topical_coverage": "research | engineering | health",
+      "dataset_families": "Institutional research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://multimedia.iit.it/asset-bank/assetfile/17166.pdf",
+      "api_base_url": "https://dataverse.iit.it/oai",
+      "format_protocol": "Registry OAI-PMH; native runtime held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://multimedia.iit.it/asset-bank/assetfile/17166.pdf",
+      "api_verification_state": "Original repository and independent native legal request held; official five-page legal-reader reviewed version4 September30,2025. Default CC0 changeable, public/restricted/private workflows distinct; unregistered guest browsing/download with dataset license documented. No blanket metadata grant, no private collection/form/account/agreement/source request. No OAI alternate.",
+      "latest_checked_utc": "2026-10-18T19:22:42.338661+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
