@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T15:57:30.195561+00:00",
+  "published_at": "2026-10-18T15:59:33.218847+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T15:55:55.452475+00:00",
+  "research_updated_at": "2026-10-18T15:58:57.707857+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "UCI native donationCCBY4/JSONlist689refs; Cary and Middlesex portalholds/scopedownerguides, metadata grants unresolved.",
+  "latest_milestone": "Sixoriginals:UCIcurrentdonationCCBY4/nativeJSONlist689refs; five scopedcandidates; SUNmetadata custompermission; EcuadorIPTidentity; MDZ817000incomplete.",
   "counts": {
     "verified": 434,
-    "candidates": 1138,
+    "candidates": 1141,
     "excluded": 336,
     "sample_successes": 464
   },
@@ -1396,6 +1396,7 @@
           "california-open-data",
           "california-west-nile-public-portal",
           "canada-naps-data-portal",
+          "cary-institute-figshare",
           "cerp-sfwmd",
           "cresis-open-polar-radar",
           "donnees-quebec-catalog",
@@ -1965,6 +1966,7 @@
           "caltechdata-repository",
           "canada-naps-data-portal",
           "cape-breton-borealis-repository",
+          "cary-institute-figshare",
           "cdc-ables-surveillance",
           "cerp-sfwmd",
           "cresis-open-polar-radar",
@@ -2082,6 +2084,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "eclac",
+          "ecuador-mae-ipt",
           "edac-gstore",
           "embrapa-redape",
           "esa-ecology",
@@ -2157,6 +2160,7 @@
         "candidate_provider_ids": [
           "cdha-study-resource-directory",
           "cesa-academic-data",
+          "conicet-research-data-portal",
           "dhs-indicator-data-api",
           "dominican-data",
           "goias-state-ckan-api",
@@ -2286,14 +2290,17 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "bold-v5-public-data-api",
+          "ecuador-mae-ipt",
           "esa-ecology"
         ],
         "restricted_provider_ids": []
       },
       "oceans": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
+        "candidate_provider_ids": [
+          "ecuador-mae-ipt"
+        ],
         "restricted_provider_ids": []
       },
       "astronomy": {
@@ -2327,8 +2334,10 @@
           "cesa-academic-data",
           "ciencia-aberta",
           "colombia-mincultura-research-dataverse",
+          "conicet-research-data-portal",
           "datapb-ufpb-dataverse",
           "dhs-indicator-data-api",
+          "ecuador-mae-ipt",
           "edac-gstore",
           "embrapa-redape",
           "esa-ecology",
@@ -3042,6 +3051,7 @@
           "lse-research-online",
           "luh-research-data-ckan",
           "manchester-institutional-figshare",
+          "middlesex-institutional-figshare",
           "minho-datarepositorium",
           "newcastle-data-ncl",
           "ortolang-fcs",
@@ -3801,6 +3811,7 @@
           "luh-research-data-ckan",
           "manchester-institutional-figshare",
           "meteogate-climate-aggregator-edr",
+          "middlesex-institutional-figshare",
           "minho-datarepositorium",
           "nanocommons-knowledgebase",
           "nasc-plant-stock-webservices",
@@ -4280,7 +4291,8 @@
           "cput-esango",
           "datafirst-african-research-data",
           "dhs-indicator-data-api",
-          "hsrc-research-output-repository"
+          "hsrc-research-output-repository",
+          "stellenbosch-sunscholardata"
         ],
         "restricted_provider_ids": [
           "uct-zivahub"
@@ -4410,6 +4422,7 @@
           "laws-africa-knowledge",
           "roceeh-road-prehistory-database",
           "sanbi-birdie",
+          "stellenbosch-sunscholardata",
           "trr228-african-futures-database",
           "ucla-social-science-dataverse",
           "west-african-vegetation-network"
@@ -17298,6 +17311,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "conicet-research-data-portal",
+      "provider": "CONICET Argentina",
+      "service_name": "Repositorio de Datos CONICET Digital discovery portal",
+      "geographic_coverage": "Argentina institutional research and internationalcollaborations; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "CONICET institutionalresearchdata descriptions and associated datasets; exactinventory unreviewed",
+      "documentation_url": "https://datosdeinvestigacion.conicet.gov.ar/ayuda/",
+      "api_base_url": "",
+      "format_protocol": "Ownerindexed repository/platform OAI/SWORD/OpenSearchcapabilities, no exact deployedAPIbase verified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed selected per-dataset licenses; effective metadata-wide grant unknown",
+      "license_url": "https://datosdeinvestigacion.conicet.gov.ar/ayuda/como-reutilizar-y-citar-los-datos-de-investigacion/",
+      "api_verification_state": "Originalrootguard-deferredunsent; indexed officialhelp reviewed, no nativeAPIbase/schema/sample. Data within ri.conicet.gov.ar described, independent deployment not claimed.",
+      "latest_checked_utc": "2026-10-18T15:57:59.639773+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "connect211-hsda",
       "provider": "Connect 211",
       "service_name": "HSDA data replication API",
@@ -19059,6 +19090,24 @@
       "license_url": "https://cuencaendatos.cuenca.gob.ec/pages/terminos-de-uso",
       "api_verification_state": "documented_api_sample_policy_deferred_custom_terms_unresolved",
       "latest_checked_utc": "2026-10-16T20:20:02.166213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ecuador-mae-ipt",
+      "provider": "Ecuador environmental ministry / OBIS Ecuador - MAE",
+      "service_name": "Ecuador environmental ministry IPT publishing portal (SiB-Ec registry candidate)",
+      "geographic_coverage": "Ecuador biodiversity publishing portal; actual datasetgeographic scope unreviewed",
+      "topical_coverage": "biodiversity | oceans | environment | research",
+      "dataset_families": "IPT-hosted biodiversity resources; SiB-Ec ownertools separately advertise specieslist/summary/CITES/tariff services",
+      "documentation_url": "https://patrimonio.ambiente.gob.ec/iptmae/about.do | https://biodiversidad.ambiente.gob.ec/biodiversidad-web/inicio/herramientas.html",
+      "api_base_url": "",
+      "format_protocol": "Native IPT3.3.3HTMLabout/root; advertised RSS; separate ownerwebservice names without wirecontract verified",
+      "authentication": "Anonymous root/about HTML successful; tool-specific auth/APIunknown, publisherlogin not blanket publicreadrequirement",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown effective portalmetadata/data grant; GBIF per-source terms not transferred",
+      "license_url": "",
+      "api_verification_state": "Native rootredirectsHTTPS HTTP200IPTHTML; about200 identifies OBIS Ecuador-MAE, not proof entireSiB-Ec suite sameendpoint. Independentnativeowner tools200 lists webservices; actualAPI schemas/samples unverified.",
+      "latest_checked_utc": "2026-10-18T15:57:59.639773+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -23629,8 +23678,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across804successfulpages/804000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T15:50:04.017082+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across817successfulpages/817000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T15:58:08.454558+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -30219,6 +30268,24 @@
       "license_url": "https://plibweb02.stedwards.edu/faculty-services.html",
       "api_verification_state": "Original institutionalroot guard-deferredunsent; independent nativeowner200HTML reviewed, no currentportalAPIresponse/schema.",
       "latest_checked_utc": "2026-10-18T15:22:26.577637+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "stellenbosch-sunscholardata",
+      "provider": "Stellenbosch University",
+      "service_name": "SUNScholarData institutional data repository",
+      "geographic_coverage": "South Africa institutionalresearch; dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutionalresearchdatasets, software and metadata-onlyexternal-source descriptions",
+      "documentation_url": "https://files.su.ac.za/public/library-research-data-management/documents/2025-12/sunscholardata-general-terms-and-conditions-use.pdf",
+      "api_base_url": "https://api.figshare.com/v2/ (shared API; registry institution615/portal615 untested)",
+      "format_protocol": "Registry FigshareREST/OAI; current client-specific wirecontract unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom metadata copying/dissemination permission; exact effective open-license scope unresolved",
+      "license_url": "https://files.su.ac.za/public/library-research-data-management/documents/2025-12/sunscholardata-general-terms-and-conditions-use.pdf",
+      "api_verification_state": "Originalportal and current independentownerPDFguard-deferredunsent. Officialwebreader12pagePDF reviewed, not nativeHTTP/APIresponse.",
+      "latest_checked_utc": "2026-10-18T15:57:59.639773+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
