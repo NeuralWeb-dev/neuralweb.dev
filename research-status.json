@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T17:52:34.154705+00:00",
+  "published_at": "2026-10-18T17:54:37.409393+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T17:49:06.188468+00:00",
+  "research_updated_at": "2026-10-18T17:54:23.893958+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: GMLindexedowner/rightsAPIgap; aviDa andGePaRD nativecontrolledaccess; IWH404/tieredindexedrights; MagICblank/indexedAPIgrant; IOERkeyrequirement/underlyingterms; MDZ978000unchangedtimedcheckpoint.",
+  "latest_milestone": "PIAAC mixed public/SUFfee agreement; RISC native controlled scientific access; EBDC native per-deposit rights.",
   "counts": {
     "verified": 442,
-    "candidates": 1215,
-    "excluded": 355,
+    "candidates": 1218,
+    "excluded": 358,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -21207,6 +21207,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gesis-piaac-research-data-centre",
+      "provider": "GESIS / RDC PIAAC",
+      "service_name": "PIAAC adult education research data service",
+      "geographic_coverage": "German PIAAC scientific-use files and international PIAAC public-use-file references; source scope varies",
+      "topical_coverage": "education | labor | demographics | research",
+      "dataset_families": "Adult competencies and education PIAAC research datasets/documentation; descriptions only",
+      "documentation_url": "https://www.gesis.org/en/piaac/rdc/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Scientific Use File use agreement documented; none obtained",
+      "free_access_restrictions": "Official indexed owner document states Scientific Use File provision fee; OECD PUF distinct; no paid acquisition",
+      "license": "Mixed public-use references and agreement/fee-required Scientific Use File; no blanket open grant",
+      "license_url": "https://www.gesis.org/fileadmin/piaac/FDZ/ZA9009_data_access.pdf",
+      "api_verification_state": "Inherited GESIS robots/access hold retained; indexed native legal/access PDF only. No direct original/API request, no runtime success.",
+      "latest_checked_utc": "2026-10-18T17:54:19.159857+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "getty-museum",
       "provider": "J. Paul Getty Trust",
       "service_name": "Getty Museum Collection data API",
@@ -23493,6 +23511,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "kba-research-data-centre",
+      "provider": "Kraftfahrt-Bundesamt",
+      "service_name": "KBA research data centre",
+      "geographic_coverage": "Germany vehicle/driver research; German and European truck transport statistics",
+      "topical_coverage": "transportation | research",
+      "dataset_families": "FAER driver fitness; ZFZR vehicle register; VD/VE truck transport; KiD transport survey",
+      "documentation_url": "https://www.kba.de/DE/Statistik/Forschungsdatenzentrum/forschungsdatenzentrum_node.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Managed SUFs require approved contract/encrypted download or secure on-site/remote execution; public tier downloads documented, unqueried",
+      "free_access_restrictions": "Native documentation says cost-free; managed research tier purpose and user restrictions apply",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.kba.de/DE/Statistik/Forschungsdatenzentrum/Informationen_zur_Datennutzung/info_datennutzung_node.html",
+      "api_verification_state": "Native overview and access documentation HTTP200 substantive HTML; no exact public API/schema or API payload verified.",
+      "latest_checked_utc": "2026-10-18T17:53:42.038164+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "kenya",
       "provider": "Kenya Open Data",
       "service_name": "Kenya Open Data open data portal",
@@ -24246,6 +24282,24 @@
       "license_url": "https://litterbase.awi.de/static/imprint.html",
       "api_verification_state": "official_HTML_and_published_chart_client_reviewed_no_API_contract_or_open_grant_verified",
       "latest_checked_utc": "2026-10-17T20:09:05.566156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lmu-ifo-ebdc",
+      "provider": "ifo Institute / Ludwig Maximilian University Munich",
+      "service_name": "LMU-ifo Economics and Business Data Center repository",
+      "geographic_coverage": "German and international economic/business research; deposited dataset geography varies",
+      "topical_coverage": "economics/finance | labor | education | research",
+      "dataset_families": "ifo business survey/panel microdata, education survey, researcher-deposited replication packages and economic databases; no source records",
+      "documentation_url": "https://www.ifo.de/ebdc",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Managed datasets require affiliation, reviewed signed declaration and approved visits; public-download exceptions documented",
+      "free_access_restrictions": "Some repository packages freely downloadable; free is not universal grant, per-dataset terms govern. No paid acquisition.",
+      "license": "Dataset-specific free, academic/noncommercial or replication-only terms; no uniform open grant",
+      "license_url": "https://www.ifo.de/ebdc",
+      "api_verification_state": "Native service overview HTTP200 substantive HTML with rights/access conditions; no exact public machine API/schema or API payload verified.",
+      "latest_checked_utc": "2026-10-18T17:54:19.159857+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -39137,6 +39191,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "iab-fdz-research-data",
+      "provider": "Federal Employment Agency / Institute for Employment Research IAB",
+      "service_name": "FDZ BA at IAB research data services",
+      "geographic_coverage": "Germany labor-market/occupational microdata; international access locations do not expand dataset geography",
+      "topical_coverage": "labor | economics/finance | research",
+      "dataset_families": "Administrative employment biographies, establishment panels, linked employer-employee and household research descriptions",
+      "documentation_url": "https://fdz.iab.de/en/data-access/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Application/approval and research use agreement; no account/application used",
+      "free_access_restrictions": "Noncommercial research, user/purpose/time/data-security restrictions; exact fees unknown",
+      "license": "Noncommercial independent scientific research, approved project-specific agreements",
+      "license_url": "https://fdz.iab.de/datenzugang/rechtsgrundlagen/",
+      "api_verification_state": "Native access overview and legal basis HTTP200 substantive HTML; no exact public API/schema/runtime established.",
+      "latest_checked_utc": "2026-10-18T17:53:42.038164+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "ibdc-indian-crop-phenome",
       "provider": "Indian Biological Data Centre / Regional Centre for Biotechnology",
       "service_name": "Indian Crop Phenome Database",
@@ -39836,6 +39908,24 @@
       "license_url": "https://home.esd.org.uk/about-item/user+policy | https://developertools.esd.org.uk/terms",
       "api_verification_state": "documented_registered_API_data_sample_untested_service_caching_hold",
       "latest_checked_utc": "2026-10-17T03:36:43.751960+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "lifbi-research-data-centre",
+      "provider": "Leibniz Institute for Educational Trajectories LIfBi",
+      "service_name": "FDZ-LIfBi data and service portal",
+      "geographic_coverage": "Germany longitudinal educational research; source-specific populations vary",
+      "topical_coverage": "education | demographics | research",
+      "dataset_families": "NEPS | ReGES | INSIDE | TAEPS | BiLO | GUS; descriptions only",
+      "documentation_url": "https://www.lifbi.de/en-us/Start/Data-Services",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Approved data-use agreement and individual access; remote/on-site supplemental agreements documented, none obtained",
+      "free_access_restrictions": "Native service overview: research Scientific Use Files free upon request; free is not unrestricted reuse",
+      "license": "Research data-use agreements; no blanket open source grant",
+      "license_url": "https://www.lifbi.de/en-us/Start/Data-Services/Data-Access",
+      "api_verification_state": "Native service overview HTTP200; access URL HTTP200 redirects to documentation overview. Indexed official access workflow reviewed separately; shared da-ra OAI not tested or misattributed to LIfBi data.",
+      "latest_checked_utc": "2026-10-18T17:53:42.038164+00:00",
       "classification": "restricted"
     },
     {
@@ -41366,6 +41456,24 @@
       "license_url": "https://www.hzdr.de/db/RES3T.disclaimer",
       "api_verification_state": "Native landing/disclaimer200HTML; no documented exact read-only API/runtime verified",
       "latest_checked_utc": "2026-10-18T08:12:49.743141+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "risc-social-cohesion-data-centre",
+      "provider": "Research Institute Social Cohesion / SOCIUM University of Bremen",
+      "service_name": "RDC-RISC research data portal",
+      "geographic_coverage": "Germany social-cohesion panel and regional-panel research; source-specific coverage",
+      "topical_coverage": "demographics | research | civic data",
+      "dataset_families": "German Social Cohesion Panel | RISC Regional Panel | regional context data; descriptions only",
+      "documentation_url": "https://fgz-risc-data.de/en/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Account, reviewed distribution contract and encrypted delivery; no account/access used",
+      "free_access_restrictions": "Scientific-use purpose and researcher/institution/contract restrictions; exact fees unknown",
+      "license": "Scientific use only with institutionally affiliated postdoctoral requester and reviewed data-distribution contract",
+      "license_url": "https://fgz-risc-data.de/en/data-portal/data-access/",
+      "api_verification_state": "Native overview and access-policy HTTP200 substantive HTML; no public API/schema or API payload established.",
+      "latest_checked_utc": "2026-10-18T17:54:19.159857+00:00",
       "classification": "restricted"
     },
     {
