@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T23:27:43.162399+00:00",
+  "published_at": "2026-10-18T23:29:46.188952+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:26:21.034096+00:00",
+  "research_updated_at": "2026-10-18T23:29:23.080447+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NetworkRepository BY-SA policy/APIgap; TRAILS controlled DTA/fee; KCWorks documented REST/mixed itemrights/instancehold.",
+  "latest_milestone": "Six originals: OpenTopography scopeddatareuse, anonymousCSW/DCAT806references and4documentedGETs; TRAILSrestricted; four interface/rights candidates.",
   "counts": {
-    "verified": 494,
-    "candidates": 1427,
+    "verified": 495,
+    "candidates": 1429,
     "excluded": 410,
     "sample_successes": 463
   },
@@ -182,6 +182,7 @@
           "noaa-cdr-thredds",
           "noaa-gml-datafinder-erddap",
           "noaa-ncep-nomads",
+          "opentopography-data-services",
           "paint-csp-stac",
           "pangaea",
           "toar-surface-observation-api",
@@ -338,6 +339,7 @@
           "ncar-gdex-metadata",
           "ncar-ucar-dash-search",
           "noaa-ncep-nomads",
+          "opentopography-data-services",
           "wgms-glacier-data-services"
         ],
         "candidate_provider_ids": [
@@ -514,6 +516,7 @@
           "google-code-public-archive",
           "hubblesite-nasa-multimedia",
           "internet-archive-metadata",
+          "knowledge-commons-works",
           "kth-data-repository-api",
           "lse-research-online",
           "marburg-open-umr-apis",
@@ -599,6 +602,7 @@
           "ncar-gdex-metadata",
           "ncar-ucar-dash-search",
           "opencontext",
+          "opentopography-data-services",
           "osm",
           "usgs-earthquake",
           "usgs-eros-m2m-services",
@@ -833,6 +837,7 @@
           "noaa-cdr-thredds",
           "noaa-ncep-nomads",
           "obis",
+          "opentopography-data-services",
           "pangaea"
         ],
         "candidate_provider_ids": [
@@ -965,6 +970,7 @@
           "internet-archive-metadata",
           "isimip-impact-repository",
           "isric-soil-data-hub",
+          "knowledge-commons-works",
           "loc",
           "lpdaac-land-processes-data",
           "maizegdb-api",
@@ -1096,6 +1102,7 @@
           "openalex",
           "opencitations",
           "opencontext",
+          "opentopography-data-services",
           "opentree-public-api",
           "paint-csp-stac",
           "pangaea",
@@ -1209,6 +1216,7 @@
           "jpl-ssd",
           "jpl-tropical-cyclone-information-system",
           "knmi-climate-explorer",
+          "knowledge-commons-works",
           "kth-data-repository-api",
           "lias-lichen-information",
           "litterbase-marine-litter-portal",
@@ -2880,6 +2888,7 @@
           "issda-safeguarded-social-data",
           "liss-panel-research-access",
           "share-eric-research-data",
+          "trails-longitudinal-cohort",
           "zew-research-data-centre"
         ]
       },
@@ -3306,6 +3315,7 @@
           "rki-research-data-centre",
           "share-eric-research-data",
           "ship-pomerania-cohort-access",
+          "trails-longitudinal-cohort",
           "zpid-rdc-controlled-research"
         ]
       },
@@ -3535,6 +3545,7 @@
           "qualibi-qualitative-education",
           "repisalud-repository",
           "swiss-al-fcs",
+          "trails-longitudinal-cohort",
           "wolfenbuettel-digital-library",
           "zpid-rdc-controlled-research"
         ]
@@ -4556,6 +4567,7 @@
           "ship-pomerania-cohort-access",
           "swiss-al-fcs",
           "tna-discovery",
+          "trails-longitudinal-cohort",
           "wdc-moscow-solar-terrestrial",
           "wdc-moscow-solid-earth-physics",
           "wolfenbuettel-digital-library",
@@ -13268,6 +13280,24 @@
       "license_url": "https://www.openplzapi.org/en/faq/ | https://raw.githubusercontent.com/openpotato/openplzapi.data/refs/heads/main/LICENSE",
       "api_verification_state": "actual_four_country_admin_array_sample_success_processed_ODbL_grant_verified",
       "latest_checked_utc": "2026-10-17T04:44:04.121017+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "opentopography-data-services",
+      "provider": "OpenTopography / UC San Diego",
+      "service_name": "OpenTopography elevation REST and discovery services",
+      "geographic_coverage": "Global elevation/topography and USGS US elevation; dataset-specific extents",
+      "topical_coverage": "geospatial | environment | water | oceans | research",
+      "dataset_families": "Global DEM, USGS3DEP rasters, point elevation and catalog metadata;806 returned DCAT dataset references indexed without terrain/source values",
+      "documentation_url": "https://opentopography.org/developers | https://portal.opentopography.org/apidocs/ | https://portal.opentopography.org/apidocs/openapi.json",
+      "api_base_url": "https://portal.opentopography.org/API | https://portal.opentopography.org/csw",
+      "format_protocol": "OpenAPI3.0.1 HTTP REST four GET paths; OGC CSW capabilities3.0 XML; DCAT-US3 JSON. Docs describe CSW2.0.2 while returned capabilities3.0; version difference retained.",
+      "authentication": "Elevation APIs require individual free account/key; no key acquired/tests. CSW capabilities and DCAT catalog succeeded anonymously. Keys may not be shared/embedded to bypass one-user-one-key.",
+      "free_access_restrictions": "Data reuse allows commercial/noncommercial uses with item license compliance. Commercial for-profit API-key integration needs paid Enterprise access; free limited personal/noncommercial service exists. USGS1m academic access; no subscription/key/account/payment/contact performed.",
+      "license": "Provider explicit copyright-unrestricted data reuse with item-specific open licenses; returned806DCAT entries each declare CC BY4",
+      "license_url": "https://opentopography.org/usageterms | https://portal.opentopography.org/csw/catalog30.json",
+      "api_verification_state": "Native developer/terms/SwaggerUI/schema HTTP200; schema has4GET paths/server /API. Anonymous CSWGetCapabilities HTTP200 valid XML root CSW3.0,7operations; DCAT JSON200 valid/untruncated806unique records. Elevation/key-required REST endpoints untested. No HTML counted as API success.",
+      "latest_checked_utc": "2026-10-18T23:28:48.041926+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -22540,6 +22570,24 @@
       "license_url": "https://earth.esa.int/eogateway/terms-and-conditions",
       "api_verification_state": "native_heritagefamilies_and_web_terms_verified_EOCAT_docguardheld_exact_source_grants_and_API_unresolved",
       "latest_checked_utc": "2026-10-17T23:46:00.085349+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "esa-integral-science-legacy-archive",
+      "provider": "European Space Agency",
+      "service_name": "INTEGRAL Science Legacy Archive (ISLA)",
+      "geographic_coverage": "International space astronomy: hard X-ray/gamma-ray and supporting observations",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Consolidated INTEGRAL observations, high-level product and catalog discovery; data/source products not requested",
+      "documentation_url": "https://www.cosmos.esa.int/web/integral/home | https://www.cosmos.esa.int/web/integral/integral-data-archives",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native June2026 mission notice says Cosmos sign-in required for archive/download access; no registration performed",
+      "free_access_restrictions": "Current archive registration required; exact API quotas/free-tier pricing unknown, registry fee claim unconfirmed",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.cosmos.esa.int/web/integral/home | https://www.cosmos.esa.int/web/integral/integral-data-archives",
+      "api_verification_state": "Native mission and archive-directory pages HTTP200. Current ISLA official UI identified, exact direct machine API/schema/runtime not verified. No archive/source download or account request. Native directory says Geneva ISDC unavailable after May2026 incident; no mirror/backend workaround.",
+      "latest_checked_utc": "2026-10-18T23:28:48.041926+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32962,6 +33010,24 @@
       "license_url": "https://guides.biblio.polymtl.ca/donneesrecherche/dataverse",
       "api_verification_state": "Independent institutional documentation HTTP200 substantive HTML. Inherited Borealis root/API/search hold retained; hosted collection/OAI/REST/SWORD not requested.",
       "latest_checked_utc": "2026-10-18T18:32:34.165755+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "pombase-public-api",
+      "provider": "PomBase consortium",
+      "service_name": "PomBase public annotation API",
+      "geographic_coverage": "International model-organism research; Schizosaccharomyces pombe, not national population observations",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Curated yeast annotations and identifier mapping; no gene/sequence/phenotype source values acquired",
+      "documentation_url": "https://www.pombase.org/faq | https://www.pombase.org/about/terms-of-use",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY 4.0 for PomBase-curated data; source exceptions",
+      "license_url": "https://www.pombase.org/about/terms-of-use",
+      "api_verification_state": "Direct native root/terms HTTP200 Loading shells, no API response. Live indexed native FAQ documents public gene/annotation and ortholog/UniProtKB identifier-mapping API; exact API documentation/base/runtime unresolved. Registry generic InterMine/Ensembl links not evidence of current instance API.",
+      "latest_checked_utc": "2026-10-18T23:28:48.041926+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
