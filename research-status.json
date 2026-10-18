@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:41:04.332600+00:00",
+  "published_at": "2026-10-18T20:43:07.109336+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:37:01.890425+00:00",
+  "research_updated_at": "2026-10-18T20:41:31.943930+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Reactome CC0/API documented; CLARIN.SI OAI/notification tension; Thunder Bay grant/API gap; QED planned OAI; TInnGO65catalog refs; ESS current policy unresolved.",
+  "latest_milestone": "Dundee/QUB publishedPure contracts verified, current grants/access unresolved; IDIAfive release references; QUBORRmigration discovered.",
   "counts": {
     "verified": 459,
-    "candidates": 1346,
-    "excluded": 391,
+    "candidates": 1348,
+    "excluded": 392,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -23819,6 +23819,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "idia-public-data-archive",
+      "provider": "Inter-University Institute for Data Intensive Astronomy",
+      "service_name": "IDIA Public Data Archive",
+      "geographic_coverage": "South African astronomy infrastructure with international radio-sky survey fields; exact sky coverage per release",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "SuperMIGHTEE, MIGHTEE continuum/polarization/HI and CARTA example release descriptions",
+      "documentation_url": "https://gateway.idia.ac.za/public_data",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://gateway.idia.ac.za/public_data",
+      "api_verification_state": "Original public_data HTTP200 HTML directory listing five release/project references. No machine API/interface/schema demonstrated; download/image catalogs not API proof.",
+      "latest_checked_utc": "2026-10-18T20:41:27.029175+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "idigbio",
       "provider": "Integrated Digitized Biocollections (iDigBio)",
       "service_name": "iDigBio Search API v2",
@@ -31520,6 +31538,24 @@
       "license_url": "https://environment.qld.gov.au/resources/maps-data",
       "api_verification_state": "official_2021_API_claim_current_runtime_unverified_original_policy_held",
       "latest_checked_utc": "2026-10-17T12:33:07.727600+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "qub-pure-research-data-repository",
+      "provider": "Queen’s University Belfast",
+      "service_name": "QUB Research Data Repository / Pure API",
+      "geographic_coverage": "Queen’s University Belfast research datasets; Northern Ireland/international project coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset/output metadata; ORR migration is a separate unresolved discovery reference",
+      "documentation_url": "https://pureadmin.qub.ac.uk/ws/api/documentation/index.html | https://pureadmin.qub.ac.uk/ws/api/openapi.yaml",
+      "api_base_url": "https://pureadmin.qub.ac.uk/ws/api",
+      "format_protocol": "REST/OpenAPI3.0.1 YAML contract verified; actual public read API untested",
+      "authentication": "Published contract globalapi-key security; generic docs discuss authorized/anonymous contexts but actual public capabilities untested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown uniform metadata/database grant; sources governed by their own licenses",
+      "license_url": "https://www.qub.ac.uk/directorates/InformationServices/TheLibrary/CustomerService/PoliciesandRegulations/ResearchPortalPolicy/",
+      "api_verification_state": "Original pure.qub dataset root HTTP403 held. Independent officially served admin API documentation/schema HTTP200; validOpenAPI3.0.1/827paths/692GETmethods/globalapi-key, not source runtime success. Native University policy robots-deferred unsent.",
+      "latest_checked_utc": "2026-10-18T20:41:27.029175+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -41242,6 +41278,24 @@
       "license_url": "https://go.drugbank.com/pricing/ | https://trust.drugbank.com/drugbank-trust-center/drugbank-terms-of-service",
       "api_verification_state": "Official API reference indexed, native pricing403 and API-docs403. Documented API not successfully tested; no credentialed queries.",
       "latest_checked_utc": "2026-10-18T06:40:31.443200+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "dundee-discovery-research-portal",
+      "provider": "University of Dundee",
+      "service_name": "Discovery Research Portal and Pure API",
+      "geographic_coverage": "University of Dundee research outputs and datasets; Scotland/international project coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research dataset/output descriptions, with research profiles outside this review scope",
+      "documentation_url": "https://discovery.dundee.ac.uk/ws/api/documentation/index.html | https://discovery.dundee.ac.uk/ws/api/openapi.yaml",
+      "api_base_url": "https://discovery.dundee.ac.uk/ws/api",
+      "format_protocol": "REST/OpenAPI3.0.1 YAML contract verified; actual read API untested",
+      "authentication": "Published contract declares api-key security globally. Generic docs discuss anonymous/configured contexts; deployment anonymous permissions unverified. No key/login requested.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Default deposited works: research/private study subject to existing licenses; metadata reuse grant unknown",
+      "license_url": "https://www.dundee.ac.uk/corporate-information/discovery-policies",
+      "api_verification_state": "Native portal/docs/OpenAPI HTTP200; schema validOpenAPI3.0.1 with827paths/692GEToperations and /ws/api server, globalapi-key security. No source runtime success. Native policy robots-deferred unsent; indexed policy legal wording reviewed.",
+      "latest_checked_utc": "2026-10-18T20:41:27.029175+00:00",
       "classification": "restricted"
     },
     {
