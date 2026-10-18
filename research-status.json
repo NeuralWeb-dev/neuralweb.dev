@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T16:40:38.477138+00:00",
+  "published_at": "2026-10-18T16:42:41.628637+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:40:34.429372+00:00",
+  "research_updated_at": "2026-10-18T16:41:27.740036+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DIAS default access/reuse restricted; EBAS original deduplicated with project-policy caveats; CAZy grant/provider API unresolved.",
+  "latest_milestone": "PsychArchives metadataCC0/open interfaces verified with runtime gap; DIAS default restricted; EBAS deduplicated/projectcaveats; EnviDat/OpenForest/CAZy grants unresolved; MDZ876000 incomplete.",
   "counts": {
     "verified": 438,
     "candidates": 1169,
@@ -2640,11 +2640,13 @@
           "histat-historical-statistics",
           "lithuania-statistics",
           "nasc-plant-stock-webservices",
+          "openforest-dataverse",
           "puglia-open-data-catalog",
           "sardinia-geospatial-wfs",
           "serbia-rzs",
           "trentino-open-data",
-          "uk-trade-tariff"
+          "uk-trade-tariff",
+          "wsl-envidat"
         ],
         "restricted_provider_ids": [
           "dirros-research-repository",
@@ -2748,6 +2750,7 @@
           "nanocommons-knowledgebase",
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
+          "openforest-dataverse",
           "os-os-places-api",
           "puglia-open-data-catalog",
           "registry-daten-rlp-de",
@@ -2764,7 +2767,8 @@
           "uk-solar-system-data-centre",
           "ukedc-discovery-portal",
           "wis2-poland",
-          "wis2-russian-federation"
+          "wis2-russian-federation",
+          "wsl-envidat"
         ],
         "restricted_provider_ids": [
           "agdc-geomagnetic-portal",
@@ -2832,7 +2836,8 @@
           "tuscany-open-data-catalog",
           "ufz-spatial-geonetwork",
           "uk-polar-data-centre",
-          "ukho-tidal"
+          "ukho-tidal",
+          "wsl-envidat"
         ],
         "restricted_provider_ids": [
           "bfg-ggina-geoportal-services",
@@ -2915,6 +2920,7 @@
           "piemonte-opendata-catalog",
           "poland-bdl",
           "poland-gus-sdg",
+          "psycharchives-repository",
           "rostock-open-data",
           "scotland-catalog",
           "ukraine-data",
@@ -3015,6 +3021,7 @@
           "piemonte-opendata-catalog",
           "poland-bdl",
           "poland-gus-sdg",
+          "psycharchives-repository",
           "rostock-rosdok",
           "saw-leipzig-repository",
           "scotland-catalog",
@@ -3470,6 +3477,7 @@
         "candidate_provider_ids": [
           "berlin-animal-sound-archive",
           "bexis-biodiversity-exploratories",
+          "cazy-enzyme-database",
           "dans-life-sciences-station",
           "ea-bathing-water",
           "ea-public-registers-for-environmental-information",
@@ -3479,9 +3487,11 @@
           "lifewatch-metadata-catalogue",
           "nasc-plant-stock-webservices",
           "nhm-data-portal-api",
+          "openforest-dataverse",
           "proteomexchange-proteomecentral",
           "seadatanet-cdi-discovery-network",
-          "ufz-spatial-geonetwork"
+          "ufz-spatial-geonetwork",
+          "wsl-envidat"
         ],
         "restricted_provider_ids": [
           "bioimages-uk-field-guide",
@@ -3643,6 +3653,7 @@
           "nfdi4ing-ingest-metadata-api",
           "nhm-data-portal-api",
           "nijmegen-regional-archive-open-data",
+          "openforest-dataverse",
           "ortolang-fcs",
           "ostdata-research-repository",
           "perspectivia",
@@ -3668,6 +3679,7 @@
           "ustp-phaidra-repository",
           "vads-visual-arts-service",
           "wellcome-collection",
+          "wsl-envidat",
           "zvdd-metadata-interfaces"
         ],
         "restricted_provider_ids": [
@@ -3752,6 +3764,7 @@
           "paint-csp-stac",
           "piemonte-opendata-catalog",
           "poland-bdl",
+          "psycharchives-repository",
           "radar-public-metadata",
           "registry-data-bl-ch",
           "registry-data-tg-ch",
@@ -3787,6 +3800,7 @@
           "bonares-soil-agricultural-repository",
           "boris-bern-portal",
           "brgm-cupidon-repository",
+          "cazy-enzyme-database",
           "cessda-catalogue",
           "cews-gender-academia-directory",
           "cis-spain-survey-data-bank",
@@ -3868,6 +3882,7 @@
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
           "odissei-metadata-portal",
+          "openforest-dataverse",
           "ortolang-fcs",
           "osnabrueck-osnadata",
           "ostdata-research-repository",
@@ -3913,6 +3928,7 @@
           "vads-visual-arts-service",
           "vu-yoda-publication-metadata",
           "wellcome-collection",
+          "wsl-envidat",
           "yoda-utrecht",
           "zagreb-pmf-metadata-repository",
           "zvdd-metadata-interfaces"
@@ -4800,7 +4816,9 @@
           "thailand-gistda",
           "wdcrre-resources-environment"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "japan-dias-platform"
+        ]
       },
       "climate/weather/environment": {
         "status": "partial_verified",
@@ -4825,6 +4843,7 @@
           "wis2-south-korea"
         ],
         "restricted_provider_ids": [
+          "japan-dias-platform",
           "southeast-asian-climate-assessment-dataset"
         ]
       },
@@ -4841,6 +4860,7 @@
           "wdcrre-resources-environment"
         ],
         "restricted_provider_ids": [
+          "japan-dias-platform",
           "southeast-asian-climate-assessment-dataset"
         ]
       },
@@ -5024,6 +5044,7 @@
         "restricted_provider_ids": [
           "chiba-curator-repository",
           "cinii-research",
+          "japan-dias-platform",
           "nii-idr-restricted-dataset-service"
         ]
       },
@@ -5059,6 +5080,7 @@
           "chiba-curator-repository",
           "china-phda-metadata-api",
           "cinii-research",
+          "japan-dias-platform",
           "nii-idr-restricted-dataset-service",
           "sciencedb-api-oai",
           "social-science-japan-data-archive",
