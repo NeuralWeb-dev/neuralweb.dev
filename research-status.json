@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T16:52:56.390642+00:00",
+  "published_at": "2026-10-18T16:55:00.105600+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T16:52:01.887062+00:00",
+  "research_updated_at": "2026-10-18T16:53:11.015698+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: AERONET public-domain/API docs and AHEAD databaseBY4/OGC docs verified runtimeuntested; IDB222identifierJSON/25portalqueue mixedrights; MTD/SilkPath/RMIT gaps; MDZ887000 incomplete.",
+  "latest_milestone": "MDZ collectionfrontier advanced to898pages/898000refs;2315503reportedremaining,rightsnotcleared.",
   "counts": {
     "verified": 440,
-    "candidates": 1173,
+    "candidates": 1175,
     "excluded": 342,
     "sample_successes": 464
   },
@@ -11217,15 +11217,15 @@
       "geographic_coverage": "United States",
       "topical_coverage": "oceans; water",
       "dataset_families": "Tides; water levels; currents; predictions",
-      "documentation_url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
+      "documentation_url": "https://api.tidesandcurrents.noaa.gov/api/prod/ | https://api.tidesandcurrents.noaa.gov/mdapi/prod/ | https://api.tidesandcurrents.noaa.gov/dpapi/prod/",
       "api_base_url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
       "format_protocol": "REST/JSON",
       "authentication": "none for public read",
       "free_access_restrictions": "Public station metadata API succeeded without credentials",
       "license": "US public domain unless specifically annotated otherwise",
       "license_url": "https://tidesandcurrents.noaa.gov/disclaimers.html",
-      "api_verification_state": "documented_sample_success",
-      "latest_checked_utc": "2026-10-16T17:23:57.189204+00:00",
+      "api_verification_state": "documented_sample_success; current indexed docs reviewed, no new runtime sample or legacy SOAP/ERDDAP test.",
+      "latest_checked_utc": "2026-10-18T16:52:58.864602+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -23903,6 +23903,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "maine-dataverse-network",
+      "provider": "University of Maine ARCSIM / University of Maine System",
+      "service_name": "Maine Dataverse Network",
+      "geographic_coverage": "United States institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional multidisciplinary research-data archive and descriptions; current contents unenumerated",
+      "documentation_url": "https://umaine.edu/arcsim/computing/",
+      "api_base_url": "",
+      "format_protocol": "Native owner describes Dataverse repository; exact current public API/base/schema unknown",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown institutional metadata/data grant; generic CC0 and NSF grant conditions not source license",
+      "license_url": "https://umaine.edu/arcsim/computing/",
+      "api_verification_state": "Original oldDVNportalguard-deferred unsent; independent owner computing guide200HTML. Current portal/API contract not verified.",
+      "latest_checked_utc": "2026-10-18T16:52:58.864602+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "maizegdb-api",
       "provider": "USDA-ARS / MaizeGDB",
       "service_name": "Maize Genetics and Genomics Database API candidate",
@@ -24132,8 +24150,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across887successfulpages/887000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T16:46:00.799455+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across898successfulpages/898000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T16:53:06.138259+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24872,6 +24890,24 @@
       "license_url": "https://iigm.res.in/sites/default/files/Data%20Policy.pdf | https://wdc.iigm.res.in/data-usage-rules.html",
       "api_verification_state": "native_institute_WDC_identity_oldconditionalpolicy_and_currentpolicyplaceholder_verified_API_exactgrants_unresolved",
       "latest_checked_utc": "2026-10-17T23:56:25.011093+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "mxrdr-crystallography-repository",
+      "provider": "ICM University of Warsaw / Adam Mickiewicz University crystallography team",
+      "service_name": "Macromolecular Xtallography Raw Data Repository MX-RDR",
+      "geographic_coverage": "Poland-hosted international crystallography repository; source geographic extent varies",
+      "topical_coverage": "research",
+      "dataset_families": "Raw macromolecular diffraction research-data descriptions and crystallographic metadata; actual images/structures not retrieved",
+      "documentation_url": "https://info.mxrdr.icm.edu.pl/index.php/about/few-words-about-mx-rdr/ | https://info.mxrdr.icm.edu.pl/index.php/api-2/",
+      "api_base_url": "https://mxrdr.icm.edu.pl/oai",
+      "format_protocol": "Registry Dataverse OAI/REST; native independent API documentation points token/JSON/metadata/institutional functions, wire contract untested",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Uniform metadata/database grant unknown; registry CC0/BY4 unverified",
+      "license_url": "https://info.mxrdr.icm.edu.pl/index.php/about/few-words-about-mx-rdr/",
+      "api_verification_state": "Original OAIIdentifyguard-deferred unsent. Independent owner info/about/API pages200HTML; no native repository XML/JSON or sourcefiles tested.",
+      "latest_checked_utc": "2026-10-18T16:52:58.864602+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
