@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:22:58.292151+00:00",
+  "published_at": "2026-10-18T19:25:01.295535+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:22:48.039373+00:00",
+  "research_updated_at": "2026-10-18T19:24:46.431577+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IPB native default conflict; IIT official2025terms; Eaufrance native OpenAPI schema verified with grant scope gap.",
+  "latest_milestone": "SODHA native OAI identity/policy source restrictions; TRR170 historical plan and DataSuds legal/source grants separated.",
   "counts": {
     "verified": 445,
-    "candidates": 1304,
-    "excluded": 374,
+    "candidates": 1306,
+    "excluded": 375,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -19197,6 +19197,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "datasuds-ird-repository",
+      "provider": "Institut de recherche pour le développement",
+      "service_name": "Institut de recherche pour le développement data discovery service",
+      "geographic_coverage": "IRD/partner international research, including Global South; exact source coverage varies",
+      "topical_coverage": "research | climate/weather/environment | health | biodiversity",
+      "dataset_families": "International multidisciplinary research descriptions",
+      "documentation_url": "https://data.ird.fr/l-entrepot-datasuds/ | https://data.ird.fr/mentions-legales/",
+      "api_base_url": "https://dataverse.ird.fr/oai",
+      "format_protocol": "Registry OAI-PMH; native runtime held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; see scoped terms",
+      "license_url": "https://data.ird.fr/l-entrepot-datasuds/ | https://data.ird.fr/mentions-legales/",
+      "api_verification_state": "Native repository root/institutional description/legal HTTP200; exact OAI guard-deferred unsent, no alternate. Legal page reserves site structure/content rights without proving all source data closed. Indexed native deposit guidance default BY/occasionallyCC0 and possible access agreements/source documentation licenses separate. Metadata harvesting and source defaults not uniform effective metadata/source grant.",
+      "latest_checked_utc": "2026-10-18T19:24:41.663166+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dataterra-eosc-resource-catalogue",
       "provider": "Data Terra EOSC Node / Earth Data Community",
       "service_name": "Data Terra EOSC Resource Catalogue",
@@ -34137,6 +34155,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "trr170-planetary-data-repository",
+      "provider": "TRR170 / Freie Universität Berlin",
+      "service_name": "TRR170 / Freie Universität Berlin data discovery service",
+      "geographic_coverage": "Planetary samples, remote sensing and simulations; Germany institutional project",
+      "topical_coverage": "astronomy | geospatial | research",
+      "dataset_families": "Planetary sample/simulation dataset descriptions",
+      "documentation_url": "https://info.planetary-data-portal.org/Support/Downloads-PD-Info/TRR-170-research-data-management.pdf",
+      "api_base_url": "https://planetary-data-portal.org/oai",
+      "format_protocol": "Registry OAI-PMH; native runtime held",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; see scoped terms",
+      "license_url": "https://info.planetary-data-portal.org/Support/Downloads-PD-Info/TRR-170-research-data-management.pdf",
+      "api_verification_state": "Original repository held; independent native DMP PDF HTTP200 and three-page official reader reviewed. August2019 plan discusses open metadata/OAI/SWORD, future CC-attribution replication and requester/liability forms. Historical/prospective plan not verified current blanket metadata/source grant or API runtime. No forms/contracts/OAI alternate.",
+      "latest_checked_utc": "2026-10-18T19:24:41.663166+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "trr228-african-futures-database",
       "provider": "University of Cologne / partner research institutions",
       "service_name": "CRC/TRR228 African futures research database portal",
@@ -43820,6 +43856,24 @@
       "license_url": "https://csrda.iss.u-tokyo.ac.jp/english/infrastructure/access/condition/",
       "api_verification_state": "Native conditions200HTML; anonymous Identify200parsed OAI-PMH XML, repository descriptor only",
       "latest_checked_utc": "2026-10-18T06:01:06.294279+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "sodha-research-data-archive",
+      "provider": "State Archives of Belgium",
+      "service_name": "State Archives of Belgium data discovery service",
+      "geographic_coverage": "Belgium social sciences and digital humanities; source geography varies",
+      "topical_coverage": "research | culture | demographics",
+      "dataset_families": "Social science/humanities dataset descriptions",
+      "documentation_url": "https://www.sodha.be/guide/pdf/SODHA_Access_and_Reuse_Policy_EN.pdf",
+      "api_base_url": "https://www.sodha.be/oai",
+      "format_protocol": "OAI-PMH XML",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Mixed CC0/CC BY4/scientific-purpose-only; scoped restricted source families",
+      "license_url": "https://www.sodha.be/guide/pdf/SODHA_Access_and_Reuse_Policy_EN.pdf",
+      "api_verification_state": "Native root/access policyPDFHTTP200, official five-page policy reader reviewed version5 February17,2022. Exact original OAIIdentifyHTTP200valid XML without errors. Source choices include CC0, CC BY4 and Attribution Scientific Purpose Only; restricted classification scoped to scientific-purpose-only/restricted families, not every CC0/BY source. Public metadata accessibility distinct from formal blanket grant. Section8 CC0 relevant public administrative documents not automatically all deposited metadata.",
+      "latest_checked_utc": "2026-10-18T19:24:41.663166+00:00",
       "classification": "restricted"
     },
     {
