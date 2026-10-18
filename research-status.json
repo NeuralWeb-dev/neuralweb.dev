@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T08:52:49.882117+00:00",
+  "published_at": "2026-10-18T08:54:52.644609+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:52:11.342209+00:00",
+  "research_updated_at": "2026-10-18T08:54:32.191973+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Brazil DataPB held, Germany BIBB-FDZ controlled noncommercial access, SkyView native CGI guide verified/mixed survey grants unresolved.",
+  "latest_milestone": "Twelve originals: TreeBASE OAI2/twoformats success with firstheader timeout; TAIR publicBY4 exception and agency/CAIDA/BIBB/PAC restrictions; BEA/FRED dedup; Brazil/Germany/France/astronomy scopes reviewed.",
   "counts": {
     "verified": 383,
-    "candidates": 958,
-    "excluded": 283,
+    "candidates": 959,
+    "excluded": 284,
     "sample_successes": 465
   },
   "remaining_work": [
@@ -235,6 +235,7 @@
           "rruff-mineral-data",
           "scripps-ogdc-data-portal",
           "seabass-sst-validation-api",
+          "senckenberg-aquila-collections",
           "sesar-sample-metadata-api",
           "undata-official-sdmx-api",
           "unite-species-hypotheses",
@@ -487,12 +488,14 @@
           "osm"
         ],
         "candidate_provider_ids": [
+          "caida-asrank-api",
           "cugir-geospatial-repository",
           "nasa-open-data-catalog",
           "openchargemap",
           "shom-data"
         ],
         "restricted_provider_ids": [
+          "caida-research-data-catalog",
           "metoffice-weather-datahub",
           "un-comtrade"
         ]
@@ -682,7 +685,9 @@
           "planetary-computer",
           "plant-adaptation-hub",
           "proteomexchange-proteomecentral",
+          "senckenberg-aquila-collections",
           "smithsonian",
+          "treebase-phylogenetic-apis",
           "tritrypdb",
           "unite-species-hypotheses",
           "usgs-sciencebase-catalogue"
@@ -970,6 +975,7 @@
           "auscope-earthbank",
           "biostudies",
           "biotime-biodiversity-timeseries",
+          "caida-asrank-api",
           "cell-image-library",
           "checklistbank",
           "china-national-earth-observation-center",
@@ -1072,10 +1078,12 @@
           "scripps-ogdc-data-portal",
           "sddb-scientific-drilling-oai",
           "seabass-sst-validation-api",
+          "senckenberg-aquila-collections",
           "sesar-sample-metadata-api",
           "sioexplorer-legacy-cruise-archive",
           "smithsonian",
           "stanford-sdr-purl-iiif",
+          "treebase-phylogenetic-apis",
           "tritrypdb",
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections",
@@ -1102,6 +1110,7 @@
           "bnf-gallica",
           "bsrn-wrmc-radiation-archive",
           "bugwood-image-network-api",
+          "caida-research-data-catalog",
           "charite-zebanc-biobank",
           "cinii-research",
           "citf-controlled-databank",
@@ -1286,6 +1295,7 @@
           "barrow-area-information-database",
           "bc-conservation-data-centre",
           "california-open-data",
+          "california-west-nile-public-portal",
           "canada-naps-data-portal",
           "cerp-sfwmd",
           "donnees-quebec-catalog",
@@ -1413,6 +1423,7 @@
           "ahrq-hcupnet-aggregate-statistics",
           "bcgsc-open-release-data",
           "california-open-data",
+          "california-west-nile-public-portal",
           "cdc-ables-surveillance",
           "connect211-hsda",
           "connect211-search",
@@ -1713,6 +1724,7 @@
           "alberta-biodiversity-monitoring-institute",
           "bc-conservation-data-centre",
           "bcgsc-open-release-data",
+          "california-west-nile-public-portal",
           "canadensys",
           "cerp-sfwmd",
           "edi",
@@ -2172,6 +2184,7 @@
           "cdha-study-resource-directory",
           "ciencia-aberta",
           "colombia-mincultura-research-dataverse",
+          "datapb-ufpb-dataverse",
           "dhs-indicator-data-api",
           "edac-gstore",
           "esa-ecology",
@@ -2383,6 +2396,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "bamf-fdz-research-data",
+          "bibb-fdz-research-data",
           "dhsnl-dnb-household-survey",
           "dza-research-data-centre",
           "share-eric-research-data",
@@ -2815,6 +2829,7 @@
         "restricted_provider_ids": [
           "alspac-cohort-access-portal",
           "bamf-fdz-research-data",
+          "bibb-fdz-research-data",
           "bioimages-uk-field-guide",
           "bonn-open-data",
           "datice-gagnis-iceland",
@@ -3424,6 +3439,7 @@
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "daks-kassel-research-repository",
+          "datapb-ufpb-dataverse",
           "direno-lower-austria-repository",
           "drks-german-clinical-trials-register",
           "earthprints-geoscience-repository-api",
@@ -3497,6 +3513,7 @@
           "alspac-cohort-access-portal",
           "anc-restricted-data-portal",
           "bamf-fdz-research-data",
+          "bibb-fdz-research-data",
           "bioimages-uk-field-guide",
           "bnf-gallica",
           "cdgp-geothermal-portal",
@@ -3590,7 +3607,8 @@
           "tunisia"
         ],
         "restricted_provider_ids": [
-          "gccstat"
+          "gccstat",
+          "tair-arabidopsis-service"
         ]
       },
       "climate/weather/environment": {
@@ -3705,7 +3723,8 @@
           "nasc-plant-stock-webservices"
         ],
         "restricted_provider_ids": [
-          "gccstat"
+          "gccstat",
+          "tair-arabidopsis-service"
         ]
       },
       "oceans": {
@@ -3735,7 +3754,8 @@
         ],
         "restricted_provider_ids": [
           "gccstat",
-          "infra-art-restricted-spectra"
+          "infra-art-restricted-spectra",
+          "tair-arabidopsis-service"
         ]
       },
       "research": {
@@ -3753,6 +3773,7 @@
         ],
         "restricted_provider_ids": [
           "infra-art-restricted-spectra",
+          "tair-arabidopsis-service",
           "us-jgofs-legacy-data-system"
         ]
       }
@@ -25502,6 +25523,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "senckenberg-aquila-collections",
+      "provider": "Senckenberg Society for Nature Research",
+      "service_name": "AQUiLA collection search portal",
+      "geographic_coverage": "Senckenberg natural-history collections; global specimen geography possible but unverified",
+      "topical_coverage": "biodiversity | environment | research",
+      "dataset_families": "Natural-history collection/taxon search across botanical/zoological/palaeontological collections; source specimens not queried",
+      "documentation_url": "https://search.senckenberg.de/aquila-public-search/search",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://search.senckenberg.de/aquila-public-search/impressum/en/",
+      "api_verification_state": "Native search and imprint200HTML; exact query API unknown; no successful machine API response",
+      "latest_checked_utc": "2026-10-18T08:53:11.186187+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "seoul-open-data-api",
       "provider": "Seoul Metropolitan Government / Seoul Open Data Plaza",
       "service_name": "Seoul named-service Open API",
@@ -30742,6 +30781,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "cines-pac-preservation",
+      "provider": "CINES, France",
+      "service_name": "PAC preservation archive access service",
+      "geographic_coverage": "French higher-education/research preservation service; archive-specific content/geography differs",
+      "topical_coverage": "research | culture",
+      "dataset_families": "Long-term preservation of research, institutional, publication and cultural archives; metadata/catalogue access per archive authorization",
+      "documentation_url": "https://www.cines.fr/preservation/archiving-solutions/pac/archive-workflow/ | https://facile.cines.fr/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "PAC access server checks user access rights before showing permitted catalogue; communication eligibility checked per archive",
+      "free_access_restrictions": "Project/producer access protocol and archive communicability determine access; derogation may require producer authorization. No blanket public metadata or archive grant.",
+      "license": "Access-controlled preservation; archive-specific rights, no verified open archive grant",
+      "license_url": "https://www.cines.fr/preservation/archiving-solutions/pac/archive-workflow/",
+      "api_verification_state": "Native preservation root/workflow and FACILE200HTML. FACILE identifies uploaded-file format validation/correction, not an archive retrieval API. No source query/sample execution.",
+      "latest_checked_utc": "2026-10-18T08:53:11.186187+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "cinii-research",
       "provider": "National Institute of Informatics (NII)",
       "service_name": "CiNii Research scholarly discovery APIs",
@@ -31620,7 +31677,7 @@
       "license": "FRED service/API contract restrictions plus series-specific rights",
       "license_url": "https://fred.stlouisfed.org/legal/",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T17:14:47.501188+00:00",
+      "latest_checked_utc": "2026-10-18T08:53:11.186187+00:00",
       "classification": "restricted"
     },
     {
