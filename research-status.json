@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T08:22:05.194590+00:00",
+  "published_at": "2026-10-18T08:24:08.079191+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T08:21:06.479318+00:00",
+  "research_updated_at": "2026-10-18T08:23:25.982494+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OpenEIsemanticSPARQL404/currentURDBdistinct; KURENAIitemrights verified/APIunknown; DSMZ4resourcefamilies queued without blanketgrant.",
+  "latest_milestone": "NAKBannotation/APIgrant unresolved; CRC247policytimeoutpreserved; EIAoriginaldedupcurrentnativegrant/keyrequirementretained.",
   "counts": {
     "verified": 381,
-    "candidates": 942,
+    "candidates": 944,
     "excluded": 275,
     "sample_successes": 465
   },
@@ -7586,7 +7586,7 @@
       "license": "US public domain (explicit EIA reuse policy)",
       "license_url": "https://www.eia.gov/about/copyrights_reuse.php",
       "api_verification_state": "documented_key_required_untested",
-      "latest_checked_utc": "2026-10-16T16:29:28.920534+00:00",
+      "latest_checked_utc": "2026-10-18T08:23:21.309308+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15458,6 +15458,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "crc247-matinf-materials-rdms",
+      "provider": "CRC/TRR247 / Ruhr University Bochum",
+      "service_name": "CRC/TRR247 MatInf research data management system",
+      "geographic_coverage": "German consortium materials/catalysis research; exactexperiment/sourcecoverage unenumerated",
+      "topical_coverage": "research | energy",
+      "dataset_families": "Materials/sample/characterization research records; publicandprotected records coexist, no sourceexperiment queried",
+      "documentation_url": "https://crc247.mdi.ruhr-uni-bochum.de",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://crc247.mdi.ruhr-uni-bochum.de/home/termsofservice",
+      "api_verification_state": "Nativehome200HTML, termsrequesttimeoutstatusNone. RegistryGoogleDocAPIclaimnotexactverifiedAPI; no sampletested.",
+      "latest_checked_utc": "2026-10-18T08:23:21.309308+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "crc806-legacy-research-database",
       "provider": "University of Cologne / Collaborative Research Centre 806",
       "service_name": "CRC806 Database legacy research portal; current API unresolved",
@@ -20801,6 +20819,24 @@
       "license_url": "https://nadp.slh.wisc.edu/data-and-information-use-conditions/",
       "api_verification_state": "Native project, policy and NTN map HTTP200 HTML; no documented stable public API or machine sample verified",
       "latest_checked_utc": "2026-10-18T00:43:03.862324+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nakb-nucleic-acid-knowledgebase",
+      "provider": "Rutgers University / NAKB consortium",
+      "service_name": "Nucleic Acid Knowledgebase",
+      "geographic_coverage": "International structural biology of nucleic acids; no terrestrial population geography",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Nucleic-acid3Dstructureannotations, sequence/ligand/protein relationships, modifiednucleotide resources; successor toNDB",
+      "documentation_url": "https://nakb.org/about.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://nakb.org/about.html",
+      "api_verification_state": "Nativehome/about200HTML; upstreamRCSBAPIlisted but exactNAKBqueryAPI notverified",
+      "latest_checked_utc": "2026-10-18T08:23:21.309308+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
