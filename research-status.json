@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T07:45:12.628335+00:00",
+  "published_at": "2026-10-18T07:47:15.863772+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T07:43:12.442211+00:00",
+  "research_updated_at": "2026-10-18T07:45:17.437141+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals/two ZBW leads reviewed: native STW BY4/tinyJSON, EconStor OAI alias, NNDC10version metadata; current source-rights/modified licence/source holds retained;42NLRreferences queued.",
+  "latest_milestone": "WDS meteorology/NCEI and GAVO aliases deduplicated; native GAVO contributor terms/163references indexed; Aruba root held.",
   "counts": {
     "verified": 377,
-    "candidates": 918,
+    "candidates": 919,
     "excluded": 270,
     "sample_successes": 465
   },
@@ -8202,7 +8202,7 @@
       "license": "CC0 1.0 for explicitly marked tables | CC0-1.0 explicitly for HDAP scans",
       "license_url": "https://dc.g-vo.org/browse/gdr2mock/q | https://dc.zah.uni-heidelberg.de/lswscans/res/positions/siap/info",
       "api_verification_state": "documented_sample_success; current HDAP documented MAXREC=0 schema GET returned200 parsed VOTable, zero data rows",
-      "latest_checked_utc": "2026-10-18T05:45:47.523736+00:00",
+      "latest_checked_utc": "2026-10-18T07:45:12.775660+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -21308,7 +21308,7 @@
       "license": "NCEI policy:Federal-origin data public domain inUS;contributed holdings mixed/licensingnotretroactive",
       "license_url": "https://www.ncei.noaa.gov/archive",
       "api_verification_state": "sample_success_documentation_or_license_review_pending",
-      "latest_checked_utc": "2026-10-16T19:14:21.595387+00:00",
+      "latest_checked_utc": "2026-10-18T07:45:12.775660+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -26583,6 +26583,24 @@
       "license_url": "https://unite.ut.ee/ | https://unite.ut.ee/terms.php | https://unite.ut.ee/repository.php",
       "api_verification_state": "native_current_BY4_statement_webservice_link_and_PlutoF_JSON_root13verified_exact_UNITE_SH_route_unresolved",
       "latest_checked_utc": "2026-10-17T22:04:48.281731+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "university-aruba-open-repository",
+      "provider": "University of Aruba",
+      "service_name": "University of Aruba Open Knowledge Repository",
+      "geographic_coverage": "Aruba/Caribbean institutional research; exact collection/source coverage unverified",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional open-knowledge repository as registry description; actual current families not enumerated",
+      "documentation_url": "https://repository.ua.aw/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://repository.ua.aw/pages/terms-of-use/en",
+      "api_verification_state": "Root guard-deferred unsent due robots policy or inaccessible robots.txt, no HTML/API runtime. Exact published API unresolved.",
+      "latest_checked_utc": "2026-10-18T07:45:12.775660+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
