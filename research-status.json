@@ -1,13 +1,13 @@
 {
-  "published_at": "2026-10-18T10:06:34.853349+00:00",
+  "published_at": "2026-10-18T10:08:37.565062+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T10:06:06.104152+00:00",
+  "research_updated_at": "2026-10-18T10:08:25.901882+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "SEDOO384UI descriptor JSON/project licence choices; ForestGEO403/indexed context; DataHub legacy dedup/current Core separate; MDZ146000refs/146pages.",
+  "latest_milestone": "MDZ collectionfrontier advanced to162pages/162000refs;3051503reportedremaining,rightsnotcleared.",
   "counts": {
-    "verified": 388,
+    "verified": 390,
     "candidates": 991,
     "excluded": 291,
     "sample_successes": 465
@@ -6563,6 +6563,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "cadc-astronomy-services",
+      "provider": "National Research Council Canada / Canadian Astronomy Data Centre",
+      "service_name": "CADC TAP catalogue and Direct Data services",
+      "geographic_coverage": "Astronomical telescope/partner archive holdings; sky coverage varies, not full-sky or terrestrial coverage",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "CAOM astronomical observation/product catalogue summaries and direct archive files, including CFHT/IRIS examples; proprietary holdings separate",
+      "documentation_url": "https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/doc/tap/ | https://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/doc/data/",
+      "api_base_url": "https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/argus/ | https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/",
+      "format_protocol": "Native VOSITablesXML21table summaries verified; TAP/ADQL CSV/TSV/VOTable and direct file/header/cutout service documented, scientific operations untested",
+      "authentication": "Anonymous table summary GET succeeded. Docs distinguish public metadata/files from proprietary records requiring authorised client certificate/login. No credentials/certificate/account obtained.",
+      "free_access_restrictions": "Public/proprietary access distinction documented; exact quotas/numeric rate limits and archive-specific exceptional rights unenumerated. No paid acquisition.",
+      "license": "CC BY4.0 for public CADC archive deposits per native owner licensing statement",
+      "license_url": "https://www2.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/about.html",
+      "api_verification_state": "Native DirectData/TAP guides and owner About/licensing200HTML; linked /argus/tables200validVOSITablesXML21table names. Summary contains no column details; detailed schema/source observations unqueried. No science-query or file response.",
+      "latest_checked_utc": "2026-10-18T10:08:13.780522+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "canada",
       "provider": "Government of Canada",
       "service_name": "Government of Canada open data portal",
@@ -7945,7 +7963,25 @@
       "license": "Creative Commons Attribution 4.0",
       "license_url": "https://www.eso.org/cms/eso-data-access-policy.html",
       "api_verification_state": "documented_schema_metadata_sample_success",
-      "latest_checked_utc": "2026-10-16T19:05:30.723730+00:00",
+      "latest_checked_utc": "2026-10-18T10:08:13.780522+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "essdive-dataset-api",
+      "provider": "ESS-DIVE / Lawrence Berkeley National Laboratory / U.S. Department of Energy",
+      "service_name": "ESS-DIVE Dataset REST API",
+      "geographic_coverage": "ESS-DIVE public scientific repository; exact geographical/source distributions unenumerated",
+      "topical_coverage": "environment | research",
+      "dataset_families": "Published Earth/environmental systems science data packages, linked JSON-LD metadata, dataset metrics and managed sharing/submission; no source objects queried",
+      "documentation_url": "https://docs.ess-dive.lbl.gov/programmatic-tools/ess-dive-dataset-api | https://api.ess-dive.lbl.gov/",
+      "api_base_url": "https://api.ess-dive.lbl.gov/ (production); registry sandbox is separate testing environment",
+      "format_protocol": "Native OpenAPI3.0.2 JSON7paths/10operations; REST and JSON-LD documented, actual dataset operations untested",
+      "authentication": "Production schema public; native guide requires ORCID login/generated token for DatasetAPI operations; schema global HTTPBearerJWT. No account/token acquired or inspected.",
+      "free_access_restrictions": "Published sources explicitly open; authenticated API operations and other service terms distinct. Public schema/documents accessed without credentials; no free-all-service/price claim.",
+      "license": "CC BY4.0 or CC0 1.0 for all public datasets; metadata Public Domain dedication per owner",
+      "license_url": "https://ess-dive.lbl.gov/data-use-and-citation/",
+      "api_verification_state": "Native API guide/usepolicy/productionSwaggerUI200HTML; explicit /openapi.json200validOpenAPIJSON7paths/10operations and globalBearer security. Authenticated dataset/source runtime untested, not sample success inferred from docs.",
+      "latest_checked_utc": "2026-10-18T10:08:13.780522+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -20960,8 +20996,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across146successfulpages/146000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T10:03:23.669874+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across162successfulpages/162000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T10:08:21.014043+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
