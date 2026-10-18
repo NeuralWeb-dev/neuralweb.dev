@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-18T18:56:14.417788+00:00",
+  "published_at": "2026-10-18T18:58:17.572422+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T18:54:42.705984+00:00",
+  "research_updated_at": "2026-10-18T18:58:02.330582+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original providers reviewed: SAGE dated controlled-access/source NC model; Odesi migrated frontend/API grant gap; Guelph general separate; six other institutional rights/holds.",
+  "latest_milestone": "RRU/Laurier owner context/source rights gaps; UK Data Archive service mapped to native tested UKDS OAI identity and mixed metadata/source terms.",
   "counts": {
     "verified": 445,
-    "candidates": 1272,
+    "candidates": 1275,
     "excluded": 370,
     "sample_successes": 464
   },
@@ -24550,6 +24550,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "laurier-borealis-data-repository",
+      "provider": "Wilfrid Laurier University",
+      "service_name": "Wilfrid Laurier University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.wlu.ca/research/data-management",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "Native owner reports no direct cost to depositor researchers; consumer/source terms unresolved.",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.wlu.ca/research/data-management",
+      "api_verification_state": "Native independent institutional HTML HTTP200 substantive documentation; not API payload. Inherited Borealis root/API/search holds retained; no collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:57:57.558548+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "laval-borealis-data-repository",
       "provider": "Université Laval / Borealis",
       "service_name": "Université Laval institutional research-data portal",
@@ -31300,6 +31318,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "rru-borealis-data-repository",
+      "provider": "Royal Roads University",
+      "service_name": "Royal Roads University curated Borealis research repository",
+      "geographic_coverage": "Canadian institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research dataset descriptions; source families not enumerated",
+      "documentation_url": "https://library.royalroads.ca/teaching-publishing/research-data-management/research-data-management-strategy",
+      "api_base_url": "https://borealisdata.ca/oai",
+      "format_protocol": "Shared OAI-PMH/REST/SWORD registry claims; institution-specific interface/set unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://library.royalroads.ca/teaching-publishing/research-data-management/research-data-management-strategy",
+      "api_verification_state": "Native independent institutional HTML HTTP200 substantive documentation; not API payload. Inherited Borealis root/API/search holds retained; no collection/OAI/REST/SWORD tested.",
+      "latest_checked_utc": "2026-10-18T18:57:57.558548+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "rruff-mineral-data",
       "provider": "RRUFF Project",
       "service_name": "RRUFF mineral analysis database candidate",
@@ -34087,6 +34123,24 @@
       "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "api_verification_state": "historical_JSON_sample_success_current_zero_row_count_guard_deferred_terms404",
       "latest_checked_utc": "2026-10-18T05:32:21.097764+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uk-data-service-archive-catalogue",
+      "provider": "UK Data Archive / UK Data Service",
+      "service_name": "UK Data Service archive catalogue and OAI-PMH",
+      "geographic_coverage": "United Kingdom social/economic/population research; international source coverage varies",
+      "topical_coverage": "demographics | economics/finance | labor | health | education | housing | research",
+      "dataset_families": "Survey/census/longitudinal/economic/qualitative collection metadata; no actual respondent/clinical files",
+      "documentation_url": "https://www.data-archive.ac.uk/ | https://datacatalogue.ukdataservice.ac.uk/",
+      "api_base_url": "https://oai.ukdataservice.ac.uk:8443/oai/provider",
+      "format_protocol": "OAI-PMH XML identity tested; GraphQL metadata overview advertised by indexed native catalogue, exact GraphQL endpoint/contract unresolved",
+      "authentication": "Anonymous OAI Identify without credentials succeeded; data collection access varies, no account/agreements",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://ukdataservice.ac.uk/terms-and-conditions/",
+      "api_verification_state": "Native archive root/terms HTTP200; catalogue HTTP200 minimal JavaScript shell, not API success. Exact original OAI Identify HTTP200 valid OAI-PMH XML, no errors. GraphQL indexed overview not active endpoint proof.",
+      "latest_checked_utc": "2026-10-18T18:57:57.558548+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
