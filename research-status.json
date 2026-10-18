@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T20:06:10.927272+00:00",
+  "published_at": "2026-10-18T20:08:13.907295+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T20:05:36.630705+00:00",
+  "research_updated_at": "2026-10-18T20:07:39.122355+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Probesheld; SPARC APIs/costs/terms reviewed; SusDat RESTdocumented/sourcegrantgap.",
+  "latest_milestone": "CARLA CC0 and keyedOpenAPI verified; C-BIGcontrolledscope and WDBextra restrictions retained.",
   "counts": {
-    "verified": 451,
+    "verified": 452,
     "candidates": 1332,
-    "excluded": 386,
+    "excluded": 388,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -7770,6 +7770,24 @@
       "license_url": "https://open.canada.ca/data/en/dataset/3b7dd693-52dc-4e55-828f-37c8172f009b | https://open.canada.ca/en/open-government-licence-canada",
       "api_verification_state": "Nativeownerexplorer/sourcecatalogues/licence200HTML; originalownerlinkedArcGISlayer0/service200validJSON, minimalreturnCountOnlyquery200JSONcount7715, noerror. No features/geometries/sourcefiles fetched.",
       "latest_checked_utc": "2026-10-18T03:21:14.917577+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "carla-conservatory-archive",
+      "provider": "Hochschule für Musik und Theater Leipzig",
+      "service_name": "CARLA archive data API",
+      "geographic_coverage": "Leipzig Conservatory historical archive1843-1918; source geography varies",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Historical conservatory archive descriptions, persons/attendance/classes and related records; only schema inspected",
+      "documentation_url": "https://carla.hmt-leipzig.de/api/docs/ | https://carla.hmt-leipzig.de/content/nutzungshinweise/api",
+      "api_base_url": "https://carla.hmt-leipzig.de/api/v1",
+      "format_protocol": "REST JSON; embedded OpenAPI3.0.0document verified",
+      "authentication": "OpenAPI declares api_key security/tryton:read on model/read operations; key required per schema, no key/account used. Anonymousdocsavailable.",
+      "free_access_restrictions": "InstitutionexplicitCC0data grant; keyprovisioning/anonymousruntime/free-tier/ratesunknown",
+      "license": "CC0 1.0 Universal data; softwareGPL3 separate",
+      "license_url": "https://www.hmt-leipzig.de/news-events/9-newsletter-datenbank-carla-der-hmt-leipzig",
+      "api_verification_state": "Native root/APIguideHTTP200JavaScriptshells notAPIsuccess. NativeSwaggerUIHTTP200directlylinksinitJSwithvalidembeddedOpenAPI3.0.0(titlecarla-api version0.0.1),server/api/v1,20paths. No runtime source/query or key endpoint invoked.",
+      "latest_checked_utc": "2026-10-18T20:07:33.981473+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -43417,6 +43435,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "neuro-cbig-repository",
+      "provider": "The Neuro / McGill University",
+      "service_name": "C-BIG Neuro Open Biobank data portal",
+      "geographic_coverage": "Canada neuroscience biobank; research access internationally",
+      "topical_coverage": "health | research",
+      "dataset_families": "Biobank resource descriptions, clinical/imaging/genetic/iPSC source families; no participant records queried",
+      "documentation_url": "https://www.mcgill.ca/neuro/research/neuro-open-biobank/about-neuro-open-biobank",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Open portal summaries public; registered tiers require terms, controlled tiers review; exactAPIauthunknown",
+      "free_access_restrictions": "Tier-specific terms/approval; no account/agreement requested or used, costs/quotasunknown",
+      "license": "Controlled biobank data/materials require review/transfer agreement; uniform public metadata grant unknown",
+      "license_url": "https://www.mcgill.ca/neuro/research/neuro-open-biobank/about-neuro-open-biobank",
+      "api_verification_state": "Native root/ownerHTTP200substantive. No exact public readAPI established; LORISsoftwareGPL is not biobank/source grant.",
+      "latest_checked_utc": "2026-10-18T20:07:33.981473+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "new-york-state-open-data",
       "provider": "State of New York / OPEN-NY",
       "service_name": "Open NY Socrata metadata and advertised data APIs",
@@ -45574,6 +45610,24 @@
       "license_url": "https://www.thewittliffcollections.txstate.edu/research/visit/policies/publication.html",
       "api_verification_state": "native_root_HTTP200_challenge_not_API_success_default_publication_policy_verified_no_backend_bypass",
       "latest_checked_utc": "2026-10-17T20:31:53.492138+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wolfenbuettel-digital-library",
+      "provider": "Herzog August Bibliothek Wolfenbüttel",
+      "service_name": "Wolfenbütteler Digitale Bibliothek metadata interfaces",
+      "geographic_coverage": "Germany cultural library; medieval/early-modern research holdings internationally",
+      "topical_coverage": "culture | research | education",
+      "dataset_families": "Digitised heritage descriptions, bibliographic/structural metadata, editions and project databases; sourcefiles separate",
+      "documentation_url": "https://diglib.hab.de/ | https://www.hab.de/digitale-bibliothek-wdb/",
+      "api_base_url": "http://oai.hab.de/ (original registered OAI endpoint, runtime held)",
+      "format_protocol": "OAI-PMH documented; runtime unverified",
+      "authentication": "OriginalIdentifyfailed/guarddeferred, no credentials used; actualAPIauthunknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC-BY-SA3.0DE stated with additional paid/access-limited/non-scientific use restrictions; metadata reuse separately permitted",
+      "license_url": "https://www.hab.de/wp-content/uploads/2020/05/HAB-Nutzungsbedingungen-fuer-Online-Angebote-1.pdf | https://diglib.hab.de/",
+      "api_verification_state": "Nativeinstitutionalpage/serviceoverview/linkedlegalPDFHTTP200. Original registeredOAIIdentifyfailed/guarddeferred; no XMLsuccess, no alternateHTTPS/host/path retry. Cookie placeholders ininstitutionalpage notsubstantivecontentchallenge.",
+      "latest_checked_utc": "2026-10-18T20:07:33.981473+00:00",
       "classification": "restricted"
     },
     {
