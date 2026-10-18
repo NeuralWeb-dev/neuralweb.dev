@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T19:16:48.369908+00:00",
+  "published_at": "2026-10-18T19:18:51.366117+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T19:14:27.171795+00:00",
+  "research_updated_at": "2026-10-18T19:17:53.307559+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original services reviewed across nine countries; NIE/ARP default NC families scoped restricted; native identity, source terms and held interfaces separated.",
+  "latest_milestone": "Brazil Deposita/Dados rights separated; Argentina/Chile native repository identity and held OAI documented.",
   "counts": {
     "verified": 445,
-    "candidates": 1293,
-    "excluded": 373,
+    "candidates": 1298,
+    "excluded": 374,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -18885,6 +18885,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "dans-archaeology-station",
+      "provider": "DANS",
+      "service_name": "DANS research data service",
+      "geographic_coverage": "Netherlands archaeology; source geography varies",
+      "topical_coverage": "culture | research | geospatial",
+      "dataset_families": "Research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://dans.knaw.nl/en/data-stations/archaeology/ | https://dans.knaw.nl/en/licences/",
+      "api_base_url": "https://archaeology.datastations.nl/oai",
+      "format_protocol": "OAI-PMH registry claim; exact native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; source-specific licenses",
+      "license_url": "https://dans.knaw.nl/en/data-stations/archaeology/ | https://dans.knaw.nl/en/licences/",
+      "api_verification_state": "Native station owner HTTP200; exact original OAI guard-deferred unsent. Previously native DANS licensing evidence reused: different CC/custom/restricted source terms. Metadata harvesting/open access availability not blanket copyright grant. Separate Archaeology station, not merged with SSH/Life/Physical stations.",
+      "latest_checked_utc": "2026-10-18T19:16:49.358102+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "dans-life-sciences-station",
       "provider": "DANS / KNAW / NWO",
       "service_name": "DANS Data Station Life Sciences",
@@ -19242,6 +19260,24 @@
       "license_url": "",
       "api_verification_state": "Original rootHTTP200 title-only DEEMY landing, not substantive public API or license documentation; no successful API response.",
       "latest_checked_utc": "2026-10-18T17:30:45.411520+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "deposita-dados-brazil",
+      "provider": "Ibict",
+      "service_name": "Ibict research data service",
+      "geographic_coverage": "Brazil research; individual source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://deposita.ibict.br/info/repositorypolicy",
+      "api_base_url": "https://depositadados.ibict.br/oai",
+      "format_protocol": "Registry OAI-PMH and where listed REST/SWORD; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://deposita.ibict.br/info/repositorypolicy",
+      "api_verification_state": "Original Deposita Dados root guard-deferred; no OAI alternate. Independent native publication-repository policy HTTP200 explicitly directs research data to separate Deposita Dados. Its publication CC BY-NC-SA/rights clauses not transferred to data service. Registry generic CC not exact current grant. Metadata/source license, anonymous API access terms and runtime unresolved.",
+      "latest_checked_utc": "2026-10-18T19:17:48.406744+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34005,6 +34041,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tudodata-dortmund-repository",
+      "provider": "TU Dortmund University",
+      "service_name": "TU Dortmund University research data service",
+      "geographic_coverage": "Germany institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://fdm.tu-dortmund.de/en/rdm-at-tu-dortmund/technical-support/tudodata/",
+      "api_base_url": "https://data.tu-dortmund.de/oai",
+      "format_protocol": "OAI-PMH registry claim; exact native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown uniform grant; source-specific licenses",
+      "license_url": "https://fdm.tu-dortmund.de/en/rdm-at-tu-dortmund/technical-support/tudodata/",
+      "api_verification_state": "Native root and institutional guide HTTP200; default CC BY4 can be changed after saving dataset; file restrictions possible. Operator nonexclusive metadata/resource preservation/publication rights do not establish blanket public metadata/source license. English deposit translation informational, German controlling terms distinguished; operating-regulation PDF on held repository not requested. Exact original OAI guard-deferred unsent, no alternate.",
+      "latest_checked_utc": "2026-10-18T19:16:49.358102+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tuebingen-fcs",
       "provider": "University of Tübingen / WebLicht",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -34290,6 +34344,24 @@
       "license_url": "https://datosdeinvestigacion.udea.edu.co/",
       "api_verification_state": "native_university_operator_repository_identity_verified_original_home_and_OAI_HTTP200_botchallenge_no_XML_success",
       "latest_checked_utc": "2026-10-17T23:57:18.313191+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "udec-research-data-repository",
+      "provider": "Universidad de Concepción",
+      "service_name": "Universidad de Concepción research data service",
+      "geographic_coverage": "Chile institutional research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://bibliotecas.udec.cl/recursos/repositorios/",
+      "api_base_url": "https://datav.udec.cl/oai",
+      "format_protocol": "Registry OAI-PMH and where listed REST/SWORD; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://bibliotecas.udec.cl/recursos/repositorios/",
+      "api_verification_state": "Native data repository root and independent library repository directory HTTP200 confirm exact institution service. Original OAI guard-deferred unsent. Reuse/distribution description and registry CC0/community norms not uniform effective metadata/source grant; no source/file/license extrapolation. Distinct from thesis/preprint/book repositories.",
+      "latest_checked_utc": "2026-10-18T19:17:48.406744+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -34920,6 +34992,24 @@
       "license_url": "https://repository.ua.aw/pages/terms-of-use/en",
       "api_verification_state": "Root guard-deferred unsent due robots policy or inaccessible robots.txt, no HTML/API runtime. Exact published API unresolved.",
       "latest_checked_utc": "2026-10-18T07:45:12.775660+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "unlp-research-data-repository",
+      "provider": "Universidad Nacional de La Plata",
+      "service_name": "Universidad Nacional de La Plata research data service",
+      "geographic_coverage": "Argentina institutional multidisciplinary research; source geography varies",
+      "topical_coverage": "research | education | astronomy | agriculture | law/civic",
+      "dataset_families": "Multidisciplinary research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://datos.unlp.edu.ar | https://web.datos.sedici.unlp.edu.ar/plan-de-gestion-de-datos/",
+      "api_base_url": "https://datos.unlp.edu.ar/oai",
+      "format_protocol": "Registry OAI-PMH and where listed REST/SWORD; native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://datos.unlp.edu.ar | https://web.datos.sedici.unlp.edu.ar/plan-de-gestion-de-datos/",
+      "api_verification_state": "Native institutional repository root HTTP200, exact OAI guard-deferred unsent. Independent documentation host robots blocked; indexed native DMP/FAIR guidance recommends explicit/nonrestrictive licenses, not a formal current all-metadata/source grant. No alternate host/path/backend after hold, no SEDICI publication license transfer.",
+      "latest_checked_utc": "2026-10-18T19:17:48.406744+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -43022,6 +43112,24 @@
       "license_url": "https://policywise.com/wp-content/uploads/2020/08/2018-04APR-24-Data-Access-Agreement.pdf",
       "api_verification_state": "Independent original owner request guard-deferred target unsent; legal URL deferred unsent after same-host failure. Indexed official dated access terms reviewed. Hosted Borealis metadata API not requested under inherited hold.",
       "latest_checked_utc": "2026-10-18T18:52:05.803029+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "polyu-research-data-repository",
+      "provider": "Hong Kong Polytechnic University",
+      "service_name": "Hong Kong Polytechnic University research data service",
+      "geographic_coverage": "Hong Kong institutional research; source geography varies",
+      "topical_coverage": "research | education | engineering",
+      "dataset_families": "Research dataset descriptions; holdings not enumerated",
+      "documentation_url": "https://researchdata.lib.polyu.edu.hk/logos/tou/tou.html | https://libguides.lb.polyu.edu.hk/prdr/sharedata",
+      "api_base_url": "https://researchdata.lib.polyu.edu.hk/oai",
+      "format_protocol": "OAI-PMH registry claim; exact native runtime unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "CC BY-NC default; custom source terms and metadata rights separate",
+      "license_url": "https://researchdata.lib.polyu.edu.hk/logos/tou/tou.html | https://libguides.lb.polyu.edu.hk/prdr/sharedata",
+      "api_verification_state": "Native root, guide and terms HTTP200; exact original OAI Identify HTTP200 valid protocol XML without error, repository identity only. Default CC BY-NC, changeable to custom/other source terms; restricted classification covers documented default source families, not every custom source. Operator preservation/distribution/DataCite metadata permissions are not blanket third-party metadata reuse grant. Download access entails registration or applicable waiver/custom agreement; no account/agreement or source download.",
+      "latest_checked_utc": "2026-10-18T19:16:49.358102+00:00",
       "classification": "restricted"
     },
     {
