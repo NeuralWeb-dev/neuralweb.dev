@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-18T04:51:04.818321+00:00",
+  "published_at": "2026-10-18T04:53:07.697366+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T04:50:27.024774+00:00",
+  "research_updated_at": "2026-10-18T04:52:58.089065+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
+  "latest_milestone": "Nine originaltasks reviewed; sevennewrows, UCLA/ICPSRdeduplicated. StanfordnativeIIIFmanifestverified; mixedgrants. InterPro43000IDs/215successes, failed216timeoutheld/no worker.",
   "counts": {
     "verified": 354,
     "candidates": 826,
@@ -20,7 +20,20 @@
     "CoscineBearertokenAPI/documentedschemonly;sourceprojectgrantsunconfirmed,nokeys/accounts. HellanicusnativeAtomgeneralpersonal/noncommercialterms,per-itemexceptionsunresolved,nofulltext/harvest. ATTOAPI/grantunestablished,documentationJSshell.",
     "Retainallpriorglobalgeographic/sector/ABES/TERN/VAMDC/BioCASe/PSICQUIC/NIST/EMEP/EUDATsourcequeues. BDLholduntil2026-10-17T18:20:40.045886+00:00thenfreshquota/PID/ledgerchecks."
   ],
-  "external_blocker": null,
+  "external_blocker": {
+    "source": "InterPro own-entry metadata",
+    "status": "source_frontier_held",
+    "failed_page": 216,
+    "error": "The read operation timed out",
+    "last_successful_page": 215,
+    "unique_identifiers": 43000,
+    "remaining_reported": 11922,
+    "active_worker": false,
+    "state_file": "interpro-entry-enumeration-state.json",
+    "failed_evidence": "evidence/interpro-entry-page-216-discovery-catalog-0611e11682e2.body",
+    "global_impasse": false,
+    "next_action": "Keep InterPro page216/nativecursor HELD afterreadtimeout.215successfulpages/43000uniqueIDs/0duplicates,54922reported;11922reportedentries unsearched. No automaticretry/statusreset/alternatehost/backend/query or completed-page replay. Other providerqueues remain available; no globalimpasse."
+  },
   "coverage": {
     "Global/international": {
       "demographics": {
@@ -151,6 +164,7 @@
           "wdcc-climate-metadata"
         ],
         "candidate_provider_ids": [
+          "amphibiaweb-species-portal",
           "argo-gdac-data-interfaces",
           "auscope-earthbank",
           "china-national-earth-observation-center",
@@ -405,6 +419,7 @@
           "mpi-the-language-archive",
           "olac-language-archives-network",
           "open-data-lmu",
+          "stanford-sdr-purl-iiif",
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections"
         ],
@@ -515,6 +530,7 @@
           "sesar-sample-metadata-api",
           "shom-data",
           "sioexplorer-legacy-cruise-archive",
+          "stanford-sdr-purl-iiif",
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections",
           "usgs-sciencebase-catalogue",
@@ -597,6 +613,7 @@
           "uniprot"
         ],
         "candidate_provider_ids": [
+          "amphibiaweb-species-portal",
           "biostudies",
           "checklistbank",
           "cifor-icraf",
@@ -775,6 +792,7 @@
           "rijksmuseum",
           "sioexplorer-legacy-cruise-archive",
           "smithsonian",
+          "stanford-sdr-purl-iiif",
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections",
           "usno-astronomical-applications-api",
@@ -880,6 +898,7 @@
         "candidate_provider_ids": [
           "aiddata-development-data",
           "amda-space-plasma-rest",
+          "amphibiaweb-species-portal",
           "argo-gdac-data-interfaces",
           "arizona-campus-repository",
           "artic",
@@ -977,6 +996,7 @@
           "sesar-sample-metadata-api",
           "sioexplorer-legacy-cruise-archive",
           "smithsonian",
+          "stanford-sdr-purl-iiif",
           "tritrypdb",
           "trove-cultural-discovery-api",
           "ubc-circle-open-collections",
@@ -1295,6 +1315,7 @@
         ],
         "candidate_provider_ids": [
           "ahrq-hcupnet-aggregate-statistics",
+          "bcgsc-open-release-data",
           "california-open-data",
           "cdc-ables-surveillance",
           "connect211-hsda",
@@ -1583,6 +1604,7 @@
         ],
         "candidate_provider_ids": [
           "bc-conservation-data-centre",
+          "bcgsc-open-release-data",
           "canadensys",
           "cerp-sfwmd",
           "edi",
@@ -1693,6 +1715,7 @@
           "artic",
           "barrow-area-information-database",
           "bc-conservation-data-centre",
+          "bcgsc-open-release-data",
           "canada-naps-data-portal",
           "cdc-ables-surveillance",
           "cerp-sfwmd",
@@ -2093,6 +2116,8 @@
           "cambridgeshire-insight",
           "cessda-catalogue",
           "cis-spain-survey-data-bank",
+          "edina-research-service-portal",
+          "german-cancer-registry-data-centre",
           "human-mortality-database",
           "insee",
           "latvia-statistics",
@@ -2251,6 +2276,7 @@
           "aland-statistics",
           "austria-invekos-ogc",
           "bonares-soil-agricultural-repository",
+          "edina-research-service-portal",
           "galicia-abertos-catalog",
           "lithuania-statistics",
           "nasc-plant-stock-webservices",
@@ -2495,6 +2521,7 @@
           "cessda-catalogue",
           "clinicalcodes-repository",
           "drks-german-clinical-trials-register",
+          "german-cancer-registry-data-centre",
           "human-mortality-database",
           "latvia-statistics",
           "lithuania-statistics",
@@ -2588,6 +2615,7 @@
           "cocoon-fcs",
           "cotedazur-recherche-data-gouv-collection",
           "czech-national-corpus-fcs",
+          "edina-research-service-portal",
           "estonia-datadoi",
           "galicia-abertos-catalog",
           "glasgow-enlighten-research-data",
@@ -2782,6 +2810,7 @@
           "ea-public-registers-for-environmental-information",
           "ea-water-quality",
           "earthprints-geoscience-repository-api",
+          "edina-research-service-portal",
           "eurolas-data-center-api",
           "gdi-de-geodatenkatalog",
           "ioerdata-spatial-research-portal",
@@ -3050,6 +3079,7 @@
           "crc806-legacy-research-database",
           "czech-national-corpus-fcs",
           "diba-open-data-api",
+          "edina-research-service-portal",
           "european-history-online",
           "france-culture-open-data-portal",
           "galicia-abertos-catalog",
@@ -3190,6 +3220,7 @@
           "czech-national-corpus-fcs",
           "drks-german-clinical-trials-register",
           "earthprints-geoscience-repository-api",
+          "edina-research-service-portal",
           "esgf-dkrz-discovery",
           "esgf-ipsl-discovery",
           "esgf-liu-discovery",
@@ -3197,6 +3228,7 @@
           "eurolas-data-center-api",
           "european-history-online",
           "france-culture-open-data-portal",
+          "german-cancer-registry-data-centre",
           "glasgow-enlighten-research-data",
           "gotriple",
           "granada-university-open-data",
@@ -4656,7 +4688,8 @@
           "victoria-datavic"
         ],
         "restricted_provider_ids": [
-          "hilda-australia-household-survey"
+          "hilda-australia-household-survey",
+          "paradisec-language-archive"
         ]
       },
       "housing": {
@@ -4853,7 +4886,8 @@
         "restricted_provider_ids": [
           "australian-national-corpus-restricted",
           "digitalnz",
-          "lris-landcare-data-services"
+          "lris-landcare-data-services",
+          "paradisec-language-archive"
         ]
       },
       "research": {
@@ -4901,6 +4935,7 @@
           "indepth-ishare-data-repository",
           "lris-landcare-data-services",
           "national-vegetation-survey-nz",
+          "paradisec-language-archive",
           "rda-australia",
           "spc-pccos-thredds",
           "state-of-the-salmon-resources",
@@ -8417,8 +8452,8 @@
       "free_access_restrictions": "InterPro/Pfam/PRINTS/SFLD downloadable data explicitly CC0; other signature/scanning collections may have different terms. No paid acquisition",
       "license": "CC0 1.0 Universal Public Domain Dedication",
       "license_url": "https://interpro-documentation.readthedocs.io/en/latest/license.html",
-      "api_verification_state": "Official specific licence/API guides HTTP200 and anonymous native entry sample HTTP200 validJSON with one result and cursor",
-      "latest_checked_utc": "2026-10-18T04:43:21.810839+00:00",
+      "api_verification_state": "Prior nativeownInterProdescriptorAPI success retained; thiscontinuation added22successfulpages thenpage216readtimeout. Timeoutnotabsence; failedfrontier held.",
+      "latest_checked_utc": "2026-10-18T04:51:30.949302+00:00",
       "classification": "open_license_verified"
     },
     {
