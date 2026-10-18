@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T03:51:41.448973+00:00",
+  "published_at": "2026-10-18T03:53:44.259920+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T03:49:33.577703+00:00",
+  "research_updated_at": "2026-10-18T03:53:37.680725+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "InterPro own-entry catalogue checkpoint; unrelated member grants not transferred",
+  "latest_milestone": "RepOD metadata/compilationCC0 and nativehostedAPIguides verified with runtimeheld; IPUMSmicrodata and BioDataCatalyst source/access restrictions documented.",
   "counts": {
-    "verified": 350,
+    "verified": 351,
     "candidates": 786,
-    "excluded": 222,
+    "excluded": 224,
     "sample_successes": 467
   },
   "remaining_work": [
@@ -10201,6 +10201,24 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "api_verification_state": "prior_documented_sample_success_current_query_policy_held_target_unsent",
       "latest_checked_utc": "2026-10-17T14:44:43.084593+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "repod-metadata-api",
+      "provider": "ICM University of Warsaw",
+      "service_name": "RepOD research metadata catalogue / Dataverse APIs",
+      "geographic_coverage": "Polish/international institutional research; per-source scope varies",
+      "topical_coverage": "research | climate/weather/environment | education | health",
+      "dataset_families": "Multidisciplinary research dataset/collection metadata and compilation rights; file-content licences separate",
+      "documentation_url": "https://repod.icm.edu.pl/guides/en/1.3.2/api/index.html",
+      "api_base_url": "https://repod.icm.edu.pl/api/ (documented Dataverse interface family; runtime untested) | https://repod.icm.edu.pl/oai (registry OAI pointer, held)",
+      "format_protocol": "Owner-linked locally hosted Dataverse REST/native/search/API guides; OAI-PMH claimed by registry, no OAIXMLverified",
+      "authentication": "Public native catalogue and guides accessible; public metadataAPI examples documented; private/file permissions separate, no credential used",
+      "free_access_restrictions": "Owner legal guide explicitly requires all metadata and compilation rights CC0; individual file-content licences/access vary, including closed/multiple/restrictive sources",
+      "license": "CC0 1.0 for metadata and rights in dataset compilation; file-content licences not uniformly cleared",
+      "license_url": "https://info.repod.icm.edu.pl/?lang=en&page_id=77",
+      "api_verification_state": "Native root,user/API guides and independent ownerCC0legal guide HTTP200; original OAIIdentify and native terms pointer guard-deferred unsent, no successful queryAPI response",
+      "latest_checked_utc": "2026-10-18T03:53:32.885862+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -27758,6 +27776,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "ipums-microdata-extract-api",
+      "provider": "IPUMS / University of Minnesota",
+      "service_name": "IPUMS microdata collections Extract API",
+      "geographic_coverage": "United States and international census, health and time-use survey collections; individual approved collection coverage differs",
+      "topical_coverage": "demographics | labor | health | education | research",
+      "dataset_families": "API-supported microdata extracts: USA,CPS,International,DHS,ATUS,AHTUS,MTUS,MEPS,NHIS; NHGIS tables/spatial service separately catalogued and IHGIS separate pending lead",
+      "documentation_url": "https://developer.ipums.org/docs/v2/get-started/",
+      "api_base_url": "https://api.ipums.org/ (collection-specific extract API; versioned documentation)",
+      "format_protocol": "REST JSON GET/POST and asynchronous extract workflow documented",
+      "authentication": "IPUMS account, valid collection registration and APIkey everyrequest; DHS needs separately approved DHS account; no key obtained",
+      "free_access_restrictions": "Registered collection-specific annual user agreement. USA/CPS redistribution permission required except journal-subset exception; International scholarly/educational use/no redistribution/no commercial; other collections have own terms",
+      "license": "IPUMS collection-specific user agreements and redistribution/use restrictions",
+      "license_url": "https://www.ipums.org/about/terms",
+      "api_verification_state": "Native current v2get-started and collection-functionality docs HTTP200; v2root redirects byHTML. Allrequests needkey, runtime untested",
+      "latest_checked_utc": "2026-10-18T03:53:32.885862+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "ipums-nhgis-api",
       "provider": "IPUMS / University of Minnesota",
       "service_name": "National Historical Geographic Information System API",
@@ -28403,6 +28439,24 @@
       "license_url": "https://data.ny.gov/api/views/77gx-ii52/files/ef0c1840-ad54-4240-92fd-6397c49fde46?filename=OPEN-NY_20Terms_20of_20Use.pdf",
       "api_verification_state": "actual_public_JSON_sample_success_legalasset_metadata_full_restricted_terms_read",
       "latest_checked_utc": "2026-10-17T11:05:18.891873+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "nhlbi-biodata-catalyst",
+      "provider": "NIH National Heart Lung and Blood Institute",
+      "service_name": "BioData Catalyst controlled research ecosystem",
+      "geographic_coverage": "Heart/lung/blood/sleep and related research cohorts; exact sourcecoverage unverified",
+      "topical_coverage": "health | research",
+      "dataset_families": "Longitudinal/clinical/phenotypic/genomic/omics/imaging/sleep research resources; approved-source access separate from public discovery",
+      "documentation_url": "https://biodatacatalyst.nhlbi.nih.gov/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native public root says eRACommons and approveddatasets or dbGaPaccessrequest; no login/accessrequested",
+      "free_access_restrictions": "Controlled source access and secure cloudworkspace workflows; cloudcost/creditavailability advertised, no paid compute/data or account initiated",
+      "license": "No blanket open source-data grant verified; approved dataset consent/data-use conditions unresolved",
+      "license_url": "https://biodatacatalyst.nhlbi.nih.gov/help/terms",
+      "api_verification_state": "Native root and attempted terms routes HTTP200homepage content, not successful API/policy response; no exact unrestricted query API verified",
+      "latest_checked_utc": "2026-10-18T03:53:32.885862+00:00",
       "classification": "restricted"
     },
     {
