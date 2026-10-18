@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T14:53:45.792302+00:00",
+  "published_at": "2026-10-18T14:55:48.726674+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T14:50:47.661445+00:00",
+  "research_updated_at": "2026-10-18T14:54:32.412805+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Six originals: GRO ownerAPI/priorhosthold; MOSDAC native productredistributionrestricted; DANSphysical/Arca/Redape/CESA OAIguards andnativeindependentidentity/rightsuncertainty; MDZ678000 incomplete.",
+  "latest_milestone": "LeoPARD independent owner/OAI hold; Wyoming indexed policy/OAI hold; KEGG native academic-only API restricted; MDZ692000 incomplete.",
   "counts": {
     "verified": 429,
-    "candidates": 1093,
-    "excluded": 326,
+    "candidates": 1095,
+    "excluded": 327,
     "sample_successes": 464
   },
   "remaining_work": [
@@ -22554,6 +22554,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "leopard-tu-braunschweig",
+      "provider": "TU Braunschweig / University Library",
+      "service_name": "LeoPARD publications and research data repository",
+      "geographic_coverage": "German institutional repository; dataset geography varies",
+      "topical_coverage": "research | culture | education",
+      "dataset_families": "Institutional publications, research data and digitized special collections",
+      "documentation_url": "https://www.tu-braunschweig.de/forschung/forschungsdaten-transparenz/forschungsdaten/fdm-services/publikationsserver",
+      "api_base_url": "https://leopard.tu-braunschweig.de/servlets/OAIDataProvider (registry claim)",
+      "format_protocol": "OAI-PMH registry claim; native response/schema unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown verified metadata-wide/data-wide grant; per-item rights unresolved",
+      "license_url": "https://www.tu-braunschweig.de/forschung/forschungsdaten-transparenz/forschungsdaten/fdm-services/publikationsserver",
+      "api_verification_state": "Original OAI Identify guard-deferred unsent; original root then unsent. Independent native institution documentation200HTML. No API response/schema.",
+      "latest_checked_utc": "2026-10-18T14:53:41.536852+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "lexington-data-hub",
       "provider": "Lexington-Fayette Urban County Government",
       "service_name": "Lexington Data Hub OGC catalog",
@@ -23071,8 +23089,8 @@
       "free_access_restrictions": "Presentation API documented unrestricted access; daily Image/OCR request counts limited with exact quota unspecified. Object rights may exclude commercial use.",
       "license": "Mixed per-object rights; exact IIIF metadata/image grant not uniformly verified",
       "license_url": "https://www.digitale-sammlungen.de/de/schnittstellen",
-      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across678successfulpages/678000unique refs. Not sourcefiles/images/OCR or licenceverification.",
-      "latest_checked_utc": "2026-10-18T14:46:47.384539+00:00",
+      "api_verification_state": "Nativecollectionmetadata HTTP200validJSON-LD across692successfulpages/692000unique refs. Not sourcefiles/images/OCR or licenceverification.",
+      "latest_checked_utc": "2026-10-18T14:53:50.615711+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33372,6 +33390,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "wyoming-data-repository",
+      "provider": "University of Wyoming Libraries / ARCC",
+      "service_name": "Wyoming Data Repository",
+      "geographic_coverage": "Wyoming institutional research; actual dataset geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Multidisciplinary research datasets, versions and descriptive metadata",
+      "documentation_url": "https://www.uwyo.edu/libraries/about/policies/digital/data-repository.html",
+      "api_base_url": "https://dataverse.arcc.uwyo.edu/oai (registry claim)",
+      "format_protocol": "Registry OAI-PMH/Dataverse REST claims; deployed contracts unverified",
+      "authentication": "No credential used; native anonymous OAI untested",
+      "free_access_restrictions": "Indexed policy free public metadata and normally open files; up to24month embargo. Publishing/storage fees are distinct from read access.",
+      "license": "Unknown blanket metadata license; per-item rights/end-user conditions",
+      "license_url": "https://www.uwyo.edu/libraries/about/policies/digital/data-repository.html",
+      "api_verification_state": "Native institution policy and original OAI guard-deferred unsent; independently indexed official policy reviewed, not successful API/runtime test.",
+      "latest_checked_utc": "2026-10-18T14:53:41.536852+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "yoda-utrecht",
       "provider": "Utrecht University Yoda",
       "service_name": "Utrecht University Yoda API",
@@ -36629,6 +36665,24 @@
       "license_url": "https://kcdc.iap.kit.edu/lawnorder/",
       "api_verification_state": "published_native_Swagger_schema_verified_account_required_data_sample_untested",
       "latest_checked_utc": "2026-10-17T19:09:04.012539+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "kegg-rest-api",
+      "provider": "Kanehisa Laboratories",
+      "service_name": "KEGG REST API",
+      "geographic_coverage": "International biological reference databases; coverage varies by database",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Pathways, functional hierarchies, genes/genomes, compounds, drugs and diseases",
+      "documentation_url": "https://www.kegg.jp/kegg/rest/",
+      "api_base_url": "https://rest.kegg.jp",
+      "format_protocol": "Documented REST; record/list formats and selected JSON/RDF options, no native payload tested",
+      "authentication": "Public academic API documented; no credentials used or runtime access tested",
+      "free_access_restrictions": "Academic use by academic users only; academic service providers need license; non-academic use requires commercial license",
+      "license": "Copyright KEGG; academic-only API, non-academic commercial license required",
+      "license_url": "https://www.kegg.jp/kegg/legal.html | https://www.kegg.jp/kegg/rest/",
+      "api_verification_state": "Native API documentation and copyright/legal both200HTML. Documented API exists; no successful API payload/schema test.",
+      "latest_checked_utc": "2026-10-18T14:53:41.536852+00:00",
       "classification": "restricted"
     },
     {
