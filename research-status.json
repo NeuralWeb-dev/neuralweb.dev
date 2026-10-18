@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-18T01:01:51.837673+00:00",
+  "published_at": "2026-10-18T01:03:54.341348+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T01:00:48.437715+00:00",
+  "research_updated_at": "2026-10-18T01:03:43.677059+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "DataverseUA publishedmetadataCC0/OAI verified with79headers; DTUmetadata policy verified butAPIheld; ISRICmixedsourcepolicy/hold retained.",
+  "latest_milestone": "AADCdeduplicatedtothreeexistingAPIs; MyRiceBasecandidate andWDCGGconditional-use restrictedrecordadded; no sourcefiles orcredentials.",
   "counts": {
     "verified": 327,
-    "candidates": 698,
-    "excluded": 180,
+    "candidates": 702,
+    "excluded": 182,
     "sample_successes": 469
   },
   "remaining_work": [
@@ -10849,7 +10849,7 @@
       "license": "Current API-specific reuse grant unconfirmed. Official indexed conditions claim default CC BY4 scientific data but original full conditions target policy-held.",
       "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
       "api_verification_state": "actual_public_place_record_sample_success_data_grant_unconfirmed",
-      "latest_checked_utc": "2026-10-17T04:25:33.881621+00:00",
+      "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10867,7 +10867,7 @@
       "license": "Current API-specific reuse grant unconfirmed. Official indexed conditions claim default CC BY4 scientific data but original full conditions target policy-held.",
       "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
       "api_verification_state": "actual_public_metadata_sample_success_native_traversal_timeout_deferred_licensing_unconfirmed",
-      "latest_checked_utc": "2026-10-17T04:45:31.663481+00:00",
+      "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -10885,7 +10885,7 @@
       "license": "Current API-specific reuse grant unconfirmed. Official indexed conditions claim default CC BY4 scientific data but original full conditions target policy-held.",
       "license_url": "https://data.aad.gov.au/docs/conditions-of-use",
       "api_verification_state": "actual_current_station_observation_sample_success_data_grant_unconfirmed",
-      "latest_checked_utc": "2026-10-17T04:29:30.195538+00:00",
+      "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -14183,6 +14183,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "gawsis-station-metadata",
+      "provider": "MeteoSwiss / WMO Global Atmosphere Watch",
+      "service_name": "GAWSIS atmospheric station metadata discovery",
+      "geographic_coverage": "Global Atmosphere Watch station/platform metadata; not observation data inventory",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Atmospheric monitoring station descriptions and links to observing-system metadata",
+      "documentation_url": "https://gawsis.meteoswiss.ch/GAWSIS//index.html#/",
+      "api_base_url": "",
+      "format_protocol": "RegistryOAI claim; current nativecapability unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://wmo.int/copyright",
+      "api_verification_state": "OriginalGAWSISrootguard-deferred; independentWMO generalpolicyHTTP200, noAPIresponse",
+      "latest_checked_utc": "2026-10-18T01:02:24.242110+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "gbif-japan",
       "provider": "Japan Biodiversity Information Facility JBIF",
       "service_name": "Japan Biodiversity Information Facility JBIF API",
@@ -14792,6 +14810,24 @@
       "license_url": "https://hri.fi/en_gb/ohjeet/avoimen-datan-lisenssit/",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-17T09:36:28.939183+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "hidrografico-plus-catalogue",
+      "provider": "Instituto Hidrográfico Portugal",
+      "service_name": "Hidrográfico+ metadata catalogue and marine-data discovery",
+      "geographic_coverage": "Portuguese marine waters and institution-specific international marine products; collection extent varies",
+      "topical_coverage": "oceans | water | geospatial | transportation | research",
+      "dataset_families": "Marine/geospatial metadata, navigation, buoy networks and associated observation/forecast service references",
+      "documentation_url": "https://metadata.hidrografico.pt/",
+      "api_base_url": "https://metadata.hidrografico.pt/geonetwork/ | https://api-features.hidrografico.pt/ | https://ogcapi.hidrografico.pt/",
+      "format_protocol": "DocumentedGeoNetwork REST/OpenAPI and OGCFeatures/EDR; runtimes unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://faq.hidrografico.pt/books/hidrografico/page/termos-de-utilizacao-da-hidrografico",
+      "api_verification_state": "Native catalogueHTML/ownerFAQ termsHTTP200. FeaturesOpenAPI requestguard-deferred; no alternate API sample",
+      "latest_checked_utc": "2026-10-18T01:02:24.242110+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -16703,6 +16739,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "myricebase",
+      "provider": "Malaysian Agricultural Research and Development Institute / MyRiceBase",
+      "service_name": "MyRiceBase rice genomics research portal",
+      "geographic_coverage": "Rice varieties/research panels; exact origins and observation geography vary",
+      "topical_coverage": "agriculture | biodiversity | research",
+      "dataset_families": "Rice quality-trait SNPs, genes, expression, proteomics and biological networks",
+      "documentation_url": "http://myricebase.mardi.gov.my/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown data reuse grant; website footer all rights reserved",
+      "license_url": "http://myricebase.mardi.gov.my/",
+      "api_verification_state": "Native homepageHTTP200 HTML; no explicit documented public machine query API verified",
+      "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "nadp-monitoring-data",
       "provider": "National Atmospheric Deposition Program / Wisconsin State Laboratory of Hygiene",
       "service_name": "NADP monitoring data portal",
@@ -17060,6 +17114,24 @@
       "license_url": "",
       "api_verification_state": "current_official_catalog_link_verified_API_and_rights_unresolved_root_policy_held",
       "latest_checked_utc": "2026-10-17T10:36:02.031795+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nif-neuroscience-discovery",
+      "provider": "Neuroscience Information Framework / SciCrunch",
+      "service_name": "NIF neuroscience resource discovery",
+      "geographic_coverage": "International neuroscience/biomedical research-resource discovery; source-dependent data coverage",
+      "topical_coverage": "health | research",
+      "dataset_families": "Scientific resource and neuroscience repository descriptions; underlying providers separately licensed",
+      "documentation_url": "https://neuinfo.org/about/devsupport",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://neuinfo.org/links/terms",
+      "api_verification_state": "Originalrootguard-deferred; currentAPI availability/grant not established by retrievednative docs",
+      "latest_checked_utc": "2026-10-18T01:02:24.242110+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -24931,6 +25003,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "hidrografico-buoy-edr",
+      "provider": "Instituto Hidrográfico Portugal",
+      "service_name": "Hidrográfico Datawell buoy NRT time-series OGC EDR",
+      "geographic_coverage": "Portuguese Datawell Waverider network; station-specific coverage",
+      "topical_coverage": "oceans | climate/weather/environment | water | research",
+      "dataset_families": "Near-real-time wave/SST observations,30-minute resolution androlling15-day window as documented",
+      "documentation_url": "https://faq.hidrografico.pt/books/hidrografico/page/ogc-api-edr-rede-de-boias-datawell-waverider-observacoes",
+      "api_base_url": "https://ogcapi.hidrografico.pt/collections/buoys_datawell",
+      "format_protocol": "OGC API EDR/Features; CoverageJSON timeseries/GeoJSONnetwork documented",
+      "authentication": "Nativeguide says exact authentication/access conditions; no account used, runtime untested",
+      "free_access_restrictions": "Time-series areCCBYNC4; buoynetworkCCBY4 separate; no blanketclosedclassificationofallIHdata",
+      "license": "CC BY-NC4.0 for buoy time-series",
+      "license_url": "https://faq.hidrografico.pt/books/hidrografico/page/ogc-api-edr-rede-de-boias-datawell-waverider-observacoes",
+      "api_verification_state": "Nativeownerguide/rightsHTTP200, documentedEDRroutes; source requestuntested",
+      "latest_checked_utc": "2026-10-18T01:02:24.242110+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "hilda-australia-household-survey",
       "provider": "Melbourne Institute / Australian Department of Social Services",
       "service_name": "HILDA longitudinal household survey research access",
@@ -26494,6 +26584,24 @@
       "license_url": "https://wascal-dataportal.org/sites/default/files/WASCAL-Data-Sharing_Policy_and_Guideline_V2.0_2021.pdf",
       "api_verification_state": "current_catalog_metadata_sample_success_mixed_restricted_policy",
       "latest_checked_utc": "2026-10-17T01:30:21.350273+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "wdcgg-greenhouse-gases",
+      "provider": "Japan Meteorological Agency / WMO World Data Centre for Greenhouse Gases",
+      "service_name": "WDCGG greenhouse gas archive and GAW-policy data access",
+      "geographic_coverage": "Global atmosphere greenhouse/related gas monitoring; contributor/sourcecoverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Greenhousegas/relatedgas observations and station/source metadata; individual/yearlyfixed products",
+      "documentation_url": "https://gaw.kishou.go.jp/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Nativeoperator says some downloadsanonymous sinceJanuary2025, othersrequireaccount; noneused",
+      "free_access_restrictions": "GAWpolicy scientificusageconditions, substantial-use personalcoauthorshipoffer andacknowledgement; exactsource-specificterms maydiffer",
+      "license": "GAW data-use policy with co-authorship-offer condition for substantial scientific use; not a blanketopenlicence",
+      "license_url": "https://gaw.kishou.go.jp/policy/gaw",
+      "api_verification_state": "Nativecurrentprogramme/policyHTTP200; no documentedpublicqueryAPI/sample verified",
+      "latest_checked_utc": "2026-10-18T01:03:39.546819+00:00",
       "classification": "restricted"
     },
     {
