@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-19T01:57:47.220935+00:00",
+  "published_at": "2026-10-19T01:59:50.295953+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:53:50.112696+00:00",
+  "research_updated_at": "2026-10-19T01:59:25.564745+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "APPLAUSE native CC0 and anonymous OAI/VO/TAP capabilities verified; Ulster site restrictions retained; UVaDOC original held and public-domain registry inference rejected.",
+  "latest_milestone": "Swiss policy URL deduplicated; no source rights, API status or classification change.",
   "counts": {
-    "verified": 509,
-    "candidates": 1503,
+    "verified": 510,
+    "candidates": 1504,
     "excluded": 450,
     "sample_successes": 463
   },
@@ -12508,6 +12508,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "m3g-gnss-metadata-api",
+      "provider": "Royal Observatory of Belgium",
+      "service_name": "M3G GNSS metadata API",
+      "geographic_coverage": "Multiple GNSS networks and international station metadata; actual station coverage varies",
+      "topical_coverage": "geospatial | research",
+      "dataset_families": "GNSS station, equipment, network, organization and site-log metadata; license-type reference descriptions; no station/source coordinates or measurements queried",
+      "documentation_url": "https://gnss-metadata.eu/site/api-docs/ | https://gnss-metadata.eu/site/api-docs/swagger/swagger.yaml",
+      "api_base_url": "https://gnss-metadata.eu/v14 | https://gnss-metadata.eu/v1",
+      "format_protocol": "OpenAPI 3.0.0 YAML; REST JSON with documented XML/YAML alternatives",
+      "authentication": "Anonymous schema and one license-category JSON GET succeeded; other operations and bearer authorization untested",
+      "free_access_restrictions": "M3G metadata CC BY 4.0; upstream RINEX measurement licenses are separate per-source metadata, not automatically CC BY 4.0",
+      "license": "CC BY 4.0 for M3G metadata; underlying GNSS/RINEX source licenses separate",
+      "license_url": "https://gnss-metadata.eu/",
+      "api_verification_state": "Native root, Swagger UI and published initializer returned 200. Exact initializer-published schema returned parseable OpenAPI 3.0.0 YAML with 40 paths/operations and v1/v14 servers. Anonymous v14 licensedescription request returned 200 valid JSON list of exactly one reference category. No station/site-log/coordinate/measurement API query.",
+      "latest_checked_utc": "2026-10-19T01:58:35.854359+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "madata-mannheim-metadata",
       "provider": "University of Mannheim Library",
       "service_name": "MADATA research data repository metadata OAI",
@@ -15366,7 +15384,7 @@
       "license": "Resource-specific Swiss open-use terms; tested resource CC0 rights URI",
       "license_url": "https://opendata.swiss/en/terms-of-use",
       "api_verification_state": "documented_sample_success;historical_success_preserved_latest_original_sample_policy_held",
-      "latest_checked_utc": "2026-10-17T07:18:41.902320+00:00",
+      "latest_checked_utc": "2026-10-19T01:59:20.799928+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -29157,6 +29175,24 @@
       "license_url": "https://www.luis.uni-hannover.de/en/services/storage-systems/research-data/legal",
       "api_verification_state": "Native root/legal200HTML; exact status_show guard-deferred unsent, not JSON/sample success",
       "latest_checked_utc": "2026-10-18T12:23:51.901975+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lund-dataguru",
+      "provider": "Lund University / DataGURU",
+      "service_name": "DataGURU environmental and climate data service",
+      "geographic_coverage": "Global and regional environmental/climate model inputs, including regional projections; actual source coverage varies",
+      "topical_coverage": "climate/weather/environment | research",
+      "dataset_families": "Environmental/climate data acquisition, regridding and conversion; LPJ-GUESS model inputs; source catalog descriptions include NCEP, ERA5-Land and land-use/model products",
+      "documentation_url": "https://dataguru.lu.se/",
+      "api_base_url": "",
+      "format_protocol": "Web query and conversion application; registry NetCDF reference points to /app, not a verified query API",
+      "authentication": "Native root says login is needed to obtain data; email magic-link or Google sign-in described. No login, email request, account or consent.",
+      "free_access_restrictions": "Public/shared data advertised; login and query/job workflow described. Exact free-tier limits, source restrictions and API access unknown.",
+      "license": "unknown verified data grant",
+      "license_url": "https://dataguru.lu.se/tos",
+      "api_verification_state": "Native root and terms returned 200 HTML. Exact public machine API/schema not established; no app/backend reverse engineering, query or generated-data job requested.",
+      "latest_checked_utc": "2026-10-19T01:58:35.854359+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
