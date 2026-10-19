@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:51:38.007683+00:00",
+  "published_at": "2026-10-19T01:53:41.287585+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:45:37.002266+00:00",
+  "research_updated_at": "2026-10-19T01:52:37.871871+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Penn State mixed-source license assertion linked to official indexed source metadata evidence.",
+  "latest_milestone": "KRISHI held; Lund source access restricted with public CMDI metadata; Waterloo native DCAT capped and 301 complete entries indexed, current license/version and source exceptions retained.",
   "counts": {
     "verified": 508,
-    "candidates": 1500,
-    "excluded": 448,
+    "candidates": 1502,
+    "excluded": 449,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -25974,6 +25974,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "icar-krishi-hub",
+      "provider": "Indian Council of Agricultural Research",
+      "service_name": "KRISHI agricultural research resources hub",
+      "geographic_coverage": "Indian agricultural research discovery intended; actual source geography unverified",
+      "topical_coverage": "agriculture | research",
+      "dataset_families": "Agricultural research resources discovery; current source families not verified",
+      "documentation_url": "https://krishi.icar.gov.in/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://krishi.icar.gov.in/PDF/ICAR_Data_Use_Licence.pdf",
+      "api_verification_state": "Original native root robots/access-deferred before transmission. Registered legal PDF not sent after host failure. Exact public machine query API/schema not established; no alternate backend, host or format used.",
+      "latest_checked_utc": "2026-10-19T01:52:33.048431+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "icdc-climate-thredds",
       "provider": "Integrated Climate Data Center / University of Hamburg",
       "service_name": "ICDC THREDDS public catalogue and documented OPeNDAP services",
@@ -35457,6 +35475,24 @@
       "license_url": "https://library.uregina.ca/research/dataverse | https://library.uregina.ca/ld.php?content_id=38070826",
       "api_verification_state": "Native independent institutional guide HTTP200 substantive HTML; not API payload. Shared Borealis root/API/search holds retained; no hosted collection/OAI/REST/SWORD or alternate backend test.",
       "latest_checked_utc": "2026-10-18T18:42:34.346848+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "region-waterloo-open-data",
+      "provider": "Regional Municipality of Waterloo",
+      "service_name": "Region of Waterloo Open Data portal and metadata feed",
+      "geographic_coverage": "Waterloo Region, Ontario, Canada and shared neighboring/third-party sources; per-item coverage varies",
+      "topical_coverage": "geospatial | transportation | housing | water | environment | law/civic | public spending/contracts",
+      "dataset_families": "Regional/local public open-data catalogue metadata and shared third-party dataset references; source features not queried",
+      "documentation_url": "https://developers.arcgis.com/hub/services/feeds/ | https://rowopendata-rmw.opendata.arcgis.com/api/search/definition",
+      "api_base_url": "https://rowopendata-rmw.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
+      "format_protocol": "DCAT-US 1.1 JSON metadata feed; OGC API definition reference returned HTML",
+      "authentication": "Anonymous metadata feed returned HTTP 200; no key, account or private content",
+      "free_access_restrictions": "Own indexed open license permits commercial reuse with exclusions; shared sources and metadata-wide grant require per-item review",
+      "license": "Region of Waterloo custom Open Data Licence; mixed item-specific statements and missing licenses; whole-feed grant unconfirmed",
+      "license_url": "https://www.regionofwaterloo.ca/government-and-council/transparency-and-accountability/open-data/",
+      "api_verification_state": "Native portal HTML returned 200. DCAT feed route from official Esri documentation returned 200 but exceeded the local 1.5 MB cap: whole JSON invalid/incomplete. Exactly 301 complete metadata objects parsed from prefix, not full-response success. Independently documented OGC definition route returned 200 HTML reference, not JSON schema. No enlarged retry, alternative data format or feature API used.",
+      "latest_checked_utc": "2026-10-19T01:52:33.048431+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -48203,6 +48239,24 @@
       "license_url": "https://rock.pollub.pl/info/regulations",
       "api_verification_state": "Native root/regulations HTTP200. Registered Identify HTTP200 text/html DSpace OAI provider information, not parseable OAI XML. Protocol2.0/repository identity displayed, but not counted successful machine response; no alternative XML/format/backend tried.",
       "latest_checked_utc": "2026-10-18T22:55:41.786069+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "lund-humanities-lab-archive",
+      "provider": "Lund University Humanities Lab",
+      "service_name": "Lund Humanities Lab Archive / RWAAI",
+      "geographic_coverage": "Language/cultural research, including Austroasiatic communities of Mainland Southeast Asia and India; archive held in Sweden",
+      "topical_coverage": "culture | education | research",
+      "dataset_families": "Language/cultural multimedia, images, audio/video, texts, word lists and transcriptions; CMDI discovery metadata documented",
+      "documentation_url": "https://archive.humlab.lu.se/flat/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Accounts and depositor permission may be required by source; public metadata described; no registration/application",
+      "free_access_restrictions": "Four source access levels; registered account does not provide blanket permission. No account, application, deposit or paid service.",
+      "license": "Mixed depositor-controlled source access; broad metadata reuse license unknown",
+      "license_url": "https://www.humlab.lu.se/equipment-expertise/archive-server/user-information/",
+      "api_verification_state": "Native archive welcome returned 200 HTML and announced an April 2026 server migration. Registered old user-information page returned 404; current owner guidance reviewed only via independent official indexed result, not a native retry. CMDI/VLO publication documented; exact public API/OAI endpoint not verified or sampled.",
+      "latest_checked_utc": "2026-10-19T01:52:33.048431+00:00",
       "classification": "restricted"
     },
     {
