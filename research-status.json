@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:08:50.762132+00:00",
+  "published_at": "2026-10-19T00:10:54.061472+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:07:04.794847+00:00",
+  "research_updated_at": "2026-10-19T00:09:01.793259+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NERC GeoNetwork4.4.10 native schema/anonymous siteJSON, metadata grant unresolved; OPARA selected licenses; ProtectedPlanetv4 restricted/tokenrequired.",
+  "latest_milestone": "CanadaVigilance exact official OGL-Canada/API referenceJSON verified; ArkeoGIS restrictive conditions and WADI map/API/grant gap.",
   "counts": {
-    "verified": 499,
-    "candidates": 1449,
-    "excluded": 422,
+    "verified": 500,
+    "candidates": 1450,
+    "excluded": 423,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -10966,6 +10966,24 @@
       "license_url": "https://repos.hcu-hamburg.de/about/policy/ | https://repos.hcu-hamburg.de/about/tos",
       "api_verification_state": "native_anonymous_OAI_Identify_sets_and_scoped_dataset_identifier_inventory_success_CC0_metadata_verified",
       "latest_checked_utc": "2026-10-17T20:01:33.958206+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "health-canada-vigilance-api",
+      "provider": "Health Canada",
+      "service_name": "Canada Vigilance Product API",
+      "geographic_coverage": "Canada post-market suspected adverse-reaction reports and product/reference catalogues; not population-representative risk estimates",
+      "topical_coverage": "health | research",
+      "dataset_families": "Canada Vigilance drug products/ingredients and report-related endpoints plus reference vocabularies. Only two-entry gender code table sampled; no actual adverse reports/patient records.",
+      "documentation_url": "https://health-products.canada.ca/api/documentation/cvp-documentation-en.html?wbdisable=true",
+      "api_base_url": "https://health-products.canada.ca/api/canada-vigilance/",
+      "format_protocol": "REST JSON/XML, lang=en/fr; JSON default",
+      "authentication": "Native API guide documents ordinary GETs without credentials; anonymous reference-code request succeeded. No keys/accounts",
+      "free_access_restrictions": "Named official dataset explicitly Open Government Licence–Canada; attribution/exceptions/third-party rights retained. No paid acquisition",
+      "license": "Open Government Licence–Canada",
+      "license_url": "https://open.canada.ca/data/en/dataset/9cbaef00-b52c-4a70-9fed-d9aa8263ab74 | https://open.canada.ca/en/open-government-licence-canada",
+      "api_verification_state": "Native MedEffect overview/API guide and exact official dataset license200. Anonymous documented gender reference GET200 valid JSON array with2 objects and gender_id/gender_code/gender_name; only reference schema/count indexed. No actual report/reaction/drug/patient/source data query.",
+      "latest_checked_utc": "2026-10-19T00:08:56.583148+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -40023,6 +40041,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "wadi-abu-dom-webgis",
+      "provider": "Wadi Abu Dom Itinerary / University of Münster",
+      "service_name": "W.A.D.I. archaeological WebGIS discovery",
+      "geographic_coverage": "Sudan Wadi Abu Dom survey; Germany-led project, shared presentation with distinct Doliche project",
+      "topical_coverage": "culture | research | geospatial",
+      "dataset_families": "Archaeological survey feature/site mapping descriptions; actual archaeological locations/records not queried",
+      "documentation_url": "http://en.wadi-abu-dom.de/webgis/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public documentation anonymous; actual WebGIS/API access unknown, no login",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown formal source-data/database/metadata reuse grant",
+      "license_url": "http://wadi-abu-dom.de/impressum/",
+      "api_verification_state": "Original WebGIS documentation200HTML states maintenance may impair availability and describes map/layers. Registered imprint200HTML. No exact public OGC/REST/schema API contract/runtime verified; map UI and raw-data availability not API success.",
+      "latest_checked_utc": "2026-10-19T00:08:56.583148+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "washington-state-geospatial-portal",
       "provider": "Washington State Geospatial Program",
       "service_name": "Washington State Geospatial Open Data Portal",
@@ -42452,6 +42488,24 @@
       "license_url": "https://arachne.dainst.org/info/en/order.html | http://creativecommons.org/licenses/by-nc-nd/3.0/",
       "api_verification_state": "actual_native_entity_JSON_metadata_success_primary_production_API_docs_and_NC_ND_terms_verified",
       "latest_checked_utc": "2026-10-17T16:54:10.446037+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "arkeogis-archaeological-gis",
+      "provider": "ArkeoGIS / University of Strasbourg / Huma-Num",
+      "service_name": "ArkeoGIS collaborative archaeological WebGIS",
+      "geographic_coverage": "France-led international archaeological/paleoenvironmental datasets; source geography varies",
+      "topical_coverage": "culture | research | geospatial | environment",
+      "dataset_families": "Past spatial datasets, chronologies, shared cartographic backgrounds and thesauri; locations not queried",
+      "documentation_url": "https://arkeogis.org/manuel/projet-utilisateur/ | https://arkeogis.org/cgu/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native create-account/qualified community described; exact API credentials unknown, no account",
+      "free_access_restrictions": "Nonprofit/research access and for-profit board permission; restricted datasets author permission; no contact/notification/agreements",
+      "license": "CC-BY reference with additional no-transfer/nonprofit-research/permission conditions; effective scope unresolved",
+      "license_url": "https://arkeogis.org/cgu/",
+      "api_verification_state": "Native home/legal/userguide/CGU200HTML. Browser queries/CSV exports described; exact documented public REST/query API/schema/runtime unverified despite registry root REST claim. No app/backend guessing, login or archaeological source request.",
+      "latest_checked_utc": "2026-10-19T00:08:56.583148+00:00",
       "classification": "restricted"
     },
     {
