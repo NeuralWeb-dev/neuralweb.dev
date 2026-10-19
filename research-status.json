@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-19T00:27:20.677801+00:00",
+  "published_at": "2026-10-19T00:29:24.833344+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:25:50.551450+00:00",
+  "research_updated_at": "2026-10-19T00:28:30.873644+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OGMP archival/APIgrantgap; NMMR indexedArcGIS/robotshold/rightsunknown; FAOSTAT canonicaldedup/currentrestrictionrecheck.",
+  "latest_milestone": "RODIN custommetadataattributiongrant/OAIidentity/100headers; SoyBaseAPIgrantgap; AnimalQTLmaintenance/termsconflict; GlycineMine separateheldcandidate.",
   "counts": {
-    "verified": 502,
-    "candidates": 1457,
+    "verified": 503,
+    "candidates": 1460,
     "excluded": 427,
     "sample_successes": 463
   },
@@ -15307,6 +15307,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "uca-rodin-oai-metadata",
+      "provider": "Universidad de Cádiz / Biblioteca",
+      "service_name": "RODIN OAI-PMH metadata service",
+      "geographic_coverage": "Spain UCA research/teaching/institutional heritage and international studies; metadata only",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional bibliographic/research/learning-object metadata; source works and datasets have separate licenses",
+      "documentation_url": "https://biblioteca.uca.es/rodin/politicas/ | https://rodin.uca.es/oai/request?verb=Identify",
+      "api_base_url": "https://rodin.uca.es/oai/request",
+      "format_protocol": "OAI-PMH2 XML / DublinCore metadata",
+      "authentication": "Anonymous Identify/ListIdentifiers succeeded, no credentials. Deposit login separate",
+      "free_access_restrictions": "Formal custom metadata reuse permission with attribution to original RODIN record; source works per-item/embargo/license conditions separate",
+      "license": "Custom unrestricted metadata reuse permission with original-record attribution",
+      "license_url": "https://biblioteca.uca.es/rodin/politicas/",
+      "api_verification_state": "Native root/policy200. Exact registered OAI Identify200validprotocolXML; ListIdentifiers200validXML100headers/noerror,31146reported. Derived indexes omit adminEmail and source descriptions. No GetRecord/ListRecords/files/fulltext/student source queries.",
+      "latest_checked_utc": "2026-10-19T00:28:25.224544+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "uci-machine-learning-repository",
       "provider": "UC Irvine Center for Machine Learning",
       "service_name": "UCI Machine Learning Repository metadata API",
@@ -16836,6 +16854,24 @@
       "license_url": "https://data.anfr.fr/explore/dataset/observatoire_2g_3g_4g/ | https://data.anfr.fr/mentions_legales | https://data.anfr.fr/politique-open-data",
       "api_verification_state": "documented_Data4Citizen_public_catalog_JSON_sample_success_license_conflict_unresolved",
       "latest_checked_utc": "2026-10-17T00:39:24.687974+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "animal-qtl-database-api",
+      "provider": "Iowa State University / Animal QTLdb collaborators",
+      "service_name": "Animal QTLdb registered REST discovery",
+      "geographic_coverage": "International livestock/model-organism QTL research; source geographic coverage varies",
+      "topical_coverage": "agriculture | research | biodiversity",
+      "dataset_families": "Animal QTL/association and trait/genome integration descriptions; no actual genetic/source records acquired",
+      "documentation_url": "https://www.animalgenome.org/QTLdb/API/",
+      "api_base_url": "https://www.animalgenome.org/QTLdb/API/ (registered docs, currentmaintenance)",
+      "format_protocol": "HTML documentation",
+      "authentication": "Current original API under maintenance; prior registryregistration claim notverified currentAPIrequirement, no account",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown effective current grant; registry NC claims and indexed FAQ broad reuse differ",
+      "license_url": "https://www.animalgenome.org/copyright",
+      "api_verification_state": "API docs/copyright requests200HTMLmaintenance page, not API or actualcopyright response. Hold retained; no alternateaaa/2www/cwd/backend/proxy/source requests. PublicAPIexistence/currentcontract/runtime unresolved.",
+      "latest_checked_utc": "2026-10-19T00:28:25.224544+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -27981,6 +28017,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "lis-glycinemine-webservice",
+      "provider": "Legume Information System / SoyBase collaborators",
+      "service_name": "GlycineMine web service API discovery",
+      "geographic_coverage": "Glycine/soybean international research reference data; source geography varies",
+      "topical_coverage": "agriculture | research | biodiversity",
+      "dataset_families": "Linked soybean integrated-data query service documentation; no actual gene/genomic/source query",
+      "documentation_url": "https://mines.legumeinfo.org/glycinemine/api.do?subtab=python",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Original target deferred; exact credential-free access unknown, no account/APIkey",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified integrated metadata/source grant",
+      "license_url": "",
+      "api_verification_state": "SoyBase native home links exact GlycineMine instance. APIguide robots-deferred unsent, nativehome deferredafterhold. Indexednativeguide confirms webservices existence, currentruntime untested, no guessedgeneric/service route.",
+      "latest_checked_utc": "2026-10-19T00:28:25.224544+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "list-lore-research-repository",
       "provider": "Luxembourg Institute of Science and Technology",
       "service_name": "LIST Open Repository (LORE)",
@@ -36708,6 +36762,24 @@
       "license_url": "https://library.soton.ac.uk/openaccess/policies",
       "api_verification_state": "official_cached_landing_OAI_documented_native_runtime_policy_held",
       "latest_checked_utc": "2026-10-17T19:23:24.791628+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "soybase-soybean-resource",
+      "provider": "USDA-ARS / SoyBase and collaborating institutions",
+      "service_name": "SoyBase soybean genetics/genomics portal",
+      "geographic_coverage": "International soybean research; USA-hosted, source geography varies",
+      "topical_coverage": "agriculture | research | biodiversity",
+      "dataset_families": "Soybean genetic/genomic maps, collections and resource discovery; no gene/sequence/source data queried",
+      "documentation_url": "https://www.soybase.org/about",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public home/about anonymous; exact queryAPI unknown, no credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified uniform portal/database/metadata grant",
+      "license_url": "https://www.soybase.org/about",
+      "api_verification_state": "Native new home/about200HTML links legacy site and separate GlycineMine. No exact current SoyBase public query API/schema verified. Legacy semanticweb/SSWAP literature not deployed current API proof.",
+      "latest_checked_utc": "2026-10-19T00:28:25.224544+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
