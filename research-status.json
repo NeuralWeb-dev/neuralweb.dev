@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-19T01:00:15.553790+00:00",
+  "published_at": "2026-10-19T01:02:18.740699+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:00:08.645575+00:00",
+  "research_updated_at": "2026-10-19T01:00:54.485058+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NulanBYNC4/nativeOAIheld; AlicanteRUAcurrentpolicySPAgap; SEGEMARindexedNCND4correctsregistryPDclaim.",
+  "latest_milestone": "Nineoriginals:NBNmixedlicenses/parser404; SangerNCND/resourcefrontier; MAPmapCCBY3/2releaseJSON; CórdobaPDF/RUApolicygaps; ComahueAnubis; Lujánnonprofit; NulanNC/OAIheld; SEGEMARindexedNCNDnotPD.",
   "counts": {
     "verified": 506,
     "candidates": 1472,
@@ -41,6 +41,7 @@
         "verified_provider_ids": [
           "datacommons",
           "geonames",
+          "malaria-atlas-project-data-api",
           "unhcr-portal",
           "unicef",
           "worldbank",
@@ -445,6 +446,7 @@
           "intact-imex-psicquic",
           "interpro-api",
           "lipidmaps-rest-sparql",
+          "malaria-atlas-project-data-api",
           "neuromorpho",
           "nih-mesh",
           "nih-pubmed",
@@ -623,6 +625,7 @@
           "gmrt-topography-api",
           "gtnp-current-data-platform-api",
           "hcdc-datasearch-metadata-api",
+          "malaria-atlas-project-data-api",
           "marine-regions-modern-boundaries-ogc",
           "nasa-cmr",
           "ncar-gdex-metadata",
@@ -1121,6 +1124,7 @@
           "itis-taxonomic-web-services",
           "kitopen-bibliographic-oai",
           "lipidmaps-rest-sparql",
+          "malaria-atlas-project-data-api",
           "marine-regions-modern-boundaries-ogc",
           "materials-cloud-archive",
           "met-norway-weather-api",
@@ -2329,7 +2333,9 @@
           "tce-sp-municipal-transparency-api",
           "unisimon-research-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "argentina-nulan-eprints-oai"
+        ]
       },
       "labor": {
         "status": "partial_verified",
@@ -2344,7 +2350,9 @@
           "rosario-research-data-repository",
           "unisimon-research-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "argentina-nulan-eprints-oai"
+        ]
       },
       "agriculture": {
         "status": "partial_candidates_only",
@@ -2362,6 +2370,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "argentina-uncoma-digital-repository",
           "chile-dataobservatory-catalogue",
           "eclac",
           "ecuador-mae-ipt",
@@ -2385,6 +2394,7 @@
           "wis2-uruguay"
         ],
         "restricted_provider_ids": [
+          "argentina-segemar-geoscience-repository",
           "usp-datamap-environmental-platform"
         ]
       },
@@ -2398,6 +2408,7 @@
           "opendatasus"
         ],
         "restricted_provider_ids": [
+          "argentina-segemar-geoscience-repository",
           "usp-datamap-environmental-platform"
         ]
       },
@@ -2413,6 +2424,7 @@
           "registry-portaldados-ppgau-uff-br"
         ],
         "restricted_provider_ids": [
+          "argentina-segemar-geoscience-repository",
           "usp-datamap-environmental-platform"
         ]
       },
@@ -2451,6 +2463,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "argentina-unc-digital-repository",
+          "argentina-uncoma-digital-repository",
           "bolivar-utb-digital-repository",
           "cdha-study-resource-directory",
           "cesa-academic-data",
@@ -2489,6 +2503,8 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
+          "argentina-nulan-eprints-oai",
+          "argentina-unlu-rediunlu-oai",
           "ufscar-institutional-repository",
           "unab-institutional-repository",
           "usil-institutional-repository"
@@ -2545,7 +2561,9 @@
           "wis2-ecuador",
           "wis2-uruguay"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "argentina-segemar-geoscience-repository"
+        ]
       },
       "public spending/contracts": {
         "status": "partial_verified",
@@ -2605,12 +2623,15 @@
           "tce-sp-municipal-transparency-api",
           "unlp-research-data-repository"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "argentina-unlu-rediunlu-oai"
+        ]
       },
       "biodiversity": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "argentina-unc-digital-repository",
           "bold-v5-public-data-api",
           "chile-dataobservatory-catalogue",
           "ecuador-mae-ipt",
@@ -2640,6 +2661,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "argentina-unc-digital-repository",
+          "argentina-uncoma-digital-repository",
           "bolivar-utb-digital-repository",
           "cariniana-dataverse-network",
           "colombia-mincultura-research-dataverse",
@@ -2659,6 +2682,9 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
+          "argentina-nulan-eprints-oai",
+          "argentina-segemar-geoscience-repository",
+          "argentina-unlu-rediunlu-oai",
           "ufscar-institutional-repository",
           "unab-institutional-repository",
           "usil-institutional-repository"
@@ -2668,6 +2694,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "argentina-unc-digital-repository",
+          "argentina-uncoma-digital-repository",
           "bold-v5-public-data-api",
           "bolivar-utb-digital-repository",
           "cariniana-dataverse-network",
@@ -2714,6 +2742,9 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
+          "argentina-nulan-eprints-oai",
+          "argentina-segemar-geoscience-repository",
+          "argentina-unlu-rediunlu-oai",
           "ufscar-institutional-repository",
           "unab-institutional-repository",
           "usil-institutional-repository",
@@ -3143,6 +3174,7 @@
           "luh-research-data-ckan",
           "meteogate-climate-aggregator-edr",
           "nanocommons-knowledgebase",
+          "nbn-atlas-webservices",
           "nerc-data-catalogue-geonetwork",
           "nodc-ieo-geonetwork",
           "nodc-portugal-geonetwork",
@@ -3595,6 +3627,7 @@
           "serbia-rzs",
           "sheffield-orda",
           "soundvision-media-data-platform",
+          "spain-alicante-rua-repository",
           "stockholm-institutional-figshare",
           "surf-data-repository",
           "swissubase-oai",
@@ -3842,6 +3875,7 @@
           "lifewatch-metadata-catalogue",
           "mulhouse-alsace-open-data",
           "navarra-open-data",
+          "nbn-atlas-webservices",
           "nerc-data-catalogue-geonetwork",
           "nfdi4ing-ingest-metadata-api",
           "nhm-data-portal-api",
@@ -4022,6 +4056,7 @@
           "leiden-pseudobase-html-resource",
           "lifewatch-metadata-catalogue",
           "nasc-plant-stock-webservices",
+          "nbn-atlas-webservices",
           "nhm-data-portal-api",
           "openforest-dataverse",
           "proteomexchange-proteomecentral",
@@ -4248,6 +4283,7 @@
           "serbia-rzs",
           "sheffield-orda",
           "soundvision-media-data-platform",
+          "spain-alicante-rua-repository",
           "swissubase-oai",
           "terrassa-open-data",
           "tilburg-regional-archive",
@@ -4536,6 +4572,7 @@
           "mxrdr-crystallography-repository",
           "nanocommons-knowledgebase",
           "nasc-plant-stock-webservices",
+          "nbn-atlas-webservices",
           "nerc-data-catalogue-geonetwork",
           "newcastle-data-ncl",
           "nfdi4health-study-hub",
@@ -4585,6 +4622,7 @@
           "sheffield-orda",
           "soundvision-media-data-platform",
           "southampton-ecrystals",
+          "spain-alicante-rua-repository",
           "stockholm-institutional-figshare",
           "suprabank-intermolecular-interactions",
           "surf-data-repository",
