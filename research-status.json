@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:49:58.320421+00:00",
+  "published_at": "2026-10-19T00:52:01.432893+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:48:47.205060+00:00",
+  "research_updated_at": "2026-10-19T00:51:56.208576+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "KeckTAPcapabilityXML andBMRBaggregateJSON verified withdata-licensegaps; ZINCnative2025majorredistributionrestriction.",
+  "latest_milestone": "GDPexactexistingERDDAPdedup; SSECfree-keyedMcFETCH/sourceNCdefaults; ACEexplicitLevel2publicdomain/nativelegacyWSDL3ops.",
   "counts": {
-    "verified": 504,
-    "candidates": 1466,
-    "excluded": 429,
+    "verified": 505,
+    "candidates": 1468,
+    "excluded": 431,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -7198,6 +7198,24 @@
       "classification": "open_license_verified"
     },
     {
+      "identifier": "ace-science-center-soap",
+      "provider": "Caltech / ACE Science Center",
+      "service_name": "ACE legacy SOAP science-data service",
+      "geographic_coverage": "AdvancedCompositionExplorer solarwind/heliospheric space observations; internationalmissionresearch",
+      "topical_coverage": "astronomy | environment | research",
+      "dataset_families": "VerifiedACELevel2 MAG/SWEPAM/SWICS/EPAM resourcefamilies; otherlevels/realtime/contributeddata excludedfromgrantacceptance",
+      "documentation_url": "https://izw1.caltech.edu/ACE/ASC/webservices.html | https://izw1.caltech.edu/ACE/ASC/SOAP/ACEServicesWSDL.xml",
+      "api_base_url": "http://www.srl.caltech.edu/ACE/ASC/SOAP/ACE_SOAP_server.cgi (published historicalWSDLaddress, runtimeuntested)",
+      "format_protocol": "SOAP/WSDL1.1, SPASEXML1.0.1, published2006servicecontract; nativeWSDL200validXML",
+      "authentication": "AnonymousWSDL200; operationauthentication/currentserverruntime untested, no credentials",
+      "free_access_restrictions": "NativeLevel2policy explicitlypublicdomain withinstrumentteam/ASCacknowledgment; sourcelevels/exceptions separate, numericquotasunknown",
+      "license": "Explicitnative publicdomain designation forACELevel2, acknowledgmentrequired; notnamedCC0",
+      "license_url": "https://izw1.caltech.edu/ACE/ASC/level2/acknowledgements.html",
+      "api_verification_state": "RegisteredSOAPclientURL200directorylistingonly, notAPIresponse. Nativewebservicesguide200describesDiscover/GetDetails/GetData; exactpublishedWSDL200validdefinitions with3uniqueoperations/legacyserveraddress. Schemaavailabilityverified; dated2006prototype/underdevelopmentdocs do notprovecurrentoperationuptime. NoSOAPPOST/legacyserverrequest oralternatehostfallback.",
+      "latest_checked_utc": "2026-10-19T00:51:51.390203+00:00",
+      "classification": "open_license_verified"
+    },
+    {
       "identifier": "act-open-data",
       "provider": "Australian Capital Territory Government; named publisher ACT Legislative Assembly",
       "service_name": "dataACT Socrata open-data portal API",
@@ -7500,7 +7518,7 @@
       "license": "CC BY 4.0 for eight reviewed datasets; CC0 1.0 for OSMC_RealTime per exact native attribute",
       "license_url": "https://erddap.aoml.noaa.gov/gdp/erddap/info/drifter_6hour_qc/index.json | https://erddap.aoml.noaa.gov/gdp/erddap/info/OSMC_RealTime/index.json",
       "api_verification_state": "Anonymous native catalogue JSON HTTP 200 and nine source metadata/schema JSON HTTP 200; no observation-row query",
-      "latest_checked_utc": "2026-10-18T03:34:03.764772+00:00",
+      "latest_checked_utc": "2026-10-19T00:51:51.390203+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -27936,6 +27954,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "leibniz-kis-solar-science-archive",
+      "provider": "Leibniz Institute for Solar Physics (KIS)",
+      "service_name": "Science Data Centre solar archive",
+      "geographic_coverage": "Solar observations from Tenerife GREGOR/VTT and simulations; German-hosted international science",
+      "topical_coverage": "astronomy | research | environment",
+      "dataset_families": "GRIS/GREGOR, LARS and ChroTel solar data and MHDsimulations; no scienceimages/spectra/sourcevalues",
+      "documentation_url": "https://sdc.leibniz-kis.de/en/software-tools/python-api-prototype | https://sdc.leibniz-kis.de/en/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Nativepublicdocs; exactcurrentmachineAPI/auth unknown, no login",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown uniform scientificarchive/metadata grant; websiteimprint NC/permissiondefault and instrumentcitation rules",
+      "license_url": "https://sdc.leibniz-kis.de/en/license-policy/citation | https://www.leibniz-kis.de/en/imprint/",
+      "api_verification_state": "Native root/citation/imprint/Pythonprototypeguide200HTML. November2021prototype guide requiresmatchingbackend/software; current2023Rucio/dCachearchitecture noted. Exactpublishedarchive root robots-deferred unsent; no legacy/backend/path workaround or clientexecution.",
+      "latest_checked_utc": "2026-10-19T00:50:18.532485+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "leiden-pseudobase-html-resource",
       "provider": "PseudoBase / Eke van Batenburg / Leiden-affiliated research",
       "service_name": "PseudoBase RNA pseudoknot documentation and static resource",
@@ -37728,6 +37764,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "tess-social-science-experiments",
+      "provider": "Time-sharing Experiments for the Social Sciences",
+      "service_name": "TESS research archive discovery",
+      "geographic_coverage": "US nationally representative adultsurveyexperiments, multidisciplinarysocialscience",
+      "topical_coverage": "demographics | labor | education | health | law/civic | research",
+      "dataset_families": "Surveyexperiment study descriptions/codebooks and releaseddata throughOSFpartnership; source respondents notacquired",
+      "documentation_url": "https://tessexperiments.org/info/introduction | https://tessexperiments.org/info/faq",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Nativepublicdocumentation; resourceAPI/authunknown, no account/panelregistration or proposals",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Unknown blanket metadata/datareusegrant; one-yearexclusivity/release viaOSF documented",
+      "license_url": "https://tessexperiments.org/info/faq",
+      "api_verification_state": "Nativeintroduction/FAQ200HTML describe program/release/access, no exactTESSpublicAPI endpoint/schema established. No guessedAPI, sourceparticipant/studyfile or OSFitem queries.",
+      "latest_checked_utc": "2026-10-19T00:50:18.532485+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "tethys-geosphere-oai",
       "provider": "GeoSphere Austria",
       "service_name": "Tethys RDR OAI-PMH metadata service",
@@ -42929,6 +42983,24 @@
       "license_url": "https://arachne.dainst.org/info/en/order.html | http://creativecommons.org/licenses/by-nc-nd/3.0/",
       "api_verification_state": "actual_native_entity_JSON_metadata_success_primary_production_API_docs_and_NC_ND_terms_verified",
       "latest_checked_utc": "2026-10-17T16:54:10.446037+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "arda-religion-data-archive",
+      "provider": "Association of Religion Data Archives / Indiana University Indianapolis",
+      "service_name": "ARDA religion data and MARC metadata exports",
+      "geographic_coverage": "United States/localreligion and international country/region/worldreligion research collections",
+      "topical_coverage": "demographics | culture | education | law/civic | research",
+      "dataset_families": "Religion surveys/census/membership/geographicprofiles and librarycatalogueMARCmetadata; source respondents notacquired",
+      "documentation_url": "https://www.thearda.com/about/about-the-arda | https://www.thearda.com/data-archive/metadata",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Nativepublicdocs; sourceforms/termsdownloadflows/APIauthentication untested, no acceptance/contact",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "MARCmetadata may be downloaded/usedfree but cannot be sold; otherdata rights/sourceexceptions vary",
+      "license_url": "https://www.thearda.com/data-archive/metadata",
+      "api_verification_state": "Nativeabout/metadata pages200HTML describe1500+MARCresources and linkMARCbundlepage, not publicqueryAPIresponse. Exact current API/requestcontract/auth notverified; staticexport not automaticallyAPI.",
+      "latest_checked_utc": "2026-10-19T00:50:18.532485+00:00",
       "classification": "restricted"
     },
     {
@@ -49121,6 +49193,24 @@
       "license_url": "https://srtr.hrsa.gov/requesting-data/data-requests/ | https://srtr.hrsa.gov/requesting-data/citations-and-permissions/",
       "api_verification_state": "Native citation/accesspolicy pages200HTML only. No documented publicdataqueryAPI verified or tested. No patientdata, restrictedsource metadata or personalmedicalprofile query.",
       "latest_checked_utc": "2026-10-18T03:11:36.556680+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ssec-satellite-data-mcfetch",
+      "provider": "University of Wisconsin-Madison / SSEC Satellite Data Services",
+      "service_name": "McFETCH weather satellite API and satellite archive",
+      "geographic_coverage": "Global geostationaryweather satellites includingGOES/Himawari/Meteosat/Fengyun; US-hosted multi-source archive",
+      "topical_coverage": "climate/weather/environment | geospatial | research",
+      "dataset_families": "Historical/realtimegeostationarysatelliteimagery and meteorologicaldata; source/missions rights differ, noimages/observations acquired",
+      "documentation_url": "https://mcfetch.ssec.wisc.edu/ | https://www.ssec.wisc.edu/datacenter/",
+      "api_base_url": "https://mcfetch.ssec.wisc.edu/",
+      "format_protocol": "NativeHTTPURLAPI documented, outputMcIDASAREA/GeoTIFF/NetCDF; ADDE distinctprotocol",
+      "authentication": "Nativeguide saysfreeregistration APIkeyrequired; no key acquired/exampleused, no protectedquery",
+      "free_access_restrictions": "NativeMcFETCH saysgeostationaryarchive nocost throughthismechanism from2016; software/ADDEcommercialagreements distinct. Fullsourcegrant/operationalquota unknown.",
+      "license": "SSECimage defaultnoncommercialwithattribution; Meteosat thirdpartydistribution/timing-specificpolicy; no blanket opendata grant",
+      "license_url": "https://www.ssec.wisc.edu/disclaimer | https://www.ssec.wisc.edu/datacenter/met_policy.html",
+      "api_verification_state": "Nativearchive/McFETCHguide/disclaimer/Meteosatpolicy200HTML. Guide explicitlydocumentswebAPI/key/outputformats; no runtime imagery/datarequest, registration, protectedschema or examplekey use.",
+      "latest_checked_utc": "2026-10-19T00:51:51.390203+00:00",
       "classification": "restricted"
     },
     {
