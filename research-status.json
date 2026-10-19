@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:43:48.108377+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-19T00:45:51.268648+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:43:45.009016+00:00",
+  "research_updated_at": "2026-10-19T00:44:19.313758+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "AustraliaSpaceWeather8keyrequiredPOSTrefs/BOMgrantheld; SandAtlasRESTmisattribution/grantgap; UCSDper-itemrights/APIunresolved.",
+  "latest_milestone": "Twelve originals plusGlycineMine: RODINcustomopenmetadata/31146headers; PDBeCC0/196schemaops; NARAcache/keyrestrictions; ninecandidates; FAOSTATdedup.",
   "counts": {
-    "verified": 503,
-    "candidates": 1463,
-    "excluded": 427,
+    "verified": 504,
+    "candidates": 1464,
+    "excluded": 428,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -437,6 +437,7 @@
           "datacommons",
           "doaj",
           "embl-ebi-emdb-rest",
+          "embl-ebi-pdbe-rest",
           "ensembl-rest-genome-service",
           "fulir-data-metadata",
           "hgnc-gene-nomenclature-rest",
@@ -765,6 +766,7 @@
           "brenda-enzyme-data-api",
           "eidc-environmental-catalogue-api",
           "embl-ebi-emdb-rest",
+          "embl-ebi-pdbe-rest",
           "ensembl-rest-genome-service",
           "fdat-tuebingen-metadata-api",
           "gbif",
@@ -1090,6 +1092,7 @@
           "earthscope-seismic-web-services",
           "eidc-environmental-catalogue-api",
           "embl-ebi-emdb-rest",
+          "embl-ebi-pdbe-rest",
           "ensembl-rest-genome-service",
           "esgf-cmip5-discovery",
           "fairsharing-registry-api",
@@ -1585,6 +1588,7 @@
           "ontario-data-catalog",
           "opendataphilly-jkan",
           "oregon-open-data",
+          "osmre-national-mine-map-metadata",
           "ottawa-riverkeeper-open-data",
           "pnnl-datahub",
           "prince-edward-island-open-data",
@@ -1685,6 +1689,7 @@
           "donnees-quebec-catalog",
           "nlr-geospatial-data-services",
           "openei-urdb",
+          "osmre-national-mine-map-metadata",
           "pnnl-datahub",
           "saskatchewan-geohub"
         ],
@@ -1940,6 +1945,7 @@
           "okanagan-similkameen-open-data",
           "opendataphilly-jkan",
           "oregon-open-data",
+          "osmre-national-mine-map-metadata",
           "ottawa-riverkeeper-open-data",
           "palo-alto-open-data",
           "prince-edward-island-open-data",
@@ -2040,7 +2046,9 @@
           "us-data-gov-catalog",
           "whitby-geohub"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "us-nara-catalog-api"
+        ]
       },
       "biodiversity": {
         "status": "partial_verified",
@@ -2066,6 +2074,7 @@
           "esa-ecology",
           "goa-ecology",
           "knb",
+          "montreal-ogmp-archival-resource",
           "nps-irma-resource-services",
           "ottawa-riverkeeper-open-data",
           "smithsonian",
@@ -2153,7 +2162,8 @@
         "restricted_provider_ids": [
           "calgary-prism-scholaris-repository",
           "colorado-information-marketplace",
-          "ipums-nhgis-api"
+          "ipums-nhgis-api",
+          "us-nara-catalog-api"
         ]
       },
       "research": {
@@ -2216,6 +2226,7 @@
           "loc",
           "macewan-borealis-data-repository",
           "maine-dataverse-network",
+          "montreal-ogmp-archival-resource",
           "mount-allison-borealis-repository",
           "nadp-monitoring-data",
           "neracoos-erddap",
@@ -2223,6 +2234,7 @@
           "northwestern-arch-repository",
           "nps-irma-resource-services",
           "ontario-tech-borealis-repository",
+          "osmre-national-mine-map-metadata",
           "pnnl-datahub",
           "quebec-covid19-biobank",
           "saint-marys-borealis-repository",
@@ -2259,7 +2271,8 @@
           "polar-data-catalogue-metadata-api",
           "primate-cell-type-database",
           "saskatchewan-conservation-data-centre",
-          "srtr-controlled-research-data"
+          "srtr-controlled-research-data",
+          "us-nara-catalog-api"
         ]
       }
     },
@@ -3453,6 +3466,7 @@
           "torino-aperto-catalog-api",
           "tu-wien-research-data",
           "tudatalib-public-metadata-oai",
+          "uca-rodin-oai-metadata",
           "uji-institutional-repository",
           "ukraine-data",
           "wales-statistics",
@@ -4132,6 +4146,7 @@
           "tampere-open-news-feeds",
           "textgrid-public-repository",
           "tudatalib-public-metadata-oai",
+          "uca-rodin-oai-metadata",
           "uji-institutional-repository",
           "ukraine-data",
           "wales-statistics",
@@ -4359,6 +4374,7 @@
           "textgrid-public-repository",
           "tu-wien-research-data",
           "tudatalib-public-metadata-oai",
+          "uca-rodin-oai-metadata",
           "uji-institutional-repository",
           "uk-police",
           "ukho-marine-data-portal",
@@ -5557,6 +5573,7 @@
           "china-ncdc-cryosphere-desert-portal",
           "hk-weather",
           "japan-egov-data-catalog",
+          "jaxa-darts-scientific-archive",
           "kigam-geobigdata-open-api",
           "kisti-dataon-national-repository",
           "korea-ecobank-api",
@@ -5697,6 +5714,7 @@
           "china-national-earth-observation-center",
           "china-ncdc-cryosphere-desert-portal",
           "gbif-japan",
+          "jaxa-darts-scientific-archive",
           "kigam-geobigdata-open-api",
           "korea-ecobank-api",
           "taiwan-cwa",
@@ -5775,6 +5793,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "jaxa-darts-scientific-archive",
           "nict-wdc-ionosphere-spaceweather",
           "smoka-science-archive"
         ],
@@ -5823,6 +5842,7 @@
           "cngbdb-resource-portal",
           "fudan-social-science-data",
           "hkust-dataspace",
+          "jaxa-darts-scientific-archive",
           "jst-grants-data",
           "kigam-geobigdata-open-api",
           "kisti-dataon-national-repository",
@@ -6207,6 +6227,7 @@
           "anu-data-commons-repository",
           "aodn-marine-data-services",
           "auscope-earthbank",
+          "bom-world-space-weather-data",
           "brisbane-open-data",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
@@ -6230,6 +6251,7 @@
           "qspatial-csw-catalog",
           "queensland-data",
           "rcc-acis-web-services",
+          "scigem-sand-atlas",
           "spc-pccos-tds",
           "sunshine-coast-open-data-search",
           "tern-ecosystem-data-services",
@@ -6391,6 +6413,7 @@
           "aadc-gazetteer",
           "aadc-metadata",
           "auscope-earthbank",
+          "bom-world-space-weather-data",
           "brisbane-open-data",
           "cook-geospatial",
           "data-wa-catalogue-api",
@@ -6405,6 +6428,7 @@
           "qspatial-csw-catalog",
           "qut-research-data-finder",
           "sarig-geoscience-data-services",
+          "scigem-sand-atlas",
           "stats-nz-geographic",
           "sunshine-coast-open-data-search",
           "trove-cultural-discovery-api",
@@ -6523,6 +6547,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "atnf-pulsar-catalogue",
+          "bom-world-space-weather-data",
           "csiro-data-access-portal",
           "nci-australia-data-catalogue"
         ],
@@ -6581,6 +6606,7 @@
           "atnf-pulsar-catalogue",
           "auckland-institutional-figshare",
           "auscope-earthbank",
+          "bom-world-space-weather-data",
           "cqu-acquire",
           "csiro-data-access-portal",
           "csiro-marlin-metadata",
@@ -6608,6 +6634,7 @@
           "qut-research-data-finder",
           "rmit-institutional-repository",
           "sarig-geoscience-data-services",
+          "scigem-sand-atlas",
           "spc-pccos-tds",
           "swinburne-figshare",
           "te-papa",
@@ -9652,6 +9679,24 @@
       "license_url": "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement | https://www.ebi.ac.uk/about/terms-of-use/",
       "api_verification_state": "Nativehome/registeredEMDBapi/nativepolicyroute200HTMLportal, notAPIresponses. RegistryPDBeEMDBdoc200redirects tocurrentv2SPAdocs; publishedmainJSbounded1.5MBtruncated, noschemaURI established/noexecution. Primary2025EMICSSpaper documents3GETinterfaces. Exactpublicrelease-statsGET200applicationJSON valid/untruncated resources+release_dates; no errors/noentryquery.",
       "latest_checked_utc": "2026-10-18T23:50:36.123205+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "embl-ebi-pdbe-rest",
+      "provider": "EMBL-EBI / Protein Data Bank in Europe / wwPDB",
+      "service_name": "PDBe REST API v2",
+      "geographic_coverage": "Worldwide released macromolecular structural archive; international submissions",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Released PDB primary/derived archive and PDBentry/molecule/assembly/ligand/validation references; no structures/atomiccoordinates/source entry query",
+      "documentation_url": "https://www.ebi.ac.uk/pdbe/api/doc/ | https://www.ebi.ac.uk/pdbe/api/v2/openapi.json",
+      "api_base_url": "https://www.ebi.ac.uk/pdbe/api/v2",
+      "format_protocol": "OpenAPI3.1.0 schema200validJSON; APIv2.10.10,196paths/196documented operations(153GET43POST), no externalrefs",
+      "authentication": "Anonymous schemaGET200; no security requirement/scheme in reviewed spec. Resource operation runtime/authentication untested, no credential flow",
+      "free_access_restrictions": "Released primary/derived archive data CC0 scope; general EMBL-EBI source/IP/ABS and externalannotation caveats retained; numerical API quota unknown",
+      "license": "CC0 for stated PDBe primary/derived archive data; externalannotation and thirdparty rights separate",
+      "license_url": "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement | https://www.ebi.ac.uk/about/terms-of-use/ | https://www.wwpdb.org/about/agreement",
+      "api_verification_state": "RegisteredAPIguide200currentv2SPAHTML. Prior bounded/truncatedpublishedmainJS reused text-only, newly extracted exactofficialschemaURL fetched200applicationJSON, completevalidOpenAPI3.1/v2.10.10,noexternalrefs,196ops. Schemaavailability verified; no resource operation executed. Previous JS notrefetched/enlarged, no source data/structures.",
+      "latest_checked_utc": "2026-10-19T00:44:04.039733+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -15320,8 +15365,8 @@
       "free_access_restrictions": "Formal custom metadata reuse permission with attribution to original RODIN record; source works per-item/embargo/license conditions separate",
       "license": "Custom unrestricted metadata reuse permission with original-record attribution",
       "license_url": "https://biblioteca.uca.es/rodin/politicas/",
-      "api_verification_state": "Native root/policy200. Exact registered OAI Identify200validprotocolXML; ListIdentifiers200validXML100headers/noerror,31146reported. Derived indexes omit adminEmail and source descriptions. No GetRecord/ListRecords/files/fulltext/student source queries.",
-      "latest_checked_utc": "2026-10-19T00:28:25.224544+00:00",
+      "api_verification_state": "OAI Identify200validprotocolXML and ListIdentifiers200validOAIheaders; RODIN returned-cursor header snapshot exhausted: 312pages,31146unique identifiers,0duplicates,reported totals[31146]. Header references are not datasets/sourceworks. No ListRecords/GetRecord/sourceworks/fulltext/file retrieval.",
+      "latest_checked_utc": "2026-10-19T00:44:13.061695+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -26844,6 +26889,24 @@
       "license_url": "",
       "api_verification_state": "Native root guard-deferred unsent; OAI skipped after same-host hold. No successful XML/API payload.",
       "latest_checked_utc": "2026-10-18T17:15:53.819742+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "jaxa-darts-scientific-archive",
+      "provider": "ISAS / Japan Aerospace Exploration Agency",
+      "service_name": "DARTS scientific archive and metadata discovery",
+      "geographic_coverage": "Space/astronomy/solar/solar-terrestrial/lunar-planetary and microgravity missions; Japanese-hosted international science archive",
+      "topical_coverage": "astronomy | research | geospatial | environment",
+      "dataset_families": "AKARI/ASCA/Ginga/Hitomi/IRTS/Suzaku/VSOP/XRISM astronomical families, planetary and other DARTS mission metadata; no observations/images/source data",
+      "documentation_url": "https://darts.isas.jaxa.jp/app | https://darts.isas.jaxa.jp/app/about/astroquery-app | https://darts.isas.jaxa.jp/app/about/metadata-search-app",
+      "api_base_url": "",
+      "format_protocol": "Documented browser basic/SQL/ADQL query and CSV results; machine query request contract not yet established",
+      "authentication": "Native documentation/metadata UI public HTML; precise programmatic query authentication unknown, no account",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Custom ISAS scientific-data policy grants in-principle free commercial/noncommercial copying/forwarding/modification, attribution/change labeling; third-party exceptions",
+      "license_url": "https://www.isas.jaxa.jp/en/researchers/data-policy/",
+      "api_verification_state": "Native root/apps/catalogue/astroqueryguide/metadataguide and ISASpolicy200HTML. Astroqueryguide explicitly documents browser SQL/ADQL and CSVexport, current catalogue is SPA; neither counted as APIresponse. No schema/capability/query endpoint guessed/executed.",
+      "latest_checked_utc": "2026-10-19T00:44:04.039733+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -49634,6 +49697,24 @@
       "license_url": "https://usjgofs.whoi.edu/copyright.html | https://usjgofs.whoi.edu/research/arabian.html",
       "api_verification_state": "native_general_NC_and_specific_study_PD_scopes_verified_legacydatasystem_unsent_robots_deferred",
       "latest_checked_utc": "2026-10-17T23:46:00.085349+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "us-nara-catalog-api",
+      "provider": "US National Archives and Records Administration",
+      "service_name": "National Archives Catalog API v2",
+      "geographic_coverage": "United States federal archival holdings with international historical coverage; item scope varies",
+      "topical_coverage": "culture | law/civic | research | government",
+      "dataset_families": "Archival descriptions, digitized holding references and public contributions; no items/contributions/source media acquired",
+      "documentation_url": "https://www.archives.gov/research/catalog/help/api | https://catalog.archives.gov/api/v2/api-docs/",
+      "api_base_url": "https://catalog.archives.gov/api/v2/",
+      "format_protocol": "Native documented HTTP Catalog v2 API; current schema robots-deferred unsent",
+      "authentication": "Assigned x-api-key required for every request; default read-only; no authorized key available/acquired",
+      "free_access_restrictions": "Current API terms request no caching or storage of returned content; key quotas and attribution/representation/service conditions. Rights in holdings vary.",
+      "license": "NARA-produced USgovernment works explicitly CC0/worldwide public domain; API no-cache/store condition and mixed holding rights",
+      "license_url": "https://www.archives.gov/research/catalog/help/api | https://www.archives.gov/global-pages/privacy.html",
+      "api_verification_state": "Native current API terms/copyright200HTML, confirms v2/key/monthly quotas. Exact linked v2 docs robots-deferred unsent, hosthold retained, no API/backend/legacy-anonymous workaround. Documentation not APIresponse.",
+      "latest_checked_utc": "2026-10-19T00:44:04.039733+00:00",
       "classification": "restricted"
     },
     {
