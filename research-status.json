@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:53:41.287585+00:00",
+  "published_at": "2026-10-19T01:55:44.295746+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:52:37.871871+00:00",
+  "research_updated_at": "2026-10-19T01:53:50.112696+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "KRISHI held; Lund source access restricted with public CMDI metadata; Waterloo native DCAT capped and 301 complete entries indexed, current license/version and source exceptions retained.",
+  "latest_milestone": "APPLAUSE native CC0 and anonymous OAI/VO/TAP capabilities verified; Ulster site restrictions retained; UVaDOC original held and public-domain registry inference rejected.",
   "counts": {
-    "verified": 508,
-    "candidates": 1502,
-    "excluded": 449,
+    "verified": 509,
+    "candidates": 1503,
+    "excluded": 450,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -7771,6 +7771,24 @@
       "license_url": "https://aperta.ulakbim.gov.tr/discoverability/",
       "api_verification_state": "Nativeportal/discoverability200HTML; Identify/ListMetadataFormats and5ListIdentifierspages200validXML. Protocolsuccessnotfileaccess/licenceclearance. Exactreturnedresumptioncursorcontinuationpage6HTTP422; prior5successfulpagesretained, notsource/APIabsenceproof.",
       "latest_checked_utc": "2026-10-18T13:37:41.482166+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "applause-astronomical-plate-archive",
+      "provider": "APPLAUSE collaboration / Leibniz Institute for Astrophysics Potsdam",
+      "service_name": "APPLAUSE photographic plate data APIs",
+      "geographic_coverage": "Historical astronomical plates and sky catalogues from multiple observatory collections; source sky/time coverage varies",
+      "topical_coverage": "astronomy | culture | research",
+      "dataset_families": "Photographic plate and logbook metadata, scans and extracted astrometric/photometric catalogues across releases including DR4; no sources/images queried",
+      "documentation_url": "https://www.plate-archive.org/cms/documentation/oaipmh/ | https://www.plate-archive.org/cms/documentation/scripted-access-tap/ | https://www.plate-archive.org/applause/documentation/cone-search-api/",
+      "api_base_url": "https://www.plate-archive.org/oai/ | https://www.plate-archive.org/tap/ | https://www.plate-archive.org/conesearch/api/applause_dr4.source_calib/",
+      "format_protocol": "OAI-PMH XML; published VO resource/TAP capabilities XML; documented TAP/ADQL/PostgreSQL and cone-search VOTable interfaces",
+      "authentication": "Anonymous OAI Identify/formats and VO/TAP capability metadata succeeded. Guest querying described; account tokens and allocated query storage exist for separate workflows, untested.",
+      "free_access_restrictions": "Data/images CC0; acknowledgements and DOI citation requested. Registered account storage/tools allocated for scientific use and may be removed for commercial/private or harmful use; these service conditions are distinct from source CC0 grant.",
+      "license": "CC0 waiver for APPLAUSE data and images; account service conditions separate",
+      "license_url": "https://www.plate-archive.org/cms/project/disclaimer/ | https://www.plate-archive.org/accounts/terms_of_use/",
+      "api_verification_state": "Native docs/disclaimer/terms returned 200 HTML. Anonymous Identify and ListMetadataFormats returned 200 valid OAI-PMH XML without errors; four formats. Published VO resource and TAP capabilities returned parseable XML; six capabilities described. Capabilities root uses a VOSITables namespace, recorded as a native namespace anomaly rather than full standards-conformance validation. No cone/source/TAP query or job executed.",
+      "latest_checked_utc": "2026-10-19T01:53:45.458359+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -35482,7 +35500,7 @@
       "provider": "Regional Municipality of Waterloo",
       "service_name": "Region of Waterloo Open Data portal and metadata feed",
       "geographic_coverage": "Waterloo Region, Ontario, Canada and shared neighboring/third-party sources; per-item coverage varies",
-      "topical_coverage": "geospatial | transportation | housing | water | environment | law/civic | public spending/contracts",
+      "topical_coverage": "geospatial | transportation | water | environment | law/civic | public spending/contracts",
       "dataset_families": "Regional/local public open-data catalogue metadata and shared third-party dataset references; source features not queried",
       "documentation_url": "https://developers.arcgis.com/hub/services/feeds/ | https://rowopendata-rmw.opendata.arcgis.com/api/search/definition",
       "api_base_url": "https://rowopendata-rmw.opendata.arcgis.com/api/feed/dcat-us/1.1.json",
@@ -35492,7 +35510,7 @@
       "license": "Region of Waterloo custom Open Data Licence; mixed item-specific statements and missing licenses; whole-feed grant unconfirmed",
       "license_url": "https://www.regionofwaterloo.ca/government-and-council/transparency-and-accountability/open-data/",
       "api_verification_state": "Native portal HTML returned 200. DCAT feed route from official Esri documentation returned 200 but exceeded the local 1.5 MB cap: whole JSON invalid/incomplete. Exactly 301 complete metadata objects parsed from prefix, not full-response success. Independently documented OGC definition route returned 200 HTML reference, not JSON schema. No enlarged retry, alternative data format or feature API used.",
-      "latest_checked_utc": "2026-10-19T01:52:33.048431+00:00",
+      "latest_checked_utc": "2026-10-19T01:53:45.458359+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -40947,6 +40965,24 @@
       "license_url": "https://uba.uva.nl/en/support/research/registering-research/import-of-dataset-records.html",
       "api_verification_state": "Originalportalroot guard-deferredunsent; native independentlibraryguide200HTML; no currentportalAPI/schemaresponse.",
       "latest_checked_utc": "2026-10-18T15:29:38.270362+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "uvadoc-valladolid-repository",
+      "provider": "Universidad de Valladolid",
+      "service_name": "UVaDOC institutional repository",
+      "geographic_coverage": "University of Valladolid, Spain institutional research; source geographic coverage varies",
+      "topical_coverage": "education | culture | research",
+      "dataset_families": "Research publications, teaching materials, theses, institutional documents and research datasets; no source works retrieved",
+      "documentation_url": "https://uvadoc.uva.es",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://uvadoc.blogs.uva.es/2017/01/11/uva-politica-institucional-de-acceso-abierto/ | https://uvadoc.blogs.uva.es/files/2019/02/20190215_Procedimiento-deposito-TFG-TFM.pdf",
+      "api_verification_state": "Original native root robots/access-deferred before transmission. Registry OAI URL is the generic Open Archives protocol site, not an instance endpoint. No exact native deployment API/OAI schema verified and no generic DSpace route or alternate repository backend requested.",
+      "latest_checked_utc": "2026-10-19T01:53:45.458359+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -50849,6 +50885,24 @@
       "license_url": "https://www.open.ac.uk/Arts/reading/UK/copyright_guide.php",
       "api_verification_state": "Originalnativecopyrightguideguard-deferred; officialindexedpolicyinspected, no API/sample.",
       "latest_checked_utc": "2026-10-18T05:33:08.019097+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ulster-university-research-portal",
+      "provider": "Ulster University",
+      "service_name": "Ulster University Research Portal",
+      "geographic_coverage": "Ulster University, Northern Ireland, UK; institutional research geographic coverage varies",
+      "topical_coverage": "education | research",
+      "dataset_families": "Institutional research outputs, projects, theses and datasets; no profiles, student works or source data retrieved",
+      "documentation_url": "https://pure.ulster.ac.uk/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Reserved site/content rights including text/data mining and AI training; item-specific open-access exceptions",
+      "license_url": "https://pure.ulster.ac.uk/",
+      "api_verification_state": "Original native root returned 200 substantive HTML. Exact public API/schema not documented or tested; Pure framework identity does not establish an instance query contract or license.",
+      "latest_checked_utc": "2026-10-19T01:53:45.458359+00:00",
       "classification": "restricted"
     },
     {
