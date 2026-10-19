@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the design-document pages (neuralweb.dev/design/) from the markdown documents that live in each project's repo.
 
-    python tools/build_design.py NEURALKG2_MD ARD_MD QDFeeds_MD NLWEB_MD
+    python tools/build_design.py NEURALKG2_MD ARD_MD QDRSS_MD NLWEB_MD
 
 Each argument is the path of that project's docs/life-of-a-query.md. Needs the `markdown` package. Writes design/index.html and
 design/<name>/index.html. References between the documents become links; mermaid diagrams are drawn in the browser.
