@@ -1,5 +1,5 @@
 {
-  "published_at": "2026-10-19T01:02:18.740699+00:00",
+  "published_at": "2026-10-19T01:04:22.033691+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
@@ -8,7 +8,7 @@
   "latest_milestone": "Nineoriginals:NBNmixedlicenses/parser404; SangerNCND/resourcefrontier; MAPmapCCBY3/2releaseJSON; CórdobaPDF/RUApolicygaps; ComahueAnubis; Lujánnonprofit; NulanNC/OAIheld; SEGEMARindexedNCNDnotPD.",
   "counts": {
     "verified": 506,
-    "candidates": 1472,
+    "candidates": 1475,
     "excluded": 435,
     "sample_successes": 463
   },
@@ -26691,6 +26691,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "isb-india-data-portal",
+      "provider": "Indian School of Business / India Data Portal",
+      "service_name": "India Data Portal discovery",
+      "geographic_coverage": "India national/subnationalsocioeconomicdata discovery; currentexactcoverageunverified",
+      "topical_coverage": "demographics | agriculture | labor | economics/finance | education | health",
+      "dataset_families": "Socioeconomic/publicpolicydataaggregations andvisualisation; exactcurrentproductiondatasetfamilies unverified",
+      "documentation_url": "https://indiadataportal.com/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "ExactproductionAPI/authunknown; indexeddevAPI_TOKENplaceholdersnotused, no key/accountacquired",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown currentverifiedproductiondata/metadata grant",
+      "license_url": "https://indiadataportal.com/datausage?view=copyright_policy",
+      "api_verification_state": "Originalproductionrootrobots-deferredunsent, legalrequestunsent. Indexedckandev.indiadataportal.com APIexamplesaredevelopmenthostleads, notcurrentproductionAPI/runtimeproof; developmentroutesnotrequested, noalternatebackend workaround.",
+      "latest_checked_utc": "2026-10-19T01:04:16.811564+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "isdc-public-data-archive",
       "provider": "GFZ Information System and Data Center",
       "service_name": "ISDC public file-distribution hub and GNSS network source portal",
@@ -27372,6 +27390,24 @@
       "license_url": "https://www.knbs.or.ke/",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-16T16:41:04.920267+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "kerala-opensdi-portal",
+      "provider": "Kerala State Spatial Data Infrastructure",
+      "service_name": "Kerala OpenSDI discovery portal",
+      "geographic_coverage": "Kerala/India discoveryhint; actualcurrentlayercoverage unverified",
+      "topical_coverage": "geospatial | environment | housing | transportation | research",
+      "dataset_families": "Stategeospatial/layerdiscoverycandidate; exactcurrentfamilies unresolved",
+      "documentation_url": "https://opensdi.kerala.gov.in/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verifiedsource/metadata reusegrant",
+      "license_url": "https://opensdi.kerala.gov.in/",
+      "api_verification_state": "Originalnativeportalroot robots-deferredunsent, notHTML/APIresponse. ExactpublishedmachineAPI/schema/OGCbase and datareusegrant notverified. No guessedGeoServer/CSW/WMS/backend/alternatehost.",
+      "latest_checked_utc": "2026-10-19T01:04:16.811564+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -32412,6 +32448,24 @@
       "license_url": "https://research.ontariotechu.ca/faculty/research-data-management/rdm-assets.php",
       "api_verification_state": "Native institutional asset mapHTTP200exact Borealis collection link; free secure repository, indexed metadata and researcher-selected public/collaborator/locked access documented. Availability/free deposit/indexing not formal uniform metadata/source grant. Shared Borealis root/API/search holds retained; separate from eScholar publications and library subscriptions.",
       "latest_checked_utc": "2026-10-18T19:25:46.611053+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "open-budgets-india-portal",
+      "provider": "Centre for Budget and Governance Accountability and collaborators",
+      "service_name": "Open Budgets India portal",
+      "geographic_coverage": "India union/state/district/municipalbudgets perhistoricaloperatorpublication; currentcoverage unverified",
+      "topical_coverage": "public spending/contracts | economics/finance | law/civic",
+      "dataset_families": "Publicbudget/fiscaldocuments andmachine-readablebudgetcollections, historicaloperator scope; no fiscalvalues/filesacquired",
+      "documentation_url": "https://openbudgetsindia.org/dataset | https://www.cbgaindia.org/blog/budget-data-portals-effort-towards-providing-open-government-data-ogd-public-domain/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Historicalindexedoperator2019CCBY4claim; currenteffectivegrant/API unresolved",
+      "license_url": "https://openbudgetsindia.org/pages/license | https://www.cbgaindia.org/blog/budget-data-portals-effort-towards-providing-open-government-data-ogd-public-domain/",
+      "api_verification_state": "Registered/datasetGET404, licensefollowupunsentafterhostfailure. IndependentoperatorpublicationGET404, indexedhistoricaltextreviewed. ExactcurrentCKAN/APIservicebase/schema notverified, no guessed/api/3/action/backend/hostretry.",
+      "latest_checked_utc": "2026-10-19T01:04:16.811564+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
