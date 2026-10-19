@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-19T01:08:27.903734+00:00",
+  "published_at": "2026-10-19T01:10:31.389657+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:08:25.571442+00:00",
+  "research_updated_at": "2026-10-19T01:09:26.934443+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "KMS7roundreferences/APIgrantgap; CGAoriginalNSDheld/legalnogrant; OpenCitynativeNC-SA4/ODbLnotpublicdomain/APIunverified.",
+  "latest_milestone": "Nineoriginals:UNPDCCBY3IGO/23ops/full86indicatormetadata; BhoonidhiJWT/STAC/reuseconstraint; Bhuvanview/reusebans; OpenCityNC-SA/ODbL; Kerala/OBI/IDP/CGAholds,KMSAPIgrantgap.",
   "counts": {
     "verified": 507,
     "candidates": 1477,
@@ -42,6 +42,7 @@
           "datacommons",
           "geonames",
           "malaria-atlas-project-data-api",
+          "un-population-division-dataportal-api",
           "unhcr-portal",
           "unicef",
           "worldbank",
@@ -451,6 +452,7 @@
           "nih-mesh",
           "nih-pubmed",
           "pdb",
+          "un-population-division-dataportal-api",
           "unhcr-portal",
           "unicef",
           "uniprot",
@@ -1160,6 +1162,7 @@
           "ror",
           "toar-surface-observation-api",
           "tu-wien-research-data",
+          "un-population-division-dataportal-api",
           "unesco",
           "uniprot",
           "usgs-eros-m2m-services",
@@ -5299,6 +5302,8 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "digital-south-asia-library",
+          "isb-india-data-portal",
+          "kerala-migration-survey-cds",
           "nepal",
           "pakistan",
           "pakistan-odp",
@@ -5311,7 +5316,11 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "india-cga-national-summary-data",
+          "isb-india-data-portal",
+          "kerala-migration-survey-cds",
           "nepal",
+          "open-budgets-india-portal",
           "pakistan",
           "pakistan-odp",
           "rbi-dbie-statistical-portal",
@@ -5323,6 +5332,8 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "isb-india-data-portal",
+          "kerala-migration-survey-cds",
           "rbi-dbie-statistical-portal"
         ],
         "restricted_provider_ids": []
@@ -5333,12 +5344,15 @@
         "candidate_provider_ids": [
           "bharat-genome-database",
           "india-environment-portal",
+          "isb-india-data-portal",
           "mtropics-sedoo-metadata",
           "nepal",
           "pakistan-odp"
         ],
         "restricted_provider_ids": [
-          "ibdc-indian-crop-phenome"
+          "ibdc-indian-crop-phenome",
+          "isro-bhoonidhi-data-api",
+          "isro-bhuvan-webservices"
         ]
       },
       "climate/weather/environment": {
@@ -5349,6 +5363,7 @@
           "incois-ocean-erddap-services",
           "india-biodiversity-portal",
           "india-environment-portal",
+          "kerala-opensdi-portal",
           "mtropics-sedoo-metadata",
           "mumbai-geomagnetism-data-centre",
           "nepal",
@@ -5356,7 +5371,10 @@
           "wis2-nepal"
         ],
         "restricted_provider_ids": [
-          "mosdac-data-api"
+          "isro-bhoonidhi-data-api",
+          "isro-bhuvan-webservices",
+          "mosdac-data-api",
+          "opencity-india-urban-data"
         ]
       },
       "water": {
@@ -5370,6 +5388,7 @@
           "nepal"
         ],
         "restricted_provider_ids": [
+          "isro-bhuvan-webservices",
           "mosdac-data-api"
         ]
       },
@@ -5390,10 +5409,12 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "clinical-trials-registry-india",
+          "isb-india-data-portal",
           "pakistan-odp"
         ],
         "restricted_provider_ids": [
-          "human-protein-reference-database"
+          "human-protein-reference-database",
+          "opencity-india-urban-data"
         ]
       },
       "education": {
@@ -5403,27 +5424,39 @@
           "claremont-colleges-digital-library",
           "digital-south-asia-library",
           "heidata-research-metadata-api",
+          "isb-india-data-portal",
+          "kerala-migration-survey-cds",
           "pakistan-odp",
           "udiseplus-education-data-api"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "opencity-india-urban-data"
+        ]
       },
       "housing": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "kerala-opensdi-portal",
           "nepal",
           "pakistan-odp"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "isro-bhuvan-webservices",
+          "opencity-india-urban-data"
+        ]
       },
       "transportation": {
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "kerala-opensdi-portal",
           "pakistan-odp"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "isro-bhuvan-webservices",
+          "opencity-india-urban-data"
+        ]
       },
       "geospatial": {
         "status": "partial_candidates_only",
@@ -5433,20 +5466,29 @@
           "digital-south-asia-library",
           "india-biodiversity-portal",
           "issdc-space-science-archive",
+          "kerala-opensdi-portal",
           "mumbai-geomagnetism-data-centre",
           "wis2-india",
           "wis2-nepal"
         ],
         "restricted_provider_ids": [
+          "isro-bhoonidhi-data-api",
+          "isro-bhuvan-webservices",
           "mosdac-data-api",
+          "opencity-india-urban-data",
           "pakistan-petroleum-data-repository"
         ]
       },
       "public spending/contracts": {
-        "status": "unsearched",
+        "status": "partial_candidates_only",
         "verified_provider_ids": [],
-        "candidate_provider_ids": [],
-        "restricted_provider_ids": []
+        "candidate_provider_ids": [
+          "india-cga-national-summary-data",
+          "open-budgets-india-portal"
+        ],
+        "restricted_provider_ids": [
+          "opencity-india-urban-data"
+        ]
       },
       "companies/nonprofits": {
         "status": "unsearched",
@@ -5458,9 +5500,13 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
-          "claremont-colleges-digital-library"
+          "claremont-colleges-digital-library",
+          "india-cga-national-summary-data",
+          "open-budgets-india-portal"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "opencity-india-urban-data"
+        ]
       },
       "biodiversity": {
         "status": "partial_candidates_only",
@@ -5503,12 +5549,15 @@
           "digital-south-asia-library",
           "heidata-research-metadata-api",
           "india-environment-portal",
+          "isb-india-data-portal",
           "mtropics-sedoo-metadata",
           "nepal",
           "pakistan-odp"
         ],
         "restricted_provider_ids": [
-          "ibdc-indian-crop-phenome"
+          "ibdc-indian-crop-phenome",
+          "isro-bhoonidhi-data-api",
+          "isro-bhuvan-webservices"
         ]
       },
       "research": {
@@ -5525,6 +5574,8 @@
           "india-biodiversity-portal",
           "india-environment-portal",
           "issdc-space-science-archive",
+          "kerala-migration-survey-cds",
+          "kerala-opensdi-portal",
           "mtropics-sedoo-metadata",
           "mumbai-geomagnetism-data-centre",
           "pakistan-odp",
@@ -5534,6 +5585,7 @@
         "restricted_provider_ids": [
           "human-protein-reference-database",
           "ibdc-indian-crop-phenome",
+          "isro-bhoonidhi-data-api",
           "mosdac-data-api",
           "pakistan-petroleum-data-repository"
         ]
