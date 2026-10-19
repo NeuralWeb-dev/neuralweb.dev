@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:43:23.937287+00:00",
+  "published_at": "2026-10-19T01:45:27.892749+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:40:43.155583+00:00",
+  "research_updated_at": "2026-10-19T01:44:20.906166+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve originals processed: thirteen new records, GHDx deduplicated; Antarctic 285-operation native schema indexed; GRDC separate CC BY subset and J-STAGE cache restrictions verified.",
+  "latest_milestone": "SAH CC0 metadata and anonymous OAI protocol verified; native 15-operation schema and three formats indexed; PSU source grants unresolved; Korea polar research-use restrictions verified.",
   "counts": {
-    "verified": 507,
-    "candidates": 1499,
-    "excluded": 447,
+    "verified": 508,
+    "candidates": 1500,
+    "excluded": 448,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -15475,6 +15475,24 @@
       "license_url": "https://av.tib.eu/opendata",
       "api_verification_state": "Native currentopenmetadata/ownerOAIguide HTTP200; ownercurrent /mdg/oai Identify and AVsetListIdentifiers validXML. Headerfrontier state=complete_returned_header_frontier, 385pages/38478uniqueIDs, reported38478; sourcefilmfiles not queried.",
       "latest_checked_utc": "2026-10-18T08:33:08.406350+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "tib-sah-digital-metadata",
+      "provider": "TIB – Leibniz Information Centre for Science and Technology",
+      "service_name": "SAH digital Albrecht Haupt collection metadata APIs",
+      "geographic_coverage": "Albrecht Haupt collection held at TIB Hannover, Germany; historical artwork subjects and depicted geography vary",
+      "topical_coverage": "culture | geospatial | research",
+      "dataset_families": "Hand drawings, prints and collection descriptive metadata; LIDO, RDF and METS metadata publication",
+      "documentation_url": "https://sah.tib.eu/about_page | https://sah.tib.eu/dynapi-rest-docs | https://sah.tib.eu/api/docs/rest/1",
+      "api_base_url": "https://sah.tib.eu/oai/provider",
+      "format_protocol": "OAI-PMH 2.0 XML; LIDO/RDF/METS metadata; native OpenAPI 3.0.1 YAML for dynamic REST API",
+      "authentication": "Anonymous Identify and ListMetadataFormats succeeded; REST operation security untested",
+      "free_access_restrictions": "CC0 metadata; PDM-marked works/digitizations separately described. No payment or permission needed for sampled protocol metadata.",
+      "license": "CC0 1.0 for descriptive metadata; PDM 1.0 applies only to marked works/digitizations",
+      "license_url": "https://sah.tib.eu/images_and_metadata",
+      "api_verification_state": "Native rights/about docs returned 200 HTML; exact owner-published OpenAPI endpoint returned parseable YAML with 30 paths/15 operations. Anonymous OAI Identify and ListMetadataFormats returned 200 valid OAI-PMH XML without protocol errors; three formats: mets, lido_xml, rdf. No source-record operation or REST operation executed.",
+      "latest_checked_utc": "2026-10-19T01:44:14.632129+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -34074,6 +34092,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "penn-state-data-commons",
+      "provider": "Penn State Institute for Computational and Data Sciences / Institute of Energy and the Environment",
+      "service_name": "Penn State Data Commons",
+      "geographic_coverage": "Penn State research and US state/local/federal source discovery; individual source geography varies",
+      "topical_coverage": "research | geospatial | agriculture | water | climate/weather/environment | biodiversity",
+      "dataset_families": "Institutional research datasets; soils, aerial imagery, land cover, hydrology, elevation, weather and biodiversity discovery",
+      "documentation_url": "https://www.datacommons.psu.edu/default.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.datacommons.psu.edu/about.html",
+      "api_verification_state": "Native original root/about returned 200 HTML and describe collaborative maps/web services, not an exact public query API. Registry FTP entry is an HTTPS questions PDF, not proof of an FTP or query API. No FTP probe or generic ArcGIS endpoint inferred.",
+      "latest_checked_utc": "2026-10-19T01:44:14.632129+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "peptideatlas-data-service",
       "provider": "Institute for Systems Biology / PeptideAtlas",
       "service_name": "PeptideAtlas data access and documented mapping API",
@@ -47825,6 +47861,24 @@
       "license_url": "https://kosis.kr/openapi/introduce/introduce_02List.do",
       "api_verification_state": "documented_key_required_untested_restricted_custom_terms",
       "latest_checked_utc": "2026-10-16T20:33:53.878831+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "korea-polar-data-center",
+      "provider": "Korea Polar Research Institute",
+      "service_name": "Korea Polar Data Center",
+      "geographic_coverage": "Korean Arctic and Antarctic research; per-source geographic coverage varies",
+      "topical_coverage": "oceans | climate/weather/environment | biodiversity | geospatial | research",
+      "dataset_families": "Polar scientific data and metadata; marine, atmospheric, ice, sediment and biological research discovery; no source observations retrieved",
+      "documentation_url": "https://kpdc.kopri.re.kr/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public documentation accessible; data-use application and notified-scope procedures described; no account or application",
+      "free_access_restrictions": "Scientific-purpose disclosure and use within approved/notified scope; source exceptions and request-based access vary; no agreement accepted",
+      "license": "Research-purpose and approved-use policy; individual source licenses may differ; metadata-wide open grant unknown",
+      "license_url": "https://kpdc.kopri.re.kr/policy/general-provisions | https://kpdc.kopri.re.kr/policy/data-management | https://kpdc.kopri.re.kr/policy/data-disclosure",
+      "api_verification_state": "Native root and three policy pages returned 200 HTML. Exact public API/schema not established; no backend reconstruction or source query.",
+      "latest_checked_utc": "2026-10-19T01:44:14.632129+00:00",
       "classification": "restricted"
     },
     {
