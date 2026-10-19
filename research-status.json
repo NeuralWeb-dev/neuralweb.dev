@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:15:01.314678+00:00",
+  "published_at": "2026-10-19T00:17:04.330932+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:12:12.967840+00:00",
+  "research_updated_at": "2026-10-19T00:15:45.277958+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals: CanadaVigilance namedOGL/referenceJSON; HPA currentBY4/API/XSD/591fieldaliases; NERC328operations/siteJSON; ProtectedPlanetv4/ArkeoGIS restrictions; OPARA/WADI/BioProject gaps; MPDdedup.",
+  "latest_milestone": "OOI fullterms restriction/M2Mkey/ERDDAP400; IMSRARR/APIgap; XFEL policy-scoped CC0/BY4 and108schema pathreferences.",
   "counts": {
-    "verified": 501,
+    "verified": 502,
     "candidates": 1451,
-    "excluded": 423,
+    "excluded": 425,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -9980,6 +9980,24 @@
       "license_url": "https://clarin.eurac.edu/repository/xmlui/page/about",
       "api_verification_state": "Native owner overview/policy HTTP200 substantive HTML; exact original OAI Identify HTTP200 valid OAI-PMH2 XML, Identify present/no protocol error. Safe identity index excludes adminEmail.",
       "latest_checked_utc": "2026-10-18T18:07:17.891569+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "european-xfel-metadata-api",
+      "provider": "European XFEL GmbH",
+      "service_name": "myMdC and PaNOSC metadata APIs",
+      "geographic_coverage": "European XFEL experiments in Germany with international research teams; policy-era/publication scope applies",
+      "topical_coverage": "research | physics | materials",
+      "dataset_families": "Scientific proposal/beamtime/dataset discovery schemas; high-level metadata CC0 under2023policy, released public scientific data BY4; proprietary/embargoed content excluded",
+      "documentation_url": "https://in.xfel.eu/metadata/api-docs/ | https://in.xfel.eu/metadata/api-docs/v1/swagger.yaml | https://in.xfel.eu/metadata/api-docs/panosc/swagger.yaml",
+      "api_base_url": "https://in.xfel.eu/metadata/api",
+      "format_protocol": "OpenAPI3.0.2 YAML myMdC/PaNOSC schema entrypoints with external path references, not complete resolved operation schemas",
+      "authentication": "Published schemas require X-USER-EMAIL plus OAuth2 MetadataAuth public scope or bearer token. No credentials used/available; no anonymous query success inferred from public scope label. Portal prompts campus login",
+      "free_access_restrictions": "Scoped policy grants for public research released after embargo/high-level metadata; no access to embargoed/proprietary data. No registration/beamtime agreement/key/fee",
+      "license": "CC0 high-level metadata and CC BY4 released scientific data under2023policy;2017policy retained for older experiments",
+      "license_url": "https://www.xfel.eu/users/policies/index_eng.html | https://docs.xfel.eu/alfresco/d/a/workspace/SpacesStore/1cd87d00-2ee1-4de2-9420-d0bdb6675d2c/European_XFEL_Scientific_Data_Policy_v2.pdf",
+      "api_verification_state": "Native portal/APIUI200HTML; two exact UI-published YAML entrypoints200 valid OpenAPI3.0.2 with productionbase and auth. myMdC94pathrefs/PaNOSC14pathrefs indexed; external operation definitions unresolved. Old2017policyPDF200. New2023PDF web-reader internalerror retained, no docs-host retry; indexed native policy and independent native applicability200 reviewed. No resource runtime request.",
+      "latest_checked_utc": "2026-10-19T00:15:39.690833+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -45933,6 +45951,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "international-mouse-strain-resource",
+      "provider": "The Jackson Laboratory / IMSR collaborating repositories",
+      "service_name": "International Mouse Strain Resource catalogue",
+      "geographic_coverage": "Worldwide contributed mouse/ES-cell resource repository directory; source location/geography unenumerated",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Mouse strain/ES-cell resource discovery catalogue; no strain/source record or biological material requested",
+      "documentation_url": "https://www.findmice.org/about",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public root/about visible anonymously; exact API unknown, no credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Native copyright all rights reserved; no metadata/database reuse grant verified",
+      "license_url": "https://www.findmice.org/copyright",
+      "api_verification_state": "Native root/about/copyright200HTML, about identifies international multi-institutional resource-search directory. Exact public query API/schema/base/runtime unverified; HTML search is not API success.",
+      "latest_checked_utc": "2026-10-19T00:15:39.690833+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "iowa-state-datashare",
       "provider": "Iowa State University Library / ISU DataShare",
       "service_name": "Iowa State DataShare institutional Figshare portal",
@@ -47658,6 +47694,24 @@
       "license_url": "https://ofa.org/about/ofa-policies/",
       "api_verification_state": "Native public About and policies HTTP200 HTML; no exact public data API verified",
       "latest_checked_utc": "2026-10-18T03:38:58.430353+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ooi-ocean-observatories-interfaces",
+      "provider": "NSF Ocean Observatories Initiative / Woods Hole Oceanographic Institution and partners",
+      "service_name": "OOI M2M and Data Explorer ERDDAP",
+      "geographic_coverage": "North Atlantic/North Pacific coastal/global arrays, historical Southern Ocean/Argentine Basin deployments; exact source coverage varies",
+      "topical_coverage": "oceans | climate | environment | water | research",
+      "dataset_families": "Ocean instrument observations, infrastructure metadata and ship/project-specific products; no actual observation/location/source values acquired",
+      "documentation_url": "https://oceanobservatories.org/m2m/ | https://erddap.dataexplorer.oceanobservatories.org/erddap/rest.html",
+      "api_base_url": "https://erddap.dataexplorer.oceanobservatories.org/erddap/ | exact M2M base not independently verified",
+      "format_protocol": "M2M documented authenticated interface; ERDDAP REST/OPeNDAP catalogue documentation verified",
+      "authentication": "Native M2M requires portal account/API username/token; no credentials available/acquired. ERDDAP metadata request sent anonymously but returned400, not API success",
+      "free_access_restrictions": "Electronic delivery free, media fees separate; full user terms prohibit operational/decision-making uses despite broad landing-page availability statement",
+      "license": "Custom OOI attribution terms with use restrictions; no blanket unrestricted open acceptance",
+      "license_url": "https://oceanobservatories.org/how-to-use-acknowledge-and-cite-data/ | https://oceanobservatories.org/wp-content/uploads/2022/12/1102-00020_Data_User_Terms_Conditions_OOI_2019-01-02_Ver_2-00.pdf",
+      "api_verification_state": "Native M2M/acknowledgment/ERDDAP REST docs200, fulltermsPDF200 and official PDF-reader review. M2M key-required untested. ERDDAP metadata-only catalogue projection400; not proof interface absent. No observation request or alternate route.",
+      "latest_checked_utc": "2026-10-19T00:15:39.690833+00:00",
       "classification": "restricted"
     },
     {
