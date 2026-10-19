@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:00:37.415052+00:00",
+  "published_at": "2026-10-19T00:02:40.798044+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-18T23:56:10.186670+00:00",
+  "research_updated_at": "2026-10-19T00:00:56.181710+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "IIDinterface/rights gaps; JSTORImageslicenseddefaults/challenge; UFSCarARR/NCNDsourcepolicy andmetadataAPIgap.",
+  "latest_milestone": "OBIA indexed academic restriction; COCONUT native39-operation schema and license conflict; GREDOS scopedCC0 metadata policy/historicalOAI404.",
   "counts": {
     "verified": 499,
-    "candidates": 1443,
-    "excluded": 419,
+    "candidates": 1445,
+    "excluded": 420,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -19939,6 +19939,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "coconut-natural-products-rest",
+      "provider": "COCONUT / Friedrich Schiller University Jena and contributors",
+      "service_name": "COCONUT natural products REST service",
+      "geographic_coverage": "International natural-product chemistry collections; Germany-hosted, source geography varies",
+      "topical_coverage": "research | biodiversity | health",
+      "dataset_families": "Molecules, collections, citations, organisms and properties API descriptions; chemical structures/source values not acquired",
+      "documentation_url": "https://coconut.naturalproducts.net/api-documentation | https://coconut.naturalproducts.net/vendor/rest/openapi.json",
+      "api_base_url": "https://coconut.naturalproducts.net/api/",
+      "format_protocol": "REST JSON / OpenAPI 3; Swagger UI",
+      "authentication": "Schema anonymous; resource GETs explicitly sanctum Authorization bearer token. No account/key available or acquired. Anonymous POST search documented but untested; no mutation/auth calls.",
+      "free_access_restrictions": "Public schema/docs; operational free tier/access grant for protected resources unresolved. No subscription, account, key or download.",
+      "license": "Download page CC0 declaration; service terms preserve original-owner restrictions; effective API-wide grant unresolved",
+      "license_url": "https://coconut.naturalproducts.net/download | https://coconut.naturalproducts.net/terms-of-service",
+      "api_verification_state": "Native API UI200 publishes exact /vendor/rest/openapi.json, which returned complete valid OpenAPI JSON:32paths/39operations (8GET/24POST/7DELETE). Schema success only, not authenticated resource-runtime success. Protected resource GETs untested; mutation/user/auth/search operations never executed.",
+      "latest_checked_utc": "2026-10-19T00:00:49.944600+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "cocoon-fcs",
       "provider": "COCOON / Huma-Num",
       "service_name": "Public FCS/SRU language-resource capability API",
@@ -39109,6 +39127,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "usal-gredos-oai-repository",
+      "provider": "Universidad de Salamanca / Servicio de Bibliotecas",
+      "service_name": "GREDOS institutional repository / historical OAI-PMH",
+      "geographic_coverage": "Spain university-affiliated research, teaching, heritage and institutional archive; research geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Research publications, datasets, teaching materials, heritage and administrative archive descriptions; source works not queried",
+      "documentation_url": "https://gredos.usal.es/ | https://bibliotecas.usal.es/wp-content/uploads/2025/04/Documento-de-Politica-de-Ciencia-Abierta-de-la-Universidad-de-Salamanca.pdf",
+      "api_base_url": "http://gredos.usal.es/oai/request (historically documented; current404)",
+      "format_protocol": "Historical OAI-PMH; current root DSpace HTML",
+      "authentication": "Public home/privacy/policy; home says login/deposition temporarily disabled during upgrade. No credentials or access agreement.",
+      "free_access_restrictions": "Metadata policy promises CC0 or equivalent for publications under that policy; no all-legacy-metadata assurance. Source works per-item including restrictive default; no bulk source access.",
+      "license": "Policy-scoped metadata CC0 or equivalent; default unlicensed delegated source works BY-NC-ND4; mixed source rights",
+      "license_url": "https://bibliotecas.usal.es/wp-content/uploads/2025/04/Documento-de-Politica-de-Ciencia-Abierta-de-la-Universidad-de-Salamanca.pdf",
+      "api_verification_state": "Native home/privacy200HTML; official policyPDF200. Historical exact HTTP OAI Identify returned404, not protocolXML. Source hold retained; no HTTPS/path/backend workaround or framework endpoint guessing. Registry OpenArchives root is generic protocol documentation, not instance proof.",
+      "latest_checked_utc": "2026-10-19T00:00:49.944600+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "usaspending",
       "provider": "US Treasury / USAspending",
       "service_name": "US Treasury / USAspending API",
@@ -46992,6 +47028,24 @@
       "license_url": "https://www.nexdata.ai/legal/terms-of-service",
       "api_verification_state": "Native root/termsHTTP200substantive. No public readAPI/license-free programmatic collection established; no APIinferred from marketplace/download availability.",
       "latest_checked_utc": "2026-10-18T20:01:53.408265+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ngdc-open-biomedical-imaging-archive",
+      "provider": "CNCB / National Genomics Data Center",
+      "service_name": "Open Biomedical Imaging Archive",
+      "geographic_coverage": "China-hosted international biomedical imaging submissions; source coverage unenumerated",
+      "topical_coverage": "health | research",
+      "dataset_families": "Biomedical imaging archive and associated study/clinical descriptions; source records not queried",
+      "documentation_url": "https://ngdc.cncb.ac.cn/obia/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native home anonymous HTML shell; exact API/account requirements unknown",
+      "free_access_restrictions": "Indexed native academic-use-only default; commercial contact/licensing not undertaken",
+      "license": "Indexed native academic-use-only statement; commercial licensing required",
+      "license_url": "https://ngdc.cncb.ac.cn/obia/",
+      "api_verification_state": "Original home200 title-only HTML SPA, not API success. Indexed native discovery documentation, no current exact public API/schema or runtime verified.",
+      "latest_checked_utc": "2026-10-19T00:00:49.944600+00:00",
       "classification": "restricted"
     },
     {
