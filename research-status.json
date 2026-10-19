@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:22:52.357561+00:00",
+  "published_at": "2026-10-19T01:24:55.536206+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:20:15.790682+00:00",
+  "research_updated_at": "2026-10-19T01:24:33.571301+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "India Migration Now native project verified, API/grant unknown; Census India held; World Contraceptive Use deduplicated into verified UNPD API.",
+  "latest_milestone": "WHOI directory separated from NDSF policy; USTUR research restrictions verified; Sextant documented public CSW retained with runtime hold and restrictive default rights.",
   "counts": {
     "verified": 507,
-    "candidates": 1487,
-    "excluded": 439,
+    "candidates": 1488,
+    "excluded": 441,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -41432,6 +41432,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "whoi-data-repositories-directory",
+      "provider": "Woods Hole Oceanographic Institution",
+      "service_name": "WHOI Data and Repositories discovery directory",
+      "geographic_coverage": "Global marine and earth science discovery; individual repository coverage varies",
+      "topical_coverage": "oceans | climate/weather/environment | biodiversity | geospatial | research",
+      "dataset_families": "WHOI-supported cruise metadata, institutional repository, coastal observatories, sediment collections, vehicle imagery, biogeochemistry, ocean observatories, ice profiles, seismology, Argo and air-sea flux references; external national and international repository directory",
+      "documentation_url": "https://www.whoi.edu/what-we-do/understand/data/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.whoi.edu/what-we-do/understand/data/",
+      "api_verification_state": "Native parent directory and linked national/international repository page returned 200 HTML. These are discovery pages, not successful query APIs. Distinct services retained separately.",
+      "latest_checked_utc": "2026-10-19T01:24:26.933358+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "whoi-seafloor-samples-lab",
       "provider": "Woods Hole Oceanographic Institution",
       "service_name": "Seafloor Samples Laboratory collections/data portal",
@@ -46834,6 +46852,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "ifremer-sextant-catalogue",
+      "provider": "Ifremer",
+      "service_name": "Sextant marine and coastal geographic catalogue",
+      "geographic_coverage": "Marine and coastal geographic discovery; France and international source coverage varies",
+      "topical_coverage": "oceans | geospatial | climate/weather/environment | biodiversity | research",
+      "dataset_families": "Marine and coastal geographic metadata, map layers and source-specific open-data subsets; no geographic features, observations, raster or source files retrieved",
+      "documentation_url": "https://sextant.ifremer.fr/eng/Services/Use-the-Sextant-API",
+      "api_base_url": "https://sextant.ifremer.fr/geonetwork/srv/fre/csw",
+      "format_protocol": "Documented CSW metadata catalogue, ISO 19115/19139, WMS visualization and WFS downloads; embedded viewer integration distinct",
+      "authentication": "Public CSW described by official guide; runtime request access-deferred; dataset access varies",
+      "free_access_restrictions": "Public metadata catalogue documented; embedded viewer guide requests team permission/configuration; no contact or approval request made",
+      "license": "Mixed rights; restrictive website default and separately identified open-data subsets",
+      "license_url": "https://sextant.ifremer.fr/eng/Mentions-legales",
+      "api_verification_state": "Native API integration guide, Open Data page, catalogue shell and legal notice returned 200 HTML. Official indexed user guide publishes the exact public CSW endpoint. GetCapabilities was deferred by robots/access guard before transmission; no runtime API success, alternate route or source query claimed.",
+      "latest_checked_utc": "2026-10-19T01:24:26.933358+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "ifremer-sismer-marine-data-portal",
       "provider": "IFREMER / SISMER",
       "service_name": "Marine Data Portal discovery website",
@@ -48270,7 +48306,7 @@
       "license": "CC BY-NC-SA4for NDSF/WHOI imagery; other source grants/access conditions vary",
       "license_url": "https://ndsf.whoi.edu/data/ndsf-data-policy/",
       "api_verification_state": "Native homepage and data policy HTTP200HTML; public subset delegated to existing MGDS, exact standalone NDSF API not verified or sampled.",
-      "latest_checked_utc": "2026-10-18T04:33:42.763400+00:00",
+      "latest_checked_utc": "2026-10-19T01:24:26.933358+00:00",
       "classification": "restricted"
     },
     {
@@ -50575,6 +50611,24 @@
       "license_url": "https://datamap.pcs.usp.br/project/data-policy",
       "api_verification_state": "Native homepage/policy HTTP200 HTML; no verified public read-only query API",
       "latest_checked_utc": "2026-10-18T01:28:01.145619+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "ustur-research-access",
+      "provider": "Washington State University / U.S. Transuranium and Uranium Registries",
+      "service_name": "USTUR research collaboration and controlled data access",
+      "geographic_coverage": "United States registry research; exact accessible source coverage unresolved",
+      "topical_coverage": "health | research",
+      "dataset_families": "Human radiobiology research registry and tissue repository; no participant, clinical, tissue, exposure or source records retrieved",
+      "documentation_url": "https://ustur.wsu.edu/collaborators/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Research request and approval procedures described; exact machine authentication unknown",
+      "free_access_restrictions": "Research and confidentiality conditions apply; no application or agreement submitted; fees unknown",
+      "license": "Restricted research access; no blanket open data license verified",
+      "license_url": "https://ustur.wsu.edu/collaborators/",
+      "api_verification_state": "Native homepage and collaboration procedure returned 200 HTML, not API responses. Original registered policy PDF was access-deferred; no alternate policy download or backend used. No public machine API established.",
+      "latest_checked_utc": "2026-10-19T01:24:26.933358+00:00",
       "classification": "restricted"
     },
     {
