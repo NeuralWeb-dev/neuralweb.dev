@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:37:13.932131+00:00",
+  "published_at": "2026-10-19T01:39:17.383864+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:35:56.169878+00:00",
+  "research_updated_at": "2026-10-19T01:37:54.736517+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Italian Antarctic native Swagger schema verified and indexed; NPDC legal conflict/restrictions retained; Padua OAI documented but held.",
+  "latest_milestone": "Discover and J-STAGE Data roots held; OPGC catalogue shell verified without source grant; separate J-STAGE journal API terms document commercial approval and 24-hour cache restriction.",
   "counts": {
     "verified": 507,
-    "candidates": 1494,
-    "excluded": 445,
+    "candidates": 1497,
+    "excluded": 446,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -27557,6 +27557,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "jstage-data-repository",
+      "provider": "Japan Science and Technology Agency",
+      "service_name": "J-STAGE Data research repository",
+      "geographic_coverage": "Data associated with J-STAGE journals, Japan and international research; item coverage varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research datasets linked bidirectionally with journal articles; source licenses selected per item",
+      "documentation_url": "https://jstagedata.jst.go.jp/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public browsing described; exact query-API authentication unknown; no accounts or publisher applications",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB5/-char/en | https://www.jstage.jst.go.jp/static/files/en/J-STAGE_Data_FAQ.pdf",
+      "api_verification_state": "Original J-STAGE Data root was robots/access-deferred before transmission. Independent owner repository overview returned 200 HTML. No instance-specific public API/schema established; no generic Figshare endpoint, tenant query or alternate backend used after hold.",
+      "latest_checked_utc": "2026-10-19T01:37:49.383653+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "juelich-b2share-public-metadata",
       "provider": "Forschungszentrum Jülich / Jülich Supercomputing Centre",
       "service_name": "Local Jülich B2SHARE public record metadata REST API",
@@ -28814,6 +28832,24 @@
       "license_url": "https://litterbase.awi.de/static/imprint.html",
       "api_verification_state": "official_HTML_and_published_chart_client_reviewed_no_API_contract_or_open_grant_verified",
       "latest_checked_utc": "2026-10-17T20:09:05.566156+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "lmu-discover-research-discovery",
+      "provider": "University Library, Ludwig Maximilian University Munich",
+      "service_name": "Discover research-data discovery portal",
+      "geographic_coverage": "LMU Munich institutional research discovery, Germany; source geographic coverage varies",
+      "topical_coverage": "education | research",
+      "dataset_families": "Research-data discovery descriptions and links to institutional repositories; no source works or data retrieved",
+      "documentation_url": "https://discover.ub.uni-muenchen.de/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://discover.ub.uni-muenchen.de/",
+      "api_verification_state": "Original native root was robots/access-deferred before transmission; web search also reported robots restriction. Exact public machine API/schema not verified. No alternate catalog path, backend or metadata format request used.",
+      "latest_checked_utc": "2026-10-19T01:37:49.383653+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -33188,6 +33224,24 @@
       "license_url": "",
       "api_verification_state": "Native root/project/data representation and OWMeta documentation 200 HTML. No formal remote public API verified or source query performed.",
       "latest_checked_utc": "2026-10-18T11:21:00.344018+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "opgc-geonetwork-catalogue",
+      "provider": "OPGC / Université Clermont Auvergne (registry attribution; native operator details unresolved)",
+      "service_name": "OPGC data warehouse metadata catalogue",
+      "geographic_coverage": "Source geographic coverage unknown; provider is attributed to France by registry, not a source-coverage claim",
+      "topical_coverage": "geospatial | research",
+      "dataset_families": "Geographic research metadata catalogue; actual source families not enumerated",
+      "documentation_url": "https://catalog.opgc.uca.fr/metadata",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://catalog.opgc.uca.fr/metadata",
+      "api_verification_state": "Original native metadata page returned 200 HTML with generic GeoNetwork description. No exact public API/schema established or sampled; no guessed GeoNetwork API route or backend.",
+      "latest_checked_utc": "2026-10-19T01:37:49.383653+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -47536,6 +47590,24 @@
       "license_url": "https://gold.jgi.doe.gov/usagepolicy",
       "api_verification_state": "Native owner API link and API-service access documentation HTTP200; account/token required, no API runtime sample",
       "latest_checked_utc": "2026-10-18T03:49:29.275319+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "jstage-journal-webapi",
+      "provider": "Japan Science and Technology Agency",
+      "service_name": "J-STAGE journal metadata WebAPI",
+      "geographic_coverage": "J-STAGE journals and articles, Japan and international scholarly coverage",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Journal lists, volumes/issues, tables of contents and article bibliographic discovery metadata; no article content or records queried",
+      "documentation_url": "https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+      "api_base_url": "",
+      "format_protocol": "Documented XML query API; journal-search function announced 26 March 2026",
+      "authentication": "Noncommercial API use needs no prior application; commercial use requires JST approval; no API request, application or account",
+      "free_access_restrictions": "Commercial purpose requires prior approval even if service is free. Bulk downloading prohibited; API terms impose credit, use/content conditions and cache limits.",
+      "license": "Custom restrictive API terms; no blanket open metadata/data license",
+      "license_url": "https://www.jstage.jst.go.jp/static/pages/WebAPI/-char/ja | https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB3/-char/en",
+      "api_verification_state": "Native English API reference and linked Japanese terms returned 200 HTML. Exact request contract is delegated to a manual behind an agree-and-download link, which was not followed. No API operation, user application, agreement or metadata-result acquisition.",
+      "latest_checked_utc": "2026-10-19T01:37:49.383653+00:00",
       "classification": "restricted"
     },
     {
