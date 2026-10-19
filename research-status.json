@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:56:07.792705+00:00",
+  "published_at": "2026-10-19T00:58:12.407696+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:55:56.808881+00:00",
+  "research_updated_at": "2026-10-19T00:57:27.693225+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "NBN/Sanger/MAP and Argentina repositories active: native mixedlicenses/legaldefaults saved; NBNpublishedparser404held; UNComaAnubis200held; UNLurobotoraccesshold/noOAIretry; MAPrelease schema/legal verification pending.",
+  "latest_milestone": "NBNmixedlicenses/parser404hold; SangerNCNDdefault/resourcefrontier; MAPCCBY3mapsscope andnative2releaseJSON.",
   "counts": {
-    "verified": 505,
-    "candidates": 1468,
-    "excluded": 431,
+    "verified": 506,
+    "candidates": 1469,
+    "excluded": 432,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -12302,6 +12302,24 @@
       "license_url": "https://datos.madrid.es/pages/condiciones-de-uso | https://datos.madrid.es/pages/condiciones-generales-ayuntamiento-de-madrid",
       "api_verification_state": "official_OpenAPI_public_GET_documented_original_sample_policy_held_runtime_untested",
       "latest_checked_utc": "2026-10-17T04:58:20.586925+00:00",
+      "classification": "open_license_verified"
+    },
+    {
+      "identifier": "malaria-atlas-project-data-api",
+      "provider": "Malaria Atlas Project",
+      "service_name": "MAP data platform Trends and spatial interfaces",
+      "geographic_coverage": "Globalmalariaendemicregions; country/subnational/modelled5kmgridproducts, source/releasecoveragevaries",
+      "topical_coverage": "health | demographics | geospatial | research",
+      "dataset_families": "ModelledPf/Pvmalariarisk/burden/interventionmaps andadministrativeestimates; onlyrelease/metric metadatarequested",
+      "documentation_url": "https://data.malariaatlas.org/llms.txt | https://malariaatlas.org/open-access-policy/",
+      "api_base_url": "https://data.malariaatlas.org/map-platform-app-backend/api/v1/trends/ | https://data.malariaatlas.org/geoserver/",
+      "format_protocol": "HTTPJSONrelease metadata, documentedJSON-statTrends andOGCWCSspatialservices; no estimates/rasterqueries",
+      "authentication": "Anonymousrelease-metadataGET200; otheroperationruntime/authuntested, no accounts/keys",
+      "free_access_restrictions": "MAPmapsCCBY3; per-datasetlicence/citationdetails forothertabular/thirdpartysources. No paidserviceacquisition.",
+      "license": "CCBY3.0Unported explicitlyMAPmaps; tabular/thirdpartydata rights separatelyscoped, notuniformlycleared",
+      "license_url": "https://malariaatlas.org/open-access-policy/ | https://data.malariaatlas.org/llms.txt | https://data.malariaatlas.org/",
+      "api_verification_state": "Nativeplatform/accessguide/openaccesspolicy200. ExactpublishedTrends/metadata200applicationJSON, completevalidarrayoftworeleases202608/202508 withversion/provisional/dataEndYear/geoServerRefs. Metadataavailabilityproven, noestimate/clinical/coordinate/raster/resourceoperation executed.",
+      "latest_checked_utc": "2026-10-19T00:57:21.230864+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -30358,6 +30376,24 @@
       "license_url": "https://www.navdat.org/NavdatHome/FAQ.cfm#Why",
       "api_verification_state": "Native homepage/FAQ HTTP200 proper current service descriptions. Search/download/map UI and data-file availability not exactAPI or successful JSON/XML. No current public machine API established.",
       "latest_checked_utc": "2026-10-18T23:04:11.395084+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "nbn-atlas-webservices",
+      "provider": "National Biodiversity Network Trust and data partners",
+      "service_name": "NBN Atlas web services",
+      "geographic_coverage": "UK/GreatBritain/Scotland/Wales/NorthernIreland/IsleofMan biodiversity; partner/sourcecoveragevaries",
+      "topical_coverage": "biodiversity | environment | geospatial | research",
+      "dataset_families": "Species/taxonomy, partnerdatasets, biodiversityoccurrence andmapping; no occurrences/coordinates acquired",
+      "documentation_url": "https://api.nbnatlas.org/apps",
+      "api_base_url": "https://records-ws.nbnatlas.org/ | https://species-ws.nbnatlas.org/ | https://registry.nbnatlas.org/ws/",
+      "format_protocol": "NativeHTTPwebservice catalogue,JSON/XML/mapping interfaces; parserreferenceGET404, notAPI success",
+      "authentication": "Guide includeskey-required operations andauthenticationapplication; anonymousparserGET404 only, no key/account acquired; per-operationaccessunconfirmed",
+      "free_access_restrictions": "Partner/source-license conditions and enhancedsensitive-access controls; publiclyblurredrecordsmaycarryNC. No blanketunrestricted grant.",
+      "license": "Mixed sourceCC0/CCBY4/OGL/CCBYNC4 and restrictedenhancedaccess; no verifieduniformmetadata/databasegrant",
+      "license_url": "https://docs.nbnatlas.org/data-licenses/ | https://docs.nbnatlas.org/nbn-atlas-terms-of-use/",
+      "api_verification_state": "NativeAPIcatalogue/license/terms200HTML documentservicefamilies. Exactpublishedparser/mapTerms metadata-onlyGET404; oldreference notproofofallservicesnonexistent. Hosthold retained, no alternatequery/path/backend/formatretry. No occurrences/sourcequery or mapgeneration.",
+      "latest_checked_utc": "2026-10-19T00:57:21.230864+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -48900,6 +48936,24 @@
       "license_url": "https://ta.sandrart.net/de/info/services/rest/",
       "api_verification_state": "Native API guide HTTP200; documented single artwork JSON request guard-deferred unsent, not successful JSON or API absence",
       "latest_checked_utc": "2026-10-18T02:05:39.388883+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "sanger-scientific-resource-directory",
+      "provider": "Wellcome Sanger Institute / Genome Research Limited",
+      "service_name": "Scientific data resource directory",
+      "geographic_coverage": "International genomic/geneticresearchresources, UKhosted; project/dataaccessvaries",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Human/animal/microbialgenomics,Ensembl,cancergene/referencecollections andresourcefamilydirectory; no genomic/participant/sourcefiles acquired",
+      "documentation_url": "https://www.sanger.ac.uk/science/data/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Website-created/hostedcontent defaultCCBYNCND4unlessotherwise stated; source/projecttermsandcontrolledaccess vary",
+      "license_url": "https://www.sanger.ac.uk/legal/",
+      "api_verification_state": "Native resource/legal200HTML. Directorylistsdistinctdataprojects andFTPtransport, notsinglemachinequeryAPI. NoNCBI/sequence/FTP/APIbackendguess; per-resourcecontract/runtime remainsfrontier.",
+      "latest_checked_utc": "2026-10-19T00:57:21.230864+00:00",
       "classification": "restricted"
     },
     {
