@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:06:47.582208+00:00",
+  "published_at": "2026-10-19T00:08:50.762132+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:03:33.139519+00:00",
+  "research_updated_at": "2026-10-19T00:07:04.794847+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals reviewed: COCONUT39-operation native schema/license conflict; GREDOS policy-scoped metadata grant/OAI404; Chile catalogue references; UNISA shutdown and source restrictions; IID/JSTOR/UFSCar/OBIA/Bialystok scoped findings.",
+  "latest_milestone": "NERC GeoNetwork4.4.10 native schema/anonymous siteJSON, metadata grant unresolved; OPARA selected licenses; ProtectedPlanetv4 restricted/tokenrequired.",
   "counts": {
     "verified": 499,
-    "candidates": 1447,
-    "excluded": 421,
+    "candidates": 1449,
+    "excluded": 422,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -30357,6 +30357,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "nerc-data-catalogue-geonetwork",
+      "provider": "UKRI / NERC Environmental Data Service",
+      "service_name": "NERC Data Catalogue Service GeoNetwork API",
+      "geographic_coverage": "UK-led environmental research and international referenced datasets; source coverage varies",
+      "topical_coverage": "environment | climate | oceans | water | geospatial | research",
+      "dataset_families": "Cross-centre environmental metadata discovery; catalogue settings sample only, no environmental observations acquired",
+      "documentation_url": "https://data-search.nerc.ac.uk/geonetwork/doc/api | https://data-search.nerc.ac.uk/geonetwork/srv/api/doc",
+      "api_base_url": "https://data-search.nerc.ac.uk/geonetwork/srv/api",
+      "format_protocol": "REST JSON / OpenAPI3, GeoNetwork4.4.10",
+      "authentication": "Anonymous published schema and site description GET succeeded; record/source endpoints and management operations untested, access varies",
+      "free_access_restrictions": "Public catalogue documentation/site description; individual source registration/licenses may differ, no account/key",
+      "license": "NERC source data generally OGLv3 with record-specific alternatives; metadata-wide grant unresolved",
+      "license_url": "https://help.eds.ukri.org/article/5033-data-re-use-faqs",
+      "api_verification_state": "Native root/APIUI200HTML; directly published schema200 valid complete OpenAPI3 GeoNetwork4.4.10. Anonymous GET /site200 valid JSON site-description metadata. Exact schema-operation count recorded separately; source queries/admin endpoints not executed.",
+      "latest_checked_utc": "2026-10-19T00:06:59.903468+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "network-repository-graph-data",
       "provider": "Network Repository",
       "service_name": "Network Repository graph collections",
@@ -35610,6 +35628,24 @@
       "license_url": "https://repo.data.saw-leipzig.de/licenses/de",
       "api_verification_state": "actual_SRU_explain_XML_capability_metadata_sample_success",
       "latest_checked_utc": "2026-10-17T21:14:06.318185+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "saxon-opara-research-repository",
+      "provider": "Saxon universities / TU Dresden CIDS",
+      "service_name": "OPARA research data repository",
+      "geographic_coverage": "Saxon university research and international collaborations; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Research dataset publication and nonpublic archiving; broad disciplines, source data not queried",
+      "documentation_url": "https://opara.zih.tu-dresden.de/docs/ | https://opara.zih.tu-dresden.de/docs/submit.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public home/manual anonymous; institutional/guest login for eligible Saxon researchers and deposits. Exact public machine API unknown; no credentials",
+      "free_access_restrictions": "Research publication and private archiving distinguished; public source access and licenses vary; no account/deposit/contact",
+      "license": "Per-publication selected CC variant; BY4 recommended, no uniform metadata/data grant verified",
+      "license_url": "https://opara.zih.tu-dresden.de/docs/submit.html",
+      "api_verification_state": "Native root/manual/submit-policy200HTML, current DSpace deployment visible. No exact publicly documented general query API/OAI base/schema verified; indexed source bitstream paths not used as discovery API or queried.",
+      "latest_checked_utc": "2026-10-19T00:06:59.903468+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -47852,6 +47888,24 @@
       "license_url": "https://prometheus-bildarchiv.de/en/api_copyright",
       "api_verification_state": "Native public homepage and API copyright page HTTP200; registry API guide guard-deferred unsent, no alternate route",
       "latest_checked_utc": "2026-10-18T01:29:02.342527+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "protected-planet-v4-api",
+      "provider": "UNEP-WCMC / IUCN and contributing data providers",
+      "service_name": "Protected Planet API v4",
+      "geographic_coverage": "Worldwide protected/conserved areas and management-effectiveness collections, contributor permissions vary",
+      "topical_coverage": "biodiversity | environment | oceans | geospatial | research",
+      "dataset_families": "WDPCA/WDPA, protected-area parcels, countries and GD-PAME descriptions; no actual areas/coordinates/observations queried",
+      "documentation_url": "https://api.protectedplanet.net/documentation",
+      "api_base_url": "https://api.protectedplanet.net/v4",
+      "format_protocol": "REST JSON; v4 documented, v3 deprecated",
+      "authentication": "Native docs require token parameter on all API calls, approved key by application. No example credential used, no account/key request",
+      "free_access_restrictions": "API unavailable for commercial use, including any commercial-entity use; prior permission/licensed routes distinct. No subscriptions/permissions/contracts/contact",
+      "license": "Noncommercial/no redistribution or sublicensing without prior written permission; source exceptions vary",
+      "license_url": "https://www.protectedplanet.net/en/legal | https://api.protectedplanet.net/request",
+      "api_verification_state": "Native current API documentation200HTML describes v4 endpoints and mandatory token, v3 deprecation. Native legal/access-policy200 establishes restrictions. No token/sample/test/area/parcel request sent; documentation not API runtime success.",
+      "latest_checked_utc": "2026-10-19T00:06:59.903468+00:00",
       "classification": "restricted"
     },
     {
