@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-19T00:25:17.518064+00:00",
+  "published_at": "2026-10-19T00:27:20.677801+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:22:26.146401+00:00",
+  "research_updated_at": "2026-10-19T00:25:50.551450+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine originals plusIESN: XFEL policy-scoped CC0/BY4/108externalpathrefs; EBRAINS76ops; EMMAzero-rowJSON; OOI/IMSR/EuMMCR/BigBrain restrictions; PerovskiteNOMADdedup; TaiwanMetacat/IESNholds.",
+  "latest_milestone": "OGMP archival/APIgrantgap; NMMR indexedArcGIS/robotshold/rightsunknown; FAOSTAT canonicaldedup/currentrestrictionrecheck.",
   "counts": {
     "verified": 502,
-    "candidates": 1455,
+    "candidates": 1457,
     "excluded": 427,
     "sample_successes": 463
   },
@@ -29241,6 +29241,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "montreal-ogmp-archival-resource",
+      "provider": "Université de Montréal / OGMP collaboration",
+      "service_name": "Organelle Genome Megasequencing Program resource",
+      "geographic_coverage": "Canada-led international reference-biology research; no population geography established",
+      "topical_coverage": "research | biodiversity",
+      "dataset_families": "Archival organelle genome project/tool/GOBASE descriptions; no genomic/source sequences acquired",
+      "documentation_url": "https://megasun.bch.umontreal.ca/ogmp/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public overview anonymous; exact data API unknown, no credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified OGMP database/metadata reuse grant",
+      "license_url": "https://megasun.bch.umontreal.ca/ogmp/",
+      "api_verification_state": "Original root200HTML explicitly titles program1992–2009 and links GOBASE/research tools. No current deployed data-query API/schema verified. Masterfile/FASTA/GenBank compatibility is format, not live API. Separately indexed MFannot processing API not treated as open-data retrieval interface.",
+      "latest_checked_utc": "2026-10-19T00:25:45.881554+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "montreal-open-data-catalog",
       "provider": "Ville de Montréal / participating organizations",
       "service_name": "Montréal CKAN open-data catalogue",
@@ -32748,6 +32766,24 @@
       "license_url": "https://osis.geomar.de/app/ | https://osis.geomar.de/api/apispec_1.json",
       "api_verification_state": "native_anonymous_single_public_platform_JSON_success_published_Swagger2_schema",
       "latest_checked_utc": "2026-10-17T19:14:19.013280+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "osmre-national-mine-map-metadata",
+      "provider": "US Office of Surface Mining Reclamation and Enforcement",
+      "service_name": "National Mine Map Repository ArcGIS discovery",
+      "geographic_coverage": "United States historic coal/metal/nonmetal mine-map repository; exact source coverage/accuracy varies",
+      "topical_coverage": "energy | geospatial | environment | research",
+      "dataset_families": "Mine-map catalogue/service descriptions; map imagery not downloadable from indexed point service, no actual mine/site/source location retrieved",
+      "documentation_url": "https://geodata.osmre.gov/arcgis/rest/services/NMMR/MineMap_Points/FeatureServer | https://www.osmre.gov/programs/national-mine-map-repository",
+      "api_base_url": "https://geodata.osmre.gov/arcgis/rest/services/NMMR/MineMap_Points/FeatureServer",
+      "format_protocol": "Indexed official ArcGIS FeatureServer/MapServer; current machine metadata runtime untested",
+      "authentication": "Public native project documentation; exact API credentials unknown under robots hold, no account",
+      "free_access_restrictions": "Indexed source says noncommercial map research free/commercial staff research46USD/hour; this is fulfilled-map request pricing, not proof point-API subscription or NClicense. No acquisition/contact/payment",
+      "license": "unknown verified point-catalogue/map-source reuse grant; government/registry public-domain label insufficient",
+      "license_url": "https://www.doi.gov/disclaimer | https://www.osmre.gov/programs/national-mine-map-repository",
+      "api_verification_state": "Native NMMR page and linked DOI disclaimer200HTML. Official indexed current geodata FeatureServer and older geoservices layers documented. Actual exact FeatureServer metadata request robots-deferred unsent; layer request deferred. No successful APIJSON or absence inference, no alternate-host/backend workaround.",
+      "latest_checked_utc": "2026-10-19T00:25:45.881554+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -44898,8 +44934,8 @@
       "free_access_restrictions": "Corporate statistical datasets provided free of charge in machine-readable format, subject to additional Database Terms and incorporated web-content terms",
       "license": "CC BY4.0 plus FAO statistical-database additional use restrictions and third-party exceptions",
       "license_url": "https://www.fao.org/contact-us/terms/db-terms-of-use/en/",
-      "api_verification_state": "documented_sample_failed",
-      "latest_checked_utc": "2026-10-16T17:36:21.499639+00:00",
+      "api_verification_state": "Existing FAOSTAT API documentation retained; native current DatabaseTerms200 reaffirm restrictions. OriginalFenix sample timeout retained/untested, not proof API absent; no runtime retry.",
+      "latest_checked_utc": "2026-10-19T00:25:45.881554+00:00",
       "classification": "restricted"
     },
     {
