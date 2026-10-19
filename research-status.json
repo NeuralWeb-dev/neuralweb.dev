@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-19T01:29:01.722800+00:00",
+  "published_at": "2026-10-19T01:31:05.037915+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:27:51.414854+00:00",
+  "research_updated_at": "2026-10-19T01:30:56.737319+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Canada MEDS noncommercial default and RIULL BY-NC-ND default verified; IPGP distinct interfaces documented but runtime and grants unresolved after host timeout.",
+  "latest_milestone": "Twelve original tasks processed: nine new records, three service deduplications; WHOI 48 discovery references; scoped rights and API/access uncertainty preserved.",
   "counts": {
     "verified": 507,
-    "candidates": 1489,
+    "candidates": 1490,
     "excluded": 443,
     "sample_successes": 463
   },
@@ -239,6 +239,7 @@
           "igs-public-network-api",
           "india-environment-portal",
           "ioerdata-spatial-research-portal",
+          "ipgp-data-center-webservices",
           "iri-ldeo-climate-library",
           "ises-network-portal",
           "isimip-impact-repository",
@@ -291,6 +292,7 @@
           "wdccr-cosmic-ray-archive",
           "wdcrre-resources-environment",
           "whoi-argo-program",
+          "whoi-data-repositories-directory",
           "whoi-seafloor-samples-lab",
           "whoi-upper-ocean-processes",
           "worldbank-climate-knowledge-portal"
@@ -672,6 +674,7 @@
           "igs-public-network-api",
           "ilrs-laser-ranging-portal",
           "ioerdata-spatial-research-portal",
+          "ipgp-data-center-webservices",
           "isric-soil-data-hub",
           "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
@@ -703,6 +706,7 @@
           "usgs-sciencebase-catalogue",
           "vmf-vienna-mapping-functions",
           "wdcrre-resources-environment",
+          "whoi-data-repositories-directory",
           "whoi-seafloor-samples-lab",
           "world-stress-map-oai",
           "worldpop-wopr"
@@ -831,7 +835,8 @@
           "treebase-phylogenetic-apis",
           "tritrypdb",
           "unite-species-hypotheses",
-          "usgs-sciencebase-catalogue"
+          "usgs-sciencebase-catalogue",
+          "whoi-data-repositories-directory"
         ],
         "restricted_provider_ids": [
           "algaebase-taxonomic-database",
@@ -909,6 +914,7 @@
           "usgs-sciencebase-catalogue",
           "wdcrre-resources-environment",
           "whoi-argo-program",
+          "whoi-data-repositories-directory",
           "whoi-seafloor-samples-lab",
           "whoi-upper-ocean-processes"
         ],
@@ -947,6 +953,7 @@
           "iers-central-bureau-webservices",
           "ilrs-laser-ranging-portal",
           "internet-archive-metadata",
+          "ipgp-data-center-webservices",
           "ises-network-portal",
           "issdc-space-science-archive",
           "ivs-vlbi-data-portal",
@@ -1258,6 +1265,7 @@
           "india-environment-portal",
           "internet-archive-metadata",
           "ioerdata-spatial-research-portal",
+          "ipgp-data-center-webservices",
           "ipni-linked-data-access",
           "iri-ldeo-climate-library",
           "isdc-public-data-archive",
@@ -1351,6 +1359,7 @@
           "wdcrre-resources-environment",
           "wellcome-collection",
           "whoi-argo-program",
+          "whoi-data-repositories-directory",
           "whoi-seafloor-samples-lab",
           "whoi-upper-ocean-processes",
           "world-stress-map-oai",
@@ -1629,6 +1638,7 @@
           "atlantic-canada-conservation-data-centre",
           "burlington-navigate",
           "calhhs-open-data",
+          "canada-meds-marine-data",
           "cdc-wonder-query-api",
           "hawaii-open-data-catalogue",
           "hydro-quebec-open-data",
@@ -1684,6 +1694,7 @@
           "vernon-public-geospatial-api"
         ],
         "restricted_provider_ids": [
+          "canada-meds-marine-data",
           "colorado-information-marketplace",
           "missouri-dnr-geology-portal",
           "polar-data-catalogue-metadata-api",
@@ -1766,7 +1777,8 @@
           "npdb-credentialing-data-services",
           "polar-data-catalogue-metadata-api",
           "primate-cell-type-database",
-          "srtr-controlled-research-data"
+          "srtr-controlled-research-data",
+          "ustur-research-access"
         ]
       },
       "education": {
@@ -2103,6 +2115,7 @@
         "restricted_provider_ids": [
           "akn-data-access-portal",
           "atlantic-canada-conservation-data-centre",
+          "canada-meds-marine-data",
           "naturecounts-data-api",
           "saskatchewan-conservation-data-centre"
         ]
@@ -2126,6 +2139,7 @@
           "neracoos-erddap"
         ],
         "restricted_provider_ids": [
+          "canada-meds-marine-data",
           "nova-scotia-offshore-data-centre",
           "polar-data-catalogue-metadata-api"
         ]
@@ -2278,6 +2292,7 @@
           "bigbrain-loris-resource",
           "born-ontario-controlled-data",
           "calgary-prism-scholaris-repository",
+          "canada-meds-marine-data",
           "citf-controlled-databank",
           "hdrn-dash-data-access",
           "health-data-nexus-access-portal",
@@ -2292,7 +2307,8 @@
           "primate-cell-type-database",
           "saskatchewan-conservation-data-centre",
           "srtr-controlled-research-data",
-          "us-nara-catalog-api"
+          "us-nara-catalog-api",
+          "ustur-research-access"
         ]
       }
     },
@@ -2818,6 +2834,7 @@
           "histat-historical-statistics",
           "human-mortality-database",
           "insee",
+          "landesarchiv-bw-online-catalogue",
           "latvia-statistics",
           "lithuania-statistics",
           "lse-research-online",
@@ -3225,6 +3242,7 @@
           "geoguyane-csw-catalogue",
           "geosphere-austria-datahub-api",
           "geotis-wms",
+          "ifremer-sextant-catalogue",
           "lower-austria-ogd",
           "marine-data-exchange",
           "metoffice-weather-datahub",
@@ -3592,6 +3610,7 @@
           "kielipankki-fcs",
           "kielipankki-korp-api",
           "kpbc-digital-library",
+          "landesarchiv-bw-online-catalogue",
           "language-archive-cologne",
           "latvia-statistics",
           "leedsbeckett-theses-data-figshare",
@@ -3687,6 +3706,7 @@
           "open-university-ordo",
           "qualibi-qualitative-education",
           "repisalud-repository",
+          "riull-institutional-repository",
           "swiss-al-fcs",
           "trails-longitudinal-cohort",
           "wolfenbuettel-digital-library",
@@ -3920,6 +3940,7 @@
           "geoguyane-csw-catalogue",
           "geosphere-austria-datahub-api",
           "geotis-wms",
+          "ifremer-sextant-catalogue",
           "leiden-edepot-archives",
           "marine-data-exchange",
           "neuchatel-sitn-geoservices",
@@ -4003,6 +4024,7 @@
           "discuss-data-repository",
           "european-history-online",
           "la-rochelle-data4citizen",
+          "landesarchiv-bw-online-catalogue",
           "lse-research-online",
           "nijmegen-regional-archive-open-data",
           "ostdata-research-repository",
@@ -4076,6 +4098,7 @@
           "flora-frankfurt-portal",
           "geoguyane-csw-catalogue",
           "golm-metabolome-rest-soap",
+          "ifremer-sextant-catalogue",
           "indexs-exsiccatae-api"
         ]
       },
@@ -4110,6 +4133,7 @@
           "bodc-marine-data-service-portal",
           "copernicus-marine",
           "eurobis-european-marine-data",
+          "ifremer-sextant-catalogue",
           "marine-data-exchange"
         ]
       },
@@ -4258,6 +4282,7 @@
           "kielipankki-korp-api",
           "kpbc-digital-library",
           "ksamsok",
+          "landesarchiv-bw-online-catalogue",
           "language-archive-cologne",
           "leedsbeckett-theses-data-figshare",
           "lithuania-statistics",
@@ -4326,6 +4351,7 @@
           "maastricht-digital-collections-api",
           "maribor-dkum-oai",
           "meertens-collections-portal",
+          "riull-institutional-repository",
           "sandrart-rest-api",
           "swiss-al-fcs",
           "tna-discovery",
@@ -4559,6 +4585,7 @@
           "kit-whole-body-motion",
           "kpbc-digital-library",
           "ksamsok",
+          "landesarchiv-bw-online-catalogue",
           "language-archive-cologne",
           "leedsbeckett-theses-data-figshare",
           "leiden-pseudobase-html-resource",
@@ -4723,6 +4750,7 @@
           "hunt-health-study",
           "iab-fdz-research-data",
           "ids-dgd-spoken-german",
+          "ifremer-sextant-catalogue",
           "indexs-exsiccatae-api",
           "issda-safeguarded-social-data",
           "lasa-amsterdam-controlled-data",
@@ -4741,6 +4769,7 @@
           "qualibi-qualitative-education",
           "repisalud-repository",
           "risc-social-cohesion-data-centre",
+          "riull-institutional-repository",
           "rki-research-data-centre",
           "samd-atmospheric-measurements",
           "sandrart-rest-api",
@@ -5303,6 +5332,8 @@
         "candidate_provider_ids": [
           "andhra-pradesh-state-ogd-portal",
           "digital-south-asia-library",
+          "india-census-tables-portal",
+          "india-migration-now-data-portal",
           "isb-india-data-portal",
           "karnataka-state-ogd-portal",
           "kerala-migration-survey-cds",
@@ -5323,6 +5354,7 @@
           "andhra-pradesh-state-ogd-portal",
           "india-cga-national-summary-data",
           "india-mca-corporate-data-management",
+          "india-migration-now-data-portal",
           "isb-india-data-portal",
           "karnataka-state-ogd-portal",
           "kerala-migration-survey-cds",
@@ -5342,7 +5374,9 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "andhra-pradesh-state-ogd-portal",
+          "india-census-tables-portal",
           "india-mca-corporate-data-management",
+          "india-migration-now-data-portal",
           "isb-india-data-portal",
           "karnataka-state-ogd-portal",
           "kerala-migration-survey-cds",
@@ -5450,6 +5484,7 @@
           "claremont-colleges-digital-library",
           "digital-south-asia-library",
           "heidata-research-metadata-api",
+          "india-census-tables-portal",
           "india-smartcities-ogd-portal",
           "isb-india-data-portal",
           "karnataka-state-ogd-portal",
@@ -5467,6 +5502,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "india-census-tables-portal",
           "india-smartcities-ogd-portal",
           "kerala-opensdi-portal",
           "nepal",
@@ -5547,6 +5583,7 @@
         "candidate_provider_ids": [
           "claremont-colleges-digital-library",
           "india-cga-national-summary-data",
+          "india-migration-now-data-portal",
           "india-smartcities-ogd-portal",
           "open-budgets-india-portal"
         ],
@@ -5624,8 +5661,10 @@
           "heidata-research-metadata-api",
           "incois-ocean-erddap-services",
           "india-biodiversity-portal",
+          "india-census-tables-portal",
           "india-environment-portal",
           "india-mca-corporate-data-management",
+          "india-migration-now-data-portal",
           "indian-biological-data-centre",
           "issdc-space-science-archive",
           "kerala-migration-survey-cds",
@@ -23041,7 +23080,7 @@
       "service_name": "Edition Topoi research repository",
       "geographic_coverage": "Ancient-world/historical research across Europe, Near East and other collections",
       "topical_coverage": "culture | research | astronomy | law",
-      "dataset_families": "Ancient sundials, archaeology, cultural heritage, historical law and mathematical/historical collections; content rights vary",
+      "dataset_families": "Ancient sundials, archaeology, cultural heritage, historical law and mathematical/historical collections; content rights vary | Hagia Sophia 3D / HASO architectural model collection, documented source-family BY-NC-SA 3.0 DE; no model files retrieved.",
       "documentation_url": "http://repository.edition-topoi.org/ | https://repository.edition-topoi.org/collection/BSDP/overview",
       "api_base_url": "",
       "format_protocol": "HTML documentation",
@@ -23050,7 +23089,7 @@
       "license": "Mixed collection-specific grants; BY-SA3 DE and BY-NC-SA3 DE indexed examples, no uniform grant",
       "license_url": "https://edition-topoi.org/publishing_with_us/open-access | https://repository.edition-topoi.org/collection/TRPS/metadata | https://repository.edition-topoi.org/collection/COPS/metadata",
       "api_verification_state": "Root HTTP200 says repositories reconnected October2026. Indexed native Ancient Sundials overview mentions computer-accessible API, exact endpoint/protocol unknown. Two native collection policy routes HTTP200 JSON status error accessing couchdb, not successful API/data. Further repository requests held, no backend/alternate-path workaround.",
-      "latest_checked_utc": "2026-10-18T21:17:27.505750+00:00",
+      "latest_checked_utc": "2026-10-19T01:29:42.095730+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -28220,6 +28259,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "landesarchiv-bw-online-catalogue",
+      "provider": "Landesarchiv Baden-Württemberg",
+      "service_name": "State Archives of Baden-Württemberg online finding catalogue",
+      "geographic_coverage": "Baden-Württemberg, Germany archival holdings; historical subject coverage varies",
+      "topical_coverage": "culture | law/civic | demographics | education | research",
+      "dataset_families": "Archival finding descriptions and digitized historical holdings; no historical persons, archival objects, images, OCR, scans or files retrieved",
+      "documentation_url": "https://www.landesarchiv-bw.de/de/recherche/online-findmittelsystem",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public online catalogue described; exact API authentication unknown; no accounts used",
+      "free_access_restrictions": "Online catalogue use is free; reproduction orders and some source uses have fees or restrictions. No reproduction order or paid acquisition.",
+      "license": "CC0 for online finding-catalogue descriptive metadata; source digitizations have individual rights; website reuse requires permission",
+      "license_url": "https://www.landesarchiv-bw.de/de/recherche/rechtsgrundlagen---nutzungsbedingungen/auf-einen-blick/46047",
+      "api_verification_state": "Native homepage, registered terms, online-catalogue introduction and AFIS project description returned 200 HTML. A metadata reuse grant is verified, but an exact current public API/schema is not established or sampled. AFIS development plans and DDB/Archivportal-D references are not proof of a deployed native API.",
+      "latest_checked_utc": "2026-10-19T01:29:42.095730+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "language-archive-cologne",
       "provider": "University of Cologne Data Center for the Humanities",
       "service_name": "Language Archive Cologne repository APIs",
@@ -32885,7 +32942,7 @@
       "identifier": "open-science-framework",
       "provider": "Center for Open Science",
       "service_name": "Open Science Framework public APIs",
-      "geographic_coverage": "International multidisciplinary research outputs; no all-world representative coverage claim",
+      "geographic_coverage": "International multidisciplinary research outputs; no all-world representative coverage claim | Vrije Universiteit Amsterdam institutional affiliation documented; hosted research subjects and geographic coverage vary.",
       "topical_coverage": "research | education | health",
       "dataset_families": "Public projects/components, registrations, preprints and research metadata; SHARE/Trove separately unresolved interface leads",
       "documentation_url": "https://help.osf.io/article/744-osf-projects-api-impact | https://developer.osf.io/",
@@ -32896,7 +32953,7 @@
       "license": "Source-selected licences including no licence and restricted variants; terms grant scoped public-content use, exact sampled open item not established",
       "license_url": "https://osf.io/terms-of-use/ | https://help.osf.io/article/148-licensing",
       "api_verification_state": "native_public_API_help_and_mixed_source_terms_verified_developer_docs_robots_inaccessible_runtime_untested",
-      "latest_checked_utc": "2026-10-17T22:01:12.811476+00:00",
+      "latest_checked_utc": "2026-10-19T01:29:42.095730+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
