@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:33:08.011091+00:00",
+  "published_at": "2026-10-19T01:35:10.918359+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:30:56.737319+00:00",
+  "research_updated_at": "2026-10-19T01:34:05.644683+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve original tasks processed: nine new records, three service deduplications; WHOI 48 discovery references; scoped rights and API/access uncertainty preserved.",
+  "latest_milestone": "Warsaw and IADC catalogue held; GHDx deduplicated; distinct IADC ERDDAP documented with noncommercial source policy, no runtime workaround.",
   "counts": {
     "verified": 507,
-    "candidates": 1490,
-    "excluded": 443,
+    "candidates": 1492,
+    "excluded": 444,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -25775,6 +25775,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "iadc-geonetwork-catalogue",
+      "provider": "Italian National Research Council / Institute of Polar Sciences",
+      "service_name": "Italian Arctic Data Center metadata catalogue",
+      "geographic_coverage": "Italian Arctic research; actual current catalogue coverage unverified",
+      "topical_coverage": "oceans | climate/weather/environment | geospatial | biodiversity | research",
+      "dataset_families": "Arctic research metadata catalogue; source families not enumerated",
+      "documentation_url": "https://metadata.iadc.cnr.it/geonetwork/doc/api/index.html",
+      "api_base_url": "https://metadata.iadc.cnr.it/geonetwork/ (registered deployment, runtime unverified)",
+      "format_protocol": "Registry REST/GeoNetwork documentation reference; native API schema unverified",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://iadc.cnr.it",
+      "api_verification_state": "Original IADC root and registered GeoNetwork API documentation requests failed or were access-deferred; no successful schema or API response. No inferred GeoNetwork route or alternate host/backend used.",
+      "latest_checked_utc": "2026-10-19T01:33:59.929873+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "iaea-aladdin-database",
       "provider": "IAEA Atomic and Molecular Data Unit",
       "service_name": "ALADDIN atomic and molecular database",
@@ -41165,6 +41183,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "warsaw-university-technology-research-data",
+      "provider": "Warsaw University of Technology",
+      "service_name": "Warsaw University of Technology research-data repository",
+      "geographic_coverage": "Warsaw University of Technology, Poland; research subjects and source geography vary",
+      "topical_coverage": "education | research",
+      "dataset_families": "Institutional research-data descriptions; exact current families unverified",
+      "documentation_url": "https://repo.pw.edu.pl/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://repo.pw.edu.pl/",
+      "api_verification_state": "Credential-free root was robots/access-deferred before transmission. Registry search and api.seam URLs contain session-like cid parameters and were not followed, copied into service fields or normalized into guessed API requests after the root hold. No successful API/schema response.",
+      "latest_checked_utc": "2026-10-19T01:33:59.929873+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "washington-state-geospatial-portal",
       "provider": "Washington State Geospatial Program",
       "service_name": "Washington State Geospatial Open Data Portal",
@@ -46347,7 +46383,7 @@
       "license": "Restricted IHME data: Free-of-Charge Non-Commercial User Agreement; RSS metadata reuse grant unknown",
       "license_url": "https://www.healthdata.org/about/ihme-free-charge-non-commercial-user-agreement",
       "api_verification_state": "actual_RSS_response_normalized_XML_parse_success_raw_XML_leading_whitespace_error",
-      "latest_checked_utc": "2026-10-17T09:15:37.867205+00:00",
+      "latest_checked_utc": "2026-10-19T01:33:59.929873+00:00",
       "classification": "restricted"
     },
     {
@@ -46816,6 +46852,24 @@
       "license_url": "https://fdz.iab.de/datenzugang/rechtsgrundlagen/",
       "api_verification_state": "Native access overview and legal basis HTTP200 substantive HTML; no exact public API/schema/runtime established.",
       "latest_checked_utc": "2026-10-18T17:53:42.038164+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "iadc-erddap",
+      "provider": "Italian National Research Council / Institute of Polar Sciences",
+      "service_name": "Italian Arctic Data Center ERDDAP",
+      "geographic_coverage": "Italian research in the Arctic, including Ny-Ålesund/Svalbard; per-source coverage varies",
+      "topical_coverage": "oceans | climate/weather/environment | biodiversity | research",
+      "dataset_families": "Arctic scientific dataset discovery and ERDDAP tabular/gridded interfaces; no observations queried",
+      "documentation_url": "https://data.iadc.cnr.it/erddap/rest.html",
+      "api_base_url": "https://data.iadc.cnr.it/erddap/",
+      "format_protocol": "Official indexed ERDDAP REST, tabledap/griddap OPeNDAP and WMS documentation",
+      "authentication": "Public interfaces documented; request-only sources described; runtime authentication untested",
+      "free_access_restrictions": "Noncommercial dataset policy; per-source restrictions and request-only access. No permission request or agreement.",
+      "license": "CC BY-NC stated default; per-dataset restrictions and request-only subsets",
+      "license_url": "https://data.iadc.cnr.it/erddap/index.html",
+      "api_verification_state": "Official indexed instance home and REST reference establish documented interface and restrictions. Native runtime not attempted: original IADC/root/catalogue failures preserved; this data host was not used as an alternate access route. No successful API operation.",
+      "latest_checked_utc": "2026-10-19T01:33:59.929873+00:00",
       "classification": "restricted"
     },
     {
