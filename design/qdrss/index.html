@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Life of a query: QDRSS (query-defined RSS)</title>
+<title>Life of a query: QDFeeds (query-defined feeds)</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&family=Newsreader:wght@500;600&display=swap">
 <style>
 :root { color-scheme: light dark; --bg:#f6f7fb; --surface:#fff; --ink:#1d2433; --muted:#52607d; --accent:#2f54c4; --line:#d9dee7; --code:#eef1f7;
@@ -35,12 +35,12 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </head>
 <body>
 <div class="wrap">
-<nav class="top"><a href="/design/">Design documents</a> <a href="/design/neural-db/">Neural DB</a> <a href="/design/ard/">ARD finder</a> <span class="here">Query-defined RSS</span> <a href="/design/nlweb/">NLWeb samples</a></nav>
-<h1>Life of a query: QDRSS (query-defined RSS)</h1>
+<nav class="top"><a href="/design/">Design documents</a> <a href="/design/neural-db/">Neural DB</a> <a href="/design/ard/">ARD finder</a> <span class="here">Query-defined feeds</span> <a href="/design/nlweb/">NLWeb samples</a></nav>
+<h1>Life of a query: QDFeeds (query-defined feeds)</h1>
 <p><em>Design document, 2026-10-09. Covers <code>rssnlweb</code> as deployed in revision <code>qdrss-00034-zix</code>. Every claim carries a file and line reference; numbers marked "measured" were read from the running service the same day. Sibling documents: <a href="/design/ard/">ARD</a>, <a href="/design/neural-db/">NeuralKG2</a>, <a href="/design/nlweb/">NLWeb samples</a>.</em></p>
 <h2>0. How to read this</h2>
-<p>QDRSS (at <code>rss.neuralweb.dev</code>) turns a <strong>standing interest</strong> written as a sentence into an <strong>RSS feed</strong>: the recent items (episodes, or transcript passages) of a collection that a model judged to match it. You subscribe to the topic, not to a show. It is used by the NYT, NPR and This American Life pages and by any feed reader.</p>
-<p>QDRSS does not call ARD or NeuralKG2. It shares only the model provider (OpenRouter) and the principle that a model judges and code does everything else.</p>
+<p>QDFeeds (at <code>rss.neuralweb.dev</code>) turns a <strong>standing interest</strong> written as a sentence into an <strong>RSS feed</strong>: the recent items (episodes, or transcript passages) of a collection that a model judged to match it. You subscribe to the topic, not to a show. It is used by the NYT, NPR and This American Life pages and by any feed reader.</p>
+<p>QDFeeds does not call ARD or NeuralKG2. It shares only the model provider (OpenRouter) and the principle that a model judges and code does everything else.</p>
 <h3>Words used throughout</h3>
 <ul>
 <li><strong>Collection</strong>: a named group of sources in <code>sources.yaml</code> (<code>nytimes</code>, <code>npr</code>, <code>tal</code>, <code>ai</code>, ...). A feed can be restricted to one.</li>
@@ -48,9 +48,9 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <li><strong>Ingest time</strong>: when the service first saw an item. A feed's default window and its ordering use it, not the publication date.</li>
 <li><strong>Strong / relevant / exclude</strong>: the model's verdict on one candidate against the interest.</li>
 </ul>
-<h2>1. Where QDRSS sits</h2>
+<h2>1. Where QDFeeds sits</h2>
 <pre class="mermaid">flowchart LR
-  R[Feed reader or page] --&gt;|GET /feed.xml?q=| Q[QDRSS&lt;br/&gt;rss.neuralweb.dev]
+  R[Feed reader or page] --&gt;|GET /feed.xml?q=| Q[QDFeeds&lt;br/&gt;rss.neuralweb.dev]
   Q --&gt; COS[(Cosmos DB&lt;br/&gt;items + vectors)]
   Q &lt;--&gt;|embed, classify| OR[(OpenRouter)]
   ING[Ingest loop] --&gt;|RSS, TAL transcripts| COS
@@ -58,7 +58,7 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </pre>
 <p>One Starlette app on Cloud Run (<code>qdrss</code>, <code>us-central1</code>). Items and vectors are in Cosmos DB in production; locally, SQLite plus an in-memory numpy index. Models: embeddings <code>openai/text-embedding-3-small</code> (1536 dimensions), classification <code>openai/gpt-oss-20b</code>.</p>
 <h2>2. The life of a feed query</h2>
-<p>QDRSS turns a <strong>standing interest</strong> into an RSS feed. The interest is a sentence; the feed is the recent items (or passages) of a collection that a model judged to match it. Source: <code>rssnlweb</code> (<code>src/qdrss/</code>).</p>
+<p>QDFeeds turns a <strong>standing interest</strong> into an RSS feed. The interest is a sentence; the feed is the recent items (or passages) of a collection that a model judged to match it. Source: <code>rssnlweb</code> (<code>src/qdrss/</code>).</p>
 <p>There are two halves: ingestion keeps the corpus current, and <code>/feed.xml</code> answers an interest against it.</p>
 <h3>2.1 The corpus (ingestion)</h3>
 <p><strong>Sources.</strong> <code>sources.yaml</code> maps collection names to lists of <code>{name, url[, segmenter]}</code>. Twelve collections: <code>ai</code>, <code>history</code>, <code>finance</code>, <code>international</code>, <code>cricket</code>, <code>american_football</code>, <code>soccer</code>, <code>nonprofit</code>, <code>war</code>, <code>nytimes</code> (73 shows), <code>npr</code> (97 shows) and <code>tal</code> (This American Life, one segmented source). <code>/collections</code> reports sources and items per collection (for example <code>npr</code> 55,302 items, <code>tal</code> 28,444 passages, <code>nytimes</code> 8,776 items).</p>
@@ -66,19 +66,19 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <p><strong>Parse</strong> (<code>feeds.py</code>). RSS 2.0 and Atom. Text is <code>content:encoded</code> or <code>description</code>, tags stripped. The item id is <code>"{source}:{guid or url or hash(title,date)}"</code>. Items are <strong>append-only</strong>: an upstream edit is ignored. <code>ingested_at</code> is the time of first sight.</p>
 <p><strong>Transcript passages</strong> (<code>tal.py</code>). For the <code>tal</code> source the feed is only a list of episode numbers and audio links. For each episode the service fetches the transcript page (<code>thisamericanlife.org/&lt;n&gt;/transcript</code>), the episode page (air date) and the audio URL; a 5xx on the transcript falls back to the newest Internet Archive capture that carries timestamps. The transcript is cut into <strong>acts</strong>, and each act into <strong>windows of at least 280 words</strong> that never cross an act (a tail under 80 words merges into the previous window; a speaker label is added when the speaker changes). Each window is one item: id <code>tal_this_american_life:&lt;episode&gt;:&lt;act id&gt;:&lt;nnn&gt;</code>, title "episode title: act", <code>published_at</code> the air date, and an <code>extra</code> record with <code>episode</code>, <code>act</code>, <code>start</code>, <code>end</code> (seconds), the transcript anchor and <code>audio</code> as <code>&lt;mp3&gt;#t=&lt;start&gt;</code>. That <code>extra</code> is what lets a result say "which episode, which act, and the exact time to press play". The back catalogue (episodes 1 to 899) was loaded with <code>scripts/backfill_tal.py</code>, back-dating <code>ingested_at</code> to the air date.</p>
 <p><strong>Embed</strong> (<code>providers.py</code>, <code>app.py:112-126</code>). Text is <code>title + "\n" + content</code>, first 8000 characters, embedded with <code>openai/text-embedding-3-small</code> (1536 dimensions, L2-normalised) through OpenRouter. In production items are stored in Cosmos DB (one container, partitioned by collection, vector index <code>diskANN</code>, cosine); a background pass embeds items that have no vector yet. Locally the store is SQLite with an in-memory numpy index.</p>
-<p><strong>When.</strong> The app refreshes at start and then every <code>QDRSS_REFRESH_MINUTES</code> (1440, once a day). In production the refresh runs as a child process so a slow ingest cannot block queries; <code>qdrss-ingest</code> runs one refresh and exits. Both clear the feed cache.</p>
+<p><strong>When.</strong> The app refreshes at start and then every <code>QDFeeds_REFRESH_MINUTES</code> (1440, once a day). In production the refresh runs as a child process so a slow ingest cannot block queries; <code>qdrss-ingest</code> runs one refresh and exits. Both clear the feed cache.</p>
 <h3>2.2 A <code>/feed.xml</code> request</h3>
 <pre><code>GET /feed.xml?q=&lt;interest&gt;[&amp;collection=npr][&amp;limit=40][&amp;since=2000-01-01][&amp;threshold=relevant|strong]
 </code></pre>
 <p><strong>1. Validate</strong> (<code>app.py:221-245</code>). <code>q</code> required. <code>since</code> RFC 2822 or ISO 8601. <code>limit</code> 1-100 (default 20). <code>threshold</code> <code>relevant</code> or <code>strong</code>. <code>collection</code> must be one of the twelve. 503 while the index is not ready. There is no length cap on <code>q</code> and no rate limit in the code (any limit comes from infrastructure).</p>
 <p><strong>2. Cache.</strong> If <code>since</code> is absent the answer is cached by <code>(q, limit, threshold, collection, host)</code> for the refresh interval, and the response carries an <code>ETag</code> and <code>Cache-Control: public, max-age=900</code>, so feed readers poll cheaply. With <code>since</code> the answer is not cached.</p>
-<p><strong>3. Window.</strong> <code>since</code> defaults to now minus 7 days (<code>QDRSS_WINDOW_DAYS</code>): a feed shows what has been <strong>ingested</strong> recently, not what was published recently. The example pages pass <code>since=2000-01-01</code> ("include past episodes"), which is how back-dated archive items and transcript passages are reached.</p>
+<p><strong>3. Window.</strong> <code>since</code> defaults to now minus 7 days (<code>QDFeeds_WINDOW_DAYS</code>): a feed shows what has been <strong>ingested</strong> recently, not what was published recently. The example pages pass <code>since=2000-01-01</code> ("include past episodes"), which is how back-dated archive items and transcript passages are reached.</p>
 <p><strong>4. Embed the interest.</strong> One embedding call per distinct interest and model (cached, up to 5000 entries). The raw sentence is embedded as written; nothing rewrites it.</p>
-<p><strong>5. Retrieve 40 candidates</strong> (<code>QDRSS_CANDIDATE_COUNT</code>). Cosmos: <code>SELECT TOP @k ... ORDER BY VectorDistance(c.embedding, @v)</code> with <code>ingested_ts &gt; @since</code> and, when a collection is named, a single-partition filter. The date and collection masks are applied <strong>before</strong> the top-k, so the 40 are the best items among the eligible ones.</p>
+<p><strong>5. Retrieve 40 candidates</strong> (<code>QDFeeds_CANDIDATE_COUNT</code>). Cosmos: <code>SELECT TOP @k ... ORDER BY VectorDistance(c.embedding, @v)</code> with <code>ingested_ts &gt; @since</code> and, when a collection is named, a single-partition filter. The date and collection masks are applied <strong>before</strong> the top-k, so the 40 are the best items among the eligible ones.</p>
 <p><strong>6. Classify</strong> (<code>rank.py</code>). The 40 candidates are cut into batches of 5 and sent to the ranking model (<code>openai/gpt-oss-20b</code>) in parallel (8 calls). The prompt asks it to act as a relevance <strong>filter, not a ranker</strong>: for each record say <code>strong</code> (directly satisfies the interest), <code>relevant</code> (substantially useful but partial) or <code>exclude</code>, with a one-sentence <code>why</code> of at most 25 words naming the specific topic. Input per record: title and the first 1500 characters. Output JSON <code>{"results":[{"i":0,"m":"strong","why":"..."}]}</code>, temperature 0, reasoning effort low. A bad index, a duplicate or an unknown category is dropped (treated as exclude). Retries: one retry of the provider call with the failed provider ignored, one retry of the batch, and the HTTP client's own retry; a provider that fails 3 times with a 30% failure share within an hour is ignored for routing.</p>
 <p><strong>7. Threshold, order, limit.</strong> <code>strong</code> keeps only strong; <code>relevant</code> keeps both. The survivors are sorted by <strong>ingestion time, newest first</strong> (the model's verdict and the similarity do not affect order), then cut to <code>limit</code>. So a feed is a chronological stream of the matching items, not a relevance ranking, and it may hold fewer than <code>limit</code> items because only 40 candidates are considered.</p>
 <p><strong>8. Render</strong> RSS 2.0. Channel title <code>rssnlweb: &lt;q&gt;</code>. Each item has the title, link, <code>guid</code> (the item id), <code>pubDate</code>, <code>source</code> (the show), a description <code>[strong] &lt;why&gt;</code> followed by the first 1000 characters of the text, and a <code>qd:</code> extension: <code>qd:category</code>, <code>qd:ingestedAt</code>, <code>qd:source</code>, and for transcript passages <code>qd:episode</code>, <code>qd:act</code>, <code>qd:offsetSeconds</code>, <code>qd:endSeconds</code>, <code>qd:transcript</code> and <code>qd:audio</code>.</p>
-<h3>2.3 Where QDRSS is deterministic and where it is not</h3>
+<h3>2.3 Where QDFeeds is deterministic and where it is not</h3>
 <p>Deterministic: parsing, ids, windowing of transcripts, retrieval for a fixed embedding, ordering, ETags. Model-driven: the embeddings and every strong/relevant/exclude verdict and <code>why</code>. The verdicts vary between providers even at temperature 0, which is why the status ledger (the status ledger at <code>neuralweb.dev/status</code>) judges the feeds independently with a stronger model.</p>
 <h3>2.4 Failure behaviour</h3>
 <div class="tablewrap"><table>
@@ -129,27 +129,27 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </thead>
 <tbody>
 <tr>
-<td><code>QDRSS_REFRESH_MINUTES</code></td>
+<td><code>QDFeeds_REFRESH_MINUTES</code></td>
 <td>1440</td>
 </tr>
 <tr>
-<td><code>QDRSS_WINDOW_DAYS</code></td>
+<td><code>QDFeeds_WINDOW_DAYS</code></td>
 <td>7</td>
 </tr>
 <tr>
-<td><code>QDRSS_CANDIDATE_COUNT</code></td>
+<td><code>QDFeeds_CANDIDATE_COUNT</code></td>
 <td>40</td>
 </tr>
 <tr>
-<td><code>QDRSS_DEFAULT_LIMIT</code> / <code>QDRSS_MAX_LIMIT</code></td>
+<td><code>QDFeeds_DEFAULT_LIMIT</code> / <code>QDFeeds_MAX_LIMIT</code></td>
 <td>20 / 100</td>
 </tr>
 <tr>
-<td><code>QDRSS_RANKING_BATCH_SIZE</code></td>
+<td><code>QDFeeds_RANKING_BATCH_SIZE</code></td>
 <td>5</td>
 </tr>
 <tr>
-<td><code>QDRSS_FETCH_CONCURRENCY</code></td>
+<td><code>QDFeeds_FETCH_CONCURRENCY</code></td>
 <td>4</td>
 </tr>
 <tr>
@@ -169,11 +169,11 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <td>empty, empty, <code>qdrss</code></td>
 </tr>
 <tr>
-<td><code>QDRSS_INGEST_IN_APP</code></td>
+<td><code>QDFeeds_INGEST_IN_APP</code></td>
 <td>true</td>
 </tr>
 <tr>
-<td><code>QDRSS_MEMORY_COLLECTIONS</code>, <code>QDRSS_MEMORY_SNAPSHOT</code></td>
+<td><code>QDFeeds_MEMORY_COLLECTIONS</code>, <code>QDFeeds_MEMORY_SNAPSHOT</code></td>
 <td>empty (when both are set, the named collections are searched in memory)</td>
 </tr>
 <tr>

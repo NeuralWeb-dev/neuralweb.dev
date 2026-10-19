@@ -36,9 +36,9 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <body>
 <div class="wrap">
 <p><a href="/talks/neural-db-talk.pdf">Slides: How Neural DB works (PDF)</a></p>
-<nav class="top"><a href="/design/">Design documents</a> <span class="here">Neural DB</span> <a href="/design/ard/">ARD finder</a> <a href="/design/qdrss/">Query-defined RSS</a> <a href="/design/nlweb/">NLWeb samples</a></nav>
+<nav class="top"><a href="/design/">Design documents</a> <span class="here">Neural DB</span> <a href="/design/ard/">ARD finder</a> <a href="/design/qdrss/">Query-defined feeds</a> <a href="/design/nlweb/">NLWeb samples</a></nav>
 <h1>Life of a query: NeuralKG2 (Neural DB)</h1>
-<p><em>Design document, 2026-10-09. Covers NeuralKG2 <code>main</code> as deployed in revision <code>neuralkg2-00105-hin</code>. Every claim carries a file and line reference; numbers marked "measured" were taken from the running service the same day. Sibling documents: <a href="/design/ard/">ARD</a> (the finder NeuralKG2 calls), <a href="/design/qdrss/">QDRSS</a> (QDRSS), <a href="/design/nlweb/">NLWeb samples</a> (the NLWeb samples).</em></p>
+<p><em>Design document, 2026-10-09. Covers NeuralKG2 <code>main</code> as deployed in revision <code>neuralkg2-00105-hin</code>. Every claim carries a file and line reference; numbers marked "measured" were taken from the running service the same day. Sibling documents: <a href="/design/ard/">ARD</a> (the finder NeuralKG2 calls), <a href="/design/qdrss/">QDFeeds</a> (QDFeeds), <a href="/design/nlweb/">NLWeb samples</a> (the NLWeb samples).</em></p>
 <h2>0. How to read this</h2>
 <p>NeuralKG2 (the Neural DB, at <code>kg.neuralweb.dev</code>) answers a <strong>question in plain words</strong> with an answer whose every number comes from a published source. You give it "What is India's GDP?" or "Which US states border Canada?"; it returns claims, each pointing at the receipt it rests on, disclosures about what was assumed, charts, and a record of how the answer was made (stages, models, cost). The same pipeline serves the Neural DB page, the Neural DB over Data Commons page (restricted to one source), a JSON <code>/ask</code>, and an MCP tool.</p>
 <h3>Words used throughout</h3>

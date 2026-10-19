@@ -35,9 +35,9 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </head>
 <body>
 <div class="wrap">
-<nav class="top"><a href="/design/">Design documents</a> <a href="/design/neural-db/">Neural DB</a> <a href="/design/ard/">ARD finder</a> <a href="/design/qdrss/">Query-defined RSS</a> <span class="here">NLWeb samples</span></nav>
+<nav class="top"><a href="/design/">Design documents</a> <a href="/design/neural-db/">Neural DB</a> <a href="/design/ard/">ARD finder</a> <a href="/design/qdrss/">Query-defined feeds</a> <span class="here">NLWeb samples</span></nav>
 <h1>Life of a query: the NLWeb samples</h1>
-<p><em>Design document, 2026-10-09. Covers the <code>nlweb-samples</code> repository (HEAD <code>a234ab6</code>, 2026-10-05) as deployed to five Cloud Run services (<code>nlweb-reviews</code>, <code>nlweb-recipes</code>, <code>nlweb-homes</code>, <code>nlweb-movies</code>, <code>nlweb-trails</code>) and the static front end at <code>neuralweb.dev/samples/</code>. Paths are relative to the repo root; line references are into that revision. Sibling documents: <a href="/design/ard/">ARD</a>, <a href="/design/neural-db/">NeuralKG2</a>, <a href="/design/qdrss/">QDRSS</a>.</em></p>
+<p><em>Design document, 2026-10-09. Covers the <code>nlweb-samples</code> repository (HEAD <code>a234ab6</code>, 2026-10-05) as deployed to five Cloud Run services (<code>nlweb-reviews</code>, <code>nlweb-recipes</code>, <code>nlweb-homes</code>, <code>nlweb-movies</code>, <code>nlweb-trails</code>) and the static front end at <code>neuralweb.dev/samples/</code>. Paths are relative to the repo root; line references are into that revision. Sibling documents: <a href="/design/ard/">ARD</a>, <a href="/design/neural-db/">NeuralKG2</a>, <a href="/design/qdrss/">QDFeeds</a>.</em></p>
 <h2>0. How to read this</h2>
 <p>The NLWeb samples let a person <strong>ask for things in natural language</strong> (a robot vacuum for two cats and a long-haired dog; a showstopper Thanksgiving main that is vegan and gluten-free; a 4-bedroom house with a pool) and get back a list of real items, each with a one-sentence reason, optionally with a short written summary. There are five datasets, each its own service:</p>
 <div class="tablewrap"><table>
