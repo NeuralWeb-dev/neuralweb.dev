@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:47:55.322573+00:00",
+  "published_at": "2026-10-19T00:49:58.320421+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:44:19.313758+00:00",
+  "research_updated_at": "2026-10-19T00:48:47.205060+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Twelve originals plusGlycineMine: RODINcustomopenmetadata/31146headers; PDBeCC0/196schemaops; NARAcache/keyrestrictions; ninecandidates; FAOSTATdedup.",
+  "latest_milestone": "KeckTAPcapabilityXML andBMRBaggregateJSON verified withdata-licensegaps; ZINCnative2025majorredistributionrestriction.",
   "counts": {
     "verified": 504,
-    "candidates": 1464,
-    "excluded": 428,
+    "candidates": 1466,
+    "excluded": 429,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -18126,6 +18126,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bmrb-rest-api",
+      "provider": "Biological Magnetic Resonance Data Bank / UConn Health",
+      "service_name": "BMRB REST API",
+      "geographic_coverage": "Worldwide submitted biomolecular NMR archive, US-hosted",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Macromolecular/metabolomics/chemicalcomponent NMR archive and reference dictionaries; only service aggregate status requested",
+      "documentation_url": "https://bmrb.io/bmrb/linking.shtml | https://github.com/uwbmrb/BMRB-API",
+      "api_base_url": "https://api.bmrb.io/v2/",
+      "format_protocol": "RESTJSON, documented NMR-STAR/text/entryformats; native status200validJSON",
+      "authentication": "OfficialAPIreadme says noAPIkey/free; anonymousstatusGET200. Privateuploadeddata/deposition separate, nottested.",
+      "free_access_restrictions": "Nativepolicies saydataaccessfree whilepublicfundingpermits; exactbroadreusegrant unresolved, publicreleasedvshelddata separate.",
+      "license": "Unknown explicit blanket data/database reuse license; GPL3 client/server code not datagrant",
+      "license_url": "https://bmrb.io/bmrb/aims_and_policies.shtml",
+      "api_verification_state": "Native policies/linkingguide200 and officiallinkedGitHubAPIREADME200. Exact documented v2/status200applicationJSON valid/untruncated keys metabolomics/macromolecules/chemcomps/combined/version; aggregate service response only, no entry/sequence/chemicalshift/sourcequery.",
+      "latest_checked_utc": "2026-10-19T00:48:41.132880+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bold-v5-public-data-api",
       "provider": "BOLD Systems / Centre for Biodiversity Genomics, University of Guelph",
       "service_name": "BOLD v5 public biodiversity discovery API",
@@ -27159,6 +27177,24 @@
       "license_url": "https://docs.kbase.us/data/public | https://www.kbase.us/about/terms-and-conditions-v2/",
       "api_verification_state": "Native root/policy held; independent native public-data documentationHTTP200. Live indexed official June2025terms distinguish mixed reference-source rights, user-private/shared data and DOI FAIR Narratives, with contradictory retained CC0/BYdefault wording. MIT software not data grant; no blanket public metadata/source grant. Published APIs mentioned, exact safe read-only discovery contract/auth/runtime unresolved; no Narrative/data/sample/sequence/API jobs or accounts.",
       "latest_checked_utc": "2026-10-18T19:41:46.841221+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "keck-observatory-archive-tap",
+      "provider": "W. M. Keck Observatory / NASA Exoplanet Science Institute",
+      "service_name": "Keck Observatory Archive TAP and image interfaces",
+      "geographic_coverage": "Worldwide astronomical sky coverage from Keck telescopes, Hawaii; source observations vary",
+      "topical_coverage": "astronomy | research",
+      "dataset_families": "Keck active/decommissioned instrument archive, raw/quicklook/reduced/public contributed datasets; no source observations/images acquired",
+      "documentation_url": "https://koa.ipac.caltech.edu/UserGuide/PyKOA/TAPClients.html | https://koa.ipac.caltech.edu/UserGuide/program_interface_guide.html",
+      "api_base_url": "https://koa.ipac.caltech.edu/TAP",
+      "format_protocol": "IVOA TAP/ADQL, VOTable/CSV/TSV/IPAC outputs; documented SIA2 image interface",
+      "authentication": "Anonymous TAPcapabilities200XML; TAPpubliconly documented, protectedPIaccess throughPyKOA assignedcredentials nottested",
+      "free_access_restrictions": "Public/proprietaryrelease differentiated; default18months, NASAdata12months from2023A; exceptions mayapply. Fullmetadata/database reusegrant unknown.",
+      "license": "Unknown blanket metadata/database license; custom image/video permission with credit/sourceexceptions",
+      "license_url": "https://koa.ipac.caltech.edu/UserGuide/proprietary_policy.html | https://koa.ipac.caltech.edu/image_policy.html",
+      "api_verification_state": "Native TAP/SIAguides and legalpages200HTML; exact documentedTAPbase derived VOSIcapabilities200validXML. Interfacecapability identity proven, no ADQL/sourcequery, image/FITS/download/job executed.",
+      "latest_checked_utc": "2026-10-19T00:48:41.132880+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -50273,6 +50309,24 @@
       "license_url": "https://www.zew.de/zew-forschungsdatenzentrum",
       "api_verification_state": "Native owner page200HTML; no public open-data API documented in inspected page",
       "latest_checked_utc": "2026-10-18T05:59:00.690295+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "zinc22-cartblanche-api",
+      "provider": "UCSF / docking.org ZINC project",
+      "service_name": "ZINC22 Cartblanche search interfaces",
+      "geographic_coverage": "International purchasable-chemical discovery, US-hosted; vendor/source scope varies",
+      "topical_coverage": "research | health",
+      "dataset_families": "Chemicalcatalogue search byZINCid/SMILES/suppliercode and molecularsubsets; no molecule/sourcechemicalvalues acquired",
+      "documentation_url": "https://wiki.docking.org/index.php/Zinc22%3ASearching | https://wiki.docking.org/index.php/ZINC22:Downloading",
+      "api_base_url": "https://cartblanche22.docking.org/",
+      "format_protocol": "Documented HTTPsearch/text/JSON/formparameter interfaces; root200SPAHTML notAPIresponse",
+      "authentication": "Publicdocumentation, exactresourcequery credentials unknown; no account,key or package execution",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Current terms prohibit major-portion redistribution without written permission; sharing search/screen results allowed",
+      "license_url": "https://wiki.docking.org/index.php/Terms_And_Conditions",
+      "api_verification_state": "Registereddownloadingguide/currentsearchguide/terms200HTML, SPAroot200. Searchguide documents/substances.txt,/smiles.txt,/catitems.txt; no actualmolecularqueries/uploads/randommolecule/downloads executed.",
+      "latest_checked_utc": "2026-10-19T00:48:41.132880+00:00",
       "classification": "restricted"
     },
     {
