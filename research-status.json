@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:17:04.330932+00:00",
+  "published_at": "2026-10-19T00:19:08.068076+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:15:45.277958+00:00",
+  "research_updated_at": "2026-10-19T00:17:32.867494+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OOI fullterms restriction/M2Mkey/ERDDAP400; IMSRARR/APIgap; XFEL policy-scoped CC0/BY4 and108schema pathreferences.",
+  "latest_milestone": "EuMMCR robots/permission defaults; BigBrain linkedNC corpuslicense vsBY4registry; Perovskite2026NOMADmigration dedup/namedBY4.",
   "counts": {
     "verified": 502,
     "candidates": 1451,
-    "excluded": 425,
+    "excluded": 427,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -13102,7 +13102,7 @@
       "service_name": "NOMAD production REST and OPTIMADE APIs",
       "geographic_coverage": "International computational and experimental materials science archive",
       "topical_coverage": "research | energy | environment",
-      "dataset_families": "Published materials-science entry/dataset discovery and metadata; private/restricted uploads distinct; no structures or scientific values queried",
+      "dataset_families": "Published materials-science entry/dataset discovery and metadata; private/restricted uploads distinct; no structures or scientific values queried; Perovskite solar-cell database now migrated from MaterialsZone to NOMAD, per native project home/download guide",
       "documentation_url": "https://nomad-lab.eu/prod/v1/api/v1/extensions/docs | https://nomad-lab.eu/backend/api/v1/openapi.json | https://nomad-lab.eu/prod/v1/optimade/v1/extensions/docs | https://nomad-lab.eu/backend/optimade/v1/extensions/openapi.json",
       "api_base_url": "https://nomad-lab.eu/backend/api/v1 | https://nomad-lab.eu/backend/optimade/v1",
       "format_protocol": "Native REST OpenAPI3.1 and OPTIMADE/OpenAPI3.1, HTTPJSON/JSON:API. REST94paths/107operations; OPTIMADE15GETpaths including versioned/unversioned aliases.",
@@ -13111,7 +13111,7 @@
       "license": "CC0 metadata unless otherwise specified; CC BY4 open-access content",
       "license_url": "https://nomad-lab.eu/nomad-lab/terms.html",
       "api_verification_state": "Native home/terms and bothSwaggerUIs200. Exact schemas resolved from embeddedpublishedURL: nativeREST /backend/api/v1/openapi.json and OPTIMADE /backend/optimade/v1/extensions/openapi.json, both200validuntruncatedOpenAPI3.1. DocumentedOPTIMADE/v1/info200applicationJSON withdata/meta and servicecapability attributes, noerrors. No structures/references/sourceentry query or mutating operation invoked.",
-      "latest_checked_utc": "2026-10-18T23:37:29.981408+00:00",
+      "latest_checked_utc": "2026-10-19T00:17:28.079001+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -42945,6 +42945,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "bigbrain-loris-resource",
+      "provider": "McGill MCIN / Forschungszentrum Jülich / BigBrain Project",
+      "service_name": "BigBrain LORIS and corpus download discovery",
+      "geographic_coverage": "Canada/Germany human reference-brain model project, not a population survey",
+      "topical_coverage": "research | health | geospatial",
+      "dataset_families": "Reference brain histology/volume/surface atlas descriptions; no images/volumes/sections/source observations acquired",
+      "documentation_url": "https://bigbrainproject.org/maps-and-models.html | https://bigbrain.loris.ca/main.php",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public legal/docs anonymous; source/browser/API credentials unknown, no account",
+      "free_access_restrictions": "Noncommercial corpus reuse with attribution and declared share-alike conditions; other maps/tools/sources require individual rights review",
+      "license": "Native corpus license declares CC BY-NC-SA4; legal-text links inconsistent but noncommercial limitation explicit",
+      "license_url": "https://ftp.bigbrainproject.org/bigbrain-ftp/License.txt | https://bigbrainproject.org/maps-and-models.html",
+      "api_verification_state": "Original LORIS root/project/maps200HTML; exact linked corpus license200text. Root offers anonymousFTP and LORIS browser, no exact deployed public query API/schema verified. Generic LORIS REST/software and external siibra/EBRAINS services not assumed instance API.",
+      "latest_checked_utc": "2026-10-19T00:17:28.079001+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "bigg-current-model-api",
       "provider": "BiGG / Reconstruction Research Group, BRIGHT, Technical University of Denmark",
       "service_name": "BiGG metabolic model API v3",
@@ -44616,6 +44634,24 @@
       "license_url": "https://www.cosmos.esa.int/web/gaia-users/license",
       "api_verification_state": "documented_sample_failed",
       "latest_checked_utc": "2026-10-16T19:11:05.630009+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "eummcr-mutant-cell-repository",
+      "provider": "Helmholtz Zentrum München / EuMMCR",
+      "service_name": "European Mouse Mutant Cell Repository",
+      "geographic_coverage": "Germany-hosted international mutant mouse-cell repository; source distribution unenumerated",
+      "topical_coverage": "research | health | biodiversity",
+      "dataset_families": "Mouse mutant-cell resource discovery descriptions; no strains/cells/source data acquired",
+      "documentation_url": "https://www.eummcr.info/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Publicly indexed descriptions; current original access/API requirements unknown, no credentials",
+      "free_access_restrictions": "Native reuse permission requirement; physical biological material terms/fees not independently reviewed or API subscriptions",
+      "license": "Indexed native copyright reserved; duplication/publication requires prior agreement",
+      "license_url": "https://www.eummcr.info/imprint",
+      "api_verification_state": "Original root robots-deferred unsent; registered imprint deferred unsent after hosthold. Indexed native legal review only, not current target HTTP success. No exact public query API/schema verified; no alternate backend/path.",
+      "latest_checked_utc": "2026-10-19T00:17:28.079001+00:00",
       "classification": "restricted"
     },
     {
