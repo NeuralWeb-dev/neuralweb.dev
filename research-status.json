@@ -1,11 +1,11 @@
 {
-  "published_at": "2026-10-19T01:59:50.295953+00:00",
+  "published_at": "2026-10-19T02:01:53.629259+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:59:25.564745+00:00",
+  "research_updated_at": "2026-10-19T02:01:41.095355+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Swiss policy URL deduplicated; no source rights, API status or classification change.",
+  "latest_milestone": "Twelve originals: eleven new services, Swiss deduplicated; SAH/ APPLAUSE CC0 and M3G CC BY metadata verified; Waterloo 301-entry capped partial index; source restrictions preserved.",
   "counts": {
     "verified": 510,
     "candidates": 1504,
@@ -248,6 +248,7 @@
           "knmi-climate-explorer",
           "litterbase-marine-litter-portal",
           "lpdaac-land-processes-data",
+          "lund-dataguru",
           "magic-paleomagnetism",
           "mgds-marine-geoscience-services",
           "muenster-datastore-rest",
@@ -1288,6 +1289,7 @@
           "loc",
           "lpdaac-land-processes-data",
           "lse-research-online",
+          "lund-dataguru",
           "magic-paleomagnetism",
           "maizegdb-api",
           "mansfeld-crop-database",
@@ -1622,6 +1624,7 @@
           "pnnl-datahub",
           "prince-edward-island-open-data",
           "raleigh-open-data",
+          "region-waterloo-open-data",
           "registry-gisdata-mn-gov",
           "saskatchewan-geohub",
           "seattle-open-data",
@@ -1689,6 +1692,7 @@
           "neracoos-erddap",
           "nps-irma-resource-services",
           "ottawa-riverkeeper-open-data",
+          "region-waterloo-open-data",
           "registry-gisdata-mn-gov",
           "saskatchewan-geohub",
           "sfwmd-repository",
@@ -1891,6 +1895,7 @@
           "oregon-open-data",
           "prince-edward-island-open-data",
           "princegeorge-road-traffic-api",
+          "region-waterloo-open-data",
           "registry-gisdata-mn-gov",
           "saskatchewan-geohub",
           "saskatoon-open-data-portal",
@@ -1984,6 +1989,7 @@
           "prince-edward-island-open-data",
           "princegeorge-road-traffic-api",
           "raleigh-open-data",
+          "region-waterloo-open-data",
           "registry-gisdata-mn-gov",
           "sacramento-open-data",
           "saskatchewan-geohub",
@@ -2034,6 +2040,7 @@
           "imls-data-collection",
           "irs",
           "prince-edward-island-open-data",
+          "region-waterloo-open-data",
           "saskatoon-open-data-portal",
           "usaspending"
         ],
@@ -2073,6 +2080,7 @@
           "opendataphilly-jkan",
           "openstates",
           "oregon-open-data",
+          "region-waterloo-open-data",
           "rhode-island-portal-xml",
           "saskatoon-open-data-portal",
           "thunder-bay-open-data-portal",
@@ -3675,6 +3683,7 @@
           "usn-research-data-archive",
           "ustp-phaidra-repository",
           "uva-auas-institutional-figshare",
+          "uvadoc-valladolid-repository",
           "uwm-olsztyn-knowledge-repository",
           "vads-visual-arts-service",
           "verbund-forschungsdaten-bildung-portal",
@@ -3707,6 +3716,7 @@
           "lifbi-research-data-centre",
           "lindat-fcs",
           "liss-panel-research-access",
+          "lund-humanities-lab-archive",
           "maastricht-digital-collections-api",
           "maribor-dkum-oai",
           "meertens-collections-portal",
@@ -3717,6 +3727,7 @@
           "riull-institutional-repository",
           "swiss-al-fcs",
           "trails-longitudinal-cohort",
+          "ulster-university-research-portal",
           "wolfenbuettel-digital-library",
           "zpid-rdc-controlled-research"
         ]
@@ -3862,6 +3873,7 @@
           "registry-data-sz-ch",
           "registry-europeandataportal-eu",
           "rostock-open-data",
+          "tib-sah-digital-metadata",
           "torino-aperto-catalog-api",
           "transportapi-fi",
           "uk-police",
@@ -4229,6 +4241,7 @@
           "staedel-museum-oai",
           "tampere-open-news-feeds",
           "textgrid-public-repository",
+          "tib-sah-digital-metadata",
           "tudatalib-public-metadata-oai",
           "uca-rodin-oai-metadata",
           "uji-institutional-repository",
@@ -4332,6 +4345,7 @@
           "usal-gredos-oai-repository",
           "usn-research-data-archive",
           "ustp-phaidra-repository",
+          "uvadoc-valladolid-repository",
           "vads-visual-arts-service",
           "wadi-abu-dom-webgis",
           "wellcome-collection",
@@ -4357,6 +4371,7 @@
           "indexs-exsiccatae-api",
           "leiden-edepot-archives",
           "lindat-fcs",
+          "lund-humanities-lab-archive",
           "maastricht-digital-collections-api",
           "maribor-dkum-oai",
           "meertens-collections-portal",
@@ -4459,6 +4474,7 @@
           "slovenia-statistics",
           "staedel-museum-oai",
           "textgrid-public-repository",
+          "tib-sah-digital-metadata",
           "tu-wien-research-data",
           "tudatalib-public-metadata-oai",
           "uca-rodin-oai-metadata",
@@ -4690,6 +4706,7 @@
           "usn-research-data-archive",
           "ustp-phaidra-repository",
           "uva-auas-institutional-figshare",
+          "uvadoc-valladolid-repository",
           "uwm-olsztyn-knowledge-repository",
           "vads-visual-arts-service",
           "vald-vienna-atomic-line",
@@ -4771,6 +4788,7 @@
           "lifbi-research-data-centre",
           "lindat-fcs",
           "liss-panel-research-access",
+          "lund-humanities-lab-archive",
           "maastricht-digital-collections-api",
           "maribor-dkum-oai",
           "marine-data-exchange",
@@ -4792,6 +4810,7 @@
           "swiss-al-fcs",
           "tna-discovery",
           "trails-longitudinal-cohort",
+          "ulster-university-research-portal",
           "wdc-moscow-solar-terrestrial",
           "wdc-moscow-solid-earth-physics",
           "wolfenbuettel-digital-library",
@@ -5406,6 +5425,7 @@
         "candidate_provider_ids": [
           "andhra-pradesh-state-ogd-portal",
           "bharat-genome-database",
+          "icar-krishi-hub",
           "india-environment-portal",
           "isb-india-data-portal",
           "karnataka-state-ogd-portal",
@@ -5509,6 +5529,7 @@
           "udiseplus-education-data-api"
         ],
         "restricted_provider_ids": [
+          "lund-humanities-lab-archive",
           "opencity-india-urban-data"
         ]
       },
@@ -5648,6 +5669,7 @@
           "claremont-colleges-digital-library",
           "digital-south-asia-library",
           "heidata-research-metadata-api",
+          "icar-krishi-hub",
           "india-environment-portal",
           "isb-india-data-portal",
           "karnataka-state-ogd-portal",
@@ -5660,7 +5682,8 @@
         "restricted_provider_ids": [
           "ibdc-indian-crop-phenome",
           "isro-bhoonidhi-data-api",
-          "isro-bhuvan-webservices"
+          "isro-bhuvan-webservices",
+          "lund-humanities-lab-archive"
         ]
       },
       "research": {
@@ -5673,6 +5696,7 @@
           "digital-south-asia-library",
           "esa-ecology",
           "heidata-research-metadata-api",
+          "icar-krishi-hub",
           "incois-ocean-erddap-services",
           "india-biodiversity-portal",
           "india-census-tables-portal",
@@ -5694,6 +5718,7 @@
           "human-protein-reference-database",
           "ibdc-indian-crop-phenome",
           "isro-bhoonidhi-data-api",
+          "lund-humanities-lab-archive",
           "mosdac-data-api",
           "pakistan-petroleum-data-repository"
         ]
@@ -5801,6 +5826,7 @@
         "restricted_provider_ids": [
           "china-earth-system-geodata",
           "japan-dias-platform",
+          "korea-polar-data-center",
           "southeast-asian-climate-assessment-dataset"
         ]
       },
@@ -5880,6 +5906,7 @@
           "cinii-research",
           "jstage-journal-webapi",
           "kossda-social-science-archive",
+          "lund-humanities-lab-archive",
           "ntu-plants-taiwan",
           "polyu-research-data-repository",
           "sciencedb-api-oai",
@@ -5938,7 +5965,8 @@
           "wis2-south-korea"
         ],
         "restricted_provider_ids": [
-          "china-earth-system-geodata"
+          "china-earth-system-geodata",
+          "korea-polar-data-center"
         ]
       },
       "public spending/contracts": {
@@ -5987,6 +6015,7 @@
           "tfri-metacat-data-catalogue"
         ],
         "restricted_provider_ids": [
+          "korea-polar-data-center",
           "ntu-plants-taiwan",
           "stomicsdb-spatial-omics"
         ]
@@ -6000,7 +6029,9 @@
           "tokyo-aori-cruise-database",
           "wdcrre-resources-environment"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "korea-polar-data-center"
+        ]
       },
       "astronomy": {
         "status": "partial_candidates_only",
@@ -6034,6 +6065,7 @@
           "cinii-research",
           "japan-dias-platform",
           "jstage-journal-webapi",
+          "lund-humanities-lab-archive",
           "nii-idr-restricted-dataset-service",
           "ntu-plants-taiwan"
         ]
@@ -6086,7 +6118,9 @@
           "cinii-research",
           "japan-dias-platform",
           "jstage-journal-webapi",
+          "korea-polar-data-center",
           "kossda-social-science-archive",
+          "lund-humanities-lab-archive",
           "ngdc-open-biomedical-imaging-archive",
           "nii-idr-restricted-dataset-service",
           "ntu-plants-taiwan",
@@ -6221,6 +6255,7 @@
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository",
+          "lund-humanities-lab-archive",
           "nie-research-data-repository",
           "smu-research-data-repository",
           "uitm-research-data-repository"
@@ -6321,6 +6356,7 @@
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository",
+          "lund-humanities-lab-archive",
           "uitm-research-data-repository"
         ]
       },
@@ -6340,6 +6376,7 @@
         ],
         "restricted_provider_ids": [
           "kasetsart-knowledge-repository",
+          "lund-humanities-lab-archive",
           "nie-research-data-repository",
           "smu-research-data-repository",
           "southeast-asian-climate-assessment-dataset",
@@ -6956,6 +6993,7 @@
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
           "iadc-erddap",
+          "korea-polar-data-center",
           "netherlands-polar-data-center",
           "nipr-arctic-antarctic-data-system",
           "nordicana-d-data-series",
@@ -7065,6 +7103,7 @@
         ],
         "restricted_provider_ids": [
           "aviso-authenticated-data-services",
+          "korea-polar-data-center",
           "nipr-arctic-antarctic-data-system",
           "nordicana-d-data-series",
           "polar-data-catalogue-metadata-api",
@@ -7109,6 +7148,7 @@
         ],
         "restricted_provider_ids": [
           "iadc-erddap",
+          "korea-polar-data-center",
           "netherlands-polar-data-center",
           "nordicana-d-data-series"
         ]
@@ -7140,6 +7180,7 @@
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
           "iadc-erddap",
+          "korea-polar-data-center",
           "netherlands-polar-data-center",
           "nipr-arctic-antarctic-data-system",
           "polar-data-catalogue-metadata-api",
@@ -7206,6 +7247,7 @@
           "aviso-authenticated-data-services",
           "dfo-pacific-ios-archive",
           "iadc-erddap",
+          "korea-polar-data-center",
           "netherlands-polar-data-center",
           "nipr-arctic-antarctic-data-system",
           "nordicana-d-data-series",
