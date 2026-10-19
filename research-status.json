@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T00:02:40.798044+00:00",
-  "job_status": "running",
-  "worker_running": true,
+  "published_at": "2026-10-19T00:04:44.663794+00:00",
+  "job_status": "worker not running",
+  "worker_running": false,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:00:56.181710+00:00",
+  "research_updated_at": "2026-10-19T00:03:33.139519+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "OBIA indexed academic restriction; COCONUT native39-operation schema and license conflict; GREDOS scopedCC0 metadata policy/historicalOAI404.",
+  "latest_milestone": "Nine originals reviewed: COCONUT39-operation native schema/license conflict; GREDOS policy-scoped metadata grant/OAI404; Chile catalogue references; UNISA shutdown and source restrictions; IID/JSTOR/UFSCar/OBIA/Bialystok scoped findings.",
   "counts": {
     "verified": 499,
-    "candidates": 1445,
-    "excluded": 420,
+    "candidates": 1447,
+    "excluded": 421,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -556,6 +556,7 @@
           "heidicon-object-multimedia-repository",
           "ideals-metadata-oai",
           "ipums-international-extracts",
+          "jstor-images-licensed-service",
           "karlsruher-wolkenatlas",
           "linguistic-data-consortium",
           "micase-spoken-english-corpus",
@@ -1038,6 +1039,7 @@
           "ideals-metadata-oai",
           "indexs-exsiccatae-api",
           "infra-art-restricted-spectra",
+          "jstor-images-licensed-service",
           "linguistic-data-consortium",
           "macaulay-library-media-archive",
           "micase-spoken-english-corpus",
@@ -1364,6 +1366,7 @@
           "isgi-geomagnetic-indices-webservice",
           "iucn-red-list-api-v4",
           "jgi-gold-api",
+          "jstor-images-licensed-service",
           "kyoto-geomagnetic-hapi",
           "linguistic-data-consortium",
           "macaulay-library-media-archive",
@@ -1706,6 +1709,7 @@
           "opendataphilly-jkan",
           "quebec-covid19-biobank",
           "texas-state-open-data",
+          "toronto-integrated-interactions-iid",
           "toronto-open-data-catalog-api",
           "ucla-social-science-dataverse",
           "usda-ers-geospatial-services",
@@ -2050,6 +2054,7 @@
           "nps-irma-resource-services",
           "ottawa-riverkeeper-open-data",
           "smithsonian",
+          "toronto-integrated-interactions-iid",
           "usfs-research-data-archive",
           "zfin-model-organism-database"
         ],
@@ -2209,6 +2214,7 @@
           "smithsonian",
           "stfx-borealis-repository",
           "toronto-borealis-data-collection",
+          "toronto-integrated-interactions-iid",
           "ubc-circle-open-collections",
           "ucla-social-science-dataverse",
           "udem-borealis-data-repository",
@@ -2289,6 +2295,7 @@
         ],
         "candidate_provider_ids": [
           "cdha-study-resource-directory",
+          "chile-dataobservatory-catalogue",
           "goias-state-ckan-api",
           "idb-open-data-catalog",
           "rosario-research-data-repository",
@@ -2312,6 +2319,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "chile-dataobservatory-catalogue",
           "eclac",
           "ecuador-mae-ipt",
           "edac-gstore",
@@ -2373,6 +2381,7 @@
         ],
         "candidate_provider_ids": [
           "cdha-study-resource-directory",
+          "chile-dataobservatory-catalogue",
           "ciencia-aberta",
           "dhs-indicator-data-api",
           "dominican-data",
@@ -2391,7 +2400,9 @@
           "unifesp-domus-dados",
           "unisimon-research-data"
         ],
-        "restricted_provider_ids": []
+        "restricted_provider_ids": [
+          "ufscar-institutional-repository"
+        ]
       },
       "education": {
         "status": "partial_candidates_only",
@@ -2400,6 +2411,7 @@
           "bolivar-utb-digital-repository",
           "cdha-study-resource-directory",
           "cesa-academic-data",
+          "chile-dataobservatory-catalogue",
           "conicet-research-data-portal",
           "deposita-dados-brazil",
           "dhs-indicator-data-api",
@@ -2434,6 +2446,7 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
+          "ufscar-institutional-repository",
           "unab-institutional-repository",
           "usil-institutional-repository"
         ]
@@ -2556,6 +2569,7 @@
         "verified_provider_ids": [],
         "candidate_provider_ids": [
           "bold-v5-public-data-api",
+          "chile-dataobservatory-catalogue",
           "ecuador-mae-ipt",
           "esa-ecology"
         ],
@@ -2565,6 +2579,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "chile-dataobservatory-catalogue",
           "ecuador-mae-ipt"
         ],
         "restricted_provider_ids": []
@@ -2573,6 +2588,7 @@
         "status": "partial_candidates_only",
         "verified_provider_ids": [],
         "candidate_provider_ids": [
+          "chile-dataobservatory-catalogue",
           "unlp-research-data-repository"
         ],
         "restricted_provider_ids": []
@@ -2600,6 +2616,7 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
+          "ufscar-institutional-repository",
           "unab-institutional-repository",
           "usil-institutional-repository"
         ]
@@ -2613,6 +2630,7 @@
           "cariniana-dataverse-network",
           "cdha-study-resource-directory",
           "cesa-academic-data",
+          "chile-dataobservatory-catalogue",
           "ciencia-aberta",
           "colombia-mincultura-research-dataverse",
           "conicet-research-data-portal",
@@ -2653,6 +2671,7 @@
         ],
         "restricted_provider_ids": [
           "aleia-ibict-repository",
+          "ufscar-institutional-repository",
           "unab-institutional-repository",
           "usil-institutional-repository",
           "usp-datamap-environmental-platform"
@@ -3289,6 +3308,7 @@
           "cancer-immunome-atlas",
           "cessda-catalogue",
           "clinicalcodes-repository",
+          "coconut-natural-products-rest",
           "dans-life-sciences-station",
           "drks-german-clinical-trials-register",
           "dutch-human-research-register",
@@ -3427,6 +3447,7 @@
           "aussda-social-science-dataverse",
           "bas-fcs",
           "bathspa-data-repository",
+          "bialystok-technology-research-data",
           "bicocca-board-research-data",
           "bielefeld-pub-data",
           "boris-bern-portal",
@@ -3537,6 +3558,7 @@
           "ukds-census-statistics-ckan",
           "unimi-dataverse",
           "upf-digital-repository",
+          "usal-gredos-oai-repository",
           "usn-research-data-archive",
           "ustp-phaidra-repository",
           "uva-auas-institutional-figshare",
@@ -3930,6 +3952,7 @@
           "berlin-animal-sound-archive",
           "bexis-biodiversity-exploratories",
           "cazy-enzyme-database",
+          "coconut-natural-products-rest",
           "dans-life-sciences-station",
           "dassh-marine-data-services",
           "ea-bathing-water",
@@ -4172,6 +4195,7 @@
           "ujk-kielce-dlibra-oai",
           "uk-trade-tariff",
           "upf-digital-repository",
+          "usal-gredos-oai-repository",
           "usn-research-data-archive",
           "ustp-phaidra-repository",
           "vads-visual-arts-service",
@@ -4319,6 +4343,7 @@
           "bexis-biodiversity-exploratories",
           "bgs-geoscenic-archive",
           "bgs-ngdc-ags-access-api",
+          "bialystok-technology-research-data",
           "bicocca-board-research-data",
           "bielefeld-pub-data",
           "biodata-dmportal",
@@ -4347,6 +4372,7 @@
           "clinicalcodes-repository",
           "cnrs-rdg-institutional-collection",
           "cnrtl-portail-lexical-suggestions",
+          "coconut-natural-products-rest",
           "cocoon-fcs",
           "cotedazur-recherche-data-gouv-collection",
           "cranfield-cord-ceres",
@@ -4511,6 +4537,7 @@
           "ukedc-discovery-portal",
           "unimi-dataverse",
           "upf-digital-repository",
+          "usal-gredos-oai-repository",
           "usn-research-data-archive",
           "ustp-phaidra-repository",
           "uva-auas-institutional-figshare",
@@ -4993,7 +5020,8 @@
           "unisa-figshare-research-data"
         ],
         "restricted_provider_ids": [
-          "uct-zivahub"
+          "uct-zivahub",
+          "unisa-institutional-repository-oai"
         ]
       },
       "housing": {
@@ -5107,6 +5135,7 @@
         "restricted_provider_ids": [
           "african-plants-photo-guide",
           "uct-zivahub",
+          "unisa-institutional-repository-oai",
           "wascal"
         ]
       },
@@ -5148,6 +5177,7 @@
           "indepth-ishare-data-repository",
           "laws-africa",
           "uct-zivahub",
+          "unisa-institutional-repository-oai",
           "wascal"
         ]
       }
@@ -5550,6 +5580,7 @@
         ],
         "restricted_provider_ids": [
           "china-phda-metadata-api",
+          "ngdc-open-biomedical-imaging-archive",
           "srda-taiwan-survey-archive",
           "stomicsdb-spatial-omics"
         ]
@@ -5770,6 +5801,7 @@
           "cinii-research",
           "japan-dias-platform",
           "kossda-social-science-archive",
+          "ngdc-open-biomedical-imaging-archive",
           "nii-idr-restricted-dataset-service",
           "ntu-plants-taiwan",
           "polyu-research-data-repository",
@@ -17725,6 +17757,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bialystok-technology-research-data",
+      "provider": "Bialystok University of Technology",
+      "service_name": "Baza Wiedzy PB research data repository",
+      "geographic_coverage": "Poland university research; source geography varies",
+      "topical_coverage": "research | education",
+      "dataset_families": "Institutional research datasets, scholarly outputs and associated metadata; sources not queried",
+      "documentation_url": "https://biblioteka.pb.edu.pl/strefa-naukowca/dane-badawcze/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Exact public API unknown; library policy describes depositor forms, not API credentials. No account/form agreement",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Individual selected Creative Commons licenses; no uniform data/metadata grant verified",
+      "license_url": "https://biblioteka.pb.edu.pl/strefa-naukowca/dane-badawcze/",
+      "api_verification_state": "Original repository URL robots-deferred unsent; source hold retained. Independent native library policy200 documents repository/deposition and mixed access. Exact published current query API/schema unknown; no guessed OmegaPSIR/backend/API request.",
+      "latest_checked_utc": "2026-10-19T00:02:44.614829+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bicocca-board-research-data",
       "provider": "University of Milano-Bicocca / Digital Commons Data",
       "service_name": "BOARD Bicocca Open Archive Research Data OAI service",
@@ -19216,6 +19266,24 @@
       "license_url": "https://datos.bcn.cl/es/documentacion/consultas-sparql",
       "api_verification_state": "actual_bounded_SPARQL_sample_success_licensing_unconfirmed",
       "latest_checked_utc": "2026-10-17T05:54:33.303757+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "chile-dataobservatory-catalogue",
+      "provider": "Data Observatory Foundation",
+      "service_name": "Data Observatory enriched metadata catalogue",
+      "geographic_coverage": "Chile-focused international referenced resources; source geography varies",
+      "topical_coverage": "research | environment | astronomy | labor | education | health | biodiversity | oceans",
+      "dataset_families": "Astronomy, environment, society and sectoral resource discovery; externally hosted datasets/software/reports mixed",
+      "documentation_url": "https://catalogo.dataobservatory.net/preguntas-frecuentes | https://catalogo.dataobservatory.net/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public reference pages anonymous; underlying source/API credentials vary and unverified",
+      "free_access_restrictions": "Native public discovery catalog; source access/license conditions vary. No accounts, contracts, forms or paid-data acquisition.",
+      "license": "No uniform metadata/source license verified; individual resource declarations vary",
+      "license_url": "https://catalogo.dataobservatory.net/preguntas-frecuentes",
+      "api_verification_state": "Native provider/catalogue/FAQ200HTML; one published catalogue page200HTML reference listing, not JSON/API success. DataCite/OpenAire/DC metadata compatibility does not establish deployed OAI/REST/API contract. Exact public machine API/schema unknown.",
+      "latest_checked_utc": "2026-10-19T00:02:44.614829+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -48990,6 +49058,24 @@
       "license_url": "http://thebrain.bwh.harvard.edu/uniprobe/academic-license.php",
       "api_verification_state": "Nativeacademiclicence/root/about200HTML; browsertoolsandPHPwarningsnotpublicAPI/schema success. No queryAPI/sample established.",
       "latest_checked_utc": "2026-10-18T05:36:07.218376+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "unisa-institutional-repository-oai",
+      "provider": "University of South Africa",
+      "service_name": "Unisa Institutional Repository / OAI-PMH",
+      "geographic_coverage": "South Africa university scholarly outputs and African/international studies; source geography varies",
+      "topical_coverage": "research | education | culture",
+      "dataset_families": "Institutional publications, theses, dissertations and special collection descriptions; source works not acquired",
+      "documentation_url": "https://www.unisa.ac.za/static/corporate_web/Content/Library/Library%20services/research%20support/Collection%20Development%20Policy.pdf",
+      "api_base_url": "https://uir.unisa.ac.za/oai/request (registered, shutdown page at check)",
+      "format_protocol": "OAI-PMH historically documented; current response HTML shutdown message",
+      "authentication": "Anonymous root/Identify returned shutdownHTML; exact API access requirements unverified, no credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Indexed native all-rights-reserved/private-study source default, item exceptions retained; metadata grant unconfirmed",
+      "license_url": "https://ir.unisa.ac.za/handle/10500/19425 | https://www.unisa.ac.za/static/corporate_web/Content/Library/Library%20services/research%20support/Collection%20Development%20Policy.pdf",
+      "api_verification_state": "Original native root and registered OAI Identify both HTTP200 text/html saying deliberate service shutdown; no XML/API success. Hold retained, no alternate ir-host/API/path workaround. Native independent2016 policyPDF200 documents intended OAI interoperability, not current runtime.",
+      "latest_checked_utc": "2026-10-19T00:02:44.614829+00:00",
       "classification": "restricted"
     },
     {
