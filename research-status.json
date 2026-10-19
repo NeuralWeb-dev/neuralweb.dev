@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-19T01:18:45.377607+00:00",
+  "published_at": "2026-10-19T01:20:49.368551+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:17:30.158726+00:00",
+  "research_updated_at": "2026-10-19T01:20:15.790682+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Nine original reviews saved: eight candidates and one restricted DAKSH entry; access holds preserved, state license misattributions corrected; no new API runtime success.",
+  "latest_milestone": "India Migration Now native project verified, API/grant unknown; Census India held; World Contraceptive Use deduplicated into verified UNPD API.",
   "counts": {
     "verified": 507,
-    "candidates": 1485,
+    "candidates": 1487,
     "excluded": 439,
     "sample_successes": 463
   },
@@ -15659,7 +15659,7 @@
       "service_name": "UN Population Division Data Portal API",
       "geographic_coverage": "Worldwidecountries/areas/aggregates, demographic/reproductivehealthseries; perindicator/sourceyearsandcoveragevaries",
       "topical_coverage": "demographics | health | research",
-      "dataset_families": "PopulationDivisiondemographic/reproductivehealthindicator/source/location/topic/dimensionmetadata andtoken-protecteddata; onlyindicatormetadataacquired",
+      "dataset_families": "PopulationDivisiondemographic/reproductivehealthindicator/source/location/topic/dimensionmetadata andtoken-protecteddata; onlyindicatormetadataacquired | World Contraceptive Use / family-planning indicator family, as documented in the existing indicator metadata.",
       "documentation_url": "https://population.un.org/dataportalapi/index.html | https://population.un.org/dataportalapi/swagger/DataPortalOpenAPISpecificationv1.0/swagger.json",
       "api_base_url": "https://population.un.org/dataportalapi/api/v1/",
       "format_protocol": "OpenAPI3.0.1/v1.0,23GEToperations; JSON/XML/CSVdocumented; indicatorJSONruntimeverified",
@@ -15668,7 +15668,7 @@
       "license": "CCBY3.0IGO explicitnativeAPIlicense; source/linkedthirdpartyexceptions retained",
       "license_url": "https://population.un.org/dataportalapi/index.html | https://population.un.org/dataportalapi/swagger/DataPortalOpenAPISpecificationv1.0/swagger.json | https://creativecommons.org/licenses/by/3.0/igo/",
       "api_verification_state": "Nativedivisionlanding/APIUI200, exactpublishedOpenAPI200validcomplete3.0.1/23GETs. AnonymousIndicatorspage1size1GET200validJSON(total86), followedbydocumentedmaxpageSize100inventoryGET200validJSONall86, pages1/nextPagenull. No dataendpoints/auth/tokenoperations executed.",
-      "latest_checked_utc": "2026-10-19T01:07:33.749050+00:00",
+      "latest_checked_utc": "2026-10-19T01:20:10.229657+00:00",
       "classification": "open_license_verified"
     },
     {
@@ -26384,6 +26384,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "india-census-tables-portal",
+      "provider": "Office of the Registrar General and Census Commissioner, India",
+      "service_name": "Census India tables and data discovery",
+      "geographic_coverage": "India national and subnational census discovery; current table coverage unverified under access hold",
+      "topical_coverage": "demographics | labor | education | housing | research",
+      "dataset_families": "Census tables and related population research discovery; exact current machine-access families unresolved",
+      "documentation_url": "https://censusindia.gov.in/census.website/data/census-tables",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown current source-specific data or metadata grant",
+      "license_url": "https://censusindia.gov.in/census.website/node/288",
+      "api_verification_state": "Original native table request was deferred by robots/access policy before transmission. Copyright request was deferred after the host hold. Exact active API/schema was not verified; no NADA, alternate path, host or backend request was used as a workaround.",
+      "latest_checked_utc": "2026-10-19T01:20:10.229657+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "india-cga-national-summary-data",
       "provider": "Controller General of Accounts, Ministry of Finance, India",
       "service_name": "National Summary Data fiscal discovery",
@@ -26435,6 +26453,24 @@
       "license_url": "https://www.mcacdm.nic.in/docs/tnc.pdf",
       "api_verification_state": "Originalrootrobots-deferredunsent; exactregisteredtermsrequestdeferredunsent. No currentpublishedpublicAPI/schema established; no alternateMCAhost/backend/root/pathretry.",
       "latest_checked_utc": "2026-10-19T01:12:53.155145+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "india-migration-now-data-portal",
+      "provider": "India Migration Now / South East Migration Foundation",
+      "service_name": "Migration Data and Knowledge Project",
+      "geographic_coverage": "India migration research, including interstate policy and migration literature; exact current data coverage varies",
+      "topical_coverage": "demographics | labor | economics/finance | law/civic | research",
+      "dataset_families": "Migration visualisations, Interstate Migrant Policy Index and a repository of migration studies; no household or migrant records retrieved",
+      "documentation_url": "https://indiamigrationnow.org/data/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown formal data or metadata reuse grant",
+      "license_url": "https://indiamigrationnow.org/data/",
+      "api_verification_state": "Native project page returned 200 HTML. No exact public query API, schema or machine catalog contract was established; the page is not an API response. No generic WordPress REST endpoint or embedded data backend was guessed.",
+      "latest_checked_utc": "2026-10-19T01:20:10.229657+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
