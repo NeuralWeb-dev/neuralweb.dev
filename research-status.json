@@ -1,14 +1,14 @@
 {
-  "published_at": "2026-10-19T00:33:31.138231+00:00",
+  "published_at": "2026-10-19T00:35:34.874980+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T00:32:49.194658+00:00",
+  "research_updated_at": "2026-10-19T00:35:05.848074+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "RODIN custommetadataattributiongrant/OAIidentity/100headers; SoyBaseAPIgrantgap; AnimalQTLmaintenance/termsconflict; GlycineMine separateheldcandidate.",
+  "latest_milestone": "AustraliaSpaceWeather8keyrequiredPOSTrefs/BOMgrantheld; SandAtlasRESTmisattribution/grantgap; UCSDper-itemrights/APIunresolved.",
   "counts": {
     "verified": 503,
-    "candidates": 1460,
+    "candidates": 1463,
     "excluded": 427,
     "sample_successes": 463
   },
@@ -18135,6 +18135,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "bom-world-space-weather-data",
+      "provider": "Australian Bureau of Meteorology / Australian Space Weather Forecasting Centre",
+      "service_name": "World Data Centre and Space Weather API",
+      "geographic_coverage": "Australian/regional and international solar/geomagnetic/ionospheric archive descriptions; endpoint coverage differs",
+      "topical_coverage": "astronomy | environment | geospatial | research",
+      "dataset_families": "WDC archive families and separate API geomagneticindices/aurora alerts/watches/warnings; no actual observations/source values requested",
+      "documentation_url": "https://sws-data.sws.bom.gov.au/api-docs | https://www.sws.bom.gov.au/World_Data_Centre",
+      "api_base_url": "https://sws-data.sws.bom.gov.au/api/v1/",
+      "format_protocol": "Native documented HTTPPOST JSON; WDC archive/FTP formats distinct from API",
+      "authentication": "Every documented request body requires assigned api_key; no key registration/test/example credential used",
+      "free_access_restrictions": "Native archive/API public documentation; exact full data-reuse and free-tier terms unresolved under BOM copyright hold",
+      "license": "unknown verified scope-specific data/metadata reuse grant",
+      "license_url": "http://www.bom.gov.au/other/copyright.shtml?ref=ftr",
+      "api_verification_state": "Native WDC/APIreference200HTML describes8POSTmethods/keyrequirement. Linked copyright source robots-deferred; no alternateHTTPS/host/path request. Documentation/examples are not runtime responses, no POST/API source test.",
+      "latest_checked_utc": "2026-10-19T00:33:48.368894+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "bonares-soil-agricultural-repository",
       "provider": "BonaRes Centre / Leibniz Centre for Agricultural Landscape Research (ZALF)",
       "service_name": "BonaRes soil and agricultural research repository",
@@ -36027,6 +36045,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "scigem-sand-atlas",
+      "provider": "SciGEM / University of Sydney and collaborators",
+      "service_name": "The Sand Atlas particle-data discovery",
+      "geographic_coverage": "International contributed particle/material samples; Australian-hosted project, source geography varies",
+      "topical_coverage": "research | geospatial | environment | materials",
+      "dataset_families": "Sand/material particle morphology and3D dataset-family descriptions; no microCT/meshes/scientific values acquired",
+      "documentation_url": "https://sand-atlas.scigem.com/about.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Native documentation public; exact SandAtlas queryAPI credentials unknown, no account",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Primary author paper says Creative Commons without exact variant; native blanket BY4 not verified",
+      "license_url": "https://sand-atlas.scigem.com/about.html | https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.70008?af=R",
+      "api_verification_state": "Native root/about200HTML. Registered purportedRESTbase200HTML is SciGEMDataStore with OpenTopoData/cop30m elevation example, not SandAtlas endpoint documentation. Record discovery misattribution rather than treat it as verified sand API. No actual elevation/particle/source request.",
+      "latest_checked_utc": "2026-10-19T00:33:48.368894+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "scilifelab-institutional-repository",
       "provider": "SciLifeLab",
       "service_name": "SciLifeLab institutional research data portal",
@@ -38508,6 +38544,24 @@
       "license_url": "https://genome.ucsc.edu/license/ | https://genome.ucsc.edu/conditions.html",
       "api_verification_state": "Native docs/conditions/licensing200; assemblylistGET200validJSON239references. No scientific/clinical/sequence/track source queries.",
       "latest_checked_utc": "2026-10-18T08:12:49.743141+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "ucsd-library-digital-collections",
+      "provider": "University of California San Diego Library",
+      "service_name": "UCSD Library Digital Collections",
+      "geographic_coverage": "UCSD research and cultural heritage including BajaCalifornia/Melanesia/oceanography and international studies; item coverage varies",
+      "topical_coverage": "culture | research | education | oceans | health",
+      "dataset_families": "Research datasets, digitized documents/images/audio/video and cultural heritage discovery; source contents not acquired",
+      "documentation_url": "https://library.ucsd.edu/dc/p/about | https://library.ucsd.edu/dc/p/collection_policies",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public catalogue/docs visible; sign-in/source controlledaccess separate, exactpublicAPI unknown, no credentials",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "Per-item rights/licensing; no verified uniform metadata/database open grant",
+      "license_url": "https://library.ucsd.edu/dc/p/faq#a011 | https://library.ucsd.edu/dc/p/collection_policies",
+      "api_verification_state": "Native root/FAQ/about/collectionpolicies200HTML. Official Calisphere contributor documentation describes UCSDDAMS Solr harvesting but no exact current public endpoint/auth/schema verified here. No genericOAI/IIIF/JSONpath guessed or source query; UI not API success.",
+      "latest_checked_utc": "2026-10-19T00:33:48.368894+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
