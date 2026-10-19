@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:26:58.597032+00:00",
+  "published_at": "2026-10-19T01:29:01.722800+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:24:33.571301+00:00",
+  "research_updated_at": "2026-10-19T01:27:51.414854+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "WHOI directory separated from NDSF policy; USTUR research restrictions verified; Sextant documented public CSW retained with runtime hold and restrictive default rights.",
+  "latest_milestone": "Canada MEDS noncommercial default and RIULL BY-NC-ND default verified; IPGP distinct interfaces documented but runtime and grants unresolved after host timeout.",
   "counts": {
     "verified": 507,
-    "candidates": 1488,
-    "excluded": 441,
+    "candidates": 1489,
+    "excluded": 443,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -26852,6 +26852,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "ipgp-data-center-webservices",
+      "provider": "Institut de physique du globe de Paris",
+      "service_name": "IPGP Data Center Web Services",
+      "geographic_coverage": "Global GEOSCOPE and regional French overseas networks; documented Mars InSight and lunar Apollo families",
+      "topical_coverage": "geospatial | astronomy | climate/weather/environment | research",
+      "dataset_families": "FDSN station/instrument metadata, seismic waveforms, earthquake event metadata, GNSS metadata/data and volcano activity-report metadata; source records not queried",
+      "documentation_url": "http://ws.ipgp.fr",
+      "api_base_url": "http://ws.ipgp.fr",
+      "format_protocol": "Documented FDSN station XML, dataselect miniSEED, event QuakeML, GNSS SiteLog/RINEX and EPOS activity-report JSON interfaces",
+      "authentication": "Unknown current operation-specific authentication; no keys or accounts used",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown current source-specific data and metadata grants",
+      "license_url": "http://ws.ipgp.fr/about/usage-guidelines | http://ws.ipgp.fr/about/legal-notice | https://datacenter.ipgp.fr/citations.php",
+      "api_verification_state": "Native parent data page, web-service index and independent parent citations page returned 200 HTML. Usage-guidelines request timed out; subsequent legal and station-documentation requests were deferred unsent. No API operation sampled and no HTTPS/alternate path/backend retry used after hold.",
+      "latest_checked_utc": "2026-10-19T01:27:46.693578+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "ipk-pgp-plant-repository",
       "provider": "Leibniz Institute of Plant Genetics and Crop Plant Research / DPPN",
       "service_name": "Plant Genomics and Phenomics Research Data Repository",
@@ -44422,6 +44440,24 @@
       "classification": "restricted"
     },
     {
+      "identifier": "canada-meds-marine-data",
+      "provider": "Fisheries and Oceans Canada / Marine Environmental Data Section",
+      "service_name": "Marine environmental data discovery and archive",
+      "geographic_coverage": "Canada-adjacent marine monitoring and international program contributions; individual sources vary",
+      "topical_coverage": "oceans | water | climate/weather/environment | biodiversity | research",
+      "dataset_families": "Argo Canada, Atlantic Zone Monitoring, BioChem, drifting buoys, global temperature-salinity profiles, fisheries inventories, ocean profiles, tides/water levels and waves; source observations not retrieved",
+      "documentation_url": "https://meds-sdmm.dfo-mpo.gc.ca/isdm-gdsi/index-eng.html",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Default noncommercial conditions and source exceptions; data request program exists, but no form or permission request submitted",
+      "license": "Mixed source rights; DFO noncommercial default, with separately licensed exceptions",
+      "license_url": "https://www.dfo-mpo.gc.ca/terms-avis/terms-conditions-avis-eng.htm",
+      "api_verification_state": "Native archive and linked DFO terms returned 200 HTML. Linked scientific-data policy returned a semantic 404 error page despite HTTP 200, not valid policy evidence. No exact public machine query/schema established; no source inventory or values requested.",
+      "latest_checked_utc": "2026-10-19T01:27:46.693578+00:00",
+      "classification": "restricted"
+    },
+    {
       "identifier": "cancerdata-radiotherapy-portal",
       "provider": "CancerData",
       "service_name": "CancerData cancer/radiotherapy resources portal",
@@ -49477,6 +49513,24 @@
       "license_url": "https://fgz-risc-data.de/en/data-portal/data-access/",
       "api_verification_state": "Native overview and access-policy HTTP200 substantive HTML; no public API/schema or API payload established.",
       "latest_checked_utc": "2026-10-18T17:54:19.159857+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "riull-institutional-repository",
+      "provider": "Universidad de La Laguna / Biblioteca Universitaria",
+      "service_name": "RIULL institutional repository",
+      "geographic_coverage": "University of La Laguna, Canary Islands, Spain; scholarly subjects and geographic coverage vary",
+      "topical_coverage": "education | culture | research",
+      "dataset_families": "Institutional administration, teaching materials and theses, research outputs/data and journals; no student submissions or source works retrieved",
+      "documentation_url": "https://riull.ull.es/xmlui/",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "unknown",
+      "free_access_restrictions": "Public browsing; default source-document noncommercial/no-derivatives conditions; metadata reuse/authentication unresolved",
+      "license": "CC BY-NC-ND 4.0 default for hosted documents unless otherwise stated; metadata-wide grant unknown",
+      "license_url": "https://ull-es.libguides.com/riull/acceso-abierto",
+      "api_verification_state": "Native repository and linked library introduction, copyright guide and open-access policy returned 200 HTML. A separately linked older institutional repository page failed TLS. No exact native OAI/REST endpoint established, no generic DSpace route guessed or API request performed.",
+      "latest_checked_utc": "2026-10-19T01:27:46.693578+00:00",
       "classification": "restricted"
     },
     {
