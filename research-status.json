@@ -1,15 +1,15 @@
 {
-  "published_at": "2026-10-19T01:35:10.918359+00:00",
+  "published_at": "2026-10-19T01:37:13.932131+00:00",
   "job_status": "running",
   "worker_running": true,
   "research_status": "in_progress",
-  "research_updated_at": "2026-10-19T01:34:05.644683+00:00",
+  "research_updated_at": "2026-10-19T01:35:56.169878+00:00",
   "started_at": "2026-10-16T16:22:44.985962+00:00",
-  "latest_milestone": "Warsaw and IADC catalogue held; GHDx deduplicated; distinct IADC ERDDAP documented with noncommercial source policy, no runtime workaround.",
+  "latest_milestone": "Italian Antarctic native Swagger schema verified and indexed; NPDC legal conflict/restrictions retained; Padua OAI documented but held.",
   "counts": {
     "verified": 507,
-    "candidates": 1492,
-    "excluded": 444,
+    "candidates": 1494,
+    "excluded": 445,
     "sample_successes": 463
   },
   "remaining_work": [
@@ -27215,6 +27215,24 @@
       "classification": "licensing_unconfirmed"
     },
     {
+      "identifier": "italian-antarctic-data-center-catalogue",
+      "provider": "Italian Antarctic Data Center / Italian Antarctic Research Programme",
+      "service_name": "Italian Antarctic Data Center GeoNetwork catalogue API",
+      "geographic_coverage": "Italian Antarctic research discovery; actual source geographic coverage varies",
+      "topical_coverage": "oceans | climate/weather/environment | geospatial | biodiversity | research",
+      "dataset_families": "Antarctic research metadata catalogue; dataset records and observations not retrieved",
+      "documentation_url": "https://iandc.pnra.aq/doc/api/index.html",
+      "api_base_url": "https://iandc.pnra.aq/",
+      "format_protocol": "Swagger 2.0 JSON schema; GeoNetwork REST API documented",
+      "authentication": "Anonymous schema retrieval succeeded; operation-specific security and authorization not tested",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://iandc.pnra.aq",
+      "api_verification_state": "Native catalogue and registered Swagger UI returned 200 HTML. Exact UI-published schema URL returned 200 valid Swagger 2.0 JSON, with 190 paths and 285 operations. This is schema/runtime availability, not execution of a data or metadata-record operation.",
+      "latest_checked_utc": "2026-10-19T01:35:51.033213+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
       "identifier": "italy",
       "provider": "Italian government dati.gov.it",
       "service_name": "Italian government dati.gov.it open data portal",
@@ -33764,6 +33782,24 @@
       "license_url": "https://pae-paha.pacioos.hawaii.edu/erddap/tabledap/aco_adcp_temp.html | https://pae-paha.pacioos.hawaii.edu/erddap/rest.html",
       "api_verification_state": "documented_primary_indexed_ERDDAP_REST_direct_docs_and_sample_policy_deferred_data_rights_unconfirmed",
       "latest_checked_utc": "2026-10-17T01:04:50.687419+00:00",
+      "classification": "licensing_unconfirmed"
+    },
+    {
+      "identifier": "padua-research-data-repository",
+      "provider": "University of Padua / University Library System",
+      "service_name": "Research Data Unipd OAI-PMH repository",
+      "geographic_coverage": "University of Padua, Italy institutional research; source geography varies",
+      "topical_coverage": "education | research",
+      "dataset_families": "Institutional research datasets; no source dataset, author or observation records retrieved",
+      "documentation_url": "https://researchdata.cab.unipd.it/",
+      "api_base_url": "https://researchdata.cab.unipd.it/cgi/oai2",
+      "format_protocol": "Native homepage explicitly supports OAI 2.0; source machine runtime untested",
+      "authentication": "Public discovery described; deposits restricted to institutional SSO. No deposit, SWORD, SSO or account request.",
+      "free_access_restrictions": "unknown source-specific access conditions",
+      "license": "unknown verified data grant",
+      "license_url": "https://biblio.unipd.it/en/digital-library/about-publishing/open-research-data",
+      "api_verification_state": "Native root returned 200 HTML and publishes the exact OAI base URL. Identify request was robots/access-deferred before transmission. Independently linked library guidance returned 200 HTML; no alternate repository route or API used after hold.",
+      "latest_checked_utc": "2026-10-19T01:35:51.033213+00:00",
       "classification": "licensing_unconfirmed"
     },
     {
@@ -48490,6 +48526,24 @@
       "license_url": "https://www.neps-data.de/Data-Center/Data-Access/Data-Use-Agreements",
       "api_verification_state": "unresolved",
       "latest_checked_utc": "2026-10-17T17:21:04.356386+00:00",
+      "classification": "restricted"
+    },
+    {
+      "identifier": "netherlands-polar-data-center",
+      "provider": "Netherlands Polar Data Center / NIOZ, at request of NWO",
+      "service_name": "Netherlands Polar Data Center research portal",
+      "geographic_coverage": "Dutch-funded or Dutch-institution polar research, Arctic and Antarctic",
+      "topical_coverage": "oceans | climate/weather/environment | biodiversity | research",
+      "dataset_families": "Polar projects, dataset descriptions, publications and external data portals; no research observations retrieved",
+      "documentation_url": "https://npdc.nl",
+      "api_base_url": "",
+      "format_protocol": "HTML documentation",
+      "authentication": "Public documentation accessible; restricted areas and per-source access exist; no accounts used",
+      "free_access_restrictions": "Personal site use and source-specific download conditions; broader redistribution/modification/commercial rights not granted by default",
+      "license": "Reserved website/content rights; per-download access/use conditions; conflicting harvesting clauses",
+      "license_url": "https://npdc.nl/terms | https://npdc.nl/copyright",
+      "api_verification_state": "Native root, terms and copyright pages returned 200 HTML. Exact public API/schema not established. No harvesting performed given unresolved legal interaction and no blanket metadata reuse grant.",
+      "latest_checked_utc": "2026-10-19T01:35:51.033213+00:00",
       "classification": "restricted"
     },
     {
