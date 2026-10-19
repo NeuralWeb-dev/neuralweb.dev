@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the design-document pages (neuralweb.dev/design/) from the markdown documents that live in each project's repo.
 
-    python tools/build_design.py NEURALKG2_MD ARD_MD QDRSS_MD NLWEB_MD
+    python tools/build_design.py NEURALKG2_MD ARD_MD QDFeeds_MD NLWEB_MD
 
 Each argument is the path of that project's docs/life-of-a-query.md. Needs the `markdown` package. Writes design/index.html and
 design/<name>/index.html. References between the documents become links; mermaid diagrams are drawn in the browser.
@@ -19,7 +19,7 @@ DOCS = [  # slug, short name, who it is for, markdown repo path as written insid
      "NeuralKG2/docs/life-of-a-query.md"),
     ("ard", "ARD finder", "Which published tables describe a quantity: the index, the search and the model rerank.",
      "ard-finder/docs/life-of-a-query.md"),
-    ("qdrss", "Query-defined RSS", "A standing interest becomes an RSS feed of matching episodes and transcript passages.",
+    ("qdrss", "Query-defined feeds", "A standing interest becomes an RSS feed of matching episodes and transcript passages.",
      "rssnlweb/docs/life-of-a-query.md"),
     ("nlweb", "NLWeb samples", "Natural-language search over recipes, movies, reviews, trails and homes.",
      "nlweb-samples/docs/life-of-a-query.md"),
@@ -78,7 +78,7 @@ def nav(current):
 
 
 NAMES = {"NeuralKG2/docs/life-of-a-query.md": "NeuralKG2", "ard-finder/docs/life-of-a-query.md": "ARD",
-         "rssnlweb/docs/life-of-a-query.md": "QDRSS", "nlweb-samples/docs/life-of-a-query.md": "NLWeb samples"}
+         "rssnlweb/docs/life-of-a-query.md": "QDFeeds", "nlweb-samples/docs/life-of-a-query.md": "NLWeb samples"}
 
 
 def convert(text):
