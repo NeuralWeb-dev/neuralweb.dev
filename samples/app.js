@@ -42,6 +42,7 @@ let corpus = null;
 // dietary restriction to a stronger model.
 const RANKING_MODELS = [
   ["", "Auto"],
+  ["typesafe/jev-1.14", "Jev 1.14"],
   ["openai/gpt-oss-20b", "GPT-OSS 20B"],
   ["openai/gpt-oss-120b", "GPT-OSS 120B"],
   ["google/gemma-4-26b-a4b-it", "Gemma 4 26B"],
