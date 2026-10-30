@@ -649,6 +649,22 @@ const closeIfNarrow = () => { if (narrow.matches) setSidebar(false); };
 $("conversations").addEventListener("click", event => { if (event.target.closest(".conversation-open")) closeIfNarrow(); });
 $("new-chat").addEventListener("click", closeIfNarrow);
 
+// On a phone the top bar keeps the menu button, new chat and the title; the answer mode, the ranking model and the design link move
+// into the drawer the menu button opens, above the conversation list. The elements themselves move, so their listeners and values go
+// with them.
+const TOP_SETTINGS = [document.querySelector(".topbar .how-link"), ...document.querySelectorAll(".topbar .mode")];
+function placeSettings() {
+  const drawer = $("drawer-settings");
+  if (narrow.matches) {
+    drawer.append(...TOP_SETTINGS.slice(1), TOP_SETTINGS[0]);
+  } else {
+    $("usage-open").before(...TOP_SETTINGS);
+  }
+  drawer.hidden = !narrow.matches;
+}
+narrow.addEventListener("change", placeSettings);
+placeSettings();
+
 // The keyboard shrinks the visual viewport, not the layout one: size the app to what is visible and follow how far Safari has scrolled
 // it, so the question box stays above the keyboard.
 if (window.visualViewport) {

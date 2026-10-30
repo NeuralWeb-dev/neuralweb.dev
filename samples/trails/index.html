@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ask NLWeb Samples</title>
-  <link rel="stylesheet" href="../styles.css?v=30">
+  <link rel="stylesheet" href="../styles.css?v=31">
 </head>
 <body class="sidebar-collapsed">
   <div class="shell">
@@ -15,6 +15,7 @@
         <span class="sidebar-actions"><button type="button" id="new-chat" class="icon" title="New chat" aria-label="New chat">+</button>
         <button type="button" id="close-sidebar" class="icon close-sidebar" title="Close" aria-label="Close conversations">&times;</button></span>
       </div>
+      <div id="drawer-settings" class="drawer-settings" hidden></div>
       <input id="search" class="search" type="search" placeholder="Search conversations" aria-label="Search conversations">
       <div id="conversations" class="conversations" role="list"></div>
       <div class="sidebar-foot">
@@ -32,14 +33,14 @@
         <span class="spacer"></span>
         <a class="how-link" href="https://neuralweb.dev/design/nlweb/" target="_blank" rel="noopener">How it works</a>
         <label class="mode">
-          <span class="visually-hidden">Answer mode</span>
+          <span class="mode-label visually-hidden">Answer mode</span>
           <select id="mode">
             <option value="list">List</option>
             <option value="summarize" selected>Summarize</option>
           </select>
         </label>
         <label class="mode">
-          <span class="visually-hidden">Ranking model</span>
+          <span class="mode-label visually-hidden">Ranking model</span>
           <select id="model" title="Model that ranks the results"></select>
         </label>
         <button type="button" id="usage-open" class="usage-open" aria-haspopup="dialog" aria-controls="usage-dialog" hidden>Cost <span id="usage-open-total"></span></button>
@@ -79,7 +80,7 @@
       </div>
     </section>
   </dialog>
-  <script src="../config.js?v=30"></script>
-  <script type="module" src="../app.js?v=30"></script>
+  <script src="../config.js?v=31"></script>
+  <script type="module" src="../app.js?v=31"></script>
 </body>
 </html>

@@ -185,6 +185,14 @@ main { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows:
   body.sidebar-collapsed .sidebar { display: none; }
   .close-sidebar { display: inline-block; }
 }
+/* The top bar's settings, moved into the drawer on a phone (app.js). */
+.drawer-settings { display: flex; flex-direction: column; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid #e3e7f1; }
+.drawer-settings[hidden] { display: none; }
+.drawer-settings .mode { display: flex; flex-direction: column; gap: 4px; }
+.drawer-settings .mode-label { position: static; width: auto; height: auto; overflow: visible; clip-path: none;
+  font-size: .78rem; font-weight: 600; color: #52607d; }
+.drawer-settings .mode select { width: 100%; padding: 8px 10px; }
+.drawer-settings .how-link { display: inline; font-size: .9rem; }
 
 /* Removing a turn, or the conversation it belongs to. Both stay quiet until
    hovered: a delete control that advertises itself invites the accident. */
