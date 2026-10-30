@@ -38,9 +38,9 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <p><a href="/talks/neural-db-talk.pdf">Slides: How Neural DB works (PDF)</a></p>
 <nav class="top"><a href="/design/">Design documents</a> <span class="here">Neural DB</span> <a href="/design/ard/">ARD finder</a> <a href="/design/qdrss/">Query-defined feeds</a> <a href="/design/nlweb/">NLWeb samples</a></nav>
 <h1>Life of a query: NeuralKG2 (Neural DB)</h1>
-<p><em>Design document, 2026-10-09. Covers NeuralKG2 <code>main</code> as deployed in revision <code>neuralkg2-00105-hin</code>. Every claim carries a file and line reference; numbers marked "measured" were taken from the running service the same day. Sibling documents: <a href="/design/ard/">ARD</a> (the finder NeuralKG2 calls), <a href="/design/qdrss/">QDFeeds</a> (QDFeeds), <a href="/design/nlweb/">NLWeb samples</a> (the NLWeb samples).</em></p>
+<p><em>Design document, revised 2026-10-30. Covers NeuralKG2 <code>main</code> (<code>20ab092</code>) as deployed in revision <code>neuralkg2-00174-dec</code>. Every claim carries a file and line reference; the measured figures in sections 3.5 and 4 were taken from the running service on 2026-10-09. Sibling documents: <a href="/design/ard/">ARD</a> (the finder NeuralKG2 calls), <a href="/design/qdrss/">QDFeeds</a> (QDFeeds), <a href="/design/nlweb/">NLWeb samples</a> (the NLWeb samples).</em></p>
 <h2>0. How to read this</h2>
-<p>NeuralKG2 (the Neural DB, at <code>kg.neuralweb.dev</code>) answers a <strong>question in plain words</strong> with an answer whose every number comes from a published source. You give it "What is India's GDP?" or "Which US states border Canada?"; it returns claims, each pointing at the receipt it rests on, disclosures about what was assumed, charts, and a record of how the answer was made (stages, models, cost). The same pipeline serves the Neural DB page, the Neural DB over Data Commons page (restricted to one source), a JSON <code>/ask</code>, and an MCP tool.</p>
+<p>NeuralKG2 (the Neural DB, at <code>kg.neuralweb.dev</code>) answers a <strong>question in plain words</strong> with an answer whose every number comes from a published source. You give it "What is India's GDP?" or "Which US states border Canada?"; it returns claims, each pointing at the receipt it rests on, disclosures about what was assumed, charts, and a record of how the answer was made (stages, models, cost). The same pipeline serves the Neural DB page (also restricted to one source with <code>?sources=datacommons</code>), a JSON <code>/ask</code>, and an MCP tool.</p>
 <h3>Words used throughout</h3>
 <ul>
 <li><strong>Reading</strong>: one structured interpretation of a question (a typed query such as <code>RankingQuery</code>). A question may have several.</li>
@@ -57,16 +57,17 @@ em { color:var(--muted); } li { margin:.25em 0; }
   KG --&gt;|chosen request| P[Source plugins]
   P --&gt; DC[Data Commons API]
   P --&gt; WB[World Bank, Census, SEC, ...]
+  P --&gt; OD[Open-data publishers&lt;br/&gt;Eurostat, OECD, PxWeb, SingStat, ...]
   KG &lt;--&gt;|bounded judgments| OR[(OpenRouter models)]
 </pre>
-<p>One Python HTTP server (<code>neuralkg2/space.py</code>) on Cloud Run (<code>neuralkg2</code>, <code>us-central1</code>). Nothing is stored between questions except in-memory caches and the per-run traces.</p>
+<p>One Python HTTP server (<code>neuralkg2/space.py</code>) on Cloud Run (<code>neuralkg2</code>, <code>us-central1</code>). Nothing is stored between questions except in-memory caches and the per-run traces, which are also copied to Cloud Storage (<code>gs://neuralweb-neuralkg2-traces/runs/&lt;run_id&gt;/</code>, <code>trace_archive.py</code>) after the answer is sent. <code>ard-gcp.json</code> maps 25 ARD source directories to plugins: Data Commons, World Bank, UN SDG, Census (ACS, business statistics), SEC, nonprofits, Treasury, CDC PLACES, NIH, NSF, USAspending, and twelve open-data publishers that share one table core (<code>plugins/cubes.py</code>: Eurostat, OECD, Census trade, seven PxWeb statistics offices, SingStat, Philippine Statistics Authority; see <code>docs/open-data-sources.md</code>).</p>
 <h2>2. Rules and models</h2>
 <ol>
 <li><strong>A model judges; code computes.</strong> Models choose among bounded options, rank or classify. Arithmetic, units, periods, joins and status are code. Any model call during the <code>execute</code> phase raises (<code>runtime.py:200-201</code>); plugin methods that resolve meaning are blocked there too (<code>plugins/base.py:36-43</code>).</li>
 <li><strong>Everything a model returns is validated</strong>: choices must be one of the offered ids, JSON must parse, arithmetic is rechecked. A bad reply is retried once or becomes a visible failure.</li>
 <li><strong>Failure is visible.</strong> Every stage failure becomes an annotation shown to the reader, and a missing part downgrades <code>complete</code> to <code>partial</code>.</li>
-<li><strong>Cost and time are accounted per stage.</strong> Seconds, model calls, tokens and dollars per stage, and the finder's own spend separately.</li>
-<li><strong>Models come from OpenRouter</strong>, with routing preferences (p90 throughput of at least 40 tokens/s, p90 latency of at most 5 s) so a slow provider is tried last.</li>
+<li><strong>Cost and time are accounted per stage.</strong> Seconds, model calls, tokens and dollars per stage, each model call with its task, and the finder's own spend separately.</li>
+<li><strong>Models come from OpenRouter</strong>, sorted by throughput, with routing preferences (p90 throughput of at least 40 tokens/s, p90 latency of at most 5 s) so a slow provider is tried last.</li>
 </ol>
 <div class="tablewrap"><table>
 <thead>
@@ -78,16 +79,16 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <tbody>
 <tr>
 <td>Default for every bounded choice (document choice, place choice, comparability, additivity, breakdown choices)</td>
-<td><code>openai/gpt-oss-120b</code>, reasoning effort minimal</td>
+<td><code>openai/gpt-oss-120b</code>; reasoning effort minimal unless the task sets its own (comparability, additivity and publisher resolution: low; open-data cell choice: medium; denotation choice: high; <code>runtime.py:167</code>)</td>
 </tr>
 <tr>
 <td>Understanding and member listing: a panel of three</td>
-<td><code>google/gemini-3.8-flash</code>, <code>qwen/qwen3.8-27b</code>, <code>google/gemma-4-26b-a4b-it</code></td>
+<td><code>google/gemini-3.8-flash</code>, <code>qwen/qwen3.8-27b</code>, <code>google/gemma-4-26b-a4b-it</code>, reasoning effort low</td>
 </tr>
 </tbody>
 </table></div>
 <h2>3. The life of a question</h2>
-<p>NeuralKG2 turns a question into a <strong>typed query</strong>, finds the tables that could answer each part, asks the right source for the numbers, combines them with code, and presents claims that each point at the receipt they came from. The same pipeline serves the Neural DB page, the restricted Data Commons page, the JSON <code>/ask</code> and the MCP tool.</p>
+<p>NeuralKG2 turns a question into a <strong>typed query</strong>, finds the tables that could answer each part, asks the right source for the numbers, combines them with code, and presents claims that each point at the receipt they came from. The same pipeline serves the Neural DB page (with or without a source restriction), the JSON <code>/ask</code> and the MCP tool.</p>
 <h3>3.1 The hosting layer (<code>neuralkg2/space.py</code>)</h3>
 <div class="tablewrap"><table>
 <thead>
@@ -110,16 +111,28 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <td>JSON-RPC tool <code>ask</code>.</td>
 </tr>
 <tr>
-<td><code>/</code>, <code>/understanding</code>, <code>/sources</code>, <code>/okf/*</code></td>
-<td>Pages and source browsing.</td>
+<td><code>/</code>, <code>/understanding</code>, <code>/sources</code>, <code>/evaluations</code></td>
+<td>Pages. The ask page keeps the question in the URL (<code>/?q=</code>) and has a JSON view (<code>?view=json</code>).</td>
+</tr>
+<tr>
+<td><code>/api/okf/{dirs,index,entry,file}</code></td>
+<td>Source browsing (read from ARD).</td>
+</tr>
+<tr>
+<td><code>POST /api/understand</code>, <code>POST /api/ask</code></td>
+<td>Page back ends.</td>
+</tr>
+<tr>
+<td><code>/health</code>, <code>/costs</code>, <code>/usage</code>, <code>/api/evaluations</code></td>
+<td>Status, cost, OpenRouter spend and 24-hour request counts, evaluation reports.</td>
 </tr>
 </tbody>
 </table></div>
 <ul>
-<li>A question is 1 to 400 characters (<code>MAX_QUESTION</code>, <code>space.py:27</code>).</li>
-<li><code>sources</code> (for example <code>datacommons</code>) restricts the run to those ARD source families. The deployment wraps its catalog in <code>SourceLimited</code> (<code>deployment.py:62</code>, <code>catalog.py:175</code>), and <code>_allowed</code> (<code>stages.py:330</code>) is checked everywhere a plugin could be chosen, so <strong>no stage can reach a source the request excluded</strong>.</li>
+<li>A question is 1 to 400 characters (<code>MAX_QUESTION</code>, <code>space.py:32</code>).</li>
+<li><code>sources</code> (for example <code>datacommons</code>) restricts the run to those ARD source families. The deployment wraps its catalog in <code>SourceLimited</code> (<code>deployment.py:62</code>, <code>catalog.py:208</code>), and <code>_allowed</code> (<code>stages.py:364</code>) is checked everywhere a plugin could be chosen, so <strong>no stage can reach a source the request excluded</strong>.</li>
 <li><strong>Concurrency.</strong> A bounded semaphore (<code>NEURALKG_CONCURRENCY</code>, default 3) guards the pipeline; a request waits up to 30 s for a slot, then answers "busy". For a stream the <strong>worker thread owns the slot</strong> and releases it when the work ends; if the client disconnects the worker stops at the next stage boundary (<code>ClientGone</code>), so abandoned questions do not keep spending model money.</li>
-<li><strong>Traces.</strong> Each run writes <code>answer.json</code>, <code>annotated_query.json</code> and a snapshot after every stage under <code>NEURALKG_TRACES</code> (default <code>/tmp/runs</code>).</li>
+<li><strong>Traces.</strong> Each run writes <code>answer.json</code>, <code>annotated_query.json</code> and a snapshot after every stage under <code>NEURALKG_TRACES</code> (default <code>/tmp/runs</code>), copied to <code>NEURALKG_TRACE_BUCKET</code> when set.</li>
 </ul>
 <h3>3.2 The run, end to end</h3>
 <pre class="mermaid">flowchart TD
@@ -139,7 +152,7 @@ em { color:var(--muted); } li { margin:.25em 0; }
   L --&gt;|none left| BEST[best reading kept]
   BEST --&gt; OUT
 </pre>
-<p><code>pipeline/run.py:answer</code> (26-88) drives it. After <code>understand</code>, each reading is run through every stage in turn (<code>STAGES</code>, <code>run.py:17-19</code>). The first reading that ends <strong>complete</strong> is the answer. Otherwise the best of the readings (complete, then partial, then the rest) is kept, and the answer says which reading it used and why the others did not answer (<code>run.py:73-81</code>). This is the <em>backtracking</em>: it is by reading, not by entity.</p>
+<p><code>pipeline/run.py:answer</code> (26-84) drives it. After <code>understand</code>, each reading is run through every stage in turn (<code>STAGES</code>, <code>run.py:17-19</code>). The first reading that ends <strong>complete</strong> is the answer. Otherwise the best of the readings (complete, then partial, then the rest) is kept, and the answer says which reading it used and why the others did not answer (<code>run.py:72-77</code>). This is the <em>backtracking</em>: it is by reading, not by entity. A source the user named that cannot be honoured ends it: no other reading may answer from elsewhere (<code>run.py:67-68</code>).</p>
 <h3>3.3 Stage by stage</h3>
 <p>For each stage: what it reads, what it does, who decides, what it records.</p>
 <p><strong>understand</strong> (<code>understanding.py</code>)
@@ -147,41 +160,44 @@ em { color:var(--muted); } li { margin:.25em 0; }
 - <em>Does:</em> asks a <strong>panel</strong> of three models in parallel for a typed query. The task contract <code>understand</code> (v17) carries 13 query types (single value, comparison of entities, ranking, population value, breakdown, trend, difference, ratio, correlation, filtered list, item list, yes/no, vague aspect), their JSON shapes and worked examples.
 - <em>Agreement</em> (<code>panel_readings</code>, 317-413): the first two members are asked together. If their first readings have the same <strong>structure</strong> (type plus the shape of every field, ignoring wording, <code>structure()</code> 217), that settles it; otherwise the next member is asked, until two agree or the panel is used up. A tie goes to the simpler type. <strong>A slow member is not waited for:</strong> once one member has answered, the others get until <code>PANEL_DEADLINE_SECONDS</code> = 7.0 seconds after the start; the answer then goes with whoever answered and says so ("<code>model</code> had not answered 7.0 s after the start..."). Up to 4 readings are kept (<code>MAX_READINGS</code>), the first reading first, then readings other members gave instead, then computed alternatives; an alternative about a different subject is dropped (<code>_same_subject</code>).
 - <em>Decides:</em> models. <em>Records:</em> <code>understanding_panel</code> (votes and errors) and <code>panel_notes</code> in the trace.</p>
-<p><strong>slots</strong> (<code>stages.py:126</code>, <code>SLOT_RULES</code> 107-124)
+<p><strong>slots</strong> (<code>stages.py:128</code>, <code>SLOT_RULES</code> 111-125)
 - Code only. One table maps each query type to the slots it needs. Slot kinds: <code>value</code>, <code>population</code> (the quantity for every member of a group), <code>members</code> (just the list), <code>series</code>, <code>fact</code>, <code>categories</code> (breakdown). A ratio gets two slots (numerator, denominator), a correlation two population slots, a filtered list one slot per condition.</p>
-<p><strong>discover</strong> (<code>stages.py:195</code>)
-- <em>Does:</em> one ARD search per slot (<code>catalog.search</code>), whose request carries the slot's own wording <strong>and</strong> the whole question as background (<code>RemoteCatalog.request</code>, <code>catalog.py:141-158</code>), plus the measure without its entity so a table found by the bare measure stays eligible. Plugins that know their term is thorny add their own searches (<code>discovery_requests</code>). Hits are grouped by source and annotated on the slot.
+<p><strong>discover</strong> (<code>stages.py:203</code>)
+- <em>Does:</em> one ARD search per slot (<code>catalog.search</code>), whose request carries the slot's own wording <strong>and</strong> the whole question as background (<code>RemoteCatalog.request</code>, <code>catalog.py:141-158</code>), plus the measure without its entity so a table found by the bare measure stays eligible. Plugins that know their term is thorny add their own searches (<code>discovery_requests</code>). Hits are grouped by source and annotated on the slot. If the finder's rerank discards every hit, the search is repeated without rerank (<code>catalog.py:131-137</code>).
+- A source the user names ("from NIH") is resolved to its publishers (<code>publishers.py</code>, task <code>resolve_publishers</code>) and limits the search to them; if it cannot be honoured, the slot is refused and nothing is searched elsewhere (<code>stages.py:218-229</code>).
 - <em>Decides:</em> ARD (see <a href="/design/ard/">the ARD design document</a>). <em>Cost:</em> one ARD search per slot, about 2 s.</p>
-<p><strong>select</strong> (<code>stages.py:356-502</code>)
-- <em>Does:</em> per slot and per source that can serve the slot's kind, <strong>the plugin chooses among its own documents</strong> with a bounded model call (<code>choose_documents</code>, <code>plugins/base.py</code>, task <code>select_source_documents</code> v11): up to 25 candidates, each described by the plugin's <code>view</code>; the model returns <em>groups</em> of documents, one group per distinct quantity (at most 6 groups of 3).
+<p><strong>select</strong> (<code>stages.py:390-522</code>)
+- <em>Does:</em> per slot and per source that can serve the slot's kind, <strong>the plugin chooses among its own documents</strong> with a bounded model call (<code>choose_documents</code>, <code>plugins/base.py:327</code>, task <code>select_source_documents</code> v12): up to 25 candidates, each described by the plugin's <code>view</code>; the model returns <em>groups</em> of documents, one group per distinct quantity (at most 6 groups of 5, <code>base.py:324</code>). Country-only sources choose knowing the place's kind.
+- <em>Follow-up searches:</em> documents the plugin prefers for the term are searched for before choosing (<code>preferred_queries</code>); its <code>follow_up_queries</code> may prompt a second choice over more documents; and the two parts of a ratio search for each other's dataset so both come from one dataset (<code>_sibling_dataset_queries</code>, <code>stages.py:624</code>).
 - If a term is ambiguous (GDP is nominal, real, per capita, PPP...) the plugin's <code>refine_query</code> <strong>splits the slot into one slot per meaning</strong>, each tagged with the published variable it stands for (<code>slot:1.m1</code>, <code>slot:1.m2</code>...). Every meaning is answered and labelled; none is preferred. The same attribute asked on the other side of a ratio is split the <em>same</em> way (<code>shared</code>), so the two sides can be paired like for like.
 - A meaning that names a known variable gets every source's document of it by an <strong>exact lookup</strong> (<code>catalog.by_variable</code>, ARD <code>/variable</code>), not a search.
 - Members slots skip this (the source lists members from its own structure). Breakdown slots pass all discovered documents to the resolve stage (their family, not a single document, matters). Fact slots are served by sources that publish facts about entities.
-- <em>Decides:</em> models, bounded to the offered ids; code validates. <em>Cost:</em> one model call per slot per source, about 1 to 3.5 s.</p>
-<p><strong>resolve_entities</strong> (<code>stages.py:513-757</code>)
-- <em>Does:</em> each source that chose documents resolves the slot's <strong>entity</strong> in its own way. For Data Commons: the place resolver, then the place's own types; when several places share the name, a bounded model choice (<code>datacommons_choose_place</code>, using the question for context, e.g. "California compared to New York" means the states). For a <strong>population</strong> slot ("counties of Texas"): the container and member type become a containment expression, with exact-name lookup of the container. For sources with no plugin, Wikidata resolves the entity.
-- A named group no source knows ("New England") is listed by the <strong>panel</strong> (<code>knowledge.list_members</code>): models must agree on the members, and the answer discloses that the list came from models.
+- <strong>Only tables the search returned are used:</strong> a fact or members source must have an entry among the hits, and a slot whose returned tables cannot serve its kind fails with that reason (<code>stages.py:407-426</code>, <code>510-518</code>).
+- <em>Decides:</em> models, bounded to the offered ids; code validates. <em>Cost:</em> one model call per slot per source (two when follow-up searches find more), about 1 to 3.5 s.</p>
+<p><strong>resolve_entities</strong> (<code>stages.py:534-689</code>)
+- <em>Does:</em> each source that chose documents resolves the slot's <strong>entity</strong> in its own way. For Data Commons: the place resolver, then the place's own types; when several places share the name, a bounded model choice (<code>datacommons_choose_place</code>, using the question for context, e.g. "California compared to New York" means the states). For a <strong>population</strong> slot ("counties of Texas"): the container and member type become a containment expression, with exact-name lookup of the container. For sources with no plugin, Wikidata resolves the entity; a plugin that cannot resolve it retries with Wikidata's identifier or name, and must still confirm it (<code>stages.py:588-612</code>). Open-data tables find the place among a place dimension's values by rule, with a bounded model choice (<code>cube_place</code>) for a name in the publisher's own words.
+- A named group no source knows ("New England") is listed by the <strong>panel</strong> (<code>knowledge.list_members</code>): two lists agree if they differ by at most one name in twenty; otherwise, when all three answered, a majority vote is used if every list is close to the majority list, with split and left-out members disclosed; a single model's list is used only when no other answered, and the answer says so (<code>knowledge.py:116-145</code>). The answer discloses that the list came from models.
 - <em>Decides:</em> source APIs; a model only for ambiguity. <em>Cost:</em> 0.1 s typical.</p>
-<p><strong>resolve_attributes</strong> (<code>stages.py:855-893</code>)
-- <em>Does:</em> turns each chosen document plus the resolved entity into a <strong>binding</strong>: an attribute (measure, unit, definition, calendar, grain, locator = variable and source facet), the identity, the plugin and its version. For breakdown slots it <strong>plans the split here, because models are forbidden later</strong> (section 3.6). Plugins may refuse a binding that cannot satisfy an explicit unit or direction.
-- <em>Decides:</em> code, except breakdown planning (models).</p>
-<p><strong>plan</strong> (<code>stages.py:922</code>)
+<p><strong>resolve_attributes</strong> (<code>stages.py:932-968</code>)
+- <em>Does:</em> turns each chosen document plus the resolved entity into a <strong>binding</strong>: an attribute (measure, unit, definition, calendar, grain, locator = variable and source facet), the identity, the plugin and its version. For breakdown slots it <strong>plans the split here, because models are forbidden later</strong> (section 3.6). Plugins may refuse a binding that cannot satisfy an explicit unit or direction. Open-data plugins choose a value for every remaining table dimension in one bounded call per table (<code>cube_cells</code>, <code>plugins/cubes.py:223</code>), checked against the table.
+- <em>Decides:</em> code, except breakdown planning and open-data cell choice (models).</p>
+<p><strong>plan</strong> (<code>stages.py:1004</code>)
 - Code only; no network, no model. Orders the requests to try per slot (the first is the plan, the rest fall back). For ratios and differences it prefers a <strong>compatible pair</strong> of bindings; for slots about the same attribute, one field every slot can use; for joined populations (correlation, filters), a key scheme every side shares (FIPS, ISO3). It records every decision. A relative year ("ten years ago") is recorded as dependent on an anchor slot.</p>
-<p><strong>execute</strong> (<code>stages.py:1293</code>)
+<p><strong>execute</strong> (<code>stages.py:1378</code>)
 - <em>Does:</em> runs the planned requests: a value or series (<code>compile_query</code>, one HTTP request through the allow-listed transport, <code>execute_query</code>), a population's values, the members of a place, a breakdown's numbers. Each value result is verified against its request (<code>verify_receipt</code>) before it is accepted.
 - <strong>No model call and no semantic resolution may happen here</strong>: the phase guard raises (<code>runtime.py:200-201</code>, <code>plugins/base.py:36-43</code>). An explicitly requested year is passed to the source and a result for another year is refused (<code>_run_population</code>, <code>requested_year</code>).
-- <em>Decides:</em> code and the source API. Typical 0.05 to 1.1 s.</p>
-<p><strong>combine</strong> (<code>stages.py:1692</code>, per-type rules)
+- <em>Decides:</em> code and the source API. Typical 0.05 to 1.1 s (measured 2026-10-09).</p>
+<p><strong>combine</strong> (<code>stages.py:1778</code>, per-type rules)
 - Code, with one bounded judgment. Ratio and difference pair answers <strong>by published variable</strong>, never by wording (<code>_variable_key</code>), then pass them through one check, <code>_like_for_like</code>: a model judges whether two figures about different entities are comparable (<code>comparable_figures</code> v3), and a current-price local-currency amount can be converted to dollars at the source's official exchange rate for its year (<code>_to_usd</code>). If no judgment can be had, nothing is composed. The composition itself (<code>planning.compose</code>) checks units, periods, populations and measure definitions. Rankings, correlations (Pearson and Spearman over the members both sides have), filters (numeric thresholds parsed once, <code>numbers.threshold</code>), yes/no and trends are plain code. A group of members summed to a named group is formed only if the members are one measure over one reporting span and the quantity adds up (declared by the plugin, else judged), and the total is recorded as a computation over its members' receipts.</p>
-<p><strong>present</strong> (<code>stages.py:2124</code>)
+<p><strong>present</strong> (<code>stages.py:2218</code>)
 - <em>Does:</em> per-type presenters write <strong>claims</strong> (each with the ids of the receipts or computations it rests on), disclosures (which meaning, which reading, conversions, model-listed members, years placed), failures, and the <strong>status</strong>.
-- <em>Status rule:</em> <code>complete</code> only when every slot is answered <strong>and</strong> the combine step produced the result its query type promises (<code>COMBINATION_RESULT</code>, <code>stages.py:1964-1975</code>) <strong>and</strong> nothing is missing from a series. <code>partial</code> when something answered but not everything; <code>unanswered</code> otherwise.
-- <em>Evidence:</em> receipts are collected from every slot, series, group member, breakdown part and conversion regardless of presenter; a claim that cites something the answer does not carry loses that citation and the answer says so (<code>_evidence</code>, 2101).
-- <em>Charts:</em> the plugin's own charts, generic Vega-Lite charts for populations, series, members, breakdowns and compared entities, validated and rendered with a CSP-safe interpreter. With <code>defer_related</code>, "related" charts from other sources are computed <em>after</em> the answer is delivered and sent as a later <code>charts</code> event, so they never delay the answer.</p>
+- <em>Status rule:</em> <code>complete</code> only when every slot is answered <strong>and</strong> the combine step produced the result its query type promises (<code>COMBINATION_RESULT</code>, <code>stages.py:2058-2060</code>) <strong>and</strong> nothing is missing from a series. <code>partial</code> when something answered but not everything; <code>unanswered</code> otherwise.
+- <em>Evidence:</em> receipts are collected from every slot, series, group member, breakdown part and conversion regardless of presenter; a claim that cites something the answer does not carry loses that citation and the answer says so (<code>_evidence</code>, 2195).
+- <em>Charts:</em> the plugin's own charts (for Data Commons, its published web components, <code>plugins/dc_charts.py</code>), generic Vega-Lite charts for populations, series, members, breakdowns and compared entities, validated and rendered with a CSP-safe interpreter (<code>visualization.py:32-43</code>). Each chart runs in a sandboxed frame without the page's origin (<code>web/space.js:121-143</code>). With <code>defer_related</code>, "related" charts from other sources are computed <em>after</em> the answer is delivered and sent as a later <code>charts</code> event, so they never delay the answer.</p>
 <h3>3.4 Annotated query: the state that flows through</h3>
 <p><code>AnnotatedQuery</code> (<code>pipeline/query.py</code>) holds the typed query and, per slot id, a list of annotations per stage per source: <code>ard_query</code>, <code>discover</code> (resources), <code>select</code> (chosen documents), <code>meanings</code>, <code>resolve_entity</code>, <code>resolve_attribute</code> (bindings), <code>plan</code> (requests), <code>execute</code> (receipts, populations, members, categories), <code>combine</code>, and <code>failure</code> entries <code>{stage, status, reason}</code>. Because annotations are appended, never overwritten, every decision stays available to the presenter and the trace. A snapshot of the whole object is written after each stage.</p>
 <h3>3.5 Three worked examples (measured on the live service, 2026-10-09)</h3>
-<p>Seconds and dollars per stage, restricted to Data Commons.</p>
+<p>Seconds and dollars per stage, restricted to Data Commons, as of 2026-10-09 (before the open-data and named-source changes).</p>
 <div class="tablewrap"><table>
 <thead>
 <tr>
@@ -288,7 +304,25 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <td><code>list_members</code></td>
 <td>resolve entities</td>
 <td>panel of 3</td>
-<td>models must agree</td>
+<td>models must agree, or a majority vote with disputed members disclosed</td>
+</tr>
+<tr>
+<td><code>resolve_publishers</code></td>
+<td>discover (named source)</td>
+<td>default, low effort</td>
+<td>publisher ids</td>
+</tr>
+<tr>
+<td><code>cube_place</code>, <code>cube_cells</code></td>
+<td>resolve (open-data tables)</td>
+<td>default, low / medium effort</td>
+<td>dimension value ids, checked against the table</td>
+</tr>
+<tr>
+<td><code>choose_denotation</code>, <code>choose_fact</code>, per-plugin entity choices (<code>sec_*</code>, <code>nonprofit_legal_name</code>, <code>census_canonical_geography</code>, <code>cdc_choose_place</code>, <code>award_*</code>, <code>usaspending_agency_mention</code>, <code>wikidata_choose_item</code>, <code>generic_locate_value</code>)</td>
+<td>resolve</td>
+<td>default</td>
+<td>candidate ids</td>
 </tr>
 <tr>
 <td><code>datacommons_choose_dimension</code>, <code>datacommons_choose_parts</code></td>
@@ -318,7 +352,7 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </table></div>
 <p>Nothing else is a model: not the ARD request, the plan, the HTTP requests, the arithmetic, the status or the evidence.</p>
 <h3>3.8 Budgets and accounting</h3>
-<p><code>Budget</code> (<code>runtime.py:41</code>): at most 20 model calls, $1.00, 90 s of cumulative model time per run, with reservations settled from reported token usage and the configured prices. A reply that crosses the time limit is kept and the crossing is traced. The answer carries a cost breakdown by stage and model, and ARD's own spend per search is reported separately.</p>
+<p><code>Budget</code> (<code>runtime.py:41</code>): at most 20 model calls, $1.00, 90 s of cumulative model time per run, with reservations settled from reported token usage and the configured prices. A reply that crosses the time limit is kept and the crossing is traced. The answer carries a cost breakdown by stage and model, listing each model call with its task (<code>pipeline/usage.py:35</code>), and ARD's own spend per search is reported separately.</p>
 <h3>3.9 Failure behaviour</h3>
 <p>A failure is an annotation <code>{stage, source, status, reason}</code> shown to the reader. The common ones:</p>
 <div class="tablewrap"><table>
@@ -350,6 +384,10 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <td>understanding goes on with the member that answered, and says so; other tasks fail with "provider request failed", and the next reading is tried</td>
 </tr>
 <tr>
+<td>A source the user named cannot be honoured</td>
+<td><code>unanswered</code>; no other reading answers from elsewhere</td>
+</tr>
+<tr>
 <td>The client disconnects</td>
 <td>the work stops at the next stage</td>
 </tr>
@@ -360,7 +398,7 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </tbody>
 </table></div>
 <h2>4. Latency, cost and quality</h2>
-<p>Measured by the status ledger on 2026-10-09 (<code>neuralweb.dev/status</code>), while other evaluations were running against the same service, so higher than the quiet-service figures in section 3.5.</p>
+<p>Measured by the status ledger on 2026-10-09 (<code>neuralweb.dev/status</code>), while other evaluations were running against the same service, so higher than the quiet-service figures in section 3.5. These figures predate the open-data plugins and named-source handling and have not been re-measured.</p>
 <div class="tablewrap"><table>
 <thead>
 <tr>
@@ -392,13 +430,13 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </tr>
 </tbody>
 </table></div>
-<p>Where the time goes: understanding about 2 s, one ARD search per slot about 2 s, one document choice per slot per source 1 to 4 s, data fetching 0.05 to 1.1 s. Breakdown planning can reach about 7 s. The 7-second panel deadline, the provider throughput preferences and ARD's empty-completion retry were each added after one of these steps was observed taking 30 s or more.</p>
+<p>Where the time went (2026-10-09): understanding about 2 s, one ARD search per slot about 2 s, one document choice per slot per source 1 to 4 s, data fetching 0.05 to 1.1 s. Breakdown planning can reach about 7 s. The 7-second panel deadline, the provider throughput preferences and ARD's empty-completion retry were each added after one of these steps was observed taking 30 s or more.</p>
 <h2>5. Invariants that must hold</h2>
 <p>Each is enforced in code and covered by a test.</p>
 <ol>
 <li><strong>No model call and no meaning resolution in <code>execute</code></strong> (<code>runtime.py:200-201</code>; <code>tests/test_datacommons.py</code>, <code>test_models_are_not_asked_during_execution</code>).</li>
-<li><strong>No composition without a like-for-like judgment</strong> between figures about different entities, and none from an unknown (<code>stages.py:1432</code>; <code>LikeForLikeTest</code>).</li>
-<li><strong>A request restricted to named sources never reaches another source</strong>, in any stage and for every slot kind (<code>_allowed</code>, <code>SourceLimited</code>).</li>
+<li><strong>No composition without a like-for-like judgment</strong> between figures about different entities, and none from an unknown (<code>_like_for_like</code>, <code>stages.py:1517</code>; <code>LikeForLikeTest</code>).</li>
+<li><strong>A request restricted to named sources never reaches another source</strong>, in any stage and for every slot kind (<code>_allowed</code>, <code>SourceLimited</code>; <code>SourcesTest</code>). A source named in the question that cannot be honoured stops the other readings (<code>RefusedSourceDoesNotBacktrackTest</code>).</li>
 <li><strong>A requested year is the year returned</strong>, or the source is refused for that question (<code>_run_population</code>; <code>ExplicitYearTest</code>).</li>
 <li><strong>A claim cites only what the answer carries</strong> (<code>_evidence</code>; <code>EvidenceTest</code>).</li>
 <li><strong><code>complete</code> means the combine step produced the result its query type promises</strong> (<code>COMBINATION_RESULT</code>; <code>CompletionTest</code>). A bookkeeping annotation is never a result.</li>
@@ -415,7 +453,7 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <li>Population and ranking claims cite no receipts (a population result is not a receipt).</li>
 <li>Units on thresholds ("20%" against a fraction).</li>
 <li>The CLI, local server and frozen evaluator use <code>Deployment.ask()</code>, the hosted page uses <code>ask_pipeline()</code>; the two engines should become one.</li>
-<li><code>/health</code> counters are per instance and reset on restart; <code>/healthz</code> is answered by Cloud Run's front end, so use <code>/health</code>.</li>
+<li><code>/health</code> counters are per instance and reset on restart. The server also maps <code>/healthz</code>, but Cloud Run's front end may answer that path itself, so use <code>/health</code>.</li>
 </ul>
 <h2>7. File map</h2>
 <div class="tablewrap"><table>
@@ -428,27 +466,27 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <tbody>
 <tr>
 <td>Hosting, streaming, concurrency, health</td>
-<td><code>neuralkg2/space.py</code>, <code>neuralkg2/health.py</code>, <code>neuralkg2/deployment.py</code>, <code>neuralkg2/mcp.py</code></td>
+<td><code>neuralkg2/space.py</code>, <code>neuralkg2/health.py</code>, <code>neuralkg2/deployment.py</code>, <code>neuralkg2/mcp.py</code>, <code>neuralkg2/usage_report.py</code>, <code>neuralkg2/results.py</code>, <code>neuralkg2/trace_archive.py</code></td>
 </tr>
 <tr>
 <td>Understanding and the panel</td>
-<td><code>neuralkg2/understanding.py</code>, <code>neuralkg2/query_types.py</code></td>
+<td><code>neuralkg2/understanding.py</code>, <code>neuralkg2/query_types.py</code>, <code>neuralkg2/knowledge.py</code> (model-listed members)</td>
 </tr>
 <tr>
 <td>The pipeline</td>
-<td><code>neuralkg2/pipeline/run.py</code>, <code>stages.py</code>, <code>query.py</code>, <code>usage.py</code></td>
+<td><code>neuralkg2/pipeline/run.py</code>, <code>stages.py</code>, <code>query.py</code>, <code>usage.py</code>, <code>generic.py</code> (sources with no plugin), <code>wikidata.py</code></td>
 </tr>
 <tr>
 <td>Plugins</td>
-<td><code>neuralkg2/plugins/</code> (<code>base.py</code>, <code>datacommons.py</code>, <code>worldbank.py</code>, <code>census.py</code>, <code>sec.py</code>, ...)</td>
+<td><code>neuralkg2/plugins/</code> (<code>base.py</code>, <code>datacommons.py</code>, <code>worldbank.py</code>, <code>census.py</code>, <code>census_business.py</code>, <code>sec.py</code>, ...); open-data core <code>cubes.py</code> with <code>pxweb.py</code>, <code>eurostat.py</code>, <code>oecd.py</code>, <code>census_trade.py</code>, <code>singstat.py</code>, <code>open_data.py</code></td>
 </tr>
 <tr>
-<td>Catalog (the ARD client)</td>
-<td><code>neuralkg2/catalog.py</code></td>
+<td>Catalog (the ARD client), named sources, facts</td>
+<td><code>neuralkg2/catalog.py</code>, <code>neuralkg2/publishers.py</code>, <code>neuralkg2/facts.py</code></td>
 </tr>
 <tr>
-<td>Models, budget, phases</td>
-<td><code>neuralkg2/runtime.py</code>, <code>neuralkg2/models.py</code></td>
+<td>Models, budget, phases, HTTP</td>
+<td><code>neuralkg2/runtime.py</code>, <code>neuralkg2/models.py</code>, <code>neuralkg2/transport.py</code></td>
 </tr>
 <tr>
 <td>Composition rules</td>
@@ -456,7 +494,7 @@ em { color:var(--muted); } li { margin:.25em 0; }
 </tr>
 <tr>
 <td>Charts</td>
-<td><code>neuralkg2/charts.py</code>, <code>neuralkg2/visualization.py</code></td>
+<td><code>neuralkg2/charts.py</code>, <code>neuralkg2/visualization.py</code>, <code>neuralkg2/plugins/dc_charts.py</code></td>
 </tr>
 <tr>
 <td>Deployment configuration</td>
@@ -485,7 +523,12 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <tr>
 <td><code>NEURALKG_PANEL_DEADLINE_SECONDS</code></td>
 <td>7</td>
-<td>how long a slow understanding model is waited for</td>
+<td>how long a slow understanding or member-listing model is waited for</td>
+</tr>
+<tr>
+<td><code>NEURALKG_CONFIG</code></td>
+<td><code>ard-hf.json</code></td>
+<td>deployment configuration (live: <code>ard-gcp.json</code>)</td>
 </tr>
 <tr>
 <td><code>NEURALKG_TRACES</code></td>
@@ -493,9 +536,29 @@ em { color:var(--muted); } li { margin:.25em 0; }
 <td>where traces are written</td>
 </tr>
 <tr>
+<td><code>NEURALKG_TRACE_BUCKET</code></td>
+<td>none</td>
+<td>Cloud Storage bucket traces are copied to</td>
+</tr>
+<tr>
 <td><code>OPENROUTER_API_KEY</code></td>
 <td>none</td>
 <td>model calls</td>
+</tr>
+<tr>
+<td><code>CENSUS_API_KEY</code>, <code>DC_API_KEY</code></td>
+<td>none</td>
+<td>Census and Data Commons API keys</td>
+</tr>
+<tr>
+<td><code>SEC_USER_AGENT</code> (or <code>NEURALKG_SEC_USER_AGENT</code>)</td>
+<td>empty</td>
+<td>User-Agent SEC EDGAR requires</td>
+</tr>
+<tr>
+<td><code>PORT</code></td>
+<td>7860</td>
+<td>listening port</td>
 </tr>
 </tbody>
 </table></div>
