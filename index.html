@@ -133,22 +133,52 @@
   }
   footer a { color: var(--muted); }
 
-  /* ---- Narrow screens: sidebar becomes a top block ---- */
+  .menu-toggle { display: none; }
+
+  /* ---- Narrow screens: sidebar becomes a top bar with a menu button ---- */
   @media (max-width: 860px) {
     .layout { grid-template-columns: 1fr; }
     nav.families {
-      position: static;
+      position: sticky;
+      top: 0;
+      z-index: 10;
       height: auto;
+      max-height: 100vh;
       border-right: 0;
       border-bottom: 1px solid var(--rule);
-      padding: 24px 16px;
+      padding: 10px 16px;
     }
+    .nav-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand { margin-bottom: 0; }
+    .menu-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      margin-right: -10px;
+      border: 0;
+      border-radius: 50%;
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+    }
+    .menu-toggle:hover, .menu-toggle:focus-visible { background: var(--accent-soft); outline: none; }
+    .menu-toggle .icon-close { display: none; }
+    nav.families.open .menu-toggle .icon-open { display: none; }
+    nav.families.open .menu-toggle .icon-close { display: block; }
+    .js nav.families:not(.open) .nav-body { display: none; }
+    .nav-body { padding: 16px 0 12px; }
     .family-list {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 4px 20px;
     }
-    .nav-foot { display: none; }
+    .nav-foot { margin-top: 8px; }
     main { padding: 40px 16px 64px; }
   }
   @media (max-width: 560px) {
@@ -157,10 +187,18 @@
 </style>
 </head>
 <body>
+<script>document.documentElement.classList.add("js");</script>
 <div class="layout">
 
   <nav class="families" aria-label="Project families">
-    <a class="brand" href="/">NeuralWeb</a>
+    <div class="nav-head">
+      <a class="brand" href="/">NeuralWeb</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-body" aria-label="Menu">
+        <svg class="icon-open" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>
+        <svg class="icon-close" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M5 5l12 12M17 5L5 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>
+      </button>
+    </div>
+    <div class="nav-body" id="nav-body">
 
     <p class="nav-label">Projects</p>
     <div class="family-list">
@@ -192,6 +230,7 @@
       <a href="/status/">Status</a>
       <a href="https://github.com/NeuralWeb-dev">github.com/NeuralWeb-dev</a>
     </div>
+    </div>
   </nav>
 
   <main>
@@ -209,5 +248,18 @@
   </main>
 
 </div>
+<script>
+  (function () {
+    var nav = document.querySelector("nav.families");
+    var button = nav.querySelector(".menu-toggle");
+    function set(open) {
+      nav.classList.toggle("open", open);
+      button.setAttribute("aria-expanded", String(open));
+      button.setAttribute("aria-label", open ? "Close menu" : "Menu");
+    }
+    button.addEventListener("click", function () { set(!nav.classList.contains("open")); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") set(false); });
+  })();
+</script>
 </body>
 </html>
