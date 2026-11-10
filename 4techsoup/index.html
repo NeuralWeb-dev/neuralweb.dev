@@ -33,6 +33,20 @@
 
     pre { background: var(--code); border-radius: 10px; padding: 12px 14px; overflow-x: auto; font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .note { color: var(--muted); font-size: .92rem; }
+    h3 { font-size: 1rem; margin: 20px 0 6px; }
+    ol.steps { padding-left: 1.4em; margin: 0; }
+    ol.steps > li { margin: 0 0 8px; padding-left: 4px; }
+    ol.steps > li::marker { font-weight: 700; color: var(--accent); }
+    ol.steps h3 { margin-top: 24px; }
+    ul { padding-left: 1.2em; }
+    li { margin: 3px 0; }
+    code { font: .88em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: var(--code); padding: 1px 5px; border-radius: 5px; }
+    pre code { background: none; padding: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: .92rem; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: block; overflow-x: auto; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+    tr:last-child td { border-bottom: 0; }
+    th { color: var(--muted); font-weight: 600; background: var(--bg); }
+    td:first-child code { white-space: nowrap; }
   </style>
 </head>
 <body>
@@ -60,16 +74,142 @@
       <div class="samples" id="samples"></div>
     </section>
 
-    <h2>Put this search on your own site</h2>
-    <p class="note">Get a key, list the sites it may be used on, and paste two lines into
-      your page. The key only works on the sites you list.</p>
-    <pre>&lt;input id="site-search" type="search" placeholder="Search"&gt;
+    <h2 id="add">Put this search on your own site</h2>
+    <p>You get a key, tell it which websites may use it, and paste a few lines into your
+      page. It takes about ten minutes and needs no server of your own.</p>
+
+    <ol class="steps">
+      <li>
+        <h3>Get a key</h3>
+        <p>Open the <a href="https://nlembed-3zepccvmbq-uc.a.run.app/console">key page</a> and
+          sign in with a Google account. During the pilot only invited accounts can sign in;
+          if Google says the app is not available to you, ask your NeuralWeb contact to add
+          your address.</p>
+        <p>Under <b>New key</b>, fill in:</p>
+        <ul>
+          <li><b>Name</b>: anything that helps you recognise it, such as <i>Main website</i>.</li>
+          <li><b>Search backend</b>: <i>TechSoup Resource Raiser</i>.</li>
+          <li><b>Allowed sites</b>: the address of every website the search box will be on,
+            one per line (see step 2).</li>
+          <li><b>Collections</b>: <code>resources</code>, <code>podcasts</code>, or leave it
+            empty to allow both.</li>
+        </ul>
+        <p>Click <b>Create key</b>. Your key starts with <code>nlw_</code>. Under it,
+          <b>Embed code</b> shows the code for step 3 with your key already filled in.</p>
+      </li>
+
+      <li>
+        <h3>List the websites the key may be used on</h3>
+        <p>A key sits in your page's source, where anyone can see it. What stops someone
+          else using it is this list: searches only work from pages on the sites you name.
+          Enter only the scheme and host, with no path:</p>
+        <table>
+          <tr><th>You enter</th><th>It works on</th></tr>
+          <tr><td><code>https://www.example.org</code></td><td>every page on www.example.org</td></tr>
+          <tr><td><code>https://example.org</code></td><td>example.org without www. List both if visitors can reach either.</td></tr>
+          <tr><td><code>https://*.example.org</code></td><td>any subdomain, such as blog.example.org (but not example.org itself)</td></tr>
+          <tr><td><code>http://localhost:8000</code></td><td>a copy on your own computer, for testing</td></tr>
+        </table>
+        <p class="note">Sites must use <code>https://</code> (plain <code>http://</code> is
+          accepted only for localhost). You can change the list later under <b>Edit</b>.</p>
+      </li>
+
+      <li>
+        <h3>Paste the code into your page</h3>
+        <p>Put this where you want the search box. Replace <code>YOUR_KEY</code> with your key,
+          or copy the ready-made version from <b>Embed code</b> on the key page.</p>
+        <pre>&lt;input id="site-search" type="search" placeholder="Search TechSoup"&gt;
+&lt;script async src="https://nlembed-3zepccvmbq-uc.a.run.app/widget.js"
+        data-key="YOUR_KEY"
+        data-input="site-search"
+        data-site="resources"
+        data-mode="summarize"&gt;&lt;/script&gt;</pre>
+        <p>Visitors type a question and press Enter; results open over your page. Escape,
+          the Close button or a click outside closes them.</p>
+        <p><b>Already have a search box?</b> Leave out the <code>&lt;input&gt;</code> line and
+          set <code>data-input</code> to the <code>id</code> of your box. If the box is inside
+          a form, the widget takes over the form's submit so the page does not reload.</p>
+        <p><b>Using a site builder?</b></p>
+        <ul>
+          <li><b>WordPress</b>: add a <i>Custom HTML</i> block and paste the code. On
+            WordPress.com this needs a plan that allows custom code.</li>
+          <li><b>Squarespace</b>: add a <i>Code</i> block and paste the code. JavaScript in
+            Code blocks needs a plan that includes it.</li>
+          <li><b>Builders that place custom HTML in a frame</b> (Wix's <i>Embed HTML</i>, for
+            example): results stay inside that frame's box, and the frame's own address must
+            be in your allowed sites. Placing the code directly in the page works better.</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>Test it</h3>
+        <p>Open your page from one of the allowed sites and search. If something is wrong,
+          the reason appears where the results would be:</p>
+        <table>
+          <tr><th>Message</th><th>What to do</th></tr>
+          <tr><td>this key is not allowed on https://…</td><td>Add that exact address under <b>Allowed sites</b>. A page opened as a file from your computer shows <i>null</i>; serve it from <code>localhost</code> instead.</td></tr>
+          <tr><td>this key does not exist or is disabled</td><td>Check the key was copied whole, and that it is not disabled on the key page.</td></tr>
+          <tr><td>this key may not search '…'</td><td>The <code>data-site</code> value is not in the key's <b>Collections</b>.</td></tr>
+          <tr><td>too many searches; slow down</td><td>The key's per-minute limit was reached. Wait a minute.</td></tr>
+          <tr><td>this key's daily quota is used up</td><td>Resets at midnight UTC.</td></tr>
+          <tr><td>the search backend is busy</td><td>TechSoup's search service is at its limit. Try again shortly.</td></tr>
+        </table>
+        <p class="note">If nothing happens at all, open the browser's developer console:
+          a message such as <i>no element matches input</i> means <code>data-input</code> does
+          not match the box's <code>id</code>.</p>
+      </li>
+    </ol>
+
+    <h2>Options</h2>
+    <p class="note">Add any of these to the <code>&lt;script&gt;</code> tag.</p>
+    <table>
+      <tr><th>Attribute</th><th>Values</th><th>Default</th></tr>
+      <tr><td><code>data-site</code></td><td><code>resources</code> or <code>podcasts</code></td><td>resources</td></tr>
+      <tr><td><code>data-mode</code></td><td><code>summarize</code> adds a short answer above the results; <code>list</code> shows results only</td><td>list</td></tr>
+      <tr><td><code>data-display</code></td><td><code>overlay</code> or <code>inline</code> (results inside your page; also set <code>data-target</code>)</td><td>overlay</td></tr>
+      <tr><td><code>data-target</code></td><td>the <code>id</code> of an empty element to hold inline results</td><td>—</td></tr>
+      <tr><td><code>data-max-results</code></td><td>1 to 20</td><td>10</td></tr>
+      <tr><td><code>data-link-target</code></td><td><code>_blank</code> opens results in a new tab</td><td>same tab</td></tr>
+      <tr><td><code>data-theme</code></td><td><code>auto</code> (follows the visitor's setting), <code>light</code>, <code>dark</code></td><td>auto</td></tr>
+      <tr><td><code>data-accent</code></td><td>a colour for links, such as <code>#0b6e4f</code></td><td>blue</td></tr>
+      <tr><td><code>data-conversation</code></td><td><code>false</code> treats every question on its own. Otherwise a question asked in the open overlay is read as a follow-up to the earlier ones.</td><td>on</td></tr>
+    </table>
+
+    <h3>Results inside the page instead of over it</h3>
+    <pre>&lt;input id="site-search" type="search" placeholder="Search TechSoup"&gt;
+&lt;div id="search-results"&gt;&lt;/div&gt;
 &lt;script async src="https://nlembed-3zepccvmbq-uc.a.run.app/widget.js"
         data-key="YOUR_KEY" data-input="site-search"
-        data-site="resources"&gt;&lt;/script&gt;</pre>
-    <p class="note">Use <code>data-site="podcasts"</code> for podcast episodes, and
-      <code>data-display="inline" data-target="#results"</code> to show results in the page
-      instead of over it.</p>
+        data-display="inline" data-target="search-results"&gt;&lt;/script&gt;</pre>
+
+    <h3>Resources and Podcasts tabs, like this page</h3>
+    <p class="note">Load the script without <code>data-</code> attributes and set it up from
+      your own script. Changing <code>widget.site</code> changes what the next search covers.</p>
+    <pre>&lt;button type="button" onclick="setScope('resources')"&gt;Resources&lt;/button&gt;
+&lt;button type="button" onclick="setScope('podcasts')"&gt;Podcasts&lt;/button&gt;
+&lt;input id="site-search" type="search" placeholder="Search TechSoup"&gt;
+
+&lt;script&gt;
+  window.NLWebSearchQueue = [{
+    key: "YOUR_KEY", input: "site-search", site: "resources", mode: "summarize"
+  }];
+  function setScope(scope) {
+    const widget = window.NLWebSearch &amp;&amp; window.NLWebSearch.instances[0];
+    if (widget) widget.site = scope;
+  }
+&lt;/script&gt;
+&lt;script async src="https://nlembed-3zepccvmbq-uc.a.run.app/widget.js"&gt;&lt;/script&gt;</pre>
+
+    <h2>Limits and privacy</h2>
+    <ul class="note">
+      <li>Each key allows 60 searches a minute and 5,000 a day. During the pilot all sites
+        also share TechSoup's own search capacity, so busy moments can be slower.</li>
+      <li>The widget sets no cookies and stores nothing in the visitor's browser.</li>
+      <li>A visitor's question, and their earlier questions in the same open overlay, are
+        sent to NeuralWeb and TechSoup's search service to find results.</li>
+      <li>The search box and results are drawn separately from your page, so your site's
+        styles do not change them and they do not change your site.</li>
+    </ul>
   </main>
 
   <script>
