@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechSoup on NeuralWeb</title>
+  <style>
+    :root { color-scheme: light; --ink: #1d2433; --muted: #52607d; --accent: #3b5ccc; --line: #dfe4ef; --card: #fff; --bg: #f6f7fb; --code: #eef1f7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); background: var(--bg); }
+    main { max-width: 760px; margin: 0 auto; padding: 56px 16px 64px; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.8rem, 4vw, 2.4rem); letter-spacing: -.01em; }
+    h2 { font-size: 1.1rem; margin: 40px 0 8px; }
+    .lede { margin: 0 0 28px; color: var(--muted); max-width: 640px; }
+    .topnav { text-align: right; font-size: .85rem; margin: 0 0 12px; display: flex; gap: 14px; justify-content: flex-end; flex-wrap: wrap; }
+    .topnav a, a { color: var(--accent); }
+
+    .search { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+    .tabs { display: flex; gap: 6px; margin-bottom: 12px; }
+    .tab { font: inherit; font-size: .92rem; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--muted); cursor: pointer; }
+    .tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+    form { display: flex; gap: 8px; }
+    input[type=search] { flex: 1; min-width: 0; font: inherit; padding: 11px 14px; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); }
+    button.go { font: inherit; padding: 10px 18px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .scope-about { margin: 10px 2px 0; font-size: .9rem; color: var(--muted); }
+
+    .samples { margin-top: 14px; display: flex; flex-direction: column; gap: 6px; }
+    .samples p { margin: 0 0 2px; font-size: .85rem; color: var(--muted); }
+    .sample { text-align: left; font: inherit; font-size: .92rem; font-style: italic; color: var(--ink); background: none; border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; cursor: pointer; }
+    .sample:hover { border-color: var(--accent); }
+
+    pre { background: var(--code); border-radius: 10px; padding: 12px 14px; overflow-x: auto; font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .note { color: var(--muted); font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="topnav">
+      <a href="https://tsnlweb.eastus.cloudapp.azure.com/">Full TechSoup Resource Raiser</a>
+      <a href="https://nlembed-3zepccvmbq-uc.a.run.app/console">Get a search key</a>
+    </p>
+
+    <h1>TechSoup on NeuralWeb</h1>
+    <p class="lede">Describe your nonprofit's situation in your own words and get the
+      TechSoup offers, guides and podcast episodes that fit it. Results open over this
+      page, the same way they would on any site that adds this search box.</p>
+
+    <section class="search" aria-label="Search TechSoup">
+      <div class="tabs" role="tablist">
+        <button type="button" class="tab" role="tab" data-scope="resources" aria-selected="true">Resources</button>
+        <button type="button" class="tab" role="tab" data-scope="podcasts" aria-selected="false">Podcasts</button>
+      </div>
+      <form>
+        <input id="ts-search" type="search" autocomplete="off" aria-label="Search">
+        <button class="go" type="submit">Search</button>
+      </form>
+      <p class="scope-about" id="scope-about"></p>
+      <div class="samples" id="samples"></div>
+    </section>
+
+    <h2>Put this search on your own site</h2>
+    <p class="note">Get a key, list the sites it may be used on, and paste two lines into
+      your page. The key only works on the sites you list.</p>
+    <pre>&lt;input id="site-search" type="search" placeholder="Search"&gt;
+&lt;script async src="https://nlembed-3zepccvmbq-uc.a.run.app/widget.js"
+        data-key="YOUR_KEY" data-input="site-search"
+        data-site="resources"&gt;&lt;/script&gt;</pre>
+    <p class="note">Use <code>data-site="podcasts"</code> for podcast episodes, and
+      <code>data-display="inline" data-target="#results"</code> to show results in the page
+      instead of over it.</p>
+  </main>
+
+  <script>
+    const SCOPES = {
+      resources: {
+        placeholder: "Ask about nonprofit technology and resources…",
+        about: "TechSoup offers and guides, and articles from NTEN, SSIR and others.",
+        samples: [
+          "Our website was built by a volunteer in 2016 and he's unreachable. I need something I can update myself without learning to code.",
+          "Someone on staff clicked a link in a fake invoice email. The board wants to know what protection we have on our nine laptops. There is no IT person here.",
+          "We coordinate about 120 volunteers across two big events a year, entirely by phone and paper sign-up sheets. There must be a better way."
+        ]
+      },
+      podcasts: {
+        placeholder: "Ask about nonprofit podcast episodes…",
+        about: "Episodes from about twenty nonprofit podcasts, including TechSoup's own.",
+        samples: [
+          "I just became executive director of a small arts nonprofit. Is there an episode where someone talks honestly about their first year in the job?",
+          "Half our board never shows up and the other half wants to approve every decision. Has anyone worked through how to fix a board like that?",
+          "I have been asked to build a monthly giving program from nothing and I do not know where to start."
+        ]
+      }
+    };
+
+    const input = document.getElementById("ts-search");
+    let widget = null;
+    let current = "resources";
+
+    function selectScope(scope) {
+      for (const tab of document.querySelectorAll(".tab")) {
+        tab.setAttribute("aria-selected", String(tab.dataset.scope === scope));
+      }
+      input.placeholder = SCOPES[scope].placeholder;
+      document.getElementById("scope-about").textContent = SCOPES[scope].about;
+      const box = document.getElementById("samples");
+      box.replaceChildren();
+      const label = document.createElement("p");
+      label.textContent = "Try one:";
+      box.append(label);
+      for (const text of SCOPES[scope].samples) {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "sample";
+        b.textContent = `“${text}”`;
+        b.addEventListener("click", () => {
+          input.value = text;
+          if (widget) widget.search(text);
+        });
+        box.append(b);
+      }
+      if (widget) widget.site = scope;
+      current = scope;
+    }
+    for (const tab of document.querySelectorAll(".tab")) {
+      tab.addEventListener("click", () => selectScope(tab.dataset.scope));
+    }
+    selectScope(current);
+
+    // The widget attaches whatever is queued here once its script has loaded.
+    window.NLWebSearchQueue = [{
+      key: "nlw_yD-iQ13km_f1NJIww2Vz2HuI-r9ZFJ7Y",
+      input: "ts-search",
+      site: current,
+      mode: "summarize",
+      maxResults: 10,
+      linkTarget: "_blank",
+      accent: "#3b5ccc"
+    }];
+    window.addEventListener("load", () => {
+      widget = window.NLWebSearch && window.NLWebSearch.instances[0];
+      if (widget) widget.site = current;
+    });
+  </script>
+  <script async src="https://nlembed-3zepccvmbq-uc.a.run.app/widget.js"></script>
+</body>
+</html>
