@@ -27,6 +27,15 @@
   
     .topnav { text-align: right; font-size: .85rem; margin: 0 0 12px; display: flex; gap: 14px; justify-content: flex-end; flex-wrap: wrap; }
     .topnav a { color: var(--accent, #3b5ccc); }
+    h2 { margin: 40px 0 12px; font-size: 1.25rem; }
+    .samples { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 8px 20px; }
+    .row { display: flex; gap: 16px; padding: 10px 0; border-top: 1px solid var(--line); }
+    .row:first-child { border-top: 0; }
+    .section { flex: 0 0 110px; font-weight: 600; }
+    .queries { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+    .queries a { color: var(--accent); text-decoration: none; }
+    .queries a:hover, .queries a:focus-visible { text-decoration: underline; }
+    @media (max-width: 560px) { .row { flex-direction: column; gap: 4px; } .section { flex: none; } }
   </style>
 </head>
 <body>
@@ -34,8 +43,18 @@
     <p class="topnav"><a href="/design/qdrss/">How it works: Query-defined feeds</a> <a href="/design/nlweb/">NLWeb samples</a></p>
 
     <h1>The New York Times on NeuralWeb</h1>
-    <p class="lede">Natural-language search over three New York Times sources.</p>
+    <p class="lede">Natural-language search over the New York Times: every section of the paper, and its podcasts as RSS feeds.</p>
     <nav class="grid" aria-label="New York Times sources">
+      <div class="item">
+        <a class="card" href="https://rss.neuralweb.dev/nyt/search">
+          <span class="emoji" aria-hidden="true">📰</span>
+          <span class="name">NYT search</span>
+          <span class="source">QDFeeds · every section, Cooking and Wirecutter</span>
+          <span class="about">Search the Times by section, as on nytimes.com: U.S., World, Business, Arts, Travel, Opinion, The Athletic and more, with news articles back to 2016.</span>
+          <span class="example">“What was Bessent's role in Jensen Huang's case?”</span>
+        </a>
+        <a class="code" href="https://github.com/NeuralWeb-dev/qdfeeds">Code: NeuralWeb-dev/qdfeeds</a>
+      </div>
       <div class="item">
         <a class="card" href="https://rss.neuralweb.dev/nyt">
           <span class="emoji" aria-hidden="true">🎙️</span>
@@ -46,27 +65,23 @@
         </a>
         <a class="code" href="https://github.com/NeuralWeb-dev/qdfeeds">Code: NeuralWeb-dev/qdfeeds</a>
       </div>
-      <div class="item">
-        <a class="card" href="/samples/reviews/">
-          <span class="emoji" aria-hidden="true">🛒</span>
-          <span class="name">Wirecutter</span>
-          <span class="source">Product reviews · 4,000 articles</span>
-          <span class="about">Ask what to buy and get Wirecutter's tested picks, with prices.</span>
-          <span class="example">“A robot vacuum for two cats and a long-haired dog, plus a budget pick”</span>
-        </a>
-        <a class="code" href="https://github.com/rvguha/nlweb-samples">Code: rvguha/nlweb-samples</a>
-      </div>
-      <div class="item">
-        <a class="card" href="/samples/recipes/">
-          <span class="emoji" aria-hidden="true">🍲</span>
-          <span class="name">Recipes</span>
-          <span class="source">NYT Cooking · 24,287 recipes</span>
-          <span class="about">Ask for a recipe the way you'd ask a friend: time, diet, ingredients on hand.</span>
-          <span class="example">“A showstopper Thanksgiving main that works for vegan and gluten-free guests”</span>
-        </a>
-        <a class="code" href="https://github.com/rvguha/nlweb-samples">Code: rvguha/nlweb-samples</a>
-      </div>
     </nav>
+
+    <h2>Try a search, by section</h2>
+    <div class="samples">
+      <div class="row"><span class="section">All</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=What+was+Bessent%27s+role+in+Jensen+Huang%27s+case%3F">What was Bessent&#x27;s role in Jensen Huang&#x27;s case?</a> <a href="https://rss.neuralweb.dev/nyt/search?q=How+tariffs+are+changing+what+Americans+pay">How tariffs are changing what Americans pay</a> <a href="https://rss.neuralweb.dev/nyt/search?q=The+race+to+build+A.I.+data+centers">The race to build A.I. data centers</a></span></div>
+      <div class="row"><span class="section">U.S.</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=Redistricting+fights+before+the+midterms&amp;tab=us">Redistricting fights before the midterms</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Measles+outbreaks+and+vaccine+exemptions&amp;tab=us">Measles outbreaks and vaccine exemptions</a></span></div>
+      <div class="row"><span class="section">World</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=Ceasefire+talks+in+Ukraine&amp;tab=world">Ceasefire talks in Ukraine</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Elections+in+Latin+America&amp;tab=world">Elections in Latin America</a></span></div>
+      <div class="row"><span class="section">Business</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=Mortgage+rates+and+home+buyers&amp;tab=business">Mortgage rates and home buyers</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Antitrust+cases+against+big+tech&amp;tab=business">Antitrust cases against big tech</a></span></div>
+      <div class="row"><span class="section">Arts</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=Broadway+revivals+this+season&amp;tab=arts">Broadway revivals this season</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Novels+about+climate+change&amp;tab=arts">Novels about climate change</a></span></div>
+      <div class="row"><span class="section">Lifestyle</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=Sleep+and+exercise+for+people+over+50&amp;tab=lifestyle">Sleep and exercise for people over 50</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Small+apartments+in+New+York&amp;tab=lifestyle">Small apartments in New York</a></span></div>
+      <div class="row"><span class="section">Travel</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=A+weekend+in+Lisbon&amp;tab=travel">A weekend in Lisbon</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Traveling+with+kids+in+national+parks&amp;tab=travel">Traveling with kids in national parks</a></span></div>
+      <div class="row"><span class="section">Opinion</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=The+case+for+and+against+a+wealth+tax&amp;tab=opinion">The case for and against a wealth tax</a> <a href="https://rss.neuralweb.dev/nyt/search?q=What+liberals+get+wrong+about+immigration&amp;tab=opinion">What liberals get wrong about immigration</a></span></div>
+      <div class="row"><span class="section">Podcasts</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=The+Supreme+Court+and+presidential+power&amp;tab=audio">The Supreme Court and presidential power</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Taylor+Swift&amp;tab=audio">Taylor Swift</a></span></div>
+      <div class="row"><span class="section">Cooking</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=Quick+weeknight+pasta&amp;tab=cooking">Quick weeknight pasta</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Vegetarian+Thanksgiving+mains&amp;tab=cooking">Vegetarian Thanksgiving mains</a></span></div>
+      <div class="row"><span class="section">Wirecutter</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=A+quiet+dishwasher&amp;tab=wirecutter">A quiet dishwasher</a> <a href="https://rss.neuralweb.dev/nyt/search?q=Running+shoes+for+flat+feet&amp;tab=wirecutter">Running shoes for flat feet</a></span></div>
+      <div class="row"><span class="section">The Athletic</span><span class="queries"><a href="https://rss.neuralweb.dev/nyt/search?q=Quarterback+injuries+this+season&amp;tab=athletic">Quarterback injuries this season</a> <a href="https://rss.neuralweb.dev/nyt/search?q=The+Premier+League+title+race&amp;tab=athletic">The Premier League title race</a></span></div>
+    </div>
   </main>
 </body>
 </html>
